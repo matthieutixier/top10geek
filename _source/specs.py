@@ -1,0 +1,123 @@
+# -*- coding: utf-8 -*-
+"""Données complémentaires v4 : noms lisibles, poids, autonomie, points faibles,
+regroupement des variantes et nouveaux modèles (relevés septembre 2026).
+Autonomie : chiffre constructeur (« annoncée ») sauf mention « test ». n.c. = non communiqué."""
+
+# id : (nom lisible, poids, autonomie, [points faibles])
+SPEC = {
+    # ---------- Bureautique ----------
+    "zenbook-a14-ux3407qa": ("Asus Zenbook A14", "0,98 kg", "32 h (vidéo)", ["Snapdragon X d'entrée : performances modestes", "Quelques logiciels Windows pas encore natifs ARM"]),
+    "surface-pro-12-copilot": ("Microsoft Surface Pro 12\"", "0,69 kg (tablette)", "16 h", ["Clavier Type Cover vendu séparément", "Connectique limitée (USB-C seulement)"]),
+    "omnibook3-14": ("HP OmniBook 3 14 Snapdragon", "≈ 1,4 kg", "jusqu'à 41 h (vidéo)", ["8 Go de RAM, un peu juste", "Pas encore de test presse"]),
+    "ideapad-slim3-15q8x10": ("Lenovo IdeaPad Slim 3 15 Snapdragon", "1,6 kg", "n.c.", ["Écran jugé moyen par le Labo Fnac", "Performances limitées hors bureautique"]),
+    "vivobook15-oled-m1505ya": ("Asus Vivobook 15 OLED", "1,7 kg", "8 h", ["Autonomie dans la moyenne", "Connectique limitée"]),
+    "galaxy-book4-edge-156": ("Samsung Galaxy Book4 Edge 15", "n.c.", "27 h", ["Clavier non rétroéclairé", "RAM et SSD non évolutifs", "Compatibilité logicielle ARM à vérifier"]),
+    "ideapad-slim3-14amn8": ("Lenovo IdeaPad Slim 3 14", "1,37 kg", "≈ 11 h", ["Finition plastique", "Pas encore de test presse"]),
+    "hp-14-ep0052nf": ("HP 14 (Core i7)", "1,4 kg", "6 à 9 h", ["Finition plastique entrée de gamme", "Pas encore de test presse"]),
+    "aspire-go-14": ("Acer Aspire Go 14", "1,4 kg", "7 h", ["Aucun point fort marquant", "Pas encore de test presse"]),
+    "aspire-go15-ag15-42p-r99j-neuf": ("Acer Aspire Go 15", "1,78 kg", "12,5 h", ["Plus lourd que la moyenne (1,78 kg)", "Châssis et écran d'entrée de gamme"]),
+    # ---------- Création ----------
+    "macbook-pro14-m5": ("Apple MacBook Pro 14\" M5", "1,55 kg", "jusqu'à 24 h", ["Options RAM/SSD très chères", "Stockage de base (512 Go) vite juste", "Ventilateur audible à pleine charge"]),
+    "aero-x16-1wh93": ("Gigabyte Aero X16", "1,9 kg", "n.c.", ["Qualité d'écran jugée moyenne par une partie de la presse", "Haut-parleurs faibles"]),
+    "stealth16-a2hwfg": ("MSI Stealth 16 AI", "2,1 kg", "n.c.", ["Chauffe davantage en charge soutenue (châssis fin)", "Pas encore de test presse de cette génération"]),
+    "proart-p16-h7606wm": ("Asus ProArt P16", "1,82 kg", "n.c.", ["Bruyant en charge", "RAM soudée", "Luminosité HDR limitée"]),
+    "yoga-pro7-15iph11": ("Lenovo Yoga Pro 7 15", "1,6 à 1,7 kg", "n.c.", ["GPU RTX 5050 limité pour les rendus lourds", "Prix élevé pour la configuration"]),
+    "legion-slim5-16irh8": ("Lenovo Legion Slim 5 16 (reconditionné)", "< 2,4 kg", "n.c.", ["Génération 2023 (RTX 4060)", "RAM et stockage justes pour les gros projets", "Autonomie faible"]),
+    # ---------- Gaming ----------
+    "omen-max-16-ak0002nf": ("HP Omen Max 16", "2,68 kg", "n.c.", ["Chauffe sous forte charge", "Autonomie non communiquée par HP"]),
+    "predator-helios-neo16": ("Acer Predator Helios Neo 16 AI", "2,7 kg", "1 à 2 h en jeu (test)", ["Autonomie courte", "Défauts d'écran relevés par LaptopMedia"]),
+    "msi-vector16-a2xwig-5080": ("MSI Vector 16 HX AI", "2,6 kg", "n.c.", ["Bruyant même au repos", "Clavier à la disposition atypique", "Autonomie hors jeu faible"]),
+    "gigabyte-a16-3whk3": ("Gigabyte Gaming A16", "n.c.", "jusqu'à 14 h", ["Finition plus simple que les modèles premium", "RTX bridées en puissance selon la presse"]),
+    "legion5-15ahp11": ("Lenovo Legion 5 15 OLED (Gen 11)", "1,87 kg", "n.c.", ["Ventilateurs bruyants en jeu", "Écran brillant (reflets)"]),
+    "rog-strix-g18": ("Asus ROG Strix G18", "3,2 kg", "n.c.", ["Lourd et encombrant", "Webcam médiocre", "Autonomie hors jeu limitée"]),
+    "nitro-v16-anv16-42": ("Acer Nitro V 16 AI", "2,44 kg", "6 h", ["Écran et finition d'entrée de gamme"]),
+    "msi-crosshair16-d2xwgkg": ("MSI Crosshair 16 HX AI", "2,5 kg", "n.c.", ["Compromis relevés par la presse (autonomie, finition)"]),
+    "loq-15irx10": ("Lenovo LOQ 15", "2,4 kg", "n.c.", ["Autonomie hors jeu faible", "Châssis plastique"]),
+    # ---------- Polyvalent ----------
+    "lg-gram-14z90r": ("LG Gram 14 (2023)", "0,999 kg", "≈ 1,5 jour", ["Génération 2023 (Core i7-1360P)", "Prix élevé pour l'âge du modèle"]),
+    "surface-laptop7-13": ("Microsoft Surface Laptop 7 13,8\"", "1,34 kg", "20 h", ["Prix élevé", "Certaines applis pas encore natives ARM", "Peu adapté au jeu"]),
+    "yoga-slim7-ultra-14iph11": ("Lenovo Yoga Slim 7 Ultra 14", "≈ 1,2 kg", "n.c.", ["Prix élevé", "Écran brillant (reflets)"]),
+    "ideapad-slim5-14q8x9": ("Lenovo IdeaPad Slim 5 14 Snapdragon", "n.c.", "jusqu'à 25 h", ["Compatibilité logicielle ARM à vérifier"]),
+    "yoga7i-2in1-16iru9": ("Lenovo Yoga 7i 2-en-1 16", "n.c.", "n.c.", ["Génération 2024 (Core Ultra 155U)", "Pas encore de test presse de ce modèle"]),
+    "yoga-slim7-14akp10": ("Lenovo Yoga Slim 7 14 (Ryzen AI)", "≈ 1,19 kg", "n.c.", ["Craquements du châssis relevés par Notebookcheck"]),
+    "dell16-dc16250": ("Dell 16", "1,98 kg", "7 h", ["Lourd pour un 16\" bureautique", "Pas encore de test presse"]),
+    "omnibook3-16-bu0037nfx": ("HP OmniBook 3 16", "1,64 kg", "8 h", ["Design sans relief", "Pas encore de test presse noté"]),
+    "vivobook16-m1605naq": ("Asus Vivobook 16 OLED", "1,88 kg", "7 h", ["Qualité d'écran critiquée sur certaines versions"]),
+    "ideapad-slim3-16irh10": ("Lenovo IdeaPad Slim 3 16", "1,68 kg", "n.c.", ["Pas de GPU dédié", "Pas encore de test presse"]),
+    # ---------- Low-cost ----------
+    "aspire-lite15-al15-44p": ("Acer Aspire Lite 15 (Ryzen 5)", "1,49 kg", "7 h", ["Pas encore d'avis ni de test presse"]),
+    "ideapad1-15alc7-promo": ("Lenovo IdeaPad 1 15", "n.c.", "≈ 9,5 h", ["Pas encore de test presse"]),
+    "aspire-go15-recond": ("Acer Aspire Go 15", "1,78 kg", "12,5 h", ["Plus lourd que la moyenne", "Châssis et écran d'entrée de gamme"]),
+    "ideapad-slim3-15ian8": ("Lenovo IdeaPad Slim 3 15 (Core i3)", "n.c.", "n.c.", ["Stockage de 128 Go vite plein", "Pas encore de test presse"]),
+    "hp-14-ep0055nf": ("HP 14 (Core i3)", "≈ 1,4 kg", "8 h", ["Pas encore d'avis ni de test presse"]),
+    "aspire-lite15-al15-46p": ("Acer Aspire Lite 15 (Ryzen 3)", "n.c.", "n.c.", ["Processeur Ryzen 3 d'ancienne génération", "Pas encore de test presse"]),
+    "omnibook3-16-bu0063nfx": ("HP OmniBook 3 16 (Core 3)", "1,64 kg", "8 h", ["Stockage de 128 Go vite plein", "Pas encore d'avis ni de test presse"]),
+    "hp-15s-fq0091nf": ("HP 15s (Celeron)", "1,65 kg", "6 h", ["Écran HD et Celeron limités (Labo Fnac)", "Réservé aux usages très légers"]),
+    "medion-avantum14": ("Medion Avantum 14", "≈ 1,1 kg", "6 h", ["Stockage eMMC de 128 Go lent et vite plein", "Réservé aux usages très basiques"]),
+}
+
+# Variantes regroupées dans une seule fiche : id principal -> autres ids
+GROUPS = {
+    "aero-x16-1wh93": ["aero-x16-2wha3", "aero-x16-1vh93", "aero-x16-3vhl3"],
+    "stealth16-a2hwfg": ["stealth16-a2hwgg"],
+    "gigabyte-a16-3whk3": ["gigabyte-a16-3thk3"],
+    "aspire-go15-recond": ["aspire-go15-ryzen3"],
+}
+# libellé court de chaque configuration
+CONFIG_LABEL = {
+    "aero-x16-1wh93": "RTX 5070, 32 Go", "aero-x16-2wha3": "RTX 5070, certifié TÜV", "aero-x16-1vh93": "RTX 5060, 32 Go", "aero-x16-3vhl3": "RTX 5060, 16 Go",
+    "stealth16-a2hwfg": "RTX 5060, 100 % DCI-P3", "stealth16-a2hwgg": "RTX 5070, OLED 240 Hz",
+    "gigabyte-a16-3whk3": "RTX 5070, 32 Go", "gigabyte-a16-3thk3": "RTX 5050",
+    "aspire-go15-recond": "Ryzen 5, reconditionné", "aspire-go15-ryzen3": "Ryzen 3, neuf",
+}
+
+# Nouveaux modèles (remplacent les doublons)
+NEW = {
+    "zephyrus-g16-2025": dict(cat="creation", name="Asus ROG Zephyrus G16 (2025, OLED 240 Hz)", short="Asus ROG Zephyrus G16",
+        badge="Le plus puissant", alt=True, idx=None, price_num=3399, rating=-1, weight="≈ 1,9 kg", auton="≈ 5 h 30 (test, travail)",
+        verdict="Très puissant dans un châssis fin et élégant, avec un superbe écran OLED 240 Hz : le haut de gamme pour la vidéo et la 3D.",
+        strengths=["Écran OLED 2,5K 240 Hz", "Châssis aluminium fin et léger pour sa puissance", "Jusqu'à la RTX 5090"],
+        weaknesses=["Prix très élevé", "Chauffe et bruit en charge"],
+        press=dict(scope="gamme", src=("Synthèse Notebookcheck (Zephyrus G16 2025)", "https://www.notebookcheck.com/Asus-ROG-Zephyrus-G16-2025-Serie.1070849.0.html"),
+            notes=[("Notebookcheck (RTX 5070 Ti)", 8.99), ("Notebookcheck (RTX 5090)", 9.0), ("Chip.de", 9.4), ("Android Headlines", 10), ("Profesional Review", 9.3),
+                   ("Game IT", 10), ("Geeknetic", 9.8), ("Ultrabook Review", 9.0), ("Ultrabook Review (RTX 5080)", 8.5), ("TechSpot", 7.5),
+                   ("Trusted Reviews", 7.0), ("PCMag", 7.0), ("Windows Central", 8.0), ("PCWorld", 9.0), ("Computerhoy", 9.2), ("MuyComputer", 9.0)])),
+    "xps14-2026": dict(cat="creation", name="Dell XPS 14 (2026, OLED tandem)", short="Dell XPS 14 (2026)",
+        badge="L'OLED nomade", alt=True, idx=None, price_num=1849, rating=-1, weight="1,36 kg", auton="12 à 17 h (test Clubic)",
+        verdict="Superbe écran OLED tandem et autonomie record dans 1,36 kg : idéal pour retoucher en déplacement, moins pour la vidéo lourde.",
+        strengths=["Écran OLED tandem très fidèle", "Autonomie exceptionnelle", "Finition premium et silence"],
+        weaknesses=["Pas de GPU dédié", "Clavier plat qui divise", "Uniquement des ports USB-C"],
+        press=dict(scope="modele", src=("Synthèse Notebookcheck", "https://www.notebookcheck.biz/Dell-XPS-2026-serie.1241018.0.html"),
+            notes=[(s, v / 10) for s, v in [("01net", 80), ("XDA Developers", 85), ("Presse-Citron", 90), ("Clubic", 80), ("Frandroid", 80), ("Les Numériques", 100),
+                   ("CNET", 81), ("Digital Trends", 90), ("Expert Reviews", 80), ("Times of India", 80), ("MakeUseOf", 75), ("TechRadar", 80), ("91mobiles", 92),
+                   ("Pocket-lint", 80), ("T3", 100), ("Stuff", 80), ("Techaeris", 94), ("Engadget", 85), ("PCWorld (LCD)", 78), ("PCMag", 80),
+                   ("PCWorld (OLED)", 80), ("Tom's Guide", 90), ("Computerbild", 92), ("Chip.de", 97)]])),
+    "macbook-air15-m5": dict(cat="creation", name="Apple MacBook Air 15\" Puce M5", short="Apple MacBook Air 15\" M5",
+        badge="Le Mac grand écran", alt=True, idx=None, price_num=1499, rating=-1, weight="1,51 kg", auton="18 h",
+        verdict="Grand écran, silence total et autonomie d'une journée : parfait pour la photo et le montage léger, sans ventilateur.",
+        strengths=["Totalement silencieux", "Grand écran 15\" fidèle", "Autonomie de 18 h annoncée"],
+        weaknesses=["Écran limité à 60 Hz", "Pas de GPU dédié pour la vidéo lourde", "RAM et SSD non évolutifs"],
+        press=dict(scope="gamme", src=("Synthèse CommentChoisir (MacBook Air M5)", "https://www.commentchoisir.fr/test-Apple_MacBook+Air+M5.htm"),
+            notes=[("Notebookcheck", 9.2), ("Engadget", 9.2), ("The Verge", 9), ("01net", 8), ("Tom's Hardware", 8), ("Clubic", 8), ("India Today", 8), ("Trusted Reviews", 8)])),
+    "yoga-pro9i-16-g10": dict(cat="creation", name="Lenovo Yoga Pro 9i 16 Aura Edition (Gen 10)", short="Lenovo Yoga Pro 9i 16",
+        badge="L'écran le plus abouti", alt=True, idx=None, price_num=3299, rating=-1, weight="n.c.", auton="n.c.",
+        verdict="Écran de très haut niveau, puissance et finition au rendez-vous : un rival direct du MacBook Pro sous Windows, à prix premium.",
+        strengths=["Écran haut de gamme très lumineux", "GPU NVIDIA dédié", "Connectique complète"],
+        weaknesses=["Prix très élevé (3 299 €)", "Bruyant en mode performance"],
+        press=dict(scope="modele", src=("Test PCWorld", "https://www.pcworld.com/article/2892211/lenovo-yoga-pro-9i-16-gen-10-aura-edition-review.html"),
+            notes=[("PCWorld", 9), ("Windows Central", 9)])),
+    "rog-strix-g16-2025": dict(cat="gaming", name="Asus ROG Strix G16 (2025)", short="Asus ROG Strix G16",
+        badge="Le plus consensuel", alt=True, idx=None, price_num=2299, rating=-1, weight="2,5 kg", auton="≈ 5 h (test)",
+        verdict="Une machine de jeu très complète, saluée par 14 tests : écran 240 Hz, grosses performances, mais châssis plastique et prix élevé.",
+        strengths=["Grosses performances en jeu", "Écran 2,5K 240 Hz lumineux", "Accès facile aux composants"],
+        weaknesses=["Châssis majoritairement plastique", "Bruyant en charge", "Prix élevé"],
+        press=dict(scope="modele", src=("Synthèse CommentChoisir", "https://www.commentchoisir.fr/en/review-Asus_ROG+Strix+G16.htm"),
+            notes=[("Labo Fnac", 10), ("Windows Central", 9), ("Notebookcheck", 8.7), ("Fortress of Solitude", 8.7), ("CowCotLand", 8), ("Geeknetic", 8),
+                   ("Pokde", 8), ("GamesRadar", 8), ("PCWorld", 8), ("GadgetByte", 8), ("Tom's Hardware", 8), ("Clubic", 8), ("IGN", 7), ("RTINGS", 6)])),
+    "vivobook13-slate-oled": dict(cat="lowcost", name="Asus Vivobook 13 Slate OLED (Pentium Silver N6000)", short="Asus Vivobook 13 Slate OLED",
+        badge="Le 2-en-1 à petit prix", alt=True, idx=None, price_num=499, rating=-1, weight="≈ 0,8 kg (tablette)", auton="n.c.",
+        verdict="Une tablette Windows avec clavier et bel écran OLED sous 500 € : idéale pour prendre des notes et regarder des vidéos, pas pour travailler lourd.",
+        strengths=["Écran OLED 13\" superbe", "Format tablette + clavier détachable", "Très léger"],
+        weaknesses=["Processeur Pentium très limité", "8 Go de RAM", "Modèle de 2022"],
+        press=dict(scope="modele", src=("Comparatif Clubic", "https://www.clubic.com/pc-portable/comparatif/etudiants"), notes=[("Clubic", 7)])),
+}

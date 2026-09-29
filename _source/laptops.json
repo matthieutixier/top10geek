@@ -1,0 +1,802 @@
+{
+ "zenbook-a14-ux3407qa": {
+  "name": "ASUS Zenbook A14 UX3407QA-QD219W (Snapdragon X)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Le choix de la bande",
+  "alt": false,
+  "score": "8.4",
+  "price": "1 049,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Le plus léger du lot (0,98 kg) avec une autonomie qui tient plusieurs jours de bureautique, indice de réparabilité excellent",
+  "strengths": [
+   "0,98 kg seulement",
+   "Autonomie multi-jours annoncée",
+   "Indice de réparabilité 9,6/10"
+  ]
+ },
+ "surface-pro-12-copilot": {
+  "name": "Microsoft Surface Pro 12\" Copilot+ PC (Snapdragon X)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Le plus mobile",
+  "alt": true,
+  "score": "8.1",
+  "price": "859,37 €",
+  "rating": "4.2 ★",
+  "verdict": "Autonomie et légèreté imbattables en format tablette, mais le clavier Type Cover est vendu séparément",
+  "strengths": [
+   "Jusqu'à 16h d'autonomie annoncée",
+   "686 g en tablette seule",
+   "Écran tactile 90 Hz ultra net"
+  ]
+ },
+ "omnibook3-14": {
+  "name": "HP OmniBook 3 14 Snapdragon (14-hz0036nfx)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Meilleur rapport qualité/prix",
+  "alt": true,
+  "score": "7.3",
+  "price": "549,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Autonomie ARM en tête du segment, dalle OLED lumineuse, mais RAM 8 Go juste",
+  "strengths": [
+   "Autonomie Snapdragon X très généreuse",
+   "Dalle OLED contrastée",
+   "Prix contenu"
+  ]
+ },
+ "ideapad-slim3-15q8x10": {
+  "name": "Lenovo IdeaPad Slim 3 15Q8X10 (Snapdragon X)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Dans le radar",
+  "alt": true,
+  "score": "7.0",
+  "price": "639,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Bon compromis autonomie / définition d'écran (WUXGA 16:10) pour le quotidien",
+  "strengths": [
+   "Autonomie Snapdragon X généreuse",
+   "Dalle WUXGA 16:10",
+   "16 Go de RAM de série"
+  ]
+ },
+ "vivobook15-oled-m1505ya": {
+  "name": "ASUS Vivobook 15 OLED M1505YA (Ryzen 7 7730U)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Le plus bel écran",
+  "alt": true,
+  "score": "6.7",
+  "price": "799,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Dalle OLED 2.8K 600 nits exceptionnelle pour le prix, mais autonomie dans la moyenne et connectique limitée",
+  "strengths": [
+   "Dalle OLED 2.8K 600 nits",
+   "16 Go RAM de série",
+   "Format 15,6\" soigné"
+  ]
+ },
+ "galaxy-book4-edge-156": {
+  "name": "Samsung Galaxy Book4 Edge 15,6\" (Snapdragon X Plus)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Dans le radar",
+  "alt": true,
+  "score": "6.5",
+  "price": "869,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Bon compromis autonomie ARM et format 15,6 pouces, mais clavier non rétroéclairé et compatibilité logicielle Windows ARM à vérifier",
+  "strengths": [
+   "Autonomie ARM convaincante",
+   "Écran 15,6\" confortable",
+   "Bon rapport prix/taille d'écran"
+  ]
+ },
+ "ideapad-slim3-14amn8": {
+  "name": "Lenovo IdeaPad Slim 3 14AMN8 (Ryzen 5)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Le petit prix",
+  "alt": true,
+  "score": "6.2",
+  "price": "599,99 €",
+  "rating": "4.0 ★",
+  "verdict": "Format fin et léger annoncé nomade (~11h constructeur), finition plastique correcte",
+  "strengths": [
+   "Châssis fin et léger",
+   "Prix d'entrée de gamme",
+   "16 Go de RAM de série"
+  ]
+ },
+ "hp-14-ep0052nf": {
+  "name": "HP 14-ep0052nf (Core i7-1355U)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Dans le radar",
+  "alt": true,
+  "score": "6.0",
+  "price": "699,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Bon compromis polyvalent pour du bureautique classique à moins de 700 €, mais finition plastique jugée entrée de gamme",
+  "strengths": [
+   "Bonne connectique (USB-A + USB-C + HDMI)",
+   "Format 14\" compact",
+   "Labellisé EPEAT Gold"
+  ]
+ },
+ "aspire-go-14": {
+  "name": "Acer Aspire GO 14 (AG14-72P-58AZ)",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Le bon plan Copilot+",
+  "alt": true,
+  "score": "5.8",
+  "price": "599,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Entrée de gamme Copilot+ PC correcte, sans point fort marquant",
+  "strengths": [
+   "Copilot+ PC accessible",
+   "16 Go de RAM de série",
+   "Format 14\" compact"
+  ]
+ },
+ "aspire-go15-ag15-42p-r99j-neuf": {
+  "name": "Acer Aspire Go 15 AG15-42P-R99J",
+  "cat": "bureau",
+  "catLabel": "BUREAUTIQUE",
+  "badge": "Le mieux connecté",
+  "alt": true,
+  "score": "5.7",
+  "price": "699,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Seul de la sélection à garder un port Ethernet RJ-45, au prix d'un format plus lourd (1,78 kg)",
+  "strengths": [
+   "Port Ethernet RJ-45 intégré",
+   "3x USB 3.2 + USB-C",
+   "\"Choix des techniciens\" Fnac"
+  ]
+ },
+ "macbook-pro14-m5": {
+  "name": "Apple MacBook Pro 14\" Puce M5 (24 Go, 512 Go)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Référence colorimétrie",
+  "alt": true,
+  "score": "8.0",
+  "price": "2 049 €",
+  "rating": "4.0 ★",
+  "verdict": "Dalle Liquid Retina XDR (1600 nits) inégalée pour la retouche exigeante, contre 512 Go de stockage et 24 Go de RAM en retrait",
+  "strengths": [
+   "Dalle Liquid Retina XDR, 1600 nits",
+   "Autonomie et silence Apple Silicon",
+   "Finition aluminium unibody"
+  ]
+ },
+ "aero-x16-1wh93": {
+  "name": "Gigabyte AERO X16 1WH93FRC64AH (RTX 5070, 32 Go)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Le choix de la bande",
+  "alt": false,
+  "score": "7.9",
+  "price": "1 899,99 €",
+  "rating": "4.0 ★",
+  "verdict": "Dalle calibrée en usine réputée, GPU RTX 5070 solide, 32 Go pour les gros fichiers",
+  "strengths": [
+   "Dalle calibrée usine (lignée Aero)",
+   "RTX 5070 pour l'export/rendu",
+   "32 Go RAM + 1 To SSD"
+  ]
+ },
+ "stealth16-a2hwfg": {
+  "name": "MSI Stealth 16 AI A2HWFG-070FR (RTX 5060, 100% DCI-P3)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Colorimétrie certifiée",
+  "alt": true,
+  "score": "7.9",
+  "price": "2 399,99 €",
+  "rating": "avis en cours",
+  "verdict": "100% DCI-P3 certifié et dalle OLED HDR True Black 600, une référence colorimétrie à ce niveau de promo",
+  "strengths": [
+   "100% DCI-P3 certifié",
+   "OLED 240 Hz + HDR True Black 600",
+   "Châssis aluminium/magnésium"
+  ]
+ },
+ "proart-p16-h7606wm": {
+  "name": "Asus ProArt P16 H7606WM-DRFSC064X (RTX 5060, 4K tactile)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Le plus précis à l'écran",
+  "alt": true,
+  "score": "7.9",
+  "price": "2 739,99 €",
+  "rating": "avis en cours",
+  "verdict": "Dalle 4K tactile de la gamme ProArt, taillée pour la retouche précise, sans recul clients pour l'instant",
+  "strengths": [
+   "Dalle OLED tactile 4K (3840×2400)",
+   "Gamme ProArt calibrée pour les créateurs",
+   "32 Go RAM + 1 To SSD"
+  ]
+ },
+ "aero-x16-2wha3": {
+  "name": "Gigabyte AERO X16 2WHA3FRC64AP (RTX 5070, certifié TÜV)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Le plus puissant Aero",
+  "alt": true,
+  "score": "7.8",
+  "price": "2 199,99 €",
+  "rating": "avis en cours",
+  "verdict": "RTX 5070 dans un châssis Aero certifié colorimétrie (100% sRGB, Pantone, TÜV Rheinland)",
+  "strengths": [
+   "RTX 5070, la plus puissante des Aero ici",
+   "100% sRGB validé Pantone",
+   "Certifié TÜV Rheinland (confort visuel)"
+  ]
+ },
+ "stealth16-a2hwgg": {
+  "name": "MSI Stealth 16 AI A2HWGG-098FR (RTX 5070, OLED)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Le choix premium",
+  "alt": false,
+  "score": "7.7",
+  "price": "2 199,99 €",
+  "rating": "avis en cours",
+  "verdict": "Dalle OLED 240 Hz superbe pour la retouche, châssis fin qui chauffe un peu plus en charge soutenue",
+  "strengths": [
+   "Dalle OLED lumineuse et contrastée",
+   "Châssis fin et soigné",
+   "32 Go RAM + 1 To SSD"
+  ]
+ },
+ "yoga-pro7-15iph11": {
+  "name": "Lenovo Yoga Pro 7 15IPH11 (RTX 5050, OLED 500 nits)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Le plus lumineux",
+  "alt": true,
+  "score": "7.5",
+  "price": "2 169,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Dalle OLED 500 nits éclatante et 32 Go de RAM, mais un GPU RTX 5050 plus limité pour les rendus lourds",
+  "strengths": [
+   "Dalle OLED 500 nits, 165 Hz",
+   "32 Go RAM LPDDR5X",
+   "Format 15,3\" soigné (gamme Yoga Pro)"
+  ]
+ },
+ "aero-x16-1vh93": {
+  "name": "Gigabyte AERO X16 1VH93FRC64AH (RTX 5060, 32 Go)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Dans le radar",
+  "alt": true,
+  "score": "7.2",
+  "price": "1 778,98 €",
+  "rating": "4.5 ★",
+  "verdict": "RTX 5060 et 32 Go de RAM à prix contenu pour la lignée Aero, saluée pour sa finition et son thermique maîtrisé",
+  "strengths": [
+   "Avis clients : \"ne chauffe pas\"",
+   "32 Go RAM + 1 To SSD",
+   "RTX 5060 pour la retouche/montage"
+  ]
+ },
+ "aero-x16-3vhl3": {
+  "name": "Gigabyte Aero X16 3VHL3FRC94DH (RTX 5060, 16 Go)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Meilleur rapport qualité/prix",
+  "alt": true,
+  "score": "7.2",
+  "price": "1 299,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Entrée de gamme de la lignée Aero, bon compromis prix/colorimétrie, RAM un peu juste",
+  "strengths": [
+   "Dalle calibrée usine (lignée Aero)",
+   "Prix d'accès à la gamme créateur",
+   "SSD 1 To rapide"
+  ]
+ },
+ "legion-slim5-16irh8": {
+  "name": "Lenovo Legion Slim 5 16IRH8 — reconditionné (RTX 4060)",
+  "cat": "creation",
+  "catLabel": "CRÉATION",
+  "badge": "Le petit prix création",
+  "alt": true,
+  "score": "6.1",
+  "price": "1 223,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Le ticket d'entrée le moins cher de la catégorie création (reconditionné), RAM et stockage plus justes pour les gros projets",
+  "strengths": [
+   "Prix le plus accessible (reconditionné)",
+   "Dalle 100% sRGB + G-SYNC",
+   "Garantie légale 24 mois"
+  ]
+ },
+ "msi-vector16-a2xwig-5080": {
+  "name": "MSI Vector 16 HX AI A2XWIG-015FR (RTX 5080)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Le choix premium",
+  "alt": false,
+  "score": "7.7",
+  "price": "2 699,99 €",
+  "rating": "4.5 ★",
+  "verdict": "RTX 5080 quasi flagship sous la barre des 3000 €, dalle QHD+ 240 Hz calibrée 100% DCI-P3 — l'autonomie hors jeu reste le point faible du segment",
+  "strengths": [
+   "RTX 5080 16 Go GDDR7",
+   "Dalle QHD+ 240 Hz, 100% DCI-P3",
+   "32 Go RAM + 1 To SSD extensible"
+  ]
+ },
+ "omen-max-16-ak0002nf": {
+  "name": "HP OMEN Max 16-ak0002nf (Ryzen AI 7, RTX 5070 Ti)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Le plus puissant",
+  "alt": true,
+  "score": "7.8",
+  "price": "2 499,99 €",
+  "rating": "4.0 ★",
+  "verdict": "RTX 5070 Ti 12 Go et dalle 240 Hz 500 nits pour l'exigeant, thermique et autonomie non communiqués par HP",
+  "strengths": [
+   "RTX 5070 Ti 12 Go de VRAM",
+   "Dalle WQXGA jusqu'à 240 Hz, 500 nits",
+   "32 Go RAM + 1 To SSD"
+  ]
+ },
+ "predator-helios-neo16": {
+  "name": "Acer Predator Helios Neo 16 PHN16-73 (RTX 5070 Ti)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Meilleur rapport promo",
+  "alt": true,
+  "score": "7.8",
+  "price": "2 165,83 €",
+  "rating": "4.2 ★",
+  "verdict": "RTX 5070 Ti à prix réduit (-17%) avec dalle 100% DCI-P3, l'autonomie réelle en jeu reste courte (1-2h)",
+  "strengths": [
+   "RTX 5070 Ti en promotion (-17%)",
+   "Dalle 100% DCI-P3, bonus créateur",
+   "32 Go RAM + 1 To SSD"
+  ]
+ },
+ "gigabyte-a16-3whk3": {
+  "name": "Gigabyte A16 3WHK3FR864SH (RTX 5070, 32 Go)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Meilleur rapport qualité/prix",
+  "alt": true,
+  "score": "7.5",
+  "price": "1 699,99 €",
+  "rating": "avis en cours",
+  "verdict": "RTX 5070 et 32 Go pour un prix contenu par rapport aux flagships",
+  "strengths": [
+   "RTX 5070 pour un budget maîtrisé",
+   "32 Go RAM + 1 To SSD",
+   "Dalle 165 Hz"
+  ]
+ },
+ "legion5-15ahp11": {
+  "name": "Lenovo Legion 5 15AHP11 (RTX 5060, OLED)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Le choix de la bande",
+  "alt": false,
+  "score": "7.4",
+  "price": "1 899,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Lignée Legion réputée pour son refroidissement, dalle OLED en prime",
+  "strengths": [
+   "Réputation thermique de la gamme Legion",
+   "Dalle OLED 165 Hz",
+   "32 Go RAM + 1 To SSD"
+  ]
+ },
+ "rog-strix-g18": {
+  "name": "ASUS ROG Strix G18 (Ryzen 9 8940HX, RTX 5070)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Le plus grand écran",
+  "alt": true,
+  "score": "7.3",
+  "price": "2 299,99 €",
+  "rating": "4.3 ★",
+  "verdict": "Écran 18\" WQXGA 240 Hz immersif et 32 Go de RAM, format costaud (3 kg) à l'autonomie hors jeu limitée",
+  "strengths": [
+   "Dalle 18\" WQXGA 240 Hz",
+   "32 Go RAM + 1 To SSD",
+   "RTX 5070 pour le 1440p fluide"
+  ]
+ },
+ "nitro-v16-anv16-42": {
+  "name": "Acer Nitro V 16 AI (ANV16-42-R3JW, RTX 5060)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Le plus silencieux",
+  "alt": true,
+  "score": "7.2",
+  "price": "1 149,99 €",
+  "rating": "4.0 ★",
+  "verdict": "Testé comme l'un des gamers les plus frais de sa catégorie, très bon rapport qualité/prix",
+  "strengths": [
+   "Réputation presse \"ne surchauffe pas\"",
+   "Dalle 180 Hz",
+   "Prix contenu pour une RTX 5060"
+  ]
+ },
+ "msi-crosshair16-d2xwgkg": {
+  "name": "MSI Crosshair 16 HX AI D2XWGKG-001FR (RTX 5070)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Dans le radar",
+  "alt": true,
+  "score": "7.0",
+  "price": "1 399,99 €",
+  "rating": "4.5 ★",
+  "verdict": "RTX 5070 en 240 Hz bien noté par les acheteurs, quelques compromis relevés par la presse",
+  "strengths": [
+   "RTX 5070 en dalle 240 Hz",
+   "84 avis vérifiés à 4,5/5",
+   "Prix positionné milieu de gamme"
+  ]
+ },
+ "loq-15irx10": {
+  "name": "Lenovo LOQ 15IRX10 (Core i7-13700HX, RTX 5060)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Meilleure note acheteurs",
+  "alt": true,
+  "score": "6.7",
+  "price": "1 699,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Très bien noté par les acheteurs (4,5/5, 29 avis), l'autonomie hors jeu reste un point faible signalé",
+  "strengths": [
+   "4,5/5 sur 29 avis vérifiés",
+   "24 Go RAM + 1 To SSD",
+   "RTX 5060 taillée pour le 1080p 144 Hz"
+  ]
+ },
+ "gigabyte-a16-3thk3": {
+  "name": "Gigabyte A16 3THK3FR893SH (RTX 5050)",
+  "cat": "gaming",
+  "catLabel": "GAMING",
+  "badge": "Le petit prix gamer",
+  "alt": true,
+  "score": "6.5",
+  "price": "1 029,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Entrée de gamme RTX, lignée réputée pour son autonomie au-delà de la moyenne gaming",
+  "strengths": [
+   "Ticket d'entrée RTX le plus bas du lot",
+   "Bonne réputation d'autonomie pour un gamer",
+   "Dalle 165 Hz"
+  ]
+ },
+ "lg-gram-14z90r": {
+  "name": "LG Gram 14Z90R-G.AA78F EVO (Core i7-1360P)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le plus léger",
+  "alt": true,
+  "score": "8.2",
+  "price": "1 734,70 €",
+  "rating": "4.0 ★",
+  "verdict": "0,999 kg sur la balance, le PC le plus léger de toute la sélection, coque magnésium premium",
+  "strengths": [
+   "0,999 kg, le plus léger de la sélection",
+   "Autonomie annoncée ~1,5 jour",
+   "Coque magnésium, 99% DCI-P3"
+  ]
+ },
+ "surface-laptop7-13": {
+  "name": "Microsoft Surface Laptop 7 13\" Copilot+ PC (Snapdragon X Plus)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Meilleure autonomie annoncée",
+  "alt": true,
+  "score": "7.9",
+  "price": "1 634,79 €",
+  "rating": "5.0 ★",
+  "verdict": "Jusqu'à 20h d'autonomie annoncée, finition aluminium premium avec reconnaissance faciale",
+  "strengths": [
+   "Jusqu'à 20h d'autonomie annoncée",
+   "Écran tactile 13,8\" PixelSense",
+   "Reconnaissance faciale Windows Hello"
+  ]
+ },
+ "yoga-slim7-ultra-14iph11": {
+  "name": "Lenovo Yoga Slim 7 Ultra 14IPH11 (Core Ultra 7, 32 Go)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le choix de la bande",
+  "alt": false,
+  "score": "7.7",
+  "price": "1 549,99 €",
+  "rating": "4.0 ★",
+  "verdict": "Décrit par la presse comme une alternative crédible aux ultraportables premium, finition aluminium soignée",
+  "strengths": [
+   "Finition aluminium premium",
+   "Dalle tactile 120 Hz haute définition",
+   "32 Go RAM pour du multitâche exigeant"
+  ]
+ },
+ "ideapad-slim5-14q8x9": {
+  "name": "Lenovo IdeaPad Slim 5 14Q8X9 Copilot+ PC (Snapdragon X)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Meilleure note acheteurs",
+  "alt": true,
+  "score": "7.7",
+  "price": "879,99 €",
+  "rating": "4.5 ★",
+  "verdict": "50 avis vérifiés à 4,5/5, autonomie Snapdragon annoncée jusqu'à 25h et dalle OLED 14\"",
+  "strengths": [
+   "4,5/5 sur 50 avis, le plus noté de la catégorie",
+   "Autonomie annoncée jusqu'à ~25h",
+   "Dalle OLED WUXGA 400 nits"
+  ]
+ },
+ "yoga7i-2in1-16iru9": {
+  "name": "Lenovo Yoga 7i 2-en-1 16IRU9 (Core Ultra 7 155U)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le plus polyvalent",
+  "alt": true,
+  "score": "7.5",
+  "price": "1 589,62 €",
+  "rating": "4.4 ★",
+  "verdict": "Format 2-en-1 tactile qui bascule en tablette, le plus polyvalent du lot côté usages",
+  "strengths": [
+   "Convertible tactile 2-en-1",
+   "Châssis aluminium premium",
+   "Thunderbolt 4 + lecteur d'empreintes"
+  ]
+ },
+ "yoga-slim7-14akp10": {
+  "name": "Lenovo Yoga Slim 7 14AKP10 (Ryzen AI 5 330)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le plus compact",
+  "alt": true,
+  "score": "7.1",
+  "price": "999,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Format ultra-compact (~1,19 kg) avec dalle OLED 14\", souris incluse dans le prix promo",
+  "strengths": [
+   "Dalle OLED 14\" compacte",
+   "~1,19 kg, très mobile",
+   "Souris incluse dans l'offre promo"
+  ]
+ },
+ "dell16-dc16250": {
+  "name": "Dell 16 DC16250 (Core 7 150U)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le mieux noté Amazon",
+  "alt": true,
+  "score": "6.7",
+  "price": "832,50 €",
+  "rating": "4.1 ★",
+  "verdict": "Bon généraliste 16 pouces avec lecteur d'empreintes et écran 16:10 confortable pour la productivité",
+  "strengths": [
+   "Badge \"Amazon's Choice\"",
+   "Écran 16:10 (1920×1200) confortable",
+   "Lecteur d'empreintes intégré"
+  ]
+ },
+ "omnibook3-16-bu0037nfx": {
+  "name": "HP OmniBook 3 16-bu0037nfx (Core Ultra 5 225U)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le meilleur prix promo",
+  "alt": true,
+  "score": "6.5",
+  "price": "749,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Écran 16\" 2K à prix cassé (-25%), un bon compromis polyvalent pour un budget contenu",
+  "strengths": [
+   "Prix promo -25% vs prix normal",
+   "Écran 16\" définition 2K",
+   "Charge rapide 50% en 45 min"
+  ]
+ },
+ "vivobook16-m1605naq": {
+  "name": "ASUS Vivobook 16 M1605NAQ-SH301W (Ryzen 5 150)",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Meilleur rapport qualité/prix",
+  "alt": true,
+  "score": "6.4",
+  "price": "649,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Dalle OLED 16\" à moins de 650 € en promo, bon indice de réparabilité (8,3/10)",
+  "strengths": [
+   "Dalle OLED 16\" à prix promo",
+   "Indice de réparabilité 8,3/10",
+   "Clavier rétroéclairé AZERTY"
+  ]
+ },
+ "ideapad-slim3-16irh10": {
+  "name": "Lenovo IdeaPad Slim 3 16IRH10 (Core i7, 16\")",
+  "cat": "polyvalent",
+  "catLabel": "POLYVALENT",
+  "badge": "Le petit prix",
+  "alt": true,
+  "score": "6.1",
+  "price": "799,99 €",
+  "rating": "5.0 ★",
+  "verdict": "Grand écran 16\" généraliste sans GPU dédié, bon rapport prix/polyvalence d'entrée",
+  "strengths": [
+   "Grand écran 16\" pour le confort au quotidien",
+   "Core i7 + 16 Go polyvalent",
+   "Prix contenu"
+  ]
+ },
+ "aspire-lite15-al15-44p": {
+  "name": "Acer Aspire Lite 15 AL15-44P-R5NT (Ryzen 5 7430U)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Le choix de la bande",
+  "alt": false,
+  "score": "7.7",
+  "price": "499 €",
+  "rating": "avis en cours",
+  "verdict": "Seul Ryzen 5 (6 cœurs) de la catégorie, dalle IPS Full HD et ~7h d'autonomie annoncée",
+  "strengths": [
+   "Seul CPU Ryzen 5 (6 cœurs) du low-cost",
+   "Dalle IPS Full HD",
+   "SSD NVMe 512 Go"
+  ]
+ },
+ "ideapad1-15alc7-promo": {
+  "name": "Lenovo IdeaPad 1 15ALC7 (Ryzen 5 7520U, promo)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Meilleure autonomie annoncée",
+  "alt": true,
+  "score": "7.5",
+  "price": "399 €",
+  "rating": "avis en cours",
+  "verdict": "Promotion -27% ramenant ce Ryzen 5/512 Go à 399 €, ~9,5h d'autonomie annoncée",
+  "strengths": [
+   "~9,5h d'autonomie annoncée",
+   "Promotion -27% (399 € vs 549 €)",
+   "Webcam avec cache de confidentialité"
+  ]
+ },
+ "aspire-go15-recond": {
+  "name": "Acer Aspire Go 15 AG15-42P-R99J — reconditionné",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Meilleure note acheteurs",
+  "alt": true,
+  "score": "7.5",
+  "price": "475,99 €",
+  "rating": "4.5 ★",
+  "verdict": "87 avis vérifiés à 4,5/5 pour ce Ryzen 5 reconditionné \"Très bon état\", garantie légale 24 mois",
+  "strengths": [
+   "4,5/5 sur 87 avis vérifiés",
+   "CPU Ryzen 5 (6 cœurs)",
+   "Reconditionné, garantie légale 24 mois"
+  ]
+ },
+ "ideapad-slim3-15ian8": {
+  "name": "Lenovo IdeaPad Slim 3 15IAN8 (Core i3-N305)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Meilleur rapport qualité/prix",
+  "alt": true,
+  "score": "7.0",
+  "price": "404,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Meilleur rapport qualité/prix du lot : 4,5/5 sur 86 avis à moins de 410 €, stockage 128 Go qui reste juste",
+  "strengths": [
+   "4,5/5 sur 86 avis vérifiés",
+   "CPU 8 cœurs (Intel N305)",
+   "Charnière 180°, format compact"
+  ]
+ },
+ "hp-14-ep0055nf": {
+  "name": "HP 14-ep0055nf (Core i3-N305)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Le plus généreux en stockage",
+  "alt": true,
+  "score": "7.0",
+  "price": "499,99 €",
+  "rating": "avis en cours",
+  "verdict": "512 Go de SSD (le double de plusieurs concurrents) et 8h d'autonomie annoncée, encore aucun avis",
+  "strengths": [
+   "512 Go de SSD (rare sous 500 €)",
+   "Autonomie annoncée 8h",
+   "Plastiques recyclés, certifié EPEAT Gold"
+  ]
+ },
+ "aspire-lite15-al15-46p": {
+  "name": "Acer Aspire Lite 15 AL15-46P-R6BN (Ryzen 3 7320U)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Le mieux défini",
+  "alt": true,
+  "score": "6.6",
+  "price": "449,99 €",
+  "rating": "4.5 ★",
+  "verdict": "Écran Full HD (rare sous 450 €) et prix réduit de 15%, bon point d'entrée Ryzen",
+  "strengths": [
+   "Écran Full HD (rare sous 450 €)",
+   "CPU Ryzen 3 plus récent",
+   "Prix réduit de 15%"
+  ]
+ },
+ "aspire-go15-ryzen3": {
+  "name": "Acer Aspire Go 15 (Ryzen 3, gris)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Choix des techniciens Fnac",
+  "alt": true,
+  "score": "6.3",
+  "price": "499,99 €",
+  "rating": "avis en cours",
+  "verdict": "Labellisé \"Choix de nos techniciens\" par Fnac, 512 Go de SSD, encore aucun avis client",
+  "strengths": [
+   "\"Choix de nos techniciens\" Fnac",
+   "512 Go de SSD",
+   "Dalle anti-lumière bleue (BluelightShield)"
+  ]
+ },
+ "omnibook3-16-bu0063nfx": {
+  "name": "HP OmniBook 3 16-bu0063nfx (Intel Core 3)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Dans le radar",
+  "alt": true,
+  "score": "6.0",
+  "price": "499,99 €",
+  "rating": "avis en cours",
+  "verdict": "Écran 16\" en définition 2K, une rareté à ce prix, mais 128 Go de stockage qui se remplit vite",
+  "strengths": [
+   "Écran 16\" définition 2K (rare à ce prix)",
+   "CPU récent (Intel Core 3)",
+   "Charge rapide HP Fast Charge"
+  ]
+ },
+ "hp-15s-fq0091nf": {
+  "name": "HP 15s-fq0091nf (Celeron N4120)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Le plus commenté",
+  "alt": true,
+  "score": "5.9",
+  "price": "403,61 €",
+  "rating": "4.5 ★",
+  "verdict": "179 avis clients et 4,5/5, mais le Labo Fnac pointe un écran HD et un processeur Celeron limités",
+  "strengths": [
+   "179 avis clients vérifiés",
+   "Charge rapide (50% en 45 min)",
+   "Prix parmi les plus bas de la sélection"
+  ]
+ },
+ "medion-avantum14": {
+  "name": "Medion Avantum 14 MD600091 (Celeron N4500)",
+  "cat": "lowcost",
+  "catLabel": "LOW-COST",
+  "badge": "Le prix le plus bas",
+  "alt": true,
+  "score": "4.9",
+  "price": "349,99 €",
+  "rating": "avis en cours",
+  "verdict": "Prix le plus bas de la sélection (350€), mais l'eMMC 128 Go le réserve à un usage très basique",
+  "strengths": [
+   "Prix le plus bas de la sélection (349,99 €)",
+   "Format 14\" léger",
+   "Suffisant pour un usage très basique"
+  ]
+ }
+}
