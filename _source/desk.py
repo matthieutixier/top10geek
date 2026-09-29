@@ -132,7 +132,7 @@ DCATS = [
     dict(key="d-gaming", slug="gaming", label="Gaming", h="PC gamer fixe", tag="Puissance maximale", color="var(--cat-gaming)", cls="f-gaming", badge="gaming",
          h1='Les meilleurs <span class="flash">PC gamer fixes</span> prêts à jouer',
          intro="À budget égal, une tour gaming va plus loin qu'un portable : plus de puissance, moins de bruit, et des pièces que l'on peut changer."),
-    dict(key="d-mini", slug="mini-pc", label="Mini-PC", h="Mini-PC", tag="Tout petit, très malin", color="var(--cat-lowcost)", cls="f-lowcost", badge="lowcost",
+    dict(key="d-mini", slug="mini-pc", label="Mini-PC", h="Mini-PC", tag="Tout petit, très malin", color="var(--cat-lowcost)", cls="f-lowcost", badge="mini-pc",
          h1='Les meilleurs <span class="flash">mini-PC</span>',
          intro="Pas plus gros qu'un livre, un mini-PC fixé derrière l'écran remplace une tour pour la plupart des usages."),
     dict(key="d-aio", slug="tout-en-un", label="Tout-en-un", h="Tout-en-un", tag="Un seul câble", color="var(--cat-poly)", cls="f-polyvalent", badge="polyvalent",

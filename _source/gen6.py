@@ -675,7 +675,7 @@ home = f"""
         <h3>PC portables</h3><p>{laptop_count} machines, un top 10 par usage, {notes_total([d for d in ITEMS.values() if d['family'] == 'laptop'])} notes presse.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in LCATS)}</div><span class="uc-go">Explorer →</span></a>
       <a class="fam-card" href="ordinateur-de-bureau/index.html">
-        <div class="fam-art"><img src="assets/img/badge-polyvalent.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-lowcost.webp" alt="" width="96" height="96"></div>
+        <div class="fam-art"><img src="assets/img/badge-polyvalent.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-mini-pc.webp" alt="" width="96" height="96"></div>
         <h3>Ordinateurs de bureau</h3><p>Tours, mini-PC et tout-en-un : {desk_count} machines en sélection provisoire.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in DCATS)}</div><span class="uc-go">Explorer →</span></a>
     </div>
@@ -724,6 +724,7 @@ css = "".join(open(f"/home/claude/{f}", encoding="utf-8").read() for f in ["arti
 write("assets/style.css", css)
 shutil.copy("/home/claude/main6.js", os.path.join(OUT, "assets/main.js"))
 shutil.copytree("/mnt/user-data/outputs/top10geek-v5/assets/img", os.path.join(OUT, "assets/img"), dirs_exist_ok=True)
+shutil.copytree("/home/claude/img_new", os.path.join(OUT, "assets/img"), dirs_exist_ok=True)
 write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
 urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + ["methode.html", "mentions-legales.html", "politique-confidentialite.html"]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
