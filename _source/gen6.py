@@ -8,6 +8,8 @@ from specs import SPEC, GROUPS, CONFIG_LABEL, NEW
 from guides import GUIDES
 from desk import DESK, DCATS
 from guides_desk import GUIDES_DESK
+import hashlib
+VER = hashlib.md5(b''.join(open(f'/home/claude/{f}','rb').read() for f in ['artifact_base.css','extra.css','extra4.css','extra5.css','extra6.css','main6.js'])).hexdigest()[:8]
 
 OUT = "/mnt/user-data/outputs/top10geek-v6"
 DOMAIN = "https://top10geek.fr"
@@ -340,7 +342,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls=""):
 <link rel="icon" type="image/png" href="{root}assets/img/logo-face.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800;12..96,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}assets/style.css">
+<link rel="stylesheet" href="{root}assets/style.css?v={VER}">
 </head>
 <body class="{body_cls}">
 <div class="wrap">
@@ -362,7 +364,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls=""):
   </footer>
 </div>
 {extra}
-<script src="{root}assets/main.js" defer></script>
+<script src="{root}assets/main.js?v={VER}" defer></script>
 </body>
 </html>
 """
