@@ -123,7 +123,7 @@ DESK = {
 }
 
 DCATS = [
-    dict(key="d-bureau", slug="bureautique", label="Bureautique", h="Bureautique", tag="Fiable et discret", color="var(--cat-bureau)", cls="f-bureau", badge="bureautique",
+    dict(key="d-bureau", slug="bureautique", label="Bureautique", h="Bureautique", tag="Fiable et discret", color="var(--cat-bureau)", cls="f-bureau", badge="bureau-fixe",
          h1='Les meilleurs ordinateurs de bureau pour la <span class="flash">bureautique</span>',
          intro="Pour le travail et la famille, un ordinateur de bureau doit être fiable, silencieux et facile à faire évoluer."),
     dict(key="d-creation", slug="creation", label="Création", h="Création &amp; station de travail", tag="Puissance au calme", color="var(--cat-creation)", cls="f-creation", badge="creation",
