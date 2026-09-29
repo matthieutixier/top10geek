@@ -1,14 +1,9 @@
-# Top 10 Geek — site statique (v5, charte claire)
+# Top 10 Geek — site statique (v6)
 
-## À compléter avant publication
-Remplacer les champs surlignés `[...]` dans `mentions-legales.html`, `politique-confidentialite.html` et `methode.html`.
-
-## Publier (Netlify, gratuit)
-Glisser-déposer ce dossier sur https://app.netlify.com/drop — ou relier un dépôt GitHub
-(pas de commande de build, dossier de publication = racine). Puis ajouter le domaine top10geek.fr.
+Structure : accueil (`index.html`), familles `pc-portable/` et `ordinateur-de-bureau/` (page comparatif + une page par usage), `methode.html`, pages légales.
 
 ## Régénérer le site
-Les sources sont dans `_source/` : `laptops.json` (catalogue 50 PC), `press.py` (notes presse), `specs.py` (noms, poids, autonomie, points faibles, nouveaux modèles), `guides.py` (guides d'achat), `gen5.py` (générateur).
+Sources dans `_source/` : `gen6.py` (générateur), `laptops.json` + `press.py` + `specs.py` (PC portables), `desk.py` (ordinateurs de bureau — sélection provisoire), `guides.py` / `guides_desk.py` (guides d'achat).
 
-## Après validation Amazon Partenaires
-Les boutons « Voir le prix » pointent déjà vers une recherche Amazon.fr : il suffira d'y ajouter votre identifiant partenaire (&tag=...).
+## Publication
+Dépôt Git → Cloudflare Pages. Ne pas publier `_archive_v2` (ignoré par .gitignore).

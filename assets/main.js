@@ -20,18 +20,17 @@
     else { p.className='score big-press none'; p.innerHTML='<span class="pn">—</span><span class="pc">pas encore testé</span>'; }
     $('detailRating').textContent=d.rating;
     $('mIdx').hidden=!d.idxv; if(d.idxv){ $('detailIdxBar').style.width=(d.idxv*10)+'%'; $('mIdx').title="Indice d'équipement : "+d.idx+'/10'; }
-    $('mWeight').hidden=(d.weight==='n.c.'); $('detailWeight').textContent=d.weight;
-    $('mAuton').hidden=(d.auton==='n.c.'); $('detailAuton').textContent=d.auton;
+    [['mA','mAk','mAv'],['mB','mBk','mBv']].forEach(function(ids,i){ var kv=d.m[i]; $(ids[0]).hidden=(!kv[1]||kv[1]==='n.c.'); $(ids[1]).textContent=kv[0]; $(ids[2]).textContent=kv[1]; });
     $('detailPrice').textContent=d.price;
     $('detailVerdict').textContent=d.verdict;
     var b=$('detailBadge'); b.textContent=d.badge; b.className='fbadge'+(d.badge==='Le choix de la bande'?'':' alt');
     $('detailCatLabel').textContent=d.catLabel;
     $('detailArt').className='art cat-'+d.cat;
-    $('detailArtImg').src=DATA.root+'assets/img/badge-'+d.slug+'.webp';
+    $('detailArtImg').src=DATA.root+'assets/img/badge-'+d.badgeImg+'.webp';
     fill($('detailStrengths'),d.strengths);
     fill($('detailWeak'),d.weak.length?d.weak:[d.tested?'Aucun défaut majeur relevé par la presse':'Défauts non documentés : pas encore de test presse']);
     $('detailCta').href=d.url;
-    $('detailMore').href=DATA.root+'pc-portable/'+d.slug+'/index.html#'+id;
+    $('detailMore').href=DATA.root+d.fslug+'/'+d.slug+'/index.html#'+id;
     if(chart) chart.querySelectorAll('.bubble').forEach(function(c){c.classList.toggle('selected',c.getAttribute('data-id')===id);});
     if(table) table.querySelectorAll('tbody tr').forEach(function(r){r.classList.toggle('selected',r.getAttribute('data-id')===id);});
     if(!(opts&&opts.skipScroll)){ card.scrollIntoView({behavior:'smooth',block:window.innerWidth<=900?'start':'nearest'}); }
