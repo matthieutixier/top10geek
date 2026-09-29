@@ -139,3 +139,13 @@
     .spec-row strong{font-size:1.05rem;}
   }
   @media (max-width:700px){ .fr-head h3 .soon-chip{display:inline-block;vertical-align:middle;} }
+
+  /* v6.2 — nouvelles illustrations */
+  .fiche{position:relative;}
+  .fiche .stamp{position:absolute;top:-22px;right:-16px;width:92px;height:auto;transform:rotate(12deg);pointer-events:none;filter:drop-shadow(0 2px 0 rgba(0,0,0,.08));}
+  @media (max-width:680px){ .fiche .stamp{width:68px;top:-16px;right:-8px;} }
+  .soon-card{position:relative;overflow:visible;}
+  .soon-img{position:absolute;top:-18px;right:-8px;width:84px;height:auto;transform:rotate(6deg);transition:transform .2s;}
+  .soon-card:hover .soon-img{transform:rotate(-4deg) scale(1.08);}
+  .soon-card h3,.soon-card p{padding-right:60px;}
+  .radar-pose{width:170px;}

@@ -45,7 +45,7 @@ FAMILIES = [
          h1='Comparatif PC portables 2026 : <span class="flash">le verdict par usage</span>',
          intro="50 PC portables passés au crible, une note presse sur 10 tirée de centaines de tests, et un top 10 pour chaque usage."),
     dict(key="desktop", slug="ordinateur-de-bureau", label="Ordinateur de bureau", plural="Ordinateurs de bureau", cats=DCATS, provisional=True,
-         m_labels=("Format", "Processeur"), col="Format", mascot="pose-investigation",
+         m_labels=("Format", "Processeur"), col="Format", mascot="pose-tour",
          h1='Comparatif ordinateurs de bureau : <span class="flash">tours, mini-PC et tout-en-un</span>',
          intro="Bureautique, création, gaming, mini-PC et tout-en-un : notre sélection d'ordinateurs de bureau, classée par usage."),
 ]
@@ -502,6 +502,7 @@ def usage_page(fam, c):
         rating = f'{fr(d["r"])} ★' if d["r"] > 0 else '<span class="none">avis en cours</span>'
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
         fiches.append(f"""<article class="fiche{' top' if i == 1 else ''}" id="{d['id']}" data-budget="{d['bucket']}">
+  {'<img class="stamp" src="../../assets/img/stamp-choix.webp" alt="Le choix de la bande" width="92" height="92" loading="lazy">' if i == 1 and d['badge'] == 'Le choix de la bande' else ''}
   <div class="rank">#{i}<small>{rank_lbl}</small></div>
   <div class="f-main">
     <span class="fbadge{' alt' if i != 1 else ''}">{E(d['badge'])}</span>
@@ -611,6 +612,7 @@ def ticker():
 
 
 radar_items = [by_cat[c["key"]][i] for c in LCATS for i in (0, 1, 2)]
+SOON_IMG = ["soon-ecran", "soon-smartphone", "soon-casque", "soon-tablette"]
 SOON = [("Écrans PC", "Bureautique, gaming, retouche : la bonne dalle pour chaque usage."), ("Smartphones", "Les meilleurs téléphones par budget, notes presse à l'appui."),
         ("Casques &amp; écouteurs", "Réduction de bruit, sport, gaming : le son sans se tromper."), ("Tablettes", "iPad, Android, Windows : laquelle pour lire, dessiner ou travailler ?")]
 
@@ -661,7 +663,7 @@ home = f"""
         <h2>Bien noté <span class="flash">et</span> pas trop cher&nbsp;? C'est en bas à droite.</h2>
         <p>Chaque bulle est l'un des 3 meilleurs PC portables de chaque usage. Plus elle est à droite, plus la presse l'a aimé ; plus elle est basse, plus il est abordable ; plus elle est grosse, plus la note repose sur de nombreux tests. Cliquez sur une bulle pour ouvrir sa fiche.</p>
         <div class="legend-cats">{''.join(f'<div class="legend-cat"><span class="dot {c["cls"].replace("f-", "")}"></span>{c["label"]}</div>' for c in LCATS)}</div>
-        <img class="radar-pose" src="assets/img/pose-investigation.webp" alt="" width="140" height="140">
+        <img class="radar-pose" src="assets/img/pose-radar.webp" alt="" width="200" height="254">
       </div>
       <div class="chart-col"><div class="chart-pane">{bubble_svg(radar_items, "Radar des bonnes affaires : note presse contre prix des champions", link_root="", sid="homeRadar")}</div></div>
     </div>
@@ -675,11 +677,11 @@ home = f"""
         <h3>PC portables</h3><p>{laptop_count} machines, un top 10 par usage, {notes_total([d for d in ITEMS.values() if d['family'] == 'laptop'])} notes presse.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in LCATS)}</div><span class="uc-go">Explorer →</span></a>
       <a class="fam-card" href="ordinateur-de-bureau/index.html">
-        <div class="fam-art"><img src="assets/img/badge-polyvalent.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-mini-pc.webp" alt="" width="96" height="96"></div>
+        <div class="fam-art"><img src="assets/img/badge-tout-en-un.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-mini-pc.webp" alt="" width="96" height="96"></div>
         <h3>Ordinateurs de bureau</h3><p>Tours, mini-PC et tout-en-un : {desk_count} machines en sélection provisoire.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in DCATS)}</div><span class="uc-go">Explorer →</span></a>
     </div>
-    <div class="soon-grid">{''.join(f'<div class="soon-card"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for t, x in SOON)}</div>
+    <div class="soon-grid">{''.join(f'<div class="soon-card"><img class="soon-img" src="assets/img/{SOON_IMG[i]}.webp" alt="" width="84" height="84" loading="lazy"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(SOON))}</div>
   </section>
 
   <section class="section method-strip" style="border-bottom:none;">
@@ -717,7 +719,7 @@ ml = ml.replace("<p><span class=\"fill\">[À confirmer selon l'hébergeur retenu
 assert "Cloudflare" in ml
 write("mentions-legales.html", ml)
 write("politique-confidentialite.html", reframe("/mnt/user-data/outputs/top10geek-v5/politique-confidentialite.html", "", "politique-confidentialite.html"))
-nf = reframe("/mnt/user-data/outputs/top10geek-v5/404.html", "", "404.html").replace('href="assets/', 'href="/assets/').replace('src="assets/', 'src="/assets/').replace('href="index.html"', 'href="/index.html"').replace('href="pc-portable/', 'href="/pc-portable/').replace('href="ordinateur-de-bureau/', 'href="/ordinateur-de-bureau/').replace('href="methode.html"', 'href="/methode.html"').replace('href="mentions-legales.html"', 'href="/mentions-legales.html"').replace('href="politique-confidentialite.html"', 'href="/politique-confidentialite.html"').replace('src="assets', 'src="/assets')
+nf = reframe("/mnt/user-data/outputs/top10geek-v5/404.html", "", "404.html").replace('href="assets/', 'href="/assets/').replace('src="assets/', 'src="/assets/').replace('href="index.html"', 'href="/index.html"').replace('href="pc-portable/', 'href="/pc-portable/').replace('href="ordinateur-de-bureau/', 'href="/ordinateur-de-bureau/').replace('href="methode.html"', 'href="/methode.html"').replace('href="mentions-legales.html"', 'href="/mentions-legales.html"').replace('href="politique-confidentialite.html"', 'href="/politique-confidentialite.html"').replace('src="assets', 'src="/assets').replace('/assets/img/pose-investigation.webp" alt="" width="200" height="200"', '/assets/img/pose-404.webp" alt="La mascotte, perdue, un câble débranché à la main" width="170" height="311"')
 write("404.html", nf)
 
 css = "".join(open(f"/home/claude/{f}", encoding="utf-8").read() for f in ["artifact_base.css", "extra.css", "extra4.css", "extra5.css", "extra6.css"])

@@ -135,7 +135,7 @@ DCATS = [
     dict(key="d-mini", slug="mini-pc", label="Mini-PC", h="Mini-PC", tag="Tout petit, très malin", color="var(--cat-lowcost)", cls="f-lowcost", badge="mini-pc",
          h1='Les meilleurs <span class="flash">mini-PC</span>',
          intro="Pas plus gros qu'un livre, un mini-PC fixé derrière l'écran remplace une tour pour la plupart des usages."),
-    dict(key="d-aio", slug="tout-en-un", label="Tout-en-un", h="Tout-en-un", tag="Un seul câble", color="var(--cat-poly)", cls="f-polyvalent", badge="polyvalent",
+    dict(key="d-aio", slug="tout-en-un", label="Tout-en-un", h="Tout-en-un", tag="Un seul câble", color="var(--cat-poly)", cls="f-polyvalent", badge="tout-en-un",
          h1='Les meilleurs ordinateurs <span class="flash">tout-en-un</span>',
          intro="L'écran et l'ordinateur ne font qu'un : idéal pour un bureau épuré, un coin famille ou un poste d'accueil."),
 ]
