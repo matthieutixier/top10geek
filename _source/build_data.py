@@ -93,7 +93,7 @@ def cfg(name):
     if g: out.append((g.group(1) + " " + g.group(2) + (" " + g.group(3).replace("Super", "SUPER") if g.group(3) else "")))
     return " · ".join(out)
 
-AMAZON_TAG = ""   # identifiant Partenaires Amazon (ex. top10geek-21) : à renseigner, il sera ajouté à tous les liens Amazon
+AMAZON_TAG = "geekconcept-21"   # identifiant Partenaires Amazon (ex. top10geek-21) : à renseigner, il sera ajouté à tous les liens Amazon
 
 def offers(pid):
     out, imgs = [], []
