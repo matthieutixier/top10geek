@@ -149,7 +149,9 @@ def fetch_img(urls, dest):
 
 # photos : par défaut Darty > Geekom > Acer > Amazon ; exceptions quand le visuel Darty est un carton de pack ou un visuel manquant
 IMG_AMAZON_FIRST = {"zenbook-a16", "surface-pro-12", "chromebook-315", "mac-mini-m6", "mac-mini-m5pro"}
-IMG_EXTRA = {}
+# Photos constructeurs (remplacent les visuels Amazon, non autorisés hors de leur API) : voir photos_constructeurs.json.
+# Les fichiers déjà traités sont dans assets/img/p/ ; ne pas les écraser avec un visuel Amazon.
+IMG_EXTRA = {pid: [v["source"]] for pid, v in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "photos_constructeurs.json"), encoding="utf-8")).items()}
 
 if __name__ == "__main__":
     IMG = "/home/claude/img_p"; os.makedirs(IMG, exist_ok=True)

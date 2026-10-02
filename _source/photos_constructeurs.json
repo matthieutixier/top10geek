@@ -1,0 +1,90 @@
+{
+ "surface-pro-12": {
+  "constructeur": "Microsoft",
+  "source": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/b01-Surface-Pro-Snapdragon-12-inch-8GB-1Ed-Front-Left"
+ },
+ "zenbook-a16": {
+  "constructeur": "Asus",
+  "source": "https://dlcdnwebimgs.asus.com/gain/ec3e3399-c34a-4ed9-be76-c9be1ac1ca6e/w800"
+ },
+ "xps14": {
+  "constructeur": "Dell",
+  "source": "https://i.dell.com/is/image/DellContent/content/dam/images/products/laptops-and-2-in-1s/xps/14-da14260-touch/dell-da14260t-laptop-c-15000ff100-gy-oled.psd"
+ },
+ "helios-neo-16": {
+  "constructeur": "Acer",
+  "source": "https://images.acer.com/is/image/acer/predator-helios-neo-16-ai-phn16-73-non-fingerprint-with-backlit-on-wp-abyssal-black-01"
+ },
+ "chromebook-315": {
+  "constructeur": "Acer",
+  "source": "https://images.acer.com/is/image/acer/Acer_Chromebook_315_Shaask_89_KSP_1_Stunning%20FHD%20Clarity-1"
+ },
+ "mac-mini-m6": {
+  "constructeur": "Apple",
+  "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-mini-chip-unselect-202608-gallery-1"
+ },
+ "mac-mini-m5pro": {
+  "constructeur": "Apple",
+  "source": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mac-mini-chip-unselect-202608-gallery-1"
+ },
+ "hp-z2-mini": {
+  "constructeur": "HP",
+  "source": "https://hp.widen.net/content/0jnrmxo6jw/webp/0jnrmxo6jw.png"
+ },
+ "thinkstation-p3": {
+  "constructeur": "Lenovo",
+  "source": "https://p2-ofp.static.pub//fes/cms/2025/05/09/l9xwxfe5lq8o34tfb0mo64zin8ueuw797422.png"
+ },
+ "minisforum-ai-x1-pro": {
+  "constructeur": "Minisforum",
+  "source": "https://cdn.shopify.com/s/files/1/0401/1032/5921/files/X1_Pro_370_Mini_PC_1.png"
+ },
+ "minisforum-ms-s1-max": {
+  "constructeur": "Minisforum",
+  "source": "https://cdn.shopify.com/s/files/1/0401/1032/5921/files/S1MAX_5.png"
+ },
+ "gmktec-evo-x2": {
+  "constructeur": "GMKtec",
+  "source": "https://www.gmktec.com/cdn/shop/files/3236633c9c3cf624fc617d8ceea1246c_28049231-bded-49ff-915d-3fd6ae59ddef.png"
+ },
+ "legion-tower-5": {
+  "constructeur": "Lenovo",
+  "source": "https://p1-ofp.static.pub/ShareResource/na/subseries/gallery/lenovo-legion-tower-5i-g10-04.png"
+ },
+ "nitro-60": {
+  "constructeur": "Acer",
+  "source": "https://static-ecpa.acer.com/media/catalog/product/1/_/1_image_ud.p02aa.079.jpg"
+ },
+ "area-51": {
+  "constructeur": "Dell",
+  "source": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/alienware-desktops/area-51-r8/media-gallery/360mm/desktop-alienware-area51-r8-360-silver-gallery-2.psd"
+ },
+ "beelink-eq14": {
+  "constructeur": "Beelink",
+  "source": "https://cdn.shopify.com/s/files/1/0505/1360/8884/files/10_6e286cb2-e869-483f-8611-4d6fcd60a2db.jpg"
+ },
+ "beelink-ser9pro": {
+  "constructeur": "Beelink",
+  "source": "https://cdn.shopify.com/s/files/1/0505/1360/8884/files/SER9.webp"
+ },
+ "nipogi-am06pro": {
+  "constructeur": "NiPoGi",
+  "source": "https://cdn.shopify.com/s/files/1/0858/9079/3829/files/2074684307.png"
+ },
+ "acemagic-k1": {
+  "constructeur": "Acemagic",
+  "source": "https://acemagic.com/cdn/shop/files/K1_3e0c8365-fc8c-4002-8455-fe9fb26dec92.png"
+ },
+ "gmktec-k13": {
+  "constructeur": "GMKtec",
+  "source": "https://www.gmktec.com/cdn/shop/files/1_d7c59615-4527-4a10-86ed-acca0e835821.jpg"
+ },
+ "hp-omnistudio-27": {
+  "constructeur": "HP",
+  "source": "https://hp.widen.net/content/nlv6vhgi78/webp/nlv6vhgi78.png"
+ },
+ "dell-24-aio": {
+  "constructeur": "Dell",
+  "source": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/dell/ec24250/media-gallery/white/touch/dell-ec24250t-aio-gy-mldspk-gallery-1.psd"
+ }
+}
