@@ -299,7 +299,7 @@ def guide_html(key):
       <div class="g-box"><div class="legend-title">Les pièges à éviter</div><ul class="g-pieges">{pieges}</ul></div>
       <div class="g-box"><div class="legend-title">Quel budget prévoir ?</div><div class="g-tiers">{bud}</div></div>
     </div>
-    <p class="guide-go"><a class="cta" href="#comparateur">Voir notre sélection ↓</a></p>
+    <p class="guide-go"><a class="cta" href="#top10">Voir le classement ↓</a></p>
   </section>"""
 
 
@@ -642,7 +642,6 @@ def usage_page(fam, c):
   </section>
   {PROVISIONAL_NOTE if fam['provisional'] else ''}
   {pick_block(fam, c, items, root)}
-  {guide_html(c['key'])}
 
   <section class="comparator" id="comparateur">
     <div class="comparator-head">
@@ -659,6 +658,7 @@ def usage_page(fam, c):
       {detail_card(root)}
     </div>
   </section>
+  {guide_html(c['key'])}
 
   <section class="section" id="top10" style="border-bottom:none;">
     <div class="section-head"><h2><img class="section-badge" src="../../assets/img/badge-{c['badge']}.webp" alt="" width="50" height="50">{top_word}</h2><div class="tag">Notre choix, puis note presse</div></div>
