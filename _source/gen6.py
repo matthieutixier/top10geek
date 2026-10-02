@@ -374,7 +374,7 @@ MAIL = '<a href="mailto:contact@top10geek.fr">contact@top10geek.fr</a>'
 LEGAL_FILL = [
     ('Nom : <span class="fill">[PRÉNOM NOM]</span>', 'Nom : Matthieu Tixier — nom commercial : Geek Concept'),
     ('<span class="fill">[ex. entrepreneur individuel (micro-entreprise)]</span>', 'Entrepreneur individuel (EI)'),
-    ('SIRET : <span class="fill">[N° SIRET]</span>', 'Immatriculation : 130 805 831 R.C.S. La Rochelle'),
+    ('SIRET : <span class="fill">[N° SIRET]</span>', 'SIRET : 130 805 831 00018 — R.C.S. La Rochelle 130 805 831'),
     ('<span class="fill">[ADRESSE POSTALE]</span>', '4 rue Anatole France, 17000 La Rochelle, France'),
     ('<span class="fill">[ADRESSE E-MAIL DE CONTACT]</span>', MAIL),
     ('<span class="fill">[PRÉNOM NOM]</span>', 'Matthieu Tixier'),
