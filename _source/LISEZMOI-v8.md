@@ -14,6 +14,8 @@ Nouveautés v8 :
 - une page par ordinateur (`/pc-portable/asus-zenbook-a14/`…) : consensus presse, pour qui / à éviter si, prix par marchand, tous les tests, alternatives, FAQ ;
 - sitemap étendu aux 100 fiches.
 
+Photos : aucune image ne vient d'Amazon (leur charte ne l'autorise que via leur API). Les 22 modèles concernés utilisent une photo officielle du constructeur, listée dans `photos_constructeurs.json` ; pour toute nouvelle machine sans visuel Darty/Geekom/Acer, ajouter une photo constructeur dans ce fichier.
+
 Règles de sélection : chaque machine doit être en vente chez au moins un marchand partenaire (Amazon, Darty, Fnac, Acer Store, Geekom) et avoir au moins un test presse.
 
 À renseigner : `AMAZON_TAG` dans `build_data.py` (identifiant Partenaires Amazon) pour que tous les liens Amazon soient affiliés ; les liens Darty / Acer / Geekom sont pour l'instant directs, à remplacer par les liens Awin une fois les programmes validés.
