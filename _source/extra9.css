@@ -90,3 +90,6 @@
     .sort-select{flex:1;}
   }
   .p-specs .mini.wide{grid-column:1/-1;}
+  a.pick-price{text-decoration:none;color:var(--ink);}
+  a.pick-price:hover b{color:var(--accent);}
+  .pick-price.na b{font-size:1.15rem;}

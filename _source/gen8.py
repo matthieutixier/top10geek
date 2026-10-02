@@ -84,6 +84,27 @@ def euro2(x):
     return s + " €"
 
 
+def otxt(o):
+    """Montant affiché pour une offre : jamais de prix pour Amazon."""
+    return "Voir le prix" if o["m"] == "Amazon" else euro2(o["price"])
+
+
+def cta_label(o):
+    return "Voir le prix sur Amazon →" if o["m"] == "Amazon" else f"Voir l'offre chez {E(o['m'])} →"
+
+
+def otitle(o):
+    return "" if o["m"] == "Amazon" else f' title="{E(o["name"])}"'
+
+
+def price_block(d):
+    r = d["ref_offer"]
+    if r:
+        return (f'<a class="pick-price" href="{E(r["url"])}" target="_blank" rel="nofollow sponsored noopener"><b>{euro2(r["price"])}</b>'
+                f'<span>chez {E(r["m"])} · relevé le {MAJ}</span></a>')
+    return '<div class="pick-price na"><b>Prix sur Amazon</b><span>non affiché ici : il change trop souvent</span></div>'
+
+
 def bucket(p):
     for k, _, lo, hi in BUDGETS[1:]:
         if lo <= p < hi:
@@ -103,14 +124,18 @@ for pid, n in DATA["items"].items():
     c = CAT[n["cat"]]
     tests = n["press"]
     rated = tests if tests["avg"] is not None else None
-    offers = n["offers"]
-    d = dict(id=pid, cat=n["cat"], short=n["short"], ref=n["ref"], badge=n["badge"], idx=None, p=float(offers[0]["price"]),
+    # Charte Partenaires Amazon : aucun prix Amazon affiché (ils ne viennent pas de leur API). L'offre Amazon est listée
+    # sans montant ; le prix de référence affiché est le plus bas relevé chez les autres marchands.
+    pub = [o for o in n["offers"] if o["m"] != "Amazon"]
+    offers = [o for o in n["offers"] if o["m"] == "Amazon"] + pub
+    ref = pub[0] if pub else None
+    d = dict(id=pid, cat=n["cat"], short=n["short"], ref=n["ref"], badge=n["badge"], idx=None, p=float((ref or offers[0])["price"]), ref_offer=ref,
              r=(n["rating"] if n.get("rating") and n.get("nrev", 0) >= 3 else -1), nrev=n.get("nrev", 0),
              verdict=n["verdict"], strengths=n["strengths"], weak=n["weak"], m=tuple(n["m"]),
              press=rated, tests=tests, offers=offers, img=n.get("img"), configs=None, url=offers[0]["url"])
     d["slug"] = c["slug"]; d["family"] = c["family"]; d["fslug"] = c["fslug"]
-    d["from"] = len(offers) > 1
-    d["price_txt"] = ("dès " if d["from"] else "") + euro2(d["p"])
+    d["from"] = len(pub) > 1
+    d["price_txt"] = (("dès " if d["from"] else "") + euro2(d["p"])) if ref else "prix sur Amazon"
     d["bucket"] = bucket(d["p"])
     d["href"] = f'{c["fslug"]}/{c["slug"]}/index.html#{pid}'
     d["pslug"] = pslug(n["short"])
@@ -220,7 +245,7 @@ def js_data(items, root, first):
                             catLabel=(CAT[d["cat"]]["label"] + (" · " + fam["label"] if True else "")).upper(),
                             badge=d["badge"], idx=(fr(d["idx"]) if d["idx"] else None), idxv=d["idx"], tested=bool(pr), price=d["price_txt"],
                             rating=(fr(d["r"]) + " ★" if d["r"] > 0 else ""), img=d["img"], ntests=d["tests"]["tests"],
-                            offers=[[o["m"], euro2(o["price"]), o["url"], o.get("cfg", "")] for o in d["offers"]], verdict=d["verdict"], strengths=d["strengths"], weak=d["weak"],
+                            offers=[[o["m"], otxt(o), o["url"], o.get("cfg", "")] for o in d["offers"]], verdict=d["verdict"], strengths=d["strengths"], weak=d["weak"],
                             m=[[fam["m_labels"][0], d["m"][0]], [fam["m_labels"][1], d["m"][1]]], url=d["url"], purl=d["purl"],
                             press=(dict(avg=fr(pr["avg"]), n=pr["n"], gamme=pr["scope"] == "gamme") if pr else None))
     return "<script>window.T10G=" + json.dumps(dict(laptops=out, root=root, first=first), ensure_ascii=False) + ";</script>"
@@ -403,7 +428,7 @@ FAQ_L = [
     ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage. Ensuite, les ordinateurs sont classés par note presse. Ceux dont les tests ne donnent pas de note chiffrée viennent en dernier."),
     ("Faut-il 16 ou 32 Go de RAM en 2026 ?", "16 Go reste le minimum confortable pour de la bureautique ou du gaming courant. Pour la création ou pour garder la machine plusieurs années, 32 Go évite de la remplacer prématurément."),
     ("Pourquoi certains ordinateurs n'ont pas de note presse ?", "Tous les ordinateurs de la sélection ont été testés par au moins un média. Mais certains tests ne donnent pas de note chiffrée : dans ce cas nous l'indiquons (bulle en pointillés) et nous donnons le lien vers le test plutôt que d'inventer une note."),
-    ("D'où viennent les prix ?", "Les prix sont relevés à la main chez les marchands (Amazon, Darty, Acer Store, Geekom) à la date indiquée sur chaque page. Ils peuvent avoir changé depuis, et la configuration exacte peut différer d'un marchand à l'autre : vérifiez toujours la fiche du marchand avant d'acheter."),
+    ("D'où viennent les prix ?", "Les prix sont relevés à la main chez Darty, sur l'Acer Store et chez Geekom, à la date indiquée sur chaque page. Les prix Amazon ne sont pas affichés : ils changent trop souvent, un lien mène à la fiche Amazon. Ils peuvent avoir changé depuis, et la configuration exacte peut différer d'un marchand à l'autre : vérifiez toujours la fiche du marchand avant d'acheter."),
 ]
 
 
@@ -499,7 +524,9 @@ def alternatives(fam, items):
     def sup(d, key, best, among):
         """Superlatif seulement s'il est vrai sur toute la sélection (choix n° 1 compris)."""
         return best if key(d) == min(key(x) for x in items) else among
-    take("Le prix", sorted(rest, key=lambda d: d["p"]), lambda d: f"{sup(d, lambda x: x['p'], 'Le moins cher', 'Parmi les moins chers')} : {d['price_txt']}")
+    priced = [x for x in items if x["ref_offer"]]
+    take("Le prix", sorted([d for d in rest if d["ref_offer"]], key=lambda d: d["p"]),
+         lambda d: ("Le prix relevé le plus bas" if d["p"] == min(x["p"] for x in priced) else "Parmi les prix relevés les plus bas") + f" : {d['price_txt']}")
     solid = [d for d in rest if d["press"] and d["press"]["n"] >= 3] or [d for d in rest if d["press"]]
     take("La note presse", sorted(solid, key=lambda d: (-d["press"]["avg"], -d["press"]["n"])),
          lambda d: f"{sup(d, lambda x: -(x['press']['avg'] if x['press'] else 0), 'La meilleure note : ', '')}{fr(d['press']['avg'])}/10 sur {d['press']['n']} note{'s' if d['press']['n'] > 1 else ''}")
@@ -535,8 +562,8 @@ def pick_block(fam, c, items, root):
       </div>
       <div class="pick-buy">
         <div class="press-big">{press_big(d)}</div>
-        <div class="pick-price"><b>{euro2(best['price'])}</b><span>chez {E(best['m'])} · relevé le {MAJ}</span></div>
-        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a>
+        {price_block(d)}
+        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">{cta_label(best)}</a>
         <a class="see-all" href="{root}{d['purl']}">Avis, tests et prix détaillés →</a>
       </div>
     </div>
@@ -589,9 +616,9 @@ def usage_page(fam, c):
         st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
         wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
         offs = "".join(
-            f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="nofollow sponsored noopener" title="{E(o["name"])}">'
-            f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><b class="o-p">{euro2(o["price"])}</b><span class="o-go">Voir →</span></a>' for o in d["offers"])
-        offers_html = f'<div class="offers"><span class="k">Prix relevés le {MAJ}</span>{offs}<p class="o-note">La configuration peut différer d\'un marchand à l\'autre : vérifiez la fiche avant d\'acheter.</p></div>'
+            f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="nofollow sponsored noopener"{otitle(o)}>'
+            f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><b class="o-p">{otxt(o)}</b><span class="o-go">Voir →</span></a>' for o in d["offers"])
+        offers_html = f'<div class="offers"><span class="k">Où l\'acheter · prix relevés le {MAJ}</span>{offs}<p class="o-note">La configuration peut différer d\'un marchand à l\'autre : vérifiez la fiche avant d\'acheter.</p></div>'
         rating = f'{fr(d["r"])} ★ <small>({d["nrev"]})</small>' if d["r"] > 0 else ""
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
         photo = (f'<a class="f-photo" href="{E(d["url"])}" target="_blank" rel="nofollow sponsored noopener"><img src="../../assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d["img"] else "")
@@ -619,7 +646,7 @@ def usage_page(fam, c):
     {mini(fam['m_labels'][0], E(d['m'][0]))}
     {mini(fam['m_labels'][1], E(d['m'][1]))}
     {('<div class="mini"><span class="k">Avis clients Darty</span><span class="v">' + rating + '</span></div>') if rating else ''}
-    <a class="cta" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a>
+    <a class="cta" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">{cta_label(best)}</a>
   </div>
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
@@ -731,8 +758,8 @@ def product_page(fam, c, rank, d, items):
     st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
     wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
     offs = "".join(
-        f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="nofollow sponsored noopener" title="{E(o["name"])}">'
-        f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><b class="o-p">{euro2(o["price"])}</b><span class="o-go">Voir l&#39;offre →</span></a>' for o in d["offers"])
+        f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="nofollow sponsored noopener"{otitle(o)}>'
+        f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><b class="o-p">{otxt(o)}</b><span class="o-go">Voir l&#39;offre →</span></a>' for o in d["offers"])
     specs = "".join(f"<div class=\"mini{' wide' if k.startswith('Config') else ''}\"><span class=\"k\">{k}</span><span class=\"v\">{v}</span></div>" for k, v in [
         ("Configuration de référence", E(d["ref"])), (fam["m_labels"][0], E(d["m"][0])), (fam["m_labels"][1], E(d["m"][1])),
         ("Avis clients Darty", f'{fr(d["r"])} ★ ({d["nrev"]} avis)' if d["r"] > 0 else "")] if v and v != "n.c.")
@@ -753,7 +780,12 @@ def product_page(fam, c, rank, d, items):
                 else f'<b>N° {rank} sur {n_items}</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>')
 
     # --- FAQ (réponses tirées des données affichées plus haut)
-    plain_prices = " ; ".join(f'{euro2(o["price"])} chez {o["m"]}' for o in d["offers"])
+    shown = [o for o in d["offers"] if o["m"] != "Amazon"]
+    has_amz = len(shown) < len(d["offers"])
+    if shown:
+        where = f'Prix relevés le {MAJ} : ' + " ; ".join(f'{euro2(o["price"])} chez {o["m"]}' for o in shown) + "." + (" Il est aussi vendu sur Amazon, où le prix se consulte directement." if has_amz else "")
+    else:
+        where = "Nous l&#39;avons trouvé sur Amazon. Nous n&#39;affichons pas les prix Amazon : ils changent trop souvent, le prix du jour se consulte sur la fiche Amazon."
     if pr:
         a1 = (f'La note presse moyenne est de {fr(pr["avg"])}/10, calculée sur {pr["n"]} note{"s" if pr["n"] > 1 else ""}'
               + (f' (de {fr(lo["score"])} à {fr(hi["score"])}/10)' if len(scored) > 1 and hi["score"] != lo["score"] else "") + f'. {E(d["verdict"])}')
@@ -763,7 +795,7 @@ def product_page(fam, c, rank, d, items):
         (f"Que pense la presse de l'ordinateur {name} ?", a1),
         (f"Quels sont les points faibles relevés par les tests ?", (" ; ".join(E(x) for x in d["weak"]) + ".") if d["weak"] else "La presse ne relève aucun défaut majeur."),
         (f"À qui s'adresse le modèle {name} ?", f'{E(d["pour"])} À éviter si : {low_first(E(d["eviter"]))}'),
-        (f"Où l'acheter, et à quel prix ?", f'Prix relevés le {MAJ} : {E(plain_prices)}. Les prix changent vite et la configuration peut différer d&#39;un marchand à l&#39;autre : seul le prix affiché par le marchand fait foi.'),
+        (f"Où l'acheter, et à quel prix ?", f'{where} Les prix changent vite et la configuration peut différer d&#39;un marchand à l&#39;autre : seul le prix affiché par le marchand fait foi.'),
     ]
     faq_html = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(faq))
 
@@ -780,8 +812,8 @@ def product_page(fam, c, rank, d, items):
     <div class="p-side">
       {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
       <div class="press-big">{press_big(d)}</div>
-      <div class="pick-price"><b>{euro2(best['price'])}</b><span>chez {E(best['m'])} · relevé le {MAJ}</span></div>
-      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a>
+      {price_block(d)}
+      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">{cta_label(best)}</a>
     </div>
   </section>
 
@@ -824,7 +856,7 @@ def product_page(fam, c, rank, d, items):
   <section class="section p-sec" id="faq" style="border-bottom:none;">
     <div class="section-head"><h2>Questions fréquentes</h2><div class="tag">FAQ</div></div>
     <div class="faq-list">{faq_html}</div>
-    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
+    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">{cta_label(best)}</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
   </section>
 """
     note_t = f' ({fr(pr["avg"])}/10 presse)' if pr else ""
@@ -981,7 +1013,7 @@ methode = f"""
     <h2>Comment lire le graphe à bulles</h2>
     <p>Chaque bulle est un ordinateur. <b>Horizontalement</b> : la note presse. <b>Verticalement</b> : le prix le plus bas relevé. <b>Taille</b> : le nombre de notes (une grosse bulle = une note solide). <b>En pointillés</b>, à gauche : les ordinateurs testés par la presse mais sans note chiffrée. Les bonnes affaires se trouvent dans la <b>zone jaune, en bas à droite</b>.</p>
     <h2>Prix, photos et configurations</h2>
-    <p>Les prix sont relevés à la main chez Amazon, Darty, sur l'Acer Store et chez Geekom ; d'autres marchands suivront. Ils évoluent vite : <b>seul le prix affiché par le marchand fait foi</b>. Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du prix, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
+    <p>Les prix sont relevés à la main chez Darty, sur l'Acer Store et chez Geekom ; d'autres marchands suivront. Nous n'affichons pas les prix d'Amazon, qui changent trop souvent : un lien mène à la fiche Amazon, où se lit le prix du jour. Pour un ordinateur vendu uniquement sur Amazon, sa position dans le graphe ne donne qu'un ordre de grandeur. Les prix évoluent vite : <b>seul le prix affiché par le marchand fait foi</b>. Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du prix, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
     <h2>Avis clients, poids et autonomie</h2>
     <p>La note « avis clients Darty » est celle affichée par Darty le jour du relevé ; nous ne l'affichons qu'à partir de trois avis. Poids et autonomie sont ceux annoncés par le constructeur, sauf mention « test ». « n.c. » : non communiqué.</p>
     <h2>Notre indépendance</h2>
