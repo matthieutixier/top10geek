@@ -3,3 +3,4 @@ _archive_v2/
 Thumbs.db
 _source/data/
 _source/darty_releve_*.json
+__pycache__/
