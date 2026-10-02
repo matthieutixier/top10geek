@@ -319,7 +319,34 @@ def nav_html(root, active):
     return "".join(parts)
 
 
-def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg"):
+ORG = {"@type": "Organization", "@id": DOMAIN + "/#organisation", "name": "Top 10 Geek", "url": DOMAIN + "/",
+       "logo": DOMAIN + "/assets/img/logo-face.png", "email": "contact@top10geek.fr"}
+
+
+def plain(t):
+    """Texte brut pour les données structurées : sans balises ni entités HTML."""
+    return html.unescape(re.sub(r"<[^>]+>", "", t)).strip()
+
+
+def ld_crumbs(*steps):
+    """steps : (nom, chemin relatif au domaine). Le dernier élément est la page courante."""
+    return {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": plain(n), "item": f"{DOMAIN}/{p}"} for i, (n, p) in enumerate(steps, 1)]}
+
+
+def ld_faq(pairs):
+    return {"@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": plain(q), "acceptedAnswer": {"@type": "Answer", "text": plain(a)}} for q, a in pairs]}
+
+
+def ld_script(nodes):
+    if not nodes:
+        return ""
+    data = {"@context": "https://schema.org", "@graph": nodes}
+    return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>\n"
+
+
+def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None):
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -335,7 +362,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800;12..96,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}assets/style.css?v={VER}">
-</head>
+{ld_script(ld)}</head>
 <body class="{body_cls}">
 <div class="wrap">
   <div class="topbar">
@@ -471,7 +498,10 @@ def family_page(fam):
              else "Meilleur ordinateur de bureau 2026 : tours, mini-PC, tout-en-un | Top 10 Geek")
     desc = (f"{len(all_items)} PC portables 2026 classés par usage avec une note presse moyenne sur 10 : bureautique, création, gaming, polyvalent, low-cost."
             if fam["key"] == "laptop" else f"{len(all_items)} ordinateurs de bureau 2026 classés par usage avec une note presse sur 10 et les prix relevés : bureautique, création, gaming, mini-PC, tout-en-un.")
-    write(f"{fam['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/", body, fam["slug"], js_data(sel, root, by_cat[cats[0]["key"]][0]["id"])))
+    write(f"{fam['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/", body, fam["slug"], js_data(sel, root, by_cat[cats[0]["key"]][0]["id"]),
+          ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/")), ld_faq(FAQ_L),
+              {"@type": "ItemList", "name": plain(fam["h1"]), "itemListElement": [
+                  {"@type": "ListItem", "position": i, "name": plain(c["h"]), "url": f"{DOMAIN}/{fam['slug']}/{c['slug']}/"} for i, c in enumerate(cats, 1)]}]))
 
 
 # ---------------------------------------------------------------- Bloc « Notre choix » + alternatives par priorité
@@ -672,7 +702,10 @@ def usage_page(fam, c):
     else:
         title = f"Top 10 {'mini-PC' if c['key'] == 'd-mini' else 'tout-en-un' if c['key'] == 'd-aio' else 'ordinateurs de bureau ' + c['label'].lower()} 2026 : tests résumés et prix | Top 10 Geek"
         desc = f"Les 10 meilleurs ordinateurs de bureau {c['label'].lower()} en 2026, classés par note presse, avec photos, prix relevés chez les marchands, points forts et points faibles."
-    write(f"{fam['slug']}/{c['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/{c['slug']}/", body, fam["slug"], js_data(items, root, items[0]["id"])))
+    write(f"{fam['slug']}/{c['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/{c['slug']}/", body, fam["slug"], js_data(items, root, items[0]["id"]),
+          ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/"), (c["label"], f"{fam['slug']}/{c['slug']}/")),
+              {"@type": "ItemList", "name": plain(c["h1"]), "numberOfItems": n, "itemListOrder": "https://schema.org/ItemListOrderAscending",
+               "itemListElement": [{"@type": "ListItem", "position": i, "name": d["short"], "url": f"{DOMAIN}/{d['purl']}"} for i, d in enumerate(items, 1)]}]))
 
 
 for fam in FAMILIES:
@@ -682,6 +715,10 @@ for fam in FAMILIES:
 
 # ---------------------------------------------------------------- Fiches produits (une adresse par ordinateur)
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+
+
+def brand_of(short):
+    return "Alienware" if short.startswith("Alienware") else short.split()[0]
 
 
 def low_first(t):
@@ -833,8 +870,21 @@ def product_page(fam, c, rank, d, items):
     desc = lead + d["verdict"]
     if len(desc) > 158:
         desc = desc[:155].rsplit(" ", 1)[0] + "…"
+    prices = [o["price"] for o in d["offers"]]
+    product = {"@type": "Product", "@id": f"{DOMAIN}/{d['purl']}#produit", "name": d["short"], "description": d["verdict"],
+               "brand": {"@type": "Brand", "name": brand_of(d["short"])}, "category": f"{fam['label']} · {c['label']}",
+               "url": f"{DOMAIN}/{d['purl']}",
+               # Pas d'AggregateRating : Google réserve ce balisage aux notes collectées sur le site lui-même, pas aux notes de la presse.
+               "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": f"{min(prices):.2f}", "highPrice": f"{max(prices):.2f}",
+                          "offerCount": len(prices), "offers": [
+                              {"@type": "Offer", "price": f"{o['price']:.2f}", "priceCurrency": "EUR", "url": o["url"],
+                               "seller": {"@type": "Organization", "name": o["m"]}} for o in d["offers"]]}}
+    if d["img"]:
+        product["image"] = f"{DOMAIN}/assets/img/p/{d['img']}"
     write(d["purl"] + "index.html", page(root, title, desc, d["purl"], body, fam["slug"],
-                                         og_img=(f'assets/img/p/{d["img"]}' if d["img"] else "assets/img/og-image.jpg")))
+                                         og_img=(f'assets/img/p/{d["img"]}' if d["img"] else "assets/img/og-image.jpg"),
+                                         ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/"), (c["label"], f"{fam['slug']}/{c['slug']}/"), (d["short"], d["purl"])),
+                                             product, ld_faq(faq)]))
 
 
 for fam in FAMILIES:
@@ -959,7 +1009,9 @@ home = f"""
 """
 write("index.html", page("", "Top 10 Geek : tous les tests high-tech résumés pour vous — PC portables, ordinateurs de bureau",
                          "Nous lisons tous les tests de la presse high-tech et vous donnons une note presse sur 10 et un verdict clair par usage : PC portables, ordinateurs de bureau.",
-                         "", home, "home", body_cls="home"))
+                         "", home, "home", body_cls="home",
+                         ld=[ORG, {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Top 10 Geek", "description": BASELINE,
+                                   "inLanguage": "fr-FR", "publisher": {"@id": ORG["@id"]}}]))
 
 # ---------------------------------------------------------------- Méthode
 methode = f"""
@@ -992,7 +1044,7 @@ methode = f"""
 """
 write("methode.html", page("", "Notre méthode : sélection, note presse, prix relevés | Top 10 Geek",
                            "Comment Top 10 Geek sélectionne les ordinateurs, calcule la note presse, établit le classement et relève les prix chez les marchands.",
-                           "methode.html", methode, "methode"))
+                           "methode.html", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode.html")), ORG]))
 
 # ---------------------------------------------------------------- Fichiers statiques
 css = "".join(open(SRC + f, encoding="utf-8").read() for f in CSS_FILES)

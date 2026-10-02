@@ -12,7 +12,8 @@ Nouveautés v8 :
 - bloc « Notre choix » en haut de chaque page usage (verdict, 3 points forts, 1 réserve, bouton marchand) et 3 alternatives calculées sur les données (prix, note presse, poids pour les portables ou nombre de tests pour les ordinateurs de bureau) ;
 - tableau supprimé sur les comparatifs, remplacé par un sélecteur « Trier par » sur les fiches ;
 - une page par ordinateur (`/pc-portable/asus-zenbook-a14/`…) : consensus presse, pour qui / à éviter si, prix par marchand, tous les tests, alternatives, FAQ ;
-- sitemap étendu aux 100 fiches.
+- sitemap étendu aux 100 fiches ;
+- données structurées (JSON-LD) sur toutes les pages : fil d'Ariane, liste classée sur les pages usage, produit + offres + FAQ sur les fiches, organisation et site sur l'accueil. Pas de note agrégée : Google la réserve aux avis collectés sur le site lui-même.
 
 Photos : aucune image ne vient d'Amazon (leur charte ne l'autorise que via leur API). Les 22 modèles concernés utilisent une photo officielle du constructeur, listée dans `photos_constructeurs.json` ; pour toute nouvelle machine sans visuel Darty/Geekom/Acer, ajouter une photo constructeur dans ce fichier.
 
