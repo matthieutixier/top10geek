@@ -1,0 +1,41 @@
+
+  /* ===================== v7.1 : confort mobile ===================== */
+  html,body{overflow-x:clip;}
+  .soon-card{min-width:0;}
+  .to-top{display:none;}
+  @media (max-width:820px){
+    /* fiche : photo, note et prix d'abord, détails ensuite */
+    .fiche.v7{display:flex;flex-flow:row wrap;gap:12px 10px;align-items:stretch;}
+    .fiche.v7 .f-main,.fiche.v7 .f-side{display:contents;}
+    .fiche.v7 > *, .fiche.v7 .f-main > *, .fiche.v7 .f-side > *{flex:0 0 100%;min-width:0;margin-top:0;}
+    .fiche.v7 .rank{order:0;display:flex;align-items:baseline;gap:8px;}
+    .fiche.v7 .rank small{margin-top:0;}
+    .fiche.v7 .f-main > .fbadge{order:1;flex:0 0 auto;align-self:flex-start;}
+    .fiche.v7 .f-main > h3{order:2;}
+    .fiche.v7 .f-main > .ref{order:3;margin-top:-8px;}
+    .fiche.v7 .f-side > .f-photo{order:4;max-width:300px;margin:0 auto;}
+    .fiche.v7 .f-side > .press-big{order:5;}
+    .fiche.v7 .f-side > .mini{order:6;flex:1 1 auto;}
+    .fiche.v7 .f-side > .mini .v{white-space:nowrap;}
+    .fiche.v7 .f-main > .offers{order:7;}
+    .fiche.v7 .f-side > .cta{order:8;text-align:center;}
+    .fiche.v7 .f-main > .lead-line{order:9;}
+    .fiche.v7 .f-main > .pc-grid{order:10;}
+    .fiche.v7 .f-main > details{order:11;}
+    .fiche.v7 > .stamp{flex:none;}
+    /* retour en haut */
+    .to-top{display:flex;align-items:center;justify-content:center;position:fixed;right:14px;bottom:16px;width:44px;height:44px;border-radius:50%;background:var(--ink);color:#fff;font-size:1.2rem;font-weight:800;text-decoration:none;box-shadow:0 3px 0 var(--accent),0 6px 18px rgba(21,23,28,.25);z-index:50;}
+  }
+  @media (max-width:700px){
+    /* classement avant le guide d'achat */
+    .wrap{display:flex;flex-direction:column;}
+    .wrap > *{min-width:0;}
+    .wrap > .guide{order:2;border-top:1.5px solid var(--line);border-bottom:none;}
+    .wrap > footer{order:3;}
+    .guide .guide-go{display:none;}
+  }
+  @media (max-width:520px){
+    .soon-img{width:54px;top:-14px;right:4px;}
+    .soon-card h3,.soon-card p{padding-right:0;}
+    .soon-card h3{padding-right:46px;}
+  }

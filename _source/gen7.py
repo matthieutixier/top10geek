@@ -7,7 +7,7 @@ from guides import GUIDES
 from guides_desk import GUIDES_DESK
 from desk import DCATS
 SRC = "/home/claude/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main7.js'])).hexdigest()[:8]
 
 OUT = "/home/claude/out"
@@ -341,6 +341,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls=""):
       <div class="foot-links"><a href="{root}pc-portable/index.html">PC portables</a><a href="{root}ordinateur-de-bureau/index.html">Ordinateurs de bureau</a><a href="{root}methode.html">Méthode</a><a href="{root}mentions-legales.html">Mentions légales</a><a href="{root}politique-confidentialite.html">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
+  <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
 </div>
 {extra}
 <script src="{root}assets/main.js?v={VER}" defer></script>
