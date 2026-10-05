@@ -65,6 +65,15 @@ FAM = {f["key"]: f for f in FAMILIES}
 BUDGETS = [("all", "Tous les prix", 0, 1e9), ("b1", "< 500 €", 0, 500), ("b2", "500 – 1 000 €", 500, 1000),
            ("b3", "1 000 – 1 500 €", 1000, 1500), ("b4", "1 500 – 2 000 €", 1500, 2000), ("b5", "> 2 000 €", 2000, 1e9)]
 MERCHANT_CLS = {"Amazon": "amazon", "Darty": "darty", "Fnac": "fnac", "Acer Store": "acer", "Geekom": "geekom"}
+# Marchands dont le programme d'affiliation est validé (lien rémunéré). Les autres sont de simples liens directs.
+# À compléter à chaque validation (ex. Awin : "Darty", "Fnac", "Acer Store", "Geekom") : attributs rel et mentions suivent.
+AFFILIATED = ["Amazon"]
+AFF_TXT = " et ".join(AFFILIATED)
+
+
+def rel_m(m):
+    """rel d'un lien marchand : « sponsored » réservé aux liens réellement rémunérés."""
+    return "nofollow sponsored noopener" if m in AFFILIATED else "nofollow noopener"
 
 
 def fr(x, d=1):
@@ -220,7 +229,7 @@ def js_data(items, root, first):
                             catLabel=(CAT[d["cat"]]["label"] + (" · " + fam["label"] if True else "")).upper(),
                             badge=d["badge"], idx=(fr(d["idx"]) if d["idx"] else None), idxv=d["idx"], tested=bool(pr), price=d["price_txt"],
                             rating=(fr(d["r"]) + " ★" if d["r"] > 0 else ""), img=d["img"], ntests=d["tests"]["tests"],
-                            offers=[[o["m"], euro2(o["price"]), o["url"], o.get("cfg", "")] for o in d["offers"]], verdict=d["verdict"], strengths=d["strengths"], weak=d["weak"],
+                            offers=[[o["m"], euro2(o["price"]), o["url"], o.get("cfg", ""), o["m"] in AFFILIATED] for o in d["offers"]], verdict=d["verdict"], strengths=d["strengths"], weak=d["weak"],
                             m=[[fam["m_labels"][0], d["m"][0]], [fam["m_labels"][1], d["m"][1]]], url=d["url"], purl=d["purl"],
                             press=(dict(avg=fr(pr["avg"]), n=pr["n"], gamme=pr["scope"] == "gamme") if pr else None))
     return "<script>window.T10G=" + json.dumps(dict(laptops=out, root=root, first=first), ensure_ascii=False) + ";</script>"
@@ -244,7 +253,7 @@ def detail_card(root):
     <div class="offers" id="detailOffers"></div>
     <div class="featured-footer">
       <div><span class="price-tag" id="detailPrice"></span><span class="price-from">prix relevés le {MAJ}</span></div>
-      <div class="cta-row"><a class="see-all" id="detailMore" href="#">Avis et tests détaillés</a><a class="cta" id="detailCta" href="#" target="_blank" rel="nofollow sponsored noopener">Voir l'offre →</a></div>
+      <div class="cta-row"><a class="see-all" id="detailMore" href="#">Avis et tests détaillés</a><a class="cta" id="detailCta" href="#" target="_blank" rel="nofollow noopener">Voir l'offre →</a></div>
     </div>
   </div>
 </div></div>"""
@@ -375,7 +384,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
   </div>
 {body}
   <footer>
-    <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
+    <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
       <div class="foot-links"><a href="{root}pc-portable/index.html">PC portables</a><a href="{root}ordinateur-de-bureau/index.html">Ordinateurs de bureau</a><a href="{root}methode.html">Méthode</a><a href="{root}mentions-legales.html">Mentions légales</a><a href="{root}politique-confidentialite.html">Confidentialité</a><span>MAJ {MAJ}</span></div>
@@ -566,7 +575,7 @@ def pick_block(fam, c, items, root):
       <div class="pick-buy">
         <div class="press-big">{press_big(d)}</div>
         <div class="pick-price"><b>{euro2(best['price'])}</b><span>chez {E(best['m'])} · relevé le {MAJ}</span></div>
-        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a>
+        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir l'offre chez {E(best['m'])} →</a>
         <a class="see-all" href="{root}{d['purl']}">Avis, tests et prix détaillés →</a>
       </div>
     </div>
@@ -619,12 +628,12 @@ def usage_page(fam, c):
         st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
         wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
         offs = "".join(
-            f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="nofollow sponsored noopener" title="{E(o["name"])}">'
+            f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
             f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><b class="o-p">{euro2(o["price"])}</b><span class="o-go">Voir →</span></a>' for o in d["offers"])
         offers_html = f'<div class="offers"><span class="k">Prix relevés le {MAJ}</span>{offs}<p class="o-note">La configuration peut différer d\'un marchand à l\'autre : vérifiez la fiche avant d\'acheter.</p></div>'
         rating = f'{fr(d["r"])} ★ <small>({d["nrev"]})</small>' if d["r"] > 0 else ""
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
-        photo = (f'<a class="f-photo" href="{E(d["url"])}" target="_blank" rel="nofollow sponsored noopener"><img src="../../assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d["img"] else "")
+        photo = (f'<a class="f-photo" href="{E(d["url"])}" target="_blank" rel="{rel_m(d["offers"][0]["m"])}"><img src="../../assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d["img"] else "")
         best = d["offers"][0]
         fiches.append(f"""<article class="fiche v7{' top' if i == 1 else ''}" id="{d['id']}" data-budget="{d['bucket']}" data-rank="{i}" data-price="{d['p']}" data-press="{pr['avg'] if pr else -1}" data-tests="{ts['tests']}">
   {'<img class="stamp" src="../../assets/img/stamp-choix.webp" alt="Le choix de la bande" width="92" height="92" loading="lazy">' if i == 1 and d['badge'] == 'Le choix de la bande' else ''}
@@ -649,7 +658,7 @@ def usage_page(fam, c):
     {mini(fam['m_labels'][0], E(d['m'][0]))}
     {mini(fam['m_labels'][1], E(d['m'][1]))}
     {('<div class="mini"><span class="k">Avis clients Darty</span><span class="v">' + rating + '</span></div>') if rating else ''}
-    <a class="cta" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a>
+    <a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir l'offre chez {E(best['m'])} →</a>
   </div>
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
@@ -768,7 +777,7 @@ def product_page(fam, c, rank, d, items):
     st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
     wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
     offs = "".join(
-        f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="nofollow sponsored noopener" title="{E(o["name"])}">'
+        f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
         f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><b class="o-p">{euro2(o["price"])}</b><span class="o-go">Voir l&#39;offre →</span></a>' for o in d["offers"])
     specs = "".join(f"<div class=\"mini{' wide' if k.startswith('Config') else ''}\"><span class=\"k\">{k}</span><span class=\"v\">{v}</span></div>" for k, v in [
         ("Configuration de référence", E(d["ref"])), (fam["m_labels"][0], E(d["m"][0])), (fam["m_labels"][1], E(d["m"][1])),
@@ -818,7 +827,7 @@ def product_page(fam, c, rank, d, items):
       {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
       <div class="press-big">{press_big(d)}</div>
       <div class="pick-price"><b>{euro2(best['price'])}</b><span>chez {E(best['m'])} · relevé le {MAJ}</span></div>
-      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a>
+      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir l'offre chez {E(best['m'])} →</a>
     </div>
   </section>
 
@@ -842,7 +851,7 @@ def product_page(fam, c, rank, d, items):
 
   <section class="section p-sec" id="prix">
     <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Prix relevés le {MAJ}</div></div>
-    <div class="offers p-offers">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Liens d'affiliation : ils n'influencent ni les notes ni le classement.</p></div>
+    <div class="offers p-offers">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
     <div class="p-specs">{specs}</div>
   </section>
 
@@ -861,7 +870,7 @@ def product_page(fam, c, rank, d, items):
   <section class="section p-sec" id="faq" style="border-bottom:none;">
     <div class="section-head"><h2>Questions fréquentes</h2><div class="tag">FAQ</div></div>
     <div class="faq-list">{faq_html}</div>
-    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="nofollow sponsored noopener">Voir l'offre chez {E(best['m'])} →</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
+    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir l'offre chez {E(best['m'])} →</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
   </section>
 """
     note_t = f' ({fr(pr["avg"])}/10 presse)' if pr else ""
@@ -1022,7 +1031,7 @@ methode = f"""
       <img src="assets/img/pose-investigation.webp" alt="La mascotte, loupe à la main" width="200" height="200">
     </div>
     <div class="method-grid">
-      <div class="method-card"><span class="mono-big">1 · Sélection</span><h3>Deux conditions pour entrer</h3><p>Un ordinateur n'entre dans un top 10 que s'il est <b>réellement en vente</b> chez au moins un de nos marchands partenaires et s'il a fait l'objet d'<b>au moins un test</b> dans la presse.</p></div>
+      <div class="method-card"><span class="mono-big">1 · Sélection</span><h3>Deux conditions pour entrer</h3><p>Un ordinateur n'entre dans un top 10 que s'il est <b>réellement en vente</b> chez au moins un des marchands dont nous relevons les prix et s'il a fait l'objet d'<b>au moins un test</b> dans la presse.</p></div>
       <div class="method-card"><span class="mono-big">2 · Presse</span><h3>La note principale</h3><p>Moyenne simple des notes publiées par les médias spécialisés, convertie sur 10, avec le nombre de notes. Chaque note renvoie vers le test d'origine. « Gamme » signale des notes obtenues sur une configuration ou une génération proche.</p></div>
       <div class="method-card"><span class="mono-big">3 · Prix</span><h3>Relevés chez les marchands</h3><p>Pour chaque machine, nous affichons le prix relevé chez chaque marchand où nous l'avons trouvée, avec la date du relevé et la configuration correspondante.</p></div>
     </div>
@@ -1037,7 +1046,7 @@ methode = f"""
     <h2>Avis clients, poids et autonomie</h2>
     <p>La note « avis clients Darty » est celle affichée par Darty le jour du relevé ; nous ne l'affichons qu'à partir de trois avis. Poids et autonomie sont ceux annoncés par le constructeur, sauf mention « test ». « n.c. » : non communiqué.</p>
     <h2>Notre indépendance</h2>
-    <p>Aucune marque ne paie pour figurer dans nos sélections. Certains liens sont des liens d'affiliation : ils peuvent nous rapporter une commission, sans surcoût pour vous, et n'influencent ni les notes ni les classements.</p>
+    <p>Aucune marque ne paie pour figurer dans nos sélections. Certains liens sont des liens d'affiliation (à ce jour : {AFF_TXT}) : ils peuvent nous rapporter une commission, sans surcoût pour vous, et n'influencent ni les notes ni les classements.</p>
     <h2>Contact</h2>
     <p>Une remarque, une erreur repérée ? Écrivez-nous : <a href="mailto:contact@top10geek.fr">contact@top10geek.fr</a></p>
   </div>
