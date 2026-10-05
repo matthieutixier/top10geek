@@ -29,11 +29,11 @@
     $('detailArtImg').alt=d.short;
     $('detailCatImg').src=DATA.root+'assets/img/badge-'+d.badgeImg+'.webp';
     var ob=$('detailOffers'); ob.innerHTML='';
-    (d.offers||[]).forEach(function(o){var a=document.createElement('a');a.className='offer';a.href=o[2];a.target='_blank';a.rel='nofollow sponsored noopener';
+    (d.offers||[]).forEach(function(o){var a=document.createElement('a');a.className='offer';a.href=o[2];a.target='_blank';a.rel=o[4]?'nofollow sponsored noopener':'nofollow noopener';
       [['o-m',o[0]],['o-c',o[3]||''],['o-p',o[1]],['o-go','Voir →']].forEach(function(x){var e=document.createElement(x[0]==='o-p'?'b':'span');e.className=x[0];e.textContent=x[1];a.appendChild(e);});ob.appendChild(a);});
     fill($('detailStrengths'),d.strengths);
     fill($('detailWeak'),d.weak.length?d.weak:['Aucun défaut majeur relevé par la presse']);
-    $('detailCta').href=d.url; if(d.offers&&d.offers.length){ $('detailCta').textContent="Voir l'offre chez "+d.offers[0][0]+' →'; }
+    $('detailCta').href=d.url; if(d.offers&&d.offers.length){ $('detailCta').rel=d.offers[0][4]?'nofollow sponsored noopener':'nofollow noopener'; $('detailCta').textContent="Voir l'offre chez "+d.offers[0][0]+' →'; }
     $('detailMore').href=DATA.root+d.purl;
     if(chart) chart.querySelectorAll('.bubble').forEach(function(c){c.classList.toggle('selected',c.getAttribute('data-id')===id);});
     if(!(opts&&opts.skipScroll)){ card.scrollIntoView({behavior:'smooth',block:window.innerWidth<=900?'start':'nearest'}); }
