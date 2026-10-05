@@ -1,5 +1,5 @@
 {
- "date": "02/10/2026",
+ "date": "05/10/2026",
  "items": {
   "zenbook-a14": {
    "cat": "bureau",
@@ -238,7 +238,8 @@
    ],
    "img": "zenbook-a14.webp",
    "rating": 4.5,
-   "nrev": 41
+   "nrev": 41,
+   "prix": 999.0
   },
   "mba13-m5": {
    "cat": "bureau",
@@ -352,24 +353,25 @@
    },
    "offers": [
     {
+     "m": "Amazon",
+     "price": 1299.0,
+     "url": "https://www.amazon.fr/dp/B0GR1YQD11?tag=geekconcept-21",
+     "name": "Apple MacBook Air 13 Pouces Portable avec Puce M5 : Conçu pour l’IA, Écran Liquid Retina 13,6 Pouces, Mémoire unifiée 16",
+     "cfg": "",
+     "asin": "B0GR1YQD11"
+    },
+    {
      "m": "Darty",
      "price": 1399.0,
      "url": "https://www.darty.com/nav/achat/informatique/macbook_imac_ipad/macbook/apple_mba13_m5_16_512_bl.html",
      "name": "Apple Air 13\" 512 Go SSD 16 Go RAM Puce M5 CPU 10 cœurs GPU 8 cœurs Minuit",
      "cfg": "16 Go · 512 Go"
-    },
-    {
-     "m": "Amazon",
-     "price": 1399.0,
-     "url": "https://www.amazon.fr/dp/B0GR1YQD11?tag=geekconcept-21",
-     "name": "Apple MacBook Air 13 Pouces Portable avec Puce M5 : Conçu pour l’IA, Écran Liquid Retina 13,6 Pouces, Mémoire unifiée 16",
-     "cfg": "",
-     "asin": "B0GR1YQD11"
     }
    ],
    "img": "mba13-m5.webp",
    "rating": 4.9,
-   "nrev": 29
+   "nrev": 29,
+   "prix": 1299.0
   },
   "macbook-neo": {
    "cat": "bureau",
@@ -592,12 +594,14 @@
      "url": "https://www.amazon.fr/dp/B0GR6LPCW6?tag=geekconcept-21",
      "name": "Apple MacBook Neo 13″ 2026 Portable avec Puce A18 Pro : Conçu pour l’IA et Apple Intelligence, écran Liquid Retina, mémo",
      "cfg": "",
-     "asin": "B0GR6LPCW6"
+     "asin": "B0GR6LPCW6",
+     "dispo": false
     }
    ],
    "img": "macbook-neo.webp",
    "rating": 4.7,
-   "nrev": 17
+   "nrev": 17,
+   "prix": 799.0
   },
   "surface-pro-12": {
    "cat": "bureau",
@@ -717,7 +721,8 @@
    ],
    "img": "surface-pro-12.webp",
    "rating": 4.8,
-   "nrev": 13
+   "nrev": 13,
+   "prix": 749.0
   },
   "surface-laptop-13": {
    "cat": "bureau",
@@ -807,7 +812,8 @@
    ],
    "img": "surface-laptop-13.webp",
    "rating": 4.4,
-   "nrev": 8
+   "nrev": 8,
+   "prix": 1099.99
   },
   "zenbook-a16": {
    "cat": "bureau",
@@ -1005,7 +1011,8 @@
    ],
    "img": "zenbook-a16.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1049.99
   },
   "omnibook5-14": {
    "cat": "bureau",
@@ -1099,7 +1106,8 @@
    ],
    "img": "omnibook5-14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1199.99
   },
   "ideapad-slim3x": {
    "cat": "bureau",
@@ -1176,7 +1184,8 @@
    ],
    "img": "ideapad-slim3x.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 749.99
   },
   "galaxy-book4-edge": {
    "cat": "bureau",
@@ -1369,24 +1378,25 @@
    },
    "offers": [
     {
-     "m": "Amazon",
-     "price": 938.19,
-     "url": "https://www.amazon.fr/dp/B0G1TMT383?tag=geekconcept-21",
-     "name": "Samsung Galaxy Book4 Edge Ordinateur Portable avec IA 15.6’’, Copilot+ PC, Snapdragon X Plus (8-Core), Mémoire 16 Go, St",
-     "cfg": "16 Go",
-     "asin": "B0G1TMT383"
-    },
-    {
      "m": "Darty",
      "price": 959.99,
      "url": "https://www.darty.com/nav/achat/informatique/ordinateur_portable-portable/portable/samsung_np750xqb_qlc_16_512.html",
      "name": "Samsung Galaxy Book4 Edge 15,6\" Copilot+PC Snapdragon® X 16 Go RAM 512 Go SSD Gris glacier",
      "cfg": "16 Go · 512 Go"
+    },
+    {
+     "m": "Amazon",
+     "price": 1183.48,
+     "url": "https://www.amazon.fr/dp/B0G1TMT383?tag=geekconcept-21",
+     "name": "Samsung Galaxy Book4 Edge Ordinateur Portable avec IA 15.6’’, Copilot+ PC, Snapdragon X Plus (8-Core), Mémoire 16 Go, St",
+     "cfg": "16 Go",
+     "asin": "B0G1TMT383"
     }
    ],
    "img": "galaxy-book4-edge.webp",
    "rating": 4.7,
-   "nrev": 35
+   "nrev": 35,
+   "prix": 959.99
   },
   "swift-air-14": {
    "cat": "bureau",
@@ -1474,7 +1484,8 @@
    ],
    "img": "swift-air-14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 899.99
   },
   "mbp14-m5": {
    "cat": "creation",
@@ -1622,7 +1633,8 @@
    ],
    "img": "mbp14-m5.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2199.0
   },
   "xps14": {
    "cat": "creation",
@@ -1789,7 +1801,8 @@
    ],
    "img": "xps14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 3149.0
   },
   "proart-p16": {
    "cat": "creation",
@@ -1902,7 +1915,8 @@
    ],
    "img": "proart-p16.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2799.99
   },
   "proart-px13": {
    "cat": "creation",
@@ -2034,7 +2048,8 @@
    ],
    "img": "proart-px13.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 3499.99
   },
   "yoga-pro9": {
    "cat": "creation",
@@ -2165,7 +2180,8 @@
    ],
    "img": "yoga-pro9.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2449.99
   },
   "yoga-pro7": {
    "cat": "creation",
@@ -2234,7 +2250,8 @@
    ],
    "img": "yoga-pro7.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2169.99
   },
   "zenbook-duo": {
    "cat": "creation",
@@ -2540,7 +2557,8 @@
    ],
    "img": "zenbook-duo.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1999.99
   },
   "aero-x16": {
    "cat": "creation",
@@ -2642,7 +2660,8 @@
    ],
    "img": "aero-x16.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 1783.22
   },
   "mba15-m5": {
    "cat": "creation",
@@ -2732,7 +2751,8 @@
    ],
    "img": "mba15-m5.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1549.0
   },
   "zephyrus-g16": {
    "cat": "creation",
@@ -2881,7 +2901,8 @@
    ],
    "img": "zephyrus-g16.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 3399.0
   },
   "legion5": {
    "cat": "gaming",
@@ -2970,7 +2991,8 @@
    ],
    "img": "legion5.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 1449.99
   },
   "omen-max-16": {
    "cat": "gaming",
@@ -3108,7 +3130,8 @@
    ],
    "img": "omen-max-16.webp",
    "rating": 5.0,
-   "nrev": 2
+   "nrev": 2,
+   "prix": 2199.99
   },
   "helios-neo-16": {
    "cat": "gaming",
@@ -3227,7 +3250,8 @@
    ],
    "img": "helios-neo-16.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2799.0
   },
   "loq15": {
    "cat": "gaming",
@@ -3353,7 +3377,8 @@
    ],
    "img": "loq15.webp",
    "rating": 4.5,
-   "nrev": 2
+   "nrev": 2,
+   "prix": 1349.99
   },
   "katana15": {
    "cat": "gaming",
@@ -3427,7 +3452,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1647.47,
+     "price": 1648.43,
      "url": "https://www.amazon.fr/dp/B0F2GP7S8Y?tag=geekconcept-21",
      "name": "MSI Katana 15 HX B14WGK-018FR : Intel Core i7-14650HX - 16GB DDR5 (2x8gb) - SSD 1TB NVMe PCIe - Nvidia RTX 5070 8GB GDDR",
      "cfg": "16 Go · 1 To · RTX 5070",
@@ -3436,7 +3461,8 @@
    ],
    "img": "katana15.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 1399.99
   },
   "cyborg15": {
    "cat": "gaming",
@@ -3519,7 +3545,8 @@
    ],
    "img": "cyborg15.webp",
    "rating": 4.8,
-   "nrev": 4
+   "nrev": 4,
+   "prix": 1149.99
   },
   "crosshair16": {
    "cat": "gaming",
@@ -3579,24 +3606,25 @@
    },
    "offers": [
     {
+     "m": "Amazon",
+     "price": 1971.34,
+     "url": "https://www.amazon.fr/dp/B0F9X8733S?tag=geekconcept-21",
+     "name": "MSI Crosshair 16 HX AI D2XWGKG-012FR : Intel Core Ultra 9 275HX - 16 GB DDR5 - SSD 1TB - Nvidia RTX 5070 8GB - 16' QHD+ ",
+     "cfg": "16 Go · 1 To · RTX 5070",
+     "asin": "B0F9X8733S"
+    },
+    {
      "m": "Darty",
      "price": 1999.99,
      "url": "https://www.darty.com/nav/achat/informatique/ordinateur_portable-portable/portable/msi_crossh_u7_16_12_5070.html",
      "name": "Msi gaming Crosshair 16 HX AI D2XWGKG-001FR 16\" QHD+ 240 Hz Intel® Core™ Ultra 7 16 Go RAM 512 Go SSD Nvidia GeForce RTX 5070 Noir",
      "cfg": "16 Go · 512 Go · RTX 5070"
-    },
-    {
-     "m": "Amazon",
-     "price": 2111.71,
-     "url": "https://www.amazon.fr/dp/B0F9X8733S?tag=geekconcept-21",
-     "name": "MSI Crosshair 16 HX AI D2XWGKG-012FR : Intel Core Ultra 9 275HX - 16 GB DDR5 - SSD 1TB - Nvidia RTX 5070 8GB - 16' QHD+ ",
-     "cfg": "16 Go · 1 To · RTX 5070",
-     "asin": "B0F9X8733S"
     }
    ],
    "img": "crosshair16.webp",
    "rating": 4.8,
-   "nrev": 33
+   "nrev": 33,
+   "prix": 1971.34
   },
   "strix-g16": {
    "cat": "gaming",
@@ -3734,7 +3762,8 @@
    ],
    "img": "strix-g16.webp",
    "rating": 1.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 1549.0
   },
   "gigabyte-a16": {
    "cat": "gaming",
@@ -3818,12 +3847,14 @@
      "url": "https://www.amazon.fr/dp/B0FDQYZ39N?tag=geekconcept-21",
      "name": "GIGABYTE Gaming A16 Ordinateur Portable – 16“, 165Hz WUXGA, Ryzen 7 260, RTX 5060, 16Go DDR5 5200MHz, SSD Gen4 1To, Wind",
      "cfg": "16 Go · 1 To · RTX 5060",
-     "asin": "B0FDQYZ39N"
+     "asin": "B0FDQYZ39N",
+     "dispo": false
     }
    ],
    "img": "gigabyte-a16.webp",
    "rating": 5.0,
-   "nrev": 4
+   "nrev": 4,
+   "prix": 1249.99
   },
   "nitro-v16": {
    "cat": "gaming",
@@ -3884,7 +3915,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1549.0,
+     "price": 1369.0,
      "url": "https://www.amazon.fr/dp/B0GDGJ9LZ6?tag=geekconcept-21",
      "name": "Acer Nitro V 16 | PC Portable Gaming 16\" WUXGA 165Hz | AMD Ryzen 7 260 | NVIDIA GeForce RTX 5060 | 16 Go RAM | 1 to SSD ",
      "cfg": "16 Go · 1 To · RTX 5060",
@@ -3900,7 +3931,8 @@
    ],
    "img": "nitro-v16.webp",
    "rating": 4.3,
-   "nrev": 42
+   "nrev": 42,
+   "prix": 1369.0
   },
   "yoga-slim7": {
    "cat": "polyvalent",
@@ -4073,7 +4105,8 @@
    ],
    "img": "yoga-slim7.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 899.99
   },
   "yoga-slim7x": {
    "cat": "polyvalent",
@@ -4241,7 +4274,8 @@
    ],
    "img": "yoga-slim7x.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1049.99
   },
   "vivobook-s14": {
    "cat": "polyvalent",
@@ -4348,7 +4382,8 @@
    ],
    "img": "vivobook-s14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 959.99
   },
   "zenbook-s14": {
    "cat": "polyvalent",
@@ -4591,7 +4626,8 @@
    ],
    "img": "zenbook-s14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1299.99
   },
   "zenbook-s16": {
    "cat": "polyvalent",
@@ -4842,7 +4878,8 @@
    ],
    "img": "zenbook-s16.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1699.0
   },
   "omnibook-x-flip14": {
    "cat": "polyvalent",
@@ -4950,7 +4987,8 @@
    ],
    "img": "omnibook-x-flip14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1299.0
   },
   "yoga7-2in1": {
    "cat": "polyvalent",
@@ -5069,7 +5107,8 @@
    ],
    "img": "yoga7-2in1.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1169.99
   },
   "ideapad-slim5-16": {
    "cat": "polyvalent",
@@ -5129,12 +5168,14 @@
      "url": "https://www.amazon.fr/dp/B0GX1T7MV1?tag=geekconcept-21",
      "name": "Lenovo IdeaPad Slim 5 | Laptop | Ultra 5 | 16Go | 512 Go | sans Chargeur",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0GX1T7MV1"
+     "asin": "B0GX1T7MV1",
+     "dispo": false
     }
    ],
    "img": "ideapad-slim5-16.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 919.99
   },
   "swift16ai": {
    "cat": "polyvalent",
@@ -5281,7 +5322,8 @@
    ],
    "img": "swift16ai.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1979.99
   },
   "lg-gram17": {
    "cat": "polyvalent",
@@ -5359,7 +5401,8 @@
    ],
    "img": "lg-gram17.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1799.99
   },
   "aspire-go-15": {
    "cat": "lowcost",
@@ -5474,7 +5517,8 @@
    ],
    "img": "aspire-go-15.webp",
    "rating": 4.5,
-   "nrev": 109
+   "nrev": 109,
+   "prix": 429.99
   },
   "ideapad-slim3": {
    "cat": "lowcost",
@@ -5606,7 +5650,8 @@
    ],
    "img": "ideapad-slim3.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 399.99
   },
   "ideapad1": {
    "cat": "lowcost",
@@ -5688,7 +5733,8 @@
    ],
    "img": "ideapad1.webp",
    "rating": 4.6,
-   "nrev": 253
+   "nrev": 253,
+   "prix": 433.99
   },
   "chromebook-315": {
    "cat": "lowcost",
@@ -5732,7 +5778,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 299.0,
+     "price": 276.74,
      "url": "https://www.amazon.fr/dp/B0G6LDR5WC?tag=geekconcept-21",
      "name": "Acer Chromebook 315 | 15.6\" | Kompanio 540 | 4GB | 64GB | ChromeOS",
      "cfg": "4 Go · 64 Go",
@@ -5748,7 +5794,8 @@
    ],
    "img": "chromebook-315.webp",
    "rating": 4.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 276.74
   },
   "chromebook-plus-514": {
    "cat": "lowcost",
@@ -5852,7 +5899,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 391.3,
+     "price": 399.0,
      "url": "https://www.amazon.fr/dp/B0BBKYTKXR?tag=geekconcept-21",
      "name": "Acer Chromebook Plus 514 I 14\" WUXGA | Core 3 | 8Go | 128Go | ChromeOS",
      "cfg": "8 Go · 128 Go",
@@ -5868,7 +5915,8 @@
    ],
    "img": "chromebook-plus-514.webp",
    "rating": 4.8,
-   "nrev": 4
+   "nrev": 4,
+   "prix": 399.0
   },
   "chromebook-duet": {
    "cat": "lowcost",
@@ -5963,7 +6011,8 @@
    ],
    "img": "chromebook-duet.webp",
    "rating": 5.0,
-   "nrev": 9
+   "nrev": 9,
+   "prix": 399.99
   },
   "vivobook-14": {
    "cat": "lowcost",
@@ -6039,7 +6088,8 @@
    ],
    "img": "vivobook-14.webp",
    "rating": 4.0,
-   "nrev": 3
+   "nrev": 3,
+   "prix": 339.99
   },
   "vivobook-go-14": {
    "cat": "lowcost",
@@ -6102,7 +6152,8 @@
    ],
    "img": "vivobook-go-14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 449.99
   },
   "lenovo-v15": {
    "cat": "lowcost",
@@ -6162,7 +6213,8 @@
      "url": "https://www.amazon.fr/dp/B0BXH28QDQ?tag=geekconcept-21",
      "name": "Lenovo Ordinateur Portable 15\" V15 G4 82YU00TWFR - Ryzen 3/8 Go/256 Go/Win 11",
      "cfg": "8 Go · 256 Go",
-     "asin": "B0BXH28QDQ"
+     "asin": "B0BXH28QDQ",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -6174,7 +6226,8 @@
    ],
    "img": "lenovo-v15.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 549.99
   },
   "chromebook-cx14": {
    "cat": "lowcost",
@@ -6239,7 +6292,8 @@
    ],
    "img": "chromebook-cx14.webp",
    "rating": 4.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 329.99
   },
   "mac-mini-m6": {
    "cat": "d-bureau",
@@ -6341,7 +6395,8 @@
    ],
    "img": "mac-mini-m6.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1034.0
   },
   "ideacentre-mini": {
    "cat": "d-bureau",
@@ -6412,7 +6467,8 @@
    ],
    "img": "ideacentre-mini.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 699.99
   },
   "omnidesk-slim": {
    "cat": "d-bureau",
@@ -6471,7 +6527,8 @@
    ],
    "img": "omnidesk-slim.webp",
    "rating": 4.6,
-   "nrev": 5
+   "nrev": 5,
+   "prix": 569.99
   },
   "dell-slim": {
    "cat": "d-bureau",
@@ -6530,7 +6587,8 @@
    ],
    "img": "dell-slim.webp",
    "rating": 4.5,
-   "nrev": 11
+   "nrev": 11,
+   "prix": 807.84
   },
   "ideacentre-tower": {
    "cat": "d-bureau",
@@ -6589,7 +6647,8 @@
    ],
    "img": "ideacentre-tower.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 879.99
   },
   "asus-v500": {
    "cat": "d-bureau",
@@ -6654,7 +6713,8 @@
    ],
    "img": "asus-v500.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 662.92
   },
   "aspire-xc": {
    "cat": "d-bureau",
@@ -6708,12 +6768,14 @@
      "price": 799.99,
      "url": "https://store.acer.com/fr-fr/acer-aspire-xc-pc-de-bureau-xc-1860-noir-dt-bmyeh-005",
      "name": "Acer Aspire XC-1860 · Core Ultra 5 225 · 8 Go · 512 Go SSD",
-     "cfg": "8 Go · 512 Go"
+     "cfg": "8 Go · 512 Go",
+     "dispo": false
     }
    ],
    "img": "aspire-xc.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 593.99
   },
   "geekom-a5": {
    "cat": "d-bureau",
@@ -6803,7 +6865,8 @@
    ],
    "img": "geekom-a5.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 499.0
   },
   "geekom-air12-lite": {
    "cat": "d-bureau",
@@ -6881,7 +6944,8 @@
    ],
    "img": "geekom-air12-lite.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 299.0
   },
   "geekom-it12": {
    "cat": "d-bureau",
@@ -7012,7 +7076,8 @@
    ],
    "img": "geekom-it12.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 449.0
   },
   "mac-mini-m5pro": {
    "cat": "d-creation",
@@ -7083,7 +7148,8 @@
    ],
    "img": "mac-mini-m5pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1987.89
   },
   "mac-studio-m5max": {
    "cat": "d-creation",
@@ -7160,7 +7226,8 @@
    ],
    "img": "mac-studio-m5max.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2999.0
   },
   "geekom-a9max": {
    "cat": "d-creation",
@@ -7370,7 +7437,8 @@
    ],
    "img": "geekom-a9max.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1699.0
   },
   "geekom-it15": {
    "cat": "d-creation",
@@ -7472,7 +7540,8 @@
    ],
    "img": "geekom-it15.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1399.0
   },
   "geekom-gt1mega": {
    "cat": "d-creation",
@@ -7597,7 +7666,8 @@
    ],
    "img": "geekom-gt1mega.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 849.0
   },
   "hp-z2-mini": {
    "cat": "d-creation",
@@ -7661,7 +7731,8 @@
    ],
    "img": "hp-z2-mini.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2300.0
   },
   "thinkstation-p3": {
    "cat": "d-creation",
@@ -7725,7 +7796,8 @@
    ],
    "img": "thinkstation-p3.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1199.99
   },
   "minisforum-ai-x1-pro": {
    "cat": "d-creation",
@@ -7783,7 +7855,8 @@
    ],
    "img": "minisforum-ai-x1-pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1229.0
   },
   "minisforum-ms-s1-max": {
    "cat": "d-creation",
@@ -7841,7 +7914,8 @@
    ],
    "img": "minisforum-ms-s1-max.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2719.0
   },
   "gmktec-evo-x2": {
    "cat": "d-creation",
@@ -7924,7 +7998,8 @@
    ],
    "img": "gmktec-evo-x2.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2259.96
   },
   "omen35l": {
    "cat": "d-gaming",
@@ -8019,7 +8094,8 @@
    ],
    "img": "omen35l.webp",
    "rating": 4.8,
-   "nrev": 6
+   "nrev": 6,
+   "prix": 2199.99
   },
   "omen16l": {
    "cat": "d-gaming",
@@ -8084,7 +8160,8 @@
    ],
    "img": "omen16l.webp",
    "rating": 4.6,
-   "nrev": 12
+   "nrev": 12,
+   "prix": 999.0
   },
   "loq-tower": {
    "cat": "d-gaming",
@@ -8161,7 +8238,8 @@
    ],
    "img": "loq-tower.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1299.99
   },
   "legion-tower-5": {
    "cat": "d-gaming",
@@ -8219,7 +8297,8 @@
    ],
    "img": "legion-tower-5.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2062.99
   },
   "orion-7000": {
    "cat": "d-gaming",
@@ -8290,12 +8369,14 @@
      "price": 2499.99,
      "url": "https://store.acer.com/fr-fr/predator-orion-7000-pc-gamer-po7-655-noir-dg-e3zef-019",
      "name": "Predator Orion 7000 PO7-655 · Core i7-14700KF · 32 Go · 1 To SSD · RTX 4080 SUPER",
-     "cfg": "32 Go · 1 To · RTX 4080 SUPER"
+     "cfg": "32 Go · 1 To · RTX 4080 SUPER",
+     "dispo": false
     }
    ],
    "img": "orion-7000.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2499.99
   },
   "nitro-60": {
    "cat": "d-gaming",
@@ -8347,7 +8428,8 @@
    ],
    "img": "nitro-60.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1868.3
   },
   "nitro-50": {
    "cat": "d-gaming",
@@ -8398,7 +8480,8 @@
    ],
    "img": "nitro-50.webp",
    "rating": 4.7,
-   "nrev": 15
+   "nrev": 15,
+   "prix": 1099.99
   },
   "rog-g700": {
    "cat": "d-gaming",
@@ -8457,7 +8540,8 @@
    ],
    "img": "rog-g700.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 2499.99
   },
   "aorus-prime-5": {
    "cat": "d-gaming",
@@ -8522,7 +8606,8 @@
    ],
    "img": "aorus-prime-5.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 3199.99
   },
   "area-51": {
    "cat": "d-gaming",
@@ -8580,7 +8665,8 @@
    ],
    "img": "area-51.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 4749.0
   },
   "geekom-a8": {
    "cat": "d-mini",
@@ -8747,7 +8833,8 @@
    ],
    "img": "geekom-a8.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 749.0
   },
   "geekom-a5pro": {
    "cat": "d-mini",
@@ -8873,7 +8960,8 @@
    ],
    "img": "geekom-a5pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 538.69
   },
   "geekom-a6": {
    "cat": "d-mini",
@@ -8950,7 +9038,8 @@
    ],
    "img": "geekom-a6.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 569.0
   },
   "geekom-a7": {
    "cat": "d-mini",
@@ -9136,7 +9225,8 @@
    ],
    "img": "geekom-a7.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 529.0
   },
   "geekom-it13": {
    "cat": "d-mini",
@@ -9369,7 +9459,8 @@
    ],
    "img": "geekom-it13.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 579.0
   },
   "beelink-eq14": {
    "cat": "d-mini",
@@ -9439,7 +9530,8 @@
    ],
    "img": "beelink-eq14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 459.0
   },
   "beelink-ser9pro": {
    "cat": "d-mini",
@@ -9491,7 +9583,8 @@
    ],
    "img": "beelink-ser9pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 669.0
   },
   "nipogi-am06pro": {
    "cat": "d-mini",
@@ -9568,7 +9661,8 @@
    ],
    "img": "nipogi-am06pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 429.0
   },
   "acemagic-k1": {
    "cat": "d-mini",
@@ -9638,7 +9732,8 @@
    ],
    "img": "acemagic-k1.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 429.0
   },
   "gmktec-k13": {
    "cat": "d-mini",
@@ -9726,7 +9821,8 @@
    ],
    "img": "gmktec-k13.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 559.96
   },
   "imac-m4": {
    "cat": "d-aio",
@@ -9834,7 +9930,8 @@
    ],
    "img": "imac-m4.webp",
    "rating": 4.6,
-   "nrev": 14
+   "nrev": 14,
+   "prix": 1799.0
   },
   "omnistudio-x32": {
    "cat": "d-aio",
@@ -9899,7 +9996,8 @@
    ],
    "img": "omnistudio-x32.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 2099.99
   },
   "omnistudio-x27": {
    "cat": "d-aio",
@@ -9958,7 +10056,8 @@
    ],
    "img": "omnistudio-x27.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1714.12
   },
   "hp-omnistudio-27": {
    "cat": "d-aio",
@@ -10017,7 +10116,8 @@
    ],
    "img": "hp-omnistudio-27.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 729.99
   },
   "yoga-aio-32": {
    "cat": "d-aio",
@@ -10068,7 +10168,8 @@
    ],
    "img": "yoga-aio-32.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 3399.99
   },
   "ideacentre-aio-27": {
    "cat": "d-aio",
@@ -10133,7 +10234,8 @@
    ],
    "img": "ideacentre-aio-27.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 879.99
   },
   "asus-v400": {
    "cat": "d-aio",
@@ -10192,7 +10294,8 @@
    ],
    "img": "asus-v400.webp",
    "rating": 5.0,
-   "nrev": 1
+   "nrev": 1,
+   "prix": 981.78
   },
   "aspire-c27": {
    "cat": "d-aio",
@@ -10287,7 +10390,8 @@
    ],
    "img": "aspire-c27.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 1099.99
   },
   "dell-24-aio": {
    "cat": "d-aio",
@@ -10339,7 +10443,8 @@
    ],
    "img": "dell-24-aio.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "prix": 649.0
   },
   "msi-modern-am273": {
    "cat": "d-aio",
@@ -10398,7 +10503,9 @@
    ],
    "img": "msi-modern-am273.webp",
    "rating": 5.0,
-   "nrev": 4
+   "nrev": 4,
+   "prix": 1117.99
   }
- }
+ },
+ "prix_date": "octobre 2026"
 }

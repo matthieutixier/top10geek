@@ -749,3 +749,17 @@
     .sort-select{flex:1;}
   }
   .p-specs .mini.wide{grid-column:1/-1;}
+
+/* v9 — liens marchands sans prix, prix indicatif */
+  .offer{grid-template-columns:104px 1fr auto;}
+  .featured .offer{grid-template-columns:92px 1fr auto;}
+  .offer:first-of-type{border-color:var(--line);box-shadow:none;}
+  .offer:first-of-type:hover{border-color:var(--ink);box-shadow:0 4px 14px rgba(21,23,28,0.08);}
+  .pick-price b{font-size:1.45rem;}
+  @media (max-width:640px){
+    .offer{grid-template-columns:84px 1fr auto;}
+    .offer .o-go{display:inline;}
+  }
+  @media (max-width:420px){
+    .offer{grid-template-columns:1fr auto;}
+  }
