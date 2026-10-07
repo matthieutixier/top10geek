@@ -139,7 +139,7 @@ for pid, n in DATA["items"].items():
     d["from"] = len(offers) > 1
     d["price_txt"] = "env. " + euro_ind(d["p"])
     d["bucket"] = bucket(d["p"])
-    d["href"] = f'{c["fslug"]}/{c["slug"]}/index.html#{pid}'
+    d["href"] = f'{c["fslug"]}/{c["slug"]}/#{pid}'
     d["pslug"] = pslug(n["short"])
     d["purl"] = f'{c["fslug"]}/{d["pslug"]}/'
     d["pour"], d["eviter"] = PROFILES[pid]
@@ -337,12 +337,12 @@ PROVISIONAL_NOTE = '<div class="provisional"><b>Sélection provisoire.</b> Le co
 def nav_html(root, active):
     parts = []
     for f in FAMILIES:
-        subs = f'<a class="dd-all" href="{root}{f["slug"]}/index.html"><span>Tout le comparatif</span><span class="arr">→</span></a><div class="dd-sep">Par usage</div>' + "".join(
-            f'<a href="{root}{f["slug"]}/{c["slug"]}/index.html"><span class="dot {c["cls"].replace("f-", "")}"></span>{c["label"]}</a>' for c in f["cats"])
+        subs = f'<a class="dd-all" href="{root}{f["slug"]}/"><span>Tout le comparatif</span><span class="arr">→</span></a><div class="dd-sep">Par usage</div>' + "".join(
+            f'<a href="{root}{f["slug"]}/{c["slug"]}/"><span class="dot {c["cls"].replace("f-", "")}"></span>{c["label"]}</a>' for c in f["cats"])
         act = " active" if active == f["slug"] else ""
-        parts.append(f"""<div class="dd{act}"><a class="dd-top" href="{root}{f['slug']}/index.html" aria-haspopup="true">{f['label']}<span class="caret">▾</span></a>
+        parts.append(f"""<div class="dd{act}"><a class="dd-top" href="{root}{f['slug']}/" aria-haspopup="true">{f['label']}<span class="caret">▾</span></a>
   <div class="dd-menu">{subs}</div></div>""")
-    parts.append(f'<a class="nav-link{" active" if active == "methode" else ""}" href="{root}methode.html">Méthode</a>')
+    parts.append(f'<a class="nav-link{" active" if active == "methode" else ""}" href="{root}methode">Méthode</a>')
     return "".join(parts)
 
 
@@ -393,7 +393,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 <body class="{body_cls}">
 <div class="wrap">
   <div class="topbar">
-    <a class="brand-lockup" href="{root}index.html">
+    <a class="brand-lockup" href="{root or "./"}">
       <img class="brand-mark" src="{root}assets/img/logo-face.webp" alt="Symbole Top 10 Geek" width="40" height="40">
       <div class="brand-text"><div class="brand">TOP<span class="dot">10</span>GEEK</div><div class="baseline">{BASELINE}</div></div>
     </a>
@@ -405,7 +405,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/index.html">PC portables</a><a href="{root}ordinateur-de-bureau/index.html">Ordinateurs de bureau</a><a href="{root}methode.html">Méthode</a><a href="{root}mentions-legales.html">Mentions légales</a><a href="{root}politique-confidentialite.html">Confidentialité</a><span>MAJ {MAJ}</span></div>
+      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}methode">Méthode</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
@@ -444,7 +444,7 @@ def usage_cards(fam, root):
         top = by_cat[c["key"]][0]
         pr = top["press"]
         note = f'{fr(pr["avg"])}/10 presse' if pr else "testé, sans note"
-        out.append(f"""<a class="usage-card" href="{root}{fam['slug']}/{c['slug']}/index.html">
+        out.append(f"""<a class="usage-card" href="{root}{fam['slug']}/{c['slug']}/">
   <div class="uc-art"><img src="{root}assets/img/badge-{c['badge']}.webp" alt="" loading="lazy" width="110" height="110"></div>
   <div class="uc-body"><span class="uc-tag">{c['tag']}</span><h3><span class="dot {c['cls'].replace('f-', '')}"></span>{c['h']}</h3>
   <p class="uc-pick">Le choix de la bande : <b>{E(top['short'])}</b> — {note}</p>
@@ -478,7 +478,7 @@ def family_page(fam):
     faq = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(FAQ_L))
     tested = sum(1 for d in all_items if d["press"])
     body = f"""
-  <div class="crumb"><a href="../index.html">Accueil</a> › {fam['plural']}</div>
+  <div class="crumb"><a href="../">Accueil</a> › {fam['plural']}</div>
   <section class="usage-hero">
     <div>
       <div class="eyebrow">COMPARATIF {fam['plural'].upper()} · MAJ {MAJ}</div>
@@ -683,7 +683,7 @@ def usage_page(fam, c):
               else f'<img class="hero-badge" src="../../assets/img/badge-{c["badge"]}.webp" alt="" width="190" height="190">')
     top_word = f"Le top 10 {c['label'].lower()}" if n == 10 else f"Notre sélection {c['label'].lower()}"
     body = f"""
-  <div class="crumb"><a href="../../index.html">Accueil</a> › <a href="../index.html">{fam['plural']}</a> › {c['label']}</div>
+  <div class="crumb"><a href="../../">Accueil</a> › <a href="../">{fam['plural']}</a> › {c['label']}</div>
   <section class="usage-hero">
     <div>
       <div class="eyebrow">{c['tag'].upper()} · MAJ {MAJ}</div>
@@ -812,7 +812,7 @@ def product_page(fam, c, rank, d, items):
       <span class="alt-meta">{(fr(a['press']['avg']) + '/10 presse · ') if a['press'] else ''}{a['price_txt']}</span></a>""" for a in near)
 
     usage_txt = f"{fam['plural']} {c['label'].lower()}" if c["key"] not in ("d-mini", "d-aio") else ("mini-PC" if c["key"] == "d-mini" else "ordinateurs tout-en-un")
-    usage_url = f"{root}{fam['slug']}/{c['slug']}/index.html"
+    usage_url = f"{root}{fam['slug']}/{c['slug']}/"
     rank_txt = (f'<b>Notre choix</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>' if rank == 1
                 else f'<b>N° {rank} sur {n_items}</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>')
 
@@ -833,7 +833,7 @@ def product_page(fam, c, rank, d, items):
     faq_html = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(faq))
 
     body = f"""
-  <div class="crumb"><a href="{root}index.html">Accueil</a> › <a href="{root}{fam['slug']}/index.html">{fam['plural']}</a> › <a href="{usage_url}">{c['label']}</a> › {name}</div>
+  <div class="crumb"><a href="{root or "./"}">Accueil</a> › <a href="{root}{fam['slug']}/">{fam['plural']}</a> › <a href="{usage_url}">{c['label']}</a> › {name}</div>
   <section class="p-hero">
     <div class="p-text">
       <div class="eyebrow">{E(d['badge']).upper()} · MAJ {MAJ}</div>
@@ -876,7 +876,7 @@ def product_page(fam, c, rank, d, items):
 
   <section class="section p-sec" id="tests">
     <div class="section-head"><h2>Tous les tests recensés</h2><div class="tag">Sources</div></div>
-    <p class="p-cons">Chaque ligne renvoie vers le test d'origine. Les notes sont converties sur 10 ; « test » signale un article sans note chiffrée. <a href="{root}methode.html">Notre méthode</a>.</p>
+    <p class="p-cons">Chaque ligne renvoie vers le test d'origine. Les notes sont converties sur 10 ; « test » signale un article sans note chiffrée. <a href="{root}methode">Notre méthode</a>.</p>
     <ul class="notes-list p-notes">{notes}</ul>
     {src}
   </section>
@@ -957,8 +957,8 @@ home = f"""
       <h1>Tous les tests high&#8209;tech, <span class="flash">résumés pour vous.</span></h1>
       <p>Nous lisons les tests de la presse spécialisée, nous en tirons une <b>note presse sur 10</b> et nous vous disons, usage par usage, quoi acheter — et pourquoi. Sans jargon, sans pub déguisée.</p>
       <div class="hh-ctas">
-        <a class="cta big" href="pc-portable/index.html">Trouver mon PC portable →</a>
-        <a class="cta big ghost" href="ordinateur-de-bureau/index.html">Trouver mon ordinateur de bureau →</a>
+        <a class="cta big" href="pc-portable/">Trouver mon PC portable →</a>
+        <a class="cta big ghost" href="ordinateur-de-bureau/">Trouver mon ordinateur de bureau →</a>
       </div>
       <div class="spec-row">
         <div><strong>{TOTAL_TESTS}</strong>tests presse recensés</div>
@@ -981,11 +981,11 @@ home = f"""
   <section class="section">
     <div class="section-head"><h2>Les champions du moment</h2><div class="tag">Les mieux notés par la presse, par usage</div></div>
     <div class="family-row">
-      <div class="fr-head"><h3>PC portables</h3><a class="see-all" href="pc-portable/index.html">Tout le comparatif →</a></div>
+      <div class="fr-head"><h3>PC portables</h3><a class="see-all" href="pc-portable/">Tout le comparatif →</a></div>
       <p class="champ-hint">← Faites glisser pour voir les 5 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'laptop')}</div>
     </div>
     <div class="family-row">
-      <div class="fr-head"><h3>Ordinateurs de bureau</h3><a class="see-all" href="ordinateur-de-bureau/index.html">Tout le comparatif →</a></div>
+      <div class="fr-head"><h3>Ordinateurs de bureau</h3><a class="see-all" href="ordinateur-de-bureau/">Tout le comparatif →</a></div>
       <p class="champ-hint">← Faites glisser pour voir les 5 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'desktop')}</div>
     </div>
   </section>
@@ -1006,11 +1006,11 @@ home = f"""
   <section class="section">
     <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">Deux familles, dix usages</div></div>
     <div class="fam-grid">
-      <a class="fam-card" href="pc-portable/index.html">
+      <a class="fam-card" href="pc-portable/">
         <div class="fam-art"><img src="assets/img/badge-bureautique.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-creation.webp" alt="" width="96" height="96"></div>
         <h3>PC portables</h3><p>{laptop_count} machines, un top 10 par usage, {sum(d['tests']['n'] for d in ITEMS.values() if d['family'] == 'laptop')} notes presse.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in LCATS)}</div><span class="uc-go">Explorer →</span></a>
-      <a class="fam-card" href="ordinateur-de-bureau/index.html">
+      <a class="fam-card" href="ordinateur-de-bureau/">
         <div class="fam-art"><img src="assets/img/badge-tout-en-un.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-mini-pc.webp" alt="" width="96" height="96"></div>
         <h3>Ordinateurs de bureau</h3><p>{desk_count} machines, un top 10 par usage : tours, mini-PC et tout-en-un.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in DCATS)}</div><span class="uc-go">Explorer →</span></a>
@@ -1028,7 +1028,7 @@ home = f"""
           <div class="method-card"><span class="mono-big">02</span><h3>On calcule une note presse</h3><p>La moyenne de toutes les notes, convertie sur 10, avec le nombre de tests toujours affiché.</p></div>
           <div class="method-card"><span class="mono-big">03</span><h3>On résume le verdict</h3><p>Points forts, points faibles, pour qui c'est fait — et notre choix pour chaque usage.</p></div>
         </div>
-        <p style="margin-top:16px"><a class="see-all" href="methode.html">Lire notre méthode complète →</a></p>
+        <p style="margin-top:16px"><a class="see-all" href="methode">Lire notre méthode complète →</a></p>
       </div>
     </div>
   </section>
@@ -1070,7 +1070,7 @@ methode = f"""
 """
 write("methode.html", page("", "Notre méthode : sélection, note presse, prix indicatif | Top 10 Geek",
                            "Comment Top 10 Geek sélectionne les ordinateurs, calcule la note presse, établit le classement et indique les prix.",
-                           "methode.html", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode.html")), ORG]))
+                           "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ORG]))
 
 # ---------------------------------------------------------------- Fichiers statiques
 css = "".join(open(SRC + f, encoding="utf-8").read() for f in CSS_FILES)
@@ -1080,7 +1080,7 @@ os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
         shutil.copy(SRC + "img_p/" + d["img"], os.path.join(OUT, "assets/img/p", d["img"]))
-urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k]] + ["methode.html", "mentions-legales.html", "politique-confidentialite.html"]
+urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k]] + ["methode", "mentions-legales", "politique-confidentialite"]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
       "".join(f"  <url><loc>{DOMAIN}/{u}</loc></url>\n" for u in urls) + "</urlset>\n")
 print("OK", len(ITEMS), "ordinateurs ;", TOTAL_NOTES, "notes ;", TOTAL_TESTS, "tests")
