@@ -1,0 +1,9 @@
+
+/* v9.1 — page Black Friday */
+  .bf-block{margin-top:30px;}
+  .bf-block h3{font-size:1.25rem;display:flex;align-items:center;gap:10px;}
+  .bf-note{color:var(--ink-muted);font-size:0.92rem;line-height:1.6;max-width:70ch;margin-top:-10px;}
+  .bf-more{margin-top:12px;}
+  .bf-home{margin:-12px 0 22px;}
+  .bf-desk{grid-template-columns:repeat(3,1fr);}
+  @media (max-width:900px){ .bf-desk{grid-template-columns:1fr;} }
