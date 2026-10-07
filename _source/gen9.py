@@ -13,7 +13,7 @@ from guides_desk import GUIDES_DESK
 from desk import DCATS
 from profiles import PROFILES
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main9.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -405,7 +405,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}methode">Méthode</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
+      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
@@ -1005,6 +1005,7 @@ home = f"""
 
   <section class="section">
     <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">Deux familles, dix usages</div></div>
+    <p class="bf-home"><a class="see-all" href="black-friday/">Black Friday 2026 : les PC qui valent vraiment le coup, et leur prix repère →</a></p>
     <div class="fam-grid">
       <a class="fam-card" href="pc-portable/">
         <div class="fam-art"><img src="assets/img/badge-bureautique.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-creation.webp" alt="" width="96" height="96"></div>
@@ -1072,6 +1073,92 @@ write("methode.html", page("", "Notre méthode : sélection, note presse, prix i
                            "Comment Top 10 Geek sélectionne les ordinateurs, calcule la note presse, établit le classement et indique les prix.",
                            "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ORG]))
 
+# ---------------------------------------------------------------- Page Black Friday
+BF_DATE = "vendredi 27 novembre 2026"
+BF_TIPS = [
+    ("Partez du prix repère", "Une promo n'est une affaire que si elle passe nettement sous le prix habituel. Nous affichons pour chaque machine le prix le plus bas que nous avons constaté avant le Black Friday : c'est votre point de comparaison."),
+    ("Vérifiez la configuration", "Un même nom de modèle cache souvent plusieurs versions. Avant de comparer deux prix, comparez la mémoire, le stockage et le processeur : 8 Go et 256 Go ne valent pas 16 Go et 512 Go."),
+    ("Regardez la note presse", "Un gros rabais sur une machine mal notée reste un mauvais achat. Mieux vaut une petite remise sur un ordinateur que la presse recommande."),
+    ("Méfiez-vous du prix barré", "Le prix barré est parfois un ancien prix conseillé que plus personne ne pratiquait. Seul l'écart avec le prix réellement constaté les semaines précédentes compte."),
+]
+
+
+def bf_card(d, root, label):
+    pr = d["press"]
+    note = (f'{fr(pr["avg"])}/10 presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}' if pr
+            else f'{d["tests"]["tests"]} test{"s" if d["tests"]["tests"] > 1 else ""} presse, sans note chiffrée')
+    img = f'<img src="{root}assets/img/p/{d["img"]}" alt="" width="96" height="72" loading="lazy">' if d["img"] else ""
+    return f"""<a class="alt-card" href="{root}{d['purl']}">
+      <span class="alt-k">{label}</span>
+      {img}
+      <b>{E(d['short'])}</b><span class="alt-why">{note}</span><span class="alt-meta">Prix repère : {d['price_txt']}</span></a>"""
+
+
+def black_friday_page():
+    root = "../"
+    lap, desk = FAM["laptop"], FAM["desktop"]
+    blocks = []
+    for c in lap["cats"]:
+        top = by_cat[c["key"]][:3]
+        cards = "".join(bf_card(d, root, "Notre choix" if i == 0 else f"N° {i + 1}") for i, d in enumerate(top))
+        blocks.append(f"""<div class="bf-block">
+      <h3><span class="dot {c['cls'].replace('f-', '')}"></span>{c['label']}</h3>
+      <div class="alt-grid">{cards}</div>
+      <p class="bf-more"><a class="see-all" href="{root}{lap['slug']}/{c['slug']}/">Voir le top 10 {c['label'].lower()} →</a></p>
+    </div>""")
+    dcards = "".join(bf_card(by_cat[c["key"]][0], root, c["label"]) for c in desk["cats"])
+    tips = "".join(f'<div class="g-card"><span class="g-num">0{i}</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(BF_TIPS, 1))
+    faq = [
+        ("Quand a lieu le Black Friday 2026 ?", f"Le Black Friday tombe le {BF_DATE}. Il est suivi du Cyber Monday, le lundi 30 novembre 2026."),
+        ("Les prix affichés sur cette page sont-ils des promotions ?", f"Non. Ce sont des prix repères : le prix le plus bas que nous avons constaté pour chaque machine en {PRIX_DATE}, arrondi à la dizaine d'euros. Ils servent à juger si une offre du Black Friday est réellement intéressante. Seul le prix affiché par le marchand fait foi."),
+        ("Comment savoir si une promo Black Friday est une vraie affaire ?", "Comparez le prix de l'offre au prix repère de la machine, vérifiez que la configuration est bien la même (mémoire, stockage, processeur), puis regardez la note presse. Une remise sur un ordinateur mal noté n'est pas une bonne affaire."),
+        ("Quels PC portables surveiller pendant le Black Friday ?", "Ceux que la presse recommande déjà au prix normal. Nous listons pour chaque usage les trois premiers de notre classement : bureautique, création, gaming, polyvalent et petits prix."),
+        ("Top 10 Geek teste-t-il les ordinateurs ?", "Non. Nous lisons les tests publiés par la presse spécialisée et nous en tirons une note presse sur 10, avec le nombre de tests et les liens vers les sources."),
+    ]
+    faq_html = "".join(f'<details class="faq-item"><summary>{q}</summary><p>{a}</p></details>' for q, a in faq)
+    body = f"""
+  <div class="crumb"><a href="../">Accueil</a> › Black Friday 2026</div>
+  <section class="usage-hero">
+    <div>
+      <div class="eyebrow">BLACK FRIDAY · {BF_DATE.upper()}</div>
+      <h1>Black Friday 2026 : les PC qui <span class="flash">valent vraiment le coup</span></h1>
+      <p>Pendant le Black Friday, tout est « en promo ». Pour trier, nous partons de ce que dit la presse : voici les ordinateurs les mieux notés de nos comparatifs, avec leur <b>prix repère</b> relevé en {PRIX_DATE}. Si une offre passe nettement en dessous, c'est une vraie affaire.</p>
+      <p class="hero-links"><a href="#a-surveiller">Voir les PC à surveiller ↓</a> · <a href="#reconnaitre">Reconnaître une vraie promo</a></p>
+    </div>
+    <img class="hero-badge tall" src="../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">
+  </section>
+
+  <section class="guide" id="reconnaitre">
+    <div class="section-head"><h2>Reconnaître une vraie promo</h2><div class="tag">4 réflexes</div></div>
+    <div class="g-grid">{tips}</div>
+  </section>
+
+  <section class="section" id="a-surveiller">
+    <div class="section-head"><h2>Les PC portables à surveiller</h2><div class="tag">Les 3 premiers par usage</div></div>
+    <p class="bf-note">Les prix ci-dessous sont des prix repères ({IND}), pas des promotions. Nous ne relevons pas les offres du Black Friday au jour le jour.</p>
+    {''.join(blocks)}
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Et côté ordinateurs de bureau ?</h2><div class="tag">Notre choix par usage</div></div>
+    <div class="alt-grid bf-desk">{dcards}</div>
+    <p class="bf-more"><a class="see-all" href="{root}{desk['slug']}/">Voir tous les ordinateurs de bureau →</a></p>
+  </section>
+
+  <section class="section" style="border-bottom:none;">
+    <div class="section-head"><h2>Questions fréquentes</h2><div class="tag">Black Friday</div></div>
+    <div class="faq-list">{faq_html}</div>
+  </section>
+"""
+    write("black-friday/index.html", page(root, "Black Friday 2026 PC portables : lesquels valent le coup selon la presse | Top 10 Geek",
+          "Black Friday 2026 : les PC portables et ordinateurs de bureau les mieux notés par la presse, avec leur prix repère pour reconnaître une vraie promo.",
+          "black-friday/", body, "black-friday",
+          ld=[ld_crumbs(("Accueil", ""), ("Black Friday 2026", "black-friday/")), ld_faq(faq)]))
+
+
+black_friday_page()
+
+
 # ---------------------------------------------------------------- Fichiers statiques
 css = "".join(open(SRC + f, encoding="utf-8").read() for f in CSS_FILES)
 write("assets/style.css", css)
@@ -1080,7 +1167,7 @@ os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
         shutil.copy(SRC + "img_p/" + d["img"], os.path.join(OUT, "assets/img/p", d["img"]))
-urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k]] + ["methode", "mentions-legales", "politique-confidentialite"]
+urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k]] + ["black-friday/", "methode", "mentions-legales", "politique-confidentialite"]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
       "".join(f"  <url><loc>{DOMAIN}/{u}</loc></url>\n" for u in urls) + "</urlset>\n")
 print("OK", len(ITEMS), "ordinateurs ;", TOTAL_NOTES, "notes ;", TOTAL_TESTS, "tests")
