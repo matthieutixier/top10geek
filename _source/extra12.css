@@ -1,0 +1,25 @@
+/* v10 (09/10/2026) — quatre rubriques : menu plus serré, lien vers les nouvelles rubriques sur l'accueil */
+  .topnav{gap:18px;}
+  @media (max-width:1180px) and (min-width:681px){ .topnav{gap:12px;font-size:0.8rem;} }
+
+  /* Accueil : boutons des 4 familles (v10) */
+  .fam-btns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:26px;max-width:620px;}
+  .fam-btn{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#fff;color:var(--ink);text-decoration:none;
+    border:1.5px solid var(--ink);border-radius:14px;box-shadow:0 3px 0 var(--ink);transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;}
+  .fam-btn:hover{transform:translateY(-2px);border-color:var(--accent);box-shadow:0 5px 0 var(--accent);}
+  .fam-btn:active{transform:translateY(1px);box-shadow:0 1px 0 var(--ink);}
+  .fam-btn:focus-visible{outline:3px solid var(--highlight);outline-offset:2px;}
+  .fb-ic{flex:none;width:42px;height:42px;border-radius:10px;background:var(--paper-alt);display:grid;place-items:center;transition:background .12s ease, color .12s ease;}
+  .fb-ic svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;}
+  .fam-btn:hover .fb-ic{background:var(--accent);color:#fff;}
+  .fb-txt{flex:1;min-width:0;display:flex;flex-direction:column;line-height:1.2;}
+  .fb-txt b{font-family:"Plus Jakarta Sans",sans-serif;font-size:0.98rem;font-weight:800;}
+  .fb-txt small{font-family:"IBM Plex Mono",monospace;font-size:0.7rem;color:var(--ink-muted);margin-top:3px;letter-spacing:.02em;}
+  .fb-go{flex:none;font-weight:800;transition:transform .12s ease;}
+  .fam-btn:hover .fb-go{transform:translateX(3px);color:var(--accent);}
+  @media (max-width:520px){
+    .fam-btns{gap:10px;}
+    .fam-btn{flex-direction:column;align-items:flex-start;gap:8px;padding:12px;}
+    .fb-go{display:none;}
+    .fb-txt b{font-size:0.92rem;}
+  }
