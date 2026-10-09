@@ -20,8 +20,8 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css']
-VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main9.js'])).hexdigest()[:8]
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css']
+VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main10.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
@@ -401,7 +401,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     return f"""<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"><script>document.documentElement.classList.add('js')</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
@@ -561,11 +561,20 @@ def family_page(fam):
 
 
 # ---------------------------------------------------------------- Bloc « Notre choix » + alternatives par priorité
+def few(d, cls="few"):
+    """Pastille d'alerte quand la note presse repose sur moins de 3 notes."""
+    pr = d["press"]
+    if not pr or pr["n"] >= 3:
+        return ""
+    txt = "1 seul test noté" if pr["n"] == 1 else "2 tests notés seulement"
+    return f'<span class="{cls}" title="Note presse calculée sur {pr["n"]} note{"s" if pr["n"] > 1 else ""} seulement : à prendre avec prudence.">{txt}</span>'
+
+
 def press_big(d, short=False):
     pr, ts = d["press"], d["tests"]
     gam = " · gamme" if ts["scope"] == "gamme" else ""
     if pr:
-        return f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span><span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>'
+        return f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span><span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>{few(d)}'
     return f'<span class="pn none">—</span><span class="pc">{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse, sans note chiffrée{gam}</span>'
 
 
@@ -658,7 +667,7 @@ def usage_page(fam, c):
         pr, ts = d["press"], d["tests"]
         gam = " · gamme" if ts["scope"] == "gamme" else ""
         if pr:
-            big = f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span><span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>'
+            big = f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span><span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>{few(d)}'
         else:
             big = f'<span class="pn none">—</span><span class="pc">{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse, sans note chiffrée{gam}</span>'
 
@@ -690,6 +699,8 @@ def usage_page(fam, c):
     <h3><a href="{root}{d['purl']}">{E(d['short'])}</a></h3>
     <div class="ref">{E(d['ref'])}</div>
     <p class="lead-line"><b>En bref.</b> {E(d['verdict'])}</p>
+    <button type="button" class="f-toggle" aria-expanded="false" aria-controls="x-{d['id']}">Points forts, points faibles et tests</button>
+    <div class="f-x" id="x-{d['id']}">
     <div class="pc-grid">
       <div class="strengths"><span class="pc-t pro">Points forts</span>{st}</div>
       <div class="strengths weak"><span class="pc-t con">Points faibles</span>{wk}</div>
@@ -697,14 +708,17 @@ def usage_page(fam, c):
     {offers_html}
     {det}
     <a class="see-all f-more" href="{root}{d['purl']}">{E(d['short'])} : avis et tests détaillés →</a>
+    </div>
   </div>
   <div class="f-side">
     {photo}
     <div class="press-big">{big}</div>
     <div class="mini"><span class="k">Prix indicatif</span><span class="v">{d['price_txt']}</span></div>
+    <div class="f-x f-xs">
     {mini(fam['m_labels'][0], E(d['m'][0]))}
     {mini(fam['m_labels'][1], E(d['m'][1]))}
     {('<div class="mini"><span class="k">Avis clients Darty</span><span class="v">' + rating + '</span></div>') if rating else ''}
+    </div>
     <a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a>
   </div>
 </article>""")
@@ -960,7 +974,17 @@ for fam in FAMILIES:
             product_page(fam, c, i, d, by_cat[c["key"]])
 
 # ---------------------------------------------------------------- Page d'accueil
-champions = [next((d for d in by_cat[c["key"]] if d["press"]), by_cat[c["key"]][0]) for f in FAMILIES for c in f["cats"]]
+def champion(items):
+    """Champion d'accueil : le mieux classé dont la note repose sur au moins 3 notes presse ;
+    à défaut, celui dont la note s'appuie sur le plus de notes."""
+    solid = [d for d in items if d["press"] and d["press"]["n"] >= 3]
+    if solid:
+        return solid[0]
+    rated = [d for d in items if d["press"]]
+    return max(rated, key=lambda d: (d["press"]["n"], d["press"]["avg"])) if rated else items[0]
+
+
+champions = [champion(by_cat[c["key"]]) for f in FAMILIES for c in f["cats"]]
 laptop_count = sum(1 for d in ITEMS.values() if d["family"] == "laptop")
 desk_count = sum(1 for d in ITEMS.values() if d["family"] == "desktop")
 
@@ -976,7 +1000,7 @@ def champ_card(d):
   <span class="ch-name">{E(d['short'])}</span>
   <span class="ch-verdict">{E(d['verdict'])}</span>
   <span class="ch-bottom">{score}<span class="ch-price">{d['price_txt']}</span></span>
-  <span class="ch-go">Voir le classement →</span>
+  {few(d, "few ch-few")}<span class="ch-go">Voir le classement →</span>
 </a>"""
 
 
@@ -1155,7 +1179,7 @@ BF_TIPS = [
 
 def bf_card(d, root, label):
     pr = d["press"]
-    note = (f'{fr(pr["avg"])}/10 presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}' if pr
+    note = (f'{fr(pr["avg"])}/10 presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{" (prudence)" if pr["n"] < 3 else ""}' if pr
             else f'{d["tests"]["tests"]} test{"s" if d["tests"]["tests"] > 1 else ""} presse, sans note chiffrée')
     img = f'<img src="{root}assets/img/p/{d["img"]}" alt="" width="96" height="72" loading="lazy">' if d["img"] else ""
     return f"""<a class="alt-card" href="{root}{d['purl']}">
@@ -1250,7 +1274,7 @@ black_friday_page()
 # ---------------------------------------------------------------- Fichiers statiques
 css = "".join(open(SRC + f, encoding="utf-8").read() for f in CSS_FILES)
 write("assets/style.css", css)
-shutil.copy(SRC + "main9.js", os.path.join(OUT, "assets/main.js"))
+shutil.copy(SRC + "main10.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
