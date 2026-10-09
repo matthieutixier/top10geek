@@ -450,10 +450,13 @@ def main():
             if a.manuel:
                 pass                              # lecture manuelle : complète un relevé, ne date pas la rubrique
             elif a.famille:
+                # dernière tentative (sert à la rotation hebdomadaire, même si la date affichée n'avance pas)
+                iso_jour = jour[6:] + "-" + jour[3:5] + "-" + jour[:2]
+                d.setdefault("familles", {}).setdefault(a.famille, {"date": d["date"], "prix_date": d.get("prix_date", ""),
+                                                                    "iso": iso_jour})["tente"] = iso_jour
                 # date de la rubrique : n'avance que si au moins la moitié de ses offres ont été relues
                 if len(ok) >= SEUIL_PUBLICATION * len(perimetre):
-                    d.setdefault("familles", {})[a.famille] = {"date": jour, "prix_date": mois_txt,
-                                                                "iso": jour[6:] + "-" + jour[3:5] + "-" + jour[:2]}
+                    d["familles"][a.famille].update(date=jour, prix_date=mois_txt, iso=iso_jour)
                 else:
                     print(f"Date de la rubrique « {a.famille} » NON avancée ({len(ok)}/{len(perimetre)} offres relues).")
                 fams = d.get("familles", {})
