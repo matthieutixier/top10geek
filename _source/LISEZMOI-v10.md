@@ -39,3 +39,17 @@ python3 _source/gen10.py       # génère tout le site à la racine du dépôt
 
 - Offre unique Amazon (`geekconcept-21`). Quelques produits ne sont vendus que par un vendeur tiers sur Amazon : mention « vendu par un vendeur tiers ».
 - Photos : fiches constructeurs via le catalogue ouvert Icecat (images fournies par les marques) ou sites constructeurs (Dell, Sony, Asus, Canon), détourées en 560×420 sur fond blanc. Source de chaque photo dans `photos_constructeurs.json`. Aucune photo Amazon. 17 produits sans photo (pas de visuel officiel fiable trouvé).
+
+## Mise à jour hebdomadaire (une rubrique par semaine)
+
+Tâche planifiée « Mise à jour hebdomadaire Top10Geek » (vendredi 9 h, ordinateur de Matthieu). Chaque semaine, la rubrique dont la date est la plus ancienne (`familles` dans `data.json`) est mise à jour : les données ont donc au plus 4 semaines.
+
+```
+python3 _source/releve.py --famille ecran --only Amazon,Geekom --duree 140 --apply   # relancer tant que « INCOMPLET »
+python3 _source/releve.py --famille ecran --manuel _source/data/manuel.json --apply  # Acer Store lu à la main
+python3 _source/ajout_tests.py _source/data/nouveaux_tests.json --apply             # nouveaux tests presse
+python3 _source/gen10.py
+```
+
+- `--famille` (portable, bureau, ecran, imprimante) limite le relevé à une rubrique ; sa date (`familles.<rubrique>`) n'avance que si au moins la moitié de ses offres ont été relues. Les pages d'une rubrique affichent sa propre date « MAJ » et son mois de prix ; les pages communes (accueil, Black Friday) affichent le mois le plus ancien.
+- `ajout_tests.py` ajoute des tests (une URL réelle par test, note ramenée sur 10 ou `null`), recalcule la note presse et marque l'ajout (`"ajout": "JJ/MM/AAAA"`). `build_new.py` conserve ces ajouts.

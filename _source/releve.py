@@ -8,6 +8,7 @@
   python3 _source/releve.py --apply         # idem + met à jour data.json (prix + date)
   python3 _source/releve.py --only Amazon --limit 5 --headed --debug   # essai
   python3 _source/releve.py --only Amazon,Geekom --apply   # relevé complet de certains marchands
+  python3 _source/releve.py --famille ecran --only Amazon --apply   # une seule rubrique
   python3 _source/releve.py --manuel _source/data/manuel.json --apply
         # prix lus à la main dans un navigateur : [{"id": ..., "j": ..., "price": ...}, ...]
 
@@ -16,7 +17,7 @@ que si au moins la moitié de ses offres ont été relues.
 
 Avec --apply : met à jour le `price` et la disponibilité (`dispo`) des offres lues, le prix
 indicatif de chaque produit (`prix`, le plus bas des offres en vente), `prix_date` et `date`.
-Le site (gen9.py) n'affiche que ce prix indicatif et les liens des offres en vente.
+Le site (gen10.py) n'affiche que ce prix indicatif et les liens des offres en vente.
 Règles : jamais de prix inventé ; en cas de doute l'ancien prix est conservé.
 """
 import argparse
@@ -37,6 +38,14 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 SEUIL_ECART = 0.30
 SEUIL_PUBLICATION = 0.5
+
+# rubriques du site, d'après le préfixe de la catégorie du produit
+FAMILLES = {
+    "portable": lambda c: "-" not in c,
+    "bureau": lambda c: c.startswith("d-"),
+    "ecran": lambda c: c.startswith("e-"),
+    "imprimante": lambda c: c.startswith("i-"),
+}
 
 # statuts : ok | indispo | marketplace | autre_produit | captcha | echec
 
@@ -279,6 +288,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true", help="met à jour data.json si ≥ 50 %% des offres sont relues")
     ap.add_argument("--only", help="marchand(s) séparés par des virgules (Amazon, Darty, Geekom, 'Acer Store')")
+    ap.add_argument("--famille", choices=sorted(FAMILLES), help="limite le relevé à une rubrique "
+                    "(portable, bureau, ecran, imprimante)")
     ap.add_argument("--duree", type=int, help="s'arrête proprement après N secondes ; relancer la même commande "
                     "pour reprendre (les lectures du jour sont gardées dans _source/data/reprise.json)")
     ap.add_argument("--manuel", help="fichier JSON de prix lus à la main (aucune page n'est chargée)")
@@ -303,6 +314,8 @@ def main():
     total = len(offres)
     only = [m.strip().lower() for m in a.only.split(",")] if a.only else None
     cible = [x for x in offres if not only or x[2]["m"].lower() in only]
+    if a.famille:
+        cible = [x for x in cible if FAMILLES[a.famille](d["items"][x[0]]["cat"])]
     manuel = None
     if a.manuel:
         manuel = {(x["id"], x["j"]): x for x in json.loads(Path(a.manuel).read_text(encoding="utf-8"))}
@@ -394,7 +407,7 @@ def main():
 
     # un marchand est « relevé » si au moins la moitié de SES offres ont été relues
     tot_m, ok_m = {}, {}
-    for _, _, o in offres:
+    for _, _, o in (cible if a.famille else offres):   # avec --famille : seuil calculé sur la rubrique
         tot_m[o["m"]] = tot_m.get(o["m"], 0) + 1
     for r in ok:
         ok_m[r["m"]] = ok_m.get(r["m"], 0) + 1
@@ -424,7 +437,24 @@ def main():
                 it["prix"] = min(o["price"] for o in enl)
             mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août",
                     "septembre", "octobre", "novembre", "décembre"]
-            d["prix_date"] = f"{mois[int(jour[3:5]) - 1]} {jour[6:]}"
+            mois_txt = f"{mois[int(jour[3:5]) - 1]} {jour[6:]}"
+            if a.manuel:
+                pass                              # lecture manuelle : complète un relevé, ne date pas la rubrique
+            elif a.famille:
+                # date de la rubrique : n'avance que si au moins la moitié de ses offres ont été relues
+                if len(ok) >= SEUIL_PUBLICATION * len(cible):
+                    d.setdefault("familles", {})[a.famille] = {"date": jour, "prix_date": mois_txt,
+                                                                "iso": jour[6:] + "-" + jour[3:5] + "-" + jour[:2]}
+                else:
+                    print(f"Date de la rubrique « {a.famille} » NON avancée ({len(ok)}/{len(cible)} offres relues).")
+                fams = d.get("familles", {})
+                if len(fams) == len(FAMILLES):    # mois affiché sur les pages multi-rubriques : le plus ancien
+                    d["prix_date"] = min(fams.values(), key=lambda x: x["iso"])["prix_date"]
+            else:
+                d["prix_date"] = mois_txt
+                for f in d.get("familles", {}):
+                    d["familles"][f].update(date=jour, prix_date=mois_txt,
+                                            iso=jour[6:] + "-" + jour[3:5] + "-" + jour[:2])
             dates = d.get("dates") or {m: d["date"] for m in tot_m}
             for m in releves:
                 dates[m] = jour
@@ -434,7 +464,7 @@ def main():
             DATA.write_text(json.dumps(d, ensure_ascii=False, indent=1) + fin, encoding="utf-8")
             bilan["applique"] = True
             print(f"data.json mis à jour ({len(modifs)} prix, date {jour}). "
-                  "Reste : python3 _source/gen9.py puis commit.")
+                  "Reste : python3 _source/gen10.py puis commit.")
     (OUT_DIR / "releve.json").write_text(json.dumps(bilan, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Détail : {OUT_DIR / 'releve.json'}")
     return 0 if (partiel or ok) else 2

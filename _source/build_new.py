@@ -46,6 +46,18 @@ if __name__ == "__main__":
                     if f in old["offers"][0]:
                         new["offers"][0][f] = old["offers"][0][f]
                 new["prix"] = old.get("prix", new["prix"])
+            # tests ajoutés par ajout_tests.py (mise à jour hebdomadaire) : conservés
+            if old and old.get("press"):
+                urls = {n["url"] for n in new["press"]["notes"]}
+                extra = [n for n in old["press"]["notes"] if n.get("ajout") and n["url"] not in urls]
+                if extra:
+                    new["press"]["notes"] += extra
+                    new["press"] = press(dict(notes=[(n["src"], n["score"], n["url"]) for n in new["press"]["notes"]],
+                                              scope=new["press"]["scope"]))
+                    for n in new["press"]["notes"]:
+                        e = next((x for x in extra if x["url"] == n["url"]), None)
+                        if e:
+                            n.update(date=e.get("date", ""), ajout=e["ajout"])
             data["items"][pid] = new
     json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter

@@ -16935,5 +16935,27 @@
    "nrev": 0
   }
  },
- "prix_date": "octobre 2026"
+ "prix_date": "octobre 2026",
+ "familles": {
+  "portable": {
+   "date": "05/10/2026",
+   "prix_date": "octobre 2026",
+   "iso": "2026-10-05"
+  },
+  "bureau": {
+   "date": "05/10/2026",
+   "prix_date": "octobre 2026",
+   "iso": "2026-10-05"
+  },
+  "ecran": {
+   "date": "09/10/2026",
+   "prix_date": "octobre 2026",
+   "iso": "2026-10-09"
+  },
+  "imprimante": {
+   "date": "09/10/2026",
+   "prix_date": "octobre 2026",
+   "iso": "2026-10-09"
+  }
+ }
 }

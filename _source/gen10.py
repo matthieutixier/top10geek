@@ -29,6 +29,22 @@ DATA = json.load(open(SRC + "data.json", encoding="utf-8"))
 MAJ = DATA["date"]
 PRIX_DATE = DATA.get("prix_date", "")          # ex. « octobre 2026 »
 IND = f"prix indicatif · {PRIX_DATE}"
+# Mise à jour par rubrique (releve.py --famille) : chaque rubrique a sa date et son mois de prix.
+# Sans entrée pour une rubrique, on retombe sur les dates globales.
+FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante"}
+FAM_DATES = DATA.get("familles", {})
+
+
+def maj(fam):
+    return FAM_DATES.get(FAM_REL.get(fam["key"]), {}).get("date", MAJ)
+
+
+def pdate(fam):
+    return FAM_DATES.get(FAM_REL.get(fam["key"]), {}).get("prix_date", PRIX_DATE)
+
+
+def ind_txt(fam):
+    return f"prix indicatif · {pdate(fam)}"
 BASELINE = "Tous les tests high-tech, résumés pour vous"
 AMAZON_MENTION = "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
 E = html.escape
@@ -260,7 +276,7 @@ def js_data(items, root, first):
     return "<script>window.T10G=" + json.dumps(dict(laptops=out, root=root, first=first), ensure_ascii=False) + ";</script>"
 
 
-def detail_card(root):
+def detail_card(root, fam=None):
     return f"""<div class="detail-col"><div class="featured" id="detailCard">
   <div class="art art-photo" id="detailArt"><img class="art-product" id="detailArtImg" src="{root}assets/img/badge-bureautique.webp" alt="" width="560" height="420"><img class="art-cat" id="detailCatImg" src="{root}assets/img/badge-bureautique.webp" alt="" width="54" height="54"></div>
   <div class="featured-body">
@@ -277,7 +293,7 @@ def detail_card(root):
     <div class="pc-grid"><div class="strengths" id="detailStrengths"></div><div class="strengths weak" id="detailWeak"></div></div>
     <div class="offers" id="detailOffers"></div>
     <div class="featured-footer">
-      <div><span class="price-tag" id="detailPrice"></span><span class="price-from">{IND}</span></div>
+      <div><span class="price-tag" id="detailPrice"></span><span class="price-from">{ind_txt(fam) if fam else IND}</span></div>
       <div class="cta-row"><a class="see-all" id="detailMore" href="#">Avis et tests détaillés</a><a class="cta" id="detailCta" href="#" target="_blank" rel="nofollow noopener">Voir chez le marchand →</a></div>
     </div>
   </div>
@@ -492,7 +508,7 @@ def family_page(fam):
   <div class="crumb"><a href="../">Accueil</a> › {fam['plural']}</div>
   <section class="usage-hero">
     <div>
-      <div class="eyebrow">COMPARATIF {fam['plural'].upper()} · MAJ {MAJ}</div>
+      <div class="eyebrow">COMPARATIF {fam['plural'].upper()} · MAJ {maj(fam)}</div>
       <h1>{fam['h1']}</h1>
       <p>{fam['intro']}</p>
       <div class="spec-row">
@@ -519,7 +535,7 @@ def family_page(fam):
           {LEGEND}
         </div>
       </div>
-      {detail_card(root)}
+      {detail_card(root, fam)}
     </div>
   </section>
   <div class="divider"><span></span><span></span><span></span><span></span><span></span></div>
@@ -604,7 +620,7 @@ def pick_block(fam, c, items, root):
       </div>
       <div class="pick-buy">
         <div class="press-big">{press_big(d)}</div>
-        <div class="pick-price"><b>{d['price_txt']}</b><span>{IND}</span></div>
+        <div class="pick-price"><b>{d['price_txt']}</b><span>{ind_txt(fam)}</span></div>
         <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a>
         <a class="see-all" href="{root}{d['purl']}">Avis et tests détaillés →</a>
       </div>
@@ -698,7 +714,7 @@ def usage_page(fam, c):
   <div class="crumb"><a href="../../">Accueil</a> › <a href="../">{fam['plural']}</a> › {c['label']}</div>
   <section class="usage-hero">
     <div>
-      <div class="eyebrow">{c['tag'].upper()} · MAJ {MAJ}</div>
+      <div class="eyebrow">{c['tag'].upper()} · MAJ {maj(fam)}</div>
       <h1>{c['h1']}</h1>
       <p>{c['intro']} <b>Classement :</b> notre choix en tête, puis par note presse.</p>
       <p class="hero-links"><a href="#top10">Voir le classement complet ↓</a> · <a href="#guide">Lire le guide d'achat</a></p>
@@ -724,7 +740,7 @@ def usage_page(fam, c):
         <div class="chart-pane">{bubble_svg(items, "Graphe à bulles : note presse contre prix, taille selon le nombre de tests")}</div>
         <div class="legend-strip">{LEGEND}</div>
       </div>
-      {detail_card(root)}
+      {detail_card(root, fam)}
     </div>
   </section>
   {guide_html(c['key'])}
@@ -845,7 +861,7 @@ def product_page(fam, c, rank, d, items):
         (f"Que pense la presse de {fam['noun_det']} {name} ?" if fam["key"] not in ("laptop", "desktop") else f"Que pense la presse de l'ordinateur {name} ?", a1),
         (f"Quels sont les points faibles relevés par les tests ?", (" ; ".join(E(x) for x in d["weak"]) + ".") if d["weak"] else "La presse ne relève aucun défaut majeur."),
         (f"À qui s'adresse le modèle {name} ?", f'{E(d["pour"])} À éviter si : {low_first(E(d["eviter"]))}'),
-        (f"Où l'acheter, et à quel prix ?", f'Comptez environ {euro_ind(d["p"])} (prix indicatif constaté en {PRIX_DATE}). Nous l&#39;avons trouvé en vente chez {E(ou)}. Les prix changent vite et la configuration peut différer d&#39;un marchand à l&#39;autre : seul le prix affiché par le marchand fait foi.'),
+        (f"Où l'acheter, et à quel prix ?", f'Comptez environ {euro_ind(d["p"])} (prix indicatif constaté en {pdate(fam)}). Nous l&#39;avons trouvé en vente chez {E(ou)}. Les prix changent vite et la configuration peut différer d&#39;un marchand à l&#39;autre : seul le prix affiché par le marchand fait foi.'),
     ]
     faq_html = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(faq))
 
@@ -853,7 +869,7 @@ def product_page(fam, c, rank, d, items):
   <div class="crumb"><a href="{root or "./"}">Accueil</a> › <a href="{root}{fam['slug']}/">{fam['plural']}</a> › <a href="{usage_url}">{c['label']}</a> › {name}</div>
   <section class="p-hero">
     <div class="p-text">
-      <div class="eyebrow">{E(d['badge']).upper()} · MAJ {MAJ}</div>
+      <div class="eyebrow">{E(d['badge']).upper()} · MAJ {maj(fam)}</div>
       <h1>{name} : <span class="flash">avis, tests et prix</span></h1>
       <div class="ref">{E(d['ref'])}</div>
       <p class="p-verdict"><b>Le verdict en une phrase.</b> {E(d['verdict'])}</p>
@@ -862,7 +878,7 @@ def product_page(fam, c, rank, d, items):
     <div class="p-side">
       {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
       <div class="press-big">{press_big(d)}</div>
-      <div class="pick-price"><b>{d['price_txt']}</b><span>{IND}</span></div>
+      <div class="pick-price"><b>{d['price_txt']}</b><span>{ind_txt(fam)}</span></div>
       <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a>
     </div>
   </section>
@@ -886,7 +902,7 @@ def product_page(fam, c, rank, d, items):
   </section>
 
   <section class="section p-sec" id="prix">
-    <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {IND}</div></div>
+    <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {ind_txt(fam)}</div></div>
     <div class="offers p-offers">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
     <div class="p-specs">{specs}</div>
   </section>
