@@ -54,6 +54,15 @@ def main():
             continue
         pr = it.get("press") or dict(avg=None, n=0, tests=0, scope="modele", src=["", ""], notes=[])
         it["press"] = pr
+        meme = next((n for n in pr["notes"] if n["url"] == e["url"]), None)
+        if meme and meme["score"] is None and sc is not None:     # test déjà cité, note retrouvée
+            avant = pr["avg"]
+            meme.update(score=float(sc), ajout=jour)
+            recalc(pr)
+            ajoutes += 1
+            print(f"~  {e['id']:28s} {e['src']:22s} note ajoutée {float(sc):.1f} ; note presse "
+                  f"{'—' if avant is None else '%.2f' % avant} -> {pr['avg']:.2f}")
+            continue
         if any(n["url"] == e["url"] or (n["src"] == e["src"] and sc is not None and n["score"] == float(sc))
                for n in pr["notes"]):
             print(f"   déjà présent : {e['id']} · {e['src']}")

@@ -148,7 +148,7 @@
      {
       "src": "India Today",
       "score": 7.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-zenbook-a14-review-an-ultra-light-productivity-laptop-2707145-2025-04-10?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-zenbook-a14-review-an-ultra-light-productivity-laptop-2707145-2025-04-10?utm_source=rss",
       "date": "2025-04-10"
      },
      {
@@ -304,7 +304,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/apple-macbook-air-m5-review-perfect-laptop-for-everyone-2895907-2026-04-14?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/apple-macbook-air-m5-review-perfect-laptop-for-everyone-2895907-2026-04-14?utm_source=rss",
       "date": "2026-04-14"
      },
      {
@@ -455,7 +455,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/apple-macbook-neo-review-intentionally-provocative-thoughtfully-brilliant-2907534-2026-05-06?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/apple-macbook-neo-review-intentionally-provocative-thoughtfully-brilliant-2907534-2026-05-06?utm_source=rss",
       "date": "2026-05-06"
      },
      {
@@ -4069,7 +4069,7 @@
      {
       "src": "India Today",
       "score": 7.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/lenovo-yoga-slim-7i-aura-edition-review-big-screen-slim-design-and-a-few-quirks-2735703-2025-06-04?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/lenovo-yoga-slim-7i-aura-edition-review-big-screen-slim-design-and-a-few-quirks-2735703-2025-06-04?utm_source=rss",
       "date": "2025-06-04"
      },
      {
@@ -4592,7 +4592,7 @@
      {
       "src": "India Today",
       "score": null,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s14-review-stylish-design-good-performance-2621925-2024-10-23?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s14-review-stylish-design-good-performance-2621925-2024-10-23?utm_source=rss",
       "date": "2024-10-23"
      },
      {
@@ -4728,7 +4728,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s16-review-powerful-lightweight-and-gets-most-things-right-2654079-2024-12-23?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s16-review-powerful-lightweight-and-gets-most-things-right-2654079-2024-12-23?utm_source=rss",
       "date": "2024-12-23"
      },
      {
@@ -4957,7 +4957,7 @@
      {
       "src": "India Today",
       "score": null,
-      "url": " https://www.indiatoday.in/technology/reviews/story/hp-omnibook-x-flip-14-review-a-jack-of-all-trades-2794030-2025-09-26?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/hp-omnibook-x-flip-14-review-a-jack-of-all-trades-2794030-2025-09-26?utm_source=rss",
       "date": "2025-09-26"
      },
      {
@@ -6054,7 +6054,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-vivobook-14-flip-review-a-relatively-affordable-2-in-1-laptop-that-balances-work-and-play-well-2686465-2025-02-27?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-vivobook-14-flip-review-a-relatively-affordable-2-in-1-laptop-that-balances-work-and-play-well-2686465-2025-02-27?utm_source=rss",
       "date": "2025-02-27"
      },
      {
@@ -14639,8 +14639,8 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
+    "avg": 7.0,
+    "n": 1,
     "tests": 3,
     "scope": "gamme",
     "src": [
@@ -14650,9 +14650,10 @@
     "notes": [
      {
       "src": "Clubic",
-      "score": null,
+      "score": 7.0,
       "url": "https://www.clubic.com/test-produit-580633-test-brother-dcp-l1642-l-imprimante-multifonction-monochrome-a-volume-moyen.html",
-      "date": ""
+      "date": "",
+      "ajout": "09/10/2026"
      },
      {
       "src": "Que Choisir",
@@ -16363,15 +16364,22 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
+    "avg": 7.0,
+    "n": 1,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Clubic",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-583300-test-canon-pixma-ts-6550i-imprimante-3-en-1-reservee-aux-creatifs.html",
+      "date": "2025-10-22",
+      "ajout": "09/10/2026"
+     },
      {
       "src": "Que Choisir",
       "score": null,

@@ -418,7 +418,7 @@ def main():
 
     if a.apply:
         if partiel:
-            print("--apply ignoré : essai partiel (--limit).")
+            print("--apply ignoré : relevé incomplet (--limit, ou --duree atteinte : relancer la même commande).")
         elif not ok:
             print("--apply refusé : aucune offre relue. data.json inchangé.")
         else:

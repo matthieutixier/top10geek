@@ -31,6 +31,7 @@ PRIX_DATE = DATA.get("prix_date", "")          # ex. « octobre 2026 »
 IND = f"prix indicatif · {PRIX_DATE}"
 # Mise à jour par rubrique (releve.py --famille) : chaque rubrique a sa date et son mois de prix.
 # Sans entrée pour une rubrique, on retombe sur les dates globales.
+ASSOC = {"Test-Achats", "Que Choisir", "Which?", "Tænk", "Choice", "Stiftung Warentest", "Consumer Reports", "OCU", "Altroconsumo"}
 FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante"}
 FAM_DATES = DATA.get("familles", {})
 
@@ -709,6 +710,13 @@ def usage_page(fam, c):
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
               else f'<img class="hero-badge" src="../../assets/img/badge-{c["badge"]}.webp" alt="" width="190" height="190">')
+    # peu de notes publiques (imprimantes : notes des associations réservées aux abonnés) :
+    # on met en avant les tests de laboratoire plutôt qu'un « 0 notes compilées » trompeur
+    labs = sum(1 for d in items for x in (d["tests"] or {}).get("notes", []) if x["src"] in ASSOC)
+    if n_notes < 3 and labs:
+        third_stat = f'<div><strong>{labs}</strong>tests en laboratoire (associations)</div>'
+    else:
+        third_stat = f'<div><strong>{n_notes}</strong>note{"s" if n_notes > 1 else ""} compilée{"s" if n_notes > 1 else ""}</div>'
     top_word = f"Le top 10 {c['label'].lower()}" if n == 10 else f"Notre sélection {c['label'].lower()}"
     body = f"""
   <div class="crumb"><a href="../../">Accueil</a> › <a href="../">{fam['plural']}</a> › {c['label']}</div>
@@ -720,7 +728,7 @@ def usage_page(fam, c):
       <p class="hero-links"><a href="#top10">Voir le classement complet ↓</a> · <a href="#guide">Lire le guide d'achat</a></p>
       <div class="spec-row">
         <div><strong>{n}</strong>{fam.get('plural_low', fam['plural'].lower())} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
-        <div><strong>{tested}</strong>tests presse recensés</div><div><strong>{n_notes}</strong>notes compilées</div>
+        <div><strong>{tested}</strong>tests presse recensés</div>{third_stat}
       </div>
     </div>
     {mascot}
@@ -1156,28 +1164,46 @@ def bf_card(d, root, label):
       <b>{E(d['short'])}</b><span class="alt-why">{note}</span><span class="alt-meta">Prix repère : {d['price_txt']}</span></a>"""
 
 
-def black_friday_page():
-    root = "../"
-    lap, desk = FAM["laptop"], FAM["desktop"]
+BF_PIEGES = [
+    ("PC portables", "Le même nom cache plusieurs configurations : comparez processeur, mémoire et stockage avant le prix. Méfiez-vous des modèles de l'an dernier présentés comme des nouveautés."),
+    ("Ordinateurs de bureau", "Une grosse carte graphique attire l'œil, mais une alimentation ou un stockage au rabais font souvent la différence de prix. Vérifiez aussi ce qui est fourni : écran, clavier, souris."),
+    ("Écrans PC", "Regardez la dalle (IPS, VA, OLED), la définition et la fréquence, pas seulement la taille. Une révision plus ancienne d'un même modèle peut être vendue sous un nom proche."),
+    ("Imprimantes", "Le prix d'achat compte moins que celui de l'encre. Une imprimante bradée avec des cartouches chères coûte vite plus cher qu'une imprimante à réservoirs."),
+]
+
+
+def bf_family(fam, root, n_top, title, tag):
     blocks = []
-    for c in lap["cats"]:
-        top = by_cat[c["key"]][:3]
+    for c in fam["cats"]:
+        top = by_cat[c["key"]][:n_top]
         cards = "".join(bf_card(d, root, "Notre choix" if i == 0 else f"N° {i + 1}") for i, d in enumerate(top))
         blocks.append(f"""<div class="bf-block">
       <h3><span class="dot {c['cls'].replace('f-', '')}"></span>{c['label']}</h3>
-      <div class="alt-grid">{cards}</div>
-      <p class="bf-more"><a class="see-all" href="{root}{lap['slug']}/{c['slug']}/">Voir le top 10 {c['label'].lower()} →</a></p>
+      <div class="alt-grid{' bf-two' if n_top == 2 else ''}">{cards}</div>
+      <p class="bf-more"><a class="see-all" href="{root}{fam['slug']}/{c['slug']}/">Voir le top 10 {c['label'].lower()} →</a></p>
     </div>""")
-    dcards = "".join(bf_card(by_cat[c["key"]][0], root, c["label"]) for c in desk["cats"])
-    ecards = "".join(bf_card(by_cat[c["key"]][0], root, c["label"]) for c in FAM["ecran"]["cats"])
-    icards = "".join(bf_card(by_cat[c["key"]][0], root, c["label"]) for c in FAM["imprimante"]["cats"])
+    return f"""
+  <section class="section" id="bf-{fam['slug']}">
+    <div class="section-head"><h2>{title}</h2><div class="tag">{tag}</div></div>
+    <p class="bf-note">Prix repères ({ind_txt(fam)}), pas des promotions.</p>
+    {''.join(blocks)}
+  </section>"""
+
+
+def black_friday_page():
+    root = "../"
+    lap, desk, ecr, imp = FAM["laptop"], FAM["desktop"], FAM["ecran"], FAM["imprimante"]
     tips = "".join(f'<div class="g-card"><span class="g-num">0{i}</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(BF_TIPS, 1))
+    pieges = "".join(f'<div class="g-card"><span class="g-num">{t[:2].upper()}</span><h3>{t}</h3><p>{x}</p></div>' for t, x in BF_PIEGES)
+    nav = "".join(f'<a class="bf-chip" href="#bf-{f["slug"]}">{f["plural"]}</a>' for f in (lap, desk, ecr, imp))
     faq = [
-        ("Quand a lieu le Black Friday 2026 ?", f"Le Black Friday tombe le {BF_DATE}. Il est suivi du Cyber Monday, le lundi 30 novembre 2026."),
-        ("Les prix affichés sur cette page sont-ils des promotions ?", f"Non. Ce sont des prix repères : le prix le plus bas que nous avons constaté pour chaque machine en {PRIX_DATE}, arrondi à la dizaine d'euros. Ils servent à juger si une offre du Black Friday est réellement intéressante. Seul le prix affiché par le marchand fait foi."),
-        ("Comment savoir si une promo Black Friday est une vraie affaire ?", "Comparez le prix de l'offre au prix repère de la machine, vérifiez que la configuration est bien la même (mémoire, stockage, processeur), puis regardez la note presse. Une remise sur un ordinateur mal noté n'est pas une bonne affaire."),
+        ("Quand a lieu le Black Friday 2026 ?", f"Le Black Friday tombe le {BF_DATE}. Il est suivi du Cyber Monday, le lundi 30 novembre 2026. Beaucoup de marchands lancent leurs offres plusieurs jours avant et les prolongent après."),
+        ("Les prix affichés sur cette page sont-ils des promotions ?", f"Non. Ce sont des prix repères : le prix le plus bas que nous avons constaté pour chaque produit avant le Black Friday, arrondi à la dizaine d'euros (mois du relevé indiqué dans chaque rubrique). Ils servent à juger si une offre est réellement intéressante. Seul le prix affiché par le marchand fait foi."),
+        ("Comment savoir si une promo Black Friday est une vraie affaire ?", "Comparez le prix de l'offre au prix repère du produit, vérifiez que la référence et la configuration sont bien les mêmes, puis regardez la note presse. Une remise sur un produit mal noté n'est pas une bonne affaire."),
         ("Quels PC portables surveiller pendant le Black Friday ?", "Ceux que la presse recommande déjà au prix normal. Nous listons pour chaque usage les trois premiers de notre classement : bureautique, création, gaming, polyvalent et petits prix."),
-        ("Top 10 Geek teste-t-il les ordinateurs ?", "Non. Nous lisons les tests publiés par la presse spécialisée et nous en tirons une note presse sur 10, avec le nombre de tests et les liens vers les sources."),
+        ("Faut-il acheter un écran PC pendant le Black Friday ?", "C'est souvent le bon moment pour les écrans gaming et les écrans 4K, très présents dans les promotions. Partez de l'usage (bureautique, jeu, création) et vérifiez la dalle et la définition : un gros écran mal adapté reste un mauvais achat."),
+        ("Une imprimante en promo est-elle une bonne affaire ?", "Seulement si l'encre suit. Regardez le prix des cartouches ou des bouteilles et le nombre de pages qu'elles impriment. Pour imprimer régulièrement, une imprimante à réservoirs, même moins remisée, revient presque toujours moins cher."),
+        ("Top 10 Geek teste-t-il les produits ?", "Non. Nous lisons les tests publiés par la presse spécialisée et les associations de consommateurs, et nous en tirons une note presse sur 10, avec le nombre de tests et les liens vers les sources."),
     ]
     faq_html = "".join(f'<details class="faq-item"><summary>{q}</summary><p>{a}</p></details>' for q, a in faq)
     body = f"""
@@ -1185,9 +1211,10 @@ def black_friday_page():
   <section class="usage-hero">
     <div>
       <div class="eyebrow">BLACK FRIDAY · {BF_DATE.upper()}</div>
-      <h1>Black Friday 2026 : les PC qui <span class="flash">valent vraiment le coup</span></h1>
-      <p>Pendant le Black Friday, tout est « en promo ». Pour trier, nous partons de ce que dit la presse : voici les ordinateurs les mieux notés de nos comparatifs, avec leur <b>prix repère</b> relevé en {PRIX_DATE}. Si une offre passe nettement en dessous, c'est une vraie affaire.</p>
-      <p class="hero-links"><a href="#a-surveiller">Voir les PC à surveiller ↓</a> · <a href="#reconnaitre">Reconnaître une vraie promo</a></p>
+      <h1>Black Friday 2026 : la high-tech qui <span class="flash">vaut vraiment le coup</span></h1>
+      <p>Pendant le Black Friday, tout est « en promo ». Pour trier, nous partons de ce que dit la presse : voici les PC, écrans et imprimantes les mieux notés de nos comparatifs, avec leur <b>prix repère</b> relevé avant les promotions. Si une offre passe nettement en dessous, c'est une vraie affaire.</p>
+      <p class="bf-chips">{nav}</p>
+      <p class="hero-links"><a href="#reconnaitre">Reconnaître une vraie promo</a> · <a href="#pieges">Les pièges par catégorie</a></p>
     </div>
     <img class="hero-badge tall" src="../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">
   </section>
@@ -1196,25 +1223,14 @@ def black_friday_page():
     <div class="section-head"><h2>Reconnaître une vraie promo</h2><div class="tag">4 réflexes</div></div>
     <div class="g-grid">{tips}</div>
   </section>
+{bf_family(lap, root, 3, "Les PC portables à surveiller", "Les 3 premiers par usage")}
+{bf_family(desk, root, 2, "Les ordinateurs de bureau à surveiller", "Les 2 premiers par usage")}
+{bf_family(ecr, root, 2, "Les écrans PC à surveiller", "Les 2 premiers par usage")}
+{bf_family(imp, root, 2, "Les imprimantes à surveiller", "Les 2 premières par usage")}
 
-  <section class="section" id="a-surveiller">
-    <div class="section-head"><h2>Les PC portables à surveiller</h2><div class="tag">Les 3 premiers par usage</div></div>
-    <p class="bf-note">Les prix ci-dessous sont des prix repères ({IND}), pas des promotions. Nous ne relevons pas les offres du Black Friday au jour le jour.</p>
-    {''.join(blocks)}
-  </section>
-
-  <section class="section">
-    <div class="section-head"><h2>Et côté ordinateurs de bureau ?</h2><div class="tag">Notre choix par usage</div></div>
-    <div class="alt-grid bf-desk">{dcards}</div>
-    <p class="bf-more"><a class="see-all" href="{root}{desk['slug']}/">Voir tous les ordinateurs de bureau →</a></p>
-  </section>
-
-  <section class="section">
-    <div class="section-head"><h2>Écrans PC et imprimantes</h2><div class="tag">Notre choix par usage</div></div>
-    <div class="alt-grid bf-desk">{ecards}</div>
-    <p class="bf-more"><a class="see-all" href="{root}ecran-pc/">Voir tous les écrans PC →</a></p>
-    <div class="alt-grid bf-desk">{icards}</div>
-    <p class="bf-more"><a class="see-all" href="{root}imprimante/">Voir toutes les imprimantes →</a></p>
+  <section class="guide" id="pieges">
+    <div class="section-head"><h2>Les pièges, catégorie par catégorie</h2><div class="tag">À vérifier avant de payer</div></div>
+    <div class="g-grid">{pieges}</div>
   </section>
 
   <section class="section" style="border-bottom:none;">
@@ -1222,8 +1238,8 @@ def black_friday_page():
     <div class="faq-list">{faq_html}</div>
   </section>
 """
-    write("black-friday/index.html", page(root, "Black Friday 2026 PC portables : lesquels valent le coup selon la presse | Top 10 Geek",
-          "Black Friday 2026 : les PC portables et ordinateurs de bureau les mieux notés par la presse, avec leur prix repère pour reconnaître une vraie promo.",
+    write("black-friday/index.html", page(root, "Black Friday 2026 : PC, écrans et imprimantes qui valent le coup selon la presse | Top 10 Geek",
+          "Black Friday 2026 : PC portables, ordinateurs de bureau, écrans PC et imprimantes les mieux notés par la presse, avec leur prix repère pour reconnaître une vraie promo.",
           "black-friday/", body, "black-friday",
           ld=[ld_crumbs(("Accueil", ""), ("Black Friday 2026", "black-friday/")), ld_faq(faq)]))
 
