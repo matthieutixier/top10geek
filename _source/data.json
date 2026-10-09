@@ -1,5 +1,5 @@
 {
- "date": "05/10/2026",
+ "date": "09/10/2026",
  "items": {
   "zenbook-a14": {
    "cat": "bureau",
@@ -10505,6 +10505,6434 @@
    "rating": 5.0,
    "nrev": 4,
    "prix": 1117.99
+  },
+  "dell-s2725dc": {
+   "cat": "e-bureau",
+   "short": "Dell 27 Plus S2725DC",
+   "ref": "27\" QHD · IPS · 144 Hz · USB-C",
+   "badge": "Le choix de la bande",
+   "verdict": "Un 27 pouces QHD fluide à 144 Hz, bien réglable et doté d'un USB-C qui alimente le portable : l'écran de bureau le plus simple à recommander.",
+   "strengths": [
+    "Définition QHD nette sur 27\"",
+    "USB-C avec alimentation du portable",
+    "Pied réglable, ports USB en plus"
+   ],
+   "weak": [
+    "Pas pensé pour la retouche photo exigeante",
+    "Les utilisateurs avancés auront besoin d'un dock"
+   ],
+   "m": [
+    "27\" QHD",
+    "144 Hz"
+   ],
+   "id": "dell-s2725dc",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 232.48,
+     "url": "https://www.amazon.fr/dp/B0FQ5B9BB1?tag=geekconcept-21",
+     "name": "Dell 27 Plus USB-C Écran PC - S2725DC, QHD (2560x1440), 144Hz, IPS",
+     "cfg": "",
+     "asin": "B0FQ5B9BB1"
+    }
+   ],
+   "press": {
+    "avg": 10.0,
+    "n": 1,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/pro/dell-27-plus-qhd-usb-c-s2725dc-business-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/dell/s2725dc",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 232.48,
+   "img": "dell-s2725dc.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dell-s2725qs": {
+   "cat": "e-bureau",
+   "short": "Dell 27 Plus S2725QS",
+   "ref": "27\" 4K UHD · IPS · 120 Hz",
+   "badge": "La 4K accessible",
+   "verdict": "La 4K sur 27 pouces à prix contenu, avec de belles couleurs et un mode 120 Hz : un excellent écran de travail, au contraste un peu faible.",
+   "strengths": [
+    "Image 4K très nette",
+    "Couleurs fidèles",
+    "120 Hz pour une navigation fluide"
+   ],
+   "weak": [
+    "Contraste faible (noirs grisâtres)",
+    "Fonctions limitées, pas d'USB-C vidéo"
+   ],
+   "m": [
+    "27\" 4K",
+    "120 Hz"
+   ],
+   "id": "dell-s2725qs",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 274.75,
+     "url": "https://www.amazon.fr/dp/B0F29RH4RY?tag=geekconcept-21",
+     "name": "Dell 27 Plus Écran PC - S2725QS, 4K UHD (3840x2160), 120Hz, IPS, 4ms",
+     "cfg": "",
+     "asin": "B0F29RH4RY"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/dell-s2725qs-review/?utm_source=rss&utm_medium=rss&utm_campaign=dell-s2725qs-review",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/dell/s2725qs",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dell-27-plus-4k-monitor-s2725qs/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 274.75,
+   "img": "dell-s2725qs.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dell-s2725qc": {
+   "cat": "e-bureau",
+   "short": "Dell 27 Plus S2725QC",
+   "ref": "27\" 4K UHD · IPS · 120 Hz · USB-C 65 W",
+   "badge": "Le 4K à un seul câble",
+   "verdict": "La version USB-C du S2725QS : 4K, 120 Hz, pied réglable dans tous les sens et charge 65 W pour le portable. Le contraste reste celui d'un IPS classique.",
+   "strengths": [
+    "4K et 120 Hz",
+    "USB-C avec charge 65 W",
+    "Pied réglable dans tous les sens, haut-parleurs"
+   ],
+   "weak": [
+    "Design tout plastique",
+    "HDR limité, contraste en retrait"
+   ],
+   "m": [
+    "27\" 4K",
+    "120 Hz"
+   ],
+   "id": "dell-s2725qc",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 291.69,
+     "url": "https://www.amazon.fr/dp/B0F29RSLHP?tag=geekconcept-21",
+     "name": "Dell 27 Plus USB-C Écran PC - S2725QC, 4K UHD (3840x2160), 120Hz, IPS, 4ms",
+     "cfg": "",
+     "asin": "B0F29RSLHP"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 1,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/moniteur/dell-s2725qc-p78273/test.html",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/dell/s2725qc",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 291.69,
+   "img": "dell-s2725qc.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dell-s3225qs": {
+   "cat": "e-bureau",
+   "short": "Dell 32 Plus S3225QS",
+   "ref": "32\" 4K UHD · VA · 120 Hz",
+   "badge": "Le grand écran 4K",
+   "verdict": "Un 32 pouces 4K à dalle VA, bien contrasté et fluide à 120 Hz, pour afficher plusieurs fenêtres côte à côte à prix raisonnable.",
+   "strengths": [
+    "Grande surface 32\" en 4K",
+    "Dalle VA bien contrastée",
+    "120 Hz"
+   ],
+   "weak": [
+    "Angles de vision moins larges qu'un IPS",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "32\" 4K",
+    "120 Hz"
+   ],
+   "id": "dell-s3225qs",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 328.87,
+     "url": "https://www.amazon.fr/dp/B0F29SKXFQ?tag=geekconcept-21",
+     "name": "Dell 32 Plus Écran PC - S3225QS, 4K UHD (3840x2160), 120Hz, VA, 4ms",
+     "cfg": "",
+     "asin": "B0F29SKXFQ"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/dell/s3225qs",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 328.87,
+   "img": "dell-s3225qs.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dell-u2724de": {
+   "cat": "e-bureau",
+   "short": "Dell UltraSharp U2724DE",
+   "ref": "27\" QHD · IPS Black · 120 Hz · Thunderbolt 4",
+   "badge": "Le poste pro complet",
+   "verdict": "La station de travail de bureau : dalle IPS Black contrastée, 120 Hz, Thunderbolt 4 avec charge 90 W, KVM et réseau. Cher, mais tout est intégré.",
+   "strengths": [
+    "Contraste IPS Black supérieur aux IPS classiques",
+    "Thunderbolt 4 (charge 90 W), KVM, Ethernet",
+    "Couleurs calibrées d'usine"
+   ],
+   "weak": [
+    "Prix élevé pour du QHD",
+    "Pas de HDR ni de haut-parleurs"
+   ],
+   "m": [
+    "27\" QHD",
+    "120 Hz"
+   ],
+   "id": "dell-u2724de",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 360.75,
+     "url": "https://www.amazon.fr/dp/B0CNJSX8N8?tag=geekconcept-21",
+     "name": "Dell UltraSharp 27 Écran PC - U2724DE, QHD (2560x1440), 120Hz, IPS Black",
+     "cfg": "",
+     "asin": "B0CNJSX8N8"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 2,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "IT Pro",
+      "score": 10.0,
+      "url": "https://www.itpro.com/hardware/monitors/dell-ultrasharp-u2724de-review-a-great-all-rounder",
+      "date": ""
+     },
+     {
+      "src": "DisplayNinja",
+      "score": 8.0,
+      "url": "https://www.displayninja.com/dell-u2724de-review/",
+      "date": ""
+     },
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/dell-u2724de-review/?utm_source=rss&utm_medium=rss&utm_campaign=dell-u2724de-review",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2164596/dell-u2724de-review.html",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/12964/dell-ultrasharp-u2724de-fijne-maar-dure-thuiswerkmonitor.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 360.75,
+   "img": "dell-u2724de.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "benq-gw2790ce": {
+   "cat": "e-bureau",
+   "short": "BenQ GW2790CE",
+   "ref": "27\" Full HD · IPS · 144 Hz · USB-C",
+   "badge": "Le moins cher en 27\"",
+   "verdict": "Un 27 pouces Full HD soigné pour les yeux (anti-scintillement, lumière bleue réduite), fluide à 144 Hz et doté de l'USB-C, pour moins de 100 €.",
+   "strengths": [
+    "Prix très bas",
+    "Technologies de confort visuel",
+    "USB-C sur cette version CE"
+   ],
+   "weak": [
+    "Full HD un peu juste sur 27\" (texte moins fin)",
+    "Pied seulement inclinable"
+   ],
+   "m": [
+    "27\" Full HD",
+    "144 Hz"
+   ],
+   "id": "benq-gw2790ce",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 95.82,
+     "url": "https://www.amazon.fr/dp/B0FQTCCJP1?tag=geekconcept-21",
+     "name": "BenQ GW2790CE Moniteur IPS 27\" FHD 1080p 144Hz Eye-Care, télétravail, USB-C",
+     "cfg": "",
+     "asin": "B0FQTCCJP1"
+    }
+   ],
+   "press": {
+    "avg": 6.0,
+    "n": 1,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Gadget Bridge",
+      "score": 6.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/benq-gw2790tc-monitor-review-surprisingly-smooth-ride/",
+      "date": ""
+     },
+     {
+      "src": "GizTele",
+      "score": null,
+      "url": "https://www.giztele.com/benq-gw2790-monitor/",
+      "date": ""
+     },
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/benq-gw2790-review/?utm_source=rss&utm_medium=rss&utm_campaign=benq-gw2790-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 95.82,
+   "img": "benq-gw2790ce.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "benq-gw2490ce": {
+   "cat": "e-bureau",
+   "short": "BenQ GW2490CE",
+   "ref": "24\" Full HD · IPS · 144 Hz · USB-C",
+   "badge": "Le petit format malin",
+   "verdict": "Le 24 pouces de bureau par excellence : image très propre pour le prix, menus simples, confort visuel et USB-C sur cette version.",
+   "strengths": [
+    "Excellent rapport qualité-prix",
+    "Taille idéale pour un petit bureau",
+    "Confort visuel, USB-C"
+   ],
+   "weak": [
+    "Pied basique",
+    "Haut-parleurs anecdotiques"
+   ],
+   "m": [
+    "24\" Full HD",
+    "144 Hz"
+   ],
+   "id": "benq-gw2490ce",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 102.69,
+     "url": "https://www.amazon.fr/dp/B0FQSS4P5D?tag=geekconcept-21",
+     "name": "BenQ GW2490CE Moniteur IPS 23,8\" FHD 1080p 144Hz Eye-Care, télétravail, USB-C",
+     "cfg": "",
+     "asin": "B0FQSS4P5D"
+    }
+   ],
+   "press": {
+    "avg": 10.0,
+    "n": 1,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "IT Pro",
+      "score": 10.0,
+      "url": "https://www.itpro.com/hardware/monitors/benq-gw2490-monitor-review-a-brilliant-office-monitor-for-under-gbp100",
+      "date": ""
+     },
+     {
+      "src": "GizTele",
+      "score": null,
+      "url": "https://www.giztele.com/benq-gw2490-monitor/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 102.69,
+   "img": "benq-gw2490ce.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "lg-32un88a": {
+   "cat": "e-bureau",
+   "short": "LG UltraFine Ergo 32UN88A",
+   "ref": "32\" 4K UHD · IPS · bras Ergo · USB-C",
+   "badge": "Le plus ergonomique",
+   "verdict": "Un 32 pouces 4K monté sur un bras articulé qui se fixe au bureau : on place l'écran exactement où l'on veut, et la colorimétrie est très bonne.",
+   "strengths": [
+    "Bras articulé qui libère le bureau",
+    "Belle image 4K, couleurs justes",
+    "USB-C"
+   ],
+   "weak": [
+    "Pas assez lumineux pour un vrai HDR",
+    "60 Hz seulement"
+   ],
+   "m": [
+    "32\" 4K",
+    "60 Hz"
+   ],
+   "id": "lg-32un88a",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 461.53,
+     "url": "https://www.amazon.fr/dp/B088BMZ41V?tag=geekconcept-21",
+     "name": "LG Ergo Ultrafine 32UN88AP-W Ecran PC 4K 32\" - Dalle IPS 3840x2160, 60Hz, HDR 10",
+     "cfg": "",
+     "asin": "B088BMZ41V"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Korben",
+      "score": null,
+      "url": "https://korben.info/en/lg-ultra-fine-display-ergo-32un880-review.html",
+      "date": ""
+     },
+     {
+      "src": "PurePC",
+      "score": null,
+      "url": "https://www.purepc.pl/lg-ultrafine-display-ergo-32un880-test-biurowego-monitora-z-matryca-ips-4k-hdr-oraz-z-ergonomiczna-podstawa-typu-ergo",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/reviews/lg-32un880-ultrafine-display-ergo",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 461.53,
+   "img": "lg-32un88a.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "lg-32up83a": {
+   "cat": "e-bureau",
+   "short": "LG UltraFine 32UP83A",
+   "ref": "32\" 4K UHD · IPS · USB-C",
+   "badge": "Le 32\" 4K polyvalent",
+   "verdict": "Un 32 pouces 4K IPS aux couleurs étendues, avec USB-C et pied réglable : un grand écran de travail confortable, aussi à l'aise en photo amateur.",
+   "strengths": [
+    "4K IPS sur 32\"",
+    "Large gamme de couleurs",
+    "USB-C, pied réglable"
+   ],
+   "weak": [
+    "60 Hz seulement",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "32\" 4K",
+    "60 Hz"
+   ],
+   "id": "lg-32up83a",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 483.65,
+     "url": "https://www.amazon.fr/dp/B0DQXKKBDF?tag=geekconcept-21",
+     "name": "LG 32UP83AK-W 32-inch Ultrafine 4K UHD (3840 x 2160) IPS Computer Monitor, 60Hz, HDR10",
+     "cfg": "",
+     "asin": "B0DQXKKBDF"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/lg-32up83a-w-review/",
+      "date": ""
+     },
+     {
+      "src": "PC Monitors",
+      "score": null,
+      "url": "https://pcmonitors.info/lg/lg-32up83a-4k-uhd-ips-with-usb-c/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 483.65,
+   "img": "lg-32up83a.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa279cv": {
+   "cat": "e-bureau",
+   "short": "Asus ProArt PA279CV",
+   "ref": "27\" 4K UHD · IPS · USB-C 65 W",
+   "badge": "La 4K calibrée",
+   "verdict": "Un 27 pouces 4K calibré d'usine (sRGB), avec USB-C 65 W et un pied très réglable : précis et abordable, mais limité à 60 Hz et peu lumineux en mode fidèle.",
+   "strengths": [
+    "Couleurs sRGB fidèles (calibration usine)",
+    "USB-C 65 W",
+    "Pied très réglable"
+   ],
+   "weak": [
+    "60 Hz et léger flou de mouvement",
+    "Pas assez lumineux ni étendu pour le HDR"
+   ],
+   "m": [
+    "27\" 4K",
+    "60 Hz"
+   ],
+   "id": "asus-pa279cv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 288.43,
+     "url": "https://www.amazon.fr/dp/B08JH7KQKV?tag=geekconcept-21",
+     "name": "ASUS ProArt PA279CV 27 Pouces 4K Écran Professionnel USB-C",
+     "cfg": "",
+     "asin": "B08JH7KQKV"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Digital Camera World",
+      "score": null,
+      "url": "https://www.digitalcameraworld.com/reviews/asus-proart-display-pa279cv-review",
+      "date": ""
+     },
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/asus-proart-pa279cv-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/asus-proart-pa279cv",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 288.43,
+   "img": "asus-pa279cv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "aoc-q27g4zd": {
+   "cat": "e-gaming",
+   "short": "AOC Agon Q27G4ZD",
+   "ref": "27\" QHD · QD-OLED · 280 Hz",
+   "badge": "Le choix de la bande",
+   "verdict": "L'OLED gaming devenu abordable : contraste infini, couleurs justes sans réglage, 280 Hz et un pied réglable, pour le prix d'un bon écran IPS.",
+   "strengths": [
+    "Noirs et contraste OLED",
+    "280 Hz, réactivité immédiate",
+    "Prix très bien placé"
+   ],
+   "weak": [
+    "Luminosité HDR limitée",
+    "Pas d'USB-C ni de haut-parleurs"
+   ],
+   "m": [
+    "27\" QHD",
+    "280 Hz"
+   ],
+   "id": "aoc-q27g4zd",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 357.99,
+     "url": "https://www.amazon.fr/dp/B0G6XZVL36?tag=geekconcept-21",
+     "name": "AOC Gaming Moniteur Q27G4ZD 27 Pouce 280Hz QD-OLED Dalle, 0.03ms GtG, HDR400 TrueBlack",
+     "cfg": "",
+     "asin": "B0G6XZVL36"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 4,
+    "tests": 5,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "MYC Media",
+      "score": 9.0,
+      "url": "https://myc-media.de/aoc-q27g4zdr-265%e2%80%b3-qd-oled-gaming-monitor-im-test/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-aoc-q27g4zdr-un-ecran-gaming-qui-rend-loled-enfin-accessible/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/aoc-q27g4zd-qd-oled-240-hz-gaming-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 7.0,
+      "url": "https://multiplayer.it/recensioni/aoc-agon-q27g4zdr-recensione-monitor-qd-oled-240-hz.html",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/aoc-q27g4zd-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 357.99,
+   "img": "aoc-q27g4zd.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "alienware-aw2725d": {
+   "cat": "e-gaming",
+   "short": "Alienware AW2725D",
+   "ref": "27\" QHD · QD-OLED · 280 Hz",
+   "badge": "Le QD-OLED premium",
+   "verdict": "Un QD-OLED 280 Hz très bien fini, lumineux en HDR et très fluide, avec un pied solide : un excellent écran de jeu QHD.",
+   "strengths": [
+    "Couleurs et contraste QD-OLED",
+    "280 Hz, G-Sync et FreeSync",
+    "Construction et pied de qualité"
+   ],
+   "weak": [
+    "Pas d'USB-C",
+    "Ni haut-parleurs ni prise casque"
+   ],
+   "m": [
+    "27\" QHD",
+    "280 Hz"
+   ],
+   "id": "alienware-aw2725d",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 379.33,
+     "url": "https://www.amazon.fr/dp/B0FHB4KWBF?tag=geekconcept-21",
+     "name": "Alienware 27 Écran PC Gaming - AW2725D, QHD (2560x1440), 280Hz, QD OLED",
+     "cfg": "",
+     "asin": "B0FHB4KWBF"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Expert Reviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/technology/monitors/alienware-aw2725d-review",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": 8.0,
+      "url": "https://www.pcworld.com/article/2848200/alienware-aw2725d-review.html",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw2725d-27-inch-qd-oled-qhd-280-hz-gaming-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dell-alienware-aw2725d-test-3211420.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 379.33,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "alienware-aw2726dm": {
+   "cat": "e-gaming",
+   "short": "Alienware AW2726DM",
+   "ref": "27\" QHD · QD-OLED · 240 Hz",
+   "badge": "L'OLED le plus abordable",
+   "verdict": "Le QD-OLED d'Alienware à prix serré : 240 Hz, excellent contraste, traitement antireflet et micro intégré. La connectique reste minimale.",
+   "strengths": [
+    "Contraste et couleurs QD-OLED",
+    "Prix contenu pour un OLED",
+    "Antireflet efficace"
+   ],
+   "weak": [
+    "Connectique limitée",
+    "Calibrage d'usine à peaufiner"
+   ],
+   "m": [
+    "27\" QHD",
+    "240 Hz"
+   ],
+   "id": "alienware-aw2726dm",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 351.58,
+     "url": "https://www.amazon.fr/dp/B0GYG3VLMR?tag=geekconcept-21",
+     "name": "Alienware 27 Écran PC Gaming - AW2726DM, QHD (2560x1440), 240Hz, QD OLED",
+     "cfg": "",
+     "asin": "B0GYG3VLMR"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "MKAU Gaming",
+      "score": 9.0,
+      "url": "https://www.mkaugaming.com/all-review-list/alienware-27-240hz-qd-oled-aw2726dm-gaming-monitor-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "PC Gamer",
+      "score": 8.5,
+      "url": "https://www.pcgamer.com/hardware/gaming-monitors/alienware-aw2726dm-review/",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 8.0,
+      "url": "https://www.gamesradar.com/hardware/tvs-monitors/alienware-aw2726dm-review/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/dell/alienware-aw2726dm",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/alienware-27-qd-oled-aw2726dm/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 351.58,
+   "img": "alienware-aw2726dm.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "alienware-aw2725q": {
+   "cat": "e-gaming",
+   "short": "Alienware AW2725Q",
+   "ref": "27\" 4K UHD · QD-OLED · 240 Hz",
+   "badge": "La 4K OLED sur 27\"",
+   "verdict": "La 4K à 240 Hz sur 27 pouces en QD-OLED : une image d'une finesse et d'un contraste remarquables, adorée par la presse, avec une garantie marquage de 3 ans.",
+   "strengths": [
+    "4K très fine (166 ppp) en OLED",
+    "240 Hz, réactivité exemplaire",
+    "Garantie de 3 ans couvrant le marquage"
+   ],
+   "weak": [
+    "Noirs moins profonds en pièce lumineuse",
+    "Peu de ports, pas d'USB-C vidéo"
+   ],
+   "m": [
+    "27\" 4K",
+    "240 Hz"
+   ],
+   "id": "alienware-aw2725q",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 519.08,
+     "url": "https://www.amazon.fr/dp/B0F2JJ1T9K?tag=geekconcept-21",
+     "name": "Alienware 27 Écran PC Gaming - AW2725Q, 4K UHD (3840x2160), 240Hz, QD OLED",
+     "cfg": "",
+     "asin": "B0F2JJ1T9K"
+    }
+   ],
+   "press": {
+    "avg": 8.6,
+    "n": 10,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Engadget",
+      "score": 9.0,
+      "url": "https://www.engadget.com/gaming/pc/alienware-aw2725q-review-an-exceptional-oled-gaming-display-120046049.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Frandroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/alienware/2520007_test-du-alienware-aw2725q-lecran-4k-27-pouces-ideal",
+      "date": ""
+     },
+     {
+      "src": "MKAU Gaming",
+      "score": 9.0,
+      "url": "https://www.mkaugaming.com/all-review-list/alienware-27-4k-qd-oled-aw2725q-gaming-monitor-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 9.0,
+      "url": "https://www.rtings.com/monitor/reviews/dell/alienware-aw2725q",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2025/04/02/alienware-aw2725q-review/?utm_source=rss&utm_medium=rss&utm_campaign=alienware-aw2725q-review",
+      "date": ""
+     },
+     {
+      "src": "Windows Central",
+      "score": 9.0,
+      "url": "https://www.windowscentral.com/accessories/monitors/alienware-27-4k-qd-oled-gaming-monitor-aw2725q-review",
+      "date": ""
+     },
+     {
+      "src": "DisplayNinja",
+      "score": 8.0,
+      "url": "https://www.displayninja.com/dell-alienware-aw2725q-review/",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 8.0,
+      "url": "https://www.gamesradar.com/hardware/tvs-monitors/alienware-aw2725q-review/",
+      "date": ""
+     },
+     {
+      "src": "Laptop Mag",
+      "score": 8.0,
+      "url": "https://www.laptopmag.com/gaming/gaming-monitors/alienware-27-4k-qd-oled-aw2725q-gaming-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw2725q-4k-240-hz-oled-gaming-monitor-review-serious-value-and-high-performance",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2640120/alienware-aw2725q-monitor-review.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/alienware-aw2725q",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 519.08,
+   "img": "alienware-aw2725q.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pg32ucdm": {
+   "cat": "e-gaming",
+   "short": "Asus ROG Swift PG32UCDM",
+   "ref": "32\" 4K UHD · QD-OLED · 240 Hz",
+   "badge": "Le grand 4K OLED",
+   "verdict": "Le 32 pouces 4K OLED de référence : image exceptionnelle, 240 Hz, connectique complète avec USB-C 90 W. Cher et gourmand, mais la presse est unanime.",
+   "strengths": [
+    "Qualité d'image OLED exceptionnelle",
+    "4K à 240 Hz sur 32\"",
+    "Connectique complète, USB-C 90 W"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Pic lumineux HDR limité, pas de haut-parleurs"
+   ],
+   "m": [
+    "32\" 4K",
+    "240 Hz"
+   ],
+   "id": "asus-pg32ucdm",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 777.62,
+     "url": "https://www.amazon.fr/dp/B0F94H18X8?tag=geekconcept-21",
+     "name": "ASUS ROG Swift PG32UCDMZ 32 Pouces 4K 240Hz Écran PC Gamer OLED QD-OLED",
+     "cfg": "",
+     "asin": "B0F94H18X8"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 8,
+    "tests": 10,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/moniteur/asus-rog-swift-oled-pg32ucdm-p74611/test.html",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 10.0,
+      "url": "https://www.t3.com/reviews/asus-rog-swift-oled-pg32ucdm-review",
+      "date": ""
+     },
+     {
+      "src": "Frandroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/asus/1984436_test-de-lasus-rog-swift-oled-pg32ucdm",
+      "date": ""
+     },
+     {
+      "src": "GizTele",
+      "score": 9.0,
+      "url": "https://www.giztele.com/asus-rog-swift-oled-pg32ucdm-monitor/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 9.0,
+      "url": "https://multiplayer.it/recensioni/asus-rog-swift-oled-pg32ucdm-recensione-monitor-4k-240hz.html",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 9.0,
+      "url": "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg32ucdm",
+      "date": ""
+     },
+     {
+      "src": "DisplayNinja",
+      "score": 8.0,
+      "url": "https://www.displayninja.com/asus-pg32ucdm-review/",
+      "date": ""
+     },
+     {
+      "src": "Geeknetic",
+      "score": 8.0,
+      "url": "https://www.geeknetic.es/Review/2815/ASUS-ROG-Swift-OLED-PG32UCDM-Review.html",
+      "date": ""
+     },
+     {
+      "src": "Eurogamer",
+      "score": null,
+      "url": "https://www.eurogamer.net/digitalfoundry-2024-asus-rog-swift-oled-pg32ucdm-review-the-best-gaming-monitor-we-have-tested?utm_source=feed&utm_medium=rss&utm_campaign=feed",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2256541/asus-rog-swift-oled-pg32ucdm-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 777.62,
+   "img": "asus-pg32ucdm.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "sony-inzone-m10s": {
+   "cat": "e-gaming",
+   "short": "Sony Inzone M10S",
+   "ref": "27\" QHD · OLED · 480 Hz",
+   "badge": "Le plus rapide",
+   "verdict": "Un OLED QHD à 480 Hz pensé pour l'e-sport : clarté de mouvement inouïe et latence très faible. Pour joueurs compétitifs exigeants, à un prix élevé.",
+   "strengths": [
+    "480 Hz, clarté de mouvement exceptionnelle",
+    "Latence très faible",
+    "Pied compact bien conçu"
+   ],
+   "weak": [
+    "Très cher pour du QHD",
+    "Pas d'USB-C, garantie marquage d'un an"
+   ],
+   "m": [
+    "27\" QHD",
+    "480 Hz"
+   ],
+   "id": "sony-inzone-m10s",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 832.49,
+     "url": "https://www.amazon.fr/dp/B0DGV5LPKS?tag=geekconcept-21",
+     "name": "Sony INZONE M10S 27\" OLED QHD PC Gaming Monitor: 1440p, 480Hz, 0.03ms GTG",
+     "cfg": "",
+     "asin": "B0DGV5LPKS"
+    }
+   ],
+   "press": {
+    "avg": 8.333333333333334,
+    "n": 6,
+    "tests": 8,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/gaming/sony-inzone-m10s-review",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 9.0,
+      "url": "https://www.rtings.com/monitor/reviews/sony/inzone-m10s",
+      "date": ""
+     },
+     {
+      "src": "Frandroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/sony/2441836_test-du-sony-inzone-m10s",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 8.0,
+      "url": "https://www.gamesradar.com/hardware/tvs-monitors/sony-inzone-m10s-review/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/monitors/sony-inzone-m10s-review",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 7.0,
+      "url": "https://multiplayer.it/recensioni/sony-inzone-m10s-recensione-monitor-oled-gaming.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Trends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/computing/sony-inzone-m10s-review/",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2521339/sony-inzone-m10s-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 832.49,
+   "img": "sony-inzone-m10s.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "msi-mpg-321urx": {
+   "cat": "e-gaming",
+   "short": "MSI MPG 321URX",
+   "ref": "32\" 4K UHD · QD-OLED · 240 Hz",
+   "badge": "Le 32\" OLED malin",
+   "verdict": "Un 32 pouces 4K QD-OLED à 240 Hz, très bien noté, avec peu de scintillement VRR et une garantie marquage de 3 ans, souvent moins cher que ses rivaux.",
+   "strengths": [
+    "Image QD-OLED 4K éclatante",
+    "240 Hz, VRR peu sujet au scintillement",
+    "Garantie de 3 ans contre le marquage"
+   ],
+   "weak": [
+    "Noirs légèrement violacés en pièce éclairée",
+    "Pas de câble USB-C ni DisplayPort fourni"
+   ],
+   "m": [
+    "32\" 4K",
+    "240 Hz"
+   ],
+   "id": "msi-mpg-321urx",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 619.01,
+     "url": "https://www.amazon.fr/dp/B0BSN2BXC5?tag=geekconcept-21",
+     "name": "MSI MPG 321URXW QD-OLED Écran Gaming 31.5\" UHD",
+     "cfg": "",
+     "asin": "B0BSN2BXC5"
+    }
+   ],
+   "press": {
+    "avg": 8.4,
+    "n": 5,
+    "tests": 8,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "KitGuru",
+      "score": 9.0,
+      "url": "https://www.kitguru.net/peripherals/dominic-moass/msi-mpg-321urx-review-4k-240hz-qd-oled/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 9.0,
+      "url": "https://www.rtings.com/monitor/reviews/msi/mpg-321urx-qd-oled",
+      "date": ""
+     },
+     {
+      "src": "DisplayNinja",
+      "score": 8.0,
+      "url": "https://www.displayninja.com/msi-mpg-321urx-review/",
+      "date": ""
+     },
+     {
+      "src": "Geeknetic",
+      "score": 8.0,
+      "url": "https://www.geeknetic.es/Review/2785/MSI-MPG-321URX-QD-OLED-Review.html",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/msi-mpg-321urx-recensione-monitor-qd-oled-gaming.html",
+      "date": ""
+     },
+     {
+      "src": "Club386",
+      "score": null,
+      "url": "https://www.club386.com/msi-mpg-321urx-qd-oled-review-a-pixel-performance-prodigy/",
+      "date": ""
+     },
+     {
+      "src": "HardwareCooking",
+      "score": null,
+      "url": "https://www.hardwarecooking.fr/test-msi-mpg-321urxw-qd-oled/",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2615229/msi-mpg-321urxw-qd-oled-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 619.01,
+   "img": "msi-mpg-321urx.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "msi-mpg-271qr-x50": {
+   "cat": "e-gaming",
+   "short": "MSI MPG 271QR X50",
+   "ref": "26,5\" QHD · QD-OLED · 500 Hz",
+   "badge": "Le 500 Hz",
+   "verdict": "Un QD-OLED de dernière génération à 500 Hz : fluidité inégalée et très bonne luminosité plein écran. Un écran d'exception, au tarif qui va avec.",
+   "strengths": [
+    "500 Hz, fluidité exceptionnelle",
+    "Dalle QD-OLED de 4e génération",
+    "Bonne luminosité plein écran"
+   ],
+   "weak": [
+    "Très cher",
+    "Point blanc à recalibrer en SDR"
+   ],
+   "m": [
+    "26,5\" QHD",
+    "500 Hz"
+   ],
+   "id": "msi-mpg-271qr-x50",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 535.82,
+     "url": "https://www.amazon.fr/dp/B097PLXF1K?tag=geekconcept-21",
+     "name": "MSI MPG 271QR QD-OLED X50 Écran Gaming 26.5\" WQHD",
+     "cfg": "",
+     "asin": "B097PLXF1K"
+    }
+   ],
+   "press": {
+    "avg": 8.45,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PC Gamer",
+      "score": 8.9,
+      "url": "https://www.pcgamer.com/hardware/gaming-monitors/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/msi-mpg-271qr-x50-recensione-monitor-qd-oled-27.html",
+      "date": ""
+     },
+     {
+      "src": "Wccftech",
+      "score": null,
+      "url": "https://wccftech.com/review/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review-500hz-80-gbps-support-with-built-in-npu-powered-oled-care-3-0/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 535.82,
+   "img": "msi-mpg-271qr-x50.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "aoc-ag276qsg2": {
+   "cat": "e-gaming",
+   "short": "AOC Agon Pro AG276QSG2",
+   "ref": "27\" QHD · Fast IPS · 360 Hz · G-Sync Pulsar",
+   "badge": "L'IPS e-sport",
+   "verdict": "Un IPS QHD à 360 Hz doté du G-Sync Pulsar : une netteté de mouvement de premier ordre pour les jeux de tir. L'image reste celle d'un IPS face aux OLED.",
+   "strengths": [
+    "360 Hz et G-Sync Pulsar",
+    "Netteté de mouvement remarquable",
+    "Pied très réglable, bon logiciel"
+   ],
+   "weak": [
+    "Cher pour un IPS",
+    "Noirs nuageux, fuites de lumière en bord d'écran"
+   ],
+   "m": [
+    "27\" QHD",
+    "360 Hz"
+   ],
+   "id": "aoc-ag276qsg2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 541.66,
+     "url": "https://www.amazon.fr/dp/B0GFYHB2M5?tag=geekconcept-21",
+     "name": "AOC Gaming Moniteur AG276QSG2 27 Pouce 360Hz Fast IPS Dalle, 1ms GtG, HDR10",
+     "cfg": "",
+     "asin": "B0GFYHB2M5"
+    }
+   ],
+   "press": {
+    "avg": 7.5,
+    "n": 4,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/AOC-AGON-PRO-AG276QSG2-im-Test_186594666.html",
+      "date": ""
+     },
+     {
+      "src": "KitGuru",
+      "score": 8.0,
+      "url": "https://www.kitguru.net/peripherals/monitors/dominic-moass/aoc-ag276qsg2-review-1440p-360hz-g-sync-pulsar/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/aoc-agon-pro-ag276qsg2",
+      "date": ""
+     },
+     {
+      "src": "Club386",
+      "score": 6.0,
+      "url": "https://www.club386.com/aoc-agon-pro-ag276qsg2-review/",
+      "date": ""
+     },
+     {
+      "src": "PC Games Hardware",
+      "score": null,
+      "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/Tests/Fast-IPS-WQHD-Nvidia-G-Sync-Pulsar-360-Hz-Review-Test-Tech-1490836/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 541.66,
+   "img": "aoc-ag276qsg2.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "samsung-odyssey-g81sf": {
+   "cat": "e-gaming",
+   "short": "Samsung Odyssey OLED G8 G81SF",
+   "ref": "27\" 4K UHD · QD-OLED · 240 Hz",
+   "badge": "La 4K OLED mate",
+   "verdict": "Un 27 pouces 4K QD-OLED à 240 Hz avec traitement mat anti-reflets : une image très fine et confortable en pièce éclairée, au prix d'un peu de punch.",
+   "strengths": [
+    "4K 240 Hz en QD-OLED",
+    "Dalle mate qui limite les reflets",
+    "Image très fine sur 27\""
+   ],
+   "weak": [
+    "Traitement mat qui ternit légèrement le contraste",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "27\" 4K",
+    "240 Hz"
+   ],
+   "id": "samsung-odyssey-g81sf",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 601.67,
+     "url": "https://www.amazon.fr/dp/B0DF8WSJ82?tag=geekconcept-21",
+     "name": "Samsung Écran PC Gaming Odyssey OLED G8-G81SF, 27'', 4K (3840x2160), 240Hz, 0,03ms",
+     "cfg": "",
+     "asin": "B0DF8WSJ82"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g81sf-s27fg810s",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/13484/samsung-odyssey-oled-g81sf-27-inch-en-32-inch-extra-matte-oled-is-niet-in-alles-beter.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 601.67,
+   "img": "samsung-odyssey-g81sf.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa279crv": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA279CRV",
+   "ref": "27\" 4K UHD · IPS · USB-C 96 W",
+   "badge": "Le choix de la bande",
+   "verdict": "Le meilleur rapport qualité-prix pour créer : dalle 4K bien calibrée, large gamme de couleurs, USB-C 96 W et pied réglable en tous sens.",
+   "strengths": [
+    "Dalle 4K bien calibrée, gamme de couleurs étendue",
+    "USB-C 96 W",
+    "Pied réglable en tous sens, joystick pratique"
+   ],
+   "weak": [
+    "60 Hz seulement",
+    "Contraste et HDR limités"
+   ],
+   "m": [
+    "27\" 4K",
+    "60 Hz"
+   ],
+   "id": "asus-pa279crv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 329.75,
+     "url": "https://www.amazon.fr/dp/B0BY2R4BHW?tag=geekconcept-21",
+     "name": "ASUS Monitor LED IPS ProArt 27\" IPS, 4K UHD, Display Port, Vesa, HDR10, USB-C PD 96W",
+     "cfg": "",
+     "asin": "B0BY2R4BHW"
+    }
+   ],
+   "press": {
+    "avg": 7.333333333333333,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Asus-ProArt-PA279CRV-im-Test_185201334.html",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/pro/asus-proart-pa279crv-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/moniteur/asus-proart-pa279crv-p74573/test.html",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/1794810/asus-proart-pa279crv-review.html",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-pa279crv",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 329.75,
+   "img": "asus-pa279crv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa32qcv": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA32QCV",
+   "ref": "32\" 6K · IPS · Thunderbolt 4",
+   "badge": "La 6K",
+   "verdict": "Une dalle 6K sur 32 pouces à prix inédit, avec Thunderbolt 4 et un pied très fonctionnel : une netteté de texte et de photo spectaculaire.",
+   "strengths": [
+    "Définition 6K ultra-nette",
+    "Thunderbolt 4 et hub USB",
+    "Bonne luminosité et belles couleurs"
+   ],
+   "weak": [
+    "Contraste modeste",
+    "60 Hz, HDR peu convaincant"
+   ],
+   "m": [
+    "32\" 6K",
+    "60 Hz"
+   ],
+   "id": "asus-pa32qcv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1124.99,
+     "url": "https://www.amazon.fr/dp/B0FG8DB71B?tag=geekconcept-21",
+     "name": "ASUS ProArt PA32QCV 32 Pouces 6K DCI-P3 Thunderbolt 4 Écran pour Mac",
+     "cfg": "",
+     "asin": "B0FG8DB71B"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PCWorld",
+      "score": 8.0,
+      "url": "https://www.pcworld.com/article/2873124/asus-proart-pa32qcv-review.html",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.0,
+      "url": "https://phototrend.fr/2025/11/test-asus-proart-6k-pa32qcv/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/monitors/asus-proart-pa32qcv-32-inch-6k-professional-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-6k-pa32qcv",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/13848/asus-proart-pa32qcv-goedkoopste-6k-monitor-is-niet-zonder-compromis.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1124.99,
+   "img": "asus-pa32qcv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa32ucdm": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA32UCDM",
+   "ref": "32\" 4K UHD · QD-OLED · 240 Hz · Thunderbolt 4",
+   "badge": "L'OLED du créateur",
+   "verdict": "Un QD-OLED 4K calibré pour la création, excellent en SDR comme en HDR, avec Thunderbolt 4. Plus cher que les OLED gaming équivalents.",
+   "strengths": [
+    "Qualité d'image OLED en SDR et HDR",
+    "Nombreux modes colorimétriques",
+    "Thunderbolt 4"
+   ],
+   "weak": [
+    "Plus cher que les OLED 4K gaming",
+    "Connectique USB limitée"
+   ],
+   "m": [
+    "32\" 4K",
+    "240 Hz"
+   ],
+   "id": "asus-pa32ucdm",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 979.16,
+     "url": "https://www.amazon.fr/dp/B09T93CZVR?tag=geekconcept-21",
+     "name": "ASUS ProArt PA32UCDM 32 Pouces 4K Écran Professionnel DCI-P3 OLED QD-OLED",
+     "cfg": "",
+     "asin": "B09T93CZVR"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 2,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "KitGuru",
+      "score": 8.0,
+      "url": "https://www.kitguru.net/peripherals/dominic-moass/asus-proart-pa32ucdm-review-4k-240hz-professional-oled/",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": 6.0,
+      "url": "https://www.pcworld.com/article/2762020/asus-proart-pa32ucdm-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 979.16,
+   "img": "asus-pa32ucdm.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa27jcv": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA27JCV",
+   "ref": "27\" 5K · IPS · USB-C",
+   "badge": "La 5K pour Mac",
+   "verdict": "Une dalle 5K de 27 pouces, la même finesse que les écrans Apple, avec une large gamme de couleurs : l'alternative au Studio Display.",
+   "strengths": [
+    "Définition 5K, idéale sous macOS",
+    "Large gamme de couleurs",
+    "USB-C"
+   ],
+   "weak": [
+    "60 Hz",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "27\" 5K",
+    "60 Hz"
+   ],
+   "id": "asus-pa27jcv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 536.37,
+     "url": "https://www.amazon.fr/dp/B08H4THPSB?tag=geekconcept-21",
+     "name": "ASUS ProArt PA27JCV 27 Pouces 5K DCI-P3 USB-C Écran pour Mac",
+     "cfg": "",
+     "asin": "B08H4THPSB"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-pa27jcv",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 536.37,
+   "img": "asus-pa27jcv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa279cdv": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA279CDV",
+   "ref": "26,5\" 4K UHD · QD-OLED · 120 Hz · USB-C",
+   "badge": "L'OLED 27\" pour créer",
+   "verdict": "Un QD-OLED 4K de 26,5 pouces au tarif contenu, avec HDR, 120 Hz, KVM et pied complet : une alternative OLED au Studio Display.",
+   "strengths": [
+    "Dalle QD-OLED 4K",
+    "120 Hz et HDR",
+    "Connectique riche avec KVM"
+   ],
+   "weak": [
+    "Texte moins net qu'une dalle 5K",
+    "Haut-parleurs faibles"
+   ],
+   "m": [
+    "26,5\" 4K",
+    "120 Hz"
+   ],
+   "id": "asus-pa279cdv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 624.92,
+     "url": "https://www.amazon.fr/dp/B09BC332H6?tag=geekconcept-21",
+     "name": "ASUS ProArt PA279CDV, Écran Pro, 27\" 4K 120Hz, QD-OLED, USB-C 96W, HDR10",
+     "cfg": "",
+     "asin": "B09BC332H6"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Macworld",
+      "score": null,
+      "url": "https://macworld.com/article/3253774/asus-proart-oled-pa279cdv-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 624.92,
+   "img": "asus-pa279cdv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa27ucge": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA27UCGE",
+   "ref": "27\" 4K UHD · IPS · 160 Hz · sonde intégrée",
+   "badge": "L'auto-calibrant",
+   "verdict": "Un 27 pouces 4K doté d'une sonde de calibration intégrée qui se recalibre seul, avec une excellente précision des couleurs et 160 Hz.",
+   "strengths": [
+    "Sonde de calibration intégrée",
+    "Précision des couleurs excellente",
+    "160 Hz, KVM"
+   ],
+   "weak": [
+    "Uniformité de la luminosité perfectible",
+    "Prix élevé"
+   ],
+   "m": [
+    "27\" 4K",
+    "160 Hz"
+   ],
+   "id": "asus-pa27ucge",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 565.82,
+     "url": "https://www.amazon.fr/dp/B0F8W6VWRC?tag=geekconcept-21",
+     "name": "ASUS ProArt PA27UCGE : 27, 4K IPS, 160Hz, 600 nits, 98% DCI-P3, Delta E1, colorimètre intégré",
+     "cfg": "",
+     "asin": "B0F8W6VWRC"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 2,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Profesional Review",
+      "score": 9.2,
+      "url": "https://www.profesionalreview.com/2025/05/30/asus-proart-pa27ucge-review/",
+      "date": ""
+     },
+     {
+      "src": "Photo Review",
+      "score": 8.8,
+      "url": "https://www.photoreview.com.au/reviews/monitors-digital-darkroom/asus-proart-display-pa27ucge/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 565.82,
+   "img": "asus-pa27ucge.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "benq-pd2732u": {
+   "cat": "e-creation",
+   "short": "BenQ PD2732U",
+   "ref": "27\" 4K UHD · IPS · Thunderbolt 4",
+   "badge": "Le Mac-friendly",
+   "verdict": "Un 4K de 27 pouces couvrant à la fois le DCI-P3 et l'Adobe RGB, avec Thunderbolt 4 et un mode couleurs Mac : très précis, un peu cher.",
+   "strengths": [
+    "Large gamme de couleurs (P3 et Adobe RGB)",
+    "Thunderbolt 4",
+    "Modes couleurs adaptés au Mac"
+   ],
+   "weak": [
+    "Prix élevé pour une dalle 60 Hz",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "27\" 4K",
+    "60 Hz"
+   ],
+   "id": "benq-pd2732u",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 567.97,
+     "url": "https://www.amazon.fr/dp/B0H862B5P7?tag=geekconcept-21",
+     "name": "BenQ PD2732U 27\" 4K Moniteur pour Mac avec Double Gamme de Couleurs 99%",
+     "cfg": "",
+     "asin": "B0H862B5P7"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "MacGeneration",
+      "score": null,
+      "url": "https://www.macg.co/tests/2026/07/test-du-benq-creative-pro-pd2732u-un-moniteur-4k-de-27-pouces-qui-mise-tout-sur-les-couleurs-309945",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide",
+      "score": null,
+      "url": "https://www.tomsguide.com/computing/monitors/benq-creative-pro-pd2732u-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 567.97,
+   "img": "benq-pd2732u.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dell-u2724d": {
+   "cat": "e-creation",
+   "short": "Dell UltraSharp U2724D",
+   "ref": "27\" QHD · IPS Black · 120 Hz",
+   "badge": "Le contraste IPS Black",
+   "verdict": "La dalle IPS Black de Dell, plus contrastée qu'un IPS classique, avec 98 % du DCI-P3 et 120 Hz : un très bon écran pour la photo et le travail.",
+   "strengths": [
+    "Contraste IPS Black",
+    "Couleurs précises en sRGB et P3",
+    "120 Hz, design sobre"
+   ],
+   "weak": [
+    "Pas d'USB-C alimenté sur cette version",
+    "Pas de HDR ni de haut-parleurs"
+   ],
+   "m": [
+    "27\" QHD",
+    "120 Hz"
+   ],
+   "id": "dell-u2724d",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 264.92,
+     "url": "https://www.amazon.fr/dp/B0CMXGDK5S?tag=geekconcept-21",
+     "name": "Dell UltraSharp 27 Écran PC - U2724D, QHD (2560x1440), 120Hz, IPS Black",
+     "cfg": "",
+     "asin": "B0CMXGDK5S"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/dell-ultrasharp-u2724d-review/?utm_source=rss&utm_medium=rss&utm_campaign=dell-ultrasharp-u2724d-review",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2178689/dell-ultrasharp-u2724d-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 264.92,
+   "img": "dell-u2724d.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-pa278qv": {
+   "cat": "e-creation",
+   "short": "Asus ProArt PA278QV",
+   "ref": "27\" QHD · IPS · 75 Hz",
+   "badge": "Le ProArt d'entrée",
+   "verdict": "Le ProArt le plus abordable : QHD calibré d'usine (sRGB), pied réglable et connectique complète. Idéal pour débuter en retouche.",
+   "strengths": [
+    "Calibré d'usine, couleurs sRGB justes",
+    "Prix contenu",
+    "Pied réglable en tous sens"
+   ],
+   "weak": [
+    "75 Hz seulement",
+    "Gamme de couleurs limitée au sRGB"
+   ],
+   "m": [
+    "27\" QHD",
+    "75 Hz"
+   ],
+   "id": "asus-pa278qv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 217.19,
+     "url": "https://www.amazon.fr/dp/B0886LBL8R?tag=geekconcept-21",
+     "name": "ASUS ProArt PA278QV 27 Pouces 1440p Écran Professionnel",
+     "cfg": "",
+     "asin": "B0886LBL8R"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/asus-proart-pa278qv-im-test_236989",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-proart-pa278qv-p61255/test.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 217.19,
+   "img": "asus-pa278qv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "eizo-cg2700s": {
+   "cat": "e-creation",
+   "short": "Eizo ColorEdge CG2700S",
+   "ref": "27\" QHD · IPS · sonde intégrée",
+   "badge": "La référence pro",
+   "verdict": "L'écran des laboratoires photo : sonde de calibration intégrée, uniformité contrôlée, garantie longue. Une précision de référence, à un prix de pro.",
+   "strengths": [
+    "Précision et uniformité de référence",
+    "Sonde de calibration intégrée",
+    "Qualité de fabrication Eizo"
+   ],
+   "weak": [
+    "Très cher",
+    "Définition QHD seulement"
+   ],
+   "m": [
+    "27\" QHD",
+    "60 Hz"
+   ],
+   "id": "eizo-cg2700s",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1666.64,
+     "url": "https://www.amazon.fr/dp/B09ZQD9SHG?tag=geekconcept-21",
+     "name": "Eizo ColorEdge CG2700S écran Plat de PC 68,6 cm (27\") 2560 x 1440 Pixels Wide Quad HD LED",
+     "cfg": "",
+     "asin": "B09ZQD9SHG"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Fstoppers",
+      "score": null,
+      "url": "https://fstoppers.com/reviews/review-eizo-coloredge-cg-2700s-monitor-619533",
+      "date": ""
+     },
+     {
+      "src": "PRAD",
+      "score": null,
+      "url": "https://cdn.eizo.be/fileadmin/Media_Content/Awards/fr/ColorEdge/CG2700S/PRAD_Review_CG2700S_FR.pdf",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1666.64,
+   "img": "eizo-cg2700s.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-mb169ck": {
+   "cat": "e-portable",
+   "short": "Asus ZenScreen MB169CK",
+   "ref": "15,6\" Full HD · IPS · USB-C",
+   "badge": "Le choix de la bande",
+   "verdict": "Le second écran de voyage simple et pas cher : léger, alimenté et piloté par un seul câble USB-C, avec béquille intégrée et garantie de 3 ans.",
+   "strengths": [
+    "Un seul câble USB-C",
+    "Léger et compact, béquille 360°",
+    "Prix très bas, garantie 3 ans"
+   ],
+   "weak": [
+    "Luminosité un peu juste",
+    "Couleurs insuffisantes pour la retouche"
+   ],
+   "m": [
+    "15,6\" Full HD",
+    "60 Hz"
+   ],
+   "id": "asus-mb169ck",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 82.5,
+     "url": "https://www.amazon.fr/dp/B0DT4NRV5Z?tag=geekconcept-21",
+     "name": "ASUS ZenScreen MB169CK 15.6 Pouces Écran Portable",
+     "cfg": "",
+     "asin": "B0DT4NRV5Z"
+    }
+   ],
+   "press": {
+    "avg": 8.6,
+    "n": 1,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 8.6,
+      "url": "https://basic-tutorials.de/tests/peripherie/asus-zenscreen-mb169ck/",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": null,
+      "url": "https://techtest.org/asus-zenscreen-mb169ck-test-portabler-156-zoll-monitor-fuer-99e/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 82.5,
+   "img": "asus-mb169ck.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-mb166c": {
+   "cat": "e-portable",
+   "short": "Asus ZenScreen MB166C",
+   "ref": "15,6\" Full HD · IPS · USB-C",
+   "badge": "Le plus vendu",
+   "verdict": "Un écran portable très diffusé : fin, léger, branché en USB-C, livré avec sa housse-support. L'essentiel pour doubler l'écran d'un portable.",
+   "strengths": [
+    "Très léger",
+    "Branchement USB-C unique",
+    "Housse qui sert de support"
+   ],
+   "weak": [
+    "Image un peu terne",
+    "Support peu stable"
+   ],
+   "m": [
+    "15,6\" Full HD",
+    "60 Hz"
+   ],
+   "id": "asus-mb166c",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 78.58,
+     "url": "https://www.amazon.fr/dp/B09P3SBQ8W?tag=geekconcept-21",
+     "name": "ASUS ZenScreen MB166C 15.6 Pouces Écran Portable",
+     "cfg": "",
+     "asin": "B09P3SBQ8W"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 1,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Creative Bloq",
+      "score": 8.0,
+      "url": "https://www.creativebloq.com/reviews/asus-zenscreen-mb166cr",
+      "date": ""
+     },
+     {
+      "src": "Digital Weekly",
+      "score": null,
+      "url": "https://www.digitweek.com/asus-zenscreen-mb166c-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 78.58,
+   "img": "asus-mb166c.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-mb16acv": {
+   "cat": "e-portable",
+   "short": "Asus ZenScreen MB16ACV",
+   "ref": "15,6\" Full HD · IPS · USB-C",
+   "badge": "L'antibactérien",
+   "verdict": "Un ZenScreen à traitement antibactérien et béquille intégrée, compatible USB-C et USB-A : pratique pour un usage partagé au bureau ou en classe.",
+   "strengths": [
+    "Compatible USB-C et USB-A",
+    "Traitement antibactérien",
+    "Béquille intégrée"
+   ],
+   "weak": [
+    "Luminosité moyenne",
+    "Tests anciens (modèle de la gamme MB16AC)"
+   ],
+   "m": [
+    "15,6\" Full HD",
+    "60 Hz"
+   ],
+   "id": "asus-mb16acv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 139.71,
+     "url": "https://www.amazon.fr/dp/B0914KHQ4G?tag=geekconcept-21",
+     "name": "ASUS Zenscreen MB16ACV - Ecran PC portable 15.6\" FHD - Télétravail ou gaming",
+     "cfg": "",
+     "asin": "B0914KHQ4G"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Allround-PC",
+      "score": null,
+      "url": "https://www.allround-pc.com/artikel/monitore/test-asus-zenscreen-mb16ac",
+      "date": ""
+     },
+     {
+      "src": "Notebookcheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Test-Asus-ZenScreen-MB16AC-15-6-FHD-IPS-Monitor.251642.0.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 139.71,
+   "img": "asus-mb16acv.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-mq149cd": {
+   "cat": "e-portable",
+   "short": "Asus ZenScreen Duo OLED MQ149CD",
+   "ref": "2 × 14\" OLED · WUXGA · USB-C",
+   "badge": "Le double écran OLED",
+   "verdict": "Deux dalles OLED de 14 pouces reliées par une charnière : on les empile ou on les place côte à côte. Superbe, bien construit, mais cher.",
+   "strengths": [
+    "Deux écrans OLED magnifiques",
+    "Format livre polyvalent (paysage ou portrait)",
+    "Construction aluminium"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Dalles brillantes, pas de haut-parleurs"
+   ],
+   "m": [
+    "2 × 14\" WUXGA",
+    "60 Hz"
+   ],
+   "id": "asus-mq149cd",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 490.83,
+     "url": "https://www.amazon.fr/dp/B09K6Y85QH?tag=geekconcept-21",
+     "name": "ASUS ZenScreen Duo OLED MQ149CD - Dual-OLED-Monitor - 35.6 cm (14\")",
+     "cfg": "",
+     "asin": "B09K6Y85QH"
+    }
+   ],
+   "press": {
+    "avg": 8.7,
+    "n": 1,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Profesional Review",
+      "score": 8.7,
+      "url": "https://www.profesionalreview.com/2025/04/24/asus-zenscreen-duo-oled-mq149cd-review/",
+      "date": ""
+     },
+     {
+      "src": "Digital Citizen",
+      "score": null,
+      "url": "https://www.digitalcitizen.life/asus-zenscreen-duo-oled-review/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": null,
+      "url": "https://www.tomshardware.com/monitors/portable-monitors/asus-zenscreen-duo-oled-mq149cd-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 490.83,
+   "img": "asus-mq149cd.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-mq17qh": {
+   "cat": "e-portable",
+   "short": "Asus ZenScreen Fold MQ17QH",
+   "ref": "17,3\" OLED pliable · 2,5K · USB-C",
+   "badge": "Le pliable",
+   "verdict": "Un grand écran OLED de 17,3 pouces qui se plie en deux pour le transport : unique et spectaculaire, mais très cher et encore perfectible.",
+   "strengths": [
+    "Grand écran OLED qui se plie",
+    "Image 2,5K très belle",
+    "Format unique"
+   ],
+   "weak": [
+    "Prix très élevé",
+    "Pli visible selon l'angle"
+   ],
+   "m": [
+    "17,3\" 2,5K",
+    "60 Hz"
+   ],
+   "id": "asus-mq17qh",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1803.74,
+     "url": "https://www.amazon.fr/dp/B0DPL8F4MZ?tag=geekconcept-21",
+     "name": "ASUS ZenScreen Fold MQ17QH Moniteur Portable 17,3, Quad HD OLED (2560 x 1920)",
+     "cfg": "",
+     "asin": "B0DPL8F4MZ"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 2,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Geeknetic",
+      "score": 8.0,
+      "url": "https://www.geeknetic.es/Review/2918/ASUS-ZenScreen-Fold-OLED-MQ17QH-Review.html",
+      "date": ""
+     },
+     {
+      "src": "IT Pro",
+      "score": 6.0,
+      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-fold-oled-mq17qh-review-the-portable-monitor-your-small-business-cant-afford",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1803.74,
+   "img": "asus-mq17qh.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-mq16fc": {
+   "cat": "e-portable",
+   "short": "Asus ZenScreen OLED MQ16FC",
+   "ref": "16\" OLED · WUXGA 16:10 · USB-C",
+   "badge": "L'OLED nomade",
+   "verdict": "Un écran portable OLED de 16 pouces au format 16:10, avec recharge du portable en transit : des couleurs et un contraste bien au-dessus des IPS d'entrée.",
+   "strengths": [
+    "Dalle OLED au contraste infini",
+    "Format 16:10 confortable",
+    "Recharge du portable en transit"
+   ],
+   "weak": [
+    "Plus cher qu'un portable IPS",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "16\" WUXGA",
+    "60 Hz"
+   ],
+   "id": "asus-mq16fc",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 233.32,
+     "url": "https://www.amazon.fr/dp/B0GR6B24HL?tag=geekconcept-21",
+     "name": "ASUS Moniteur Portable ZenScreen OLED MQ16FC – Écran OLED WUXGA 16 Pouces au Format 16:10",
+     "cfg": "",
+     "asin": "B0GR6B24HL"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Root Nation",
+      "score": null,
+      "url": "https://root-nation.com/en/pc-en/pc-monitors-en/en-asus-zenscreen-oled-mq16fc-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 233.32,
+   "img": "asus-mq16fc.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "msi-pro-mp165-e6": {
+   "cat": "e-portable",
+   "short": "MSI Pro MP165 E6",
+   "ref": "15,6\" Full HD · IPS · 2 × USB-C",
+   "badge": "Le petit prix bien équipé",
+   "verdict": "Un écran portable économique livré avec trépied, fixations VESA et pochette, avec deux USB-C : l'équipement d'un modèle plus cher.",
+   "strengths": [
+    "Deux USB-C avec Power Delivery",
+    "Trépied, VESA et pochette fournis",
+    "Bonne luminosité pour le prix"
+   ],
+   "weak": [
+    "Couleurs et contraste moyens",
+    "Construction plastique"
+   ],
+   "m": [
+    "15,6\" Full HD",
+    "60 Hz"
+   ],
+   "id": "msi-pro-mp165-e6",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 74.99,
+     "url": "https://www.amazon.fr/dp/B0FG7WJ4YC?tag=geekconcept-21",
+     "name": "MSI Pro MP165 E6 Écran Professionnel 15.6\" FHD",
+     "cfg": "",
+     "asin": "B0FG7WJ4YC"
+    }
+   ],
+   "press": {
+    "avg": 7.333333333333333,
+    "n": 3,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PCWorld",
+      "score": 8.0,
+      "url": "https://www.pcworld.com/article/2900743/msi-pro-mp165-e6-review.html",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/pro/msi-pro-mp165-e6-portable-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 6.0,
+      "url": "https://www.tomshardware.com/monitors/portable-monitors/msi-pro-mp165-e6-portable-monitor-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 74.99,
+   "img": "msi-pro-mp165-e6.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "acer-pd163q": {
+   "cat": "e-portable",
+   "short": "Acer PD163Q",
+   "ref": "2 × 15,6\" Full HD · IPS · USB-C",
+   "badge": "Le double écran pliant",
+   "verdict": "Deux écrans Full HD reliés et pilotés par un seul câble USB-C : on double ou triple la surface d'affichage d'un portable. Pratique, mais épais.",
+   "strengths": [
+    "Deux écrans par un seul câble",
+    "Nombreuses positions",
+    "Écrans symétriques et bien appariés"
+   ],
+   "weak": [
+    "Luminosité et colorimétrie moyennes",
+    "Bordures épaisses, pied fragile"
+   ],
+   "m": [
+    "2 × 15,6\" Full HD",
+    "60 Hz"
+   ],
+   "id": "acer-pd163q",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 217.5,
+     "url": "https://www.amazon.fr/dp/B0DPXGSRNX?tag=geekconcept-21",
+     "name": "Acer PD3 | Écran Portable Double | 15,6 Pouces | 2X FHD",
+     "cfg": "",
+     "asin": "B0DPXGSRNX"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 3,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Clubic",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-572283-test-acer-pd163q-le-double-ecran-externe-qui-va-booster-votre-productivite.html",
+      "date": ""
+     },
+     {
+      "src": "Frandroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/acer/2610193_test-de-lacer-pd163q-un-double-ecran-portable-pour-le-double-de-productivite",
+      "date": ""
+     },
+     {
+      "src": "Presse-citron",
+      "score": 7.0,
+      "url": "https://www.presse-citron.net/test-acer-pd163q-le-double-ecran-transportable-pour-plus-de-productivite/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 217.5,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "viewsonic-va1655": {
+   "cat": "e-portable",
+   "short": "ViewSonic VA1655",
+   "ref": "15,6\" Full HD · IPS · USB-C 60 W",
+   "badge": "Le plus complet",
+   "verdict": "Un écran portable bien équipé : deux USB-C avec recharge 60 W, mini-HDMI, haut-parleurs et joystick de menu. Un peu plus épais que la moyenne.",
+   "strengths": [
+    "Deux USB-C (60 W) et mini-HDMI",
+    "Haut-parleurs, menu au joystick",
+    "Image nette et assez juste"
+   ],
+   "weak": [
+    "Contraste et couleurs modestes",
+    "Plus lourd que certains rivaux"
+   ],
+   "m": [
+    "15,6\" Full HD",
+    "60 Hz"
+   ],
+   "id": "viewsonic-va1655",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 207.04,
+     "url": "https://www.amazon.fr/dp/B09237LL5Q?tag=geekconcept-21",
+     "name": "Viewsonic VA1655 Moniteur portable 40 cm (15,6 pouces) (Full HD, panneau IPS, mini HDMI, 2x USB-C)",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B09237LL5Q"
+    }
+   ],
+   "press": {
+    "avg": 6.966666666666666,
+    "n": 3,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PC Magazin",
+      "score": 8.9,
+      "url": "https://www.connect-living.de/testbericht/viewsonic-va1655-tragbarer-monitor-test-review-3205440.html",
+      "date": ""
+     },
+     {
+      "src": "PCWorld",
+      "score": 6.0,
+      "url": "https://www.pcworld.com/article/2853263/viewsonic-va1655-portable-monitor-review.html",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 6.0,
+      "url": "https://www.tomshardware.com/monitors/portable-monitors/viewsonic-va1655-portable-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/viewsonic-va1655-review-affordable-1080p-ips-portable-monitor/?utm_source=rss&utm_medium=rss&utm_campaign=viewsonic-va1655-review-affordable-1080p-ips-portable-monitor",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 207.04,
+   "img": "viewsonic-va1655.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "duex-max": {
+   "cat": "e-portable",
+   "short": "Mobile Pixels Duex Max",
+   "ref": "14,1\" Full HD · extension clipsée · USB-C",
+   "badge": "L'écran qui se clipse",
+   "verdict": "Un écran de 14 pouces qui s'attache au dos du portable et coulisse sur le côté : la solution la plus compacte pour un double écran en voyage.",
+   "strengths": [
+    "Se fixe directement sur le portable",
+    "Coulisse et pivote (paysage, portrait)",
+    "USB-C ou HDMI"
+   ],
+   "weak": [
+    "Alourdit l'écran du portable",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "14,1\" Full HD",
+    "60 Hz"
+   ],
+   "id": "duex-max",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 208.14,
+     "url": "https://www.amazon.fr/dp/B0C39RBB4K?tag=geekconcept-21",
+     "name": "Mobile Pixels New Duex Max DS 14.1'' FHD 1080p Laptop Screen Extender, USB Type-C/HDMI",
+     "cfg": "",
+     "asin": "B0C39RBB4K"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Help Desk Geek",
+      "score": null,
+      "url": "https://helpdeskgeek.com/mobile-pixels-duex-max-portable-monitor-review/",
+      "date": ""
+     },
+     {
+      "src": "Keith Wee",
+      "score": null,
+      "url": "https://keithwee.com/duex-max-portable-monitor-review-2023-productivity-max/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 208.14,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "aoc-q27g4x": {
+   "cat": "e-lowcost",
+   "short": "AOC Gaming Q27G4X",
+   "ref": "27\" QHD · Fast IPS · 180 Hz",
+   "badge": "Le choix de la bande",
+   "verdict": "La bonne affaire du 27 pouces : QHD, 180 Hz, couleurs justes et pied réglable pour bien moins de 200 €. Peu de ports, HDR décoratif.",
+   "strengths": [
+    "QHD et 180 Hz pour moins de 200 €",
+    "Couleurs précises",
+    "Pied ergonomique"
+   ],
+   "weak": [
+    "Peu de connectique, pas d'USB",
+    "HDR peu lumineux"
+   ],
+   "m": [
+    "27\" QHD",
+    "180 Hz"
+   ],
+   "id": "aoc-q27g4x",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 133.32,
+     "url": "https://www.amazon.fr/dp/B0GWDTNJN3?tag=geekconcept-21",
+     "name": "AOC Gaming Moniteur Q27G4XFAD 27 Pouce 180Hz Fast IPS Dalle, 1ms GtG, HDR10",
+     "cfg": "",
+     "asin": "B0GWDTNJN3"
+    }
+   ],
+   "press": {
+    "avg": 7.8,
+    "n": 5,
+    "tests": 5,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "GadgetGear",
+      "score": 9.0,
+      "url": "https://www.gadgetgear.nl/2024/06/review-aoc-q27g4x-27-hoge-refreshrate-voor-iedereen/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-aoc-q27g4x-un-ecran-gamer-qui-a-tout-pour-plaire/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/monitors/gaming-monitors/aoc-q27g4xy-qhd-smart-gaming-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "Game-eXperience",
+      "score": 7.0,
+      "url": "https://game-experience.it/aoc-q27g4x-la-recensione-del-monitor-per-tutte-le-tasche/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 7.0,
+      "url": "https://multiplayer.it/recensioni/aoc-q27g4x-recensione-monitor-27-pollici-quad-hd-prezzo-abbordabile.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 133.32,
+   "img": "aoc-q27g4x.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "aoc-q27g4zr": {
+   "cat": "e-lowcost",
+   "short": "AOC Gaming Q27G4ZR",
+   "ref": "27\" QHD · Fast IPS · 260 Hz",
+   "badge": "Le plus rapide",
+   "verdict": "Un QHD à 260 Hz bien calibré et lumineux, avec pied entièrement réglable : de la fluidité de compétition pour moins de 200 €.",
+   "strengths": [
+    "260 Hz en QHD",
+    "Dalle bien calibrée et lumineuse",
+    "Pied réglable, input lag très faible"
+   ],
+   "weak": [
+    "Pas de port USB",
+    "260 Hz uniquement en DisplayPort"
+   ],
+   "m": [
+    "27\" QHD",
+    "260 Hz"
+   ],
+   "id": "aoc-q27g4zr",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 166.66,
+     "url": "https://www.amazon.fr/dp/B0GWDRVW5P?tag=geekconcept-21",
+     "name": "AOC Gaming Moniteur Q27G4ZRAD 27 Pouce 260Hz Fast IPS Dalle, 1ms GtG, HDR400",
+     "cfg": "",
+     "asin": "B0GWDRVW5P"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 3,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "KitGuru",
+      "score": 9.0,
+      "url": "https://www.kitguru.net/peripherals/monitors/dominic-moass/aoc-q27g4zr-review-budget-1440p-260hz/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.5,
+      "url": "https://basic-tutorials.de/tests/peripherie/aoc-gaming-q27g4zr-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/moniteur/aoc-q27g4zr-p78457/test.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 166.66,
+   "img": "aoc-q27g4zr.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "aoc-24g4zr": {
+   "cat": "e-lowcost",
+   "short": "AOC Gaming 24G4ZR",
+   "ref": "24\" Full HD · Fast IPS · 260 Hz",
+   "badge": "Le 24\" e-sport",
+   "verdict": "Un 24 pouces Full HD à 260 Hz avec pied réglable en hauteur, pour moins de 100 € : le format préféré des joueurs compétitifs.",
+   "strengths": [
+    "260 Hz pour moins de 100 €",
+    "Pied réglable en hauteur",
+    "Format 24\" idéal en e-sport"
+   ],
+   "weak": [
+    "Full HD seulement",
+    "HDR anecdotique"
+   ],
+   "m": [
+    "24\" Full HD",
+    "260 Hz"
+   ],
+   "id": "aoc-24g4zr",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 95.79,
+     "url": "https://www.amazon.fr/dp/B0FR4VXQMV?tag=geekconcept-21",
+     "name": "AOC Moniteur 24G4ZR 24 Pouce 260Hz Fast IPS Dalle, 1ms GtG, HDR10, G-Sync Compatible",
+     "cfg": "",
+     "asin": "B0FR4VXQMV"
+    }
+   ],
+   "press": {
+    "avg": 8.6,
+    "n": 1,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 8.6,
+      "url": "https://basic-tutorials.de/tests/peripherie/aoc-gaming-24g4x/",
+      "date": ""
+     },
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/aoc-24g4-review/?utm_source=rss&utm_medium=rss&utm_campaign=aoc-24g4-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 95.79,
+   "img": "aoc-24g4zr.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "gigabyte-gs25f2": {
+   "cat": "e-lowcost",
+   "short": "Gigabyte GS25F2",
+   "ref": "25\" Full HD · IPS · 200 Hz",
+   "badge": "Le moins cher",
+   "verdict": "Un 25 pouces Full HD à 200 Hz pour moins de 100 € : la fluidité d'un écran gaming au prix d'un écran de bureau.",
+   "strengths": [
+    "200 Hz pour moins de 100 €",
+    "Dalle IPS",
+    "Format 25\" compact"
+   ],
+   "weak": [
+    "Pied seulement inclinable",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "25\" Full HD",
+    "200 Hz"
+   ],
+   "id": "gigabyte-gs25f2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 98.58,
+     "url": "https://www.amazon.fr/dp/B0F19F9B2P?tag=geekconcept-21",
+     "name": "GIGABYTE GS25F2 Écran Gaming 25\" FHD - 1920 x 1080, 200Hz, 1ms, 300 CD/m²",
+     "cfg": "",
+     "asin": "B0F19F9B2P"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechBroll",
+      "score": null,
+      "url": "https://techbroll.com/2025/09/gigabyte-gs25f2-gaming-monitor-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 98.58,
+   "img": "gigabyte-gs25f2.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "gigabyte-gs27qca": {
+   "cat": "e-lowcost",
+   "short": "Gigabyte GS27QCA",
+   "ref": "27\" QHD incurvé · VA · 180 Hz",
+   "badge": "L'incurvé pas cher",
+   "verdict": "Un 27 pouces QHD incurvé à dalle VA bien contrastée, très bon marché : immersif en jeu, avec une ergonomie minimale.",
+   "strengths": [
+    "Contraste élevé (dalle VA)",
+    "QHD incurvé très bon marché",
+    "Texte net"
+   ],
+   "weak": [
+    "Pied seulement inclinable",
+    "Légères traînées dans les scènes sombres"
+   ],
+   "m": [
+    "27\" QHD",
+    "180 Hz"
+   ],
+   "id": "gigabyte-gs27qca",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 133.25,
+     "url": "https://www.amazon.fr/dp/B0DQ5J44NZ?tag=geekconcept-21",
+     "name": "GIGABYTE GS27QCA 27\" Moniteur Gaming Incurvé QHD - 2560 x 1440, 180Hz, 1ms",
+     "cfg": "",
+     "asin": "B0DQ5J44NZ"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "DisplayNinja",
+      "score": 8.0,
+      "url": "https://www.displayninja.com/gigabyte-gs27qc-review/",
+      "date": ""
+     },
+     {
+      "src": "GizTele",
+      "score": 8.0,
+      "url": "https://www.giztele.com/gigabyte-gs27qc-monitor/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 8.0,
+      "url": "https://www.rtings.com/monitor/reviews/gigabyte/gs27qc",
+      "date": ""
+     },
+     {
+      "src": "Actu High-Tech",
+      "score": null,
+      "url": "https://www.actuhightech.com/test-du-moniteur-gaming-incurve-gigabyte-gs27qca-27-qhd/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 133.25,
+   "img": "gigabyte-gs27qca.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "gigabyte-gs32qca": {
+   "cat": "e-lowcost",
+   "short": "Gigabyte GS32QCA",
+   "ref": "31,5\" QHD incurvé · VA · 180 Hz",
+   "badge": "Le plus grand",
+   "verdict": "Un 32 pouces QHD incurvé à 180 Hz pour moins de 200 € : beaucoup de surface et d'immersion pour le prix.",
+   "strengths": [
+    "Grande diagonale incurvée",
+    "QHD 180 Hz",
+    "Prix très bas pour un 32\""
+   ],
+   "weak": [
+    "Densité de pixels plus faible qu'un 27\"",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "31,5\" QHD",
+    "180 Hz"
+   ],
+   "id": "gigabyte-gs32qca",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 176.5,
+     "url": "https://www.amazon.fr/dp/B0DQ5T8M7J?tag=geekconcept-21",
+     "name": "GIGABYTE GS32QCA 31,5\" Moniteur Gaming Incurvé QHD - 2560 x 1440, 180Hz, 1ms",
+     "cfg": "",
+     "asin": "B0DQ5T8M7J"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Noticias3D",
+      "score": null,
+      "url": "https://www.noticias3d.com/articulo/3919/p2/gigabyte-gs32qca-radeon-rx-9060-xt-review-pareja-avenida.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 176.5,
+   "img": "gigabyte-gs32qca.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dell-se2426hg": {
+   "cat": "e-lowcost",
+   "short": "Dell SE2426HG",
+   "ref": "24\" Full HD · Fast IPS · 240 Hz",
+   "badge": "Le 240 Hz de marque",
+   "verdict": "Un 24 pouces 240 Hz signé Dell, avec garantie constructeur solide, pour moins de 100 € : simple et efficace.",
+   "strengths": [
+    "240 Hz pour moins de 100 €",
+    "Dalle Fast IPS",
+    "Garantie Dell"
+   ],
+   "weak": [
+    "Pied basique",
+    "Testé sans note chiffrée (variante SE2426HGS)"
+   ],
+   "m": [
+    "24\" Full HD",
+    "240 Hz"
+   ],
+   "id": "dell-se2426hg",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 90.83,
+     "url": "https://www.amazon.fr/dp/B0GHQ2BPYJ?tag=geekconcept-21",
+     "name": "Dell 24 Écran PC Gaming - SE2426HG, Full HD (1920x1080), 240Hz, Fast IPS",
+     "cfg": "",
+     "asin": "B0GHQ2BPYJ"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/monitor/reviews/dell/se2426hgs",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 90.83,
+   "img": "dell-se2426hg.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "asus-vg279qm5a": {
+   "cat": "e-lowcost",
+   "short": "Asus TUF Gaming VG279QM5A",
+   "ref": "27\" Full HD · Fast IPS · 240 Hz",
+   "badge": "Le TUF 240 Hz",
+   "verdict": "Le successeur du VG279QM, référence du 27 pouces Full HD rapide : 240 Hz et Fast IPS pour un peu plus de 120 €.",
+   "strengths": [
+    "240 Hz en Fast IPS",
+    "Gamme TUF réputée",
+    "Prix contenu"
+   ],
+   "weak": [
+    "Full HD un peu juste sur 27\"",
+    "Notes surtout obtenues par le modèle précédent"
+   ],
+   "m": [
+    "27\" Full HD",
+    "240 Hz"
+   ],
+   "id": "asus-vg279qm5a",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 123.14,
+     "url": "https://www.amazon.fr/dp/B0FDBJBG7R?tag=geekconcept-21",
+     "name": "ASUS TUF Gaming VG279QM5A 27 Pouces 240Hz Écran PC Gamer Fast IPS",
+     "cfg": "",
+     "asin": "B0FDBJBG7R"
+    }
+   ],
+   "press": {
+    "avg": 8.666666666666666,
+    "n": 3,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-vg279qm-p56789/test.html",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-de-l-asus-tuf-gaming-vg279qm-un-ecran-27-pouces-presque-parfait-pour-le-jeu-video-6459.html",
+      "date": ""
+     },
+     {
+      "src": "DisplayNinja",
+      "score": 8.0,
+      "url": "https://www.displayninja.com/asus-vg279qm-review/",
+      "date": ""
+     },
+     {
+      "src": "Actu High-Tech",
+      "score": null,
+      "url": "https://www.actuhightech.com/test-de-lecran-asus-tuf-vg279qm-performance-ultime-en-gaming/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 123.14,
+   "img": "asus-vg279qm5a.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "lenovo-legion-27q-10": {
+   "cat": "e-lowcost",
+   "short": "Lenovo Legion 27Q-10",
+   "ref": "27\" QHD · IPS · 240 Hz",
+   "badge": "Le QHD 240 Hz",
+   "verdict": "Un 27 pouces QHD à 240 Hz avec certification Eyesafe pour moins de 150 € : une fiche technique rare à ce prix.",
+   "strengths": [
+    "QHD à 240 Hz",
+    "Certification Eyesafe (lumière bleue)",
+    "Prix agressif"
+   ],
+   "weak": [
+    "Peu de tests publiés",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "27\" QHD",
+    "240 Hz"
+   ],
+   "id": "lenovo-legion-27q-10",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 133.32,
+     "url": "https://www.amazon.fr/dp/B0FLQ62BSG?tag=geekconcept-21",
+     "name": "Lenovo Legion 27Q-10 - Écran Gaming de 27\" QHD avec Eyesafe (IPS, 240Hz, 0.5ms)",
+     "cfg": "",
+     "asin": "B0FLQ62BSG"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Croma Unboxed",
+      "score": null,
+      "url": "https://www.croma.com/unboxed/lenovo-legion-27q-10-gaming-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "FoneArena",
+      "score": null,
+      "url": "https://www.fonearena.com/blog/473942/lenovo-legion-27q-10-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 133.32,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "iiyama-gb2771qsu": {
+   "cat": "e-lowcost",
+   "short": "iiyama G-Master GB2771QSU",
+   "ref": "27\" QHD · Fast IPS · 200 Hz · hub USB",
+   "badge": "Le plus ergonomique",
+   "verdict": "Un QHD 200 Hz avec pied réglable en hauteur, haut-parleurs et hub USB : l'équipement complet de la gamme Red Eagle, réputée chez les joueurs.",
+   "strengths": [
+    "Pied réglable en hauteur, pivot",
+    "QHD 200 Hz",
+    "Hub USB et haut-parleurs"
+   ],
+   "weak": [
+    "Notes obtenues par le modèle précédent (GB2770QSU)",
+    "HDR décoratif"
+   ],
+   "m": [
+    "27\" QHD",
+    "200 Hz"
+   ],
+   "id": "iiyama-gb2771qsu",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 145.75,
+     "url": "https://www.amazon.fr/dp/B0FV3CH9GZ?tag=geekconcept-21",
+     "name": "iiyama Ecran G-Master Red Eagle, GB2771QSU-B1, Fast IPS, QHD@200Hz, 0.5ms, Haut-parleurs",
+     "cfg": "",
+     "asin": "B0FV3CH9GZ"
+    }
+   ],
+   "press": {
+    "avg": 8.333333333333334,
+    "n": 3,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "CowCotLand",
+      "score": 10.0,
+      "url": "https://www.cowcotland.com/articles/4503/iiyama-g-master-red-eagle-gb2770qsu-b6-un-excellent-ecran-qhd-qui-fait-le-job-mais.html",
+      "date": ""
+     },
+     {
+      "src": "KitGuru",
+      "score": 8.0,
+      "url": "https://www.kitguru.net/peripherals/dominic-moass/iiyama-gb2770qsu-1440p-165hz-monitor-review/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 7.0,
+      "url": "https://charlestech.fr/test-iiyama-g-master-gb2770qsu/",
+      "date": ""
+     },
+     {
+      "src": "MonitorNerds",
+      "score": null,
+      "url": "https://monitornerds.com/iiyama-gb2770qsu-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 145.75,
+   "img": "iiyama-gb2771qsu.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-2862": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-2862",
+   "ref": "Multifonction A4 · réservoirs · Wi-Fi",
+   "badge": "Le choix de la bande",
+   "verdict": "La porte d'entrée des réservoirs d'encre : on imprime des milliers de pages avec l'encre fournie, pour un coût à la page dérisoire. Lente et sans recto-verso automatique.",
+   "strengths": [
+    "Coût à la page très bas",
+    "Des milliers de pages avec l'encre fournie",
+    "Compacte, Wi-Fi"
+   ],
+   "weak": [
+    "Lente, surtout en couleur",
+    "Pas de recto-verso automatique ni de chargeur"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-2862",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 169.69,
+     "url": "https://www.amazon.fr/dp/B0CPPLD6B2?tag=geekconcept-21",
+     "name": "Epson EcoTank ET-2862 Imprimante à Réservoirs D'Encre | Maison & Petit Bureau | Wi-FI | A4",
+     "cfg": "",
+     "asin": "B0CPPLD6B2"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 5,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Expert Reviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/printers/1415109/epson-ecotank-et-2850-review",
+      "date": ""
+     },
+     {
+      "src": "Laptop Mag",
+      "score": 8.0,
+      "url": "https://www.laptopmag.com/reviews/epson-ecotank-et-2850-all-in-one-printer",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/reviews/epson-ecotank-et-2850",
+      "date": ""
+     },
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/epson-ecotank-et-2862-p276698/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2862/16/105058",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 169.69,
+   "img": "epson-et-2862.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-2856": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-2856",
+   "ref": "Multifonction A4 · réservoirs · Wi-Fi",
+   "badge": "La version blanche",
+   "verdict": "La déclinaison de la gamme ET-2850 : mêmes atouts (coût à la page très bas, encre pour des milliers de pages) et mêmes limites (lenteur, petit écran).",
+   "strengths": [
+    "Coût à la page très bas",
+    "Qualité d'impression soignée",
+    "Compacte et sobre"
+   ],
+   "weak": [
+    "Impression lente",
+    "Écran minuscule, pas de chargeur"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-2856",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 291.07,
+     "url": "https://www.amazon.fr/dp/B09GFW8FLZ?tag=geekconcept-21",
+     "name": "Imprimante multifonction A4 Wi-Fi EcoTank ET-2856 équipée de réservoirs d'encre",
+     "cfg": "",
+     "asin": "B09GFW8FLZ"
+    }
+   ],
+   "press": {
+    "avg": 7.6,
+    "n": 5,
+    "tests": 5,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Actualidad Gadget",
+      "score": 8.0,
+      "url": "https://www.actualidadgadget.com/epson-ecotank-2850-analisis-precio-caracteristicas/",
+      "date": ""
+     },
+     {
+      "src": "Expert Reviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/printers/1415109/epson-ecotank-et-2850-review",
+      "date": ""
+     },
+     {
+      "src": "Laptop Mag",
+      "score": 8.0,
+      "url": "https://www.laptopmag.com/reviews/epson-ecotank-et-2850-all-in-one-printer",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/reviews/epson-ecotank-et-2850",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 6.0,
+      "url": "https://www.rtings.com/printer/reviews/epson/ecotank-et-2850",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 291.07,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-2876": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-2876",
+   "ref": "Multifonction A4 · réservoirs · Wi-Fi",
+   "badge": "Le recto-verso abordable",
+   "verdict": "Une EcoTank d'entrée de gamme plus récente, testée en laboratoire par Test-Achats et Que Choisir : l'économie des réservoirs dans un format compact.",
+   "strengths": [
+    "Coût à la page très bas",
+    "Compacte, Wi-Fi",
+    "Testée par deux associations de consommateurs"
+   ],
+   "weak": [
+    "Vendue sur Amazon par un vendeur tiers",
+    "Vitesse modeste"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-2876",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 244.5,
+     "url": "https://www.amazon.fr/dp/B0D1R8GR11?tag=geekconcept-21",
+     "name": "Epson EcoTank ET-2876 Imprimante à Réservoirs D'encre | Maison & Petit Bureau | Wi-Fi | A4",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D1R8GR11"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/epson-ecotank-et-2876-p276678/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2876/16/105076",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 244.5,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-3950": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-3950",
+   "ref": "Multifonction A4 · réservoirs · recto-verso",
+   "badge": "Le télétravail",
+   "verdict": "Une EcoTank plus rapide avec recto-verso automatique et chargeur de documents : la bonne imprimante pour le télétravail, à l'encre très bon marché.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Chargeur de documents",
+    "Coût à la page très bas"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Photos correctes sans plus"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-3950",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 296.44,
+     "url": "https://www.amazon.fr/dp/B0FKNG3MZ7?tag=geekconcept-21",
+     "name": "Epson EcoTank ET-3950 Imprimante à Réservoirs D'Encre | Télétravail | Wi-FI | A4",
+     "cfg": "",
+     "asin": "B0FKNG3MZ7"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PC-Welt",
+      "score": null,
+      "url": "https://www.pcwelt.de/?p=3014071",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/epson/ecotank-et-3950",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-3950/16/125186",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 296.44,
+   "img": "epson-et-3950.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-3956": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-3956",
+   "ref": "Multifonction A4 · réservoirs · recto-verso",
+   "badge": "La variante télétravail",
+   "verdict": "Variante de l'ET-3950 testée à part par Test-Achats : recto-verso automatique, chargeur de documents et encre pour des milliers de pages.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Chargeur de documents",
+    "Coût à la page très bas"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Testée sans note publique"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-3956",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 283.32,
+     "url": "https://www.amazon.fr/dp/B0FKSZCLFX?tag=geekconcept-21",
+     "name": "Epson EcoTank ET-3956 Imprimante à Réservoirs D'Encre | Télétravail | Wi-FI | A4",
+     "cfg": "",
+     "asin": "B0FKSZCLFX"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-3956/16/125183",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 283.32,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-4900": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-4900",
+   "ref": "Multifonction A4 · réservoirs · fax · Ethernet",
+   "badge": "Le petit bureau",
+   "verdict": "Une EcoTank 4-en-1 avec fax, Ethernet et chargeur de documents : une vraie imprimante de petit bureau, au coût à la page minimal.",
+   "strengths": [
+    "4-en-1 avec fax",
+    "Ethernet et Wi-Fi",
+    "Coût à la page très bas"
+   ],
+   "weak": [
+    "Plus encombrante",
+    "Photos sans éclat"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "epson-et-4900",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 308.37,
+     "url": "https://www.amazon.fr/dp/B0H1JJP668?tag=geekconcept-21",
+     "name": "Epson EcoTank ET-4900 | Wi-FI et Ethernet | A4 | Impression, Copie, numérisation, fax",
+     "cfg": "",
+     "asin": "B0H1JJP668"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Cybershack",
+      "score": null,
+      "url": "https://cybershack.com.au/computer/epson-ecotank-et-4900-review/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-4900/16/132659",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 308.37,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-4956": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-4956",
+   "ref": "Multifonction A4 · réservoirs · recto-verso · Ethernet",
+   "badge": "Le plus complet",
+   "verdict": "Une EcoTank très équipée (recto-verso, chargeur, Ethernet, écran tactile) qui imprime des milliers de pages. TechRadar la juge imbattable à ce prix.",
+   "strengths": [
+    "Très bien équipée",
+    "Coût à la page très bas",
+    "Bonne qualité de documents"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Encombrante"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-4956",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 351.66,
+     "url": "https://www.amazon.fr/dp/B0FLPTJ427?tag=geekconcept-21",
+     "name": "Epson EcoTank ET-4956 Imprimante à Réservoirs D'Encre | Télétravail | Wi-FI, Ethernet | A4",
+     "cfg": "",
+     "asin": "B0FLPTJ427"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/epson/ecotank-et-4950",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/pro/epson-ecotank-et-4950-ink-tank-printer-review",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-4956/16/125177",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 351.66,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-4856": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-4856",
+   "ref": "Multifonction A4 · réservoirs · fax",
+   "badge": "La valeur sûre",
+   "verdict": "La version 4-en-1 de la gamme ET-4850, très bien notée par la presse : documents de grande qualité, rendement de pages exceptionnel, photos un peu ternes.",
+   "strengths": [
+    "Documents de grande qualité",
+    "Rendement de pages exceptionnel",
+    "Connectique complète"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Photos un peu ternes"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "epson-et-4856",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 487.93,
+     "url": "https://www.amazon.fr/dp/B09GFV83QX?tag=geekconcept-21",
+     "name": "Imprimante multifonction A4 Wi-Fi EcoTank ET-4856 équipée de réservoirs d'encre",
+     "cfg": "",
+     "asin": "B09GFV83QX"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 5,
+    "tests": 5,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Epson-EcoTank-ET-4850-im-Test_185863003.html",
+      "date": ""
+     },
+     {
+      "src": "IT Pro",
+      "score": 8.0,
+      "url": "https://www.itpro.co.uk/hardware/370336/epson-ecotank-review-an-above-average-mfp-with-low-running-costs",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 8.0,
+      "url": "https://www.rtings.com/printer/reviews/epson/ecotank-et-4850",
+      "date": ""
+     },
+     {
+      "src": "SiteGeek",
+      "score": 8.0,
+      "url": "https://www.sitegeek.fr/article-technologie/test-epson-ecotank-4850/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/pro/epson-ecotank-et-4850-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 487.93,
+   "img": "epson-et-4856.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-g3570": {
+   "cat": "i-reservoir",
+   "short": "Canon PIXMA G3570",
+   "ref": "Multifonction A4 · réservoirs MegaTank · Wi-Fi",
+   "badge": "L'alternative Canon",
+   "verdict": "La MegaTank compacte de Canon : coût à la page très bas, encres pigment/colorant pour des textes nets et des photos correctes.",
+   "strengths": [
+    "Coût à la page très bas",
+    "Compacte",
+    "Bonne qualité de texte"
+   ],
+   "weak": [
+    "Vendue sur Amazon par un vendeur tiers",
+    "Pas de recto-verso automatique"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-g3570",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 259.78,
+     "url": "https://www.amazon.fr/dp/B0BN97QRPX?tag=geekconcept-21",
+     "name": "Canon PIXMA G3570 Imprimante Jet d'encre Réservoir Compacte | Wi-FI",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0BN97QRPX"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/canon-pixma-g3571-p267222/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-g3570/16/116588",
+      "date": ""
+     },
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/canon-pixma-g3570-0",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 259.78,
+   "img": "canon-g3570.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-m1170": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-M1170",
+   "ref": "Monochrome A4 · réservoir · recto-verso",
+   "badge": "Le noir et blanc à réservoir",
+   "verdict": "Une imprimante noir et blanc à réservoir d'encre : la rapidité et le recto-verso d'une laser, avec un coût à la page encore plus bas.",
+   "strengths": [
+    "Coût à la page minimal",
+    "Recto-verso automatique",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Noir et blanc uniquement",
+    "Vendue par un vendeur tiers, plus chère qu'ailleurs"
+   ],
+   "m": [
+    "Jet d'encre à réservoir (noir)",
+    "Impression seule"
+   ],
+   "id": "epson-et-m1170",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 479.19,
+     "url": "https://www.amazon.fr/dp/B07QC7M2LZ?tag=geekconcept-21",
+     "name": "EPSON EcoTank ET-M1170 | Imprimante jet d'encre monochrome - A4 sans fil, réservoir haute capacité",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B07QC7M2LZ"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/epson-ecotank-et-m1170",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 479.19,
+   "img": "epson-et-m1170.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-dcp-l2620dw": {
+   "cat": "i-laser-mono",
+   "short": "Brother DCP-L2620DW",
+   "ref": "Multifonction laser N&B · recto-verso · Wi-Fi",
+   "badge": "Le choix de la bande",
+   "verdict": "Le multifonction laser noir et blanc le plus raisonnable : rapide, recto-verso automatique, scanner et Wi-Fi, avec des toners à bon rendement.",
+   "strengths": [
+    "Rapide, recto-verso automatique",
+    "Impression, copie et scan",
+    "Toners à bon rendement"
+   ],
+   "weak": [
+    "Noir et blanc uniquement",
+    "Pas de chargeur de documents"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan"
+   ],
+   "id": "brother-dcp-l2620dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 149.17,
+     "url": "https://www.amazon.fr/dp/B0CK2TN13B?tag=geekconcept-21",
+     "name": "Brother DCP-L2620DW imprimante multifonction Laser A4 1200 x 1200 DPI 32 ppm Wifi",
+     "cfg": "",
+     "asin": "B0CK2TN13B"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/brother-dcp-l2620dw-p276790/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/brother/mfc-l2820dw-dcp-l2640dw-hl-l2480dw",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2620dw/16/105066",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 149.17,
+   "img": "brother-dcp-l2620dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-hl-l1240w": {
+   "cat": "i-laser-mono",
+   "short": "Brother HL-L1240W",
+   "ref": "Imprimante laser N&B · Wi-Fi · compacte",
+   "badge": "La moins chère",
+   "verdict": "Une petite laser noir et blanc à moins de 100 € : elle imprime vite et proprement, sans fioritures (pas de scanner, recto-verso manuel).",
+   "strengths": [
+    "Prix très bas",
+    "Compacte",
+    "Texte net et rapide"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Recto-verso manuel"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression seule"
+   ],
+   "id": "brother-hl-l1240w",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 93.54,
+     "url": "https://www.amazon.fr/dp/B0FFVQW7RZ?tag=geekconcept-21",
+     "name": "Brother HL-L1240W Imprimante Laser Monochrome A4 compacte et Facile à Utiliser",
+     "cfg": "",
+     "asin": "B0FFVQW7RZ"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-hl-l1240w/16/122166",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-hl-l1240w",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 93.54,
+   "img": "brother-hl-l1240w.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-dcp-l1642w": {
+   "cat": "i-laser-mono",
+   "short": "Brother DCP-L1642W",
+   "ref": "Multifonction laser N&B · Wi-Fi · compacte",
+   "badge": "Le multifonction compact",
+   "verdict": "La version multifonction de l'entrée de gamme Brother : impression laser, copie et scan dans un format compact, testée par Clubic.",
+   "strengths": [
+    "Impression, copie et scan",
+    "Compacte",
+    "Prix contenu"
+   ],
+   "weak": [
+    "Recto-verso manuel",
+    "Volume mensuel modeste"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan"
+   ],
+   "id": "brother-dcp-l1642w",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 124.99,
+     "url": "https://www.amazon.fr/dp/B0FFTS5Z7D?tag=geekconcept-21",
+     "name": "Brother DCP-L1642W Imprimante Laser Multifonction 3-en-1 Monochrome A4 compacte",
+     "cfg": "",
+     "asin": "B0FFTS5Z7D"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Clubic",
+      "score": null,
+      "url": "https://www.clubic.com/test-produit-580633-test-brother-dcp-l1642-l-imprimante-multifonction-monochrome-a-volume-moyen.html",
+      "date": ""
+     },
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/brother-dcp-l1640w-p285586/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l1640w/16/122161",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 124.99,
+   "img": "brother-dcp-l1642w.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-hl-l2865dw": {
+   "cat": "i-laser-mono",
+   "short": "Brother HL-L2865DW",
+   "ref": "Imprimante laser N&B · recto-verso · Wi-Fi · Ethernet",
+   "badge": "La rapide",
+   "verdict": "Une laser noir et blanc rapide avec recto-verso automatique, Wi-Fi et Ethernet : la bonne imprimante de bureau, sans scanner.",
+   "strengths": [
+    "Rapide",
+    "Recto-verso automatique",
+    "Wi-Fi et Ethernet"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Noir et blanc uniquement"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression seule"
+   ],
+   "id": "brother-hl-l2865dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 143.32,
+     "url": "https://www.amazon.fr/dp/B0D6WMH3YY?tag=geekconcept-21",
+     "name": "Brother HL-L2865DW Imprimante Laser Monochrome Professionnelle | Impression Recto-Verso",
+     "cfg": "",
+     "asin": "B0D6WMH3YY"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/pro/brother-hl-l2865dw-printer-review",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-hl-l2865dw/16/111563",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-hl-l2865dw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 143.32,
+   "img": "brother-hl-l2865dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-mfc-l2800dw": {
+   "cat": "i-laser-mono",
+   "short": "Brother MFC-L2800DW",
+   "ref": "Multifonction laser N&B · 4-en-1 · chargeur",
+   "badge": "Le 4-en-1",
+   "verdict": "Un multifonction laser 4-en-1 avec chargeur de documents et recto-verso : tout ce qu'il faut pour un petit bureau, testé par trois associations de consommateurs.",
+   "strengths": [
+    "Chargeur de documents",
+    "Recto-verso, fax",
+    "Rapide et fiable"
+   ],
+   "weak": [
+    "Noir et blanc uniquement",
+    "Plus encombrant"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "brother-mfc-l2800dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 190.75,
+     "url": "https://www.amazon.fr/dp/B0CK2PVJSR?tag=geekconcept-21",
+     "name": "Brother MFC-L2800DW Imprimante Multifonction 4 en 1 Laser Monochrome",
+     "cfg": "",
+     "asin": "B0CK2PVJSR"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/brother-mfc-l2800dw-p276778/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-mfc-l2800dw/16/105078",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-mfc-l2800dw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 190.75,
+   "img": "brother-mfc-l2800dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-mfc-l2835dw": {
+   "cat": "i-laser-mono",
+   "short": "Brother MFC-L2835DW",
+   "ref": "Multifonction laser N&B · 4-en-1 · chargeur",
+   "badge": "Le 4-en-1 malin",
+   "verdict": "Un 4-en-1 laser noir et blanc avec chargeur et recto-verso, de la gamme MFC-L2820DW testée par RTINGS.",
+   "strengths": [
+    "Chargeur de documents",
+    "Recto-verso automatique",
+    "Fax"
+   ],
+   "weak": [
+    "Noir et blanc uniquement",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "brother-mfc-l2835dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 195.83,
+     "url": "https://www.amazon.fr/dp/B0CJRSY15B?tag=geekconcept-21",
+     "name": "Brother MFC-L2835DW - Multifonction 4 en 1 Laser Noir et Blanc",
+     "cfg": "",
+     "asin": "B0CJRSY15B"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/brother/mfc-l2820dw-dcp-l2640dw-hl-l2480dw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 195.83,
+   "img": "brother-mfc-l2835dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-mfc-l2960dw": {
+   "cat": "i-laser-mono",
+   "short": "Brother MFC-L2960DW",
+   "ref": "Multifonction laser N&B · 4-en-1 · écran tactile",
+   "badge": "Le plus équipé",
+   "verdict": "Le haut de la gamme laser noir et blanc de Brother : rapide, écran tactile, chargeur, recto-verso et fax. Pour les bureaux qui impriment beaucoup.",
+   "strengths": [
+    "Rapide",
+    "Écran tactile, chargeur",
+    "Recto-verso, fax"
+   ],
+   "weak": [
+    "Prix plus élevé",
+    "Noir et blanc uniquement"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "brother-mfc-l2960dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 276.42,
+     "url": "https://www.amazon.fr/dp/B0D818BSFQ?tag=geekconcept-21",
+     "name": "Brother MFC-L2960DW imprimante Multifonction Laser A4 1200 x 1200 DPI 34 ppm WiFi",
+     "cfg": "",
+     "asin": "B0D818BSFQ"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-mfc-l2960dw/16/111565",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-mfc-l2960dw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 276.42,
+   "img": "brother-mfc-l2960dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-dcp-l2665dw": {
+   "cat": "i-laser-mono",
+   "short": "Brother DCP-L2665DW",
+   "ref": "Multifonction laser N&B · chargeur · recto-verso",
+   "badge": "Le scan recto-verso",
+   "verdict": "Un multifonction laser noir et blanc avec chargeur de documents, recto-verso et écran tactile, sans le fax.",
+   "strengths": [
+    "Chargeur de documents",
+    "Recto-verso automatique",
+    "Écran tactile"
+   ],
+   "weak": [
+    "Noir et blanc uniquement",
+    "Tests réalisés sur le DCP-L2660DW"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan"
+   ],
+   "id": "brother-dcp-l2665dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 195.83,
+     "url": "https://www.amazon.fr/dp/B0CJRL253B?tag=geekconcept-21",
+     "name": "Brother DCP-L2665DW - Imprimante Multifonction 3 en 1 Laser Monochrome",
+     "cfg": "",
+     "asin": "B0CJRL253B"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/brother-dcp-l2660dw-p276786/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2660dw/16/105079",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 195.83,
+   "img": "brother-dcp-l2665dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-lbp243dw-ii": {
+   "cat": "i-laser-mono",
+   "short": "Canon i-SENSYS LBP243dw II",
+   "ref": "Imprimante laser N&B · recto-verso · Wi-Fi",
+   "badge": "L'alternative Canon",
+   "verdict": "Une laser noir et blanc rapide de Canon, avec recto-verso automatique et Wi-Fi, testée par Test-Achats et Which?.",
+   "strengths": [
+    "Rapide",
+    "Recto-verso automatique",
+    "Wi-Fi et Ethernet"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Prix un peu plus élevé que Brother"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression seule"
+   ],
+   "id": "canon-lbp243dw-ii",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 224.96,
+     "url": "https://www.amazon.fr/dp/B0FXN9CCVY?tag=geekconcept-21",
+     "name": "Canon i-SENSYS LBP243dw II – Imprimante Laser Noir et Blanc sans Fil",
+     "cfg": "",
+     "asin": "B0FXN9CCVY"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Choice",
+      "score": null,
+      "url": "https://www.choice.com.au/products/electronics-and-technology/computers/scanners-and-printers/canon-i-sensys-lbp243dw-ii",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-lbp243dw-ii/16/125171",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-lbp243dw-ii",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 224.96,
+   "img": "canon-lbp243dw-ii.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-laserjet-m234dw": {
+   "cat": "i-laser-mono",
+   "short": "HP LaserJet M234dw",
+   "ref": "Multifonction laser N&B · recto-verso · Wi-Fi",
+   "badge": "Le HP",
+   "verdict": "Le multifonction laser noir et blanc de HP : compact, recto-verso automatique et application HP Smart. Attention aux toners propriétaires.",
+   "strengths": [
+    "Compact",
+    "Recto-verso automatique",
+    "Application HP Smart pratique"
+   ],
+   "weak": [
+    "Toners HP chers",
+    "Tests menés sur des variantes proches"
+   ],
+   "m": [
+    "Laser monochrome",
+    "Impression · copie · scan"
+   ],
+   "id": "hp-laserjet-m234dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 126.85,
+     "url": "https://www.amazon.fr/dp/B08XNJ23VY?tag=geekconcept-21",
+     "name": "HP LaserJet M234dw, 6GW99F, Imprimante Multifonction A4, Recto/Verso Automatique Noir et Blanc",
+     "cfg": "",
+     "asin": "B08XNJ23VY"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/hp/laserjet-mfp-m234sdwe",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-laserjet-mfp-m234d/16/114855",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 126.85,
+   "img": "hp-laserjet-m234dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-mfc-l3760cdw": {
+   "cat": "i-laser-couleur",
+   "short": "Brother MFC-L3760CDW",
+   "ref": "Multifonction laser couleur · 4-en-1 · recto-verso",
+   "badge": "Le choix de la bande",
+   "verdict": "Le multifonction laser couleur complet pour le petit bureau : impression, copie, scan recto-verso et fax, avec des toners à bon rendement.",
+   "strengths": [
+    "4-en-1 avec chargeur",
+    "Recto-verso automatique",
+    "Bonne qualité de documents"
+   ],
+   "weak": [
+    "Encombrant",
+    "Toners couleur chers à l'unité"
+   ],
+   "m": [
+    "Laser couleur (LED)",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "brother-mfc-l3760cdw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 324.99,
+     "url": "https://www.amazon.fr/dp/B0CJ9H2S7X?tag=geekconcept-21",
+     "name": "Brother MFC-L3760CDW - Imprimante Laser Couleur Multifonction (Impression/Scan/Copie/Fax)",
+     "cfg": "",
+     "asin": "B0CJ9H2S7X"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 1,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test-kaufberatung/drucker-multifunktionsgeraete/brother-mfc-l3760cdw-im-test_6c122d8c-9c50-4a8e-94eb-cc686461d8cf.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/brother-mfc-l3760cdw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 324.99,
+   "img": "brother-mfc-l3760cdw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-hl-l3220cwe": {
+   "cat": "i-laser-couleur",
+   "short": "Brother HL-L3220CWE",
+   "ref": "Imprimante laser couleur · Wi-Fi · compacte",
+   "badge": "La moins chère",
+   "verdict": "Une petite imprimante laser couleur abordable, éligible à l'abonnement toner EcoPro : idéale pour imprimer occasionnellement en couleur sans encre qui sèche.",
+   "strengths": [
+    "Prix abordable",
+    "Compacte",
+    "Pas d'encre qui sèche"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Recto-verso manuel"
+   ],
+   "m": [
+    "Laser couleur (LED)",
+    "Impression seule"
+   ],
+   "id": "brother-hl-l3220cwe",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 178.33,
+     "url": "https://www.amazon.fr/dp/B0CJC6V76D?tag=geekconcept-21",
+     "name": "Brother HL-L3220CWE - Imprimante Laser Couleur - WiFi, USB - 18 Pages par Minute",
+     "cfg": "",
+     "asin": "B0CJC6V76D"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/brother/hl-l3280cdw-hl-l3220cdw-hl-l3295cdw",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/brother-hl-l3220cwe",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 178.33,
+   "img": "brother-hl-l3220cwe.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-hl-l3240cdw": {
+   "cat": "i-laser-couleur",
+   "short": "Brother HL-L3240CDW",
+   "ref": "Imprimante laser couleur · recto-verso · Ethernet",
+   "badge": "La recto-verso",
+   "verdict": "La laser couleur compacte de Brother avec recto-verso automatique et Ethernet, testée par l'association danoise Tænk.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Wi-Fi et Ethernet",
+    "Compacte"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Délai de livraison long chez Amazon"
+   ],
+   "m": [
+    "Laser couleur (LED)",
+    "Impression seule"
+   ],
+   "id": "brother-hl-l3240cdw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 216.58,
+     "url": "https://www.amazon.fr/dp/B0CJ9DFM4R?tag=geekconcept-21",
+     "name": "Brother HL-L3240CDW Imprimante Laser Couleur WiFi/USB/Ethernet Recto-Verso Automatique",
+     "cfg": "",
+     "asin": "B0CJ9DFM4R"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/brother-hl-l3240cdw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 216.58,
+   "img": "brother-hl-l3240cdw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-mf752cdw": {
+   "cat": "i-laser-couleur",
+   "short": "Canon i-SENSYS MF752Cdw",
+   "ref": "Multifonction laser couleur · recto-verso · écran tactile",
+   "badge": "Le pro",
+   "verdict": "Un multifonction laser couleur de bureau rapide, avec scan recto-verso et grand écran tactile. La gamme MF750 est saluée pour la qualité de ses documents.",
+   "strengths": [
+    "Documents de grande qualité",
+    "Rapide, scan recto-verso",
+    "Rendements élevés"
+   ],
+   "weak": [
+    "Photos granuleuses",
+    "Toners couleur coûteux"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-mf752cdw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 370.19,
+     "url": "https://www.amazon.fr/dp/B0FXNBVTP4?tag=geekconcept-21",
+     "name": "Canon i-SENSYS MF752cdw Imprimante Laser Couleur Multifonction A4",
+     "cfg": "",
+     "asin": "B0FXNBVTP4"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/canon-i-sensys-mf754cdw-review",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 8.0,
+      "url": "https://www.rtings.com/printer/reviews/canon/color-imageclass-mf753cdw-mf751cdw",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-mf752cdw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 370.19,
+   "img": "canon-mf752cdw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-lbp647cdw": {
+   "cat": "i-laser-couleur",
+   "short": "Canon i-SENSYS LBP647Cdw",
+   "ref": "Imprimante laser couleur · recto-verso · Wi-Fi",
+   "badge": "L'imprimante seule",
+   "verdict": "Une laser couleur de bureau sans scanner, rapide et compacte, avec recto-verso automatique.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Wi-Fi et Ethernet",
+    "Compacte"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Testée sans note publique"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression seule"
+   ],
+   "id": "canon-lbp647cdw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 236.14,
+     "url": "https://www.amazon.fr/dp/B0FXN9ZYK1?tag=geekconcept-21",
+     "name": "Canon i-SENSYS LBP647cdw Imprimante Laser Couleur Recto Verso WiFi",
+     "cfg": "",
+     "asin": "B0FXN9ZYK1"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-lbp647cdw/16/125184",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-lbp647cdw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 236.14,
+   "img": "canon-lbp647cdw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-mf664cdw": {
+   "cat": "i-laser-couleur",
+   "short": "Canon i-SENSYS MF664Cdw",
+   "ref": "Multifonction laser couleur · recto-verso · chargeur",
+   "badge": "Le multifonction Canon",
+   "verdict": "Un multifonction laser couleur avec chargeur et recto-verso, testé en laboratoire par Test-Achats. Délai de livraison long chez Amazon.",
+   "strengths": [
+    "Multifonction avec chargeur",
+    "Recto-verso automatique",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Délai de livraison long chez Amazon",
+    "Testé sans note publique"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-mf664cdw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 283.36,
+     "url": "https://www.amazon.fr/dp/B0FXNC7CNR?tag=geekconcept-21",
+     "name": "Canon i-SENSYS MF664cdw Imprimante Laser Couleur Multifonction Scanner",
+     "cfg": "",
+     "asin": "B0FXNC7CNR"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-mf664cdw/16/125181",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 283.36,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "xerox-c320": {
+   "cat": "i-laser-couleur",
+   "short": "Xerox C320",
+   "ref": "Imprimante laser couleur · recto-verso · Wi-Fi",
+   "badge": "La Xerox",
+   "verdict": "Une laser couleur rapide de Xerox, avec recto-verso automatique et Wi-Fi, testée par Test-Achats. Livraison longue chez Amazon.",
+   "strengths": [
+    "Rapide",
+    "Recto-verso automatique",
+    "Wi-Fi et Ethernet"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Délai de livraison long chez Amazon"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression seule"
+   ],
+   "id": "xerox-c320",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 271.82,
+     "url": "https://www.amazon.fr/dp/B0D83BDYPF?tag=geekconcept-21",
+     "name": "XEROX C320 DNI Imprimante laser couleur Wifi",
+     "cfg": "",
+     "asin": "B0D83BDYPF"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/xerox-c-320/16/205884",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 271.82,
+   "img": "xerox-c320.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-color-laserjet-pro-3202dw": {
+   "cat": "i-laser-couleur",
+   "short": "HP Color LaserJet Pro 3202dw",
+   "ref": "Imprimante laser couleur · recto-verso · Wi-Fi",
+   "badge": "La HP",
+   "verdict": "La laser couleur de HP pour le petit bureau : recto-verso automatique, Wi-Fi et Ethernet. Testée par Test-Achats, livraison longue chez Amazon.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Wi-Fi et Ethernet",
+    "Application HP Smart"
+   ],
+   "weak": [
+    "Toners HP chers",
+    "Délai de livraison long chez Amazon"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression seule"
+   ],
+   "id": "hp-color-laserjet-pro-3202dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 215.83,
+     "url": "https://www.amazon.fr/dp/B0CWGPL92T?tag=geekconcept-21",
+     "name": "HP Color LaserJet Pro 3202dw, 499R0F, Imprimante monofonction A4, Recto/Verso Automatique",
+     "cfg": "",
+     "asin": "B0CWGPL92T"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-color-laserjet-pro-3202dw/16/108966",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 215.83,
+   "img": "hp-color-laserjet-pro-3202dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-color-laser-179fnw": {
+   "cat": "i-laser-couleur",
+   "short": "HP Color Laser MFP 179fnw",
+   "ref": "Multifonction laser couleur · 4-en-1 · chargeur",
+   "badge": "Le 4-en-1 compact",
+   "verdict": "Un petit multifonction laser couleur 4-en-1 avec chargeur de documents, testé par Test-Achats. Proposé sur Amazon par des vendeurs tiers.",
+   "strengths": [
+    "4-en-1 avec chargeur",
+    "Compact",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Recto-verso manuel",
+    "Vendu par des vendeurs tiers, plus cher qu'ailleurs"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "hp-color-laser-179fnw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 344.2,
+     "url": "https://www.amazon.fr/dp/B07RMJV1LT?tag=geekconcept-21",
+     "name": "HP Color Laser MFP 179fnw, 4ZB97A, Imprimante multifonction couleur A4",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B07RMJV1LT"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-color-laser-mfp-179-fnw/16/221248",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 344.2,
+   "img": "hp-color-laser-179fnw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "xerox-c230": {
+   "cat": "i-laser-couleur",
+   "short": "Xerox C230",
+   "ref": "Imprimante laser couleur · recto-verso · Wi-Fi",
+   "badge": "La compacte",
+   "verdict": "La version imprimante seule de la Xerox C235 : compacte, rapide et de bonne qualité, mais avec un coût d'usage élevé. Livraison longue chez Amazon.",
+   "strengths": [
+    "Compacte",
+    "Bonne qualité d'impression",
+    "Rapide"
+   ],
+   "weak": [
+    "Coût d'usage élevé",
+    "Délai de livraison long chez Amazon"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression seule"
+   ],
+   "id": "xerox-c230",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 240.83,
+     "url": "https://www.amazon.fr/dp/B099X3HJQK?tag=geekconcept-21",
+     "name": "Xerox C230dni A4 22ppm Couleur Imprimante Laser sans Fil avec Impression Recto-Verso",
+     "cfg": "",
+     "asin": "B099X3HJQK"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 2,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-xerox-c235-limprimante-laser-parfaite-des-petits-espaces/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test-kaufberatung/drucker-multifunktionsgeraete/xerox-c235-im-test_1b3b0a2b-29a6-4ba0-b983-7d4c874a8117.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 240.83,
+   "img": "xerox-c230.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-selphy-cp1500": {
+   "cat": "i-photo",
+   "short": "Canon Selphy CP1500",
+   "ref": "Imprimante photo 10 × 15 · sublimation · Wi-Fi",
+   "badge": "Le choix de la bande",
+   "verdict": "La référence des tirages 10 × 15 à la maison : sublimation thermique, photos plastifiées qui durent, coût par tirage parmi les plus bas des petites imprimantes.",
+   "strengths": [
+    "Qualité de tirage excellente",
+    "Photos plastifiées durables",
+    "Coût par tirage bas"
+   ],
+   "weak": [
+    "Batterie en option",
+    "Application perfectible"
+   ],
+   "m": [
+    "Sublimation thermique",
+    "Tirages 10 × 15"
+   ],
+   "id": "canon-selphy-cp1500",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 133.32,
+     "url": "https://www.amazon.fr/dp/B0DZDXF47Q?tag=geekconcept-21",
+     "name": "Canon SELPHY CP1500 Imprimante Photo Portable WiFi + Ensemble de Papier",
+     "cfg": "",
+     "asin": "B0DZDXF47Q"
+    }
+   ],
+   "press": {
+    "avg": 8.75,
+    "n": 2,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PC Magazin",
+      "score": 9.5,
+      "url": "https://www.pc-magazin.de/testbericht/canon-selphy-cp1500-fotodrucker-test-review-3204235.html",
+      "date": ""
+     },
+     {
+      "src": "Creative Bloq",
+      "score": 8.0,
+      "url": "https://www.creativebloq.com/reviews/canon-selphy-cp1500",
+      "date": ""
+     },
+     {
+      "src": "Frandroid",
+      "score": null,
+      "url": "https://www.frandroid.com/marques/canon/1586624_test-de-la-canon-selphy-cp1500-une-imprimante-photo-efficace-et-un-poil-plus-rapide",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/canon-selphy-cp1500",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 133.32,
+   "img": "canon-selphy-cp1500.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-selphy-qx20": {
+   "cat": "i-photo",
+   "short": "Canon Selphy QX20",
+   "ref": "Imprimante photo de poche · sublimation · batterie",
+   "badge": "La plus nomade",
+   "verdict": "Une imprimante photo de poche à sublimation : tirages nets, autocollants et résistants, en deux formats. L'autonomie et le coût par photo limitent l'usage intensif.",
+   "strengths": [
+    "Tirages de qualité, résistants",
+    "Deux formats, dos autocollant",
+    "Très compacte"
+   ],
+   "weak": [
+    "Autonomie d'environ 20 tirages",
+    "Pas de Bluetooth"
+   ],
+   "m": [
+    "Sublimation thermique",
+    "Mini tirages"
+   ],
+   "id": "canon-selphy-qx20",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 107.5,
+     "url": "https://www.amazon.fr/dp/B0DG8LFP8V?tag=geekconcept-21",
+     "name": "Canon SELPHY QX20 Imprimante Photo Portable Mini Sublimation 100 Ans",
+     "cfg": "",
+     "asin": "B0DG8LFP8V"
+    }
+   ],
+   "press": {
+    "avg": 6.333333333333333,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 8.0,
+      "url": "https://leclaireur.fnac.com/test/580989-test-canon-selphy-qx20-une-imprimante-photo-portable-efficace-et-polyvalente/",
+      "date": ""
+     },
+     {
+      "src": "Actualidad Gadget",
+      "score": 6.0,
+      "url": "https://www.actualidadgadget.com/canon-selphy-qx20-imprime-tus-fotos-donde-y-cuando-quieras-review/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 5.0,
+      "url": "https://www.rtings.com/printer/reviews/canon/selphy-qx20",
+      "date": ""
+     },
+     {
+      "src": "Digital Trends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-selphy-qx-20/16/190498",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 107.5,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "fujifilm-instax-link-wide": {
+   "cat": "i-photo",
+   "short": "Fujifilm Instax Link Wide",
+   "ref": "Imprimante instantanée · film Instax Wide",
+   "badge": "L'instantané grand format",
+   "verdict": "Le charme de l'instantané Instax au grand format Wide, depuis le smartphone : couleurs réussies, mais un coût par photo élevé.",
+   "strengths": [
+    "Format instantané large",
+    "Couleurs réussies",
+    "Très facile à utiliser"
+   ],
+   "weak": [
+    "Coût par photo élevé",
+    "Recharge en micro-USB"
+   ],
+   "m": [
+    "Instantané (film)",
+    "Tirages Instax Wide"
+   ],
+   "id": "fujifilm-instax-link-wide",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 125.16,
+     "url": "https://www.amazon.fr/dp/B00JOBFVMI?tag=geekconcept-21",
+     "name": "Instax Wide Link Gray",
+     "cfg": "",
+     "asin": "B00JOBFVMI"
+    }
+   ],
+   "press": {
+    "avg": 6.5,
+    "n": 2,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-fujifilm-instax-link-wide-enfin-une-imprimante-nomade-pour-imprimer-vos-photos-en-version-instantanee-large-6689.html",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 5.0,
+      "url": "https://www.rtings.com/printer/reviews/fujifilm/instax-link-wide",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/imprimante-photo-portable/fujifilm-instax-link-wide-p65671/test.html",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/fujifilm-instax-link-wide/16/154016",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 125.16,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "fujifilm-instax-mini-link-3": {
+   "cat": "i-photo",
+   "short": "Fujifilm Instax mini Link 3",
+   "ref": "Imprimante instantanée · film Instax mini",
+   "badge": "La plus fun",
+   "verdict": "La petite imprimante Instax mini à glisser dans la poche, avec une application ludique : idéale pour les fêtes et les ados, au coût par photo élevé.",
+   "strengths": [
+    "Format de poche",
+    "Application ludique",
+    "Rendu instantané apprécié"
+   ],
+   "weak": [
+    "Petit format mini",
+    "Coût par photo élevé"
+   ],
+   "m": [
+    "Instantané (film)",
+    "Tirages Instax mini"
+   ],
+   "id": "fujifilm-instax-mini-link-3",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 108.25,
+     "url": "https://www.amazon.fr/dp/B0DB8SQSRH?tag=geekconcept-21",
+     "name": "instax Mini Link 3 imprimante Photo pour Smartphone Blanc Argile",
+     "cfg": "",
+     "asin": "B0DB8SQSRH"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/fujifilm/instax-mini-link-3",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/fujifilm-instax-mini-link-3/16/184723",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 108.25,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-zoemini-2": {
+   "cat": "i-photo",
+   "short": "Canon Zoemini 2",
+   "ref": "Imprimante de poche · papier Zink autocollant",
+   "badge": "La sticker",
+   "verdict": "Une imprimante de poche sans encre (papier Zink) qui sort des photos autocollantes en quelques secondes : parfaite pour décorer, moins pour la qualité.",
+   "strengths": [
+    "Ultra-compacte",
+    "Photos autocollantes",
+    "Sans encre ni cartouche"
+   ],
+   "weak": [
+    "Qualité Zink moyenne",
+    "Coût par photo"
+   ],
+   "m": [
+    "Zink (sans encre)",
+    "Mini photos autocollantes"
+   ],
+   "id": "canon-zoemini-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 83.29,
+     "url": "https://www.amazon.fr/dp/B0BGT3G48W?tag=geekconcept-21",
+     "name": "Canon ZOEMINI 2 Imprimante Photo Portable Bluetooth pour Téléphone",
+     "cfg": "",
+     "asin": "B0BGT3G48W"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Gathered",
+      "score": null,
+      "url": "https://www.gathered.how/arts-crafts/canon-zoemini-2-printer-review",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-zoemini-2/16/155338",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 83.29,
+   "img": "canon-zoemini-2.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "kodak-step": {
+   "cat": "i-photo",
+   "short": "Kodak Step",
+   "ref": "Imprimante de poche · papier Zink · Bluetooth",
+   "badge": "La moins chère",
+   "verdict": "La petite imprimante Zink de Kodak, facile et bon marché : on imprime depuis le téléphone, sans encre. Qualité correcte, sans plus.",
+   "strengths": [
+    "Prix bas",
+    "Sans encre (Zink)",
+    "Très légère"
+   ],
+   "weak": [
+    "Qualité d'image moyenne",
+    "Bluetooth uniquement"
+   ],
+   "m": [
+    "Zink (sans encre)",
+    "Mini photos 5 × 7,6"
+   ],
+   "id": "kodak-step",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 79.16,
+     "url": "https://www.amazon.fr/dp/B094K165S1?tag=geekconcept-21",
+     "name": "KODAK Step Imprimante Photo Mobile sans Fil avec Technologie Zinc (Rose)",
+     "cfg": "",
+     "asin": "B094K165S1"
+    }
+   ],
+   "press": {
+    "avg": 7.333333333333333,
+    "n": 3,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/kodak-step-slim-instant-mobile-photo-printer",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/reviews/kodak-step-slim-mobile-photo-printer",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 6.0,
+      "url": "https://www.digitalcameraworld.com/reviews/kodak-step-slim-review",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": null,
+      "url": "https://www.techadvisor.com/article/723247/kodak-step-instant-printer-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 79.16,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-sprocket": {
+   "cat": "i-photo",
+   "short": "HP Sprocket 2x3",
+   "ref": "Imprimante de poche · papier Zink · Bluetooth",
+   "badge": "La pionnière",
+   "verdict": "La Sprocket a popularisé les imprimantes de poche : simple, rapide, avec une application riche. Les tirages restent petits et coûteux.",
+   "strengths": [
+    "Format de poche",
+    "Application riche",
+    "Sans encre"
+   ],
+   "weak": [
+    "Tirages petits et coûteux",
+    "Qualité qui manque de détails"
+   ],
+   "m": [
+    "Zink (sans encre)",
+    "Mini photos 5 × 7,6"
+   ],
+   "id": "hp-sprocket",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 83.25,
+     "url": "https://www.amazon.fr/dp/B07GFP7H8C?tag=geekconcept-21",
+     "name": "HP Sprocket 2x3 Imprimante photo instantanée pour smartphone",
+     "cfg": "",
+     "asin": "B07GFP7H8C"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "http://www.lesnumeriques.com/appareil-photo-instantane/hp-sprocket-p37853/test.html",
+      "date": ""
+     },
+     {
+      "src": "CNET",
+      "score": 6.0,
+      "url": "https://www.cnet.com/products/hp-sprocket-photo-printer/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-sprocket-200-1as86a/16/145150",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 83.25,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-8550": {
+   "cat": "i-photo",
+   "short": "Epson EcoTank Photo ET-8550",
+   "ref": "Multifonction A3+ · 6 encres · réservoirs",
+   "badge": "La photo A3+",
+   "verdict": "Une imprimante photo à réservoirs à 6 encres qui imprime jusqu'à l'A3+ sans marge, pour un coût par tirage dérisoire. Chère à l'achat.",
+   "strengths": [
+    "Photos détaillées et colorées",
+    "A3+ sans marge",
+    "Coût par tirage très bas"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Pas de chargeur de documents"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs (6 encres)",
+    "Impression A3+ · copie · scan"
+   ],
+   "id": "epson-et-8550",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 583.32,
+     "url": "https://www.amazon.fr/dp/B08Y98MLMG?tag=geekconcept-21",
+     "name": "Imprimante photo A3+ EcoTank ET-8550 avec réservoir d'encre et Wi-Fi",
+     "cfg": "",
+     "asin": "B08Y98MLMG"
+    }
+   ],
+   "press": {
+    "avg": 8.8,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PC Magazin",
+      "score": 9.6,
+      "url": "https://www.pc-magazin.de/testbericht/epson-ecotank-et-8550-tintenstrahldrucker-a3-test-review-3204305.html",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": 8.0,
+      "url": "https://www.rtings.com/printer/reviews/epson/ecotank-photo-et-8550",
+      "date": ""
+     },
+     {
+      "src": "Gear Diary",
+      "score": null,
+      "url": "https://geardiary.com/2026/08/04/epson-ecotank-photo-et-8550-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 583.32,
+   "img": "epson-et-8550.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-8500": {
+   "cat": "i-photo",
+   "short": "Epson EcoTank Photo ET-8500",
+   "ref": "Multifonction A4 · 6 encres · réservoirs",
+   "badge": "La photo A4",
+   "verdict": "La version A4 de l'ET-8550 : 6 encres pour des photos très réussies et un coût par tirage minimal, saluée par Les Numériques.",
+   "strengths": [
+    "Photos très réussies (6 encres)",
+    "Coût par tirage très bas",
+    "Multifonction"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Format limité à l'A4"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs (6 encres)",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-8500",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 413.32,
+     "url": "https://www.amazon.fr/dp/B08Y99KDP6?tag=geekconcept-21",
+     "name": "Imprimante photo A4 EcoTank ET-8500 avec réservoir d'encre et Wi-Fi",
+     "cfg": "",
+     "asin": "B08Y99KDP6"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 1,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/imprimante/epson-ecotank-et-8500-copie-p63933/test.html",
+      "date": ""
+     },
+     {
+      "src": "Northlight Images",
+      "score": null,
+      "url": "https://www.northlight-images.co.uk/epson-et-8500-printer-review/",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/ecotank-et-8500",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 413.32,
+   "img": "epson-et-8500.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ix6850": {
+   "cat": "i-photo",
+   "short": "Canon PIXMA iX6850",
+   "ref": "Imprimante A3+ · 5 encres · Wi-Fi",
+   "badge": "L'A3+ abordable",
+   "verdict": "Une imprimante jet d'encre A3+ à 5 encres séparées, pour imprimer des photos et des affiches en grand format à prix contenu.",
+   "strengths": [
+    "Impression jusqu'à l'A3+",
+    "Prix d'achat contenu",
+    "Encres séparées"
+   ],
+   "weak": [
+    "Cartouches coûteuses à l'usage",
+    "Pas de scanner"
+   ],
+   "m": [
+    "Jet d'encre (5 cartouches)",
+    "Impression A3+ seule"
+   ],
+   "id": "canon-pixma-ix6850",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 145.0,
+     "url": "https://www.amazon.fr/dp/B00HZDLDK6?tag=geekconcept-21",
+     "name": "Canon PIXMA iX6850 Imprimante WiFi (Noire) 5 Encres",
+     "cfg": "",
+     "asin": "B00HZDLDK6"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Expert Reviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/printers/53517/canon-pixma-ix6850-review",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/reviews/pc-mac/peripherals/printers-and-scanners/printers/canon-pixma-ix6850-wi-fi-office-printer-1240489/review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/canon-pixma-ix6850-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 145.0,
+   "img": "canon-pixma-ix6850.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ts6550i": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TS6550i",
+   "ref": "Multifonction A4 · recto-verso · Wi-Fi",
+   "badge": "Le choix de la bande",
+   "verdict": "Le jet d'encre familial le plus complet sous les 100 € : recto-verso automatique, scanner, Wi-Fi, testé par Test-Achats et Que Choisir.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Multifonction Wi-Fi",
+    "Prix bas"
+   ],
+   "weak": [
+    "Cartouches à racheter",
+    "Coût par page plus élevé qu'un réservoir"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-pixma-ts6550i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 74.99,
+     "url": "https://www.amazon.fr/dp/B0GT28CL51?tag=geekconcept-21",
+     "name": "Canon PIXMA TS6550i – Imprimante Jet d'Encre Multifonction Wi-FI – Impression Rapide Recto Verso",
+     "cfg": "",
+     "asin": "B0GT28CL51"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/canon-pixma-ts6550i-p285566/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts6550i/16/122170",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 74.99,
+   "img": "canon-pixma-ts6550i.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-xp-2200": {
+   "cat": "i-lowcost",
+   "short": "Epson Expression Home XP-2200",
+   "ref": "Multifonction A4 · Wi-Fi · compacte",
+   "badge": "La moins chère",
+   "verdict": "L'imprimante multifonction la plus vendue pour presque rien : compacte et suffisante pour quelques pages par mois. Les cartouches coûtent vite plus cher que l'imprimante.",
+   "strengths": [
+    "Prix plancher",
+    "Très compacte",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Cartouches chères à l'usage",
+    "Lente, sans recto-verso automatique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-xp-2200",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 40.82,
+     "url": "https://www.amazon.fr/dp/B0B8X457PN?tag=geekconcept-21",
+     "name": "Epson Expression Home XP-2200 | Imprimante 3-en-1 - Impression, Numérisation, Copie - WiFi",
+     "cfg": "",
+     "asin": "B0B8X457PN"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Gadreview",
+      "score": null,
+      "url": "https://www.gadreview.com/review/epson-expression-xp-2200-review-451396",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-expression-home-xp-2200",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 40.82,
+   "img": "epson-xp-2200.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ts3750i": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TS3750i",
+   "ref": "Multifonction A4 · Wi-Fi · compacte",
+   "badge": "La compacte",
+   "verdict": "Une multifonction d'entrée de gamme compacte, éligible à l'abonnement d'encre de Canon, testée par Test-Achats et Which?.",
+   "strengths": [
+    "Prix très bas",
+    "Compacte",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Cartouches chères à l'usage",
+    "Pas de recto-verso automatique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-pixma-ts3750i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 41.62,
+     "url": "https://www.amazon.fr/dp/B0DFZSGN7J?tag=geekconcept-21",
+     "name": "Canon PIXMA TS3750i Wireless Colour All-in-One Inkjet Printer - A4, Copy, Scan",
+     "cfg": "",
+     "asin": "B0DFZSGN7J"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts3750i/16/111567",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-ts3750i",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 41.62,
+   "img": "canon-pixma-ts3750i.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ts4151i": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TS4151i",
+   "ref": "Multifonction A4 · Wi-Fi · compacte",
+   "badge": "L'entrée de gamme",
+   "verdict": "Une multifonction compacte d'entrée de gamme, testée par Test-Achats et (dans sa version TS4150i) par Que Choisir.",
+   "strengths": [
+    "Prix très bas",
+    "Compacte",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Cartouches chères à l'usage",
+    "Pas de recto-verso automatique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-pixma-ts4151i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 45.82,
+     "url": "https://www.amazon.fr/dp/B0FY6RNQXL?tag=geekconcept-21",
+     "name": "Canon PIXMA TS4151i Imprimante Jet d'encre Multifonction WiFi Compacte",
+     "cfg": "",
+     "asin": "B0FY6RNQXL"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/canon-pixma-ts4150i-p285570/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts-4151-i/16/190144",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 45.82,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-wf-2930dwf": {
+   "cat": "i-lowcost",
+   "short": "Epson WorkForce WF-2930DWF",
+   "ref": "Multifonction A4 · 4-en-1 · chargeur · fax",
+   "badge": "Le 4-en-1 à 50 €",
+   "verdict": "Un 4-en-1 avec chargeur de documents et fax pour environ 50 € : le bon plan pour le télétravail léger, avec des cartouches à surveiller.",
+   "strengths": [
+    "4-en-1 avec chargeur et fax",
+    "Recto-verso",
+    "Prix très bas"
+   ],
+   "weak": [
+    "Cartouches chères à l'usage",
+    "Qualité photo moyenne"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "epson-wf-2930dwf",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 49.99,
+     "url": "https://www.amazon.fr/dp/B0B8X5H53X?tag=geekconcept-21",
+     "name": "Epson Workforce WF-2930DWF | Imprimante 4-en-1 - Impression, Numérisation, Copie, Fax - WiFi",
+     "cfg": "",
+     "asin": "B0B8X5H53X"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/epson/workforce-wf-2930",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-workforce-wf-2930dwf/16/89372",
+      "date": ""
+     },
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/epson-workforce-wf-2930dwf",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 49.99,
+   "img": "epson-wf-2930dwf.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-tr4755i": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TR4755i",
+   "ref": "Multifonction A4 · 4-en-1 · chargeur · fax",
+   "badge": "Le 4-en-1 Canon",
+   "verdict": "Le 4-en-1 compact de Canon avec chargeur de documents et fax, testé en laboratoire par Test-Achats.",
+   "strengths": [
+    "4-en-1 avec chargeur",
+    "Compact",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Cartouches chères à l'usage",
+    "Lent"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan · fax"
+   ],
+   "id": "canon-pixma-tr4755i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 58.32,
+     "url": "https://www.amazon.fr/dp/B0FJSLRQMK?tag=geekconcept-21",
+     "name": "Canon PIXMA TR4755i Imprimante Jet d'encre Multifonction",
+     "cfg": "",
+     "asin": "B0FJSLRQMK"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-tr4755i/16/111570",
+      "date": ""
+     },
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/canon-pixma-tr4755i",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-tr4750i",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 58.32,
+   "img": "canon-pixma-tr4755i.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ts7550i": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TS7550i",
+   "ref": "Multifonction A4 · recto-verso · Wi-Fi bi-bande",
+   "badge": "La polyvalente",
+   "verdict": "Une multifonction familiale avec recto-verso automatique et Wi-Fi bi-bande, testée par Test-Achats et Que Choisir.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Wi-Fi bi-bande",
+    "Bonne polyvalence"
+   ],
+   "weak": [
+    "Cartouches à racheter",
+    "Testée sans note publique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-pixma-ts7550i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 66.66,
+     "url": "https://www.amazon.fr/dp/B0GT281VRC?tag=geekconcept-21",
+     "name": "Canon PIXMA TS7550i – Imprimante compacte Jet d'Encre Multifonction Wi-FI 2,4/5 GHz",
+     "cfg": "",
+     "asin": "B0GT281VRC"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/canon-pixma-ts7550i-p285562/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts7550i/16/122165",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 66.66,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ts7750i": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TS7750i",
+   "ref": "Multifonction A4 · recto-verso · écran",
+   "badge": "La mieux équipée",
+   "verdict": "Une multifonction familiale bien équipée (recto-verso, écran, deux bacs) à moins de 100 €, testée par Test-Achats.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Écran et deux bacs papier",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Cartouches à racheter",
+    "Testée sans note publique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "canon-pixma-ts7750i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 87.42,
+     "url": "https://www.amazon.fr/dp/B0CH8HQVKC?tag=geekconcept-21",
+     "name": "Canon PIXMA TS7750i Imprimante Jet d'encre WiFi Recto Verso Auto",
+     "cfg": "",
+     "asin": "B0CH8HQVKC"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts7750i/16/100495",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 87.42,
+   "img": "canon-pixma-ts7750i.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "canon-pixma-ts705a": {
+   "cat": "i-lowcost",
+   "short": "Canon PIXMA TS705a",
+   "ref": "Imprimante A4 · 5 encres · recto-verso",
+   "badge": "La photo pas chère",
+   "verdict": "Une imprimante (sans scanner) à 5 encres séparées et recto-verso automatique : de jolies photos et des documents nets pour environ 50 €.",
+   "strengths": [
+    "5 encres séparées, bonnes photos",
+    "Recto-verso automatique",
+    "Prix bas"
+   ],
+   "weak": [
+    "Pas de scanner",
+    "Cartouches à racheter"
+   ],
+   "m": [
+    "Jet d'encre (5 cartouches)",
+    "Impression seule"
+   ],
+   "id": "canon-pixma-ts705a",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 54.17,
+     "url": "https://www.amazon.fr/dp/B09RN21CG7?tag=geekconcept-21",
+     "name": "Canon PIXMA TS705a imprimante Jet d'encre, Noir",
+     "cfg": "",
+     "asin": "B09RN21CG7"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/canon/pixma-ts702a",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-ts705a",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 54.17,
+   "img": "canon-pixma-ts705a.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "brother-dcp-j1360dw": {
+   "cat": "i-lowcost",
+   "short": "Brother DCP-J1360DW",
+   "ref": "Multifonction A4 · recto-verso · Wi-Fi",
+   "badge": "L'alternative Brother",
+   "verdict": "Une multifonction jet d'encre compacte de Brother avec recto-verso, testée par Test-Achats et Que Choisir. Délai de livraison de quelques semaines.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Compacte",
+    "Wi-Fi"
+   ],
+   "weak": [
+    "Délai de livraison chez Amazon",
+    "Cartouches à racheter"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "brother-dcp-j1360dw",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 91.66,
+     "url": "https://www.amazon.fr/dp/B0FB3YQKVJ?tag=geekconcept-21",
+     "name": "Brother DCP-J1360DW Imprimante à Jet d'encre compacte sans Fil 3-en-1",
+     "cfg": "",
+     "asin": "B0FB3YQKVJ"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/brother-dcp-j1360dw-p285578/",
+      "date": ""
+     },
+     {
+      "src": "RTINGS",
+      "score": null,
+      "url": "https://www.rtings.com/printer/reviews/brother/mfc-j1360dw-all-in-one",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-j1360dw/16/122163",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 91.66,
+   "img": "brother-dcp-j1360dw.webp",
+   "rating": null,
+   "nrev": 0
   }
  },
  "prix_date": "octobre 2026"

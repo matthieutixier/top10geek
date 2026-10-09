@@ -772,3 +772,8 @@
   .bf-home{margin:-12px 0 22px;}
   .bf-desk{grid-template-columns:repeat(3,1fr);}
   @media (max-width:900px){ .bf-desk{grid-template-columns:1fr;} }
+/* v10 (09/10/2026) — quatre rubriques : menu plus serré, lien vers les nouvelles rubriques sur l'accueil */
+  .topnav{gap:18px;}
+  @media (max-width:1180px) and (min-width:681px){ .topnav{gap:12px;font-size:0.8rem;} }
+  .hh-more{margin-top:14px;font-size:0.95rem;color:var(--ink-muted);}
+  .hh-more a{color:var(--ink);font-weight:700;text-decoration-color:var(--accent);text-underline-offset:3px;}

@@ -86,5 +86,494 @@
  "dell-24-aio": {
   "constructeur": "Dell",
   "source": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/dell/ec24250/media-gallery/white/touch/dell-ec24250t-aio-gy-mldspk-gallery-1.psd"
+ },
+ "dell-s2725dc": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/9352c6f415ec18b91ef8c08f0e0c987e0bc8904e.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL Plus S2725DC écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD LCD Blanc"
+ },
+ "dell-s2725qs": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/953d119fcef15e2fc6511d5b7a5c76044bb9e520.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL Plus S2725QS écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD LCD Argent"
+ },
+ "dell-s2725qc": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/523cc1ed15941987b795fbf0e9b92a4b5c31e7e0.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL Plus S2725QC écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD LCD Argent"
+ },
+ "dell-s3225qs": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/17d760ec132954c800a0f223f4d94bb1012e90e8.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL Plus S3225QS écran plat de PC 80 cm (31.5\") 3840 x 2160 pixels 4K Ultra HD LCD Argent"
+ },
+ "dell-u2724de": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/ba50cbfbb46340546172ec238fe7987133453d28.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL UltraSharp U2724DE écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD LCD Noir, Argent"
+ },
+ "benq-gw2790ce": {
+  "constructeur": "BenQ",
+  "source": "https://images.icecat.biz/img/gallery/c290e520189fd7d14e3c3443bcc7c2ccd6cff191.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "BenQ GW2790 écran plat de PC 68,6 cm (27\") 1920 x 1080 pixels Full HD LCD Noir"
+ },
+ "benq-gw2490ce": {
+  "constructeur": "BenQ",
+  "source": "https://images.icecat.biz/img/gallery/87f3d5d0421e864de56e89f6d96e6a819ef5dcd9.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "BenQ GW2490 écran plat de PC 60,5 cm (23.8\") 1920 x 1080 pixels Full HD Noir"
+ },
+ "lg-32un88a": {
+  "constructeur": "LG",
+  "source": "https://images.icecat.biz/img/gallery/b31ae6b195e14f2e410d94a30816ac0ebbdfbb37.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "LG 32UN88A-W écran plat de PC 80 cm (31.5\") 3840 x 2160 pixels 4K Ultra HD Noir"
+ },
+ "lg-32up83a": {
+  "constructeur": "LG",
+  "source": "https://images.icecat.biz/img/gallery/98c60fbc272e5afcbc5bf68fc586056c892111ae.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "LG Écran 31,5\" UHD 4K (3840x2160) avec USB Type-C"
+ },
+ "asus-pa279cv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/4a21bedf385895e8d93942319d8a42c894773c6c.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt PA279CV écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD LED Noir, Argent"
+ },
+ "aoc-q27g4zd": {
+  "constructeur": "AOC",
+  "source": "https://images.icecat.biz/img/gallery/b3a6189b4110adfdd9ad8111db114d4b23c8af5b.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "AOC G4 Q27G4ZD écran plat de PC 67,3 cm (26.5\") 2560 x 1440 pixels Quad HD QD-OLED Noir, Rouge"
+ },
+ "asus-pg32ucdm": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/34a5947800e338a1c859d4b16beaa364ceb31761.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ROG Swift OLED PG32UCDMZ écran plat de PC 80 cm (31.5\") 3840 x 2160 pixels 4K Ultra HD QD-OLED Noir"
+ },
+ "msi-mpg-321urx": {
+  "constructeur": "MSI",
+  "source": "https://images.icecat.biz/img/gallery/f42d4005545901206b5aa29c264236da047ba7a4.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "MSI MPG 321URXW QD-OLED écran plat de PC 80 cm (31.5\") 3840 x 2160 pixels 4K Ultra HD Blanc"
+ },
+ "msi-mpg-271qr-x50": {
+  "constructeur": "MSI",
+  "source": "https://images.icecat.biz/img/gallery/a0749e5e46f66e21a58ef0e8d8669c72019dbf30.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "MSI MPG 271QR QD-OLED X50 écran plat de PC 67,3 cm (26.5\") 2560 x 1440 pixels Wide Quad HD Noir"
+ },
+ "aoc-ag276qsg2": {
+  "constructeur": "AOC",
+  "source": "https://images.icecat.biz/img/gallery/fbddba0f1da92f473156883857b842d5a8ee5f1d.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "AOC AGON PRO AG276QSG2 écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD Noir, Gris"
+ },
+ "samsung-odyssey-g81sf": {
+  "constructeur": "Samsung",
+  "source": "https://images.icecat.biz/img/gallery/ebf3d8b214a50fe4a9588d04055ea6aad679c0f3.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Samsung G81SF écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD OLED Argent"
+ },
+ "asus-pa279crv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/0f6093d5b3a28a3864ad004ac64f0dac18a4bf92.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt PA279CRV écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD LCD Noir"
+ },
+ "asus-pa32qcv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/32b67d40664e3defb606c64f697e6faf86ddba19.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt PA32QCV écran plat de PC 80 cm (31.5\") 6016 x 3384 pixels 6K Ultra HD LCD Argent"
+ },
+ "asus-pa32ucdm": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/34c5d6aaa16a058adc2c5d83f91e6748c955fa93.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt OLED PA32UCDM écran plat de PC 80 cm (31.5\") 3840 x 2160 pixels 4K Ultra HD QD-OLED Argent"
+ },
+ "asus-pa27jcv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/aab4fde72dce42ffb5951b58f725c6b2a355fee8.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt PA27JCV écran plat de PC 68,6 cm (27\") 5120 x 2880 pixels 5K Ultra HD LCD Noir"
+ },
+ "asus-pa279cdv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/2af19439f06d317a0e9ceee7a907e0cd31fee394.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt OLED PA279CDV écran plat de PC 67,3 cm (26.5\") 3840 x 2160 pixels 4K Ultra HD QD-OLED Noir, Argent"
+ },
+ "asus-pa27ucge": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/f74f27d94843ee0ad2d1926c1e1196d8fb0c343e.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt PA27UCGE écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD LED Noir"
+ },
+ "benq-pd2732u": {
+  "constructeur": "BenQ",
+  "source": "https://images.icecat.biz/img/gallery/1f2d7378e7219a2ebd80b55ab9e78dd90ef71420.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "BenQ PD2732U"
+ },
+ "dell-u2724d": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/270f18d190b4ceb910eb4e67b21721b0877f1b77.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL UltraSharp U2724D écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD LCD Noir, Argent"
+ },
+ "asus-pa278qv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/704daf839e7c7dbe08bf13030179d44a814ec2da.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ProArt PA278QV écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD LED Noir"
+ },
+ "eizo-cg2700s": {
+  "constructeur": "EIZO",
+  "source": "https://images.icecat.biz/img/gallery/0d771ded86e02f9983ced24c337b6cced2f76f1c.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "EIZO ColorEdge CG2700S écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD LCD Noir"
+ },
+ "asus-mb169ck": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/8cfea6a61f16b52eb64cac9682a8a009457fed77.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ZenScreen MB169CK écran plat de PC 39,6 cm (15.6\") 1920 x 1080 pixels Full HD LCD Noir"
+ },
+ "asus-mb166c": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/33126f922bc65da0f91d5330f7080b3c2311e13d.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ZenScreen MB166C écran plat de PC 39,6 cm (15.6\") 1920 x 1080 pixels Full HD LED Noir"
+ },
+ "asus-mb16acv": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/10fe43608b4a67cd446b5fe49ada089bd69e938c.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS MB16ACV écran plat de PC 39,6 cm (15.6\") 1920 x 1080 pixels Full HD LED Noir"
+ },
+ "asus-mq149cd": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/29f039692a888c94512b31218319d997f080340d.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ZenScreen Duo OLED MQ149CD écran plat de PC 35,6 cm (14\") 1920 x 1200 pixels WUXGA Argent"
+ },
+ "asus-mq17qh": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/4a10be431ff3d4ed66f93ab6dc9bb5f2478b9806.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS ZenScreen Fold OLED MQ17QH écran plat de PC 43,9 cm (17.3\") 2560 x 1920 pixels Quad HD Argent"
+ },
+ "msi-pro-mp165-e6": {
+  "constructeur": "MSI",
+  "source": "https://images.icecat.biz/img/gallery/0f0487a5b74f22a99c8e3bea38a65372d8845441.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "MSI PRO MP165 E6 téléviseur et moniteur portables Moniteur portable Noir 39,6 cm (15.6\") LED 1920 x 1080 pixels"
+ },
+ "viewsonic-va1655": {
+  "constructeur": "ViewSonic",
+  "source": "https://images.icecat.biz/img/gallery/c1b2ca2813abe2bd140185a449c45d7986187104.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Viewsonic VA1655 écran plat de PC 40,6 cm (16\") 1920 x 1080 pixels Full HD LED Noir"
+ },
+ "aoc-q27g4x": {
+  "constructeur": "AOC",
+  "source": "https://images.icecat.biz/img/gallery/749cb6fbb00311f3d0456298a6379341374538cd.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "AOC G4 Q27G4XFAD écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD Noir, Gris"
+ },
+ "aoc-q27g4zr": {
+  "constructeur": "AOC",
+  "source": "https://images.icecat.biz/img/gallery/d3621b2cf23b8bdff94c999e03fe014212ece015.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "AOC G4 Q27G4ZRAD écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD Noir, Rouge"
+ },
+ "aoc-24g4zr": {
+  "constructeur": "AOC",
+  "source": "https://images.icecat.biz/img/gallery/d6dee3f7a1db55473ca320609f3e13aa329bca55.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "AOC G4 24G4ZR écran plat de PC 60,5 cm (23.8\") 1920 x 1080 pixels Full HD LED Noir, Rouge"
+ },
+ "gigabyte-gs25f2": {
+  "constructeur": "Gigabyte",
+  "source": "https://images.icecat.biz/img/gallery/251e551c3b9386d047a8f4f522360731a12270f8.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "GIGABYTE GS25F2 écran plat de PC 62,2 cm (24.5\") 1920 x 1080 pixels Full HD LED Noir"
+ },
+ "gigabyte-gs27qca": {
+  "constructeur": "Gigabyte",
+  "source": "https://images.icecat.biz/img/gallery/79a17796b5dc35cbfb51920d178212f519f8c773.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "GIGABYTE GS27QCA écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Quad HD LED Noir"
+ },
+ "gigabyte-gs32qca": {
+  "constructeur": "Gigabyte",
+  "source": "https://images.icecat.biz/img/gallery/e77bf2e31a635b502c13661b8f708ce4904638ee.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "GIGABYTE GS32QCA écran plat de PC 80 cm (31.5\") 2560 x 1440 pixels Quad HD LED Noir"
+ },
+ "dell-se2426hg": {
+  "constructeur": "DELL",
+  "source": "https://images.icecat.biz/img/gallery/eacf5809faed03e0665153196b48dc442f2f4695.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "DELL SE2426HG écran plat de PC 60,5 cm (23.8\") 1920 x 1080 pixels Full HD LCD Noir"
+ },
+ "asus-vg279qm5a": {
+  "constructeur": "ASUS",
+  "source": "https://images.icecat.biz/img/gallery/71bb062a33e989a94b184f8d3097b7c1fac9113d.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "ASUS TUF Gaming VG279QM5A écran plat de PC 68,6 cm (27\") 1920 x 1080 pixels Full HD LCD Noir"
+ },
+ "iiyama-gb2771qsu": {
+  "constructeur": "iiyama",
+  "source": "https://images.icecat.biz/img/gallery/0c6fc1764ffb9791bc6634e003e650c80d5e9766.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "iiyama G-MASTER GB2771QSU-B1 écran plat de PC 68,6 cm (27\") 2560 x 1440 pixels Wide Quad HD Noir"
+ },
+ "epson-et-2862": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/abc6081e075b2d852dfe9189cd93ef0ae72e045f.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson EcoTank ET-2862 Jet d'encre A4 5760 x 1440 DPI 10 ppm Wifi"
+ },
+ "epson-et-3950": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery_mediums/c2a272aed1738a57c3fd36c9719b803129a8f2e6.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson EcoTank ET-3950"
+ },
+ "epson-et-4856": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/952a48888cbc6a73c88efd901dcc90658d136831.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson EcoTank ET-4856 Jet d'encre A4 4800 x 1200 DPI 33 ppm Wifi"
+ },
+ "canon-g3570": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/a1dcb58061dd7a9c371bd91fc38dc04a9430597c.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon PIXMA G3570 Jet d'encre A4 4800 x 1200 DPI Wifi"
+ },
+ "epson-et-m1170": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/ddaa55d3b26daf81fc953bde72b72370c185e676.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson EcoTank Imprimante monochrome ET-M1170"
+ },
+ "brother-dcp-l2620dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/369feb995acb9e3951738ab680d484504df47bab.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother DCP-L2620DW imprimante multifonction Laser A4 1200 x 1200 DPI 32 ppm Wifi"
+ },
+ "brother-hl-l1240w": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/bd395ff3aaf0e6a0c2014e7830c1e7ba89753e3d.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother HL-L1240W imprimante laser A4"
+ },
+ "brother-dcp-l1642w": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/5a253154d46efb85289f4322a81bc17b8773ae44.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother DCP-L1642W imprimante multifonction Laser A4 2400 x 600 DPI 20 ppm Wifi"
+ },
+ "brother-hl-l2865dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/0840252ada07f4bd7cf70ca013593deb6c672baa.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother HL-L2865DW Imprimante laser monochrome professionnelle compacte Wi-Fi A4"
+ },
+ "brother-mfc-l2800dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/9e4c86cc08684d2819d6ee85c437238ddb332213.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother MFC-L2800DW imprimante multifonction Laser A4 1200 x 1200 DPI 32 ppm Wifi"
+ },
+ "brother-mfc-l2835dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/9e4c86cc08684d2819d6ee85c437238ddb332213.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother MFC-L2835DW imprimante multifonction Laser A4 1200 x 1200 DPI 32 ppm Wifi"
+ },
+ "brother-mfc-l2960dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/f3d6c0a5572e49ae699bd209150b453c63ead016.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother MFC-L2960DW imprimante multifonction Laser A4 1200 x 1200 DPI 34 ppm Wifi"
+ },
+ "brother-dcp-l2665dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/a59f2cf67f0c32cc3e69778a9d6b6ccb85dcbb80.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother DCP-L2665DW imprimante multifonction Laser A4 1200 x 1200 DPI 34 ppm Wifi"
+ },
+ "canon-lbp243dw-ii": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/fdf956acaa1b7b05595ff6dff640222b74284e08.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon LBP243dw II 1200 x 1200 DPI A4 Wifi"
+ },
+ "hp-laserjet-m234dw": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/31c87e4ea2620e48e6dda0718e6ee73b2c59617c.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "HP LaserJet M234dw Sans fil Multifunction Noir et blanc Imprimante, Copieur, Scanner; Recto verso"
+ },
+ "brother-mfc-l3760cdw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/3cbd52bd09b7a7119c617fde3207d8d6dac4c2da.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother MFC-L3760CDW imprimante multifonction LED A4 600 x 2400 DPI 26 ppm Wifi"
+ },
+ "brother-hl-l3220cwe": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/fd35d7ddcead7c2624bca883ae4a3176ff2ce5e8.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother HL-L3220CWE imprimante laser Couleur 600 x 2400 DPI A4 Wifi"
+ },
+ "brother-hl-l3240cdw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/880a425333a6f09d79107c9992afeda8e071cfa9.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother HL-L3240CDW imprimante laser Couleur 600 x 2400 DPI A4 Wifi"
+ },
+ "canon-mf752cdw": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/04526f5d8cee9d14ace8993c9fa5f5d870bfbdf0.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon i-SENSYS MF752Cdw Laser A4 1200 x 1200 DPI 33 ppm Wifi"
+ },
+ "canon-lbp647cdw": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/fdf956acaa1b7b05595ff6dff640222b74284e08.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon i-SENSYS LBP647Cdw Couleur 1200 x 1200 DPI A4 Wifi"
+ },
+ "xerox-c320": {
+  "constructeur": "Xerox",
+  "source": "https://images.icecat.biz/img/gallery/8c545bae854b5362f5bff867a1451d43ef9761a5.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Xerox C320 Imprimante recto verso sans fil A4 33 ppm, PS3 PCL5e/6, 2 magasins Total 251 feuilles"
+ },
+ "hp-color-laserjet-pro-3202dw": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/a5e796cf582416efa75e0e7b2e1c4605116274da.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "HP LaserJet Pro 3202dw Sans fil Multifunction Couleur Imprimante, Recto verso"
+ },
+ "hp-color-laser-179fnw": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/6ed99f4a0acefa45065b04c213332e38d97a4f87.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "HP Laser 179fnw Sans fil Multifunction Couleur Imprimante, Copieur, Scanner; Recto verso"
+ },
+ "xerox-c230": {
+  "constructeur": "Xerox",
+  "source": "https://images.icecat.biz/img/gallery/e49594d63bfa64eea6293590f2b7defac3883e05.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Xerox C230 Imprimante recto verso sans fil A4 22 ppm, PS3 PCL5e/6, 2 magasins Total 251 feuilles"
+ },
+ "canon-selphy-cp1500": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/566258ad77cb08a231cf8396b7d76d66922b0d7e.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon SELPHY CP1500 imprimante photo Sublimation de teinte 300 x 300 DPI 4\" x 6\" (10x15 cm) Wifi"
+ },
+ "canon-zoemini-2": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/7a05a60d6498b95b55242577f257dbf411b5721f.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon Zoemini 2 imprimante photo Sans encre 313 x 500 DPI 2\" x 3\" (5x7.6 cm)"
+ },
+ "epson-et-8550": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/8b2e439a0cbab83154b662d9c69d4b77a52e11f7.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson EcoTank ET-8550"
+ },
+ "epson-et-8500": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/b249ba77c91577e978ca30ff94256001f211e30e.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson EcoTank ET-8500"
+ },
+ "canon-pixma-ix6850": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/83ef33caf32b81c11b31473335772a27eb64337c.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon PIXMA iX6850 imprimante photo Jet d'encre 9600 x 2400 DPI A3+ (330 x 483 mm) Wifi"
+ },
+ "epson-xp-2200": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery_mediums/03ddb5f78357ed5e7569e144f9a32b7c7ec5afea.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson Expression Home XP-2200"
+ },
+ "canon-pixma-ts3750i": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/e2fcc55ec1ec265488220f577c08cb7945efa2c1.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon PIXMA TS3750i Jet d'encre A4 4800 x 1200 DPI Wifi"
+ },
+ "epson-wf-2930dwf": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery_mediums/7e243040af99e744854ac58a9bc84e9ba083ac55.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Epson WorkForce WF-2930DWF"
+ },
+ "canon-pixma-tr4755i": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/1884c470d049a038b311bfce42172029061a7936.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon PIXMA TR4751i Jet d'encre A4 4800 x 1200 DPI 8,8 ppm Wifi"
+ },
+ "canon-pixma-ts7750i": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/38d6b6ce8c6aca8785d928cc550c92afc5503d70.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon PIXMA TS7750i Jet d'encre A4 1200 x 1200 DPI Wifi"
+ },
+ "canon-pixma-ts705a": {
+  "constructeur": "Canon",
+  "source": "https://images.icecat.biz/img/gallery/e9ff7339b5da607fe67ff9b9d1fa341327c9a088.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Canon PIXMA TS705 imprimante jets d'encres Couleur 4800 x 1200 DPI A4 Wifi"
+ },
+ "brother-dcp-j1360dw": {
+  "constructeur": "Brother",
+  "source": "https://images.icecat.biz/img/gallery/dd48c85b7dfacfa1279c2a46507831df28a6e157.jpg",
+  "via": "Icecat (visuel fourni par le constructeur)",
+  "produit": "Brother DCP-J1360DW Imprimante à jet d'encre compacte sans fil 3-en-1"
+ },
+ "alienware-aw2726dm": {
+  "constructeur": "Dell",
+  "source": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw2726dm/media-gallery/monitor-aw2726dm-black-gallery-1.psd"
+ },
+ "alienware-aw2725q": {
+  "constructeur": "Dell",
+  "source": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/alienware/aw2725q/media-gallery/monitor-aw2725q-black-gallery-1.psd"
+ },
+ "sony-inzone-m10s": {
+  "constructeur": "Sony",
+  "source": "https://d1ncau8tqf99kp.cloudfront.net/converted/149137_original_local_1200x1050_v3_converted.webp"
+ },
+ "asus-mq16fc": {
+  "constructeur": "ASUS",
+  "source": "https://dlcdnwebimgs.asus.com/gain/d225e622-960f-4bd5-84f7-af7faa0809f0/"
+ },
+ "canon-pixma-ts6550i": {
+  "constructeur": "Canon",
+  "source": "https://cdn.media.amplience.net/i/canon/pixma-ts6550i_ambient_printer_hero_1480_16x9_7921a465d28140fdb5a2f8b66cd19247",
+  "note": "visuel d'ambiance officiel Canon"
  }
 }
