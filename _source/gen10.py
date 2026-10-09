@@ -691,36 +691,14 @@ def usage_page(fam, c):
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
         photo = (f'<a class="f-photo" href="{E(d["url"])}" target="_blank" rel="{rel_m(d["offers"][0]["m"])}"><img src="../../assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d["img"] else "")
         best = d["offers"][0]
-        fiches.append(f"""<article class="fiche v7{' top' if i == 1 else ''}" id="{d['id']}" data-budget="{d['bucket']}" data-rank="{i}" data-price="{d['p']}" data-press="{pr['avg'] if pr else -1}" data-tests="{ts['tests']}">
-  {'<img class="stamp" src="../../assets/img/stamp-choix.webp" alt="Le choix de la bande" width="92" height="92" loading="lazy">' if i == 1 and d['badge'] == 'Le choix de la bande' else ''}
-  <div class="rank">#{i}<small>{rank_lbl}</small></div>
-  <div class="f-main">
-    <span class="fbadge{' alt' if i != 1 else ''}">{E(d['badge'])}</span>
-    <h3><a href="{root}{d['purl']}">{E(d['short'])}</a></h3>
-    <div class="ref">{E(d['ref'])}</div>
-    <p class="lead-line"><b>En bref.</b> {E(d['verdict'])}</p>
-    <button type="button" class="f-toggle" aria-expanded="false" aria-controls="x-{d['id']}">Points forts, points faibles et tests</button>
-    <div class="f-x" id="x-{d['id']}">
-    <div class="pc-grid">
-      <div class="strengths"><span class="pc-t pro">Points forts</span>{st}</div>
-      <div class="strengths weak"><span class="pc-t con">Points faibles</span>{wk}</div>
-    </div>
-    {offers_html}
-    {det}
-    <a class="see-all f-more" href="{root}{d['purl']}">{E(d['short'])} : avis et tests détaillés →</a>
-    </div>
-  </div>
-  <div class="f-side">
-    {photo}
-    <div class="press-big">{big}</div>
-    <div class="mini"><span class="k">Prix indicatif</span><span class="v">{d['price_txt']}</span></div>
-    <div class="f-x f-xs">
-    {mini(fam['m_labels'][0], E(d['m'][0]))}
-    {mini(fam['m_labels'][1], E(d['m'][1]))}
-    {('<div class="mini"><span class="k">Avis clients Darty</span><span class="v">' + rating + '</span></div>') if rating else ''}
-    </div>
-    <a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a>
-  </div>
+        fiches.append(f"""<article class="fiche tcard{' top' if i == 1 else ''}" id="{d['id']}" data-budget="{d['bucket']}" data-rank="{i}" data-price="{d['p']}" data-press="{pr['avg'] if pr else -1}" data-tests="{ts['tests']}" style="--c:{c['color']}">
+  <div class="tc-top"><span class="tc-rank">#{i}<small>{'notre choix' if i == 1 else f'sur {n}'}</small></span><span class="fbadge{' alt' if i != 1 else ''}">{E(d['badge'])}</span></div>
+  {f'<a class="tc-photo" href="{root}{d["purl"]}"><img src="{root}assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d['img'] else '<div class="tc-photo tc-nophoto">Photo à venir</div>'}
+  <h3 class="tc-name"><a href="{root}{d['purl']}">{E(d['short'])}</a></h3>
+  <div class="tc-ref">{E(d['ref'])}</div>
+  <p class="tc-verdict">{E(d['verdict'])}</p>
+  <div class="tc-bottom"><div class="ch-score{'' if pr else ' none'}">{(f'<b>{fr(pr["avg"])}</b><small>/10</small><em>{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse{gam}</em>') if pr else f'<b>Testé</b><em>{ts["tests"]} test{"s" if ts["tests"] > 1 else ""}, sans note chiffrée</em>'}</div>{few(d, "few tc-few")}<span class="tc-price">{d['price_txt']}<small>prix indicatif</small></span></div>
+  <div class="tc-actions"><a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a><a class="see-all" href="{root}{d['purl']}">Avis et tests →</a></div>
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
               else f'<img class="hero-badge" src="../../assets/img/badge-{c["badge"]}.webp" alt="" width="190" height="190">')
@@ -770,7 +748,7 @@ def usage_page(fam, c):
   <section class="section" id="top10" style="border-bottom:none;">
     <div class="section-head"><h2><img class="section-badge" src="../../assets/img/badge-{c['badge']}.webp" alt="" width="50" height="50">{top_word}</h2><div class="tag">Notre choix, puis note presse</div></div>
     {sort_bar(fam)}
-    <div class="top-list" id="topList">{''.join(fiches)}</div>
+    <div class="top-list tgrid" id="topList">{''.join(fiches)}</div>
   </section>
 """
     if fam["key"] == "laptop":

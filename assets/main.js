@@ -4,20 +4,6 @@
     btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
   }catch(e){}
 
-  // Fiches du top 10 repliables : l'essentiel visible, le détail au clic
-  function openFiche(f,open){
-    var b=f.querySelector('.f-toggle'); if(!b) return;
-    f.classList.toggle('open',open); b.setAttribute('aria-expanded',open?'true':'false');
-  }
-  document.querySelectorAll('.fiche .f-toggle').forEach(function(b){
-    b.addEventListener('click',function(){ var f=b.closest('.fiche'); openFiche(f,!f.classList.contains('open')); });
-  });
-  function openFromHash(){
-    var id=decodeURIComponent((location.hash||'').slice(1)); if(!id) return;
-    var f=document.getElementById(id); if(f&&f.classList.contains('fiche')) openFiche(f,true);
-  }
-  openFromHash(); window.addEventListener('hashchange',openFromHash);
-
   var DATA=window.T10G||{}, L=DATA.laptops||{};
   var card=document.getElementById('detailCard');
   if(!card) return;
