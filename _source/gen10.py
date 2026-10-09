@@ -967,17 +967,27 @@ SOON_IMG = ["soon-smartphone", "soon-casque", "soon-tablette"]
 SOON = [("Smartphones", "Les meilleurs téléphones par budget, notes presse à l'appui."),
         ("Casques &amp; écouteurs", "Réduction de bruit, sport, gaming : le son sans se tromper."), ("Tablettes", "iPad, Android, Windows : laquelle pour lire, dessiner ou travailler ?")]
 
+ICON = {
+    "laptop": '<path d="M5 6h14v9H5z"/><path d="M2.5 18.5h19"/>',
+    "desktop": '<rect x="3" y="4" width="13" height="10" rx="1"/><path d="M9.5 14v3M6.5 17h6"/><rect x="18" y="6" width="3.5" height="11" rx="0.8"/>',
+    "ecran": '<rect x="2.5" y="4" width="19" height="12" rx="1"/><path d="M12 16v3.5M8 19.5h8"/>',
+    "imprimante": '<path d="M7 9V3.5h10V9"/><rect x="3" y="9" width="18" height="7.5" rx="1.2"/><path d="M7 14h10v6.5H7z"/>',
+}
+def fam_btn(fam):
+    n = sum(len(by_cat[c["key"]]) for c in fam["cats"])
+    return (f'<a class="fam-btn" href="{fam["slug"]}/"><span class="fb-ic"><svg viewBox="0 0 24 24" aria-hidden="true">{ICON[fam["key"]]}</svg></span>'
+            f'<span class="fb-txt"><b>{fam["plural"]}</b><small>{len(fam["cats"])} usages · {n} modèles</small></span><span class="fb-go" aria-hidden="true">→</span></a>')
+FAM_BTNS = "\n        ".join(fam_btn(f) for f in FAMILIES)
+
 home = f"""
   <section class="home-hero">
     <div class="hh-text">
       <div class="eyebrow">LE COMPARATEUR QUI A LU TOUS LES TESTS · MAJ {MAJ}</div>
       <h1>Tous les tests high&#8209;tech, <span class="flash">résumés pour vous.</span></h1>
       <p>Nous lisons les tests de la presse spécialisée, nous en tirons une <b>note presse sur 10</b> et nous vous disons, usage par usage, quoi acheter — et pourquoi. Sans jargon, sans pub déguisée.</p>
-      <div class="hh-ctas">
-        <a class="cta big" href="pc-portable/">Trouver mon PC portable →</a>
-        <a class="cta big ghost" href="ordinateur-de-bureau/">Trouver mon ordinateur de bureau →</a>
-      </div>
-      <p class="hh-more">Nouveau : <a href="ecran-pc/">les écrans PC</a> et <a href="imprimante/">les imprimantes</a>, avec le même verdict par usage.</p>
+      <nav class="fam-btns" aria-label="Nos comparatifs">
+        {FAM_BTNS}
+      </nav>
       <div class="spec-row">
         <div><strong>{TOTAL_TESTS}</strong>tests presse recensés</div>
         <div><strong>{len(ITEMS)}</strong>produits sélectionnés</div>
