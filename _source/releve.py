@@ -9,6 +9,7 @@
   python3 _source/releve.py --only Amazon --limit 5 --headed --debug   # essai
   python3 _source/releve.py --only Amazon,Geekom --apply   # relevé complet de certains marchands
   python3 _source/releve.py --famille ecran --only Amazon --apply   # une seule rubrique
+  python3 _source/releve.py --famille ecran --only Amazon --cloturer --apply   # après captchas : applique les lectures du jour
   python3 _source/releve.py --manuel _source/data/manuel.json --apply
         # prix lus à la main dans un navigateur : [{"id": ..., "j": ..., "price": ...}, ...]
 
@@ -133,7 +134,6 @@ def offres_ld(prod):
     if not o:
         return []
     o = o if isinstance(o, list) else [o]
-    res = []
     for x in o:
         if not isinstance(x, dict):
             continue
@@ -292,6 +292,8 @@ def main():
                     "(portable, bureau, ecran, imprimante)")
     ap.add_argument("--duree", type=int, help="s'arrête proprement après N secondes ; relancer la même commande "
                     "pour reprendre (les lectures du jour sont gardées dans _source/data/reprise.json)")
+    ap.add_argument("--cloturer", action="store_true", help="clôt un relevé interrompu (captchas) : applique les "
+                    "lectures du jour gardées dans reprise.json, sans charger de page ; les offres non relues gardent leur prix")
     ap.add_argument("--manuel", help="fichier JSON de prix lus à la main (aucune page n'est chargée)")
     ap.add_argument("--limit", type=int, help="nombre maximum d'offres (essais)")
     ap.add_argument("--headed", action="store_true", help="navigateur visible (utile pour résoudre un captcha)")
@@ -299,7 +301,7 @@ def main():
     ap.add_argument("--channel", default=None, help="navigateur installé à utiliser, ex. chrome ou msedge")
     a = ap.parse_args()
 
-    if a.manuel:
+    if a.manuel or a.cloturer:
         import contextlib
         sync_playwright = lambda: contextlib.nullcontext()
     else:
@@ -334,12 +336,19 @@ def main():
     jour = datetime.datetime.now(ZoneInfo("Europe/Paris")).strftime("%d/%m/%Y")
     f_reprise = OUT_DIR / "reprise.json"
     deja = {}
-    if a.duree and f_reprise.exists():
+    if (a.duree or a.cloturer) and f_reprise.exists():
         c = json.loads(f_reprise.read_text(encoding="utf-8"))
         if c.get("date") == jour:
             deja = {k: r for k, r in c["res"].items() if r["status"] not in ("echec", "captcha")}
     restant = 0
     res = []
+    perimetre = list(cible)                          # offres visées, avant toute reprise (seuils de 50 %)
+    if a.cloturer:
+        if not deja:
+            sys.exit("Rien à clôturer : aucune lecture du jour dans _source/data/reprise.json.")
+        cible = [x for x in cible if f"{x[0]}|{x[1]}" in deja]
+        res.extend(deja[f"{k}|{j}"] for k, j, _ in cible)   # pas de navigateur : on rejoue les lectures gardées
+        print(f"Clôture : {len(cible)} lectures du jour reprises de reprise.json.")
     for k, j, o in (cible if manuel else []):
         x = manuel[(k, j)]
         prix = parse_prix(x.get("price"))
@@ -352,13 +361,13 @@ def main():
         res.append(r)
         print(f"[manuel] {o['m']:10s} {k:24s} {r['status']:13s} {o['price']} -> {r.get('price', '—')}  {r.get('note', '')}")
     with sync_playwright() as p:
-        ctx = None if manuel else p.chromium.launch_persistent_context(
+        ctx = None if (manuel or a.cloturer) else p.chromium.launch_persistent_context(
             str(PROFILE), headless=not a.headed, channel=a.channel,
             locale="fr-FR", timezone_id="Europe/Paris", user_agent=UA,
             viewport={"width": 1366, "height": 900},
             extra_http_headers={"Accept-Language": "fr-FR,fr;q=0.9"})
-        page = None if manuel else (ctx.pages[0] if ctx.pages else ctx.new_page())
-        for n, (k, j, o) in enumerate([] if manuel else cible, 1):
+        page = None if (manuel or a.cloturer) else (ctx.pages[0] if ctx.pages else ctx.new_page())
+        for n, (k, j, o) in enumerate([] if (manuel or a.cloturer) else cible, 1):
             if f"{k}|{j}" in deja:
                 res.append(deja[f"{k}|{j}"])
                 continue
@@ -407,7 +416,7 @@ def main():
 
     # un marchand est « relevé » si au moins la moitié de SES offres ont été relues
     tot_m, ok_m = {}, {}
-    for _, _, o in (cible if a.famille else offres):   # avec --famille : seuil calculé sur la rubrique
+    for _, _, o in (perimetre if a.famille else offres):   # avec --famille : seuil calculé sur la rubrique
         tot_m[o["m"]] = tot_m.get(o["m"], 0) + 1
     for r in ok:
         ok_m[r["m"]] = ok_m.get(r["m"], 0) + 1
@@ -418,7 +427,7 @@ def main():
 
     if a.apply:
         if partiel:
-            print("--apply ignoré : essai partiel (--limit).")
+            print("--apply ignoré : relevé incomplet (--limit, ou --duree atteinte : relancer la même commande).")
         elif not ok:
             print("--apply refusé : aucune offre relue. data.json inchangé.")
         else:
@@ -441,12 +450,15 @@ def main():
             if a.manuel:
                 pass                              # lecture manuelle : complète un relevé, ne date pas la rubrique
             elif a.famille:
+                # dernière tentative (sert à la rotation hebdomadaire, même si la date affichée n'avance pas)
+                iso_jour = jour[6:] + "-" + jour[3:5] + "-" + jour[:2]
+                d.setdefault("familles", {}).setdefault(a.famille, {"date": d["date"], "prix_date": d.get("prix_date", ""),
+                                                                    "iso": iso_jour})["tente"] = iso_jour
                 # date de la rubrique : n'avance que si au moins la moitié de ses offres ont été relues
-                if len(ok) >= SEUIL_PUBLICATION * len(cible):
-                    d.setdefault("familles", {})[a.famille] = {"date": jour, "prix_date": mois_txt,
-                                                                "iso": jour[6:] + "-" + jour[3:5] + "-" + jour[:2]}
+                if len(ok) >= SEUIL_PUBLICATION * len(perimetre):
+                    d["familles"][a.famille].update(date=jour, prix_date=mois_txt, iso=iso_jour)
                 else:
-                    print(f"Date de la rubrique « {a.famille} » NON avancée ({len(ok)}/{len(cible)} offres relues).")
+                    print(f"Date de la rubrique « {a.famille} » NON avancée ({len(ok)}/{len(perimetre)} offres relues).")
                 fams = d.get("familles", {})
                 if len(fams) == len(FAMILLES):    # mois affiché sur les pages multi-rubriques : le plus ancien
                     d["prix_date"] = min(fams.values(), key=lambda x: x["iso"])["prix_date"]

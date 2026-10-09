@@ -50,6 +50,19 @@ if __name__ == "__main__":
             if old and old.get("press"):
                 urls = {n["url"] for n in new["press"]["notes"]}
                 extra = [n for n in old["press"]["notes"] if n.get("ajout") and n["url"] not in urls]
+                # note retrouvée par ajout_tests.py pour un test déjà au catalogue sans note
+                notes_ajout = {n["url"]: n for n in old["press"]["notes"] if n.get("ajout") and n["url"] in urls}
+                for n in new["press"]["notes"]:
+                    a = notes_ajout.get(n["url"])
+                    if a and n["score"] is None and a["score"] is not None:
+                        n.update(score=a["score"], ajout=a["ajout"])
+                if notes_ajout:
+                    keep = {n["url"]: n.get("ajout") for n in new["press"]["notes"]}
+                    new["press"] = press(dict(notes=[(n["src"], n["score"], n["url"]) for n in new["press"]["notes"]],
+                                              scope=new["press"]["scope"]))
+                    for n in new["press"]["notes"]:
+                        if keep.get(n["url"]):
+                            n["ajout"] = keep[n["url"]]
                 if extra:
                     new["press"]["notes"] += extra
                     new["press"] = press(dict(notes=[(n["src"], n["score"], n["url"]) for n in new["press"]["notes"]],

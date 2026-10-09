@@ -148,7 +148,7 @@
      {
       "src": "India Today",
       "score": 7.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-zenbook-a14-review-an-ultra-light-productivity-laptop-2707145-2025-04-10?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-zenbook-a14-review-an-ultra-light-productivity-laptop-2707145-2025-04-10?utm_source=rss",
       "date": "2025-04-10"
      },
      {
@@ -229,7 +229,7 @@
     },
     {
      "m": "Amazon",
-     "price": 999.99,
+     "price": 849.99,
      "url": "https://www.amazon.fr/dp/B09CQ4XG5P?tag=geekconcept-21",
      "name": "ASUS Zenbook A14 UX3407QA 14\" WUXGA OLED (Snapdragon X1, 16Go LPDDR5X, 1To SSD, Adreno GPU, Windows 11) - Clavier AZERTY",
      "cfg": "16 Go · 1 To",
@@ -239,7 +239,7 @@
    "img": "zenbook-a14.webp",
    "rating": 4.5,
    "nrev": 41,
-   "prix": 999.0
+   "prix": 849.99
   },
   "mba13-m5": {
    "cat": "bureau",
@@ -304,7 +304,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/apple-macbook-air-m5-review-perfect-laptop-for-everyone-2895907-2026-04-14?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/apple-macbook-air-m5-review-perfect-laptop-for-everyone-2895907-2026-04-14?utm_source=rss",
       "date": "2026-04-14"
      },
      {
@@ -455,7 +455,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/apple-macbook-neo-review-intentionally-provocative-thoughtfully-brilliant-2907534-2026-05-06?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/apple-macbook-neo-review-intentionally-provocative-thoughtfully-brilliant-2907534-2026-05-06?utm_source=rss",
       "date": "2026-05-06"
      },
      {
@@ -1386,7 +1386,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1183.48,
+     "price": 749.0,
      "url": "https://www.amazon.fr/dp/B0G1TMT383?tag=geekconcept-21",
      "name": "Samsung Galaxy Book4 Edge Ordinateur Portable avec IA 15.6’’, Copilot+ PC, Snapdragon X Plus (8-Core), Mémoire 16 Go, St",
      "cfg": "16 Go",
@@ -1396,7 +1396,7 @@
    "img": "galaxy-book4-edge.webp",
    "rating": 4.7,
    "nrev": 35,
-   "prix": 959.99
+   "prix": 749.0
   },
   "swift-air-14": {
    "cat": "bureau",
@@ -2735,7 +2735,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1549.0,
+     "price": 1699.0,
      "url": "https://www.amazon.fr/dp/B0GR1P9K35?tag=geekconcept-21",
      "name": "Apple MacBook Air 15 Pouces Portable avec Puce M5 : Conçu pour l’IA, Écran Liquid Retina 15,3 Pouces, Mémoire unifiée 16",
      "cfg": "",
@@ -2752,7 +2752,7 @@
    "img": "mba15-m5.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1549.0
+   "prix": 1699.0
   },
   "zephyrus-g16": {
    "cat": "creation",
@@ -3368,7 +3368,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1599.99,
+     "price": 1349.99,
      "url": "https://www.amazon.fr/dp/B0GX6RN4V2?tag=geekconcept-21",
      "name": "Lenovo LOQ 15IRX10 | Gaming Laptop | i7 | RTX 5060",
      "cfg": "RTX 5060",
@@ -3452,7 +3452,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1648.43,
+     "price": 1999.0,
      "url": "https://www.amazon.fr/dp/B0F2GP7S8Y?tag=geekconcept-21",
      "name": "MSI Katana 15 HX B14WGK-018FR : Intel Core i7-14650HX - 16GB DDR5 (2x8gb) - SSD 1TB NVMe PCIe - Nvidia RTX 5070 8GB GDDR",
      "cfg": "16 Go · 1 To · RTX 5070",
@@ -3607,7 +3607,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1971.34,
+     "price": 1980.21,
      "url": "https://www.amazon.fr/dp/B0F9X8733S?tag=geekconcept-21",
      "name": "MSI Crosshair 16 HX AI D2XWGKG-012FR : Intel Core Ultra 9 275HX - 16 GB DDR5 - SSD 1TB - Nvidia RTX 5070 8GB - 16' QHD+ ",
      "cfg": "16 Go · 1 To · RTX 5070",
@@ -3624,7 +3624,7 @@
    "img": "crosshair16.webp",
    "rating": 4.8,
    "nrev": 33,
-   "prix": 1971.34
+   "prix": 1980.21
   },
   "strix-g16": {
    "cat": "gaming",
@@ -4069,7 +4069,7 @@
      {
       "src": "India Today",
       "score": 7.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/lenovo-yoga-slim-7i-aura-edition-review-big-screen-slim-design-and-a-few-quirks-2735703-2025-06-04?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/lenovo-yoga-slim-7i-aura-edition-review-big-screen-slim-design-and-a-few-quirks-2735703-2025-06-04?utm_source=rss",
       "date": "2025-06-04"
      },
      {
@@ -4592,7 +4592,7 @@
      {
       "src": "India Today",
       "score": null,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s14-review-stylish-design-good-performance-2621925-2024-10-23?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s14-review-stylish-design-good-performance-2621925-2024-10-23?utm_source=rss",
       "date": "2024-10-23"
      },
      {
@@ -4728,7 +4728,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s16-review-powerful-lightweight-and-gets-most-things-right-2654079-2024-12-23?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-zenbook-s16-review-powerful-lightweight-and-gets-most-things-right-2654079-2024-12-23?utm_source=rss",
       "date": "2024-12-23"
      },
      {
@@ -4957,7 +4957,7 @@
      {
       "src": "India Today",
       "score": null,
-      "url": " https://www.indiatoday.in/technology/reviews/story/hp-omnibook-x-flip-14-review-a-jack-of-all-trades-2794030-2025-09-26?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/hp-omnibook-x-flip-14-review-a-jack-of-all-trades-2794030-2025-09-26?utm_source=rss",
       "date": "2025-09-26"
      },
      {
@@ -5098,7 +5098,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1409.56,
+     "price": 1451.47,
      "url": "https://www.amazon.fr/dp/B0F5Z5JTTD?tag=geekconcept-21",
      "name": "Lenovo Yoga 7 Ordinateur portable 2-en-1 | Copilot + PC | 14\" WUXGA OLED | AMD Ryzen AI 7 350 | 16 Go de RAM | 512 Go SS",
      "cfg": "16 Go · 512 Go",
@@ -5634,7 +5634,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 399.99,
+     "price": 429.99,
      "url": "https://www.amazon.fr/dp/B0GX1WCY17?tag=geekconcept-21",
      "name": "Lenovo IdeaPad Slim 3 | Laptop | Athlon | 8Go | 128 Go | sans Chargeur",
      "cfg": "8 Go · 128 Go",
@@ -5651,7 +5651,7 @@
    "img": "ideapad-slim3.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 399.99
+   "prix": 429.99
   },
   "ideapad1": {
    "cat": "lowcost",
@@ -6054,7 +6054,7 @@
      {
       "src": "India Today",
       "score": 8.0,
-      "url": " https://www.indiatoday.in/technology/reviews/story/asus-vivobook-14-flip-review-a-relatively-affordable-2-in-1-laptop-that-balances-work-and-play-well-2686465-2025-02-27?utm_source=rss ",
+      "url": "https://www.indiatoday.in/technology/reviews/story/asus-vivobook-14-flip-review-a-relatively-affordable-2-in-1-laptop-that-balances-work-and-play-well-2686465-2025-02-27?utm_source=rss",
       "date": "2025-02-27"
      },
      {
@@ -14639,8 +14639,8 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
+    "avg": 7.0,
+    "n": 1,
     "tests": 3,
     "scope": "gamme",
     "src": [
@@ -14650,9 +14650,10 @@
     "notes": [
      {
       "src": "Clubic",
-      "score": null,
+      "score": 7.0,
       "url": "https://www.clubic.com/test-produit-580633-test-brother-dcp-l1642-l-imprimante-multifonction-monochrome-a-volume-moyen.html",
-      "date": ""
+      "date": "",
+      "ajout": "09/10/2026"
      },
      {
       "src": "Que Choisir",
@@ -16363,15 +16364,22 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
+    "avg": 7.0,
+    "n": 1,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Clubic",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-583300-test-canon-pixma-ts-6550i-imprimante-3-en-1-reservee-aux-creatifs.html",
+      "date": "2025-10-22",
+      "ajout": "09/10/2026"
+     },
      {
       "src": "Que Choisir",
       "score": null,
@@ -16940,7 +16948,8 @@
   "portable": {
    "date": "05/10/2026",
    "prix_date": "octobre 2026",
-   "iso": "2026-10-05"
+   "iso": "2026-10-05",
+   "tente": "2026-10-09"
   },
   "bureau": {
    "date": "05/10/2026",
@@ -16957,5 +16966,8 @@
    "prix_date": "octobre 2026",
    "iso": "2026-10-09"
   }
+ },
+ "dates": {
+  "Amazon": "09/10/2026"
  }
 }
