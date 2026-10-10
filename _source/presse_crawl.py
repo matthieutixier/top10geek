@@ -8,6 +8,10 @@ Installation (une fois) :  pip install crawl4ai  &&  crawl4ai-setup
       liens morts, pages bloquées, notes différentes de celles du site (écart), notes retrouvées pour un test cité « sans note ».
       Rapport : _source/data/presse_rapport.json (+ résumé à l'écran).
 
+  python3 _source/presse_crawl.py appliquer _source/data/presse_rapport.json [--apply]
+      Reporte les notes déclarées en JSON-LD (écarts et notes retrouvées) dans data.json et dans catalog_ecrans.py /
+      catalog_imprimantes.py ; chaque note corrigée garde « avant » et « corrige » (date). Sans --apply : aperçu.
+
   python3 _source/presse_crawl.py lire URL [URL…] --id <produit>
       Lit de nouvelles pages de test (URL trouvées par recherche web) et prépare un brouillon pour ajout_tests.py :
       _source/data/nouveaux_tests_brouillon.json  (média, date, note sur 10 si elle est lisible dans les données structurées de la page).
@@ -15,7 +19,7 @@ Installation (une fois) :  pip install crawl4ai  &&  crawl4ai-setup
 
 Règles : jamais de note inventée (une note n'est reprise automatiquement que si la page la déclare en JSON-LD ; une note lue dans le
 texte est seulement suggérée, à vérifier) ; robots.txt respecté ; un captcha ou un blocage n'est ni résolu ni contourné : la page est
-signalée « bloquée » et le site concerné est laissé de côté pour la suite de la passe ; 1 à 3 pages en parallèle avec pause entre pages.
+signalée « bloquée » et le site concerné est laissé de côté pour la suite de la passe ; 6 sites en parallèle au plus, pages d'un même site l'une après l'autre avec une pause.
 Variable facultative C4_CDP_URL : se connecter à un Chrome déjà lancé (http://localhost:9222) au lieu du Chromium de Playwright."""
 import argparse
 import asyncio
@@ -90,7 +94,9 @@ def _num(v):
 
 
 def note_jsonld(html):
-    """Note de la rédaction déclarée par la page (reviewRating d'un Review/Product), ramenée sur 10. Jamais aggregateRating (avis lecteurs)."""
+    """Note de la rédaction déclarée par la page (reviewRating d'un Review/Product), ramenée sur 10. Jamais aggregateRating (avis lecteurs).
+    Une page qui déclare plusieurs notes différentes (comparatif, « meilleurs … ») est ambiguë : aucune note n'est reprise."""
+    trouvees = []
     for bloc in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', html or "", re.S | re.I):
         try:
             j = json.loads(bloc.strip())
@@ -106,8 +112,12 @@ def note_jsonld(html):
             if v is None or best is None or best <= 0:
                 continue                      # sans échelle explicite : ambigu, on ne devine pas
             if 0 <= v <= best:
-                return round(v / best * 10, 2), f"JSON-LD reviewRating {rr.get('ratingValue')}/{rr.get('bestRating')}"
-    return None, None
+                trouvees.append((round(v / best * 10, 2), f"JSON-LD reviewRating {rr.get('ratingValue')}/{rr.get('bestRating')}"))
+    if not trouvees:
+        return None, None
+    if len({t[0] for t in trouvees}) > 1:
+        return None, "ambigu"
+    return trouvees[0]
 
 
 def note_texte(md):
@@ -156,10 +166,16 @@ async def lire_pages(urls):
                         sortie[u] = dict(statut=f"erreur : {str(e)[:80]}", http=None)
                         continue
                     sortie[u] = analyser(r)
+                    if sortie[u]["statut"].startswith("erreur"):          # seconde tentative, une seule
+                        await asyncio.sleep(3)
+                        try:
+                            sortie[u] = analyser(await crawler.arun(u, config=cfg))
+                        except Exception:                                 # noqa: BLE001
+                            pass
                     if sortie[u]["statut"] == "bloqué":
                         blocs[h] += 1
                     await asyncio.sleep(1.2)                # politesse
-        sem = asyncio.Semaphore(3)
+        sem = asyncio.Semaphore(6)           # 6 sites en parallèle, pages d'un même site l'une après l'autre
         await asyncio.gather(*(hote(h, lst, sem) for h, lst in par_hote.items()))
     return sortie
 
@@ -183,11 +199,14 @@ def analyser(r):
 def cmd_verifier(a):
     d = charger()
     pids = meilleurs(d, a.famille, a.top, a.ids.split(",") if a.ids else None)
+    seules = set(Path(a.urls).read_text(encoding="utf-8").split()) if a.urls else None
+    if seules:
+        pids = [pid for pid, it in d["items"].items() if any(n.get("url") in seules for n in it["press"]["notes"])]
     taches = {}                                             # url -> [(pid, note)]
     for pid in pids:
         for n in d["items"][pid]["press"]["notes"]:
             u = n.get("url") or ""
-            if u.startswith("http"):
+            if u.startswith("http") and (seules is None or u in seules):
                 taches.setdefault(u, []).append((pid, n))
     print(f"{len(pids)} produit(s), {len(taches)} page(s) de test à relire…")
     res = asyncio.run(lire_pages(list(taches)))
@@ -213,9 +232,10 @@ def cmd_verifier(a):
                 else:
                     etat = "ok (note non lisible automatiquement)" if stocke is not None else "ok"
             compte[etat.split(" (")[0]] += 1
-            rapport.append(dict(id=pid, media=n["src"], url=u, note_site=stocke, etat=etat, detail=detail, http=r.get("http")))
+            rapport.append(dict(id=pid, media=n["src"], url=u, note_site=stocke, etat=etat, detail=detail, http=r.get("http"),
+                                note_page=r.get("score"), methode=r.get("methode")))
     SORTIE.mkdir(exist_ok=True)
-    out = SORTIE / "presse_rapport.json"
+    out = SORTIE / (a.sortie or "presse_rapport.json")
     out.write_text(json.dumps(dict(date=datetime.datetime.now().isoformat(timespec="seconds"), famille=a.famille, lignes=rapport),
                               ensure_ascii=False, indent=1), encoding="utf-8")
     print("\nBilan :", ", ".join(f"{k} {v}" for k, v in compte.most_common()))
@@ -251,6 +271,59 @@ def cmd_lire(a):
           f"Contrôler les notes puis : python3 _source/ajout_tests.py {out.relative_to(SRC.parent)}")
 
 
+def recalc(pr):
+    notes = pr["notes"]
+    notes.sort(key=lambda n: (n["score"] is None, -(n["score"] or 0), n["src"]))
+    scored = [n for n in notes if n["score"] is not None]
+    pr.update(avg=(sum(n["score"] for n in scored) / len(scored)) if scored else None, n=len(scored), tests=len(notes))
+
+
+CATALOGUES = {"ecran": SRC / "catalog_ecrans.py", "imprimante": SRC / "catalog_imprimantes.py"}
+
+
+def cmd_appliquer(a):
+    """Reporte dans data.json (et dans catalog_ecrans.py / catalog_imprimantes.py, pour que build_new.py ne les écrase pas)
+    les notes que les pages déclarent elles-mêmes en JSON-LD : écarts avec le site et notes retrouvées pour des tests cités sans note."""
+    d = charger()
+    jour = datetime.datetime.now().strftime("%d/%m/%Y")
+    lignes = [l for f in a.rapports for l in json.loads(Path(f).read_text(encoding="utf-8"))["lignes"]]
+    sources = {k: v.read_text(encoding="utf-8") for k, v in CATALOGUES.items()}
+    faits, touches, catal = 0, set(), Counter()
+    for l in lignes:
+        if l["etat"] not in ("ÉCART", "NOTE TROUVÉE") or l.get("note_page") is None or not str(l.get("methode", "")).startswith("JSON-LD"):
+            continue
+        it = d["items"].get(l["id"])
+        n = next((x for x in (it or {}).get("press", {}).get("notes", []) if x.get("url") == l["url"]), None)
+        if not n or n["src"] in SANS_NOTE:
+            continue
+        neuf = round(float(l["note_page"]), 1)
+        if n["score"] is not None and abs(n["score"] - neuf) < 0.05:
+            continue
+        print(f"{'écart' if n['score'] is not None else 'note '} {l['id'][:30]:30s} {n['src'][:20]:20s} "
+              f"{'—' if n['score'] is None else n['score']:>4} -> {neuf:<4} ({l['methode']})")
+        n.update(avant=n["score"], score=neuf, corrige=jour)
+        touches.add(l["id"]); faits += 1
+        fam = FAMILLE_DE_CAT(it["cat"])
+        if fam in sources:                                  # même correction dans le catalogue source
+            motif = re.compile(r'(,\s*)(None|\d+(?:\.\d+)?)(\s*,\s*["\']' + re.escape(l["url"]) + r'["\'])')
+            sources[fam], k = motif.subn(lambda m: f"{m.group(1)}{neuf}{m.group(3)}", sources[fam])
+            catal[fam] += k
+    avant = {pid: d["items"][pid]["press"]["avg"] for pid in touches}
+    for pid in touches:
+        recalc(d["items"][pid]["press"])
+    print(f"\n{faits} note(s) corrigée(s) sur {len(touches)} produit(s) ; catalogues : {dict(catal)}")
+    for pid in sorted(touches, key=lambda p: (d["items"][p]["press"]["avg"] or 0) - (avant[p] or 0)):
+        av, ap = avant[pid], d["items"][pid]["press"]["avg"]
+        print(f"   {d['items'][pid]['short'][:34]:34s} {'—' if av is None else f'{av:.2f}':>5} -> {ap:.2f}")
+    if a.apply and faits:
+        DATA.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        for fam, txt in sources.items():
+            CATALOGUES[fam].write_text(txt, encoding="utf-8")
+        print("data.json et catalogues mis à jour. Reste : python3 _source/gen10.py")
+    elif faits:
+        print("Aperçu seulement : relancer avec --apply.")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sp = ap.add_subparsers(dest="cmd", required=True)
@@ -258,12 +331,19 @@ def main():
     v.add_argument("--famille", choices=["portable", "bureau", "ecran", "imprimante"], required=True)
     v.add_argument("--top", type=int, default=2, help="produits les mieux classés par usage (défaut 2, soit 10 par rubrique)")
     v.add_argument("--ids", help="liste d'identifiants séparés par des virgules (remplace le classement)")
+    v.add_argument("--urls", help="fichier texte : ne relire que ces adresses (une par ligne)")
+    v.add_argument("--sortie", help="nom du rapport dans _source/data/ (défaut presse_rapport.json)")
+    ap_ = sp.add_parser("appliquer")
+    ap_.add_argument("rapports", nargs="+", help="rapports produits par verifier")
+    ap_.add_argument("--apply", action="store_true")
     l = sp.add_parser("lire")
     l.add_argument("urls", nargs="+")
     l.add_argument("--id", required=True, help="identifiant du produit dans data.json")
     a = ap.parse_args()
     if a.cmd == "verifier":
         cmd_verifier(a)
+    elif a.cmd == "appliquer":
+        cmd_appliquer(a)
     else:
         if a.id not in charger()["items"]:
             sys.exit(f"Produit inconnu : {a.id}")
