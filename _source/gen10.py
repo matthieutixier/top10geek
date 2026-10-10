@@ -397,7 +397,18 @@ def ld_script(nodes):
     return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False).replace("</", "<\\/") + "</script>\n"
 
 
+def og_pour(path):
+    """Image de partage dédiée à une famille ou un usage (assets/img/og/<famille>[-<usage>].jpg), produite par _video/scripts/render-og.mjs.
+    Sans fichier correspondant, on garde l'image générique."""
+    slug = path.strip("/").replace("/", "-")
+    if slug and os.path.exists(f"{OUT}/assets/img/og/{slug}.jpg"):
+        return f"assets/img/og/{slug}.jpg"
+    return "assets/img/og-image.jpg"
+
+
 def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None):
+    if og_img == "assets/img/og-image.jpg":
+        og_img = og_pour(path)
     return f"""<!doctype html>
 <html lang="fr">
 <head>

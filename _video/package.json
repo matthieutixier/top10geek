@@ -1,0 +1,27 @@
+{
+  "name": "top10geek-video",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Vidéos verticales et images OG de Top 10 Geek (Remotion), générées depuis _source/data.json",
+  "scripts": {
+    "export": "python3 export_data.py",
+    "studio": "remotion studio src/index.ts",
+    "video": "node scripts/render-videos.mjs",
+    "og": "node scripts/render-og.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.1.0",
+    "@fontsource/ibm-plex-mono": "^5.1.0",
+    "@fontsource/plus-jakarta-sans": "^5.1.0",
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
