@@ -8,7 +8,7 @@ des offres) mais ne sont plus affichés ; à réactiver avec les flux affiliés.
 v8 — bloc « Notre choix », tri des fiches (sans tableau), une page par produit.
 v7 — catalogue réel (50 PC portables + 50 ordinateurs de bureau), photos produits,
 prix relevés par marchand (Amazon, Darty, Acer Store, Geekom), notes presse avec liens vers les tests.
-Données : data.json (produit par build_data.py à partir de catalog.py)."""
+Données : data.json (source de vérité ; build_data.py est hors service depuis le 10/10/2026)."""
 import json, os, html, re, shutil, math, hashlib, unicodedata
 from guides import GUIDES
 from guides_desk import GUIDES_DESK

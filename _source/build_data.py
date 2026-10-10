@@ -1,6 +1,15 @@
 # -*- coding: utf-8 -*-
-"""Assemble data.json (catalogue + offres marchands + notes presse) et télécharge les photos produits."""
+"""Assemble data.json (catalogue + offres marchands + notes presse) et télécharge les photos produits.
+
+HORS SERVICE depuis le 10/10/2026 : data.json est désormais la source de vérité des ordinateurs (prix relevés par
+releve.py, tests ajoutés par ajout_tests.py, 320 notes corrigées par presse_crawl.py appliquer). Ce script repartirait
+des relevés CommentChoisir du 02/10/2026 et effacerait tout cela. Pour ajouter ou retirer un ordinateur, modifier
+data.json directement (avec catalog.py et profiles.py), pas relancer ce script.
+Seule exception, en connaissance de cause : python3 _source/build_data.py --je-sais-que-ca-ecrase-data-json"""
 import json, re, os, sys, subprocess, io
+if "--je-sais-que-ca-ecrase-data-json" not in sys.argv:
+    sys.exit("build_data.py est hors service : il écraserait les prix, tests et notes corrigées de data.json. "
+             "Voir l'en-tête du fichier.")
 sys.path.insert(0, "/home/claude"); sys.path.insert(0, "/home/claude/work")
 from catalog import CAT
 W = "/home/claude/work/"
