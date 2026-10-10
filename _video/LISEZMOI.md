@@ -7,7 +7,7 @@ Tout est généré depuis `_source/data.json` : même classement, mêmes notes p
 cd _video
 npm install
 ```
-Remotion télécharge lui-même son Chrome au premier rendu. Python 3 est nécessaire pour l'export des données.
+Remotion télécharge lui-même son Chrome au premier rendu (ou utilise celui indiqué par la variable `REMOTION_CHROME`). Python 3 est nécessaire pour l'export des données.
 
 ## Chaque fois
 ```

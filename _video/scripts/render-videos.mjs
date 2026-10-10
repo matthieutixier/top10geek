@@ -24,11 +24,13 @@ if (!choisis.length) {
   process.exit(1);
 }
 
+// Chrome à utiliser (facultatif) : REMOTION_CHROME=/chemin/vers/chrome ; sinon Remotion télécharge le sien.
+const browserExecutable = process.env.REMOTION_CHROME || null;
 const bundleLocation = await bundle({entryPoint: path.join(racine, 'src/index.ts'), publicDir: path.resolve(racine, '..')});
 mkdirSync(path.join(racine, 'out/video'), {recursive: true});
 for (const usage of choisis) {
-  const composition = await selectComposition({serveUrl: bundleLocation, id: 'TopUsage', inputProps: {usage}});
+  const composition = await selectComposition({browserExecutable, serveUrl: bundleLocation, id: 'TopUsage', inputProps: {usage}});
   const sortie = path.join(racine, `out/video/${usage.famille}-${usage.slug}.mp4`);
-  await renderMedia({composition, serveUrl: bundleLocation, codec: 'h264', outputLocation: sortie, inputProps: {usage}, crf: 20});
+  await renderMedia({browserExecutable, composition, serveUrl: bundleLocation, codec: 'h264', outputLocation: sortie, inputProps: {usage}, crf: 20});
   console.log('OK', path.relative(racine, sortie));
 }
