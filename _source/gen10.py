@@ -1297,6 +1297,29 @@ for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si pré
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
         shutil.copy(SRC + "img_p/" + d["img"], os.path.join(OUT, "assets/img/p", d["img"]))
 urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k]] + ["black-friday/", "methode", "mentions-legales", "politique-confidentialite"]
+
+
+def lastmods(urls):
+    """Date de dernière modification réelle de chaque page (balise <lastmod> du sitemap).
+    On garde dans _source/sitemap_dates.json une empreinte du contenu de chaque page ; si l'empreinte change
+    (prix, note, texte…), la date devient celle du jour. L'empreinte ignore le paramètre anti-cache ?v=."""
+    import datetime
+    from zoneinfo import ZoneInfo
+    jour = datetime.datetime.now(ZoneInfo("Europe/Paris")).strftime("%Y-%m-%d")
+    chemin = SRC + "sitemap_dates.json"
+    dates = json.load(open(chemin, encoding="utf-8")) if os.path.exists(chemin) else {}
+    res = {}
+    for u in urls:
+        f = "index.html" if u == "" else (u + "index.html" if u.endswith("/") else u + ".html")
+        brut = open(os.path.join(OUT, f), encoding="utf-8").read()
+        h = hashlib.md5(re.sub(r"\?v=[0-9a-f]+", "", brut).encode("utf-8")).hexdigest()[:12]
+        ancien = dates.get(u)
+        res[u] = ancien if ancien and ancien["h"] == h else {"h": h, "d": jour}
+    json.dump(res, open(chemin, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)
+    return {u: v["d"] for u, v in res.items()}
+
+
+LASTMOD = lastmods(urls)
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-      "".join(f"  <url><loc>{DOMAIN}/{u}</loc></url>\n" for u in urls) + "</urlset>\n")
+      "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>{LASTMOD[u]}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 print("OK", len(ITEMS), "produits ;", TOTAL_NOTES, "notes ;", TOTAL_TESTS, "tests")
