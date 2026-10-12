@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Catalogue Top 10 Geek — relevé du 02/10/2026.
 100 ordinateurs (50 PC portables, 50 ordinateurs de bureau). Chaque machine est :
-  - disponible chez au moins un marchand partenaire (Amazon, Darty, Fnac, Acer Store, Geekom) ;
+  - disponible chez au moins un marchand suivi (Amazon, Darty, Fnac, Acer Store, Geekom, Electro Dépôt depuis le 12/10/2026) ;
   - couverte par au moins un test de la presse.
 Champs : cat, short (nom lisible), ref (configuration de référence), badge, verdict, strengths, weak, m (2 mesures),
 press (voir build_data.py), et les clés d'offres marchands sont dans offers_*.json (même identifiant)."""
@@ -43,11 +43,11 @@ CAT["macbook-neo"] = P("bureau", "Apple MacBook Neo", "13\" · puce A18 Pro · 8
     ["Prix très bas pour un Mac", "Finition aluminium irréprochable", "Puce A18 Pro fluide au quotidien"],
     ["8 Go de RAM et 256 Go sur le modèle de base", "Clavier non rétroéclairé, Touch ID réservé au modèle 512 Go", "Batterie de capacité limitée"],
     ("n.c.", "n.c."), cc("Apple_MacBook+Neo", "2026-01-01"))
-CAT["surface-pro-12"] = P("bureau", "Microsoft Surface Pro 12\"", "Snapdragon X Plus · 16 Go · 256 Go · tablette 12\"", "Le plus mobile",
-    "Une tablette Windows de 686 g, silencieuse et endurante. La presse est partagée : clavier vendu à part et connectique réduite au strict minimum.",
-    ["686 g en tablette seule", "Silencieuse, ne chauffe pas", "Bonne autonomie"],
-    ["Clavier (et chargeur) vendus séparément", "Deux ports USB-C seulement", "Écran LCD 90 Hz perfectible"],
-    ("0,69 kg (tablette)", "16 h (annoncée)"), cc("Microsoft_Surface+Pro+12", "2025-04-01"))
+CAT["omnibook3-17"] = P("bureau", "HP OmniBook 3 17", "17-dp0 · Ryzen 5 40 · 17,3\" Full HD", "Le grand écran pas cher",
+    "Un 17 pouces sobre, endurant et peu bruyant pour la bureautique sur grand écran. Notebookcheck le juge bon (75 %), mais son processeur est dépassé et sa mémoire soudée.",
+    ["Grand écran 17,3\" Full HD antireflet", "Bonne autonomie malgré une batterie de 41 Wh", "Consommation et bruit modérés"],
+    ["Processeur Ryzen 5 40 (génération Zen 2) dépassé", "Mémoire soudée : 8 Go sur la configuration vendue", "Clavier non rétroéclairé, couleurs ternes (62 % sRGB)"],
+    ("≈ 2 kg", "n.c."), man([("Notebookcheck", 7.5, "https://www.notebookcheck.com/Preiskracher-oder-Resterampe-HP-OmniBook-3-17-Laptop-im-Test.1297653.0.html")]))
 CAT["surface-laptop-13"] = P("bureau", "Microsoft Surface Laptop 13\"", "Snapdragon X Plus · 16 Go · 256 Go", "Le plus soigné",
     "Petit, léger, très bien fini et toujours silencieux : un compagnon de travail agréable, mais vendu un peu cher pour son écran LCD.",
     ["Châssis compact et très bien fini", "Clavier et pavé tactile confortables", "Ne chauffe pas, ne fait pas de bruit"],
@@ -280,11 +280,11 @@ CAT["vivobook-go-14"] = P("lowcost", "Asus Vivobook Go 14", "E1404 · 14\" Full 
     ["Écran Full HD", "Format compact", "Prix contenu"],
     ["Puissance très limitée", "Stockage réduit"],
     ("≈ 1,4 kg", "n.c."), cc("Asus_VivoBook+Go+15", "2023-01-01", scope="gamme"))
-CAT["lenovo-v15"] = P("lowcost", "Lenovo V15 G4", "15,6\" Full HD · Ryzen 3 · 8 Go", "Le bureautique pro",
-    "Un 15 pouces pensé pour le bureau : écran correct et clavier complet, mais autonomie décevante et finition économique.",
-    ["Écran correct pour la gamme", "Clavier avec pavé numérique", "Suffisant pour la bureautique"],
-    ["Autonomie décevante", "Plastiques bon marché", "Haut-parleurs et webcam médiocres"],
-    ("≈ 1,65 kg", "n.c."), cc("Lenovo_V15", "2024-01-01", scope="gamme"))
+CAT["ideapad-slim3-cb14"] = P("lowcost", "Lenovo IdeaPad Slim 3 Chromebook 14", "14M868 · 14\" Full HD · MediaTek Kompanio 520 · ChromeOS", "Le Chromebook à 250 €",
+    "Un Chromebook 14 pouces fin, silencieux (sans ventilateur) et endurant pour 250 €, mis à jour jusqu'en 2033. Son écran TN et ses performances modestes le réservent au web et à la bureautique légère.",
+    ["Sans ventilateur : totalement silencieux", "Bonne autonomie, mises à jour ChromeOS jusqu'en 2033", "Châssis fin et soigné pour le prix"],
+    ["Dalle TN : angles de vision et couleurs limités", "Performances modestes, stockage eMMC lent", "4 Go de mémoire seulement"],
+    ("1,3 kg", "n.c."), man([("Notebookcheck", 7.9, "https://www.notebookcheck.com/Test-Lenovo-IdeaPad-Slim-3-CB-14M868-MediaTek-Kompanio-520-Einsteiger-Chromebook.775889.0.html")]))
 CAT["chromebook-cx14"] = P("lowcost", "Asus Chromebook CX14", "CX1405 · 14\" Full HD · Core 3 · ChromeOS", "Le Chromebook équilibré",
     "Un Chromebook 14 pouces Full HD bien équipé pour son prix. La presse le trouve honnête, sans éclat.",
     ["Écran Full HD", "Bon équipement pour le prix", "ChromeOS simple et sûr"],

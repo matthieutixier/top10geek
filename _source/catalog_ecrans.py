@@ -1,17 +1,20 @@
 # -*- coding: utf-8 -*-
 """Catalogue Top 10 Geek — ÉCRANS PC (relevé du 09/10/2026).
-50 écrans, 10 par usage. Chaque écran est vendu sur Amazon.fr au moment du relevé et couvert par au moins un test presse.
+50 écrans, 10 par usage. Chaque écran est vendu sur Amazon.fr ou chez Electro Dépôt au moment du relevé et couvert par au moins un test presse.
 Notes : (média, note sur 10 ou None si le test n'est pas noté, url). Conversion : 4/5 -> 8/10, 87 % -> 8,7/10.
 scope « gamme » : une partie des tests porte sur une variante proche (autre suffixe, autre taille de la même série).
 Champs : cat, short, ref, badge, verdict, strengths, weak, m (taille/définition, fréquence), notes, scope,
-asin, amz (libellé marchand), price (constaté le 09/10/2026), pour, eviter."""
+asin, amz (libellé marchand), price (constaté le 09/10/2026), pour, eviter.
+ed : offre Electro Dépôt (affiliée via Effinity), dict(url=lien suivi du flux, name=libellé, price=prix du flux, ean, edid) ;
+un produit vendu seulement chez Electro Dépôt a asin=None (ajouts du 12/10/2026, flux Effinity)."""
 
 TOP = "Le choix de la bande"
 
 
-def E(cat, short, ref, badge, verdict, strengths, weak, m, notes, asin, amz, price, pour, eviter, scope="modele", seller="Amazon"):
+def E(cat, short, ref, badge, verdict, strengths, weak, m, notes, asin, amz, price, pour, eviter, scope="modele", seller="Amazon",
+      ed=None):
     return dict(cat=cat, short=short, ref=ref, badge=badge, verdict=verdict, strengths=strengths, weak=weak, m=m,
-                notes=notes, scope=scope, asin=asin, amz=amz, price=price, pour=pour, eviter=eviter, seller=seller)
+                notes=notes, scope=scope, asin=asin, amz=amz, price=price, pour=pour, eviter=eviter, seller=seller, ed=ed)
 
 
 RT = "RTINGS"
@@ -263,16 +266,19 @@ ECR["aoc-ag276qsg2"] = E("e-gaming", "AOC Agon Pro AG276QSG2", "27\" QHD · Fast
     "B0GFYHB2M5", "AOC Gaming Moniteur AG276QSG2 27 Pouce 360Hz Fast IPS Dalle, 1ms GtG, HDR10", 541.66,
     "Vous jouez à des FPS compétitifs sur une carte Nvidia et craignez le marquage des OLED.",
     "Vous privilégiez la qualité d'image : un OLED au même prix offre bien plus de contraste.")
-ECR["samsung-odyssey-g81sf"] = E("e-gaming", "Samsung Odyssey OLED G8 G81SF", "27\" 4K UHD · QD-OLED · 240 Hz", "La 4K OLED mate",
-    "Un 27 pouces 4K QD-OLED à 240 Hz avec traitement mat anti-reflets : une image très fine et confortable en pièce éclairée, au prix d'un peu de punch.",
-    ["4K 240 Hz en QD-OLED", "Dalle mate qui limite les reflets", "Image très fine sur 27\""],
-    ["Traitement mat qui ternit légèrement le contraste", "Testé sans note chiffrée"],
-    ("27\" 4K", "240 Hz"),
-    [(RT, None, "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g81sf-s27fg810s"),
-     ("Tweakers", None, "https://tweakers.net/reviews/13484/samsung-odyssey-oled-g81sf-27-inch-en-32-inch-extra-matte-oled-is-niet-in-alles-beter.html")],
-    "B0DF8WSJ82", "Samsung Écran PC Gaming Odyssey OLED G8-G81SF, 27'', 4K (3840x2160), 240Hz, 0,03ms", 601.67,
-    "Vous voulez un OLED 4K pour jouer dans une pièce lumineuse, sans reflets gênants.",
-    "Vous jouez dans le noir et voulez le noir le plus profond : une dalle brillante fera mieux.")
+ECR["lenovo-legion-r34w-30"] = E("e-gaming", "Lenovo Legion R34w-30", "34\" UWQHD incurvé · VA · 180 Hz", "L'ultra-large abordable",
+    "Un 34 pouces ultra-large incurvé à 180 Hz pour environ 240 € : immersion maximale et pied bien réglable. La dalle VA laisse des traînées visibles dans les scènes rapides.",
+    ["Format 21:9 incurvé (1500R) très immersif", "180 Hz et FreeSync Premium", "Pied stable réglable en hauteur, haut-parleurs intégrés"],
+    ["Traînées visibles dans les scènes rapides (dalle VA)", "Contraste jugé décevant par Hardwareluxx", "Courbure peu adaptée à la retouche photo"],
+    ("34\" UWQHD", "180 Hz"),
+    [("PCMasters", 9.0, "https://www.pcmasters.de/testbericht/133714430-lenovo-legion-r34w-30-g-gaming-monitor-test-review.html"),
+     ("Hardwareluxx", None, "https://www.hardwareluxx.de/index.php/artikel/hardware/monitore/65908-lenovo-legion-r34w-30-im-test-curved-display-f%C3%BCr-300-euro.html"),
+     ("HardwareInside", None, "https://www.hardwareinside.de/lenovo-legion-r34w-30-gaming-monitor-im-test-90204/")],
+    None, "", 239.98,
+    "Vous jouez à des jeux de course, de simulation ou d'aventure et voulez un écran très large et immersif sans dépasser 250 €.",
+    "Vous jouez à des FPS compétitifs ou retouchez des photos : traînées et courbure gênent.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmoniteur-lenovo-34-r34w-30-uwqhd-180hz-0-5.html",
+            name="Ecran Pc Gamer Incurve 34'' Lenovo Legion R34w-30 180hz/ Uwqhd", price=239.98, ean="0198154304485", edid="10012839"))
 
 # =====================================================================================================================
 #                                                   CRÉATION & PHOTO
@@ -527,15 +533,18 @@ ECR["aoc-24g4zr"] = E("e-lowcost", "AOC Gaming 24G4ZR", "24\" Full HD · Fast IP
     "B0FR4VXQMV", "AOC Moniteur 24G4ZR 24 Pouce 260Hz Fast IPS Dalle, 1ms GtG, HDR10, G-Sync Compatible", 95.79,
     "Vous jouez en compétitif sur un petit budget et préférez un écran 24\".",
     "Vous travaillez aussi beaucoup dessus : un 27\" QHD sera plus confortable.", scope="gamme")
-ECR["gigabyte-gs25f2"] = E("e-lowcost", "Gigabyte GS25F2", "25\" Full HD · IPS · 200 Hz", "Le moins cher",
-    "Un 25 pouces Full HD à 200 Hz pour moins de 100 € : la fluidité d'un écran gaming au prix d'un écran de bureau.",
-    ["200 Hz pour moins de 100 €", "Dalle IPS", "Format 25\" compact"],
-    ["Pied seulement inclinable", "Testé sans note chiffrée"],
-    ("25\" Full HD", "200 Hz"),
-    [("TechBroll", None, "https://techbroll.com/2025/09/gigabyte-gs25f2-gaming-monitor-review.html")],
-    "B0F19F9B2P", "GIGABYTE GS25F2 Écran Gaming 25\" FHD - 1920 x 1080, 200Hz, 1ms, 300 CD/m²", 98.58,
-    "Vous débutez dans le jeu PC et voulez un écran fluide au plus petit prix.",
-    "Vous voulez régler la hauteur de l'écran ou une image plus fine.")
+ECR["aoc-q27g42ze"] = E("e-lowcost", "AOC Gaming Q27G42ZE", "27\" QHD · Fast IPS · 240 Hz", "Le QHD 240 Hz minimaliste",
+    "Un 27 pouces QHD à 240 Hz bien calibré d'usine pour moins de 170 €. Il reprend la dalle de l'AOC Q27G4ZR, en moins lumineux et avec un pied qui ne règle que l'inclinaison.",
+    ["QHD 240 Hz (260 Hz en overclocking)", "Bonne calibration d'usine", "Adaptive Sync contre les déchirures d'image"],
+    ["Pied seulement inclinable, tout en plastique", "Moins lumineux que l'AOC Q27G4ZR (même dalle)", "Testé sans note chiffrée"],
+    ("27\" QHD", "240 Hz"),
+    [("PC Games Hardware", None, "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/Specials/Gaming-Monitor-guenstig-affordable-200-Hz-240-Hz-WQHD-4K-UHD-Test-1523374/"),
+     ("TechnologyInsider", None, "https://www.technologyinsider.nl/index.php/artikelen/hardware/monitoren/66353-aoc-q27g42ze-review.html")],
+    None, "", 168.98,
+    "Vous voulez passer au QHD 240 Hz pour jouer avec un petit budget, et l'écran restera posé à la même hauteur.",
+    "Vous voulez régler la hauteur de l'écran : l'AOC Q27G4ZR, même dalle, le permet pour un prix voisin.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmoniteur-aoc-27-q27g42ze-qhd-240hz-0-3ms.html",
+            name="Ecran Pc Gamer 27'' Aoc Q27g42ze- 0,3ms /240hz/qhd", price=168.98, ean="4038986182980", edid="10010548"))
 ECR["gigabyte-gs27qca"] = E("e-lowcost", "Gigabyte GS27QCA", "27\" QHD incurvé · VA · 180 Hz", "L'incurvé pas cher",
     "Un 27 pouces QHD incurvé à dalle VA bien contrastée, très bon marché : immersif en jeu, avec une ergonomie minimale.",
     ["Contraste élevé (dalle VA)", "QHD incurvé très bon marché", "Texte net"],

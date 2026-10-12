@@ -1,8 +1,4 @@
 {
- "surface-pro-12": {
-  "constructeur": "Microsoft",
-  "source": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/b01-Surface-Pro-Snapdragon-12-inch-8GB-1Ed-Front-Left"
- },
  "zenbook-a16": {
   "constructeur": "Asus",
   "source": "https://dlcdnwebimgs.asus.com/gain/ec3e3399-c34a-4ed9-be76-c9be1ac1ca6e/w800"
@@ -175,12 +171,6 @@
   "source": "https://images.icecat.biz/img/gallery/609a445ed6c1eee90a72d8bc3b677a8c51c0da77.jpg",
   "note": "remplace un visuel publicitaire (09/10/2026) — catalogue ouvert Icecat"
  },
- "samsung-odyssey-g81sf": {
-  "constructeur": "Samsung",
-  "source": "https://images.icecat.biz/img/gallery/ebf3d8b214a50fe4a9588d04055ea6aad679c0f3.jpg",
-  "via": "Icecat (visuel fourni par le constructeur)",
-  "produit": "Samsung G81SF écran plat de PC 68,6 cm (27\") 3840 x 2160 pixels 4K Ultra HD OLED Argent"
- },
  "asus-pa279crv": {
   "constructeur": "ASUS",
   "source": "https://images.icecat.biz/img/gallery/0f6093d5b3a28a3864ad004ac64f0dac18a4bf92.jpg",
@@ -298,12 +288,6 @@
   "source": "https://images.icecat.biz/img/gallery/92d1e9837d0ad69cbf11029be88f23ea8b82a62e.jpg",
   "note": "remplace un visuel publicitaire (09/10/2026) — catalogue ouvert Icecat"
  },
- "gigabyte-gs25f2": {
-  "constructeur": "Gigabyte",
-  "source": "https://images.icecat.biz/img/gallery/251e551c3b9386d047a8f4f522360731a12270f8.jpg",
-  "via": "Icecat (visuel fourni par le constructeur)",
-  "produit": "GIGABYTE GS25F2 écran plat de PC 62,2 cm (24.5\") 1920 x 1080 pixels Full HD LED Noir"
- },
  "gigabyte-gs27qca": {
   "constructeur": "Gigabyte",
   "source": "https://images.icecat.biz/img/gallery/79a17796b5dc35cbfb51920d178212f519f8c773.jpg",
@@ -357,11 +341,6 @@
   "source": "https://images.icecat.biz/img/gallery/a1dcb58061dd7a9c371bd91fc38dc04a9430597c.jpg",
   "via": "Icecat (visuel fourni par le constructeur)",
   "produit": "Canon PIXMA G3570 Jet d'encre A4 4800 x 1200 DPI Wifi"
- },
- "epson-et-m1170": {
-  "constructeur": "Epson",
-  "source": "https://images.icecat.biz/img/gallery/97d494fc8ffb8c6aaa52adf4fedc3947d1ee3881.jpg",
-  "note": "remplace un visuel publicitaire (09/10/2026) — catalogue ouvert Icecat"
  },
  "brother-dcp-l2620dw": {
   "constructeur": "Brother",
@@ -465,12 +444,6 @@
   "via": "Icecat (visuel fourni par le constructeur)",
   "produit": "HP LaserJet Pro 3202dw Sans fil Multifunction Couleur Imprimante, Recto verso"
  },
- "hp-color-laser-179fnw": {
-  "constructeur": "HP",
-  "source": "https://images.icecat.biz/img/gallery/6ed99f4a0acefa45065b04c213332e38d97a4f87.jpg",
-  "via": "Icecat (visuel fourni par le constructeur)",
-  "produit": "HP Laser 179fnw Sans fil Multifunction Couleur Imprimante, Copieur, Scanner; Recto verso"
- },
  "xerox-c230": {
   "constructeur": "Xerox",
   "source": "https://images.icecat.biz/img/gallery/e49594d63bfa64eea6293590f2b7defac3883e05.jpg",
@@ -511,12 +484,6 @@
   "via": "Icecat (visuel fourni par le constructeur)",
   "produit": "Epson Expression Home XP-2200"
  },
- "canon-pixma-ts3750i": {
-  "constructeur": "Canon",
-  "source": "https://images.icecat.biz/img/gallery/e2fcc55ec1ec265488220f577c08cb7945efa2c1.jpg",
-  "via": "Icecat (visuel fourni par le constructeur)",
-  "produit": "Canon PIXMA TS3750i Jet d'encre A4 4800 x 1200 DPI Wifi"
- },
  "epson-wf-2930dwf": {
   "constructeur": "Epson",
   "source": "https://images.icecat.biz/img/gallery_mediums/7e243040af99e744854ac58a9bc84e9ba083ac55.jpg",
@@ -528,17 +495,6 @@
   "source": "https://images.icecat.biz/img/gallery/1884c470d049a038b311bfce42172029061a7936.jpg",
   "via": "Icecat (visuel fourni par le constructeur)",
   "produit": "Canon PIXMA TR4751i Jet d'encre A4 4800 x 1200 DPI 8,8 ppm Wifi"
- },
- "canon-pixma-ts7750i": {
-  "constructeur": "Canon",
-  "source": "https://images.icecat.biz/img/gallery/b23506b807bca3970bf76df4694cb3d41dd6fbfd.jpg",
-  "note": "remplace un visuel publicitaire (09/10/2026) — catalogue ouvert Icecat"
- },
- "canon-pixma-ts705a": {
-  "constructeur": "Canon",
-  "source": "https://images.icecat.biz/img/gallery/e9ff7339b5da607fe67ff9b9d1fa341327c9a088.jpg",
-  "via": "Icecat (visuel fourni par le constructeur)",
-  "produit": "Canon PIXMA TS705 imprimante jets d'encres Couleur 4800 x 1200 DPI A4 Wifi"
  },
  "brother-dcp-j1360dw": {
   "constructeur": "Brother",
@@ -641,5 +597,50 @@
   "constructeur": "Kodak (boutique officielle)",
   "source": "https://www.kodakphotoplus.com/cdn/shop/files/B08YFJR71D_1024x1024.jpg",
   "note": "photo ajoutée le 09/10/2026 — via kodakphotoplus.com"
+ },
+ "aoc-q27g42ze": {
+  "constructeur": "AOC",
+  "source": "https://images.icecat.biz/img/gallery/708256247a020eded224d062c3392d715c5ce3d8.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "epson-et-2951": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/d449a580da695c283e224ecc95b1707c6caac8fd.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "epson-xp-3205": {
+  "constructeur": "Epson",
+  "source": "https://images.icecat.biz/img/gallery/c43d2d79b171f5868e034184957f56f8d31f21da.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "hp-color-laserjet-pro-3302sdw": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/a7b276f86496c7680132c938d61e05eeaf8d27c7.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "hp-deskjet-2921e": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/079f59b34599a559a073186e02fff200307f45f0.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "hp-envy-6132e": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/fd79799304b16506e98fd5d17fc0525cb1f92c39.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "omnibook3-17": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/9be6765c39531c83527722622fd853d077785355.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "ideapad-slim3-cb14": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/4a97834d5dabf45d2c2cca95e8ba73b4b7c985f5.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "lenovo-legion-r34w-30": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/e44e7a5841dbd5fc7d2c5d6b7cb1d616f6ca6788.jpg",
+  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
  }
 }
