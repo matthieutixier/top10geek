@@ -1,0 +1,10 @@
+{
+ "canon-pixma-tr4755i": {"ean": "4549292237368", "cfg": ""},
+ "canon-pixma-ts6550i": {"ean": "4549292247985", "cfg": ""},
+ "canon-pixma-ts7550i": {"ean": "4549292247947", "cfg": ""},
+ "canon-pixma-ts4151i": {"ean": "4549292248067", "cfg": "version TS4150i"},
+ "canon-selphy-cp1500": {"ean": "4549292194692", "cfg": ""},
+ "epson-xp-2200": {"ean": "8715946702797", "cfg": "version XP-2205"},
+ "chromebook-315": {"ean": "4711721178829", "cfg": "4 Go · 64 Go"},
+ "ideapad-slim3": {"ean": "0199275183737", "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go"}
+}

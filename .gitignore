@@ -9,3 +9,6 @@ __pycache__/
 _video/node_modules/
 _video/out/
 _video/src/data.generated.json
+
+# Clé API du flux Effinity (Electro Dépôt) : jamais dans le dépôt public
+_source/effinity.local.json
