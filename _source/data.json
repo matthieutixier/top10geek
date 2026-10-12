@@ -653,138 +653,61 @@
    "nrev": 17,
    "prix": 799.0
   },
-  "surface-pro-12": {
+  "omnibook3-17": {
    "cat": "bureau",
-   "short": "Microsoft Surface Pro 12\"",
-   "ref": "Snapdragon X Plus · 16 Go · 256 Go · tablette 12\"",
-   "badge": "Le plus mobile",
-   "verdict": "Une tablette Windows de 686 g, silencieuse et endurante. La presse est partagée : clavier vendu à part et connectique réduite au strict minimum.",
+   "short": "HP OmniBook 3 17",
+   "ref": "17-dp0 · Ryzen 5 40 · 17,3\" Full HD",
+   "badge": "Le grand écran pas cher",
+   "verdict": "Un 17 pouces sobre, endurant et peu bruyant pour la bureautique sur grand écran. Notebookcheck le juge bon (75 %), mais son processeur est dépassé et sa mémoire soudée.",
    "strengths": [
-    "686 g en tablette seule",
-    "Silencieuse, ne chauffe pas",
-    "Bonne autonomie"
+    "Grand écran 17,3\" Full HD antireflet",
+    "Bonne autonomie malgré une batterie de 41 Wh",
+    "Consommation et bruit modérés"
    ],
    "weak": [
-    "Clavier (et chargeur) vendus séparément",
-    "Deux ports USB-C seulement",
-    "Écran LCD 90 Hz perfectible"
+    "Processeur Ryzen 5 40 (génération Zen 2) dépassé",
+    "Mémoire soudée : 8 Go sur la configuration vendue",
+    "Clavier non rétroéclairé, couleurs ternes (62 % sRGB)"
    ],
    "m": [
-    "0,69 kg (tablette)",
-    "16 h (annoncée)"
+    "≈ 2 kg",
+    "n.c."
    ],
-   "id": "surface-pro-12",
+   "id": "omnibook3-17",
    "press": {
-    "avg": 7.12,
-    "n": 10,
-    "tests": 11,
+    "avg": 7.5,
+    "n": 1,
+    "tests": 1,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Microsoft_Surface+Pro+12.htm"
+     "",
+     ""
     ],
     "notes": [
      {
-      "src": "IT Pro",
-      "score": 10.0,
-      "url": "https://www.itpro.com/hardware/laptops/the-microsoft-surface-pro-12in-is-painfully-expensive-with-keyboard-and-pen-but-its-a-tremendously-versatile-windows-device",
-      "date": "2025-10-20",
-      "avant": null,
-      "corrige": "10/10/2026"
-     },
-     {
       "src": "Notebookcheck",
-      "score": 8.6,
-      "url": "https://www.notebookcheck.com/Endlich-ein-lautloses-Snapdragon-Convertible-Microsoft-Surface-Pro-12-im-Test.1036907.0.html",
-      "date": "2025-06-20"
-     },
-     {
-      "src": "Expert Reviews",
-      "score": 8.0,
-      "url": "https://www.expertreviews.co.uk/technology/laptops/microsoft-surface-pro-12-inch-review",
-      "date": "2025-10-03"
-     },
-     {
-      "src": "Frandroid",
-      "score": 7.0,
-      "url": "https://www.frandroid.com/marques/microsoft/2752717_test-du-microsoft-surface-pro-12-fin-leger-et-limite",
-      "date": "2025-09-09"
-     },
-     {
-      "src": "TechRadar",
-      "score": 7.0,
-      "url": "https://www.techradar.com/computing/microsoft-surface-pro-12-2025",
-      "date": "2025-06-04",
-      "avant": 6.0,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 7.0,
-      "url": "https://www.trustedreviews.com/reviews/microsoft-surface-pro-12",
-      "date": "2025-07-18",
-      "avant": 6.0,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "Presse Citron",
-      "score": 6.6,
-      "url": "https://www.presse-citron.net/test-microsoft-surface-pro-12-une-alternative-credible-a-lipad-air/",
-      "date": "2025-10-25",
-      "avant": 6.0,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "Journal du Geek",
-      "score": 6.0,
-      "url": "https://www.journaldugeek.com/test/test-microsoft-surface-pro-12-la-tablette-qui-se-veut-pc-ou-linverse/",
-      "date": "2025-10-24"
-     },
-     {
-      "src": "Wired",
-      "score": 6.0,
-      "url": "https://www.wired.com/review/microsoft-surface-pro-12-2025/",
-      "date": "2025-05-16",
-      "avant": null,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "Les Numériques",
-      "score": 5.0,
-      "url": "https://www.lesnumeriques.com/ordinateur-portable/microsoft-surface-pro-12-p76609/test.html",
-      "date": "2025-08-11",
-      "avant": 4.0,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "Clubic",
-      "score": null,
-      "url": "https://www.clubic.com/test-produit-576267-test-surface-pro-12-pouces-que-vaut-vraiment-la-petite-ardoise-abordable-de-microsoft.html",
-      "date": "2025-09-01"
+      "score": 7.5,
+      "url": "https://www.notebookcheck.com/Preiskracher-oder-Resterampe-HP-OmniBook-3-17-Laptop-im-Test.1297653.0.html",
+      "date": "2026-05-26",
+      "ajout": "12/10/2026"
      }
     ]
    },
    "offers": [
     {
-     "m": "Amazon",
-     "price": 749.0,
-     "url": "https://www.amazon.fr/dp/B0DYDV1KDM?tag=geekconcept-21",
-     "name": "Microsoft Surface Pro | Copilot+ PC | Ecran Tactile LCD 12” | Snapdragon® X Plus | 16Go RAM | Stockage 256Go | Dernier M",
-     "cfg": "16 Go · 256 Go",
-     "asin": "B0DYDV1KDM"
-    },
-    {
-     "m": "Darty",
-     "price": 1329.99,
-     "url": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable_hybride/microsoft_packpr025_c8_16_256.html",
-     "name": "Microsoft Pack Surface Pro 12'' Ecran Tactile Copilot+PC Snapdragon® X Plus 16 Go RAM 256 Go SSD Platine + Clavier Surface Pro Azerty",
-     "cfg": "16 Go · 256 Go"
+     "m": "Electro Dépôt",
+     "price": 649.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-hp-17-omnibook-3-17-dp0046nfx-r5-8-256go.html",
+     "name": "Pc Portable Hp 17,3'' Omnibook 3 17-dp0046nfx-r5/8/256go/argent",
+     "cfg": "8 Go · 256 Go",
+     "ean": "0821844416990",
+     "edid": "10019070"
     }
    ],
-   "img": "surface-pro-12.webp",
-   "rating": 4.8,
-   "nrev": 13,
-   "prix": 749.0
+   "img": "omnibook3-17.webp",
+   "rating": null,
+   "nrev": 0,
+   "prix": 649.98
   },
   "surface-laptop-13": {
    "cat": "bureau",
@@ -6527,83 +6450,61 @@
    "nrev": 0,
    "prix": 449.99
   },
-  "lenovo-v15": {
+  "ideapad-slim3-cb14": {
    "cat": "lowcost",
-   "short": "Lenovo V15 G4",
-   "ref": "15,6\" Full HD · Ryzen 3 · 8 Go",
-   "badge": "Le bureautique pro",
-   "verdict": "Un 15 pouces pensé pour le bureau : écran correct et clavier complet, mais autonomie décevante et finition économique.",
+   "short": "Lenovo IdeaPad Slim 3 Chromebook 14",
+   "ref": "14M868 · 14\" Full HD · MediaTek Kompanio 520 · ChromeOS",
+   "badge": "Le Chromebook à 250 €",
+   "verdict": "Un Chromebook 14 pouces fin, silencieux (sans ventilateur) et endurant pour 250 €, mis à jour jusqu'en 2033. Son écran TN et ses performances modestes le réservent au web et à la bureautique légère.",
    "strengths": [
-    "Écran correct pour la gamme",
-    "Clavier avec pavé numérique",
-    "Suffisant pour la bureautique"
+    "Sans ventilateur : totalement silencieux",
+    "Bonne autonomie, mises à jour ChromeOS jusqu'en 2033",
+    "Châssis fin et soigné pour le prix"
    ],
    "weak": [
-    "Autonomie décevante",
-    "Plastiques bon marché",
-    "Haut-parleurs et webcam médiocres"
+    "Dalle TN : angles de vision et couleurs limités",
+    "Performances modestes, stockage eMMC lent",
+    "4 Go de mémoire seulement"
    ],
    "m": [
-    "≈ 1,65 kg",
+    "1,3 kg",
     "n.c."
    ],
-   "id": "lenovo-v15",
+   "id": "ideapad-slim3-cb14",
    "press": {
-    "avg": 6.333333333333333,
-    "n": 3,
-    "tests": 3,
-    "scope": "gamme",
+    "avg": 7.9,
+    "n": 1,
+    "tests": 1,
+    "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Lenovo_V15.htm"
+     "",
+     ""
     ],
     "notes": [
      {
-      "src": "GadgetByte",
-      "score": 7.0,
-      "url": "https://www.gadgetbytenepal.com/lenovo-v15-gen-4-i3-review/",
-      "date": "2025-11-21"
-     },
-     {
-      "src": "Chip.de",
-      "score": 6.6,
-      "url": "https://www.chip.de/test/Lenovo-V15-G4-IRU-im-Test_185745951.html",
-      "date": "2025-01-24",
-      "avant": 6.0,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "Chip.de",
-      "score": 5.4,
-      "url": "https://www.chip.de/test-kaufberatung/notebooks-co/lenovo-v15-amn-im-test_2b2625e2-7c60-4b54-a543-6f4165cb9683.html",
-      "date": "2026-05-27",
-      "avant": null,
-      "corrige": "10/10/2026"
+      "src": "Notebookcheck",
+      "score": 7.9,
+      "url": "https://www.notebookcheck.com/Test-Lenovo-IdeaPad-Slim-3-CB-14M868-MediaTek-Kompanio-520-Einsteiger-Chromebook.775889.0.html",
+      "date": "2024-01-13",
+      "ajout": "12/10/2026"
      }
     ]
    },
    "offers": [
     {
-     "m": "Amazon",
-     "price": 492.61,
-     "url": "https://www.amazon.fr/dp/B0BXH28QDQ?tag=geekconcept-21",
-     "name": "Lenovo Ordinateur Portable 15\" V15 G4 82YU00TWFR - Ryzen 3/8 Go/256 Go/Win 11",
-     "cfg": "8 Go · 256 Go",
-     "asin": "B0BXH28QDQ",
-     "dispo": false
-    },
-    {
-     "m": "Darty",
-     "price": 549.99,
-     "url": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable/lenovo_v15_g4_r3_8_512.html",
-     "name": "Lenovo V15 G4 AMN 82YU 15,6\" AMD Ryzen™ 3 8 Go RAM 512 Go SSD Noir business",
-     "cfg": "8 Go · 512 Go"
+     "m": "Electro Dépôt",
+     "price": 249.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fchromebook-lenovo-14-ip-slim-3-cb-14m868-4-128go.html",
+     "name": "Chromebook Lenovo 14''ip Slim 3 Cb 14m868-4go/128go",
+     "cfg": "4 Go · 128 Go",
+     "ean": "0199275252853",
+     "edid": "10018811"
     }
    ],
-   "img": "lenovo-v15.webp",
-   "rating": 5.0,
-   "nrev": 1,
-   "prix": 549.99
+   "img": "ideapad-slim3-cb14.webp",
+   "rating": null,
+   "nrev": 0,
+   "prix": 249.98
   },
   "chromebook-cx14": {
    "cat": "lowcost",
@@ -12471,65 +12372,6 @@
    "rating": null,
    "nrev": 0
   },
-  "samsung-odyssey-g81sf": {
-   "cat": "e-gaming",
-   "short": "Samsung Odyssey OLED G8 G81SF",
-   "ref": "27\" 4K UHD · QD-OLED · 240 Hz",
-   "badge": "La 4K OLED mate",
-   "verdict": "Un 27 pouces 4K QD-OLED à 240 Hz avec traitement mat anti-reflets : une image très fine et confortable en pièce éclairée, au prix d'un peu de punch.",
-   "strengths": [
-    "4K 240 Hz en QD-OLED",
-    "Dalle mate qui limite les reflets",
-    "Image très fine sur 27\""
-   ],
-   "weak": [
-    "Traitement mat qui ternit légèrement le contraste",
-    "Testé sans note chiffrée"
-   ],
-   "m": [
-    "27\" 4K",
-    "240 Hz"
-   ],
-   "id": "samsung-odyssey-g81sf",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 601.67,
-     "url": "https://www.amazon.fr/dp/B0DF8WSJ82?tag=geekconcept-21",
-     "name": "Samsung Écran PC Gaming Odyssey OLED G8-G81SF, 27'', 4K (3840x2160), 240Hz, 0,03ms",
-     "cfg": "",
-     "asin": "B0DF8WSJ82"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "RTINGS",
-      "score": null,
-      "url": "https://www.rtings.com/monitor/reviews/samsung/odyssey-oled-g81sf-s27fg810s",
-      "date": ""
-     },
-     {
-      "src": "Tweakers",
-      "score": null,
-      "url": "https://tweakers.net/reviews/13484/samsung-odyssey-oled-g81sf-27-inch-en-32-inch-extra-matte-oled-is-niet-in-alles-beter.html",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 601.67,
-   "img": "samsung-odyssey-g81sf.webp",
-   "rating": null,
-   "nrev": 0
-  },
   "asus-pa279crv": {
    "cat": "e-creation",
    "short": "Asus ProArt PA279CRV",
@@ -13995,59 +13837,6 @@
    "rating": null,
    "nrev": 0
   },
-  "gigabyte-gs25f2": {
-   "cat": "e-lowcost",
-   "short": "Gigabyte GS25F2",
-   "ref": "25\" Full HD · IPS · 200 Hz",
-   "badge": "Le moins cher",
-   "verdict": "Un 25 pouces Full HD à 200 Hz pour moins de 100 € : la fluidité d'un écran gaming au prix d'un écran de bureau.",
-   "strengths": [
-    "200 Hz pour moins de 100 €",
-    "Dalle IPS",
-    "Format 25\" compact"
-   ],
-   "weak": [
-    "Pied seulement inclinable",
-    "Testé sans note chiffrée"
-   ],
-   "m": [
-    "25\" Full HD",
-    "200 Hz"
-   ],
-   "id": "gigabyte-gs25f2",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 98.58,
-     "url": "https://www.amazon.fr/dp/B0F19F9B2P?tag=geekconcept-21",
-     "name": "GIGABYTE GS25F2 Écran Gaming 25\" FHD - 1920 x 1080, 200Hz, 1ms, 300 CD/m²",
-     "cfg": "",
-     "asin": "B0F19F9B2P"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "TechBroll",
-      "score": null,
-      "url": "https://techbroll.com/2025/09/gigabyte-gs25f2-gaming-monitor-review.html",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 98.58,
-   "img": "gigabyte-gs25f2.webp",
-   "rating": null,
-   "nrev": 0
-  },
   "gigabyte-gs27qca": {
    "cat": "e-lowcost",
    "short": "Gigabyte GS27QCA",
@@ -15036,59 +14825,6 @@
    },
    "prix": 259.78,
    "img": "canon-g3570.webp",
-   "rating": null,
-   "nrev": 0
-  },
-  "epson-et-m1170": {
-   "cat": "i-reservoir",
-   "short": "Epson EcoTank ET-M1170",
-   "ref": "Monochrome A4 · réservoir · recto-verso",
-   "badge": "Le noir et blanc à réservoir",
-   "verdict": "Une imprimante noir et blanc à réservoir d'encre : la rapidité et le recto-verso d'une laser, avec un coût à la page encore plus bas.",
-   "strengths": [
-    "Coût à la page minimal",
-    "Recto-verso automatique",
-    "Wi-Fi"
-   ],
-   "weak": [
-    "Noir et blanc uniquement",
-    "Vendue par un vendeur tiers, plus chère qu'ailleurs"
-   ],
-   "m": [
-    "Jet d'encre à réservoir (noir)",
-    "Impression seule"
-   ],
-   "id": "epson-et-m1170",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 479.19,
-     "url": "https://www.amazon.fr/dp/B07QC7M2LZ?tag=geekconcept-21",
-     "name": "EPSON EcoTank ET-M1170 | Imprimante jet d'encre monochrome - A4 sans fil, réservoir haute capacité",
-     "cfg": "vendu par un vendeur tiers",
-     "asin": "B07QC7M2LZ"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "Tænk",
-      "score": null,
-      "url": "https://taenk.dk/test/printere/epson-ecotank-et-m1170",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 479.19,
-   "img": "epson-et-m1170.webp",
    "rating": null,
    "nrev": 0
   },
@@ -16169,59 +15905,6 @@
    "rating": null,
    "nrev": 0
   },
-  "hp-color-laser-179fnw": {
-   "cat": "i-laser-couleur",
-   "short": "HP Color Laser MFP 179fnw",
-   "ref": "Multifonction laser couleur · 4-en-1 · chargeur",
-   "badge": "Le 4-en-1 compact",
-   "verdict": "Un petit multifonction laser couleur 4-en-1 avec chargeur de documents, testé par Test-Achats. Proposé sur Amazon par des vendeurs tiers.",
-   "strengths": [
-    "4-en-1 avec chargeur",
-    "Compact",
-    "Wi-Fi"
-   ],
-   "weak": [
-    "Recto-verso manuel",
-    "Vendu par des vendeurs tiers, plus cher qu'ailleurs"
-   ],
-   "m": [
-    "Laser couleur",
-    "Impression · copie · scan · fax"
-   ],
-   "id": "hp-color-laser-179fnw",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 344.2,
-     "url": "https://www.amazon.fr/dp/B07RMJV1LT?tag=geekconcept-21",
-     "name": "HP Color Laser MFP 179fnw, 4ZB97A, Imprimante multifonction couleur A4",
-     "cfg": "vendu par un vendeur tiers",
-     "asin": "B07RMJV1LT"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "Test-Achats",
-      "score": null,
-      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-color-laser-mfp-179-fnw/16/221248",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 344.2,
-   "img": "hp-color-laser-179fnw.webp",
-   "rating": null,
-   "nrev": 0
-  },
   "xerox-c230": {
    "cat": "i-laser-couleur",
    "short": "Xerox C230",
@@ -17098,65 +16781,6 @@
    "rating": null,
    "nrev": 0
   },
-  "canon-pixma-ts3750i": {
-   "cat": "i-lowcost",
-   "short": "Canon PIXMA TS3750i",
-   "ref": "Multifonction A4 · Wi-Fi · compacte",
-   "badge": "La compacte",
-   "verdict": "Une multifonction d'entrée de gamme compacte, éligible à l'abonnement d'encre de Canon, testée par Test-Achats et Which?.",
-   "strengths": [
-    "Prix très bas",
-    "Compacte",
-    "Wi-Fi"
-   ],
-   "weak": [
-    "Cartouches chères à l'usage",
-    "Pas de recto-verso automatique"
-   ],
-   "m": [
-    "Jet d'encre (cartouches)",
-    "Impression · copie · scan"
-   ],
-   "id": "canon-pixma-ts3750i",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 41.62,
-     "url": "https://www.amazon.fr/dp/B0DFZSGN7J?tag=geekconcept-21",
-     "name": "Canon PIXMA TS3750i Wireless Colour All-in-One Inkjet Printer - A4, Copy, Scan",
-     "cfg": "",
-     "asin": "B0DFZSGN7J"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "Test-Achats",
-      "score": null,
-      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts3750i/16/111567",
-      "date": ""
-     },
-     {
-      "src": "Which?",
-      "score": null,
-      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-ts3750i",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 41.62,
-   "img": "canon-pixma-ts3750i.webp",
-   "rating": null,
-   "nrev": 0
-  },
   "canon-pixma-ts4151i": {
    "cat": "i-lowcost",
    "short": "Canon PIXMA TS4151i",
@@ -17405,118 +17029,6 @@
    "rating": null,
    "nrev": 0
   },
-  "canon-pixma-ts7750i": {
-   "cat": "i-lowcost",
-   "short": "Canon PIXMA TS7750i",
-   "ref": "Multifonction A4 · recto-verso · écran",
-   "badge": "La mieux équipée",
-   "verdict": "Une multifonction familiale bien équipée (recto-verso, écran, deux bacs) à moins de 100 €, testée par Test-Achats.",
-   "strengths": [
-    "Recto-verso automatique",
-    "Écran et deux bacs papier",
-    "Wi-Fi"
-   ],
-   "weak": [
-    "Cartouches à racheter",
-    "Testée sans note publique"
-   ],
-   "m": [
-    "Jet d'encre (cartouches)",
-    "Impression · copie · scan"
-   ],
-   "id": "canon-pixma-ts7750i",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 87.42,
-     "url": "https://www.amazon.fr/dp/B0CH8HQVKC?tag=geekconcept-21",
-     "name": "Canon PIXMA TS7750i Imprimante Jet d'encre WiFi Recto Verso Auto",
-     "cfg": "",
-     "asin": "B0CH8HQVKC"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "Test-Achats",
-      "score": null,
-      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts7750i/16/100495",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 87.42,
-   "img": "canon-pixma-ts7750i.webp",
-   "rating": null,
-   "nrev": 0
-  },
-  "canon-pixma-ts705a": {
-   "cat": "i-lowcost",
-   "short": "Canon PIXMA TS705a",
-   "ref": "Imprimante A4 · 5 encres · recto-verso",
-   "badge": "La photo pas chère",
-   "verdict": "Une imprimante (sans scanner) à 5 encres séparées et recto-verso automatique : de jolies photos et des documents nets pour environ 50 €.",
-   "strengths": [
-    "5 encres séparées, bonnes photos",
-    "Recto-verso automatique",
-    "Prix bas"
-   ],
-   "weak": [
-    "Pas de scanner",
-    "Cartouches à racheter"
-   ],
-   "m": [
-    "Jet d'encre (5 cartouches)",
-    "Impression seule"
-   ],
-   "id": "canon-pixma-ts705a",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 54.17,
-     "url": "https://www.amazon.fr/dp/B09RN21CG7?tag=geekconcept-21",
-     "name": "Canon PIXMA TS705a imprimante Jet d'encre, Noir",
-     "cfg": "",
-     "asin": "B09RN21CG7"
-    }
-   ],
-   "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
-    "scope": "gamme",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "RTINGS",
-      "score": null,
-      "url": "https://www.rtings.com/printer/reviews/canon/pixma-ts702a",
-      "date": ""
-     },
-     {
-      "src": "Which?",
-      "score": null,
-      "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-ts705a",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 54.17,
-   "img": "canon-pixma-ts705a.webp",
-   "rating": null,
-   "nrev": 0
-  },
   "brother-dcp-j1360dw": {
    "cat": "i-lowcost",
    "short": "Brother DCP-J1360DW",
@@ -17579,6 +17091,457 @@
    },
    "prix": 91.66,
    "img": "brother-dcp-j1360dw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "lenovo-legion-r34w-30": {
+   "cat": "e-gaming",
+   "short": "Lenovo Legion R34w-30",
+   "ref": "34\" UWQHD incurvé · VA · 180 Hz",
+   "badge": "L'ultra-large abordable",
+   "verdict": "Un 34 pouces ultra-large incurvé à 180 Hz pour environ 240 € : immersion maximale et pied bien réglable. La dalle VA laisse des traînées visibles dans les scènes rapides.",
+   "strengths": [
+    "Format 21:9 incurvé (1500R) très immersif",
+    "180 Hz et FreeSync Premium",
+    "Pied stable réglable en hauteur, haut-parleurs intégrés"
+   ],
+   "weak": [
+    "Traînées visibles dans les scènes rapides (dalle VA)",
+    "Contraste jugé décevant par Hardwareluxx",
+    "Courbure peu adaptée à la retouche photo"
+   ],
+   "m": [
+    "34\" UWQHD",
+    "180 Hz"
+   ],
+   "id": "lenovo-legion-r34w-30",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 239.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmoniteur-lenovo-34-r34w-30-uwqhd-180hz-0-5.html",
+     "name": "Ecran Pc Gamer Incurve 34'' Lenovo Legion R34w-30 180hz/ Uwqhd",
+     "cfg": "",
+     "ean": "0198154304485",
+     "edid": "10012839"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 1,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PCMasters",
+      "score": 9.0,
+      "url": "https://www.pcmasters.de/testbericht/133714430-lenovo-legion-r34w-30-g-gaming-monitor-test-review.html",
+      "date": ""
+     },
+     {
+      "src": "HardwareInside",
+      "score": null,
+      "url": "https://www.hardwareinside.de/lenovo-legion-r34w-30-gaming-monitor-im-test-90204/",
+      "date": ""
+     },
+     {
+      "src": "Hardwareluxx",
+      "score": null,
+      "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/monitore/65908-lenovo-legion-r34w-30-im-test-curved-display-f%C3%BCr-300-euro.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 239.98,
+   "img": "lenovo-legion-r34w-30.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "aoc-q27g42ze": {
+   "cat": "e-lowcost",
+   "short": "AOC Gaming Q27G42ZE",
+   "ref": "27\" QHD · Fast IPS · 240 Hz",
+   "badge": "Le QHD 240 Hz minimaliste",
+   "verdict": "Un 27 pouces QHD à 240 Hz bien calibré d'usine pour moins de 170 €. Il reprend la dalle de l'AOC Q27G4ZR, en moins lumineux et avec un pied qui ne règle que l'inclinaison.",
+   "strengths": [
+    "QHD 240 Hz (260 Hz en overclocking)",
+    "Bonne calibration d'usine",
+    "Adaptive Sync contre les déchirures d'image"
+   ],
+   "weak": [
+    "Pied seulement inclinable, tout en plastique",
+    "Moins lumineux que l'AOC Q27G4ZR (même dalle)",
+    "Testé sans note chiffrée"
+   ],
+   "m": [
+    "27\" QHD",
+    "240 Hz"
+   ],
+   "id": "aoc-q27g42ze",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 168.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmoniteur-aoc-27-q27g42ze-qhd-240hz-0-3ms.html",
+     "name": "Ecran Pc Gamer 27'' Aoc Q27g42ze- 0,3ms /240hz/qhd",
+     "cfg": "",
+     "ean": "4038986182980",
+     "edid": "10010548"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PC Games Hardware",
+      "score": null,
+      "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/Specials/Gaming-Monitor-guenstig-affordable-200-Hz-240-Hz-WQHD-4K-UHD-Test-1523374/",
+      "date": ""
+     },
+     {
+      "src": "TechnologyInsider",
+      "score": null,
+      "url": "https://www.technologyinsider.nl/index.php/artikelen/hardware/monitoren/66353-aoc-q27g42ze-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 168.98,
+   "img": "aoc-q27g42ze.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-et-2951": {
+   "cat": "i-reservoir",
+   "short": "Epson EcoTank ET-2951",
+   "ref": "Multifonction A4 · réservoirs · recto-verso · Wi-Fi",
+   "badge": "La réservoir recto-verso",
+   "verdict": "Une EcoTank 3-en-1 compacte avec recto-verso automatique : l'encre en bouteilles fait chuter le coût par page, testée par Que Choisir, Test-Achats et Which?.",
+   "strengths": [
+    "Encre en bouteilles : jusqu'à 8 500 pages en noir par jeu (annoncé)",
+    "Recto-verso automatique",
+    "Wi-Fi, Wi-Fi Direct et petit écran couleur"
+   ],
+   "weak": [
+    "Pas de chargeur de documents ni d'Ethernet",
+    "Bac papier de 100 feuilles",
+    "Testée sans note publique (associations de consommateurs)"
+   ],
+   "m": [
+    "Jet d'encre à réservoirs",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-et-2951",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 248.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-et-2951.html",
+     "name": "Imprimante Epson Ecotank Et-2951 Multifonction À Reservoir",
+     "cfg": "",
+     "ean": "8715946737331",
+     "edid": "10013177"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/epson-ecotank-et-2951-p285590/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2951/16/122169",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-ecotank-et-2951",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 248.98,
+   "img": "epson-et-2951.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-color-laserjet-pro-3302sdw": {
+   "cat": "i-laser-couleur",
+   "short": "HP Color LaserJet Pro MFP 3302sdw",
+   "ref": "Multifonction laser couleur · recto-verso · chargeur · Ethernet",
+   "badge": "Le multifonction de bureau",
+   "verdict": "Une multifonction laser couleur complète pour le petit bureau : 25 pages par minute, recto-verso, chargeur de 50 feuilles, écran tactile et Ethernet. Testée par Which?, Tænk et Altroconsumo.",
+   "strengths": [
+    "25 pages par minute, recto-verso automatique",
+    "Chargeur de documents 50 feuilles, écran tactile 4,3\"",
+    "Wi-Fi, Wi-Fi Direct et Ethernet"
+   ],
+   "weak": [
+    "Prix d'achat élevé",
+    "Grand gabarit (17 kg, 42 × 42 cm)",
+    "Testée sans note publique (associations de consommateurs)"
+   ],
+   "m": [
+    "Laser couleur",
+    "Impression · copie · scan"
+   ],
+   "id": "hp-color-laserjet-pro-3302sdw",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 419.9,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-laser-hp-jet-pro-3302sdw.html",
+     "name": "Imprimante Hp Laser Jet Pro 3302sdw",
+     "cfg": "",
+     "ean": "0196786388484",
+     "edid": "10003125"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Altroconsumo",
+      "score": null,
+      "url": "https://www.altroconsumo.it/hi-tech/stampanti/comparatore/hp-color-laserjet-pro-mfp-3302sdw/16/110978",
+      "date": ""
+     },
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/hp-color-laserjet-pro-mfp-3302sdw",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/hp-color-laserjet-pro-mfp-3302sdw",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 419.9,
+   "img": "hp-color-laserjet-pro-3302sdw.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "epson-xp-3205": {
+   "cat": "i-lowcost",
+   "short": "Epson Expression Home XP-3205",
+   "ref": "Multifonction A4 · recto-verso · Wi-Fi",
+   "badge": "La compacte recto-verso",
+   "verdict": "Une multifonction compacte avec recto-verso automatique et quatre cartouches séparées, testée par Which? et Tænk.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Quatre cartouches séparées : on ne change que la couleur vide",
+    "Wi-Fi et Wi-Fi Direct"
+   ],
+   "weak": [
+    "Lente en couleur (5 pages/min)",
+    "Pas de chargeur de documents",
+    "Testée sans note publique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "epson-xp-3205",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 59.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-3205.html",
+     "name": "Imprimante Epson Xp-3205 Multifonction 3 En 1",
+     "cfg": "",
+     "ean": "8715946702759",
+     "edid": "10006180"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/epson-expression-home-xp-3205",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-expression-home-xp-3205",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 59.98,
+   "img": "epson-xp-3205.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-envy-6132e": {
+   "cat": "i-lowcost",
+   "short": "HP Envy 6132e",
+   "ref": "Multifonction A4 · recto-verso · Wi-Fi",
+   "badge": "La recto-verso à 60 €",
+   "verdict": "Une multifonction familiale avec recto-verso automatique et petit écran couleur pour environ 60 €, testée par Que Choisir, Test-Achats et Tænk.",
+   "strengths": [
+    "Recto-verso automatique",
+    "Écran couleur 6,1 cm",
+    "Wi-Fi et impression depuis le smartphone"
+   ],
+   "weak": [
+    "Cartouche couleur unique (trois couleurs) : à changer dès qu'une couleur est vide",
+    "Pas de chargeur de documents",
+    "Testée sans note publique"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "hp-envy-6132e",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 58.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-hp-envy-6132e.html",
+     "name": "Imprimante Hp Envy 6132e Multifonction Instant Ink 6 Mois Gratuits",
+     "cfg": "",
+     "ean": "0197498438948",
+     "edid": "10002597"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/hp-envy-6132e-p285526/",
+      "date": ""
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-envy-6132e/16/114848",
+      "date": ""
+     },
+     {
+      "src": "Tænk",
+      "score": null,
+      "url": "https://taenk.dk/test/printere/hp-envy-6132e",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 58.98,
+   "img": "hp-envy-6132e.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "hp-deskjet-2921e": {
+   "cat": "i-lowcost",
+   "short": "HP DeskJet 2921e",
+   "ref": "Multifonction A4 · Wi-Fi · compacte",
+   "badge": "L'appoint à 60 €",
+   "verdict": "Une multifonction d'appoint simple et compacte, avec Wi-Fi double bande, testée par Test-Achats et Which?. Pour quelques pages de temps en temps.",
+   "strengths": [
+    "Prix bas",
+    "Wi-Fi double bande, impression depuis le smartphone",
+    "Compacte (3,4 kg)"
+   ],
+   "weak": [
+    "Recto-verso manuel seulement",
+    "Cartouche couleur unique (trois couleurs)",
+    "Bac de 60 feuilles, lente (7,5 pages/min)"
+   ],
+   "m": [
+    "Jet d'encre (cartouches)",
+    "Impression · copie · scan"
+   ],
+   "id": "hp-deskjet-2921e",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 59.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-deskjet-2921e.html",
+     "name": "Imprimante Hp Deskjet 2921e Multifonction eligible Instant Ink",
+     "cfg": "",
+     "ean": "0198828789815",
+     "edid": "10013176"
+    }
+   ],
+   "press": {
+    "avg": null,
+    "n": 0,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-deskjet-2921/16/125179",
+      "date": ""
+     },
+     {
+      "src": "Which?",
+      "score": null,
+      "url": "https://www.which.co.uk/reviews/printers-and-ink/hp-deskjet-2921",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 59.98,
+   "img": "hp-deskjet-2921e.webp",
    "rating": null,
    "nrev": 0
   }

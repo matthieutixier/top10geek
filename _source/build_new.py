@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """Ajoute (ou met à jour) dans data.json les écrans et imprimantes de catalog_ecrans.py et catalog_imprimantes.py.
 Les 100 ordinateurs déjà présents ne sont pas touchés. Commande : python3 _source/build_new.py
-- offres : Amazon (prix constaté lors du relevé, identifiant Partenaires ajouté au lien) ; un produit déjà présent
+- offres : Amazon (prix constaté lors du relevé, identifiant Partenaires ajouté au lien) et/ou Electro Dépôt (champ ed :
+  lien suivi Effinity et prix du flux produits) ; un produit déjà présent
   garde le prix et la disponibilité de son dernier relevé (releve.py) ;
 - note presse : moyenne des notes chiffrées (les tests sans note sont listés mais n'entrent pas dans la moyenne) ;
-- photo : assets/img/p/<id>.webp si elle existe (photos constructeurs, voir photos_constructeurs.json)."""
+- photo : assets/img/p/<id>.webp si elle existe (photos constructeurs, voir photos_constructeurs.json) ;
+- un écran ou une imprimante retiré de catalog_ecrans.py / catalog_imprimantes.py est retiré de data.json."""
 import json, os, sys
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
 sys.path.insert(0, SRC)
@@ -24,12 +26,19 @@ def press(it):
 
 
 def item(pid, it):
-    tiers = it["seller"] != "Amazon"
-    offer = dict(m="Amazon", price=float(it["price"]), url=f"https://www.amazon.fr/dp/{it['asin']}?tag={AMAZON_TAG}",
-                 name=it["amz"], cfg=("vendu par un vendeur tiers" if tiers else ""), asin=it["asin"])
+    offers = []
+    if it["asin"]:
+        tiers = it["seller"] != "Amazon"
+        offers.append(dict(m="Amazon", price=float(it["price"]), url=f"https://www.amazon.fr/dp/{it['asin']}?tag={AMAZON_TAG}",
+                           name=it["amz"], cfg=("vendu par un vendeur tiers" if tiers else ""), asin=it["asin"]))
+    if it.get("ed"):
+        e = it["ed"]   # Electro Dépôt : lien suivi Effinity tel que fourni par le flux produits
+        offers.append(dict(m="Electro Dépôt", price=float(e["price"]), url=e["url"], name=e["name"], cfg="",
+                           ean=e["ean"], edid=e["edid"]))
+    assert offers, pid
     img = pid + ".webp"
-    d = {k: v for k, v in it.items() if k not in ("notes", "scope", "asin", "amz", "price", "seller", "pour", "eviter")}
-    d.update(id=pid, m=list(it["m"]), offers=[offer], press=press(it), prix=float(it["price"]),
+    d = {k: v for k, v in it.items() if k not in ("notes", "scope", "asin", "amz", "price", "seller", "pour", "eviter", "ed")}
+    d.update(id=pid, m=list(it["m"]), offers=offers, press=press(it), prix=min(o["price"] for o in offers),
              img=img if os.path.exists(os.path.join(IMG_DIR, img)) else None, rating=None, nrev=0)
     return d
 
@@ -41,7 +50,7 @@ if __name__ == "__main__":
         for pid, it in cat.items():
             new, old = item(pid, it), data["items"].get(pid)
             # un relevé de prix (releve.py) a pu mettre à jour l'offre depuis : on garde ses prix et sa disponibilité
-            if old and old["offers"] and old["offers"][0].get("asin") == it["asin"]:
+            if old and old["offers"] and it["asin"] and old["offers"][0].get("asin") == it["asin"]:
                 for f in ("price", "dispo"):
                     if f in old["offers"][0]:
                         new["offers"][0][f] = old["offers"][0][f]
@@ -71,7 +80,24 @@ if __name__ == "__main__":
                         e = next((x for x in extra if x["url"] == n["url"]), None)
                         if e:
                             n.update(date=e.get("date", ""), ajout=e["ajout"])
+            # traces des vérifications presse (presse_crawl.py : « avant », « corrige ») et dates connues : conservées
+            if old and old.get("press"):
+                anciens = {n["url"]: n for n in old["press"]["notes"]}
+                for n in new["press"]["notes"]:
+                    o = anciens.get(n["url"])
+                    if o and o.get("score") == n["score"]:
+                        for f in ("avant", "corrige"):
+                            if f in o and f not in n:
+                                n[f] = o[f]
+                        if o.get("date") and not n.get("date"):
+                            n["date"] = o["date"]
             data["items"][pid] = new
+    # écrans et imprimantes retirés des catalogues : retirés aussi de data.json (les ordinateurs ne sont pas concernés)
+    retires = [k for k, v in data["items"].items() if v["cat"][:2] in ("e-", "i-") and k not in ECR and k not in IMP]
+    for k in retires:
+        del data["items"][k]
+    if retires:
+        print("retirés :", ", ".join(retires))
     json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter
     print(len(data["items"]), "produits ;", Counter(d["cat"] for d in data["items"].values() if d["cat"][:2] in ("e-", "i-")))

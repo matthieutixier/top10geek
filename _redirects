@@ -1,0 +1,12 @@
+# Produits retirés du catalogue : redirection permanente vers le classement de leur usage.
+# Fichier lu par Cloudflare Pages (une règle par ligne : ancienne adresse, nouvelle adresse, code).
+# 12/10/2026 : remplacements par des produits vendus chez Electro Dépôt.
+/ecran-pc/gigabyte-gs25f2/ /ecran-pc/petit-prix/ 301
+/ecran-pc/samsung-odyssey-oled-g8-g81sf/ /ecran-pc/gaming/ 301
+/imprimante/epson-ecotank-et-m1170/ /imprimante/reservoir/ 301
+/imprimante/hp-color-laser-mfp-179fnw/ /imprimante/laser-couleur/ 301
+/imprimante/canon-pixma-ts3750i/ /imprimante/petit-prix/ 301
+/imprimante/canon-pixma-ts705a/ /imprimante/petit-prix/ 301
+/imprimante/canon-pixma-ts7750i/ /imprimante/petit-prix/ 301
+/pc-portable/lenovo-v15-g4/ /pc-portable/lowcost/ 301
+/pc-portable/microsoft-surface-pro-12/ /pc-portable/bureautique/ 301

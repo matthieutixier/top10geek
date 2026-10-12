@@ -7,7 +7,7 @@ où le produit est en vente. Les prix par marchand restent dans data.json (champ
 des offres) mais ne sont plus affichés ; à réactiver avec les flux affiliés.
 v8 — bloc « Notre choix », tri des fiches (sans tableau), une page par produit.
 v7 — catalogue réel (50 PC portables + 50 ordinateurs de bureau), photos produits,
-prix relevés par marchand (Amazon, Darty, Acer Store, Geekom), notes presse avec liens vers les tests.
+prix relevés par marchand (Amazon, Darty, Acer Store, Geekom, Electro Dépôt), notes presse avec liens vers les tests.
 Données : data.json (source de vérité ; build_data.py est hors service depuis le 10/10/2026)."""
 import json, os, html, re, shutil, math, hashlib, unicodedata
 from guides import GUIDES
@@ -94,11 +94,13 @@ for f in FAMILIES:
 FAM = {f["key"]: f for f in FAMILIES}
 BUDGETS = [("all", "Tous les prix", 0, 1e9), ("b1", "< 500 €", 0, 500), ("b2", "500 – 1 000 €", 500, 1000),
            ("b3", "1 000 – 1 500 €", 1000, 1500), ("b4", "1 500 – 2 000 €", 1500, 2000), ("b5", "> 2 000 €", 2000, 1e9)]
-MERCHANT_CLS = {"Amazon": "amazon", "Darty": "darty", "Fnac": "fnac", "Acer Store": "acer", "Geekom": "geekom"}
+MERCHANT_CLS = {"Amazon": "amazon", "Darty": "darty", "Fnac": "fnac", "Acer Store": "acer", "Geekom": "geekom",
+                "Electro Dépôt": "electrodepot"}
 # Marchands dont le programme d'affiliation est validé (lien rémunéré). Les autres sont de simples liens directs.
 # À compléter à chaque validation (ex. Awin : "Darty", "Fnac", "Acer Store", "Geekom") : attributs rel et mentions suivent.
-AFFILIATED = ["Amazon"]
-AFF_TXT = " et ".join(AFFILIATED)
+# Ordre de la liste = ordre des boutons marchands : Electro Dépôt (Effinity, validé le 12/10/2026) d'abord, puis Amazon.
+AFFILIATED = ["Electro Dépôt", "Amazon"]
+AFF_TXT = " et ".join(sorted(AFFILIATED))
 
 
 def rel_m(m):
@@ -153,7 +155,7 @@ for pid, n in DATA["items"].items():
     # Liens marchands : uniquement là où le produit est en vente (sauf s'il ne reste aucune offre),
     # le marchand affilié en premier, puis l'ordre du dernier prix connu.
     offers = [o for o in n["offers"] if o.get("dispo", True)] or n["offers"]
-    offers = sorted(offers, key=lambda o: (o["m"] not in AFFILIATED, o["price"]))
+    offers = sorted(offers, key=lambda o: (AFFILIATED.index(o["m"]) if o["m"] in AFFILIATED else len(AFFILIATED), o["price"]))
     d = dict(id=pid, cat=n["cat"], short=n["short"], ref=n["ref"], badge=n["badge"], idx=None,
              p=float(n.get("prix") or min(o["price"] for o in offers)),
              r=(n["rating"] if n.get("rating") and n.get("nrev", 0) >= 3 else -1), nrev=n.get("nrev", 0),
@@ -492,7 +494,7 @@ FAQ_L = [
     ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage. Ensuite, les ordinateurs sont classés par note presse. Ceux dont les tests ne donnent pas de note chiffrée viennent en dernier."),
     ("Faut-il 16 ou 32 Go de RAM en 2026 ?", "16 Go reste le minimum confortable pour de la bureautique ou du gaming courant. Pour la création ou pour garder la machine plusieurs années, 32 Go évite de la remplacer prématurément."),
     ("Pourquoi certains ordinateurs n'ont pas de note presse ?", "Tous les ordinateurs de la sélection ont été testés par au moins un média. Mais certains tests ne donnent pas de note chiffrée : dans ce cas nous l'indiquons (bulle en pointillés) et nous donnons le lien vers le test plutôt que d'inventer une note."),
-    ("D'où viennent les prix ?", f"Nous affichons un prix indicatif par ordinateur : le plus bas que nous avons constaté chez les marchands (Amazon, Darty, Acer Store, Geekom) en {PRIX_DATE}, arrondi à la dizaine d'euros. Il sert à situer la machine, pas à comparer les marchands : le prix a pu changer depuis et la configuration exacte peut différer d'un marchand à l'autre. Seul le prix affiché par le marchand fait foi."),
+    ("D'où viennent les prix ?", f"Nous affichons un prix indicatif par ordinateur : le plus bas que nous avons constaté chez les marchands (Amazon, Darty, Acer Store, Geekom, Electro Dépôt) en {PRIX_DATE}, arrondi à la dizaine d'euros. Il sert à situer la machine, pas à comparer les marchands : le prix a pu changer depuis et la configuration exacte peut différer d'un marchand à l'autre. Seul le prix affiché par le marchand fait foi."),
 ]
 
 
@@ -1143,7 +1145,7 @@ methode = f"""
     <h2>Comment lire le graphe à bulles</h2>
     <p>Chaque bulle est un produit. <b>Horizontalement</b> : la note presse. <b>Verticalement</b> : le prix indicatif. <b>Taille</b> : le nombre de notes (une grosse bulle = une note solide). <b>En pointillés</b>, à gauche : les produits testés mais sans note chiffrée. Les bonnes affaires se trouvent dans la <b>zone jaune, en bas à droite</b>.</p>
     <h2>Prix, photos et configurations</h2>
-    <p>Le prix indicatif est le plus bas que nous avons constaté chez Amazon, Darty, sur l'Acer Store ou chez Geekom (pour les écrans et les imprimantes : sur Amazon, en précisant quand le produit n'est proposé que par un vendeur tiers), arrondi à la dizaine d'euros ; le mois du constat est indiqué à côté. Nous le revoyons environ une fois par mois. Il situe la machine mais ne remplace pas une comparaison : <b>seul le prix affiché par le marchand fait foi</b>. Nous ne comparons pas, pour l'instant, les prix marchand par marchand : nous indiquons seulement où la machine est en vente. Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du lien, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
+    <p>Le prix indicatif est le plus bas que nous avons constaté chez Amazon, Darty, sur l'Acer Store, chez Geekom ou chez Electro Dépôt (pour les écrans et les imprimantes : sur Amazon ou chez Electro Dépôt, en précisant quand le produit n'est proposé que par un vendeur tiers sur Amazon), arrondi à la dizaine d'euros ; le mois du constat est indiqué à côté. Nous le revoyons environ une fois par mois. Il situe la machine mais ne remplace pas une comparaison : <b>seul le prix affiché par le marchand fait foi</b>. Nous ne comparons pas, pour l'instant, les prix marchand par marchand : nous indiquons seulement où la machine est en vente. Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du lien, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
     <h2>Avis clients, poids et autonomie</h2>
     <p>La note « avis clients Darty » est celle affichée par Darty lors de notre dernier relevé ; nous ne l'affichons qu'à partir de trois avis. Poids et autonomie sont ceux annoncés par le constructeur, sauf mention « test ». « n.c. » : non communiqué.</p>
     <h2>Notre indépendance</h2>

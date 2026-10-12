@@ -32,9 +32,9 @@
   <url><loc>https://top10geek.fr/pc-portable/asus-zenbook-a16/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/acer-swift-air-14/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/hp-omnibook-5-14/</loc></url>
+  <url><loc>https://top10geek.fr/pc-portable/hp-omnibook-3-17/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/microsoft-surface-laptop-13/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/lenovo-ideapad-slim-3x-15/</loc></url>
-  <url><loc>https://top10geek.fr/pc-portable/microsoft-surface-pro-12/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/apple-macbook-pro-14-m5/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/apple-macbook-air-15-m5/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/lenovo-yoga-pro-7-15/</loc></url>
@@ -68,12 +68,12 @@
   <url><loc>https://top10geek.fr/pc-portable/acer-aspire-go-15/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/lenovo-chromebook-duet-11/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/acer-chromebook-315/</loc></url>
+  <url><loc>https://top10geek.fr/pc-portable/lenovo-ideapad-slim-3-chromebook-14/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/acer-chromebook-plus-514/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/asus-vivobook-14/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/asus-vivobook-go-14/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/asus-chromebook-cx14/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/lenovo-ideapad-slim-3/</loc></url>
-  <url><loc>https://top10geek.fr/pc-portable/lenovo-v15-g4/</loc></url>
   <url><loc>https://top10geek.fr/pc-portable/lenovo-ideapad-1-15/</loc></url>
   <url><loc>https://top10geek.fr/ordinateur-de-bureau/apple-mac-mini-m6/</loc></url>
   <url><loc>https://top10geek.fr/ordinateur-de-bureau/geekom-a5/</loc></url>
@@ -137,6 +137,7 @@
   <url><loc>https://top10geek.fr/ecran-pc/dell-32-plus-s3225qs/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/aoc-agon-q27g4zd/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/asus-rog-swift-pg32ucdm/</loc></url>
+  <url><loc>https://top10geek.fr/ecran-pc/lenovo-legion-r34w-30/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/alienware-aw2725q/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/alienware-aw2726dm/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/msi-mpg-321urx/</loc></url>
@@ -144,7 +145,6 @@
   <url><loc>https://top10geek.fr/ecran-pc/sony-inzone-m10s/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/alienware-aw2725d/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/aoc-agon-pro-ag276qsg2/</loc></url>
-  <url><loc>https://top10geek.fr/ecran-pc/samsung-odyssey-oled-g8-g81sf/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/asus-proart-pa279crv/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/asus-proart-pa27ucge/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/dell-ultrasharp-u2724d/</loc></url>
@@ -172,19 +172,19 @@
   <url><loc>https://top10geek.fr/ecran-pc/gigabyte-gs27qca/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/asus-tuf-gaming-vg279qm5a/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/lenovo-legion-27q-10/</loc></url>
+  <url><loc>https://top10geek.fr/ecran-pc/aoc-gaming-q27g42ze/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/dell-se2426hg/</loc></url>
-  <url><loc>https://top10geek.fr/ecran-pc/gigabyte-gs25f2/</loc></url>
   <url><loc>https://top10geek.fr/ecran-pc/gigabyte-gs32qca/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-2862/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-3950/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-4956/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-4856/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-2856/</loc></url>
+  <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-2951/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-pixma-g3570/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-2876/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-4900/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-3956/</loc></url>
-  <url><loc>https://top10geek.fr/imprimante/epson-ecotank-et-m1170/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/brother-dcp-l2620dw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/brother-hl-l2865dw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/brother-dcp-l1642w/</loc></url>
@@ -199,12 +199,12 @@
   <url><loc>https://top10geek.fr/imprimante/canon-i-sensys-mf752cdw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/xerox-c230/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/brother-hl-l3220cwe/</loc></url>
+  <url><loc>https://top10geek.fr/imprimante/hp-color-laserjet-pro-mfp-3302sdw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-i-sensys-lbp647cdw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/hp-color-laserjet-pro-3202dw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/brother-hl-l3240cdw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/xerox-c320/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-i-sensys-mf664cdw/</loc></url>
-  <url><loc>https://top10geek.fr/imprimante/hp-color-laser-mfp-179fnw/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-selphy-cp1500/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-photo-et-8500/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-ecotank-photo-et-8550/</loc></url>
@@ -219,12 +219,12 @@
   <url><loc>https://top10geek.fr/imprimante/epson-expression-home-xp-2200/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/epson-workforce-wf-2930dwf/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-pixma-tr4755i/</loc></url>
+  <url><loc>https://top10geek.fr/imprimante/hp-envy-6132e/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/brother-dcp-j1360dw/</loc></url>
-  <url><loc>https://top10geek.fr/imprimante/canon-pixma-ts3750i/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-pixma-ts4151i/</loc></url>
-  <url><loc>https://top10geek.fr/imprimante/canon-pixma-ts705a/</loc></url>
+  <url><loc>https://top10geek.fr/imprimante/epson-expression-home-xp-3205/</loc></url>
+  <url><loc>https://top10geek.fr/imprimante/hp-deskjet-2921e/</loc></url>
   <url><loc>https://top10geek.fr/imprimante/canon-pixma-ts7550i/</loc></url>
-  <url><loc>https://top10geek.fr/imprimante/canon-pixma-ts7750i/</loc></url>
   <url><loc>https://top10geek.fr/black-friday/</loc></url>
   <url><loc>https://top10geek.fr/methode</loc></url>
   <url><loc>https://top10geek.fr/mentions-legales</loc></url>

@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Catalogue Top 10 Geek — IMPRIMANTES (relevé du 09/10/2026).
 50 imprimantes, 10 par usage. Chaque imprimante est en vente sur Amazon.fr au moment du relevé
-(vendue par Amazon, ou à défaut par un vendeur tiers sur Amazon : champ seller) et couverte par au moins un test.
+(vendue par Amazon, ou à défaut par un vendeur tiers sur Amazon : champ seller) ou chez Electro Dépôt (champ ed,
+ajouts du 12/10/2026), et couverte par au moins un test.
 Les imprimantes sont surtout testées par les associations de consommateurs (Test-Achats, Que Choisir, Which?, Tænk),
 qui publient leurs notes pour leurs seuls abonnés : ces tests sont cités et liés, sans note chiffrée.
 Notes : (média, note sur 10 ou None, url). Même structure que catalog_ecrans.py."""
@@ -132,15 +133,17 @@ IMP["canon-g3570"] = E("i-reservoir", "Canon PIXMA G3570", "Multifonction A4 · 
     "B0BN97QRPX", "Canon PIXMA G3570 Imprimante Jet d'encre Réservoir Compacte | Wi-FI", 259.78,
     "Vous préférez Canon et voulez une imprimante économique à l'usage pour la famille.",
     "Vous voulez acheter auprès d'Amazon directement : elle n'est proposée que par des vendeurs tiers.", seller="vendeur tiers")
-IMP["epson-et-m1170"] = E("i-reservoir", "Epson EcoTank ET-M1170", "Monochrome A4 · réservoir · recto-verso", "Le noir et blanc à réservoir",
-    "Une imprimante noir et blanc à réservoir d'encre : la rapidité et le recto-verso d'une laser, avec un coût à la page encore plus bas.",
-    ["Coût à la page minimal", "Recto-verso automatique", "Wi-Fi"],
-    ["Noir et blanc uniquement", "Vendue par un vendeur tiers, plus chère qu'ailleurs"],
-    ("Jet d'encre à réservoir (noir)", "Impression seule"),
-    [("Tænk", None, "https://taenk.dk/test/printere/epson-ecotank-et-m1170")],
-    "B07QC7M2LZ", "EPSON EcoTank ET-M1170 | Imprimante jet d'encre monochrome - A4 sans fil, réservoir haute capacité", 479.19,
-    "Vous imprimez beaucoup de textes en noir et blanc et voulez le coût par page le plus bas.",
-    "Vous avez besoin de la couleur ou d'un scanner.", seller="vendeur tiers")
+IMP["epson-et-2951"] = E("i-reservoir", "Epson EcoTank ET-2951", "Multifonction A4 · réservoirs · recto-verso · Wi-Fi", "La réservoir recto-verso",
+    "Une EcoTank 3-en-1 compacte avec recto-verso automatique : l'encre en bouteilles fait chuter le coût par page, testée par Que Choisir, Test-Achats et Which?.",
+    ["Encre en bouteilles : jusqu'à 8 500 pages en noir par jeu (annoncé)", "Recto-verso automatique", "Wi-Fi, Wi-Fi Direct et petit écran couleur"],
+    ["Pas de chargeur de documents ni d'Ethernet", "Bac papier de 100 feuilles", "Testée sans note publique (associations de consommateurs)"],
+    ("Jet d'encre à réservoirs", "Impression · copie · scan"),
+    [qc("epson-ecotank-et-2951-p285590"), ta("epson-ecotank-et-2951", 122169), wh("epson-ecotank-et-2951")],
+    None, "", 248.98,
+    "Vous imprimez régulièrement des documents en couleur à la maison et voulez un coût par page minimal, avec le recto-verso.",
+    "Vous scannez souvent des liasses de plusieurs pages : il n'y a pas de chargeur automatique.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-et-2951.html",
+            name="Imprimante Epson Ecotank Et-2951 Multifonction À Reservoir", price=248.98, ean="8715946737331", edid="10013177"))
 
 # =====================================================================================================================
 #                                                   LASER MONOCHROME
@@ -319,15 +322,18 @@ IMP["hp-color-laserjet-pro-3202dw"] = E("i-laser-couleur", "HP Color LaserJet Pr
     "B0CWGPL92T", "HP Color LaserJet Pro 3202dw, 499R0F, Imprimante monofonction A4, Recto/Verso Automatique", 215.83,
     "Vous êtes équipé HP et imprimez des documents couleur au bureau.",
     "Vous voulez des consommables bon marché.")
-IMP["hp-color-laser-179fnw"] = E("i-laser-couleur", "HP Color Laser MFP 179fnw", "Multifonction laser couleur · 4-en-1 · chargeur", "Le 4-en-1 compact",
-    "Un petit multifonction laser couleur 4-en-1 avec chargeur de documents, testé par Test-Achats. Proposé sur Amazon par des vendeurs tiers.",
-    ["4-en-1 avec chargeur", "Compact", "Wi-Fi"],
-    ["Recto-verso manuel", "Vendu par des vendeurs tiers, plus cher qu'ailleurs"],
-    ("Laser couleur", "Impression · copie · scan · fax"),
-    [ta("hp-color-laser-mfp-179-fnw", 221248)],
-    "B07RMJV1LT", "HP Color Laser MFP 179fnw, 4ZB97A, Imprimante multifonction couleur A4", 344.20,
-    "Vous voulez un multifonction couleur compact pour un petit bureau.",
-    "Vous imprimez beaucoup en recto-verso.", seller="vendeur tiers")
+IMP["hp-color-laserjet-pro-3302sdw"] = E("i-laser-couleur", "HP Color LaserJet Pro MFP 3302sdw", "Multifonction laser couleur · recto-verso · chargeur · Ethernet", "Le multifonction de bureau",
+    "Une multifonction laser couleur complète pour le petit bureau : 25 pages par minute, recto-verso, chargeur de 50 feuilles, écran tactile et Ethernet. Testée par Which?, Tænk et Altroconsumo.",
+    ["25 pages par minute, recto-verso automatique", "Chargeur de documents 50 feuilles, écran tactile 4,3\"", "Wi-Fi, Wi-Fi Direct et Ethernet"],
+    ["Prix d'achat élevé", "Grand gabarit (17 kg, 42 × 42 cm)", "Testée sans note publique (associations de consommateurs)"],
+    ("Laser couleur", "Impression · copie · scan"),
+    [wh("hp-color-laserjet-pro-mfp-3302sdw"), ("Tænk", None, "https://taenk.dk/test/printere/hp-color-laserjet-pro-mfp-3302sdw"),
+     ("Altroconsumo", None, "https://www.altroconsumo.it/hi-tech/stampanti/comparatore/hp-color-laserjet-pro-mfp-3302sdw/16/110978")],
+    None, "", 419.90,
+    "Vous équipez un petit bureau qui imprime, copie et scanne beaucoup de documents couleur.",
+    "Vous imprimez peu ou manquez de place : une laser plus compacte suffira.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-laser-hp-jet-pro-3302sdw.html",
+            name="Imprimante Hp Laser Jet Pro 3302sdw", price=419.90, ean="0196786388484", edid="10003125"))
 IMP["xerox-c230"] = E("i-laser-couleur", "Xerox C230", "Imprimante laser couleur · recto-verso · Wi-Fi", "La compacte",
     "La version imprimante seule de la Xerox C235 : compacte, rapide et de bonne qualité, mais avec un coût d'usage élevé. Livraison longue chez Amazon.",
     ["Compacte", "Bonne qualité d'impression", "Rapide"],
@@ -477,15 +483,17 @@ IMP["epson-xp-2200"] = E("i-lowcost", "Epson Expression Home XP-2200", "Multifon
     "B0B8X457PN", "Epson Expression Home XP-2200 | Imprimante 3-en-1 - Impression, Numérisation, Copie - WiFi", 40.82,
     "Vous imprimez très rarement (une attestation, un billet) et voulez dépenser le moins possible.",
     "Vous imprimez chaque semaine : le prix des cartouches rattrapera vite l'économie.")
-IMP["canon-pixma-ts3750i"] = E("i-lowcost", "Canon PIXMA TS3750i", "Multifonction A4 · Wi-Fi · compacte", "La compacte",
-    "Une multifonction d'entrée de gamme compacte, éligible à l'abonnement d'encre de Canon, testée par Test-Achats et Which?.",
-    ["Prix très bas", "Compacte", "Wi-Fi"],
-    ["Cartouches chères à l'usage", "Pas de recto-verso automatique"],
+IMP["epson-xp-3205"] = E("i-lowcost", "Epson Expression Home XP-3205", "Multifonction A4 · recto-verso · Wi-Fi", "La compacte recto-verso",
+    "Une multifonction compacte avec recto-verso automatique et quatre cartouches séparées, testée par Which? et Tænk.",
+    ["Recto-verso automatique", "Quatre cartouches séparées : on ne change que la couleur vide", "Wi-Fi et Wi-Fi Direct"],
+    ["Lente en couleur (5 pages/min)", "Pas de chargeur de documents", "Testée sans note publique"],
     ("Jet d'encre (cartouches)", "Impression · copie · scan"),
-    [ta("canon-pixma-ts3750i", 111567), wh("canon-pixma-ts3750i")],
-    "B0DFZSGN7J", "Canon PIXMA TS3750i Wireless Colour All-in-One Inkjet Printer - A4, Copy, Scan", 41.62,
-    "Vous voulez une petite imprimante d'appoint pour la maison.",
-    "Vous imprimez beaucoup.")
+    [wh("epson-expression-home-xp-3205"), ("Tænk", None, "https://taenk.dk/test/printere/epson-expression-home-xp-3205")],
+    None, "", 59.98,
+    "Vous voulez une petite imprimante familiale qui fait le recto-verso, avec des cartouches séparées.",
+    "Vous imprimez beaucoup : passez à une imprimante à réservoirs.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-3205.html",
+            name="Imprimante Epson Xp-3205 Multifonction 3 En 1", price=59.98, ean="8715946702759", edid="10006180"))
 IMP["canon-pixma-ts4151i"] = E("i-lowcost", "Canon PIXMA TS4151i", "Multifonction A4 · Wi-Fi · compacte", "L'entrée de gamme",
     "Une multifonction compacte d'entrée de gamme, testée par Test-Achats et (dans sa version TS4150i) par Que Choisir.",
     ["Prix très bas", "Compacte", "Wi-Fi"],
@@ -524,24 +532,28 @@ IMP["canon-pixma-ts7550i"] = E("i-lowcost", "Canon PIXMA TS7550i", "Multifonctio
     "B0GT281VRC", "Canon PIXMA TS7550i – Imprimante compacte Jet d'Encre Multifonction Wi-FI 2,4/5 GHz", 66.66,
     "Vous voulez une imprimante familiale polyvalente qui fait le recto-verso.",
     "Vous imprimez de gros volumes.")
-IMP["canon-pixma-ts7750i"] = E("i-lowcost", "Canon PIXMA TS7750i", "Multifonction A4 · recto-verso · écran", "La mieux équipée",
-    "Une multifonction familiale bien équipée (recto-verso, écran, deux bacs) à moins de 100 €, testée par Test-Achats.",
-    ["Recto-verso automatique", "Écran et deux bacs papier", "Wi-Fi"],
-    ["Cartouches à racheter", "Testée sans note publique"],
+IMP["hp-envy-6132e"] = E("i-lowcost", "HP Envy 6132e", "Multifonction A4 · recto-verso · Wi-Fi", "La recto-verso à 60 €",
+    "Une multifonction familiale avec recto-verso automatique et petit écran couleur pour environ 60 €, testée par Que Choisir, Test-Achats et Tænk.",
+    ["Recto-verso automatique", "Écran couleur 6,1 cm", "Wi-Fi et impression depuis le smartphone"],
+    ["Cartouche couleur unique (trois couleurs) : à changer dès qu'une couleur est vide", "Pas de chargeur de documents", "Testée sans note publique"],
     ("Jet d'encre (cartouches)", "Impression · copie · scan"),
-    [ta("canon-pixma-ts7750i", 100495)],
-    "B0CH8HQVKC", "Canon PIXMA TS7750i Imprimante Jet d'encre WiFi Recto Verso Auto", 87.42,
-    "Vous voulez une imprimante familiale confortable, pour documents et photos.",
-    "Vous imprimez beaucoup : passez aux réservoirs.")
-IMP["canon-pixma-ts705a"] = E("i-lowcost", "Canon PIXMA TS705a", "Imprimante A4 · 5 encres · recto-verso", "La photo pas chère",
-    "Une imprimante (sans scanner) à 5 encres séparées et recto-verso automatique : de jolies photos et des documents nets pour environ 50 €.",
-    ["5 encres séparées, bonnes photos", "Recto-verso automatique", "Prix bas"],
-    ["Pas de scanner", "Cartouches à racheter"],
-    ("Jet d'encre (5 cartouches)", "Impression seule"),
-    [wh("canon-pixma-ts705a"), rt("canon/pixma-ts702a")],
-    "B09RN21CG7", "Canon PIXMA TS705a imprimante Jet d'encre, Noir", 54.17,
-    "Vous voulez imprimer de jolies photos et des documents sans avoir besoin de scanner.",
-    "Vous devez scanner ou photocopier.", scope="gamme")
+    [qc("hp-envy-6132e-p285526"), ta("hp-envy-6132e", 114848), ("Tænk", None, "https://taenk.dk/test/printere/hp-envy-6132e")],
+    None, "", 58.98,
+    "Vous voulez une imprimante familiale pas chère qui fait le recto-verso, pour les devoirs et les papiers de la maison.",
+    "Vous imprimez beaucoup en couleur : la cartouche trois couleurs revient cher.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-hp-envy-6132e.html",
+            name="Imprimante Hp Envy 6132e Multifonction Instant Ink 6 Mois Gratuits", price=58.98, ean="0197498438948", edid="10002597"))
+IMP["hp-deskjet-2921e"] = E("i-lowcost", "HP DeskJet 2921e", "Multifonction A4 · Wi-Fi · compacte", "L'appoint à 60 €",
+    "Une multifonction d'appoint simple et compacte, avec Wi-Fi double bande, testée par Test-Achats et Which?. Pour quelques pages de temps en temps.",
+    ["Prix bas", "Wi-Fi double bande, impression depuis le smartphone", "Compacte (3,4 kg)"],
+    ["Recto-verso manuel seulement", "Cartouche couleur unique (trois couleurs)", "Bac de 60 feuilles, lente (7,5 pages/min)"],
+    ("Jet d'encre (cartouches)", "Impression · copie · scan"),
+    [ta("hp-deskjet-2921", 125179), wh("hp-deskjet-2921")],
+    None, "", 59.98,
+    "Vous imprimez quelques pages par mois et voulez une petite imprimante sans fil.",
+    "Vous imprimez chaque semaine ou en recto-verso : une imprimante à réservoirs sera plus économique.",
+    ed=dict(url="https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-deskjet-2921e.html",
+            name="Imprimante Hp Deskjet 2921e Multifonction eligible Instant Ink", price=59.98, ean="0198828789815", edid="10013176"))
 IMP["brother-dcp-j1360dw"] = E("i-lowcost", "Brother DCP-J1360DW", "Multifonction A4 · recto-verso · Wi-Fi", "L'alternative Brother",
     "Une multifonction jet d'encre compacte de Brother avec recto-verso, testée par Test-Achats et Que Choisir. Délai de livraison de quelques semaines.",
     ["Recto-verso automatique", "Compacte", "Wi-Fi"],
