@@ -1,0 +1,12 @@
+/* v10.2 — prix exact Electro Dépôt (flux produits officiel), avec sa date de relevé */
+  .offer.has-p{grid-template-columns:104px 1fr auto auto;}
+  .featured .offer.has-p{grid-template-columns:92px 1fr auto auto;}
+  .offer .o-p{text-align:right;line-height:1.15;}
+  .offer .o-p small{display:block;font-size:0.58rem;font-weight:500;color:var(--ink-muted);letter-spacing:0.01em;}
+  @media (max-width:640px){
+    .offer.has-p{grid-template-columns:84px 1fr auto auto;}
+  }
+  @media (max-width:420px){
+    .offer.has-p{grid-template-columns:1fr auto auto;}
+    .offer.has-p .o-go{display:none;}
+  }

@@ -701,7 +701,8 @@
      "name": "Pc Portable Hp 17,3'' Omnibook 3 17-dp0046nfx-r5/8/256go/argent",
      "cfg": "8 Go · 256 Go",
      "ean": "0821844416990",
-     "edid": "10019070"
+     "edid": "10019070",
+     "releve": "2026-10-12"
     }
    ],
    "img": "omnibook3-17.webp",
@@ -5911,6 +5912,16 @@
      "url": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable/lenovo_ideapad_s3_ath_8_128.html",
      "name": "Lenovo IdeaPad Slim 3 15,6\" Full HD AMD Athlon™ 8 Go RAM 128 Go SSD Gris arctique",
      "cfg": "8 Go · 128 Go"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 579.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-lenovo.html",
+     "name": "Pc Portable Lenovo 15,6'' Ip Slim 3 15amn8-r5/8/512go/gris",
+     "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go",
+     "ean": "0199275183737",
+     "edid": "10018724",
+     "releve": "2026-10-12"
     }
    ],
    "img": "ideapad-slim3.webp",
@@ -6065,6 +6076,16 @@
      "url": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable/acer_cb315_540_8_128.html",
      "name": "Acer Pack Chromebook 315 CB315-8HT-85FQ 15,6” Ecran tactile MediaTek Kompanio 540 8 Go RAM 128 Go eMMC Argent",
      "cfg": "8 Go · 128 Go"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 299.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fchromebook-acer-15-cb315-8h-88m3-4-64go.html",
+     "name": "Chromebook Acer 15,6'' Cb315-8h-88m3-4/64go",
+     "cfg": "4 Go · 64 Go",
+     "ean": "4711721178829",
+     "edid": "10018899",
+     "releve": "2026-10-12"
     }
    ],
    "img": "chromebook-315.webp",
@@ -6498,7 +6519,8 @@
      "name": "Chromebook Lenovo 14''ip Slim 3 Cb 14m868-4go/128go",
      "cfg": "4 Go · 128 Go",
      "ean": "0199275252853",
-     "edid": "10018811"
+     "edid": "10018811",
+     "releve": "2026-10-12"
     }
    ],
    "img": "ideapad-slim3-cb14.webp",
@@ -15994,6 +16016,16 @@
      "name": "Canon SELPHY CP1500 Imprimante Photo Portable WiFi + Ensemble de Papier",
      "cfg": "",
      "asin": "B0DZDXF47Q"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 118.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-nomade-canon-selphy-cp1500-noire.html",
+     "name": "Imprimante Photo Wifi Canon Selphy Cp1500 Noire - Impression Format Photo (10x15cm)",
+     "cfg": "",
+     "ean": "4549292194692",
+     "edid": "10018462",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -16036,7 +16068,7 @@
      }
     ]
    },
-   "prix": 133.32,
+   "prix": 118.98,
    "img": "canon-selphy-cp1500.webp",
    "rating": null,
    "nrev": 0
@@ -16682,6 +16714,16 @@
      "name": "Canon PIXMA TS6550i – Imprimante Jet d'Encre Multifonction Wi-FI – Impression Rapide Recto Verso",
      "cfg": "",
      "asin": "B0GT28CL51"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 59.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts6550i.html",
+     "name": "Imprimante Canon Ts6550i Multifonction",
+     "cfg": "",
+     "ean": "4549292247985",
+     "edid": "10020364",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -16715,7 +16757,7 @@
      }
     ]
    },
-   "prix": 74.99,
+   "prix": 59.98,
    "img": "canon-pixma-ts6550i.webp",
    "rating": null,
    "nrev": 0
@@ -16748,6 +16790,16 @@
      "name": "Epson Expression Home XP-2200 | Imprimante 3-en-1 - Impression, Numérisation, Copie - WiFi",
      "cfg": "",
      "asin": "B0B8X457PN"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 48.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-2205.html",
+     "name": "Imprimante Epson Expression Xp-2205 Multifonction",
+     "cfg": "version XP-2205",
+     "ean": "8715946702797",
+     "edid": "975904",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -16809,6 +16861,16 @@
      "name": "Canon PIXMA TS4151i Imprimante Jet d'encre Multifonction WiFi Compacte",
      "cfg": "",
      "asin": "B0FY6RNQXL"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 69.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts4150i-blanc.html",
+     "name": "Imprimante Canon Ts4150i Multifonction",
+     "cfg": "version TS4150i",
+     "ean": "4549292248067",
+     "edid": "10016130",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -16933,6 +16995,16 @@
      "name": "Canon PIXMA TR4755i Imprimante Jet d'encre Multifonction",
      "cfg": "",
      "asin": "B0FJSLRQMK"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 79.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-tr4755i.html",
+     "name": "Imprimante Canon Tr4755i Multifonction",
+     "cfg": "",
+     "ean": "4549292237368",
+     "edid": "10017501",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -16998,6 +17070,16 @@
      "name": "Canon PIXMA TS7550i – Imprimante compacte Jet d'Encre Multifonction Wi-FI 2,4/5 GHz",
      "cfg": "",
      "asin": "B0GT281VRC"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 84.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts7550i.html",
+     "name": "Imprimante Canon Ts7550i Multifonction",
+     "cfg": "",
+     "ean": "4549292247947",
+     "edid": "10020365",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17123,7 +17205,8 @@
      "name": "Ecran Pc Gamer Incurve 34'' Lenovo Legion R34w-30 180hz/ Uwqhd",
      "cfg": "",
      "ean": "0198154304485",
-     "edid": "10012839"
+     "edid": "10012839",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17190,7 +17273,8 @@
      "name": "Ecran Pc Gamer 27'' Aoc Q27g42ze- 0,3ms /240hz/qhd",
      "cfg": "",
      "ean": "4038986182980",
-     "edid": "10010548"
+     "edid": "10010548",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17251,7 +17335,8 @@
      "name": "Imprimante Epson Ecotank Et-2951 Multifonction À Reservoir",
      "cfg": "",
      "ean": "8715946737331",
-     "edid": "10013177"
+     "edid": "10013177",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17318,7 +17403,8 @@
      "name": "Imprimante Hp Laser Jet Pro 3302sdw",
      "cfg": "",
      "ean": "0196786388484",
-     "edid": "10003125"
+     "edid": "10003125",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17385,7 +17471,8 @@
      "name": "Imprimante Epson Xp-3205 Multifonction 3 En 1",
      "cfg": "",
      "ean": "8715946702759",
-     "edid": "10006180"
+     "edid": "10006180",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17446,7 +17533,8 @@
      "name": "Imprimante Hp Envy 6132e Multifonction Instant Ink 6 Mois Gratuits",
      "cfg": "",
      "ean": "0197498438948",
-     "edid": "10002597"
+     "edid": "10002597",
+     "releve": "2026-10-12"
     }
    ],
    "press": {
@@ -17513,7 +17601,8 @@
      "name": "Imprimante Hp Deskjet 2921e Multifonction eligible Instant Ink",
      "cfg": "",
      "ean": "0198828789815",
-     "edid": "10013176"
+     "edid": "10013176",
+     "releve": "2026-10-12"
     }
    ],
    "press": {

@@ -20,7 +20,7 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main10.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -101,6 +101,32 @@ MERCHANT_CLS = {"Amazon": "amazon", "Darty": "darty", "Fnac": "fnac", "Acer Stor
 # Ordre de la liste = ordre des boutons marchands : Electro Dépôt (Effinity, validé le 12/10/2026) d'abord, puis Amazon.
 AFFILIATED = ["Electro Dépôt", "Amazon"]
 AFF_TXT = " et ".join(sorted(AFFILIATED))
+
+
+# Marchands dont le prix exact est affiché (prix lu dans un flux officiel, avec sa date) : Electro Dépôt (flux
+# Effinity, effinity.py). Les autres marchands restent sans prix (comparateur en veille depuis le 05/10/2026).
+PRIX_EXACTS = {"Electro Dépôt"}
+
+
+def prix_exact(o):
+    return o["m"] in PRIX_EXACTS and o.get("dispo", True) and o.get("price")
+
+
+def date_releve(o):
+    r = o.get("releve") or ""
+    return f"{r[8:10]}/{r[5:7]}/{r[:4]}" if len(r) == 10 else ""
+
+
+def o_prix(o):
+    """Bloc prix d'une offre (seulement pour les marchands à prix exact)."""
+    if not prix_exact(o):
+        return ""
+    dt = date_releve(o)
+    return f'<span class="o-p">{euro2(o["price"])}<small>{"prix du " + dt if dt else "prix relevé"}</small></span>'
+
+
+def cta_txt(o):
+    return f'{euro2(o["price"])} chez {E(o["m"])} →' if prix_exact(o) else f'Voir chez {E(o["m"])} →'
 
 
 def rel_m(m):
@@ -494,7 +520,7 @@ FAQ_L = [
     ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage. Ensuite, les ordinateurs sont classés par note presse. Ceux dont les tests ne donnent pas de note chiffrée viennent en dernier."),
     ("Faut-il 16 ou 32 Go de RAM en 2026 ?", "16 Go reste le minimum confortable pour de la bureautique ou du gaming courant. Pour la création ou pour garder la machine plusieurs années, 32 Go évite de la remplacer prématurément."),
     ("Pourquoi certains ordinateurs n'ont pas de note presse ?", "Tous les ordinateurs de la sélection ont été testés par au moins un média. Mais certains tests ne donnent pas de note chiffrée : dans ce cas nous l'indiquons (bulle en pointillés) et nous donnons le lien vers le test plutôt que d'inventer une note."),
-    ("D'où viennent les prix ?", f"Nous affichons un prix indicatif par ordinateur : le plus bas que nous avons constaté chez les marchands (Amazon, Darty, Acer Store, Geekom, Electro Dépôt) en {PRIX_DATE}, arrondi à la dizaine d'euros. Il sert à situer la machine, pas à comparer les marchands : le prix a pu changer depuis et la configuration exacte peut différer d'un marchand à l'autre. Seul le prix affiché par le marchand fait foi."),
+    ("D'où viennent les prix ?", f"Nous affichons un prix indicatif par ordinateur : le plus bas que nous avons constaté chez les marchands (Amazon, Darty, Acer Store, Geekom, Electro Dépôt) en {PRIX_DATE}, arrondi à la dizaine d'euros. Il sert à situer la machine, pas à comparer les marchands : le prix a pu changer depuis et la configuration exacte peut différer d'un marchand à l'autre. Pour Electro Dépôt, nous affichons en plus son prix exact, tiré de son flux produits officiel, avec la date du relevé. Seul le prix affiché par le marchand fait foi."),
 ]
 
 
@@ -644,7 +670,7 @@ def pick_block(fam, c, items, root):
       <div class="pick-buy">
         <div class="press-big">{press_big(d)}</div>
         <div class="pick-price"><b>{d['price_txt']}</b><span>{ind_txt(fam)}</span></div>
-        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a>
+        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
         <a class="see-all" href="{root}{d['purl']}">Avis et tests détaillés →</a>
       </div>
     </div>
@@ -697,8 +723,8 @@ def usage_page(fam, c):
         st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
         wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
         offs = "".join(
-            f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
-            f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><span class="o-go">Voir →</span></a>' for o in d["offers"])
+            f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}{" has-p" if prix_exact(o) else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
+            f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span>{o_prix(o)}<span class="o-go">Voir →</span></a>' for o in d["offers"])
         offers_html = f'<div class="offers"><span class="k">Où l\'acheter</span>{offs}<p class="o-note">La configuration peut différer d\'un marchand à l\'autre : vérifiez la fiche avant d\'acheter.</p></div>'
         rating = f'{fr(d["r"])} ★ <small>({d["nrev"]})</small>' if d["r"] > 0 else ""
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
@@ -711,7 +737,7 @@ def usage_page(fam, c):
   <div class="tc-ref">{E(d['ref'])}</div>
   <p class="tc-verdict">{E(d['verdict'])}</p>
   <div class="tc-bottom"><div class="ch-score{'' if pr else ' none'}">{(f'<b>{fr(pr["avg"])}</b><small>/10</small><em>{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse{gam}</em>') if pr else f'<b>Testé</b><em>{ts["tests"]} test{"s" if ts["tests"] > 1 else ""}, sans note chiffrée</em>'}</div>{few(d, "few tc-few")}<span class="tc-price">{d['price_txt']}<small>prix indicatif</small></span></div>
-  <div class="tc-actions"><a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a><a class="see-all" href="{root}{d['purl']}">Avis et tests →</a></div>
+  <div class="tc-actions"><a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a><a class="see-all" href="{root}{d['purl']}">Avis et tests →</a></div>
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
               else f'<img class="hero-badge" src="../../assets/img/badge-{c["badge"]}.webp" alt="" width="190" height="190">')
@@ -841,8 +867,8 @@ def product_page(fam, c, rank, d, items):
     st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
     wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
     offs = "".join(
-        f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
-        f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span><span class="o-go">Voir chez {E(o["m"])} →</span></a>' for o in d["offers"])
+        f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}{" has-p" if prix_exact(o) else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
+        f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span>{o_prix(o)}<span class="o-go">Voir chez {E(o["m"])} →</span></a>' for o in d["offers"])
     specs = "".join(f"<div class=\"mini{' wide' if k.startswith(('Config', 'Caract')) else ''}\"><span class=\"k\">{k}</span><span class=\"v\">{v}</span></div>" for k, v in [
         ("Configuration de référence" if fam["key"] in ("laptop", "desktop") else "Caractéristiques principales", E(d["ref"])), (fam["m_labels"][0], E(d["m"][0])), (fam["m_labels"][1], E(d["m"][1])),
         ("Avis clients Darty", f'{fr(d["r"])} ★ ({d["nrev"]} avis)' if d["r"] > 0 else "")] if v and v != "n.c.")
@@ -892,7 +918,7 @@ def product_page(fam, c, rank, d, items):
       {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
       <div class="press-big">{press_big(d)}</div>
       <div class="pick-price"><b>{d['price_txt']}</b><span>{ind_txt(fam)}</span></div>
-      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a>
+      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
     </div>
   </section>
 
@@ -916,7 +942,7 @@ def product_page(fam, c, rank, d, items):
 
   <section class="section p-sec" id="prix">
     <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {ind_txt(fam)}</div></div>
-    <div class="offers p-offers">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
+    <div class="offers p-offers">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Le prix Electro Dépôt est celui de son flux produits officiel à la date indiquée ; seul le prix affiché par le marchand fait foi. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
     <div class="p-specs">{specs}</div>
   </section>
 
@@ -935,7 +961,7 @@ def product_page(fam, c, rank, d, items):
   <section class="section p-sec" id="faq" style="border-bottom:none;">
     <div class="section-head"><h2>Questions fréquentes</h2><div class="tag">FAQ</div></div>
     <div class="faq-list">{faq_html}</div>
-    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">Voir chez {E(best['m'])} →</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
+    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
   </section>
 """
     note_t = f' ({fr(pr["avg"])}/10 presse)' if pr else ""
@@ -1145,7 +1171,7 @@ methode = f"""
     <h2>Comment lire le graphe à bulles</h2>
     <p>Chaque bulle est un produit. <b>Horizontalement</b> : la note presse. <b>Verticalement</b> : le prix indicatif. <b>Taille</b> : le nombre de notes (une grosse bulle = une note solide). <b>En pointillés</b>, à gauche : les produits testés mais sans note chiffrée. Les bonnes affaires se trouvent dans la <b>zone jaune, en bas à droite</b>.</p>
     <h2>Prix, photos et configurations</h2>
-    <p>Le prix indicatif est le plus bas que nous avons constaté chez Amazon, Darty, sur l'Acer Store, chez Geekom ou chez Electro Dépôt (pour les écrans et les imprimantes : sur Amazon ou chez Electro Dépôt, en précisant quand le produit n'est proposé que par un vendeur tiers sur Amazon), arrondi à la dizaine d'euros ; le mois du constat est indiqué à côté. Nous le revoyons environ une fois par mois. Il situe la machine mais ne remplace pas une comparaison : <b>seul le prix affiché par le marchand fait foi</b>. Nous ne comparons pas, pour l'instant, les prix marchand par marchand : nous indiquons seulement où la machine est en vente. Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du lien, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
+    <p>Le prix indicatif est le plus bas que nous avons constaté chez Amazon, Darty, sur l'Acer Store, chez Geekom ou chez Electro Dépôt (pour les écrans et les imprimantes : sur Amazon ou chez Electro Dépôt, en précisant quand le produit n'est proposé que par un vendeur tiers sur Amazon), arrondi à la dizaine d'euros ; le mois du constat est indiqué à côté. Nous le revoyons environ une fois par mois. Il situe la machine mais ne remplace pas une comparaison : <b>seul le prix affiché par le marchand fait foi</b>. Nous ne comparons pas, pour l'instant, les prix marchand par marchand : nous indiquons seulement où la machine est en vente. Exception : Electro Dépôt, dont nous affichons le prix exact, lu dans son flux produits officiel et mis à jour chaque semaine (la date du relevé est indiquée à côté). Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du lien, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
     <h2>Avis clients, poids et autonomie</h2>
     <p>La note « avis clients Darty » est celle affichée par Darty lors de notre dernier relevé ; nous ne l'affichons qu'à partir de trois avis. Poids et autonomie sont ceux annoncés par le constructeur, sauf mention « test ». « n.c. » : non communiqué.</p>
     <h2>Notre indépendance</h2>
