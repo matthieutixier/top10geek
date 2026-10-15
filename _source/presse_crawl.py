@@ -17,6 +17,16 @@ Installation (une fois) :  pip install crawl4ai  &&  crawl4ai-setup
       _source/data/nouveaux_tests_brouillon.json  (média, date, note sur 10 si elle est lisible dans les données structurées de la page).
       Puis : python3 _source/ajout_tests.py _source/data/nouveaux_tests_brouillon.json   (aperçu), puis --apply.
 
+  python3 _source/presse_crawl.py confirmer _source/data/confirmations.json [--apply]
+      Relevé à la source fait à la main (page du média lue dans un navigateur) : confirme la note et la date de chaque test.
+
+  python3 _source/presse_crawl.py etat [--famille ecran]
+      Avancement du relevé à la source : notes confirmées sur la page du média / notes chiffrées.
+
+Relevé à la source (audit SEO du 10/10/2026) : « appliquer » marque aussi chaque note confirmée par la page du média (JSON-LD)
+avec « verifie » (date), complète la date du test et retire les paramètres de suivi des adresses (utm_source=rss…). Quand toutes
+les notes chiffrées d'un produit sont confirmées, la mention « Synthèse CommentChoisir » disparaît (gardée dans « src_initiale »).
+
 Règles : jamais de note inventée (une note n'est reprise automatiquement que si la page la déclare en JSON-LD ; une note lue dans le
 texte est seulement suggérée, à vérifier) ; robots.txt respecté ; un captcha ou un blocage n'est ni résolu ni contourné : la page est
 signalée « bloquée » et le site concerné est laissé de côté pour la suite de la passe ; 6 sites en parallèle au plus, pages d'un même site l'une après l'autre avec une pause.
@@ -45,11 +55,13 @@ def charger():
     return json.loads(DATA.read_text(encoding="utf-8"))
 
 
-def rank_key(it):
+sys.path.insert(0, str(SRC))
+from classement import cle, moyenne_usage  # noqa: E402  (règle de classement partagée avec le site)
+
+
+def rank_key(it, moy):
     pr = it["press"]
-    top = 0 if it["badge"] == "Le choix de la bande" else 1
-    return (top, 0 if pr["avg"] is not None else 1, -(pr["avg"] or 0), -(pr["n"] if pr["avg"] is not None else pr["tests"]),
-            float(it.get("prix") or 0))
+    return cle(it["badge"], pr["avg"], pr["n"], pr["tests"], float(it.get("prix") or 0), moy)
 
 
 def meilleurs(d, famille, par_usage, ids=None):
@@ -59,8 +71,12 @@ def meilleurs(d, famille, par_usage, ids=None):
     cats = defaultdict(list)
     for pid, it in d["items"].items():
         if FAMILLE_DE_CAT(it["cat"]) == famille:
-            cats[it["cat"]].append((rank_key(it), pid))
-    return [pid for lst in cats.values() for _, pid in sorted(lst)[:par_usage]]
+            cats[it["cat"]].append(pid)
+    out = []
+    for lst in cats.values():
+        moy = moyenne_usage([d["items"][p]["press"]["avg"] for p in lst])
+        out += sorted(lst, key=lambda p: rank_key(d["items"][p], moy))[:par_usage]
+    return out
 
 
 def medias_par_hote(d):
@@ -233,7 +249,7 @@ def cmd_verifier(a):
                     etat = "ok (note non lisible automatiquement)" if stocke is not None else "ok"
             compte[etat.split(" (")[0]] += 1
             rapport.append(dict(id=pid, media=n["src"], url=u, note_site=stocke, etat=etat, detail=detail, http=r.get("http"),
-                                note_page=r.get("score"), methode=r.get("methode")))
+                                note_page=r.get("score"), methode=r.get("methode"), date_page=r.get("date", "")))
     SORTIE.mkdir(exist_ok=True)
     out = SORTIE / (a.sortie or "presse_rapport.json")
     out.write_text(json.dumps(dict(date=datetime.datetime.now().isoformat(timespec="seconds"), famille=a.famille, lignes=rapport),
@@ -315,6 +331,10 @@ def cmd_appliquer(a):
     for pid in sorted(touches, key=lambda p: (d["items"][p]["press"]["avg"] or 0) - (avant[p] or 0)):
         av, ap = avant[pid], d["items"][pid]["press"]["avg"]
         print(f"   {d['items'][pid]['short'][:34]:34s} {'—' if av is None else f'{av:.2f}':>5} -> {ap:.2f}")
+    # Relevé à la source : note confirmée sur la page du média (JSON-LD), date du test, adresse sans paramètre de suivi.
+    confirmes, dates, propres = releve_source(d, lignes, sources, jour)
+    print(f"Relevé à la source : {confirmes} note(s) confirmée(s), {dates} date(s) complétée(s), {propres} adresse(s) nettoyée(s)")
+    faits += confirmes + dates + propres
     if a.apply and faits:
         DATA.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         for fam, txt in sources.items():
@@ -322,6 +342,108 @@ def cmd_appliquer(a):
         print("data.json et catalogues mis à jour. Reste : python3 _source/gen10.py")
     elif faits:
         print("Aperçu seulement : relancer avec --apply.")
+
+
+SUIVI = re.compile(r"([?&])(utm_[a-z]+|xtor|at_medium|at_campaign|fbclid|gclid)=[^&#]*&?", re.I)
+
+
+def url_propre(u):
+    """Adresse du test sans paramètre de suivi (utm_source=rss…)."""
+    v = SUIVI.sub(lambda m: m.group(1), u)
+    while SUIVI.search(v):
+        v = SUIVI.sub(lambda m: m.group(1), v)
+    return v.rstrip("?&")
+
+
+def note_a_la_source(n):
+    """Une note est « relevée à la source » si sa valeur a été confirmée sur la page du média (champ verifie)."""
+    return n["src"] in SANS_NOTE or n["score"] is None or bool(n.get("verifie"))
+
+
+def maj_statut_source(it, jour):
+    """Quand toutes les notes chiffrées d'un produit sont confirmées à la source, la mention de l'agrégateur disparaît."""
+    pr = it["press"]
+    if pr["notes"] and all(note_a_la_source(n) for n in pr["notes"]):
+        if pr.get("src") and pr["src"][0]:
+            pr["src_initiale"] = pr["src"]
+        pr["src"] = ["", ""]
+        pr.setdefault("releve_source", jour)
+
+
+def releve_source(d, lignes, sources, jour):
+    confirmes = dates = propres = 0
+    for l in lignes:
+        it = d["items"].get(l["id"])
+        n = next((x for x in (it or {}).get("press", {}).get("notes", []) if x.get("url") == l["url"]), None)
+        if not n:
+            continue
+        ok_json = str(l.get("methode") or "").startswith("JSON-LD") and l.get("note_page") is not None
+        if ok_json and n["score"] is not None and abs(n["score"] - round(float(l["note_page"]), 1)) < 0.05 and not n.get("verifie"):
+            n["verifie"] = jour; confirmes += 1
+        if l.get("date_page") and not n.get("date") and l["etat"].startswith(("ok", "ÉCART", "NOTE")):
+            n["date"] = l["date_page"]; dates += 1
+    for it in d["items"].values():
+        for n in it["press"]["notes"]:
+            u = n.get("url") or ""
+            v = url_propre(u)
+            if v != u:
+                n["url"] = v; propres += 1
+                fam = FAMILLE_DE_CAT(it["cat"])
+                if fam in sources:
+                    sources[fam] = sources[fam].replace(u, v)
+        maj_statut_source(it, jour)
+    return confirmes, dates, propres
+
+
+def cmd_confirmer(a):
+    """Confirmation manuelle (page lue à la main dans un navigateur) : _source/data/confirmations.json
+    [{"id", "url", "score" (note sur 10 lue sur la page, ou null), "date": "AAAA-MM-JJ"}]."""
+    d = charger()
+    jour = datetime.datetime.now().strftime("%d/%m/%Y")
+    sources = {k: v.read_text(encoding="utf-8") for k, v in CATALOGUES.items()}
+    faits = 0
+    for e in json.loads(Path(a.fichier).read_text(encoding="utf-8")):
+        it = d["items"].get(e["id"])
+        n = next((x for x in (it or {}).get("press", {}).get("notes", []) if url_propre(x.get("url") or "") == url_propre(e["url"])), None)
+        if not n:
+            print(f"!! introuvable : {e['id']} {e['url']}"); continue
+        if e.get("date") and not n.get("date"):
+            n["date"] = e["date"]
+        if n["score"] is not None and e.get("score") is not None and abs(n["score"] - float(e["score"])) >= 0.05:
+            print(f"écart {e['id'][:30]:30s} {n['src'][:20]:20s} {n['score']} -> {e['score']} (lu à la main)")
+            n.update(avant=n["score"], score=round(float(e["score"]), 1), corrige=jour)
+            fam = FAMILLE_DE_CAT(it["cat"])
+            if fam in sources:
+                motif = re.compile(r'(,\s*)(None|\d+(?:\.\d+)?)(\s*,\s*["\']' + re.escape(n["url"]) + r'["\'])')
+                sources[fam] = motif.sub(lambda m: f"{m.group(1)}{n['score']}{m.group(3)}", sources[fam])
+            recalc(it["press"])
+        n["verifie"] = jour
+        maj_statut_source(it, jour)
+        faits += 1
+    print(f"{faits} note(s) confirmée(s) à la main")
+    if a.apply and faits:
+        DATA.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        for fam, txt in sources.items():
+            CATALOGUES[fam].write_text(txt, encoding="utf-8")
+        print("data.json et catalogues mis à jour. Reste : python3 _source/gen10.py")
+
+
+def cmd_etat(a):
+    """État du relevé à la source pour une rubrique : notes confirmées sur la page du média / notes chiffrées."""
+    d = charger()
+    tot = ok = 0
+    reste = []
+    for pid, it in d["items"].items():
+        if a.famille and FAMILLE_DE_CAT(it["cat"]) != a.famille:
+            continue
+        sc = [n for n in it["press"]["notes"] if n["score"] is not None and n["src"] not in SANS_NOTE]
+        v = [n for n in sc if n.get("verifie")]
+        tot += len(sc); ok += len(v)
+        if len(v) < len(sc):
+            reste.append((len(sc) - len(v), pid, it["press"].get("src", ["", ""])[0]))
+    print(f"{ok}/{tot} notes confirmées à la source ; {len(reste)} produit(s) à finir")
+    for k, pid, s in sorted(reste, reverse=True)[:a.top]:
+        print(f"  {pid:32s} {k} note(s) à confirmer  {s}")
 
 
 def main():
@@ -339,7 +461,17 @@ def main():
     l = sp.add_parser("lire")
     l.add_argument("urls", nargs="+")
     l.add_argument("--id", required=True, help="identifiant du produit dans data.json")
+    c = sp.add_parser("confirmer")
+    c.add_argument("fichier")
+    c.add_argument("--apply", action="store_true")
+    e = sp.add_parser("etat")
+    e.add_argument("--famille", choices=["portable", "bureau", "ecran", "imprimante"])
+    e.add_argument("--top", type=int, default=15)
     a = ap.parse_args()
+    if a.cmd == "confirmer":
+        return cmd_confirmer(a)
+    if a.cmd == "etat":
+        return cmd_etat(a)
     if a.cmd == "verifier":
         cmd_verifier(a)
     elif a.cmd == "appliquer":
