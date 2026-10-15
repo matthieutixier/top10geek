@@ -8,3 +8,20 @@
   .p-synth h3{font-size:1.05rem;margin:0 0 8px;}
   .p-synth p{margin:0 0 10px;line-height:1.6;}
   .p-synth .p-synth-meta{font-size:0.8rem;color:var(--ink-muted);margin:0;}
+
+/* largeurs en em plutôt qu'en ch : le « ch » dépend de la police chargée, et changeait la coupure des titres
+   entre la police de secours et la police du site (décalage au chargement, CLS). Valeurs = ancien Nch × largeur du 0. */
+  .intro h1{max-width:11.0em;}
+  .usage-hero h1{max-width:13.06em;}
+  .home-hero h1{max-width:9.06em;}
+  @media (min-width:1000px){ .intro h1{max-width:10.6em;} .usage-hero h1{max-width:12.74em;} .home-hero h1{max-width:8.65em;} }
+  .intro p{max-width:39.5em;}
+  .comparator-sub{max-width:43.9em;}
+  .section-intro{max-width:43.9em;}
+  .disclosure{max-width:51.2em;}
+  .usage-hero p{max-width:45.4em;}
+  .guide-intro{max-width:52.7em;}
+  .home-hero p{max-width:38.1em;}
+  .p-verdict{max-width:43.9em;}
+  .p-cons{max-width:52.7em;}
+  .bf-note{max-width:51.2em;}

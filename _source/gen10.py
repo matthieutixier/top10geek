@@ -477,7 +477,8 @@ FONTS_CSS = """@font-face{font-family:"Bricolage Grotesque";font-style:normal;fo
 @font-face{font-family:"IBM Plex Mono";font-style:normal;font-display:swap;font-weight:500;src:url(/assets/fonts/ibm-plex-mono-500.woff2) format("woff2");}
 @font-face{font-family:"IBM Plex Mono";font-style:normal;font-display:swap;font-weight:600;src:url(/assets/fonts/ibm-plex-mono-600.woff2) format("woff2");}
 @font-face{font-family:"IBM Plex Mono";font-style:normal;font-display:swap;font-weight:700;src:url(/assets/fonts/ibm-plex-mono-700.woff2) format("woff2");}
-@font-face{font-family:"Bricolage Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:99.3%;ascent-override:93.7%;descent-override:27.2%;line-gap-override:0%;}
+@font-face{font-family:"Bricolage Fallback";font-weight:100 599;src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:99.3%;ascent-override:93.7%;descent-override:27.2%;line-gap-override:0%;}
+@font-face{font-family:"Bricolage Fallback";font-weight:600 900;src:local("Arial Bold"),local("Arial-BoldMT"),local("Liberation Sans Bold"),local("Helvetica Bold");size-adjust:98%;ascent-override:95%;descent-override:27.6%;line-gap-override:0%;}
 @font-face{font-family:"Jakarta Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:103.9%;ascent-override:99.9%;descent-override:21.4%;line-gap-override:0%;}
 @font-face{font-family:"Plex Fallback";src:local("Courier New"),local("Liberation Mono"),local("Courier");size-adjust:100%;ascent-override:102.5%;descent-override:27.5%;line-gap-override:0%;}
 """
