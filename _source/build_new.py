@@ -80,17 +80,20 @@ if __name__ == "__main__":
                         e = next((x for x in extra if x["url"] == n["url"]), None)
                         if e:
                             n.update(date=e.get("date", ""), ajout=e["ajout"])
-            # traces des vérifications presse (presse_crawl.py : « avant », « corrige ») et dates connues : conservées
+            # traces des vérifications presse (presse_crawl.py : « avant », « corrige », « verifie ») et dates connues : conservées
             if old and old.get("press"):
                 anciens = {n["url"]: n for n in old["press"]["notes"]}
                 for n in new["press"]["notes"]:
                     o = anciens.get(n["url"])
                     if o and o.get("score") == n["score"]:
-                        for f in ("avant", "corrige"):
+                        for f in ("avant", "corrige", "verifie"):
                             if f in o and f not in n:
                                 n[f] = o[f]
                         if o.get("date") and not n.get("date"):
                             n["date"] = o["date"]
+            # synthèse rédigée (syntheses.py) : conservée
+            if old and old.get("synthese"):
+                new["synthese"] = old["synthese"]
             data["items"][pid] = new
     # écrans et imprimantes retirés des catalogues : retirés aussi de data.json (les ordinateurs ne sont pas concernés)
     retires = [k for k, v in data["items"].items() if v["cat"][:2] in ("e-", "i-") and k not in ECR and k not in IMP]

@@ -186,7 +186,7 @@ for pid, n in DATA["items"].items():
              p=float(n.get("prix") or min(o["price"] for o in offers)),
              r=(n["rating"] if n.get("rating") and n.get("nrev", 0) >= 3 else -1), nrev=n.get("nrev", 0),
              verdict=n["verdict"], strengths=n["strengths"], weak=n["weak"], m=tuple(n["m"]),
-             press=rated, tests=tests, offers=offers, img=n.get("img"), configs=None, url=offers[0]["url"])
+             press=rated, tests=tests, offers=offers, img=n.get("img"), configs=None, url=offers[0]["url"], synthese=n.get("synthese"))
     d["slug"] = c["slug"]; d["family"] = c["family"]; d["fslug"] = c["fslug"]
     d["from"] = len(offers) > 1
     d["price_txt"] = "env. " + euro_ind(d["p"])
@@ -408,8 +408,14 @@ def nav_html(root, active):
 
 
 PERSON_ID = DOMAIN + "/a-propos#matthieu-tixier"
-ORG = {"@type": "Organization", "@id": DOMAIN + "/#organisation", "name": "Top 10 Geek", "url": DOMAIN + "/",
-       "logo": DOMAIN + "/assets/img/logo-face.png", "email": "contact@top10geek.fr", "founder": {"@id": PERSON_ID}}
+ORG = {"@type": "Organization", "@id": DOMAIN + "/#organisation", "name": "Top 10 Geek", "alternateName": ["Top10Geek", "top10geek.fr"],
+       "url": DOMAIN + "/", "description": "Comparatif high-tech francophone indépendant : synthèse des tests de la presse en une note sur 10.",
+       "logo": {"@type": "ImageObject", "@id": DOMAIN + "/#logo", "url": DOMAIN + "/assets/img/logo-face.png", "width": 192, "height": 192},
+       "image": {"@id": DOMAIN + "/#logo"}, "email": "contact@top10geek.fr", "founder": {"@id": PERSON_ID}, "foundingDate": "2026",
+       "areaServed": "FR", "knowsLanguage": "fr",
+       "publishingPrinciples": DOMAIN + "/methode", "ownershipFundingInfo": DOMAIN + "/a-propos",
+       # profils officiels de la marque ; en ajouter un ici dès qu'il existe (LinkedIn, X…), même nom « Top 10 Geek »
+       "sameAs": ["https://www.reddit.com/user/top10geek"]}
 PERSON = {"@type": "Person", "@id": PERSON_ID, "name": "Matthieu Tixier", "url": DOMAIN + "/a-propos",
           "jobTitle": "Éditeur de Top 10 Geek", "worksFor": {"@id": DOMAIN + "/#organisation"}}
 
@@ -463,6 +469,85 @@ def indexable(d):
     return bool(d["press"]) and d["press"]["n"] >= 2
 
 
+# ---------------------------------------------------------------- Vitesse d'affichage (audit SEO du 10/10/2026)
+# Polices hébergées sur le site (assets/fonts, fichiers @fontsource, sous-ensemble latin), polices de secours ajustées
+# (size-adjust calculé sur Liberation Sans / Mono, métriques d'Arial et de Courier New) pour limiter le décalage au chargement.
+FONTS_CSS = """@font-face{font-family:"Bricolage Grotesque";font-style:normal;font-display:swap;font-weight:200 800;font-stretch:100%;src:url(/assets/fonts/bricolage-grotesque.woff2) format("woff2-variations"),url(/assets/fonts/bricolage-grotesque.woff2) format("woff2");}
+@font-face{font-family:"Plus Jakarta Sans";font-style:normal;font-display:swap;font-weight:200 800;src:url(/assets/fonts/plus-jakarta-sans.woff2) format("woff2-variations"),url(/assets/fonts/plus-jakarta-sans.woff2) format("woff2");}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-display:swap;font-weight:500;src:url(/assets/fonts/ibm-plex-mono-500.woff2) format("woff2");}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-display:swap;font-weight:600;src:url(/assets/fonts/ibm-plex-mono-600.woff2) format("woff2");}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-display:swap;font-weight:700;src:url(/assets/fonts/ibm-plex-mono-700.woff2) format("woff2");}
+@font-face{font-family:"Bricolage Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:99.3%;ascent-override:93.7%;descent-override:27.2%;line-gap-override:0%;}
+@font-face{font-family:"Jakarta Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica");size-adjust:103.9%;ascent-override:99.9%;descent-override:21.4%;line-gap-override:0%;}
+@font-face{font-family:"Plex Fallback";src:local("Courier New"),local("Liberation Mono"),local("Courier");size-adjust:100%;ascent-override:102.5%;descent-override:27.5%;line-gap-override:0%;}
+"""
+
+
+def build_css():
+    css = FONTS_CSS + "".join(open(SRC + f, encoding="utf-8").read() for f in CSS_FILES)
+    css = (css.replace('"Bricolage Grotesque",', '"Bricolage Grotesque","Bricolage Fallback",')
+              .replace('"Plus Jakarta Sans",', '"Plus Jakarta Sans","Jakarta Fallback",')
+              .replace('"IBM Plex Mono",', '"IBM Plex Mono","Plex Fallback",'))
+    css = re.sub(r"/\*.*?\*/", "", css, flags=re.S)                 # commentaires
+    css = re.sub(r"\s*\n\s*", "", css)                                # retours à la ligne et indentation
+    css = re.sub(r"\s*([{};,>])\s*", r"\1", css)
+    return css.replace(";}", "}")
+
+
+CSS_INLINE = build_css()
+
+
+def variante(nom, largeur):
+    """Image réduite (WebP) à côté de l'original : assets/img/<...>/<nom>-<largeur>.webp, créée une fois (Pillow)."""
+    src = os.path.join(OUT, nom)
+    dst = src[:-5] + f"-{largeur}.webp"
+    if not os.path.exists(dst) and os.path.exists(src):
+        try:
+            from PIL import Image
+            im = Image.open(src)
+            if im.width > largeur:
+                im.resize((largeur, round(im.height * largeur / im.width)), Image.LANCZOS).save(dst, "WEBP", quality=80, method=6)
+        except Exception:
+            return None
+    return nom[:-5] + f"-{largeur}.webp" if os.path.exists(dst) else None
+
+
+# largeur affichée des photos produits selon leur bloc (mesurée à 1280 et 390 px)
+SIZES = {"tc-photo": "(max-width: 700px) 90vw, 540px", "f-photo": "(max-width: 700px) 90vw, 320px",
+         "pick-photo": "(max-width: 700px) 70vw, 260px", "ch-photo": "(max-width: 700px) 70vw, 260px"}
+EAGER = ("brand-mark", "hh-mascot", "hh-sticker", "hero-badge", "fetchpriority")
+
+
+def images(html):
+    """Images responsives (srcset) pour les photos produits et la mascotte ; chargement différé hors du haut de page."""
+    def photo(m):
+        tag, pre, nom = m.group(0), m.group(1), m.group(2)
+        v = variante(f"assets/img/p/{nom}.webp", 280)
+        if not v:
+            return tag
+        if 'width="560"' in tag:
+            avant = html[max(0, m.start() - 200):m.start()] + tag
+            cls = max(SIZES, key=lambda k: avant.rfind(k))
+            sz = SIZES[cls] if avant.rfind(cls) >= 0 else "(max-width: 700px) 90vw, 320px"
+            return tag.replace(f'src="{pre}assets/img/p/{nom}.webp"', f'src="{pre}assets/img/p/{nom}.webp" srcset="{pre}{v} 280w, {pre}assets/img/p/{nom}.webp 560w" sizes="{sz}"')
+        return tag.replace(f'src="{pre}assets/img/p/{nom}.webp"', f'src="{pre}{v}"')
+    html = re.sub(r'<img[^>]*src="((?:\.\./)*)assets/img/p/([^"/]+)\.webp"[^>]*>', photo, html)
+
+    def mascotte(m):
+        tag, pre = m.group(0), m.group(1)
+        v = variante("assets/img/mascotte-persona-v2.webp", 400)
+        return tag if not v else tag.replace(f'src="{pre}assets/img/mascotte-persona-v2.webp"',
+                                             f'src="{pre}assets/img/mascotte-persona-v2.webp" srcset="{pre}{v} 400w, {pre}assets/img/mascotte-persona-v2.webp 800w" sizes="(max-width: 700px) 90vw, 500px"')
+    html = re.sub(r'<img[^>]*src="((?:\.\./)*)assets/img/mascotte-persona-v2\.webp"[^>]*>', mascotte, html)
+
+    def lazy(m):
+        tag = m.group(0)
+        if "loading=" in tag or any(k in tag for k in EAGER):
+            return tag
+        return tag[:-1] + ' loading="lazy" decoding="async">'
+    return re.sub(r"<img\b[^>]*>", lazy, html)
+
+
 def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None, robots=None):
     if og_img == "assets/img/og-image.jpg":
         og_img = og_pour(path)
@@ -478,9 +563,8 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:image" content="{DOMAIN}/{og_img}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{DOMAIN}/{og_img}">
 <link rel="icon" type="image/png" href="{root}assets/img/logo-face.png">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800;12..96,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}assets/style.css?v={VER}">
+<link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
+<style>{CSS_INLINE}</style>
 {ld_script(ld)}</head>
 <body class="{body_cls}">
 <div class="wrap">
@@ -524,6 +608,7 @@ def write(path, content):
     if path.endswith(".html"):
         for x, y in LEGAL_FILL:
             content = content.replace(x, y)
+        content = images(content)
         assert 'class="fill"' not in content, path
     full = os.path.join(OUT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
@@ -864,6 +949,18 @@ def low_first(t):
     return t[0].lower() + t[1:] if t else t
 
 
+def synthese_html(d):
+    """Synthèse rédigée à partir des tests lus (_source/syntheses.py), avec sa date et ses sources."""
+    sy = d.get("synthese")
+    if not sy:
+        return ""
+    paras = "".join(f"<p>{E(p.strip())}</p>" for p in sy["texte"].split("\n\n") if p.strip())
+    jj = "/".join(reversed(sy["date"].split("-")))
+    return (f'<div class="p-synth"><h3>Ce que disent les tests</h3>{paras}'
+            f'<p class="p-synth-meta">Synthèse du {jj}, établie à partir de {sy["tests"]} test{"s" if sy["tests"] > 1 else ""} cités plus bas '
+            f'({E(", ".join(sy["sources"]))}).</p></div>')
+
+
 def product_page(fam, c, rank, d, items):
     root = "../../"
     pr, ts = d["press"], d["tests"]
@@ -975,6 +1072,7 @@ def product_page(fam, c, rank, d, items):
     <div class="section-head"><h2>Le consensus de la presse</h2><div class="tag">{ts['tests']} test{'s' if ts['tests'] > 1 else ''} lu{'s' if ts['tests'] > 1 else ''}</div></div>
     <div class="spec-row">{stats}</div>
     <p class="p-cons">{cons} {last}</p>
+    {synthese_html(d)}
     <div class="pc-grid p-pc">
       <div class="strengths"><span class="pc-t pro">Ce que la presse apprécie</span>{st}</div>
       <div class="strengths weak"><span class="pc-t con">Les réserves qui reviennent</span>{wk}</div>
@@ -1008,16 +1106,22 @@ def product_page(fam, c, rank, d, items):
     note_t = f' ({fr(pr["avg"])}/10 presse)' if pr else ""
     title = f'{d["short"]} : avis, tests et prix{note_t} | Top 10 Geek'
     lead = (f'{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse, moyenne {fr(pr["avg"])}/10. ' if pr else f'{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse résumé{"s" if ts["tests"] > 1 else ""}. ')
-    desc = lead + d["verdict"]
-    if len(desc) > 158:
-        desc = desc[:155].rsplit(" ", 1)[0] + "…"
+    # méta-description complète, jamais tronquée : verdict entier, sinon sa première proposition, sinon une phrase générique
+    v = d["verdict"].strip()
+    court = re.split(r"\s[:;—–]\s|, (?=mais|et |avec|sans|pour)", v)[0].rstrip(" .,") + "."
+    nom = f'{d["short"]} : '
+    cands = (nom + lead + v, lead + v, nom + lead + court + " Avis, réserves et prix indicatif.", lead + court + " Points forts, réserves et prix indicatif.",
+             nom + lead + court, lead + court, f'{nom}{lead}Avis de la presse, points forts, réserves et prix indicatif.')
+    desc = next((x for x in cands if 80 <= len(x) <= 158), next((x for x in cands if len(x) <= 158), f"{d['short']} : avis de la presse et prix indicatif."))
     ind = int(euro_ind(d["p"]).replace(" ", "").replace("€", ""))
     product = {"@type": "Product", "@id": f"{DOMAIN}/{d['purl']}#produit", "name": d["short"], "description": d["verdict"],
-               "brand": {"@type": "Brand", "name": brand_of(d["short"])}, "category": f"{fam['label']} · {c['label']}",
+               "brand": {"@type": "Brand", "name": brand_of(d["short"])}, "category": plain(f"{fam['label']} · {c['label']}"),
                "url": f"{DOMAIN}/{d['purl']}",
                # Pas d'AggregateRating : Google réserve ce balisage aux notes collectées sur le site lui-même, pas aux notes de la presse.
                # Prix indicatif affiché sur la page (arrondi), sans offre ni prix par marchand.
-               "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": f"{ind:.2f}", "offerCount": len(d["offers"])}}
+               "offers": ({"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": f"{ind:.2f}", "offerCount": len(d["offers"])} if len(d["offers"]) > 1
+                          else {"@type": "Offer", "priceCurrency": "EUR", "price": f"{ind:.2f}", "availability": "https://schema.org/InStock",
+                                "url": f"{DOMAIN}/{d['purl']}"})}
     if d["img"]:
         product["image"] = f"{DOMAIN}/assets/img/p/{d['img']}"
     write(d["purl"] + "index.html", page(root, title, desc, d["purl"], body, fam["slug"],
@@ -1227,7 +1331,7 @@ methode = f"""
 """
 write("methode.html", page("", "Notre méthode : sélection, note presse, prix indicatif | Top 10 Geek",
                            "Comment Top 10 Geek sélectionne les produits, calcule la note presse, établit le classement et indique les prix.",
-                           "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ld_page("methode", "Notre méthode"), PERSON, ORG]))
+                           "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ld_page("methode", "Notre méthode"), PERSON]))
 
 # ---------------------------------------------------------------- À propos
 apropos = f"""
@@ -1361,8 +1465,11 @@ black_friday_page()
 
 
 # ---------------------------------------------------------------- Fichiers statiques
-css = "".join(open(SRC + f, encoding="utf-8").read() for f in CSS_FILES)
-write("assets/style.css", css)
+write("assets/style.css", CSS_INLINE)   # pour 404.html et les pages légales, écrites à la main
+for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"):   # leur lien vers style.css suit la version
+    _p = os.path.join(OUT, _f)
+    _t = open(_p, encoding="utf-8").read()
+    open(_p, "w", encoding="utf-8").write(re.sub(r"style\.css\?v=[0-9a-f]+", f"style.css?v={VER}", _t))
 shutil.copy(SRC + "main10.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
@@ -1384,7 +1491,7 @@ def lastmods(urls):
     for u in urls:
         f = "index.html" if u == "" else (u + "index.html" if u.endswith("/") else u + ".html")
         brut = open(os.path.join(OUT, f), encoding="utf-8").read()
-        h = hashlib.md5(re.sub(r"\?v=[0-9a-f]+", "", brut).encode("utf-8")).hexdigest()[:12]
+        h = hashlib.md5(re.sub(r"\?v=[0-9a-f]+|<style>.*?</style>", "", brut, flags=re.S).encode("utf-8")).hexdigest()[:12]
         ancien = dates.get(u)
         res[u] = ancien if ancien and ancien["h"] == h else {"h": h, "d": jour}
     json.dump(res, open(chemin, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)

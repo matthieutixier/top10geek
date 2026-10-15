@@ -4,3 +4,7 @@
   .byline a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
   .rank-rule{font-size:0.85rem;line-height:1.5;color:var(--ink-muted);background:var(--paper-alt);border-radius:10px;padding:12px 14px;margin:0 0 16px;}
   .rank-rule b{color:var(--ink);}
+  .p-synth{margin:18px 0;padding:16px 18px;border-left:4px solid var(--accent);background:var(--paper-alt);border-radius:0 10px 10px 0;}
+  .p-synth h3{font-size:1.05rem;margin:0 0 8px;}
+  .p-synth p{margin:0 0 10px;line-height:1.6;}
+  .p-synth .p-synth-meta{font-size:0.8rem;color:var(--ink-muted);margin:0;}

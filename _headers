@@ -1,0 +1,13 @@
+# En-têtes Cloudflare Pages (audit SEO du 10/10/2026)
+/*
+  Strict-Transport-Security: max-age=15552000
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  X-Frame-Options: SAMEORIGIN
+
+# polices : fichiers stables
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# images : 7 jours (une photo remplacée garde parfois le même nom)
+/assets/img/*
+  Cache-Control: public, max-age=604800
