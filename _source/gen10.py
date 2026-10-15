@@ -20,7 +20,7 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main10.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -200,15 +200,36 @@ assert len({d["purl"] for d in ITEMS.values()}) == len(ITEMS)
 assert not {d["pslug"] for d in ITEMS.values()} & {c["slug"] for c in CAT.values()}
 
 
-def rank_key(d):
-    top = 0 if d["badge"] == "Le choix de la bande" else 1
+TOP_BADGE = "Le choix de la bande"
+SEUIL_NOTES = 3   # en dessous, une note presse ne suffit pas à devancer un produit noté par au moins 3 médias
+PRIOR_M = 3       # moyenne bayésienne : chaque note est « tirée » vers la moyenne de l'usage comme si 3 notes moyennes s'ajoutaient
+CAT_MEAN = {}
+for k in CAT:
+    _avgs = [d["press"]["avg"] for d in ITEMS.values() if d["cat"] == k and d["press"]]
+    CAT_MEAN[k] = sum(_avgs) / len(_avgs) if _avgs else 7.5
+for d in ITEMS.values():
     pr = d["press"]
-    return (top, 0 if pr else 1, -(pr["avg"] if pr else 0), -(pr["n"] if pr else d["tests"]["tests"]), d["p"])
+    d["score"] = (pr["n"] * pr["avg"] + PRIOR_M * CAT_MEAN[d["cat"]]) / (pr["n"] + PRIOR_M) if pr else None
+
+
+def rank_key(d):
+    """Classement (audit SEO du 10/10/2026) :
+    1. « le choix de la bande », seulement si sa note repose sur au moins 3 notes presse ;
+    2. les produits notés par au moins 3 médias, puis ceux qui ont 1 ou 2 notes, puis les « testés, sans note » ;
+    3. dans chaque groupe : note ajustée (moyenne bayésienne), puis nombre de notes, puis prix."""
+    pr = d["press"]
+    n = pr["n"] if pr else 0
+    top = 0 if d["badge"] == TOP_BADGE and n >= SEUIL_NOTES else 1
+    tier = 0 if n >= SEUIL_NOTES else (1 if pr else 2)
+    return (top, tier, -round(d["score"] or 0, 4), -(n or d["tests"]["tests"]), d["p"])
 
 
 by_cat = {k: sorted([d for d in ITEMS.values() if d["cat"] == k], key=rank_key) for k in CAT}
 for k in CAT:
     assert len(by_cat[k]) == 10, k
+    for d in by_cat[k][1:]:   # « le choix de la bande » rétrogradé faute de notes : badge honnête
+        if d["badge"] == TOP_BADGE:
+            d["badge"] = "Prometteur, peu testé"
 
 
 def notes_total(items):
@@ -398,8 +419,22 @@ def nav_html(root, active):
     return "".join(parts)
 
 
+PERSON_ID = DOMAIN + "/a-propos#matthieu-tixier"
 ORG = {"@type": "Organization", "@id": DOMAIN + "/#organisation", "name": "Top 10 Geek", "url": DOMAIN + "/",
-       "logo": DOMAIN + "/assets/img/logo-face.png", "email": "contact@top10geek.fr"}
+       "logo": DOMAIN + "/assets/img/logo-face.png", "email": "contact@top10geek.fr", "founder": {"@id": PERSON_ID}}
+PERSON = {"@type": "Person", "@id": PERSON_ID, "name": "Matthieu Tixier", "url": DOMAIN + "/a-propos",
+          "jobTitle": "Éditeur de Top 10 Geek", "worksFor": {"@id": DOMAIN + "/#organisation"}}
+
+
+def ld_page(path, title):
+    """Page web signée : auteur (Matthieu Tixier) et éditeur (Top 10 Geek)."""
+    return {"@type": "WebPage", "@id": f"{DOMAIN}/{path}", "url": f"{DOMAIN}/{path}", "name": title, "inLanguage": "fr-FR",
+            "author": {"@id": PERSON_ID}, "publisher": {"@id": DOMAIN + "/#organisation"}}
+
+
+def byline(root, extra=""):
+    return (f'<p class="byline">Sélection éditée par <a href="{root}a-propos">Matthieu Tixier</a> · '
+            f'<a href="{root}methode#classement">critères de classement</a>{extra}</p>')
 
 
 def plain(t):
@@ -434,7 +469,13 @@ def og_pour(path):
     return "assets/img/og-image.jpg"
 
 
-def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None):
+def indexable(d):
+    """Fiche produit indexable seulement si la note presse repose sur au moins 2 notes chiffrées (audit SEO du 10/10/2026).
+    Les autres restent en ligne et dans les classements, mais en noindex,follow et hors sitemap."""
+    return bool(d["press"]) and d["press"]["n"] >= 2
+
+
+def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None, robots=None):
     if og_img == "assets/img/og-image.jpg":
         og_img = og_pour(path)
     return f"""<!doctype html>
@@ -444,7 +485,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
-<link rel="canonical" href="{DOMAIN}/{path}">
+<link rel="canonical" href="{DOMAIN}/{path}">{f'<meta name="robots" content="{robots}">' if robots else ''}
 <meta property="og:type" content="website"><meta property="og:site_name" content="Top 10 Geek">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:image" content="{DOMAIN}/{og_img}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{DOMAIN}/{og_img}">
@@ -468,7 +509,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
+      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
@@ -510,14 +551,14 @@ def usage_cards(fam, root):
         out.append(f"""<a class="usage-card" href="{root}{fam['slug']}/{c['slug']}/">
   <div class="uc-art"><img src="{root}assets/img/badge-{c['badge']}.webp" alt="" loading="lazy" width="110" height="110"></div>
   <div class="uc-body"><span class="uc-tag">{c['tag']}</span><h3><span class="dot {c['cls'].replace('f-', '')}"></span>{c['h']}</h3>
-  <p class="uc-pick">Le choix de la bande : <b>{E(top['short'])}</b> — {note}</p>
+  <p class="uc-pick">Notre n° 1 : <b>{E(top['short'])}</b> — {note}</p>
   <span class="uc-go">{'Voir le top 10' if not fam['provisional'] else 'Voir la sélection'} →</span></div></a>""")
     return "".join(out)
 
 
 FAQ_L = [
     ("Comment est calculée la note presse ?", "C'est la moyenne simple des notes publiées par les médias spécialisés (Notebookcheck, Clubic, Les Numériques, Tom's Hardware, TechRadar…), toutes converties sur 10 : 4/5 devient 8/10, 87 % devient 8,7/10. Le nombre de tests est toujours affiché. Quand la note porte sur une autre configuration de la même gamme, nous l'indiquons."),
-    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage. Ensuite, les ordinateurs sont classés par note presse. Ceux dont les tests ne donnent pas de note chiffrée viennent en dernier."),
+    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage, si sa note repose sur au moins 3 notes presse. Ensuite viennent les ordinateurs notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes, puis ceux testés sans note chiffrée. Dans chaque groupe, ils sont classés par note presse ajustée : une note isolée pèse moins qu'une moyenne de nombreux tests."),
     ("Faut-il 16 ou 32 Go de RAM en 2026 ?", "16 Go reste le minimum confortable pour de la bureautique ou du gaming courant. Pour la création ou pour garder la machine plusieurs années, 32 Go évite de la remplacer prématurément."),
     ("Pourquoi certains ordinateurs n'ont pas de note presse ?", "Tous les ordinateurs de la sélection ont été testés par au moins un média. Mais certains tests ne donnent pas de note chiffrée : dans ce cas nous l'indiquons (bulle en pointillés) et nous donnons le lien vers le test plutôt que d'inventer une note."),
     ("D'où viennent les prix ?", f"Nous affichons un prix indicatif par ordinateur : le plus bas que nous avons constaté chez les marchands (Amazon, Darty, Acer Store, Geekom, Electro Dépôt) en {PRIX_DATE}, arrondi à la dizaine d'euros. Il sert à situer la machine, pas à comparer les marchands : le prix a pu changer depuis et la configuration exacte peut différer d'un marchand à l'autre. Pour Electro Dépôt, nous affichons en plus son prix exact, tiré de son flux produits officiel, avec la date du relevé. Seul le prix affiché par le marchand fait foi."),
@@ -551,6 +592,7 @@ def family_page(fam):
       <div class="eyebrow">COMPARATIF {fam['plural'].upper()} · MAJ {maj(fam)}</div>
       <h1>{fam['h1']}</h1>
       <p>{fam['intro']}</p>
+      {byline(root)}
       <div class="spec-row">
         <div><strong>{len(all_items)}</strong>{fam['plural']} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
         <div><strong>{sum(d["tests"]["tests"] for d in all_items)}</strong>tests presse recensés</div>
@@ -594,7 +636,7 @@ def family_page(fam):
             if fam["key"] == "laptop" else f"{len(all_items)} ordinateurs de bureau 2026 classés par usage avec une note presse sur 10 et un prix indicatif : bureautique, création, gaming, mini-PC, tout-en-un."
             if fam["key"] == "desktop" else fam["desc"])
     write(f"{fam['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/", body, fam["slug"], js_data(sel, root, by_cat[cats[0]["key"]][0]["id"]),
-          ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/")), ld_faq(fam_faq(fam)),
+          ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/")), ld_page(f"{fam['slug']}/", title), PERSON, ld_faq(fam_faq(fam)),
               {"@type": "ItemList", "name": plain(fam["h1"]), "itemListElement": [
                   {"@type": "ListItem", "position": i, "name": plain(c["h"]), "url": f"{DOMAIN}/{fam['slug']}/{c['slug']}/"} for i, c in enumerate(cats, 1)]}]))
 
@@ -613,8 +655,8 @@ def press_big(d, short=False):
     pr, ts = d["press"], d["tests"]
     gam = " · gamme" if ts["scope"] == "gamme" else ""
     if pr:
-        return f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span><span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>{few(d)}'
-    return f'<span class="pn none">—</span><span class="pc">{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse, sans note chiffrée{gam}</span>'
+        return f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span> <span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>{few(d)}'
+    return f'<span class="pn none">—</span> <span class="pc">{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse, sans note chiffrée{gam}</span>'
 
 
 def weight_kg(d):
@@ -693,6 +735,13 @@ def sort_bar(fam):
 
 
 # ---------------------------------------------------------------- Pages usage
+RANK_RULE = ("<p class=\"rank-rule\"><b>Comment ce classement est établi.</b> En tête, notre choix pour l'usage, à condition que sa note repose "
+             "sur au moins 3 notes presse. Ensuite : d'abord les produits notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes, "
+             "puis ceux testés sans note chiffrée. Dans chaque groupe, nous classons par note presse ajustée : une note isolée compte moins "
+             "qu'une moyenne de nombreux tests. La note affichée reste la moyenne simple des médias. "
+             "<a href=\"{root}methode#classement\">Détail de la méthode</a>.</p>")
+
+
 def usage_page(fam, c):
     root = "../../"
     items = by_cat[c["key"]]
@@ -706,9 +755,9 @@ def usage_page(fam, c):
         pr, ts = d["press"], d["tests"]
         gam = " · gamme" if ts["scope"] == "gamme" else ""
         if pr:
-            big = f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span><span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>{few(d)}'
+            big = f'<span class="pn">{fr(pr["avg"])}</span><span class="pd">/10</span> <span class="pc">note presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{gam}</span>{few(d)}'
         else:
-            big = f'<span class="pn none">—</span><span class="pc">{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse, sans note chiffrée{gam}</span>'
+            big = f'<span class="pn none">—</span> <span class="pc">{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse, sans note chiffrée{gam}</span>'
 
         def note_li(nt):
             name = E(nt["src"])
@@ -736,7 +785,7 @@ def usage_page(fam, c):
   <h3 class="tc-name"><a href="{root}{d['purl']}">{E(d['short'])}</a></h3>
   <div class="tc-ref">{E(d['ref'])}</div>
   <p class="tc-verdict">{E(d['verdict'])}</p>
-  <div class="tc-bottom"><div class="ch-score{'' if pr else ' none'}">{(f'<b>{fr(pr["avg"])}</b><small>/10</small><em>{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse{gam}</em>') if pr else f'<b>Testé</b><em>{ts["tests"]} test{"s" if ts["tests"] > 1 else ""}, sans note chiffrée</em>'}</div>{few(d, "few tc-few")}<span class="tc-price">{d['price_txt']}<small>prix indicatif</small></span></div>
+  <div class="tc-bottom"><div class="ch-score{'' if pr else ' none'}">{(f'<b>{fr(pr["avg"])}</b><small>/10</small> <em>{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse{gam}</em>') if pr else f'<b>Testé</b><em>{ts["tests"]} test{"s" if ts["tests"] > 1 else ""}, sans note chiffrée</em>'}</div>{few(d, "few tc-few")}<span class="tc-price">{d['price_txt']}<small>prix indicatif</small></span></div>
   <div class="tc-actions"><a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a><a class="see-all" href="{root}{d['purl']}">Avis et tests →</a></div>
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
@@ -755,7 +804,8 @@ def usage_page(fam, c):
     <div>
       <div class="eyebrow">{c['tag'].upper()} · MAJ {maj(fam)}</div>
       <h1>{c['h1']}</h1>
-      <p>{c['intro']} <b>Classement :</b> notre choix en tête, puis par note presse.</p>
+      <p>{c['intro']}</p>
+      {byline(root)}
       <p class="hero-links"><a href="#top10">Voir le classement complet ↓</a> · <a href="#guide">Lire le guide d'achat</a></p>
       <div class="spec-row">
         <div><strong>{n}</strong>{fam.get('plural_low', fam['plural'].lower())} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
@@ -785,7 +835,8 @@ def usage_page(fam, c):
   {guide_html(c['key'])}
 
   <section class="section" id="top10" style="border-bottom:none;">
-    <div class="section-head"><h2><img class="section-badge" src="../../assets/img/badge-{c['badge']}.webp" alt="" width="50" height="50">{top_word}</h2><div class="tag">Notre choix, puis note presse</div></div>
+    <div class="section-head"><h2><img class="section-badge" src="../../assets/img/badge-{c['badge']}.webp" alt="" width="50" height="50">{top_word}</h2><div class="tag">Notre choix, puis note presse ajustée</div></div>
+    {RANK_RULE.format(root=root)}
     {sort_bar(fam)}
     <div class="top-list tgrid" id="topList">{''.join(fiches)}</div>
   </section>
@@ -803,6 +854,7 @@ def usage_page(fam, c):
         desc = fam["usage_desc"].format(label=lab)
     write(f"{fam['slug']}/{c['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/{c['slug']}/", body, fam["slug"], js_data(items, root, items[0]["id"]),
           ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/"), (c["label"], f"{fam['slug']}/{c['slug']}/")),
+              ld_page(f"{fam['slug']}/{c['slug']}/", title), PERSON,
               {"@type": "ItemList", "name": plain(c["h1"]), "numberOfItems": n, "itemListOrder": "https://schema.org/ItemListOrderAscending",
                "itemListElement": [{"@type": "ListItem", "position": i, "name": d["short"], "url": f"{DOMAIN}/{d['purl']}"} for i, d in enumerate(items, 1)]}]))
 
@@ -910,6 +962,7 @@ def product_page(fam, c, rank, d, items):
     <div class="p-text">
       <div class="eyebrow">{E(d['badge']).upper()} · MAJ {maj(fam)}</div>
       <h1>{name} : <span class="flash">avis, tests et prix</span></h1>
+      {byline(root)}
       <div class="ref">{E(d['ref'])}</div>
       <p class="p-verdict"><b>Le verdict en une phrase.</b> {E(d['verdict'])}</p>
       <p class="p-rank">{rank_txt}.</p>
@@ -980,9 +1033,10 @@ def product_page(fam, c, rank, d, items):
     if d["img"]:
         product["image"] = f"{DOMAIN}/assets/img/p/{d['img']}"
     write(d["purl"] + "index.html", page(root, title, desc, d["purl"], body, fam["slug"],
+                                         robots=None if indexable(d) else "noindex,follow",
                                          og_img=(f'assets/img/p/{d["img"]}' if d["img"] else "assets/img/og-image.jpg"),
                                          ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/"), (c["label"], f"{fam['slug']}/{c['slug']}/"), (d["short"], d["purl"])),
-                                             product, ld_faq(faq)]))
+                                             ld_page(d["purl"], title), PERSON, product, ld_faq(faq)]))
 
 
 for fam in FAMILIES:
@@ -1009,7 +1063,7 @@ desk_count = sum(1 for d in ITEMS.values() if d["family"] == "desktop")
 def champ_card(d):
     c = CAT[d["cat"]]
     pr = d["press"]
-    score = (f'<span class="ch-score"><b>{fr(pr["avg"])}</b><small>/10</small><em>{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse</em></span>' if pr
+    score = (f'<span class="ch-score"><b>{fr(pr["avg"])}</b><small>/10</small> <em>{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse</em></span>' if pr
              else '<span class="ch-score none"><b>Testé</b><em>sans note chiffrée</em></span>')
     return f"""<a class="champ" href="{d['href']}" style="--c:{c['color']}">
   <span class="ch-top"><span class="ch-usage"><span class="dot {c['cls'].replace('f-', '')}"></span>{c['label']}</span><img src="assets/img/badge-{c['badge']}.webp" alt="" width="64" height="64" loading="lazy"></span>
@@ -1154,7 +1208,8 @@ methode = f"""
   <div class="prose">
     <div class="prose-hero">
       <div><div class="eyebrow">MÉTHODE · MAJ {MAJ}</div><h1>Une note principale : celle de la presse</h1>
-      <p>Nous ne testons pas les produits nous-mêmes : nous n'avons pas de laboratoire, et nous préférons le dire. Notre travail, c'est de lire tout ce qui a été publié, de trier le solide du marketing, et de vous le rendre lisible.</p></div>
+      <p>Nous ne testons pas les produits nous-mêmes : nous n'avons pas de laboratoire, et nous préférons le dire. Notre travail, c'est de lire tout ce qui a été publié, de trier le solide du marketing, et de vous le rendre lisible.</p>
+      {byline("")}</div>
       <img src="assets/img/pose-investigation.webp" alt="La mascotte, loupe à la main" width="200" height="200">
     </div>
     <div class="method-grid">
@@ -1162,8 +1217,10 @@ methode = f"""
       <div class="method-card"><span class="mono-big">2 · Presse</span><h3>La note principale</h3><p>Moyenne simple des notes publiées par les médias spécialisés, convertie sur 10, avec le nombre de notes. Chaque note renvoie vers le test d'origine. « Gamme » signale des notes obtenues sur une configuration ou une génération proche.</p></div>
       <div class="method-card"><span class="mono-big">3 · Prix</span><h3>Un prix indicatif</h3><p>Pour chaque produit, nous affichons un prix indicatif, avec le mois où nous l'avons constaté, et les liens vers les marchands où nous l'avons trouvée en vente.</p></div>
     </div>
-    <h2>Le classement</h2>
-    <p>En tête, <b>« le choix de la bande »</b> : notre recommandation pour l'usage, le meilleur compromis entre notes presse et prix. Ensuite, les produits sont classés par <b>note presse</b>. Ceux dont les tests ne donnent pas de note chiffrée viennent en dernier : nous donnons alors le lien vers le test plutôt que d'inventer une note.</p>
+    <h2 id="classement">Le classement : nos critères</h2>
+    <p>En tête, <b>« le choix de la bande »</b> : notre recommandation pour l'usage, le meilleur compromis entre notes presse et prix. Elle n'est placée en tête que si sa note repose sur <b>au moins {SEUIL_NOTES} notes presse</b> ; sinon elle est classée comme les autres et signalée « prometteur, peu testé ».</p>
+    <p>Les autres produits sont classés en trois groupes : d'abord ceux notés par <b>au moins {SEUIL_NOTES} médias</b>, puis ceux qui n'ont qu'<b>1 ou 2 notes</b>, enfin ceux testés <b>sans note chiffrée</b> (nous donnons alors le lien vers le test plutôt que d'inventer une note). Dans chaque groupe, l'ordre suit la <b>note presse ajustée</b> : une moyenne bayésienne qui rapproche une note appuyée sur peu de tests de la moyenne de l'usage, comme si {PRIOR_M} notes moyennes s'y ajoutaient. Un 10/10 isolé ne peut donc pas devancer un 9/10 confirmé par dix médias. À égalité, le produit le plus noté puis le moins cher passe devant.</p>
+    <p>La note affichée sur chaque produit reste la <b>moyenne simple</b> des médias, avec le nombre de notes ; la note ajustée ne sert qu'à l'ordre du classement. Aucun critère commercial (commission, marchand) n'intervient dans le classement.</p>
     <h2>Comment est calculée la note presse</h2>
     <p>Toutes les notes sont ramenées sur 10 : 4/5 devient 8/10, 87 % devient 8,7/10. Nous faisons une moyenne simple, sans pondérer les médias. Le nombre de notes est toujours affiché : une moyenne appuyée sur quinze tests est plus solide qu'une note unique. Les tests sans note chiffrée sont listés mais n'entrent pas dans la moyenne. Au {MAJ}, le site recense <b>{TOTAL_TESTS} tests</b> et <b>{TOTAL_NOTES} notes</b> pour {len(ITEMS)} produits.</p>
     <h2>Les imprimantes et les associations de consommateurs</h2>
@@ -1182,7 +1239,34 @@ methode = f"""
 """
 write("methode.html", page("", "Notre méthode : sélection, note presse, prix indicatif | Top 10 Geek",
                            "Comment Top 10 Geek sélectionne les produits, calcule la note presse, établit le classement et indique les prix.",
-                           "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ORG]))
+                           "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ld_page("methode", "Notre méthode"), PERSON, ORG]))
+
+# ---------------------------------------------------------------- À propos
+apropos = f"""
+  <div class="prose">
+    <div class="prose-hero">
+      <div><div class="eyebrow">À PROPOS · MAJ {MAJ}</div><h1>Qui est derrière Top 10 Geek ?</h1>
+      <p>Top 10 Geek est un site indépendant édité par <b>Matthieu Tixier</b>, à La Rochelle. Pas de rédaction parisienne ni de groupe de médias : un geek de toujours, qui en avait assez de lire dix tests avant chaque achat.</p></div>
+      <img src="assets/img/pose-investigation.webp" alt="La mascotte de Top 10 Geek, loupe à la main" width="200" height="200">
+    </div>
+    <h2>L'éditeur</h2>
+    <p><b>Matthieu Tixier</b> a commencé sa carrière comme consultant en informatique pendant sept ans, avant vingt ans de management. Passionné de high-tech depuis toujours, il a créé Top 10 Geek en 2026 pour répondre à une question simple : <i>que pense vraiment la presse de ce produit, toutes sources confondues ?</i></p>
+    <p>Il choisit les produits suivis, valide les sélections et répond aux messages des lecteurs.</p>
+    <h2>Ce que nous faisons, et ce que nous ne faisons pas</h2>
+    <p>Nous <b>ne testons pas</b> les produits nous-mêmes. Nous recensons les tests publiés par la presse spécialisée et les associations de consommateurs, nous en tirons une note presse sur 10 et nous lions chaque test d'origine. La collecte des notes et des prix et la mise en forme des pages sont en partie automatisées (scripts et outils d'intelligence artificielle) ; les notes sont reprises telles que les médias les publient, et vérifiées régulièrement. Nos critères de classement sont détaillés dans <a href="methode#classement">notre méthode</a>.</p>
+    <h2>Comment le site est financé</h2>
+    <p>Par l'affiliation : certains liens vers les marchands (à ce jour : {AFF_TXT}) peuvent nous rapporter une commission, sans surcoût pour vous. Aucune marque ne paie pour figurer dans nos sélections, et les commissions n'interviennent pas dans le classement.</p>
+    <h2>Contact</h2>
+    <p>Une erreur, une note qui vous semble fausse, un produit à ajouter ? Écrivez à <a href="mailto:contact@top10geek.fr">contact@top10geek.fr</a> : chaque message est lu.</p>
+    <p>Mentions légales : <a href="mentions-legales">éditeur, hébergeur et immatriculation</a>.</p>
+  </div>
+"""
+write("a-propos.html", page("", "À propos : qui édite Top 10 Geek ? | Top 10 Geek",
+                            "Top 10 Geek est un site indépendant édité par Matthieu Tixier à La Rochelle : synthèse des tests de la presse high-tech, méthode et financement.",
+                            "a-propos", apropos, "", ld=[ld_crumbs(("Accueil", ""), ("À propos", "a-propos")),
+                                                         {"@type": "AboutPage", "@id": DOMAIN + "/a-propos", "url": DOMAIN + "/a-propos", "name": "À propos de Top 10 Geek",
+                                                          "inLanguage": "fr-FR", "mainEntity": {"@id": PERSON_ID}, "publisher": {"@id": ORG["@id"]}},
+                                                         dict(PERSON, description="Éditeur de Top 10 Geek, ancien consultant en informatique, vingt ans de management."), ORG]))
 
 # ---------------------------------------------------------------- Page Black Friday
 BF_DATE = "vendredi 27 novembre 2026"
@@ -1296,7 +1380,7 @@ os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
         shutil.copy(SRC + "img_p/" + d["img"], os.path.join(OUT, "assets/img/p", d["img"]))
-urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k]] + ["black-friday/", "methode", "mentions-legales", "politique-confidentialite"]
+urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k] if indexable(d)] + ["black-friday/", "methode", "a-propos", "mentions-legales", "politique-confidentialite"]
 
 
 def lastmods(urls):

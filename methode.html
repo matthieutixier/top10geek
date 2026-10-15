@@ -12,8 +12,8 @@
 <link rel="icon" type="image/png" href="assets/img/logo-face.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800;12..96,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=38f18bd6">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://top10geek.fr/"}, {"@type": "ListItem", "position": 2, "name": "Méthode", "item": "https://top10geek.fr/methode"}]}, {"@type": "Organization", "@id": "https://top10geek.fr/#organisation", "name": "Top 10 Geek", "url": "https://top10geek.fr/", "logo": "https://top10geek.fr/assets/img/logo-face.png", "email": "contact@top10geek.fr"}]}</script>
+<link rel="stylesheet" href="assets/style.css?v=efdd5d5e">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://top10geek.fr/"}, {"@type": "ListItem", "position": 2, "name": "Méthode", "item": "https://top10geek.fr/methode"}]}, {"@type": "WebPage", "@id": "https://top10geek.fr/methode", "url": "https://top10geek.fr/methode", "name": "Notre méthode", "inLanguage": "fr-FR", "author": {"@id": "https://top10geek.fr/a-propos#matthieu-tixier"}, "publisher": {"@id": "https://top10geek.fr/#organisation"}}, {"@type": "Person", "@id": "https://top10geek.fr/a-propos#matthieu-tixier", "name": "Matthieu Tixier", "url": "https://top10geek.fr/a-propos", "jobTitle": "Éditeur de Top 10 Geek", "worksFor": {"@id": "https://top10geek.fr/#organisation"}}, {"@type": "Organization", "@id": "https://top10geek.fr/#organisation", "name": "Top 10 Geek", "url": "https://top10geek.fr/", "logo": "https://top10geek.fr/assets/img/logo-face.png", "email": "contact@top10geek.fr", "founder": {"@id": "https://top10geek.fr/a-propos#matthieu-tixier"}}]}</script>
 </head>
 <body class="">
 <div class="wrap">
@@ -33,7 +33,8 @@
   <div class="prose">
     <div class="prose-hero">
       <div><div class="eyebrow">MÉTHODE · MAJ 09/10/2026</div><h1>Une note principale : celle de la presse</h1>
-      <p>Nous ne testons pas les produits nous-mêmes : nous n'avons pas de laboratoire, et nous préférons le dire. Notre travail, c'est de lire tout ce qui a été publié, de trier le solide du marketing, et de vous le rendre lisible.</p></div>
+      <p>Nous ne testons pas les produits nous-mêmes : nous n'avons pas de laboratoire, et nous préférons le dire. Notre travail, c'est de lire tout ce qui a été publié, de trier le solide du marketing, et de vous le rendre lisible.</p>
+      <p class="byline">Sélection éditée par <a href="a-propos">Matthieu Tixier</a> · <a href="methode#classement">critères de classement</a></p></div>
       <img src="assets/img/pose-investigation.webp" alt="La mascotte, loupe à la main" width="200" height="200">
     </div>
     <div class="method-grid">
@@ -41,8 +42,10 @@
       <div class="method-card"><span class="mono-big">2 · Presse</span><h3>La note principale</h3><p>Moyenne simple des notes publiées par les médias spécialisés, convertie sur 10, avec le nombre de notes. Chaque note renvoie vers le test d'origine. « Gamme » signale des notes obtenues sur une configuration ou une génération proche.</p></div>
       <div class="method-card"><span class="mono-big">3 · Prix</span><h3>Un prix indicatif</h3><p>Pour chaque produit, nous affichons un prix indicatif, avec le mois où nous l'avons constaté, et les liens vers les marchands où nous l'avons trouvée en vente.</p></div>
     </div>
-    <h2>Le classement</h2>
-    <p>En tête, <b>« le choix de la bande »</b> : notre recommandation pour l'usage, le meilleur compromis entre notes presse et prix. Ensuite, les produits sont classés par <b>note presse</b>. Ceux dont les tests ne donnent pas de note chiffrée viennent en dernier : nous donnons alors le lien vers le test plutôt que d'inventer une note.</p>
+    <h2 id="classement">Le classement : nos critères</h2>
+    <p>En tête, <b>« le choix de la bande »</b> : notre recommandation pour l'usage, le meilleur compromis entre notes presse et prix. Elle n'est placée en tête que si sa note repose sur <b>au moins 3 notes presse</b> ; sinon elle est classée comme les autres et signalée « prometteur, peu testé ».</p>
+    <p>Les autres produits sont classés en trois groupes : d'abord ceux notés par <b>au moins 3 médias</b>, puis ceux qui n'ont qu'<b>1 ou 2 notes</b>, enfin ceux testés <b>sans note chiffrée</b> (nous donnons alors le lien vers le test plutôt que d'inventer une note). Dans chaque groupe, l'ordre suit la <b>note presse ajustée</b> : une moyenne bayésienne qui rapproche une note appuyée sur peu de tests de la moyenne de l'usage, comme si 3 notes moyennes s'y ajoutaient. Un 10/10 isolé ne peut donc pas devancer un 9/10 confirmé par dix médias. À égalité, le produit le plus noté puis le moins cher passe devant.</p>
+    <p>La note affichée sur chaque produit reste la <b>moyenne simple</b> des médias, avec le nombre de notes ; la note ajustée ne sert qu'à l'ordre du classement. Aucun critère commercial (commission, marchand) n'intervient dans le classement.</p>
     <h2>Comment est calculée la note presse</h2>
     <p>Toutes les notes sont ramenées sur 10 : 4/5 devient 8/10, 87 % devient 8,7/10. Nous faisons une moyenne simple, sans pondérer les médias. Le nombre de notes est toujours affiché : une moyenne appuyée sur quinze tests est plus solide qu'une note unique. Les tests sans note chiffrée sont listés mais n'entrent pas dans la moyenne. Au 09/10/2026, le site recense <b>1162 tests</b> et <b>840 notes</b> pour 200 produits.</p>
     <h2>Les imprimantes et les associations de consommateurs</h2>
@@ -63,12 +66,12 @@
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : Amazon et Electro Dépôt) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises.</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — Tous les tests high-tech, résumés pour vous</div>
-      <div class="foot-links"><a href="pc-portable/">PC portables</a><a href="ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="ecran-pc/">Écrans PC</a><a href="imprimante/">Imprimantes</a><a href="black-friday/">Black Friday 2026</a><a href="methode">Méthode</a><a href="mentions-legales">Mentions légales</a><a href="politique-confidentialite">Confidentialité</a><span>MAJ 09/10/2026</span></div>
+      <div class="foot-links"><a href="pc-portable/">PC portables</a><a href="ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="ecran-pc/">Écrans PC</a><a href="imprimante/">Imprimantes</a><a href="black-friday/">Black Friday 2026</a><a href="methode">Méthode</a><a href="a-propos">À propos</a><a href="mentions-legales">Mentions légales</a><a href="politique-confidentialite">Confidentialité</a><span>MAJ 09/10/2026</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
 </div>
 
-<script src="assets/main.js?v=38f18bd6" defer></script>
+<script src="assets/main.js?v=efdd5d5e" defer></script>
 </body>
 </html>
