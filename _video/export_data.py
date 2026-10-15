@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Exporte _source/data.json vers src/data.generated.json : les 20 usages avec leur top 10, au format utilisé par Remotion.
-Reprend le classement du site (rank_key de gen10.py) et le prix indicatif. Ne modifie jamais data.json.
+Reprend le classement du site (règle partagée _source/classement.py) et le prix indicatif. Ne modifie jamais data.json.
 
   python3 _video/export_data.py
 """
@@ -13,6 +13,7 @@ RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "_source"))
 from desk import DCATS                      # noqa: E402
 from familles_new import ECATS, ICATS       # noqa: E402
+from classement import cle, moyenne_usage, badge_affiche  # noqa: E402
 
 DATA = json.loads((RACINE / "_source" / "data.json").read_text(encoding="utf-8"))
 COULEURS = {"bureau": "#1D5FD6", "creation": "#C2410C", "gaming": "#1F9E6E", "poly": "#9A2E7A", "lowcost": "#B78900"}
@@ -61,10 +62,9 @@ def euro_ind(x):
 
 
 def rank_key(d):
-    top = 0 if d["badge"] == "Le choix de la bande" else 1
+    """Même classement que le site : règle partagée de _source/classement.py."""
     pr = d["press"]
-    tests = d["press"]["tests"]
-    return (top, 0 if pr["avg"] is not None else 1, -(pr["avg"] or 0), -(pr["n"] if pr["avg"] is not None else tests), d["p"])
+    return cle(d["badge"], pr["avg"], pr["n"], pr["tests"], d["p"], d["moy"])
 
 
 def produits(catkey):
@@ -75,11 +75,14 @@ def produits(catkey):
         offers = [o for o in n["offers"] if o.get("dispo", True)] or n["offers"]
         p = float(n.get("prix") or min(o["price"] for o in offers))
         out.append(dict(id=pid, badge=n["badge"], press=n["press"], p=p, n=n))
+    moy = moyenne_usage([d["press"]["avg"] for d in out])
+    for d in out:
+        d["moy"] = moy
     out.sort(key=rank_key)
     res = []
     for i, d in enumerate(out, 1):
         n, pr = d["n"], d["press"]
-        res.append(dict(rang=i, id=d["id"], nom=n["short"], ref=n["ref"], badge=n["badge"], verdict=n["verdict"],
+        res.append(dict(rang=i, id=d["id"], nom=n["short"], ref=n["ref"], badge=badge_affiche(n["badge"], i), verdict=n["verdict"],
                         fort=(n["strengths"] or [""])[0], img=(f"assets/img/p/{n['img']}" if n.get("img") else None),
                         prix=euro_ind(d["p"]), note=(round(pr["avg"], 1) if pr["avg"] is not None else None),
                         nnotes=pr["n"], ntests=pr["tests"]))

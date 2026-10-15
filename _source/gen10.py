@@ -200,36 +200,24 @@ assert len({d["purl"] for d in ITEMS.values()}) == len(ITEMS)
 assert not {d["pslug"] for d in ITEMS.values()} & {c["slug"] for c in CAT.values()}
 
 
-TOP_BADGE = "Le choix de la bande"
-SEUIL_NOTES = 3   # en dessous, une note presse ne suffit pas à devancer un produit noté par au moins 3 médias
-PRIOR_M = 3       # moyenne bayésienne : chaque note est « tirée » vers la moyenne de l'usage comme si 3 notes moyennes s'ajoutaient
-CAT_MEAN = {}
-for k in CAT:
-    _avgs = [d["press"]["avg"] for d in ITEMS.values() if d["cat"] == k and d["press"]]
-    CAT_MEAN[k] = sum(_avgs) / len(_avgs) if _avgs else 7.5
+from classement import TOP_BADGE, SEUIL_NOTES, PRIOR_M, moyenne_usage, note_ajustee, cle, badge_affiche
+CAT_MEAN = {k: moyenne_usage([d["press"]["avg"] for d in ITEMS.values() if d["cat"] == k and d["press"]]) for k in CAT}
 for d in ITEMS.values():
     pr = d["press"]
-    d["score"] = (pr["n"] * pr["avg"] + PRIOR_M * CAT_MEAN[d["cat"]]) / (pr["n"] + PRIOR_M) if pr else None
+    d["score"] = note_ajustee(pr["avg"], pr["n"], CAT_MEAN[d["cat"]]) if pr else None
 
 
 def rank_key(d):
-    """Classement (audit SEO du 10/10/2026) :
-    1. « le choix de la bande », seulement si sa note repose sur au moins 3 notes presse ;
-    2. les produits notés par au moins 3 médias, puis ceux qui ont 1 ou 2 notes, puis les « testés, sans note » ;
-    3. dans chaque groupe : note ajustée (moyenne bayésienne), puis nombre de notes, puis prix."""
+    """Classement : voir _source/classement.py (règle partagée avec les vidéos)."""
     pr = d["press"]
-    n = pr["n"] if pr else 0
-    top = 0 if d["badge"] == TOP_BADGE and n >= SEUIL_NOTES else 1
-    tier = 0 if n >= SEUIL_NOTES else (1 if pr else 2)
-    return (top, tier, -round(d["score"] or 0, 4), -(n or d["tests"]["tests"]), d["p"])
+    return cle(d["badge"], pr["avg"] if pr else None, pr["n"] if pr else 0, d["tests"]["tests"], d["p"], CAT_MEAN[d["cat"]])
 
 
 by_cat = {k: sorted([d for d in ITEMS.values() if d["cat"] == k], key=rank_key) for k in CAT}
 for k in CAT:
     assert len(by_cat[k]) == 10, k
-    for d in by_cat[k][1:]:   # « le choix de la bande » rétrogradé faute de notes : badge honnête
-        if d["badge"] == TOP_BADGE:
-            d["badge"] = "Prometteur, peu testé"
+    for i, d in enumerate(by_cat[k], 1):   # « le choix de la bande » rétrogradé faute de notes : badge honnête
+        d["badge"] = badge_affiche(d["badge"], i)
 
 
 def notes_total(items):
