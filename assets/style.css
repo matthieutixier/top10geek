@@ -857,3 +857,9 @@
     .offer.has-p{grid-template-columns:1fr auto auto;}
     .offer.has-p .o-go{display:none;}
   }
+
+/* v10.3 — audit SEO du 10/10/2026 : signature de l'éditeur et critères de classement visibles */
+  .byline{font-size:0.82rem;color:var(--ink-muted);margin:10px 0 0;}
+  .byline a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
+  .rank-rule{font-size:0.85rem;line-height:1.5;color:var(--ink-muted);background:var(--paper-alt);border-radius:10px;padding:12px 14px;margin:0 0 16px;}
+  .rank-rule b{color:var(--ink);}
