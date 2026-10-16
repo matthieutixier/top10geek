@@ -1,5 +1,5 @@
 {
- "date": "09/10/2026",
+ "date": "16/10/2026",
  "items": {
   "zenbook-a14": {
    "cat": "bureau",
@@ -696,19 +696,19 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 649.98,
+     "price": 569.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-hp-17-omnibook-3-17-dp0046nfx-r5-8-256go.html",
      "name": "Pc Portable Hp 17,3'' Omnibook 3 17-dp0046nfx-r5/8/256go/argent",
      "cfg": "8 Go · 256 Go",
      "ean": "0821844416990",
      "edid": "10019070",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "img": "omnibook3-17.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 649.98
+   "prix": 569.98
   },
   "surface-laptop-13": {
    "cat": "bureau",
@@ -5921,7 +5921,7 @@
      "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go",
      "ean": "0199275183737",
      "edid": "10018724",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "img": "ideapad-slim3.webp",
@@ -6085,7 +6085,7 @@
      "cfg": "4 Go · 64 Go",
      "ean": "4711721178829",
      "edid": "10018899",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "img": "chromebook-315.webp",
@@ -6520,7 +6520,7 @@
      "cfg": "4 Go · 128 Go",
      "ean": "0199275252853",
      "edid": "10018811",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "img": "ideapad-slim3-cb14.webp",
@@ -6620,13 +6620,13 @@
    ],
    "id": "mac-mini-m6",
    "press": {
-    "avg": 7.133333333333333,
-    "n": 6,
-    "tests": 8,
+    "avg": 7.471428571428571,
+    "n": 7,
+    "tests": 9,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Apple_Mac+mini+M6.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -6635,7 +6635,8 @@
       "url": "https://www.lesnumeriques.com/ordinateur-de-bureau/apple-mac-mini-m6-p78713/test.html",
       "date": "2026-09-21",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Wired",
@@ -6643,7 +6644,16 @@
       "url": "https://www.wired.com/review/apple-mac-mini-m6/",
       "date": "2026-09-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 8.8,
+      "url": "https://geekculture.co/apple-mac-mini-m6-2026-review/",
+      "date": "2026-10-07",
+      "ajout": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
@@ -6651,19 +6661,24 @@
       "url": "https://www.notebookcheck.com/Apple-Mac-mini-2026-im-Test-Dank-M6-SoC-der-schnellste-Mini-PC.1404350.0.html",
       "date": "2026-09-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "Engadget",
+      "score": 8.7,
+      "url": "https://www.engadget.com/2263471/apple-mac-mini-m6-review/",
+      "date": "2026-09-21",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-631552-test-apple-mac-mini-m6-la-puissance-qui-fascine-et-le-prix-qui-tue.html",
-      "date": "2026-09-29"
-     },
-     {
-      "src": "Engadget",
-      "score": 8.0,
-      "url": "https://www.engadget.com/2263471/apple-mac-mini-m6-review/",
-      "date": "2026-09-21"
+      "date": "2026-09-29",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Press Start",
@@ -6671,7 +6686,8 @@
       "url": "https://press-start.com.au/reviews/tech/2026/09/21/apple-mac-mini-with-m6-review-even-more-power-in-a-tiny-package/",
       "date": "2026-09-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "ComputerBase",
@@ -6685,7 +6701,12 @@
       "url": "https://www.hardwarezone.com.sg/pc/apple-mac-mini-m6-review-singapore-specs-buy",
       "date": "2026-09-21"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Apple_Mac+mini+M6.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -6707,7 +6728,19 @@
    "img": "mac-mini-m6.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1034.0
+   "prix": 1034.0,
+   "synthese": {
+    "texte": "Les tests convergent sur la puce M6 : Notebookcheck mesure une nette avance en monocœur sur les autres mini-PC, et Clubic relève environ 15 % de mieux en monocœur et 56 % en multicœur face au M4. Tous décrivent une machine quasi silencieuse et sobre : Clubic note 2 à 3 W au repos et un simple souffle sous charge, GeekCulture des ventilateurs inaudibles après trois heures de streaming. Le format compact, l'Ethernet 2,5 Gbit/s et les trois ports Thunderbolt 4 sont appréciés.\n\nLes avis divergent sur le jeu : Engadget obtient environ 55 i/s sur Cyberpunk 2077 en 1080p avec les réglages par défaut, quand Notebookcheck tombe à 37,5 i/s en Ultra et Clubic à une trentaine en QHD. Engadget y voit le Mac de bureau à conseiller au plus grand nombre, alors que Clubic estime que la hausse du tarif d'entrée lui retire son rôle de porte d'accès à macOS.\n\nPlusieurs reproches reviennent : bouton d'alimentation placé sous le boîtier, Wi-Fi 7 bridé à 160 MHz, mémoire et SSD soudés avec des options coûteuses, garantie d'un an pointée par Notebookcheck. GeekCulture juge la base 16 Go/256 Go peu pérenne. Si vous cherchez un Mac compact et discret pour la bureautique, la photo ou le montage, il convient ; pour de gros projets, les testeurs orientent plutôt vers la version M5 Pro.",
+    "date": "2026-10-16",
+    "n": 7,
+    "tests": 9,
+    "sources": [
+     "Notebookcheck",
+     "Engadget",
+     "GeekCulture",
+     "Clubic"
+    ]
+   }
   },
   "ideacentre-mini": {
    "cat": "d-bureau",
@@ -6751,7 +6784,8 @@
       "url": "https://www.chip.de/test/Lenovo-IdeaCentre-Mini-01IRH8-im-Test_185851965.html",
       "date": "2025-03-16",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Labo Fnac",
@@ -6764,7 +6798,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 699.99,
+     "price": 999.99,
      "url": "https://www.amazon.fr/dp/B0FJFYYW7X?tag=geekconcept-21",
      "name": "Lenovo IdeaCentre Mini 01IRH8 Ordinateur de Bureau (Intel Core i5-13420H, RAM 16Go, SSD 512Go, Graphique Intel UHD Intég",
      "cfg": "16 Go · 512 Go",
@@ -6781,7 +6815,7 @@
    "img": "ideacentre-mini.webp",
    "rating": 5.0,
    "nrev": 1,
-   "prix": 699.99
+   "prix": 849.99
   },
   "omnidesk-slim": {
    "cat": "d-bureau",
@@ -6809,17 +6843,22 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Test Consumer Reports",
-     "https://www.consumerreports.org/electronics-computers/computers/hp-omnidesk-slim-desktop-s03-0034/m417304/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Consumer Reports",
       "score": null,
       "url": "https://www.consumerreports.org/electronics-computers/computers/hp-omnidesk-slim-desktop-s03-0034/m417304/",
-      "date": ""
+      "date": "2025-05-16"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test Consumer Reports",
+     "https://www.consumerreports.org/electronics-computers/computers/hp-omnidesk-slim-desktop-s03-0034/m417304/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -6869,17 +6908,22 @@
     "tests": 1,
     "scope": "modele",
     "src": [
-     "Test Consumer Reports",
-     "https://www.consumerreports.org/electronics-computers/computers/dell-slim-desktop-ecs1250/m417764/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Consumer Reports",
       "score": null,
       "url": "https://www.consumerreports.org/electronics-computers/computers/dell-slim-desktop-ecs1250/m417764/",
-      "date": ""
+      "date": "2025-07-18"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test Consumer Reports",
+     "https://www.consumerreports.org/electronics-computers/computers/dell-slim-desktop-ecs1250/m417764/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -6895,7 +6939,8 @@
      "url": "https://www.amazon.fr/dp/B0FMKRXNLQ?tag=geekconcept-21",
      "name": "DELL ECS1250 Intel? Core? i5 i5-14400 16 GB DDR5-SDRAM 512 GB SSD Windows 11 Pro Slim PC PC Nero (DELL PRO SLIM i5-14400",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0FMKRXNLQ"
+     "asin": "B0FMKRXNLQ",
+     "dispo": false
     }
    ],
    "img": "dell-slim.webp",
@@ -6929,17 +6974,22 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Test Consumer Reports",
-     "https://www.consumerreports.org/electronics-computers/computers/lenovo-ideacentre-tower-desktop-91cf000dus/m419469/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Consumer Reports",
       "score": null,
       "url": "https://www.consumerreports.org/electronics-computers/computers/lenovo-ideacentre-tower-desktop-91cf000dus/m419469/",
-      "date": ""
+      "date": "2025-11-07"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test Consumer Reports",
+     "https://www.consumerreports.org/electronics-computers/computers/lenovo-ideacentre-tower-desktop-91cf000dus/m419469/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -6989,25 +7039,31 @@
     "tests": 2,
     "scope": "gamme",
     "src": [
-     "Test Consumer Reports",
-     "https://www.consumerreports.org/electronics-computers/computers/asus-v500-mini-tower-15l-desktop-v500mv-is706/m417716/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Pokde",
       "score": 7.3,
       "url": "https://pokde.net/review/asus-v500mv-mini-tower-review",
-      "date": "",
+      "date": "2025-08-09",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Consumer Reports",
       "score": null,
       "url": "https://www.consumerreports.org/electronics-computers/computers/asus-v500-mini-tower-15l-desktop-v500mv-is706/m417716/",
-      "date": ""
+      "date": "2025-06-26"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test Consumer Reports",
+     "https://www.consumerreports.org/electronics-computers/computers/asus-v500-mini-tower-15l-desktop-v500mv-is706/m417716/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -7057,17 +7113,23 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Test IT Pro",
-     "https://www.itpro.com/hardware/368654/acer-aspire-xc-1660-review-a-clear-winner-for-value"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "IT Pro",
       "score": 8.0,
       "url": "https://www.itpro.com/hardware/368654/acer-aspire-xc-1660-review-a-clear-winner-for-value",
-      "date": ""
+      "date": "2022-07-27",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test IT Pro",
+     "https://www.itpro.com/hardware/368654/acer-aspire-xc-1660-review-a-clear-winner-for-value"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -7114,9 +7176,9 @@
    ],
    "id": "geekom-a5",
    "press": {
-    "avg": 8.4,
-    "n": 5,
-    "tests": 6,
+    "avg": 8.216666666666667,
+    "n": 6,
+    "tests": 7,
     "scope": "modele",
     "src": [
      "Synthèse CommentChoisir",
@@ -7129,7 +7191,8 @@
       "url": "https://www.itpro.com/hardware/the-geekom-a5-2025-edition-is-possibly-the-best-mini-pc-on-the-market",
       "date": "2025-06-09",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -7141,19 +7204,29 @@
       "src": "Mighty Gadget",
       "score": 8.0,
       "url": "https://mightygadget.co.uk/geekom-a5-2025-edition-review/",
-      "date": "2026-01-12"
+      "date": "2026-01-12",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/pro/geekom-a5-mini-pc-2027-edition-review-good-value-well-made-and-a-decent-user-experience-for-those-who-arent-excessively-ambitious",
-      "date": "2026-09-19"
+      "date": "2026-09-19",
+      "verifie": "16/10/2026"
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a5-2025-super-economico-e-performante",
       "date": "2025-05-22"
+     },
+     {
+      "src": "Notebookcheck",
+      "score": 7.3,
+      "url": "https://www.notebookcheck.com/Geekom-A5-2027-im-Test-UEberraschend-leise-das-kann-die-Neuauflage-des-Budget-Mini-PCs.1419036.0.html",
+      "date": "2026-10-14",
+      "ajout": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -7173,7 +7246,7 @@
     },
     {
      "m": "Amazon",
-     "price": 499.0,
+     "price": 479.0,
      "url": "https://www.amazon.fr/dp/B0FJRSLGC7?tag=geekconcept-21",
      "name": "GEEKOM A5 Business Mini PC Edition 2026 AMD Ryzen 5 7430U, 16 Go RAM DDR4",
      "cfg": "16 Go",
@@ -7183,7 +7256,7 @@
    "img": "geekom-a5.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 499.0
+   "prix": 479.0
   },
   "geekom-air12-lite": {
    "cat": "d-bureau",
@@ -7212,8 +7285,8 @@
     "tests": 4,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Geekom_Air12+Lite.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -7222,19 +7295,22 @@
       "url": "https://androidpc.es/geekom-air12-lite-analisis/",
       "date": "2024-11-25",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "tuttoteK",
       "score": 7.0,
       "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-mini-air12-lite-mini-pc",
-      "date": "2024-11-25"
+      "date": "2024-11-25",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Clubic",
       "score": 6.0,
       "url": "https://www.clubic.com/test-produit-576327-test-geekom-air12-lite-un-petit-prix-du-mini-pc-elegant-et-discret.html",
-      "date": "2025-08-26"
+      "date": "2025-08-26",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -7242,7 +7318,12 @@
       "url": "https://www.smartworld.it/recensioni/geekom-air12-lite",
       "date": "2024-12-10"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Geekom_Air12+Lite.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -7254,7 +7335,7 @@
     },
     {
      "m": "Amazon",
-     "price": 299.0,
+     "price": 279.0,
      "url": "https://www.amazon.fr/dp/B0DHZ1MRFG?tag=geekconcept-21",
      "name": "GEEKOM Air12 Lite Business Mini PC Intel N95, UHD Graphics,8 Go RAM DDR4",
      "cfg": "8 Go",
@@ -7264,7 +7345,7 @@
    "img": "geekom-air12-lite.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 299.0
+   "prix": 279.0
   },
   "geekom-it12": {
    "cat": "d-bureau",
@@ -7302,19 +7383,22 @@
       "url": "https://basic-tutorials.de/tests/pc-notebook/geekom-mini-it12/",
       "date": "2023-05-23",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.2,
       "url": "https://www.notebookcheck.com/Geekom-Mini-IT12-im-Test-Intel-NUC-Herausforderer-mit-Intel-Core-i7-1260P-arbeitet-sehr-leise.709269.0.html",
-      "date": "2023-04-26"
+      "date": "2023-04-26",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GBATemp",
       "score": 8.0,
       "url": "https://gbatemp.net/review/geekom-mini-it12-mini-pc.2427/",
-      "date": "2024-01-16"
+      "date": "2024-01-16",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neowin",
@@ -7326,19 +7410,22 @@
       "src": "Notebookcheck",
       "score": 8.0,
       "url": "https://www.notebookcheck.com/Geekom-Mini-IT12-mit-Intel-Core-i5-12450H-im-Test-Mini-PC-mit-guter-Leistung-und-zwei-USB-4-Anschluessen.771466.0.html",
-      "date": "2023-11-27"
+      "date": "2023-11-27",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/pro/geekom-mini-it12-review",
-      "date": "2024-01-17"
+      "date": "2024-01-17",
+      "verifie": "16/10/2026"
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-mini-it12-versatile-e-performante",
-      "date": "2024-01-23"
+      "date": "2024-01-23",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidPC.es",
@@ -7423,20 +7510,21 @@
    "press": {
     "avg": 8.666666666666666,
     "n": 3,
-    "tests": 3,
+    "tests": 4,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Apple_Mac+mini.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "PCMag",
       "score": 9.0,
       "url": "https://www.pcmag.com/reviews/apple-mac-mini-2026-m5-pro",
-      "date": "",
+      "date": "2026-09-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Trusted Reviews",
@@ -7444,20 +7532,34 @@
       "url": "https://www.trustedreviews.com/reviews/apple-mac-mini-2026-m5-pro",
       "date": "2026-09-22",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "ZDNet",
       "score": 8.0,
       "url": "https://www.zdnet.com/tech/apple-mac-mini-m5-pro-review/",
-      "date": ""
+      "date": "2026-09-22",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "Macwelt",
+      "score": null,
+      "url": "https://www.macwelt.de/article/3241596/mac-mini-m5-pro-test.html",
+      "date": "2026-09-23",
+      "ajout": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Apple_Mac+mini.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
      "m": "Amazon",
-     "price": 1987.89,
+     "price": 1999.0,
      "url": "https://www.amazon.fr/dp/B0HGGDQ29W?tag=geekconcept-21",
      "name": "Apple Mac Mini avec Puce Apple M5 Pro - Argent",
      "cfg": "",
@@ -7474,7 +7576,7 @@
    "img": "mac-mini-m5pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1987.89
+   "prix": 1999.0
   },
   "mac-studio-m5max": {
    "cat": "d-creation",
@@ -7497,13 +7599,13 @@
    ],
    "id": "mac-studio-m5max",
    "press": {
-    "avg": 9.333333333333334,
+    "avg": 9.366666666666667,
     "n": 3,
-    "tests": 4,
+    "tests": 5,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Apple_Mac+Studio+M5+Max.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -7512,13 +7614,17 @@
       "url": "https://www.lesnumeriques.com/ordinateur-de-bureau/apple-mac-studio-m5-max-p78911/test.html",
       "date": "2026-09-22",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GeekCulture",
-      "score": 9.0,
+      "score": 9.1,
       "url": "https://geekculture.co/apple-mac-studio-m5-max-2026-review/",
-      "date": "2026-09-21"
+      "date": "2026-09-21",
+      "avant": 9.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Wired",
@@ -7526,7 +7632,15 @@
       "url": "https://www.wired.com/review/apple-mac-studio-m5-ultra-2026/",
       "date": "2026-10-01",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "Creative Bloq",
+      "score": null,
+      "url": "https://www.creativebloq.com/reviews/tested-the-mac-studio-m5-max-claims-its-crown-as-the-best-of-all-apple-computers",
+      "date": "2026-10-09",
+      "ajout": "16/10/2026"
      },
      {
       "src": "Les Numériques",
@@ -7534,7 +7648,12 @@
       "url": "https://www.lesnumeriques.com/ordinateur-de-bureau/le-test-de-l-ordinateur-de-bureau-apple-mac-studio-m5-max-a-rejoint-notre-comparatif-n262376.html",
       "date": "2026-09-26"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Apple_Mac+Studio+M5+Max.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -7580,8 +7699,8 @@
    ],
    "id": "geekom-a9max",
    "press": {
-    "avg": 8.170588235294119,
-    "n": 17,
+    "avg": 8.272222222222222,
+    "n": 18,
     "tests": 26,
     "scope": "modele",
     "src": [
@@ -7595,7 +7714,8 @@
       "url": "https://www.itpro.com/hardware/the-geekom-a9-max-is-the-most-expensive-but-also-the-most-capable-mini-pc-weve-tested-recently",
       "date": "2025-09-29",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechPowerUp",
@@ -7604,12 +7724,22 @@
       "date": "2025-09-24"
      },
      {
+      "src": "GBATemp",
+      "score": 9.0,
+      "url": "https://gbatemp.net/review/geekom-a9-max.2655/",
+      "date": "2025-09-24",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/computing/geekom-a9-max-mini-pc-2026-review",
       "date": "2026-05-26",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PhotoTrend",
@@ -7617,7 +7747,8 @@
       "url": "https://phototrend.fr/2026/09/test-geekom-a9-max-2026/",
       "date": "2026-09-22",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neozone",
@@ -7625,7 +7756,17 @@
       "url": "https://www.neozone.org/tests/coup-de-coeur-de-la-redaction-je-teste-le-meilleur-mini-pc-de-2025-le-geekom-a9-max/",
       "date": "2025-10-25",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "KitGuru",
+      "score": 8.5,
+      "url": "https://www.kitguru.net/desktop-pc/dominic-moass/geekom-a9-max-mini-pc-review-ryzen-ai-9-hx-370/",
+      "date": "2025-09-30",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Presse Citron",
@@ -7633,7 +7774,8 @@
       "url": "https://www.presse-citron.net/geekom-a9-max-test/",
       "date": "2026-06-02",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neozone",
@@ -7641,37 +7783,36 @@
       "url": "https://www.neozone.org/tests/jai-teste-le-mini-pc-geekom-a9-max-2026-edition-amd-ryzen-ai-9-hx-470/",
       "date": "2026-07-10",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.2,
       "url": "https://www.notebookcheck.com/Bester-Geekom-Mini-PC-aller-Zeiten-Geekom-A9-Max-mit-AMD-Ryzen-AI-9-HX-370-fuer-999-Euro-im-Test.1109800.0.html",
-      "date": "2025-09-11"
+      "date": "2025-09-11",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/mini-pc/2870575_test-du-geekom-a9-max-le-plus-parfait-equilibre-puissance-cout-pour-un-mini-pc",
-      "date": "2025-11-24"
+      "date": "2025-11-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/geekom/3131889_test-du-geekom-a9-max-2026-edition-le-mini-pc-amd-passe-au-ryzen-ai-9-hx-470",
-      "date": "2026-06-09"
-     },
-     {
-      "src": "KitGuru",
-      "score": 8.0,
-      "url": "https://www.kitguru.net/desktop-pc/dominic-moass/geekom-a9-max-mini-pc-review-ryzen-ai-9-hx-370/",
-      "date": "2025-09-30"
+      "date": "2026-06-09",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.0,
       "url": "https://www.notebookcheck.com/Geekom-A9-Max-Mini-PC-im-Test-Der-neue-Ryzen-AI-Chip-bleibt-hinter-seinen-Moeglichkeiten.1289092.0.html",
-      "date": "2026-05-23"
+      "date": "2026-05-23",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechPowerUp",
@@ -7683,25 +7824,31 @@
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/desktops/mini-pcs/geekom-a9-max-2026-mini-pc-review",
-      "date": "2026-07-24"
+      "date": "2026-07-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-616117-test-geekom-a9-max-la-puissance-colossale-d-amd-dans-un-boitier-minuscule.html",
-      "date": "2026-06-12"
+      "date": "2026-06-12",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PC Gamer",
       "score": 6.7,
       "url": "https://www.pcgamer.com/hardware/gaming-pcs/geekom-a9-max-ai-amd-mini-pc-review/",
-      "date": "2026-07-08"
+      "date": "2026-07-08",
+      "verifie": "16/10/2026"
      },
      {
       "src": "KitGuru",
-      "score": 6.0,
+      "score": 6.5,
       "url": "https://www.kitguru.net/desktop-pc/dominic-moass/geekom-a9-max-2026-mini-pc-review-ryzen-ai-9-hx-470/",
-      "date": "2026-06-29"
+      "date": "2026-06-29",
+      "avant": 6.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -7726,12 +7873,6 @@
       "score": null,
       "url": "https://www.connect.de/testbericht/geekom-a9-max-mini-ai-pc-2026-edition-test-3212586.html",
       "date": "2026-05-27"
-     },
-     {
-      "src": "GBATemp",
-      "score": null,
-      "url": "https://gbatemp.net/review/geekom-a9-max.2655/",
-      "date": "2025-09-24"
      },
      {
       "src": "Neowin",
@@ -7818,7 +7959,8 @@
       "url": "https://www.itpro.com/hardware/desktops/the-geekom-it15-ai-is-a-core-ultra-2-mini-pc-thats-both-small-and-mighty",
       "date": "2025-08-01",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PCWorld",
@@ -7826,7 +7968,8 @@
       "url": "https://www.pcworld.com/article/2957437/geekom-it15-review.html",
       "date": "2025-11-05",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Presse Citron",
@@ -7834,7 +7977,8 @@
       "url": "https://www.presse-citron.net/test-mini-pc-geekom-it15/",
       "date": "2025-09-13",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Chip.de",
@@ -7846,7 +7990,8 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/2762375_test-du-geekom-mini-it15-la-plus-puissante-des-puces-intel-au-coeur-dun-mini-pc",
-      "date": "2025-09-09"
+      "date": "2025-09-09",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechPowerUp",
@@ -7860,7 +8005,8 @@
       "url": "https://www.neozone.org/tests/test-du-geekom-it15-mini-pc-ia/",
       "date": "2025-12-18",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -7926,7 +8072,8 @@
       "src": "Windows Central",
       "score": 10.0,
       "url": "https://www.windowscentral.com/hardware/computers-desktops/geekom-gt1-mega-mini-pc-review",
-      "date": "2024-12-11"
+      "date": "2024-12-11",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Chip.de",
@@ -7934,13 +8081,15 @@
       "url": "https://www.chip.de/test/GEEKOM-GT1-Mega-U9-185H-32GB-RAM-2TB-SSD-im-Test_185568190.html",
       "date": "2024-10-30",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GBATemp",
       "score": 9.0,
       "url": "https://gbatemp.net/review/geekom-gt1-mega-mini-pc.2559/",
-      "date": "2024-10-25"
+      "date": "2024-10-25",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Club386",
@@ -7952,7 +8101,8 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/2367844_test-geekom-gt1-mega",
-      "date": "2025-01-16"
+      "date": "2025-01-16",
+      "verifie": "16/10/2026"
      },
      {
       "src": "KitGuru",
@@ -7964,13 +8114,15 @@
       "src": "Neozone",
       "score": 8.0,
       "url": "https://www.neozone.org/tests/je-teste-le-geekom-gt1-mega-un-mini-pc-dote-du-puissant-processeur-intel-core-ultra-9-185h/",
-      "date": "2024-10-29"
+      "date": "2024-10-29",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 7.9,
       "url": "https://www.notebookcheck.com/Geekom-GT1-Mega-im-Test-Erster-KI-Mini-PC-von-Geekom-ueberzeugt-nicht-in-allen-Punkten.913011.0.html",
-      "date": "2024-11-07"
+      "date": "2024-11-07",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Actu High-Tech",
@@ -8046,15 +8198,16 @@
     "tests": 3,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-HP_Z2+Mini.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/hardware/hp/hp-z2-mini-g1a-review",
-      "date": "2025-09-21"
+      "date": "2025-09-21",
+      "verifie": "16/10/2026"
      },
      {
       "src": "LeCafeDuGeek",
@@ -8062,15 +8215,22 @@
       "url": "https://lecafedugeek.fr/test-hp-z2-mini-g1a-128-go-ia-locale/",
       "date": "2026-09-03",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 7.9,
       "url": "https://www.notebookcheck.com/HP-Z2-Mini-G1a-mit-AMD-Strix-Halo-im-Test-Kompakte-Workstation-mit-Ryzen-AI-Max-und-Radeon-RX-8060S.1059460.0.html",
-      "date": "2025-07-28"
+      "date": "2025-07-28",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-HP_Z2+Mini.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8113,21 +8273,23 @@
     "tests": 3,
     "scope": "gamme",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Lenovo_ThinkStation+P3.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/pro/lenovo-thinkstation-p3-ultra-sff-gen-2-mini-pc-workstation-review",
-      "date": "2026-04-17"
+      "date": "2026-04-17",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/pro/lenovo-thinkstation-p3-tiny-gen-2-mini-pc-workstation-review",
-      "date": "2026-06-17"
+      "date": "2026-06-17",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Chip.de",
@@ -8135,9 +8297,15 @@
       "url": "https://www.chip.de/test/Lenovo-ThinkStation-P3-Tiny-im-Test_186084174.html",
       "date": "2025-07-03",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Lenovo_ThinkStation+P3.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8180,8 +8348,8 @@
     "tests": 2,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Minisforum_AI+X1+Pro.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -8190,15 +8358,22 @@
       "url": "https://www.notebookcheck.com/Minisforum-AI-X1-Pro-mit-Ryzen-AI-9-HX-470-im-Test-Mini-PC-Upgrade-fuer-Office-Gaming-KI-mit-RAM-Bremse.1234751.0.html",
       "date": "2026-03-03",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/desktops/mini-pcs/minisforum-ai-x1-pro-470-review",
-      "date": "2026-03-28"
+      "date": "2026-03-28",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Minisforum_AI+X1+Pro.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8241,8 +8416,8 @@
     "tests": 2,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Minisforum_MS-S1+Max.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -8251,15 +8426,22 @@
       "url": "https://www.notebookcheck.com/Einer-der-staerksten-Mini-PCs-2025-Minisforum-MS-S1-Max-im-Test-AMD-Strix-Halo-Power-128-GB-RAM-Radeon-8060S-fuer-Profis-KI.1119713.0.html",
       "date": "2025-09-25",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/2855261_test-minisforum-ms-s1-max",
-      "date": "2025-11-10"
+      "date": "2025-11-10",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Minisforum_MS-S1+Max.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8268,7 +8450,8 @@
      "url": "https://www.amazon.fr/dp/B0G345VHB8?tag=geekconcept-21",
      "name": "MINIS FORUM MS-S1 Max Station de Travail IA, AMD Ryzen AI Max+ 395 (16C/32T, jusqu'à 5,1 GHz), GPU RDNA 3.5, 64 Go RAM, ",
      "cfg": "64 Go",
-     "asin": "B0G345VHB8"
+     "asin": "B0G345VHB8",
+     "dispo": false
     }
    ],
    "img": "minisforum-ms-s1-max.webp",
@@ -8303,8 +8486,8 @@
     "tests": 6,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-GMKtec_EVO-X2.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -8313,31 +8496,36 @@
       "url": "https://www.frandroid.com/test/3161585_test-du-gmktec-evo-x2-amd-strix-halo-128-go-de-ram-unifiee-et-un-igpu-au-niveau-dune-rtx-4060",
       "date": "2026-06-29",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.8,
       "url": "https://www.notebookcheck.com/Mini-PC-mit-High-End-Hardware-GMKtec-EVO-X2-mit-AMD-Strix-Halo-APU-64-GB-RAM-Radeon-8060S-im-Test.1096325.0.html",
-      "date": "2025-09-01"
+      "date": "2025-09-01",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.8,
       "url": "https://www.notebookcheck.com/Einer-der-besten-Mini-PCs-2025-AMD-Ryzen-AI-Max-395-und-Radeon-8060S-mit-mit-Top-Leistung-im-GMKtec-EVO-X2-getestet.1096325.0.html",
-      "date": "2025-09-01"
+      "date": "2025-09-01",
+      "verifie": "16/10/2026"
      },
      {
       "src": "IGN",
       "score": 8.0,
       "url": "https://www.ign.com/articles/gmktec-evo-x2-review",
-      "date": "2025-11-10"
+      "date": "2025-11-10",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/desktops/mini-pcs/gmktec-evo-x2-ai-mini-pc-review",
-      "date": "2026-02-04"
+      "date": "2026-02-04",
+      "verifie": "16/10/2026"
      },
      {
       "src": "wccftech",
@@ -8345,7 +8533,12 @@
       "url": "https://wccftech.com/review/gmktec-evo-x2-ai-amd-ryzen-ai-max-395-mini-pc-the-worlds-most-powerful-soc-for-ai-gaming-everything/",
       "date": "2025-09-21"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-GMKtec_EVO-X2.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8388,21 +8581,23 @@
     "tests": 7,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-HP_Omen+35L.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/574761-test-labo-du-hp-omen-35l-gt16-0341nf-une-configuration-gaming-exemplaire/",
-      "date": "2025-02-24"
+      "date": "2025-02-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/641742-test-labo-hp-omen-35l-valorant-peut-on-rever-mieux/",
-      "date": "2025-12-10"
+      "date": "2025-12-10",
+      "verifie": "16/10/2026"
      },
      {
       "src": "LeCafeDuGeek",
@@ -8410,33 +8605,43 @@
       "url": "https://lecafedugeek.fr/test-omen-35l-le-pc-gamer-pour-la-4k-fluide-de-hp/",
       "date": "2025-09-09",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PC Gamer",
       "score": 8.2,
       "url": "https://www.pcgamer.com/hardware/gaming-pcs/hp-omen-35l-2026-review/",
-      "date": "2026-09-17"
+      "date": "2026-09-17",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GamesRadar",
       "score": 8.0,
       "url": "https://www.gamesradar.com/hardware/desktop-pc/hp-omen-35l-review/",
-      "date": "2025-04-25"
+      "date": "2025-04-25",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/desktops/gaming-pcs/hp-omen-35l-review",
-      "date": "2024-09-12"
+      "date": "2024-09-12",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Windows Central",
       "score": 8.0,
       "url": "https://www.windowscentral.com/hardware/hp/hp-omen-35l-2024-review",
-      "date": "2025-02-08"
+      "date": "2025-02-08",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-HP_Omen+35L.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8458,7 +8663,20 @@
    "img": "omen35l.webp",
    "rating": 4.8,
    "nrev": 6,
-   "prix": 2199.99
+   "prix": 2199.99,
+   "synthese": {
+    "texte": "Une partie des tests porte sur d'anciennes configurations (RTX 4070 Super ou 4080 Super chez GamesRadar, Tom's Hardware et Windows Central) ; PC Gamer a testé l'édition 2026 avec Ryzen 7 9800X3D et RTX 5070 Ti. Le châssis et le refroidissement restant proches, les constats se recoupent : bonnes performances en 1440p et en 4K selon les réglages, températures contenues (autour de 60 °C en moyenne chez PC Gamer) et pièces standard, carte mère micro-ATX et alimentation ATX, qui facilitent les évolutions.\n\nLe bruit fait débat. PC Gamer, GamesRadar et Tom's Hardware le décrivent très discret, alors que Windows Central entend les ventilateurs siffler plus tôt sous charge et note un peu de coil whine. Ce même média signale des bugs (deux plantages, accès au BIOS laborieux) que les autres n'ont pas rencontrés.\n\nLimites citées : trop de logiciels préinstallés selon Tom's Hardware et Windows Central, un emplacement M.2 ou PCIe en partie masqué par la carte graphique, ni USB4 ni USB-C au-delà de 10 Gbit/s sur l'édition AMD testée par PC Gamer, et un tarif jugé élevé. Si vous voulez un PC de jeu prêt à l'emploi, calme et évolutif avec des composants du commerce, il répond à la demande ; si vous changez de matériel à chaque génération, PC Gamer estime qu'il ne s'adresse pas à vous.",
+    "date": "2026-10-16",
+    "n": 7,
+    "tests": 7,
+    "sources": [
+     "PC Gamer",
+     "Tom's Hardware",
+     "Windows Central",
+     "GamesRadar",
+     "Labo Fnac"
+    ]
+   }
   },
   "omen16l": {
    "cat": "d-gaming",
@@ -8486,23 +8704,30 @@
     "tests": 2,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-HP_Omen+16.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/634319-test-labo-du-hp-omen-16l-tg03-0098nf-une-tour-aussi-elegante-que-joueuse/",
-      "date": "2025-11-17"
+      "date": "2025-11-17",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/634318-test-labo-du-hp-omen-16l-tg03-0084nf-une-excellente-tour-gaming-et-pas-que/",
-      "date": "2025-11-20"
+      "date": "2025-11-20",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-HP_Omen+16.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8547,40 +8772,50 @@
    ],
    "id": "loq-tower",
    "press": {
-    "avg": 8.5,
-    "n": 2,
+    "avg": 8.333333333333334,
+    "n": 3,
     "tests": 4,
     "scope": "gamme",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Lenovo_LOQ.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/643422-test-labo-du-lenovo-loq-tower-17iax10-une-tour-a-laise-dans-tout/",
-      "date": "2025-12-14"
+      "date": "2025-12-14",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "Digital Trends",
+      "score": 8.0,
+      "url": "https://www.digitaltrends.com/computing/lenovo-loq-tower-17irr9-review/",
+      "date": "2025-01-03",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Windows Central",
       "score": 7.0,
       "url": "https://www.windowscentral.com/hardware/lenovo/lenovo-loq-tower-gen-9-review",
-      "date": "2025-05-18"
+      "date": "2025-05-18",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Digital Trends",
       "score": null,
       "url": "https://www.digitaltrends.com/computing/lenovo-low-tower-17irr9-review/",
       "date": "2025-01-01"
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/computing/lenovo-loq-tower-17irr9-review/",
-      "date": "2025-01-03"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Lenovo_LOQ.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8630,23 +8865,30 @@
     "tests": 2,
     "scope": "modele",
     "src": [
-     "Test CNET",
-     "https://www.cnet.com/tech/computing/lenovo-legion-tower-5-gen-10-desktop-review-mighty-good-value-if-a-little-quirky/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "CNET",
       "score": 8.4,
       "url": "https://www.cnet.com/tech/computing/lenovo-legion-tower-5-gen-10-desktop-review-mighty-good-value-if-a-little-quirky/",
-      "date": ""
+      "date": "2026-02-25",
+      "verifie": "16/10/2026"
      },
      {
       "src": "IGN",
       "score": 6.0,
       "url": "https://www.ign.com/articles/lenovo-legion-tower-5-2025-review",
-      "date": ""
+      "date": "2025-08-14",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test CNET",
+     "https://www.cnet.com/tech/computing/lenovo-legion-tower-5-gen-10-desktop-review-mighty-good-value-if-a-little-quirky/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8690,8 +8932,8 @@
     "tests": 5,
     "scope": "gamme",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Acer_Predator+Orion+7000.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -8700,7 +8942,8 @@
       "url": "https://www.techradar.com/reviews/acer-predator-orion-7000-2022-review",
       "date": "2023-02-19",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechRadar",
@@ -8708,19 +8951,22 @@
       "url": "https://www.techradar.com/computing/acer-predator-orion-7000-2023-review",
       "date": "2023-10-07",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Tom's Guide",
       "score": 8.0,
       "url": "https://www.tomsguide.com/reviews/acer-predator-orion-7000-2023",
-      "date": "2023-08-24"
+      "date": "2023-08-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PC Gamer",
       "score": 7.9,
       "url": "https://www.pcgamer.com/hardware/gaming-pcs/acer-predator-orion-7000-review/",
-      "date": "2025-12-23"
+      "date": "2025-12-23",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GamesRadar",
@@ -8728,9 +8974,15 @@
       "url": "https://www.gamesradar.com/acer-predator-orion-7000-2023-review/",
       "date": "2023-05-05",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Acer_Predator+Orion+7000.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8773,17 +9025,23 @@
     "tests": 1,
     "scope": "modele",
     "src": [
-     "Test Tom's Hardware",
-     "https://www.tomshardware.com/desktops/gaming-pcs/acer-nitro-60-review"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/desktops/gaming-pcs/acer-nitro-60-review",
-      "date": ""
+      "date": "2025-12-08",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test Tom's Hardware",
+     "https://www.tomshardware.com/desktops/gaming-pcs/acer-nitro-60-review"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8826,17 +9084,23 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Test PC Gamer",
-     "https://www.pcgamer.com/acer-nitro-50-gaming-pc-review/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "PC Gamer",
       "score": 6.5,
       "url": "https://www.pcgamer.com/acer-nitro-50-gaming-pc-review/",
-      "date": ""
+      "date": "2022-11-11",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test PC Gamer",
+     "https://www.pcgamer.com/acer-nitro-50-gaming-pc-review/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8878,8 +9142,8 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Asus+_ROG+G700TF-7265KF104W.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -8888,9 +9152,15 @@
       "url": "https://leclaireur.fnac.com/test/627106-test-labo-de-la-asus-rog-g700tf-7265kf104w-la-tour-parfaite-pour-jouer-a-tout/",
       "date": "2025-10-08",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Asus+_ROG+G700TF-7265KF104W.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -8948,13 +9218,14 @@
       "src": "PC Guide",
       "score": 9.0,
       "url": "https://www.pcguide.com/gaming-pc/gigabyte-aorus-prime-5-review/",
-      "date": ""
+      "date": "2026-03-20",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Club386",
       "score": 8.0,
       "url": "https://www.club386.com/gigabyte-aorus-prime-5-review/",
-      "date": ""
+      "date": "2026-02-20"
      }
     ]
    },
@@ -9006,15 +9277,16 @@
     "tests": 2,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Alienware_Area+51.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Windows Central",
       "score": 10.0,
       "url": "https://www.windowscentral.com/hardware/dell/alienware-area-51-16-aw30-gaming-laptop-review",
-      "date": "2025-06-22"
+      "date": "2025-06-22",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GameStar",
@@ -9022,7 +9294,12 @@
       "url": "https://www.gamestar.de/artikel/das-ist-das-schoenes-gaming-notebook-das-ich-bisher-testen-durfte,3434850.html",
       "date": "2025-06-18"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Alienware_Area+51.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -9060,7 +9337,7 @@
    ],
    "id": "geekom-a8",
    "press": {
-    "avg": 7.75,
+    "avg": 7.821428571428571,
     "n": 14,
     "tests": 19,
     "scope": "modele",
@@ -9075,7 +9352,8 @@
       "url": "https://www.itpro.com/hardware/the-geekom-a8-ai-is-the-empire-strikes-back-of-the-geekom-a-series-its-that-good",
       "date": "2025-12-19",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Connect.de",
@@ -9093,7 +9371,8 @@
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/hardware/computers-desktops/geekom-a8-a7-review",
-      "date": "2024-11-12"
+      "date": "2024-11-12",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Chip.de",
@@ -9101,7 +9380,8 @@
       "url": "https://www.chip.de/test/GEEKOM-A8-im-Test_185471489.html",
       "date": "2024-09-13",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PhotoTrend",
@@ -9109,13 +9389,24 @@
       "url": "https://phototrend.fr/2024/07/test-geekom-a8-mini-pc/",
       "date": "2024-07-03",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.2,
       "url": "https://www.notebookcheck.com/Preis-Leistungs-Tipp-mit-AMD-Ryzen-7-8845HS-Der-Geekom-A8-Max-Mini-PC-im-Test.996457.0.html",
-      "date": "2025-04-22"
+      "date": "2025-04-22",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.2,
+      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a8-un-mini-pc-potente-ai-ready",
+      "date": "2024-07-11",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neowin",
@@ -9127,13 +9418,17 @@
       "src": "Notebookcheck",
       "score": 8.0,
       "url": "https://www.notebookcheck.com/Geekom-A8-Neuauflage-2025-mit-AMD-Ryzen-7-Leistungsstarker-und-effizienter-Mini-PC-fuer-Buero-Multimedia-und-Homeoffice-im-Test.1148782.0.html",
-      "date": "2025-10-31"
+      "date": "2025-10-31",
+      "verifie": "16/10/2026"
      },
      {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a8-un-mini-pc-potente-ai-ready",
-      "date": "2024-07-11"
+      "src": "GBATemp",
+      "score": 7.8,
+      "url": "https://gbatemp.net/review/geekom-a8-mini-pc.2497/",
+      "date": "2024-06-12",
+      "avant": 7.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neozone",
@@ -9141,13 +9436,8 @@
       "url": "https://www.neozone.org/tests/test-du-mini-pc-geekom-a8-mini-pc-avec-avec-amd-ryzen-7-8745hs/",
       "date": "2026-01-22",
       "avant": 6.0,
-      "corrige": "10/10/2026"
-     },
-     {
-      "src": "GBATemp",
-      "score": 7.0,
-      "url": "https://gbatemp.net/review/geekom-a8-mini-pc.2497/",
-      "date": "2024-06-12"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "CowCotLand.com",
@@ -9161,7 +9451,8 @@
       "url": "https://press-start.com.au/reviews/tech/2024/07/01/geekom-a8-mini-pc-review-a-tiny-machine-with-big-gaming-potential/",
       "date": "2024-07-01",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Actu High-Tech",
@@ -9239,8 +9530,8 @@
    ],
    "id": "geekom-a5pro",
    "press": {
-    "avg": 7.7749999999999995,
-    "n": 8,
+    "avg": 7.811111111111111,
+    "n": 9,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -9249,10 +9540,20 @@
     ],
     "notes": [
      {
+      "src": "tuttoteK",
+      "score": 8.3,
+      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a5-pro-un-mini-pc-compatto-che-punta-su-equilibrio-praticita-e-solidita-quotidiana",
+      "date": "2026-04-13",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/mini-pc/3055855_test-de-du-geekom-a5-pro-performant-durable-pas-trop-cher-et-garanti-trois-ans-le-mini-pc-du-moment",
-      "date": "2026-04-15"
+      "date": "2026-04-15",
+      "verifie": "16/10/2026"
      },
      {
       "src": "IT Pro",
@@ -9260,7 +9561,8 @@
       "url": "https://www.itpro.com/hardware/desktops/geekom-a5-pro-review-a-low-fat-version-of-the-a8",
       "date": "2026-04-03",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "KitGuru",
@@ -9272,13 +9574,17 @@
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/computing/geekom-a5-pro-mini-pc-review",
-      "date": "2026-04-06"
+      "date": "2026-04-06",
+      "verifie": "16/10/2026"
      },
      {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a5-pro-un-mini-pc-compatto-che-punta-su-equilibrio-praticita-e-solidita-quotidiana",
-      "date": "2026-04-13"
+      "src": "GBATemp",
+      "score": 7.8,
+      "url": "https://gbatemp.net/review/geekom-a5-pro-2026-edition.2710/",
+      "date": "2026-04-13",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Presse Citron",
@@ -9286,7 +9592,8 @@
       "url": "https://www.presse-citron.net/geekom-a5-pro-test/",
       "date": "2026-04-15",
       "avant": 7.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neozone",
@@ -9294,13 +9601,15 @@
       "url": "https://www.neozone.org/tests/jai-teste-le-geekom-a5-pro-2026-edition-un-mini-pc-complet-parfait-pour-la-bureautique/",
       "date": "2026-03-26",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 7.3,
       "url": "https://www.notebookcheck.com/Kompakt-effizient-Geekom-A5-Pro-2026-Edition-Mini-PC-mit-AMD-Ryzen-Power-im-Test.1268827.0.html",
-      "date": "2026-04-14"
+      "date": "2026-04-14",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -9313,12 +9622,6 @@
       "score": null,
       "url": "https://www.connect.de/testbericht/geekom-a5-pro-2026-test-3212201.html",
       "date": "2026-03-27"
-     },
-     {
-      "src": "GBATemp",
-      "score": null,
-      "url": "https://gbatemp.net/review/geekom-a5-pro-2026-edition.2710/",
-      "date": "2026-04-13"
      },
      {
       "src": "Neowin",
@@ -9371,26 +9674,29 @@
    ],
    "id": "geekom-a6",
    "press": {
-    "avg": null,
-    "n": 0,
+    "avg": 8.0,
+    "n": 1,
     "tests": 4,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Geekom_A6+Mini.htm"
+     "",
+     ""
     ],
     "notes": [
+     {
+      "src": "GBATemp",
+      "score": 8.0,
+      "url": "https://gbatemp.net/review/geekom-a6-mini-pc.2591/",
+      "date": "2025-02-17",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
+     },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/geekom-a6-mini-pc-im-test/",
       "date": "2025-02-14"
-     },
-     {
-      "src": "GBATemp",
-      "score": null,
-      "url": "https://gbatemp.net/review/geekom-a6-mini-pc.2591/",
-      "date": "2025-02-17"
      },
      {
       "src": "GameStar",
@@ -9404,7 +9710,12 @@
       "url": "https://www.neowin.net/reviews/geekom-a6-mini-pc-review-better-memory-more-storage-still-affordable-at-under-429/",
       "date": "2025-02-08"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Geekom_A6+Mini.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -9450,8 +9761,8 @@
    ],
    "id": "geekom-a7",
    "press": {
-    "avg": 7.886666666666667,
-    "n": 15,
+    "avg": 7.864705882352941,
+    "n": 17,
     "tests": 22,
     "scope": "modele",
     "src": [
@@ -9469,13 +9780,24 @@
       "src": "IT Pro",
       "score": 10.0,
       "url": "https://www.itpro.com/hardware/laptops/the-geekom-a7-max-is-a-useful-addition-to-geekoms-already-impressive-range-of-amd-based-mini-pcs-with-more-ports-than-you-can-shake-a-stick-at",
-      "date": "2026-02-13"
+      "date": "2026-02-13",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.4,
+      "url": "https://www.chip.de/test/GEEKOM-A7-Max-2026-Edition-im-Test_186673407.html",
+      "date": "2026-02-22",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "GBATemp",
       "score": 9.0,
       "url": "https://gbatemp.net/review/geekom-a7-mini-pc.2461/",
-      "date": "2024-03-20"
+      "date": "2024-03-20",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidPC.es",
@@ -9483,7 +9805,17 @@
       "url": "https://androidpc.es/geekom-a7-analisis/",
       "date": "2024-02-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "KitGuru",
+      "score": 8.5,
+      "url": "https://www.kitguru.net/desktop-pc/mat-mynett/geekom-a7-mini-pc-review-ryzen-9-7940hs/",
+      "date": "2024-04-22",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PhotoTrend",
@@ -9491,37 +9823,38 @@
       "url": "https://phototrend.fr/2024/04/test-geekom-a7-mini-pc-performant/",
       "date": "2024-04-11",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.5,
+      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a7-mini-pc-windows",
+      "date": "2024-03-10",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 8.3,
       "url": "https://www.notebookcheck.com/Geekom-A7-mit-0-5l-Gehaeuse-im-Test-Premium-Mini-PC-mit-AMD-Ryzen-9-7940HS-32-GB-DDR5-RAM-und-2-TB-SSD.806181.0.html",
-      "date": "2024-02-28"
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/GEEKOM-A7-Max-2026-Edition-im-Test_186673407.html",
-      "date": "2026-02-22"
+      "date": "2024-02-28",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/1962230_test-du-geekom-a7",
-      "date": "2024-03-31"
+      "date": "2024-03-31",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/mini-pc/2952497_test-du-geekom-a7-max-ne-vous-fiez-pas-a-sa-taille",
-      "date": "2026-01-24"
-     },
-     {
-      "src": "KitGuru",
-      "score": 8.0,
-      "url": "https://www.kitguru.net/desktop-pc/mat-mynett/geekom-a7-mini-pc-review-ryzen-9-7940hs/",
-      "date": "2024-04-22"
+      "date": "2026-01-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "NerdTechy",
@@ -9536,16 +9869,29 @@
       "date": "2026-05-12"
      },
      {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a7-mini-pc-windows",
-      "date": "2024-03-10"
-     },
-     {
       "src": "Notebookcheck",
       "score": 7.8,
       "url": "https://www.notebookcheck.com/Geekom-A7-Max-Mini-PC-Test-Edler-Allrounder-mit-Ryzen-9-7940HS-und-verschenkter-Leistung.1199683.0.html",
-      "date": "2026-01-16"
+      "date": "2026-01-16",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "GBATemp",
+      "score": 7.0,
+      "url": "https://gbatemp.net/review/geekom-a7-2026-edition.2729/",
+      "date": "2026-06-28",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "GBATemp",
+      "score": 6.0,
+      "url": "https://gbatemp.net/review/geekom-a7-max-mini-pc.2685/",
+      "date": "2026-02-11",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Press Start",
@@ -9553,7 +9899,8 @@
       "url": "https://press-start.com.au/reviews/tech/2024/04/05/geekom-a7-mini-pc-review-small-and-mighty/",
       "date": "2024-04-05",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidWorld",
@@ -9574,18 +9921,6 @@
       "date": "2026-02-15"
      },
      {
-      "src": "GBATemp",
-      "score": null,
-      "url": "https://gbatemp.net/review/geekom-a7-max-mini-pc.2685/",
-      "date": "2026-02-11"
-     },
-     {
-      "src": "GBATemp",
-      "score": null,
-      "url": "https://gbatemp.net/review/geekom-a7-2026-edition.2729/",
-      "date": "2026-06-28"
-     },
-     {
       "src": "Neowin",
       "score": null,
       "url": "https://www.neowin.net/reviews/geekom-a7-max-review-an-oxymoron-of-untapped-gaming-potential/",
@@ -9602,7 +9937,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 529.0,
+     "price": 659.0,
      "url": "https://www.amazon.fr/dp/B0G6KR1VW5?tag=geekconcept-21",
      "name": "GEEKOM A7 Business Mini PC, AMD Ryzen 5 7535HS, 1To SSD, 16 Go DDR5 RAM",
      "cfg": "16 Go · 1 To",
@@ -9619,7 +9954,19 @@
    "img": "geekom-a7.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 529.0
+   "prix": 629.0,
+   "synthese": {
+    "texte": "Les tests de l'A7 en Ryzen 9 7940HS saluent un boîtier en aluminium d'un demi-litre environ, bien fini, et une connectique fournie : USB4, deux HDMI, lecteur SD, jusqu'à quatre écrans. Côté puissance, PhotoTrend chronomètre un export de 101 RAW sous Lightroom proche d'un MacBook Pro M1 Max, et GBATemp obtient environ 30 i/s sur Baldur's Gate 3 en 1080p avec la seule Radeon 780M.\n\nLe bruit divise. GBATemp et KitGuru le trouvent discret sous charge, alors que PhotoTrend décrit un ventilateur parfois bruyant en usage soutenu et que Notebookcheck, sur l'A7 Max, l'entend nettement dès une charge partielle. L'évolutivité aussi : KitGuru regrette de ne pas pouvoir ajouter de RAM ou de SSD, tandis que Notebookcheck souligne que mémoire, SSD et module Wi-Fi restent accessibles et remplaçables.\n\nAutres limites : un seul emplacement de stockage, une légère baisse de performances en charge prolongée et des latences DPC élevées relevées par Notebookcheck. Sur l'A7 Max, ce média regrette une barrette de RAM unique qui bride la partie graphique, ainsi que l'absence d'OCuLink. Si vous voulez un mini-PC Windows pour la retouche photo, le montage 4K ou du jeu léger en réglages modestes, il tient la route ; si le silence sous charge compte beaucoup pour vous, mieux vaut regarder ailleurs.",
+    "date": "2026-10-16",
+    "n": 17,
+    "tests": 22,
+    "sources": [
+     "KitGuru",
+     "Notebookcheck",
+     "GBATemp",
+     "PhotoTrend"
+    ]
+   }
   },
   "geekom-it13": {
    "cat": "d-mini",
@@ -9642,8 +9989,8 @@
    ],
    "id": "geekom-it13",
    "press": {
-    "avg": 8.325,
-    "n": 20,
+    "avg": 8.333333333333334,
+    "n": 21,
     "tests": 30,
     "scope": "modele",
     "src": [
@@ -9657,7 +10004,8 @@
       "url": "https://mightygadget.com/geekom-mini-it13-i9-13900h-review/",
       "date": "2023-10-04",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidPit",
@@ -9669,7 +10017,8 @@
       "src": "Basic Tutorials",
       "score": 9.0,
       "url": "https://basic-tutorials.de/tests/pc-notebook/geekom-mini-it13/",
-      "date": "2023-10-20"
+      "date": "2023-10-20",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neowin",
@@ -9693,7 +10042,17 @@
       "src": "Windows Central",
       "score": 8.6,
       "url": "https://www.windowscentral.com/hardware/computers-desktops/geekom-it13-review",
-      "date": "2025-04-14"
+      "date": "2025-04-14",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.5,
+      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-mini-it13-potenza-compatta-con-intel-i9-13900hk",
+      "date": "2025-10-07",
+      "avant": 8.0,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "LeCafeDuGeek",
@@ -9701,7 +10060,8 @@
       "url": "https://lecafedugeek.fr/test-geekom-mini-it13-le-premier-mini-pc-equipe-dun-core-i9/",
       "date": "2024-02-28",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidPC.es",
@@ -9719,13 +10079,24 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/2551749_test-du-geekom-it13-2025-edition-forces-et-faiblesses-dun-intel-core-de-13eme-generation",
-      "date": "2025-04-01"
+      "date": "2025-04-01",
+      "verifie": "16/10/2026"
+     },
+     {
+      "src": "GBATemp",
+      "score": 8.0,
+      "url": "https://gbatemp.net/review/geekom-it13-2025-edition-mini-pc.2615/",
+      "date": "2025-04-30",
+      "avant": null,
+      "corrige": "16/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "IT Pro",
       "score": 8.0,
       "url": "https://www.itpro.com/hardware/desktops/geekom-mini-it13-review-a-mini-pc-with-power-and-ports-aplenty",
-      "date": "2025-04-21"
+      "date": "2025-04-21",
+      "verifie": "16/10/2026"
      },
      {
       "src": "NerdTechy",
@@ -9749,25 +10120,22 @@
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/pro/geekom-mini-it13-review",
-      "date": "2023-10-21"
-     },
-     {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-mini-it13-potenza-compatta-con-intel-i9-13900hk",
-      "date": "2025-10-07"
+      "date": "2023-10-21",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 7.9,
       "url": "https://www.notebookcheck.com/Geekom-Mini-IT13-Mini-PC-im-Test-Mini-Desktop-mit-einem-leistungsfaehigen-Core-i9.785508.0.html",
-      "date": "2023-12-20"
+      "date": "2023-12-20",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 7.5,
       "url": "https://www.notebookcheck.com/Mini-PC-auf-High-End-Kurs-zum-Sparpreis-So-schlaegt-sich-der-Geekom-Mini-IT13-2025-Edition-im-Test.994297.0.html",
-      "date": "2025-04-09"
+      "date": "2025-04-09",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neozone",
@@ -9775,7 +10143,8 @@
       "url": "https://www.neozone.org/tests/je-teste-le-mini-pc-geekom-mini-it13-it-series-a-749-e-au-lieu-de-999-e/",
       "date": "2025-03-25",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Actu High-Tech",
@@ -9808,12 +10177,6 @@
       "date": "2025-05-01"
      },
      {
-      "src": "GBATemp",
-      "score": null,
-      "url": "https://gbatemp.net/review/geekom-it13-2025-edition-mini-pc.2615/",
-      "date": "2025-04-30"
-     },
-     {
       "src": "PC Magazin",
       "score": null,
       "url": "https://www.connect-living.de/testbericht/geekom-mini-it13-test-review-intel-core-i9-32-gb-ram-2-tb-ssd-3206248.html",
@@ -9842,7 +10205,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 579.0,
+     "price": 589.0,
      "url": "https://www.amazon.fr/dp/B0CTCPTRHM?tag=geekconcept-21",
      "name": "GEEKOM IT13 Business Mini PC, Intel i5-13600H(jusqu'à 4,80 GHz),16Go RAM",
      "cfg": "16 Go",
@@ -9859,7 +10222,18 @@
    "img": "geekom-it13.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 579.0
+   "prix": 589.0,
+   "synthese": {
+    "texte": "Windows Central et Notebookcheck ont testé l'édition 2025 en Core i9-13900HK, TechRadar la version d'origine en Core i9-13900H. Tous trois mettent en avant la connectique : deux USB4, deux HDMI, lecteur SD, Ethernet 2,5 Gbit/s et jusqu'à quatre écrans. Quatre vis sous les pieds suffisent pour atteindre la RAM et les emplacements M.2, et TechRadar comme Notebookcheck signalent une baie 2,5 pouces. Le processeur suffit pour la bureautique, le multimédia et la retouche légère.\n\nLa chauffe est jugée différemment. Windows Central constate un ralentissement par throttling sous forte charge, sans plantage, alors que Notebookcheck voit des performances plutôt stables en charge continue, au prix de limites de puissance prudentes qui brident le turbo. Les deux le décrivent globalement silencieux.\n\nLe reproche le plus partagé concerne la DDR4 : TechRadar y attribue en grande partie son retard sur des concurrents en DDR5, et Windows Central la cite parmi les défauts. La partie graphique Iris Xe n'est pas faite pour jouer en local. TechRadar estime que le Core i9 apporte peu face à un Core i7, et ce média comme Windows Central trouvent le tarif un peu élevé. Si vous cherchez un PC compact, fixable en VESA, pour du multi-écran et des tâches courantes, il remplit son rôle ; si vous jouez ou visez une plateforme récente, d'autres modèles conviendront mieux.",
+    "date": "2026-10-16",
+    "n": 21,
+    "tests": 30,
+    "sources": [
+     "Windows Central",
+     "Notebookcheck",
+     "TechRadar"
+    ]
+   }
   },
   "beelink-eq14": {
    "cat": "d-mini",
@@ -9897,7 +10271,8 @@
       "url": "https://www.neozone.org/tests/je-teste-le-mini-pc-beelink-eq14-equipe-du-processeur-intel-twin-lake-n150/",
       "date": "2025-02-06",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Clubic",
@@ -9911,7 +10286,8 @@
       "url": "https://www.notebookcheck.com/Beelink-EQ14-Mini-PC-Test-Gebrauchsfertiger-HTPC-fuer-unter-200-US-Dollar.959326.0.html",
       "date": "2025-02-15",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "TechXReviews",
@@ -9924,7 +10300,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 459.0,
+     "price": 259.0,
      "url": "https://www.amazon.fr/dp/B0C14H2BQ8?tag=geekconcept-21",
      "name": "Beelink EQ14 Mini PC, Intel Twin Lake Processor N150 (4C/4T, up to 3.6GHz), 16G DDR4 500G PCIe SSD Mini Computer, Dual 2",
      "cfg": "16 Go · 500 Go",
@@ -9934,7 +10310,7 @@
    "img": "beelink-eq14.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 459.0
+   "prix": 259.0
   },
   "beelink-ser9pro": {
    "cat": "d-mini",
@@ -9962,8 +10338,8 @@
     "tests": 1,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Beelink_SER9+Pro.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -9972,9 +10348,15 @@
       "url": "https://www.windowscentral.com/hardware/desktops/beelink-ser9-pro-review",
       "date": "2025-10-06",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Beelink_SER9+Pro.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10018,8 +10400,8 @@
     "tests": 5,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-NiPoGi_AM06+Pro.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -10028,7 +10410,8 @@
       "url": "https://www.maison-et-domotique.com/165135-test-nipogi-am06-pro-mini-pc/",
       "date": "2025-10-14",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Basic Tutorials",
@@ -10036,7 +10419,8 @@
       "url": "https://basic-tutorials.de/tests/pc-notebook/nipogi-am06-pro/",
       "date": "2025-09-24",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Neozone",
@@ -10044,13 +10428,15 @@
       "url": "https://www.neozone.org/tests/je-teste-le-mini-pc-nipogi-am06-pro-un-petit-ordinateur-a-moins-de-320-e/",
       "date": "2025-09-30",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": 6.3,
       "url": "https://www.notebookcheck.com/Preiswerter-Mini-PC-fuer-Schule-Studium-und-Buero-NiPoGi-AM06-Pro-mit-AMD-Ryzen-7-im-Test.1015953.0.html",
-      "date": "2025-05-20"
+      "date": "2025-05-20",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Actu High-Tech",
@@ -10058,12 +10444,17 @@
       "url": "https://www.actuhightech.com/test-du-nipogi-am06-pro-mini-pc-puissant-pour-le-bureau/",
       "date": "2025-09-17"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-NiPoGi_AM06+Pro.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
      "m": "Amazon",
-     "price": 429.0,
+     "price": 449.0,
      "url": "https://www.amazon.fr/dp/B0BY25NQGP?tag=geekconcept-21",
      "name": "NiPoGi AM06 Pro Mini PC W-11 Pro, Ryzen 5 7430U(6C/ 12T, jusqu'à 4,30 GHz)",
      "cfg": "",
@@ -10073,7 +10464,7 @@
    "img": "nipogi-am06pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 429.0
+   "prix": 449.0
   },
   "acemagic-k1": {
    "cat": "d-mini",
@@ -10115,7 +10506,8 @@
       "src": "IT Pro",
       "score": 6.0,
       "url": "https://www.itpro.com/hardware/desktops/acemagic-kron-mini-k1-review-sharp-looks-little-substance-and-oddly-overpriced",
-      "date": "2026-04-24"
+      "date": "2026-04-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Actu High-Tech",
@@ -10134,7 +10526,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 429.0,
+     "price": 449.0,
      "url": "https://www.amazon.fr/dp/B0DT8T1WY2?tag=geekconcept-21",
      "name": "ACEMAGIC K1 Mini PC avec AMD Ryzen 5 7430U (4,3 GHz,Meilleur Que 5500U)",
      "cfg": "",
@@ -10144,7 +10536,7 @@
    "img": "acemagic-k1.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 429.0
+   "prix": 449.0
   },
   "gmktec-k13": {
    "cat": "d-mini",
@@ -10172,8 +10564,8 @@
     "tests": 7,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-GMKtec_NucBox+K13.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -10182,13 +10574,15 @@
       "url": "https://www.chip.de/test-kaufberatung/pc-peripherie/gmktec-k13-im-test_9c37170c-7702-4b17-a9db-f41bc76f6034.html",
       "date": "2026-06-26",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-616309-intel-relance-ses-mini-pc-avec-lunar-lake-le-nucbox-k13-frappe-fort.html",
-      "date": "2026-06-24"
+      "date": "2026-06-24",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Frandroid",
@@ -10196,19 +10590,22 @@
       "url": "https://www.frandroid.com/test/3112435_test-gmktec-nucbox-k13",
       "date": "2026-05-26",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-gmktec-nucbox-k13-le-mini-pc-lunar-lake-qui-joue-dans-la-cour-des-grands/",
-      "date": "2026-07-02"
+      "date": "2026-07-02",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-gmktec-nucbox-k13-ce-mini-pc-tient-dans-la-main-et-fait-tourner-ce-quon-croyait-reserve-aux-grosses-tours/",
-      "date": "2026-07-08"
+      "date": "2026-07-08",
+      "verifie": "16/10/2026"
      },
      {
       "src": "wccftech",
@@ -10222,7 +10619,12 @@
       "url": "https://wccftech.com/review/gmktec-nucbox-k13-intel-core-ultra-7-256v-mini-pc-review-lunar-lake-in-a-pocket-sized-machine/",
       "date": "2026-03-11"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-GMKtec_NucBox+K13.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10276,7 +10678,8 @@
       "url": "https://geekculture.co/apple-imac-m4-24-2024-review/",
       "date": "2024-11-07",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Digital Camera World",
@@ -10284,25 +10687,29 @@
       "url": "https://www.digitalcameraworld.com/reviews/apple-imac-m4-2024-review",
       "date": "2024-12-03",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/611569-test-labo-du-apple-imac-m4-10-cores-gpu-10-cores-un-ecran-qui-le-tire-vers-le-bas/",
-      "date": "2025-07-20"
+      "date": "2025-07-20",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/618168-test-labo-du-apple-imac-m4-10-cores-512-go-un-ecran-decevant/",
-      "date": "2025-08-27"
+      "date": "2025-08-27",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/677403-test-labo-du-apple-imac-m4-8-cores-le-tout-en-un-dapple-nimpressionne-pas-toujours/",
-      "date": "2026-07-04"
+      "date": "2026-07-04",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Trusted Reviews",
@@ -10310,7 +10717,8 @@
       "url": "https://www.trustedreviews.com/reviews/apple-imac-m4",
       "date": "2025-02-17",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      },
      {
       "src": "AndroidPit",
@@ -10346,13 +10754,26 @@
      "url": "https://www.amazon.fr/dp/B0DL74MGQB?tag=geekconcept-21",
      "name": "Apple iMac Ordinateur de Bureau Tout-en-Un avec Puce M4, CPU 8 cœurs et GPU 8 cœurs : Conçu pour Apple Intelligence, écr",
      "cfg": "",
-     "asin": "B0DL74MGQB"
+     "asin": "B0DL74MGQB",
+     "dispo": false
     }
    ],
    "img": "imac-m4.webp",
    "rating": 4.6,
    "nrev": 14,
-   "prix": 1799.0
+   "prix": 1799.0,
+   "synthese": {
+    "texte": "Sur la puce M4, les tests sont d'accord : Digital Camera World et GeekCulture rapportent une utilisation fluide de Photoshop et Lightroom, avec un gain marqué face aux anciens iMac Intel et plus modeste face au M3. Trusted Reviews et GeekCulture notent que la machine reste silencieuse sous charge. La webcam 12 Mpx avec Center Stage et les six haut-parleurs plaisent, même si Digital Camera World trouve ces derniers bons sans plus.\n\nL'écran 4,5K partage les avis. Digital Camera World le décrit lumineux, net et adapté à la retouche photo, alors que le Labo Fnac pointe une luminosité insuffisante et une directivité médiocre, tout en lui accordant la note maximale en fidélité des couleurs. Trusted Reviews rappelle l'absence de HDR et qu'un 24 pouces peut sembler petit.\n\nLes critiques communes visent le pied réglable seulement en inclinaison, la mémoire et le stockage impossibles à faire évoluer après l'achat, et une connectique limitée à l'USB-C. Prudence avec l'édition 8 cœurs : Trusted Reviews et Digital Camera World y relèvent deux ports Thunderbolt seulement, sans Ethernet ni Touch ID, et conseillent la version 10 cœurs. Si vous voulez un tout-en-un soigné pour la famille, la bureautique ou la photo, il fait l'affaire ; si vous avez déjà un écran, ces deux médias suggèrent plutôt un Mac mini.",
+    "date": "2026-10-16",
+    "n": 7,
+    "tests": 9,
+    "sources": [
+     "GeekCulture",
+     "Digital Camera World",
+     "Labo Fnac",
+     "Trusted Reviews"
+    ]
+   }
   },
   "omnistudio-x32": {
    "cat": "d-aio",
@@ -10380,15 +10801,15 @@
     "tests": 2,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-HP_OmniStudio+X+32.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "ITdaily",
       "score": null,
       "url": "https://itdaily.com/reviews/workplace/hp-omnistudio-x-review-modern-all-rounder/",
-      "date": ""
+      "date": "2025-02-17"
      },
      {
       "src": "Notebookcheck",
@@ -10396,7 +10817,12 @@
       "url": "https://www.notebookcheck.com/HP-OmniStudio-X-32-im-Test-Der-perfekte-All-in-one-KI-PC-fuer-Buero-Homeoffice-oder-Schule.975610.0.html",
       "date": "2025-03-17"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-HP_OmniStudio+X+32.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10446,8 +10872,8 @@
     "tests": 1,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-HP_OmniStudio+X.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -10456,9 +10882,15 @@
       "url": "https://www.itpro.com/hardware/desktops/the-hp-omnistudio-x-a-powerful-design-led-all-in-one-for-creative-work-but-it-could-do-with-a-stronger-gpu",
       "date": "2025-07-07",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-HP_OmniStudio+X.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10508,17 +10940,22 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Test Consumer Reports",
-     "https://www.consumerreports.org/electronics-computers/computers/hp-27-touch-screen-all-in-one-27-cr0044/m417619/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Consumer Reports",
       "score": null,
       "url": "https://www.consumerreports.org/electronics-computers/computers/hp-27-touch-screen-all-in-one-27-cr0044/m417619/",
-      "date": ""
+      "date": "2025-06-13"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test Consumer Reports",
+     "https://www.consumerreports.org/electronics-computers/computers/hp-27-touch-screen-all-in-one-27-cr0044/m417619/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10568,17 +11005,23 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Lenovo_Yoga+AIO+9i.htm"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/hardware/computers-desktops/lenovo-yoga-aio-9i-gen10-2025-review",
-      "date": "2025-06-20"
+      "date": "2025-06-20",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Lenovo_Yoga+AIO+9i.htm"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10620,25 +11063,32 @@
     "tests": 2,
     "scope": "gamme",
     "src": [
-     "Test CNET",
-     "https://www.cnet.com/tech/computing/lenovo-ideacentre-aio-27-review-this-budget-all-in-one-pc-is-bigger-not-better/"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "CNET",
       "score": 6.4,
       "url": "https://www.cnet.com/tech/computing/lenovo-ideacentre-aio-27-review-this-budget-all-in-one-pc-is-bigger-not-better/",
-      "date": ""
+      "date": "2024-12-13",
+      "verifie": "16/10/2026"
      },
      {
       "src": "PCMag",
       "score": 5.0,
       "url": "https://www.pcmag.com/reviews/lenovo-ideacentre-aio-27",
-      "date": "",
+      "date": "2024-08-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test CNET",
+     "https://www.cnet.com/tech/computing/lenovo-ideacentre-aio-27-review-this-budget-all-in-one-pc-is-bigger-not-better/"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10650,7 +11100,7 @@
     },
     {
      "m": "Amazon",
-     "price": 911.91,
+     "price": 899.99,
      "url": "https://www.amazon.fr/dp/B0GXLBY6VL?tag=geekconcept-21",
      "name": "Lenovo IdeaCentre 27IRH9 Ordinateur de Bureau Tout-en-Un Écran 27\" FHD, Intel Core 5 210H, 512Go SSD, RAM 16Go, WiFi 6, ",
      "cfg": "16 Go · 512 Go",
@@ -10688,17 +11138,22 @@
     "tests": 1,
     "scope": "gamme",
     "src": [
-     "Test All of the Above",
-     "https://www.alloftheaboveph.com/2025/10/review-asus-v400-aio-all-in-one-you-need.html"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "All of the Above",
       "score": null,
       "url": "https://www.alloftheaboveph.com/2025/10/review-asus-v400-aio-all-in-one-you-need.html",
-      "date": ""
+      "date": "2025-10-20"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test All of the Above",
+     "https://www.alloftheaboveph.com/2025/10/review-asus-v400-aio-all-in-one-you-need.html"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10774,7 +11229,8 @@
       "src": "PCMag",
       "score": 6.0,
       "url": "https://www.pcmag.com/reviews/acer-aspire-c27",
-      "date": "2022-01-28"
+      "date": "2022-01-28",
+      "verifie": "16/10/2026"
      },
      {
       "src": "Expert Reviews",
@@ -10792,7 +11248,7 @@
       "src": "PCMag (prise en main)",
       "score": null,
       "url": "https://www.pcmag.com/news/hands-on-acers-aspire-c27-all-in-one-pc-brings-class-and-speed-to-office",
-      "date": ""
+      "date": "2024-06-04"
      }
     ]
    },
@@ -10844,22 +11300,28 @@
     "tests": 1,
     "scope": "modele",
     "src": [
-     "Test PCMag",
-     "https://www.pcmag.com/reviews/dell-24-all-in-one-ec24250"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "PCMag",
       "score": 7.0,
       "url": "https://www.pcmag.com/reviews/dell-24-all-in-one-ec24250",
-      "date": ""
+      "date": "2025-08-23",
+      "verifie": "16/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test PCMag",
+     "https://www.pcmag.com/reviews/dell-24-all-in-one-ec24250"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
      "m": "Amazon",
-     "price": 649.0,
+     "price": 999.0,
      "url": "https://www.amazon.fr/dp/B0GKJLFQ14?tag=geekconcept-21",
      "name": "Dell 24 Ordinateur de Bureau Tout-en-Un EC24250, FHD, Intel Core i5-1334U",
      "cfg": "",
@@ -10869,7 +11331,7 @@
    "img": "dell-24-aio.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 649.0
+   "prix": 999.0
   },
   "msi-modern-am273": {
    "cat": "d-aio",
@@ -10897,17 +11359,22 @@
     "tests": 1,
     "scope": "modele",
     "src": [
-     "Test The Shortcut",
-     "https://www.theshortcut.com/p/msi-modern-am273q-ai-aio-pc-audioscenic-amphi"
+     "",
+     ""
     ],
     "notes": [
      {
       "src": "The Shortcut",
       "score": null,
       "url": "https://www.theshortcut.com/p/msi-modern-am273q-ai-aio-pc-audioscenic-amphi",
-      "date": ""
+      "date": "2024-06-12"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Test The Shortcut",
+     "https://www.theshortcut.com/p/msi-modern-am273q-ai-aio-pc-audioscenic-amphi"
+    ],
+    "releve_source": "16/10/2026"
    },
    "offers": [
     {
@@ -10916,7 +11383,8 @@
      "url": "https://www.amazon.fr/dp/B0FM89YJGL?tag=geekconcept-21",
      "name": "MSI Modern AM273Q AI 1UM-063FR PC Tout-en-Un, écran IPS WQHD 27\", Intel Core Ultra 5 125H, 16 Go DDR5, SSD 512 Go PCIe N",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0FM89YJGL"
+     "asin": "B0FM89YJGL",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -10929,7 +11397,7 @@
    "img": "msi-modern-am273.webp",
    "rating": 5.0,
    "nrev": 4,
-   "prix": 1117.99
+   "prix": 1399.99
   },
   "dell-s2725dc": {
    "cat": "e-bureau",
@@ -11166,7 +11634,8 @@
       "url": "https://www.rtings.com/monitor/reviews/dell/s3225qs",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 328.87,
    "img": "dell-s3225qs.webp",
@@ -11495,7 +11964,8 @@
       "url": "https://pcmonitors.info/lg/lg-32up83a-4k-uhd-ips-with-usb-c/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 483.65,
    "img": "lg-32up83a.webp",
@@ -12663,7 +13133,8 @@
       "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-pa27jcv",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 536.37,
    "img": "asus-pa27jcv.webp",
@@ -13021,7 +13492,8 @@
       "url": "https://cdn.eizo.be/fileadmin/Media_Content/Awards/fr/ColorEdge/CG2700S/PRAD_Review_CG2700S_FR.pdf",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 1666.64,
    "img": "eizo-cg2700s.webp",
@@ -13381,7 +13853,8 @@
       "url": "https://root-nation.com/en/pc-en/pc-monitors-en/en-asus-zenscreen-oled-mq16fc-review/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 233.32,
    "img": "asus-mq16fc.webp",
@@ -13643,7 +14116,8 @@
       "url": "https://keithwee.com/duex-max-portable-monitor-review-2023-productivity-max/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 208.14,
    "img": null,
@@ -13976,7 +14450,8 @@
       "url": "https://www.noticias3d.com/articulo/3919/p2/gigabyte-gs32qca-radeon-rx-9060-xt-review-pareja-avenida.html",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 176.5,
    "img": "gigabyte-gs32qca.webp",
@@ -14029,7 +14504,8 @@
       "url": "https://www.rtings.com/monitor/reviews/dell/se2426hgs",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 90.83,
    "img": "dell-se2426hg.webp",
@@ -14163,7 +14639,8 @@
       "url": "https://www.fonearena.com/blog/473942/lenovo-legion-27q-10-review.html",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 133.32,
    "img": "lenovo-legion-27q-10.webp",
@@ -14449,7 +14926,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2876/16/105076",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 244.5,
    "img": "epson-et-2876.webp",
@@ -14569,7 +15047,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-3956/16/125183",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 283.32,
    "img": "epson-et-3956.webp",
@@ -14628,7 +15107,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-4900/16/132659",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 308.37,
    "img": "epson-et-4900.webp",
@@ -14843,7 +15323,8 @@
       "url": "https://taenk.dk/test/printere/canon-pixma-g3570-0",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 259.78,
    "img": "canon-g3570.webp",
@@ -14908,7 +15389,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2620dw/16/105066",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 149.17,
    "img": "brother-dcp-l2620dw.webp",
@@ -14967,7 +15449,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-hl-l1240w",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 93.54,
    "img": "brother-hl-l1240w.webp",
@@ -15165,7 +15648,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-mfc-l2800dw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 190.75,
    "img": "brother-mfc-l2800dw.webp",
@@ -15218,7 +15702,8 @@
       "url": "https://www.rtings.com/printer/reviews/brother/mfc-l2820dw-dcp-l2640dw-hl-l2480dw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 195.83,
    "img": "brother-mfc-l2835dw.webp",
@@ -15277,7 +15762,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-mfc-l2960dw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 276.42,
    "img": "brother-mfc-l2960dw.webp",
@@ -15336,7 +15822,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2660dw/16/105079",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 195.83,
    "img": "brother-dcp-l2665dw.webp",
@@ -15401,7 +15888,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-lbp243dw-ii",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 224.96,
    "img": "canon-lbp243dw-ii.webp",
@@ -15460,7 +15948,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-laserjet-mfp-m234d/16/114855",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 126.85,
    "img": "hp-laserjet-m234dw.webp",
@@ -15635,7 +16124,8 @@
       "url": "https://taenk.dk/test/printere/brother-hl-l3240cdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 216.58,
    "img": "brother-hl-l3240cdw.webp",
@@ -15761,7 +16251,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-lbp647cdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 236.14,
    "img": "canon-lbp647cdw.webp",
@@ -15814,7 +16305,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-mf664cdw/16/125181",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 283.36,
    "img": "canon-mf664cdw.webp",
@@ -15867,7 +16359,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/xerox-c-320/16/205884",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 271.82,
    "img": "xerox-c320.webp",
@@ -15920,7 +16413,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-color-laserjet-pro-3202dw/16/108966",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 215.83,
    "img": "hp-color-laserjet-pro-3202dw.webp",
@@ -16025,7 +16519,7 @@
      "cfg": "",
      "ean": "4549292194692",
      "edid": "10018462",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -16277,7 +16771,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/fujifilm-instax-mini-link-3/16/184723",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 108.25,
    "img": null,
@@ -16723,7 +17218,7 @@
      "cfg": "",
      "ean": "4549292247985",
      "edid": "10020364",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -16793,13 +17288,13 @@
     },
     {
      "m": "Electro Dépôt",
-     "price": 48.98,
+     "price": 58.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-2205.html",
      "name": "Imprimante Epson Expression Xp-2205 Multifonction",
      "cfg": "version XP-2205",
      "ean": "8715946702797",
      "edid": "975904",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -16870,7 +17365,7 @@
      "cfg": "version TS4150i",
      "ean": "4549292248067",
      "edid": "10016130",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -16895,7 +17390,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts-4151-i/16/190144",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 45.82,
    "img": "canon-pixma-ts4151i.webp",
@@ -16960,7 +17456,8 @@
       "url": "https://taenk.dk/test/printere/epson-workforce-wf-2930dwf",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 49.99,
    "img": "epson-wf-2930dwf.webp",
@@ -17004,7 +17501,7 @@
      "cfg": "",
      "ean": "4549292237368",
      "edid": "10017501",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17035,7 +17532,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-tr4750i",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 58.32,
    "img": "canon-pixma-tr4755i.webp",
@@ -17079,7 +17577,7 @@
      "cfg": "",
      "ean": "4549292247947",
      "edid": "10020365",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17104,7 +17602,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts7550i/16/122165",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 66.66,
    "img": "canon-pixma-ts7550i.webp",
@@ -17169,7 +17668,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-j1360dw/16/122163",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 91.66,
    "img": "brother-dcp-j1360dw.webp",
@@ -17206,7 +17706,7 @@
      "cfg": "",
      "ean": "0198154304485",
      "edid": "10012839",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17274,7 +17774,7 @@
      "cfg": "",
      "ean": "4038986182980",
      "edid": "10010548",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17299,7 +17799,8 @@
       "url": "https://www.technologyinsider.nl/index.php/artikelen/hardware/monitoren/66353-aoc-q27g42ze-review.html",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 168.98,
    "img": "aoc-q27g42ze.webp",
@@ -17330,13 +17831,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 248.98,
+     "price": 298.96,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-et-2951.html",
      "name": "Imprimante Epson Ecotank Et-2951 Multifonction À Reservoir",
      "cfg": "",
      "ean": "8715946737331",
      "edid": "10013177",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17367,9 +17868,10 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-ecotank-et-2951",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
-   "prix": 248.98,
+   "prix": 298.96,
    "img": "epson-et-2951.webp",
    "rating": null,
    "nrev": 0
@@ -17404,7 +17906,7 @@
      "cfg": "",
      "ean": "0196786388484",
      "edid": "10003125",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17435,7 +17937,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/hp-color-laserjet-pro-mfp-3302sdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 419.9,
    "img": "hp-color-laserjet-pro-3302sdw.webp",
@@ -17472,7 +17975,7 @@
      "cfg": "",
      "ean": "8715946702759",
      "edid": "10006180",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17497,7 +18000,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-expression-home-xp-3205",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 59.98,
    "img": "epson-xp-3205.webp",
@@ -17534,7 +18038,7 @@
      "cfg": "",
      "ean": "0197498438948",
      "edid": "10002597",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17565,7 +18069,8 @@
       "url": "https://taenk.dk/test/printere/hp-envy-6132e",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 58.98,
    "img": "hp-envy-6132e.webp",
@@ -17602,7 +18107,7 @@
      "cfg": "",
      "ean": "0198828789815",
      "edid": "10013176",
-     "releve": "2026-10-12"
+     "releve": "2026-10-16"
     }
    ],
    "press": {
@@ -17627,7 +18132,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/hp-deskjet-2921",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "16/10/2026"
    },
    "prix": 59.98,
    "img": "hp-deskjet-2921e.webp",
@@ -17646,7 +18152,8 @@
   "bureau": {
    "date": "05/10/2026",
    "prix_date": "octobre 2026",
-   "iso": "2026-10-05"
+   "iso": "2026-10-05",
+   "tente": "2026-10-16"
   },
   "ecran": {
    "date": "09/10/2026",
@@ -17660,6 +18167,6 @@
   }
  },
  "dates": {
-  "Amazon": "09/10/2026"
+  "Amazon": "16/10/2026"
  }
 }
