@@ -129,6 +129,10 @@ def cta_txt(o):
     return f'{euro2(o["price"])} chez {E(o["m"])} →' if prix_exact(o) else f'Voir chez {E(o["m"])} →'
 
 
+# Carte « Avant d'acheter : le n° 1 de ce top » en haut de fiche (point 5 de l'analyse du 20/10/2026) : prête, non retenue pour l'instant.
+CARTE_N1 = False
+
+
 def buy_btn(o, i):
     """Bouton marchand du bloc d'achat (fiche produit v11) : le premier en couleur, les suivants en contour.
     Prix affiché seulement pour les marchands à prix exact (Electro Dépôt) ; sinon « Voir le prix »."""
@@ -1057,7 +1061,7 @@ def product_page(fam, c, rank, d, items):
     # --- bloc d'achat du haut de page (v11, 20/10/2026) : visible dès le premier écran sur mobile, un bouton par marchand
     buy_btns = "".join(buy_btn(o, i) for i, o in enumerate(d["offers"]))
     top1 = ""
-    if rank > 1:
+    if CARTE_N1 and rank > 1:
         t = items[0]
         t_meta = (f'{fr(t["press"]["avg"])}/10 presse' if t["press"] else f'{t["tests"]["tests"]} test{"s" if t["tests"]["tests"] > 1 else ""} presse') + f' · {t["price_txt"]}'
         t_img = f'<img src="{root}assets/img/p/{t["img"]}" alt="" width="64" height="48">' if t["img"] else ""
