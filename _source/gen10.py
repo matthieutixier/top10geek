@@ -130,7 +130,17 @@ def cta_txt(o):
 
 
 # Carte « Avant d'acheter : le n° 1 de ce top » en haut de fiche (point 5 de l'analyse du 20/10/2026) : prête, non retenue pour l'instant.
-CARTE_N1 = False
+CARTE_N1 = True   # affichée sur ordinateur seulement (extra16.css), choix de Matthieu du 20/10/2026 sur la maquette
+
+
+def buy_btn(o, i):
+    """Bouton marchand du cadre d'achat (fiche produit, ordinateur) : le premier en couleur, les suivants en contour.
+    Prix affiché seulement pour les marchands à prix exact (Electro Dépôt) ; sinon « Voir le prix »."""
+    dt = date_releve(o) if prix_exact(o) else ""
+    sub = " · ".join(x for x in (E(o.get("cfg") or ""), f"prix du {dt}" if dt else "") if x)
+    right = f'{euro2(o["price"])} →' if prix_exact(o) else "Voir le prix →"
+    return (f'<a class="p-b{" p-b1" if i == 0 else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
+            f'<span class="p-b-m"><b>{E(o["m"])}</b>{f"<small>{sub}</small>" if sub else ""}</span><span class="p-b-go">{right}</span></a>')
 
 
 def rel_m(m):
@@ -1049,39 +1059,62 @@ def product_page(fam, c, rank, d, items):
     faq_html = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(faq))
 
     # --- bloc d'achat du haut de page (v11, 20/10/2026) : visible dès le premier écran sur mobile, un bouton par marchand
-    # v11b (20/10/2026) : bloc discret — prix, un seul bouton (le premier marchand), les autres en simples liens texte
+    # v11c (20/10/2026) : mise en page de la maquette validée par Matthieu sur ordinateur (cadre d'achat à droite avec un bouton
+    # par marchand, encadrés presse / pour vous si / à éviter si, carte « le n° 1 ») ; sur mobile, version discrète v11b
+    # (photo réduite, un bouton, les autres marchands en liens texte). Les deux variantes sont dans la page, le CSS choisit.
     autres = " · ".join(f'<a href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}">{E(o["m"])}</a>' for o in d["offers"][1:])
+    buy_btns = "".join(buy_btn(o, i) for i, o in enumerate(d["offers"]))
+    aff = any(o["m"] in AFFILIATED for o in d["offers"])
+    medias_l = list(dict.fromkeys(nt["src"] for nt in ts["notes"]))
+    med_txt = ", ".join(medias_l[:3]) + ("…" if len(medias_l) > 3 else "")
+    if pr:
+        presse = f'<b>{fr(pr["avg"])}/10</b> sur {pr["n"]} note{"s" if pr["n"] > 1 else ""} presse{few(d)}'
+    else:
+        presse = f'<b>{ts["tests"]} test{"s" if ts["tests"] > 1 else ""}, sans note publique</b>'
     top1 = ""
     if CARTE_N1 and rank > 1:
         t = items[0]
-        t_meta = (f'{fr(t["press"]["avg"])}/10 presse' if t["press"] else f'{t["tests"]["tests"]} test{"s" if t["tests"]["tests"] > 1 else ""} presse') + f' · {t["price_txt"]}'
-        t_img = f'<img src="{root}assets/img/p/{t["img"]}" alt="" width="64" height="48">' if t["img"] else ""
-        top1 = (f'<a class="p-top1" href="{root}{t["purl"]}">{t_img}<span class="p-top1-t"><span class="p-top1-k">Avant d&#39;acheter : le n° 1 de ce top {n_items}</span>'
-                f'<b>{E(t["short"])}</b><span class="p-top1-m">{t_meta}</span></span><span class="p-top1-go" aria-hidden="true">→</span></a>')
+        t_meta = (f'{fr(t["press"]["avg"])}/10 presse ({t["press"]["n"]} note{"s" if t["press"]["n"] > 1 else ""})' if t["press"]
+                  else f'{t["tests"]["tests"]} test{"s" if t["tests"]["tests"] > 1 else ""} presse') + f' · {t["price_txt"]}'
+        t_ed = next((o for o in t["offers"] if prix_exact(o)), None)
+        if t_ed:
+            t_meta += f' · {euro2(t_ed["price"])} chez {E(t_ed["m"])}'
+        t_img = f'<img src="{root}assets/img/p/{t["img"]}" alt="" width="72" height="54">' if t["img"] else ""
+        top1 = (f'<a class="p-top1" href="{root}{t["purl"]}">{t_img}<span class="p-top1-t"><span class="p-top1-k">Avant d&#39;acheter : le n° 1 des {usage_txt if usage_txt[1:2].isupper() else low_first(usage_txt)}</span>'
+                f'<span class="p-top1-m"><b>{E(t["short"])}</b> · {t_meta}</span></span><span class="p-top1-go">Voir la fiche →</span></a>')
 
     body = f"""
   <div class="crumb"><a href="{root or "./"}">Accueil</a> › <a href="{root}{fam['slug']}/">{fam['plural']}</a> › <a href="{usage_url}">{c['label']}</a> › {name}</div>
   <section class="p-hero v11">
     <div class="p-text">
       <div class="p-head">
-        <div class="eyebrow">{E(d['badge']).upper()} · MAJ {maj(fam)}</div>
+        <div class="p-chips"><a class="p-chip" href="{usage_url}">{"Notre choix" if rank == 1 else f"N° {rank} sur {n_items}"} · {E(usage_txt)}</a><span class="p-maj">{E(d['badge'])} · MAJ {maj(fam)}</span></div>
         <h1>{name} : <span class="flash">avis, tests et prix</span></h1>
         {byline(root)}
         <div class="ref">{E(d['ref'])}</div>
       </div>
       <div class="p-sum">
-        <p class="p-verdict"><b>Le verdict en une phrase.</b> {E(d['verdict'])}</p>
+        <p class="p-verdict"><b>Le verdict.</b> {E(d['verdict'])}</p>
         <p class="p-rank">{rank_txt}.</p>
+      </div>
+      <div class="p-facts">
+        <div class="p-fact"><span class="p-fact-k">Presse</span><span class="p-fact-v">{presse}</span><a href="#tests">{E(med_txt)}</a></div>
+        <div class="p-fact yes"><span class="p-fact-k">Pour vous si</span><span class="p-fact-v">{low_first(E(d['pour']))}</span></div>
+        <div class="p-fact no"><span class="p-fact-k">À éviter si</span><span class="p-fact-v">{low_first(E(d['eviter']))}</span></div>
       </div>
       {top1}
     </div>
     <div class="p-side">
-      {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
-      <div class="press-big">{press_big(d)}</div>
-      <div class="p-buy" id="buyBox" data-z="haut" data-pid="{d['id']}">
-        <div class="pick-price"><b>{d['price_txt']}</b><span>{"le plus bas constaté" if len(d["offers"]) > 1 else "prix indicatif"} · {pdate(fam)}</span></div>
-        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
-        <p class="p-buy-n">{f'Aussi chez {autres} · ' if autres else ''}<a href="#prix">toutes les offres</a></p>
+      <div class="p-card">
+        {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
+        <div class="press-big">{press_big(d)}</div>
+        <div class="p-buy" id="buyBox" data-z="haut" data-pid="{d['id']}">
+          <div class="p-buy-h"><span class="p-buy-k">Prix indicatif</span><span class="p-buy-p"><b>{d['price_txt']}</b><small>{"le plus bas relevé" if len(d["offers"]) > 1 else "prix indicatif"} · {pdate(fam)}</small></span></div>
+          <div class="p-btns">{buy_btns}</div>
+          <a class="cta big buy p-mob" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
+          <p class="p-buy-n p-mob">{f'Aussi chez {autres} · ' if autres else ''}<a href="#prix">toutes les offres</a></p>
+          {'<p class="p-buy-n p-desk">Liens affiliés : sans surcoût pour vous et sans effet sur le classement. Seul le prix affiché par le marchand fait foi.</p>' if aff else ''}
+        </div>
       </div>
     </div>
   </section>
