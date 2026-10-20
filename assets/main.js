@@ -1,3 +1,4 @@
+// main13.js (v13, 20/10/2026) : main12.js + mesure des clics internes dans les zones data-zi (radar de la fiche, alternatives).
 // main11.js (v11, 20/10/2026) : main10.js + mesure des clics marchands + barre d'achat fixe sur mobile.
 (function(){
   // Mesure des clics vers les marchands : un signal sans cookie ni identifiant vers /api/clic (functions/api/clic.js).
@@ -6,9 +7,17 @@
   function marchand(h){for(var i=0;i<M.length;i++){if(M[i][0].test(h)) return M[i][1];} return null;}
   function signal(e){
     if(e.type==='auxclick'&&e.button!==1) return;
-    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a||a.host===location.host) return;
-    var m=marchand(a.hostname+a.pathname); if(!m) return;
-    var z=a.closest('[data-z]'), f=a.closest('[data-pid]');
+    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a) return;
+    var m, z, f=a.closest('[data-pid]'), u;
+    try{ u=new URL(a.getAttribute('href'),location.href); }catch(x){ return; }   // URL : marche aussi pour les liens SVG
+    if(u.host===location.host){
+      z=a.closest('[data-zi]'); if(!z) return;   // lien interne : compté seulement dans une zone data-zi
+      m='interne'; z={getAttribute:function(){return 'i-'+a.closest('[data-zi]').getAttribute('data-zi');}};
+      f={getAttribute:function(){return u.pathname;}};
+    } else {
+      m=marchand(u.hostname+u.pathname); if(!m) return;
+      z=a.closest('[data-z]');
+    }
     var d={p:location.pathname,m:m,id:f?f.getAttribute('data-pid'):'',z:z?z.getAttribute('data-z'):'autre',
            a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi'};
     try{ if(navigator.sendBeacon) navigator.sendBeacon('/api/clic',new Blob([JSON.stringify(d)],{type:'text/plain'})); }catch(x){}

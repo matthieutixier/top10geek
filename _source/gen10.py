@@ -20,8 +20,8 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css']
-VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main12.js'])).hexdigest()[:8]
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css']
+VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main13.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
@@ -130,7 +130,7 @@ def cta_txt(o):
 
 
 # Carte « Avant d'acheter : le n° 1 de ce top » en haut de fiche (point 5 de l'analyse du 20/10/2026) : prête, non retenue pour l'instant.
-CARTE_N1 = True   # affichée sur ordinateur seulement (extra16.css), choix de Matthieu du 20/10/2026 sur la maquette
+CARTE_N1 = False  # remplacée le 20/10/2026 (v13) par le radar de la fiche (radar_fiche) ;   # affichée sur ordinateur seulement (extra16.css), choix de Matthieu du 20/10/2026 sur la maquette
 
 
 def buy_btn(o, i):
@@ -248,7 +248,7 @@ TOTAL_TESTS = sum(d["tests"]["tests"] for d in ITEMS.values())
 
 
 # ---------------------------------------------------------------- Graphe à bulles
-def bubble_svg(items, aria, link_root=None, sid="bubbleChart"):
+def bubble_svg(items, aria, link_root=None, sid="bubbleChart", link_key="href", focus=None, ranks=None):
     tested = [d for d in items if d["press"]]
     xs = [d["press"]["avg"] for d in tested] or [7, 9]
     xmin = min(6, math.floor(min(xs) - 0.2)); xmax = 10
@@ -285,7 +285,7 @@ def bubble_svg(items, aria, link_root=None, sid="bubbleChart"):
 
     def rad(d):
         return 7 if not d["press"] else max(5, min(15, 4.5 + 2.6 * math.sqrt(d["press"]["n"])))
-    for d in sorted(items, key=lambda d: -rad(d)):
+    for d in sorted(items, key=lambda d: (d["id"] == focus, -rad(d))):
         pr = d["press"]
         col = CAT[d["cat"]]["color"]
         cx = X(pr["avg"]) if pr else xs0
@@ -293,9 +293,17 @@ def bubble_svg(items, aria, link_root=None, sid="bubbleChart"):
         cls = "bubble" + ("" if pr else " nopress")
         style = f' style="stroke:{col}"' if not pr else ""
         circ = f'<circle class="{cls}" data-id="{d["id"]}" data-cat="{d["cat"]}" data-budget="{d["bucket"]}" cx="{cx:.1f}" cy="{Y(d["p"]):.1f}" r="{rad(d):.1f}" fill="{col}"{style} tabindex="0" role="button" aria-label="{E(d["short"])}"><title>{E(tip)}</title></circle>'
-        if link_root is not None:
-            circ = f'<a href="{link_root}{d["href"]}">' + circ.replace(' tabindex="0" role="button"', '') + "</a>"
+        if focus is not None:
+            circ = circ.replace(f'class="{cls}"', f'class="{cls}{" focus" if d["id"] == focus else " dim"}"')
+        if link_root is not None and d["id"] != focus:
+            lab = f'N° {ranks[d["id"]]} : {d["short"]}' if ranks else d["short"]
+            circ = (f'<a href="{link_root}{d[link_key]}" aria-label="{E(lab)}">' + circ.replace(' tabindex="0" role="button"', '')
+                    .replace(f' aria-label="{E(d["short"])}"', '') + "</a>")
         g.append(circ)
+        if ranks:
+            cy = Y(d["p"]); r = rad(d)
+            g.append(f'<text class="b-rank{" focus" if d["id"] == focus else ""}" x="{cx + r * 0.72 + 2:.1f}" y="{cy - r * 0.72 - 2:.1f}" aria-hidden="true">{ranks[d["id"]]}</text>')
+
     return f'<svg viewBox="0 0 340 336" role="img" aria-label="{E(aria)}" id="{sid}">' + "".join(g) + "</svg>"
 
 
@@ -978,13 +986,94 @@ def synthese_html(d):
             f'({E(", ".join(sy["sources"]))}).</p></div>')
 
 
+def score_haut(d, ts, medias, last):
+    """Note presse en grand dans le haut de la fiche, sur ordinateur (v13, 20/10/2026) ; le mobile garde press-big."""
+    pr = d["press"]
+    ntxt = f'{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} recensé{"s" if ts["tests"] > 1 else ""}, {medias} média{"s" if medias > 1 else ""}'
+    when = f'<span class="ps-w">{last}</span>' if last else ""
+    if pr:
+        return (f'<a class="p-score" href="#consensus"><span class="ps-big"><b>{fr(pr["avg"])}</b><small>/10</small></span>'
+                f'<span class="ps-t"><span class="ps-k">Note presse</span><span class="ps-l">Moyenne de <b>{pr["n"]} note{"s" if pr["n"] > 1 else ""}</b> · {ntxt}</span>{when}{few(d)}</span></a>')
+    return (f'<a class="p-score none" href="#tests"><span class="ps-big"><b>—</b></span>'
+            f'<span class="ps-t"><span class="ps-k">Note presse</span><span class="ps-l"><b>Testé, sans note publique</b> · {ntxt}</span>{when}</span></a>')
+
+
+def radar_fiche(d, items, root, usage_url, usage_txt):
+    """Radar de la fiche (v13, 20/10/2026) : le produit parmi les 10 de son usage, bulles cliquables vers les fiches,
+    lecture calculée, liste numérotée ; sur mobile, une ligne « note presse » et 3 lignes de la liste."""
+    n = len(items)
+    ranks = {x["id"]: i + 1 for i, x in enumerate(items)}
+    rank = ranks[d["id"]]
+    others = [x for x in items if x["id"] != d["id"]]
+    pr = d["press"]
+    chips, phr = [], []
+    if pr:
+        nv = lambda x: round(x["press"]["avg"], 1)   # comparaison sur la note affichée
+        noted = [x for x in items if x["press"]]
+        pos = 1 + sum(1 for x in noted if nv(x) > nv(d))
+        tie = any(nv(x) == nv(d) for x in others if x["press"])
+        chips.append(f'Note presse : <b>{pos}<sup>{"er" if pos == 1 else "e"}</sup></b>{" ex æquo" if tie else ""} sur {len(noted)}')
+        better = sum(1 for x in others if not x["press"] or nv(x) < nv(d))
+        phr.append(f'mieux noté que {better} des {n - 1} autres modèles du top' if better else f'parmi les moins bien notés du top')
+    else:
+        phr.append("testé par la presse sans note publique : il est placé à gauche, hors de l'axe des notes")
+    ppos = 1 + sum(1 for x in others if x["p"] < d["p"])
+    chips.append(f'Prix : <b>{ppos}<sup>{"er" if ppos == 1 else "e"}</sup></b> moins cher sur {n}')
+    dearer = sum(1 for x in others if x["p"] > d["p"])
+    if pr:
+        phr.append(f'moins cher que {dearer} d&#39;entre eux' if dearer else "le plus cher du top")
+    else:
+        phr[-1] += "." 
+        phr.append(f'Il est moins cher que {dearer} des {n - 1} autres modèles du top' if dearer else "Il est le plus cher du top")
+    med = sorted(x["p"] for x in items)[n // 2]
+    if pr and pr["avg"] >= 8 and d["p"] <= med:
+        chips.append('<span class="rf-deal">Zone « bonnes affaires »</span>')
+    lecture = f'{E(d["short"])} : {" et ".join(phr)}.' if pr else f'{E(d["short"])} : {phr[0]} {phr[1]}.'
+    # liste numérotée ; sur mobile seulement le n° 1, le produit et ses voisins
+    keep = {items[0]["id"], d["id"]}
+    for x in sorted(others, key=lambda x: abs(ranks[x["id"]] - rank)):
+        if len(keep) >= 3: break
+        keep.add(x["id"])
+    rows = "".join(
+        (f'<li class="rf-row cur{" mk" if x["id"] in keep else ""}" aria-current="page">' if x["id"] == d["id"] else f'<li class="rf-row{" mk" if x["id"] in keep else ""}">')
+        + (f'<span class="rf-n">{ranks[x["id"]]}</span>' + (f'<span class="rf-name">{E(x["short"])} <small>ce modèle</small></span>' if x["id"] == d["id"]
+           else f'<a class="rf-name" href="{root}{x["purl"]}">{E(x["short"])}</a>')
+           + f'<span class="rf-s">{fr(x["press"]["avg"]) + "/10" if x["press"] else "sans note"}</span><span class="rf-p">{x["price_txt"]}</span></li>')
+        for x in items)
+    # ligne « note presse » (mobile)
+    lo = min([6] + [int(x["press"]["avg"]) for x in items if x["press"]])
+    def px(x):
+        return 4 if not x["press"] else 14 + (x["press"]["avg"] - lo) / (10 - lo) * 82
+    dots = "".join(f'<span class="rf-dot{" cur" if x["id"] == d["id"] else ""}{" nn" if not x["press"] else ""}" style="left:{px(x):.1f}%"></span>' for x in sorted(items, key=lambda x: x["id"] == d["id"]))
+    ticks = "".join(f'<span class="rf-tk" style="left:{14 + (v - lo) / (10 - lo) * 82:.1f}%">{v}</span>' for v in range(lo, 11))
+    cap_t = "translateX(-100%)" if px(d) > 85 else ("none" if px(d) < 12 else "translateX(-50%)")
+    strip = (f'<div class="rf-strip" aria-hidden="true"><span class="rf-cap" style="left:{px(d):.1f}%;transform:{cap_t}">Ce modèle</span><div class="rf-line">{dots}</div>'
+             f'<div class="rf-ticks"><span class="rf-tk sn" style="left:4%">sans</span>{ticks}</div></div>')
+    svg = bubble_svg(items, f"Graphe : {d['short']} parmi les {n} {usage_txt}, note presse contre prix", root, sid="ficheRadar", link_key="purl", focus=d["id"], ranks=ranks)
+    return f"""
+  <section class="section p-sec p-radar" id="radar" data-zi="radar-fiche">
+    <div class="section-head"><h2>Où se place-t-il dans le top {n} ?</h2><div class="tag">Radar · {E(usage_txt)}</div></div>
+    <div class="rf-grid">
+      <div class="rf-chart"><div class="chart-pane">{svg}</div>
+        <p class="rf-help"><span class="rf-key" aria-hidden="true"></span><b>Ce modèle</b> · les chiffres sont les rangs du top · → À droite : mieux noté par la presse · ↑ En haut : plus cher · Taille : nombre de notes · Cliquez sur une bulle pour ouvrir sa fiche.</p></div>
+      <div class="rf-side">
+        <div class="rf-chips">{"".join(f'<span class="rf-chip">{x}</span>' for x in chips)}</div>
+        <p class="rf-read">{lecture}</p>
+        {strip}
+        <ol class="rf-list">{rows}</ol>
+        <a class="rf-more" href="{usage_url}">Voir le top {n} et le comparatif →</a>
+      </div>
+    </div>
+  </section>"""
+
+
 def lf(t):
     """Minuscule initiale, sauf sigle ou nom propre en majuscules (OLED, USB-C…)."""
     return t[0].lower() + t[1:] if len(t) > 1 and t[1].islower() else t
 
 
 def plus_verdict(d):
-    """Complément du verdict (v12, 20/10/2026) : points forts et réserve principale relevés par la presse (mêmes données que plus bas)."""
+    """[Retiré de la fiche le 20/10/2026 (v13) : doublon du consensus, conservé pour mémoire.] Complément du verdict (v12, 20/10/2026) : points forts et réserve principale relevés par la presse (mêmes données que plus bas)."""
     st = [lf(x.strip().rstrip(".")) for x in d["strengths"] if x.strip()]
     wk = [lf(x.strip().rstrip(".")) for x in d["weak"] if x.strip()]
     out = []
@@ -1110,14 +1199,14 @@ def product_page(fam, c, rank, d, items):
         <h1>{name} : <span class="flash">avis, tests et prix</span></h1>
         {byline(root)}
         <div class="ref">{E(d['ref'])}</div>
+        {score_haut(d, ts, medias, last)}
       </div>
       <div class="p-sum">
         <p class="p-verdict"><b>Le verdict.</b> {E(d['verdict'])}</p>
-        {plus_verdict(d)}
         <p class="p-rank">{rank_txt}.</p>
       </div>
       <div class="p-facts">
-        <div class="p-fact"><span class="p-fact-k">Presse</span><span class="p-fact-v">{presse}</span><a href="#tests">{E(med_txt)}</a></div>
+        <div class="p-fact"><span class="p-fact-k">Lu chez</span><span class="p-fact-v">{E(", ".join(medias_l[:4]))}{" et " + str(len(medias_l) - 4) + " autre" + ("s" if len(medias_l) > 5 else "") if len(medias_l) > 4 else ""}</span><a href="#tests">Tous les tests →</a></div>
         <div class="p-fact yes"><span class="p-fact-k">Pour vous si</span><span class="p-fact-v">{low_first(E(d['pour']))}</span></div>
         <div class="p-fact no"><span class="p-fact-k">À éviter si</span><span class="p-fact-v">{low_first(E(d['eviter']))}</span></div>
       </div>
@@ -1137,6 +1226,8 @@ def product_page(fam, c, rank, d, items):
     </div>
     {top1}
   </section>
+
+  {radar_fiche(d, items, root, usage_url, usage_txt)}
 
   <section class="section p-sec" id="pour-qui">
     <div class="section-head"><h2>Pour qui ?</h2><div class="tag">En deux lignes</div></div>
@@ -1172,7 +1263,7 @@ def product_page(fam, c, rank, d, items):
     {src}
   </section>
 
-  <section class="section p-sec" id="alternatives">
+  <section class="section p-sec" id="alternatives" data-zi="alternatives">
     <div class="section-head"><h2>Les alternatives pour le même usage</h2><a class="see-all" href="{usage_url}">Tout le top {n_items} →</a></div>
     <div class="alt-grid">{alt}</div>
   </section>
@@ -1570,7 +1661,7 @@ for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"
     _p = os.path.join(OUT, _f)
     _t = open(_p, encoding="utf-8").read()
     open(_p, "w", encoding="utf-8").write(re.sub(r"style\.css\?v=[0-9a-f]+", f"style.css?v={VER}", _t))
-shutil.copy(SRC + "main12.js", os.path.join(OUT, "assets/main.js"))
+shutil.copy(SRC + "main13.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
