@@ -20,8 +20,8 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css']
-VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main10.js'])).hexdigest()[:8]
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css']
+VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main11.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
@@ -127,6 +127,20 @@ def o_prix(o):
 
 def cta_txt(o):
     return f'{euro2(o["price"])} chez {E(o["m"])} →' if prix_exact(o) else f'Voir chez {E(o["m"])} →'
+
+
+# Carte « Avant d'acheter : le n° 1 de ce top » en haut de fiche (point 5 de l'analyse du 20/10/2026) : prête, non retenue pour l'instant.
+CARTE_N1 = True   # affichée sur ordinateur seulement (extra16.css), choix de Matthieu du 20/10/2026 sur la maquette
+
+
+def buy_btn(o, i):
+    """Bouton marchand du cadre d'achat (fiche produit, ordinateur) : le premier en couleur, les suivants en contour.
+    Prix affiché seulement pour les marchands à prix exact (Electro Dépôt) ; sinon « Voir le prix »."""
+    dt = date_releve(o) if prix_exact(o) else ""
+    sub = " · ".join(x for x in (E(o.get("cfg") or ""), f"prix du {dt}" if dt else "") if x)
+    right = f'{euro2(o["price"])} →' if prix_exact(o) else "Voir le prix →"
+    return (f'<a class="p-b{" p-b1" if i == 0 else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
+            f'<span class="p-b-m"><b>{E(o["m"])}</b>{f"<small>{sub}</small>" if sub else ""}</span><span class="p-b-go">{right}</span></a>')
 
 
 def rel_m(m):
@@ -315,7 +329,7 @@ def js_data(items, root, first):
 
 
 def detail_card(root, fam=None):
-    return f"""<div class="detail-col"><div class="featured" id="detailCard">
+    return f"""<div class="detail-col"><div class="featured" id="detailCard" data-z="radar">
   <div class="art art-photo" id="detailArt"><img class="art-product" id="detailArtImg" src="{root}assets/img/badge-bureautique.webp" alt="" width="560" height="420"><img class="art-cat" id="detailCatImg" src="{root}assets/img/badge-bureautique.webp" alt="" width="54" height="54"></div>
   <div class="featured-body">
     <div class="cat-label-inline" id="detailCatLabel"></div>
@@ -464,9 +478,11 @@ def og_pour(path):
 
 
 def indexable(d):
-    """Fiche produit indexable seulement si la note presse repose sur au moins 2 notes chiffrées (audit SEO du 10/10/2026).
-    Les autres restent en ligne et dans les classements, mais en noindex,follow et hors sitemap."""
-    return bool(d["press"]) and d["press"]["n"] >= 2
+    """Fiche produit indexable si elle repose sur au moins 2 notes chiffrées OU au moins 2 tests presse recensés,
+    même sans note publique (décision du 20/10/2026, après l'audit SEO du 10/10/2026 : ces fiches apportaient 43 % des clics Google).
+    Les fiches à un seul test restent en ligne et dans les classements, mais en noindex,follow et hors sitemap.
+    L'affichage ne change pas : pastilles « 1 seul test noté », « testé, sans note », fin de classement."""
+    return (bool(d["press"]) and d["press"]["n"] >= 2) or d["tests"]["tests"] >= 2
 
 
 # ---------------------------------------------------------------- Vitesse d'affichage (audit SEO du 10/10/2026)
@@ -774,7 +790,7 @@ def pick_block(fam, c, items, root):
       <span class="alt-k">{label}</span>
       {f'<img src="{root}assets/img/p/{a["img"]}" alt="" width="96" height="72" loading="lazy">' if a['img'] else ''}
       <b>{E(a['short'])}</b><span class="alt-why">{E(reason)}</span><span class="alt-meta">{meta}</span></a>''')
-    return f"""<section class="pick" id="notre-choix">
+    return f"""<section class="pick" id="notre-choix" data-z="choix" data-pid="{d['id']}">
     <div class="pick-card">
       {photo}
       <div class="pick-body">
@@ -853,7 +869,7 @@ def usage_page(fam, c):
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
         photo = (f'<a class="f-photo" href="{E(d["url"])}" target="_blank" rel="{rel_m(d["offers"][0]["m"])}"><img src="../../assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d["img"] else "")
         best = d["offers"][0]
-        fiches.append(f"""<article class="fiche tcard{' top' if i == 1 else ''}" id="{d['id']}" data-budget="{d['bucket']}" data-rank="{i}" data-price="{d['p']}" data-press="{pr['avg'] if pr else -1}" data-tests="{ts['tests']}" style="--c:{c['color']}">
+        fiches.append(f"""<article class="fiche tcard{' top' if i == 1 else ''}" id="{d['id']}" data-z="top10" data-pid="{d['id']}" data-budget="{d['bucket']}" data-rank="{i}" data-price="{d['p']}" data-press="{pr['avg'] if pr else -1}" data-tests="{ts['tests']}" style="--c:{c['color']}">
   <div class="tc-top"><span class="tc-rank">#{i}<small>{'notre choix' if i == 1 else f'sur {n}'}</small></span><span class="fbadge{' alt' if i != 1 else ''}">{E(d['badge'])}</span></div>
   {f'<a class="tc-photo" href="{root}{d["purl"]}"><img src="{root}assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d['img'] else '<div class="tc-photo tc-nophoto">Photo à venir</div>'}
   <h3 class="tc-name"><a href="{root}{d['purl']}">{E(d['short'])}</a></h3>
@@ -1042,22 +1058,64 @@ def product_page(fam, c, rank, d, items):
     ]
     faq_html = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(faq))
 
+    # --- bloc d'achat du haut de page (v11, 20/10/2026) : visible dès le premier écran sur mobile, un bouton par marchand
+    # v11c (20/10/2026) : mise en page de la maquette validée par Matthieu sur ordinateur (cadre d'achat à droite avec un bouton
+    # par marchand, encadrés presse / pour vous si / à éviter si, carte « le n° 1 ») ; sur mobile, version discrète v11b
+    # (photo réduite, un bouton, les autres marchands en liens texte). Les deux variantes sont dans la page, le CSS choisit.
+    autres = " · ".join(f'<a href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}">{E(o["m"])}</a>' for o in d["offers"][1:])
+    buy_btns = "".join(buy_btn(o, i) for i, o in enumerate(d["offers"]))
+    aff = any(o["m"] in AFFILIATED for o in d["offers"])
+    medias_l = list(dict.fromkeys(nt["src"] for nt in ts["notes"]))
+    med_txt = ", ".join(medias_l[:3]) + ("…" if len(medias_l) > 3 else "")
+    if pr:
+        presse = f'<b>{fr(pr["avg"])}/10</b> sur {pr["n"]} note{"s" if pr["n"] > 1 else ""} presse{few(d)}'
+    else:
+        presse = f'<b>{ts["tests"]} test{"s" if ts["tests"] > 1 else ""}, sans note publique</b>'
+    top1 = ""
+    if CARTE_N1 and rank > 1:
+        t = items[0]
+        t_meta = (f'{fr(t["press"]["avg"])}/10 presse ({t["press"]["n"]} note{"s" if t["press"]["n"] > 1 else ""})' if t["press"]
+                  else f'{t["tests"]["tests"]} test{"s" if t["tests"]["tests"] > 1 else ""} presse') + f' · {t["price_txt"]}'
+        t_ed = next((o for o in t["offers"] if prix_exact(o)), None)
+        if t_ed:
+            t_meta += f' · {euro2(t_ed["price"])} chez {E(t_ed["m"])}'
+        t_img = f'<img src="{root}assets/img/p/{t["img"]}" alt="" width="72" height="54">' if t["img"] else ""
+        top1 = (f'<a class="p-top1" href="{root}{t["purl"]}">{t_img}<span class="p-top1-t"><span class="p-top1-k">Avant d&#39;acheter : le n° 1 des {usage_txt if usage_txt[1:2].isupper() else low_first(usage_txt)}</span>'
+                f'<span class="p-top1-m"><b>{E(t["short"])}</b> · {t_meta}</span></span><span class="p-top1-go">Voir la fiche →</span></a>')
+
     body = f"""
   <div class="crumb"><a href="{root or "./"}">Accueil</a> › <a href="{root}{fam['slug']}/">{fam['plural']}</a> › <a href="{usage_url}">{c['label']}</a> › {name}</div>
-  <section class="p-hero">
+  <section class="p-hero v11">
     <div class="p-text">
-      <div class="eyebrow">{E(d['badge']).upper()} · MAJ {maj(fam)}</div>
-      <h1>{name} : <span class="flash">avis, tests et prix</span></h1>
-      {byline(root)}
-      <div class="ref">{E(d['ref'])}</div>
-      <p class="p-verdict"><b>Le verdict en une phrase.</b> {E(d['verdict'])}</p>
-      <p class="p-rank">{rank_txt}.</p>
+      <div class="p-head">
+        <div class="p-chips"><a class="p-chip" href="{usage_url}">{"Notre choix" if rank == 1 else f"N° {rank} sur {n_items}"} · {E(usage_txt)}</a><span class="p-maj">{E(d['badge'])} · MAJ {maj(fam)}</span></div>
+        <h1>{name} : <span class="flash">avis, tests et prix</span></h1>
+        {byline(root)}
+        <div class="ref">{E(d['ref'])}</div>
+      </div>
+      <div class="p-sum">
+        <p class="p-verdict"><b>Le verdict.</b> {E(d['verdict'])}</p>
+        <p class="p-rank">{rank_txt}.</p>
+      </div>
+      <div class="p-facts">
+        <div class="p-fact"><span class="p-fact-k">Presse</span><span class="p-fact-v">{presse}</span><a href="#tests">{E(med_txt)}</a></div>
+        <div class="p-fact yes"><span class="p-fact-k">Pour vous si</span><span class="p-fact-v">{low_first(E(d['pour']))}</span></div>
+        <div class="p-fact no"><span class="p-fact-k">À éviter si</span><span class="p-fact-v">{low_first(E(d['eviter']))}</span></div>
+      </div>
+      {top1}
     </div>
     <div class="p-side">
-      {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
-      <div class="press-big">{press_big(d)}</div>
-      <div class="pick-price"><b>{d['price_txt']}</b><span>{ind_txt(fam)}</span></div>
-      <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
+      <div class="p-card">
+        {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
+        <div class="press-big">{press_big(d)}</div>
+        <div class="p-buy" id="buyBox" data-z="haut" data-pid="{d['id']}">
+          <div class="p-buy-h"><span class="p-buy-k">Prix indicatif</span><span class="p-buy-p"><b>{d['price_txt']}</b><small>{"le plus bas relevé" if len(d["offers"]) > 1 else "prix indicatif"} · {pdate(fam)}</small></span></div>
+          <div class="p-btns">{buy_btns}</div>
+          <a class="cta big buy p-mob" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
+          <p class="p-buy-n p-mob">{f'Aussi chez {autres} · ' if autres else ''}<a href="#prix">toutes les offres</a></p>
+          {'<p class="p-buy-n p-desk">Liens affiliés : sans surcoût pour vous et sans effet sur le classement. Seul le prix affiché par le marchand fait foi.</p>' if aff else ''}
+        </div>
+      </div>
     </div>
   </section>
 
@@ -1082,7 +1140,7 @@ def product_page(fam, c, rank, d, items):
 
   <section class="section p-sec" id="prix">
     <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {ind_txt(fam)}</div></div>
-    <div class="offers p-offers">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Le prix Electro Dépôt est celui de son flux produits officiel à la date indiquée ; seul le prix affiché par le marchand fait foi. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
+    <div class="offers p-offers" data-z="offres" data-pid="{d['id']}">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Le prix Electro Dépôt est celui de son flux produits officiel à la date indiquée ; seul le prix affiché par le marchand fait foi. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
     <div class="p-specs">{specs}</div>
   </section>
 
@@ -1101,11 +1159,31 @@ def product_page(fam, c, rank, d, items):
   <section class="section p-sec" id="faq" style="border-bottom:none;">
     <div class="section-head"><h2>Questions fréquentes</h2><div class="tag">FAQ</div></div>
     <div class="faq-list">{faq_html}</div>
-    <p class="p-final"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
+    <p class="p-final" data-z="bas" data-pid="{d['id']}"><a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a> <a class="see-all" href="{usage_url}">Revenir au classement</a></p>
   </section>
 """
-    note_t = f' ({fr(pr["avg"])}/10 presse)' if pr else ""
-    title = f'{d["short"]} : avis, tests et prix{note_t} | Top 10 Geek'
+    # Titre affiché dans Google (v11, 20/10/2026) : la note, le nombre de tests et le prix indicatif, ce que cherche
+    # l'internaute qui tape « <modèle> test » ou « <modèle> avis ». Le plus complet qui tient en 65 caractères.
+    s, T, P = d["short"], ts["tests"], d["price_txt"]
+    t_txt = f'{T} test{"s" if T > 1 else ""} presse'
+    if pr:
+        n_txt = f'{pr["n"]} note{"s" if pr["n"] > 1 else ""}'
+        cands_t = [f'{s} : avis et tests, {fr(pr["avg"])}/10 sur {n_txt} presse, {P} | Top 10 Geek',
+                   f'{s} : avis et tests, {fr(pr["avg"])}/10 sur {n_txt} presse, {P}',
+                   f'{s} : avis et tests, {fr(pr["avg"])}/10 ({n_txt}), {P}',
+                   f'{s} : avis et tests ({fr(pr["avg"])}/10 presse), {P}',
+                   f'{s} : avis et tests, {fr(pr["avg"])}/10 presse']
+    else:
+        cands_t = [f'{s} : avis de {t_txt}, prix {P} | Top 10 Geek', f'{s} : avis de {t_txt}, prix {P}',
+                   f'{s} : avis et tests presse, {P}']
+    title = next((x for x in cands_t if len(x) <= 65), f'{s} : avis, tests et prix')
+    bar_alt = next((o for o in d["offers"][1:]), None)
+    bar = (f'<div class="buy-bar" id="buyBar" data-z="barre" data-pid="{d["id"]}" aria-hidden="true">'
+           + (f'<img src="{root}assets/img/p/{d["img"]}" alt="" width="56" height="42">' if d["img"] else "")
+           + f'<span class="bb-t"><b>{name}</b>'
+           + (f'<a href="{E(bar_alt["url"])}" target="_blank" rel="{rel_m(bar_alt["m"])}" tabindex="-1">ou chez {E(bar_alt["m"])}</a>' if bar_alt else f'<span>{P}</span>')
+           + f'</span><a class="cta buy" href="{E(best["url"])}" target="_blank" rel="{rel_m(best["m"])}" tabindex="-1">'
+           + (f'{euro2(best["price"])} · {E(best["m"])} →' if prix_exact(best) else f'Voir chez {E(best["m"])} →') + '</a></div>')
     lead = (f'{pr["n"]} note{"s" if pr["n"] > 1 else ""} presse, moyenne {fr(pr["avg"])}/10. ' if pr else f'{ts["tests"]} test{"s" if ts["tests"] > 1 else ""} presse résumé{"s" if ts["tests"] > 1 else ""}. ')
     # méta-description complète, jamais tronquée : verdict entier, sinon sa première proposition, sinon une phrase générique
     v = d["verdict"].strip()
@@ -1125,7 +1203,7 @@ def product_page(fam, c, rank, d, items):
                                 "url": f"{DOMAIN}/{d['purl']}"})}
     if d["img"]:
         product["image"] = f"{DOMAIN}/assets/img/p/{d['img']}"
-    write(d["purl"] + "index.html", page(root, title, desc, d["purl"], body, fam["slug"],
+    write(d["purl"] + "index.html", page(root, title, desc, d["purl"], body, fam["slug"], extra=bar,
                                          robots=None if indexable(d) else "noindex,follow",
                                          og_img=(f'assets/img/p/{d["img"]}' if d["img"] else "assets/img/og-image.jpg"),
                                          ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/"), (c["label"], f"{fam['slug']}/{c['slug']}/"), (d["short"], d["purl"])),
@@ -1471,7 +1549,7 @@ for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"
     _p = os.path.join(OUT, _f)
     _t = open(_p, encoding="utf-8").read()
     open(_p, "w", encoding="utf-8").write(re.sub(r"style\.css\?v=[0-9a-f]+", f"style.css?v={VER}", _t))
-shutil.copy(SRC + "main10.js", os.path.join(OUT, "assets/main.js"))
+shutil.copy(SRC + "main11.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
