@@ -20,8 +20,8 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css']
-VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main11.js'])).hexdigest()[:8]
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css']
+VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main12.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
@@ -343,11 +343,11 @@ def detail_card(root, fam=None):
     </div>
     <p class="lead-line" id="detailVerdict"></p>
     <div class="pc-grid"><div class="strengths" id="detailStrengths"></div><div class="strengths weak" id="detailWeak"></div></div>
-    <div class="offers" id="detailOffers"></div>
-    <div class="featured-footer">
-      <div><span class="price-tag" id="detailPrice"></span><span class="price-from">{ind_txt(fam) if fam else IND}</span></div>
-      <div class="cta-row"><a class="see-all" id="detailMore" href="#">Avis et tests détaillés</a><a class="cta" id="detailCta" href="#" target="_blank" rel="nofollow noopener">Voir chez le marchand →</a></div>
+    <div class="d-buy">
+      <div class="d-price"><span class="d-buy-k">Prix indicatif</span><span class="price-tag" id="detailPrice"></span><span class="price-from">{ind_txt(fam) if fam else IND}</span></div>
+      <div class="offers" id="detailOffers"></div>
     </div>
+    <a class="d-more" id="detailMore" href="#"><span class="d-more-t">Avis et tests détaillés<small id="detailMoreN"></small></span><span class="d-more-go" aria-hidden="true">→</span></a>
   </div>
 </div></div>"""
 
@@ -689,7 +689,7 @@ def family_page(fam):
         <div><strong>{len(cats)}</strong>usages</div>
       </div>
     </div>
-    <img class="hero-badge tall" src="../assets/img/{fam['mascot']}.webp" alt="La mascotte Top 10 Geek" width="220" height="260">
+    <img class="hero-badge tall big" src="../assets/img/{fam['mascot']}.webp" alt="La mascotte Top 10 Geek" width="220" height="260">
   </section>
   {PROVISIONAL_NOTE if fam['provisional'] else ''}
   <section class="comparator" id="comparateur">
@@ -978,6 +978,23 @@ def synthese_html(d):
             f'({E(", ".join(sy["sources"]))}).</p></div>')
 
 
+def lf(t):
+    """Minuscule initiale, sauf sigle ou nom propre en majuscules (OLED, USB-C…)."""
+    return t[0].lower() + t[1:] if len(t) > 1 and t[1].islower() else t
+
+
+def plus_verdict(d):
+    """Complément du verdict (v12, 20/10/2026) : points forts et réserve principale relevés par la presse (mêmes données que plus bas)."""
+    st = [lf(x.strip().rstrip(".")) for x in d["strengths"] if x.strip()]
+    wk = [lf(x.strip().rstrip(".")) for x in d["weak"] if x.strip()]
+    out = []
+    if st:
+        out.append("La presse apprécie : " + (", ".join(st[:-1]) + " et " + st[-1] if len(st) > 1 else st[0]) + ".")
+    if wk:
+        out.append(("Réserve principale : " if len(wk) > 1 else "Sa réserve : ") + wk[0] + ".")
+    return f'<p class="p-more">{E(" ".join(out))}</p>' if out else ""
+
+
 def product_page(fam, c, rank, d, items):
     root = "../../"
     pr, ts = d["press"], d["tests"]
@@ -1023,8 +1040,9 @@ def product_page(fam, c, rank, d, items):
     offs = "".join(
         f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}{" has-p" if prix_exact(o) else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
         f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span>{o_prix(o)}<span class="o-go">Voir chez {E(o["m"])} →</span></a>' for o in d["offers"])
-    specs = "".join(f"<div class=\"mini{' wide' if k.startswith(('Config', 'Caract')) else ''}\"><span class=\"k\">{k}</span><span class=\"v\">{v}</span></div>" for k, v in [
-        ("Configuration de référence" if fam["key"] in ("laptop", "desktop") else "Caractéristiques principales", E(d["ref"])), (fam["m_labels"][0], E(d["m"][0])), (fam["m_labels"][1], E(d["m"][1])),
+    specs_t = "Configuration de référence" if fam["key"] in ("laptop", "desktop") else "Caractéristiques principales"
+    specs = f'<span class="ps-k">{specs_t}</span><p class="ps-ref">{E(d["ref"])}</p>' + "".join(f'<div class="mini"><span class="k">{k}</span><span class="v">{v}</span></div>' for k, v in [
+        (fam["m_labels"][0], E(d["m"][0])), (fam["m_labels"][1], E(d["m"][1])),
         ("Avis clients Darty", f'{fr(d["r"])} ★ ({d["nrev"]} avis)' if d["r"] > 0 else "")] if v and v != "n.c.")
 
     # --- alternatives : les voisins du classement
@@ -1095,6 +1113,7 @@ def product_page(fam, c, rank, d, items):
       </div>
       <div class="p-sum">
         <p class="p-verdict"><b>Le verdict.</b> {E(d['verdict'])}</p>
+        {plus_verdict(d)}
         <p class="p-rank">{rank_txt}.</p>
       </div>
       <div class="p-facts">
@@ -1102,7 +1121,6 @@ def product_page(fam, c, rank, d, items):
         <div class="p-fact yes"><span class="p-fact-k">Pour vous si</span><span class="p-fact-v">{low_first(E(d['pour']))}</span></div>
         <div class="p-fact no"><span class="p-fact-k">À éviter si</span><span class="p-fact-v">{low_first(E(d['eviter']))}</span></div>
       </div>
-      {top1}
     </div>
     <div class="p-side">
       <div class="p-card">
@@ -1117,6 +1135,7 @@ def product_page(fam, c, rank, d, items):
         </div>
       </div>
     </div>
+    {top1}
   </section>
 
   <section class="section p-sec" id="pour-qui">
@@ -1140,8 +1159,10 @@ def product_page(fam, c, rank, d, items):
 
   <section class="section p-sec" id="prix">
     <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {ind_txt(fam)}</div></div>
+    <div class="p-buywrap">
     <div class="offers p-offers" data-z="offres" data-pid="{d['id']}">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Le prix Electro Dépôt est celui de son flux produits officiel à la date indiquée ; seul le prix affiché par le marchand fait foi. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
-    <div class="p-specs">{specs}</div>
+    <aside class="p-specs v12">{specs}</aside>
+    </div>
   </section>
 
   <section class="section p-sec" id="tests">
@@ -1275,9 +1296,6 @@ home = f"""
       <div class="eyebrow">LE COMPARATEUR QUI A LU TOUS LES TESTS · MAJ {MAJ}</div>
       <h1>Tous les tests high&#8209;tech, <span class="flash">résumés pour vous.</span></h1>
       <p>Nous lisons les tests de la presse spécialisée, nous en tirons une <b>note presse sur 10</b> et nous vous disons, usage par usage, quoi acheter — et pourquoi. Sans jargon, sans pub déguisée.</p>
-      <nav class="fam-btns" aria-label="Nos comparatifs">
-        {FAM_BTNS}
-      </nav>
       <div class="spec-row">
         <div><strong>{TOTAL_TESTS}</strong>tests presse recensés</div>
         <div><strong>{len(ITEMS)}</strong>produits sélectionnés</div>
@@ -1292,6 +1310,9 @@ home = f"""
       <img class="hh-sticker s3" src="assets/img/badge-bureautique.webp" alt="" width="120" height="120">
       <div class="hh-bubble">« J'ai lu {TOTAL_TESTS} tests pour vous. De rien. »</div>
     </div>
+    <nav class="fam-btns row4" aria-label="Nos comparatifs">
+        {FAM_BTNS}
+    </nav>
   </section>
 
   {ticker()}
@@ -1549,7 +1570,7 @@ for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"
     _p = os.path.join(OUT, _f)
     _t = open(_p, encoding="utf-8").read()
     open(_p, "w", encoding="utf-8").write(re.sub(r"style\.css\?v=[0-9a-f]+", f"style.css?v={VER}", _t))
-shutil.copy(SRC + "main11.js", os.path.join(OUT, "assets/main.js"))
+shutil.copy(SRC + "main12.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
