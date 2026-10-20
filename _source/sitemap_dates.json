@@ -39,6 +39,14 @@
 "d": "2026-10-16",
 "h": "75f1d16c6042"
 },
+"ecran-pc/aoc-gaming-24g4zr/": {
+"d": "2026-10-20",
+"h": "af2ce8886e57"
+},
+"ecran-pc/aoc-gaming-q27g42ze/": {
+"d": "2026-10-20",
+"h": "59b6774c16a2"
+},
 "ecran-pc/aoc-gaming-q27g4x/": {
 "d": "2026-10-16",
 "h": "721991188e13"
@@ -87,6 +95,26 @@
 "d": "2026-10-16",
 "h": "9fd52f004967"
 },
+"ecran-pc/asus-zenscreen-mb166c/": {
+"d": "2026-10-20",
+"h": "7205d6c8dde0"
+},
+"ecran-pc/asus-zenscreen-mb169ck/": {
+"d": "2026-10-20",
+"h": "20312fbb7b7a"
+},
+"ecran-pc/asus-zenscreen-mb16acv/": {
+"d": "2026-10-20",
+"h": "a2fc133e7b1e"
+},
+"ecran-pc/benq-gw2490ce/": {
+"d": "2026-10-20",
+"h": "4ae620c25848"
+},
+"ecran-pc/benq-gw2790ce/": {
+"d": "2026-10-20",
+"h": "a3ede66cd7a1"
+},
 "ecran-pc/benq-pd2732u/": {
 "d": "2026-10-16",
 "h": "6abd052deffa"
@@ -99,13 +127,29 @@
 "d": "2026-10-16",
 "h": "85ba8a97956f"
 },
+"ecran-pc/dell-27-plus-s2725dc/": {
+"d": "2026-10-20",
+"h": "5e577baaf8b4"
+},
+"ecran-pc/dell-27-plus-s2725qc/": {
+"d": "2026-10-20",
+"h": "4cc4368cf7fb"
+},
 "ecran-pc/dell-27-plus-s2725qs/": {
 "d": "2026-10-16",
 "h": "d2eea6aa5ac6"
 },
+"ecran-pc/dell-ultrasharp-u2724d/": {
+"d": "2026-10-20",
+"h": "c6f24d48df91"
+},
 "ecran-pc/dell-ultrasharp-u2724de/": {
 "d": "2026-10-16",
 "h": "0bb9471a167a"
+},
+"ecran-pc/eizo-coloredge-cg2700s/": {
+"d": "2026-10-20",
+"h": "9260a955c13f"
 },
 "ecran-pc/gaming/": {
 "d": "2026-10-16",
@@ -118,6 +162,26 @@
 "ecran-pc/iiyama-g-master-gb2771qsu/": {
 "d": "2026-10-16",
 "h": "4393f3cf3075"
+},
+"ecran-pc/lenovo-legion-27q-10/": {
+"d": "2026-10-20",
+"h": "7e6662bd9e4c"
+},
+"ecran-pc/lenovo-legion-r34w-30/": {
+"d": "2026-10-20",
+"h": "096df4363d68"
+},
+"ecran-pc/lg-ultrafine-32up83a/": {
+"d": "2026-10-20",
+"h": "c71ce71e3f47"
+},
+"ecran-pc/lg-ultrafine-ergo-32un88a/": {
+"d": "2026-10-20",
+"h": "212564794a9b"
+},
+"ecran-pc/mobile-pixels-duex-max/": {
+"d": "2026-10-20",
+"h": "188b505ce645"
 },
 "ecran-pc/msi-mpg-271qr-x50/": {
 "d": "2026-10-16",
@@ -151,13 +215,81 @@
 "d": "2026-10-16",
 "h": "469afd73a5b0"
 },
+"imprimante/brother-dcp-j1360dw/": {
+"d": "2026-10-20",
+"h": "ca0e66281fb9"
+},
+"imprimante/brother-dcp-l1642w/": {
+"d": "2026-10-20",
+"h": "d077f4944cdc"
+},
+"imprimante/brother-dcp-l2620dw/": {
+"d": "2026-10-20",
+"h": "f674c8928116"
+},
+"imprimante/brother-dcp-l2665dw/": {
+"d": "2026-10-20",
+"h": "077c6d4306cb"
+},
+"imprimante/brother-hl-l1240w/": {
+"d": "2026-10-20",
+"h": "c3e9ce040ce9"
+},
+"imprimante/brother-hl-l2865dw/": {
+"d": "2026-10-20",
+"h": "d8e105395235"
+},
+"imprimante/brother-hl-l3220cwe/": {
+"d": "2026-10-20",
+"h": "7b6f8fcd7f5a"
+},
+"imprimante/brother-mfc-l2800dw/": {
+"d": "2026-10-20",
+"h": "0c89fdbc5f8b"
+},
+"imprimante/brother-mfc-l2960dw/": {
+"d": "2026-10-20",
+"h": "aee25f6e9009"
+},
 "imprimante/brother-mfc-l3760cdw/": {
 "d": "2026-10-16",
 "h": "5ff0d727966a"
 },
+"imprimante/canon-i-sensys-lbp243dw-ii/": {
+"d": "2026-10-20",
+"h": "3ca074b6a5ce"
+},
+"imprimante/canon-i-sensys-lbp647cdw/": {
+"d": "2026-10-20",
+"h": "0ef873b0a2a3"
+},
 "imprimante/canon-i-sensys-mf752cdw/": {
 "d": "2026-10-16",
 "h": "fecebc0297d8"
+},
+"imprimante/canon-pixma-g3570/": {
+"d": "2026-10-20",
+"h": "de96ea1a632a"
+},
+"imprimante/canon-pixma-ix6850/": {
+"d": "2026-10-20",
+"h": "9a4c55f71e73"
+},
+"imprimante/canon-pixma-tr4755i/": {
+"d": "2026-10-20",
+"h": "921e474e9522"
+},
+"imprimante/canon-pixma-ts4151i/": {
+"d": "2026-10-20",
+"h": "8ecbbb23a3be"
+},
+"imprimante/canon-pixma-ts6550i/": {
+"d": "2026-10-20",
+"h": "01635e9ec74c"
+},
+"imprimante/canon-pixma-ts7550i/": {
+"d": "2026-10-20",
+"h": "4a71b60687c0"
 },
 "imprimante/canon-selphy-cp1500/": {
 "d": "2026-10-16",
@@ -167,6 +299,10 @@
 "d": "2026-10-16",
 "h": "9f5421565de3"
 },
+"imprimante/canon-zoemini-2/": {
+"d": "2026-10-20",
+"h": "b676a6093e06"
+},
 "imprimante/epson-ecotank-et-2856/": {
 "d": "2026-10-16",
 "h": "fc6ff70657f6"
@@ -175,17 +311,73 @@
 "d": "2026-10-16",
 "h": "83131b5c77fa"
 },
+"imprimante/epson-ecotank-et-2876/": {
+"d": "2026-10-20",
+"h": "3d33e5ab9b3c"
+},
+"imprimante/epson-ecotank-et-2951/": {
+"d": "2026-10-20",
+"h": "3289fe4314ed"
+},
+"imprimante/epson-ecotank-et-3950/": {
+"d": "2026-10-20",
+"h": "50e2c188ce4c"
+},
 "imprimante/epson-ecotank-et-4856/": {
 "d": "2026-10-16",
 "h": "cb7c96ec7bf6"
+},
+"imprimante/epson-ecotank-et-4900/": {
+"d": "2026-10-20",
+"h": "6f41613db692"
+},
+"imprimante/epson-ecotank-et-4956/": {
+"d": "2026-10-20",
+"h": "08aa031cfafd"
+},
+"imprimante/epson-ecotank-photo-et-8500/": {
+"d": "2026-10-20",
+"h": "1ecb6e239ed5"
 },
 "imprimante/epson-ecotank-photo-et-8550/": {
 "d": "2026-10-16",
 "h": "d0d6a08d7913"
 },
+"imprimante/epson-expression-home-xp-2200/": {
+"d": "2026-10-20",
+"h": "bd2ca171c0c3"
+},
+"imprimante/epson-expression-home-xp-3205/": {
+"d": "2026-10-20",
+"h": "6e2f7a480f87"
+},
+"imprimante/epson-workforce-wf-2930dwf/": {
+"d": "2026-10-20",
+"h": "b8b7bd4d01a2"
+},
 "imprimante/fujifilm-instax-link-wide/": {
 "d": "2026-10-16",
 "h": "c1a7e601d6d9"
+},
+"imprimante/fujifilm-instax-mini-link-3/": {
+"d": "2026-10-20",
+"h": "e59ef290bcec"
+},
+"imprimante/hp-color-laserjet-pro-mfp-3302sdw/": {
+"d": "2026-10-20",
+"h": "c1327b5da1ae"
+},
+"imprimante/hp-deskjet-2921e/": {
+"d": "2026-10-20",
+"h": "abf5ad922b24"
+},
+"imprimante/hp-envy-6132e/": {
+"d": "2026-10-20",
+"h": "df9acdc65123"
+},
+"imprimante/hp-laserjet-m234dw/": {
+"d": "2026-10-20",
+"h": "04b49f18c4b7"
 },
 "imprimante/hp-sprocket-2x3/": {
 "d": "2026-10-16",
@@ -243,6 +435,10 @@
 "d": "2026-10-16",
 "h": "6e60910c7ce5"
 },
+"ordinateur-de-bureau/alienware-area-51/": {
+"d": "2026-10-20",
+"h": "f442d432634d"
+},
 "ordinateur-de-bureau/apple-imac-24-m4/": {
 "d": "2026-10-16",
 "h": "d89c11164721"
@@ -258,6 +454,10 @@
 "ordinateur-de-bureau/apple-mac-studio-m5-max/": {
 "d": "2026-10-16",
 "h": "2c3cd1e30589"
+},
+"ordinateur-de-bureau/asus-v500/": {
+"d": "2026-10-20",
+"h": "ea93c863db4b"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
 "d": "2026-10-16",
@@ -282,6 +482,10 @@
 "ordinateur-de-bureau/geekom-a5/": {
 "d": "2026-10-16",
 "h": "caf7e2f16ba0"
+},
+"ordinateur-de-bureau/geekom-a6/": {
+"d": "2026-10-20",
+"h": "cab85cd6eb2f"
 },
 "ordinateur-de-bureau/geekom-a7/": {
 "d": "2026-10-16",
@@ -334,6 +538,10 @@
 "ordinateur-de-bureau/hp-omen-35l/": {
 "d": "2026-10-16",
 "h": "6af0a7e8a358"
+},
+"ordinateur-de-bureau/hp-omnistudio-x-31-5/": {
+"d": "2026-10-20",
+"h": "740e9a81d67c"
 },
 "ordinateur-de-bureau/hp-z2-mini-g1a/": {
 "d": "2026-10-16",

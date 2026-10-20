@@ -464,9 +464,11 @@ def og_pour(path):
 
 
 def indexable(d):
-    """Fiche produit indexable seulement si la note presse repose sur au moins 2 notes chiffrées (audit SEO du 10/10/2026).
-    Les autres restent en ligne et dans les classements, mais en noindex,follow et hors sitemap."""
-    return bool(d["press"]) and d["press"]["n"] >= 2
+    """Fiche produit indexable si elle repose sur au moins 2 notes chiffrées OU au moins 2 tests presse recensés,
+    même sans note publique (décision du 20/10/2026, après l'audit SEO du 10/10/2026 : ces fiches apportaient 43 % des clics Google).
+    Les fiches à un seul test restent en ligne et dans les classements, mais en noindex,follow et hors sitemap.
+    L'affichage ne change pas : pastilles « 1 seul test noté », « testé, sans note », fin de classement."""
+    return (bool(d["press"]) and d["press"]["n"] >= 2) or d["tests"]["tests"] >= 2
 
 
 # ---------------------------------------------------------------- Vitesse d'affichage (audit SEO du 10/10/2026)
