@@ -1,3 +1,38 @@
+// main11.js (v11, 20/10/2026) : main10.js + mesure des clics marchands + barre d'achat fixe sur mobile.
+(function(){
+  // Mesure des clics vers les marchands : un signal sans cookie ni identifiant vers /api/clic (functions/api/clic.js).
+  // Le lien reste un lien direct vers le marchand : rien n'est redirigé.
+  var M=[[/amazon\./,'Amazon'],[/effiliation\.com|electrodepot\./,'Electro Dépôt'],[/darty\./,'Darty'],[/acer\./,'Acer Store'],[/geekom/,'Geekom'],[/fnac\./,'Fnac']];
+  function marchand(h){for(var i=0;i<M.length;i++){if(M[i][0].test(h)) return M[i][1];} return null;}
+  function signal(e){
+    if(e.type==='auxclick'&&e.button!==1) return;
+    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a||a.host===location.host) return;
+    var m=marchand(a.hostname+a.pathname); if(!m) return;
+    var z=a.closest('[data-z]'), f=a.closest('[data-pid]');
+    var d={p:location.pathname,m:m,id:f?f.getAttribute('data-pid'):'',z:z?z.getAttribute('data-z'):'autre',
+           a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi'};
+    try{ if(navigator.sendBeacon) navigator.sendBeacon('/api/clic',new Blob([JSON.stringify(d)],{type:'text/plain'})); }catch(x){}
+  }
+  document.addEventListener('click',signal,true);
+  document.addEventListener('auxclick',signal,true);
+})();
+
+(function(){
+  // Barre d'achat fixe (fiche produit, mobile) : visible une fois le bloc d'achat dépassé, masquée sur la section des offres.
+  var bar=document.getElementById('buyBar'), box=document.getElementById('buyBox');
+  if(!bar||!box||!('IntersectionObserver' in window)) return;
+  var vis={box:true,prix:false,pied:false};
+  var links=bar.querySelectorAll('a');
+  function maj(){
+    var on=!vis.box&&!vis.prix&&!vis.pied&&box.getBoundingClientRect().top<0;
+    bar.classList.toggle('on',on); document.body.classList.toggle('bar-on',on);
+    bar.setAttribute('aria-hidden',on?'false':'true');
+    for(var i=0;i<links.length;i++){ if(on) links[i].removeAttribute('tabindex'); else links[i].setAttribute('tabindex','-1'); }
+  }
+  function obs(el,k,marge){ if(!el) return; new IntersectionObserver(function(es){ vis[k]=es[0].isIntersecting; maj(); },marge?{rootMargin:marge}:undefined).observe(el); }
+  obs(box,'box'); obs(document.querySelector('#prix .p-offers'),'prix','-35% 0px -35% 0px'); obs(document.querySelector('footer'),'pied');
+})();
+
 (function(){
   try{
     var btn=document.getElementById('navToggle'), nav=document.getElementById('topnav');
@@ -13,6 +48,7 @@
 
   function select(id,opts){
     var d=L[id]; if(!d) return;
+    card.setAttribute('data-pid',id);
     $('detailName').textContent=d.short;
     $('detailRef').textContent=d.ref;
     var p=$('detailPress');
