@@ -133,16 +133,6 @@ def cta_txt(o):
 CARTE_N1 = False
 
 
-def buy_btn(o, i):
-    """Bouton marchand du bloc d'achat (fiche produit v11) : le premier en couleur, les suivants en contour.
-    Prix affiché seulement pour les marchands à prix exact (Electro Dépôt) ; sinon « Voir le prix »."""
-    dt = date_releve(o) if prix_exact(o) else ""
-    sub = " · ".join(x for x in (E(o.get("cfg") or ""), f"prix du {dt}" if dt else "") if x)
-    right = f'{euro2(o["price"])} →' if prix_exact(o) else "Voir le prix →"
-    return (f'<a class="p-b{" p-b1" if i == 0 else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
-            f'<span class="p-b-m"><b>{E(o["m"])}</b>{f"<small>{sub}</small>" if sub else ""}</span><span class="p-b-go">{right}</span></a>')
-
-
 def rel_m(m):
     """rel d'un lien marchand : « sponsored » réservé aux liens réellement rémunérés."""
     return "nofollow sponsored noopener" if m in AFFILIATED else "nofollow noopener"
@@ -1059,7 +1049,8 @@ def product_page(fam, c, rank, d, items):
     faq_html = "".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{q}</summary><p>{a}</p></details>' for i, (q, a) in enumerate(faq))
 
     # --- bloc d'achat du haut de page (v11, 20/10/2026) : visible dès le premier écran sur mobile, un bouton par marchand
-    buy_btns = "".join(buy_btn(o, i) for i, o in enumerate(d["offers"]))
+    # v11b (20/10/2026) : bloc discret — prix, un seul bouton (le premier marchand), les autres en simples liens texte
+    autres = " · ".join(f'<a href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}">{E(o["m"])}</a>' for o in d["offers"][1:])
     top1 = ""
     if CARTE_N1 and rank > 1:
         t = items[0]
@@ -1088,9 +1079,9 @@ def product_page(fam, c, rank, d, items):
       {f'<div class="f-photo"><img src="{root}assets/img/p/{d["img"]}" alt="{name}" width="560" height="420" fetchpriority="high"></div>' if d['img'] else ''}
       <div class="press-big">{press_big(d)}</div>
       <div class="p-buy" id="buyBox" data-z="haut" data-pid="{d['id']}">
-        <div class="p-buy-h"><span class="p-buy-k">Où l&#39;acheter</span><span class="p-buy-p"><b>{d['price_txt']}</b><small>{"le plus bas constaté" if len(d["offers"]) > 1 else "prix indicatif"} · {pdate(fam)}</small></span></div>
-        {buy_btns}
-        {'<p class="p-buy-n">Liens affiliés : sans surcoût pour vous, sans effet sur le classement. <a href="#prix">Détail des offres</a></p>' if any(o["m"] in AFFILIATED for o in d["offers"]) else '<p class="p-buy-n"><a href="#prix">Détail des offres</a></p>'}
+        <div class="pick-price"><b>{d['price_txt']}</b><span>{"le plus bas constaté" if len(d["offers"]) > 1 else "prix indicatif"} · {pdate(fam)}</span></div>
+        <a class="cta big buy" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a>
+        <p class="p-buy-n">{f'Aussi chez {autres} · ' if autres else ''}<a href="#prix">toutes les offres</a></p>
       </div>
     </div>
   </section>

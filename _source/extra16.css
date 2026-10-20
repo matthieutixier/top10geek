@@ -1,23 +1,10 @@
 /* extra16.css — fiche produit v11 (20/10/2026) : bloc d'achat dans le premier écran, carte « le n° 1 », barre d'achat fixe sur mobile */
 
-  /* Bloc d'achat */
-  .p-buy{display:flex;flex-direction:column;gap:10px;background:#fff;border:2.5px solid var(--ink);border-radius:16px;padding:14px;box-shadow:0 4px 0 var(--ink);}
-  .p-buy-h{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;}
-  .p-buy-k{font-family:"IBM Plex Mono",monospace;font-size:0.68rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-muted);padding-bottom:3px;}
-  .p-buy-p{display:flex;flex-direction:column;align-items:flex-end;text-align:right;}
-  .p-buy-p b{font-family:"IBM Plex Mono",monospace;font-size:1.4rem;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums;}
-  .p-buy-p small{font-family:"IBM Plex Mono",monospace;font-size:0.6rem;letter-spacing:0.04em;text-transform:uppercase;color:var(--ink-muted);}
-  .p-b{display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:52px;padding:8px 14px;border:2px solid var(--ink);border-radius:12px;background:#fff;color:var(--ink);text-decoration:none;transition:background .15s ease,color .15s ease;}
-  .p-b:hover{background:var(--ink);color:#fff;}
-  .p-b:focus-visible{outline:3px solid var(--highlight);outline-offset:2px;}
-  .p-b-m{display:flex;flex-direction:column;line-height:1.25;min-width:0;}
-  .p-b-m b{font-size:0.98rem;}
-  .p-b-m small{font-size:0.72rem;opacity:0.85;}
-  .p-b-go{font-family:"IBM Plex Mono",monospace;font-size:0.95rem;font-weight:700;white-space:nowrap;}
-  .p-b1{background:var(--accent);color:var(--accent-ink);box-shadow:0 3px 0 var(--ink);}
-  .p-b1:hover{background:var(--ink);box-shadow:0 3px 0 var(--accent);}
-  .p-buy-n{margin:0;font-size:0.72rem;line-height:1.4;color:var(--ink-muted);}
-  .p-buy-n a{color:var(--ink);text-decoration:underline;text-underline-offset:2px;}
+  /* Bloc d'achat (v11b) : discret, même style que l'ancien bouton ; les autres marchands en liens texte */
+  .p-buy{display:flex;flex-direction:column;gap:10px;}
+  .p-buy .cta{text-align:center;}
+  .p-buy-n{margin:0;font-size:0.8rem;line-height:1.45;color:var(--ink-muted);text-align:center;}
+  .p-buy-n a{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;}
 
   /* « Avant d'acheter : le n° 1 de ce top » */
   .p-top1{display:flex;align-items:center;gap:12px;max-width:34em;margin-top:20px;padding:12px 14px;border:2px dashed var(--ink);border-radius:14px;color:var(--ink);text-decoration:none;transition:background .15s ease;}
