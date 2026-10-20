@@ -1073,7 +1073,7 @@ def lf(t):
 
 
 def plus_verdict(d):
-    """Complément du verdict (v12, 20/10/2026) : points forts et réserve principale relevés par la presse (mêmes données que plus bas)."""
+    """[Retiré de la fiche le 20/10/2026 (v13) : doublon du consensus, conservé pour mémoire.] Complément du verdict (v12, 20/10/2026) : points forts et réserve principale relevés par la presse (mêmes données que plus bas)."""
     st = [lf(x.strip().rstrip(".")) for x in d["strengths"] if x.strip()]
     wk = [lf(x.strip().rstrip(".")) for x in d["weak"] if x.strip()]
     out = []
@@ -1203,7 +1203,6 @@ def product_page(fam, c, rank, d, items):
       </div>
       <div class="p-sum">
         <p class="p-verdict"><b>Le verdict.</b> {E(d['verdict'])}</p>
-        {plus_verdict(d)}
         <p class="p-rank">{rank_txt}.</p>
       </div>
       <div class="p-facts">
