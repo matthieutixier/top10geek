@@ -69,8 +69,8 @@
       [['o-m',o[0]],['o-c',o[3]||''],['o-go','Voir →']].forEach(function(x){var e=document.createElement('span');e.className=x[0];e.textContent=x[1];a.appendChild(e);});ob.appendChild(a);});
     fill($('detailStrengths'),d.strengths);
     fill($('detailWeak'),d.weak.length?d.weak:['Aucun défaut majeur relevé par la presse']);
-    $('detailCta').href=d.url; if(d.offers&&d.offers.length){ $('detailCta').rel=d.offers[0][4]?'nofollow sponsored noopener':'nofollow noopener'; $('detailCta').textContent='Voir chez '+d.offers[0][0]+' →'; }
-    $('detailMore').href=DATA.root+d.purl;
+    var mo=$('detailMore'); mo.href=DATA.root+d.purl;
+    var mn=$('detailMoreN'); if(mn) mn.textContent=d.ntests+' test'+(d.ntests>1?'s':'')+' presse'+(d.press?' · '+d.press.n+' note'+(d.press.n>1?'s':''):'');
     if(chart) chart.querySelectorAll('.bubble').forEach(function(c){c.classList.toggle('selected',c.getAttribute('data-id')===id);});
     if(!(opts&&opts.skipScroll)){ card.scrollIntoView({behavior:'smooth',block:window.innerWidth<=900?'start':'nearest'}); }
   }
