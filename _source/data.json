@@ -18710,44 +18710,43 @@
    "rating": null,
    "nrev": 0
   },
-  "epson-xp-3205": {
+  "hp-officejet-pro-8124e": {
    "cat": "i-lowcost",
-   "short": "Epson Expression Home XP-3205",
-   "ref": "Multifonction A4 · recto-verso · Wi-Fi",
-   "badge": "La compacte recto-verso",
-   "verdict": "Une multifonction compacte avec recto-verso automatique et quatre cartouches séparées, testée par Which? et Tænk.",
+   "short": "HP OfficeJet Pro 8124e",
+   "ref": "Multifonction A4 · recto-verso · chargeur · Wi-Fi",
+   "badge": "La multifonction à chargeur",
+   "verdict": "Une multifonction jet d'encre avec recto-verso automatique, chargeur de documents et écran tactile, testée en laboratoire par Que Choisir, Test-Achats et Tænk.",
    "strengths": [
     "Recto-verso automatique",
-    "Quatre cartouches séparées : on ne change que la couleur vide",
-    "Wi-Fi et Wi-Fi Direct"
+    "Chargeur de documents et écran tactile",
+    "Wi-Fi, Wi-Fi Direct et Ethernet"
    ],
    "weak": [
-    "Lente en couleur (5 pages/min)",
-    "Pas de chargeur de documents",
+    "Pas de fax, pas de numérisation recto-verso",
+    "Encombrante : 8,1 kg",
     "Testée sans note publique"
    ],
    "m": [
     "Jet d'encre (cartouches)",
     "Impression · copie · scan"
    ],
-   "id": "epson-xp-3205",
+   "id": "hp-officejet-pro-8124e",
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 59.98,
-     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-3205.html",
-     "name": "Imprimante Epson Xp-3205 Multifonction 3 En 1",
+     "price": 119.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-oj-pro-8124e.html",
+     "name": "Imprimante Multifonction Hp Oj Pro 8124e eligible Instant Ink",
      "cfg": "",
-     "ean": "8715946702759",
-     "edid": "10006180",
-     "releve": "2026-10-23",
-     "dispo": false
+     "ean": "0197029469199",
+     "edid": "993267",
+     "releve": "2026-10-23"
     }
    ],
    "press": {
     "avg": null,
     "n": 0,
-    "tests": 2,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
@@ -18755,22 +18754,29 @@
     ],
     "notes": [
      {
-      "src": "Tænk",
+      "src": "Que Choisir",
       "score": null,
-      "url": "https://taenk.dk/test/printere/epson-expression-home-xp-3205",
+      "url": "https://www.quechoisir.org/comparatif-imprimante-multifonction-n19/hp-officejet-pro-8124e-p276754/",
+      "date": "2024-12-20",
+      "verifie": "23/10/2026"
+     },
+     {
+      "src": "Test-Achats",
+      "score": null,
+      "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-officejet-pro-8124e/16/105097",
       "date": ""
      },
      {
-      "src": "Which?",
+      "src": "Tænk",
       "score": null,
-      "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-expression-home-xp-3205",
+      "url": "https://taenk.dk/test/printere/hp-officejet-pro-8124e",
       "date": ""
      }
     ],
-    "releve_source": "16/10/2026"
+    "releve_source": "23/10/2026"
    },
-   "prix": 59.98,
-   "img": "epson-xp-3205.webp",
+   "prix": 119.98,
+   "img": "hp-officejet-pro-8124e.webp",
    "rating": null,
    "nrev": 0
   },

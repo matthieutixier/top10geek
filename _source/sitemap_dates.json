@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-10-23",
-"h": "c6b26f72f666"
+"h": "de909d98a80c"
 },
 "a-propos": {
 "d": "2026-10-23",
@@ -213,11 +213,11 @@
 },
 "imprimante/": {
 "d": "2026-10-23",
-"h": "b3c66181bf3a"
+"h": "ae0d7dc319c1"
 },
 "imprimante/brother-dcp-j1360dw/": {
 "d": "2026-10-23",
-"h": "99b6eb15f113"
+"h": "4555a9b08092"
 },
 "imprimante/brother-dcp-l1642w/": {
 "d": "2026-10-23",
@@ -277,19 +277,19 @@
 },
 "imprimante/canon-pixma-tr4755i/": {
 "d": "2026-10-23",
-"h": "058f631d1255"
+"h": "e119c97f7b2f"
 },
 "imprimante/canon-pixma-ts4151i/": {
 "d": "2026-10-23",
-"h": "c4be60156e3f"
+"h": "9c001123d0ea"
 },
 "imprimante/canon-pixma-ts6550i/": {
 "d": "2026-10-23",
-"h": "636b69b082c9"
+"h": "274763da1106"
 },
 "imprimante/canon-pixma-ts7550i/": {
 "d": "2026-10-23",
-"h": "99ec19596e4e"
+"h": "34fbf34c6df7"
 },
 "imprimante/canon-selphy-cp1500/": {
 "d": "2026-10-23",
@@ -345,15 +345,11 @@
 },
 "imprimante/epson-expression-home-xp-2200/": {
 "d": "2026-10-23",
-"h": "b66b8ad841c1"
-},
-"imprimante/epson-expression-home-xp-3205/": {
-"d": "2026-10-23",
-"h": "e2da91f452d9"
+"h": "2bf567be0080"
 },
 "imprimante/epson-workforce-wf-2930dwf/": {
 "d": "2026-10-23",
-"h": "3f852d65a431"
+"h": "6a9cdbd536da"
 },
 "imprimante/fujifilm-instax-link-wide/": {
 "d": "2026-10-23",
@@ -369,15 +365,19 @@
 },
 "imprimante/hp-deskjet-2921e/": {
 "d": "2026-10-23",
-"h": "c119bdc73715"
+"h": "5053dabec4ac"
 },
 "imprimante/hp-envy-6132e/": {
 "d": "2026-10-23",
-"h": "c9214467074f"
+"h": "a034f5062931"
 },
 "imprimante/hp-laserjet-m234dw/": {
 "d": "2026-10-23",
 "h": "323cd4f731f4"
+},
+"imprimante/hp-officejet-pro-8124e/": {
+"d": "2026-10-23",
+"h": "75bb17069d5b"
 },
 "imprimante/hp-sprocket-2x3/": {
 "d": "2026-10-23",
@@ -397,7 +397,7 @@
 },
 "imprimante/petit-prix/": {
 "d": "2026-10-23",
-"h": "54503f51045d"
+"h": "75f78a496ba6"
 },
 "imprimante/photo/": {
 "d": "2026-10-23",
@@ -417,7 +417,7 @@
 },
 "methode": {
 "d": "2026-10-23",
-"h": "6c4951effc25"
+"h": "e21cc1aadd01"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-10-23",

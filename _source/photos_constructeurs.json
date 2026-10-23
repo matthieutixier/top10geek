@@ -608,11 +608,6 @@
   "source": "https://images.icecat.biz/img/gallery/d449a580da695c283e224ecc95b1707c6caac8fd.jpg",
   "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
  },
- "epson-xp-3205": {
-  "constructeur": "Epson",
-  "source": "https://images.icecat.biz/img/gallery/c43d2d79b171f5868e034184957f56f8d31f21da.jpg",
-  "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
- },
  "hp-color-laserjet-pro-3302sdw": {
   "constructeur": "HP",
   "source": "https://images.icecat.biz/img/gallery/a7b276f86496c7680132c938d61e05eeaf8d27c7.jpg",
@@ -642,5 +637,10 @@
   "constructeur": "Lenovo",
   "source": "https://images.icecat.biz/img/gallery/e44e7a5841dbd5fc7d2c5d6b7cb1d616f6ca6788.jpg",
   "note": "photo ajoutée le 12/10/2026 — via le catalogue ouvert Icecat (visuel constructeur sans texte publicitaire)"
+ },
+ "hp-officejet-pro-8124e": {
+  "constructeur": "HP",
+  "source": "https://images.icecat.biz/img/gallery/387806ba94352bd23d085665773f60d38771b089.jpg",
+  "note": "photo ajoutée le 23/10/2026 — via le catalogue ouvert Icecat (visuel constructeur, vue avant droite sans texte publicitaire)"
  }
 }
