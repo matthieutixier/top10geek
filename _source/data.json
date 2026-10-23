@@ -3115,7 +3115,7 @@
    "press": {
     "avg": 9.040000000000001,
     "n": 5,
-    "tests": 6,
+    "tests": 7,
     "scope": "gamme",
     "src": [
      "",
@@ -3163,6 +3163,13 @@
       "score": null,
       "url": "https://www.techradar.com/tablets/ipad-air/apple-macbook-air-15-inch-m4-review-roundup-should-you-buy-apples-new-lightweight-laptop",
       "date": "2025-03-27"
+     },
+     {
+      "src": "Tom's Guide",
+      "score": null,
+      "url": "https://www.tomsguide.com/computing/macbooks/macbook-air-m5-review",
+      "date": "2026-03-09",
+      "ajout": "23/10/2026"
      }
     ],
     "src_initiale": [
@@ -6357,7 +6364,7 @@
    "press": {
     "avg": 7.666666666666667,
     "n": 9,
-    "tests": 9,
+    "tests": 10,
     "scope": "gamme",
     "src": [
      "",
@@ -6434,6 +6441,13 @@
       "url": "https://www.tomsguide.com/computing/laptops/acer-aspire-go-15-2025-review",
       "date": "2026-03-20",
       "verifie": "23/10/2026"
+     },
+     {
+      "src": "Expert Reviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/technology/laptops/acer-aspire-go-15-review",
+      "date": "2026-02-10",
+      "ajout": "23/10/2026"
      }
     ],
     "src_initiale": [
