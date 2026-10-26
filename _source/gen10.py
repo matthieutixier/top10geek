@@ -20,7 +20,7 @@ from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main13.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -840,6 +840,63 @@ RANK_RULE = ("<p class=\"rank-rule\"><b>Comment ce classement est établi.</b> E
              "<a href=\"{root}methode#classement\">Détail de la méthode</a>.</p>")
 
 
+# Pages usage à titre, H1 et réponse en tête dédiés (rapport hebdo du 26/10/2026, préconisations 2 et 4 :
+# « meilleur pc tout-en-un » en place 7 sans visite, /imprimante/photo/ 84 apparitions en place 64).
+USAGE_SEO = {
+    "d-aio": dict(title="Meilleur PC tout-en-un 2026 : le top 10 des tests | Top 10 Geek",
+                  desc="Quel est le meilleur PC tout-en-un en 2026 ? 10 ordinateurs tout-en-un classés par note presse, avec prix indicatif, points forts et points faibles.",
+                  h1='Meilleur PC <span class="flash">tout-en-un</span> 2026 : le top 10'),
+    "i-photo": dict(title="Meilleure imprimante photo 2026 : le top 10 des tests | Top 10 Geek",
+                    desc="Quelle est la meilleure imprimante photo en 2026 ? 10 modèles classés par note presse, de l'imprimante de poche à l'A3+, avec prix indicatif et points faibles.",
+                    h1='Meilleure <span class="flash">imprimante photo</span> 2026 : le top 10'),
+}
+
+
+def _lien(d, root):
+    return f'<a href="{root}{d["purl"]}">{E(d["short"])}</a>'
+
+
+def _note(d):
+    pr = d["press"]
+    if pr:
+        return f'{fr(pr["avg"])}/10 sur {pr["n"]} note{"s" if pr["n"] > 1 else ""}, {d["price_txt"].replace(" ", "\u00a0")}'
+    t = d["tests"]["tests"]
+    return f'{t} test{"s" if t > 1 else ""} sans note chiffrée, {d["price_txt"].replace(" ", "\u00a0")}'
+
+
+def reponse_usage(c, items, root):
+    """Réponse directe en tête de page, calculée sur le classement (rien d'écrit à la main sur les produits)."""
+    if c["key"] == "d-aio":
+        a = items[0]
+        out = [f'selon la presse, le meilleur PC tout-en-un est l\'{_lien(a, root)} ({_note(a)}).' if a["short"].startswith("Apple")
+               else f'selon la presse, le meilleur PC tout-en-un est le {_lien(a, root)} ({_note(a)}).']
+        vus = [a]
+        if a["short"].startswith("Apple"):
+            w = next((d for d in items if not d["short"].startswith("Apple")), None)
+            if w:
+                out.append(f'Sous Windows : {_lien(w, root)} ({_note(w)}).')
+                vus.append(w)
+        ch = min(items, key=lambda d: d["p"])
+        if ch not in vus:
+            out.append(f'Le moins cher de la sélection : {_lien(ch, root)} ({_note(ch)}).')
+    elif c["key"] == "i-photo":
+        grp = [("Pour des tirages de poche (papier Zink ou film Instax)", r"poche|instantan"),
+               ("En 10 × 15", r"10 × 15"), ("En A4 ou A3+", r"A4|A3")]
+        out = []
+        for lab, rx in grp:
+            d = next((x for x in items if re.search(rx, x["ref"], re.I)), None)
+            if d:
+                out.append(f'{lab} : {_lien(d, root)} ({_note(d)}).')
+        if not out:
+            return ""
+        out[0] = out[0][0].lower() + out[0][1:]
+        out.append("Le coût par photo dépend surtout du consommable : papier Zink ou film Instax pour les modèles de poche, "
+                   "cartouche et papier vendus ensemble pour la sublimation, encre en cartouches ou en réservoirs pour l'A4 et l'A3+.")
+    else:
+        return ""
+    return f'<p class="answer"><b>En bref :</b> {" ".join(out)}</p>'
+
+
 def usage_page(fam, c):
     root = "../../"
     items = by_cat[c["key"]]
@@ -901,8 +958,9 @@ def usage_page(fam, c):
   <section class="usage-hero">
     <div>
       <div class="eyebrow">{c['tag'].upper()} · MAJ {maj(fam)}</div>
-      <h1>{c['h1']}</h1>
+      <h1>{USAGE_SEO.get(c['key'], c)['h1']}</h1>
       <p>{c['intro']}</p>
+      {reponse_usage(c, items, root)}
       {byline(root)}
       <p class="hero-links"><a href="#top10">Voir le classement complet ↓</a> · <a href="#guide">Lire le guide d'achat</a></p>
       <div class="spec-row">
@@ -950,6 +1008,8 @@ def usage_page(fam, c):
                .replace("réservoirs d'encre", "à réservoirs d'encre").replace(" & télétravail", ""))
         title = fam["usage_title"].format(label=lab)
         desc = fam["usage_desc"].format(label=lab)
+    if c["key"] in USAGE_SEO:
+        title, desc = USAGE_SEO[c["key"]]["title"], USAGE_SEO[c["key"]]["desc"]
     write(f"{fam['slug']}/{c['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/{c['slug']}/", body, fam["slug"], js_data(items, root, items[0]["id"]),
           ld=[ld_crumbs(("Accueil", ""), (fam["plural"], f"{fam['slug']}/"), (c["label"], f"{fam['slug']}/{c['slug']}/")),
               ld_page(f"{fam['slug']}/{c['slug']}/", title), PERSON,
