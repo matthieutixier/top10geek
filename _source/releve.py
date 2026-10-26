@@ -316,9 +316,10 @@ def main():
     total = len(offres)
     only = [m.strip().lower() for m in a.only.split(",")] if a.only else None
     cible = [x for x in offres if not only or x[2]["m"].lower() in only]
-    # Electro Dépôt : jamais lu par le navigateur (le lien stocké est un lien de suivi Effinity : le charger
-    # compterait un faux clic). Ses prix et sa disponibilité viendront du flux produits Effinity.
-    cible = [x for x in cible if x[2]["m"] != "Electro Dépôt"]
+    # Electro Dépôt et PC-Portable.net : jamais lus par le navigateur (le lien stocké est un lien de suivi Effinity :
+    # le charger compterait un faux clic). Leurs prix et leur disponibilité viennent des flux produits Effinity
+    # (effinity.py et pcportable.py).
+    cible = [x for x in cible if x[2]["m"] not in ("Electro Dépôt", "PC-Portable.net")]
     if a.famille:
         cible = [x for x in cible if FAMILLES[a.famille](d["items"][x[0]]["cat"])]
     manuel = None
