@@ -18,9 +18,10 @@ from familles_new import ECATS, ICATS, FAMILIES_NEW, FAQ_E, FAQ_I
 from guides_new import GUIDES_NEW
 from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
-PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items())})
+from catalog_reconditionnes import RECO, GUIDE_RECO
+PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main13.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -49,7 +50,7 @@ def ind_txt(fam):
 BASELINE = "Tous les tests high-tech, résumés pour vous"
 AMAZON_MENTION = "En tant que Partenaire Amazon, je réalise un bénéfice sur les achats remplissant les conditions requises."
 E = html.escape
-GUIDES_ALL = dict(GUIDES, **GUIDES_DESK, **GUIDES_NEW)
+GUIDES_ALL = dict(GUIDES, **GUIDES_DESK, **GUIDES_NEW, reconditionne=GUIDE_RECO)
 
 LCATS = [
     dict(key="bureau", slug="bureautique", label="Bureautique", h="Bureautique &amp; mobilité", tag="Autonomie avant tout", color="var(--cat-bureau)", cls="f-bureau", badge="bureautique",
@@ -67,6 +68,10 @@ LCATS = [
     dict(key="lowcost", slug="lowcost", label="Low-cost", h="Low-cost (&lt; 500 €)", tag="Prix cassé, compromis assumés", color="var(--cat-lowcost)", cls="f-lowcost", badge="lowcost",
          h1='Les 10 meilleurs PC portables <span class="flash">à moins de 500 €</span>',
          intro="Sous les 500 €, chaque euro compte double. La presse teste peu ces machines : nous affichons le nombre de tests derrière chaque note pour que vous sachiez à quoi vous fier."),
+    # Rubrique ajoutée le 26/10/2026 (PC-Portable.net, Effinity) : 10 PC professionnels reconditionnés, notes du modèle neuf à sa sortie.
+    dict(key="reconditionne", slug="reconditionnes", label="Reconditionnés", h="Reconditionnés", tag="Le PC pro d'hier au prix d'aujourd'hui", color="var(--cat-reco)", cls="f-reco", badge="reconditionne",
+         h1='Les 10 meilleurs <span class="flash">PC portables reconditionnés</span>',
+         intro="Des PC professionnels (Dell Latitude, Lenovo ThinkPad, HP EliteBook) revendus reconditionnés par PC-Portable.net, souvent sous 400 €. Attention : les notes de la presse portent sur le modèle neuf à sa sortie, pas sur l'exemplaire reconditionné que vous recevrez. L'état, la garantie et la batterie se vérifient chez le vendeur."),
 ]
 DH1 = {"d-bureau": 'Les 10 meilleurs ordinateurs de bureau pour la <span class="flash">bureautique</span>',
        "d-creation": 'Les 10 meilleurs ordinateurs de bureau pour la <span class="flash">création</span>',
@@ -80,7 +85,7 @@ FAMILIES = [
     dict(key="laptop", slug="pc-portable", label="PC portable", plural="PC portables", cats=LCATS, provisional=False,
          m_labels=("Poids", "Autonomie"), col="Poids", mascot="mascotte-persona-v2", noun="PC portable", noun_det="le PC portable",
          h1='Comparatif PC portables 2026 : <span class="flash">le verdict par usage</span>',
-         intro="50 PC portables passés au crible, une note presse sur 10 tirée de centaines de tests, un prix indicatif, les liens vers les marchands et un top 10 pour chaque usage."),
+         intro="60 PC portables, neufs et reconditionnés, passés au crible : une note presse sur 10 tirée de centaines de tests, un prix indicatif, les liens vers les marchands et un top 10 pour chaque usage."),
     dict(key="desktop", slug="ordinateur-de-bureau", label="Ordinateur de bureau", plural="Ordinateurs de bureau", cats=DCATS, provisional=False,
          m_labels=("Format", "Processeur"), col="Format", mascot="pose-tour", noun="ordinateur de bureau", noun_det="l'ordinateur",
          h1='Comparatif ordinateurs de bureau 2026 : <span class="flash">tours, mini-PC et tout-en-un</span>',
@@ -95,17 +100,18 @@ FAM = {f["key"]: f for f in FAMILIES}
 BUDGETS = [("all", "Tous les prix", 0, 1e9), ("b1", "< 500 €", 0, 500), ("b2", "500 – 1 000 €", 500, 1000),
            ("b3", "1 000 – 1 500 €", 1000, 1500), ("b4", "1 500 – 2 000 €", 1500, 2000), ("b5", "> 2 000 €", 2000, 1e9)]
 MERCHANT_CLS = {"Amazon": "amazon", "Darty": "darty", "Fnac": "fnac", "Acer Store": "acer", "Geekom": "geekom",
-                "Electro Dépôt": "electrodepot"}
+                "Electro Dépôt": "electrodepot", "PC-Portable.net": "pcportable"}
 # Marchands dont le programme d'affiliation est validé (lien rémunéré). Les autres sont de simples liens directs.
 # À compléter à chaque validation (ex. Awin : "Darty", "Fnac", "Acer Store", "Geekom") : attributs rel et mentions suivent.
 # Ordre de la liste = ordre des boutons marchands : Electro Dépôt (Effinity, validé le 12/10/2026) d'abord, puis Amazon.
-AFFILIATED = ["Electro Dépôt", "Amazon"]
-AFF_TXT = " et ".join(sorted(AFFILIATED))
+AFFILIATED = ["Electro Dépôt", "PC-Portable.net", "Amazon"]   # PC-Portable.net : Effinity, validé en octobre 2026
+_aff = sorted(AFFILIATED)
+AFF_TXT = ", ".join(_aff[:-1]) + " et " + _aff[-1]
 
 
 # Marchands dont le prix exact est affiché (prix lu dans un flux officiel, avec sa date) : Electro Dépôt (flux
 # Effinity, effinity.py). Les autres marchands restent sans prix (comparateur en veille depuis le 05/10/2026).
-PRIX_EXACTS = {"Electro Dépôt"}
+PRIX_EXACTS = {"Electro Dépôt", "PC-Portable.net"}   # PC-Portable.net : flux Effinity, prix de la configuration indiquée
 
 
 def prix_exact(o):
@@ -123,6 +129,10 @@ def o_prix(o):
         return ""
     dt = date_releve(o)
     return f'<span class="o-p">{euro2(o["price"])}<small>{"prix du " + dt if dt else "prix relevé"}</small></span>'
+
+
+RECO_NOTE = ("Produit reconditionné (grade B) : l'état, la garantie et la batterie dépendent du vendeur, à vérifier sur sa fiche avant d'acheter. "
+             "Les tests presse portent sur le modèle neuf à sa sortie. Le prix est celui de la configuration indiquée (mémoire, stockage, système), à la date du relevé.")
 
 
 def cta_txt(o):
@@ -843,6 +853,9 @@ RANK_RULE = ("<p class=\"rank-rule\"><b>Comment ce classement est établi.</b> E
 # Pages usage à titre, H1 et réponse en tête dédiés (rapport hebdo du 26/10/2026, préconisations 2 et 4 :
 # « meilleur pc tout-en-un » en place 7 sans visite, /imprimante/photo/ 84 apparitions en place 64).
 USAGE_SEO = {
+    "reconditionne": dict(title="Meilleur PC portable reconditionné 2026 : le top 10 des tests | Top 10 Geek",
+                          desc="Quel PC portable reconditionné choisir ? 10 PC pros (Dell Latitude, ThinkPad, EliteBook) classés par tests presse du modèle, avec prix de la configuration vendue.",
+                          h1='Meilleur <span class="flash">PC portable reconditionné</span> 2026 : le top 10'),
     "d-aio": dict(title="Meilleur PC tout-en-un 2026 : le top 10 des tests | Top 10 Geek",
                   desc="Quel est le meilleur PC tout-en-un en 2026 ? 10 ordinateurs tout-en-un classés par note presse, avec prix indicatif, points forts et points faibles.",
                   h1='Meilleur PC <span class="flash">tout-en-un</span> 2026 : le top 10'),
@@ -892,6 +905,13 @@ def reponse_usage(c, items, root):
         out[0] = out[0][0].lower() + out[0][1:]
         out.append("Le coût par photo dépend surtout du consommable : papier Zink ou film Instax pour les modèles de poche, "
                    "cartouche et papier vendus ensemble pour la sublimation, encre en cartouches ou en réservoirs pour l'A4 et l'A3+.")
+    elif c["key"] == "reconditionne":
+        a = items[0]
+        out = [f'selon la presse, le mieux placé est le {_lien(a, root)} ({_note(a)}).']
+        ch = min(items, key=lambda d: d["p"])
+        if ch is not a:
+            out.append(f'Le moins cher de la sélection : {_lien(ch, root)} ({_note(ch)}).')
+        out.append("Les notes portent sur le modèle neuf à sa sortie ; le prix est celui de la configuration reconditionnée indiquée sur chaque fiche.")
     else:
         return ""
     return f'<p class="answer"><b>En bref :</b> {" ".join(out)}</p>'
@@ -929,7 +949,8 @@ def usage_page(fam, c):
         offs = "".join(
             f'<a class="offer m-{MERCHANT_CLS.get(o["m"], "x")}{" has-p" if prix_exact(o) else ""}" href="{E(o["url"])}" target="_blank" rel="{rel_m(o["m"])}" title="{E(o["name"])}">'
             f'<span class="o-m">{E(o["m"])}</span><span class="o-c">{E(o.get("cfg") or "")}</span>{o_prix(o)}<span class="o-go">Voir →</span></a>' for o in d["offers"])
-        offers_html = f'<div class="offers"><span class="k">Où l\'acheter</span>{offs}<p class="o-note">La configuration peut différer d\'un marchand à l\'autre : vérifiez la fiche avant d\'acheter.</p></div>'
+        onote = RECO_NOTE if d["cat"] == "reconditionne" else "La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter."
+        offers_html = f'<div class="offers"><span class="k">Où l\'acheter</span>{offs}<p class="o-note">{onote}</p></div>'
         rating = f'{fr(d["r"])} ★ <small>({d["nrev"]})</small>' if d["r"] > 0 else ""
         rank_lbl = "NOTRE CHOIX" if i == 1 else f"SUR {n}"
         photo = (f'<a class="f-photo" href="{E(d["url"])}" target="_blank" rel="{rel_m(d["offers"][0]["m"])}"><img src="../../assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="560" height="420" loading="lazy"></a>' if d["img"] else "")
@@ -1208,6 +1229,8 @@ def product_page(fam, c, rank, d, items):
     usage_url = f"{root}{fam['slug']}/{c['slug']}/"
     rank_txt = (f'<b>Notre choix</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>' if rank == 1
                 else f'<b>N° {rank} sur {n_items}</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>')
+    if d["cat"] == "reconditionne":
+        rank_txt += ' · <span class="reco-tag">Reconditionné, grade B</span>'
 
     # --- FAQ (réponses tirées des données affichées plus haut)
     marchands = [o["m"] for o in d["offers"]]
@@ -1311,7 +1334,7 @@ def product_page(fam, c, rank, d, items):
   <section class="section p-sec" id="prix">
     <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {ind_txt(fam)}</div></div>
     <div class="p-buywrap">
-    <div class="offers p-offers" data-z="offres" data-pid="{d['id']}">{offs}<p class="o-note">La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter. Le prix Electro Dépôt est celui de son flux produits officiel à la date indiquée ; seul le prix affiché par le marchand fait foi. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
+    <div class="offers p-offers" data-z="offres" data-pid="{d['id']}">{offs}<p class="o-note">{RECO_NOTE if d["cat"] == "reconditionne" else "La configuration peut différer d'un marchand à l'autre : vérifiez la fiche avant d'acheter."} Les prix Electro Dépôt et PC-Portable.net sont ceux de leur flux produits officiel à la date indiquée ; seul le prix affiché par le marchand fait foi. Seuls les liens {AFF_TXT} sont affiliés à ce jour ; les autres sont de simples liens directs. Aucun n'influence les notes ni le classement.</p></div>
     <aside class="p-specs v12">{specs}</aside>
     </div>
   </section>
@@ -1472,7 +1495,7 @@ home = f"""
     <div class="section-head"><h2>Les champions du moment</h2><div class="tag">Les mieux notés par la presse, par usage</div></div>
     <div class="family-row">
       <div class="fr-head"><h3>PC portables</h3><a class="see-all" href="pc-portable/">Tout le comparatif →</a></div>
-      <p class="champ-hint">← Faites glisser pour voir les 5 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'laptop')}</div>
+      <p class="champ-hint">← Faites glisser pour voir les 6 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'laptop')}</div>
     </div>
     <div class="family-row">
       <div class="fr-head"><h3>Ordinateurs de bureau</h3><a class="see-all" href="ordinateur-de-bureau/">Tout le comparatif →</a></div>
