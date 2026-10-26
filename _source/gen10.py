@@ -71,7 +71,7 @@ LCATS = [
     # Rubrique ajoutée le 26/10/2026 (PC-Portable.net, Effinity) : 10 PC professionnels reconditionnés, notes du modèle neuf à sa sortie.
     dict(key="reconditionne", slug="reconditionnes", label="Reconditionnés", h="Reconditionnés", tag="Le PC pro d'hier au prix d'aujourd'hui", color="var(--cat-reco)", cls="f-reco", badge="reconditionne",
          h1='Les 10 meilleurs <span class="flash">PC portables reconditionnés</span>',
-         intro="Des PC professionnels (Dell Latitude, Lenovo ThinkPad, HP EliteBook) revendus reconditionnés par PC-Portable.net, souvent sous 400 €. Attention : les notes de la presse portent sur le modèle neuf à sa sortie, pas sur l'exemplaire reconditionné que vous recevrez. L'état, la garantie et la batterie se vérifient chez le vendeur."),
+         intro="Des PC professionnels (Dell Latitude, Lenovo ThinkPad, HP EliteBook) revendus reconditionnés par PC-Portable.net, contrôlés et garantis 2 ans, souvent sous 400 €. Attention : les notes de la presse portent sur le modèle neuf à sa sortie, pas sur l'exemplaire reconditionné que vous recevrez. L'état esthétique et la batterie varient d'un exemplaire à l'autre."),
 ]
 DH1 = {"d-bureau": 'Les 10 meilleurs ordinateurs de bureau pour la <span class="flash">bureautique</span>',
        "d-creation": 'Les 10 meilleurs ordinateurs de bureau pour la <span class="flash">création</span>',
@@ -131,7 +131,7 @@ def o_prix(o):
     return f'<span class="o-p">{euro2(o["price"])}<small>{"prix du " + dt if dt else "prix relevé"}</small></span>'
 
 
-RECO_NOTE = ("Produit reconditionné (grade B) : l'état, la garantie et la batterie dépendent du vendeur, à vérifier sur sa fiche avant d'acheter. "
+RECO_NOTE = ("Produit reconditionné (grade B), contrôlé et garanti 2 ans par PC-Portable.net (garantie annoncée par le vendeur, à vérifier sur sa fiche avant d'acheter). L'état esthétique et la batterie varient d'un exemplaire à l'autre. "
              "Les tests presse portent sur le modèle neuf à sa sortie. Le prix est celui de la configuration indiquée (mémoire, stockage, système), à la date du relevé.")
 
 
@@ -1230,7 +1230,7 @@ def product_page(fam, c, rank, d, items):
     rank_txt = (f'<b>Notre choix</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>' if rank == 1
                 else f'<b>N° {rank} sur {n_items}</b> dans le <a href="{usage_url}">top {n_items} {usage_txt}</a>')
     if d["cat"] == "reconditionne":
-        rank_txt += ' · <span class="reco-tag">Reconditionné, grade B</span>'
+        rank_txt += ' · <span class="reco-tag">Reconditionné, grade B · garanti 2 ans</span>'
 
     # --- FAQ (réponses tirées des données affichées plus haut)
     marchands = [o["m"] for o in d["offers"]]

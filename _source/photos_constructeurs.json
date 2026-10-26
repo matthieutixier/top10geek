@@ -642,5 +642,37 @@
   "constructeur": "HP",
   "source": "https://images.icecat.biz/img/gallery/387806ba94352bd23d085665773f60d38771b089.jpg",
   "note": "photo ajoutée le 23/10/2026 — via le catalogue ouvert Icecat (visuel constructeur, vue avant droite sans texte publicitaire)"
+ },
+ "thinkpad-t490": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/8b8d37b21838e8a6cfa0ffebe40e32f779d8fb01.jpg"
+ },
+ "thinkpad-t480": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/25652f04abe8d67b5211f961dc57e236a026cd38.jpg"
+ },
+ "thinkpad-t14-gen1": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/7c5c924e12b0c52e5ea4f392b625e85cfe504495.jpg"
+ },
+ "thinkpad-x280": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/a803e398199cfba652fbb3d10fd7454c9541ba86.jpg"
+ },
+ "thinkpad-t470s": {
+  "constructeur": "Lenovo",
+  "source": "https://images.icecat.biz/img/gallery/1d4a760632d92153d111c1cccbf518a5e2eb3da0.jpg"
+ },
+ "latitude-7490": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/1947ab18706dfd70316a16db6b6f77178078550a.jpg"
+ },
+ "latitude-5420": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/b6afb85b8ed1b5f444804db413634e555ca8cfc3.jpg"
+ },
+ "latitude-5510": {
+  "constructeur": "Dell",
+  "source": "https://images.icecat.biz/img/gallery/d031407fec1106082dd574fe3b6a132bc7b90d22.jpg"
  }
 }

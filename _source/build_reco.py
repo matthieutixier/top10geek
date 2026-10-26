@@ -6,6 +6,7 @@ dans la moyenne. Les offres PC-Portable.net viennent du flux (pcportable.py). Un
 de data.json. Les tests ajoutés par ajout_tests.py, les synthèses (syntheses.py) et les traces de vérification
 (presse_crawl.py) d'un produit déjà présent sont conservés."""
 import json, os, sys
+IMG_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets/img/p")
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
 sys.path.insert(0, SRC)
 from catalog_reconditionnes import RECO
@@ -29,10 +30,9 @@ if __name__ == "__main__":
         old = data["items"].get(pid)
         d = dict(cat="reconditionne", short=it["short"], ref=it["ref"], badge=it["badge"], verdict=it["verdict"],
                  strengths=it["strengths"], weak=it["weak"], m=list(it["m"]), id=pid,
-                 press=press(it["notes"], "modele"), offers=[], img=None, rating=None, nrev=0)
+                 press=press(it["notes"], "modele"), offers=[], img=(pid + ".webp") if os.path.exists(os.path.join(IMG_DIR, pid + ".webp")) else None, rating=None, nrev=0)
         if old:
             d["offers"] = [o for o in old["offers"] if o["m"] == pcportable.M]
-            d["img"] = old.get("img")
             if old.get("synthese"):
                 d["synthese"] = old["synthese"]
             urls = {n["url"] for n in d["press"]["notes"]}

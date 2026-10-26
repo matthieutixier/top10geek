@@ -138,7 +138,7 @@ GUIDE_RECO = dict(
         ("Génération du processeur", "Visez la 8e génération Intel (ou un Ryzen 4000) au minimum : c'est le seuil à partir duquel Windows 11 est officiellement pris en charge. Une puce plus ancienne fonctionne, mais sans garantie de mises à jour à terme."),
         ("Windows 11 plutôt que 10", "Windows 10 n'est plus pris en charge par Microsoft depuis octobre 2025. Préférez une annonce livrée sous Windows 11."),
         ("Mémoire et stockage", "8 Go de RAM et un SSD de 250 Go suffisent pour la bureautique ; 16 Go si vous gardez beaucoup d'onglets ou de logiciels ouverts."),
-        ("Grade, garantie et batterie", "Le grade (A, B, C…) décrit l'état esthétique, avec une définition propre à chaque vendeur. Lisez la durée de garantie, les conditions de retour et ce que le vendeur annonce sur la batterie avant de commander."),
+        ("Grade, garantie et batterie", "Le grade (A, B, C…) décrit l'état esthétique, avec une définition propre à chaque vendeur. PC-Portable.net annonce des PC contrôlés et garantis 2 ans : lisez les conditions de garantie et de retour, et ce que le vendeur dit de la batterie, avant de commander."),
     ],
     pieges=[
         "Les annonces au clavier QWERTY ou QWERTZ : vérifiez que le clavier est bien AZERTY.",

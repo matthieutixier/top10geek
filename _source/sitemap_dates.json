@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-10-26",
-"h": "c1730656bb81"
+"h": "6ec0622fffcc"
 },
 "a-propos": {
 "d": "2026-10-26",
@@ -9,7 +9,7 @@
 },
 "black-friday/": {
 "d": "2026-10-26",
-"h": "3a9f30b3b1a5"
+"h": "805fec64572a"
 },
 "ecran-pc/": {
 "d": "2026-10-26",
@@ -412,8 +412,8 @@
 "h": "33e3d4b4e489"
 },
 "mentions-legales": {
-"d": "2026-10-15",
-"h": "7fd684fda763"
+"d": "2026-10-26",
+"h": "8743ccfe7b56"
 },
 "methode": {
 "d": "2026-10-26",
@@ -589,7 +589,7 @@
 },
 "pc-portable/": {
 "d": "2026-10-26",
-"h": "d3ee0b9db6b5"
+"h": "ce298b868492"
 },
 "pc-portable/acer-aspire-go-15/": {
 "d": "2026-10-26",
@@ -693,11 +693,11 @@
 },
 "pc-portable/dell-latitude-5420/": {
 "d": "2026-10-26",
-"h": "6c22ee1c9742"
+"h": "128b2ad5c58c"
 },
 "pc-portable/dell-latitude-7490/": {
 "d": "2026-10-26",
-"h": "2fad2b2fad80"
+"h": "8cb249a2ae5d"
 },
 "pc-portable/dell-xps-14-2026/": {
 "d": "2026-10-26",
@@ -757,15 +757,15 @@
 },
 "pc-portable/lenovo-thinkpad-t470s/": {
 "d": "2026-10-26",
-"h": "4a3531a6fb94"
+"h": "bf3f216755ed"
 },
 "pc-portable/lenovo-thinkpad-t480/": {
 "d": "2026-10-26",
-"h": "9725d34755ce"
+"h": "afb5a1eaa089"
 },
 "pc-portable/lenovo-thinkpad-t490/": {
 "d": "2026-10-26",
-"h": "80aff7918ac3"
+"h": "9af28c6c0751"
 },
 "pc-portable/lenovo-yoga-7-2-en-1/": {
 "d": "2026-10-26",
@@ -817,14 +817,14 @@
 },
 "pc-portable/reconditionnes/": {
 "d": "2026-10-26",
-"h": "e7103cecf603"
+"h": "c9b408f08083"
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
 "d": "2026-10-26",
 "h": "a4145f8b8d4f"
 },
 "politique-confidentialite": {
-"d": "2026-10-20",
-"h": "065752d7573c"
+"d": "2026-10-26",
+"h": "516becc226a7"
 }
 }
