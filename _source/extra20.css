@@ -1,0 +1,7 @@
+/* v14 (26/10/2026) : rubrique « Reconditionnés » (6e usage des PC portables) */
+:root{--cat-reco:#0E7C86;}
+.pill[aria-pressed="true"].f-reco{background:var(--cat-reco);border-color:var(--cat-reco);}
+.dot.reco{background:var(--cat-reco);}
+.art.cat-reconditionne .ag-screen, .art.cat-reconditionne .ag-dot{fill:var(--cat-reco);}
+.reco-tag{display:inline-block;padding:1px 8px;border:1px solid var(--cat-reco);border-radius:999px;color:var(--cat-reco);font-weight:700;font-size:.85em;white-space:nowrap;}
+.m-pcportable .o-m{color:var(--cat-reco);}
