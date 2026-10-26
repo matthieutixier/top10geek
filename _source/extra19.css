@@ -1,0 +1,4 @@
+/* v13.1 (26/10/2026) : réponse directe en tête des pages usage tout-en-un et imprimantes photo */
+.usage-hero .answer{margin:.7em 0 .2em;padding:.65em .9em;border-left:3px solid #FF3B57;background:#fff5f7;border-radius:8px;font-size:.95em;line-height:1.5;max-width:42em}
+.usage-hero .answer b{color:#1a1a1a}
+.usage-hero .answer a{font-weight:600}

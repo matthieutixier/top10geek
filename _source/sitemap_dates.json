@@ -120,12 +120,12 @@
 "h": "49b9276fbfb6"
 },
 "ecran-pc/bureautique/": {
-"d": "2026-10-23",
-"h": "5f7c2b0d7d15"
+"d": "2026-10-26",
+"h": "06bf7cc2d2ea"
 },
 "ecran-pc/creation/": {
-"d": "2026-10-23",
-"h": "51221f089ad4"
+"d": "2026-10-26",
+"h": "904f4b3886a6"
 },
 "ecran-pc/dell-27-plus-s2725dc/": {
 "d": "2026-10-23",
@@ -152,8 +152,8 @@
 "h": "b696fd06490f"
 },
 "ecran-pc/gaming/": {
-"d": "2026-10-23",
-"h": "27db4d4c4def"
+"d": "2026-10-26",
+"h": "3ad6f572a21e"
 },
 "ecran-pc/gigabyte-gs27qca/": {
 "d": "2026-10-23",
@@ -196,12 +196,12 @@
 "h": "cc7180421848"
 },
 "ecran-pc/petit-prix/": {
-"d": "2026-10-23",
-"h": "ca2dc9a66ec6"
+"d": "2026-10-26",
+"h": "78933d1ebbf4"
 },
 "ecran-pc/portable/": {
-"d": "2026-10-23",
-"h": "bb22c62842c8"
+"d": "2026-10-26",
+"h": "4a428167ca82"
 },
 "ecran-pc/sony-inzone-m10s/": {
 "d": "2026-10-23",
@@ -388,24 +388,24 @@
 "h": "fc1e7d378028"
 },
 "imprimante/laser-couleur/": {
-"d": "2026-10-23",
-"h": "d2927b59acb7"
+"d": "2026-10-26",
+"h": "609d0d01fc12"
 },
 "imprimante/laser-noir-et-blanc/": {
-"d": "2026-10-23",
-"h": "fc1c9f556bd4"
+"d": "2026-10-26",
+"h": "a4b9161e09de"
 },
 "imprimante/petit-prix/": {
-"d": "2026-10-23",
-"h": "75f78a496ba6"
+"d": "2026-10-26",
+"h": "67cf4800f869"
 },
 "imprimante/photo/": {
-"d": "2026-10-23",
-"h": "f57cd3f76529"
+"d": "2026-10-26",
+"h": "d04e177eeccf"
 },
 "imprimante/reservoir/": {
-"d": "2026-10-23",
-"h": "a8e24adfb268"
+"d": "2026-10-26",
+"h": "32630a250967"
 },
 "imprimante/xerox-c230/": {
 "d": "2026-10-23",
@@ -464,16 +464,16 @@
 "h": "9d918081c28b"
 },
 "ordinateur-de-bureau/bureautique/": {
-"d": "2026-10-23",
-"h": "421363f06421"
+"d": "2026-10-26",
+"h": "8f43ad5b84ea"
 },
 "ordinateur-de-bureau/creation/": {
-"d": "2026-10-23",
-"h": "5cafd8ffe645"
+"d": "2026-10-26",
+"h": "cadf4c4d0d94"
 },
 "ordinateur-de-bureau/gaming/": {
-"d": "2026-10-23",
-"h": "9d04ba8af538"
+"d": "2026-10-26",
+"h": "497b308e0725"
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
 "d": "2026-10-23",
@@ -568,8 +568,8 @@
 "h": "55c28536013c"
 },
 "ordinateur-de-bureau/mini-pc/": {
-"d": "2026-10-23",
-"h": "2a0e990a2ce9"
+"d": "2026-10-26",
+"h": "828a61b94473"
 },
 "ordinateur-de-bureau/minisforum-ai-x1-pro/": {
 "d": "2026-10-23",
@@ -584,8 +584,8 @@
 "h": "3371fae7a849"
 },
 "ordinateur-de-bureau/tout-en-un/": {
-"d": "2026-10-23",
-"h": "dc32e97009b1"
+"d": "2026-10-26",
+"h": "a696470d935c"
 },
 "pc-portable/": {
 "d": "2026-10-23",
@@ -640,8 +640,8 @@
 "h": "102a677958c6"
 },
 "pc-portable/asus-proart-px13/": {
-"d": "2026-10-23",
-"h": "9760417ba524"
+"d": "2026-10-26",
+"h": "4ed2fb4a4011"
 },
 "pc-portable/asus-rog-strix-g16/": {
 "d": "2026-10-23",
@@ -684,20 +684,20 @@
 "h": "e043c3999d83"
 },
 "pc-portable/bureautique/": {
-"d": "2026-10-23",
-"h": "af635aabf87f"
+"d": "2026-10-26",
+"h": "ec38e126dcdc"
 },
 "pc-portable/creation/": {
-"d": "2026-10-23",
-"h": "9a98c54bb84c"
+"d": "2026-10-26",
+"h": "6d60c2aebfe6"
 },
 "pc-portable/dell-xps-14-2026/": {
 "d": "2026-10-23",
 "h": "9a0b9bab15d0"
 },
 "pc-portable/gaming/": {
-"d": "2026-10-23",
-"h": "ba14a0800b94"
+"d": "2026-10-26",
+"h": "f7d1987ae916"
 },
 "pc-portable/gigabyte-aero-x16/": {
 "d": "2026-10-23",
@@ -772,8 +772,8 @@
 "h": "26ce9188291b"
 },
 "pc-portable/lowcost/": {
-"d": "2026-10-23",
-"h": "6b4fdb25217c"
+"d": "2026-10-26",
+"h": "64f2c6abcfb1"
 },
 "pc-portable/microsoft-surface-laptop-13/": {
 "d": "2026-10-23",
@@ -792,8 +792,8 @@
 "h": "191ff071cd8f"
 },
 "pc-portable/polyvalent/": {
-"d": "2026-10-23",
-"h": "636c02514281"
+"d": "2026-10-26",
+"h": "f246f7bf57e4"
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
 "d": "2026-10-23",

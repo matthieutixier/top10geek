@@ -2384,7 +2384,19 @@
    "img": "proart-px13.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 3499.99
+   "prix": 3499.99,
+   "synthese": {
+    "texte": "La plupart des tests portent sur l'édition GoPro (Ryzen AI Max+ 395, 128 Go de mémoire) ; Notebookcheck a aussi testé la version 2026 à Ryzen AI Max+ 388 et 32 Go. Tous retiennent une puissance rare pour un 13 pouces de 1,4 kg : Les Numériques mesure des rendus Blender, Premiere et Photoshop trois à quatre fois plus rapides grâce à la puce graphique intégrée Radeon 8060S, et Engadget relève 82 images par seconde dans Cyberpunk 2077 en 1080p.\n\nL'écran OLED tactile de 2 880 × 1 800 pixels, qui pivote à 360°, est jugé fidèle (Delta E de 1,9 chez Les Numériques, inférieur à 1 chez Engadget), mais il reste à 60 Hz, dépasse à peine 400 cd/m² et brille beaucoup : Les Numériques et Presse Citron le trouvent gênant en extérieur. Notebookcheck regrette aussi un scintillement (PWM) et une mémoire soudée.\n\nL'autonomie dépend de l'usage : 11 h 06 en lecture vidéo chez Les Numériques, 11 h 31 en bureautique chez Engadget, mais 6 à 7 heures en usage intensif selon Presse Citron. Sous charge, la ventilation s'entend (49 dB en mode Performance chez Les Numériques, 50 dB en jeu chez Notebookcheck). Le prix, 3 599 € pour l'édition testée par Les Numériques, est le reproche le plus partagé.",
+    "date": "2026-10-26",
+    "n": 9,
+    "tests": 13,
+    "sources": [
+     "Les Numériques",
+     "Notebookcheck",
+     "Engadget",
+     "Presse Citron"
+    ]
+   }
   },
   "yoga-pro9": {
    "cat": "creation",
