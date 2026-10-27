@@ -674,5 +674,45 @@
  "latitude-5510": {
   "constructeur": "Dell",
   "source": "https://images.icecat.biz/img/gallery/d031407fec1106082dd574fe3b6a132bc7b90d22.jpg"
+ },
+ "roborock-saros-20": {
+  "constructeur": "Roborock",
+  "source": "https://us.roborock.com/products/roborock-saros-20"
+ },
+ "roborock-qrevo-curv-2": {
+  "constructeur": "Roborock",
+  "source": "https://us.roborock.com/products/roborock-qrevo-curv-2-flow"
+ },
+ "mova-z60-ultra": {
+  "constructeur": "Mova",
+  "source": "https://www.mova.tech/products/mova-z60-ultra-roller-complete-robot-vacuum"
+ },
+ "narwal-freo-z10-ultra": {
+  "constructeur": "Narwal",
+  "source": "https://us.narwal.com/pages/freo-z-ultra-robot-vacuum-and-mop"
+ },
+ "dreame-x50-ultra-complete": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/x50-ultra-robot-vacuum"
+ },
+ "dreame-l40-ultra": {
+  "constructeur": "Dreame",
+  "source": "https://az.dreametech.com/en/product/dreame-l40-ultra-ae-black/"
+ },
+ "dreame-l10s-ultra": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/dreamebot-l10s-ultra"
+ },
+ "mova-e40-ultra": {
+  "constructeur": "Mova",
+  "source": "https://www.mova.tech/products/mova-e40-ultra-robot-vacuum"
+ },
+ "dreame-aqua10-ultra": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum"
+ },
+ "ecovacs-deebot-x11": {
+  "constructeur": "Ecovacs",
+  "source": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone"
  }
 }
