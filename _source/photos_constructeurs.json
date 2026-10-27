@@ -714,5 +714,49 @@
  "ecovacs-deebot-x11": {
   "constructeur": "Ecovacs",
   "source": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone"
+ },
+ "dreame-z30": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/z30-cordless-stick-vacuum"
+ },
+ "dreame-r20": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/r20-pure-cordless-stick-vacuum"
+ },
+ "dreame-h15-pro": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/h15-pro-wet-dry-vacuum"
+ },
+ "dreame-h14": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/h14-wet-and-dry-vacuum"
+ },
+ "dreame-h12-pro": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/h12-pro-wet-dry-vacuum"
+ },
+ "dreame-l20-ultra": {
+  "constructeur": "Dreame",
+  "source": "https://www.dreametech.com/products/l20-ultra"
+ },
+ "mova-m50-ultra": {
+  "constructeur": "Mova",
+  "source": "https://www.mova.tech/products/mova-m50-ultra-wet-and-dry-vacuum"
+ },
+ "mova-v70-ultra": {
+  "constructeur": "Mova",
+  "source": "https://www.mova.tech/products/v70-ultra-complete-robot-vacuum"
+ },
+ "narwal-flow-2": {
+  "constructeur": "Narwal",
+  "source": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop"
+ },
+ "samsung-bespoke-jet": {
+  "constructeur": "Samsung",
+  "source": "https://images.icecat.biz/img/gallery/8eae53e1e34386c370bbfc9dd0c1a5971f57e560.jpg"
+ },
+ "samsung-jet-90": {
+  "constructeur": "Samsung",
+  "source": "https://images.icecat.biz/img/gallery/e27f83c8ab4718f5a8a2a108088c13b095ed136f.jpg"
  }
 }

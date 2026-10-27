@@ -20889,6 +20889,2463 @@
      "LeCafeDuGeek"
     ]
    }
+  },
+  "dyson-v11-absolute": {
+   "cat": "s-aspirateur-balai",
+   "short": "Dyson V11 Absolute",
+   "ref": "Puissance auto · écran de suivi",
+   "badge": "Le choix de la bande",
+   "verdict": "Le balai le mieux noté de la sélection : aspiration très puissante, écran d'autonomie et puissance qui s'ajuste seule.",
+   "strengths": [
+    "Aspiration très puissante",
+    "Puissance ajustée automatiquement selon le sol",
+    "Écran d'autonomie restante"
+   ],
+   "weak": [
+    "Une seule batterie",
+    "Prix élevé",
+    "Ne se charge pas pendant l'utilisation"
+   ],
+   "m": [
+    "Puissance auto",
+    "Sans station"
+   ],
+   "id": "dyson-v11-absolute",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 428.99,
+     "url": "https://www.amazon.fr/dp/B07Q4FZKNY?tag=geekconcept-21",
+     "name": "Dyson V11 Absolute aspirateur balai sans fil",
+     "cfg": "",
+     "asin": "B07Q4FZKNY"
+    }
+   ],
+   "press": {
+    "avg": 9.66,
+    "n": 5,
+    "tests": 8,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/dyson/1408901/dyson-v11-absolute-review",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-cyclone-v11-absolute-p51421/test.html",
+      "date": ""
+     },
+     {
+      "src": "Pocket-lint",
+      "score": 10.0,
+      "url": "https://www.pocket-lint.com/smart-home/reviews/dyson/147764-dyson-v11-absolute-vacuum-cleaner-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dyson-v11-absolute?utm_source=keystone&utm_medium=keystone_core_reviews_rss&utm_campaign=trusted+reviews",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.3,
+      "url": "https://www.chip.de/test/Dyson-V11-Absolute-im-Test_165989266.html",
+      "date": ""
+     },
+     {
+      "src": "Aspirateurs.info",
+      "score": null,
+      "url": "https://aspirateurs.info/avis-dyson-v11-absolute/",
+      "date": ""
+     },
+     {
+      "src": "Beebom",
+      "score": null,
+      "url": "https://beebom.com/dyson-v11-absolute-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Gadgets360",
+      "score": null,
+      "url": "https://gadgets.ndtv.com/home-appliances/reviews/dyson-v11-absolute-pro-vacuum-cleaner-review-price-in-india-2495252#rss-gadgets-reviews",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 428.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "dyson-v15-detect-absolute": {
+   "cat": "s-aspirateur-balai",
+   "short": "Dyson V15 Detect Absolute",
+   "ref": "Capteur de poussière · laser",
+   "badge": "Le haut de gamme",
+   "verdict": "Le plus complet des Dyson testés : brosse anti-enchevêtrement et capteurs de poussière très appréciés, mais tarif très élevé.",
+   "strengths": [
+    "Brosse anti-enchevêtrement efficace sur les poils d'animaux",
+    "Capteurs acoustique et laser de détection de poussière",
+    "Plus de puissance et meilleure autonomie"
+   ],
+   "weak": [
+    "Prix très élevé",
+    "Capteurs jugés excessifs par certains testeurs"
+   ],
+   "m": [
+    "Capteur de poussière",
+    "Sans station"
+   ],
+   "id": "dyson-v15-detect-absolute",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 579.0,
+     "url": "https://www.amazon.fr/dp/B099NLCLZH?tag=geekconcept-21",
+     "name": "Dyson V15 Detect Absolute aspirateur balai sans fil",
+     "cfg": "",
+     "asin": "B099NLCLZH"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 4,
+    "tests": 6,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-v15-detect-absolute-extra-p63659/test.html",
+      "date": ""
+     },
+     {
+      "src": "Stuff",
+      "score": 10.0,
+      "url": "https://www.stuff.tv/dyson/v15-detect/review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Dyson-V15-Detect-Absolute-im-Test_183962497.html",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": 8.0,
+      "url": "https://www.lbtechreviews.com/test/smart-home/dyson-v15-detect-absolute",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/review-dyson-v15-detect-absolute-hepa-review",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/hardware/trockensauger-dyson-v15-detect-absolute-im-pctipp-test-2799396.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 579.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "dyson-v12-detect-slim": {
+   "cat": "s-aspirateur-balai",
+   "short": "Dyson V12 Detect Slim",
+   "ref": "150 AW · laser · léger",
+   "badge": "Le plus léger",
+   "verdict": "Un Dyson léger et puissant, plus compact que le V15, mais cher et avec moins de capacité.",
+   "strengths": [
+    "Léger",
+    "Aspiration puissante",
+    "Brosse à éclairage intégré"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Capacité et aspiration inférieures à celles du V15"
+   ],
+   "m": [
+    "150 AW",
+    "Sans station"
+   ],
+   "id": "dyson-v12-detect-slim",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 649.0,
+     "url": "https://www.amazon.fr/dp/B0BSHHKLFJ?tag=geekconcept-21",
+     "name": "Dyson V12 Detect Slim Absolute aspirateur balai sans fil",
+     "cfg": "",
+     "asin": "B0BSHHKLFJ"
+    }
+   ],
+   "press": {
+    "avg": 8.2,
+    "n": 5,
+    "tests": 9,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 9.0,
+      "url": "https://www.expertreviews.co.uk/vacuum-cleaners/1416268/dyson-v12-detect-slim-absolute-review",
+      "date": ""
+     },
+     {
+      "src": "91mobiles.com",
+      "score": 8.0,
+      "url": "https://www.91mobiles.com/hub/dyson-v12-detect-slim-review/",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 8.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/dyson-v12-detect-slim-total-clean-review-laser-focus-cleaning/",
+      "date": ""
+     },
+     {
+      "src": "GadgetGear",
+      "score": 8.0,
+      "url": "https://www.gadgetgear.nl/2023/09/review-dyson-v12-detect-slim-absolute-stofzuiger/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/vacuum/reviews/dyson/v12-detect-slim",
+      "date": ""
+     },
+     {
+      "src": "Digit",
+      "score": null,
+      "url": "https://www.digit.in/reviews/vacuum-cleaner/dyson-pure-cool-air-purifier-review-india-review-272055.html",
+      "date": ""
+     },
+     {
+      "src": "Gadgets360",
+      "score": null,
+      "url": "https://gadgets360.com/home-appliances/reviews/dyson-v12-detect-slim-vacuum-cleaner-review-price-in-india-2775578#rss-gadgets-reviews",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": null,
+      "url": "https://geekculture.co/geek-review-dyson-v12-detect-slim-submarine/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dyson-v12-detect-slim/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 649.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "dyson-v16-piston-animal": {
+   "cat": "s-aspirateur-balai",
+   "short": "Dyson V16 Piston Animal",
+   "ref": "315 AW · ajustement auto",
+   "badge": "Le plus récent",
+   "verdict": "Un Dyson récent à l'aspiration très puissante, mais plus mitigé que ses aînés sur certains points.",
+   "strengths": [
+    "Puissance d'aspiration impressionnante",
+    "Ajustement automatique de la puissance",
+    "Très bien conçu"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Ne tient pas debout tout seul",
+    "Mécanisme d'essuyage automatique décevant"
+   ],
+   "m": [
+    "315 AW",
+    "Sans station"
+   ],
+   "id": "dyson-v16-piston-animal",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 750.0,
+     "url": "https://www.amazon.fr/dp/B0FZN79QDP?tag=geekconcept-21",
+     "name": "Dyson V16 Piston Animal aspirateur balai sans fil",
+     "cfg": "",
+     "asin": "B0FZN79QDP"
+    }
+   ],
+   "press": {
+    "avg": 7.7272727272727275,
+    "n": 11,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dyson-v16-piston-animal",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/dyson-v16-piston-animal-wet-and-dry-review-pet-hair-dust-and-every-mess-in-between-conquered/",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/dyson-v16-piston-animal-review",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/test-dyson-v16-piston-animal-de-la-puissance-a-revendre-et-une-etonnante-brosse-a-deux-cones/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 8.0,
+      "url": "https://leclaireur.fnac.com/test/640446-test-dyson-v16-piston-animal/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-v16-piston-animal-submarine-p76957/test.html",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/home-living/vacuum-cleaners/dyson-v16-piston-animal-review-the-smartest-and-strongest-cordless-dyson-yet",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": 8.0,
+      "url": "https://www.techadvisor.com/article/2906185/dyson-v16-piston-animal-cordless-vacuum-review.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 7.0,
+      "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/dyson-v16-piston-animal-submarine-ds60-492969-01-im-test_8f21720c-92c0-4d14-9799-05fad42c0f8a.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 6.0,
+      "url": "https://www.frandroid.com/marques/dyson/2819679_test-dyson-v16-piston-animal",
+      "date": ""
+     },
+     {
+      "src": "ImTest",
+      "score": 6.0,
+      "url": "https://www.imtest.de/haushalt-kueche/dyson-v16-piston-animal-submarine-test-akkusauger-wischen/591982",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/vacuum/reviews/dyson/v16-piston-animal-submarine",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dyson-v16-piston-animal-submarine/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 750.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "samsung-bespoke-jet": {
+   "cat": "s-aspirateur-balai",
+   "short": "Samsung Bespoke Jet",
+   "ref": "Station de vidage CleanStation",
+   "badge": "La station ingénieuse",
+   "verdict": "Un balai Samsung à station de vidage ingénieuse et forte aspiration ; cher.",
+   "strengths": [
+    "Station d'extraction ingénieuse",
+    "Forte puissance d'aspiration",
+    "Bonne prise en main"
+   ],
+   "weak": [
+    "Prix élevé",
+    "La seconde batterie ne se charge pas sur la station",
+    "Accès au filtre HEPA peu pratique"
+   ],
+   "m": [
+    "Forte aspiration",
+    "Station de vidage"
+   ],
+   "id": "samsung-bespoke-jet",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 742.9,
+     "url": "https://www.amazon.fr/dp/B09WVQG81R?tag=geekconcept-21",
+     "name": "Samsung Bespoke Jet VS20A95973B aspirateur balai sans fil",
+     "cfg": "",
+     "asin": "B09WVQG81R"
+    }
+   ],
+   "press": {
+    "avg": 8.083333333333334,
+    "n": 6,
+    "tests": 11,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "HardwareZone",
+      "score": 9.0,
+      "url": "https://www.hardwarezone.com.sg/review-samsung-bespoke-jet-ai-cordless-stick-vacuum-singapore-price",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": 8.5,
+      "url": "https://www.techadvisor.com/review/samsung-bespoke-jet-3815936/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/electromenager/lecteurs-testeurs-l-aspirateur-balai-samsung-bespoke-jet-face-aux-lecteurs-des-numeriques-e186567.html",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/home/vacuums/samsung-bespoke-jet-ai-review",
+      "date": ""
+     },
+     {
+      "src": "TechStage",
+      "score": 8.0,
+      "url": "https://www.techstage.de/test/akkusauger-samsung-bespoke-jet-im-test-teuer-wie-dyson-und-in-einem-details-besser/r1j1sz7",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/vacuum/reviews/samsung/bespoke-jet",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/samsung-bespoke-jet-ai",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home/samsung-bespoke-jet-review/",
+      "date": ""
+     },
+     {
+      "src": "PC Magazin",
+      "score": null,
+      "url": "https://www.connect-living.de/testbericht/samsung-bespoke-jet-ai-akku-plus-wet-and-clean-test-stielstaubsauger-wischfunktion-ki-3206525.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/samsung-bespoke-jet-ai",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/samsung-bespoke-jet-ai/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 742.9,
+   "img": "samsung-bespoke-jet.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "samsung-jet-90": {
+   "cat": "s-aspirateur-balai",
+   "short": "Samsung Jet 90",
+   "ref": "200 AW · station de charge",
+   "badge": "Le polyvalent",
+   "verdict": "Un balai léger et polyvalent, avec station de charge, mais cher pour un modèle ancien et sans lavage.",
+   "strengths": [
+    "Filtre HEPA qui retient les poussières fines",
+    "Nombreux accessoires",
+    "Construction légère"
+   ],
+   "weak": [
+    "Brosse qui peut s'emmêler avec les cheveux",
+    "Recharge de 3 h 30",
+    "Pas de nettoyage humide"
+   ],
+   "m": [
+    "200 AW",
+    "Station de charge"
+   ],
+   "id": "samsung-jet-90",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 490.0,
+     "url": "https://www.amazon.fr/dp/B09CNDT1C2?tag=geekconcept-21",
+     "name": "Samsung Jet 90 Complete VS20R9046T3 aspirateur balai sans fil",
+     "cfg": "",
+     "asin": "B09CNDT1C2"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 5,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "DigitalTrends",
+      "score": 8.0,
+      "url": "https://www.digitaltrends.com/smart-home-reviews/samsung-jet-90-complete-cordless-stick-vacuum-review/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/samsung-jet-70-vs15t7036r5-p60351/test.html",
+      "date": ""
+     },
+     {
+      "src": "TechStage",
+      "score": 8.0,
+      "url": "https://www.techstage.de/test/akkusauger-samsung-jet-90-complete-extra-im-test-gunstiger-aber-genauso-gut-wie-dyson/8gpcyrj",
+      "date": ""
+     },
+     {
+      "src": "91mobiles.com",
+      "score": null,
+      "url": "https://www.91mobiles.com/hub/samsung-jet-90-complete-review/",
+      "date": ""
+     },
+     {
+      "src": "Gadgets360",
+      "score": null,
+      "url": "https://gadgets360.com/home-appliances/reviews/samsung-jet-90-complete-cordless-handheld-vacuum-cleaner-review-price-in-india-3205807#rss-gadgets-reviews",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 490.0,
+   "img": "samsung-jet-90.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dreame-z30": {
+   "cat": "s-aspirateur-balai",
+   "short": "Dreame Z30",
+   "ref": "310 AW · batterie amovible",
+   "badge": "Le plus accessible",
+   "verdict": "Un balai Dreame à prix modéré, avec batterie amovible et beaucoup d'accessoires ; lourd et au réservoir un peu petit.",
+   "strengths": [
+    "Batterie amovible",
+    "Prix modéré",
+    "Nombreux accessoires"
+   ],
+   "weak": [
+    "Réservoir un peu petit",
+    "Corps lourd et peu maniable",
+    "Finition en plastique"
+   ],
+   "m": [
+    "310 AW",
+    "Sans station"
+   ],
+   "id": "dreame-z30",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 293.0,
+     "url": "https://www.amazon.fr/dp/B0DFXS37KW?tag=geekconcept-21",
+     "name": "Dreame Z30 aspirateur balai sans fil 310 AW",
+     "cfg": "",
+     "asin": "B0DFXS37KW"
+    }
+   ],
+   "press": {
+    "avg": 8.05,
+    "n": 8,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "L&B Tech",
+      "score": 9.4,
+      "url": "https://www.lbtechreviews.com/test/smart-home/dreame-z30-aquacycle",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-z30/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-dreame-z30/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Dreame-Z30-im-Test_185789425.html",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-dreame-z30-laspirateur-balai-sans-fil-ideal/",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": 8.0,
+      "url": "https://www.techadvisor.com/article/2918063/dreame-z30-stick-vacuum-cleaner-review.html",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (FR)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.fr/test-dreame-z30-laspirateur-ultime-pour-eradiquer-la-poussiere-partout-dans-la-maison/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 7.0,
+      "url": "https://www.smartworld.it/recensioni/dreame-z30",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/dreame-z30-kabelloser-staubsauger-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dreame-z30-test-stilstaubsauger-akku-3206068.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": null,
+      "url": "https://www.presse-citron.net/test-dreame-z30-aspiration-maximale-sinon-rien/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/vacuum/reviews/dreame/z30",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2024/10/24/test-dreame-z30/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 293.0,
+   "img": "dreame-z30.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dreame-r20": {
+   "cat": "s-aspirateur-balai",
+   "short": "Dreame R20",
+   "ref": "190 AW · LED",
+   "badge": "Le petit prix endurant",
+   "verdict": "Un balai endurant à bonne aspiration pour un prix contenu ; bac à poussière petit.",
+   "strengths": [
+    "Bonnes performances d'aspiration",
+    "Aspiration continue ou fractionnée au choix",
+    "Très endurant en mode auto"
+   ],
+   "weak": [
+    "Tête à choisir selon la surface",
+    "Brosse dure qui repousse les détritus vers l'arrière",
+    "Bac à poussière de 0,6 L"
+   ],
+   "m": [
+    "190 AW",
+    "Sans station"
+   ],
+   "id": "dreame-r20",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 209.0,
+     "url": "https://www.amazon.fr/dp/B0C5MDCNLZ?tag=geekconcept-21",
+     "name": "Dreame R20 aspirateur balai sans fil 190 AW",
+     "cfg": "",
+     "asin": "B0C5MDCNLZ"
+    }
+   ],
+   "press": {
+    "avg": 7.5,
+    "n": 4,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-aspirateur-dreame-r20-lallie-ideal-pour-un-nettoyage-minutieux/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dreame-r20-p74110/test.html",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (FR)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.fr/test-dreame-r20-laspirateur-sans-fil-intelligent-qui-voulait-faire-de-lombre-a-dyson/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 6.0,
+      "url": "https://www.techradar.com/home/vacuums/dreame-r20-cordless-vacuum-review",
+      "date": ""
+     },
+     {
+      "src": "Actualidad Gadget",
+      "score": null,
+      "url": "https://www.actualidadgadget.com/dreame-r20-pro-a-una-aspiradora-todoterreno-a-precio-intermedio-review/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": null,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-r20/",
+      "date": ""
+     },
+     {
+      "src": "BeGeek",
+      "score": null,
+      "url": "https://www.begeek.fr/test/test-dreame-r20-383881",
+      "date": ""
+     },
+     {
+      "src": "Generation-NT",
+      "score": null,
+      "url": "https://www.generation-nt.com/tests/test-dreame-r20-aspirateur-balai-electrique-2038585",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": null,
+      "url": "https://www.neozone.org/tests/notre-test-et-avis-sur-laspirateur-balai-sans-fil-dreame-r20/",
+      "date": ""
+     },
+     {
+      "src": "PC Magazin",
+      "score": null,
+      "url": "https://www.connect-living.de/testbericht/dreame-r20-test-akkusauger-3205380.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 209.0,
+   "img": "dreame-r20.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "roborock-h60-hub": {
+   "cat": "s-aspirateur-balai",
+   "short": "Roborock H60 Hub",
+   "ref": "Base de vidage automatique",
+   "badge": "Le moins cher",
+   "verdict": "Un balai d'entrée de gamme avec base de vidage automatique rapide, jugé moins convaincant que les modèles du dessus.",
+   "strengths": [
+    "Base de vidage automatique rapide (10 secondes)",
+    "Bonne autonomie, batterie modulaire",
+    "Très bon sur sol dur au niveau maximal"
+   ],
+   "weak": [
+    "Base encombrante",
+    "Sachets de rechange à acheter",
+    "Une seule batterie incluse"
+   ],
+   "m": [
+    "Aspiration sols durs",
+    "Vidage auto"
+   ],
+   "id": "roborock-h60-hub",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 149.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-balai-roborock-h60-hub-station-de-vidage.html",
+     "name": "Aspirateur Balai Roborock H60 Hub Station De Vidage",
+     "cfg": "",
+     "ean": "6974653813628",
+     "edid": "10020540"
+    }
+   ],
+   "press": {
+    "avg": 6.666666666666667,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Allround-PC",
+      "score": 7.0,
+      "url": "https://www.allround-pc.com/artikel/haus-garten/roborock-h60-hub-ultra-im-test-preiswerter-akkustaubsauger-mit-entleerungsstation",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 7.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-roborock-h60-hub-laspirapolvere-cordless-che-si-svuota-da-solo",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 6.0,
+      "url": "https://charlestech.fr/test-roborock-h60-hub-ultra/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": null,
+      "url": "https://www.chip.de/test/Roborock-H60-Hub-Ultra-im-Test_186574185.html",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Akku-Staubsauger-mit-automatischer-Absaugung-Roborock-H60-Hub-Ultra-im-Praxis-Test.1140740.0.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 149.98,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "dreame-h15-pro": {
+   "cat": "s-aspirateur-laveur",
+   "short": "Dreame H15 Pro",
+   "ref": "21 000 Pa · eau chaude",
+   "badge": "Le choix de la bande",
+   "verdict": "Le balai laveur le plus testé : aspiration puissante, lavage à l'eau chaude et taches vite effacées ; prix élevé.",
+   "strengths": [
+    "Aspiration puissante, lavage à l'eau chaude très efficace",
+    "Mode automatique",
+    "Conception à plat"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Application nécessaire pour toutes les fonctions",
+    "Pas de LED à l'avant"
+   ],
+   "m": [
+    "21 000 Pa",
+    "Autonettoyant"
+   ],
+   "id": "dreame-h15-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 343.22,
+     "url": "https://www.amazon.fr/dp/B0DT9Y8RWH?tag=geekconcept-21",
+     "name": "Dreame H15 Pro aspirateur laveur sans fil",
+     "cfg": "",
+     "asin": "B0DT9Y8RWH"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 339.0,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fnettoyeur-de-sols-dreame-h15-pro.html",
+     "name": "Aspirateur Laveur Dreame H15 Pro",
+     "cfg": "",
+     "ean": "6977328063854",
+     "edid": "10009023"
+    }
+   ],
+   "press": {
+    "avg": 8.12,
+    "n": 15,
+    "tests": 20,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.4,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-h15-pro/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 9.4,
+      "url": "https://leclaireur.fnac.com/test/611849-test-du-dreame-h15-pro-heat/",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-dreame-h15-pro-heat-laspirateur-laveur-a-eau-chaude-qui-change-tout/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-dreame-h15-pro-heat/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Dreame-H15-Pro-Heat-im-Test_186131305.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-572451-test-dreame-h15-pro-heat.html",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-dreame-h15-pro-foamwash-lallie-qui-aspire-et-serpille-sans-effort/",
+      "date": ""
+     },
+     {
+      "src": "Mac Sources",
+      "score": 8.0,
+      "url": "https://macsources.com/dreame-h15-pro-carpetflex-wet-dry-vacuum-review/",
+      "date": ""
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.0,
+      "url": "https://www.maison-et-domotique.com/162198-test-dreame-h15-pro-heat/",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": 8.0,
+      "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-dreame-h15-pro-heat-sans-fil-qui-lave-les-sols-a-85/",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-dreame-h15-pro-heat.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-aspirateur-laveur-dreame-h15-pro-nouvelle-technologie-pour-un-tarif-demesure/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/dreame-h15-pro-wet-and-dry-vacuum-cleaner",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/dreame/2720345_test-des-dreame-h15-pro-et-h15-pro-heat-fort-potentiel-mais-imparfaits",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h15-pro-heat-p76915/test.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/dreame-h15-pro-heat",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/dreame-h15-pro-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dreame-h15-pro-test-nass-trocken-sauger-selbstreinigend-3208111.html",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/hardware/nass-trocken-sauger-dreame-h15-im-pctipp-test-2977589.html",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": null,
+      "url": "https://www.tomsguide.com/home/home-appliances/dreame-h15-pro-heat-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 339.0,
+   "img": "dreame-h15-pro.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dreame-h12-pro": {
+   "cat": "s-aspirateur-laveur",
+   "short": "Dreame H12 Pro",
+   "ref": "Rouleau bord à bord · séchage",
+   "badge": "Le mieux noté",
+   "verdict": "Le balai laveur le mieux noté et l'un des moins chers : nettoyage intelligent bord à bord et séchage de la brosse ; lourd.",
+   "strengths": [
+    "Rouleau bord à bord",
+    "Autonettoyage et séchage de la brosse",
+    "Mode électrolyse pour la désinfection"
+   ],
+   "weak": [
+    "Recharge un peu longue",
+    "Appareil lourd et peu maniable",
+    "Tête de lavage imposante"
+   ],
+   "m": [
+    "Bord à bord",
+    "Séchage air chaud"
+   ],
+   "id": "dreame-h12-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 189.0,
+     "url": "https://www.amazon.fr/dp/B0BJVN2LH7?tag=geekconcept-21",
+     "name": "Dreame H12 Pro aspirateur laveur sans fil",
+     "cfg": "",
+     "asin": "B0BJVN2LH7"
+    }
+   ],
+   "press": {
+    "avg": 8.414285714285715,
+    "n": 7,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechTest",
+      "score": 9.6,
+      "url": "https://techtest.org/der-dreame-h12-pro-im-test-eine-herausragende-putzleistung-und-besser-als-tineco/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.3,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-h12-pro/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-dreame-h12-pro/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Dreame-H12-Pro-im-Test_185311651.html",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-dreame-h12-pro-laspirateur-laveur-quil-vous-faut/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-dreame-h12-pro-aspirateur-balai-nettoyeur-intelligent-s-p73418/test.html",
+      "date": ""
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.0,
+      "url": "https://www.maison-et-domotique.com/140521-test-dreame-h12-pro/",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.chinahandys.net/dreame-h12-pro-nass-und-trockensauger-im-test-ein-neuer-koenig-sitzt-auf-dem-thron/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dreame-h12-pro-vs-proscenic-f20-test-nass-trocken-sauger-3203229.html",
+      "date": ""
+     },
+     {
+      "src": "Mac Sources",
+      "score": null,
+      "url": "https://macsources.com/dreame-h12-pro-flexreach-vacuum-review/",
+      "date": ""
+     },
+     {
+      "src": "Tech Jio",
+      "score": null,
+      "url": "https://techjioblog.com/2022/11/04/dreame-h12-pro-vs-dreame-m12/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/dreame-h12-pro",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2023/11/11/test-le-nettoyeur-de-sol-dreame-h12-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 189.0,
+   "img": "dreame-h12-pro.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dreame-h14": {
+   "cat": "s-aspirateur-laveur",
+   "short": "Dreame H14",
+   "ref": "Pose à plat 180°",
+   "badge": "Le bon compromis",
+   "verdict": "Un balai laveur Dreame abordable, très bon nettoyage et pose à plat, mais autonomie limitée.",
+   "strengths": [
+    "Excellentes performances de nettoyage",
+    "Se couche à 180° sous les meubles",
+    "Intégration à l'application"
+   ],
+   "weak": [
+    "Autonomie limitée",
+    "Poids conséquent",
+    "Tarif jugé élevé par certains"
+   ],
+   "m": [
+    "Pose à plat 180°",
+    "Autonettoyant"
+   ],
+   "id": "dreame-h14",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 229.0,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fnettoyeur-de-sols-dreame-h14.html",
+     "name": "Aspirateur Laveur Dreame H14",
+     "cfg": "",
+     "ean": "6976233676067",
+     "edid": "10019413"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 5,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-dreame-h14-pro/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/test/2432232_test-du-dreame-h14-pro-un-aspirateur-laveur-puissant-qui-nettoie-meme-sous-les-meubles",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-dreame-h14-pro-laspirateur-balai-qui-se-distingue/",
+      "date": ""
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.0,
+      "url": "https://www.maison-et-domotique.com/149472-test-dreame-h14-pro/",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 8.0,
+      "url": "https://techtest.org/dreame-h14-pro-test-der-beste-waschsauger-fuer-hartboeden-tierhaare/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/dreame-h14",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/dreame-h14-pro-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": null,
+      "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/dreame-h14-pro-im-test_2faf77a2-6185-4c3e-a743-ec544866d4a3.html",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": null,
+      "url": "https://geekculture.co/dreame-h14-ultra-vacuum-cleaner-review/",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2024/09/06/test-dreame-h14-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 229.0,
+   "img": "dreame-h14.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "tineco-floor-one-s7-pro": {
+   "cat": "s-aspirateur-laveur",
+   "short": "Tineco Floor One S7 Pro",
+   "ref": "Auto-propulsion",
+   "badge": "L'auto-propulsé",
+   "verdict": "Un balai laveur à auto-propulsion qui rend le nettoyage sans effort ; petit réservoir et autonomie courte.",
+   "strengths": [
+    "Forte aspiration et lavage à la serpillière",
+    "Auto-propulsion, nettoyage sans effort",
+    "Plusieurs modes selon l'usage"
+   ],
+   "weak": [
+    "Réservoir d'eau de 0,85 L",
+    "Réservoir d'eau sale à vider et rincer après chaque usage",
+    "Autonomie de 40 minutes"
+   ],
+   "m": [
+    "Auto-propulsion",
+    "Autonettoyant"
+   ],
+   "id": "tineco-floor-one-s7-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 249.99,
+     "url": "https://www.amazon.fr/dp/B088H28VPM?tag=geekconcept-21",
+     "name": "Tineco Floor One S7 Pro aspirateur laveur sans fil",
+     "cfg": "",
+     "asin": "B088H28VPM"
+    }
+   ],
+   "press": {
+    "avg": 8.049999999999999,
+    "n": 6,
+    "tests": 11,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechTest",
+      "score": 9.3,
+      "url": "https://techtest.org/waschsauger-sind-ein-must-have-tineco-floor-one-s7-pro-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/tineco-floor-one-s7-pro/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-tineco-floor-one-s7-pro/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/home/vacuums/tineco-floor-one-s7-pro-review-keeping-my-apartment-dirt-litter-and-pet-hair-free",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (FR)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.fr/test-tineco-floor-one-s7-pro-le-plus-tech-des-aspirateurs-balais-laveurs-est-il-pour-autant-le-plus-efficace/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Tineco-Floor-One-S7-Pro-im-Test_185348639.html",
+      "date": ""
+     },
+     {
+      "src": "Generation-NT",
+      "score": null,
+      "url": "https://www.generation-nt.com/tests/test-tineco-floor-one-s7-pro-2032408",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": null,
+      "url": "https://www.neozone.org/tests/tineco-floor-one-s7-pro-le-meilleur-aspirateur-balai-laveur-de-2024-notre-avis-apres-un-test-complet/",
+      "date": ""
+     },
+     {
+      "src": "ObjetConnecte.net",
+      "score": null,
+      "url": "https://technplay.com/test-tineco-floor-one-s7-pro-un-menage-presque-sans-effort/",
+      "date": ""
+     },
+     {
+      "src": "PC Magazin",
+      "score": null,
+      "url": "https://www.connect-living.de/testbericht/tineco-floor-one-s7-pro-test-review-nass-und-trockensauger-3205055.html",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2024/03/29/test-le-floor-one-s7-pro-de-tineco/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 249.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "tineco-floor-one-s9-artist": {
+   "cat": "s-aspirateur-laveur",
+   "short": "Tineco Floor One S9 Artist",
+   "ref": "22 000 Pa · design",
+   "badge": "Le plus élégant",
+   "verdict": "Un balai laveur à très bonne aspiration et entretien facile, mais au prix très élevé.",
+   "strengths": [
+    "Design élégant",
+    "Très bonne aspiration et très bon nettoyage",
+    "Entretien facile"
+   ],
+   "weak": [
+    "Prix très élevé",
+    "Un peu lourd à la longue",
+    "Bouton de réglage au fonctionnement confus"
+   ],
+   "m": [
+    "22 000 Pa",
+    "Autonettoyant"
+   ],
+   "id": "tineco-floor-one-s9-artist",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 429.99,
+     "url": "https://www.amazon.fr/dp/B0DPP6C5YP?tag=geekconcept-21",
+     "name": "Tineco Floor One S9 Artist aspirateur laveur sans fil",
+     "cfg": "",
+     "asin": "B0DPP6C5YP"
+    }
+   ],
+   "press": {
+    "avg": 8.0125,
+    "n": 8,
+    "tests": 16,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.1,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/tineco-floor-one-station-s9-artist/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-568899-test-tineco-floor-one-s9-artist.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/test/2750127_test-du-tineco-floor-one-s9-artist-il-aspire-et-lave-passe-a-plat-a-180-et-seche-tout-seul",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Tineco-Floor-One-S9-Artist-Premium-im-Test_186088996.html",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/tineco-floor-one-s9-artist-quand-laspirateur-laveur-se-prend-pour-une-oeuvre-dart/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-tineco-floor-one-s9-artist-steam-pro-le-nettoyeur-vapeur-qui-change-vraiment-le-quotidien/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": 7.0,
+      "url": "https://www.tomsguide.com/home/home-appliances/tineco-floor-one-s9-artist-pro-review",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 6.0,
+      "url": "https://www.presse-citron.net/test-tineco-floor-one-s9-artist/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/tineco-floor-one-s9-artist",
+      "date": ""
+     },
+     {
+      "src": "BeGeek",
+      "score": null,
+      "url": "https://www.begeek.fr/test/test-tineco-floor-one-s9-artist-aspirateur-laveur-416492",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/tineco-floor-one-s9-artist-steam-pro-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/tineco-floor-one-s9-test-3213021.html",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": null,
+      "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-lavant-tineco-floor-one-s9-artist/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Schicker-Wischsauger-laesst-sich-Flachlegen-Tineco-Floor-One-S9-Artist-im-Praxis-Test.1023904.0.html",
+      "date": ""
+     },
+     {
+      "src": "ObjetConnecte.net",
+      "score": null,
+      "url": "https://technplay.com/test-tineco-floor-one-s9-steam-artist-pro/",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/05/30/test-aspirateur-laveur-floor-one-s9-artist-de-tineco/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 429.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "mova-m50-ultra": {
+   "cat": "s-aspirateur-laveur",
+   "short": "Mova M50 Ultra",
+   "ref": "Manche pliable · station séchage",
+   "badge": "Le manche pliable",
+   "verdict": "Un balai laveur à manche pliable et extensible, aspiration puissante et station à séchage rapide ; moins testé.",
+   "strengths": [
+    "Manche pliable et extensible inédit",
+    "Aspiration puissante, lavage efficace",
+    "Station d'accueil avec séchage rapide"
+   ],
+   "weak": [
+    "Pas de lavage du sol à l'eau chaude",
+    "Niveau sonore perfectible",
+    "Pas de phare LED"
+   ],
+   "m": [
+    "22 000 Pa",
+    "Station séchage"
+   ],
+   "id": "mova-m50-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 322.0,
+     "url": "https://www.amazon.fr/dp/B0FM3HH8NG?tag=geekconcept-21",
+     "name": "Mova M50 Ultra aspirateur laveur sans fil",
+     "cfg": "",
+     "asin": "B0FM3HH8NG"
+    }
+   ],
+   "press": {
+    "avg": 7.75,
+    "n": 4,
+    "tests": 8,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 8.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-m50-ultra-test/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/test/2820001_test-mova-m50-ultra",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-mova-m50-ultra-laspirateur-laveur-qui-veut-reinventer-lentretien-quotidien/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/mova-m50-ultra-p77258/test.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/mova-m50-ultra",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": null,
+      "url": "https://charlestech.fr/test-mova-m50-ultra/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/mova-m50-ultra-test-nass-trockensauger-selbstreinigung-3210737.html",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/10/02/test-aspirateur-laveur-m50-ultra-de-mova/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 322.0,
+   "img": "mova-m50-ultra.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "roborock-s8-maxv-ultra": {
+   "cat": "s-robot-animaux",
+   "short": "Roborock S8 MaxV Ultra",
+   "ref": "10 000 Pa · station 8 en 1",
+   "badge": "Le choix de la bande",
+   "verdict": "Le robot le mieux noté de la sélection : aspiration quasi parfaite et station multifonction compacte ; prix élevé.",
+   "strengths": [
+    "Aspiration puissante",
+    "Station multifonction compacte avec réservoir de produit nettoyant",
+    "Puissance d'aspiration quasi parfaite"
+   ],
+   "weak": [
+    "Prix élevé, jugé justifié",
+    "Progrès à faire dans les coins",
+    "Détecte mal les petits obstacles"
+   ],
+   "m": [
+    "10 000 Pa",
+    "Station 8 en 1"
+   ],
+   "id": "roborock-s8-maxv-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1299.0,
+     "url": "https://www.amazon.fr/dp/B0CRV7F37B?tag=geekconcept-21",
+     "name": "Roborock S8 MaxV Ultra robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0CRV7F37B"
+    }
+   ],
+   "press": {
+    "avg": 8.916666666666666,
+    "n": 12,
+    "tests": 17,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "AndroidPit",
+      "score": 10.0,
+      "url": "https://www.nextpit.fr/roborock-s8-maxv-ultra-test-complet-aspirateur",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": 10.0,
+      "url": "https://www.lbtechreviews.com/test/smart-home/roborock-s8-maxv-ultra",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-s8-maxv-ultra-p74442/test.html",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": 10.0,
+      "url": "https://www.techadvisor.com/article/2346337/roborock-s8-maxv-ultra-review-2.html",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 9.0,
+      "url": "https://charlestech.fr/test-roborock-s8-maxv-ultra/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/roborock/1976452_test-du-roborock-s8-maxv-ultra-le-robot-ultime-pour-des-sols-impeccables",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-roborock-s8-maxv-ultra-le-plus-complet-et-intelligent-de-lexcellente-gamme-s8/",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 9.0,
+      "url": "https://www.phonandroid.com/test-roborock-s8-maxv-ultra.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Roborock-S8-MaxV-Ultra-im-Test_185273658.html",
+      "date": ""
+     },
+     {
+      "src": "GameSpace",
+      "score": 8.0,
+      "url": "https://www.gamespace.com/reviews/tech-reviews/just-fun-tech-roborock-s8-maxv-ultra-review/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-du-roborock-s8-maxv-ultra-le-robot-aspirateur-ultime-a-un-prix-eleve/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 7.0,
+      "url": "https://www.presse-citron.net/test-roborock-s8-max-v-ultra/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/roborock-s8-maxv-ultra",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home/roborock-s8-maxv-ultra-review/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/s8-maxv-ultra",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/roborock-s8-maxv-ultra",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2024/05/30/test-roborock-s8-maxv-ultra-suprematie-absolue/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1299.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "dreame-l20-ultra": {
+   "cat": "s-robot-animaux",
+   "short": "Dreame L20 Ultra",
+   "ref": "7 000 Pa · retrait des patins",
+   "badge": "Le meilleur rapport",
+   "verdict": "Un robot à navigation efficace et excellente aspiration, qui relève ses patins sur les tapis ; encombrant.",
+   "strengths": [
+    "Navigation efficace",
+    "À l'aise dans les environnements encombrés",
+    "Retrait automatique des patins sur les tapis"
+   ],
+   "weak": [
+    "Encombrement conséquent",
+    "Voit parfois des obstacles inexistants",
+    "Filtre HEPA à nettoyer régulièrement"
+   ],
+   "m": [
+    "7 000 Pa",
+    "Station Ultra"
+   ],
+   "id": "dreame-l20-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 689.0,
+     "url": "https://www.amazon.fr/dp/B0CF1R9BCQ?tag=geekconcept-21",
+     "name": "Dreame L20 Ultra robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0CF1R9BCQ"
+    }
+   ],
+   "press": {
+    "avg": 8.549999999999999,
+    "n": 12,
+    "tests": 17,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 9.6,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l20-ultra-p73869/test.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 9.0,
+      "url": "https://www.nextpit.fr/dreame-l20-ultra-test-complet",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-l20-ultra/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 9.0,
+      "url": "https://charlestech.fr/test-dreame-l20-ultra/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-dreame-l20-ultra-laspirateur-robot-ultime-haut-de-gamme/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (FR)",
+      "score": 9.0,
+      "url": "https://www.tomsguide.fr/test-dreame-l20-ultra-cet-aspirateur-robot-est-le-nouveau-messie-des-taches-menageres/",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/test-aspirateur-robot-laveur-dreame-l20-ultra-nouveau-fer-de-lance-ingenieux-de-dreame/",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": 8.0,
+      "url": "https://www.neozone.org/tests/dreame-l20-ultra-sans-aucun-doute-le-meilleur-robot-aspirateur-laveur-de-2023-test-et-avis/",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-dreame-l20.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-dreame-l20-ultra/",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": 8.0,
+      "url": "https://www.techadvisor.com/article/2057390/dreamebot-l20-ultra-review.html",
+      "date": ""
+     },
+     {
+      "src": "Tech Jio",
+      "score": 8.0,
+      "url": "https://techjioblog.com/2023/08/26/review-dreame-l20-ultra-robot-vacuum/",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.chinahandys.net/dreame-l20-ultra-im-test/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": null,
+      "url": "https://www.frandroid.com/marques/dreame/1791965_test-du-dreame-l20-ultra-un-robot-aspirateur-laveur-complet-mais-complexe",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/dreame-l20-ultra-test-saugroboter-staubsaugerroboter-funktionen/402659612",
+      "date": ""
+     },
+     {
+      "src": "PC Magazin",
+      "score": null,
+      "url": "https://www.connect-living.de/testbericht/dreame-bot-l20-ultra-test-saug-wisch-roboter-schwenkbarer-mopp-vollautomatische-basis-3206004.html",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/home/robot-vacuums/dreame-l20-ultra-review-a-super-powered-robot-vacuum-at-a-substantial-price",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 689.0,
+   "img": "dreame-l20-ultra.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "roborock-qrevo-maxv": {
+   "cat": "s-robot-animaux",
+   "short": "Roborock Qrevo MaxV",
+   "ref": "Station complète · détection d'obstacles",
+   "badge": "Le plus abordable",
+   "verdict": "Un robot bien noté dont l'entretien est automatisé, avec une application très complète ; station imposante.",
+   "strengths": [
+    "Principales tâches d'entretien automatisées",
+    "Application très complète",
+    "Détection d'obstacles efficace"
+   ],
+   "weak": [
+    "Station imposante",
+    "Aspiration moins efficace sur tapis à poils longs",
+    "Plusieurs passages pour les taches incrustées"
+   ],
+   "m": [
+    "Détection d'obstacles",
+    "Station complète"
+   ],
+   "id": "roborock-qrevo-maxv",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 609.0,
+     "url": "https://www.amazon.fr/dp/B0CZH7B4QX?tag=geekconcept-21",
+     "name": "Roborock Qrevo MaxV robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0CZH7B4QX"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 6,
+    "tests": 11,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "CharlesTech",
+      "score": 9.0,
+      "url": "https://charlestech.fr/test-roborock-qrevo-maxv/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/roborock/1954978_test-des-roborock-q-revo-maxv-et-q-revo-pro-excellent-rapport-qualite-prix-et-nettoyage-minutieux",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-q-revo-maxv-p74448/test.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Roborock-Qrevo-MaxV-Test_185183802.html",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-roborock-qrevo-maxv-2.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-roborock-qrevo-maxv/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/roborock-qrevo-maxv",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.chinahandys.net/roborock-q-revo-maxv-saugroboter-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": null,
+      "url": "https://www.journaldugeek.com/test/test-du-roborock-qrevo-maxv-le-robot-qui-democratise-des-technologies-phares-de-la-marque/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Roborock-Qrevo-MaxV-Saugroboter-im-Praxis-Test-Jetzt-faehrt-auch-Roborock-den-Wischmopp-aus.809365.0.html",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2024/04/19/test-laspirateur-robot-roborock-qrevo-maxv/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 609.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "mova-v70-ultra": {
+   "cat": "s-robot-animaux",
+   "short": "Mova V70 Ultra",
+   "ref": "Vadrouille extensible · marches 4,5 cm",
+   "badge": "Le franchisseur",
+   "verdict": "Un robot à vadrouille extensible et franchissement de marches, station sans sac ; prix élevé.",
+   "strengths": [
+    "Vadrouille extensible qui atteint 16 cm sous les meubles",
+    "Franchit des marches jusqu'à 4,5 cm (9 cm en transitions composées)",
+    "Station sans sac, bac à poussière lavable"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Petit rouleau avant qui ramasse encore des poils",
+    "Détection d'obstacles prise en défaut sur un support plat"
+   ],
+   "m": [
+    "40 000 Pa",
+    "Station sans sac"
+   ],
+   "id": "mova-v70-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 948.0,
+     "url": "https://www.amazon.fr/dp/B0GXW3NHKY?tag=geekconcept-21",
+     "name": "Mova V70 Ultra Complete robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0GXW3NHKY"
+    }
+   ],
+   "press": {
+    "avg": 8.27142857142857,
+    "n": 7,
+    "tests": 11,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.4,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 9.0,
+      "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/test/3152403_test-du-mova-v70-ultra-enfin-un-robot-aspirateur-laveur-qui-nettoie-les-moindres-recoins",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.5,
+      "url": "https://www.journaldugeek.com/test/test-du-mova-lidax-ultra-1200-votre-jardin-merite-mieux-quun-robot-aveugle/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-619483-test-mova-v70-ultra-complete.html",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": 8.0,
+      "url": "https://www.neozone.org/tests/jai-teste-le-mova-v70-ultra-complete-un-robot-aspirateur-dote-dune-aspiration-de-40-000-pa/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (FR)",
+      "score": 6.0,
+      "url": "https://www.tomsguide.fr/test-mova-v70-ultra-complete-un-robot-aspirateur-qui-va-dans-tous-les-petits-coins/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/mova-v70-ultra-complete-testbericht-3212630.html",
+      "date": ""
+     },
+     {
+      "src": "Gear Diary",
+      "score": null,
+      "url": "https://geardiary.com/2026/08/31/mova-v70-ultra-complete-review/",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/lifestyle/home/mova-v70-ultra-complete-robot-vacuum-eview",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 948.0,
+   "img": "mova-v70-ultra.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "dji-romo-p2": {
+   "cat": "s-robot-animaux",
+   "short": "DJI Romo P2",
+   "ref": "36 000 Pa · jambes robotisées",
+   "badge": "Le plus innovant",
+   "verdict": "Un robot très bien noté, qui franchit des obstacles de 8,5 cm et lave sous les meubles ; tarif premium.",
+   "strengths": [
+    "Cartographie et évitement d'obstacles de très haut niveau",
+    "Franchit jusqu'à 8,5 cm",
+    "Bras oscillant qui lave sous les meubles et le long des plinthes"
+   ],
+   "weak": [
+    "Tarif premium",
+    "Design transparent qui ne fera pas l'unanimité",
+    "Assistant vocal indisponible dans certains pays au lancement"
+   ],
+   "m": [
+    "36 000 Pa",
+    "Station complète"
+   ],
+   "id": "dji-romo-p2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1199.0,
+     "url": "https://www.amazon.fr/dp/B0H8DJ99LD?tag=geekconcept-21",
+     "name": "DJI ROMO P2 robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0H8DJ99LD"
+    }
+   ],
+   "press": {
+    "avg": 8.816666666666666,
+    "n": 6,
+    "tests": 9,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 9.6,
+      "url": "https://www.frandroid.com/test/3230511_test-dji-romo-p2",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 9.3,
+      "url": "https://techtest.org/dji-romo-p2-im-test-2026-36-000-pa-und-die-beste-teppichreinigung/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-romo-p2/",
+      "date": ""
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 9.0,
+      "url": "https://www.maison-et-domotique.com/173496-test-dji-romo-p2-robot-laveur/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/dji-romo-p2",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/test-romo-p2-dji-corrige-le-seul-vrai-defaut-de-son-robot-aspirateur-et-ca-change-tout/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dji-romo-p2-test-3213594.html",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dji-romo-p2-p78793/test.html",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/DJI-hat-es-wieder-getan-Saugroboter-DJI-Romo-2-im-Test.1411937.0.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1199.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0
+  },
+  "narwal-flow-2": {
+   "cat": "s-robot-animaux",
+   "short": "Narwal Flow 2",
+   "ref": "31 000 Pa · rouleaux de lavage",
+   "badge": "Le lavage par rouleau",
+   "verdict": "Un robot à très forte aspiration et rouleaux de lavage à la place des tampons ; auto-nettoyage de la base perfectible.",
+   "strengths": [
+    "31 000 Pa de puissance d'aspiration",
+    "Rouleaux de lavage à la place des tampons",
+    "Détection d'obstacles Narmind 2.0"
+   ],
+   "weak": [
+    "Brosse latérale non rétractable",
+    "Auto-nettoyage de la base jugé insuffisant",
+    "Franchissement de seuils élevés limité"
+   ],
+   "m": [
+    "31 000 Pa",
+    "Station FlowWash"
+   ],
+   "id": "narwal-flow-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1038.05,
+     "url": "https://www.amazon.fr/dp/B0GRHDJBQ6?tag=geekconcept-21",
+     "name": "Narwal Flow 2 robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0GRHDJBQ6"
+    }
+   ],
+   "press": {
+    "avg": 8.383333333333333,
+    "n": 12,
+    "tests": 17,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechTest",
+      "score": 9.6,
+      "url": "https://techtest.org/narwal-flow-2-test-2026-neuer-koenig-unter-den-saugrobotern/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 9.0,
+      "url": "https://www.smartworld.it/recensioni/narwal-flow-2",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/narwal-flow-2-review/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/jai-teste-le-narwal-flow-2-le-plus-intelligent-des-aspirateurs-robots/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-narwal-flow-2-avis.html",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/jai-teste-le-narwal-flow-2-laspirateur-robot-qui-lave-et-apprend-avec-lia/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/narwal-flow-2-im-test_085b82f1-a4f4-4b5e-b28f-e6997cd1f7bd.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/test/3089181_test-du-narwal-flow-2-une-serpilliere-a-chenille-pour-un-nettoyage-complet",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/test-aspirateur-robot-narwal-flow-2-le-lavage-des-sols-au-rouleau-une-affaire-qui-roule/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-narwal-flow-2-un-robot-aspirateur-laveur-qui-donne-chaud/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/narwal-flow-2",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-narwal-flow-2-il-robot-lavapavimenti-che-punta-su-pulizia-profonda-intelligenza-e-continuita",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/narwal-flow-2-test-saug-wisch-roboter-walze-3212287.html",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/der-narwal-flow-2-ist-der-beste-saugroboter-des-herstellers-aber-reicht-das-noch,3451713.html",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": null,
+      "url": "https://www.neozone.org/tests/mon-test-du-narwal-flow-2-un-aspirateur-robot-laveur-puissant-mais-un-petit-peu-bruyant/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2026/06/20/test-narwal-flow-2/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1038.05,
+   "img": "narwal-flow-2.webp",
+   "rating": null,
+   "nrev": 0
   }
  },
  "prix_date": "octobre 2026",

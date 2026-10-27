@@ -249,7 +249,7 @@ def rank_key(d):
 
 by_cat = {k: sorted([d for d in ITEMS.values() if d["cat"] == k], key=rank_key) for k in CAT}
 for k in CAT:
-    assert len(by_cat[k]) == 10, k
+    assert len(by_cat[k]) == 10 or k[:2] == "s-", k
     for i, d in enumerate(by_cat[k], 1):   # « le choix de la bande » rétrogradé faute de notes : badge honnête
         d["badge"] = badge_affiche(d["badge"], i)
 

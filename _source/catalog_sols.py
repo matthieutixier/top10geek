@@ -282,3 +282,6 @@ SOLS["ecovacs-deebot-x11"] = S("s-robot-laveur", 'Ecovacs Deebot X11', 'Station 
     eviter='Vous attendez une application très intuitive ou un prix contenu.', scope='gamme',
     ed=None)
 
+# usages « Aspirateurs balais », « Balais laveurs » et « Animaux » (27/10/2026)
+import catalog_usages
+SOLS.update(catalog_usages.build())
