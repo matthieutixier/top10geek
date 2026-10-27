@@ -1184,226 +1184,6 @@
    }
   ]
  },
- "Roborock S8 MaxV Ultra": {
-  "source": "https://www.commentchoisir.fr/test-Roborock_S8+MaxV+Ultra.htm",
-  "tests": [
-   {
-    "media": "AndroidPit",
-    "note10": 10.0,
-    "date": "09/04/2024",
-    "url": "https://www.nextpit.fr/roborock-s8-maxv-ultra-test-complet-aspirateur"
-   },
-   {
-    "media": "Tech Advisor",
-    "note10": 10.0,
-    "date": "04/06/2024",
-    "url": "https://www.techadvisor.com/article/2346337/roborock-s8-maxv-ultra-review-2.html"
-   },
-   {
-    "media": "L&B Tech",
-    "note10": 10.0,
-    "date": "10/06/2024",
-    "url": "https://www.lbtechreviews.com/test/smart-home/roborock-s8-maxv-ultra"
-   },
-   {
-    "media": "Les Numériques",
-    "note10": 10.0,
-    "date": "25/06/2024",
-    "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-s8-maxv-ultra-p74442/test.html"
-   },
-   {
-    "media": "PhonAndroid",
-    "note10": 9.0,
-    "date": "09/07/2024",
-    "url": "https://www.phonandroid.com/test-roborock-s8-maxv-ultra.html"
-   },
-   {
-    "media": "FrAndroid",
-    "note10": 9.0,
-    "date": "26/04/2024",
-    "url": "https://www.frandroid.com/marques/roborock/1976452_test-du-roborock-s8-maxv-ultra-le-robot-ultime-pour-des-sols-impeccables"
-   },
-   {
-    "media": "CharlesTech",
-    "note10": 9.0,
-    "date": "24/10/2024",
-    "url": "https://charlestech.fr/test-roborock-s8-maxv-ultra/"
-   },
-   {
-    "media": "Journal du Geek",
-    "note10": 9.0,
-    "date": "05/08/2024",
-    "url": "https://www.journaldugeek.com/test/test-roborock-s8-maxv-ultra-le-plus-complet-et-intelligent-de-lexcellente-gamme-s8/"
-   },
-   {
-    "media": "Journal du Geek",
-    "note10": 9.0,
-    "date": "18/03/2025",
-    "url": "https://www.journaldugeek.com/test/test-du-roborock-saros-10-digne-successeur-du-s8-maxv-ultra-qui-evolue-dans-la-continuite/"
-   },
-   {
-    "media": "GameSpace",
-    "note10": 8.0,
-    "date": "06/05/2024",
-    "url": "https://www.gamespace.com/reviews/tech-reviews/just-fun-tech-roborock-s8-maxv-ultra-review/"
-   },
-   {
-    "media": "Chip.de",
-    "note10": 8.0,
-    "date": "19/05/2024",
-    "url": "https://www.chip.de/test/Roborock-S8-MaxV-Ultra-im-Test_185273658.html"
-   },
-   {
-    "media": "LeCafeDuGeek",
-    "note10": 8.0,
-    "date": "17/06/2024",
-    "url": "https://lecafedugeek.fr/test-du-roborock-s8-maxv-ultra-le-robot-aspirateur-ultime-a-un-prix-eleve/"
-   },
-   {
-    "media": "Presse Citron",
-    "note10": 7.0,
-    "date": "18/06/2024",
-    "url": "https://www.presse-citron.net/test-roborock-s8-max-v-ultra/"
-   },
-   {
-    "media": "RTings",
-    "note10": null,
-    "date": "26/02/2025",
-    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/s8-maxv-ultra"
-   },
-   {
-    "media": "DigitalTrends",
-    "note10": null,
-    "date": "19/04/2024",
-    "url": "https://www.digitaltrends.com/home/roborock-s8-maxv-ultra-review/"
-   },
-   {
-    "media": "AndroidWorld",
-    "note10": null,
-    "date": "18/04/2024",
-    "url": "https://www.smartworld.it/recensioni/roborock-s8-maxv-ultra"
-   },
-   {
-    "media": "Vonguru",
-    "note10": null,
-    "date": "30/05/2024",
-    "url": "https://vonguru.fr/2024/05/30/test-roborock-s8-maxv-ultra-suprematie-absolue/"
-   },
-   {
-    "media": "Trusted Reviews",
-    "note10": null,
-    "date": "03/06/2024",
-    "url": "https://www.trustedreviews.com/reviews/roborock-s8-maxv-ultra"
-   }
-  ]
- },
- "Dreame L20 Ultra": {
-  "source": "https://www.commentchoisir.fr/test-Dreame_L20+Ultra.htm",
-  "tests": [
-   {
-    "media": "Les Numériques",
-    "note10": 9.6,
-    "date": "23/09/2023",
-    "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l20-ultra-p73869/test.html"
-   },
-   {
-    "media": "Basic Tutorials",
-    "note10": 9.0,
-    "date": "31/08/2023",
-    "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-l20-ultra/"
-   },
-   {
-    "media": "Tom's Guide (FR)",
-    "note10": 9.0,
-    "date": "01/09/2023",
-    "url": "https://www.tomsguide.fr/test-dreame-l20-ultra-cet-aspirateur-robot-est-le-nouveau-messie-des-taches-menageres/"
-   },
-   {
-    "media": "AndroidPit",
-    "note10": 9.0,
-    "date": "01/09/2023",
-    "url": "https://www.nextpit.fr/dreame-l20-ultra-test-complet"
-   },
-   {
-    "media": "CharlesTech",
-    "note10": 9.0,
-    "date": "31/10/2023",
-    "url": "https://charlestech.fr/test-dreame-l20-ultra/"
-   },
-   {
-    "media": "LeCafeDuGeek",
-    "note10": 9.0,
-    "date": "11/12/2023",
-    "url": "https://lecafedugeek.fr/test-dreame-l20-ultra-laspirateur-robot-ultime-haut-de-gamme/"
-   },
-   {
-    "media": "Journal du Geek",
-    "note10": 8.0,
-    "date": "02/01/2024",
-    "url": "https://www.journaldugeek.com/test/test-aspirateur-robot-laveur-dreame-l20-ultra-nouveau-fer-de-lance-ingenieux-de-dreame/"
-   },
-   {
-    "media": "Tech Advisor",
-    "note10": 8.0,
-    "date": "07/09/2023",
-    "url": "https://www.techadvisor.com/article/2057390/dreamebot-l20-ultra-review.html"
-   },
-   {
-    "media": "Tech Jio",
-    "note10": 8.0,
-    "date": "26/08/2023",
-    "url": "https://techjioblog.com/2023/08/26/review-dreame-l20-ultra-robot-vacuum/"
-   },
-   {
-    "media": "Presse Citron",
-    "note10": 8.0,
-    "date": "10/09/2023",
-    "url": "https://www.presse-citron.net/test-dreame-l20-ultra/"
-   },
-   {
-    "media": "PhonAndroid",
-    "note10": 8.0,
-    "date": "13/10/2023",
-    "url": "https://www.phonandroid.com/test-dreame-l20.html"
-   },
-   {
-    "media": "Neozone",
-    "note10": 8.0,
-    "date": "06/11/2023",
-    "url": "https://www.neozone.org/tests/dreame-l20-ultra-sans-aucun-doute-le-meilleur-robot-aspirateur-laveur-de-2023-test-et-avis/"
-   },
-   {
-    "media": "TechRadar",
-    "note10": null,
-    "date": "08/11/2023",
-    "url": "https://www.techradar.com/home/robot-vacuums/dreame-l20-ultra-review-a-super-powered-robot-vacuum-at-a-substantial-price"
-   },
-   {
-    "media": "PC Magazin",
-    "note10": null,
-    "date": "01/09/2023",
-    "url": "https://www.connect-living.de/testbericht/dreame-bot-l20-ultra-test-saug-wisch-roboter-schwenkbarer-mopp-vollautomatische-basis-3206004.html"
-   },
-   {
-    "media": "FrAndroid",
-    "note10": null,
-    "date": "16/09/2023",
-    "url": "https://www.frandroid.com/marques/dreame/1791965_test-du-dreame-l20-ultra-un-robot-aspirateur-laveur-complet-mais-complexe"
-   },
-   {
-    "media": "Future Zone",
-    "note10": null,
-    "date": "11/11/2023",
-    "url": "https://futurezone.at/produkte/dreame-l20-ultra-test-saugroboter-staubsaugerroboter-funktionen/402659612"
-   },
-   {
-    "media": "ChinaHandys",
-    "note10": null,
-    "date": "04/02/2024",
-    "url": "https://www.chinahandys.net/dreame-l20-ultra-im-test/"
-   }
-  ]
- },
  "Roborock QRevo MaxV": {
   "source": "https://www.commentchoisir.fr/test-Roborock_QRevo+MaxV.htm",
   "tests": [
@@ -1744,6 +1524,190 @@
     "note10": null,
     "date": "22/05/2025",
     "url": "https://www.smartworld.it/recensioni/rowenta-x-force-flex-14-80"
+   }
+  ]
+ },
+ "Roborock Saros 10R": {
+  "source": "https://www.commentchoisir.fr/test-Roborock_Saros+10R.htm",
+  "tests": [
+   {
+    "media": "Basic Tutorials",
+    "note10": 8.0,
+    "date": "16/02/2025",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-saros-10r-test/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "date": "30/03/2025",
+    "url": "https://www.frandroid.com/test/2541115_test-roborock-saros-10r"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 8.0,
+    "date": "08/05/2025",
+    "url": "https://lecafedugeek.fr/test-roborock-saros-10r-robot-aspirateur-qui-veut-tout-faire-et-qui-y-arrive-presque/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "date": "26/05/2025",
+    "url": "https://www.chip.de/test/roborock-saros-10r-im-test_339895"
+   },
+   {
+    "media": "tuttoteK",
+    "note10": 7.0,
+    "date": "27/05/2025",
+    "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-roborock-saros-10r-stile-e-tecnologia-da-vendere"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "date": "15/05/2025",
+    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "date": "07/02/2025",
+    "url": "https://www.digitaltrends.com/home/roborock-saros-10r-review/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "date": "20/02/2025",
+    "url": "https://www.trustedreviews.com/reviews/roborock-saros-10r"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "date": "21/02/2025",
+    "url": "https://www.connect.de/testbericht/roborock-saros-10r-test-saug-wisch-roboter-selbstreinigend-flach-hohe-saugkraft-3208478.html"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "date": "03/03/2025",
+    "url": "https://www.notebookcheck.com/Roborock-Saros-10R-Test-StarSight-Saugroboter-ist-ultraflach-und-richtig-gut.962122.0.html"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "date": "07/03/2025",
+    "url": "https://www.notebookcheck.com/Roborock-Saros-10-vs-Saros-10R-Vergleich-Welcher-ist-der-bessere-Flaggschiff-Saugroboter.971137.0.html"
+   },
+   {
+    "media": "AndroidWorld",
+    "note10": null,
+    "date": "06/03/2025",
+    "url": "https://www.smartworld.it/recensioni/roborock-saros-10r"
+   },
+   {
+    "media": "Vonguru",
+    "note10": null,
+    "date": "17/03/2025",
+    "url": "https://vonguru.fr/2025/03/17/test-roborock-saros-10r/"
+   },
+   {
+    "media": "Android Headlines",
+    "note10": null,
+    "date": "24/03/2025",
+    "url": "https://www.androidheadlines.com/roborock-saros-10r-ultimate-review"
+   },
+   {
+    "media": "ChinaHandys",
+    "note10": null,
+    "date": "30/03/2025",
+    "url": "https://www.smartzone.de/roborock-saros-10r-test/"
+   },
+   {
+    "media": "KelRobot",
+    "note10": null,
+    "date": "01/04/2026",
+    "url": "https://www.kelrobot.fr/2026/04/01/test-et-avis-de-laspirateur-robot-roborock-saros-10r/"
+   }
+  ]
+ },
+ "Ecovacs Deebot T90 Pro Omni": {
+  "source": "https://www.commentchoisir.fr/test-Ecovacs_Deebot+T90+Pro+Omni.htm",
+  "tests": [
+   {
+    "media": "TechTest",
+    "note10": 9.0,
+    "date": "29/05/2026",
+    "url": "https://techtest.org/ozmo-roller-3-0-und-30-000-pa-der-ecovacs-deebot-t90-pro-omni-im-test/"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 9.0,
+    "date": "12/06/2026",
+    "url": "https://www.journaldugeek.com/test/test-ecovacs-deebot-t90-pro-omni-la-preuve-qua-800-euros-on-peut-avoir-un-lavage-au-top/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "date": "11/08/2026",
+    "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/3208289_test-ecovacs-deebot-t90-pro-omni"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 8.0,
+    "date": "24/04/2026",
+    "url": "https://lecafedugeek.fr/test-ecovacs-deebot-t90-pro-omni-une-nouvelle-reference-du-nettoyage-automatise/"
+   },
+   {
+    "media": "CharlesTech",
+    "note10": 8.0,
+    "date": "04/05/2026",
+    "url": "https://charlestech.fr/test-ecovacs-deebot-t90-pro-omni/"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 6.0,
+    "date": "03/07/2026",
+    "url": "https://www.clubic.com/test-produit-617527-test-ecovacs-deebot-t90-pro-omni.html"
+   },
+   {
+    "media": "ImTest",
+    "note10": null,
+    "date": "02/04/2026",
+    "url": "https://www.imtest.de/einzeltests/ecovacs-deebot-t90-pro-omni-saugroboter-saug-wisch-roboter-test/616460"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "date": "13/03/2026",
+    "url": "https://www.notebookcheck.com/Mittelklasse-Saugroboter-laesst-Flaggschiffe-erblassen-Ecovacs-Deebot-T90-Pro-Omni-im-Test.1245255.0.html"
+   },
+   {
+    "media": "AndroidWorld",
+    "note10": null,
+    "date": "13/03/2026",
+    "url": "https://www.smartworld.it/recensioni/ecovacs-deebot-t90-pro-omni"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "date": "18/03/2026",
+    "url": "https://www.connect.de/testbericht/ecovacs-deebot-t90-pro-omni-test-3212090.html"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": null,
+    "date": "06/04/2026",
+    "url": "https://www.hardwarezone.com.sg/lifestyle/home/ecovacs-deebot-t90-pro-omni-robot-vacuum"
+   },
+   {
+    "media": "PCGamesHardware",
+    "note10": null,
+    "date": "14/04/2026",
+    "url": "https://www.pcgameshardware.de/Saugroboter-Hardware-280626/Tests/Ecovacs-T90-Pro-Omni-Review-Release-1523242/"
+   },
+   {
+    "media": "GeekCulture",
+    "note10": null,
+    "date": "28/06/2026",
+    "url": "https://geekculture.co/ecovacs-deebot-t90-pro-omni-robot-vacuum-cleaner-review/"
    }
   ]
  }

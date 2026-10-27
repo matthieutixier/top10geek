@@ -735,10 +735,6 @@
   "constructeur": "Dreame",
   "source": "https://www.dreametech.com/products/h12-pro-wet-dry-vacuum"
  },
- "dreame-l20-ultra": {
-  "constructeur": "Dreame",
-  "source": "https://www.dreametech.com/products/l20-ultra"
- },
  "mova-m50-ultra": {
   "constructeur": "Mova",
   "source": "https://www.mova.tech/products/mova-m50-ultra-wet-and-dry-vacuum"
@@ -771,10 +767,6 @@
   "constructeur": "Roborock (visuel produit fourni par l'éditeur)",
   "source": "fourni par Matthieu Tixier"
  },
- "roborock-s8-maxv-ultra": {
-  "constructeur": "Roborock (visuel produit fourni par l'éditeur)",
-  "source": "fourni par Matthieu Tixier"
- },
  "dji-romo-p2": {
   "constructeur": "DJI (visuel produit fourni par l'éditeur)",
   "source": "fourni par Matthieu Tixier"
@@ -802,5 +794,13 @@
  "dyson-v11-absolute": {
   "constructeur": "Dyson (visuel produit fourni par l'éditeur)",
   "source": "fourni par Matthieu Tixier"
+ },
+ "roborock-saros-10r": {
+  "constructeur": "Roborock",
+  "source": "https://us.roborock.com/products/roborock-saros-10r"
+ },
+ "ecovacs-deebot-t90-pro-omni": {
+  "constructeur": "Ecovacs",
+  "source": "https://www.ecovacs.com/fr/shop/deebot-robotic-vacuum-cleaner/deebot-t90-pro-omni"
  }
 }

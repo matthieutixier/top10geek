@@ -45,7 +45,7 @@ add("dyson-v11-absolute", BAL, "Dyson V11 Absolute", "Puissance auto · écran d
     ["Aspiration très puissante", "Puissance ajustée automatiquement selon le sol", "Écran d'autonomie restante"],
     ["Une seule batterie", "Prix élevé", "Ne se charge pas pendant l'utilisation"],
     ("Puissance auto", "Sans station"), "Dyson V11 Absolute",
-    "B07Q4FZKNY", "Dyson V11 Absolute aspirateur balai sans fil", 428.99,  # PROVISOIRE (idealo « V11 », 27/10/2026) ; prix à relever (releve.py)
+    "B07Q4FZKNY", "Dyson V11 Absolute aspirateur balai sans fil", 739.0,  # vendeur tiers (relevé Amazon 27/10/2026)
     "Vous voulez un balai très bien noté dont la puissance s'adapte seule au sol.",
     "Vous voulez un modèle récent : les tests portent sur un modèle de 2019 encore commercialisé.", scope="gamme")
 
@@ -54,7 +54,7 @@ add("dyson-v15-detect-absolute", BAL, "Dyson V15 Detect Absolute", "Capteur de p
     ["Brosse anti-enchevêtrement efficace sur les poils d'animaux", "Capteurs acoustique et laser de détection de poussière", "Plus de puissance et meilleure autonomie"],
     ["Prix très élevé", "Capteurs jugés excessifs par certains testeurs"],
     ("Capteur de poussière", "Sans station"), "Dyson V15 Detect Absolute",
-    "B099NLCLZH", "Dyson V15 Detect Absolute aspirateur balai sans fil", 579.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B099NLCLZH", "Dyson V15 Detect Absolute aspirateur balai sans fil", 799.0,  # vendeur tiers (relevé Amazon 27/10/2026)
     "Vous voulez le balai le plus abouti et acceptez un prix premium.",
     "Vous cherchez un modèle à petit prix.", scope="gamme")
 
@@ -63,7 +63,7 @@ add("dyson-v12-detect-slim", BAL, "Dyson V12 Detect Slim", "150 AW · laser · l
     ["Léger", "Aspiration puissante", "Brosse à éclairage intégré"],
     ["Prix élevé", "Capacité et aspiration inférieures à celles du V15"],
     ("150 AW", "Sans station"), "Dyson V12 Detect Slim",
-    "B0BSHHKLFJ", "Dyson V12 Detect Slim Absolute aspirateur balai sans fil", 649.0,  # PROVISOIRE (idealo, modèle 2022, 27/10/2026) ; prix à relever (releve.py)
+    "B0B76XZZDT", "Dyson V12 Detect Slim Absolute aspirateur balai sans fil", 649.0,  # vendeur tiers (relevé Amazon 27/10/2026) ; ancien ASIN B0BSHHKLFJ indisponible
     "Vous voulez un Dyson léger, facile à manier.",
     "Vous avez un grand logement et voulez une grande capacité de bac.", scope="gamme")
 
@@ -72,7 +72,7 @@ add("dyson-v16-piston-animal", BAL, "Dyson V16 Piston Animal", "315 AW · ajuste
     ["Puissance d'aspiration impressionnante", "Ajustement automatique de la puissance", "Très bien conçu"],
     ["Prix élevé", "Ne tient pas debout tout seul", "Mécanisme d'essuyage automatique décevant"],
     ("315 AW", "Sans station"), "Dyson V16 Piston Animal",
-    "B0FZN79QDP", "Dyson V16 Piston Animal aspirateur balai sans fil", 750.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0FZWJ5MFS", "Dyson V16 Piston Animal aspirateur balai sans fil", 849.0,  # vendeur tiers (relevé Amazon 27/10/2026) ; ancien ASIN B0FZN79QDP : occasion seulement
     "Vous voulez le dernier Dyson et une grande puissance d'aspiration.",
     "Vous attendez un balai qui tient debout seul ou un tarif contenu.")
 
@@ -81,16 +81,16 @@ add("samsung-bespoke-jet", BAL, "Samsung Bespoke Jet", "Station de vidage CleanS
     ["Station d'extraction ingénieuse", "Forte puissance d'aspiration", "Bonne prise en main"],
     ["Prix élevé", "La seconde batterie ne se charge pas sur la station", "Accès au filtre HEPA peu pratique"],
     ("Forte aspiration", "Station de vidage"), "Samsung Bespoke Jet",
-    "B09WVQG81R", "Samsung Bespoke Jet VS20A95973B aspirateur balai sans fil", 742.9,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0BQ7FBH37", "Samsung Bespoke Jet VS20A95843W aspirateur balai sans fil", 529.0,  # vendeur tiers (relevé Amazon 27/10/2026) ; variante de la gamme Bespoke Jet ; ancien ASIN B09WVQG81R indisponible
     "Vous voulez ne plus toucher à la poussière : la station vide le bac toute seule.",
-    "Vous comptez utiliser deux batteries en alternance sans changer de station.")
+    "Vous comptez utiliser deux batteries en alternance sans changer de station.", scope="gamme")
 
 add("samsung-jet-90", BAL, "Samsung Jet 90", "200 AW · station de charge", "Le polyvalent",
     "Un balai léger et polyvalent, avec station de charge, mais cher pour un modèle ancien et sans lavage.",
     ["Filtre HEPA qui retient les poussières fines", "Nombreux accessoires", "Construction légère"],
     ["Brosse qui peut s'emmêler avec les cheveux", "Recharge de 3 h 30", "Pas de nettoyage humide"],
     ("200 AW", "Station de charge"), "Samsung Jet 90",
-    "B09CNDT1C2", "Samsung Jet 90 Complete VS20R9046T3 aspirateur balai sans fil", 490.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B091J115MR", "Samsung Jet 90 Complete VS20R9046T3 aspirateur balai sans fil", 568.24,  # vendeur tiers (relevé Amazon 27/10/2026) ; ancien ASIN B09CNDT1C2 indisponible
     "Vous voulez un balai léger avec beaucoup d'accessoires.",
     "Vous avez de longs cheveux à aspirer ou voulez laver vos sols.", scope="gamme")
 
@@ -99,7 +99,7 @@ add("dreame-z30", BAL, "Dreame Z30", "310 AW · batterie amovible", "Le plus acc
     ["Batterie amovible", "Prix modéré", "Nombreux accessoires"],
     ["Réservoir un peu petit", "Corps lourd et peu maniable", "Finition en plastique"],
     ("310 AW", "Sans station"), "Dreame Z30",
-    "B0DFXS37KW", "Dreame Z30 aspirateur balai sans fil 310 AW", 293.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0D6ZB7CMY", "Dreame Z30 aspirateur balai sans fil 310 AW", 310.74,  # Amazon (relevé 27/10/2026) ; ancien ASIN B0DFXS37KW indisponible
     "Vous voulez un balai puissant à un prix modéré, avec une batterie qu'on change.",
     "Vous avez un grand logement ou un poignet fragile : le corps est lourd.")
 
@@ -108,7 +108,7 @@ add("dreame-r20", BAL, "Dreame R20", "190 AW · LED", "Le petit prix endurant",
     ["Bonnes performances d'aspiration", "Aspiration continue ou fractionnée au choix", "Très endurant en mode auto"],
     ["Tête à choisir selon la surface", "Brosse dure qui repousse les détritus vers l'arrière", "Bac à poussière de 0,6 L"],
     ("190 AW", "Sans station"), "Dreame R20",
-    "B0C5MDCNLZ", "Dreame R20 aspirateur balai sans fil 190 AW", 209.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0C5MDCNLZ", "Dreame R20 aspirateur balai sans fil 190 AW", 209.0,  # Amazon (relevé 27/10/2026)
     "Vous voulez un balai endurant sous les 250 €.",
     "Vous avez un grand logement : le bac est petit.")
 
@@ -143,7 +143,7 @@ add("dreame-h15-pro", LAV, "Dreame H15 Pro", "21 000 Pa · eau chaude", TOP,
     ["Aspiration puissante, lavage à l'eau chaude très efficace", "Mode automatique", "Conception à plat"],
     ["Prix élevé", "Application nécessaire pour toutes les fonctions", "Pas de LED à l'avant"],
     ("21 000 Pa", "Autonettoyant"), "Dreame H15 Pro",
-    "B0DT9Y8RWH", "Dreame H15 Pro aspirateur laveur sans fil", 343.22,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0DT9Y8RWH", "Dreame H15 Pro aspirateur laveur sans fil", 349.0,  # Amazon (relevé 27/10/2026)
     "Vous voulez le balai laveur le plus éprouvé par la presse.",
     "Vous voulez un modèle à moins de 250 €.", ed=_ed_h15)
 
@@ -195,30 +195,30 @@ add("mova-m50-ultra", LAV, "Mova M50 Ultra", "Manche pliable · station séchage
     "Vous voulez un lavage du sol à l'eau chaude.")
 
 # ============================================================ ROBOTS ANIMAUX
-add("roborock-s8-maxv-ultra", ANI, "Roborock S8 MaxV Ultra", "10 000 Pa · station 8 en 1", TOP,
-    "Le robot le mieux noté de la sélection : aspiration quasi parfaite et station multifonction compacte ; prix élevé.",
-    ["Aspiration puissante", "Station multifonction compacte avec réservoir de produit nettoyant", "Puissance d'aspiration quasi parfaite"],
-    ["Prix élevé, jugé justifié", "Progrès à faire dans les coins", "Détecte mal les petits obstacles"],
-    ("10 000 Pa", "Station 8 en 1"), "Roborock S8 MaxV Ultra",
-    "B0CRV7F37B", "Roborock S8 MaxV Ultra robot aspirateur laveur", 1299.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
-    "Vous voulez le robot le plus complet et le mieux testé de la sélection.",
-    "Vous cherchez un robot à moins de 800 €.")
+add("roborock-saros-10r", ANI, "Roborock Saros 10R", "22 000 Pa · brosse et serpillière extensibles", "Le plus complet",
+    "Un robot très bien équipé, à brosse et serpillière extensibles et faible enchevêtrement des poils ; cher, navigation perfectible.",
+    ["Excellente qualité d'aspiration", "Brosse et serpillière extensibles pour nettoyer les coins", "Faible enchevêtrement des cheveux et poils d'animaux"],
+    ["Prix élevé", "Navigation perfectible", "Sac à poussière jetable (consommable récurrent)"],
+    ("22 000 Pa", "Station multifonction"), "Roborock Saros 10R",
+    "B0FC2VSX1R", "Roborock Saros 10R robot aspirateur laveur", 699.99,  # Amazon (relevé 27/10/2026)
+    "Vous avez un animal qui perd ses poils et voulez un robot qui s'enroule peu.",
+    "Vous voulez un robot à moins de 600 €.")
 
-add("dreame-l20-ultra", ANI, "Dreame L20 Ultra", "7 000 Pa · retrait des patins", "Le meilleur rapport",
-    "Un robot à navigation efficace et excellente aspiration, qui relève ses patins sur les tapis ; encombrant.",
-    ["Navigation efficace", "À l'aise dans les environnements encombrés", "Retrait automatique des patins sur les tapis"],
-    ["Encombrement conséquent", "Voit parfois des obstacles inexistants", "Filtre HEPA à nettoyer régulièrement"],
-    ("7 000 Pa", "Station Ultra"), "Dreame L20 Ultra",
-    "B0CF1R9BCQ", "Dreame L20 Ultra robot aspirateur laveur", 689.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
-    "Vous avez des tapis et un intérieur encombré.",
-    "Vous manquez de place pour la station.")
+add("ecovacs-deebot-t90-pro-omni", ANI, "Ecovacs Deebot T90 Pro Omni", "30 000 Pa · lavage au rouleau", "Le plus abordable",
+    "Un robot à station Omni très complète et lavage au rouleau excellent, qui franchit les seuils de 4 cm ; coins et tapis épais perfectibles.",
+    ["Lavage au rouleau excellent", "Station Omni très complète et autonome", "Franchissement de seuils jusqu'à 4 cm"],
+    ["Nettoyage perfectible dans les coins et le long des murs", "Manque de puissance sur les tapis épais", "Bac embarqué de 250 mL qui multiplie les retours à la station"],
+    ("30 000 Pa", "Station Omni"), "Ecovacs Deebot T90 Pro Omni",
+    "B0GK1RD2T7", "Ecovacs Deebot T90 Pro Omni robot aspirateur laveur", 517.2,  # Amazon (relevé 27/10/2026)
+    "Vous voulez une station complète à un prix plus doux que les robots premium.",
+    "Vous avez des tapis épais.")
 
-add("roborock-qrevo-maxv", ANI, "Roborock Qrevo MaxV", "Station complète · détection d'obstacles", "Le plus abordable",
+add("roborock-qrevo-maxv", ANI, "Roborock Qrevo MaxV", "Station complète · détection d'obstacles", "Le bon compromis",
     "Un robot bien noté dont l'entretien est automatisé, avec une application très complète ; station imposante.",
     ["Principales tâches d'entretien automatisées", "Application très complète", "Détection d'obstacles efficace"],
     ["Station imposante", "Aspiration moins efficace sur tapis à poils longs", "Plusieurs passages pour les taches incrustées"],
     ("Détection d'obstacles", "Station complète"), "Roborock QRevo MaxV",
-    "B0CZH7B4QX", "Roborock Qrevo MaxV robot aspirateur laveur", 609.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0CZH7B4QX", "Roborock Qrevo MaxV robot aspirateur laveur", 647.12,  # vendeur tiers (relevé Amazon 27/10/2026)
     "Vous voulez un robot bien noté à moins de 700 €.",
     "Vous avez des tapis à poils longs.")
 
@@ -231,7 +231,7 @@ add("mova-v70-ultra", ANI, "Mova V70 Ultra", "Vadrouille extensible · marches 4
     "Vous avez des seuils ou des marches à franchir.",
     "Vous voulez un robot à moins de 800 €.", scope="gamme")
 
-add("dji-romo-p2", ANI, "DJI Romo P2", "36 000 Pa · jambes robotisées", "Le plus innovant",
+add("dji-romo-p2", ANI, "DJI Romo P2", "36 000 Pa · jambes robotisées", TOP,
     "Un robot très bien noté, qui franchit des obstacles de 8,5 cm et lave sous les meubles ; tarif premium.",
     ["Cartographie et évitement d'obstacles de très haut niveau", "Franchit jusqu'à 8,5 cm", "Bras oscillant qui lave sous les meubles et le long des plinthes"],
     ["Tarif premium", "Design transparent qui ne fera pas l'unanimité", "Assistant vocal indisponible dans certains pays au lancement"],

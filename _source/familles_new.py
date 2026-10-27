@@ -39,16 +39,16 @@ ICATS = [
 ]
 
 SCATS = [
-    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Laveurs", top_label="robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--maison)", cls="f-maison", badge="robots-laveurs", scene="robot-laveur", scene_alt="La mascotte, assise sur un seau « sol mouillé », regarde un robot laveur travailler",
+    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Laveurs", top_label="robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--cat-poly)", cls="f-polyvalent", badge="robots-laveurs", scene="robot-laveur", scene_alt="La mascotte, assise sur un seau « sol mouillé », regarde un robot laveur travailler",
          h1='Les 10 meilleurs <span class="flash">robots aspirateurs laveurs</span> en 2026',
          intro="Aspiration, lavage, vidage et séchage automatiques : les robots à station font presque tout seuls. La presse les teste en détail, et c'est la navigation et la qualité du lavage qui font la différence."),
-    dict(key="s-aspirateur-balai", slug="aspirateurs-balais", label="Aspirateur balai", top_label="aspirateurs balais", h="Aspirateur balai", tag="Léger, puissant, sans fil", color="var(--maison)", cls="f-maison", badge="robots-aspirateurs-balais",
+    dict(key="s-aspirateur-balai", slug="aspirateurs-balais", label="Aspirateur balai", top_label="aspirateurs balais", h="Aspirateur balai", tag="Léger, puissant, sans fil", color="var(--cat-bureau)", cls="f-bureau", badge="robots-aspirateurs-balais",
          h1='Les meilleurs <span class="flash">aspirateurs balais sans fil</span> en 2026',
          intro="Pas de station à installer : on décroche le balai et on aspire. Puissance, autonomie, poids et brosse anti-enchevêtrement font la différence, et c'est là que Dyson, Samsung et Dreame se disputent la première place."),
-    dict(key="s-aspirateur-laveur", slug="aspirateurs-balais-laveurs", label="Balais laveurs", top_label="aspirateurs balais laveurs", h="Aspirateurs balais laveurs", tag="Aspire et lave en un passage", color="var(--maison)", cls="f-maison", badge="robots-balais-laveurs", scene="robot-balai-laveur", scene_alt="La mascotte pousse un aspirateur balai laveur sur un sol brillant",
+    dict(key="s-aspirateur-laveur", slug="aspirateurs-balais-laveurs", label="Balais laveurs", top_label="aspirateurs balais laveurs", h="Aspirateurs balais laveurs", tag="Aspire et lave en un passage", color="var(--cat-creation)", cls="f-creation", badge="robots-balais-laveurs", scene="robot-balai-laveur", scene_alt="La mascotte pousse un aspirateur balai laveur sur un sol brillant",
          h1='Les meilleurs <span class="flash">aspirateurs balais laveurs</span> en 2026',
          intro="Ils aspirent et lavent en un seul passage, puis nettoient et sèchent leur brosse. Les tests départagent la qualité du lavage, le poids et la facilité d'entretien."),
-    dict(key="s-robot-animaux", slug="robots-aspirateurs-animaux", label="Animaux", top_label="robots pour animaux", h="Robots pour animaux", tag="Poils et passages incessants", color="var(--maison)", cls="f-maison", badge="robots-animaux", scene="robot-animaux", scene_alt="La mascotte et son chien regardent un robot aspirateur passer",
+    dict(key="s-robot-animaux", slug="robots-aspirateurs-animaux", label="Animaux", top_label="robots pour animaux", h="Robots pour animaux", tag="Poils et passages incessants", color="var(--cat-gaming)", cls="f-gaming", badge="robots-animaux", scene="robot-animaux", scene_alt="La mascotte et son chien regardent un robot aspirateur passer",
          h1='Les meilleurs <span class="flash">robots aspirateurs pour animaux</span> en 2026',
          intro="Les poils s'enroulent dans la brosse et les petits accidents se détectent mal : on retient ici les robots les mieux notés, à forte aspiration, anti-enchevêtrement et bonne détection des obstacles."),
 ]

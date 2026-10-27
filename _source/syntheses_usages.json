@@ -11,17 +11,6 @@
   ]
  },
  {
-  "id": "dreame-l20-ultra",
-  "texte": "Douze notes, toutes comprises entre 8 et 9,6. Les Numériques place le L20 Ultra le plus haut (9,6), devant AndroidPit, Basic Tutorials, CharlesTech et LeCafeDuGeek (9) ; Journal du Geek et Neozone sont à 8.\n\nLes tests recensés louent la navigation, l'aisance dans les pièces encombrées, l'aspiration et le retrait des patins de lavage sur les tapis. Ils signalent un encombrement conséquent, des obstacles parfois vus là où il n'y en a pas, des zones manquées pour éviter les collisions et un filtre HEPA à nettoyer régulièrement.",
-  "sources": [
-   "Les Numériques",
-   "AndroidPit",
-   "Basic Tutorials",
-   "Journal du Geek",
-   "Neozone"
-  ]
- },
- {
   "id": "narwal-flow-2",
   "texte": "Le Flow 2 reçoit douze notes allant de 8 à 9,6. TechTest est le plus élogieux (9,6), suivi d'AndroidWorld, Basic Tutorials et Presse Citron (9) ; 01net, CharlesTech, Chip.de et FrAndroid restent à 8.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
   "sources": [
@@ -31,17 +20,6 @@
    "Presse Citron",
    "01net",
    "Chip.de"
-  ]
- },
- {
-  "id": "roborock-s8-maxv-ultra",
-  "texte": "C'est l'un des robots les mieux notés du site : AndroidPit, L&B Tech, Les Numériques et Tech Advisor lui donnent 10, CharlesTech, FrAndroid, Journal du Geek et PhonAndroid 9. Presse Citron est le plus réservé avec 7.\n\nLes tests recensés soulignent l'aspiration, la station multifonction compacte et son réservoir de produit nettoyant. Ils relèvent des progrès possibles dans les coins, une détection insuffisante des petits obstacles, quelques fonctions jugées gadgets et un prix élevé que certains estiment justifié.",
-  "sources": [
-   "AndroidPit",
-   "Les Numériques",
-   "Tech Advisor",
-   "FrAndroid",
-   "Presse Citron"
   ]
  },
  {
@@ -223,6 +201,29 @@
    "DigitalTrends",
    "Les Numériques",
    "TechStage"
+  ]
+ },
+ {
+  "id": "roborock-saros-10r",
+  "texte": "Cinq notes, très regroupées : Basic Tutorials, FrAndroid, LeCafeDuGeek et Chip.de donnent 8, tuttoteK 7.\n\nLes tests recensés apprécient la qualité d'aspiration, les performances de nettoyage, la brosse et la serpillière extensibles qui atteignent les coins, la station multifonction bien conçue et l'application intuitive. Ils notent aussi un entretien facilité, avec peu de cheveux et de poils d'animaux enroulés dans la brosse. Ils reprochent le prix élevé, une navigation perfectible avec quelques hésitations dans les zones étroites, un lavage moins efficace qu'une serpillière vibrante et un sac à poussière jetable, donc un consommable récurrent.\n\nLes notes restent entre 7 et 8, sans avis très enthousiaste ni très négatif : un robot complet, qui s'enroule peu avec les poils d'animaux, dont le tarif et la navigation sont les principaux bémols.",
+  "sources": [
+   "Basic Tutorials",
+   "FrAndroid",
+   "LeCafeDuGeek",
+   "Chip.de",
+   "tuttoteK"
+  ]
+ },
+ {
+  "id": "ecovacs-deebot-t90-pro-omni",
+  "texte": "Six notes, avec un écart notable : TechTest et Journal du Geek donnent 9, FrAndroid, LeCafeDuGeek et CharlesTech 8, Clubic 6.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.\n\nLes notes vont de 6 à 9 : un accueil plutôt favorable, avec un lavage au rouleau très apprécié ; les tapis épais et les bords de pièce restent les principales limites.",
+  "sources": [
+   "TechTest",
+   "Journal du Geek",
+   "FrAndroid",
+   "LeCafeDuGeek",
+   "CharlesTech",
+   "Clubic.com"
   ]
  }
 ]

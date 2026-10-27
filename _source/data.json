@@ -20914,7 +20914,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 428.99,
+     "price": 739.0,
      "url": "https://www.amazon.fr/dp/B07Q4FZKNY?tag=geekconcept-21",
      "name": "Dyson V11 Absolute aspirateur balai sans fil",
      "cfg": "",
@@ -20981,7 +20981,7 @@
      }
     ]
    },
-   "prix": 428.99,
+   "prix": 739.0,
    "img": "dyson-v11-absolute.webp",
    "rating": null,
    "nrev": 0,
@@ -21022,7 +21022,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 579.0,
+     "price": 799.0,
      "url": "https://www.amazon.fr/dp/B099NLCLZH?tag=geekconcept-21",
      "name": "Dyson V15 Detect Absolute aspirateur balai sans fil",
      "cfg": "",
@@ -21077,7 +21077,7 @@
      }
     ]
    },
-   "prix": 579.0,
+   "prix": 799.0,
    "img": "dyson-v15-detect-absolute.webp",
    "rating": null,
    "nrev": 0,
@@ -21118,11 +21118,10 @@
     {
      "m": "Amazon",
      "price": 649.0,
-     "url": "https://www.amazon.fr/dp/B0BSHHKLFJ?tag=geekconcept-21",
+     "url": "https://www.amazon.fr/dp/B0B76XZZDT?tag=geekconcept-21",
      "name": "Dyson V12 Detect Slim Absolute aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B0BSHHKLFJ",
-     "dispo": false
+     "asin": "B0B76XZZDT"
     }
    ],
    "press": {
@@ -21233,12 +21232,11 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 750.0,
-     "url": "https://www.amazon.fr/dp/B0FZN79QDP?tag=geekconcept-21",
+     "price": 849.0,
+     "url": "https://www.amazon.fr/dp/B0FZWJ5MFS?tag=geekconcept-21",
      "name": "Dyson V16 Piston Animal aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B0FZN79QDP",
-     "dispo": false
+     "asin": "B0FZWJ5MFS"
     }
    ],
    "press": {
@@ -21331,7 +21329,7 @@
      }
     ]
    },
-   "prix": 750.0,
+   "prix": 849.0,
    "img": "dyson-v16-piston-animal.webp",
    "rating": null,
    "nrev": 0,
@@ -21374,19 +21372,18 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 742.9,
-     "url": "https://www.amazon.fr/dp/B09WVQG81R?tag=geekconcept-21",
-     "name": "Samsung Bespoke Jet VS20A95973B aspirateur balai sans fil",
+     "price": 529.0,
+     "url": "https://www.amazon.fr/dp/B0BQ7FBH37?tag=geekconcept-21",
+     "name": "Samsung Bespoke Jet VS20A95843W aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B09WVQG81R",
-     "dispo": false
+     "asin": "B0BQ7FBH37"
     }
    ],
    "press": {
     "avg": 8.083333333333334,
     "n": 6,
     "tests": 11,
-    "scope": "modele",
+    "scope": "gamme",
     "src": [
      "",
      ""
@@ -21460,7 +21457,7 @@
      }
     ]
    },
-   "prix": 742.9,
+   "prix": 529.0,
    "img": "samsung-bespoke-jet.webp",
    "rating": null,
    "nrev": 0,
@@ -21502,12 +21499,11 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 490.0,
-     "url": "https://www.amazon.fr/dp/B09CNDT1C2?tag=geekconcept-21",
+     "price": 568.24,
+     "url": "https://www.amazon.fr/dp/B091J115MR?tag=geekconcept-21",
      "name": "Samsung Jet 90 Complete VS20R9046T3 aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B09CNDT1C2",
-     "dispo": false
+     "asin": "B091J115MR"
     }
    ],
    "press": {
@@ -21552,7 +21548,7 @@
      }
     ]
    },
-   "prix": 490.0,
+   "prix": 568.24,
    "img": "samsung-jet-90.webp",
    "rating": null,
    "nrev": 0,
@@ -21592,12 +21588,11 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 293.0,
-     "url": "https://www.amazon.fr/dp/B0DFXS37KW?tag=geekconcept-21",
+     "price": 310.74,
+     "url": "https://www.amazon.fr/dp/B0D6ZB7CMY?tag=geekconcept-21",
      "name": "Dreame Z30 aspirateur balai sans fil 310 AW",
      "cfg": "",
-     "asin": "B0DFXS37KW",
-     "dispo": false
+     "asin": "B0D6ZB7CMY"
     }
    ],
    "press": {
@@ -21690,7 +21685,7 @@
      }
     ]
    },
-   "prix": 293.0,
+   "prix": 310.74,
    "img": "dreame-z30.webp",
    "rating": null,
    "nrev": 0,
@@ -22761,339 +22756,11 @@
     ]
    }
   },
-  "roborock-s8-maxv-ultra": {
-   "cat": "s-robot-animaux",
-   "short": "Roborock S8 MaxV Ultra",
-   "ref": "10 000 Pa · station 8 en 1",
-   "badge": "Le choix de la bande",
-   "verdict": "Le robot le mieux noté de la sélection : aspiration quasi parfaite et station multifonction compacte ; prix élevé.",
-   "strengths": [
-    "Aspiration puissante",
-    "Station multifonction compacte avec réservoir de produit nettoyant",
-    "Puissance d'aspiration quasi parfaite"
-   ],
-   "weak": [
-    "Prix élevé, jugé justifié",
-    "Progrès à faire dans les coins",
-    "Détecte mal les petits obstacles"
-   ],
-   "m": [
-    "10 000 Pa",
-    "Station 8 en 1"
-   ],
-   "id": "roborock-s8-maxv-ultra",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 1299.0,
-     "url": "https://www.amazon.fr/dp/B0CRV7F37B?tag=geekconcept-21",
-     "name": "Roborock S8 MaxV Ultra robot aspirateur laveur",
-     "cfg": "",
-     "asin": "B0CRV7F37B",
-     "dispo": false
-    }
-   ],
-   "press": {
-    "avg": 8.916666666666666,
-    "n": 12,
-    "tests": 17,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "AndroidPit",
-      "score": 10.0,
-      "url": "https://www.nextpit.fr/roborock-s8-maxv-ultra-test-complet-aspirateur",
-      "date": ""
-     },
-     {
-      "src": "L&B Tech",
-      "score": 10.0,
-      "url": "https://www.lbtechreviews.com/test/smart-home/roborock-s8-maxv-ultra",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-s8-maxv-ultra-p74442/test.html",
-      "date": ""
-     },
-     {
-      "src": "Tech Advisor",
-      "score": 10.0,
-      "url": "https://www.techadvisor.com/article/2346337/roborock-s8-maxv-ultra-review-2.html",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 9.0,
-      "url": "https://charlestech.fr/test-roborock-s8-maxv-ultra/",
-      "date": ""
-     },
-     {
-      "src": "FrAndroid",
-      "score": 9.0,
-      "url": "https://www.frandroid.com/marques/roborock/1976452_test-du-roborock-s8-maxv-ultra-le-robot-ultime-pour-des-sols-impeccables",
-      "date": ""
-     },
-     {
-      "src": "Journal du Geek",
-      "score": 9.0,
-      "url": "https://www.journaldugeek.com/test/test-roborock-s8-maxv-ultra-le-plus-complet-et-intelligent-de-lexcellente-gamme-s8/",
-      "date": ""
-     },
-     {
-      "src": "PhonAndroid",
-      "score": 9.0,
-      "url": "https://www.phonandroid.com/test-roborock-s8-maxv-ultra.html",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Roborock-S8-MaxV-Ultra-im-Test_185273658.html",
-      "date": ""
-     },
-     {
-      "src": "GameSpace",
-      "score": 8.0,
-      "url": "https://www.gamespace.com/reviews/tech-reviews/just-fun-tech-roborock-s8-maxv-ultra-review/",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-du-roborock-s8-maxv-ultra-le-robot-aspirateur-ultime-a-un-prix-eleve/",
-      "date": ""
-     },
-     {
-      "src": "Presse Citron",
-      "score": 7.0,
-      "url": "https://www.presse-citron.net/test-roborock-s8-max-v-ultra/",
-      "date": ""
-     },
-     {
-      "src": "AndroidWorld",
-      "score": null,
-      "url": "https://www.smartworld.it/recensioni/roborock-s8-maxv-ultra",
-      "date": ""
-     },
-     {
-      "src": "DigitalTrends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home/roborock-s8-maxv-ultra-review/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/s8-maxv-ultra",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/roborock-s8-maxv-ultra",
-      "date": ""
-     },
-     {
-      "src": "Vonguru",
-      "score": null,
-      "url": "https://vonguru.fr/2024/05/30/test-roborock-s8-maxv-ultra-suprematie-absolue/",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 1299.0,
-   "img": "roborock-s8-maxv-ultra.webp",
-   "rating": null,
-   "nrev": 0,
-   "synthese": {
-    "texte": "C'est l'un des robots les mieux notés du site : AndroidPit, L&B Tech, Les Numériques et Tech Advisor lui donnent 10, CharlesTech, FrAndroid, Journal du Geek et PhonAndroid 9. Presse Citron est le plus réservé avec 7.\n\nLes tests recensés soulignent l'aspiration, la station multifonction compacte et son réservoir de produit nettoyant. Ils relèvent des progrès possibles dans les coins, une détection insuffisante des petits obstacles, quelques fonctions jugées gadgets et un prix élevé que certains estiment justifié.",
-    "date": "2026-10-27",
-    "n": 12,
-    "tests": 17,
-    "sources": [
-     "AndroidPit",
-     "Les Numériques",
-     "Tech Advisor",
-     "FrAndroid",
-     "Presse Citron"
-    ]
-   }
-  },
-  "dreame-l20-ultra": {
-   "cat": "s-robot-animaux",
-   "short": "Dreame L20 Ultra",
-   "ref": "7 000 Pa · retrait des patins",
-   "badge": "Le meilleur rapport",
-   "verdict": "Un robot à navigation efficace et excellente aspiration, qui relève ses patins sur les tapis ; encombrant.",
-   "strengths": [
-    "Navigation efficace",
-    "À l'aise dans les environnements encombrés",
-    "Retrait automatique des patins sur les tapis"
-   ],
-   "weak": [
-    "Encombrement conséquent",
-    "Voit parfois des obstacles inexistants",
-    "Filtre HEPA à nettoyer régulièrement"
-   ],
-   "m": [
-    "7 000 Pa",
-    "Station Ultra"
-   ],
-   "id": "dreame-l20-ultra",
-   "offers": [
-    {
-     "m": "Amazon",
-     "price": 689.0,
-     "url": "https://www.amazon.fr/dp/B0CF1R9BCQ?tag=geekconcept-21",
-     "name": "Dreame L20 Ultra robot aspirateur laveur",
-     "cfg": "",
-     "asin": "B0CF1R9BCQ",
-     "dispo": false
-    }
-   ],
-   "press": {
-    "avg": 8.549999999999999,
-    "n": 12,
-    "tests": 17,
-    "scope": "modele",
-    "src": [
-     "",
-     ""
-    ],
-    "notes": [
-     {
-      "src": "Les Numériques",
-      "score": 9.6,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l20-ultra-p73869/test.html",
-      "date": ""
-     },
-     {
-      "src": "AndroidPit",
-      "score": 9.0,
-      "url": "https://www.nextpit.fr/dreame-l20-ultra-test-complet",
-      "date": ""
-     },
-     {
-      "src": "Basic Tutorials",
-      "score": 9.0,
-      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-l20-ultra/",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 9.0,
-      "url": "https://charlestech.fr/test-dreame-l20-ultra/",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 9.0,
-      "url": "https://lecafedugeek.fr/test-dreame-l20-ultra-laspirateur-robot-ultime-haut-de-gamme/",
-      "date": ""
-     },
-     {
-      "src": "Tom's Guide (FR)",
-      "score": 9.0,
-      "url": "https://www.tomsguide.fr/test-dreame-l20-ultra-cet-aspirateur-robot-est-le-nouveau-messie-des-taches-menageres/",
-      "date": ""
-     },
-     {
-      "src": "Journal du Geek",
-      "score": 8.0,
-      "url": "https://www.journaldugeek.com/test/test-aspirateur-robot-laveur-dreame-l20-ultra-nouveau-fer-de-lance-ingenieux-de-dreame/",
-      "date": ""
-     },
-     {
-      "src": "Neozone",
-      "score": 8.0,
-      "url": "https://www.neozone.org/tests/dreame-l20-ultra-sans-aucun-doute-le-meilleur-robot-aspirateur-laveur-de-2023-test-et-avis/",
-      "date": ""
-     },
-     {
-      "src": "PhonAndroid",
-      "score": 8.0,
-      "url": "https://www.phonandroid.com/test-dreame-l20.html",
-      "date": ""
-     },
-     {
-      "src": "Presse Citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/test-dreame-l20-ultra/",
-      "date": ""
-     },
-     {
-      "src": "Tech Advisor",
-      "score": 8.0,
-      "url": "https://www.techadvisor.com/article/2057390/dreamebot-l20-ultra-review.html",
-      "date": ""
-     },
-     {
-      "src": "Tech Jio",
-      "score": 8.0,
-      "url": "https://techjioblog.com/2023/08/26/review-dreame-l20-ultra-robot-vacuum/",
-      "date": ""
-     },
-     {
-      "src": "ChinaHandys",
-      "score": null,
-      "url": "https://www.chinahandys.net/dreame-l20-ultra-im-test/",
-      "date": ""
-     },
-     {
-      "src": "FrAndroid",
-      "score": null,
-      "url": "https://www.frandroid.com/marques/dreame/1791965_test-du-dreame-l20-ultra-un-robot-aspirateur-laveur-complet-mais-complexe",
-      "date": ""
-     },
-     {
-      "src": "Future Zone",
-      "score": null,
-      "url": "https://futurezone.at/produkte/dreame-l20-ultra-test-saugroboter-staubsaugerroboter-funktionen/402659612",
-      "date": ""
-     },
-     {
-      "src": "PC Magazin",
-      "score": null,
-      "url": "https://www.connect-living.de/testbericht/dreame-bot-l20-ultra-test-saug-wisch-roboter-schwenkbarer-mopp-vollautomatische-basis-3206004.html",
-      "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": null,
-      "url": "https://www.techradar.com/home/robot-vacuums/dreame-l20-ultra-review-a-super-powered-robot-vacuum-at-a-substantial-price",
-      "date": ""
-     }
-    ]
-   },
-   "prix": 689.0,
-   "img": "dreame-l20-ultra.webp",
-   "rating": null,
-   "nrev": 0,
-   "synthese": {
-    "texte": "Douze notes, toutes comprises entre 8 et 9,6. Les Numériques place le L20 Ultra le plus haut (9,6), devant AndroidPit, Basic Tutorials, CharlesTech et LeCafeDuGeek (9) ; Journal du Geek et Neozone sont à 8.\n\nLes tests recensés louent la navigation, l'aisance dans les pièces encombrées, l'aspiration et le retrait des patins de lavage sur les tapis. Ils signalent un encombrement conséquent, des obstacles parfois vus là où il n'y en a pas, des zones manquées pour éviter les collisions et un filtre HEPA à nettoyer régulièrement.",
-    "date": "2026-10-27",
-    "n": 12,
-    "tests": 17,
-    "sources": [
-     "Les Numériques",
-     "AndroidPit",
-     "Basic Tutorials",
-     "Journal du Geek",
-     "Neozone"
-    ]
-   }
-  },
   "roborock-qrevo-maxv": {
    "cat": "s-robot-animaux",
    "short": "Roborock Qrevo MaxV",
    "ref": "Station complète · détection d'obstacles",
-   "badge": "Le plus abordable",
+   "badge": "Le bon compromis",
    "verdict": "Un robot bien noté dont l'entretien est automatisé, avec une application très complète ; station imposante.",
    "strengths": [
     "Principales tâches d'entretien automatisées",
@@ -23113,7 +22780,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 609.0,
+     "price": 647.12,
      "url": "https://www.amazon.fr/dp/B0CZH7B4QX?tag=geekconcept-21",
      "name": "Roborock Qrevo MaxV robot aspirateur laveur",
      "cfg": "",
@@ -23198,7 +22865,7 @@
      }
     ]
    },
-   "prix": 609.0,
+   "prix": 647.12,
    "img": "roborock-qrevo-maxv.webp",
    "rating": null,
    "nrev": 0,
@@ -23347,7 +23014,7 @@
    "cat": "s-robot-animaux",
    "short": "DJI Romo P2",
    "ref": "36 000 Pa · jambes robotisées",
-   "badge": "Le plus innovant",
+   "badge": "Le choix de la bande",
    "verdict": "Un robot très bien noté, qui franchit des obstacles de 8,5 cm et lave sous les meubles ; tarif premium.",
    "strengths": [
     "Cartographie et évitement d'obstacles de très haut niveau",
@@ -23686,6 +23353,297 @@
    "img": "rowenta-x-force-flex-14-60.webp",
    "rating": null,
    "nrev": 0
+  },
+  "roborock-saros-10r": {
+   "cat": "s-robot-animaux",
+   "short": "Roborock Saros 10R",
+   "ref": "22 000 Pa · brosse et serpillière extensibles",
+   "badge": "Le plus complet",
+   "verdict": "Un robot très bien équipé, à brosse et serpillière extensibles et faible enchevêtrement des poils ; cher, navigation perfectible.",
+   "strengths": [
+    "Excellente qualité d'aspiration",
+    "Brosse et serpillière extensibles pour nettoyer les coins",
+    "Faible enchevêtrement des cheveux et poils d'animaux"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Navigation perfectible",
+    "Sac à poussière jetable (consommable récurrent)"
+   ],
+   "m": [
+    "22 000 Pa",
+    "Station multifonction"
+   ],
+   "id": "roborock-saros-10r",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 699.99,
+     "url": "https://www.amazon.fr/dp/B0FC2VSX1R?tag=geekconcept-21",
+     "name": "Roborock Saros 10R robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0FC2VSX1R"
+    }
+   ],
+   "press": {
+    "avg": 7.8,
+    "n": 5,
+    "tests": 15,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 8.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-saros-10r-test/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/roborock-saros-10r-im-test_339895",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/test/2541115_test-roborock-saros-10r",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-roborock-saros-10r-robot-aspirateur-qui-veut-tout-faire-et-qui-y-arrive-presque/",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 7.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-roborock-saros-10r-stile-e-tecnologia-da-vendere",
+      "date": ""
+     },
+     {
+      "src": "Android Headlines",
+      "score": null,
+      "url": "https://www.androidheadlines.com/roborock-saros-10r-ultimate-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/roborock-saros-10r",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/roborock-saros-10r-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/roborock-saros-10r-test-saug-wisch-roboter-selbstreinigend-flach-hohe-saugkraft-3208478.html",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home/roborock-saros-10r-review/",
+      "date": ""
+     },
+     {
+      "src": "KelRobot",
+      "score": null,
+      "url": "https://www.kelrobot.fr/2026/04/01/test-et-avis-de-laspirateur-robot-roborock-saros-10r/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Roborock-Saros-10R-Test-StarSight-Saugroboter-ist-ultraflach-und-richtig-gut.962122.0.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/roborock-saros-10r",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/03/17/test-roborock-saros-10r/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 699.99,
+   "img": "roborock-saros-10r.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq notes, très regroupées : Basic Tutorials, FrAndroid, LeCafeDuGeek et Chip.de donnent 8, tuttoteK 7.\n\nLes tests recensés apprécient la qualité d'aspiration, les performances de nettoyage, la brosse et la serpillière extensibles qui atteignent les coins, la station multifonction bien conçue et l'application intuitive. Ils notent aussi un entretien facilité, avec peu de cheveux et de poils d'animaux enroulés dans la brosse. Ils reprochent le prix élevé, une navigation perfectible avec quelques hésitations dans les zones étroites, un lavage moins efficace qu'une serpillière vibrante et un sac à poussière jetable, donc un consommable récurrent.\n\nLes notes restent entre 7 et 8, sans avis très enthousiaste ni très négatif : un robot complet, qui s'enroule peu avec les poils d'animaux, dont le tarif et la navigation sont les principaux bémols.",
+    "date": "2026-10-27",
+    "n": 5,
+    "tests": 15,
+    "sources": [
+     "Basic Tutorials",
+     "FrAndroid",
+     "LeCafeDuGeek",
+     "Chip.de",
+     "tuttoteK"
+    ]
+   }
+  },
+  "ecovacs-deebot-t90-pro-omni": {
+   "cat": "s-robot-animaux",
+   "short": "Ecovacs Deebot T90 Pro Omni",
+   "ref": "30 000 Pa · lavage au rouleau",
+   "badge": "Le plus abordable",
+   "verdict": "Un robot à station Omni très complète et lavage au rouleau excellent, qui franchit les seuils de 4 cm ; coins et tapis épais perfectibles.",
+   "strengths": [
+    "Lavage au rouleau excellent",
+    "Station Omni très complète et autonome",
+    "Franchissement de seuils jusqu'à 4 cm"
+   ],
+   "weak": [
+    "Nettoyage perfectible dans les coins et le long des murs",
+    "Manque de puissance sur les tapis épais",
+    "Bac embarqué de 250 mL qui multiplie les retours à la station"
+   ],
+   "m": [
+    "30 000 Pa",
+    "Station Omni"
+   ],
+   "id": "ecovacs-deebot-t90-pro-omni",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 517.2,
+     "url": "https://www.amazon.fr/dp/B0GK1RD2T7?tag=geekconcept-21",
+     "name": "Ecovacs Deebot T90 Pro Omni robot aspirateur laveur",
+     "cfg": "",
+     "asin": "B0GK1RD2T7"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 6,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-ecovacs-deebot-t90-pro-omni-la-preuve-qua-800-euros-on-peut-avoir-un-lavage-au-top/",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 9.0,
+      "url": "https://techtest.org/ozmo-roller-3-0-und-30-000-pa-der-ecovacs-deebot-t90-pro-omni-im-test/",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-ecovacs-deebot-t90-pro-omni/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/3208289_test-ecovacs-deebot-t90-pro-omni",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-ecovacs-deebot-t90-pro-omni-une-nouvelle-reference-du-nettoyage-automatise/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 6.0,
+      "url": "https://www.clubic.com/test-produit-617527-test-ecovacs-deebot-t90-pro-omni.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/ecovacs-deebot-t90-pro-omni",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/ecovacs-deebot-t90-pro-omni-test-3212090.html",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": null,
+      "url": "https://geekculture.co/ecovacs-deebot-t90-pro-omni-robot-vacuum-cleaner-review/",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/lifestyle/home/ecovacs-deebot-t90-pro-omni-robot-vacuum",
+      "date": ""
+     },
+     {
+      "src": "ImTest",
+      "score": null,
+      "url": "https://www.imtest.de/einzeltests/ecovacs-deebot-t90-pro-omni-saugroboter-saug-wisch-roboter-test/616460",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Mittelklasse-Saugroboter-laesst-Flaggschiffe-erblassen-Ecovacs-Deebot-T90-Pro-Omni-im-Test.1245255.0.html",
+      "date": ""
+     },
+     {
+      "src": "PCGamesHardware",
+      "score": null,
+      "url": "https://www.pcgameshardware.de/Saugroboter-Hardware-280626/Tests/Ecovacs-T90-Pro-Omni-Review-Release-1523242/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 517.2,
+   "img": "ecovacs-deebot-t90-pro-omni.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six notes, avec un écart notable : TechTest et Journal du Geek donnent 9, FrAndroid, LeCafeDuGeek et CharlesTech 8, Clubic 6.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.\n\nLes notes vont de 6 à 9 : un accueil plutôt favorable, avec un lavage au rouleau très apprécié ; les tapis épais et les bords de pièce restent les principales limites.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 13,
+    "sources": [
+     "TechTest",
+     "Journal du Geek",
+     "FrAndroid",
+     "LeCafeDuGeek",
+     "CharlesTech",
+     "Clubic.com"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",
