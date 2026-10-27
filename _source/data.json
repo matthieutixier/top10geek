@@ -1,5 +1,5 @@
 {
- "date": "23/10/2026",
+ "date": "27/10/2026",
  "items": {
   "zenbook-a14": {
    "cat": "bureau",
@@ -17303,7 +17303,7 @@
      }
     ]
    },
-   "prix": 129.98,
+   "prix": 133.32,
    "img": "canon-selphy-cp1500.webp",
    "rating": null,
    "nrev": 0
@@ -17982,7 +17982,7 @@
      }
     ]
    },
-   "prix": 59.98,
+   "prix": 74.99,
    "img": "canon-pixma-ts6550i.webp",
    "rating": null,
    "nrev": 0
@@ -22388,7 +22388,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 249.99,
+     "price": 229.99,
      "url": "https://www.amazon.fr/dp/B088H28VPM?tag=geekconcept-21",
      "name": "Tineco Floor One S7 Pro aspirateur laveur sans fil",
      "cfg": "",
@@ -22473,7 +22473,7 @@
      }
     ]
    },
-   "prix": 249.99,
+   "prix": 229.99,
    "img": "tineco-floor-one-s7-pro.webp",
    "rating": null,
    "nrev": 0,
@@ -22515,7 +22515,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 429.99,
+     "price": 459.99,
      "url": "https://www.amazon.fr/dp/B0DPP6C5YP?tag=geekconcept-21",
      "name": "Tineco Floor One S9 Artist aspirateur laveur sans fil",
      "cfg": "",
@@ -22630,7 +22630,7 @@
      }
     ]
    },
-   "prix": 429.99,
+   "prix": 459.99,
    "img": "tineco-floor-one-s9-artist.webp",
    "rating": null,
    "nrev": 0,
@@ -22672,7 +22672,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 322.0,
+     "price": 349.0,
      "url": "https://www.amazon.fr/dp/B0FM3HH8NG?tag=geekconcept-21",
      "name": "Mova M50 Ultra aspirateur laveur sans fil",
      "cfg": "",
@@ -22739,7 +22739,7 @@
      }
     ]
    },
-   "prix": 322.0,
+   "prix": 349.0,
    "img": "mova-m50-ultra.webp",
    "rating": null,
    "nrev": 0,
@@ -22784,7 +22784,8 @@
      "url": "https://www.amazon.fr/dp/B0CRV7F37B?tag=geekconcept-21",
      "name": "Roborock S8 MaxV Ultra robot aspirateur laveur",
      "cfg": "",
-     "asin": "B0CRV7F37B"
+     "asin": "B0CRV7F37B",
+     "dispo": false
     }
    ],
    "press": {
@@ -22947,7 +22948,8 @@
      "url": "https://www.amazon.fr/dp/B0CF1R9BCQ?tag=geekconcept-21",
      "name": "Dreame L20 Ultra robot aspirateur laveur",
      "cfg": "",
-     "asin": "B0CF1R9BCQ"
+     "asin": "B0CF1R9BCQ",
+     "dispo": false
     }
    ],
    "press": {
@@ -23233,7 +23235,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 948.0,
+     "price": 949.0,
      "url": "https://www.amazon.fr/dp/B0GXW3NHKY?tag=geekconcept-21",
      "name": "Mova V70 Ultra Complete robot aspirateur laveur",
      "cfg": "",
@@ -23318,7 +23320,7 @@
      }
     ]
    },
-   "prix": 948.0,
+   "prix": 949.0,
    "img": "mova-v70-ultra.webp",
    "rating": null,
    "nrev": 0,
@@ -23475,7 +23477,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1038.05,
+     "price": 1299.0,
      "url": "https://www.amazon.fr/dp/B0GRHDJBQ6?tag=geekconcept-21",
      "name": "Narwal Flow 2 robot aspirateur laveur",
      "cfg": "",
@@ -23596,7 +23598,7 @@
      }
     ]
    },
-   "prix": 1038.05,
+   "prix": 1299.0,
    "img": "narwal-flow-2.webp",
    "rating": null,
    "nrev": 0,
@@ -23708,7 +23710,8 @@
   "robot": {
    "date": "27/10/2026",
    "prix_date": "octobre 2026",
-   "iso": "2026-10-27"
+   "iso": "2026-10-27",
+   "tente": "2026-10-27"
   }
  },
  "dates": {
