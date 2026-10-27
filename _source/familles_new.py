@@ -62,7 +62,7 @@ FAMILIES_NEW = [
          usage_title="Top 10 imprimantes {label} 2026 : tests et prix | Top 10 Geek",
          usage_desc="Les 10 meilleures imprimantes {label} en 2026 : tests de la presse et des associations, prix indicatif, points forts et faibles."),
     dict(key="robot", slug="aspirateur-robot", label="Robot aspirateur", plural="Robots et aspirateurs", plural_low="robots et aspirateurs", cats=SCATS, provisional=False,
-         m_labels=("Puissance", "Station"), col="Puissance", mascot="mascotte-robot-portrait", scene_alt="La mascotte, lunettes de soleil où se reflètent deux robots aspirateurs", noun="robot", noun_det="le robot",
+         m_labels=("Puissance", "Station"), col="Puissance", mascot="pose-robot-hub", scene_alt="La mascotte, bras croisés, entourée de trois robots aspirateurs", noun="robot", noun_det="le robot",
          h1='Comparatif robots aspirateurs 2026 : <span class="flash">le verdict par usage</span>',
          intro="Robots aspirateurs laveurs, aspirateurs balais et laveurs : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif et les liens vers les marchands.",
          title="Meilleur robot aspirateur laveur 2026 : tous les tests | Top 10 Geek",
