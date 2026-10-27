@@ -766,5 +766,41 @@
  "rowenta-x-force-flex-14-60": {
   "constructeur": "Electro Dépôt (visuel du flux produits)",
   "source": "https://www.electrodepot.fr/media/catalog/product/P10009171.jpg"
+ },
+ "roborock-qrevo-maxv": {
+  "constructeur": "Roborock (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "roborock-s8-maxv-ultra": {
+  "constructeur": "Roborock (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "dji-romo-p2": {
+  "constructeur": "DJI (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "tineco-floor-one-s9-artist": {
+  "constructeur": "Tineco (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "tineco-floor-one-s7-pro": {
+  "constructeur": "Tineco (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "dyson-v16-piston-animal": {
+  "constructeur": "Dyson (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "dyson-v15-detect-absolute": {
+  "constructeur": "Dyson (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "dyson-v12-detect-slim": {
+  "constructeur": "Dyson (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "dyson-v11-absolute": {
+  "constructeur": "Dyson (visuel produit fourni par l'éditeur)",
+  "source": "fourni par Matthieu Tixier"
  }
 }

@@ -9,19 +9,19 @@
 },
 "aspirateur-robot/": {
 "d": "2026-10-27",
-"h": "f22db9ec515f"
+"h": "4348958b0a41"
 },
 "aspirateur-robot/aspirateurs-balais-laveurs/": {
 "d": "2026-10-27",
-"h": "0ee12136fa9c"
+"h": "72dc45c45d4f"
 },
 "aspirateur-robot/aspirateurs-balais/": {
 "d": "2026-10-27",
-"h": "2e438036608e"
+"h": "749addec92cb"
 },
 "aspirateur-robot/dji-romo-p2/": {
 "d": "2026-10-27",
-"h": "ebbd6604a221"
+"h": "b32ca0ca1607"
 },
 "aspirateur-robot/dreame-aqua10-ultra/": {
 "d": "2026-10-27",
@@ -29,15 +29,15 @@
 },
 "aspirateur-robot/dreame-h12-pro/": {
 "d": "2026-10-27",
-"h": "cc3e31f9102c"
+"h": "75e705ca44a4"
 },
 "aspirateur-robot/dreame-h14/": {
 "d": "2026-10-27",
-"h": "65437198bf80"
+"h": "77d28c398e52"
 },
 "aspirateur-robot/dreame-h15-pro/": {
 "d": "2026-10-27",
-"h": "ea433e20ef16"
+"h": "8a122adfa75c"
 },
 "aspirateur-robot/dreame-l10s-ultra/": {
 "d": "2026-10-27",
@@ -45,7 +45,7 @@
 },
 "aspirateur-robot/dreame-l20-ultra/": {
 "d": "2026-10-27",
-"h": "e5c365408453"
+"h": "ec7a242ba39e"
 },
 "aspirateur-robot/dreame-l40-ultra/": {
 "d": "2026-10-27",
@@ -53,7 +53,7 @@
 },
 "aspirateur-robot/dreame-r20/": {
 "d": "2026-10-27",
-"h": "64d557136c8a"
+"h": "1554cd2c41c7"
 },
 "aspirateur-robot/dreame-x50-ultra-complete/": {
 "d": "2026-10-27",
@@ -61,23 +61,23 @@
 },
 "aspirateur-robot/dreame-z30/": {
 "d": "2026-10-27",
-"h": "f974a315a9f5"
+"h": "1fe5eae4be5d"
 },
 "aspirateur-robot/dyson-v11-absolute/": {
 "d": "2026-10-27",
-"h": "dea7fe734d98"
+"h": "698e8fd0b2db"
 },
 "aspirateur-robot/dyson-v12-detect-slim/": {
 "d": "2026-10-27",
-"h": "2b09083a4dfc"
+"h": "2ac25d89f075"
 },
 "aspirateur-robot/dyson-v15-detect-absolute/": {
 "d": "2026-10-27",
-"h": "1c1e3f29bc2b"
+"h": "3f45a3914155"
 },
 "aspirateur-robot/dyson-v16-piston-animal/": {
 "d": "2026-10-27",
-"h": "516a703089af"
+"h": "d8f08c17fcb3"
 },
 "aspirateur-robot/ecovacs-deebot-x11/": {
 "d": "2026-10-27",
@@ -89,11 +89,11 @@
 },
 "aspirateur-robot/mova-m50-ultra/": {
 "d": "2026-10-27",
-"h": "7bddb21c323d"
+"h": "f28104fce91f"
 },
 "aspirateur-robot/mova-v70-ultra/": {
 "d": "2026-10-27",
-"h": "59884f4ed299"
+"h": "3af7714e19e1"
 },
 "aspirateur-robot/mova-z60-ultra/": {
 "d": "2026-10-27",
@@ -101,7 +101,7 @@
 },
 "aspirateur-robot/narwal-flow-2/": {
 "d": "2026-10-27",
-"h": "da7608c1be09"
+"h": "5e851f523db0"
 },
 "aspirateur-robot/narwal-freo-z10-ultra/": {
 "d": "2026-10-27",
@@ -109,7 +109,7 @@
 },
 "aspirateur-robot/roborock-h60-hub/": {
 "d": "2026-10-27",
-"h": "42c8254a67d3"
+"h": "fb97e967db53"
 },
 "aspirateur-robot/roborock-qrevo-curv-2/": {
 "d": "2026-10-27",
@@ -117,11 +117,11 @@
 },
 "aspirateur-robot/roborock-qrevo-maxv/": {
 "d": "2026-10-27",
-"h": "3d810022a124"
+"h": "1f130ce55154"
 },
 "aspirateur-robot/roborock-s8-maxv-ultra/": {
 "d": "2026-10-27",
-"h": "0b9adca88d68"
+"h": "af723afbf817"
 },
 "aspirateur-robot/roborock-saros-20/": {
 "d": "2026-10-27",
@@ -129,7 +129,7 @@
 },
 "aspirateur-robot/robots-aspirateurs-animaux/": {
 "d": "2026-10-27",
-"h": "f04c34523905"
+"h": "8ea35757e506"
 },
 "aspirateur-robot/robots-aspirateurs-laveurs/": {
 "d": "2026-10-27",
@@ -137,23 +137,23 @@
 },
 "aspirateur-robot/rowenta-x-force-flex-14-60/": {
 "d": "2026-10-27",
-"h": "61ed42914302"
+"h": "de54ef049aec"
 },
 "aspirateur-robot/samsung-bespoke-jet/": {
 "d": "2026-10-27",
-"h": "f1540e5f4dc9"
+"h": "23ad06ca68a0"
 },
 "aspirateur-robot/samsung-jet-90/": {
 "d": "2026-10-27",
-"h": "c8f2d1cac9ad"
+"h": "8ed83c6a4dba"
 },
 "aspirateur-robot/tineco-floor-one-s7-pro/": {
 "d": "2026-10-27",
-"h": "164338203248"
+"h": "c9e8129f66ac"
 },
 "aspirateur-robot/tineco-floor-one-s9-artist/": {
 "d": "2026-10-27",
-"h": "013fd08b78eb"
+"h": "87263377e54c"
 },
 "black-friday/": {
 "d": "2026-10-27",
