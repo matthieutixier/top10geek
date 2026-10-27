@@ -733,7 +733,7 @@ def family_page(fam):
     <div class="comparator-head">
       <div><h2>Ce qu'en dit la presse, et ce que ça coûte</h2>
       <p class="comparator-sub">Chaque bulle est {'une' if fam['key'] == 'imprimante' else 'un'} {fam['noun']}. <b>Plus elle est à droite, mieux la presse l'a noté ; plus elle est basse, moins il est cher.</b> Cliquez sur une bulle pour lire le verdict.</p></div>
-      <img class="comparator-pose" src="../assets/img/{'badge-robots-laveurs' if fam['key'] == 'robot' else 'pose-investigation'}.webp" alt="" width="88" height="88">
+      <img class="comparator-pose" src="../assets/img/{'badge-robots-laveurs-v2' if fam['key'] == 'robot' else 'pose-investigation'}.webp" alt="" width="88" height="88">
     </div>
     <div class="usage-filter" id="usageFilter" role="group" aria-label="Filtrer par usage">{pills}</div>
     <div class="comparator-grid">
@@ -1027,7 +1027,7 @@ def usage_page(fam, c):
     <div class="comparator-head">
       <div><h2>{'Les 10' if n == 10 else 'La sélection'} en un coup d'œil</h2>
       <p class="comparator-sub"><b>À droite : bien noté par la presse. En bas : moins cher.</b> Les bonnes affaires sont en bas à droite. Filtrez par budget, cliquez sur une bulle pour lire le verdict.</p></div>
-      <img class="comparator-pose" src="../../assets/img/{'badge-robots-laveurs' if fam['key'] == 'robot' else 'pose-investigation'}.webp" alt="" width="88" height="88">
+      <img class="comparator-pose" src="../../assets/img/{'badge-robots-laveurs-v2' if fam['key'] == 'robot' else 'pose-investigation'}.webp" alt="" width="88" height="88">
     </div>
     {budget_filter(items)}
     <div class="comparator-grid">
@@ -1583,7 +1583,7 @@ home = f"""
     <h3 class="univers-head maison">Maison</h3>
     <div class="fam-grid maison">
       <a class="fam-card maison" href="aspirateur-robot/">
-        <div class="fam-art"><img src="assets/img/badge-robots-laveurs.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-balais-laveurs.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-animaux.webp" alt="" width="96" height="96"></div>
+        <div class="fam-art"><img src="assets/img/badge-robots-laveurs-v2.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-balais-laveurs-v2.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-animaux-v2.webp" alt="" width="96" height="96"></div>
         <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots aspirateurs laveurs, classés d'après les tests de la presse. D'autres usages arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in SCATS)}</div><span class="uc-go">Explorer →</span></a>
       <div class="fam-card maison ghost" aria-label="TV et home cinéma, bientôt">
