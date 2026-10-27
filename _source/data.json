@@ -20984,7 +20984,20 @@
    "prix": 428.99,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq notes très hautes : ExpertReviews, Les Numériques, Pocket-lint et Trusted Reviews donnent 10, Chip.de 8,3. Attention, ces tests datent de la sortie du modèle, en 2019.\n\nLes tests recensés louent l'aspiration très puissante, l'ajustement automatique de la puissance, l'écran d'autonomie restante et la polyvalence sur escaliers, tapis, sols durs et poils d'animaux. Ils regrettent une seule batterie, un prix élevé, l'impossibilité de charger et d'utiliser l'appareil en même temps, et un bruit gênant à vide.",
+    "date": "2026-10-27",
+    "n": 5,
+    "tests": 8,
+    "sources": [
+     "ExpertReviews",
+     "Les Numériques",
+     "Pocket-lint",
+     "Trusted Reviews",
+     "Chip.de"
+    ]
+   }
   },
   "dyson-v15-detect-absolute": {
    "cat": "s-aspirateur-balai",
@@ -21067,7 +21080,19 @@
    "prix": 579.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre notes : Les Numériques et Stuff donnent 10, Chip.de et L&B Tech 8. Les tests datent de 2021-2022, à la sortie du modèle.\n\nLes tests recensés retiennent un grand nombre d'accessoires, la brosse anti-enchevêtrement efficace sur les poils d'animaux, davantage de puissance et d'autonomie, et le fonctionnement des capteurs acoustique et laser. Ils jugent l'appareil extrêmement cher, ces capteurs parfois excessifs et la lecture des données de poussière surtout utile aux passionnés.\n\nLes notes de 10 ont été attribuées à la sortie du modèle ; le V15 reste la référence des balais haut de gamme, au prix de l'un des plus élevés de la sélection.",
+    "date": "2026-10-27",
+    "n": 4,
+    "tests": 6,
+    "sources": [
+     "Les Numériques",
+     "Stuff",
+     "Chip.de",
+     "L&B Tech"
+    ]
+   }
   },
   "dyson-v12-detect-slim": {
    "cat": "s-aspirateur-balai",
@@ -21168,7 +21193,20 @@
    "prix": 649.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq notes entre 8 et 9 : ExpertReviews donne 9, 91mobiles.com, Gadget Bridge, GadgetGear et RTings 8.\n\nLes tests recensés mentionnent le poids léger, l'aspiration puissante, la lumière de la brosse et les mêmes accessoires que le V15. Ils notent un prix élevé, une capacité de bac et une aspiration inférieures à celles du V15, et des têtes de sol à changer selon les surfaces.\n\nLes notes sont constantes entre 8 et 9 : un balai léger et efficace, à choisir si la compacité prime sur la capacité du bac.",
+    "date": "2026-10-27",
+    "n": 5,
+    "tests": 9,
+    "sources": [
+     "ExpertReviews",
+     "91mobiles.com",
+     "Gadget Bridge",
+     "GadgetGear",
+     "RTings"
+    ]
+   }
   },
   "dyson-v16-piston-animal": {
    "cat": "s-aspirateur-balai",
@@ -21294,7 +21332,21 @@
    "prix": 750.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Onze notes, plus dispersées que pour les autres balais : Trusted Reviews attribue 10, Les Numériques, T3 ou Journal du Geek 8, alors que FrAndroid et ImTest ne vont pas au-delà de 6.\n\nLes tests recensés apprécient le nettoyage, la conception soignée, l'ajustement automatique de la puissance et la force d'aspiration. Ils déplorent un prix élevé, un balai qui ne tient pas debout seul, un mécanisme d'essuyage automatique décevant et des performances d'aspiration jugées en retrait pour un Dyson.\n\nEn résumé, un balai très puissant dont la note moyenne est tirée vers le bas par deux avis plus sévères ; il convient à qui veut le dernier Dyson et accepte son prix.",
+    "date": "2026-10-27",
+    "n": 11,
+    "tests": 13,
+    "sources": [
+     "Trusted Reviews",
+     "Les Numériques",
+     "T3",
+     "Journal du Geek",
+     "FrAndroid",
+     "ImTest"
+    ]
+   }
   },
   "samsung-bespoke-jet": {
    "cat": "s-aspirateur-balai",
@@ -21408,7 +21460,20 @@
    "prix": 742.9,
    "img": "samsung-bespoke-jet.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six notes entre 7 et 9 : HardwareZone (9) et Tech Advisor (8,5) sont les plus favorables, Les Numériques, TechRadar et TechStage donnent 8, RTings 7.\n\nLes tests recensés mettent en avant la station d'extraction ingénieuse, la forte aspiration et une bonne prise en main. Ils regrettent un prix élevé, un accès au filtre HEPA peu pratique et une seconde batterie qui ne se recharge pas sur la station.\n\nLa station qui vide le bac fait l'unanimité sur le confort ; le prix, cité par plusieurs médias, explique les notes les plus modestes de la série.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 11,
+    "sources": [
+     "HardwareZone",
+     "Tech Advisor",
+     "Les Numériques",
+     "TechRadar",
+     "RTings"
+    ]
+   }
   },
   "samsung-jet-90": {
    "cat": "s-aspirateur-balai",
@@ -21486,7 +21551,18 @@
    "prix": 490.0,
    "img": "samsung-jet-90.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois notes identiques : DigitalTrends, Les Numériques et TechStage donnent chacun 8.\n\nLes tests recensés citent le filtre HEPA qui retient les poussières fines, un jeu d'outils polyvalent, la station de charge incluse et une construction légère. Ils relèvent une brosse qui peut encore s'emmêler avec les cheveux, 3 h 30 de recharge, un prix élevé et l'absence de nettoyage humide.\n\nLes trois tests donnent la même note, mais le modèle date : c'est un balai polyvalent à comparer aux nouveautés avant de l'acheter à ce prix.",
+    "date": "2026-10-27",
+    "n": 3,
+    "tests": 5,
+    "sources": [
+     "DigitalTrends",
+     "Les Numériques",
+     "TechStage"
+    ]
+   }
   },
   "dreame-z30": {
    "cat": "s-aspirateur-balai",
@@ -21612,7 +21688,20 @@
    "prix": 293.0,
    "img": "dreame-z30.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit notes entre 7 et 9,4. L&B Tech se détache avec 9,4 ; Basic Tutorials, CharlesTech, Chip.de, LeCafeDuGeek, Tech Advisor et Tom's Guide (FR) donnent 8 ; AndroidWorld descend à 7.\n\nLes tests recensés mentionnent la batterie amovible, le design, un prix modéré et le grand nombre d'accessoires. Les critiques portent sur un réservoir un peu petit, un effet plastique général, un corps lourd et peu maniable, et un tarif jugé assez élevé par certains.\n\nLa note moyenne de 8,1/10 repose sur huit médias, dont plusieurs récents : c'est un choix cohérent pour qui veut de la puissance sans payer le prix d'un Dyson.",
+    "date": "2026-10-27",
+    "n": 8,
+    "tests": 13,
+    "sources": [
+     "L&B Tech",
+     "Basic Tutorials",
+     "Chip.de",
+     "Tom's Guide (FR)",
+     "AndroidWorld"
+    ]
+   }
   },
   "dreame-r20": {
    "cat": "s-aspirateur-balai",
@@ -21720,7 +21809,19 @@
    "prix": 209.0,
    "img": "dreame-r20.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre notes : LeCafeDuGeek, Les Numériques et Tom's Guide (FR) donnent 8, TechRadar 6.\n\nLes tests recensés citent de bonnes performances d'aspiration, un mode continu ou fractionné, une grande endurance en mode auto et une filtration multicyclonique. Ils conseillent de choisir la tête adaptée à la surface, notent que la brosse dure repousse les détritus vers l'arrière et que l'autonomie baisse en mode turbo, et relèvent un bac à poussière de seulement 0,6 L.\n\nLa note moyenne de 7,5/10 s'explique surtout par l'avis plus sévère de TechRadar ; les trois autres médias sont à 8, signe d'un balai endurant et abordable.",
+    "date": "2026-10-27",
+    "n": 4,
+    "tests": 10,
+    "sources": [
+     "LeCafeDuGeek",
+     "Les Numériques",
+     "Tom's Guide (FR)",
+     "TechRadar"
+    ]
+   }
   },
   "roborock-h60-hub": {
    "cat": "s-aspirateur-balai",
@@ -21799,7 +21900,18 @@
    "prix": 149.98,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois notes seulement, basses pour le site : Allround-PC et tuttoteK donnent 7, CharlesTech 6.\n\nLes tests recensés apprécient la base de vidage automatique rapide (10 secondes), la bonne autonomie avec batterie modulaire, la maintenance facile et les bons résultats sur sol dur au niveau maximal. Ils reprochent une base encombrante, des sachets de rechange à racheter, une seule batterie fournie, et estiment que ce ne devrait pas être le premier choix s'il existe un modèle supérieur dans la gamme.",
+    "date": "2026-10-27",
+    "n": 3,
+    "tests": 5,
+    "sources": [
+     "Allround-PC",
+     "tuttoteK",
+     "CharlesTech"
+    ]
+   }
   },
   "dreame-h15-pro": {
    "cat": "s-aspirateur-laveur",
@@ -21976,7 +22088,20 @@
    "prix": 339.0,
    "img": "dreame-h15-pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quinze médias notent le H15 Pro et la plupart convergent autour de 8/10. Basic Tutorials et Labo Fnac (9,4) sont les plus enthousiastes, Journal du Geek suit à 9, tandis que FrAndroid et Les Numériques s'arrêtent à 7.\n\nLes tests recensés retiennent une aspiration puissante, un lavage à l'eau chaude efficace, un mode automatique et la pose à plat sous les meubles. Côté réserves : un prix élevé, une application nécessaire pour accéder à toutes les fonctions, l'absence de lumière à l'avant et un dosage du détergent manuel.",
+    "date": "2026-10-27",
+    "n": 15,
+    "tests": 20,
+    "sources": [
+     "Basic Tutorials",
+     "Labo Fnac",
+     "Journal du Geek",
+     "FrAndroid",
+     "Les Numériques"
+    ]
+   }
   },
   "dreame-h12-pro": {
    "cat": "s-aspirateur-laveur",
@@ -22102,7 +22227,20 @@
    "prix": 189.0,
    "img": "dreame-h12-pro.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept notes, de 8 à 9,6 : TechTest (9,6) et Basic Tutorials (9,3) mènent le groupe, CharlesTech, Chip.de, LeCafeDuGeek, Les Numériques et Maison et Domotique donnent 8.\n\nLes tests recensés citent le nettoyage intelligent, le rouleau bord à bord, l'autonettoyage avec séchage de la brosse et le mode électrolyse pour la désinfection. Ils notent une recharge un peu longue, un appareil lourd et peu maniable, une tête de lavage imposante et un mode « ultra » peu utile.\n\nAvec 8,4/10 sur sept médias, c'est l'un des balais laveurs les mieux notés, mais son poids est un vrai point de vigilance si l'appareil doit monter des escaliers.",
+    "date": "2026-10-27",
+    "n": 7,
+    "tests": 13,
+    "sources": [
+     "TechTest",
+     "Basic Tutorials",
+     "CharlesTech",
+     "Les Numériques",
+     "Maison et Domotique"
+    ]
+   }
   },
   "dreame-h14": {
    "cat": "s-aspirateur-laveur",
@@ -22211,7 +22349,20 @@
    "prix": 229.0,
    "img": "dreame-h14.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq notes, toutes à 8 : CharlesTech, FrAndroid, LeCafeDuGeek, Maison et Domotique et TechTest s'accordent, sans voix discordante.\n\nLes tests recensés relèvent d'excellentes performances de nettoyage, un design agréable, l'intégration à l'application et la capacité à se coucher à 180 degrés. Ils signalent une autonomie limitée, un poids un peu conséquent et un tarif jugé élevé par certains.\n\nLes avis sont unanimes à 8/10 : c'est un appareil sans surprise, bien noté pour le nettoyage, dont les limites sont l'autonomie et le poids.",
+    "date": "2026-10-27",
+    "n": 5,
+    "tests": 10,
+    "sources": [
+     "CharlesTech",
+     "FrAndroid",
+     "LeCafeDuGeek",
+     "Maison et Domotique",
+     "TechTest"
+    ]
+   }
   },
   "tineco-floor-one-s7-pro": {
    "cat": "s-aspirateur-laveur",
@@ -22325,7 +22476,20 @@
    "prix": 249.99,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six notes dispersées : TechTest (9,3) et Basic Tutorials (9) sont les plus élogieux, CharlesTech, TechRadar et Tom's Guide (FR) donnent 8, Chip.de seulement 6.\n\nLes tests recensés citent une forte aspiration, le lavage à la serpillière, l'auto-propulsion qui rend le passage sans effort, plusieurs modes et une belle forme. Ils retiennent aussi un réservoir d'eau de 0,85 L, le réservoir d'eau sale à vider et rincer après chaque usage, une autonomie courte et un prix salé.\n\nLa dispersion des notes (de 6 à 9,3) montre un appareil apprécié pour son confort d'usage mais sensible à ses limites de capacité et d'autonomie.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 11,
+    "sources": [
+     "TechTest",
+     "Basic Tutorials",
+     "TechRadar",
+     "Tom's Guide (FR)",
+     "Chip.de"
+    ]
+   }
   },
   "tineco-floor-one-s9-artist": {
    "cat": "s-aspirateur-laveur",
@@ -22469,7 +22633,20 @@
    "prix": 429.99,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit notes entre 6 et 9,1 : Basic Tutorials, Clubic et FrAndroid sont au-dessus de 9, Chip.de, Journal du Geek et LeCafeDuGeek à 8, Tom's Guide (US) à 7 et Presse Citron à 6.\n\nLes tests recensés vantent le design élégant, l'aspiration, le nettoyage et la facilité d'entretien, avec une solution de lavage fournie. Les reproches reviennent sur le prix, qualifié d'élevé voire de très élevé, un poids sensible à la longue et un bouton de réglage au fonctionnement confus.\n\nLes avis sont favorables sur l'efficacité, mais le prix et la prise en main pèsent dans les notes les plus basses : il s'adresse à qui privilégie le résultat de lavage.",
+    "date": "2026-10-27",
+    "n": 8,
+    "tests": 16,
+    "sources": [
+     "Basic Tutorials",
+     "Clubic.com",
+     "FrAndroid",
+     "Tom's Guide (US)",
+     "Presse Citron"
+    ]
+   }
   },
   "mova-m50-ultra": {
    "cat": "s-aspirateur-laveur",
@@ -22565,7 +22742,19 @@
    "prix": 322.0,
    "img": "mova-m50-ultra.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre notes : Basic Tutorials, FrAndroid et LeCafeDuGeek donnent 8, Les Numériques 7.\n\nLes tests recensés mentionnent le manche pliable et extensible, l'aspiration puissante, le lavage efficace, la station d'accueil avec séchage rapide et la bonne gestion des liquides et saletés. Ils regrettent l'absence de lavage du sol à l'eau chaude, un niveau sonore perfectible, l'absence de phare LED et une brosse accessible avec un tournevis.\n\nPeu de médias l'ont testé pour l'instant, mais les avis sont homogènes ; son manche pliable est la principale originalité face aux autres balais laveurs.",
+    "date": "2026-10-27",
+    "n": 4,
+    "tests": 8,
+    "sources": [
+     "Basic Tutorials",
+     "FrAndroid",
+     "LeCafeDuGeek",
+     "Les Numériques"
+    ]
+   }
   },
   "roborock-s8-maxv-ultra": {
    "cat": "s-robot-animaux",
@@ -22715,7 +22904,20 @@
    "prix": 1299.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "C'est l'un des robots les mieux notés du site : AndroidPit, L&B Tech, Les Numériques et Tech Advisor lui donnent 10, CharlesTech, FrAndroid, Journal du Geek et PhonAndroid 9. Presse Citron est le plus réservé avec 7.\n\nLes tests recensés soulignent l'aspiration, la station multifonction compacte et son réservoir de produit nettoyant. Ils relèvent des progrès possibles dans les coins, une détection insuffisante des petits obstacles, quelques fonctions jugées gadgets et un prix élevé que certains estiment justifié.",
+    "date": "2026-10-27",
+    "n": 12,
+    "tests": 17,
+    "sources": [
+     "AndroidPit",
+     "Les Numériques",
+     "Tech Advisor",
+     "FrAndroid",
+     "Presse Citron"
+    ]
+   }
   },
   "dreame-l20-ultra": {
    "cat": "s-robot-animaux",
@@ -22865,7 +23067,20 @@
    "prix": 689.0,
    "img": "dreame-l20-ultra.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Douze notes, toutes comprises entre 8 et 9,6. Les Numériques place le L20 Ultra le plus haut (9,6), devant AndroidPit, Basic Tutorials, CharlesTech et LeCafeDuGeek (9) ; Journal du Geek et Neozone sont à 8.\n\nLes tests recensés louent la navigation, l'aisance dans les pièces encombrées, l'aspiration et le retrait des patins de lavage sur les tapis. Ils signalent un encombrement conséquent, des obstacles parfois vus là où il n'y en a pas, des zones manquées pour éviter les collisions et un filtre HEPA à nettoyer régulièrement.",
+    "date": "2026-10-27",
+    "n": 12,
+    "tests": 17,
+    "sources": [
+     "Les Numériques",
+     "AndroidPit",
+     "Basic Tutorials",
+     "Journal du Geek",
+     "Neozone"
+    ]
+   }
   },
   "roborock-qrevo-maxv": {
    "cat": "s-robot-animaux",
@@ -22979,7 +23194,20 @@
    "prix": 609.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six notes seulement, mais homogènes : CharlesTech, FrAndroid et Les Numériques donnent 9, Chip.de, PhonAndroid et Presse Citron 8.\n\nLes tests recensés apprécient l'automatisation des tâches d'entretien, l'application très complète, la navigation méthodique et la détection d'obstacles. Ils reprochent une station imposante, une aspiration moins efficace sur les tapis à poils longs, plusieurs passages nécessaires sur les taches incrustées et une serpillière FlexiArm mal exploitée.\n\nLes notes sont régulières entre 8 et 9, sans avis très négatif : un robot sûr, dont les principales limites sont l'encombrement de la station et les tapis épais à poils longs.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 11,
+    "sources": [
+     "CharlesTech",
+     "FrAndroid",
+     "Les Numériques",
+     "Chip.de",
+     "Presse Citron"
+    ]
+   }
   },
   "mova-v70-ultra": {
    "cat": "s-robot-animaux",
@@ -23093,7 +23321,20 @@
    "prix": 948.0,
    "img": "mova-v70-ultra.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept notes pour le V70 Ultra : Basic Tutorials (9,4), AndroidWorld et FrAndroid (9) sont les plus convaincus, Journal du Geek donne 8,5, Clubic et Neozone 8, Tom's Guide (FR) 6.\n\nLes tests recensés retiennent la vadrouille extensible qui atteint 16 cm sous les meubles, le franchissement de marches de 4,5 cm (9 cm en transitions composées), la station sans sac et la brosse DuoBrush anti-enchevêtrement. Ils pointent un prix d'achat élevé, un petit rouleau qui ramasse encore des poils isolés et une détection d'obstacles prise en défaut sur un support plat.",
+    "date": "2026-10-27",
+    "n": 7,
+    "tests": 11,
+    "sources": [
+     "Basic Tutorials",
+     "AndroidWorld",
+     "FrAndroid",
+     "Journal du Geek",
+     "Tom's Guide (FR)"
+    ]
+   }
   },
   "dji-romo-p2": {
    "cat": "s-robot-animaux",
@@ -23195,7 +23436,20 @@
    "prix": 1199.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six notes entre 8 et 9,6 : FrAndroid (9,6) et TechTest (9,3) en tête, Basic Tutorials et Maison et Domotique à 9, AndroidWorld et Journal du Geek à 8. La moyenne repose sur peu de tests, tous récents.\n\nLes tests recensés saluent la cartographie et l'évitement d'obstacles, la puissance sur tapis épais et parquet, des jambes robotisées qui franchissent 8,5 cm et un bras oscillant qui lave sous les meubles. Ils notent un tarif premium, un design transparent qui ne fera pas l'unanimité et un assistant vocal indisponible dans certains pays au lancement.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 9,
+    "sources": [
+     "FrAndroid",
+     "TechTest",
+     "Basic Tutorials",
+     "Maison et Domotique",
+     "Journal du Geek"
+    ]
+   }
   },
   "narwal-flow-2": {
    "cat": "s-robot-animaux",
@@ -23344,6 +23598,85 @@
    },
    "prix": 1038.05,
    "img": "narwal-flow-2.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le Flow 2 reçoit douze notes allant de 8 à 9,6. TechTest est le plus élogieux (9,6), suivi d'AndroidWorld, Basic Tutorials et Presse Citron (9) ; 01net, CharlesTech, Chip.de et FrAndroid restent à 8.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
+    "date": "2026-10-27",
+    "n": 12,
+    "tests": 17,
+    "sources": [
+     "TechTest",
+     "AndroidWorld",
+     "Basic Tutorials",
+     "Presse Citron",
+     "01net",
+     "Chip.de"
+    ]
+   }
+  },
+  "rowenta-x-force-flex-14-60": {
+   "cat": "s-aspirateur-balai",
+   "short": "Rowenta X-Force Flex 14.60",
+   "ref": "Fabriqué en France · réparable",
+   "badge": "Le made in France",
+   "verdict": "Un balai Rowenta fabriqué en France et réparable, mais très peu testé par la presse : les tests suivis portent sur le modèle voisin 14.80.",
+   "strengths": [
+    "Fabriqué en France et réparable",
+    "LED sur la tête motorisée",
+    "Bonne autonomie"
+   ],
+   "weak": [
+    "Pas de base de vidange"
+   ],
+   "m": [
+    "Fabriqué en France",
+    "Sans station"
+   ],
+   "id": "rowenta-x-force-flex-14-60",
+   "offers": [
+    {
+     "m": "Electro Dépôt",
+     "price": 295.0,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-balai-rowenta-14-60-yy5640fe-x-force-flex-auto.html",
+     "name": "Aspirateur Balai Rowenta 14.60 Yy5640fe X Force Flex Auto",
+     "cfg": "",
+     "ean": "3700342483376",
+     "edid": "10009171"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 1,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Neozone",
+      "score": 7.0,
+      "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-qui-se-plie-rowenta-x-force-flex-14-80/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/rowenta-x-force-flex-14-80",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": null,
+      "url": "https://www.journaldugeek.com/test/test-du-rowenta-x-force-flex-14-80-laspirateur-qui-se-plie-en-quatre-pour-vous/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 295.0,
+   "img": null,
    "rating": null,
    "nrev": 0
   }

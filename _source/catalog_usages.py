@@ -123,6 +123,18 @@ add("roborock-h60-hub", BAL, "Roborock H60 Hub", "Base de vidage automatique", "
     "Vous voulez une base qui vide le bac toute seule pour 150 €.",
     "Vous avez des tapis épais ou un grand logement.", ed=_ed_h60)
 
+
+_ed_rowenta = {"url": _ed_url("https://www.electrodepot.fr/aspirateur-balai-rowenta-14-60-yy5640fe-x-force-flex-auto.html"),
+               "name": "Aspirateur Balai Rowenta 14.60 Yy5640fe X Force Flex Auto", "price": 295.0, "ean": "3700342483376", "edid": "10009171"}
+add("rowenta-x-force-flex-14-60", BAL, "Rowenta X-Force Flex 14.60", "Fabriqué en France · réparable", "Le made in France",
+    "Un balai Rowenta fabriqué en France et réparable, mais très peu testé par la presse : les tests suivis portent sur le modèle voisin 14.80.",
+    ["Fabriqué en France et réparable", "LED sur la tête motorisée", "Bonne autonomie"],
+    ["Pas de base de vidange"],
+    ("Fabriqué en France", "Sans station"), "Rowenta X-Force Flex 14.80",
+    None, None, None,
+    "Vous voulez un balai français, réparable, vendu en magasin.",
+    "Vous voulez un modèle largement testé : les tests suivis portent sur le 14.80.", scope="gamme", ed=_ed_rowenta)
+
 # ============================================================ BALAIS LAVEURS
 _ed_h15 = {"url": _ed_url("https://www.electrodepot.fr/nettoyeur-de-sols-dreame-h15-pro.html"),
            "name": "Aspirateur Laveur Dreame H15 Pro", "price": 339.0, "ean": "6977328063854", "edid": "10009023"}
