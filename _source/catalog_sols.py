@@ -32,7 +32,7 @@ SOLS["roborock-saros-20"] = S("s-robot-laveur", 'Roborock Saros 20', 'Station la
      ('RTings', None, 'https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20'),
      ('Stuff', None, 'https://www.stuff.tv/review/roborock-saros-20-neo-review/'),
     ],
-    asin="B0H4FFNW2Q", amz='roborock Saros 20 Neo Robot Aspirateur Laveur', price=799.0,  # PROVISOIRE (aperçu) :  # confirmé par Matthieu 27/10/2026 ; prix à relever (releve.py)
+    asin="B0H4FFNW2Q", amz='roborock Saros 20 Neo Robot Aspirateur Laveur', price=899.0,  # 899 € en promo (1299 € hors promo), indiqué par Matthieu le 27/10/2026 ;  # confirmé par Matthieu 27/10/2026 ; prix à relever (releve.py)
     pour='Vous voulez le robot laveur le plus complet du moment et acceptez un prix haut de gamme.',
     eviter='Vous cherchez un robot à petit prix ou une solution pour un petit logement.', scope='modele',
     ed=None)
@@ -59,7 +59,7 @@ SOLS["roborock-qrevo-curv-2"] = S("s-robot-laveur", 'Roborock Qrevo Curv 2', 'Fl
      ('RTings', None, 'https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv-2-flow'),
      ('Wired', None, 'https://www.wired.com/review/roborock-qrevo-curv-2-flow/'),
     ],
-    asin="B0FS16B394", amz='roborock Qrevo Curv 2 Flow Robot Aspirateur Laveur', price=549.0,  # PROVISOIRE (aperçu) :  # version Flow, lien fourni par Matthieu ; prix à relever (releve.py)
+    asin="B0FS16B394", amz='roborock Qrevo Curv 2 Flow Robot Aspirateur Laveur', price=649.0,  # 649 €, indiqué par Matthieu le 27/10/2026 ;  # version Flow, lien fourni par Matthieu ; prix à relever (releve.py)
     pour='Vous voulez un robot puissant et bien équipé pour un logement de taille moyenne à grande.',
     eviter='Vous avez des meubles très bas ou un petit logement (risque de surdimensionnement).', scope='gamme',
     ed=None)
