@@ -552,6 +552,12 @@ def variante(nom, largeur):
 # largeur affichée des photos produits selon leur bloc (mesurée à 1280 et 390 px)
 SIZES = {"tc-photo": "(max-width: 700px) 90vw, 540px", "f-photo": "(max-width: 700px) 90vw, 320px",
          "pick-photo": "(max-width: 700px) 70vw, 260px", "ch-photo": "(max-width: 700px) 70vw, 260px"}
+def hero_scene(name, alt, pre):
+    """Illustration carrée de la mascotte (fond plein, pas de détourage) pour les héros de l'univers Maison."""
+    return (f'<img class="hero-badge scene" src="{pre}assets/img/{name}.webp" srcset="{pre}assets/img/{name}-360.webp 360w, {pre}assets/img/{name}.webp 720w" '
+            f'sizes="(max-width: 720px) 80vw, 380px" alt="{alt}" width="380" height="380" fetchpriority="high">')
+
+
 EAGER = ("brand-mark", "hh-mascot", "hh-sticker", "hero-badge", "fetchpriority")
 
 
@@ -708,17 +714,17 @@ def family_page(fam):
       <div class="spec-row">
         <div><strong>{len(all_items)}</strong>{fam['plural']} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
         <div><strong>{sum(d["tests"]["tests"] for d in all_items)}</strong>tests presse recensés</div>
-        <div><strong>{len(cats)}</strong>usages</div>
+        <div><strong>{len(cats)}</strong>usage{'s' if len(cats) > 1 else ''}</div>
       </div>
     </div>
-    <img class="hero-badge tall big" src="../assets/img/{fam['mascot']}.webp" alt="La mascotte Top 10 Geek" width="220" height="260">
+    {hero_scene(fam['mascot'], fam['scene_alt'], '../') if fam.get('scene_alt') else f'<img class="hero-badge tall big" src="../assets/img/{fam["mascot"]}.webp" alt="La mascotte Top 10 Geek" width="220" height="260">'}
   </section>
   {PROVISIONAL_NOTE if fam['provisional'] else ''}
   <section class="comparator" id="comparateur">
     <div class="comparator-head">
       <div><h2>Ce qu'en dit la presse, et ce que ça coûte</h2>
       <p class="comparator-sub">Chaque bulle est {'une' if fam['key'] == 'imprimante' else 'un'} {fam['noun']}. <b>Plus elle est à droite, mieux la presse l'a noté ; plus elle est basse, moins il est cher.</b> Cliquez sur une bulle pour lire le verdict.</p></div>
-      <img class="comparator-pose" src="../assets/img/pose-investigation.webp" alt="" width="88" height="88">
+      <img class="comparator-pose{' rounded' if fam['key'] == 'robot' else ''}" src="../assets/img/{'badge-robot-laveur' if fam['key'] == 'robot' else 'pose-investigation'}.webp" alt="" width="88" height="88">
     </div>
     <div class="usage-filter" id="usageFilter" role="group" aria-label="Filtrer par usage">{pills}</div>
     <div class="comparator-grid">
@@ -978,6 +984,7 @@ def usage_page(fam, c):
   <div class="tc-actions"><a class="cta" href="{E(best['url'])}" target="_blank" rel="{rel_m(best['m'])}">{cta_txt(best)}</a><a class="see-all" href="{root}{d['purl']}">Avis et tests →</a></div>
 </article>""")
     mascot = ('<img class="hero-badge tall" src="../../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">' if c["key"] == "lowcost"
+              else hero_scene("scene-" + c["scene"], c["scene_alt"], "../../") if c.get("scene")
               else f'<img class="hero-badge" src="../../assets/img/badge-{c["badge"]}.webp" alt="" width="190" height="190">')
     # peu de notes publiques (imprimantes : notes des associations réservées aux abonnés) :
     # on met en avant les tests de laboratoire plutôt qu'un « 0 notes compilées » trompeur
@@ -1011,7 +1018,7 @@ def usage_page(fam, c):
     <div class="comparator-head">
       <div><h2>{'Les 10' if n == 10 else 'La sélection'} en un coup d'œil</h2>
       <p class="comparator-sub"><b>À droite : bien noté par la presse. En bas : moins cher.</b> Les bonnes affaires sont en bas à droite. Filtrez par budget, cliquez sur une bulle pour lire le verdict.</p></div>
-      <img class="comparator-pose" src="../../assets/img/pose-investigation.webp" alt="" width="88" height="88">
+      <img class="comparator-pose{' rounded' if fam['key'] == 'robot' else ''}" src="../../assets/img/{'badge-robot-laveur' if fam['key'] == 'robot' else 'pose-investigation'}.webp" alt="" width="88" height="88">
     </div>
     {budget_filter(items)}
     <div class="comparator-grid">
