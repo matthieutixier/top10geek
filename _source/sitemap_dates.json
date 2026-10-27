@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-10-27",
-"h": "18f08384d265"
+"h": "4cd35a8bab2e"
 },
 "a-propos": {
 "d": "2026-10-27",
@@ -9,59 +9,59 @@
 },
 "aspirateur-robot/": {
 "d": "2026-10-27",
-"h": "cd3331b38318"
+"h": "efa9c20034e2"
 },
 "aspirateur-robot/dreame-aqua10-ultra/": {
 "d": "2026-10-27",
-"h": "7a4d0e37db65"
+"h": "f36604fa2427"
 },
 "aspirateur-robot/dreame-l10s-ultra/": {
 "d": "2026-10-27",
-"h": "dd5a76519983"
+"h": "3d55f8230e06"
 },
 "aspirateur-robot/dreame-l40-ultra/": {
 "d": "2026-10-27",
-"h": "3fce097a40e4"
+"h": "76f77c29ec9e"
 },
 "aspirateur-robot/dreame-x50-ultra-complete/": {
 "d": "2026-10-27",
-"h": "ecdb20dcfd81"
+"h": "5b32b6185eb2"
 },
 "aspirateur-robot/ecovacs-deebot-x11/": {
 "d": "2026-10-27",
-"h": "cb7a61362806"
+"h": "cbf7f6d34fd5"
 },
 "aspirateur-robot/mova-e40-ultra/": {
 "d": "2026-10-27",
-"h": "4601fc307b16"
+"h": "66d7a3a826c2"
 },
 "aspirateur-robot/mova-z60-ultra/": {
 "d": "2026-10-27",
-"h": "f6e147c79e4e"
+"h": "b5e8bd8016a6"
 },
 "aspirateur-robot/narwal-freo-z10-ultra/": {
 "d": "2026-10-27",
-"h": "b7fe41ab037e"
+"h": "35334e22ec4c"
 },
 "aspirateur-robot/roborock-qrevo-curv-2/": {
 "d": "2026-10-27",
-"h": "9ad579201ad0"
+"h": "fcc1b9105d0b"
 },
 "aspirateur-robot/roborock-saros-20/": {
 "d": "2026-10-27",
-"h": "a55cd393a9e1"
+"h": "fd6d6880ff47"
 },
 "aspirateur-robot/robots-aspirateurs-laveurs/": {
 "d": "2026-10-27",
-"h": "b71c32fbbbba"
+"h": "79973def3e78"
 },
 "black-friday/": {
 "d": "2026-10-27",
-"h": "9b1e1c143a23"
+"h": "4167a31b426c"
 },
 "ecran-pc/": {
 "d": "2026-10-27",
-"h": "c089e9b107ed"
+"h": "eb33c09e6ef3"
 },
 "ecran-pc/acer-pd163q/": {
 "d": "2026-10-27",
@@ -169,11 +169,11 @@
 },
 "ecran-pc/bureautique/": {
 "d": "2026-10-27",
-"h": "ab6ce1d52e90"
+"h": "54285ed7228f"
 },
 "ecran-pc/creation/": {
 "d": "2026-10-27",
-"h": "18241804fadc"
+"h": "de5c0c00cb8e"
 },
 "ecran-pc/dell-27-plus-s2725dc/": {
 "d": "2026-10-27",
@@ -201,7 +201,7 @@
 },
 "ecran-pc/gaming/": {
 "d": "2026-10-27",
-"h": "a3b63c96d937"
+"h": "57f84b224bd1"
 },
 "ecran-pc/gigabyte-gs27qca/": {
 "d": "2026-10-27",
@@ -245,11 +245,11 @@
 },
 "ecran-pc/petit-prix/": {
 "d": "2026-10-27",
-"h": "12afe8f1143a"
+"h": "ef644fe9523f"
 },
 "ecran-pc/portable/": {
 "d": "2026-10-27",
-"h": "84e839d44020"
+"h": "951857dd70f8"
 },
 "ecran-pc/sony-inzone-m10s/": {
 "d": "2026-10-27",
@@ -261,7 +261,7 @@
 },
 "imprimante/": {
 "d": "2026-10-27",
-"h": "1c37033959ca"
+"h": "fd03dc4a1aeb"
 },
 "imprimante/brother-dcp-j1360dw/": {
 "d": "2026-10-27",
@@ -437,23 +437,23 @@
 },
 "imprimante/laser-couleur/": {
 "d": "2026-10-27",
-"h": "840341c93804"
+"h": "61acdbddfa90"
 },
 "imprimante/laser-noir-et-blanc/": {
 "d": "2026-10-27",
-"h": "b5a7e9f87c6c"
+"h": "03ca2949588e"
 },
 "imprimante/petit-prix/": {
 "d": "2026-10-27",
-"h": "34f7d05c42dc"
+"h": "5a2553b5b59f"
 },
 "imprimante/photo/": {
 "d": "2026-10-27",
-"h": "371f562eff7e"
+"h": "e8df2a39ecbf"
 },
 "imprimante/reservoir/": {
 "d": "2026-10-27",
-"h": "6f1f13dcbfc5"
+"h": "e951869c7bfa"
 },
 "imprimante/xerox-c230/": {
 "d": "2026-10-27",
@@ -465,15 +465,15 @@
 },
 "methode": {
 "d": "2026-10-27",
-"h": "74f09bb5a5f8"
+"h": "7b4296b521fc"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-10-27",
-"h": "dcb8750ef61f"
+"h": "afc61cfc70f3"
 },
 "ordinateur-de-bureau/acemagic-k1/": {
 "d": "2026-10-27",
-"h": "7260cf7f8ab2"
+"h": "651cfd36cc59"
 },
 "ordinateur-de-bureau/acer-aspire-c-27/": {
 "d": "2026-10-27",
@@ -497,7 +497,7 @@
 },
 "ordinateur-de-bureau/apple-mac-mini-m6/": {
 "d": "2026-10-27",
-"h": "71ad0303b9d4"
+"h": "1eb5400227a5"
 },
 "ordinateur-de-bureau/apple-mac-studio-m5-max/": {
 "d": "2026-10-27",
@@ -505,43 +505,43 @@
 },
 "ordinateur-de-bureau/asus-v500/": {
 "d": "2026-10-27",
-"h": "2aa54c734d00"
+"h": "c5a6c832338d"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
 "d": "2026-10-27",
-"h": "5b9620e82997"
+"h": "a2876ed36a02"
 },
 "ordinateur-de-bureau/bureautique/": {
 "d": "2026-10-27",
-"h": "1b3915551e97"
+"h": "1b3b31cbdfc3"
 },
 "ordinateur-de-bureau/creation/": {
 "d": "2026-10-27",
-"h": "d043de0355b6"
+"h": "7fda6e024b53"
 },
 "ordinateur-de-bureau/gaming/": {
 "d": "2026-10-27",
-"h": "e5ccd77ada5c"
+"h": "11df8dfd288d"
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
 "d": "2026-10-27",
-"h": "353c93ee2f80"
+"h": "0d77568b9870"
 },
 "ordinateur-de-bureau/geekom-a5/": {
 "d": "2026-10-27",
-"h": "ee8b031fbc09"
+"h": "2e585e71f738"
 },
 "ordinateur-de-bureau/geekom-a6/": {
 "d": "2026-10-27",
-"h": "37a73207af25"
+"h": "3fe77f8c3ea9"
 },
 "ordinateur-de-bureau/geekom-a7/": {
 "d": "2026-10-27",
-"h": "48cd013084d7"
+"h": "1f1d717af54c"
 },
 "ordinateur-de-bureau/geekom-a8/": {
 "d": "2026-10-27",
-"h": "dc9f7f077f22"
+"h": "bc2f3ee066dd"
 },
 "ordinateur-de-bureau/geekom-a9-max/": {
 "d": "2026-10-27",
@@ -553,7 +553,7 @@
 },
 "ordinateur-de-bureau/geekom-it13/": {
 "d": "2026-10-27",
-"h": "f60fe94ea663"
+"h": "b796aa6cc15e"
 },
 "ordinateur-de-bureau/geekom-it15/": {
 "d": "2026-10-27",
@@ -561,11 +561,11 @@
 },
 "ordinateur-de-bureau/geekom-mini-air12-lite/": {
 "d": "2026-10-27",
-"h": "8437237303c0"
+"h": "63030458f602"
 },
 "ordinateur-de-bureau/geekom-mini-it12/": {
 "d": "2026-10-27",
-"h": "efe9b0849ebd"
+"h": "2d65a8dfcb62"
 },
 "ordinateur-de-bureau/gigabyte-aorus-prime-5/": {
 "d": "2026-10-27",
@@ -577,7 +577,7 @@
 },
 "ordinateur-de-bureau/gmktec-nucbox-k13/": {
 "d": "2026-10-27",
-"h": "7e057d3acb9c"
+"h": "fcdbc9404bc9"
 },
 "ordinateur-de-bureau/hp-omen-16l/": {
 "d": "2026-10-27",
@@ -601,7 +601,7 @@
 },
 "ordinateur-de-bureau/lenovo-ideacentre-mini/": {
 "d": "2026-10-27",
-"h": "01675e32940d"
+"h": "79a41124795f"
 },
 "ordinateur-de-bureau/lenovo-legion-tower-5-gen-10/": {
 "d": "2026-10-27",
@@ -617,7 +617,7 @@
 },
 "ordinateur-de-bureau/mini-pc/": {
 "d": "2026-10-27",
-"h": "6d454987eb98"
+"h": "d60ed4d8407e"
 },
 "ordinateur-de-bureau/minisforum-ai-x1-pro/": {
 "d": "2026-10-27",
@@ -629,15 +629,15 @@
 },
 "ordinateur-de-bureau/nipogi-am06-pro/": {
 "d": "2026-10-27",
-"h": "f6e037014b1f"
+"h": "5a2aa358460d"
 },
 "ordinateur-de-bureau/tout-en-un/": {
 "d": "2026-10-27",
-"h": "d3c1f32caca7"
+"h": "ec39ff5e8c75"
 },
 "pc-portable/": {
 "d": "2026-10-27",
-"h": "fdf22eb479ba"
+"h": "407b22f7e43b"
 },
 "pc-portable/acer-aspire-go-15/": {
 "d": "2026-10-27",
@@ -733,11 +733,11 @@
 },
 "pc-portable/bureautique/": {
 "d": "2026-10-27",
-"h": "85aa473a2268"
+"h": "6b53228c321a"
 },
 "pc-portable/creation/": {
 "d": "2026-10-27",
-"h": "dd47b140db12"
+"h": "a5c7bf156f1f"
 },
 "pc-portable/dell-latitude-5420/": {
 "d": "2026-10-27",
@@ -753,7 +753,7 @@
 },
 "pc-portable/gaming/": {
 "d": "2026-10-27",
-"h": "fc909651a72e"
+"h": "96331517a85d"
 },
 "pc-portable/gigabyte-aero-x16/": {
 "d": "2026-10-27",
@@ -841,7 +841,7 @@
 },
 "pc-portable/lowcost/": {
 "d": "2026-10-27",
-"h": "75fa34a2bb6e"
+"h": "3482d88221bf"
 },
 "pc-portable/microsoft-surface-laptop-13/": {
 "d": "2026-10-27",
@@ -861,11 +861,11 @@
 },
 "pc-portable/polyvalent/": {
 "d": "2026-10-27",
-"h": "23b84c8fc8cc"
+"h": "29c05ea4266b"
 },
 "pc-portable/reconditionnes/": {
 "d": "2026-10-27",
-"h": "4f27d9b4e075"
+"h": "7f2f5f4449d4"
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
 "d": "2026-10-27",

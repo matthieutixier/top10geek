@@ -13,7 +13,7 @@ RACINE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RACINE / "_source"))
 from desk import DCATS                      # noqa: E402
 from familles_new import ECATS, ICATS       # noqa: E402
-from classement import cle, moyenne_usage, badge_affiche  # noqa: E402
+from classement import cle, moyenne_usage, badge_affiche, appliquer_choix  # noqa: E402
 
 DATA = json.loads((RACINE / "_source" / "data.json").read_text(encoding="utf-8"))
 COULEURS = {"bureau": "#1D5FD6", "creation": "#C2410C", "gaming": "#1F9E6E", "poly": "#9A2E7A", "lowcost": "#B78900"}
@@ -76,13 +76,16 @@ def produits(catkey):
         p = float(n.get("prix") or min(o["price"] for o in offers))
         out.append(dict(id=pid, badge=n["badge"], press=n["press"], p=p, n=n))
     moy = moyenne_usage([d["press"]["avg"] for d in out])
+    rows = [dict(id=d["id"], badge=d["badge"], avg=d["press"]["avg"], n=d["press"]["n"], tests=d["press"]["tests"], p=d["p"]) for d in out]
+    chg = appliquer_choix(rows)   # règle du 27/10/2026 : choix de préférence en zone « bonnes affaires »
     for d in out:
         d["moy"] = moy
+        d["badge"] = chg.get(d["id"], d["badge"])
     out.sort(key=rank_key)
     res = []
     for i, d in enumerate(out, 1):
         n, pr = d["n"], d["press"]
-        res.append(dict(rang=i, id=d["id"], nom=n["short"], ref=n["ref"], badge=badge_affiche(n["badge"], i), verdict=n["verdict"],
+        res.append(dict(rang=i, id=d["id"], nom=n["short"], ref=n["ref"], badge=badge_affiche(d["badge"], i), verdict=n["verdict"],
                         fort=(n["strengths"] or [""])[0], img=(f"assets/img/p/{n['img']}" if n.get("img") else None),
                         prix=euro_ind(d["p"]), note=(round(pr["avg"], 1) if pr["avg"] is not None else None),
                         nnotes=pr["n"], ntests=pr["tests"]))

@@ -226,7 +226,15 @@ assert len({d["purl"] for d in ITEMS.values()}) == len(ITEMS)
 assert not {d["pslug"] for d in ITEMS.values()} & {c["slug"] for c in CAT.values()}
 
 
-from classement import TOP_BADGE, SEUIL_NOTES, PRIOR_M, moyenne_usage, note_ajustee, cle, badge_affiche
+from classement import TOP_BADGE, SEUIL_NOTES, PRIOR_M, ZONE_NOTE, MARGE_CHOIX, moyenne_usage, note_ajustee, cle, badge_affiche, appliquer_choix
+# Règle du 27/10/2026 : « notre choix » de préférence dans la zone « bonnes affaires » (voir classement.py)
+CHOIX_CHANGES = {}
+for _k in CAT:
+    _rows = [dict(id=d["id"], badge=d["badge"], avg=(d["press"]["avg"] if d["press"] else None), n=(d["press"]["n"] if d["press"] else 0),
+                  tests=d["tests"]["tests"], p=d["p"]) for d in ITEMS.values() if d["cat"] == _k]
+    for _id, _b in appliquer_choix(_rows).items():
+        CHOIX_CHANGES[_id] = (ITEMS[_id]["badge"], _b)
+        ITEMS[_id]["badge"] = _b
 CAT_MEAN = {k: moyenne_usage([d["press"]["avg"] for d in ITEMS.values() if d["cat"] == k and d["press"]]) for k in CAT}
 for d in ITEMS.values():
     pr = d["press"]
@@ -677,7 +685,7 @@ def usage_cards(fam, root):
 
 FAQ_L = [
     ("Comment est calculée la note presse ?", "C'est la moyenne simple des notes publiées par les médias spécialisés (Notebookcheck, Clubic, Les Numériques, Tom's Hardware, TechRadar…), toutes converties sur 10 : 4/5 devient 8/10, 87 % devient 8,7/10. Le nombre de tests est toujours affiché. Quand la note porte sur une autre configuration de la même gamme, nous l'indiquons."),
-    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage, si sa note repose sur au moins 3 notes presse. Ensuite viennent les ordinateurs notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes, puis ceux testés sans note chiffrée. Dans chaque groupe, ils sont classés par note presse ajustée : une note isolée pèse moins qu'une moyenne de nombreux tests."),
+    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage : de préférence un produit de la zone « bonnes affaires » du radar (note presse d'au moins 8/10, prix sous la médiane de l'usage), si sa note repose sur au moins 3 notes presse. Ensuite viennent les ordinateurs notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes, puis ceux testés sans note chiffrée. Dans chaque groupe, ils sont classés par note presse ajustée : une note isolée pèse moins qu'une moyenne de nombreux tests."),
     ("Faut-il 16 ou 32 Go de RAM en 2026 ?", "16 Go reste le minimum confortable pour de la bureautique ou du gaming courant. Pour la création ou pour garder la machine plusieurs années, 32 Go évite de la remplacer prématurément."),
     ("Pourquoi certains ordinateurs n'ont pas de note presse ?", "Tous les ordinateurs de la sélection ont été testés par au moins un média. Mais certains tests ne donnent pas de note chiffrée : dans ce cas nous l'indiquons (bulle en pointillés) et nous donnons le lien vers le test plutôt que d'inventer une note."),
     ("D'où viennent les prix ?", f"Nous affichons un prix indicatif par ordinateur : le plus bas que nous avons constaté chez les marchands (Amazon, Darty, Acer Store, Geekom, Electro Dépôt) en {PRIX_DATE}, arrondi à la dizaine d'euros. Il sert à situer la machine, pas à comparer les marchands : le prix a pu changer depuis et la configuration exacte peut différer d'un marchand à l'autre. Pour Electro Dépôt, nous affichons en plus son prix exact, tiré de son flux produits officiel, avec la date du relevé. Seul le prix affiché par le marchand fait foi."),
@@ -854,8 +862,8 @@ def sort_bar(fam):
 
 
 # ---------------------------------------------------------------- Pages usage
-RANK_RULE = ("<p class=\"rank-rule\"><b>Comment ce classement est établi.</b> En tête, notre choix pour l'usage, à condition que sa note repose "
-             "sur au moins 3 notes presse. Ensuite : d'abord les produits notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes, "
+RANK_RULE = ("<p class=\"rank-rule\"><b>Comment ce classement est établi.</b> En tête, notre choix pour l'usage : de préférence un produit de la zone « bonnes affaires » du radar "
+             "(note presse d'au moins 8/10 et prix sous la médiane de l'usage), à condition que sa note repose sur au moins 3 notes presse. Ensuite : d'abord les produits notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes, "
              "puis ceux testés sans note chiffrée. Dans chaque groupe, nous classons par note presse ajustée : une note isolée compte moins "
              "qu'une moyenne de nombreux tests. La note affichée reste la moyenne simple des médias. "
              "<a href=\"{root}methode#classement\">Détail de la méthode</a>.</p>")
@@ -1621,7 +1629,7 @@ methode = f"""
       <div class="method-card"><span class="mono-big">3 · Prix</span><h3>Un prix indicatif</h3><p>Pour chaque produit, nous affichons un prix indicatif, avec le mois où nous l'avons constaté, et les liens vers les marchands où nous l'avons trouvée en vente.</p></div>
     </div>
     <h2 id="classement">Le classement : nos critères</h2>
-    <p>En tête, <b>« le choix de la bande »</b> : notre recommandation pour l'usage, le meilleur compromis entre notes presse et prix. Elle n'est placée en tête que si sa note repose sur <b>au moins {SEUIL_NOTES} notes presse</b> ; sinon elle est classée comme les autres et signalée « prometteur, peu testé ».</p>
+    <p>En tête, <b>« le choix de la bande »</b> : notre recommandation pour l'usage, le meilleur compromis entre notes presse et prix. Nous la choisissons de préférence dans la <b>zone « bonnes affaires »</b> du radar (note presse d'au moins 8/10 et prix inférieur ou égal à la médiane de l'usage). Elle n'est placée en tête que si sa note repose sur <b>au moins {SEUIL_NOTES} notes presse</b> ; sinon elle est classée comme les autres et signalée « prometteur, peu testé ».</p>
     <p>Les autres produits sont classés en trois groupes : d'abord ceux notés par <b>au moins {SEUIL_NOTES} médias</b>, puis ceux qui n'ont qu'<b>1 ou 2 notes</b>, enfin ceux testés <b>sans note chiffrée</b> (nous donnons alors le lien vers le test plutôt que d'inventer une note). Dans chaque groupe, l'ordre suit la <b>note presse ajustée</b> : une moyenne bayésienne qui rapproche une note appuyée sur peu de tests de la moyenne de l'usage, comme si {PRIOR_M} notes moyennes s'y ajoutaient. Un 10/10 isolé ne peut donc pas devancer un 9/10 confirmé par dix médias. À égalité, le produit le plus noté puis le moins cher passe devant.</p>
     <p>La note affichée sur chaque produit reste la <b>moyenne simple</b> des médias, avec le nombre de notes ; la note ajustée ne sert qu'à l'ordre du classement. Aucun critère commercial (commission, marchand) n'intervient dans le classement.</p>
     <h2>Comment est calculée la note presse</h2>
