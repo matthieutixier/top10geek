@@ -254,6 +254,15 @@ for k in CAT:
         d["badge"] = badge_affiche(d["badge"], i)
 
 
+# Usages « transversaux » (ex. Petit prix) : affichent aussi des produits classés dans un autre usage (clé « extra »).
+# Les fiches produits, le comparateur de famille et le sitemap restent sur by_cat (une fiche = un usage d'origine).
+by_cat_view = dict(by_cat)
+for _k, _c in CAT.items():
+    if _c.get("extra"):
+        _items = by_cat[_k] + [dict(ITEMS[_i], badge=("Valeur sûre" if ITEMS[_i]["badge"] == TOP_BADGE else ITEMS[_i]["badge"])) for _i in _c["extra"]]
+        by_cat_view[_k] = sorted(_items, key=lambda d: cle(d["badge"], d["press"]["avg"] if d["press"] else None, d["press"]["n"] if d["press"] else 0, d["tests"]["tests"], d["p"], CAT_MEAN[_k]))
+
+
 def notes_total(items):
     seen, tot = set(), 0
     for d in items:
@@ -672,7 +681,7 @@ def write(path, content):
 def usage_cards(fam, root):
     out = []
     for c in fam["cats"]:
-        top = by_cat[c["key"]][0]
+        top = by_cat_view[c["key"]][0]
         pr = top["press"]
         note = f'{fr(pr["avg"])}/10 presse' if pr else "testé, sans note"
         out.append(f"""<a class="usage-card" href="{root}{fam['slug']}/{c['slug']}/">
@@ -947,7 +956,7 @@ def reponse_usage(c, items, root):
 
 def usage_page(fam, c):
     root = "../../"
-    items = by_cat[c["key"]]
+    items = by_cat_view[c["key"]]
     n = len(items)
     _s = {}
     for d in items:

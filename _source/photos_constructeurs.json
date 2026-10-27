@@ -802,5 +802,9 @@
  "ecovacs-deebot-t90-pro-omni": {
   "constructeur": "Ecovacs",
   "source": "https://www.ecovacs.com/fr/shop/deebot-robotic-vacuum-cleaner/deebot-t90-pro-omni"
+ },
+ "roborock-qrevo-s-pro": {
+  "constructeur": "Roborock",
+  "source": "https://fr.roborock.com/products/roborock-qrevo-s-pro"
  }
 }

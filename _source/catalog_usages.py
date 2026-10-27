@@ -32,6 +32,7 @@ def notes_cc(fiche):
 
 
 BAL, LAV, ANI = "s-aspirateur-balai", "s-aspirateur-laveur", "s-robot-animaux"
+PP = "s-petit-prix"
 U = {}
 
 
@@ -212,6 +213,33 @@ add("ecovacs-deebot-t90-pro-omni", ANI, "Ecovacs Deebot T90 Pro Omni", "30 000 P
     "B0GK1RD2T7", "Ecovacs Deebot T90 Pro Omni robot aspirateur laveur", 517.2,  # Amazon (relevé 27/10/2026)
     "Vous voulez une station complète à un prix plus doux que les robots premium.",
     "Vous avez des tapis épais.")
+
+add("dreame-l10s-pro-gen-3", PP, "Dreame L10s Pro Gen 3", "13 000 Pa · lavage DuoScrub · sans station", TOP,
+    "Le plus accessible et le mieux noté de la sélection : bonne aspiration, navigation précise et serpillières qui se relèvent sur les tapis, mais pas de station.",
+    ["Bonne aspiration et couverture des surfaces", "Navigation précise", "Serpillières rétractables sur les tapis"],
+    ["Pas de station autonettoyante", "Lavage jugé décevant par certains testeurs", "Détection des petits objets perfectible"],
+    ("13 000 Pa", "Sans station"), "Dreame L10s Pro",
+    "B0FJFK8H15", "Dreame L10s Pro Gen 3 robot aspirateur laveur", 199.0,  # Amazon (relevé 27/10/2026)
+    "Vous voulez un robot bien noté à petit prix, sans station.",
+    "Vous voulez un vidage et un lavage entièrement automatiques.", scope="gamme")
+
+add("dreame-d10-plus-gen-2", PP, "Dreame D10 Plus Gen 2", "Station de vidage 90 jours · LiDAR", "Le vidage automatique",
+    "Un robot à station de vidage pour un prix doux : aspiration au-dessus de la moyenne et cartographie rapide, lavage plus léger.",
+    ["Aspiration supérieure à la moyenne", "Station de vidage automatique", "Cartographie rapide"],
+    ["Lavage limité à un nettoyage léger", "Moins efficace sur moquette que sur sol dur", "Brosse qui peut s'emmêler"],
+    ("6 000 Pa", "Station de vidage"), "Dreame D10 Plus",
+    "B0D3RGFSRB", "Dreame D10 Plus Gen 2 robot aspirateur laveur", 249.0,  # Amazon, vendu par DREAME Direct (relevé 27/10/2026)
+    "Vous voulez ne plus vider le bac et surtout aspirer des sols durs.",
+    "Vous voulez un vrai lavage ou beaucoup de moquette.", scope="gamme")
+
+add("roborock-qrevo-s-pro", PP, "Roborock Qrevo S Pro", "Station complète · 18 500 Pa", "Le plus complet",
+    "Le plus complet de la sélection : station qui lave à chaud et sèche les serpillières, brosse anti-enchevêtrement, mais coins et obstacles perfectibles.",
+    ["Lavage à chaud et séchage à l'air chaud des serpillières", "Brosse anti-enchevêtrement", "Application très complète"],
+    ["Nettoyage des coins et des bords perfectible", "Détection des obstacles limitée", "Aspiration moins efficace sur tapis et moquette"],
+    ("18 500 Pa", "Station complète"), "Roborock Qrevo S",
+    "B0GHN39ZGJ", "Roborock Qrevo S Pro robot aspirateur laveur", 379.99,  # Amazon, vendu par Roborock Official EU (relevé 27/10/2026)
+    "Vous voulez une station qui fait presque tout pour moins de 400 €.",
+    "Votre logement a beaucoup de tapis ou d'obstacles au sol.", scope="gamme")
 
 add("roborock-qrevo-maxv", ANI, "Roborock Qrevo MaxV", "Station complète · détection d'obstacles", "Le bon compromis",
     "Un robot bien noté dont l'entretien est automatisé, avec une application très complète ; station imposante.",

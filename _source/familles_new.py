@@ -51,6 +51,10 @@ SCATS = [
     dict(key="s-robot-animaux", slug="robots-aspirateurs-animaux", label="Robots pour animaux", top_label="robots pour animaux", h="Robots pour animaux", tag="Poils et passages incessants", color="var(--cat-gaming)", cls="f-gaming", badge="robots-animaux-v2", scene="robot-animaux", scene_alt="La mascotte et son chien regardent un robot aspirateur passer",
          h1='Les meilleurs <span class="flash">robots aspirateurs pour animaux</span> en 2026',
          intro="Les poils s'enroulent dans la brosse et les petits accidents se détectent mal : on retient ici les robots les mieux notés, à forte aspiration, anti-enchevêtrement et bonne détection des obstacles."),
+    dict(key="s-petit-prix", slug="petit-prix", label="Petit prix", top_label="aspirateurs et robots à petit prix", h="Petit prix (&lt; 400 €)", tag="Bien testés, sans se ruiner", color="var(--cat-lowcost)", cls="f-lowcost", badge="robots-petit-prix-v2", scene="robot-petit-prix", scene_alt="La mascotte compare des étiquettes de prix devant un robot aspirateur",
+         extra=["dreame-l10s-ultra", "mova-e40-ultra", "dreame-h12-pro", "dreame-h14", "tineco-floor-one-s7-pro", "dreame-h15-pro", "mova-m50-ultra"],
+         h1='Les meilleurs <span class="flash">robots et aspirateurs à petit prix</span> en 2026',
+         intro="Moins de 400 € : on retient les robots et les balais laveurs bien notés par la presse, avec le prix constaté chez Amazon. Plusieurs figurent aussi dans leur usage d'origine (robots laveurs, balais laveurs)."),
 ]
 
 FAMILIES_NEW = [

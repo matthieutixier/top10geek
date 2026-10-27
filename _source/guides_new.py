@@ -201,4 +201,18 @@ GUIDES_NEW = {
             "Oublier le prix des brosses et des filtres, à renouveler souvent."],
     budget=[("500 – 700 €", "Détection d'obstacles correcte et station complète."), ("1 000 € et plus", "Navigation la plus aboutie, franchissement d'obstacles, lavage poussé.")],
 ),
+"s-petit-prix": dict(
+    titre="Comment choisir un aspirateur ou un robot à petit prix",
+    intro="Sous 400 €, on trouve de très bons appareils, mais pas tous les équipements. Ce qui compte : <b>décider ce qu'on veut automatiser (vidage, lavage, séchage) et accepter de se passer du reste</b>.",
+    criteres=[
+        ("Station ou pas", "Une station de vidage évite de vider le bac chaque jour ; sans station, le prix baisse nettement mais l'entretien est manuel."),
+        ("Qualité du lavage", "À petit prix, la serpillière est souvent un appoint : la presse distingue les vrais lavages des simples chiffons humides."),
+        ("Navigation", "Un LiDAR cartographie vite et évite de se perdre ; les capteurs plus simples passent moins bien autour des meubles."),
+        ("Consommables", "Sacs, brosses et filtres se rachètent : vérifiez leur prix et leur disponibilité avant d'acheter."),
+    ],
+    pieges=["Se fier à la seule puissance d'aspiration affichée : navigation et brosse comptent autant.",
+            "Prendre un modèle sans station en pensant ne plus rien toucher.",
+            "Comparer des prix sans regarder le vendeur : certains modèles sont vendus par des tiers."],
+    budget=[("150 – 250 €", "Un bon robot de base, avec ou sans station de vidage."), ("300 – 400 €", "Station plus complète ou balai laveur haut de gamme.")],
+),
 }
