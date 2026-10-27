@@ -1575,7 +1575,7 @@ home = f"""
     <h3 class="univers-head maison">Maison</h3>
     <div class="fam-grid maison">
       <a class="fam-card maison" href="aspirateur-robot/">
-        <div class="fam-art"><img src="assets/img/badge-robots-laveurs.webp" alt="" width="96" height="96"></div>
+        <div class="fam-art"><img src="assets/img/badge-robots-laveurs.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-balais-laveurs.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-animaux.webp" alt="" width="96" height="96"></div>
         <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots aspirateurs laveurs, classés d'après les tests de la presse. D'autres usages arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in SCATS)}</div><span class="uc-go">Explorer →</span></a>
       <div class="fam-card maison ghost" aria-label="TV et home cinéma, bientôt">
