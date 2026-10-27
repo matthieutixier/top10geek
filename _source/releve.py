@@ -46,6 +46,7 @@ FAMILLES = {
     "bureau": lambda c: c.startswith("d-"),
     "ecran": lambda c: c.startswith("e-"),
     "imprimante": lambda c: c.startswith("i-"),
+    "robot": lambda c: c.startswith("s-"),
 }
 
 # statuts : ok | indispo | marketplace | autre_produit | captcha | echec
