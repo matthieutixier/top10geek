@@ -724,12 +724,12 @@
   "source": "https://www.dreametech.com/products/r20-pure-cordless-stick-vacuum"
  },
  "dreame-h15-pro": {
-  "constructeur": "Dreame",
-  "source": "https://www.dreametech.com/products/h15-pro-wet-dry-vacuum"
+  "constructeur": "Electro Dépôt (visuel du flux produits)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10009023.jpg"
  },
  "dreame-h14": {
-  "constructeur": "Dreame",
-  "source": "https://www.dreametech.com/products/h14-wet-and-dry-vacuum"
+  "constructeur": "Electro Dépôt (visuel du flux produits)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10019413.jpg"
  },
  "dreame-h12-pro": {
   "constructeur": "Dreame",
@@ -758,5 +758,13 @@
  "samsung-jet-90": {
   "constructeur": "Samsung",
   "source": "https://images.icecat.biz/img/gallery/e27f83c8ab4718f5a8a2a108088c13b095ed136f.jpg"
+ },
+ "roborock-h60-hub": {
+  "constructeur": "Electro Dépôt (visuel du flux produits)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10020540.jpg"
+ },
+ "rowenta-x-force-flex-14-60": {
+  "constructeur": "Electro Dépôt (visuel du flux produits)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10009171.jpg"
  }
 }

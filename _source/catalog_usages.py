@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Catalogue Top 10 Geek — ROBOTS & ASPIRATEURS · usages « Aspirateurs balais », « Balais laveurs » et « Animaux » (27/10/2026).
-Les tests de la presse viennent de CommentChoisir (cc_fiche.py), conservés dans data/cc_fiches_usages.json : une ligne par média
+Les tests de la presse viennent de CommentChoisir (cc_fiche.py), conservés dans cc_fiches_usages.json : une ligne par média
 (moyenne si plusieurs tests du même média). La confirmation à la source (champ `verifie`) reste à faire.
 Prix : indicatifs (idealo, 27/10/2026) → PROVISOIRES, à remplacer par le relevé Amazon (releve.py) ; les prix Electro Dépôt viennent du flux Effinity.
 Les points forts / faibles reprennent ce que citent les tests ; rien n'est ajouté.
@@ -19,7 +19,7 @@ def _ed_url(u):
 
 def notes_cc(fiche):
     """[(média, note /10 ou None, url)] — une ligne par média, les mieux notés d'abord."""
-    brut = json.load(open(os.path.join(_HERE, "data", "cc_fiches_usages.json"), encoding="utf-8"))[fiche]["tests"]
+    brut = json.load(open(os.path.join(_HERE, "cc_fiches_usages.json"), encoding="utf-8"))[fiche]["tests"]
     par = {}
     for t in brut:
         m = t["media"].replace("\x92", "’").strip()
