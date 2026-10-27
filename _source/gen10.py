@@ -14,12 +14,13 @@ from guides import GUIDES
 from guides_desk import GUIDES_DESK
 from desk import DCATS
 from profiles import PROFILES
-from familles_new import ECATS, ICATS, FAMILIES_NEW, FAQ_E, FAQ_I
+from familles_new import ECATS, ICATS, SCATS, FAMILIES_NEW, FAQ_E, FAQ_I, FAQ_S
 from guides_new import GUIDES_NEW
 from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
+from catalog_sols import SOLS
 from catalog_reconditionnes import RECO, GUIDE_RECO
-PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(RECO.items())})
+PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
 CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main13.js'])).hexdigest()[:8]
@@ -33,7 +34,7 @@ IND = f"prix indicatif · {PRIX_DATE}"
 # Mise à jour par rubrique (releve.py --famille) : chaque rubrique a sa date et son mois de prix.
 # Sans entrée pour une rubrique, on retombe sur les dates globales.
 ASSOC = {"Test-Achats", "Que Choisir", "Which?", "Tænk", "Choice", "Stiftung Warentest", "Consumer Reports", "OCU", "Altroconsumo"}
-FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante"}
+FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante", "robot": "robot"}
 FAM_DATES = DATA.get("familles", {})
 
 
@@ -618,7 +619,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
+      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
@@ -676,7 +677,7 @@ FAQ_L = [
 
 
 def fam_faq(fam):
-    return {"ecran": FAQ_E, "imprimante": FAQ_I}.get(fam["key"], FAQ_L)
+    return {"ecran": FAQ_E, "imprimante": FAQ_I, "robot": FAQ_S}.get(fam["key"], FAQ_L)
 
 
 # ---------------------------------------------------------------- Pages comparatif par famille
@@ -1468,6 +1469,7 @@ ICON = {
     "desktop": '<rect x="3" y="4" width="13" height="10" rx="1"/><path d="M9.5 14v3M6.5 17h6"/><rect x="18" y="6" width="3.5" height="11" rx="0.8"/>',
     "ecran": '<rect x="2.5" y="4" width="19" height="12" rx="1"/><path d="M12 16v3.5M8 19.5h8"/>',
     "imprimante": '<path d="M7 9V3.5h10V9"/><rect x="3" y="9" width="18" height="7.5" rx="1.2"/><path d="M7 14h10v6.5H7z"/>',
+    "robot": '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/><path d="M12 3.5v2.5"/>',
 }
 def fam_btn(fam):
     n = sum(len(by_cat[c["key"]]) for c in fam["cats"])
@@ -1536,7 +1538,7 @@ home = f"""
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">Quatre familles, {len(CAT)} usages</div></div>
+    <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">Cinq familles, {len(CAT)} usages</div></div>
     <p class="bf-home"><a class="see-all" href="black-friday/">Black Friday 2026 : les PC qui valent vraiment le coup, et leur prix repère →</a></p>
     <div class="fam-grid">
       <a class="fam-card" href="pc-portable/">
@@ -1555,6 +1557,10 @@ home = f"""
         <div class="fam-art"><img src="assets/img/badge-reservoir.webp" alt="" width="96" height="96"><img src="assets/img/badge-laser-couleur.webp" alt="" width="96" height="96"><img src="assets/img/badge-photo.webp" alt="" width="96" height="96"></div>
         <h3>Imprimantes</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'imprimante')} imprimantes, un top 10 par usage : réservoirs, laser, photo et petits prix.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in ICATS)}</div><span class="uc-go">Explorer →</span></a>
+      <a class="fam-card" href="aspirateur-robot/">
+        <div class="fam-art"><img src="assets/img/badge-robot-laveur.webp" alt="" width="96" height="96"></div>
+        <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots aspirateurs laveurs, classés d'après les tests de la presse. D'autres usages arrivent.</p>
+        <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in SCATS)}</div><span class="uc-go">Explorer →</span></a>
     </div>
     <div class="soon-grid">{''.join(f'<div class="soon-card"><img class="soon-img" src="assets/img/{SOON_IMG[i]}.webp" alt="" width="84" height="84" loading="lazy"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(SOON))}</div>
   </section>

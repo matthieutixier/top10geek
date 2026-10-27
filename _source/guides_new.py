@@ -144,4 +144,19 @@ GUIDES_NEW = {
             "Laisser l'imprimante inutilisée des mois : les cartouches sèchent."],
     budget=[("40 – 70 €", "Multifonction basique."), ("70 – 150 €", "Recto-verso, écran, chargeur de documents.")],
 ),
+# ===================================================================== ROBOTS
+"s-robot-laveur": dict(
+    titre="Comment choisir un robot aspirateur laveur",
+    intro="Un robot à station aspire, lave, se vide et sèche presque seul. Ce qui sépare les bons des moins bons : <b>la navigation, la qualité du lavage et l'entretien de la station</b>.",
+    criteres=[
+        ("Navigation", "Un robot à lidar et caméra évite les câbles, les chaussettes et les pieds de chaise, et ne se perd pas. C'est le critère que la presse sanctionne le plus."),
+        ("Lavage", "Cherchez des serpillières rotatives ou à rouleau, qui frottent, plutôt qu'un simple chiffon traîné. Les modèles qui relèvent la serpillière sur les tapis évitent de les mouiller."),
+        ("Station", "Elle vide le bac, lave et sèche la serpillière à l'air chaud. Vérifiez la place qu'elle prend et la fréquence de vidange des réservoirs d'eau."),
+        ("Franchissement", "Seuils de porte et tapis : vérifiez la hauteur franchissable, qui varie de 2 à 4 cm, et la capacité à passer sous vos meubles bas."),
+    ],
+    pieges=["Se fier à la puissance en pascals seule : la navigation et le lavage comptent davantage.",
+            "Oublier la hauteur sous vos meubles : un robot haut reste bloqué.",
+            "Les frais d'entretien : sacs, filtres, serpillières et brosses se renouvellent."],
+    budget=[("300 – 500 €", "Station complète, navigation correcte : l'essentiel."), ("600 – 1 000 €", "Meilleur lavage et navigation : le confort au quotidien.")],
+),
 }

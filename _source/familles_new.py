@@ -38,6 +38,12 @@ ICATS = [
          intro="Pour imprimer de temps en temps, une multifonction jet d'encre à petit prix suffit. Attention au prix des cartouches : au-delà de quelques pages par semaine, mieux vaut un réservoir."),
 ]
 
+SCATS = [
+    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--cat-poly)", cls="f-polyvalent", badge="robot-laveur",
+         h1='Les 10 meilleurs <span class="flash">robots aspirateurs laveurs</span> en 2026',
+         intro="Aspiration, lavage, vidage et séchage automatiques : les robots à station font presque tout seuls. La presse les teste en détail, et c'est la navigation et la qualité du lavage qui font la différence."),
+]
+
 FAMILIES_NEW = [
     dict(key="ecran", slug="ecran-pc", label="Écran PC", plural="Écrans PC", plural_low="écrans PC", cats=ECATS, provisional=False,
          m_labels=("Taille et définition", "Fréquence"), col="Taille", mascot="pose-ecran", noun="écran", noun_det="l'écran",
@@ -55,6 +61,14 @@ FAMILIES_NEW = [
          desc="50 imprimantes 2026 classées par usage avec les tests de la presse et des associations de consommateurs : réservoirs, laser, photo, petits prix.",
          usage_title="Top 10 imprimantes {label} 2026 : tests et prix | Top 10 Geek",
          usage_desc="Les 10 meilleures imprimantes {label} en 2026 : tests de la presse et des associations, prix indicatif, points forts et faibles."),
+    dict(key="robot", slug="aspirateur-robot", label="Robot aspirateur", plural="Robots et aspirateurs", plural_low="robots et aspirateurs", cats=SCATS, provisional=False,
+         m_labels=("Puissance", "Station"), col="Puissance", mascot="pose-investigation", noun="robot", noun_det="le robot",
+         h1='Comparatif robots aspirateurs 2026 : <span class="flash">le verdict par usage</span>',
+         intro="Robots aspirateurs laveurs, aspirateurs balais et laveurs : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif et les liens vers les marchands.",
+         title="Meilleur robot aspirateur laveur 2026 : tous les tests | Top 10 Geek",
+         desc="Les meilleurs robots aspirateurs laveurs 2026 classés d'après les tests de la presse : note sur 10, prix indicatif, points forts et faibles.",
+         usage_title="Top 10 {label} 2026 : tests et prix | Top 10 Geek",
+         usage_desc="Les 10 meilleurs {label} en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
 ]
 
 FAQ_E = [
@@ -71,4 +85,12 @@ FAQ_I = [
     ("Réservoir d'encre ou cartouches ?", "Au-delà de quelques pages par semaine, le réservoir est presque toujours gagnant : plus cher à l'achat, mais l'encre fournie suffit pour des milliers de pages. Pour imprimer très rarement, une imprimante à cartouches bon marché reste plus simple, à condition d'accepter des cartouches chères."),
     ("Laser ou jet d'encre ?", "La laser imprime vite, le toner ne sèche jamais et le texte est très net : c'est le meilleur choix pour les documents. Le jet d'encre reste indispensable pour les photos et polyvalent à la maison."),
     ("D'où viennent les prix ?", "Nous affichons un prix indicatif par imprimante : le plus bas constaté sur Amazon ou chez Electro Dépôt lors de notre dernier relevé, arrondi à la dizaine d'euros. Pour Electro Dépôt, nous affichons aussi son prix exact, tiré de son flux produits officiel, avec la date du relevé. Quand l'imprimante n'est proposée que par un vendeur tiers sur Amazon, nous l'indiquons. Seul le prix affiché par le marchand fait foi."),
+]
+
+
+FAQ_S = [
+    ("Comment est calculée la note presse ?", "C'est la moyenne simple des notes publiées par les médias spécialisés (Les Numériques, Frandroid, 01net, Que Choisir, Tom's Guide…), toutes converties sur 10 : 4/5 devient 8/10. Le nombre de tests est toujours affiché. Quand la note porte sur une variante proche de la même gamme, nous l'indiquons."),
+    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage, si sa note repose sur au moins 3 notes presse. Ensuite viennent les robots notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes. Dans chaque groupe, ils sont classés par note presse ajustée : une note isolée pèse moins qu'une moyenne de nombreux tests."),
+    ("Faut-il une station qui vide et lave toute seule ?", "Si vous voulez ne toucher au robot qu'une fois par mois, oui : la station vide le bac, lave et sèche la serpillière. Elle prend de la place et coûte plus cher. Pour un petit logement ou un budget serré, un robot sans station suffit souvent."),
+    ("D'où viennent les prix ?", "Nous affichons un prix indicatif par robot : le plus bas constaté sur Amazon ou chez Electro Dépôt lors de notre dernier relevé, arrondi à la dizaine d'euros. Pour Electro Dépôt, nous affichons aussi son prix exact, tiré de son flux produits officiel. Quand le robot n'est proposé que par un vendeur tiers sur Amazon, nous l'indiquons. Seul le prix affiché par le marchand fait foi."),
 ]

@@ -12,6 +12,7 @@ SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
 sys.path.insert(0, SRC)
 from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
+from catalog_sols import SOLS
 
 AMAZON_TAG = "geekconcept-21"
 IMG_DIR = os.path.join(os.path.dirname(SRC.rstrip("/")), "assets/img/p")
@@ -46,7 +47,7 @@ def item(pid, it):
 if __name__ == "__main__":
     path = SRC + "data.json"
     data = json.load(open(path, encoding="utf-8"))
-    for cat in (ECR, IMP):
+    for cat in (ECR, IMP, SOLS):
         for pid, it in cat.items():
             new, old = item(pid, it), data["items"].get(pid)
             # un relevé de prix (releve.py) a pu mettre à jour l'offre depuis : on garde ses prix et sa disponibilité
@@ -96,12 +97,12 @@ if __name__ == "__main__":
                 new["synthese"] = old["synthese"]
             data["items"][pid] = new
     # écrans et imprimantes retirés des catalogues : retirés aussi de data.json (les ordinateurs ne sont pas concernés)
-    retires = [k for k, v in data["items"].items() if v["cat"][:2] in ("e-", "i-") and k not in ECR and k not in IMP]
+    retires = [k for k, v in data["items"].items() if v["cat"][:2] in ("e-", "i-", "s-") and k not in ECR and k not in IMP and k not in SOLS]
     for k in retires:
         del data["items"][k]
     if retires:
         print("retirés :", ", ".join(retires))
     json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter
-    print(len(data["items"]), "produits ;", Counter(d["cat"] for d in data["items"].values() if d["cat"][:2] in ("e-", "i-")))
+    print(len(data["items"]), "produits ;", Counter(d["cat"] for d in data["items"].values() if d["cat"][:2] in ("e-", "i-", "s-")))
     print("sans photo :", sum(1 for d in data["items"].values() if d["cat"][:2] in ("e-", "i-") and not d["img"]))
