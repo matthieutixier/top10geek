@@ -586,6 +586,8 @@ def images(html):
 def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None, robots=None):
     if og_img == "assets/img/og-image.jpg":
         og_img = og_pour(path)
+    if len(title) > 65 and title.endswith(" | Top 10 Geek"):
+        title = title[:-len(" | Top 10 Geek")]  # SEO 27/10/2026 : Google tronque au-delà de ~65 caractères
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -738,8 +740,8 @@ def family_page(fam):
     <div class="faq-list">{faq}</div>
   </section>
 """
-    title = ("Meilleur PC portable 2026 : tous les tests résumés par usage | Top 10 Geek" if fam["key"] == "laptop"
-             else "Meilleur ordinateur de bureau 2026 : tours, mini-PC, tout-en-un | Top 10 Geek" if fam["key"] == "desktop" else fam["title"])
+    title = ("Meilleur PC portable 2026 : tous les tests par usage | Top 10 Geek" if fam["key"] == "laptop"
+             else "Meilleur ordinateur de bureau 2026 : tours, mini-PC, AIO | Top 10 Geek" if fam["key"] == "desktop" else fam["title"])
     desc = (f"{len(all_items)} PC portables 2026 classés par usage avec une note presse moyenne sur 10 : bureautique, création, gaming, polyvalent, low-cost."
             if fam["key"] == "laptop" else f"{len(all_items)} ordinateurs de bureau 2026 classés par usage avec une note presse sur 10 et un prix indicatif : bureautique, création, gaming, mini-PC, tout-en-un."
             if fam["key"] == "desktop" else fam["desc"])
@@ -854,11 +856,14 @@ RANK_RULE = ("<p class=\"rank-rule\"><b>Comment ce classement est établi.</b> E
 # « meilleur pc tout-en-un » en place 7 sans visite, /imprimante/photo/ 84 apparitions en place 64).
 USAGE_SEO = {
     "reconditionne": dict(title="Meilleur PC portable reconditionné 2026 : le top 10 des tests | Top 10 Geek",
-                          desc="Quel PC portable reconditionné choisir ? 10 PC pros (Dell Latitude, ThinkPad, EliteBook) classés par tests presse du modèle, avec prix de la configuration vendue.",
+                          desc="Quel PC portable reconditionné choisir ? 10 PC pros (Dell Latitude, ThinkPad, EliteBook) classés par tests presse, avec le prix de la configuration vendue.",
                           h1='Meilleur <span class="flash">PC portable reconditionné</span> 2026 : le top 10'),
-    "d-aio": dict(title="Meilleur PC tout-en-un 2026 : le top 10 des tests | Top 10 Geek",
+    "d-aio": dict(title="Meilleur ordinateur tout-en-un 2026 : le top 10 des tests",
                   desc="Quel est le meilleur PC tout-en-un en 2026 ? 10 ordinateurs tout-en-un classés par note presse, avec prix indicatif, points forts et points faibles.",
-                  h1='Meilleur PC <span class="flash">tout-en-un</span> 2026 : le top 10'),
+                  h1='Meilleur <span class="flash">ordinateur tout-en-un</span> 2026 : le top 10'),
+    "d-mini": dict(title="Meilleur mini-PC 2026 : le top 10 des tests et des prix",
+                   desc="Quel est le meilleur mini-PC en 2026 ? 10 mini-PC classés par note presse, avec prix indicatif, points forts et points faibles.",
+                   h1='Meilleur <span class="flash">mini-PC</span> 2026 : le top 10'),
     "i-photo": dict(title="Meilleure imprimante photo 2026 : le top 10 des tests | Top 10 Geek",
                     desc="Quelle est la meilleure imprimante photo en 2026 ? 10 modèles classés par note presse, de l'imprimante de poche à l'A3+, avec prix indicatif et points faibles.",
                     h1='Meilleure <span class="flash">imprimante photo</span> 2026 : le top 10'),
@@ -905,6 +910,12 @@ def reponse_usage(c, items, root):
         out[0] = out[0][0].lower() + out[0][1:]
         out.append("Le coût par photo dépend surtout du consommable : papier Zink ou film Instax pour les modèles de poche, "
                    "cartouche et papier vendus ensemble pour la sublimation, encre en cartouches ou en réservoirs pour l'A4 et l'A3+.")
+    elif c["key"] == "d-mini":
+        a = items[0]
+        out = [f'selon la presse, le meilleur mini-PC est le {_lien(a, root)} ({_note(a)}).']
+        ch = min(items, key=lambda d: d["p"])
+        if ch is not a:
+            out.append(f'Le moins cher de la sélection : {_lien(ch, root)} ({_note(ch)}).')
     elif c["key"] == "reconditionne":
         a = items[0]
         out = [f'selon la presse, le mieux placé est le {_lien(a, root)} ({_note(a)}).']
@@ -1019,10 +1030,10 @@ def usage_page(fam, c):
   </section>
 """
     if fam["key"] == "laptop":
-        title = f"Top 10 PC portables {c['label'].lower()} 2026 : tests résumés et verdict | Top 10 Geek"
+        title = f"Top 10 PC portables {c['label'].lower()} 2026 : tests et verdict | Top 10 Geek"
         desc = f"Les 10 meilleurs PC portables {c['label'].lower()} en 2026, classés par note presse, avec photos, prix indicatif, poids, points forts et points faibles."
     elif fam["key"] == "desktop":
-        title = f"Top 10 {'mini-PC' if c['key'] == 'd-mini' else 'tout-en-un' if c['key'] == 'd-aio' else 'ordinateurs de bureau ' + c['label'].lower()} 2026 : tests résumés et prix | Top 10 Geek"
+        title = f"Top 10 {'mini-PC' if c['key'] == 'd-mini' else 'tout-en-un' if c['key'] == 'd-aio' else 'ordinateurs de bureau ' + c['label'].lower()} 2026 : tests et prix | Top 10 Geek"
         desc = f"Les 10 meilleurs ordinateurs de bureau {c['label'].lower()} en 2026, classés par note presse, avec photos, prix indicatif, points forts et points faibles."
     else:
         lab = (plain(c["h"]).lower().replace("écrans portables", "portables").replace("imprimantes photo", "photo")
@@ -1563,8 +1574,8 @@ home = f"""
     </div>
   </section>
 """
-write("index.html", page("", "Top 10 Geek : tous les tests high-tech résumés pour vous — PC, écrans, imprimantes",
-                         "Nous lisons tous les tests de la presse high-tech et vous donnons une note presse sur 10 et un verdict clair par usage : PC portables, ordinateurs de bureau, écrans PC, imprimantes.",
+write("index.html", page("", "Top 10 Geek : tests high-tech résumés — PC, écrans, imprimantes",
+                         "Nous lisons les tests de la presse high-tech et vous donnons une note sur 10 et un verdict par usage : PC portables, PC de bureau, écrans, imprimantes.",
                          "", home, "home", body_cls="home",
                          ld=[ORG, {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Top 10 Geek", "description": BASELINE,
                                    "inLanguage": "fr-FR", "publisher": {"@id": ORG["@id"]}}]))
@@ -1603,7 +1614,7 @@ methode = f"""
     <p>Une remarque, une erreur repérée ? Écrivez-nous : <a href="mailto:contact@top10geek.fr">contact@top10geek.fr</a></p>
   </div>
 """
-write("methode.html", page("", "Notre méthode : sélection, note presse, prix indicatif | Top 10 Geek",
+write("methode.html", page("", "Notre méthode : sélection, note presse, prix | Top 10 Geek",
                            "Comment Top 10 Geek sélectionne les produits, calcule la note presse, établit le classement et indique les prix.",
                            "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ld_page("methode", "Notre méthode"), PERSON]))
 
@@ -1729,8 +1740,8 @@ def black_friday_page():
     <div class="faq-list">{faq_html}</div>
   </section>
 """
-    write("black-friday/index.html", page(root, "Black Friday 2026 : PC, écrans et imprimantes qui valent le coup selon la presse | Top 10 Geek",
-          "Black Friday 2026 : PC portables, ordinateurs de bureau, écrans PC et imprimantes les mieux notés par la presse, avec leur prix repère pour reconnaître une vraie promo.",
+    write("black-friday/index.html", page(root, "Black Friday 2026 : PC, écrans, imprimantes selon la presse | Top 10 Geek",
+          "Black Friday 2026 : PC, écrans et imprimantes les mieux notés par la presse, avec leur prix repère pour reconnaître une vraie promo.",
           "black-friday/", body, "black-friday",
           ld=[ld_crumbs(("Accueil", ""), ("Black Friday 2026", "black-friday/")), ld_faq(faq)]))
 
