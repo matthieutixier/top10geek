@@ -19433,7 +19433,7 @@
     }
    ],
    "press": {
-    "avg": 8.633333333333333,
+    "avg": 8.68888888888889,
     "n": 9,
     "tests": 14,
     "scope": "modele",
@@ -19442,6 +19442,12 @@
      ""
     ],
     "notes": [
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.2,
+      "url": "https://lecafedugeek.fr/test-roborock-saros-20-avez-vous-vraiment-besoin-de-ladaptilift-chez-vous/",
+      "date": ""
+     },
      {
       "src": "AndroidWorld",
       "score": 9.0,
@@ -19470,12 +19476,6 @@
       "src": "Trusted Reviews",
       "score": 9.0,
       "url": "https://www.trustedreviews.com/reviews/roborock-saros-20",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.7,
-      "url": "https://lecafedugeek.fr/test-roborock-saros-20-avez-vous-vraiment-besoin-de-ladaptilift-chez-vous/",
       "date": ""
      },
      {
@@ -19531,7 +19531,18 @@
    "prix": 899.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les tests du Saros 20 s'accordent sur un point : sa capacité à passer les obstacles. FrAndroid mesure un franchissement d'environ 8,5 cm et LeCafeDuGeek parle de 8,8 cm grâce au système AdaptiLift, jugé utile dès qu'un logement compte des seuils ou des transitions de sol. Le robot reste pourtant fin, moins de 8 cm de hauteur selon les deux sites. Côté nettoyage, Clubic.com relève une aspiration de 36 000 Pa, un lavage des serpillères à 100 °C, une autonomie proche de trois heures, une application riche et la compatibilité Matter.\n\nLes réserves portent sur des détails d'usage. Clubic.com regrette un manque de mordant sur les traces incrustées, l'absence d'accessoires de rechange dans la boîte et un tarif élevé, entre 1 099 et 1 404 € selon les marchands au moment du test. FrAndroid note une navigation parfois hésitante en faible luminosité, un revêtement brillant qui se raye et un séchage bruyant ; LeCafeDuGeek confirme que la station fait du bruit pendant le lavage et le séchage.\n\nAu total, les trois rédactions le décrivent comme un robot haut de gamme pensé pour les intérieurs à seuils et à meubles bas, moins pour qui cherche la discrétion.",
+    "date": "2026-10-27",
+    "n": 9,
+    "tests": 14,
+    "sources": [
+     "Clubic.com",
+     "FrAndroid",
+     "LeCafeDuGeek"
+    ]
+   }
   },
   "roborock-qrevo-curv-2": {
    "cat": "s-robot-laveur",
@@ -19564,8 +19575,8 @@
     }
    ],
    "press": {
-    "avg": 8.333333333333334,
-    "n": 9,
+    "avg": 8.35,
+    "n": 10,
     "tests": 15,
     "scope": "gamme",
     "src": [
@@ -19574,20 +19585,20 @@
     ],
     "notes": [
      {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-qrevo-curv-2-pro-p77224/test.html",
+      "date": ""
+     },
+     {
       "src": "Basic Tutorials",
       "score": 9.0,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-qrevo-curv-2-pro-test/",
       "date": ""
      },
      {
-      "src": "Clubic.com",
-      "score": 9.0,
-      "url": "https://www.clubic.com/test-produit-602929-test-roborock-qrevo-curv-2-flow-le-lavage-par-rouleau-tient-il-ses-promesses.html",
-      "date": ""
-     },
-     {
       "src": "FrAndroid",
-      "score": 8.5,
+      "score": 9.0,
       "url": "https://www.frandroid.com/marques/roborock/2804417_test-du-roborock-qrevo-curv-2-pro-le-milieu-de-gamme-qui-a-tout-dun-grand",
       "date": ""
      },
@@ -19628,6 +19639,12 @@
       "date": ""
      },
      {
+      "src": "Clubic.com",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-602929-test-roborock-qrevo-curv-2-flow-le-lavage-par-rouleau-tient-il-ses-promesses.html",
+      "date": ""
+     },
+     {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/roborock-qrevo-curv-2-pro",
@@ -19637,12 +19654,6 @@
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/roborock-qrevo-curv-2-pro-test-3210505.html",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-qrevo-curv-2-pro-p77224/test.html",
       "date": ""
      },
      {
@@ -19668,7 +19679,18 @@
    "prix": 649.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les tests disponibles portent sur deux déclinaisons voisines de la gamme : le Qrevo Curv 2 Pro pour FrAndroid, le Curv 2 Flow pour Clubic.com et LeCafeDuGeek. Les chiffres sont donc à lire avec cette nuance. Sur la version Pro, FrAndroid relève 25 000 Pa d'aspiration, un lavage et un trempage des serpillères à 100 °C, un séchage du sac à poussière et plus de 180 minutes d'autonomie ; il regrette l'absence de réservoir de détergent et des brosses non relevables.\n\nSur la version Flow, qui remplace les serpillères par un rouleau, les avis se partagent. Clubic.com mesure 20 000 Pa, 240 minutes d'autonomie et 63 dB, salue la navigation et l'application, mais trouve le rouleau décevant sur les taches tenaces, les angles mal traités et le robot trop épais avec ses 119 mm. LeCafeDuGeek met en avant une application claire, une cartographie précise et une double brosse efficace sur cheveux et poils, avec en contrepartie une hauteur gênante sous certains meubles, un séchage long et des alertes de blocage trop sensibles.\n\nDans tous les cas, le robot ressort comme polyvalent et facile à vivre ; reste à vérifier la variante exacte et la hauteur disponible sous vos meubles avant d'acheter.",
+    "date": "2026-10-27",
+    "n": 10,
+    "tests": 15,
+    "sources": [
+     "Clubic.com",
+     "FrAndroid",
+     "LeCafeDuGeek"
+    ]
+   }
   },
   "mova-z60-ultra": {
    "cat": "s-robot-laveur",
@@ -19701,8 +19723,8 @@
     }
    ],
    "press": {
-    "avg": 8.2,
-    "n": 10,
+    "avg": 8.254545454545454,
+    "n": 11,
     "tests": 17,
     "scope": "gamme",
     "src": [
@@ -19710,6 +19732,12 @@
      ""
     ],
     "notes": [
+     {
+      "src": "CharlesTech",
+      "score": 9.8,
+      "url": "https://charlestech.fr/test-mova-z60-ultra-roller/",
+      "date": ""
+     },
      {
       "src": "AndroidPit",
       "score": 9.0,
@@ -19726,12 +19754,6 @@
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-mova-z60-ultra-roller-complete-la-nouvelle-reference-du-lavage-robotise/",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 8.0,
-      "url": "https://charlestech.fr/test-mova-z60-ultra-roller/",
       "date": ""
      },
      {
@@ -19765,6 +19787,12 @@
       "date": ""
      },
      {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/mova-z60-ultra-roller-p76947/test.html",
+      "date": ""
+     },
+     {
       "src": "Maison et Domotique",
       "score": 7.0,
       "url": "https://www.maison-et-domotique.com/168330-mova-z60-ultra-roller-standalone-robot-aspirateur-laveur-test/",
@@ -19786,12 +19814,6 @@
       "src": "FrAndroid",
       "score": null,
       "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/2755725_test-du-mova-z60-ultra-roller-complete-une-nouvelle-serpilliere-pour-plus-defficacite",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/mova-z60-ultra-roller-p76947/test.html",
       "date": ""
      },
      {
@@ -19817,7 +19839,18 @@
    "prix": 499.17,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le Z60 Ultra Roller Complete remplace les serpillères rotatives de Mova par un rouleau, et les trois tests lui reconnaissent une aspiration de 28 000 Pa. Journal du Geek décrit un rouleau de 25,6 cm rincé en continu, avec une pression au sol de 4 100 Pa, et 220 minutes d'autonomie sur une batterie de 6 400 mAh. CharlesTech ajoute 12 buses d'injection d'eau, un lavage à l'eau chaude jusqu'à 80 °C et un franchissement de 8 cm ; Journal du Geek mesure plutôt 6 cm, un écart à garder en tête.\n\nLes défauts relevés sont plus nuancés. Clubic.com juge que le robot ne lave pas vraiment autour des tapis ni le long des murs, trouve la fabrication un peu grossière, le châssis épais et le niveau sonore élevé, de 60 à 72 dB selon les modes. Journal du Geek signale lui aussi des bordures imparfaites et une station haute, CharlesTech une application dense qui demande un temps d'apprentissage et une station encombrante.\n\nLes prix cités vont de 599 € chez Clubic.com à 1 399 € chez Journal du Geek. L'ensemble décrit un robot très complet, à l'aise avec les poils d'animaux et les sols encrassés, mais qui occupe de la place et fait du bruit.",
+    "date": "2026-10-27",
+    "n": 11,
+    "tests": 17,
+    "sources": [
+     "Clubic.com",
+     "Journal du Geek",
+     "CharlesTech"
+    ]
+   }
   },
   "narwal-freo-z10-ultra": {
    "cat": "s-robot-laveur",
@@ -19850,8 +19883,8 @@
     }
    ],
    "press": {
-    "avg": 8.440000000000001,
-    "n": 5,
+    "avg": 8.333333333333334,
+    "n": 6,
     "tests": 9,
     "scope": "modele",
     "src": [
@@ -19872,21 +19905,27 @@
       "date": ""
      },
      {
-      "src": "CharlesTech",
-      "score": 8.0,
-      "url": "https://charlestech.fr/test-narwal-freo-z10-ultra/",
+      "src": "Neozone",
+      "score": 8.6,
+      "url": "https://www.neozone.org/tests/je-teste-le-robot-aspirateur-narwal-freo-z10-ultra-du-haut-de-gamme-a-prix-raisonnable/",
       "date": ""
      },
      {
-      "src": "Neozone",
-      "score": 8.0,
-      "url": "https://www.neozone.org/tests/je-teste-le-robot-aspirateur-narwal-freo-z10-ultra-du-haut-de-gamme-a-prix-raisonnable/",
+      "src": "CharlesTech",
+      "score": 8.2,
+      "url": "https://charlestech.fr/test-narwal-freo-z10-ultra/",
       "date": ""
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-narwal-freo-z10-ultra",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/narwal-freo-z10-ultra-p79024/test.html",
       "date": ""
      },
      {
@@ -19906,19 +19945,23 @@
       "score": null,
       "url": "https://www.gamestar.de/artikel/narwal-freo-z10-ultra-im-test,3432038.html",
       "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/narwal-freo-z10-ultra-p79024/test.html",
-      "date": ""
      }
     ]
    },
    "prix": 599.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "CharlesTech et Neozone décrivent le Freo Z10 Ultra comme un robot simple à installer, compatible avec Alexa, Siri et Google Home, dont la cartographie se fait vite. CharlesTech apprécie son aspiration de 18 000 Pa, sa brosse centrale mêlant nylon et caoutchouc et sa façon d'éviter les câbles sans s'y emmêler ; les serpillères se relèvent de 12 mm sur les tapis. Neozone note un lavage à l'eau chaude entre 45 et 75 °C, une cartographie 3D et une station qui tient environ 120 jours.\n\nLes deux tests ne mesurent pas tout pareil. CharlesTech relève un bruit allant jusqu'à 60 dB et une autonomie de 1 h 20 en usage soutenu, alors que Neozone annonce moins de 55 dB et jusqu'à 3 h 30, ce qui suggère de fortes différences selon le mode choisi. Les réserves se rejoignent sur l'équipement : sac de collecte de faible contenance (2,5 L) pour CharlesTech, absence de balai et de serpillère de rechange, notice rapide en anglais et voix du robot non modifiable en français pour Neozone.\n\nNeozone le recommande en particulier aux foyers avec animaux. Le prix a beaucoup varié : environ 899 € à la parution du test, 599 € relevés chez CharlesTech contre 1 299 € au lancement.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 9,
+    "sources": [
+     "CharlesTech",
+     "Neozone"
+    ]
+   }
   },
   "dreame-x50-ultra-complete": {
    "cat": "s-robot-laveur",
@@ -19951,7 +19994,7 @@
     }
    ],
    "press": {
-    "avg": 8.333333333333334,
+    "avg": 8.533333333333333,
     "n": 6,
     "tests": 12,
     "scope": "modele",
@@ -19960,6 +20003,12 @@
      ""
     ],
     "notes": [
+     {
+      "src": "Presse Citron",
+      "score": 9.2,
+      "url": "https://www.presse-citron.net/test-dreame-x50-ultra-complete/",
+      "date": ""
+     },
      {
       "src": "AndroidPit",
       "score": 9.0,
@@ -19976,12 +20025,6 @@
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-X50-Ultra-Complete-im-Test_185777940.html",
-      "date": ""
-     },
-     {
-      "src": "Presse Citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/test-dreame-x50-ultra-complete/",
       "date": ""
      },
      {
@@ -20037,7 +20080,17 @@
    "prix": 832.5,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le X50 Ultra Complete se distingue par ses bras articulés qui lui permettent de monter sur les seuils, et les deux tests s'y arrêtent d'abord. Presse Citron mesure 42 mm en une fois et jusqu'à 60 mm sur un double seuil ; Tech Advisor donne 4,2 cm puis 6 cm pour des marches enchaînées, et précise que l'appareil a davantage à offrir que cette seule prouesse. Presse Citron relève une aspiration de 20 000 Pa, un lavage à 80 °C, un fonctionnement silencieux et une application très complète.\n\nLes réserves existent des deux côtés. Presse Citron trouve la reconnaissance d'obstacles perfectible et mesure environ 120 minutes d'autonomie pour 120 m², avec une station haute de 59 cm et pesant 9 kg. Tech Advisor signale un nettoyage long, une batterie qui baisse vite, une détection des tapis irrégulière dans l'application et des câbles qui posent encore problème, tout en saluant des commandes de planification très fines.\n\nPresse Citron relève un prix de lancement de 1 499 €. Le robot s'adresse à qui a des seuils à franchir et veut un appareil qui se gère seul, avec une station volumineuse à prévoir.",
+    "date": "2026-10-27",
+    "n": 6,
+    "tests": 12,
+    "sources": [
+     "Presse Citron",
+     "Tech Advisor"
+    ]
+   }
   },
   "dreame-l40-ultra": {
    "cat": "s-robot-laveur",
@@ -20071,7 +20124,7 @@
     }
    ],
    "press": {
-    "avg": 8.2,
+    "avg": 8.35,
     "n": 10,
     "tests": 16,
     "scope": "modele",
@@ -20084,6 +20137,12 @@
       "src": "Tech Advisor",
       "score": 10.0,
       "url": "https://www.techadvisor.com/article/2523640/dreame-l40-ultra-robot-vacuum-review.html",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.5,
+      "url": "https://lecafedugeek.fr/test-dreame-l40-ultra-laspirateur-robot-intelligent-et-complet-pour-un-nettoyage-sans-effort/",
       "date": ""
      },
      {
@@ -20114,12 +20173,6 @@
       "src": "FrAndroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/dreame/2330150_test-du-dreame-l40-ultra-nettoyage-complet-pour-un-prix-abordable",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-dreame-l40-ultra-laspirateur-robot-intelligent-et-complet-pour-un-nettoyage-sans-effort/",
       "date": ""
      },
      {
@@ -20181,7 +20234,18 @@
    "prix": 539.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois tests français convergent sur le L40 Ultra : aspiration de 11 000 Pa jugée solide, navigation fiable, application complète et nettoyage correct des plinthes et des bords. CharlesTech et FrAndroid relèvent un séchage des serpillières et un lavage à l'eau chauffée autour de 65 °C ; LeCafeDuGeek mesure environ 190 minutes d'autonomie sur 5 200 mAh et un franchissement de 22 mm. CharlesTech observe de son côté un robot qui se cogne très peu.\n\nLes critiques sont assez homogènes. CharlesTech et FrAndroid reprochent à la détection de saleté d'être trop approximative : lorsqu'il croit en repérer, le robot nettoie à nouveau toute la zone. FrAndroid juge aussi l'entretien de la base contraignant, CharlesTech parle d'une base à nettoyer à la main de temps en temps, et LeCafeDuGeek trouve le prix élevé. CharlesTech note une autonomie d'environ une heure à une heure vingt en mode maximal, contre 194 minutes en mode silencieux.\n\nCes tests datent de fin 2024, quand le L40 Ultra se vendait entre 899 € et 1 200 € ; il s'agit d'un modèle éprouvé, au bon équilibre, dont l'intérêt dépend désormais surtout de son tarif actuel.",
+    "date": "2026-10-27",
+    "n": 10,
+    "tests": 16,
+    "sources": [
+     "CharlesTech",
+     "FrAndroid",
+     "LeCafeDuGeek"
+    ]
+   }
   },
   "dreame-l10s-ultra": {
    "cat": "s-robot-laveur",
@@ -20215,7 +20279,7 @@
     }
    ],
    "press": {
-    "avg": 8.964285714285714,
+    "avg": 8.835714285714285,
     "n": 14,
     "tests": 24,
     "scope": "gamme",
@@ -20224,12 +20288,6 @@
      ""
     ],
     "notes": [
-     {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l10s-ultra-p70793/test.html",
-      "date": ""
-     },
      {
       "src": "tuttoteK",
       "score": 10.0,
@@ -20249,6 +20307,12 @@
       "date": ""
      },
      {
+      "src": "CharlesTech",
+      "score": 9.2,
+      "url": "https://charlestech.fr/test-dreame-l10s-ultra/",
+      "date": ""
+     },
+     {
       "src": "AndroidPit",
       "score": 9.0,
       "url": "https://www.nextpit.fr/dreame-l10s-ultra-test-complet",
@@ -20258,12 +20322,6 @@
       "src": "CNET France",
       "score": 9.0,
       "url": "https://www.cnetfrance.fr/produits/test-dreame-l10s-ultra-39947314.htm#xtor=RSS-2",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 9.0,
-      "url": "https://charlestech.fr/test-dreame-l10s-ultra/",
       "date": ""
      },
      {
@@ -20300,6 +20358,12 @@
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-dreame-l10s-ultra-le-robot-haut-de-gamme-qui-promet-une-automatisation-totale/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l10s-ultra-p70793/test.html",
       "date": ""
      },
      {
@@ -20373,7 +20437,18 @@
    "prix": 369.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les tests cités concernent la première version du L10s Ultra, parue en 2022, et non la génération vendue aujourd'hui ; ils servent donc surtout à juger la formule de base, avec une station qui vide le robot et lave ses serpillères. Les Numériques apprécie une base très complète, une navigation sans reproche et une autonomie de 3 h 16 en mode standard, mais déplore une brosse latérale qui éjecte les détritus et un lavage décevant. FrAndroid dit à peu près la même chose en des termes plus nuancés : le lavage est meilleur que sur un simple mode serpillère, sans égaler un robot dédié.\n\nCharlesTech met en avant les pads rotatifs, la reconnaissance d'objets, la bonne gestion des différentes surfaces et le remplissage automatique en eau, avec parfois un second passage nécessaire et des traductions d'application à revoir. Côté chiffres, FrAndroid et CharlesTech citent 5 300 Pa d'aspiration, et le niveau sonore va de 53 dB en mode standard à 66 dB pendant la vidange selon Les Numériques.\n\nAu lancement, le prix tournait autour de 1 199 € chez Les Numériques et FrAndroid. Le L10s est le grand classique de la famille : un robot polyvalent dont la force est l'automatisation plus que le lavage.",
+    "date": "2026-10-27",
+    "n": 14,
+    "tests": 24,
+    "sources": [
+     "Les Numériques",
+     "FrAndroid",
+     "CharlesTech"
+    ]
+   }
   },
   "mova-e40-ultra": {
    "cat": "s-robot-laveur",
@@ -20407,7 +20482,7 @@
     }
    ],
    "press": {
-    "avg": 7.75,
+    "avg": 7.875,
     "n": 8,
     "tests": 11,
     "scope": "gamme",
@@ -20416,6 +20491,12 @@
      ""
     ],
     "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/mova/2901181_test-du-mova-e40-ultra-un-aspirateur-robot-ultra-complet-a-un-prix-tout-petit",
+      "date": ""
+     },
      {
       "src": "Allround-PC",
       "score": 8.0,
@@ -20426,12 +20507,6 @@
       "src": "Clubic.com",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-587281-test-mova-e40-ultra-cet-aspirateur-robot-ne-devrait-pas-etre-aussi-bon-a-ce-prix.html",
-      "date": ""
-     },
-     {
-      "src": "FrAndroid",
-      "score": 8.0,
-      "url": "https://www.frandroid.com/marques/mova/2901181_test-du-mova-e40-ultra-un-aspirateur-robot-ultra-complet-a-un-prix-tout-petit",
       "date": ""
      },
      {
@@ -20487,7 +20562,18 @@
    "prix": 295.0,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les trois tests du E40 Ultra tournent autour de son prix. FrAndroid estime qu'il offre l'essentiel d'un robot à 1 000 € pour environ la moitié, avec une station tout-en-un, une application fluide et un séchage à l'air chaud à 45 °C. Clubic.com relève une aspiration de 19 000 Pa, des serpillères qui se soulèvent de 10,5 mm et un lavage jusqu'aux bords de plinthes, pour des prix relevés entre 295 et 379 €. Journal du Geek chiffre 97 % de collecte sur carrelage et 89 % sur tapis ras, avec 183 minutes d'autonomie en conditions réelles.\n\nLes limites sont connues : pas de caméra, donc une détection d'obstacles basique que Clubic.com qualifie même d'hasardeuse, et une station très haute. FrAndroid signale un réservoir de détergent vendu en option, Journal du Geek des tapis épais de plus de 12 mm que le robot ne franchit pas, des taches incrustées qu'il ne décape pas et une application mal traduite. Le niveau sonore est de 61 dB pour Clubic.com.\n\nPour un budget serré, les trois tests le présentent comme un robot complet, à condition d'accepter une navigation moins fine.",
+    "date": "2026-10-27",
+    "n": 8,
+    "tests": 11,
+    "sources": [
+     "Clubic.com",
+     "FrAndroid",
+     "Journal du Geek"
+    ]
+   }
   },
   "dreame-aqua10-ultra": {
    "cat": "s-robot-laveur",
@@ -20521,7 +20607,7 @@
     }
    ],
    "press": {
-    "avg": 8.066666666666666,
+    "avg": 8.511111111111111,
     "n": 9,
     "tests": 19,
     "scope": "gamme",
@@ -20543,6 +20629,18 @@
       "date": ""
      },
      {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-dreame-aqua10-ultra-il-roule-sur-la-concurrence/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-aqua10-ultra-roller-p76872/test.html",
+      "date": ""
+     },
+     {
       "src": "TechTest",
       "score": 9.0,
       "url": "https://techtest.org/30-000pa-perfekte-navigation-und-top-putzleistung-aber-mit-abzuege-in-der-b-note-dreame-aqua10-ultra-roller-im-test/",
@@ -20561,12 +20659,6 @@
       "date": ""
      },
      {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-dreame-aqua10-ultra-il-roule-sur-la-concurrence/",
-      "date": ""
-     },
-     {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dreame-aqua10-ultra-roller-complete",
@@ -20576,12 +20668,6 @@
       "src": "ExpertReviews",
       "score": 6.0,
       "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/dreame-aqua10-ultra-roller-review",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 6.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-aqua10-ultra-roller-p76872/test.html",
       "date": ""
      },
      {
@@ -20649,7 +20735,19 @@
    "prix": 699.98,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le Dreame Aqua10 Ultra Roller a été testé autour de 1 500 € par la plupart des rédactions, et les avis se répartissent en deux camps. Clubic.com et LeCafeDuGeek louent la puissance d'aspiration de 30 000 Pa et le rouleau de lavage rincé en continu, jusqu'à 100 °C selon Clubic.com qui note aussi une navigation précise. Les Numériques apporte des mesures : 93,5 % de collecte sur sols durs, 67 % sur tapis à poils longs en mode standard, un lavage qui laisse une tache sur deux le long des murs et reste inefficace dans les coins.\n\nFrAndroid est plus réservé : réservoirs un peu justes, autonomie qui ne permet pas de couvrir un étage de 60 m² sans pause, poils et cheveux qui s'enroulent dans les composants et entretien complexe sur la durée. Clubic.com évoque des ratés dans le vidage du réservoir et un démarrage très long. Le franchissement atteint 8 cm pour FrAndroid, et le bruit va de 51 à 67 dB selon les modes.\n\nLes Numériques regrette l'absence de station sans sac et une filtration qui se bouche. Au total, c'est un robot très complet et très performant sur sols durs, dont l'entretien et l'autonomie demandent plus d'attention que ne le laisse croire la fiche technique.",
+    "date": "2026-10-27",
+    "n": 9,
+    "tests": 19,
+    "sources": [
+     "Clubic.com",
+     "FrAndroid",
+     "Les Numériques",
+     "LeCafeDuGeek"
+    ]
+   }
   },
   "ecovacs-deebot-x11": {
    "cat": "s-robot-laveur",
@@ -20682,7 +20780,7 @@
     }
    ],
    "press": {
-    "avg": 7.8428571428571425,
+    "avg": 8.0,
     "n": 7,
     "tests": 14,
     "scope": "gamme",
@@ -20692,15 +20790,15 @@
     ],
     "notes": [
      {
-      "src": "TechTest",
+      "src": "LeCafeDuGeek",
       "score": 9.0,
-      "url": "https://techtest.org/die-naechste-generation-saugroboter-der-ecovacs-deebot-x11-omnicyclone-im-test/",
+      "url": "https://lecafedugeek.fr/test-ecovacs-deebot-x11-omnicyclone-le-robot-qui-redefinit-le-menage-a-domicile/",
       "date": ""
      },
      {
-      "src": "LeCafeDuGeek",
-      "score": 8.9,
-      "url": "https://lecafedugeek.fr/test-ecovacs-deebot-x11-omnicyclone-le-robot-qui-redefinit-le-menage-a-domicile/",
+      "src": "TechTest",
+      "score": 9.0,
+      "url": "https://techtest.org/die-naechste-generation-saugroboter-der-ecovacs-deebot-x11-omnicyclone-im-test/",
       "date": ""
      },
      {
@@ -20716,15 +20814,15 @@
       "date": ""
      },
      {
-      "src": "L&B Tech",
+      "src": "FrAndroid",
       "score": 8.0,
-      "url": "https://www.lbtechreviews.com/test/smart-home/ecovacs-deebot-x11-omnicyclone",
+      "url": "https://www.frandroid.com/test/2832325_test-ecovacs-deebot-x11-omnicyclone",
       "date": ""
      },
      {
-      "src": "FrAndroid",
-      "score": 7.0,
-      "url": "https://www.frandroid.com/test/2832325_test-ecovacs-deebot-x11-omnicyclone",
+      "src": "L&B Tech",
+      "score": 8.0,
+      "url": "https://www.lbtechreviews.com/test/smart-home/ecovacs-deebot-x11-omnicyclone",
       "date": ""
      },
      {
@@ -20780,7 +20878,17 @@
    "prix": 499.17,
    "img": null,
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les deux tests consultés du Deebot X11 OmniCyclone s'intéressent surtout à sa station sans sac, qui remplace le sac jetable par un bac cyclonique. FrAndroid y voit un choix hygiénique et économique, associé à une recharge très rapide qui rend l'autonomie quasi illimitée, une récupération d'environ 5 % par passage. LeCafeDuGeek parle d'une aspiration de 19 500 Pa avec un moteur de 100 W et d'un franchissement allant jusqu'à 24 mm, FrAndroid mesure 4 cm.\n\nLe lavage repose sur un rouleau jugé efficace par FrAndroid, qui précise toutefois que le sol n'est pas lavé à l'eau chaude, le rinçage de la serpillière se faisant à 75 °C. Les critiques de FrAndroid portent sur une application peu intuitive, une brosse latérale fixe et un bac cyclonique à vider régulièrement ; LeCafeDuGeek retient l'encombrement de la station. Le bruit tourne autour de 65 dB.\n\nLes prix relevés à la parution allaient de 1 199 € à 1 300 €. Les deux sites décrivent un robot haut de gamme et autonome, qui mise sur des innovations pratiques plus que sur la surenchère de puissance.",
+    "date": "2026-10-27",
+    "n": 7,
+    "tests": 14,
+    "sources": [
+     "FrAndroid",
+     "LeCafeDuGeek"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",
