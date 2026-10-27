@@ -39,7 +39,7 @@ ICATS = [
 ]
 
 SCATS = [
-    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Laveurs", top_label="robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--maison)", cls="f-maison", badge="robot-laveur", scene="robot-laveur", scene_alt="La mascotte, assise sur un seau « sol mouillé », regarde un robot laveur travailler",
+    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Laveurs", top_label="robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--maison)", cls="f-maison", badge="robots-laveurs", scene="robot-laveur", scene_alt="La mascotte, assise sur un seau « sol mouillé », regarde un robot laveur travailler",
          h1='Les 10 meilleurs <span class="flash">robots aspirateurs laveurs</span> en 2026',
          intro="Aspiration, lavage, vidage et séchage automatiques : les robots à station font presque tout seuls. La presse les teste en détail, et c'est la navigation et la qualité du lavage qui font la différence."),
 ]
