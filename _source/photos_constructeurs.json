@@ -806,5 +806,13 @@
  "roborock-qrevo-s-pro": {
   "constructeur": "Roborock",
   "source": "https://fr.roborock.com/products/roborock-qrevo-s-pro"
+ },
+ "dreame-d10-plus-gen-2": {
+  "constructeur": "Dreame (visuel fourni par Matthieu Tixier)",
+  "source": "fourni par Matthieu Tixier"
+ },
+ "dreame-l10s-pro-gen-3": {
+  "constructeur": "Dreame (visuel fourni par Matthieu Tixier)",
+  "source": "fourni par Matthieu Tixier"
  }
 }
