@@ -1445,8 +1445,9 @@ def product_page(fam, c, rank, d, items):
 
 for fam in FAMILIES:
     for c in fam["cats"]:
-        for i, d in enumerate(by_cat[c["key"]], 1):
-            product_page(fam, c, i, d, by_cat[c["key"]])
+        for i, d in enumerate(by_cat_view[c["key"]], 1):
+            if d["cat"] == c["key"]:   # les produits d'un autre usage gardent leur fiche d'origine
+                product_page(fam, c, i, d, by_cat_view[c["key"]])
 
 # ---------------------------------------------------------------- Page d'accueil
 def champion(items):
