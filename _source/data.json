@@ -19715,7 +19715,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 499.17,
+     "price": 599.0,
      "url": "https://www.amazon.fr/dp/B0FV98MKC4?tag=geekconcept-21",
      "name": "MOVA Z60 Ultra Roller SA Robot Aspirateur Laveur",
      "cfg": "",
@@ -19836,7 +19836,7 @@
      }
     ]
    },
-   "prix": 499.17,
+   "prix": 599.0,
    "img": "mova-z60-ultra.webp",
    "rating": null,
    "nrev": 0,
@@ -19986,7 +19986,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 832.5,
+     "price": 999.0,
      "url": "https://www.amazon.fr/dp/B0DPB7RN2L?tag=geekconcept-21",
      "name": "DREAME X50 Ultra Complete Robot Aspirateur avec Station, 20 000 Pa",
      "cfg": "",
@@ -20077,7 +20077,7 @@
      }
     ]
    },
-   "prix": 832.5,
+   "prix": 999.0,
    "img": "dreame-x50-ultra-complete.webp",
    "rating": null,
    "nrev": 0,
@@ -20772,7 +20772,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 499.17,
+     "price": 599.0,
      "url": "https://www.amazon.fr/dp/B0FHWP5Y6P?tag=geekconcept-21",
      "name": "ECOVACS DEEBOT X11 OmniCyclone Robot Aspirateur Laveur",
      "cfg": "",
@@ -20875,7 +20875,7 @@
      }
     ]
    },
-   "prix": 499.17,
+   "prix": 599.0,
    "img": "ecovacs-deebot-x11.webp",
    "rating": null,
    "nrev": 0,
@@ -21121,7 +21121,8 @@
      "url": "https://www.amazon.fr/dp/B0BSHHKLFJ?tag=geekconcept-21",
      "name": "Dyson V12 Detect Slim Absolute aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B0BSHHKLFJ"
+     "asin": "B0BSHHKLFJ",
+     "dispo": false
     }
    ],
    "press": {
@@ -21236,7 +21237,8 @@
      "url": "https://www.amazon.fr/dp/B0FZN79QDP?tag=geekconcept-21",
      "name": "Dyson V16 Piston Animal aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B0FZN79QDP"
+     "asin": "B0FZN79QDP",
+     "dispo": false
     }
    ],
    "press": {
@@ -21376,7 +21378,8 @@
      "url": "https://www.amazon.fr/dp/B09WVQG81R?tag=geekconcept-21",
      "name": "Samsung Bespoke Jet VS20A95973B aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B09WVQG81R"
+     "asin": "B09WVQG81R",
+     "dispo": false
     }
    ],
    "press": {
@@ -21503,7 +21506,8 @@
      "url": "https://www.amazon.fr/dp/B09CNDT1C2?tag=geekconcept-21",
      "name": "Samsung Jet 90 Complete VS20R9046T3 aspirateur balai sans fil",
      "cfg": "",
-     "asin": "B09CNDT1C2"
+     "asin": "B09CNDT1C2",
+     "dispo": false
     }
    ],
    "press": {
@@ -21592,7 +21596,8 @@
      "url": "https://www.amazon.fr/dp/B0DFXS37KW?tag=geekconcept-21",
      "name": "Dreame Z30 aspirateur balai sans fil 310 AW",
      "cfg": "",
-     "asin": "B0DFXS37KW"
+     "asin": "B0DFXS37KW",
+     "dispo": false
     }
    ],
    "press": {
@@ -21937,7 +21942,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 343.22,
+     "price": 349.0,
      "url": "https://www.amazon.fr/dp/B0DT9Y8RWH?tag=geekconcept-21",
      "name": "Dreame H15 Pro aspirateur laveur sans fil",
      "cfg": "",
@@ -23715,6 +23720,6 @@
   }
  },
  "dates": {
-  "Amazon": "23/10/2026"
+  "Amazon": "27/10/2026"
  }
 }
