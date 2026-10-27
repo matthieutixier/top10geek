@@ -22,7 +22,7 @@ from catalog_sols import SOLS
 from catalog_reconditionnes import RECO, GUIDE_RECO
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main13.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -34,6 +34,7 @@ IND = f"prix indicatif · {PRIX_DATE}"
 # Mise à jour par rubrique (releve.py --famille) : chaque rubrique a sa date et son mois de prix.
 # Sans entrée pour une rubrique, on retombe sur les dates globales.
 ASSOC = {"Test-Achats", "Que Choisir", "Which?", "Tænk", "Choice", "Stiftung Warentest", "Consumer Reports", "OCU", "Altroconsumo"}
+MAISON_SLUGS = ("aspirateur-robot", "tv")   # univers « Maison » : accent et ambiance propres (extra21.css)
 FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante", "robot": "robot"}
 FAM_DATES = DATA.get("familles", {})
 
@@ -604,7 +605,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 <link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
 <style>{CSS_INLINE}</style>
 {ld_script(ld)}</head>
-<body class="{body_cls}">
+<body class="{(body_cls + " univers-maison").strip() if path.startswith(MAISON_SLUGS) else body_cls}">
 <div class="wrap">
   <div class="topbar">
     <a class="brand-lockup" href="{root or "./"}">
@@ -985,7 +986,7 @@ def usage_page(fam, c):
         third_stat = f'<div><strong>{labs}</strong>tests en laboratoire (associations)</div>'
     else:
         third_stat = f'<div><strong>{n_notes}</strong>note{"s" if n_notes > 1 else ""} compilée{"s" if n_notes > 1 else ""}</div>'
-    top_word = f"Le top 10 {c['label'].lower()}" if n == 10 else f"Notre sélection {c['label'].lower()}"
+    top_word = f"Le top 10 {c.get('top_label', c['label']).lower()}" if n == 10 else f"Notre sélection {c.get('top_label', c['label']).lower()}"
     body = f"""
   <div class="crumb"><a href="../../">Accueil</a> › <a href="../">{fam['plural']}</a> › {c['label']}</div>
   <section class="usage-hero">
@@ -1474,8 +1475,12 @@ ICON = {
 def fam_btn(fam):
     n = sum(len(by_cat[c["key"]]) for c in fam["cats"])
     return (f'<a class="fam-btn" href="{fam["slug"]}/"><span class="fb-ic"><svg viewBox="0 0 24 24" aria-hidden="true">{ICON[fam["key"]]}</svg></span>'
-            f'<span class="fb-txt"><b>{fam["plural"]}</b><small>{len(fam["cats"])} usages · {n} modèles</small></span><span class="fb-go" aria-hidden="true">→</span></a>')
-FAM_BTNS = "\n        ".join(fam_btn(f) for f in FAMILIES)
+            f'<span class="fb-txt"><b>{fam["plural"]}</b><small>{len(fam["cats"])} usage{"s" if len(fam["cats"]) > 1 else ""} · {n} modèles</small></span><span class="fb-go" aria-hidden="true">→</span></a>')
+FAM_BTNS = ('<div class="fb-group"><span class="fb-label">Informatique</span><div class="fb-row">'
+            + "\n        ".join(fam_btn(f) for f in FAMILIES if f["slug"] not in MAISON_SLUGS) + '</div></div>'
+            '<div class="fb-group maison"><span class="fb-label">Maison</span><div class="fb-row">'
+            + "\n        ".join(fam_btn(f) for f in FAMILIES if f["slug"] in MAISON_SLUGS)
+            + '<span class="fam-btn ghost"><span class="fb-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="12" rx="1.5"/><path d="M8 20h8"/></svg></span><span class="fb-txt"><b>TV et home cinéma</b><small>Bientôt</small></span></span></div></div>')
 
 home = f"""
   <section class="home-hero">
@@ -1497,7 +1502,7 @@ home = f"""
       <img class="hh-sticker s3" src="assets/img/badge-bureautique.webp" alt="" width="120" height="120">
       <div class="hh-bubble">« J'ai lu {TOTAL_TESTS} tests pour vous. De rien. »</div>
     </div>
-    <nav class="fam-btns row4" aria-label="Nos comparatifs">
+    <nav class="fam-btns row4 grouped" aria-label="Nos comparatifs">
         {FAM_BTNS}
     </nav>
   </section>
@@ -1538,8 +1543,9 @@ home = f"""
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">Cinq familles, {len(CAT)} usages</div></div>
+    <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">{["", "Une", "Deux", "Trois", "Quatre", "Cinq", "Six", "Sept"][len(FAMILIES)]} familles, {len(CAT)} usages</div></div>
     <p class="bf-home"><a class="see-all" href="black-friday/">Black Friday 2026 : les PC qui valent vraiment le coup, et leur prix repère →</a></p>
+    <h3 class="univers-head">Informatique</h3>
     <div class="fam-grid">
       <a class="fam-card" href="pc-portable/">
         <div class="fam-art"><img src="assets/img/badge-bureautique.webp" alt="" width="96" height="96"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"><img src="assets/img/badge-creation.webp" alt="" width="96" height="96"></div>
@@ -1557,10 +1563,16 @@ home = f"""
         <div class="fam-art"><img src="assets/img/badge-reservoir.webp" alt="" width="96" height="96"><img src="assets/img/badge-laser-couleur.webp" alt="" width="96" height="96"><img src="assets/img/badge-photo.webp" alt="" width="96" height="96"></div>
         <h3>Imprimantes</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'imprimante')} imprimantes, un top 10 par usage : réservoirs, laser, photo et petits prix.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in ICATS)}</div><span class="uc-go">Explorer →</span></a>
-      <a class="fam-card" href="aspirateur-robot/">
+    </div>
+    <h3 class="univers-head maison">Maison</h3>
+    <div class="fam-grid maison">
+      <a class="fam-card maison" href="aspirateur-robot/">
         <div class="fam-art"><img src="assets/img/badge-robot-laveur.webp" alt="" width="96" height="96"></div>
         <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots aspirateurs laveurs, classés d'après les tests de la presse. D'autres usages arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in SCATS)}</div><span class="uc-go">Explorer →</span></a>
+      <div class="fam-card maison ghost" aria-label="TV et home cinéma, bientôt">
+        <h3>TV et home cinéma</h3><p>Petits prix, tailles 43, 55 et 65 pouces, barres de son : les tests de la presse, usage par usage.</p>
+        <div class="fam-chips"><span>Petit prix</span><span>43″ et moins</span><span>50–55″</span><span>65″ et plus</span><span>Barres de son</span></div><span class="soon-chip">Bientôt</span></div>
     </div>
     <div class="soon-grid">{''.join(f'<div class="soon-card"><img class="soon-img" src="assets/img/{SOON_IMG[i]}.webp" alt="" width="84" height="84" loading="lazy"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(SOON))}</div>
   </section>

@@ -39,7 +39,7 @@ ICATS = [
 ]
 
 SCATS = [
-    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--cat-poly)", cls="f-polyvalent", badge="robot-laveur",
+    dict(key="s-robot-laveur", slug="robots-aspirateurs-laveurs", label="Laveurs", top_label="robots laveurs", h="Robots aspirateurs laveurs", tag="Aspire et lave, sans y penser", color="var(--maison)", cls="f-maison", badge="robot-laveur",
          h1='Les 10 meilleurs <span class="flash">robots aspirateurs laveurs</span> en 2026',
          intro="Aspiration, lavage, vidage et séchage automatiques : les robots à station font presque tout seuls. La presse les teste en détail, et c'est la navigation et la qualité du lavage qui font la différence."),
 ]
@@ -67,8 +67,8 @@ FAMILIES_NEW = [
          intro="Robots aspirateurs laveurs, aspirateurs balais et laveurs : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif et les liens vers les marchands.",
          title="Meilleur robot aspirateur laveur 2026 : tous les tests | Top 10 Geek",
          desc="Les meilleurs robots aspirateurs laveurs 2026 classés d'après les tests de la presse : note sur 10, prix indicatif, points forts et faibles.",
-         usage_title="Top 10 {label} 2026 : tests et prix | Top 10 Geek",
-         usage_desc="Les 10 meilleurs {label} en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
+         usage_title="Top 10 robots aspirateurs laveurs 2026 : tests et prix | Top 10 Geek",
+         usage_desc="Les 10 meilleurs robots aspirateurs laveurs en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
 ]
 
 FAQ_E = [
