@@ -58,9 +58,10 @@ SCATS = [
 ]
 
 TCATS = [
-    dict(key="t-petit", slug="petits-formats", label="Petits formats", top_label="téléviseurs jusqu'à 48 pouces", h="Petits formats (jusqu'à 48″)", tag="Pour la chambre ou le bureau", color="var(--cat-creation)", cls="f-creation", badge="gaming",
-         h1='Les meilleurs <span class="flash">petits téléviseurs</span> jusqu\'à 48 pouces',
-         intro="Chambre, bureau, cuisine ou studio : à 42, 43 ou 48 pouces, la presse teste peu de modèles. Voici ceux qui ont des notes chiffrées et une offre d'achat."),
+    dict(key="t-petit", slug="petits-formats", label="Petits formats", top_label="téléviseurs jusqu'à 50 pouces", h="Petits formats (jusqu'à 50″)", tag="Pour la chambre ou le bureau", color="var(--cat-creation)", cls="f-creation", badge="gaming",
+         extra=["samsung-qn90f-50"],
+         h1='Les meilleurs <span class="flash">petits téléviseurs</span> jusqu\'à 50 pouces',
+         intro="Chambre, bureau, cuisine ou studio : de 42 à 50 pouces, la presse teste peu de modèles. Voici ceux qui ont des notes chiffrées et une offre d'achat. Le Samsung QN90F 50″ figure aussi dans l'usage 50–55″."),
     dict(key="t-55", slug="50-55-pouces", label="50–55″", top_label="téléviseurs 50–55 pouces", h="50–55 pouces", tag="La taille du salon", color="var(--cat-gaming)", cls="f-gaming", badge="gaming",
          h1='Les meilleurs <span class="flash">téléviseurs 50–55 pouces</span> en 2026',
          intro="Le 55 pouces est la taille la plus vendue : assez grand pour le salon, accessible en OLED comme en Mini-LED. La presse départage la luminosité, le contraste, le jeu et le son intégré."),

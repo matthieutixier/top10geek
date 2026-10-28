@@ -25040,6 +25040,88 @@
      "What Hi-Fi?"
     ]
    }
+  },
+  "samsung-qn80f-50": {
+   "cat": "t-petit",
+   "short": "Samsung Neo QLED QN80F 50\"",
+   "ref": "Mini-LED · Quantum Matrix · 144 Hz",
+   "badge": "Le Mini-LED compact",
+   "verdict": "Un Mini-LED Samsung aux belles couleurs naturelles, ici dans sa version 50 pouces ; il n'a pas de Dolby Vision et sa classe énergétique est F.",
+   "strengths": [
+    "Rétroéclairage Mini-LED à points quantiques",
+    "Belles couleurs naturelles",
+    "Son harmonieux et dynamique"
+   ],
+   "weak": [
+    "Pas de Dolby Vision (HDR10 uniquement)",
+    "Classe énergétique F",
+    "Quelques zones d'assombrissement"
+   ],
+   "m": [
+    "Mini-LED",
+    "144 Hz"
+   ],
+   "id": "samsung-qn80f-50",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 720.11,
+     "url": "https://www.amazon.fr/dp/B0F22914WP?tag=geekconcept-21",
+     "name": "Samsung Mini TV 50 Pouces Neo QLED QN80F 4K Mini LED Smart TV",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F22914WP"
+    }
+   ],
+   "press": {
+    "avg": 7.5,
+    "n": 2,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/tv/reviews/samsung/qn80f",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/samsung-gq65qn80f-test-3211144.html",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-samsung-neo-qled-qn80f-65-pouces-4k",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 720.11,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Seuls deux médias ont noté la série QN80F : FrAndroid lui attribue 8 et RTings 7, soit 7,5/10 de moyenne. Avec si peu de notes, cette moyenne reste fragile. Les tests portent sur la série ; le prix suivi est celui du 50 pouces, plus élevé au pouce que le 55 de la même gamme.\n\nLes avis saluent des couleurs naturelles, un Mini-LED à points quantiques, un design plat et un son harmonieux. Ils déplorent le manque de Dolby Vision (HDR10 uniquement), une consommation élevée (classe F), quelques zones d'assombrissement et un Q-Symphony qui ne prend tout son sens qu'avec une barre de son Samsung.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 4,
+    "sources": [
+     "FrAndroid",
+     "RTings"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

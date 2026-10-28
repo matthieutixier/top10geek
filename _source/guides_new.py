@@ -230,7 +230,7 @@ GUIDES_NEW = {
     budget=[("450 – 650 €", "Bons Mini-LED d'entrée de gamme, jeu à 120 Hz possible."), ("800 € et plus", "Mini-LED premium ou OLED, image nettement supérieure.")],
 ),
 "t-petit": dict(
-    titre="Comment choisir un petit téléviseur (jusqu'à 48 pouces)",
+    titre="Comment choisir un petit téléviseur (jusqu'à 50 pouces)",
     intro="Sur une petite diagonale, on regarde de près : <b>la finesse de l'image et le contraste comptent plus que la taille</b>. Les tests portent souvent sur une taille plus grande de la même série.",
     criteres=[
         ("Technologie de dalle", "L'OLED offre des noirs parfaits même sur 42 ou 48 pouces ; le Direct LED reste plus abordable mais moins contrasté."),

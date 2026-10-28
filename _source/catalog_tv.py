@@ -123,6 +123,15 @@ add("sony-bravia-3-43", TPF, "Sony Bravia 3 43\"", "Direct LED · Google TV · H
     "Vous voulez un petit téléviseur Sony simple et abordable, pour une chambre ou une cuisine.",
     "Vous jouez à 120 Hz ou regardez des films HDR dans une pièce lumineuse.", scope="gamme")
 
+add("samsung-qn80f-50", TPF, "Samsung Neo QLED QN80F 50\"", "Mini-LED · Quantum Matrix · 144 Hz", "Le Mini-LED compact",
+    "Un Mini-LED Samsung aux belles couleurs naturelles, ici dans sa version 50 pouces ; il n'a pas de Dolby Vision et sa classe énergétique est F.",
+    ["Rétroéclairage Mini-LED à points quantiques", "Belles couleurs naturelles", "Son harmonieux et dynamique"],
+    ["Pas de Dolby Vision (HDR10 uniquement)", "Classe énergétique F", "Quelques zones d'assombrissement"],
+    ("Mini-LED", "144 Hz"), "Samsung QN80F",
+    "B0F22914WP", "Samsung Mini TV 50 Pouces Neo QLED QN80F 4K Mini LED Smart TV", 720.11,
+    "Vous voulez un Mini-LED Samsung de taille raisonnable, pour une pièce de taille moyenne ou un bureau.",
+    "Vous tenez au Dolby Vision ou cherchez un tarif plus bas : le 55 pouces coûte moins cher.", scope="gamme", seller="Super10count")
+
 
 def build():
     return dict(TV)
