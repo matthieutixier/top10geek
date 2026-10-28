@@ -26224,6 +26224,110 @@
      "Les Numériques"
     ]
    }
+  },
+  "hisense-u7q-pro-65": {
+   "cat": "t-65",
+   "short": "Hisense U7Q Pro 65\"",
+   "ref": "Mini-LED · 165 Hz · HDMI 2.1",
+   "badge": "Le bon compromis",
+   "verdict": "Un Mini-LED contrasté et très réactif en jeu, vendu moins cher chez Electro Dépôt que chez les revendeurs d'Amazon ; la luminosité HDR reste limitée.",
+   "strengths": [
+    "Contraste natif élevé grâce à la dalle VA",
+    "Mode jeu performant, input lag très faible",
+    "HDMI 2.1 (VRR 144 Hz, ALLM, eARC)"
+   ],
+   "weak": [
+    "Rétroéclairage Mini-LED peu dense",
+    "Luminosité HDR limitée",
+    "Revêtement semi-brillant sujet aux reflets"
+   ],
+   "m": [
+    "Mini-LED",
+    "HDMI 2.1"
+   ],
+   "id": "hisense-u7q-pro-65",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 902.99,
+     "url": "https://www.amazon.fr/dp/B0F24FL4CL?tag=geekconcept-21",
+     "name": "Hisense 65U7Q Pro",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F24FL4CL"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 799.0,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmini-led-hisense-65u7q-pro.html",
+     "name": "Tv Miniled 65'' Hisense 65u7q Pro",
+     "cfg": "",
+     "ean": "6942351417325",
+     "edid": "10011457"
+    }
+   ],
+   "press": {
+    "avg": 7.75,
+    "n": 4,
+    "tests": 6,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-hisense-u7q-pro.html",
+      "date": ""
+     },
+     {
+      "src": "ZTGD",
+      "score": 8.0,
+      "url": "https://ztgd.com/reviews/hisense-u7qg-hardware/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/14114/hisense-u7q-pro-en-u8q-miniled-tvs-heldere-hdr-maar-random-reclame-in-os.html",
+      "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": null,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 799.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias ont noté la série U7Q de Hisense : ZTGD et Les Numériques lui donnent 8, Clubic 7, soit 7,7/10 en moyenne. Les Numériques a testé la version 65 pouces Pro, celle suivie ici. Ce Mini-LED est proposé à 799 € chez Electro Dépôt, contre plus de 900 € chez un vendeur tiers d'Amazon.\\n\\nLes tests apprécient un contraste élevé sur dalle VA, un mode jeu très réactif avec un input lag minimal et un HDMI 2.1 complet. Ils notent un rétroéclairage peu dense, un HDR en manque de luminosité et une finition semi-brillante qui capte les reflets.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 6,
+    "sources": [
+     "Clubic.com",
+     "ZTGD",
+     "Les Numériques"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

@@ -180,6 +180,18 @@ add("sony-bravia-3-65", T65, "Sony Bravia 3 65\"", "Direct LED · Google TV · H
     "Vous voulez un grand téléviseur Sony simple, avec Google TV, pour un usage familial.",
     "Vous regardez surtout des films HDR dans une pièce lumineuse ou jouez à 120 Hz.", scope="gamme")
 
+# --- Offre Electro Dépôt (flux Effinity du 28/10/2026) : Hisense 65U7Q Pro, même modèle que celui testé par Les Numériques ---
+add("hisense-u7q-pro-65", T65, "Hisense U7Q Pro 65\"", "Mini-LED · 165 Hz · HDMI 2.1", "Le bon compromis",
+    "Un Mini-LED contrasté et très réactif en jeu, vendu moins cher chez Electro Dépôt que chez les revendeurs d'Amazon ; la luminosité HDR reste limitée.",
+    ["Contraste natif élevé grâce à la dalle VA", "Mode jeu performant, input lag très faible", "HDMI 2.1 (VRR 144 Hz, ALLM, eARC)"],
+    ["Rétroéclairage Mini-LED peu dense", "Luminosité HDR limitée", "Revêtement semi-brillant sujet aux reflets"],
+    ("Mini-LED", "HDMI 2.1"), "Hisense U7Q",
+    "B0F24FL4CL", "Hisense 65U7Q Pro", 902.99,
+    "Vous voulez un grand Mini-LED contrasté et réactif pour le jeu, sans prix d'OLED.",
+    "Vous regardez dans une pièce très lumineuse ou exigez un HDR éclatant.", scope="gamme", seller="MetamorfosiShop")
+TV["hisense-u7q-pro-65"]["ed"] = {"url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmini-led-hisense-65u7q-pro.html",
+    "name": "Tv Miniled 65'' Hisense 65u7q Pro", "price": 799.0, "ean": "6942351417325", "edid": "10011457"}
+
 
 # --- Usage « Petit prix » (moins de 600 €) : deux modèles propres + des modèles classés ailleurs (extra) ---
 TPX = "t-prix"
