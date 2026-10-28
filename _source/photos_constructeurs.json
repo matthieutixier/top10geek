@@ -1062,5 +1062,45 @@
  "sennheiser-momentum-5": {
   "constructeur": "Sennheiser",
   "source": "https://eu.sennheiser-hearing.com/cdn/shop/files/M5_Black_Main_IsoFront.jpg"
+ },
+ "benq-gp520": {
+  "constructeur": "BenQ",
+  "source": "https://image.benq.com/is/image/benqco/gp520-right30"
+ },
+ "benq-w2720i": {
+  "constructeur": "BenQ",
+  "source": "https://image.benq.com/is/image/benqco/w2720i-right30"
+ },
+ "benq-x500i": {
+  "constructeur": "BenQ",
+  "source": "https://image.benq.com/is/image/benqco/gaming-x500i-gallery03"
+ },
+ "benq-x3100i": {
+  "constructeur": "BenQ",
+  "source": "https://image.benq.com/is/image/benqco/gaming-x3100i-gallery03"
+ },
+ "benq-gv50": {
+  "constructeur": "BenQ",
+  "source": "https://image.benq.com/is/image/benqco/gv50-left45"
+ },
+ "xgimi-horizon-20-max": {
+  "constructeur": "XGIMI",
+  "source": "https://fr.xgimi.com/cdn/shop/files/01_ca74abbc-5b60-4602-a2d8-f2b445294b30.jpg"
+ },
+ "xgimi-aura-2": {
+  "constructeur": "XGIMI",
+  "source": "https://fr.xgimi.com/cdn/shop/files/AURA2-05.png"
+ },
+ "xgimi-mogo-4": {
+  "constructeur": "XGIMI",
+  "source": "https://fr.xgimi.com/cdn/shop/files/M4_1200x1200.webp"
+ },
+ "epson-eh-ls800": {
+  "constructeur": "Epson",
+  "source": "https://i8.amplience.net/i/epsonemear/a17797-productpicture-hires-en-int-projector_eh-ls800b_01_header_2000x2000px_png"
+ },
+ "epson-co-w01": {
+  "constructeur": "Epson",
+  "source": "https://i8.amplience.net/i/epsonemear/w01_w_std_01_png"
  }
 }

@@ -327,6 +327,20 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certaines coloris sont vendus par des tiers."],
     budget=[("80 – 150 €", "Casques d'entrée de gamme à grosse autonomie : CMF, JBL Live, Sennheiser Accentum."), ("170 – 250 €", "Milieu de gamme : Nothing, JBL Tour One M3, Sony XM5."), ("380 – 550 €", "Références : Sony XM6, Sennheiser Momentum 5, AirPods Max 2.")],
 ),
+"v-proj": dict(
+    titre="Comment choisir un vidéoprojecteur",
+    intro="Un vidéoprojecteur remplace un téléviseur dès que la pièce peut être assombrie. Le choix tient en trois questions : <b>où le poser</b> (ultra courte focale près du mur, courte focale ou portable), <b>la résolution</b> (4K ou 1080p) et <b>la luminosité</b> dont la pièce a besoin.",
+    criteres=[
+        ("Luminosité", "Elle se mesure en lumens : comptez 2 000 lumens ou plus pour une pièce qu'on ne peut pas assombrir complètement, 500 à 1 000 lumens suffisent dans le noir. Les marques n'utilisent pas toutes la même unité (ANSI, ISO), comparez avec prudence."),
+        ("Contraste et noirs", "C'est ce que les tests relèvent le plus souvent : un contraste natif faible donne des noirs grisâtres, surtout sur les modèles DLP d'entrée de gamme."),
+        ("Installation", "Ultra courte focale : posé près du mur, sans plafond. Courte focale : adapté aux petites pièces. Les modèles à correction automatique évitent les réglages."),
+        ("Jeu vidéo", "Si vous jouez, regardez la latence : quelques millisecondes en 4K sur les modèles gaming, mais pas de HDMI 2.1 sur plusieurs d'entre eux."),
+    ],
+    pieges=["Se fier aux lumens annoncés : ils ne sont pas comparables d'une marque à l'autre.",
+            "Oublier l'écran ou le mur : un mur blanc lisse suffit, mais un écran améliore le contraste.",
+            "Compter sur le son intégré : prévoyez une barre de son ou une enceinte pour un vrai cinéma."],
+    budget=[("330 – 600 €", "Projecteurs 1080p, portables ou d'entrée de gamme."), ("1 000 – 1 800 €", "Projecteurs 4K à LED, courte focale ou cinéma."), ("2 200 – 2 600 €", "Lasers 4K et ultra courte focale.")],
+),
 "v-surv": dict(
     titre="Comment choisir une caméra de surveillance",
     intro="Avant la résolution, trois questions : <b>l'emplacement (intérieur ou extérieur), l'alimentation (secteur, batterie, solaire ou PoE) et le stockage des vidéos</b>. Les fonctions d'IA et le cloud sont parfois payants : lisez les tests.",

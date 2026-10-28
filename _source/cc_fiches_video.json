@@ -1793,5 +1793,879 @@
    "Prise de poids, léger déséquilibre en main",
    "Stabilité limitée sans trépied"
   ]
+ },
+ "XGIMI Horizon 20 Max": {
+  "source": "https://www.commentchoisir.fr/test-XGIMI_Horizon+20+Max.htm",
+  "tests": [
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "21/10/2025",
+    "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-horizon-20-max-p77052/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "origine": "",
+    "date": "25/10/2025",
+    "url": "https://www.lesnumeriques.com/videoprojecteur/le-test-du-videoprojecteur-xgimi-horizon-20-max-a-rejoint-notre-comparatif-n244404.html"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "19/11/2025",
+    "url": "https://www.frandroid.com/marques/xgimi/2876505_test-du-xgimi-horizon-20-max-le-laser-4k-ultime-pour-le-home-cinema"
+   },
+   {
+    "media": "IGN",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "28/01/2026",
+    "url": "https://www.ign.com/articles/the-projector-to-replace-your-tv-xgimi-horizon-20-max-review"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "30/01/2026",
+    "url": "https://www.clubic.com/test-produit-590260-test-xgimi-horizon-20-max.html"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/tv-home-cinema/projectors/xgimi-horizon-20-max"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/04/2026",
+    "url": "https://www.trustedreviews.com/reviews/xgimi-horizon-20-max"
+   },
+   {
+    "media": "Pico Projecteur",
+    "note10": null,
+    "origine": "",
+    "date": "06/09/2025",
+    "url": "https://picoprojecteur.top/xgimi-horizon-20-max-le-videoprojecteur-4k-qui-revolutionne-le-gaming-en-2025/"
+   },
+   {
+    "media": "GameRevolution",
+    "note10": null,
+    "origine": "",
+    "date": "17/10/2025",
+    "url": "https://www.gamerevolution.com/review/982098-xgimi-horizon-20-max-review-projector-gaming"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "03/11/2025",
+    "url": "https://www.connect.de/testbericht/xgimi-horizon-20-max-test-review-4k-beamer-vrr-input-lag-maximale-helligkeit-3211021.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "11/11/2025",
+    "url": "https://www.rtings.com/projector/reviews/xgimi/horizon-20-max"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "origine": "",
+    "date": "16/12/2025",
+    "url": "https://www.notebookcheck.com/Extrem-hell-und-trotzdem-leise-Test-Xgimi-Horizon-20-Max-Beamer.1186162.0.html"
+   }
+  ],
+  "pros": [
+   "Compatible HDR10",
+   "Luminosité record.",
+   "Design premium.",
+   "Image 4K tri-laser d'une grande précision.",
+   "Couleurs justes et naturelles.",
+   "Google TV fluide et complet.",
+   "Zoom optique et lens shift intégrés.",
+   "Mise au point et trapèze automatiques efficaces.",
+   "Excellente couverture des espaces colorimétriques.",
+   "+ et Dolby Vision.",
+   "Performances en jeu.",
+   "Très silencieux."
+  ],
+  "cons": [
+   "Système son pas au niveau des meilleurs.",
+   "Bon contraste, mais pas excellent.",
+   "Prix élevé",
+   "Chaleur sonore limitée",
+   "Effet arc-en-ciel (pour les personnes sensibles)",
+   "Contraste et profondeur des noirs limités par la technologie DLP",
+   "Gagne à être accompagné d'un écran",
+   "Légère sensibilité au speckle selon certaines toiles",
+   "Gestion de la puissance lumineuse parfois nécessaire en environnement sombre",
+   "Les niveaux de noir ne sont pas les meilleurs",
+   "Effet arc-en-ciel assez prononcé",
+   "Les menus de configuration sont bogués et compliqués"
+  ]
+ },
+ "XGIMI Aura 2": {
+  "source": "https://www.commentchoisir.fr/test-XGIMI_Aura+2.htm",
+  "tests": [
+   {
+    "media": "Presse Citron",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "02/10/2024",
+    "url": "https://www.presse-citron.net/test-xgimi-aura-2-pourquoi-je-nacheterai-plus-de-tv/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "09/10/2024",
+    "url": "https://www.frandroid.com/marques/xgimi/2360174_test-du-xgimi-aura-2-le-cinema-grand-ecran-sans-contrainte"
+   },
+   {
+    "media": "Maison et Domotique",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/10/2024",
+    "url": "https://www.maison-et-domotique.com/149216-test-xgimi-aura-2-videoprojecteur-4k-courte-focale/"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "26/10/2024",
+    "url": "https://lecafedugeek.fr/test-xgimi-aura-2-jetez-votre-televiseur-achetez-ce-videoprojecteur/"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/11/2024",
+    "url": "https://www.techradar.com/televisions/projectors/xgimi-aura-2-review"
+   },
+   {
+    "media": "LegolasGamer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "26/11/2024",
+    "url": "https://legolasgamer.com/test-du-videoprojecteur-ultra-courte-focale-xgimi-aura-2/"
+   },
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/02/2025",
+    "url": "https://www.rtings.com/projector/reviews/xgimi/aura-2"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "06/09/2024",
+    "url": "https://www.avcesar.com/xgimi-aura-2-ultracourte-focale-uhd-4k-android-tv-11-et-dual-light-20-42803"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "10/09/2024",
+    "url": "https://www.avcesar.com/xgimi-aura-2-dual-light-20-uhd-4k-et-double-source-lumineuse-laser-42840"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "03/10/2024",
+    "url": "https://www.avcesar.com/xgimi-aura-2-uhd-4k-ultracourte-focale-dual-light-20-et-android-tv-11-43000"
+   },
+   {
+    "media": "Xboxygen",
+    "note10": null,
+    "origine": "",
+    "date": "24/09/2024",
+    "url": "https://www.xboxygen.com/Tests/Tests-materiel/50175-Test-Videoprojecteur-XGIMI-AURA-2-Clap-de-fin-pour-la-TV"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "18/11/2024",
+    "url": "https://www.trustedreviews.com/reviews/xgimi-aura-2"
+   },
+   {
+    "media": "Hitek",
+    "note10": null,
+    "origine": "",
+    "date": "30/04/2025",
+    "url": "https://hitek.fr/actualite/test-xgimi-aura-2_53699"
+   },
+   {
+    "media": "Pico Projecteur",
+    "note10": null,
+    "origine": "",
+    "date": "01/10/2025",
+    "url": "https://picoprojecteur.top/test-complet-du-xgimi-aura-2-le-videoprojecteur-ust-4k-qui-redefinit-le-home-cinema-en-2025/"
+   }
+  ],
+  "pros": [
+   "Qualité d'image exceptionnelle",
+   "Design élégant et raffiné",
+   "Connectique riche",
+   "Système audio Harman/Kardon intégré",
+   "Interface Android TV fluide",
+   "Image 4K HDR fluide, détaillée et lumineuse",
+   "Très bon contraste natif",
+   "Compatible Dolby Vision",
+   "Système audio Harman Kardon de grande qualité",
+   "Fonctionnement très silencieux",
+   "Adaptation aux différentes surfaces de projection",
+   "Facilité d'installation et d'utilisation"
+  ],
+  "cons": [
+   "Pas de HDMI 2.1",
+   "Limité pour le gaming",
+   "Prix très élevé",
+   "Performances gaming limitées à 60 Hz",
+   "Télécommande non rétro-éclairée",
+   "Quelques ralentissements occasionnels de l'interface",
+   "Taille et poids",
+   "Prix",
+   "Une télécommande sans rétro-éclairage",
+   "Et sans piles ?",
+   "Pour un prix plutôt élevé",
+   "Android TV peut être restrictif"
+  ]
+ },
+ "BenQ X3100i": {
+  "source": "https://www.commentchoisir.fr/test-BenQ_X3100i.htm",
+  "tests": [
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/benq-x3100i"
+   },
+   {
+    "media": "GamesRadar",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "13/08/2024",
+    "url": "https://www.gamesradar.com/hardware/benq-x3100i-review/"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "09/04/2024",
+    "url": "https://www.techradar.com/televisions/home-theater/projectors/benq-x3100i-review"
+   },
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "03/06/2024",
+    "url": "https://www.rtings.com/projector/reviews/benq/x3100i"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "04/11/2024",
+    "url": "https://www.trustedreviews.com/reviews/benq-x3100i"
+   }
+  ],
+  "pros": [
+   "Des latences ultra faibles pour un projecteur",
+   "Image nette et vive",
+   "Décalage vertical de la lentille",
+   "Luminosité et contraste améliorés",
+   "Image lumineuse et nette",
+   "Jeux rapides et réactifs",
+   "Gamme de couleurs respectables",
+   "Bon contraste pour des noirs profonds dans les pièces sombres.",
+   "Assez lumineux pour paraître dynamique dans les pièces sombres, et peut même gérer les pièces avec quelques lumières.",
+   "Large gamme de couleurs.",
+   "Une excellente précision de pré-étalonnage.",
+   "Le dongle de streaming QS02 inclus dispose de nombreuses fonctionnalités sans fil et de streaming."
+  ],
+  "cons": [
+   "Légèrement moins de contraste par rapport aux projecteurs de cinéphile",
+   "Spécifications similaires au modèle précédent",
+   "Gestion délicate du HDR",
+   "Construction principalement en plastique"
+  ]
+ },
+ "BenQ W2720i": {
+  "source": "https://www.commentchoisir.fr/test-BenQ_W2720i.htm",
+  "tests": [
+   {
+    "media": "Trusted Reviews",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "27/02/2026",
+    "url": "https://www.trustedreviews.com/reviews/benq-w2720i"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/05/2025",
+    "url": "https://www.frandroid.com/marques/benq/2599061_test-du-benq-w2720i-ce-videoprojecteur-fond-de-salle-sous-android-tv-a-t-il-tout-dun-grand"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "08/10/2026",
+    "url": "https://www.rtings.com/projector/reviews/benq/w2720i"
+   }
+  ],
+  "pros": [
+   "Excellente intelligence intégrée",
+   "Impressionnante performance d'image avec toutes les sources",
+   "Un excellent rapport qualité-prix",
+   "Compacité pour un modèle fond de salle",
+   "Connectique complète",
+   "Colorimétrie précise et calibrage en sortie de carton",
+   "Interface Google TV",
+   "Input lag faible (si pas de correction)",
+   "Silencieux",
+   "Télécommande rétroéclairée"
+  ],
+  "cons": [
+   "Dépassement occasionnel de la plage dynamique HDR",
+   "Manque d'un préréglage de jeu simple",
+   "Le système sonore intégré est plutôt superficiel.",
+   "Contraste natif limité",
+   "Puissance audio modeste",
+   "Effet arc-en-ciel perceptible"
+  ]
+ },
+ "BenQ GP520": {
+  "source": "https://www.commentchoisir.fr/test-BenQ_GP520.htm",
+  "tests": [
+   {
+    "media": "CharlesTech",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/02/2025",
+    "url": "https://charlestech.fr/test-benq-gp520/"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/09/2025",
+    "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/benq-gp520-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "13/04/2026",
+    "url": "https://www.trustedreviews.com/reviews/benq-gp520"
+   },
+   {
+    "media": "AndroidWorld",
+    "note10": null,
+    "origine": "",
+    "date": "30/06/2025",
+    "url": "https://www.smartworld.it/recensioni/benq-gp520"
+   },
+   {
+    "media": "Pico Projecteur",
+    "note10": null,
+    "origine": "",
+    "date": "25/07/2025",
+    "url": "https://picoprojecteur.top/test-benq-gp520-le-projecteur-4k-qui-revolutionne-le-home-cinema/"
+   }
+  ],
+  "pros": [
+   "Images lumineuses et nettes avec un large support HDR",
+   "Système audio intégré étonnamment performant",
+   "Excellent configuration automatisée"
+  ],
+  "cons": [
+   "Les niveaux de noir sont limités",
+   "Pas de support pour les jeux à haut taux de rafraîchissement",
+   "Nécessite une distance de projection importante"
+  ]
+ },
+ "Epson EH-LS800": {
+  "source": "https://www.commentchoisir.fr/test-Epson_EH-LS800.htm",
+  "tests": [
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/epson-epiqvision-eh-ls800w"
+   },
+   {
+    "media": "Danamic",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/03/2024",
+    "url": "https://danamic.org/2024/03/22/epson-epiqvision-ultra-eh-ls800-the-danamic-review/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/04/2024",
+    "url": "https://www.frandroid.com/test/1903491_test-de-lepson-eh-ls800-un-videoprojecteur-avec-une-image-douce-et-contrastee"
+   },
+   {
+    "media": "Connect.de",
+    "note10": 7.4,
+    "origine": "bloc",
+    "date": "15/05/2023",
+    "url": "https://www.connect.de/testbericht/epson-eh-ls800-laser-tv-test-review-3203595.html"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "10/04/2024",
+    "url": "https://www.trustedreviews.com/reviews/epson-eh-ls800"
+   }
+  ],
+  "pros": [
+   "Image de projection lumineuse avec de superbes couleurs",
+   "Excellent système audio",
+   "La projection ultra courte permet une flexibilité pour les configurations.",
+   "Image douce, fluide, contrastée et lumineuse",
+   "Faible temps de réponse",
+   "Système audio assez convaincant",
+   "Pas d'effet arc-en-ciel",
+   "Android TV",
+   "Installation et configuration facile",
+   "Téléviseur laser avec technologie 3LCD",
+   "Smart TV Android 11",
+   "Couleurs HDTV bien ajustées"
+  ],
+  "cons": [
+   "Fonctionnalités manquantes comme le support eARC",
+   "Non certifié Netflix",
+   "Peu d?options de réglages pour les couleurs",
+   "Impossible de réinitialiser les paramètres",
+   "Pas HDR10+ ou Dolby Vision",
+   "Ventilation bruyante la luminosité à pleine puissance",
+   "Télécommande non rétroéclairée",
+   "pas de prise LAN",
+   "Entrée de jeu logiquement séparée.",
+   "pas de Netflix"
+  ]
+ },
+ "XGIMI MoGo 4": {
+  "source": "https://www.commentchoisir.fr/test-XGIMI_MoGo+4.htm",
+  "tests": [
+   {
+    "media": "PCGamer",
+    "note10": 8.8,
+    "origine": "bloc",
+    "date": "19/01/2026",
+    "url": "https://www.pcgamer.com/hardware/gaming-monitors/xgimi-mogo-4-laser-projector-review/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/06/2025",
+    "url": "https://www.frandroid.com/marques/xgimi/2646037_test-du-xgimi-mogo-4-led-il-tient-dans-la-main-et-promet-une-experience-cinema-partout"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/06/2025",
+    "url": "https://www.clubic.com/test-produit-568638-test-xgimi-mogo-4.html"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/07/2025",
+    "url": "https://www.chip.de/test/XGIMI-MoGo-4-im-Test_186128923.html"
+   },
+   {
+    "media": "Presse Citron",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "03/08/2025",
+    "url": "https://www.presse-citron.net/test-xgimi-mogo-4/"
+   },
+   {
+    "media": "IGN",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/09/2025",
+    "url": "https://www.ign.com/articles/xgimi-mogo-4-laser-review"
+   },
+   {
+    "media": "Neozone",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/06/2025",
+    "url": "https://www.neozone.org/tests/je-teste-le-nouveau-videoprojecteur-xgimi-mogo-4-aussi-compact-quun-thermos/"
+   },
+   {
+    "media": "Neozone",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "25/09/2025",
+    "url": "https://www.neozone.org/tests/je-teste-le-videoprojecteur-xgimi-mogo-4-et-il-a-transforme-mes-soirees-a-la-maison-comme-en-vacances/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "10/07/2025",
+    "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-mogo-4-led-p76732/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "29/09/2025",
+    "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-mogo-4-laser-p76733/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "origine": "",
+    "date": "04/10/2025",
+    "url": "https://www.lesnumeriques.com/videoprojecteur/le-test-du-videoprojecteur-xgimi-mogo-4-laser-a-rejoint-notre-comparatif-n243354.html"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "06/11/2025",
+    "url": "https://lecafedugeek.fr/test-xgimi-mogo-4-laser-le-cinema-partout-simplement/"
+   },
+   {
+    "media": "NextN",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "27/11/2025",
+    "url": "https://www.nextn.es/2025/11/analisis-proyector-portatil-xgimi-mogo-4-base-con-bateria-y-filtros-creativos/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "06/02/2026",
+    "url": "https://www.trustedreviews.com/reviews/xgimi-mogo-4"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "09/03/2026",
+    "url": "https://www.trustedreviews.com/reviews/xgimi-mogo-4-laser"
+   },
+   {
+    "media": "RTings",
+    "note10": 5.0,
+    "origine": "bloc",
+    "date": "18/08/2025",
+    "url": "https://www.rtings.com/projector/reviews/xgimi/mogo-4"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "04/03/2026",
+    "url": "https://www.rtings.com/projector/reviews/xgimi/mogo-4-laser"
+   },
+   {
+    "media": "Hitek",
+    "note10": null,
+    "origine": "",
+    "date": "12/06/2025",
+    "url": "https://hitek.fr/actualite/test-xgimi-mogo-4_54330"
+   },
+   {
+    "media": "ChinaHandys",
+    "note10": null,
+    "origine": "",
+    "date": "04/07/2025",
+    "url": "https://www.smartzone.de/xgimi-mogo-4-test/"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "15/07/2025",
+    "url": "https://www.connect.de/testbericht/xgimi-mo-go-4-mini-beamer-test-3210027.html"
+   },
+   {
+    "media": "Pico Projecteur",
+    "note10": null,
+    "origine": "",
+    "date": "28/08/2025",
+    "url": "https://picoprojecteur.top/test-complet-du-xgimi-mogo-4-mini-le-compagnon-nomade-parfait-pour-vos-soirees-cine/"
+   },
+   {
+    "media": "GameRevolution",
+    "note10": null,
+    "origine": "",
+    "date": "30/09/2025",
+    "url": "https://www.gamerevolution.com/review/981910-xgimi-mogo-4-laser-review-projector-worth-buying"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "18/02/2026",
+    "url": "https://www.mds-cineson.fr/test-du-videoprojecteur-portable-xgimi-mogo-4-puissant-et-polyvalent"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "22/02/2026",
+    "url": "https://www.mds-cineson.fr/test-du-videoprojecteur-xgimi-mogo-4-laser-performance-et-autonomie-de-5-heures"
+   }
+  ],
+  "pros": [
+   "Batterie intégrée",
+   "S'adapte à toutes sortes d'occasions",
+   "La batterie peut gérer un film long",
+   "Hautement portable",
+   "Kit de support optionnel double la batterie",
+   "Keystone fonctionne en mode jeu !",
+   "Format compact et portabilité",
+   "Filtres créatifs",
+   "Autonomie batterie",
+   "Interface Google TV",
+   "Entrée HDMI plein format",
+   "Ergonomie des télécommandes"
+  ],
+  "cons": [
+   "Luminosité limitée en plein jour",
+   "Pas génial en pleine lumière",
+   "Les haut-parleurs manquent de profondeur",
+   "Google TV n'est pas le bon",
+   "Fidélité des couleurs",
+   "Contraste natif faible",
+   "Pas de MEMC",
+   "La télécommande principale qu'à moitié rétro-éclairée",
+   "Les filtres vraiment pas utiles",
+   "La petite télécommande de voyage trop minimaliste",
+   "Obligation d'être dans le noir total pour en profiter à fond",
+   "Bruyant et teinté de vert en mode performance"
+  ]
+ },
+ "Epson CO-W01": {
+  "source": "https://www.commentchoisir.fr/test-Epson_CO-W01.htm",
+  "tests": [
+   {
+    "media": "Fortress Of Solitude",
+    "note10": 7.5,
+    "origine": "bloc",
+    "date": "14/07/2025",
+    "url": "https://www.fortressofsolitude.co.za/epson-co-w01-projector-review-best-budget-projector-in-south-africa/"
+   },
+   {
+    "media": "GizTele",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "12/01/2023",
+    "url": "https://www.giztele.com/epson-co-w01-proyector/"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "13/02/2024",
+    "url": "https://www.rtings.com/projector/reviews/epson/epiqvision-flex-co-w01"
+   },
+   {
+    "media": "PCMag",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "29/03/2023",
+    "url": "https://www.pcmag.com/reviews/epson-epiqvision-flex-co-w01-portable-projector"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "04/11/2025",
+    "url": "https://www.trustedreviews.com/reviews/epson-co-w01"
+   }
+  ],
+  "pros": [
+   "Divertissement à domicile rentable",
+   "L'upscaling fait une différence notable.",
+   "Idéal pour une soirée cinéma",
+   "Conception acceptable",
+   "Qualité de projection",
+   "Fonctionnalités d'amélioration",
+   "Wi-Fi",
+   "Prix",
+   "L'image est lumineuse et vibrante.",
+   "Précision d'image correcte dès le départ et précision fantastique après calibrage.",
+   "Assez lumineux pour une pièce moyenne avec lumière ambiante",
+   "Meilleure précision des couleurs que la plupart des projecteurs de sa catégorie de prix"
+  ],
+  "cons": [
+   "Nécessite une mise à l'échelle pour une résolution de 1080p",
+   "Connectivité facile",
+   "Puissance sonore",
+   "Un contraste insuffisant donne des noirs grisâtres dans les pièces sombres.",
+   "Aucune fonctionnalité intelligente intégrée ou prise en charge du Wi-Fi.",
+   "Un seul port HDMI",
+   "Pas de zoom optique",
+   "Pas de support 3D",
+   "Pas de port de sortie audio",
+   "Limité à une résolution WXGA",
+   "Faible contraste",
+   "Système de haut-parleur mono 5W"
+  ]
+ },
+ "BenQ GV50": {
+  "source": "https://www.commentchoisir.fr/test-BenQ_GV50.htm",
+  "tests": [
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/12/2024",
+    "url": "https://www.frandroid.com/marques/benq/2394472_test-du-benq-gv50-projetez-dans-tous-les-sens-avec-une-image-bien-calibree"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "16/06/2025",
+    "url": "https://www.chip.de/test/BenQ-GV50-im-Test_186046965.html"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "02/07/2025",
+    "url": "https://www.trustedreviews.com/reviews/benq-gv50"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "02/07/2026",
+    "url": "https://www.rtings.com/projector/reviews/benq/gv50"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "05/08/2026",
+    "url": "https://www.wired.com/review/review-benq-gv50/"
+   }
+  ],
+  "pros": [
+   "Compacité et facilité d?installation",
+   "Fonctions automatiques de correction",
+   "Principe de l?inclinaison",
+   "Calibrage en sortie de carton",
+   "Applications disponibles, dont Netflix",
+   "Ergonomie de la télécommande",
+   "Boutons de contrôle",
+   "Discrétion",
+   "Très faible consommation et fonctionnement sur batterie",
+   "Performances pour les jeux vidéo",
+   "Bonne performance audiovisuelle",
+   "Batterie intégrée"
+  ],
+  "cons": [
+   "Contraste natif",
+   "Pas HDR10+ ni Dolby Vision",
+   "Faible luminosité",
+   "artefacts de mouvement",
+   "Flux lumineux moyen",
+   "Pas de support 4K",
+   "Pas assez lumineux pour une utilisation en plein jour",
+   "La batterie ne dure que environ 2,5 heures.",
+   "Support du jeton HDR"
+  ]
+ },
+ "BenQ X500i": {
+  "source": "https://www.commentchoisir.fr/test-BenQ_X500i.htm",
+  "tests": [
+   {
+    "media": "Consollection",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "18/12/2024",
+    "url": "https://www.consollection.com/high-tech/actualitae/test-du-benq-x500i-un-vidaeoprojecteur-gaming-idaeal-pour-la-4k-hdr-et-le-faible-input-lag-9833.html"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "27/03/2024",
+    "url": "https://www.expertreviews.co.uk/projectors/benq-x500i-review"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "13/09/2024",
+    "url": "https://www.rtings.com/projector/reviews/benq/x500i"
+   },
+   {
+    "media": "Xboxygen",
+    "note10": null,
+    "origine": "",
+    "date": "10/03/2024",
+    "url": "https://www.xboxygen.com/Tests/Tests-materiel/48275-Test-Videoprojecteur-BenQ-X500i-La-technologie-au-service-du-gaming"
+   },
+   {
+    "media": "Pico Projecteur",
+    "note10": null,
+    "origine": "",
+    "date": "16/09/2025",
+    "url": "https://picoprojecteur.top/test-complet-du-benq-x500i-le-videoprojecteur-gaming-4k-qui-revolutionne-lexperience-de-jeu/"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "03/12/2025",
+    "url": "https://www.mds-cineson.fr/test-videoprojecteur-gaming-benq-x500i-performance-4k-uhd-hdr-en-action"
+   }
+  ],
+  "pros": [
+   "Excellent contraste pour des noirs profonds dans les pièces sombres.",
+   "Large gamme de couleurs.",
+   "Précision de pré-étalonnage presque parfaite.",
+   "Le dongle de streaming QS02 inclus dispose de nombreuses fonctionnalités sans fil et de streaming.",
+   "Le produit adapté aux petits espaces",
+   "La simplicité d'utilisation",
+   "L?input lag faible",
+   "La colorimétrie agréable",
+   "La télécommande rétroéclairée",
+   "L?Android TV",
+   "qualité d'image exceptionnelle",
+   "faible latence pour le gaming"
+  ],
+  "cons": [
+   "Pas assez lumineux pour se démarquer dans des pièces avec quelques lumières.",
+   "L?absence de port HDMI 2.1",
+   "Le Wi-Fi en seule option de connexion",
+   "Le bruit de fonctionnement un peu trop présent",
+   "#8211; bruit de fonctionnement élevé en mode 4K",
+   "#8211; le projecteur doit être placé près de la surface de projection",
+   "#8211; la technologie courte distance peut nécessiter un zoom numérique dans de grands espaces, affectant la résolution"
+  ]
  }
 }

@@ -33725,6 +33725,1015 @@
      "01net"
     ]
    }
+  },
+  "benq-gp520": {
+   "cat": "v-proj",
+   "short": "BenQ GP520",
+   "ref": "4K · 2 600 lumens · Google TV · LED",
+   "badge": "Le choix de la bande",
+   "verdict": "Un projecteur 4K à LED sous Google TV, noté 8/10 par trois médias, nettement moins cher que les autres modèles 4K du comparatif. Image lumineuse, installation automatique et son intégré correct ; les noirs restent limités et il ne gère pas les hauts taux de rafraîchissement.",
+   "strengths": [
+    "Image lumineuse et nette, large prise en charge du HDR",
+    "Système audio intégré performant",
+    "Installation automatique réussie"
+   ],
+   "weak": [
+    "Niveaux de noir limités",
+    "Pas de jeux à haut taux de rafraîchissement",
+    "Distance de projection importante"
+   ],
+   "m": [
+    "4K",
+    "Google TV, 2 600 lm"
+   ],
+   "id": "benq-gp520",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 990.0,
+     "url": "https://www.amazon.fr/dp/B0DKFBSLSQ?tag=geekconcept-21",
+     "name": "BenQ GP520 Vidéoprojecteur Home Cinéma 4K HDR, 2600 LM, Google TV | Mode Auto Cinéma, réglage auto de l’image, MEMC & Pro-Sports, HDR10+, 98% Rec.709, 2x12W, eARC",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DKFBSLSQ"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "CharlesTech",
+      "score": 8.0,
+      "url": "https://charlestech.fr/test-benq-gp520/",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/benq-gp520-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/benq-gp520",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/benq-gp520",
+      "date": ""
+     },
+     {
+      "src": "Pico Projecteur",
+      "score": null,
+      "url": "https://picoprojecteur.top/test-benq-gp520-le-projecteur-4k-qui-revolutionne-le-home-cinema/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 990.0,
+   "img": "benq-gp520.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias chiffrent le GP520 à 8/10 : CharlesTech, ExpertReviews et Trusted Reviews. Leur accord porte sur une image lumineuse et nette, avec une bonne prise en charge du HDR, et sur une mise en place presque automatique.\n\nLes tests relèvent aussi un son intégré étonnamment performant. Les réserves sont communes : des noirs qui manquent de profondeur, l'absence de prise en charge des fréquences d'image élevées pour le jeu, et une distance de projection importante qui demande de la place.\n\nC'est le modèle 4K le moins cher de la sélection, ce qui explique sa place dans le haut du classement malgré une note de 8/10.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 5,
+    "sources": [
+     "CharlesTech",
+     "ExpertReviews",
+     "Trusted Reviews"
+    ]
+   }
+  },
+  "xgimi-horizon-20-max": {
+   "cat": "v-proj",
+   "short": "XGIMI Horizon 20 Max",
+   "ref": "4K · triple laser · 5 700 ISO lumens",
+   "badge": "Très lumineux",
+   "verdict": "Le plus lumineux du comparatif : un triple laser 4K très précis, bien noté (9/10 de moyenne) par la presse. Son contraste est limité par la technologie DLP, le son n'est pas au niveau et le prix est élevé.",
+   "strengths": [
+    "Luminosité record",
+    "Image 4K triple laser très précise",
+    "Couleurs justes et Google TV fluide"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Contraste et noirs limités par le DLP",
+    "Effet arc-en-ciel pour les personnes sensibles"
+   ],
+   "m": [
+    "4K",
+    "Triple laser"
+   ],
+   "id": "xgimi-horizon-20-max",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 2374.05,
+     "url": "https://www.amazon.fr/dp/B0FMXYZCZF?tag=geekconcept-21",
+     "name": "XGIMI Horizon 20 Max 4K Videoprojecteur 5700 ISO Triple Laser Home Cinéma | Zoom & Lens Shift, IMAX Enhanced, Dolby Vision, Jusqu'à 300 , 1ms/240Hz VRR, Harman Kardon, Google TV Netflix",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FMXYZCZF"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 5,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-horizon-20-max-p77052/test.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-590260-test-xgimi-horizon-20-max.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/xgimi/2876505_test-du-xgimi-horizon-20-max-le-laser-4k-ultime-pour-le-home-cinema",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 9.0,
+      "url": "https://www.ign.com/articles/the-projector-to-replace-your-tv-xgimi-horizon-20-max-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/xgimi-horizon-20-max",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/xgimi-horizon-20-max-test-review-4k-beamer-vrr-input-lag-maximale-helligkeit-3211021.html",
+      "date": ""
+     },
+     {
+      "src": "GameRevolution",
+      "score": null,
+      "url": "https://www.gamerevolution.com/review/982098-xgimi-horizon-20-max-review-projector-gaming",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Extrem-hell-und-trotzdem-leise-Test-Xgimi-Horizon-20-Max-Beamer.1186162.0.html",
+      "date": ""
+     },
+     {
+      "src": "Pico Projecteur",
+      "score": null,
+      "url": "https://picoprojecteur.top/xgimi-horizon-20-max-le-videoprojecteur-4k-qui-revolutionne-le-gaming-en-2025/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/projector/reviews/xgimi/horizon-20-max",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 2374.05,
+   "img": "xgimi-horizon-20-max.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias notent l'Horizon 20 Max, pour une moyenne de 9/10 : Les Numériques lui donne 10/10, Clubic, FrAndroid et IGN 9/10, Trusted Reviews 8/10. Tous le décrivent comme un projecteur 4K triple laser très lumineux, aux couleurs justes et naturelles, avec une interface Google TV fluide.\n\nLes critiques se rejoignent sur ses limites : un contraste et des noirs bornés par la technologie DLP, un système audio en dessous des meilleurs, un effet arc-en-ciel perceptible par les personnes sensibles et un prix élevé.\n\nSa luminosité en fait le candidat des pièces qui ne sont pas totalement sombres, à condition d'accepter le tarif.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 10,
+    "sources": [
+     "Les Numériques",
+     "Clubic.com",
+     "FrAndroid",
+     "IGN",
+     "Trusted Reviews"
+    ]
+   }
+  },
+  "xgimi-aura-2": {
+   "cat": "v-proj",
+   "short": "XGIMI Aura 2",
+   "ref": "4K · triple laser · ultra courte focale",
+   "badge": "Ultra courte focale",
+   "verdict": "Un projecteur laser 4K à ultra courte focale à poser près du mur, bien noté (8,3/10 sur sept tests). Image lumineuse et son Harman Kardon intégré ; en contrepartie, un prix très élevé et des performances limitées pour le jeu.",
+   "strengths": [
+    "Image 4K HDR lumineuse et détaillée",
+    "Système audio Harman Kardon intégré",
+    "Connectique riche, interface Android TV"
+   ],
+   "weak": [
+    "Prix très élevé",
+    "Pas de HDMI 2.1, limité à 60 Hz en jeu",
+    "Quelques ralentissements de l'interface"
+   ],
+   "m": [
+    "4K",
+    "Ultra courte focale"
+   ],
+   "id": "xgimi-aura-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 2599.0,
+     "url": "https://www.amazon.fr/dp/B0D87FKHSD?tag=geekconcept-21",
+     "name": "XGIMI AURA2 Videoprojecteur 4K Triple Laser Ultra Courte Focale | 2300 ISO, 1M:1 contraste, 0.177:1 (100  à 17.8cm), Dolby Vision, IMAX, 60W HK, Compatible avec Google TV,Home Cinéma",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D87FKHSD"
+    }
+   ],
+   "press": {
+    "avg": 8.285714285714286,
+    "n": 7,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/xgimi/2360174_test-du-xgimi-aura-2-le-cinema-grand-ecran-sans-contrainte",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-xgimi-aura-2-pourquoi-je-nacheterai-plus-de-tv/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-xgimi-aura-2-jetez-votre-televiseur-achetez-ce-videoprojecteur/",
+      "date": ""
+     },
+     {
+      "src": "LegolasGamer",
+      "score": 8.0,
+      "url": "https://legolasgamer.com/test-du-videoprojecteur-ultra-courte-focale-xgimi-aura-2/",
+      "date": ""
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.0,
+      "url": "https://www.maison-et-domotique.com/149216-test-xgimi-aura-2-videoprojecteur-4k-courte-focale/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/projector/reviews/xgimi/aura-2",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/televisions/projectors/xgimi-aura-2-review",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/xgimi-aura-2-ultracourte-focale-uhd-4k-android-tv-11-et-dual-light-20-42803",
+      "date": ""
+     },
+     {
+      "src": "Hitek",
+      "score": null,
+      "url": "https://hitek.fr/actualite/test-xgimi-aura-2_53699",
+      "date": ""
+     },
+     {
+      "src": "Pico Projecteur",
+      "score": null,
+      "url": "https://picoprojecteur.top/test-complet-du-xgimi-aura-2-le-videoprojecteur-ust-4k-qui-redefinit-le-home-cinema-en-2025/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/xgimi-aura-2",
+      "date": ""
+     },
+     {
+      "src": "Xboxygen",
+      "score": null,
+      "url": "https://www.xboxygen.com/Tests/Tests-materiel/50175-Test-Videoprojecteur-XGIMI-AURA-2-Clap-de-fin-pour-la-TV",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 2599.0,
+   "img": "xgimi-aura-2.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept médias chiffrent l'Aura 2, pour une moyenne de 8,3/10. FrAndroid et Presse Citron lui donnent 9/10 ; Maison et Domotique, LeCafeDuGeek, TechRadar, LegolasGamer et RTings 8/10.\n\nLa presse décrit un projecteur laser 4K à ultra courte focale à l'image HDR lumineuse et détaillée, associé à un système audio Harman Kardon, une connectique riche et une interface Android TV. Le design est jugé soigné.\n\nLes critiques portent sur le prix, très élevé, et sur le jeu : pas de HDMI 2.1 et une fréquence limitée à 60 Hz. Des tests signalent aussi quelques ralentissements de l'interface et une télécommande sans rétro-éclairage.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 12,
+    "sources": [
+     "FrAndroid",
+     "Presse Citron",
+     "TechRadar",
+     "RTings",
+     "LeCafeDuGeek"
+    ]
+   }
+  },
+  "benq-x3100i": {
+   "cat": "v-proj",
+   "short": "BenQ X3100i",
+   "ref": "4K · 4LED · 3 300 lumens · 4 ms",
+   "badge": "Gaming 4K",
+   "verdict": "Un projecteur 4K pensé pour la console, avec une latence très basse et une image lumineuse. Les trois tests chiffrés le notent entre 8 et 10/10 ; la presse relève un contraste un peu en retrait pour le cinéma et une gestion délicate du HDR.",
+   "strengths": [
+    "Latence très faible pour un projecteur",
+    "Image nette et lumineuse",
+    "Décalage vertical de l'objectif"
+   ],
+   "weak": [
+    "Contraste un peu en retrait pour les cinéphiles",
+    "Gestion délicate du HDR",
+    "Construction surtout en plastique"
+   ],
+   "m": [
+    "4K",
+    "4 ms de latence"
+   ],
+   "id": "benq-x3100i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 2239.13,
+     "url": "https://www.amazon.fr/dp/B0CMHBJ7W3?tag=geekconcept-21",
+     "name": "BenQ X3100i Vidéoprojecteur Gaming pour Consoles - Véritable 4k UHD HDR 4LED 3300 ANSI Lumens | 4 ms de Latence | Mode Jeu Automatique | Xbox, PS5, Switch",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0CMHBJ7W3"
+    }
+   ],
+   "press": {
+    "avg": 8.666666666666666,
+    "n": 3,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "GamesRadar",
+      "score": 10.0,
+      "url": "https://www.gamesradar.com/hardware/benq-x3100i-review/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/projector/reviews/benq/x3100i",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/televisions/home-theater/projectors/benq-x3100i-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/benq-x3100i",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 2239.13,
+   "img": "benq-x3100i.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias chiffrent le X3100i : GamesRadar 10/10, TechRadar et RTings 8/10, soit une moyenne de 8,7/10. Ils s'accordent sur une image nette et lumineuse et sur une latence très faible, qui en fait un projecteur taillé pour la console.\n\nCôté réserves, la presse cite un contraste un peu en retrait face aux projecteurs destinés aux cinéphiles, une gestion délicate du HDR et peu de changements par rapport au modèle précédent. La construction est surtout en plastique.\n\nLe décalage vertical de l'objectif facilite le placement dans le salon.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 4,
+    "sources": [
+     "GamesRadar",
+     "TechRadar",
+     "RTings"
+    ]
+   }
+  },
+  "benq-w2720i": {
+   "cat": "v-proj",
+   "short": "BenQ W2720i",
+   "ref": "4K · LED · 2 500 lumens · Android TV",
+   "badge": "Cinéma réglé",
+   "verdict": "Un projecteur 4K orienté cinéma, étalonné en usine, noté 9/10 de moyenne sur deux tests. Colorimétrie précise et connectique complète ; le son intégré est modeste et le contraste natif limité.",
+   "strengths": [
+    "Colorimétrie précise, calibrage en sortie de carton",
+    "Image convaincante avec toutes les sources",
+    "Connectique complète, compact"
+   ],
+   "weak": [
+    "Contraste natif limité",
+    "Son intégré modeste",
+    "Pas de préréglage de jeu simple"
+   ],
+   "m": [
+    "4K",
+    "Étalonné en usine"
+   ],
+   "id": "benq-w2720i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1783.91,
+     "url": "https://www.amazon.fr/dp/B0DMV8HNMK?tag=geekconcept-21",
+     "name": "BenQ W2720i | Projecteur Home Cinema intelligent 2500 lm 4K à LED avec mode cinéma géré par AI, DCI-P3, HDR, Delta E<3, Rec.709, étalonnage en usine, eARC, Dolby, 7.1 canaux, Android TV",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DMV8HNMK"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/benq-w2720i",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/benq/2599061_test-du-benq-w2720i-ce-videoprojecteur-fond-de-salle-sous-android-tv-a-t-il-tout-dun-grand",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/projector/reviews/benq/w2720i",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1783.91,
+   "img": "benq-w2720i.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Deux médias chiffrent le W2720i : Trusted Reviews 10/10 et FrAndroid 8/10, soit une moyenne de 9/10. Ils retiennent un étalonnage précis dès la sortie du carton, une image convaincante avec toutes les sources et un bon rapport qualité-prix pour un projecteur 4K à LED.\n\nLes tests citent aussi son intelligence intégrée et sa connectique complète. Les réserves portent sur un contraste natif limité, un son intégré modeste, un effet arc-en-ciel perceptible et l'absence d'un préréglage de jeu simple.\n\nIl s'adresse donc surtout aux amateurs de films qui veulent de bonnes couleurs sans réglages.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "Trusted Reviews",
+     "FrAndroid"
+    ]
+   }
+  },
+  "benq-x500i": {
+   "cat": "v-proj",
+   "short": "BenQ X500i",
+   "ref": "4K · 4LED · courte focale · 2 200 lumens",
+   "badge": "Courte focale",
+   "verdict": "Un projecteur 4K à courte focale qui se contente de petits espaces, noté 9, 8 et 7/10 par trois médias. Contraste et couleurs soignés ; la luminosité est juste dès qu'il y a de la lumière et le ventilateur s'entend en 4K.",
+   "strengths": [
+    "Contraste solide, noirs profonds dans le noir",
+    "Large gamme de couleurs, bon pré-étalonnage",
+    "Adapté aux petits espaces"
+   ],
+   "weak": [
+    "Luminosité juste avec un peu de lumière",
+    "Pas de HDMI 2.1",
+    "Bruit de fonctionnement en 4K"
+   ],
+   "m": [
+    "4K",
+    "Courte focale"
+   ],
+   "id": "benq-x500i",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1358.8,
+     "url": "https://www.amazon.fr/dp/B0CMHCHPMV?tag=geekconcept-21",
+     "name": "BenQ X500i Vidéoprojecteur Gaming Véritable 4K UHD HDR 4LED 2200 ANSI Lumens Courte focale | 4 ms de Latence | Mode Jeux Automatique | Xbox, PS5, Switch",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0CMHCHPMV"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 6,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Consollection",
+      "score": 9.0,
+      "url": "https://www.consollection.com/high-tech/actualitae/test-du-benq-x500i-un-vidaeoprojecteur-gaming-idaeal-pour-la-4k-hdr-et-le-faible-input-lag-9833.html",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/projectors/benq-x500i-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/projector/reviews/benq/x500i",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-videoprojecteur-gaming-benq-x500i-performance-4k-uhd-hdr-en-action",
+      "date": ""
+     },
+     {
+      "src": "Pico Projecteur",
+      "score": null,
+      "url": "https://picoprojecteur.top/test-complet-du-benq-x500i-le-videoprojecteur-gaming-4k-qui-revolutionne-lexperience-de-jeu/",
+      "date": ""
+     },
+     {
+      "src": "Xboxygen",
+      "score": null,
+      "url": "https://www.xboxygen.com/Tests/Tests-materiel/48275-Test-Videoprojecteur-BenQ-X500i-La-technologie-au-service-du-gaming",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1358.8,
+   "img": "benq-x500i.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias chiffrent le X500i : Consollection 9/10, ExpertReviews 8/10 et RTings 7/10, soit 8/10 de moyenne. Ils apprécient son contraste, qui donne des noirs profonds dans le noir, sa large gamme de couleurs et un pré-étalonnage très précis.\n\nSa courte focale convient aux petits espaces. Les critiques sont proches : une luminosité insuffisante dès qu'une lampe reste allumée, pas de HDMI 2.1 et un ventilateur audible en 4K.\n\nCes limites en font un modèle pour une pièce que l'on peut assombrir.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 6,
+    "sources": [
+     "Consollection",
+     "ExpertReviews",
+     "RTings"
+    ]
+   }
+  },
+  "epson-eh-ls800": {
+   "cat": "v-proj",
+   "short": "Epson EH-LS800B",
+   "ref": "4K PRO-UHD · laser · 4 000 lumens · ultra courte focale",
+   "badge": "Laser 3LCD",
+   "verdict": "Un projecteur laser 3LCD à ultra courte focale qui remplace un téléviseur, noté 8/10 par deux médias. Image lumineuse, bon son Yamaha ; il manque l'eARC, le HDR10+ et le Dolby Vision, et la ventilation s'entend à pleine puissance.",
+   "strengths": [
+    "Image lumineuse, belles couleurs",
+    "Excellent système audio",
+    "Ultra courte focale, installation souple"
+   ],
+   "weak": [
+    "Pas d'eARC",
+    "Ni HDR10+ ni Dolby Vision",
+    "Ventilation bruyante à pleine puissance"
+   ],
+   "m": [
+    "4K PRO-UHD",
+    "Laser, 4 000 lm"
+   ],
+   "id": "epson-eh-ls800",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 2390.59,
+     "url": "https://www.amazon.fr/dp/B0B988BSBC?tag=geekconcept-21",
+     "name": "Epson Lifestudio Grand Plus EH-LS800B | Project. laser TV intelligente 4K home cinéma ultracourte focale | 4 000 lumens | 3LCD | Sound by YAMAHA | Android TV | Affichage 150 po | Garantie 5 ans | Noir",
+     "cfg": "",
+     "asin": "B0B988BSBC"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Danamic",
+      "score": 8.0,
+      "url": "https://danamic.org/2024/03/22/epson-epiqvision-ultra-eh-ls800-the-danamic-review/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/test/1903491_test-de-lepson-eh-ls800-un-videoprojecteur-avec-une-image-douce-et-contrastee",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/epson-eh-ls800",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 2390.59,
+   "img": "epson-eh-ls800.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Deux médias chiffrent l'EH-LS800 à 8/10 : Danamic et FrAndroid. Ils décrivent un projecteur laser 3LCD à ultra courte focale qui sait remplacer un téléviseur, avec une image lumineuse aux belles couleurs, un temps de réponse court et un son Yamaha convaincant.\n\nLes tests regrettent l'absence d'eARC, du HDR10+ et du Dolby Vision, peu d'options de réglage des couleurs, une certification Netflix manquante et un ventilateur bruyant à pleine puissance.\n\nIl vise ceux qui veulent une grande image dans le salon sans fixer le projecteur au plafond.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "Danamic",
+     "FrAndroid"
+    ]
+   }
+  },
+  "xgimi-mogo-4": {
+   "cat": "v-proj",
+   "short": "XGIMI MoGo 4",
+   "ref": "1080p · portable · batterie 2,5 h",
+   "badge": "Portable",
+   "verdict": "Un petit projecteur 1080p à batterie, qui se transporte et se pose partout, bien noté par la presse (8/10 pour la plupart des médias). Il manque de luminosité en plein jour, le contraste est faible et les haut-parleurs manquent de profondeur.",
+   "strengths": [
+    "Batterie intégrée, très portable",
+    "Tient un film long sur batterie",
+    "Keystone utilisable même en mode jeu"
+   ],
+   "weak": [
+    "Luminosité limitée en plein jour",
+    "Contraste natif faible",
+    "Haut-parleurs sans profondeur"
+   ],
+   "m": [
+    "1080p",
+    "Batterie 2,5 h"
+   ],
+   "id": "xgimi-mogo-4",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 539.0,
+     "url": "https://www.amazon.fr/dp/B0F37QW5NF?tag=geekconcept-21",
+     "name": "XGIMI MoGo 4 Mini Videoprojecteur Portable 1080p | 450 ISO, Compatible avec Google TV, Netflix officiel, 360° rotation, 2.5h batterie, 2×6W Harman Kardon, WiFi Bluetooth",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F37QW5NF"
+    }
+   ],
+   "press": {
+    "avg": 7.733333333333333,
+    "n": 12,
+    "tests": 18,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "PCGamer",
+      "score": 8.8,
+      "url": "https://www.pcgamer.com/hardware/gaming-monitors/xgimi-mogo-4-laser-projector-review/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/XGIMI-MoGo-4-im-Test_186128923.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-568638-test-xgimi-mogo-4.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/xgimi/2646037_test-du-xgimi-mogo-4-led-il-tient-dans-la-main-et-promet-une-experience-cinema-partout",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/xgimi-mogo-4-laser-review",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-xgimi-mogo-4-laser-le-cinema-partout-simplement/",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": 8.0,
+      "url": "https://www.neozone.org/tests/je-teste-le-nouveau-videoprojecteur-xgimi-mogo-4-aussi-compact-quun-thermos/",
+      "date": ""
+     },
+     {
+      "src": "NextN",
+      "score": 8.0,
+      "url": "https://www.nextn.es/2025/11/analisis-proyector-portatil-xgimi-mogo-4-base-con-bateria-y-filtros-creativos/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-xgimi-mogo-4/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/xgimi-mogo-4",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-mogo-4-led-p76732/test.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 5.0,
+      "url": "https://www.rtings.com/projector/reviews/xgimi/mogo-4",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/xgimi-mogo-4-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/xgimi-mo-go-4-mini-beamer-test-3210027.html",
+      "date": ""
+     },
+     {
+      "src": "GameRevolution",
+      "score": null,
+      "url": "https://www.gamerevolution.com/review/981910-xgimi-mogo-4-laser-review-projector-worth-buying",
+      "date": ""
+     },
+     {
+      "src": "Hitek",
+      "score": null,
+      "url": "https://hitek.fr/actualite/test-xgimi-mogo-4_54330",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-du-videoprojecteur-portable-xgimi-mogo-4-puissant-et-polyvalent",
+      "date": ""
+     },
+     {
+      "src": "Pico Projecteur",
+      "score": null,
+      "url": "https://picoprojecteur.top/test-complet-du-xgimi-mogo-4-mini-le-compagnon-nomade-parfait-pour-vos-soirees-cine/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 539.0,
+   "img": "xgimi-mogo-4.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Douze médias chiffrent le MoGo 4, pour environ 7,7/10 de moyenne. PCGamer lui donne 8,8/10 ; FrAndroid, Clubic, IGN, LeCafeDuGeek et la plupart des autres 8/10, tandis que Les Numériques s'arrête à 7/10 et RTings à 5/10.\n\nLes tests apprécient sa batterie, qui permet de regarder un film long, sa grande portabilité et sa polyvalence. La correction trapézoïdale reste utilisable en mode jeu.\n\nLes critiques sont constantes : luminosité limitée en plein jour, contraste natif faible, couleurs peu fidèles et haut-parleurs sans profondeur.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 18,
+    "sources": [
+     "PCGamer",
+     "FrAndroid",
+     "Clubic.com",
+     "IGN",
+     "Les Numériques",
+     "RTings"
+    ]
+   }
+  },
+  "benq-gv50": {
+   "cat": "v-proj",
+   "short": "BenQ GV50",
+   "ref": "1080p · laser · portable · batterie",
+   "badge": "Laser portable",
+   "verdict": "Un projecteur laser portable 1080p à batterie et à tête rotative, noté 8/10 par trois médias. Compact, calibré en sortie de carton et bien équipé en applications ; la luminosité reste faible et il n'y a ni 4K ni HDR10+.",
+   "strengths": [
+    "Compact et facile à installer",
+    "Corrections automatiques efficaces",
+    "Netflix et applications disponibles"
+   ],
+   "weak": [
+    "Faible luminosité",
+    "Pas de 4K",
+    "Pas de HDR10+ ni de Dolby Vision"
+   ],
+   "m": [
+    "1080p",
+    "Laser portable"
+   ],
+   "id": "benq-gv50",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 598.98,
+     "url": "https://www.amazon.fr/dp/B0DL9HH3VR?tag=geekconcept-21",
+     "name": "BenQ GV50 Vidéoprojecteur Laser Portable 1080p, 500 lumens, Google TV | Batterie intégrée, projection rotative, haut-parleur basses 18W 2.1, réglage auto de l’image, Bluetooth, Netflix",
+     "cfg": "",
+     "asin": "B0DL9HH3VR"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 3,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/BenQ-GV50-im-Test_186046965.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/benq/2394472_test-du-benq-gv50-projetez-dans-tous-les-sens-avec-une-image-bien-calibree",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/benq-gv50",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/projector/reviews/benq/gv50",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/review-benq-gv50/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 598.98,
+   "img": "benq-gv50.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias chiffrent le GV50 à 8/10 : FrAndroid, Chip.de et Trusted Reviews. Ils saluent un projecteur compact, simple à installer, avec des corrections automatiques efficaces, un étalonnage soigné dès la sortie du carton et un accès aux applications, Netflix compris.\n\nLes tests citent aussi une télécommande ergonomique et le principe de la tête inclinable, qui permet de viser le plafond.\n\nLes réserves sont partagées : une luminosité faible, un contraste natif modeste, des artefacts de mouvement, pas de 4K ni de HDR10+ ou de Dolby Vision.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 5,
+    "sources": [
+     "FrAndroid",
+     "Chip.de",
+     "Trusted Reviews"
+    ]
+   }
+  },
+  "epson-co-w01": {
+   "cat": "v-proj",
+   "short": "Epson CO-W01",
+   "ref": "WXGA · 3LCD · 3 000 lumens",
+   "badge": "Petit prix",
+   "verdict": "Le plus abordable du comparatif : un projecteur 3LCD de 3 000 lumens, noté entre 6 et 7,5/10. Il fait le travail pour un film à la maison, mais l'image n'est pas en 1080p natif, le contraste est faible et il n'y a pas de fonctions connectées.",
+   "strengths": [
+    "Rapport qualité-prix",
+    "Qualité de projection correcte",
+    "Bonne luminosité pour le prix"
+   ],
+   "weak": [
+    "Résolution WXGA : mise à l'échelle nécessaire en 1080p",
+    "Contraste faible, noirs grisâtres",
+    "Un seul port HDMI, pas de Wi-Fi"
+   ],
+   "m": [
+    "WXGA",
+    "3 000 lm"
+   ],
+   "id": "epson-co-w01",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 334.54,
+     "url": "https://www.amazon.fr/dp/B0B985KPML?tag=geekconcept-21",
+     "name": "Epson CO-W01 | Projecteur WXGA abordable | 3LCD | 3 000 lumens ANSI | Affichage 378 Pouces (9,6 m) | Configuration Facile | Correction du trapèze | HDMI | Utilisation à Domicile et au Bureau | Blanc",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0B985KPML"
+    }
+   ],
+   "press": {
+    "avg": 6.833333333333333,
+    "n": 3,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Fortress Of Solitude",
+      "score": 7.5,
+      "url": "https://www.fortressofsolitude.co.za/epson-co-w01-projector-review-best-budget-projector-in-south-africa/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/projector/reviews/epson/epiqvision-flex-co-w01",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 6.0,
+      "url": "https://www.trustedreviews.com/reviews/epson-co-w01",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 334.54,
+   "img": "epson-co-w01.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias chiffrent le CO-W01 : Fortress Of Solitude 7,5/10, RTings 7/10 et Trusted Reviews 6/10, soit 6,8/10 de moyenne. Les tests le jugent correct pour le divertissement à la maison : une qualité de projection acceptable et une mise à l'échelle utile.\n\nLes critiques sont plus nombreuses : une résolution WXGA qui impose de convertir le 1080p, un contraste insuffisant qui grise les noirs dans une pièce sombre, un son peu puissant, un seul port HDMI et aucune fonction connectée.\n\nC'est le modèle le moins cher de la comparaison, à réserver à ceux qui veulent essayer sans gros budget.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 3,
+    "sources": [
+     "Fortress Of Solitude",
+     "RTings",
+     "Trusted Reviews"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

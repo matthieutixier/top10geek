@@ -203,5 +203,100 @@
    "01net",
    "Les Numériques"
   ]
+ },
+ {
+  "id": "benq-gp520",
+  "texte": "Trois médias chiffrent le GP520 à 8/10 : CharlesTech, ExpertReviews et Trusted Reviews. Leur accord porte sur une image lumineuse et nette, avec une bonne prise en charge du HDR, et sur une mise en place presque automatique.\n\nLes tests relèvent aussi un son intégré étonnamment performant. Les réserves sont communes : des noirs qui manquent de profondeur, l'absence de prise en charge des fréquences d'image élevées pour le jeu, et une distance de projection importante qui demande de la place.\n\nC'est le modèle 4K le moins cher de la sélection, ce qui explique sa place dans le haut du classement malgré une note de 8/10.",
+  "sources": [
+   "CharlesTech",
+   "ExpertReviews",
+   "Trusted Reviews"
+  ]
+ },
+ {
+  "id": "xgimi-horizon-20-max",
+  "texte": "Cinq médias notent l'Horizon 20 Max, pour une moyenne de 9/10 : Les Numériques lui donne 10/10, Clubic, FrAndroid et IGN 9/10, Trusted Reviews 8/10. Tous le décrivent comme un projecteur 4K triple laser très lumineux, aux couleurs justes et naturelles, avec une interface Google TV fluide.\n\nLes critiques se rejoignent sur ses limites : un contraste et des noirs bornés par la technologie DLP, un système audio en dessous des meilleurs, un effet arc-en-ciel perceptible par les personnes sensibles et un prix élevé.\n\nSa luminosité en fait le candidat des pièces qui ne sont pas totalement sombres, à condition d'accepter le tarif.",
+  "sources": [
+   "Les Numériques",
+   "Clubic.com",
+   "FrAndroid",
+   "IGN",
+   "Trusted Reviews"
+  ]
+ },
+ {
+  "id": "xgimi-aura-2",
+  "texte": "Sept médias chiffrent l'Aura 2, pour une moyenne de 8,3/10. FrAndroid et Presse Citron lui donnent 9/10 ; Maison et Domotique, LeCafeDuGeek, TechRadar, LegolasGamer et RTings 8/10.\n\nLa presse décrit un projecteur laser 4K à ultra courte focale à l'image HDR lumineuse et détaillée, associé à un système audio Harman Kardon, une connectique riche et une interface Android TV. Le design est jugé soigné.\n\nLes critiques portent sur le prix, très élevé, et sur le jeu : pas de HDMI 2.1 et une fréquence limitée à 60 Hz. Des tests signalent aussi quelques ralentissements de l'interface et une télécommande sans rétro-éclairage.",
+  "sources": [
+   "FrAndroid",
+   "Presse Citron",
+   "TechRadar",
+   "RTings",
+   "LeCafeDuGeek"
+  ]
+ },
+ {
+  "id": "benq-x3100i",
+  "texte": "Trois médias chiffrent le X3100i : GamesRadar 10/10, TechRadar et RTings 8/10, soit une moyenne de 8,7/10. Ils s'accordent sur une image nette et lumineuse et sur une latence très faible, qui en fait un projecteur taillé pour la console.\n\nCôté réserves, la presse cite un contraste un peu en retrait face aux projecteurs destinés aux cinéphiles, une gestion délicate du HDR et peu de changements par rapport au modèle précédent. La construction est surtout en plastique.\n\nLe décalage vertical de l'objectif facilite le placement dans le salon.",
+  "sources": [
+   "GamesRadar",
+   "TechRadar",
+   "RTings"
+  ]
+ },
+ {
+  "id": "benq-w2720i",
+  "texte": "Deux médias chiffrent le W2720i : Trusted Reviews 10/10 et FrAndroid 8/10, soit une moyenne de 9/10. Ils retiennent un étalonnage précis dès la sortie du carton, une image convaincante avec toutes les sources et un bon rapport qualité-prix pour un projecteur 4K à LED.\n\nLes tests citent aussi son intelligence intégrée et sa connectique complète. Les réserves portent sur un contraste natif limité, un son intégré modeste, un effet arc-en-ciel perceptible et l'absence d'un préréglage de jeu simple.\n\nIl s'adresse donc surtout aux amateurs de films qui veulent de bonnes couleurs sans réglages.",
+  "sources": [
+   "Trusted Reviews",
+   "FrAndroid"
+  ]
+ },
+ {
+  "id": "benq-x500i",
+  "texte": "Trois médias chiffrent le X500i : Consollection 9/10, ExpertReviews 8/10 et RTings 7/10, soit 8/10 de moyenne. Ils apprécient son contraste, qui donne des noirs profonds dans le noir, sa large gamme de couleurs et un pré-étalonnage très précis.\n\nSa courte focale convient aux petits espaces. Les critiques sont proches : une luminosité insuffisante dès qu'une lampe reste allumée, pas de HDMI 2.1 et un ventilateur audible en 4K.\n\nCes limites en font un modèle pour une pièce que l'on peut assombrir.",
+  "sources": [
+   "Consollection",
+   "ExpertReviews",
+   "RTings"
+  ]
+ },
+ {
+  "id": "epson-eh-ls800",
+  "texte": "Deux médias chiffrent l'EH-LS800 à 8/10 : Danamic et FrAndroid. Ils décrivent un projecteur laser 3LCD à ultra courte focale qui sait remplacer un téléviseur, avec une image lumineuse aux belles couleurs, un temps de réponse court et un son Yamaha convaincant.\n\nLes tests regrettent l'absence d'eARC, du HDR10+ et du Dolby Vision, peu d'options de réglage des couleurs, une certification Netflix manquante et un ventilateur bruyant à pleine puissance.\n\nIl vise ceux qui veulent une grande image dans le salon sans fixer le projecteur au plafond.",
+  "sources": [
+   "Danamic",
+   "FrAndroid"
+  ]
+ },
+ {
+  "id": "xgimi-mogo-4",
+  "texte": "Douze médias chiffrent le MoGo 4, pour environ 7,7/10 de moyenne. PCGamer lui donne 8,8/10 ; FrAndroid, Clubic, IGN, LeCafeDuGeek et la plupart des autres 8/10, tandis que Les Numériques s'arrête à 7/10 et RTings à 5/10.\n\nLes tests apprécient sa batterie, qui permet de regarder un film long, sa grande portabilité et sa polyvalence. La correction trapézoïdale reste utilisable en mode jeu.\n\nLes critiques sont constantes : luminosité limitée en plein jour, contraste natif faible, couleurs peu fidèles et haut-parleurs sans profondeur.",
+  "sources": [
+   "PCGamer",
+   "FrAndroid",
+   "Clubic.com",
+   "IGN",
+   "Les Numériques",
+   "RTings"
+  ]
+ },
+ {
+  "id": "benq-gv50",
+  "texte": "Trois médias chiffrent le GV50 à 8/10 : FrAndroid, Chip.de et Trusted Reviews. Ils saluent un projecteur compact, simple à installer, avec des corrections automatiques efficaces, un étalonnage soigné dès la sortie du carton et un accès aux applications, Netflix compris.\n\nLes tests citent aussi une télécommande ergonomique et le principe de la tête inclinable, qui permet de viser le plafond.\n\nLes réserves sont partagées : une luminosité faible, un contraste natif modeste, des artefacts de mouvement, pas de 4K ni de HDR10+ ou de Dolby Vision.",
+  "sources": [
+   "FrAndroid",
+   "Chip.de",
+   "Trusted Reviews"
+  ]
+ },
+ {
+  "id": "epson-co-w01",
+  "texte": "Trois médias chiffrent le CO-W01 : Fortress Of Solitude 7,5/10, RTings 7/10 et Trusted Reviews 6/10, soit 6,8/10 de moyenne. Les tests le jugent correct pour le divertissement à la maison : une qualité de projection acceptable et une mise à l'échelle utile.\n\nLes critiques sont plus nombreuses : une résolution WXGA qui impose de convertir le 1080p, un contraste insuffisant qui grise les noirs dans une pièce sombre, un son peu puissant, un seul port HDMI et aucune fonction connectée.\n\nC'est le modèle le moins cher de la comparaison, à réserver à ceux qui veulent essayer sans gros budget.",
+  "sources": [
+   "Fortress Of Solitude",
+   "RTings",
+   "Trusted Reviews"
+  ]
  }
 ]

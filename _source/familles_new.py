@@ -121,6 +121,12 @@ VCATS = [
          seo_desc="Les meilleures caméras d'action, caméras 360° et caméras de vlog en 2026, classées par note presse : DJI, GoPro, Insta360. Prix indicatifs, points forts et faibles.",
          h1='Les meilleures <span class="flash">caméras sport, 360° et vlog</span> en 2026',
          intro="Caméra d'action, caméra 360° ou caméra de vlog de poche : la presse départage la stabilisation, la qualité d'image, l'autonomie et la résistance. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
+    dict(key="v-proj", slug="videoprojecteurs", label="Vidéoprojecteurs", top_label="vidéoprojecteurs", h="Vidéoprojecteurs", tag="Le cinéma à la maison", color="var(--cat-creation)", cls="f-creation", badge="videoprojecteurs", scene="video-proj", scene_alt="Le père de famille geek, un saladier de pop-corn sur les genoux, regarde un film en famille sur le canapé grâce à un vidéoprojecteur posé sur la table basse",
+         plural_low="vidéoprojecteurs",
+         seo_title="Meilleurs vidéoprojecteurs 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs vidéoprojecteurs 2026 classés par note presse : 4K, laser, ultra courte focale, portables et petits prix. XGIMI, BenQ, Epson. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">vidéoprojecteurs</span> en 2026',
+         intro="Salon, jeu vidéo ou projecteur à emporter : la presse départage la luminosité, le contraste, le bruit et la facilité d'installation. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
 ]
 
 FAMILIES_NEW = [

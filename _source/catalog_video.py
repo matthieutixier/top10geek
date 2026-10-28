@@ -11,6 +11,7 @@ from catalog_sols import S, TOP
 _HERE = os.path.dirname(os.path.abspath(__file__))
 VSV = "v-surv"
 VSP = "v-sport"
+VPRJ = "v-proj"
 VID = {}
 
 
@@ -214,6 +215,97 @@ add("insta360-go-ultra", VSP, "Insta360 GO Ultra", "4K · 53 g · magnétique ·
     "B0FH22RB4S", "Insta360 GO Ultra Noir - Caméra Vlog 4K Mains Libres, caméra d'action magnétique portable", 429.0,
     "Vous voulez filmer en point de vue, mains libres, pour le vélo, la course ou le vlog.",
     "Vous cherchez une caméra d'action classique et robuste.", seller="Insta360 Official Store EU")
+
+# ============================================================ VIDÉOPROJECTEURS
+add("benq-gp520", VPRJ, "BenQ GP520", "4K · 2 600 lumens · Google TV · LED", TOP,
+    "Un projecteur 4K à LED sous Google TV, noté 8/10 par trois médias, nettement moins cher que les autres modèles 4K du comparatif. Image lumineuse, installation automatique et son intégré correct ; les noirs restent limités et il ne gère pas les hauts taux de rafraîchissement.",
+    ["Image lumineuse et nette, large prise en charge du HDR", "Système audio intégré performant", "Installation automatique réussie"],
+    ["Niveaux de noir limités", "Pas de jeux à haut taux de rafraîchissement", "Distance de projection importante"],
+    ("4K", "Google TV, 2 600 lm"), "BenQ GP520",
+    "B0DKFBSLSQ", "BenQ GP520 Vidéoprojecteur Home Cinéma 4K HDR, 2600 LM, Google TV | Mode Auto Cinéma, réglage auto de l’image, MEMC & Pro-Sports, HDR10+, 98% Rec.709, 2x12W, eARC", 990.0,
+    "Vous voulez un vrai projecteur 4K pour le salon, simple à installer, sans viser 2 000 €.",
+    "Vous jouez en 120 Hz ou vous projetez dans une pièce où la lumière ne peut pas être coupée.", seller="Icoza")
+
+add("xgimi-horizon-20-max", VPRJ, "XGIMI Horizon 20 Max", "4K · triple laser · 5 700 ISO lumens", "Très lumineux",
+    "Le plus lumineux du comparatif : un triple laser 4K très précis, bien noté (9/10 de moyenne) par la presse. Son contraste est limité par la technologie DLP, le son n'est pas au niveau et le prix est élevé.",
+    ["Luminosité record", "Image 4K triple laser très précise", "Couleurs justes et Google TV fluide"],
+    ["Prix élevé", "Contraste et noirs limités par le DLP", "Effet arc-en-ciel pour les personnes sensibles"],
+    ("4K", "Triple laser"), "XGIMI Horizon 20 Max",
+    "B0FMXYZCZF", "XGIMI Horizon 20 Max 4K Videoprojecteur 5700 ISO Triple Laser Home Cinéma | Zoom & Lens Shift, IMAX Enhanced, Dolby Vision, Jusqu'à 300 , 1ms/240Hz VRR, Harman Kardon, Google TV Netflix", 2374.05,
+    "Vous voulez une grande image 4K très lumineuse, y compris dans une pièce pas tout à fait sombre.",
+    "Vous cherchez de beaux noirs profonds ou un budget serré.", seller="XGIMI Official Store")
+
+add("xgimi-aura-2", VPRJ, "XGIMI Aura 2", "4K · triple laser · ultra courte focale", "Ultra courte focale",
+    "Un projecteur laser 4K à ultra courte focale à poser près du mur, bien noté (8,3/10 sur sept tests). Image lumineuse et son Harman Kardon intégré ; en contrepartie, un prix très élevé et des performances limitées pour le jeu.",
+    ["Image 4K HDR lumineuse et détaillée", "Système audio Harman Kardon intégré", "Connectique riche, interface Android TV"],
+    ["Prix très élevé", "Pas de HDMI 2.1, limité à 60 Hz en jeu", "Quelques ralentissements de l'interface"],
+    ("4K", "Ultra courte focale"), "XGIMI Aura 2",
+    "B0D87FKHSD", "XGIMI AURA2 Videoprojecteur 4K Triple Laser Ultra Courte Focale | 2300 ISO, 1M:1 contraste, 0.177:1 (100  à 17.8cm), Dolby Vision, IMAX, 60W HK, Compatible avec Google TV,Home Cinéma", 2599.0,
+    "Vous voulez remplacer le téléviseur par une grande image sans installer le projecteur au plafond.",
+    "Vous jouez beaucoup : le 60 Hz limite l'intérêt pour la console.", seller="XGIMI Official Store")
+
+add("benq-x3100i", VPRJ, "BenQ X3100i", "4K · 4LED · 3 300 lumens · 4 ms", "Gaming 4K",
+    "Un projecteur 4K pensé pour la console, avec une latence très basse et une image lumineuse. Les trois tests chiffrés le notent entre 8 et 10/10 ; la presse relève un contraste un peu en retrait pour le cinéma et une gestion délicate du HDR.",
+    ["Latence très faible pour un projecteur", "Image nette et lumineuse", "Décalage vertical de l'objectif"],
+    ["Contraste un peu en retrait pour les cinéphiles", "Gestion délicate du HDR", "Construction surtout en plastique"],
+    ("4K", "4 ms de latence"), "BenQ X3100i",
+    "B0CMHBJ7W3", "BenQ X3100i Vidéoprojecteur Gaming pour Consoles - Véritable 4k UHD HDR 4LED 3300 ANSI Lumens | 4 ms de Latence | Mode Jeu Automatique | Xbox, PS5, Switch", 2239.13,
+    "Vous jouez sur une grande image 4K avec une latence faible.",
+    "Vous regardez surtout des films dans le noir complet.", seller="Son-Video")
+
+add("benq-w2720i", VPRJ, "BenQ W2720i", "4K · LED · 2 500 lumens · Android TV", "Cinéma réglé",
+    "Un projecteur 4K orienté cinéma, étalonné en usine, noté 9/10 de moyenne sur deux tests. Colorimétrie précise et connectique complète ; le son intégré est modeste et le contraste natif limité.",
+    ["Colorimétrie précise, calibrage en sortie de carton", "Image convaincante avec toutes les sources", "Connectique complète, compact"],
+    ["Contraste natif limité", "Son intégré modeste", "Pas de préréglage de jeu simple"],
+    ("4K", "Étalonné en usine"), "BenQ W2720i",
+    "B0DMV8HNMK", "BenQ W2720i | Projecteur Home Cinema intelligent 2500 lm 4K à LED avec mode cinéma géré par AI, DCI-P3, HDR, Delta E<3, Rec.709, étalonnage en usine, eARC, Dolby, 7.1 canaux, Android TV", 1783.91,
+    "Vous voulez des couleurs justes pour regarder des films sans passer par les réglages.",
+    "Vous comptez sur le son intégré : prévoyez une barre de son.", seller="Projecteur-Discount")
+
+add("benq-x500i", VPRJ, "BenQ X500i", "4K · 4LED · courte focale · 2 200 lumens", "Courte focale",
+    "Un projecteur 4K à courte focale qui se contente de petits espaces, noté 9, 8 et 7/10 par trois médias. Contraste et couleurs soignés ; la luminosité est juste dès qu'il y a de la lumière et le ventilateur s'entend en 4K.",
+    ["Contraste solide, noirs profonds dans le noir", "Large gamme de couleurs, bon pré-étalonnage", "Adapté aux petits espaces"],
+    ["Luminosité juste avec un peu de lumière", "Pas de HDMI 2.1", "Bruit de fonctionnement en 4K"],
+    ("4K", "Courte focale"), "BenQ X500i",
+    "B0CMHCHPMV", "BenQ X500i Vidéoprojecteur Gaming Véritable 4K UHD HDR 4LED 2200 ANSI Lumens Courte focale | 4 ms de Latence | Mode Jeux Automatique | Xbox, PS5, Switch", 1358.8,
+    "Vous avez une petite pièce et voulez une grande image 4K à courte distance.",
+    "Vous projetez dans une pièce claire.", seller="B2BFLIX")
+
+add("epson-eh-ls800", VPRJ, "Epson EH-LS800B", "4K PRO-UHD · laser · 4 000 lumens · ultra courte focale", "Laser 3LCD",
+    "Un projecteur laser 3LCD à ultra courte focale qui remplace un téléviseur, noté 8/10 par deux médias. Image lumineuse, bon son Yamaha ; il manque l'eARC, le HDR10+ et le Dolby Vision, et la ventilation s'entend à pleine puissance.",
+    ["Image lumineuse, belles couleurs", "Excellent système audio", "Ultra courte focale, installation souple"],
+    ["Pas d'eARC", "Ni HDR10+ ni Dolby Vision", "Ventilation bruyante à pleine puissance"],
+    ("4K PRO-UHD", "Laser, 4 000 lm"), "Epson EH-LS800",
+    "B0B988BSBC", "Epson Lifestudio Grand Plus EH-LS800B | Project. laser TV intelligente 4K home cinéma ultracourte focale | 4 000 lumens | 3LCD | Sound by YAMAHA | Android TV | Affichage 150 po | Garantie 5 ans | Noir", 2390.59,
+    "Vous voulez une grande image lumineuse, en plein salon, avec le son intégré et sans passer par le plafond.",
+    "Vous tenez au HDR dynamique ou à l'eARC.")
+
+add("xgimi-mogo-4", VPRJ, "XGIMI MoGo 4", "1080p · portable · batterie 2,5 h", "Portable",
+    "Un petit projecteur 1080p à batterie, qui se transporte et se pose partout, bien noté par la presse (8/10 pour la plupart des médias). Il manque de luminosité en plein jour, le contraste est faible et les haut-parleurs manquent de profondeur.",
+    ["Batterie intégrée, très portable", "Tient un film long sur batterie", "Keystone utilisable même en mode jeu"],
+    ["Luminosité limitée en plein jour", "Contraste natif faible", "Haut-parleurs sans profondeur"],
+    ("1080p", "Batterie 2,5 h"), "XGIMI MoGo 4",
+    "B0F37QW5NF", "XGIMI MoGo 4 Mini Videoprojecteur Portable 1080p | 450 ISO, Compatible avec Google TV, Netflix officiel, 360° rotation, 2.5h batterie, 2×6W Harman Kardon, WiFi Bluetooth", 539.0,
+    "Vous voulez un projecteur à emporter dans le jardin, en vacances ou d'une pièce à l'autre.",
+    "Vous projetez en plein jour.", seller="XGIMI Official Store")
+
+add("benq-gv50", VPRJ, "BenQ GV50", "1080p · laser · portable · batterie", "Laser portable",
+    "Un projecteur laser portable 1080p à batterie et à tête rotative, noté 8/10 par trois médias. Compact, calibré en sortie de carton et bien équipé en applications ; la luminosité reste faible et il n'y a ni 4K ni HDR10+.",
+    ["Compact et facile à installer", "Corrections automatiques efficaces", "Netflix et applications disponibles"],
+    ["Faible luminosité", "Pas de 4K", "Pas de HDR10+ ni de Dolby Vision"],
+    ("1080p", "Laser portable"), "BenQ GV50",
+    "B0DL9HH3VR", "BenQ GV50 Vidéoprojecteur Laser Portable 1080p, 500 lumens, Google TV | Batterie intégrée, projection rotative, haut-parleur basses 18W 2.1, réglage auto de l’image, Bluetooth, Netflix", 598.98,
+    "Vous voulez un petit projecteur nomade qui se règle seul et qui s'oriente au plafond.",
+    "Vous voulez une image 4K ou très lumineuse.")
+
+add("epson-co-w01", VPRJ, "Epson CO-W01", "WXGA · 3LCD · 3 000 lumens", "Petit prix",
+    "Le plus abordable du comparatif : un projecteur 3LCD de 3 000 lumens, noté entre 6 et 7,5/10. Il fait le travail pour un film à la maison, mais l'image n'est pas en 1080p natif, le contraste est faible et il n'y a pas de fonctions connectées.",
+    ["Rapport qualité-prix", "Qualité de projection correcte", "Bonne luminosité pour le prix"],
+    ["Résolution WXGA : mise à l'échelle nécessaire en 1080p", "Contraste faible, noirs grisâtres", "Un seul port HDMI, pas de Wi-Fi"],
+    ("WXGA", "3 000 lm"), "Epson CO-W01",
+    "B0B985KPML", "Epson CO-W01 | Projecteur WXGA abordable | 3LCD | 3 000 lumens ANSI | Affichage 378 Pouces (9,6 m) | Configuration Facile | Correction du trapèze | HDMI | Utilisation à Domicile et au Bureau | Blanc", 334.54,
+    "Vous voulez essayer le projecteur sans dépenser plus de 350 €.",
+    "Vous voulez une image nette en 1080p ou la TV connectée intégrée.", seller="AC Electro")
 
 
 def build():
