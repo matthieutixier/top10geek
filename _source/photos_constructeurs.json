@@ -1102,5 +1102,33 @@
  "epson-co-w01": {
   "constructeur": "Epson",
   "source": "https://i8.amplience.net/i/epsonemear/w01_w_std_01_png"
+ },
+ "canon-powershot-v1": {
+  "constructeur": "Canon",
+  "source": "https://cdn.media.amplience.net/i/canon/powershot-v1_range-page_462cfb394cc4450c92ae2d0c182b8f2f"
+ },
+ "canon-eos-r50": {
+  "constructeur": "Canon",
+  "source": "https://cdn.media.amplience.net/i/canon/eos-r50-bk-frt-rf-s-18-45mm_related-products_01_5dd84105a7a247048773392b1e33b7d2"
+ },
+ "fujifilm-x-m5": {
+  "constructeur": "Fujifilm",
+  "source": "https://fujifilm-x.b-cdn.net/wp-content/uploads/2024/10/product_thumb_x-m5.jpg"
+ },
+ "fujifilm-x-t50": {
+  "constructeur": "Fujifilm",
+  "source": "https://fujifilm-x.b-cdn.net/wp-content/uploads/2024/05/product-list_X-T50_front_16-50_silver.jpg"
+ },
+ "nikon-z50-ii": {
+  "constructeur": "Nikon",
+  "source": "https://www.nikon.fr/globalassets/digizuite/194072-en-z50ii_front-v6A502D2AC296.png"
+ },
+ "nikon-z5-ii": {
+  "constructeur": "Nikon",
+  "source": "https://www.nikon.fr/globalassets/digizuite/198318-en-z5ii_front-vA140068ED14A.png"
+ },
+ "nikon-z6-iii": {
+  "constructeur": "Nikon",
+  "source": "https://www.nikon.fr/globalassets/digizuite/190047-en-z6iii_front-vD0491068D5AC.png"
  }
 }

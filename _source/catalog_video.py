@@ -12,6 +12,7 @@ _HERE = os.path.dirname(os.path.abspath(__file__))
 VSV = "v-surv"
 VSP = "v-sport"
 VPRJ = "v-proj"
+VPH = "v-photo"
 VID = {}
 
 
@@ -306,6 +307,98 @@ add("epson-co-w01", VPRJ, "Epson CO-W01", "WXGA · 3LCD · 3 000 lumens", "Petit
     "B0B985KPML", "Epson CO-W01 | Projecteur WXGA abordable | 3LCD | 3 000 lumens ANSI | Affichage 378 Pouces (9,6 m) | Configuration Facile | Correction du trapèze | HDMI | Utilisation à Domicile et au Bureau | Blanc", 334.54,
     "Vous voulez essayer le projecteur sans dépenser plus de 350 €.",
     "Vous voulez une image nette en 1080p ou la TV connectée intégrée.", seller="AC Electro")
+
+
+# ============================================================ APPAREILS PHOTO HYBRIDES ET COMPACTS
+add("canon-eos-r50", VPH, "Canon EOS R50", "APS-C · 24 MP · 4K · vlog", "Petit prix hybride",
+    "Le plus abordable de la sélection : un hybride APS-C compact, noté 8,5/10 sur deux tests. Bonne qualité d'image et vidéo 4K pour le vlog ; la presse note du bruit en basse lumière, une surchauffe en vidéo et très peu d'objectifs RF-S natifs.",
+    ["Rapport qualité-prix", "Belle qualité d'image et vidéo 4K", "Adapté au vlog"],
+    ["Bruit en basse lumière", "Surchauffe lors de l'enregistrement vidéo", "Très peu d'objectifs RF-S natifs"],
+    ("APS-C", "24 MP, 4K"), "Canon EOS R50",
+    "B0BV6QK1LS", "Canon EOS R50 Appareil Photo Hybride Compact APS-C 24.2MP pour Débutants | Pour vlogging; viseur OLED 0.39 pouce, écran tactile LCD 7.5 cm orientable, suivi AF des yeux et du visage", 549.0,
+    "Vous débutez en hybride et voulez un boîtier léger pour la photo et le vlog.",
+    "Vous filmez longtemps en 4K ou vous voulez un large choix d'objectifs.")
+
+add("canon-powershot-v1", VPH, "Canon PowerShot V1", "Compact · 1,4\" · zoom 3,1× · 4K", TOP,
+    "Un compact à grand capteur de 1,4 pouce, bien noté par la presse (8,3/10 sur neuf tests). Excellente qualité optique, bonne autonomie et design à emporter ; pas de viseur, pas de flash intégré, et une sensibilité moyenne en basse lumière.",
+    ["Excellente qualité optique", "Compact et polyvalent", "Bonne autonomie, trépied et pare-vent fournis"],
+    ["Pas de viseur électronique", "Pas de flash intégré", "Sensibilité en basse lumière"],
+    ("1,4 pouce", "Compact, 4K"), "Canon Powershot V1",
+    "B0F2M1MG3L", "Canon PowerShot V1 - Caméra pour Le Vlog avec Objectif Ultra Grand-Angle f/2.8 | Matériel pour Créateurs de Contenu | Vlog et Voyage | Connexion Via USB et Wi-FI", 749.0,
+    "Vous voulez un compact de poche pour le vlog et le voyage, sans changer d'objectif.",
+    "Vous voulez un viseur ou des objectifs interchangeables.")
+
+add("fujifilm-x-m5", VPH, "Fujifilm X-M5", "APS-C · 26 MP · 6,2K · 355 g", "Léger Fujifilm",
+    "Le boîtier le plus léger de la gamme X, noté 8/10 en moyenne sur huit tests. Image soignée, modes vidéo accessibles et rafales rapides ; pas de stabilisation du capteur ni de viseur.",
+    ["Compact et bien équipé", "Excellente qualité d'image (capteur 26 MP)", "Vidéo 6,2K open matte, rafales rapides"],
+    ["Pas de stabilisation du capteur", "Pas de viseur électronique", "Petit pour de grandes mains"],
+    ("APS-C", "26 MP, 6,2K"), "Fujifilm X-M5",
+    "B0DJC3XZT7", "Fujifilm X-M5 Nu Noir", 823.9,
+    "Vous voulez un hybride Fujifilm léger, à emporter partout, pour la photo et la vidéo.",
+    "Vous tenez à un viseur ou à la stabilisation intégrée.")
+
+add("nikon-z50-ii", VPH, "Nikon Z50 II", "APS-C · 20,9 MP · 4K 60p · Expeed 7", "APS-C Nikon",
+    "Un hybride APS-C Nikon à l'autofocus performant et à la poignée plus profonde, noté 8,4/10 sur cinq tests. Il n'a pas de stabilisation du capteur et sa définition de 20,9 MP est jugée moyenne.",
+    ["Autofocus de détection de sujet efficace", "Poignée plus profonde, écran orientable", "Vidéo 4K/60p"],
+    ["Pas de stabilisation dans le boîtier", "Définition de 20,9 MP moyenne", "Peu d'évolution par rapport au Z50"],
+    ("APS-C", "20,9 MP, 4K 60p"), "Nikon Z50 II",
+    "B0DMP1KPZ9", "Nikon Hybride Z 50II, boitier Nu, capteur APS-C 20,9 MP, vidéo 4K jusqu'à 30 i/s, écran Tactile et orientable, viseur Lumineux", 927.0,
+    "Vous voulez un hybride APS-C Nikon avec un bon autofocus.",
+    "Vous voulez un capteur stabilisé ou une haute définition.", seller="Concept Store Photo")
+
+add("sony-zv-e10-ii", VPH, "Sony ZV-E10 II", "APS-C · 26 MP · 4K60 · vlog", "Vlog Sony",
+    "Un hybride APS-C pensé pour la vidéo, noté 8/10 en moyenne sur cinq tests. Polyvalent en photo et en vidéo, bon suivi de l'autofocus et grande batterie ; pas de viseur, pas d'étanchéité et une sensibilité moyenne en basse lumière.",
+    ["Polyvalent en photo et en vidéo", "Bon suivi de la mise au point", "Grande autonomie de batterie"],
+    ["Pas de viseur", "Non étanche aux intempéries", "Sensibilité en basse lumière"],
+    ("APS-C", "26 MP, 4K 60p"), "Sony ZV-E10 II",
+    "B0D8QQVXJ1", "Sony ZV-E10 II Appareil Hybride APS-C, 26 MP, Vidéo 4K60p | 4:2:2 10 bits, Stabilisation digitale, Eye AF en temps réel, Objectifs interchangeables", 999.0,
+    "Vous faites surtout de la vidéo et du vlog avec des objectifs interchangeables.",
+    "Vous voulez un viseur pour la photo.")
+
+add("fujifilm-x-t50", VPH, "Fujifilm X-T50", "APS-C · 40 MP · stabilisé · 6K", "40 MP Fujifilm",
+    "Un hybride Fujifilm de 40 mégapixels, stabilisé sur le capteur, noté 7,8/10 sur huit tests. Belle prise en main et cadran de simulations de films ; manipulation un peu maladroite (joystick), pas de protection contre les intempéries.",
+    ["Capteur de 40 MP stabilisé jusqu'à 7 arrêts", "Cadran de simulation de film", "Vidéo 6K"],
+    ["Joystick et boutons mal placés", "Rafale moyenne", "Pas d'étanchéité aux intempéries"],
+    ("APS-C", "40 MP, stabilisé"), "Fujifilm X-T50",
+    "B0D45Q85C5", "FUJIFILM X-T50 Nu Noir | Garantie 3 ans offerte. Provenance France. Emballage securisé. Livré avec Facture dont TVA.", 1361.75,
+    "Vous cherchez un hybride de style argentique à haute définition, stabilisé.",
+    "Vous voulez un écran orientable pour les selfies.")
+
+add("fujifilm-x-e5", VPH, "Fujifilm X-E5", "APS-C · 40 MP · stabilisé · télémétrique", "Style argentique",
+    "Un hybride compact de 40 mégapixels au style rétro, noté 8,75/10 sur quatre tests. Très bon piqué, couleurs Fujifilm et stabilisation efficace ; le suivi autofocus a des ratés en conditions difficiles et le boîtier n'est pas entièrement étanche.",
+    ["Piqué et définition de 40 MP", "Couleurs Fujifilm et simulations de films", "Stabilisation mécanique efficace"],
+    ["Suivi autofocus parfois pris en défaut", "Ergonomie limitée avec les gros objectifs", "Pas entièrement étanche"],
+    ("APS-C", "40 MP, stabilisé"), "Fujifilm X-E5",
+    "B0FBXB8KLX", "FUJIFILM X-E5 Boitier Nu Argent", 1394.0,
+    "Vous voulez un hybride compact au look classique, pour la rue et le voyage.",
+    "Vous utilisez des objectifs lourds.", seller="Concept Store Photo")
+
+add("sony-a6700", VPH, "Sony A6700", "APS-C · 26 MP · AF IA · 4K 120p", "AF par IA",
+    "Un hybride APS-C Sony stabilisé sur 5 axes, à l'autofocus par IA, noté 8,9/10 sur trois tests. Couleurs, optique et capteur sensible, mais un seul emplacement de carte, des risques de surchauffe en vidéo et des menus complexes.",
+    ["Couleurs et qualité optique", "Capteur sensible, stabilisé sur 5 axes", "Écran pivotant, viseur électronique"],
+    ["Un seul emplacement de carte", "Surchauffe possible en vidéo", "Menus complexes pour débutants"],
+    ("APS-C", "26 MP, 4K 120p"), "Sony A6700",
+    "B0CB8T476W", "Sony Alpha 6700 Appareil Photo Hybride APS-C, 26 MP BSI, AF basée sur l'IA | Stabilisation 5 axes, Écran tactile pour vlogging & selfies, Vidéo 4K 120p, Design compact", 1542.14,
+    "Vous voulez un hybride APS-C complet pour la photo et la vidéo, avec un bon autofocus.",
+    "Vous débutez : les menus sont denses.")
+
+add("nikon-z5-ii", VPH, "Nikon Z5 II", "Plein format · 24,5 MP · stabilisé", "Plein format abordable",
+    "Un plein format Nikon au bon rapport qualité-prix, noté 8,5/10 sur quatre tests. Boîtier solide, viseur agréable et autofocus efficace ; l'endurance de la batterie est courte et le capteur n'est pas empilé.",
+    ["Bon rapport qualité-prix en plein format", "Viseur agréable, autofocus efficace", "Boîtier solide, qualité des JPEG"],
+    ["Endurance de la batterie", "Capteur non empilé : rolling shutter", "Rafale 30 i/s limitée au JPEG"],
+    ("Plein format", "24,5 MP"), "Nikon Z5 II",
+    "B0F3G8C7F4", "Nikon Z 5II boitier Nu, Appareil Photo Numérique Hybride Plein Format (24,5 MP, 4K/30p, Rafale 14 i/s en RAW ou 30 i/s en JPEG, stabilisation du capteur sur 5 Axes, Double Slots SD ou SDHC ou SDXC)", 1685.0,
+    "Vous voulez passer au plein format sans viser les modèles professionnels.",
+    "Vous filmez beaucoup en rafale numérique.")
+
+add("nikon-z6-iii", VPH, "Nikon Z6 III", "Plein format · 24,5 MP · 6K · rafale", "Haut de gamme",
+    "Le mieux noté de la sélection (9,6/10 sur cinq tests) : un plein format polyvalent à l'excellent autofocus et à la vidéo 6K. En contrepartie, un prix élevé, pas de gain de résolution et un chargeur non fourni.",
+    ["Excellent autofocus", "Rafraîchissement rapide, vidéo 6K", "Format MP4 Lite léger"],
+    ["Assez cher", "Pas d'amélioration de la résolution", "Chargeur non fourni"],
+    ("Plein format", "24,5 MP, 6K"), "Nikon Z6 III",
+    "B0D79QY952", "Nikon Hybride Z6III, boitier Nu, Plein Format 24,5 MP, vidéo 6K, jusqu'à 120 i/s, écran Tactile et orientable", 2498.0,
+    "Vous voulez un plein format qui fait aussi bien la photo que la vidéo.",
+    "Vous avez un budget limité.", seller="Concept Store Photo")
 
 
 def build():

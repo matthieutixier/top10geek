@@ -127,6 +127,13 @@ VCATS = [
          seo_desc="Les meilleurs vidéoprojecteurs 2026 classés par note presse : 4K, laser, ultra courte focale, portables et petits prix. XGIMI, BenQ, Epson. Prix indicatifs, points forts et faibles.",
          h1='Les meilleurs <span class="flash">vidéoprojecteurs</span> en 2026',
          intro="Salon, jeu vidéo ou projecteur à emporter : la presse départage la luminosité, le contraste, le bruit et la facilité d'installation. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
+
+    dict(key="v-photo", slug="appareils-photo-hybrides-compacts", label="Appareils photo hybrides et compacts", top_label="appareils photo hybrides et compacts", h="Appareils photo hybrides et compacts", tag="Des photos qui changent du smartphone", color="var(--cat-creation)", cls="f-creation", badge="appareils-photo", scene="video-photo", scene_alt="Le père de famille geek, un appareil photo hybride à l'œil, prend la pose en plein élan, sac à dos orné des dessins de ses filles",
+         plural_low="appareils photo",
+         seo_title="Meilleurs appareils photo hybrides et compacts 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs appareils photo hybrides et compacts en 2026, classés par note presse : Canon, Fujifilm, Nikon, Sony. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">appareils photo hybrides et compacts</span> en 2026',
+         intro="APS-C ou plein format, hybride ou compact de poche : la presse départage l'autofocus, la qualité d'image, la vidéo et la prise en main. Voici les boîtiers qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon (boîtier nu, sans objectif sauf mention)."),
 ]
 
 FAMILIES_NEW = [

@@ -34734,6 +34734,1081 @@
      "Trusted Reviews"
     ]
    }
+  },
+  "canon-eos-r50": {
+   "cat": "v-photo",
+   "short": "Canon EOS R50",
+   "ref": "APS-C · 24 MP · 4K · vlog",
+   "badge": "Petit prix hybride",
+   "verdict": "Le plus abordable de la sélection : un hybride APS-C compact, noté 8,5/10 sur deux tests. Bonne qualité d'image et vidéo 4K pour le vlog ; la presse note du bruit en basse lumière, une surchauffe en vidéo et très peu d'objectifs RF-S natifs.",
+   "strengths": [
+    "Rapport qualité-prix",
+    "Belle qualité d'image et vidéo 4K",
+    "Adapté au vlog"
+   ],
+   "weak": [
+    "Bruit en basse lumière",
+    "Surchauffe lors de l'enregistrement vidéo",
+    "Très peu d'objectifs RF-S natifs"
+   ],
+   "m": [
+    "APS-C",
+    "24 MP, 4K"
+   ],
+   "id": "canon-eos-r50",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 549.0,
+     "url": "https://www.amazon.fr/dp/B0BV6QK1LS?tag=geekconcept-21",
+     "name": "Canon EOS R50 Appareil Photo Hybride Compact APS-C 24.2MP pour Débutants | Pour vlogging; viseur OLED 0.39 pouce, écran tactile LCD 7.5 cm orientable, suivi AF des yeux et du visage",
+     "cfg": "",
+     "asin": "B0BV6QK1LS"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/497483-test-labo-du-canon-eos-r50-le-bon-choix-pour-decouvrir-la-photo/",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 7.0,
+      "url": "https://phototrend.fr/2024/04/test-canon-eos-r50-hybride-aps-c-compact-equilibre/",
+      "date": ""
+     },
+     {
+      "src": "ObjetConnecte.net",
+      "score": null,
+      "url": "https://technplay.com/test-du-canon-eos-r50/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 549.0,
+   "img": "canon-eos-r50.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Deux médias chiffrent l'EOS R50 : Labo Fnac 10/10 et PhotoTrend 7/10, soit 8,5/10 de moyenne. Ils s'accordent sur un hybride APS-C compact au bon rapport qualité-prix, avec une belle qualité d'image, une vidéo 4K et un vrai intérêt pour le vlog.\n\nLes réserves portent sur le bruit en basse lumière, une surchauffe lors de l'enregistrement vidéo, le nombre réduit d'objectifs RF-S natifs et des commandes directes limitées.\n\nAvec seulement deux notes, ce classement reste fragile : le modèle est à considérer comme un boîtier d'entrée de gamme pour débuter.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "Labo Fnac",
+     "PhotoTrend"
+    ]
+   }
+  },
+  "canon-powershot-v1": {
+   "cat": "v-photo",
+   "short": "Canon PowerShot V1",
+   "ref": "Compact · 1,4\" · zoom 3,1× · 4K",
+   "badge": "Le choix de la bande",
+   "verdict": "Un compact à grand capteur de 1,4 pouce, bien noté par la presse (8,3/10 sur neuf tests). Excellente qualité optique, bonne autonomie et design à emporter ; pas de viseur, pas de flash intégré, et une sensibilité moyenne en basse lumière.",
+   "strengths": [
+    "Excellente qualité optique",
+    "Compact et polyvalent",
+    "Bonne autonomie, trépied et pare-vent fournis"
+   ],
+   "weak": [
+    "Pas de viseur électronique",
+    "Pas de flash intégré",
+    "Sensibilité en basse lumière"
+   ],
+   "m": [
+    "1,4 pouce",
+    "Compact, 4K"
+   ],
+   "id": "canon-powershot-v1",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 749.0,
+     "url": "https://www.amazon.fr/dp/B0F2M1MG3L?tag=geekconcept-21",
+     "name": "Canon PowerShot V1 - Caméra pour Le Vlog avec Objectif Ultra Grand-Angle f/2.8 | Matériel pour Créateurs de Contenu | Vlog et Voyage | Connexion Via USB et Wi-FI",
+     "cfg": "",
+     "asin": "B0F2M1MG3L"
+    }
+   ],
+   "press": {
+    "avg": 8.3,
+    "n": 9,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/638490-test-labo-du-canon-powershot-v1-un-compact-surprenant/",
+      "date": ""
+     },
+     {
+      "src": "ComputerHoy",
+      "score": 9.0,
+      "url": "https://computerhoy.20minutos.es/dispositivos/canon-powershot-v1-perfecta-creacion-contenido-compacta-ligera-lista-grabar-sacar-fotografias-1487638",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.7,
+      "url": "https://www.engadget.com/cameras/canon-powershot-v1-review-a-powerful-compact-camera-capable-of-capturing-incredible-video-163009584.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Canon-PowerShot-V1-im-Test_186373199.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/canon/2622283_test-du-canon-powershot-v1-un-compact-audacieux-avec-un-capteur-inedit-oriente-video",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-canon-powershot-v1/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/cameras/canon-powershot-v1-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/canon-powershot-v1",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 7.0,
+      "url": "https://phototrend.fr/2025/06/test-du-canon-powershot-v1/",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/canon-powershot-v1-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/camera/reviews/canon/powershot-v1",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": null,
+      "url": "https://blog.studiosport.fr/canon-powershot-v1-test-dune-camera-de-vlog-etonnante/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 749.0,
+   "img": "canon-powershot-v1.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Neuf médias notent le PowerShot V1, pour une moyenne de 8,3/10 : Labo Fnac lui donne 10/10, ComputerHoy 9/10, Engadget 8,7/10, puis Chip.de, FrAndroid, Presse Citron, T3 et Trusted Reviews 8/10, PhotoTrend 7/10.\n\nLes tests retiennent surtout la qualité optique et les couleurs, un format compact et polyvalent, une bonne autonomie et un design facile à emporter. Le trépied et le pare-vent fournis sont cités.\n\nLes réserves sont partagées : pas de viseur électronique, pas de flash intégré, une sensibilité en basse lumière moyenne et un obturateur à effet rolling shutter. C'est un compact pour le vlog et le voyage, pas un boîtier à objectifs interchangeables.",
+    "date": "2026-10-28",
+    "n": 9,
+    "tests": 12,
+    "sources": [
+     "Labo Fnac",
+     "ComputerHoy",
+     "Engadget",
+     "Chip.de",
+     "FrAndroid",
+     "PhotoTrend"
+    ]
+   }
+  },
+  "fujifilm-x-m5": {
+   "cat": "v-photo",
+   "short": "Fujifilm X-M5",
+   "ref": "APS-C · 26 MP · 6,2K · 355 g",
+   "badge": "Léger Fujifilm",
+   "verdict": "Le boîtier le plus léger de la gamme X, noté 8/10 en moyenne sur huit tests. Image soignée, modes vidéo accessibles et rafales rapides ; pas de stabilisation du capteur ni de viseur.",
+   "strengths": [
+    "Compact et bien équipé",
+    "Excellente qualité d'image (capteur 26 MP)",
+    "Vidéo 6,2K open matte, rafales rapides"
+   ],
+   "weak": [
+    "Pas de stabilisation du capteur",
+    "Pas de viseur électronique",
+    "Petit pour de grandes mains"
+   ],
+   "m": [
+    "APS-C",
+    "26 MP, 6,2K"
+   ],
+   "id": "fujifilm-x-m5",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 823.9,
+     "url": "https://www.amazon.fr/dp/B0DJC3XZT7?tag=geekconcept-21",
+     "name": "Fujifilm X-M5 Nu Noir",
+     "cfg": "",
+     "asin": "B0DJC3XZT7"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 8,
+    "tests": 11,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Digital Camera World",
+      "score": 10.0,
+      "url": "https://www.digitalcameraworld.com/reviews/fujifilm-x-m5-review",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/fujifilm-x-m5-review/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/fujifilm/2447534_test-du-fujifilm-x-m5-le-tout-petit-hybride-qui-ne-manque-pas-datouts",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 8.0,
+      "url": "https://leclaireur.fnac.com/test/638487-test-labo-du-fujifilm-x-m5-de-belles-qualites-optiques-tirees-vers-le-bas-par-un-capteur-peu-sensible/",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.0,
+      "url": "https://phototrend.fr/2024/11/test-fujifilm-x-m5-hybride-compact/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/camera/reviews/fujifilm/x-m5",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/fotografia/recensioni-fotografia/recensione-fujifilm-x-m5-la-entry-level-con-cui-iniziare-a-fotografare",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Fujifilm-X-M5-im-Test_185728284.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/fujifilm-x-m5",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/fujifilm-x-m5-initial-review",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x-m5-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 823.9,
+   "img": "fujifilm-x-m5.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit médias notent le X-M5, pour 8/10 de moyenne : Digital Camera World 10/10, Camera Jabber, FrAndroid, Labo Fnac, PhotoTrend, RTings et tuttoteK 8/10, Chip.de 6/10.\n\nLes tests apprécient un boîtier compact, la qualité d'image du capteur de 26 MP, la plage dynamique, la vidéo 6,2K et les rafales rapides, ainsi que les modes vidéo accessibles d'un geste.\n\nLes critiques se rejoignent sur l'absence de stabilisation du capteur et de viseur électronique, un boîtier petit pour de grandes mains et un écran facilement activé par la paume. Il convient à qui cherche un appareil léger pour voyager.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 11,
+    "sources": [
+     "Digital Camera World",
+     "Camera Jabber",
+     "FrAndroid",
+     "Labo Fnac",
+     "RTings",
+     "Chip.de"
+    ]
+   }
+  },
+  "nikon-z50-ii": {
+   "cat": "v-photo",
+   "short": "Nikon Z50 II",
+   "ref": "APS-C · 20,9 MP · 4K 60p · Expeed 7",
+   "badge": "APS-C Nikon",
+   "verdict": "Un hybride APS-C Nikon à l'autofocus performant et à la poignée plus profonde, noté 8,4/10 sur cinq tests. Il n'a pas de stabilisation du capteur et sa définition de 20,9 MP est jugée moyenne.",
+   "strengths": [
+    "Autofocus de détection de sujet efficace",
+    "Poignée plus profonde, écran orientable",
+    "Vidéo 4K/60p"
+   ],
+   "weak": [
+    "Pas de stabilisation dans le boîtier",
+    "Définition de 20,9 MP moyenne",
+    "Peu d'évolution par rapport au Z50"
+   ],
+   "m": [
+    "APS-C",
+    "20,9 MP, 4K 60p"
+   ],
+   "id": "nikon-z50-ii",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 927.0,
+     "url": "https://www.amazon.fr/dp/B0DMP1KPZ9?tag=geekconcept-21",
+     "name": "Nikon Hybride Z 50II, boitier Nu, capteur APS-C 20,9 MP, vidéo 4K jusqu'à 30 i/s, écran Tactile et orientable, viseur Lumineux",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DMP1KPZ9"
+    }
+   ],
+   "press": {
+    "avg": 8.4,
+    "n": 5,
+    "tests": 6,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/566592-test-labo-du-nikon-z50-ii-un-formidable-hybride-a-un-prix-abordable/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/nikon-z50-ii-review-a-pocket-rocket-at-a-competitive-price",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/nikon/2508893_test-du-nikon-z50-ii-un-appareil-photo-accessible-qui-en-a-sous-le-capot",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.0,
+      "url": "https://phototrend.fr/2025/02/test-nikon-z50-ii/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Nikon-Z50II-im-Test_185728561.html",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/nikon-z50ii-initial-review",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 927.0,
+   "img": "nikon-z50-ii.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias notent le Z50 II, pour une moyenne de 8,4/10 : TechRadar et Labo Fnac 10/10, PhotoTrend et FrAndroid 8/10, Chip.de 6/10.\n\nLes tests retiennent la puce Expeed 7, un autofocus à détection de sujets efficace, une poignée plus profonde et un écran tactile orientable, ainsi que la vidéo 4K/60p. Le rendu des couleurs est salué.\n\nLes réserves sont nettes : pas de stabilisation du capteur, une définition de 20,9 MP jugée moyenne, un capteur ancien et peu d'évolution par rapport au Z50. Il vise donc ceux qui cherchent un APS-C Nikon réactif, plus que la haute définition.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 6,
+    "sources": [
+     "TechRadar",
+     "Labo Fnac",
+     "PhotoTrend",
+     "FrAndroid",
+     "Chip.de"
+    ]
+   }
+  },
+  "sony-zv-e10-ii": {
+   "cat": "v-photo",
+   "short": "Sony ZV-E10 II",
+   "ref": "APS-C · 26 MP · 4K60 · vlog",
+   "badge": "Vlog Sony",
+   "verdict": "Un hybride APS-C pensé pour la vidéo, noté 8/10 en moyenne sur cinq tests. Polyvalent en photo et en vidéo, bon suivi de l'autofocus et grande batterie ; pas de viseur, pas d'étanchéité et une sensibilité moyenne en basse lumière.",
+   "strengths": [
+    "Polyvalent en photo et en vidéo",
+    "Bon suivi de la mise au point",
+    "Grande autonomie de batterie"
+   ],
+   "weak": [
+    "Pas de viseur",
+    "Non étanche aux intempéries",
+    "Sensibilité en basse lumière"
+   ],
+   "m": [
+    "APS-C",
+    "26 MP, 4K 60p"
+   ],
+   "id": "sony-zv-e10-ii",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 999.0,
+     "url": "https://www.amazon.fr/dp/B0D8QQVXJ1?tag=geekconcept-21",
+     "name": "Sony ZV-E10 II Appareil Hybride APS-C, 26 MP, Vidéo 4K60p | 4:2:2 10 bits, Stabilisation digitale, Eye AF en temps réel, Objectifs interchangeables",
+     "cfg": "",
+     "asin": "B0D8QQVXJ1"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 5,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/658309-test-labo-du-sony-zv-e10ii-un-petit-hybride-polyvalent-qui-fait-comme-les-grands/",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/sony-zv-e10-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/sony-zv-e10-ii-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/camera/reviews/sony/zv-e10-ii",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Sony-ZV-E10-II-im-CHIP-Test_185589254.html",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/sony-zv-e10-ii-initial-review",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": null,
+      "url": "https://phototrend.fr/2024/07/sony-zv-e10-ii-prise-en-main-test-hybride-aps-c-26-mpx-vlog/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 999.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias notent le ZV-E10 II, pour 8/10 de moyenne : Labo Fnac 10/10, Digital Camera World, RTings et Camera Jabber 8/10, Chip.de 6/10.\n\nLes tests décrivent un hybride APS-C polyvalent en photo et en vidéo, à la bonne colorimétrie, au bon suivi de mise au point et à la grande autonomie de batterie.\n\nIls regrettent l'absence de viseur et d'étanchéité, une sensibilité moyenne en basse lumière et un prix jugé élevé pour des débutants. Chip.de est le plus sévère avec 6/10, quand les trois autres médias restent à 8/10 ou plus. Au total, c'est un boîtier taillé pour les vidéastes et les vloggers qui veulent changer d'objectif, plus que pour la photo pure.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 7,
+    "sources": [
+     "Labo Fnac",
+     "Digital Camera World",
+     "RTings",
+     "Camera Jabber",
+     "Chip.de"
+    ]
+   }
+  },
+  "fujifilm-x-t50": {
+   "cat": "v-photo",
+   "short": "Fujifilm X-T50",
+   "ref": "APS-C · 40 MP · stabilisé · 6K",
+   "badge": "40 MP Fujifilm",
+   "verdict": "Un hybride Fujifilm de 40 mégapixels, stabilisé sur le capteur, noté 7,8/10 sur huit tests. Belle prise en main et cadran de simulations de films ; manipulation un peu maladroite (joystick), pas de protection contre les intempéries.",
+   "strengths": [
+    "Capteur de 40 MP stabilisé jusqu'à 7 arrêts",
+    "Cadran de simulation de film",
+    "Vidéo 6K"
+   ],
+   "weak": [
+    "Joystick et boutons mal placés",
+    "Rafale moyenne",
+    "Pas d'étanchéité aux intempéries"
+   ],
+   "m": [
+    "APS-C",
+    "40 MP, stabilisé"
+   ],
+   "id": "fujifilm-x-t50",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1361.75,
+     "url": "https://www.amazon.fr/dp/B0D45Q85C5?tag=geekconcept-21",
+     "name": "FUJIFILM X-T50 Nu Noir | Garantie 3 ans offerte. Provenance France. Emballage securisé. Livré avec Facture dont TVA.",
+     "cfg": "",
+     "asin": "B0D45Q85C5"
+    }
+   ],
+   "press": {
+    "avg": 7.8,
+    "n": 8,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Engadget",
+      "score": 8.4,
+      "url": "https://www.engadget.com/cameras/fujifilm-x-t50-review-a-big-improvement-for-a-lot-more-money-180046809.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Fujiflilm-X-T50-im-Test_185326965.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/fujifilm/2353374_test-du-fujifilm-x-t50-la-puissance-dun-capteur-40-mp-dans-un-boitier-compact",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.0,
+      "url": "https://phototrend.fr/2024/05/test-fujifilm-x-t50/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x-t50-review",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/fotografia/recensioni-fotografia/recensione-fujifilm-x-t50-la-mirrorless",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 7.0,
+      "url": "https://leclaireur.fnac.com/test/526628-test-labo-du-fujifilm-x-t50-un-appareil-neoretro-qui-se-prend-les-pieds-dans-le-tapis/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/camera/reviews/fujifilm/x-t50",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/fujifilm-x-t50",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/fujifilm-x-t50-initial-review",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": null,
+      "url": "https://www.digitalcameraworld.com/reviews/fujifilm-x-t50-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/fujifilm-x-t50",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1361.75,
+   "img": "fujifilm-x-t50.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit médias notent le X-T50, pour 7,8/10 de moyenne : Engadget 8,4/10, TechRadar, PhotoTrend, Chip.de, tuttoteK et FrAndroid 8/10, Labo Fnac et RTings 7/10.\n\nLes tests aiment le capteur de 40 MP, la stabilisation jusqu'à 7 arrêts, le cadran de simulation de films et la vidéo 6K. La prise en main est jugée agréable.\n\nLes critiques portent sur le placement du joystick et des boutons, une poignée un peu petite, une rafale moyenne, un écran sans fonction selfie et l'absence de protection contre les intempéries. Les deux notes de 7/10 de Labo Fnac et RTings expliquent la moyenne.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 12,
+    "sources": [
+     "Engadget",
+     "TechRadar",
+     "PhotoTrend",
+     "Chip.de",
+     "FrAndroid",
+     "Labo Fnac",
+     "RTings"
+    ]
+   }
+  },
+  "fujifilm-x-e5": {
+   "cat": "v-photo",
+   "short": "Fujifilm X-E5",
+   "ref": "APS-C · 40 MP · stabilisé · télémétrique",
+   "badge": "Style argentique",
+   "verdict": "Un hybride compact de 40 mégapixels au style rétro, noté 8,75/10 sur quatre tests. Très bon piqué, couleurs Fujifilm et stabilisation efficace ; le suivi autofocus a des ratés en conditions difficiles et le boîtier n'est pas entièrement étanche.",
+   "strengths": [
+    "Piqué et définition de 40 MP",
+    "Couleurs Fujifilm et simulations de films",
+    "Stabilisation mécanique efficace"
+   ],
+   "weak": [
+    "Suivi autofocus parfois pris en défaut",
+    "Ergonomie limitée avec les gros objectifs",
+    "Pas entièrement étanche"
+   ],
+   "m": [
+    "APS-C",
+    "40 MP, stabilisé"
+   ],
+   "id": "fujifilm-x-e5",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1394.0,
+     "url": "https://www.amazon.fr/dp/B0FBXB8KLX?tag=geekconcept-21",
+     "name": "FUJIFILM X-E5 Boitier Nu Argent",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FBXB8KLX"
+    }
+   ],
+   "press": {
+    "avg": 8.75,
+    "n": 4,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/644155-test-labo-du-fujifilm-x-e5-une-merveille-dhybride-compact/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/fujifilm/2767543_test-du-fujifilm-x-e5-ultra-compact-stabilise-et-pret-pour-laventure-nomade",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Fujifilm-X-E5-im-Test_186243189.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/fujifilm-x-e5",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/fujifilm-x-e5-review",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": null,
+      "url": "https://phototrend.fr/2025/07/test-fujifilm-x-e5/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/fujifilm-xe5-mirrorless-camera/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1394.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias notent le X-E5, pour 8,75/10 de moyenne : Labo Fnac 10/10, FrAndroid 9/10, Trusted Reviews et Chip.de 8/10.\n\nLes tests louent le piqué de la définition de 40 MP, les couleurs et simulations de films Fujifilm, une stabilisation mécanique efficace et le plaisir de prise de vue de ce boîtier au style rétro.\n\nLes limites relevées : un suivi autofocus pris en défaut en conditions difficiles, une ergonomie limitée avec les objectifs lourds, un écran tactile parfois trop sensible et un boîtier pas entièrement étanche. Il va aux amateurs de photo de rue et de voyage.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 7,
+    "sources": [
+     "Labo Fnac",
+     "FrAndroid",
+     "Trusted Reviews",
+     "Chip.de"
+    ]
+   }
+  },
+  "sony-a6700": {
+   "cat": "v-photo",
+   "short": "Sony A6700",
+   "ref": "APS-C · 26 MP · AF IA · 4K 120p",
+   "badge": "AF par IA",
+   "verdict": "Un hybride APS-C Sony stabilisé sur 5 axes, à l'autofocus par IA, noté 8,9/10 sur trois tests. Couleurs, optique et capteur sensible, mais un seul emplacement de carte, des risques de surchauffe en vidéo et des menus complexes.",
+   "strengths": [
+    "Couleurs et qualité optique",
+    "Capteur sensible, stabilisé sur 5 axes",
+    "Écran pivotant, viseur électronique"
+   ],
+   "weak": [
+    "Un seul emplacement de carte",
+    "Surchauffe possible en vidéo",
+    "Menus complexes pour débutants"
+   ],
+   "m": [
+    "APS-C",
+    "26 MP, 4K 120p"
+   ],
+   "id": "sony-a6700",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1542.14,
+     "url": "https://www.amazon.fr/dp/B0CB8T476W?tag=geekconcept-21",
+     "name": "Sony Alpha 6700 Appareil Photo Hybride APS-C, 26 MP BSI, AF basée sur l'IA | Stabilisation 5 axes, Écran tactile pour vlogging & selfies, Vidéo 4K 120p, Design compact",
+     "cfg": "",
+     "asin": "B0CB8T476W"
+    }
+   ],
+   "press": {
+    "avg": 8.933333333333334,
+    "n": 3,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/655590-test-labo-du-sony-a6700-un-redoutable-hybride-a-tout-faire/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.8,
+      "url": "https://www.engadget.com/sony-a6700-review-the-companys-best-aps-c-camera-yet-164540597.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/sony-a6700-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1542.14,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias chiffrent l'A6700, pour une moyenne de 8,9/10 : Labo Fnac 10/10, Engadget 8,8/10 et Camera Jabber 8/10.\n\nLes tests retiennent les couleurs, la qualité optique, un capteur sensible même en basse lumière, la stabilisation sur 5 axes, le viseur électronique et l'écran pivotant pour les vidéos et les selfies.\n\nLes réserves : un seul emplacement de carte, un risque de surchauffe en vidéo, un suivi limité à 11 images par seconde et un système de menus complexe pour les débutants. Avec trois notes, sa place reste moins établie que celle de modèles plus testés.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 3,
+    "sources": [
+     "Labo Fnac",
+     "Engadget",
+     "Camera Jabber"
+    ]
+   }
+  },
+  "nikon-z5-ii": {
+   "cat": "v-photo",
+   "short": "Nikon Z5 II",
+   "ref": "Plein format · 24,5 MP · stabilisé",
+   "badge": "Plein format abordable",
+   "verdict": "Un plein format Nikon au bon rapport qualité-prix, noté 8,5/10 sur quatre tests. Boîtier solide, viseur agréable et autofocus efficace ; l'endurance de la batterie est courte et le capteur n'est pas empilé.",
+   "strengths": [
+    "Bon rapport qualité-prix en plein format",
+    "Viseur agréable, autofocus efficace",
+    "Boîtier solide, qualité des JPEG"
+   ],
+   "weak": [
+    "Endurance de la batterie",
+    "Capteur non empilé : rolling shutter",
+    "Rafale 30 i/s limitée au JPEG"
+   ],
+   "m": [
+    "Plein format",
+    "24,5 MP"
+   ],
+   "id": "nikon-z5-ii",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1685.0,
+     "url": "https://www.amazon.fr/dp/B0F3G8C7F4?tag=geekconcept-21",
+     "name": "Nikon Z 5II boitier Nu, Appareil Photo Numérique Hybride Plein Format (24,5 MP, 4K/30p, Rafale 14 i/s en RAW ou 30 i/s en JPEG, stabilisation du capteur sur 5 Axes, Double Slots SD ou SDHC ou SDXC)",
+     "cfg": "",
+     "asin": "B0F3G8C7F4"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 4,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/appareil-photo-numerique/nikon-z5ii-p76488/test.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Nikon-Z5-II-im-Test_186030618.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/nikon/2758589_test-du-nikon-z5-ii-la-nouvelle-reference-des-appareils-full-frame-a-prix-accessible",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.0,
+      "url": "https://phototrend.fr/2025/04/test-nikon-z5-ii/",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/nikon-z5ii-initial-review-entry-level-full-frame",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1685.0,
+   "img": "nikon-z5-ii.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias notent le Z5 II, pour 8,5/10 de moyenne : Les Numériques 10/10, Chip.de, FrAndroid et PhotoTrend 8/10.\n\nLes tests apprécient son rapport qualité-prix pour un plein format, un boîtier solide sans être lourd, un viseur agréable, un autofocus efficace et la qualité des JPEG.\n\nIls regrettent l'endurance de la batterie, une rafale à 30 i/s réservée au JPEG, un passage au noir en rafale et un capteur non empilé, qui cause du rolling shutter en obturation numérique. La construction est jugée un peu moins soignée que sur ses aînés.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 5,
+    "sources": [
+     "Les Numériques",
+     "Chip.de",
+     "FrAndroid",
+     "PhotoTrend"
+    ]
+   }
+  },
+  "nikon-z6-iii": {
+   "cat": "v-photo",
+   "short": "Nikon Z6 III",
+   "ref": "Plein format · 24,5 MP · 6K · rafale",
+   "badge": "Haut de gamme",
+   "verdict": "Le mieux noté de la sélection (9,6/10 sur cinq tests) : un plein format polyvalent à l'excellent autofocus et à la vidéo 6K. En contrepartie, un prix élevé, pas de gain de résolution et un chargeur non fourni.",
+   "strengths": [
+    "Excellent autofocus",
+    "Rafraîchissement rapide, vidéo 6K",
+    "Format MP4 Lite léger"
+   ],
+   "weak": [
+    "Assez cher",
+    "Pas d'amélioration de la résolution",
+    "Chargeur non fourni"
+   ],
+   "m": [
+    "Plein format",
+    "24,5 MP, 6K"
+   ],
+   "id": "nikon-z6-iii",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 2498.0,
+     "url": "https://www.amazon.fr/dp/B0D79QY952?tag=geekconcept-21",
+     "name": "Nikon Hybride Z6III, boitier Nu, Plein Format 24,5 MP, vidéo 6K, jusqu'à 120 i/s, écran Tactile et orientable",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D79QY952"
+    }
+   ],
+   "press": {
+    "avg": 9.6,
+    "n": 5,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Digital Camera World",
+      "score": 10.0,
+      "url": "https://www.digitalcameraworld.com/reviews/nikon-z6-iii-review",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/515120-test-labo-nikon-z6-iii-une-qualite-optique-parfaite-pour-ce-plein-format/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/nikon-z6-iii-review",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/nikon/2066746_test-du-nikon-z6-iii-un-appareil-photo-milieu-de-gamme-qui-a-tout-dun-pro",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 9.0,
+      "url": "https://phototrend.fr/2024/09/test-nikon-z6-iii/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/nikon-z6-iii-test-3206057.html",
+      "date": ""
+     },
+     {
+      "src": "DPReview",
+      "score": null,
+      "url": "https://www.dpreview.com/reviews/nikon-z6iii-initial-review",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/review-nikon-z6iii-full-frame-mirrorless-camera-singapore-price",
+      "date": ""
+     },
+     {
+      "src": "PhotographyLife",
+      "score": null,
+      "url": "https://photographylife.com/reviews/nikon-z6-iii",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": null,
+      "url": "https://techtest.org/die-besten-speicherkarten-fuer-die-nikon-z6-iii-sd-vs-cfexpress-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/nikon-z6-iii",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/nikon-z6-iii/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 2498.0,
+   "img": "nikon-z6-iii.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias notent le Z6 III, pour 9,6/10 de moyenne : Digital Camera World, TechRadar et Labo Fnac 10/10, FrAndroid et PhotoTrend 9/10.\n\nLes tests retiennent un très bon autofocus, une excellente prise en main, des cadences d'image élevées et des capacités vidéo poussées, avec le format MP4 Lite plus léger à traiter.\n\nLes critiques sont peu nombreuses : un prix élevé, une résolution inchangée, un chargeur non fourni et l'absence d'écran OLED. C'est le modèle le mieux noté de la sélection et le plus cher.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 12,
+    "sources": [
+     "Digital Camera World",
+     "TechRadar",
+     "Labo Fnac",
+     "FrAndroid",
+     "PhotoTrend"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

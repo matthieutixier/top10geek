@@ -341,6 +341,20 @@ GUIDES_NEW = {
             "Compter sur le son intégré : prévoyez une barre de son ou une enceinte pour un vrai cinéma."],
     budget=[("330 – 600 €", "Projecteurs 1080p, portables ou d'entrée de gamme."), ("1 000 – 1 800 €", "Projecteurs 4K à LED, courte focale ou cinéma."), ("2 200 – 2 600 €", "Lasers 4K et ultra courte focale.")],
 ),
+"v-photo": dict(
+    titre="Comment choisir un appareil photo hybride ou compact",
+    intro="Un hybride (objectifs interchangeables) va plus loin qu'un smartphone en basse lumière, en zoom et en rendu ; un compact à grand capteur offre une partie de cette qualité en poche. Le choix tient au <b>capteur</b> (APS-C ou plein format), à l'<b>autofocus</b> et à l'<b>usage</b> (photo, vidéo, voyage).",
+    criteres=[
+        ("Taille du capteur", "L'APS-C suffit à la majorité des usages et reste compact ; le plein format gagne en basse lumière et en dynamique, mais coûte plus cher, tout comme ses objectifs."),
+        ("Autofocus", "Détection des sujets (personnes, animaux, véhicules) : c'est le point sur lequel la presse départage le plus les modèles récents."),
+        ("Stabilisation et vidéo", "Un capteur stabilisé aide en basse lumière et en vidéo à main levée ; vérifiez le format vidéo (4K 60p, 6K) et la surchauffe signalée par les tests."),
+        ("Objectifs et monture", "Le boîtier se choisit avec son parc d'objectifs : certaines montures APS-C ont peu d'optiques natives, d'autres un catalogue très large."),
+    ],
+    pieges=["Comparer un boîtier nu et un kit avec objectif : les prix de cette page concernent le boîtier nu, sauf mention.",
+            "Oublier le coût des objectifs, des cartes mémoire et d'une batterie de rechange.",
+            "Prendre un compact sans viseur si vous photographiez surtout en plein soleil."],
+    budget=[("550 – 1 000 €", "Hybrides APS-C d'entrée de gamme et compacts de poche."), ("1 300 – 1 600 €", "APS-C haut de gamme, 40 MP ou autofocus par IA."), ("1 700 – 2 500 €", "Plein format.")],
+),
 "v-surv": dict(
     titre="Comment choisir une caméra de surveillance",
     intro="Avant la résolution, trois questions : <b>l'emplacement (intérieur ou extérieur), l'alimentation (secteur, batterie, solaire ou PoE) et le stockage des vidéos</b>. Les fonctions d'IA et le cloud sont parfois payants : lisez les tests.",

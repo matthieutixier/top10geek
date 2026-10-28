@@ -298,5 +298,112 @@
    "RTings",
    "Trusted Reviews"
   ]
+ },
+ {
+  "id": "canon-powershot-v1",
+  "texte": "Neuf médias notent le PowerShot V1, pour une moyenne de 8,3/10 : Labo Fnac lui donne 10/10, ComputerHoy 9/10, Engadget 8,7/10, puis Chip.de, FrAndroid, Presse Citron, T3 et Trusted Reviews 8/10, PhotoTrend 7/10.\n\nLes tests retiennent surtout la qualité optique et les couleurs, un format compact et polyvalent, une bonne autonomie et un design facile à emporter. Le trépied et le pare-vent fournis sont cités.\n\nLes réserves sont partagées : pas de viseur électronique, pas de flash intégré, une sensibilité en basse lumière moyenne et un obturateur à effet rolling shutter. C'est un compact pour le vlog et le voyage, pas un boîtier à objectifs interchangeables.",
+  "sources": [
+   "Labo Fnac",
+   "ComputerHoy",
+   "Engadget",
+   "Chip.de",
+   "FrAndroid",
+   "PhotoTrend"
+  ]
+ },
+ {
+  "id": "canon-eos-r50",
+  "texte": "Deux médias chiffrent l'EOS R50 : Labo Fnac 10/10 et PhotoTrend 7/10, soit 8,5/10 de moyenne. Ils s'accordent sur un hybride APS-C compact au bon rapport qualité-prix, avec une belle qualité d'image, une vidéo 4K et un vrai intérêt pour le vlog.\n\nLes réserves portent sur le bruit en basse lumière, une surchauffe lors de l'enregistrement vidéo, le nombre réduit d'objectifs RF-S natifs et des commandes directes limitées.\n\nAvec seulement deux notes, ce classement reste fragile : le modèle est à considérer comme un boîtier d'entrée de gamme pour débuter.",
+  "sources": [
+   "Labo Fnac",
+   "PhotoTrend"
+  ]
+ },
+ {
+  "id": "fujifilm-x-m5",
+  "texte": "Huit médias notent le X-M5, pour 8/10 de moyenne : Digital Camera World 10/10, Camera Jabber, FrAndroid, Labo Fnac, PhotoTrend, RTings et tuttoteK 8/10, Chip.de 6/10.\n\nLes tests apprécient un boîtier compact, la qualité d'image du capteur de 26 MP, la plage dynamique, la vidéo 6,2K et les rafales rapides, ainsi que les modes vidéo accessibles d'un geste.\n\nLes critiques se rejoignent sur l'absence de stabilisation du capteur et de viseur électronique, un boîtier petit pour de grandes mains et un écran facilement activé par la paume. Il convient à qui cherche un appareil léger pour voyager.",
+  "sources": [
+   "Digital Camera World",
+   "Camera Jabber",
+   "FrAndroid",
+   "Labo Fnac",
+   "RTings",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "nikon-z50-ii",
+  "texte": "Cinq médias notent le Z50 II, pour une moyenne de 8,4/10 : TechRadar et Labo Fnac 10/10, PhotoTrend et FrAndroid 8/10, Chip.de 6/10.\n\nLes tests retiennent la puce Expeed 7, un autofocus à détection de sujets efficace, une poignée plus profonde et un écran tactile orientable, ainsi que la vidéo 4K/60p. Le rendu des couleurs est salué.\n\nLes réserves sont nettes : pas de stabilisation du capteur, une définition de 20,9 MP jugée moyenne, un capteur ancien et peu d'évolution par rapport au Z50. Il vise donc ceux qui cherchent un APS-C Nikon réactif, plus que la haute définition.",
+  "sources": [
+   "TechRadar",
+   "Labo Fnac",
+   "PhotoTrend",
+   "FrAndroid",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "sony-zv-e10-ii",
+  "texte": "Cinq médias notent le ZV-E10 II, pour 8/10 de moyenne : Labo Fnac 10/10, Digital Camera World, RTings et Camera Jabber 8/10, Chip.de 6/10.\n\nLes tests décrivent un hybride APS-C polyvalent en photo et en vidéo, à la bonne colorimétrie, au bon suivi de mise au point et à la grande autonomie de batterie.\n\nIls regrettent l'absence de viseur et d'étanchéité, une sensibilité moyenne en basse lumière et un prix jugé élevé pour des débutants. Chip.de est le plus sévère avec 6/10, quand les trois autres médias restent à 8/10 ou plus. Au total, c'est un boîtier taillé pour les vidéastes et les vloggers qui veulent changer d'objectif, plus que pour la photo pure.",
+  "sources": [
+   "Labo Fnac",
+   "Digital Camera World",
+   "RTings",
+   "Camera Jabber",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "fujifilm-x-t50",
+  "texte": "Huit médias notent le X-T50, pour 7,8/10 de moyenne : Engadget 8,4/10, TechRadar, PhotoTrend, Chip.de, tuttoteK et FrAndroid 8/10, Labo Fnac et RTings 7/10.\n\nLes tests aiment le capteur de 40 MP, la stabilisation jusqu'à 7 arrêts, le cadran de simulation de films et la vidéo 6K. La prise en main est jugée agréable.\n\nLes critiques portent sur le placement du joystick et des boutons, une poignée un peu petite, une rafale moyenne, un écran sans fonction selfie et l'absence de protection contre les intempéries. Les deux notes de 7/10 de Labo Fnac et RTings expliquent la moyenne.",
+  "sources": [
+   "Engadget",
+   "TechRadar",
+   "PhotoTrend",
+   "Chip.de",
+   "FrAndroid",
+   "Labo Fnac",
+   "RTings"
+  ]
+ },
+ {
+  "id": "fujifilm-x-e5",
+  "texte": "Quatre médias notent le X-E5, pour 8,75/10 de moyenne : Labo Fnac 10/10, FrAndroid 9/10, Trusted Reviews et Chip.de 8/10.\n\nLes tests louent le piqué de la définition de 40 MP, les couleurs et simulations de films Fujifilm, une stabilisation mécanique efficace et le plaisir de prise de vue de ce boîtier au style rétro.\n\nLes limites relevées : un suivi autofocus pris en défaut en conditions difficiles, une ergonomie limitée avec les objectifs lourds, un écran tactile parfois trop sensible et un boîtier pas entièrement étanche. Il va aux amateurs de photo de rue et de voyage.",
+  "sources": [
+   "Labo Fnac",
+   "FrAndroid",
+   "Trusted Reviews",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "sony-a6700",
+  "texte": "Trois médias chiffrent l'A6700, pour une moyenne de 8,9/10 : Labo Fnac 10/10, Engadget 8,8/10 et Camera Jabber 8/10.\n\nLes tests retiennent les couleurs, la qualité optique, un capteur sensible même en basse lumière, la stabilisation sur 5 axes, le viseur électronique et l'écran pivotant pour les vidéos et les selfies.\n\nLes réserves : un seul emplacement de carte, un risque de surchauffe en vidéo, un suivi limité à 11 images par seconde et un système de menus complexe pour les débutants. Avec trois notes, sa place reste moins établie que celle de modèles plus testés.",
+  "sources": [
+   "Labo Fnac",
+   "Engadget",
+   "Camera Jabber"
+  ]
+ },
+ {
+  "id": "nikon-z5-ii",
+  "texte": "Quatre médias notent le Z5 II, pour 8,5/10 de moyenne : Les Numériques 10/10, Chip.de, FrAndroid et PhotoTrend 8/10.\n\nLes tests apprécient son rapport qualité-prix pour un plein format, un boîtier solide sans être lourd, un viseur agréable, un autofocus efficace et la qualité des JPEG.\n\nIls regrettent l'endurance de la batterie, une rafale à 30 i/s réservée au JPEG, un passage au noir en rafale et un capteur non empilé, qui cause du rolling shutter en obturation numérique. La construction est jugée un peu moins soignée que sur ses aînés.",
+  "sources": [
+   "Les Numériques",
+   "Chip.de",
+   "FrAndroid",
+   "PhotoTrend"
+  ]
+ },
+ {
+  "id": "nikon-z6-iii",
+  "texte": "Cinq médias notent le Z6 III, pour 9,6/10 de moyenne : Digital Camera World, TechRadar et Labo Fnac 10/10, FrAndroid et PhotoTrend 9/10.\n\nLes tests retiennent un très bon autofocus, une excellente prise en main, des cadences d'image élevées et des capacités vidéo poussées, avec le format MP4 Lite plus léger à traiter.\n\nLes critiques sont peu nombreuses : un prix élevé, une résolution inchangée, un chargeur non fourni et l'absence d'écran OLED. C'est le modèle le mieux noté de la sélection et le plus cher.",
+  "sources": [
+   "Digital Camera World",
+   "TechRadar",
+   "Labo Fnac",
+   "FrAndroid",
+   "PhotoTrend"
+  ]
  }
 ]
