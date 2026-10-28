@@ -1,185 +1,182 @@
 [
  {
   "id": "dreame-h15-pro",
-  "texte": "Quinze médias notent le H15 Pro et la plupart convergent autour de 8/10. Basic Tutorials et Labo Fnac (9,4) sont les plus enthousiastes, Journal du Geek suit à 9, tandis que FrAndroid et Les Numériques s'arrêtent à 7.\n\nLes tests recensés retiennent une aspiration puissante, un lavage à l'eau chaude efficace, un mode automatique et la pose à plat sous les meubles. Côté réserves : un prix élevé, une application nécessaire pour accéder à toutes les fonctions, l'absence de lumière à l'avant et un dosage du détergent manuel.",
+  "texte": "Sur 16 notes de presse, Dreame H15 Pro affiche 8,2/10 de moyenne. Labo Fnac place la barre à 10, tandis que Tom's Guide (US) descend à 6. Entre ces deux pôles, Basic Tutorials, Journal du Geek et Mac Sources se placent dans la zone centrale, la médiane étant à 8. L'écart entre les notes extrêmes est de 4 points.\n\nLes tests recensés retiennent une aspiration puissante, un lavage à l'eau chaude efficace, un mode automatique et la pose à plat sous les meubles. Côté réserves : un prix élevé, une application nécessaire pour accéder à toutes les fonctions, l'absence de lumière à l'avant et un dosage du détergent manuel.",
   "sources": [
-   "Basic Tutorials",
    "Labo Fnac",
+   "Tom's Guide (US)",
+   "Basic Tutorials",
    "Journal du Geek",
-   "FrAndroid",
-   "Les Numériques"
+   "Mac Sources"
   ]
  },
  {
   "id": "narwal-flow-2",
-  "texte": "Le Flow 2 reçoit douze notes allant de 8 à 9,6. TechTest est le plus élogieux (9,6), suivi d'AndroidWorld, Basic Tutorials et Presse Citron (9) ; 01net, CharlesTech, Chip.de et FrAndroid restent à 8.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
+  "texte": "TechTest offre le meilleur accueil au Narwal Flow 2 (9,7/10), face à 8 chez 01net et Chip.de. La moyenne des 13 médias ressort à 8,5/10. Entre ces deux pôles, Basic Tutorials, AndroidWorld et CharlesTech se placent dans la zone centrale, la médiane étant à 8. L'écart entre les notes extrêmes est de 1,7 points.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
   "sources": [
    "TechTest",
-   "AndroidWorld",
-   "Basic Tutorials",
-   "Presse Citron",
    "01net",
-   "Chip.de"
-  ]
- },
- {
-  "id": "dyson-v16-piston-animal",
-  "texte": "Onze notes, plus dispersées que pour les autres balais : Trusted Reviews attribue 10, Les Numériques, T3 ou Journal du Geek 8, alors que FrAndroid et ImTest ne vont pas au-delà de 6.\n\nLes tests recensés apprécient le nettoyage, la conception soignée, l'ajustement automatique de la puissance et la force d'aspiration. Ils déplorent un prix élevé, un balai qui ne tient pas debout seul, un mécanisme d'essuyage automatique décevant et des performances d'aspiration jugées en retrait pour un Dyson.\n\nEn résumé, un balai très puissant dont la note moyenne est tirée vers le bas par deux avis plus sévères ; il convient à qui veut le dernier Dyson et accepte son prix.",
-  "sources": [
-   "Trusted Reviews",
-   "Les Numériques",
-   "T3",
-   "Journal du Geek",
-   "FrAndroid",
-   "ImTest"
-  ]
- },
- {
-  "id": "dreame-z30",
-  "texte": "Huit notes entre 7 et 9,4. L&B Tech se détache avec 9,4 ; Basic Tutorials, CharlesTech, Chip.de, LeCafeDuGeek, Tech Advisor et Tom's Guide (FR) donnent 8 ; AndroidWorld descend à 7.\n\nLes tests recensés mentionnent la batterie amovible, le design, un prix modéré et le grand nombre d'accessoires. Les critiques portent sur un réservoir un peu petit, un effet plastique général, un corps lourd et peu maniable, et un tarif jugé assez élevé par certains.\n\nLa note moyenne de 8,1/10 repose sur huit médias, dont plusieurs récents : c'est un choix cohérent pour qui veut de la puissance sans payer le prix d'un Dyson.",
-  "sources": [
-   "L&B Tech",
-   "Basic Tutorials",
    "Chip.de",
-   "Tom's Guide (FR)",
+   "Basic Tutorials",
    "AndroidWorld"
   ]
  },
  {
-  "id": "tineco-floor-one-s9-artist",
-  "texte": "Huit notes entre 6 et 9,1 : Basic Tutorials, Clubic et FrAndroid sont au-dessus de 9, Chip.de, Journal du Geek et LeCafeDuGeek à 8, Tom's Guide (US) à 7 et Presse Citron à 6.\n\nLes tests recensés vantent le design élégant, l'aspiration, le nettoyage et la facilité d'entretien, avec une solution de lavage fournie. Les reproches reviennent sur le prix, qualifié d'élevé voire de très élevé, un poids sensible à la longue et un bouton de réglage au fonctionnement confus.\n\nLes avis sont favorables sur l'efficacité, mais le prix et la prise en main pèsent dans les notes les plus basses : il s'adresse à qui privilégie le résultat de lavage.",
+  "id": "dyson-v16-piston-animal",
+  "texte": "Le Dyson V16 Piston Animal cumule 11 notes comprises entre 6 et 10. La plus généreuse vient de Absolute Geeks et Trusted Reviews, la plus sévère de ImTest ; la moyenne s'établit à 8,1/10. La médiane des notes est de 8/10 ; Chip.de, ExpertReviews et Journal du Geek complètent le panel. L'écart entre les notes extrêmes est de 4 points.\n\nLes tests recensés apprécient le nettoyage, la conception soignée, l'ajustement automatique de la puissance et la force d'aspiration. Ils déplorent un prix élevé, un balai qui ne tient pas debout seul, un mécanisme d'essuyage automatique décevant et des performances d'aspiration jugées en retrait pour un Dyson.",
   "sources": [
+   "Absolute Geeks",
+   "Trusted Reviews",
+   "ImTest",
+   "Chip.de",
+   "ExpertReviews"
+  ]
+ },
+ {
+  "id": "dreame-z30",
+  "texte": "À 8,2/10 en moyenne, le Dreame Z30 est jugé par 9 médias. On trouve 10 chez L&B Tech et 6 chez Presse Citron. La médiane des notes est de 8/10 ; Basic Tutorials, AndroidWorld et CharlesTech complètent le panel. Cela fait 4 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés mentionnent la batterie amovible, le design, un prix modéré et le grand nombre d'accessoires. Les critiques portent sur un réservoir un peu petit, un effet plastique général, un corps lourd et peu maniable, et un tarif jugé assez élevé par certains.",
+  "sources": [
+   "L&B Tech",
+   "Presse Citron",
    "Basic Tutorials",
+   "AndroidWorld",
+   "CharlesTech"
+  ]
+ },
+ {
+  "id": "tineco-floor-one-s9-artist",
+  "texte": "Côté presse, 9 avis chiffrés pour le Tineco Floor One S9 Artist, moyenne 8,2/10. Le sommet (10) est atteint par Clubic.com ; le plancher (6) par Neozone. Au centre, Basic Tutorials, FrAndroid et LeCafeDuGeek tranchent sans excès, autour d'une médiane de 8. Cela fait 4 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés vantent le design élégant, l'aspiration, le nettoyage et la facilité d'entretien, avec une solution de lavage fournie. Les reproches reviennent sur le prix, qualifié d'élevé voire de très élevé, un poids sensible à la longue et un bouton de réglage au fonctionnement confus.",
+  "sources": [
    "Clubic.com",
+   "Neozone",
+   "Basic Tutorials",
    "FrAndroid",
-   "Tom's Guide (US)",
-   "Presse Citron"
+   "LeCafeDuGeek"
   ]
  },
  {
   "id": "dreame-h12-pro",
-  "texte": "Sept notes, de 8 à 9,6 : TechTest (9,6) et Basic Tutorials (9,3) mènent le groupe, CharlesTech, Chip.de, LeCafeDuGeek, Les Numériques et Maison et Domotique donnent 8.\n\nLes tests recensés citent le nettoyage intelligent, le rouleau bord à bord, l'autonettoyage avec séchage de la brosse et le mode électrolyse pour la désinfection. Ils notent une recharge un peu longue, un appareil lourd et peu maniable, une tête de lavage imposante et un mode « ultra » peu utile.\n\nAvec 8,4/10 sur sept médias, c'est l'un des balais laveurs les mieux notés, mais son poids est un vrai point de vigilance si l'appareil doit monter des escaliers.",
+  "texte": "Notre moyenne de 8,5/10 pour le Dreame H12 Pro agrège 8 médias. CharlesTech et Chip.de se montrent le plus réservé (8) quand TechTest monte jusqu'à 9,5. Au centre, Basic Tutorials et Maison et Domotique tranchent sans excès, autour d'une médiane de 8. Cela fait 1,5 points d'amplitude entre l'avis le plus sévère et le plus favorable. Dans l'ordre décroissant : TechTest (9,5), Basic Tutorials (9,3), Maison et Domotique (9), CharlesTech (8), Chip.de (8), LeCafeDuGeek (8), Les Numériques (8), Mac Sources (8).\n\nLes tests recensés citent le nettoyage intelligent, le rouleau bord à bord, l'autonettoyage avec séchage de la brosse et le mode électrolyse pour la désinfection. Ils notent une recharge un peu longue, un appareil lourd et peu maniable, une tête de lavage imposante et un mode « ultra » peu utile.",
   "sources": [
    "TechTest",
-   "Basic Tutorials",
    "CharlesTech",
-   "Les Numériques",
+   "Chip.de",
+   "Basic Tutorials",
    "Maison et Domotique"
   ]
  },
  {
   "id": "mova-v70-ultra",
-  "texte": "Sept notes pour le V70 Ultra : Basic Tutorials (9,4), AndroidWorld et FrAndroid (9) sont les plus convaincus, Journal du Geek donne 8,5, Clubic et Neozone 8, Tom's Guide (FR) 6.\n\nLes tests recensés retiennent la vadrouille extensible qui atteint 16 cm sous les meubles, le franchissement de marches de 4,5 cm (9 cm en transitions composées), la station sans sac et la brosse DuoBrush anti-enchevêtrement. Ils pointent un prix d'achat élevé, un petit rouleau qui ramasse encore des poils isolés et une détection d'obstacles prise en défaut sur un support plat.",
+  "texte": "Les 8 tests chiffrés du Mova V70 Ultra donnent 8,4/10 en moyenne. Basic Tutorials : 9,4. TechRadar : 6. Entre ces deux pôles, AndroidWorld, Clubic.com et FrAndroid se placent dans la zone centrale, la médiane étant à 8,8. Les différences de barème entre rédactions expliquent en partie les 3,4 points d'écart observés.\n\nLes tests recensés retiennent la vadrouille extensible qui atteint 16 cm sous les meubles, le franchissement de marches de 4,5 cm (9 cm en transitions composées), la station sans sac et la brosse DuoBrush anti-enchevêtrement. Ils pointent un prix d'achat élevé, un petit rouleau qui ramasse encore des poils isolés et une détection d'obstacles prise en défaut sur un support plat.",
   "sources": [
    "Basic Tutorials",
+   "TechRadar",
    "AndroidWorld",
-   "FrAndroid",
-   "Journal du Geek",
-   "Tom's Guide (FR)"
+   "Clubic.com",
+   "FrAndroid"
   ]
  },
  {
   "id": "dji-romo-p2",
-  "texte": "Six notes entre 8 et 9,6 : FrAndroid (9,6) et TechTest (9,3) en tête, Basic Tutorials et Maison et Domotique à 9, AndroidWorld et Journal du Geek à 8. La moyenne repose sur peu de tests, tous récents.\n\nLes tests recensés saluent la cartographie et l'évitement d'obstacles, la puissance sur tapis épais et parquet, des jambes robotisées qui franchissent 8,5 cm et un bras oscillant qui lave sous les meubles. Ils notent un tarif premium, un design transparent qui ne fera pas l'unanimité et un assistant vocal indisponible dans certains pays au lancement.",
+  "texte": "Avec 7 médias et une moyenne de 9/10, le DJI Romo P2 reçoit des avis plutôt contrastés : 10 pour FrAndroid, 8 pour AndroidWorld et Les Numériques. Entre ces deux pôles, TechTest, Basic Tutorials et Journal du Geek se placent dans la zone centrale, la médiane étant à 9. Les différences de barème entre rédactions expliquent en partie les 2 points d'écart observés.\n\nLes tests recensés saluent la cartographie et l'évitement d'obstacles, la puissance sur tapis épais et parquet, des jambes robotisées qui franchissent 8,5 cm et un bras oscillant qui lave sous les meubles. Ils notent un tarif premium, un design transparent qui ne fera pas l'unanimité et un assistant vocal indisponible dans certains pays au lancement.",
   "sources": [
    "FrAndroid",
+   "AndroidWorld",
+   "Les Numériques",
    "TechTest",
-   "Basic Tutorials",
-   "Maison et Domotique",
-   "Journal du Geek"
+   "Basic Tutorials"
   ]
  },
  {
   "id": "roborock-qrevo-maxv",
-  "texte": "Six notes seulement, mais homogènes : CharlesTech, FrAndroid et Les Numériques donnent 9, Chip.de, PhonAndroid et Presse Citron 8.\n\nLes tests recensés apprécient l'automatisation des tâches d'entretien, l'application très complète, la navigation méthodique et la détection d'obstacles. Ils reprochent une station imposante, une aspiration moins efficace sur les tapis à poils longs, plusieurs passages nécessaires sur les taches incrustées et une serpillière FlexiArm mal exploitée.\n\nLes notes sont régulières entre 8 et 9, sans avis très négatif : un robot sûr, dont les principales limites sont l'encombrement de la station et les tapis épais à poils longs.",
+  "texte": "Sur 7 notes de presse, Roborock Qrevo MaxV affiche 8,7/10 de moyenne. Les Numériques place la barre à 10, tandis que Chip.de et Journal du Geek descendent à 8. La médiane des notes est de 9/10 ; CharlesTech, FrAndroid et Presse Citron complètent le panel. Les différences de barème entre rédactions expliquent en partie les 2 points d'écart observés.\n\nLes tests recensés apprécient l'automatisation des tâches d'entretien, l'application très complète, la navigation méthodique et la détection d'obstacles. Ils reprochent une station imposante, une aspiration moins efficace sur les tapis à poils longs, plusieurs passages nécessaires sur les taches incrustées et une serpillière FlexiArm mal exploitée.",
   "sources": [
-   "CharlesTech",
-   "FrAndroid",
    "Les Numériques",
    "Chip.de",
-   "Presse Citron"
+   "Journal du Geek",
+   "CharlesTech",
+   "FrAndroid"
   ]
  },
  {
   "id": "samsung-bespoke-jet",
-  "texte": "Six notes entre 7 et 9 : HardwareZone (9) et Tech Advisor (8,5) sont les plus favorables, Les Numériques, TechRadar et TechStage donnent 8, RTings 7.\n\nLes tests recensés mettent en avant la station d'extraction ingénieuse, la forte aspiration et une bonne prise en main. Ils regrettent un prix élevé, un accès au filtre HEPA peu pratique et une seconde batterie qui ne se recharge pas sur la station.\n\nLa station qui vide le bac fait l'unanimité sur le confort ; le prix, cité par plusieurs médias, explique les notes les plus modestes de la série.",
+  "texte": "TechStage offre le meilleur accueil au Samsung Bespoke Jet (10/10), face à 7 chez DigitalTrends et RTings. La moyenne des 7 médias ressort à 8,1/10. La médiane des notes est de 8/10 ; Tech Advisor, HardwareZone et Les Numériques complètent le panel. L'écart entre les notes extrêmes est de 3 points. Dans l'ordre décroissant : TechStage (10), Tech Advisor (8,5), HardwareZone (8), Les Numériques (8), TechRadar (8), DigitalTrends (7), RTings (7).\n\nLes tests recensés mettent en avant la station d'extraction ingénieuse, la forte aspiration et une bonne prise en main. Ils regrettent un prix élevé, un accès au filtre HEPA peu pratique et une seconde batterie qui ne se recharge pas sur la station.",
   "sources": [
-   "HardwareZone",
+   "TechStage",
+   "DigitalTrends",
+   "RTings",
    "Tech Advisor",
-   "Les Numériques",
-   "TechRadar",
-   "RTings"
+   "HardwareZone"
   ]
  },
  {
   "id": "tineco-floor-one-s7-pro",
-  "texte": "Six notes dispersées : TechTest (9,3) et Basic Tutorials (9) sont les plus élogieux, CharlesTech, TechRadar et Tom's Guide (FR) donnent 8, Chip.de seulement 6.\n\nLes tests recensés citent une forte aspiration, le lavage à la serpillière, l'auto-propulsion qui rend le passage sans effort, plusieurs modes et une belle forme. Ils retiennent aussi un réservoir d'eau de 0,85 L, le réservoir d'eau sale à vider et rincer après chaque usage, une autonomie courte et un prix salé.\n\nLa dispersion des notes (de 6 à 9,3) montre un appareil apprécié pour son confort d'usage mais sensible à ses limites de capacité et d'autonomie.",
+  "texte": "Le Tineco Floor One S7 Pro cumule 7 notes comprises entre 6 et 9,5. La plus généreuse vient de TechTest, la plus sévère de Neozone ; la moyenne s'établit à 8,3/10. Au centre, Basic Tutorials, CharlesTech et Chip.de tranchent sans excès, autour d'une médiane de 8. L'écart entre les notes extrêmes est de 3,5 points.\n\nLes tests recensés citent une forte aspiration, le lavage à la serpillière, l'auto-propulsion qui rend le passage sans effort, plusieurs modes et une belle forme. Ils retiennent aussi un réservoir d'eau de 0,85 L, le réservoir d'eau sale à vider et rincer après chaque usage, une autonomie courte et un prix salé.",
   "sources": [
    "TechTest",
+   "Neozone",
    "Basic Tutorials",
-   "TechRadar",
-   "Tom's Guide (FR)",
+   "CharlesTech",
    "Chip.de"
   ]
  },
  {
   "id": "dreame-h14",
-  "texte": "Cinq notes, toutes à 8 : CharlesTech, FrAndroid, LeCafeDuGeek, Maison et Domotique et TechTest s'accordent, sans voix discordante.\n\nLes tests recensés relèvent d'excellentes performances de nettoyage, un design agréable, l'intégration à l'application et la capacité à se coucher à 180 degrés. Ils signalent une autonomie limitée, un poids un peu conséquent et un tarif jugé élevé par certains.\n\nLes avis sont unanimes à 8/10 : c'est un appareil sans surprise, bien noté pour le nettoyage, dont les limites sont l'autonomie et le poids.",
+  "texte": "À 8,2/10 en moyenne, le Dreame H14 est jugé par 6 médias. On trouve 9,5 chez TechTest et 8 chez CharlesTech et Chip.de. L'écart entre les notes extrêmes est de 1,5 points. Dans l'ordre décroissant : TechTest (9,5), CharlesTech (8), Chip.de (8), FrAndroid (8), LeCafeDuGeek (8), Maison et Domotique (8).\n\nLes tests recensés relèvent d'excellentes performances de nettoyage, un design agréable, l'intégration à l'application et la capacité à se coucher à 180 degrés. Ils signalent une autonomie limitée, un poids un peu conséquent et un tarif jugé élevé par certains.",
   "sources": [
+   "TechTest",
    "CharlesTech",
-   "FrAndroid",
-   "LeCafeDuGeek",
-   "Maison et Domotique",
-   "TechTest"
+   "Chip.de"
   ]
  },
  {
   "id": "dyson-v11-absolute",
-  "texte": "Cinq notes très hautes : ExpertReviews, Les Numériques, Pocket-lint et Trusted Reviews donnent 10, Chip.de 8,3. Attention, ces tests datent de la sortie du modèle, en 2019.\n\nLes tests recensés louent l'aspiration très puissante, l'ajustement automatique de la puissance, l'écran d'autonomie restante et la polyvalence sur escaliers, tapis, sols durs et poils d'animaux. Ils regrettent une seule batterie, un prix élevé, l'impossibilité de charger et d'utiliser l'appareil en même temps, et un bruit gênant à vide.",
+  "texte": "Côté presse, 5 avis chiffrés pour le Dyson V11 Absolute, moyenne 9,7/10. Le sommet (10) est atteint par ExpertReviews, Les Numériques et Pocket-lint ; le plancher (8,3) par Chip.de. Cela fait 1,7 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés louent l'aspiration très puissante, l'ajustement automatique de la puissance, l'écran d'autonomie restante et la polyvalence sur escaliers, tapis, sols durs et poils d'animaux. Ils regrettent une seule batterie, un prix élevé, l'impossibilité de charger et d'utiliser l'appareil en même temps, et un bruit gênant à vide.",
   "sources": [
    "ExpertReviews",
    "Les Numériques",
    "Pocket-lint",
-   "Trusted Reviews",
    "Chip.de"
   ]
  },
  {
   "id": "dyson-v12-detect-slim",
-  "texte": "Cinq notes entre 8 et 9 : ExpertReviews donne 9, 91mobiles.com, Gadget Bridge, GadgetGear et RTings 8.\n\nLes tests recensés mentionnent le poids léger, l'aspiration puissante, la lumière de la brosse et les mêmes accessoires que le V15. Ils notent un prix élevé, une capacité de bac et une aspiration inférieures à celles du V15, et des têtes de sol à changer selon les surfaces.\n\nLes notes sont constantes entre 8 et 9 : un balai léger et efficace, à choisir si la compacité prime sur la capacité du bac.",
+  "texte": "Notre moyenne de 8,5/10 pour le Dyson V12 Detect Slim agrège 6 médias. 91mobiles.com et Gadget Bridge se montrent le plus réservé (8) quand ExpertReviews monte jusqu'à 10. Entre ces deux pôles, GadgetGear se place dans la zone centrale, la médiane étant à 8. Cela fait 2 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés mentionnent le poids léger, l'aspiration puissante, la lumière de la brosse et les mêmes accessoires que le V15. Ils notent un prix élevé, une capacité de bac et une aspiration inférieures à celles du V15, et des têtes de sol à changer selon les surfaces.",
   "sources": [
    "ExpertReviews",
    "91mobiles.com",
    "Gadget Bridge",
-   "GadgetGear",
-   "RTings"
+   "GadgetGear"
   ]
  },
  {
   "id": "dreame-r20",
-  "texte": "Quatre notes : LeCafeDuGeek, Les Numériques et Tom's Guide (FR) donnent 8, TechRadar 6.\n\nLes tests recensés citent de bonnes performances d'aspiration, un mode continu ou fractionné, une grande endurance en mode auto et une filtration multicyclonique. Ils conseillent de choisir la tête adaptée à la surface, notent que la brosse dure repousse les détritus vers l'arrière et que l'autonomie baisse en mode turbo, et relèvent un bac à poussière de seulement 0,6 L.\n\nLa note moyenne de 7,5/10 s'explique surtout par l'avis plus sévère de TechRadar ; les trois autres médias sont à 8, signe d'un balai endurant et abordable.",
+  "texte": "Les 5 tests chiffrés du Dreame R20 donnent 8/10 en moyenne. Les Numériques : 10. Neozone : 6. La médiane des notes est de 8/10 ; LeCafeDuGeek, TechRadar et Tom's Guide (FR) complètent le panel. Cela fait 4 points d'amplitude entre l'avis le plus sévère et le plus favorable. Dans l'ordre décroissant : Les Numériques (10), LeCafeDuGeek (8), TechRadar (8), Tom's Guide (FR) (8), Neozone (6).\n\nLes tests recensés citent de bonnes performances d'aspiration, un mode continu ou fractionné, une grande endurance en mode auto et une filtration multicyclonique. Ils conseillent de choisir la tête adaptée à la surface, notent que la brosse dure repousse les détritus vers l'arrière et que l'autonomie baisse en mode turbo, et relèvent un bac à poussière de seulement 0,6 L.",
   "sources": [
-   "LeCafeDuGeek",
    "Les Numériques",
-   "Tom's Guide (FR)",
-   "TechRadar"
+   "Neozone",
+   "LeCafeDuGeek",
+   "TechRadar",
+   "Tom's Guide (FR)"
   ]
  },
  {
   "id": "dyson-v15-detect-absolute",
-  "texte": "Quatre notes : Les Numériques et Stuff donnent 10, Chip.de et L&B Tech 8. Les tests datent de 2021-2022, à la sortie du modèle.\n\nLes tests recensés retiennent un grand nombre d'accessoires, la brosse anti-enchevêtrement efficace sur les poils d'animaux, davantage de puissance et d'autonomie, et le fonctionnement des capteurs acoustique et laser. Ils jugent l'appareil extrêmement cher, ces capteurs parfois excessifs et la lecture des données de poussière surtout utile aux passionnés.\n\nLes notes de 10 ont été attribuées à la sortie du modèle ; le V15 reste la référence des balais haut de gamme, au prix de l'un des plus élevés de la sélection.",
+  "texte": "Avec 5 médias et une moyenne de 9,2/10, le Dyson V15 Detect Absolute reçoit des avis plutôt contrastés : 10 pour L&B Tech, Les Numériques et Stuff, 8 pour Chip.de et HardwareZone. Les différences de barème entre rédactions expliquent en partie les 2 points d'écart observés. Dans l'ordre décroissant : L&B Tech (10), Les Numériques (10), Stuff (10), Chip.de (8), HardwareZone (8).\n\nLes tests recensés retiennent un grand nombre d'accessoires, la brosse anti-enchevêtrement efficace sur les poils d'animaux, davantage de puissance et d'autonomie, et le fonctionnement des capteurs acoustique et laser. Ils jugent l'appareil extrêmement cher, ces capteurs parfois excessifs et la lecture des données de poussière surtout utile aux passionnés.",
   "sources": [
+   "L&B Tech",
    "Les Numériques",
    "Stuff",
    "Chip.de",
-   "L&B Tech"
+   "HardwareZone"
   ]
  },
  {
   "id": "mova-m50-ultra",
-  "texte": "Quatre notes : Basic Tutorials, FrAndroid et LeCafeDuGeek donnent 8, Les Numériques 7.\n\nLes tests recensés mentionnent le manche pliable et extensible, l'aspiration puissante, le lavage efficace, la station d'accueil avec séchage rapide et la bonne gestion des liquides et saletés. Ils regrettent l'absence de lavage du sol à l'eau chaude, un niveau sonore perfectible, l'absence de phare LED et une brosse accessible avec un tournevis.\n\nPeu de médias l'ont testé pour l'instant, mais les avis sont homogènes ; son manche pliable est la principale originalité face aux autres balais laveurs.",
+  "texte": "Sur 5 notes de presse, Mova M50 Ultra affiche 8/10 de moyenne. Basic Tutorials place la barre à 9,2, tandis que CharlesTech descend à 7. Au centre, FrAndroid, LeCafeDuGeek et Les Numériques tranchent sans excès, autour d'une médiane de 8. Les différences de barème entre rédactions expliquent en partie les 2,2 points d'écart observés.\n\nLes tests recensés mentionnent le manche pliable et extensible, l'aspiration puissante, le lavage efficace, la station d'accueil avec séchage rapide et la bonne gestion des liquides et saletés. Ils regrettent l'absence de lavage du sol à l'eau chaude, un niveau sonore perfectible, l'absence de phare LED et une brosse accessible avec un tournevis.",
   "sources": [
    "Basic Tutorials",
+   "CharlesTech",
    "FrAndroid",
    "LeCafeDuGeek",
    "Les Numériques"
@@ -187,43 +184,43 @@
  },
  {
   "id": "roborock-h60-hub",
-  "texte": "Trois notes seulement, basses pour le site : Allround-PC et tuttoteK donnent 7, CharlesTech 6.\n\nLes tests recensés apprécient la base de vidage automatique rapide (10 secondes), la bonne autonomie avec batterie modulaire, la maintenance facile et les bons résultats sur sol dur au niveau maximal. Ils reprochent une base encombrante, des sachets de rechange à racheter, une seule batterie fournie, et estiment que ce ne devrait pas être le premier choix s'il existe un modèle supérieur dans la gamme.",
+  "texte": "Allround-PC offre le meilleur accueil au Roborock H60 Hub (8/10), face à 6 chez Chip.de. La moyenne des 4 médias ressort à 7/10. Au centre, CharlesTech et tuttoteK tranchent sans excès, autour d'une médiane de 7. Les différences de barème entre rédactions expliquent en partie les 2 points d'écart observés.\n\nLes tests recensés apprécient la base de vidage automatique rapide (10 secondes), la bonne autonomie avec batterie modulaire, la maintenance facile et les bons résultats sur sol dur au niveau maximal. Ils reprochent une base encombrante, des sachets de rechange à racheter, une seule batterie fournie, et estiment que ce ne devrait pas être le premier choix s'il existe un modèle supérieur dans la gamme.",
   "sources": [
    "Allround-PC",
-   "tuttoteK",
-   "CharlesTech"
-  ]
- },
- {
-  "id": "samsung-jet-90",
-  "texte": "Trois notes identiques : DigitalTrends, Les Numériques et TechStage donnent chacun 8.\n\nLes tests recensés citent le filtre HEPA qui retient les poussières fines, un jeu d'outils polyvalent, la station de charge incluse et une construction légère. Ils relèvent une brosse qui peut encore s'emmêler avec les cheveux, 3 h 30 de recharge, un prix élevé et l'absence de nettoyage humide.\n\nLes trois tests donnent la même note, mais le modèle date : c'est un balai polyvalent à comparer aux nouveautés avant de l'acheter à ce prix.",
-  "sources": [
-   "DigitalTrends",
-   "Les Numériques",
-   "TechStage"
-  ]
- },
- {
-  "id": "roborock-saros-10r",
-  "texte": "Cinq notes, très regroupées : Basic Tutorials, FrAndroid, LeCafeDuGeek et Chip.de donnent 8, tuttoteK 7.\n\nLes tests recensés apprécient la qualité d'aspiration, les performances de nettoyage, la brosse et la serpillière extensibles qui atteignent les coins, la station multifonction bien conçue et l'application intuitive. Ils notent aussi un entretien facilité, avec peu de cheveux et de poils d'animaux enroulés dans la brosse. Ils reprochent le prix élevé, une navigation perfectible avec quelques hésitations dans les zones étroites, un lavage moins efficace qu'une serpillière vibrante et un sac à poussière jetable, donc un consommable récurrent.\n\nLes notes restent entre 7 et 8, sans avis très enthousiaste ni très négatif : un robot complet, qui s'enroule peu avec les poils d'animaux, dont le tarif et la navigation sont les principaux bémols.",
-  "sources": [
-   "Basic Tutorials",
-   "FrAndroid",
-   "LeCafeDuGeek",
    "Chip.de",
+   "CharlesTech",
    "tuttoteK"
   ]
  },
  {
+  "id": "samsung-jet-90",
+  "texte": "Le Samsung Jet 90 cumule 4 notes comprises entre 8 et 10. La plus généreuse vient de TechStage, la plus sévère de 91mobiles.com et DigitalTrends ; la moyenne s'établit à 8,5/10. L'écart entre les notes extrêmes est de 2 points.\n\nLes tests recensés citent le filtre HEPA qui retient les poussières fines, un jeu d'outils polyvalent, la station de charge incluse et une construction légère. Ils relèvent une brosse qui peut encore s'emmêler avec les cheveux, 3 h 30 de recharge, un prix élevé et l'absence de nettoyage humide.",
+  "sources": [
+   "TechStage",
+   "91mobiles.com",
+   "DigitalTrends"
+  ]
+ },
+ {
+  "id": "roborock-saros-10r",
+  "texte": "À 8,1/10 en moyenne, le Roborock Saros 10R est jugé par 6 médias. On trouve 9,5 chez Basic Tutorials et 7 chez RTings. Entre ces deux pôles, Chip.de, FrAndroid et LeCafeDuGeek se placent dans la zone centrale, la médiane étant à 8. L'écart entre les notes extrêmes est de 2,5 points.\n\nLes tests recensés apprécient la qualité d'aspiration, les performances de nettoyage, la brosse et la serpillière extensibles qui atteignent les coins, la station multifonction bien conçue et l'application intuitive. Ils notent aussi un entretien facilité, avec peu de cheveux et de poils d'animaux enroulés dans la brosse. Ils reprochent le prix élevé, une navigation perfectible avec quelques hésitations dans les zones étroites, un lavage moins efficace qu'une serpillière vibrante et un sac à poussière jetable, donc un consommable récurrent.",
+  "sources": [
+   "Basic Tutorials",
+   "RTings",
+   "Chip.de",
+   "FrAndroid",
+   "LeCafeDuGeek"
+  ]
+ },
+ {
   "id": "ecovacs-deebot-t90-pro-omni",
-  "texte": "Six notes, avec un écart notable : TechTest et Journal du Geek donnent 9, FrAndroid, LeCafeDuGeek et CharlesTech 8, Clubic 6.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.\n\nLes notes vont de 6 à 9 : un accueil plutôt favorable, avec un lavage au rouleau très apprécié ; les tapis épais et les bords de pièce restent les principales limites.",
+  "texte": "Côté presse, 7 avis chiffrés pour le Ecovacs Deebot T90 Pro Omni, moyenne 8,2/10. Le sommet (9,5) est atteint par TechTest ; le plancher (6) par ImTest. La médiane des notes est de 8/10 ; FrAndroid, Journal du Geek et CharlesTech complètent le panel. L'écart entre les notes extrêmes est de 3,5 points.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.",
   "sources": [
    "TechTest",
-   "Journal du Geek",
+   "ImTest",
    "FrAndroid",
-   "LeCafeDuGeek",
-   "CharlesTech",
-   "Clubic.com"
+   "Journal du Geek",
+   "CharlesTech"
   ]
  }
 ]

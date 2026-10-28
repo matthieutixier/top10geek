@@ -7,23 +7,37 @@ UA = {'User-Agent': 'Mozilla/5.0'}
 def get(u): return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=40).read().decode('latin-1')
 def clean(s): return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', s))).strip()
 def fiche(u):
+    """Les notes de CommentChoisir sont affichées AVANT le test qu'elles concernent : le bloc de note porte le nom du média,
+    suivi du bloc « testé le … [lire le test complet sur MÉDIA] ». On apparie donc chaque note au test suivant du même média
+    (correctif du 28/10/2026 : l'ancienne version attribuait la note au test précédent)."""
     h = get(u)
     tests = []
-    blocs = re.split(r'(?=<div class="divtest mt-0">)', h)[1:]
-    for b in blocs:
-        dv = re.match(r'<div class="divtest mt-0">(.*?)</div>', b, re.S)
-        if not dv: continue
-        sc = re.search(r'class="score">(\d+(?:[.,]\d+)?)</strong>.*?<small[^>]*>(\d+)</small>', b[dv.end():dv.end() + 900], re.S)
-        first = True
-        for part in dv.group(1).split('<br>'):
+    pending = None
+    ev = re.compile(r'class="score">(\d+(?:[.,]\d+)?)</strong>(?:(?!divtest mt-0).)*?<small[^>]*>(\d+)</small>(?:(?!divtest mt-0).)*?<strong class="text-black">([^<]*)</strong>'
+                    r'|<div class="divtest mt-0">(.*?)</div>', re.S)
+    norm = lambda x: re.sub(r'[^a-z0-9]', '', html.unescape(x).lower())
+    for m in ev.finditer(h):
+        if m.group(1):
+            pending = (float(m.group(1).replace(',', '.')), float(m.group(2)), html.unescape(m.group(3)).strip())
+            continue
+        for part in m.group(4).split('<br>'):
             lien = re.search(r'<a href="(https?://[^"]+)"[^>]*>\[lire le test complet sur ([^\]]+)\]', part)
             if not lien: continue
+            media = html.unescape(lien.group(2)).strip()
             note = re.search(r'\[(\d+(?:[.,]\d+)?)\s*/\s*(\d+)\]', part)
-            if not note and sc and first: note = sc
-            first = False
+            n10 = None
+            if note:
+                n10 = round(10 * float(note.group(1).replace(',', '.')) / float(note.group(2)), 1)
+            elif pending and norm(pending[2]) == norm(media):
+                n10 = round(10 * pending[0] / pending[1], 1)
+            if pending and norm(pending[2]) == norm(media): pending = None
             date = re.search(r'test.? le (\d\d/\d\d/\d{4})', part)
-            n10 = round(10 * float(note.group(1).replace(',', '.')) / float(note.group(2)), 1) if note else None
-            tests.append(dict(media=html.unescape(lien.group(2)).strip(), note10=n10, date=date.group(1) if date else '', url=lien.group(1)))
+            tests.append(dict(media=media, note10=n10, date=date.group(1) if date else '', url=lien.group(1)))
+    seen = set(); uniq = []
+    for t in tests:
+        if t['url'] in seen: continue
+        seen.add(t['url']); uniq.append(t)
+    tests = uniq
     pros = Counter(); cons = Counter()
     for a in re.findall(r"alert-success[^>]*>(.*?)</div>", h, re.S):
         for l in re.split(r'<br\s*/?>', a):
@@ -33,11 +47,7 @@ def fiche(u):
         for l in re.split(r'<br\s*/?>', a):
             l = clean(l)
             if 3 < len(l) < 140: cons[l] += 1
-    seen = set(); uniq = []
-    for t in tests:
-        if t['url'] in seen: continue
-        seen.add(t['url']); uniq.append(t)
-    return dict(source=u, tests=uniq, pros=[p for p, _ in pros.most_common(12)], cons=[c for c, _ in cons.most_common(12)])
+    return dict(source=u, tests=tests, pros=[p for p, _ in pros.most_common(12)], cons=[c for c, _ in cons.most_common(12)])
 if __name__ == '__main__':
     out = {}
     for u in sys.argv[2:]:
