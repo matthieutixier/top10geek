@@ -58,6 +58,13 @@ SCATS = [
 ]
 
 TCATS = [
+    dict(key="t-prix", slug="petit-prix", label="Petit prix", top_label="téléviseurs à petit prix", h="Petit prix (moins de 600 €)", tag="Bien testés, sans se ruiner", color="var(--cat-lowcost)", cls="f-lowcost", badge="tv-petit-prix",
+         scene="tv-petit-prix", scene_alt="Le père de famille geek, étiquette promo dans une main, un téléviseur sous l'autre bras",
+         seo_title="Meilleurs téléviseurs à petit prix 2026 : moins de 600 € | Top 10 Geek",
+         seo_desc="Les meilleurs téléviseurs à moins de 600 € en 2026, classés par note presse : TCL, Samsung, Hisense, LG, Sony. Prix indicatifs, points forts et faibles.",
+         extra=["hisense-e7q-pro-55", "sony-bravia-3-43", "hisense-u7q-55", "lg-qned85-55", "samsung-qn80f-55"],
+         h1='Les meilleurs <span class="flash">téléviseurs à petit prix</span> en 2026',
+         intro="Moins de 600 € : la presse a testé peu de modèles à ce tarif, mais plusieurs tiennent la comparaison. Voici ceux qui ont des notes chiffrées et une offre d'achat ; certains figurent aussi dans l'usage de leur taille."),
     dict(key="t-petit", slug="petits-formats", label="Petits formats", top_label="téléviseurs jusqu'à 50 pouces", h="Petits formats (jusqu'à 50″)", tag="Pour la chambre ou le bureau", color="var(--cat-creation)", cls="f-creation", badge="tv-petits-formats",
          scene="tv-petits-formats", scene_alt="Le père de famille geek, assis sur un lit d'enfant, un seau de pop-corn dans les bras, devant un petit téléviseur",
          extra=["samsung-qn90f-50"],
@@ -71,6 +78,13 @@ TCATS = [
          scene="tv-65", scene_alt="Le père de famille geek, bras écartés devant un immense écran mural affichant ses applications de streaming",
          h1='Les meilleurs <span class="flash">téléviseurs 65 pouces et plus</span> en 2026',
          intro="À partir de 65 pouces, l'écran devient le centre du salon. Le prix grimpe vite : la presse départage la luminosité, le contraste dans une pièce sombre et le jeu en 120 Hz, et le rapport qualité-prix compte autant que l'image."),
+    dict(key="t-barres", slug="barres-de-son", label="Barres de son", top_label="barres de son", h="Barres de son", tag="Le son à la hauteur de l'image", color="var(--cat-creation)", cls="f-creation", badge="tv-barres-son",
+         scene="tv-barres-son", scene_alt="Le père de famille geek, casque autour du cou, affalé dans son canapé devant une barre de son et ses ondes lumineuses",
+         plural_low="barres de son",
+         seo_title="Meilleures barres de son 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleures barres de son en 2026, classées par note presse : Sonos, Samsung, Sony, JBL, TCL, Hisense. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleures <span class="flash">barres de son</span> en 2026',
+         intro="Les haut-parleurs d'un téléviseur sont rarement à la hauteur : une barre de son change l'expérience pour peu de frais. La presse départage les dialogues, les basses, l'effet Dolby Atmos et le prix ; la sélection va de 109 à 800 €."),
 ]
 
 FAMILIES_NEW = [
@@ -99,7 +113,7 @@ FAMILIES_NEW = [
          usage_title="Meilleurs robots et aspirateurs : {label} 2026, tests et prix | Top 10 Geek",
          usage_desc="Les meilleurs modèles « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
     dict(key="tv", slug="tv", label="Téléviseur", plural="Téléviseurs", plural_low="téléviseurs", cats=TCATS, provisional=False,
-         m_labels=("Technologie", "Atout"), col="Technologie", mascot="pose-tv", noun="téléviseur", noun_det="le téléviseur",
+         m_labels=("Technologie", "Atout"), col="Technologie", mascot="pose-tv", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
          h1='Comparatif téléviseurs 2026 : <span class="flash">le verdict par taille et par usage</span>',
          intro="Les téléviseurs les mieux testés par la presse, avec une note sur 10, un prix indicatif relevé chez Amazon et les liens vers les marchands.",
          title="Meilleur téléviseur 2026 : tous les tests par taille | Top 10 Geek",

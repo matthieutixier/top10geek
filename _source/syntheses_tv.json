@@ -144,5 +144,78 @@
    "What Hi-Fi?"
   ],
   "texte": "Le Bravia 3 de Sony a été noté par quatre médias, pour 6,5/10 de moyenne : RTings et FrAndroid lui donnent 7, PhonAndroid et What Hi-Fi? 6. L'ensemble reste modeste, mais le prix suivi pour le 65 pouces est l'un des plus bas de la sélection. Les notes concernent la série et non cette diagonale précise.\n\nLes avis retiennent le traitement d'image Sony, Google TV, le HDMI 2.1 et un prix attractif. Ils relèvent un HDR manquant de luminosité, des reflets gérés surtout de face, une dalle native 50/60 Hz et un son intégré moyen pour regarder des films."
+ },
+ {
+  "id": "tcl-p7k-65",
+  "sources": [
+   "T3",
+   "ExpertReviews",
+   "What Hi-Fi?",
+   "Trusted Reviews"
+  ],
+  "texte": "Le P7K de TCL a séduit quatre médias — T3, ExpertReviews, What Hi-Fi? et Trusted Reviews — qui lui donnent tous 8/10. Cette unanimité est rare à ce prix, d'autant que le 65 pouces suivi ici se vend moins de 560 €. Les notes portent sur la série P7K.\\n\\nLes avis retiennent des images détaillées aux couleurs équilibrées, un HDR complet, des réglages bien conçus et un bon rapport qualité-prix. Ils pointent un son plat, des défauts de rétroéclairage visibles dans les scènes sombres et un upscaling 4K qui n'est pas le meilleur."
+ },
+ {
+  "id": "samsung-u8000f-55",
+  "sources": [
+   "What Hi-Fi?",
+   "ExpertReviews"
+  ],
+  "texte": "Le Crystal UHD U8000F de Samsung est noté par What Hi-Fi? (8 sur la version 43 pouces, 10 sur le 65 pouces) et par ExpertReviews (6), ce qui donne une moyenne de 7,5/10 sur deux médias. RTings l'a aussi testé sans note chiffrée comparable. Le prix suivi est celui du 55 pouces, le plus bas de la rubrique.\\n\\nLes tests apprécient son rapport qualité-prix, sa polyvalence en vidéo, son bon comportement en jeu et un traitement du mouvement efficace. Ils regrettent un rétroéclairage inégal avec des taches visibles, des menus lents et l'absence de Dolby Vision."
+ },
+ {
+  "id": "sonos-beam-ultra",
+  "sources": [
+   "TechRadar",
+   "Engadget",
+   "Journal du Geek",
+   "SoundGuys"
+  ],
+  "texte": "La Beam Ultra de Sonos est la barre de son la mieux notée de la sélection : sept médias l'ont testée et six donnent une note, pour 8,7/10 de moyenne. TechRadar lui attribue 10, Engadget et Journal du Geek 9, SoundGuys, 01net et Absolute Geeks 8. Les Numériques l'a aussi testée sans note chiffrée.\\n\\nLes avis louent des effets Dolby Atmos convaincants grâce aux haut-parleurs orientés vers le haut, des dialogues très clairs et un format compact et soigné, aussi bon pour la musique que pour les films. Ils regrettent un prix élevé, l'absence de passage HDMI et l'abandon du DTS:X."
+ },
+ {
+  "id": "samsung-hw-qs700f",
+  "sources": [
+   "T3",
+   "TechAeris",
+   "Chip.de"
+  ],
+  "texte": "Trois médias notent la HW-QS700F de Samsung : T3 lui donne 10, TechAeris 9 et Chip.de 8, soit 9,0/10 de moyenne. RTings l'a testée sans note comparable. Ce résultat est d'autant plus intéressant qu'elle coûte environ 320 €, vendue ici par un revendeur tiers.\\n\\nLes testeurs apprécient un son large et plaisant pour le prix, un design fin et une installation simple, avec un système de haut-parleurs reconfigurable. Ils signalent un passage HDMI limité au 4K en 60 Hz, l'absence de haut-parleurs arrière fournis, le manque de LAN et d'entrée Aux, et un son parfois criard à fort volume."
+ },
+ {
+  "id": "sony-bravia-theatre-bar-7",
+  "sources": [
+   "Chip.de",
+   "Gadget Bridge",
+   "Clubic.com",
+   "Les Numériques"
+  ],
+  "texte": "Pour la Theatre Bar 7 de Sony, cinq notes se partagent entre 6 et 8 : Chip.de et Gadget Bridge donnent 8, Clubic 7 et Les Numériques 6, soit 7,3/10 en moyenne. L'écart entre les avis traduit une barre appréciée pour sa clarté mais jugée chère face à des concurrentes.\\n\\nLes avis retiennent des effets Atmos convaincants, un son équilibré avec une voix nette, une basse serrée et un format compact avec passage HDMI. Les critiques portent sur des basses et une spatialité moyennes, l'absence d'affichage et de commandes sur la barre, et le manque d'assistant vocal, de radio et de Chromecast."
+ },
+ {
+  "id": "jbl-bar-300-mk2",
+  "sources": [
+   "Trusted Reviews",
+   "Kopfhörer"
+  ],
+  "texte": "La Bar 300 MK2 de JBL n'a été notée que par deux médias, mais avec des notes élevées : Trusted Reviews 10 et Kopfhörer 8, soit 9,0/10 de moyenne. Ce petit échantillon appelle à la prudence. Son prix, un peu moins de 280 €, la place dans le milieu de gamme.\\n\\nLes tests mettent en avant une scène sonore immersive, des dialogues nets et des basses généreuses sans caisson de basses. Ils notent l'absence d'options pour étendre le système, de véritables entrées analogiques, un design très fonctionnel et un léger souffle à très fort volume."
+ },
+ {
+  "id": "tcl-q65h",
+  "sources": [
+   "Kopfhörer",
+   "Clubic.com",
+   "FrAndroid"
+  ],
+  "texte": "La Q65H de TCL est notée par trois médias : Kopfhörer 8, Clubic 7 et FrAndroid 7, soit 7,3/10 de moyenne. C'est la barre avec caisson sans fil la moins chère de la sélection, à moins de 230 €, vendue ici par un revendeur tiers.\\n\\nLes testeurs saluent un son puissant et spatial en Dolby Atmos et DTS:X, des graves profonds, un équipement complet avec HDMI eARC, VRR et ALLM, et une installation simple. Ils regrettent des aigus moins raffinés, un caisson parfois trop présent, un design sobre et l'absence de Google Cast ou d'AirPlay 2."
+ },
+ {
+  "id": "hisense-hs2100",
+  "sources": [
+   "GizTele",
+   "RTings",
+   "Les Numériques"
+  ],
+  "texte": "Pour moins de 110 €, la HS2100 de Hisense est la barre de son la moins chère de cette comparaison. Trois médias la notent : GizTele 8, RTings 7 et Les Numériques 6, soit 7,0/10 en moyenne. Elle est proposée ici par Son-Video.\\n\\nLes avis relèvent un très bon rapport qualité-prix, un caisson de basses efficace, un bon équilibre des médiums et des aigus et des préréglages d'égaliseur. À l'inverse, elle n'a pas de Wi-Fi, ses basses manquent de réactivité, le son se comprime au volume maximum et les menus sont en anglais."
  }
 ]

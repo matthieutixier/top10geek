@@ -25559,6 +25559,671 @@
      "What Hi-Fi?"
     ]
    }
+  },
+  "tcl-p7k-65": {
+   "cat": "t-prix",
+   "short": "TCL P7K 65\"",
+   "ref": "QLED · Google TV · Dolby Atmos",
+   "badge": "Le choix de la bande",
+   "verdict": "Un grand écran QLED à moins de 560 € : quatre médias lui donnent le même 8/10 pour sa belle image, son HDR complet et son prix.",
+   "strengths": [
+    "Images détaillées, bien équilibrées en couleurs",
+    "Prise en charge complète du HDR",
+    "Bonne qualité d'image pour le prix"
+   ],
+   "weak": [
+    "Son sans relief",
+    "Défauts de rétroéclairage dans les scènes sombres",
+    "Upscaling 4K perfectible"
+   ],
+   "m": [
+    "QLED",
+    "65 pouces"
+   ],
+   "id": "tcl-p7k-65",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 559.0,
+     "url": "https://www.amazon.fr/dp/B0FH78VT5V?tag=geekconcept-21",
+     "name": "TCL TV 65P7K 65 QLED 4K UHD",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FH78VT5V"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 4,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/tcl-p7k-review",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/tvs/tcl-p7k-review-big-screen-big-value",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/tcl-43p7k",
+      "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 8.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p7k-43p7k",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 559.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le P7K de TCL a séduit quatre médias — T3, ExpertReviews, What Hi-Fi? et Trusted Reviews — qui lui donnent tous 8/10. Cette unanimité est rare à ce prix, d'autant que le 65 pouces suivi ici se vend moins de 560 €. Les notes portent sur la série P7K.\\n\\nLes avis retiennent des images détaillées aux couleurs équilibrées, un HDR complet, des réglages bien conçus et un bon rapport qualité-prix. Ils pointent un son plat, des défauts de rétroéclairage visibles dans les scènes sombres et un upscaling 4K qui n'est pas le meilleur.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 4,
+    "sources": [
+     "T3",
+     "ExpertReviews",
+     "What Hi-Fi?",
+     "Trusted Reviews"
+    ]
+   }
+  },
+  "samsung-u8000f-55": {
+   "cat": "t-prix",
+   "short": "Samsung Crystal UHD U8000F 55\"",
+   "ref": "LED Crystal UHD · Tizen · 4K",
+   "badge": "Le moins cher",
+   "verdict": "Le téléviseur le moins cher de la sélection, salué pour son rapport qualité-prix et sa fluidité, au prix d'un rétroéclairage inégal et sans Dolby Vision.",
+   "strengths": [
+    "Excellent rapport qualité-prix",
+    "Bon joueur, polyvalent en vidéo",
+    "Gestion du mouvement impressionnante"
+   ],
+   "weak": [
+    "Taches et incohérences de rétroéclairage",
+    "Menus lents",
+    "Pas de Dolby Vision"
+   ],
+   "m": [
+    "Crystal UHD",
+    "4K 60 Hz"
+   ],
+   "id": "samsung-u8000f-55",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 399.0,
+     "url": "https://www.amazon.fr/dp/B0F9Q2QDJZ?tag=geekconcept-21",
+     "name": "Samsung TV 55 Pouces Crystal UHD 55U8075F 4K Smart TV",
+     "cfg": "",
+     "asin": "B0F9Q2QDJZ"
+    }
+   ],
+   "press": {
+    "avg": 7.5,
+    "n": 2,
+    "tests": 3,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "What Hi-Fi?",
+      "score": 9.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue43u8000f",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 6.0,
+      "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/samsung-u8000f-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/tv/reviews/samsung/u8000f",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 399.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le Crystal UHD U8000F de Samsung est noté par What Hi-Fi? (8 sur la version 43 pouces, 10 sur le 65 pouces) et par ExpertReviews (6), ce qui donne une moyenne de 7,5/10 sur deux médias. RTings l'a aussi testé sans note chiffrée comparable. Le prix suivi est celui du 55 pouces, le plus bas de la rubrique.\\n\\nLes tests apprécient son rapport qualité-prix, sa polyvalence en vidéo, son bon comportement en jeu et un traitement du mouvement efficace. Ils regrettent un rétroéclairage inégal avec des taches visibles, des menus lents et l'absence de Dolby Vision.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "What Hi-Fi?",
+     "ExpertReviews"
+    ]
+   }
+  },
+  "sonos-beam-ultra": {
+   "cat": "t-barres",
+   "short": "Sonos Beam Ultra",
+   "ref": "Dolby Atmos · compacte · Wi-Fi",
+   "badge": "Le choix de la bande",
+   "verdict": "La barre de son la mieux notée de la sélection : un son Atmos ample dans un format compact, avec des dialogues très clairs. Son prix est élevé.",
+   "strengths": [
+    "Haut-parleurs orientés vers le haut, effets Atmos convaincants",
+    "Dialogues clairs, bonne amélioration de la voix",
+    "Excellente qualité sonore pour les films et la musique"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Pas de passage HDMI",
+    "DTS:X non pris en charge"
+   ],
+   "m": [
+    "Dolby Atmos",
+    "Compacte"
+   ],
+   "id": "sonos-beam-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 699.0,
+     "url": "https://www.amazon.fr/dp/B0H8YSW9K1?tag=geekconcept-21",
+     "name": "Sonos Beam Ultra Soundbar (Noir)",
+     "cfg": "",
+     "asin": "B0H8YSW9K1"
+    }
+   ],
+   "press": {
+    "avg": 8.666666666666666,
+    "n": 6,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/televisions/soundbars/sonos-beam-ultra-review",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 9.0,
+      "url": "https://www.engadget.com/2265077/sonos-beam-ultra-review/",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-sonos-beam-ultra-la-barre-de-son-qui-degaine-enfin-le-dolby-atmos-pour-de-bon/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-sonos-beam-ultra-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/reviews/sonos-beam-ultra-review-the-little-soundbar-that-learned-to-look-up-and-fill-the-room/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/sonos-beam-ultra-review-163171/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/barre-de-son/sonos-beam-ultra-p78770/test.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 699.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La Beam Ultra de Sonos est la barre de son la mieux notée de la sélection : sept médias l'ont testée et six donnent une note, pour 8,7/10 de moyenne. TechRadar lui attribue 10, Engadget et Journal du Geek 9, SoundGuys, 01net et Absolute Geeks 8. Les Numériques l'a aussi testée sans note chiffrée.\\n\\nLes avis louent des effets Dolby Atmos convaincants grâce aux haut-parleurs orientés vers le haut, des dialogues très clairs et un format compact et soigné, aussi bon pour la musique que pour les films. Ils regrettent un prix élevé, l'absence de passage HDMI et l'abandon du DTS:X.",
+    "date": "2026-10-28",
+    "n": 6,
+    "tests": 7,
+    "sources": [
+     "TechRadar",
+     "Engadget",
+     "Journal du Geek",
+     "SoundGuys"
+    ]
+   }
+  },
+  "samsung-hw-qs700f": {
+   "cat": "t-barres",
+   "short": "Samsung HW-QS700F",
+   "ref": "3.1.2 · Atmos · Q-Symphony",
+   "badge": "Le meilleur rapport qualité-prix",
+   "verdict": "Une barre Atmos au son impressionnant pour son prix, sobre et facile à installer. Elle n'a que le 4K en 60 Hz en passage HDMI.",
+   "strengths": [
+    "Bonne qualité sonore pour le prix",
+    "Son large qui rehausse un ensemble de home cinéma",
+    "Design fin et installation simple"
+   ],
+   "weak": [
+    "4K limité à 60 Hz en passage HDMI",
+    "Pas de haut-parleurs arrière fournis",
+    "Peut devenir criard à fort volume"
+   ],
+   "m": [
+    "Dolby Atmos",
+    "3.1.2"
+   ],
+   "id": "samsung-hw-qs700f",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 319.0,
+     "url": "https://www.amazon.fr/dp/B0F1D813YQ?tag=geekconcept-21",
+     "name": "Samsung Barre de Son HW-QS700F/ZF Wireless Dolby Atmos 3.1.2ch",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F1D813YQ"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 3,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "T3",
+      "score": 10.0,
+      "url": "https://www.t3.com/tech/soundbars/samsung-hw-qs700f-review",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2025/04/18/samsung-hw-qs700f-review/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-hw-qs700f-review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Kleiner-Subwoofer-grosse-Wirkung-Samsung-HW-QS700F-im-Test_185931165.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/soundbar/reviews/samsung/hw-qs700f",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 319.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias notent la HW-QS700F de Samsung : T3 lui donne 10, TechAeris 9 et Chip.de 8, soit 9,0/10 de moyenne. RTings l'a testée sans note comparable. Ce résultat est d'autant plus intéressant qu'elle coûte environ 320 €, vendue ici par un revendeur tiers.\\n\\nLes testeurs apprécient un son large et plaisant pour le prix, un design fin et une installation simple, avec un système de haut-parleurs reconfigurable. Ils signalent un passage HDMI limité au 4K en 60 Hz, l'absence de haut-parleurs arrière fournis, le manque de LAN et d'entrée Aux, et un son parfois criard à fort volume.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 4,
+    "sources": [
+     "T3",
+     "TechAeris",
+     "Chip.de"
+    ]
+   }
+  },
+  "sony-bravia-theatre-bar-7": {
+   "cat": "t-barres",
+   "short": "Sony Bravia Theatre Bar 7",
+   "ref": "Dolby Atmos · 9 haut-parleurs",
+   "badge": "Le son équilibré",
+   "verdict": "Une barre Sony équilibrée aux dialogues clairs et à la basse précise, mais jugée chère face à une forte concurrence.",
+   "strengths": [
+    "Effets Dolby Atmos convaincants",
+    "Son équilibré avec une voix claire",
+    "Passage HDMI et format compact"
+   ],
+   "weak": [
+    "Basses et spatialité jugées moyennes",
+    "Pas d'affichage ni de commandes sur la barre",
+    "Pas d'assistant vocal ni de Chromecast"
+   ],
+   "m": [
+    "Dolby Atmos",
+    "9 haut-parleurs"
+   ],
+   "id": "sony-bravia-theatre-bar-7",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 799.0,
+     "url": "https://www.amazon.fr/dp/B0GT1GGVGX?tag=geekconcept-21",
+     "name": "Sony BRAVIA Theatre Bar 7, Barre de Son Simple, 9 Haut-parleurs, Dolby Atmos",
+     "cfg": "",
+     "asin": "B0GT1GGVGX"
+    }
+   ],
+   "press": {
+    "avg": 7.25,
+    "n": 4,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Sony-Theatre-Bar-7-im-Test_186873888.html",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 8.0,
+      "url": "https://www.gadgetbridge.com/sony-bravia-theatre-bar-7-sub-8-and-rear-8-review-small-soundbar-system-big-cinema-audio/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-624949-test-sony-bravia-theatre-bar-7-l-immersion-pour-les-petits-salons-mais-caisson-obligatoire.html",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/barre-de-son/sony-bravia-theatre-bar-7-p78041/test.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/soundbar/reviews/sony/bravia-theater-bar-7",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 799.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Pour la Theatre Bar 7 de Sony, cinq notes se partagent entre 6 et 8 : Chip.de et Gadget Bridge donnent 8, Clubic 7 et Les Numériques 6, soit 7,3/10 en moyenne. L'écart entre les avis traduit une barre appréciée pour sa clarté mais jugée chère face à des concurrentes.\\n\\nLes avis retiennent des effets Atmos convaincants, un son équilibré avec une voix nette, une basse serrée et un format compact avec passage HDMI. Les critiques portent sur des basses et une spatialité moyennes, l'absence d'affichage et de commandes sur la barre, et le manque d'assistant vocal, de radio et de Chromecast.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 5,
+    "sources": [
+     "Chip.de",
+     "Gadget Bridge",
+     "Clubic.com",
+     "Les Numériques"
+    ]
+   }
+  },
+  "jbl-bar-300-mk2": {
+   "cat": "t-barres",
+   "short": "JBL Bar 300 MK2",
+   "ref": "Barre 5.0 · basses sans caisson",
+   "badge": "Le bon compromis",
+   "verdict": "Une barre compacte au son immersif et aux basses étonnantes sans caisson, sans options d'extension.",
+   "strengths": [
+    "Excellente qualité sonore",
+    "Dialogues clairs, scène sonore immersive",
+    "Grosses basses sans caisson de basses"
+   ],
+   "weak": [
+    "Aucune option d'extension du système",
+    "Pas d'entrées analogiques",
+    "Design fonctionnel, un peu de souffle à fort volume"
+   ],
+   "m": [
+    "Dolby Atmos",
+    "Sans caisson"
+   ],
+   "id": "jbl-bar-300-mk2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 278.99,
+     "url": "https://www.amazon.fr/dp/B0FF4M576D?tag=geekconcept-21",
+     "name": "JBL Bar 300 MK2, Barre de Son Bluetooth pour TV, Noir",
+     "cfg": "",
+     "asin": "B0FF4M576D"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 2,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-bar-3000mk2",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/jbl-bar-300mk2/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 278.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La Bar 300 MK2 de JBL n'a été notée que par deux médias, mais avec des notes élevées : Trusted Reviews 10 et Kopfhörer 8, soit 9,0/10 de moyenne. Ce petit échantillon appelle à la prudence. Son prix, un peu moins de 280 €, la place dans le milieu de gamme.\\n\\nLes tests mettent en avant une scène sonore immersive, des dialogues nets et des basses généreuses sans caisson de basses. Ils notent l'absence d'options pour étendre le système, de véritables entrées analogiques, un design très fonctionnel et un léger souffle à très fort volume.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 2,
+    "sources": [
+     "Trusted Reviews",
+     "Kopfhörer"
+    ]
+   }
+  },
+  "tcl-q65h": {
+   "cat": "t-barres",
+   "short": "TCL Q65H",
+   "ref": "5.1 · Atmos · caisson sans fil",
+   "badge": "Le plus de puissance",
+   "verdict": "Une barre 5.1 avec caisson sans fil et Atmos à un prix bas, au son puissant mais aux aigus moins fins.",
+   "strengths": [
+    "Son puissant et spatial en Dolby Atmos et DTS:X",
+    "Graves profonds grâce au caisson",
+    "Très bon équipement : HDMI eARC, VRR, ALLM"
+   ],
+   "weak": [
+    "Aigus moins raffinés",
+    "Pas de Google Cast ni d'AirPlay 2",
+    "Caisson parfois trop fougueux"
+   ],
+   "m": [
+    "Atmos + DTS:X",
+    "5.1 + caisson"
+   ],
+   "id": "tcl-q65h",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 227.64,
+     "url": "https://www.amazon.fr/dp/B0F6CBYQD8?tag=geekconcept-21",
+     "name": "TCL Barre de Son Q65H 5.1 Dolby Atmos",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F6CBYQD8"
+    }
+   ],
+   "press": {
+    "avg": 7.333333333333333,
+    "n": 3,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/tcl-q65h/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-578762-test-tcl-q65h-une-barre-de-son-premium-et-puissante-avec-quelques-defauts.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/tcl/2820545_test-de-la-barre-de-son-tcl-q65h-de-la-puissance-a-en-revendre",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 227.64,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La Q65H de TCL est notée par trois médias : Kopfhörer 8, Clubic 7 et FrAndroid 7, soit 7,3/10 de moyenne. C'est la barre avec caisson sans fil la moins chère de la sélection, à moins de 230 €, vendue ici par un revendeur tiers.\\n\\nLes testeurs saluent un son puissant et spatial en Dolby Atmos et DTS:X, des graves profonds, un équipement complet avec HDMI eARC, VRR et ALLM, et une installation simple. Ils regrettent des aigus moins raffinés, un caisson parfois trop présent, un design sobre et l'absence de Google Cast ou d'AirPlay 2.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 3,
+    "sources": [
+     "Kopfhörer",
+     "Clubic.com",
+     "FrAndroid"
+    ]
+   }
+  },
+  "hisense-hs2100": {
+   "cat": "t-barres",
+   "short": "Hisense HS2100",
+   "ref": "2.1 · caisson · DTS Virtual:X",
+   "badge": "Le moins cher",
+   "verdict": "Le plus petit prix de la sélection, avec un vrai caisson, mais un son moins précis et pas de Wi-Fi.",
+   "strengths": [
+    "Très bon rapport qualité-prix",
+    "Bon caisson de basses",
+    "Préréglages d'égaliseur et bon équilibre médiums/aigus"
+   ],
+   "weak": [
+    "Pas de Wi-Fi",
+    "Basses peu réactives, compression à volume maximum",
+    "Menus en anglais"
+   ],
+   "m": [
+    "DTS Virtual:X",
+    "2.1 + caisson"
+   ],
+   "id": "hisense-hs2100",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 109.0,
+     "url": "https://www.amazon.fr/dp/B0CCRDYSNS?tag=geekconcept-21",
+     "name": "Hisense Barre de Son HS2100 2.1 CH 240 W, caisson de basses",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0CCRDYSNS"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 3,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "GizTele",
+      "score": 8.0,
+      "url": "https://www.giztele.com/hisense-hs2100-caracteristicas-precio-opiniones/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/soundbar/reviews/hisense/hs2100",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/barre-de-son/hisense-hs2100-p74700/test.html",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-barre-de-son-hisense-hs2100-240w-avec-caisson-de-basses-2025",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 109.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Pour moins de 110 €, la HS2100 de Hisense est la barre de son la moins chère de cette comparaison. Trois médias la notent : GizTele 8, RTings 7 et Les Numériques 6, soit 7,0/10 en moyenne. Elle est proposée ici par Son-Video.\\n\\nLes avis relèvent un très bon rapport qualité-prix, un caisson de basses efficace, un bon équilibre des médiums et des aigus et des préréglages d'égaliseur. À l'inverse, elle n'a pas de Wi-Fi, ses basses manquent de réactivité, le son se comprime au volume maximum et les menus sont en anglais.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 4,
+    "sources": [
+     "GizTele",
+     "RTings",
+     "Les Numériques"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

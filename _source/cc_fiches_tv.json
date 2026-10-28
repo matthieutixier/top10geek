@@ -824,5 +824,105 @@
    "La présence d'une dalle QD-OLED seulement en 65 pouces",
    "La connexion à un compte Samsung obligatoire"
   ]
+ },
+ "TCL P7K": {
+  "source": "https://www.commentchoisir.fr/test-TCL+_P7K.htm",
+  "tests": [
+   {
+    "media": "T3",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/10/2025",
+    "url": "https://www.t3.com/tech/tvs/tcl-p7k-review-big-screen-big-value"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/10/2025",
+    "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/tcl-p7k-review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/10/2025",
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p7k-43p7k"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "19/01/2026",
+    "url": "https://www.trustedreviews.com/reviews/tcl-43p7k"
+   }
+  ],
+  "pros": [
+   "Images détaillées, joliment équilibrées en couleur",
+   "Prise en charge complète de la plage dynamique élevée (HDR)",
+   "Options de contrôle bien implémentées",
+   "Bon niveau de construction et de finition",
+   "Bonne qualité d'image pour le prix",
+   "Excellent support du format HDR",
+   "Un solide support d'application de streaming",
+   "Prise en charge complète du format HDR",
+   "Bonnes photos polyvalentes pour le prix",
+   "TV au-dessus du budget avec support pour les jeux vidéo"
+  ],
+  "cons": [
+   "Les images peuvent être bruyantes et manquer de détails noirs.",
+   "Contrôle de mouvement variable",
+   "Quelques difficultés de mise à l'échelle",
+   "Son sans os",
+   "Légère rétroéclairage \"jetting\"",
+   "Une ou deux limitations de traitement",
+   "Pas d'application Freeview Play ou Freely",
+   "Défauts de rétroéclairage pendant les scènes sombres",
+   "Pas de support Freely/Freeview Play",
+   "Pas le meilleur upscaling en 4K"
+  ]
+ },
+ "Samsung U8000F": {
+  "source": "https://www.commentchoisir.fr/test-Samsung_U8000F.htm",
+  "tests": [
+   {
+    "media": "ExpertReviews",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "19/11/2025",
+    "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/samsung-u8000f-review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/11/2025",
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue43u8000f"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "01/04/2026",
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue65u8000f"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "16/09/2025",
+    "url": "https://www.rtings.com/tv/reviews/samsung/u8000f"
+   }
+  ],
+  "pros": [
+   "Excellent rapport qualité-prix",
+   "Bon joueur et polyvalent en vidéo",
+   "Gestion de mouvement impressionnante"
+  ],
+  "cons": [
+   "Taches et incohérences de rétroéclairage",
+   "Menus de télévision intelligente lents",
+   "Pas de support pour Dolby Vision"
+  ]
  }
 }

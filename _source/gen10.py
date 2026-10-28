@@ -730,7 +730,7 @@ def family_page(fam):
       <p>{fam['intro']}</p>
       {byline(root)}
       <div class="spec-row">
-        <div><strong>{len(all_items)}</strong>{fam['plural']} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
+        <div><strong>{len(all_items)}</strong>{fam.get('stat_noun', fam['plural'])} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
         <div><strong>{sum(d["tests"]["tests"] for d in all_items)}</strong>tests presse recensés</div>
         <div><strong>{len(cats)}</strong>usage{'s' if len(cats) > 1 else ''}</div>
       </div>
@@ -1023,7 +1023,7 @@ def usage_page(fam, c):
       {byline(root)}
       <p class="hero-links"><a href="#top10">Voir le classement complet ↓</a> · <a href="#guide">Lire le guide d'achat</a></p>
       <div class="spec-row">
-        <div><strong>{n}</strong>{fam.get('plural_low', fam['plural'].lower())} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
+        <div><strong>{n}</strong>{c.get('plural_low') or fam.get('plural_low', fam['plural'].lower())} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
         <div><strong>{tested}</strong>tests presse recensés</div>{third_stat}
       </div>
     </div>
@@ -1067,6 +1067,8 @@ def usage_page(fam, c):
                .replace("réservoirs d'encre", "à réservoirs d'encre").replace(" & télétravail", ""))
         title = fam["usage_title"].format(label=lab)
         desc = fam["usage_desc"].format(label=lab)
+        if c.get("seo_title"):
+            title, desc = c["seo_title"], c["seo_desc"]
     if c["key"] in USAGE_SEO:
         title, desc = USAGE_SEO[c["key"]]["title"], USAGE_SEO[c["key"]]["desc"]
     write(f"{fam['slug']}/{c['slug']}/index.html", page(root, title, desc, f"{fam['slug']}/{c['slug']}/", body, fam["slug"], js_data(items, root, items[0]["id"]),

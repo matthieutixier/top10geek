@@ -14,9 +14,9 @@ T65 = "t-65"
 TV = {}
 
 
-def notes_tv(fiche):
+def notes_tv(fiche, src="cc_fiches_tv.json"):
     """[(média, note /10 ou None, url)] — une ligne par média, les mieux notés d'abord."""
-    brut = json.load(open(os.path.join(_HERE, "cc_fiches_tv.json"), encoding="utf-8"))[fiche]["tests"]
+    brut = json.load(open(os.path.join(_HERE, src), encoding="utf-8"))[fiche]["tests"]
     par = {}
     for t in brut:
         m = t["media"].replace("\x92", "’").strip()
@@ -28,8 +28,8 @@ def notes_tv(fiche):
     return out
 
 
-def add(pid, cat, short, ref, badge, verdict, strengths, weak, m, fiche, asin, amz, price, pour, eviter, scope="modele", seller="Amazon"):
-    TV[pid] = S(cat, short, ref, badge, verdict, strengths, weak, m, notes_tv(fiche), asin, amz, price, pour, eviter, scope=scope, seller=seller)
+def add(pid, cat, short, ref, badge, verdict, strengths, weak, m, fiche, asin, amz, price, pour, eviter, scope="modele", seller="Amazon", src="cc_fiches_tv.json"):
+    TV[pid] = S(cat, short, ref, badge, verdict, strengths, weak, m, notes_tv(fiche, src), asin, amz, price, pour, eviter, scope=scope, seller=seller)
 
 
 add("lg-oled-g5", T55, "LG OLED G5 55\"", "OLED evo · 4 000 nits · 144 Hz", TOP,
@@ -179,6 +179,80 @@ add("sony-bravia-3-65", T65, "Sony Bravia 3 65\"", "Direct LED · Google TV · H
     "B0F4KX8CK4", "Sony BRAVIA 3 Direct LED 65 pouces Google TV (2025)", 750.0,
     "Vous voulez un grand téléviseur Sony simple, avec Google TV, pour un usage familial.",
     "Vous regardez surtout des films HDR dans une pièce lumineuse ou jouez à 120 Hz.", scope="gamme")
+
+
+# --- Usage « Petit prix » (moins de 600 €) : deux modèles propres + des modèles classés ailleurs (extra) ---
+TPX = "t-prix"
+add("tcl-p7k-65", TPX, "TCL P7K 65\"", "QLED · Google TV · Dolby Atmos", TOP,
+    "Un grand écran QLED à moins de 560 € : quatre médias lui donnent le même 8/10 pour sa belle image, son HDR complet et son prix.",
+    ["Images détaillées, bien équilibrées en couleurs", "Prise en charge complète du HDR", "Bonne qualité d'image pour le prix"],
+    ["Son sans relief", "Défauts de rétroéclairage dans les scènes sombres", "Upscaling 4K perfectible"],
+    ("QLED", "65 pouces"), "TCL P7K",
+    "B0FH78VT5V", "TCL TV 65P7K 65 QLED 4K UHD", 559.0,
+    "Vous voulez le plus grand écran possible pour un budget serré.",
+    "Vous regardez surtout dans le noir : le rétroéclairage montre ses limites.", scope="gamme", seller="Icoza")
+
+add("samsung-u8000f-55", TPX, "Samsung Crystal UHD U8000F 55\"", "LED Crystal UHD · Tizen · 4K", "Le moins cher",
+    "Le téléviseur le moins cher de la sélection, salué pour son rapport qualité-prix et sa fluidité, au prix d'un rétroéclairage inégal et sans Dolby Vision.",
+    ["Excellent rapport qualité-prix", "Bon joueur, polyvalent en vidéo", "Gestion du mouvement impressionnante"],
+    ["Taches et incohérences de rétroéclairage", "Menus lents", "Pas de Dolby Vision"],
+    ("Crystal UHD", "4K 60 Hz"), "Samsung U8000F",
+    "B0F9Q2QDJZ", "Samsung TV 55 Pouces Crystal UHD 55U8075F 4K Smart TV", 399.0,
+    "Vous cherchez un 55 pouces correct sous 400 €, sans fonctionnalités avancées.",
+    "Vous regardez des films dans le noir ou voulez le Dolby Vision.", scope="gamme", seller="Amazon")
+
+
+# --- Usage « Barres de son » (fiches CommentChoisir dans cc_fiches_barres.json) ---
+TBS = "t-barres"
+B = "cc_fiches_barres.json"
+add("sonos-beam-ultra", TBS, "Sonos Beam Ultra", "Dolby Atmos · compacte · Wi-Fi", TOP,
+    "La barre de son la mieux notée de la sélection : un son Atmos ample dans un format compact, avec des dialogues très clairs. Son prix est élevé.",
+    ["Haut-parleurs orientés vers le haut, effets Atmos convaincants", "Dialogues clairs, bonne amélioration de la voix", "Excellente qualité sonore pour les films et la musique"],
+    ["Prix élevé", "Pas de passage HDMI", "DTS:X non pris en charge"],
+    ("Dolby Atmos", "Compacte"), "Sonos Beam Ultra",
+    "B0H8YSW9K1", "Sonos Beam Ultra Soundbar (Noir)", 699.0,
+    "Vous voulez un son de cinéma dans un petit salon, avec de la musique en Wi-Fi.",
+    "Vous avez besoin du DTS:X ou d'un budget serré.", src=B)
+add("samsung-hw-qs700f", TBS, "Samsung HW-QS700F", "3.1.2 · Atmos · Q-Symphony", "Le meilleur rapport qualité-prix",
+    "Une barre Atmos au son impressionnant pour son prix, sobre et facile à installer. Elle n'a que le 4K en 60 Hz en passage HDMI.",
+    ["Bonne qualité sonore pour le prix", "Son large qui rehausse un ensemble de home cinéma", "Design fin et installation simple"],
+    ["4K limité à 60 Hz en passage HDMI", "Pas de haut-parleurs arrière fournis", "Peut devenir criard à fort volume"],
+    ("Dolby Atmos", "3.1.2"), "Samsung HW-QS700F",
+    "B0F1D813YQ", "Samsung Barre de Son HW-QS700F/ZF Wireless Dolby Atmos 3.1.2ch", 319.0,
+    "Vous avez un téléviseur Samsung ou voulez de l'Atmos à prix mesuré.",
+    "Vous jouez en 4K 120 Hz via la barre.", seller="EDV-Service Stadlauer", src=B)
+add("sony-bravia-theatre-bar-7", TBS, "Sony Bravia Theatre Bar 7", "Dolby Atmos · 9 haut-parleurs", "Le son équilibré",
+    "Une barre Sony équilibrée aux dialogues clairs et à la basse précise, mais jugée chère face à une forte concurrence.",
+    ["Effets Dolby Atmos convaincants", "Son équilibré avec une voix claire", "Passage HDMI et format compact"],
+    ["Basses et spatialité jugées moyennes", "Pas d'affichage ni de commandes sur la barre", "Pas d'assistant vocal ni de Chromecast"],
+    ("Dolby Atmos", "9 haut-parleurs"), "Sony Bravia Theater Bar 7",
+    "B0GT1GGVGX", "Sony BRAVIA Theatre Bar 7, Barre de Son Simple, 9 Haut-parleurs, Dolby Atmos", 799.0,
+    "Vous avez un téléviseur Sony et voulez un son équilibré, centré sur les dialogues.",
+    "Vous cherchez de puissantes basses ou un meilleur prix.", src=B)
+add("jbl-bar-300-mk2", TBS, "JBL Bar 300 MK2", "Barre 5.0 · basses sans caisson", "Le bon compromis",
+    "Une barre compacte au son immersif et aux basses étonnantes sans caisson, sans options d'extension.",
+    ["Excellente qualité sonore", "Dialogues clairs, scène sonore immersive", "Grosses basses sans caisson de basses"],
+    ["Aucune option d'extension du système", "Pas d'entrées analogiques", "Design fonctionnel, un peu de souffle à fort volume"],
+    ("Dolby Atmos", "Sans caisson"), "JBL Bar 300MK2",
+    "B0FF4M576D", "JBL Bar 300 MK2, Barre de Son Bluetooth pour TV, Noir", 278.99,
+    "Vous voulez un son de cinéma sans caisson ni câbles supplémentaires.",
+    "Vous voulez faire évoluer votre installation avec des enceintes arrière.", src=B)
+add("tcl-q65h", TBS, "TCL Q65H", "5.1 · Atmos · caisson sans fil", "Le plus de puissance",
+    "Une barre 5.1 avec caisson sans fil et Atmos à un prix bas, au son puissant mais aux aigus moins fins.",
+    ["Son puissant et spatial en Dolby Atmos et DTS:X", "Graves profonds grâce au caisson", "Très bon équipement : HDMI eARC, VRR, ALLM"],
+    ["Aigus moins raffinés", "Pas de Google Cast ni d'AirPlay 2", "Caisson parfois trop fougueux"],
+    ("Atmos + DTS:X", "5.1 + caisson"), "TCL Q65H",
+    "B0F6CBYQD8", "TCL Barre de Son Q65H 5.1 Dolby Atmos", 227.64,
+    "Vous voulez de la puissance et des graves marqués pour moins de 250 €.",
+    "Vous privilégiez la finesse des aigus pour la musique.", seller="Cstore", src=B)
+add("hisense-hs2100", TBS, "Hisense HS2100", "2.1 · caisson · DTS Virtual:X", "Le moins cher",
+    "Le plus petit prix de la sélection, avec un vrai caisson, mais un son moins précis et pas de Wi-Fi.",
+    ["Très bon rapport qualité-prix", "Bon caisson de basses", "Préréglages d'égaliseur et bon équilibre médiums/aigus"],
+    ["Pas de Wi-Fi", "Basses peu réactives, compression à volume maximum", "Menus en anglais"],
+    ("DTS Virtual:X", "2.1 + caisson"), "Hisense HS2100",
+    "B0CCRDYSNS", "Hisense Barre de Son HS2100 2.1 CH 240 W, caisson de basses", 109.0,
+    "Vous voulez améliorer le son d'un téléviseur pour environ 100 €.",
+    "Vous cherchez l'Atmos ou le Wi-Fi.", seller="Son-Video", src=B)
 
 
 def build():

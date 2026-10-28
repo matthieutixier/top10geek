@@ -1,0 +1,369 @@
+{
+ "Sonos Beam Ultra": {
+  "source": "https://www.commentchoisir.fr/test-Sonos_Beam+Ultra.htm",
+  "tests": [
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "22/09/2026",
+    "url": "https://www.techradar.com/televisions/soundbars/sonos-beam-ultra-review"
+   },
+   {
+    "media": "Engadget",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "22/09/2026",
+    "url": "https://www.engadget.com/2265077/sonos-beam-ultra-review/"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "16/10/2026",
+    "url": "https://www.journaldugeek.com/test/test-sonos-beam-ultra-la-barre-de-son-qui-degaine-enfin-le-dolby-atmos-pour-de-bon/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/09/2026",
+    "url": "https://www.soundguys.com/sonos-beam-ultra-review-163171/"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "30/09/2026",
+    "url": "https://www.01net.com/tests/test-sonos-beam-ultra-avis.html"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "06/10/2026",
+    "url": "https://www.absolutegeeks.com/reviews/sonos-beam-ultra-review-the-little-soundbar-that-learned-to-look-up-and-fill-the-room/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "origine": "",
+    "date": "17/10/2026",
+    "url": "https://www.lesnumeriques.com/barre-de-son/sonos-beam-ultra-p78770/test.html"
+   }
+  ],
+  "pros": [
+   "Haut-parleurs orientés vers le haut et incroyables effets Atmos.",
+   "Dialogue clair avec amélioration efficace de la parole",
+   "Design compact et beau",
+   "Pas de HDMI en pass-through",
+   "DTS:X laissé de côté",
+   "Excellente qualité sonore pour les films et la musique",
+   "Vrais haut-parleurs Dolby Atmos orientés vers le haut",
+   "Moins intrusif que l'Arc Ultra",
+   "S'intègre parfaitement dans un système Sonos",
+   "Architecture 7.1.2 native avec un vrai rendu Dolby Atmos",
+   "Spatialisation latérale efficace qui dépasse les limites de la barre",
+   "Excellente clarté des dialogues sur le canal central"
+  ],
+  "cons": [
+   "Haut-parleurs orientés vers le haut et incroyables effets Atmos.",
+   "Dialogue clair avec amélioration efficace de la parole",
+   "Conception compacte et belle",
+   "Pas de fonction de passage HDMI",
+   "DTS:X laissé de côté",
+   "Cher",
+   "Dolby Atmos fonctionne mieux avec des plafonds plats",
+   "Pas de technologie Sound Motion pour des basses encore plus profondes",
+   "Tarif en hausse de 200 euros par rapport à la Beam (Gen 2)",
+   "Pas de prise en charge du format DTS:X",
+   "Une seule prise HDMI eARC",
+   "Rendu musical très axé sur les médiums"
+  ]
+ },
+ "Samsung HW-QS700F": {
+  "source": "https://www.commentchoisir.fr/test-Samsung_HW-QS700F.htm",
+  "tests": [
+   {
+    "media": "T3",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "08/12/2025",
+    "url": "https://www.t3.com/tech/soundbars/samsung-hw-qs700f-review"
+   },
+   {
+    "media": "TechAeris",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "18/04/2025",
+    "url": "https://techaeris.com/2025/04/18/samsung-hw-qs700f-review/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-hw-qs700f-review"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/04/2025",
+    "url": "https://www.chip.de/test/Kleiner-Subwoofer-grosse-Wirkung-Samsung-HW-QS700F-im-Test_185931165.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "13/04/2026",
+    "url": "https://www.rtings.com/soundbar/reviews/samsung/hw-qs700f"
+   }
+  ],
+  "pros": [
+   "La conception de canal de haut-parleur reconfigurable fonctionne brillamment.",
+   "Bonne qualité sonore pour son prix",
+   "Un design agréable et fin",
+   "Des matériaux de haute qualité utilisés tout au long",
+   "Facile à utiliser et à configurer",
+   "Son impressionnant et expansif qui rehausse n'importe quel ensemble de home cinéma.",
+   "Le prix intermédiaire est facile pour le portefeuille",
+   "Son très riche, magnifique",
+   "Subwoofer sans fil et compact",
+   "Certaines fonctions supplémentaires à bord",
+   "Entrée HDMI avec passage en 4K",
+   "Basse percutante et secouant le sol"
+  ],
+  "cons": [
+   "Beaucoup de personnes n'exploiteront pas pleinement la fonctionnalité de double position.",
+   "Il n'est pas livré avec des haut-parleurs arrière",
+   "Il n'a que le 4K en 60Hz en pass-through, ce qui pourrait poser problème pour certains joueurs.",
+   "Pas de LAN, Aux ou Cinch",
+   "Sans les fonctionnalités de Google",
+   "Peut devenir un peu criard lorsqu'il est poussé",
+   "Les concurrents proposent un Dolby Atmos plus précis.",
+   "Peine à dépeindre des moments calmes avec subtilité"
+  ]
+ },
+ "Sony Bravia Theater Bar 7": {
+  "source": "https://www.commentchoisir.fr/test-Sony_Bravia+Theater+Bar+7.htm",
+  "tests": [
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/04/2026",
+    "url": "https://www.chip.de/test/Sony-Theatre-Bar-7-im-Test_186873888.html"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "18/05/2026",
+    "url": "https://www.chip.de/test-kaufberatung/tv-audio/sony-theatre-bar-7-sub-7-im-test_4ff4138b-1c71-4a5d-a2ee-c038f8c664f8.html"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/09/2026",
+    "url": "https://www.gadgetbridge.com/sony-bravia-theatre-bar-7-sub-8-and-rear-8-review-small-soundbar-system-big-cinema-audio/"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "24/08/2026",
+    "url": "https://www.clubic.com/test-produit-624949-test-sony-bravia-theatre-bar-7-l-immersion-pour-les-petits-salons-mais-caisson-obligatoire.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "15/04/2026",
+    "url": "https://www.lesnumeriques.com/barre-de-son/sony-bravia-theatre-bar-7-p78041/test.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "09/06/2026",
+    "url": "https://www.rtings.com/soundbar/reviews/sony/bravia-theater-bar-7"
+   }
+  ],
+  "pros": [
+   "Effets Dolby Atmos convaincants",
+   "Présentation claire et organisée",
+   "Basse serrée et précise",
+   "Son équilibré avec une voix claire",
+   "Construit de manière compacte",
+   "HDMI-Pass-through",
+   "Application compagnon pratique",
+   "Large, passionnant scène sonore",
+   "Bonne connectivité et prise en charge des codecs",
+   "Opportunités d'amélioration",
+   "Son équilibré",
+   "Bonne immersion, voie centrale efficace"
+  ],
+  "cons": [
+   "Pas d'affichage sur la barre de son",
+   "Face à une forte concurrence",
+   "Les basses et la spatialité sont plutôt médiocres.",
+   "Pas de contrôle sur la barre de son",
+   "Pas d'entrées audio dédiées",
+   "Sans assistant vocal, radio et Chromecast.",
+   "Aucun affichage de statut visible",
+   "Pas de commandes physiques sur la barre",
+   "Basses profondes limitées",
+   "Basses très faibles sans caisson de basses",
+   "Son pas spécialement précis ni détaillé",
+   "Ergonomie minimaliste (leds, absence de bouton, télécommande)"
+  ]
+ },
+ "JBL Bar 300MK2": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Bar+300MK2.htm",
+  "tests": [
+   {
+    "media": "Trusted Reviews",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "25/08/2026",
+    "url": "https://www.trustedreviews.com/reviews/jbl-bar-3000mk2"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "31/01/2026",
+    "url": "https://www.kopfhoerer.de/test/jbl-bar-300mk2/"
+   }
+  ],
+  "pros": [
+   "Excellente qualité sonore",
+   "Scène sonore immersive",
+   "Dialogue clair",
+   "Gros basses sans caisson de basse",
+   "Options de streaming Wi-Fi",
+   "Son cinéma maison solide",
+   "Dolby Atmos & DTS Virtual:X",
+   "Dolby Atmos et DTS Virtual:X",
+   "scène sonore large",
+   "Rapport qualité-prix très bon"
+  ],
+  "cons": [
+   "Aucune option pour étendre le système",
+   "Pas d'entrées analogiques",
+   "Design simple",
+   "Design plutôt fonctionnel",
+   "Le son manque de profondeur",
+   "Légèrement grattant / bruissant à très fort volume."
+  ]
+ },
+ "TCL Q65H": {
+  "source": "https://www.commentchoisir.fr/test-TCL+_Q65H.htm",
+  "tests": [
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "09/02/2026",
+    "url": "https://www.kopfhoerer.de/test/tcl-q65h/"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "13/09/2025",
+    "url": "https://www.clubic.com/test-produit-578762-test-tcl-q65h-une-barre-de-son-premium-et-puissante-avec-quelques-defauts.html"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "11/10/2025",
+    "url": "https://www.frandroid.com/marques/tcl/2820545_test-de-la-barre-de-son-tcl-q65h-de-la-puissance-a-en-revendre"
+   }
+  ],
+  "pros": [
+   "Son puissant et spatial avec Dolby Atmos & DTS:X",
+   "Graves profonds perceptibles grâce au caisson de basses.",
+   "Très bon équipement incluant HDMI-eARC, VRR & ALLM",
+   "Installation et utilisation simples",
+   "Rapport qualité-prix",
+   "Son très puissant",
+   "Bon niveau de détails, bonne représentation Surround",
+   "Construction exemplaire",
+   "Expérience utilisateur intuitive",
+   "Puissance du son et large scène sonore",
+   "Caisson de basses sans fil puissant et bien intégré.",
+   "AI Sonic-Adaptation"
+  ],
+  "cons": [
+   "Le son dans les aigus n'est pas aussi raffiné que sur des modèles plus chers.",
+   "Pas de Google Cast, Apple AirPlay 2, Spotify Connect ou similaire.",
+   "Design plutôt sobre",
+   "Caisson de basses trop fougueux",
+   "Manque de linéarité des aigus",
+   "Verticalité très limitée",
+   "Manque de réglages sonores personnalisables",
+   "Absence de connectivité Wi-Fi",
+   "Pas d'effets de hauteur",
+   "Design fonctionnel",
+   "Caisson difficile à limiter"
+  ]
+ },
+ "Hisense HS2100": {
+  "source": "https://www.commentchoisir.fr/test-Hisense_HS2100.htm",
+  "tests": [
+   {
+    "media": "GizTele",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "28/01/2024",
+    "url": "https://www.giztele.com/hisense-hs2100-caracteristicas-precio-opiniones/"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "21/03/2024",
+    "url": "https://www.rtings.com/soundbar/reviews/hisense/hs2100"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "29/05/2024",
+    "url": "https://www.lesnumeriques.com/barre-de-son/hisense-hs2100-p74700/test.html"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "24/12/2025",
+    "url": "https://www.mds-cineson.fr/test-barre-de-son-hisense-hs2100-240w-avec-caisson-de-basses-2025"
+   }
+  ],
+  "pros": [
+   "Très bon rapport qualité-prix.",
+   "Joli design.",
+   "Bon subwoofer.",
+   "Réglage des basses/aigus embarqué.",
+   "Préréglages EQ disponibles.",
+   "Équilibre des médiums et des aigus.",
+   "Spatialisation correcte.",
+   "Facile à prendre en main.",
+   "Compacité de l'ensemble.",
+   "qualité sonore exceptionnelle pour le prix",
+   "basses puissantes et vibrantes",
+   "installation facile"
+  ],
+  "cons": [
+   "Il n'a pas de WiFi.",
+   "Menus en anglais.",
+   "Mélange le contenu du son surround.",
+   "Une certaine compression au volume maximum.",
+   "Basses peu réactives.",
+   "Transition marquée entre le caisson de basses et la barre de son.",
+   "Afficheur limité.",
+   "Pas d'entrée HDMI.",
+   "Latence du port optique (60 ms).",
+   "Construction sommaire.",
+   "#8211; modes d'emploi non disponibles en français",
+   "#8211; transition des basses entre la barre et le caisson perceptible"
+  ]
+ }
+}

@@ -257,4 +257,32 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
     budget=[("700 – 900 €", "Bons Mini-LED en 65 pouces, jeu à 120 ou 144 Hz possible."), ("1 600 € et plus", "OLED de grande taille, image nettement supérieure.")],
 ),
+"t-prix": dict(
+    titre="Comment choisir un téléviseur à petit prix",
+    intro="Sous 600 €, tous les téléviseurs ne se valent pas. Ce qui compte : <b>la taille utile, le HDR réellement géré et la fluidité pour le jeu ou le sport</b>.",
+    criteres=[
+        ("Taille avant tout", "À budget égal, un 55 ou 65 pouces en QLED ou LED sera plus utile qu'un petit modèle haut de gamme."),
+        ("Dolby Vision et HDR", "Beaucoup de modèles d'entrée de gamme se limitent au HDR10 : vérifiez la prise en charge si vous regardez des films en streaming."),
+        ("Fluidité", "60 Hz suffit pour la télévision ; pour la console, cherchez 120 ou 144 Hz et un mode jeu."),
+        ("Système et applications", "Google TV, Tizen ou Fire TV : vérifiez que vos applications de streaming y sont disponibles."),
+    ],
+    pieges=["Acheter un rétroéclairage Direct LED pour regarder des films dans le noir : les noirs resteront gris.",
+            "Se fier au prix « barré » : comparez avec le prix des semaines précédentes.",
+            "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
+    budget=[("350 – 450 €", "Un 55 pouces correct pour la télévision et le streaming."), ("550 – 600 €", "Un 65 pouces QLED ou un Mini-LED d'entrée de gamme.")],
+),
+"t-barres": dict(
+    titre="Comment choisir une barre de son",
+    intro="Une barre de son améliore nettement le son d'un téléviseur. Ce qui compte : <b>la place disponible, le besoin de basses et la compatibilité avec votre téléviseur</b>.",
+    criteres=[
+        ("Avec ou sans caisson", "Un caisson sans fil apporte des graves marqués ; une barre seule est plus simple et plus discrète."),
+        ("Dolby Atmos", "Utile pour les films en streaming, il demande des haut-parleurs orientés vers le haut et un contenu compatible."),
+        ("Connexion HDMI eARC", "C'est la liaison la plus simple pour recevoir le meilleur son depuis le téléviseur ; vérifiez aussi le passage 4K 120 Hz si vous jouez."),
+        ("Taille et téléviseur", "La barre doit se glisser sous l'écran sans masquer le capteur de la télécommande."),
+    ],
+    pieges=["Acheter une barre sans HDMI eARC si votre téléviseur n'a qu'une sortie optique.",
+            "Compter sur l'Atmos sans contenu compatible.",
+            "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
+    budget=[("100 – 250 €", "Une barre avec caisson sans fil, à l'équipement correct."), ("300 – 700 €", "Une barre Atmos plus fine, avec Wi-Fi et un meilleur son.")],
+),
 }
