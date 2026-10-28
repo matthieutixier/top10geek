@@ -38318,6 +38318,1318 @@
      "FrAndroid"
     ]
    }
+  },
+  "razer-blackshark-v3-pro": {
+   "cat": "a-gam",
+   "short": "Razer BlackShark V3 Pro",
+   "ref": "2,4 GHz + Bluetooth · ANC · 50 mm",
+   "badge": "Le plus testé",
+   "verdict": "Le casque e-sport de Razer, le plus testé du comparatif : un très bon son, une scène sonore précise dans les basses et une réduction de bruit solide. Son tarif est élevé et le serre-tête pourrait être mieux rembourré.",
+   "strengths": [
+    "Très bon son et bonne scène sonore",
+    "Réduction de bruit active solide",
+    "Micro HyperClear amovible"
+   ],
+   "weak": [
+    "Tarif élevé",
+    "Serre-tête peu rembourré",
+    "Notes très variables (de 6 à 10/10)"
+   ],
+   "m": [
+    "ANC",
+    "Sans fil 2,4 GHz"
+   ],
+   "id": "razer-blackshark-v3-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 196.99,
+     "url": "https://www.amazon.fr/dp/B0F93TKTGY?tag=geekconcept-21",
+     "name": "Razer BlackShark V3 Pro - Casque ANC sans Fil pour l'Esport - Annulation Active - Haut-parleurs 50mm",
+     "cfg": "",
+     "asin": "B0F93TKTGY"
+    }
+   ],
+   "press": {
+    "avg": 8.456,
+    "n": 25,
+    "tests": 41,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "GamesRadar",
+      "score": 10.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/razer-blackshark-v3-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/638973-test-razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/casque-gaming-micro/razer-blackshark-v3-pro-p77190/test.html",
+      "date": ""
+     },
+     {
+      "src": "N-Gamz",
+      "score": 10.0,
+      "url": "http://n-gamz.com/product-review/razer-blackshark-v3-pro-ps5-white-edition-test-video-le-meilleur-casque-de-lannee/",
+      "date": ""
+     },
+     {
+      "src": "Windows Central",
+      "score": 10.0,
+      "url": "https://www.windowscentral.com/accessories/headphones/razer-blackshark-v3-pro-review",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.4,
+      "url": "https://basic-tutorials.de/tests/peripherie/razer-blackshark-v3-pro-test/",
+      "date": ""
+     },
+     {
+      "src": "Beyond Gaming",
+      "score": 9.0,
+      "url": "https://www.beyondgaming.be/threads/review-razer-blackshark-v3-pro.40484/",
+      "date": ""
+     },
+     {
+      "src": "Comunidad Xbox",
+      "score": 9.0,
+      "url": "https://comunidadxbox.com/analisis-de-razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "MKAU Gaming",
+      "score": 9.0,
+      "url": "https://www.mkaugaming.com/all-review-list/razer-blackshark-v3-pro-wireless-headset-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "XBoxEra",
+      "score": 9.0,
+      "url": "https://xboxera.com/2025/12/03/razer-blackshark-v3-pro-headset-review/",
+      "date": ""
+     },
+     {
+      "src": "wccftech",
+      "score": 9.0,
+      "url": "https://wccftech.com/review/razer-blackshark-v3-pro-review-precision-audio-for-multi-platform-gaming/",
+      "date": ""
+     },
+     {
+      "src": "ActuGaming",
+      "score": 8.0,
+      "url": "https://www.actugaming.net/test-razer-blackshark-v3-pro-review-766512/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Razer-BlackShark-V3-Pro-im-Test_186591932.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-578445-test-razer-blackshark-v3-pro-ce-casque-gamer-haut-de-gamme-fait-oublier-son-poids-excessif.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Citizen",
+      "score": 8.0,
+      "url": "https://www.digitalcitizen.life/razer-blackshark-v3-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/produits-android/audio/casque-audio/2746953_test-du-razer-blackshark-v3-pro-un-casque-esport-tres-complet",
+      "date": ""
+     },
+     {
+      "src": "GadgetGear",
+      "score": 8.0,
+      "url": "https://www.gadgetgear.nl/2025/09/review-razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "GamerTech",
+      "score": 8.0,
+      "url": "https://www.gamertech.fr/casque-gamer/razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-razer-blackshark-v3-pro-le-grand-blanc-du-gaming/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/razer-blackshark-v3-pro-recensione-cuffie-cancellazione-attiva-rumore.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/razer-blackshark-v3-pro",
+      "date": ""
+     },
+     {
+      "src": "XiaomiToday",
+      "score": 8.0,
+      "url": "https://xiaomitoday.com/razer-blackshark-v3-pro-niko-edition-review-wireless-anc-esports-gaming-headset-for-ps5/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/razer-blackshark-v3-pro-review-built-for-fps-gamers-141492/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 6.0,
+      "url": "https://www.kopfhoerer.de/test/razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 6.0,
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/razer-blackshark-v3-pro-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/razer-blackshark-v3-pro",
+      "date": ""
+     },
+     {
+      "src": "Areajugones",
+      "score": null,
+      "url": "https://areajugones.sport.es/videojuegos/analisis-razer-blackshark-v3-pro-para-ps5-los-mejores-auriculares-con-anc-para-consola/",
+      "date": ""
+     },
+     {
+      "src": "Computer Bild",
+      "score": null,
+      "url": "https://www.computerbild.de/artikel/Tests-Spiele-Razer-BlackShark-V3-Pro-Test-Bereit-Review-39885299.html",
+      "date": ""
+     },
+     {
+      "src": "CowCotLand.com",
+      "score": null,
+      "url": "https://www.cowcotland.com/articles/4688/test-razer-blackshark-v3-pro-encore-meilleur-qu-avant.html",
+      "date": ""
+     },
+     {
+      "src": "FactorNews.com",
+      "score": null,
+      "url": "https://www.factornews.com/test/razer-blackshark-v3-pro-une-histoire-d-eq-51341.html",
+      "date": ""
+     },
+     {
+      "src": "GameWave",
+      "score": null,
+      "url": "https://gamewave.fr/tests/test-complet-du-razer-blackshark-v3-pro-le-casque-sans-fil-qui-vise-l-excellence/",
+      "date": ""
+     },
+     {
+      "src": "GamesWelt",
+      "score": null,
+      "url": "https://www.gameswelt.de/razer-blackshark/test/test-esports-headset-mit-anc-und-mehr-331288?utm_campaign=tbuk",
+      "date": ""
+     },
+     {
+      "src": "Gaming Trend",
+      "score": null,
+      "url": "https://gamingtrend.com/reviews/razer-blackshark-v3-pro-wireless-headset-review-baring-its-teeth/",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": null,
+      "url": "https://geekculture.co/razer-blackshark-v3-pro-wireless-gaming-headset-review/",
+      "date": ""
+     },
+     {
+      "src": "HardwareCooking",
+      "score": null,
+      "url": "https://www.hardwarecooking.fr/test-razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/entertainment/gaming/razer-blackshark-v3-pro-review-gaming-performance-first",
+      "date": ""
+     },
+     {
+      "src": "PXLBBQ",
+      "score": null,
+      "url": "https://pxlbbq.com/test-razer-blackshark-v3-pro-un-casque-qui-affine-la-formule-sans-tout-reinventer/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/razer/blackshark-v3-pro",
+      "date": ""
+     },
+     {
+      "src": "War Legend",
+      "score": null,
+      "url": "https://www.warlegend.net/test-razer-blackshark-v3-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/razer-blackshark-v3-pro/",
+      "date": ""
+     },
+     {
+      "src": "XBoxOrNot",
+      "score": null,
+      "url": "https://www.xboxornot.fr/test-du-casque-sans-fil-razer-blackshark-v3-pro-pc-thx-7-1-4/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 196.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Vingt-cinq médias ont testé le BlackShark V3 Pro, ce qui en fait le casque le mieux documenté de la sélection, pour une moyenne de 8,5/10. GamesRadar, Windows Central, Les Numériques, N-Gamz et Labo Fnac lui accordent 10/10 ; Clubic, LeCafeDuGeek et Trusted Reviews 8/10. À l'autre bout, SoundGuys met 7/10, Tom's Hardware et Kopfhörer 6/10.\n\nLes testeurs saluent un très bon son, une scène sonore précise dans les basses et une réduction de bruit solide. Ils reprochent surtout un tarif élevé et un serre-tête qui pourrait être mieux rembourré.",
+    "date": "2026-10-28",
+    "n": 25,
+    "tests": 41,
+    "sources": [
+     "GamesRadar",
+     "Windows Central",
+     "Les Numériques",
+     "N-Gamz",
+     "Labo Fnac",
+     "Clubic.com",
+     "LeCafeDuGeek",
+     "Trusted Reviews",
+     "SoundGuys",
+     "Tom's Hardware",
+     "Kopfhörer"
+    ]
+   }
+  },
+  "turtle-beach-stealth-pro-ii": {
+   "cat": "a-gam",
+   "short": "Turtle Beach Stealth Pro II",
+   "ref": "ANC · Hi-Res 24 bits · multiplateforme",
+   "badge": "Premium",
+   "verdict": "Un casque premium multiplateforme très confortable et très bien construit, avec un audio sans compromis selon les tests. Il est cher et demande un adaptateur pour la prise jack 3,5 mm.",
+   "strengths": [
+    "Très confortable",
+    "Construction de haute qualité",
+    "Expérience audio premium"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Adaptateur nécessaire pour le jack 3,5 mm",
+    "Pas de guide de démarrage papier"
+   ],
+   "m": [
+    "ANC",
+    "Hi-Res 24 bits"
+   ],
+   "id": "turtle-beach-stealth-pro-ii",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 349.99,
+     "url": "https://www.amazon.fr/dp/B0GN4NBD2V?tag=geekconcept-21",
+     "name": "Turtle Beach Stealth Pro II casque gaming sans fil, XBOX, PS5",
+     "cfg": "",
+     "asin": "B0GN4NBD2V"
+    }
+   ],
+   "press": {
+    "avg": 8.421428571428573,
+    "n": 14,
+    "tests": 22,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Gaming Trend",
+      "score": 10.0,
+      "url": "https://gamingtrend.com/reviews/turtle-beach-stealth-pro-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "COGconnected",
+      "score": 9.4,
+      "url": "https://cogconnected.com/review/turtle-beach-stealth-pro-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-turtle-beach-stealth-pro-ii-le-casque-gaming-premium-qui-veut-tout-faire/",
+      "date": ""
+     },
+     {
+      "src": "Windows Central",
+      "score": 9.0,
+      "url": "https://www.windowscentral.com/accessories/headphones/review-turtle-beach-stealth-pro-ii-for-xbox-and-pc",
+      "date": ""
+     },
+     {
+      "src": "ZTGD",
+      "score": 9.0,
+      "url": "https://ztgd.com/reviews/turtle-beach-stealth-pro-ii-hardware/",
+      "date": ""
+     },
+     {
+      "src": "PCGamer",
+      "score": 8.5,
+      "url": "https://www.pcgamer.com/hardware/gaming-headsets/turtle-beach-stealth-pro-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/turtle-beach-stealth-pro-ii",
+      "date": ""
+     },
+     {
+      "src": "GameRevolution",
+      "score": 8.0,
+      "url": "https://www.gamerevolution.com/review/984797-turtle-beach-stealth-pro-ii-review-wireless-gaming-headset",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 8.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/turtle-beach-stealth-pro-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/turtle-beach-stealth-pro-ii-review",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/turtle-beach-stealth-pro-ii-recensione-cuffie.html",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/turtle-beach-stealth-pro-ii-review",
+      "date": ""
+     },
+     {
+      "src": "wccftech",
+      "score": 8.0,
+      "url": "https://wccftech.com/review/turtle-beach-stealth-pro-ii-review-a-different-take-on-multi-platform-gaming/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/turtle-beach-stealth-pro-ii-review-great-sound-bad-build-157082/",
+      "date": ""
+     },
+     {
+      "src": "FactorNews.com",
+      "score": null,
+      "url": "https://www.factornews.com/test/turtle-beach-stealth-pro-ii-52068.html",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/turtle-beach-stealth-pro-ii-test-gaming-headset-kopfhoerer-anc-sound-qualitaet-ps5-xbox-pc/403183507",
+      "date": ""
+     },
+     {
+      "src": "GameWave",
+      "score": null,
+      "url": "https://gamewave.fr/tests/turtle-beach-stealth-pro-ii-test-du-casque-gaming-qui-ne-fait-aucun-compromis/",
+      "date": ""
+     },
+     {
+      "src": "GamesWelt",
+      "score": null,
+      "url": "https://www.gameswelt.de/turtle-beach-stealth-pro/test/test-angriff-auf-den-headset-thron-333707?utm_campaign=tbuk",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-pro-ii",
+      "date": ""
+     },
+     {
+      "src": "TheXboxHub",
+      "score": null,
+      "url": "https://www.thexboxhub.com/turtle-beach-stealth-pro-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "War Legend",
+      "score": null,
+      "url": "https://www.warlegend.net/test-turtle-beach-stealth-pro-2-review/",
+      "date": ""
+     },
+     {
+      "src": "XBoxOrNot",
+      "score": null,
+      "url": "https://www.xboxornot.fr/test-du-casque-sans-fil-turtle-beach-stealth-pro-ii-le-retour-du-roi/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 349.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatorze notes pour le Stealth Pro II, moyenne 8,4/10. Gaming Trend atteint 10/10, COGconnected 9,4/10, Windows Central, LeCafeDuGeek et ZTGD 9/10, tandis que IGN, Tom's Hardware et GamesRadar restent à 8/10 et SoundGuys à 7/10.\n\nLe confort et la qualité de fabrication font l'unanimité, avec un rendu audio décrit comme premium. Les réserves sont pratiques : un adaptateur à acheter pour la prise jack 3,5 mm, pas de guide de démarrage papier, et surtout un prix qui dépasse 300 €. Il se destine aux joueurs qui alternent consoles et PC et acceptent de payer pour un casque durable.",
+    "date": "2026-10-28",
+    "n": 14,
+    "tests": 22,
+    "sources": [
+     "Gaming Trend",
+     "COGconnected",
+     "Windows Central",
+     "LeCafeDuGeek",
+     "ZTGD",
+     "IGN",
+     "Tom's Hardware",
+     "GamesRadar",
+     "SoundGuys"
+    ]
+   }
+  },
+  "steelseries-arctis-nova-pro-omni": {
+   "cat": "a-gam",
+   "short": "SteelSeries Arctis Nova Pro Omni",
+   "ref": "ANC · Hi-Res 96 kHz · PC/PS/Xbox",
+   "badge": "Hi-Res",
+   "verdict": "Le casque le plus complet de la catégorie : audio Hi-Res, ANC, confort haut de gamme et centre de contrôle GameHub. Il est très cher et le traitement du micro est juste correct pour le prix.",
+   "strengths": [
+    "Qualité audio Hi-Res",
+    "Confort et design haut de gamme",
+    "Application GameHub complète"
+   ],
+   "weak": [
+    "Très cher",
+    "Micro seulement correct pour le prix",
+    "Traitement du son correct pour le prix seulement"
+   ],
+   "m": [
+    "ANC",
+    "Hi-Res 96 kHz"
+   ],
+   "id": "steelseries-arctis-nova-pro-omni",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 398.99,
+     "url": "https://www.amazon.fr/dp/B0GVZFQ8N2?tag=geekconcept-21",
+     "name": "SteelSeries Arctis Nova Pro Omni - Hi-Res Wireless Gaming-Headset, 96 kHz/24 Bit, ANC",
+     "cfg": "",
+     "asin": "B0GVZFQ8N2"
+    }
+   ],
+   "press": {
+    "avg": 8.575,
+    "n": 16,
+    "tests": 27,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Gaming Trend",
+      "score": 10.0,
+      "url": "https://gamingtrend.com/reviews/steelseries-arctis-nova-pro-omni-headset-review/",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 9.4,
+      "url": "https://techtest.org/steelseries-arctis-nova-pro-omni-im-test-das-beste-gaming-headset-2026/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.3,
+      "url": "https://basic-tutorials.de/tests/peripherie/steelseries-arctis-nova-pro-omni-test/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-611788-test-steelseries-arctis-nova-pro-omni-une-esquisse-du-casque-gaming-ultime.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/produits-android/3082325_nous-avons-teste-le-steelseries-arctis-nova-pro-omni-un-casque-gaming-haut-de-gamme-taille-pour-le-multi-plateforme",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 9.0,
+      "url": "https://www.ign.com/articles/steelseries-arctis-nova-pro-omni-headset-review",
+      "date": ""
+     },
+     {
+      "src": "JeuxActu.com",
+      "score": 9.0,
+      "url": "https://www.jeuxactu.com/test-steelseries-arctis-nova-pro-omni-le-casque-gaming-ultime-existe-t-132027.htm",
+      "date": ""
+     },
+     {
+      "src": "MKAU Gaming",
+      "score": 9.0,
+      "url": "https://www.mkaugaming.com/all-review-list/steelseries-arctis-nova-pro-omni-headset-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "PCGamer",
+      "score": 8.5,
+      "url": "https://www.pcgamer.com/hardware/gaming-headsets/steelseries-arctis-nova-pro-omni-review/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/steelseries-arctis-nova-pro-omni",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-steelseries-arctis-nova-pro-omni-omni-soit-qui-mal-y-pense/",
+      "date": ""
+     },
+     {
+      "src": "PixelCritics",
+      "score": 8.0,
+      "url": "https://pixelcritics.com/steelseries-arctis-nova-pro-omni-im-test-genialer-multi-device-allrounder-mit-klanglichen-schattenseiten/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/steelseries-arctis-nova-pro-omni-test/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/steelseries-arctis-nova-pro-omni-review-156850/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/steelseries-arctis-nova-pro-omni",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 7.0,
+      "url": "https://www.journaldugeek.com/test/test-casque-steelseries-arctis-nova-pro-omni-un-son-de-folie-pour-un-casque-gaming/",
+      "date": ""
+     },
+     {
+      "src": "FactorNews.com",
+      "score": null,
+      "url": "https://www.factornews.com/test/steelseries-arctis-nova-pro-omni-un-casque-pour-les-gouverner-toutes-51950.html",
+      "date": ""
+     },
+     {
+      "src": "GamesWelt",
+      "score": null,
+      "url": "https://www.gameswelt.de/steelseries-arctis-nova/test/test-die-ultimative-schaltzentrale-fuer-multiplattformer-333706?utm_campaign=tbuk",
+      "date": ""
+     },
+     {
+      "src": "Gear Diary",
+      "score": null,
+      "url": "https://geardiary.com/2026/08/18/steelseries-gaming-setup-review/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": null,
+      "url": "https://leclaireur.fnac.com/test/681606-test-steelseries-arctis-nova-pro-omni/",
+      "date": ""
+     },
+     {
+      "src": "PCGamesHardware",
+      "score": null,
+      "url": "https://www.pcgameshardware.de/Headset-Hardware-255588/Tests/Steelseries-Arctis-Nova-Pro-Omni-kabellos-Over-Ear-Preis-1530227/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro-omni",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": null,
+      "url": "https://www.slashgear.com/2248871/steelseries-arctis-nova-pro-omni-review-gaming-headset-high-end-audio/",
+      "date": ""
+     },
+     {
+      "src": "Stuff",
+      "score": null,
+      "url": "https://www.stuff.tv/review/steelseries-arctis-nova-pro-omni-review/",
+      "date": ""
+     },
+     {
+      "src": "TestingBuddies",
+      "score": null,
+      "url": "https://testingbuddies.de/reviews/steel-series-arctis-nova-pro-omni-im-test-ein-headset-das-alles-will-und-fast-alles-kann",
+      "date": ""
+     },
+     {
+      "src": "TheXboxHub",
+      "score": null,
+      "url": "https://www.thexboxhub.com/steelseries-arctis-nova-pro-omni-review/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/steelseries-arctis-nova-pro-omni/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 398.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Seize médias ont noté l'Arctis Nova Pro Omni, pour 8,6/10 de moyenne. Gaming Trend lui donne 10/10, TechTest 9,4/10, Basic Tutorials 9,3/10, IGN, Clubic et FrAndroid 9/10. Journal du Geek est le plus réservé avec 7/10.\n\nIls retiennent une qualité audio Hi-Res en tête de sa catégorie, un confort et un design haut de gamme, ainsi que l'application GameHub. La contrepartie est un tarif très élevé, avec un micro seulement correct à ce prix. C'est le choix de ceux qui veulent un seul casque pour le PC et les consoles, sans regarder la dépense.",
+    "date": "2026-10-28",
+    "n": 16,
+    "tests": 27,
+    "sources": [
+     "Gaming Trend",
+     "TechTest",
+     "Basic Tutorials",
+     "IGN",
+     "Clubic.com",
+     "FrAndroid",
+     "Journal du Geek"
+    ]
+   }
+  },
+  "audeze-maxwell-2": {
+   "cat": "a-gam",
+   "short": "Audeze Maxwell 2",
+   "ref": "Planar 90 mm · 80 h · multiplateforme",
+   "badge": "Le son planar",
+   "verdict": "Un casque à transducteurs planar, au son puissant, nuancé et détaillé, avec une batterie endurante. Il est lourd et encombrant, ne lit pas plusieurs flux à la fois et son réglage par défaut est tranchant.",
+   "strengths": [
+    "Son puissant, nuancé et détaillé",
+    "Qualité du transducteur planar",
+    "Longue durée de batterie"
+   ],
+   "weak": [
+    "Lourd et encombrant",
+    "Réglage par défaut tranchant",
+    "Pas de lecture de plusieurs flux"
+   ],
+   "m": [
+    "Planar",
+    "80 h"
+   ],
+   "id": "audeze-maxwell-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 399.0,
+     "url": "https://www.amazon.fr/dp/B0G98TB4ZF?tag=geekconcept-21",
+     "name": "Audeze Maxwell 2 Casque de jeu sans fil PlayStation/PC",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0G98TB4ZF"
+    }
+   ],
+   "press": {
+    "avg": 8.336363636363636,
+    "n": 11,
+    "tests": 16,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/casque-gaming-micro/audeze-maxwell-2-anc-p78668/test.html",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.1,
+      "url": "https://basic-tutorials.de/tests/peripherie/audeze-maxwell-2-anc-im-test/",
+      "date": ""
+     },
+     {
+      "src": "GameRevolution",
+      "score": 9.0,
+      "url": "https://www.gamerevolution.com/review/984908-audeze-maxwell-2-anc-review-wireless-gaming-headse",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 9.0,
+      "url": "https://www.ign.com/articles/audeze-maxwell-2-gaming-headset-review-revising-an-all-time-great",
+      "date": ""
+     },
+     {
+      "src": "Mac Sources",
+      "score": 9.0,
+      "url": "https://macsources.com/audeze-maxwell-2-gaming-headset-review/",
+      "date": ""
+     },
+     {
+      "src": "PCGamer",
+      "score": 8.6,
+      "url": "https://www.pcgamer.com/hardware/gaming-headsets/audeze-maxwell-2-review/",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 8.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/audeze-maxwell-2-review/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/audeze-maxwell-2/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/gaming/our-own-review-gave-the-audeze-maxwell-2-four-stars-but-its-such-a-brilliant-gaming-headset-that-i-would-have-given-it-five",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/audeze-maxwell-2-review-152758/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 6.0,
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/audeze-maxwell-2-review",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/audeze-maxwell-2-anc-kopfhoerer-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/audeze-maxwell-2-test-headset-review-3212894.html",
+      "date": ""
+     },
+     {
+      "src": "GamesWelt",
+      "score": null,
+      "url": "https://www.gameswelt.de/audeze-maxwell/test/test-planar-praezision-in-der-zweiten-runde-333704?utm_campaign=tbuk",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/audeze/maxwell-2",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": null,
+      "url": "https://www.slashgear.com/2245047/audeze-maxwell-2-anc-review-gaming-headphones-testing/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 399.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Onze médias ont testé le Maxwell 2, moyenne 8,3/10. Les Numériques lui octroient 10/10, Basic Tutorials, IGN, Mac Sources et GameRevolution 9/10 ; SoundGuys descend à 7/10 et Tom's Hardware à 6/10.\n\nLe casque séduit par son son puissant mais nuancé et par sa longue autonomie, grâce à ses transducteurs planar. Il est jugé lourd et encombrant, ne lit pas plusieurs flux à la fois et son réglage par défaut est tranchant. L'offre suivie est la version PlayStation/PC. Il s'adresse donc à des joueurs sensibles à la qualité sonore, plus qu'à ceux qui veulent un équipement léger.",
+    "date": "2026-10-28",
+    "n": 11,
+    "tests": 16,
+    "sources": [
+     "Les Numériques",
+     "Basic Tutorials",
+     "IGN",
+     "Mac Sources",
+     "GameRevolution",
+     "SoundGuys",
+     "Tom's Hardware"
+    ]
+   }
+  },
+  "razer-barracuda-v2-pro": {
+   "cat": "a-gam",
+   "short": "Razer Barracuda V2 Pro",
+   "ref": "ANC · 2,4 GHz + Bluetooth · THX",
+   "badge": "Confort",
+   "verdict": "Un casque confortable et bien fini avec un très bon son, l'ANC et le THX Spatial Audio. L'audio spatial n'existe que sur PC et le micro est seulement bon.",
+   "strengths": [
+    "Grand confort de port",
+    "Très bon son",
+    "Finition de qualité"
+   ],
+   "weak": [
+    "THX Spatial Audio seulement sur PC",
+    "Son pourrait être plus détaillé",
+    "Micro seulement bon"
+   ],
+   "m": [
+    "ANC",
+    "THX"
+   ],
+   "id": "razer-barracuda-v2-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 219.99,
+     "url": "https://www.amazon.fr/dp/B0HLDN1RMY?tag=geekconcept-21",
+     "name": "Razer Barracuda V2 Pro - Casque Gaming sans Fil avec réduction Active du Bruit (ANC)",
+     "cfg": "",
+     "asin": "B0HLDN1RMY"
+    }
+   ],
+   "press": {
+    "avg": 8.32,
+    "n": 5,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.1,
+      "url": "https://basic-tutorials.de/tests/peripherie/razer-barracuda-v2-pro-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Gaming Trend",
+      "score": 8.5,
+      "url": "https://gamingtrend.com/reviews/razer-barracuda-v2-pro-headset-review/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-razer-barracuda-v2-pro-un-casque-gaming-pour-parader-en-ville/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/headphones/razer-barracuda-v2-pro-review",
+      "date": ""
+     },
+     {
+      "src": "XBoxEra",
+      "score": 8.0,
+      "url": "https://playday.one/2026/10/15/razer-barracuda-v2-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2026/10/28/test-casque-gaming-razer-barracuda-v2-pro/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/razer-barracuda-v2-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 219.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias ont noté le Barracuda V2 Pro, moyenne 8,3/10 : Basic Tutorials lui donne 9,1/10, Gaming Trend 8,5/10, tandis que XBoxEra, LeCafeDuGeek et T3 restent à 8/10.\n\nLes tests apprécient le grand confort de port, le très bon son et la finition. Ils notent que le THX Spatial Audio n'est disponible que sur PC, que le son pourrait gagner en détail et que le micro est seulement bon. Un casque confortable avant d'être un casque spectaculaire. Face à un BlackShark V3 Pro plus précis, il joue la carte du confort et de la polyvalence entre PC et consoles.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 7,
+    "sources": [
+     "Basic Tutorials",
+     "Gaming Trend",
+     "XBoxEra",
+     "LeCafeDuGeek",
+     "T3"
+    ]
+   }
+  },
+  "hyperx-cloud-alpha-2": {
+   "cat": "a-gam",
+   "short": "HyperX Cloud Alpha 2",
+   "ref": "2,4 GHz + BT simultané · 250 h",
+   "badge": "Autonomie",
+   "verdict": "Un casque sans fil au son soigné pour le jeu comme pour la musique, avec une station de contrôle RGB et un micro détachable à réduction de bruit par IA. Il n'a pas d'ANC et son prix est élevé.",
+   "strengths": [
+    "Excellente qualité de haut-parleur",
+    "Micro détachable clair",
+    "Station de base pratique"
+   ],
+   "weak": [
+    "Pas d'ANC",
+    "Prix élevé",
+    "Notes de 6 à 9/10 selon les médias"
+   ],
+   "m": [
+    "Sans ANC",
+    "250 h"
+   ],
+   "id": "hyperx-cloud-alpha-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 201.99,
+     "url": "https://www.amazon.fr/dp/B0FJXLBWWT?tag=geekconcept-21",
+     "name": "HyperX Cloud Alpha 2 - Casque Gaming sans Fil - Noir",
+     "cfg": "",
+     "asin": "B0FJXLBWWT"
+    }
+   ],
+   "press": {
+    "avg": 7.928571428571429,
+    "n": 7,
+    "tests": 9,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Windows Central",
+      "score": 9.0,
+      "url": "https://www.windowscentral.com/accessories/hyperx-cloud-alpha-2-wireless-review",
+      "date": ""
+     },
+     {
+      "src": "PCGamer",
+      "score": 8.5,
+      "url": "https://www.pcgamer.com/hardware/gaming-headsets/hyperx-cloud-alpha-2-wireless-review/",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/reviews/hyperx-cloud-alpha-2-wireless-gaming-headset-review-with-big-battery-comes-bigger-ambitions/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/hyperx/3044477_test-cloud-alpha-2-wireless-le-plus-complet-des-casques-hyperx",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/hyperx-cloud-alpha-2-review-162061/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-alpha-2-wireless-review",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 6.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/hyperx-cloud-alpha-2-wireless-review/",
+      "date": ""
+     },
+     {
+      "src": "CowCotLand.com",
+      "score": null,
+      "url": "https://www.cowcotland.com/articles/4820/test-hyperx-cloud-alpha-2-norme-prix-mais-enorme-claque.html",
+      "date": ""
+     },
+     {
+      "src": "Lords of Gaming",
+      "score": null,
+      "url": "https://lordsofgaming.net/2025/09/hyperx-cloud-alpha-2-wireless-headset-review-premium-versatility/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 201.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept médias ont noté le Cloud Alpha 2, pour une moyenne de 7,9/10. Windows Central donne 9/10, PCGamer 8,5/10, Tom's Hardware, FrAndroid, Absolute Geeks et SoundGuys 8/10, mais GamesRadar s'arrête à 6/10.\n\nLa qualité des haut-parleurs, pour le jeu comme pour la musique, le micro détachable à réduction de bruit par IA et la station de contrôle RGB sont mis en avant. On lui reproche l'absence d'ANC et un prix jugé élevé. Les avis restent partagés : les uns apprécient l'autonomie et la station, d'autres jugent la facture élevée sans ANC pour la justifier.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 9,
+    "sources": [
+     "Windows Central",
+     "PCGamer",
+     "Tom's Hardware",
+     "FrAndroid",
+     "Absolute Geeks",
+     "SoundGuys",
+     "GamesRadar"
+    ]
+   }
+  },
+  "razer-kraken-kitty-v3-pro": {
+   "cat": "a-gam",
+   "short": "Razer Kraken Kitty V3 Pro",
+   "ref": "Oreilles de chat RGB · THX · 40 mm",
+   "badge": "Streamers",
+   "verdict": "Le casque des streamers, avec des oreilles de chat RGB réactives, un son plein et le THX Spatial Audio. Relativement lourd et cher.",
+   "strengths": [
+    "Design iconique",
+    "Éclairage RGB réactif",
+    "Son plein"
+   ],
+   "weak": [
+    "Relativement lourd",
+    "Prix élevé",
+    "Design très typé"
+   ],
+   "m": [
+    "RGB",
+    "Kitty ears"
+   ],
+   "id": "razer-kraken-kitty-v3-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 149.99,
+     "url": "https://www.amazon.fr/dp/B0FBWX8SPT?tag=geekconcept-21",
+     "name": "Razer Kraken Kitty V3 Pro - Casque Gaming sans Fil RGB Kitty - Oreilles de Chat réactives",
+     "cfg": "",
+     "asin": "B0FBWX8SPT"
+    }
+   ],
+   "press": {
+    "avg": 8.675,
+    "n": 4,
+    "tests": 8,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.2,
+      "url": "https://basic-tutorials.de/tests/peripherie/razer-kraken-kitty-v3-pro-test/",
+      "date": ""
+     },
+     {
+      "src": "Windows Central",
+      "score": 9.0,
+      "url": "https://www.windowscentral.com/accessories/headphones/razer-kraken-kitty-v3-pro-review",
+      "date": ""
+     },
+     {
+      "src": "PCGamer",
+      "score": 8.5,
+      "url": "https://www.pcgamer.com/hardware/gaming-headsets/razer-kraken-kitty-v3-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "GamesRadar",
+      "score": 8.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/the-razer-kraken-kitty-v3-pro-proves-that-cat-headsets-can-have-style-and-substance-review/",
+      "date": ""
+     },
+     {
+      "src": "Areajugones",
+      "score": null,
+      "url": "https://areajugones.sport.es/videojuegos/review-de-razer-kraken-kitty-v3-pro-quartz-edition-un-periferico-perfecto-para-la-mejor-experiencia-gaming-inmersiva/",
+      "date": ""
+     },
+     {
+      "src": "Gaming Trend",
+      "score": null,
+      "url": "https://gamingtrend.com/reviews/razer-kraken-kitty-v3-pro-wireless-headset-review-impawssibly-great/",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/09/03/test-casque-kraken-kitty-v3-pro-de-razer/",
+      "date": ""
+     },
+     {
+      "src": "Xboxygen",
+      "score": null,
+      "url": "https://www.xboxygen.com/Tests/Tests-materiel/53766-Test-Casque-Razer-Kraken-Kitty-V3-Pro-Si-miaou-que-ca",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 149.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias ont testé le Kraken Kitty V3 Pro, pour 8,7/10 de moyenne : Basic Tutorials lui donne 9,2/10, Windows Central 9/10, PCGamer 8,5/10 et GamesRadar 8/10.\n\nC'est le casque des streamers, avec son design iconique, son éclairage RGB réactif et un son plein. Les testeurs le trouvent relativement lourd et cher. Avec seulement quatre tests, la moyenne reste à confirmer. Il se branche en sans fil Hyperspeed ou en Bluetooth et vise d'abord les créateurs de contenu, plus que les puristes du son.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 8,
+    "sources": [
+     "Basic Tutorials",
+     "Windows Central",
+     "PCGamer",
+     "GamesRadar"
+    ]
+   }
+  },
+  "sony-inzone-e9": {
+   "cat": "a-gam",
+   "short": "Sony INZONE E9",
+   "ref": "Intra filaires · 360 Spatial Sound",
+   "badge": "Intra filaire",
+   "verdict": "Des intra filaires conçus pour les jeux de tir, au son directionnel précis, légers et confortables. Le profil sonore convient moins à l'écoute musicale et l'audio est moyen.",
+   "strengths": [
+    "Audio directionnel précis en FPS",
+    "Léger et confortable",
+    "Connectivité filaire pratique"
+   ],
+   "weak": [
+    "Pas idéal pour la musique",
+    "Audio moyen",
+    "Filaire seulement"
+   ],
+   "m": [
+    "Filaire",
+    "FPS"
+   ],
+   "id": "sony-inzone-e9",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 134.99,
+     "url": "https://www.amazon.fr/dp/B0FKMWX7Z7?tag=geekconcept-21",
+     "name": "Sony INZONE E9 Écouteurs Gaming filaires Intra-Auriculaires",
+     "cfg": "",
+     "asin": "B0FKMWX7Z7"
+    }
+   ],
+   "press": {
+    "avg": 7.25,
+    "n": 4,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/sony-inzone-e9",
+      "date": ""
+     },
+     {
+      "src": "Gaming Trend",
+      "score": 7.0,
+      "url": "https://gamingtrend.com/reviews/sony-inzone-e9-in-ear-monitors-review/",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 7.0,
+      "url": "https://www.ign.com/articles/sony-inzone-e9-in-ear-gaming-monitor-review",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/sony-inzone-e9-review-142906/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/sony/inzone-e9",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 134.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias ont noté les INZONE E9, pour une moyenne de 7,3/10 : Trusted Reviews donne 8/10, SoundGuys, IGN et Gaming Trend 7/10.\n\nCes intra filaires visent les jeux de tir, avec un audio directionnel précis, un faible poids et un port confortable. En contrepartie, leur profil sonore les rend moins agréables pour la musique et l'audio est jugé moyen. Un produit de niche à réserver aux joueurs de FPS. Leur format intra et leur câble en font un complément de casque plutôt qu'un remplaçant pour la maison.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 5,
+    "sources": [
+     "Trusted Reviews",
+     "SoundGuys",
+     "IGN",
+     "Gaming Trend"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

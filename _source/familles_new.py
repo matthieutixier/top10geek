@@ -112,6 +112,12 @@ ACATS = [
          seo_desc="Les meilleurs écouteurs open-ear (oreilles libres, conduction osseuse, clip) en 2026, classés par note presse : Shokz, Huawei, Sony, Nothing, Soundcore. Prix indicatifs, points forts et faibles.",
          h1='Les meilleurs <span class="flash">écouteurs open-ear</span> en 2026',
          intro="Pour courir, rouler à vélo ou travailler en restant attentif à ce qui se passe autour de vous : la presse compare le confort, le son et la fuite sonore de Shokz, Huawei, Sony, Nothing et Soundcore. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
+    dict(key="a-gam", slug="casques-gaming", label="Casques gaming", top_label="casques gaming", h="Casques gaming", tag="Entendre l'ennemi avant lui", color="var(--cat-gaming)", cls="f-gaming", badge="gaming", scene="audio-cas", scene_alt="Le père de famille geek, un casque gaming sur les oreilles, concentré sur son écran",
+         plural_low="casques",
+         seo_title="Meilleurs casques gaming 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs casques gaming sans fil en 2026, classés par note presse : Razer, SteelSeries, Turtle Beach, Audeze, HyperX, Sony. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">casques gaming</span> en 2026',
+         intro="Du BlackShark V3 Pro au Nova Pro Omni en passant par les intra filaires pour FPS : la presse départage le son, le confort, le micro et l'autonomie. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
 ]
 
 VCATS = [

@@ -407,5 +407,80 @@ add("soundcore-aerofit-2", AOPN, "Soundcore AeroFit 2", "Crochet · IP55 · 42 h
     "Vous voulez des basses marquées.", seller="AnkerDirect FR (expédié par Amazon)")
 
 
+AGAM = "a-gam"
+
+add("razer-blackshark-v3-pro", AGAM, "Razer BlackShark V3 Pro", "2,4 GHz + Bluetooth · ANC · 50 mm", "Le plus testé",
+    "Le casque e-sport de Razer, le plus testé du comparatif : un très bon son, une scène sonore précise dans les basses et une réduction de bruit solide. Son tarif est élevé et le serre-tête pourrait être mieux rembourré.",
+    ["Très bon son et bonne scène sonore", "Réduction de bruit active solide", "Micro HyperClear amovible"],
+    ["Tarif élevé", "Serre-tête peu rembourré", "Notes très variables (de 6 à 10/10)"],
+    ("ANC", "Sans fil 2,4 GHz"), "Razer BlackShark V3 Pro",
+    "B0F93TKTGY", "Razer BlackShark V3 Pro - Casque ANC sans Fil pour l'Esport - Annulation Active - Haut-parleurs 50mm", 196.99,
+    "Vous jouez sur PC en compétition et voulez un casque précis avec ANC.",
+    "Vous cherchez un casque à petit prix ou très rembourré.")
+
+add("turtle-beach-stealth-pro-ii", AGAM, "Turtle Beach Stealth Pro II", "ANC · Hi-Res 24 bits · multiplateforme", "Premium",
+    "Un casque premium multiplateforme très confortable et très bien construit, avec un audio sans compromis selon les tests. Il est cher et demande un adaptateur pour la prise jack 3,5 mm.",
+    ["Très confortable", "Construction de haute qualité", "Expérience audio premium"],
+    ["Prix élevé", "Adaptateur nécessaire pour le jack 3,5 mm", "Pas de guide de démarrage papier"],
+    ("ANC", "Hi-Res 24 bits"), "Turtle Beach Stealth Pro II",
+    "B0GN4NBD2V", "Turtle Beach Stealth Pro II casque gaming sans fil, XBOX, PS5", 349.99,
+    "Vous jouez sur console et PC et voulez le casque le plus confortable.",
+    "Vous voulez dépenser moins de 250 €.")
+
+add("steelseries-arctis-nova-pro-omni", AGAM, "SteelSeries Arctis Nova Pro Omni", "ANC · Hi-Res 96 kHz · PC/PS/Xbox", "Hi-Res",
+    "Le casque le plus complet de la catégorie : audio Hi-Res, ANC, confort haut de gamme et centre de contrôle GameHub. Il est très cher et le traitement du micro est juste correct pour le prix.",
+    ["Qualité audio Hi-Res", "Confort et design haut de gamme", "Application GameHub complète"],
+    ["Très cher", "Micro seulement correct pour le prix", "Traitement du son correct pour le prix seulement"],
+    ("ANC", "Hi-Res 96 kHz"), "SteelSeries Arctis Nova Pro Omni",
+    "B0GVZFQ8N2", "SteelSeries Arctis Nova Pro Omni - Hi-Res Wireless Gaming-Headset, 96 kHz/24 Bit, ANC", 398.99,
+    "Vous voulez le meilleur son possible sur PC et consoles et avez le budget.",
+    "Vous cherchez un casque à moins de 250 €.")
+
+add("audeze-maxwell-2", AGAM, "Audeze Maxwell 2", "Planar 90 mm · 80 h · multiplateforme", "Le son planar",
+    "Un casque à transducteurs planar, au son puissant, nuancé et détaillé, avec une batterie endurante. Il est lourd et encombrant, ne lit pas plusieurs flux à la fois et son réglage par défaut est tranchant.",
+    ["Son puissant, nuancé et détaillé", "Qualité du transducteur planar", "Longue durée de batterie"],
+    ["Lourd et encombrant", "Réglage par défaut tranchant", "Pas de lecture de plusieurs flux"],
+    ("Planar", "80 h"), "Audeze Maxwell 2",
+    "B0G98TB4ZF", "Audeze Maxwell 2 Casque de jeu sans fil PlayStation/PC", 399.0,
+    "Vous êtes exigeant sur le son et jouez longtemps sans recharger.",
+    "Vous voulez un casque léger ou jouez sur Xbox (version vendue à part).", seller="Son-Video", scope="gamme")
+
+add("razer-barracuda-v2-pro", AGAM, "Razer Barracuda V2 Pro", "ANC · 2,4 GHz + Bluetooth · THX", "Confort",
+    "Un casque confortable et bien fini avec un très bon son, l'ANC et le THX Spatial Audio. L'audio spatial n'existe que sur PC et le micro est seulement bon.",
+    ["Grand confort de port", "Très bon son", "Finition de qualité"],
+    ["THX Spatial Audio seulement sur PC", "Son pourrait être plus détaillé", "Micro seulement bon"],
+    ("ANC", "THX"), "Razer Barracuda V2 Pro",
+    "B0HLDN1RMY", "Razer Barracuda V2 Pro - Casque Gaming sans Fil avec réduction Active du Bruit (ANC)", 219.99,
+    "Vous voulez un casque confortable avec ANC pour PC et console.",
+    "Vous attendez un micro de qualité studio.")
+
+add("hyperx-cloud-alpha-2", AGAM, "HyperX Cloud Alpha 2", "2,4 GHz + BT simultané · 250 h", "Autonomie",
+    "Un casque sans fil au son soigné pour le jeu comme pour la musique, avec une station de contrôle RGB et un micro détachable à réduction de bruit par IA. Il n'a pas d'ANC et son prix est élevé.",
+    ["Excellente qualité de haut-parleur", "Micro détachable clair", "Station de base pratique"],
+    ["Pas d'ANC", "Prix élevé", "Notes de 6 à 9/10 selon les médias"],
+    ("Sans ANC", "250 h"), "HyperX Cloud Alpha 2",
+    "B0FJXLBWWT", "HyperX Cloud Alpha 2 - Casque Gaming sans Fil - Noir", 201.99,
+    "Vous voulez de l'autonomie et un casque sans ANC polyvalent.",
+    "Vous voulez de la réduction de bruit active.")
+
+add("razer-kraken-kitty-v3-pro", AGAM, "Razer Kraken Kitty V3 Pro", "Oreilles de chat RGB · THX · 40 mm", "Streamers",
+    "Le casque des streamers, avec des oreilles de chat RGB réactives, un son plein et le THX Spatial Audio. Relativement lourd et cher.",
+    ["Design iconique", "Éclairage RGB réactif", "Son plein"],
+    ["Relativement lourd", "Prix élevé", "Design très typé"],
+    ("RGB", "Kitty ears"), "Razer Kraken Kitty V3 PRO",
+    "B0FBWX8SPT", "Razer Kraken Kitty V3 Pro - Casque Gaming sans Fil RGB Kitty - Oreilles de Chat réactives", 149.99,
+    "Vous streamez ou aimez un casque qui se remarque.",
+    "Vous voulez un casque léger et discret.")
+
+add("sony-inzone-e9", AGAM, "Sony INZONE E9", "Intra filaires · 360 Spatial Sound", "Intra filaire",
+    "Des intra filaires conçus pour les jeux de tir, au son directionnel précis, légers et confortables. Le profil sonore convient moins à l'écoute musicale et l'audio est moyen.",
+    ["Audio directionnel précis en FPS", "Léger et confortable", "Connectivité filaire pratique"],
+    ["Pas idéal pour la musique", "Audio moyen", "Filaire seulement"],
+    ("Filaire", "FPS"), "Sony Inzone E9",
+    "B0FKMWX7Z7", "Sony INZONE E9 Écouteurs Gaming filaires Intra-Auriculaires", 134.99,
+    "Vous jouez surtout à des FPS et voulez des intra légers.",
+    "Vous écoutez beaucoup de musique ou voulez du sans fil.")
+
+
 def build():
     return dict(AUD)

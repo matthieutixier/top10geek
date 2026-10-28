@@ -1,0 +1,104 @@
+[
+ {
+  "id": "razer-blackshark-v3-pro",
+  "texte": "Vingt-cinq médias ont testé le BlackShark V3 Pro, ce qui en fait le casque le mieux documenté de la sélection, pour une moyenne de 8,5/10. GamesRadar, Windows Central, Les Numériques, N-Gamz et Labo Fnac lui accordent 10/10 ; Clubic, LeCafeDuGeek et Trusted Reviews 8/10. À l'autre bout, SoundGuys met 7/10, Tom's Hardware et Kopfhörer 6/10.\n\nLes testeurs saluent un très bon son, une scène sonore précise dans les basses et une réduction de bruit solide. Ils reprochent surtout un tarif élevé et un serre-tête qui pourrait être mieux rembourré.",
+  "sources": [
+   "GamesRadar",
+   "Windows Central",
+   "Les Numériques",
+   "N-Gamz",
+   "Labo Fnac",
+   "Clubic.com",
+   "LeCafeDuGeek",
+   "Trusted Reviews",
+   "SoundGuys",
+   "Tom's Hardware",
+   "Kopfhörer"
+  ]
+ },
+ {
+  "id": "turtle-beach-stealth-pro-ii",
+  "texte": "Quatorze notes pour le Stealth Pro II, moyenne 8,4/10. Gaming Trend atteint 10/10, COGconnected 9,4/10, Windows Central, LeCafeDuGeek et ZTGD 9/10, tandis que IGN, Tom's Hardware et GamesRadar restent à 8/10 et SoundGuys à 7/10.\n\nLe confort et la qualité de fabrication font l'unanimité, avec un rendu audio décrit comme premium. Les réserves sont pratiques : un adaptateur à acheter pour la prise jack 3,5 mm, pas de guide de démarrage papier, et surtout un prix qui dépasse 300 €. Il se destine aux joueurs qui alternent consoles et PC et acceptent de payer pour un casque durable.",
+  "sources": [
+   "Gaming Trend",
+   "COGconnected",
+   "Windows Central",
+   "LeCafeDuGeek",
+   "ZTGD",
+   "IGN",
+   "Tom's Hardware",
+   "GamesRadar",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "steelseries-arctis-nova-pro-omni",
+  "texte": "Seize médias ont noté l'Arctis Nova Pro Omni, pour 8,6/10 de moyenne. Gaming Trend lui donne 10/10, TechTest 9,4/10, Basic Tutorials 9,3/10, IGN, Clubic et FrAndroid 9/10. Journal du Geek est le plus réservé avec 7/10.\n\nIls retiennent une qualité audio Hi-Res en tête de sa catégorie, un confort et un design haut de gamme, ainsi que l'application GameHub. La contrepartie est un tarif très élevé, avec un micro seulement correct à ce prix. C'est le choix de ceux qui veulent un seul casque pour le PC et les consoles, sans regarder la dépense.",
+  "sources": [
+   "Gaming Trend",
+   "TechTest",
+   "Basic Tutorials",
+   "IGN",
+   "Clubic.com",
+   "FrAndroid",
+   "Journal du Geek"
+  ]
+ },
+ {
+  "id": "audeze-maxwell-2",
+  "texte": "Onze médias ont testé le Maxwell 2, moyenne 8,3/10. Les Numériques lui octroient 10/10, Basic Tutorials, IGN, Mac Sources et GameRevolution 9/10 ; SoundGuys descend à 7/10 et Tom's Hardware à 6/10.\n\nLe casque séduit par son son puissant mais nuancé et par sa longue autonomie, grâce à ses transducteurs planar. Il est jugé lourd et encombrant, ne lit pas plusieurs flux à la fois et son réglage par défaut est tranchant. L'offre suivie est la version PlayStation/PC. Il s'adresse donc à des joueurs sensibles à la qualité sonore, plus qu'à ceux qui veulent un équipement léger.",
+  "sources": [
+   "Les Numériques",
+   "Basic Tutorials",
+   "IGN",
+   "Mac Sources",
+   "GameRevolution",
+   "SoundGuys",
+   "Tom's Hardware"
+  ]
+ },
+ {
+  "id": "razer-barracuda-v2-pro",
+  "texte": "Cinq médias ont noté le Barracuda V2 Pro, moyenne 8,3/10 : Basic Tutorials lui donne 9,1/10, Gaming Trend 8,5/10, tandis que XBoxEra, LeCafeDuGeek et T3 restent à 8/10.\n\nLes tests apprécient le grand confort de port, le très bon son et la finition. Ils notent que le THX Spatial Audio n'est disponible que sur PC, que le son pourrait gagner en détail et que le micro est seulement bon. Un casque confortable avant d'être un casque spectaculaire. Face à un BlackShark V3 Pro plus précis, il joue la carte du confort et de la polyvalence entre PC et consoles.",
+  "sources": [
+   "Basic Tutorials",
+   "Gaming Trend",
+   "XBoxEra",
+   "LeCafeDuGeek",
+   "T3"
+  ]
+ },
+ {
+  "id": "hyperx-cloud-alpha-2",
+  "texte": "Sept médias ont noté le Cloud Alpha 2, pour une moyenne de 7,9/10. Windows Central donne 9/10, PCGamer 8,5/10, Tom's Hardware, FrAndroid, Absolute Geeks et SoundGuys 8/10, mais GamesRadar s'arrête à 6/10.\n\nLa qualité des haut-parleurs, pour le jeu comme pour la musique, le micro détachable à réduction de bruit par IA et la station de contrôle RGB sont mis en avant. On lui reproche l'absence d'ANC et un prix jugé élevé. Les avis restent partagés : les uns apprécient l'autonomie et la station, d'autres jugent la facture élevée sans ANC pour la justifier.",
+  "sources": [
+   "Windows Central",
+   "PCGamer",
+   "Tom's Hardware",
+   "FrAndroid",
+   "Absolute Geeks",
+   "SoundGuys",
+   "GamesRadar"
+  ]
+ },
+ {
+  "id": "razer-kraken-kitty-v3-pro",
+  "texte": "Quatre médias ont testé le Kraken Kitty V3 Pro, pour 8,7/10 de moyenne : Basic Tutorials lui donne 9,2/10, Windows Central 9/10, PCGamer 8,5/10 et GamesRadar 8/10.\n\nC'est le casque des streamers, avec son design iconique, son éclairage RGB réactif et un son plein. Les testeurs le trouvent relativement lourd et cher. Avec seulement quatre tests, la moyenne reste à confirmer. Il se branche en sans fil Hyperspeed ou en Bluetooth et vise d'abord les créateurs de contenu, plus que les puristes du son.",
+  "sources": [
+   "Basic Tutorials",
+   "Windows Central",
+   "PCGamer",
+   "GamesRadar"
+  ]
+ },
+ {
+  "id": "sony-inzone-e9",
+  "texte": "Quatre médias ont noté les INZONE E9, pour une moyenne de 7,3/10 : Trusted Reviews donne 8/10, SoundGuys, IGN et Gaming Trend 7/10.\n\nCes intra filaires visent les jeux de tir, avec un audio directionnel précis, un faible poids et un port confortable. En contrepartie, leur profil sonore les rend moins agréables pour la musique et l'audio est jugé moyen. Un produit de niche à réserver aux joueurs de FPS. Leur format intra et leur câble en font un complément de casque plutôt qu'un remplaçant pour la maison.",
+  "sources": [
+   "Trusted Reviews",
+   "SoundGuys",
+   "IGN",
+   "Gaming Trend"
+  ]
+ }
+]

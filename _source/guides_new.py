@@ -341,6 +341,20 @@ GUIDES_NEW = {
             "Acheter sans essayer : le confort de port varie beaucoup d'une oreille à l'autre."],
     budget=[("95 – 130 €", "Entrée de gamme : Nothing Ear (Open), Sony LinkBuds Open, Soundcore AeroFit 2, Huawei FreeClip."), ("130 – 170 €", "Milieu de gamme : LinkBuds Clip, AeroFit 2 Pro."), ("200 €", "Shokz : OpenFit 2+, OpenRun Pro 2, OpenDots One.")],
 ),
+"a-gam": dict(
+    titre="Comment choisir un casque gaming",
+    intro="Un bon casque gaming se juge sur <b>la précision du son, le confort sur de longues sessions, la qualité du micro et la compatibilité avec votre plateforme</b>. Au-delà de 300 €, on achète surtout de l'audio Hi-Res et des fonctions.",
+    criteres=[
+        ("Compatibilité", "Un même nom peut cacher plusieurs versions (PC, PlayStation, Xbox) : vérifiez le dongle fourni avant d'acheter, surtout sur Amazon."),
+        ("Son et spatialisation", "Le THX Spatial Audio de Razer n'existe que sur PC ; les planars d'Audeze visent la fidélité plutôt que la précision FPS."),
+        ("Confort et poids", "Après trois heures, le poids et le serre-tête comptent plus que la fiche technique : les tests signalent des casques lourds ou peu rembourrés."),
+        ("Micro et autonomie", "Les micros sont rarement le point fort (« seulement bon » revient souvent). L'autonomie va de quelques dizaines d'heures à 250 h."),
+    ],
+    pieges=["Acheter la mauvaise déclinaison console/PC d'un même casque.",
+            "Payer pour de l'ANC dans un casque que vous porterez surtout à la maison.",
+            "Croire qu'un micro de casque remplace un micro USB pour le streaming."],
+    budget=[("135 – 150 €", "Intra filaires Sony INZONE E9, Razer Kraken Kitty V3 Pro."), ("200 – 220 €", "BlackShark V3 Pro, HyperX Cloud Alpha 2, Barracuda V2 Pro."), ("350 – 400 €", "Stealth Pro II, Audeze Maxwell 2, Nova Pro Omni.")],
+),
 "v-proj": dict(
     titre="Comment choisir un vidéoprojecteur",
     intro="Un vidéoprojecteur remplace un téléviseur dès que la pièce peut être assombrie. Le choix tient en trois questions : <b>où le poser</b> (ultra courte focale près du mur, courte focale ou portable), <b>la résolution</b> (4K ou 1080p) et <b>la luminosité</b> dont la pièce a besoin.",
