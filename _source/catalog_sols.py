@@ -88,7 +88,7 @@ SOLS["mova-z60-ultra"] = S("s-robot-laveur", 'Mova Z60 Ultra', '26 000 Pa · sta
      ('Tech Jio', None, 'https://techjioblog.com/2025/09/22/review-mova-z60-ultra-roller-robot-vacuum/'),
      ('Vonguru', None, 'https://vonguru.fr/2026/01/21/test-robot-aspirateur-laveur-z60-ultra-roller-standalone-de-mova/'),
     ],
-    asin="B0FV98MKC4", amz='MOVA Z60 Ultra Roller SA Robot Aspirateur Laveur', price=499.17,  # PROVISOIRE (aperçu) : seller='Amazon',  # confirmé par Matthieu 27/10/2026 (499,17 €, en stock) ; prix à relever (releve.py)
+    asin="B0FV98MKC4", amz='MOVA Z60 Ultra Roller SA Robot Aspirateur Laveur', price=599.0,  # relevé Amazon 28/10/2026 ; seller='Amazon',  # confirmé par Matthieu 27/10/2026 (499,17 €, en stock) ; prix à relever (releve.py)
     pour="Vous voulez un robot laveur très autonome, qui demande peu d'entretien au quotidien.",
     eviter='Vous manquez de place pour un robot et une station imposants, ou tenez à la compatibilité Matter.', scope='gamme',
     ed=None)
@@ -133,7 +133,7 @@ SOLS["dreame-x50-ultra-complete"] = S("s-robot-laveur", 'Dreame X50 Ultra Comple
      ('Trusted Reviews', None, 'https://www.trustedreviews.com/reviews/dreame-x50-ultra-complete'),
      ('Vonguru', None, 'https://vonguru.fr/2025/02/24/test-robot-aspirateur-laveur-x50-ultra-complete-de-dreame/'),
     ],
-    asin="B0DPB7RN2L", amz='DREAME X50 Ultra Complete Robot Aspirateur avec Station, 20 000 Pa', price=832.5,  # PROVISOIRE (aperçu) : seller='Amazon',  # vu en stock, vendu par Amazon le 27/10/2026 (832,50 €)
+    asin="B0DPB7RN2L", amz='DREAME X50 Ultra Complete Robot Aspirateur avec Station, 20 000 Pa', price=999.0,  # relevé Amazon 28/10/2026 ; seller='Amazon',  # vu en stock, vendu par Amazon le 27/10/2026 (832,50 €)
     pour='Vous voulez un robot laveur haut de gamme qui lave très bien et franchit les obstacles.',
     eviter='Vous attendez un vrai gain de hauteur par rapport au X40 Ultra, ou un nettoyage rapide.', scope='modele',
     ed=None)
@@ -277,7 +277,7 @@ SOLS["ecovacs-deebot-x11"] = S("s-robot-laveur", 'Ecovacs Deebot X11', 'Station 
      ('RTings', None, 'https://www.rtings.com/robot-vacuum/reviews/ecovacs/deebot-x11-omnicyclone'),
      ('T3', None, 'https://www.t3.com/home-living/vacuum-cleaners/ecovacs-deebot-x11-omnicyclone'),
     ],
-    asin="B0FHWP5Y6P", amz='ECOVACS DEEBOT X11 OmniCyclone Robot Aspirateur Laveur', price=499.17,  # PROVISOIRE (aperçu) :  # OmniCyclone, lien fourni par Matthieu (499,17 €) ; prix à relever (releve.py)
+    asin="B0FHWP5Y6P", amz='ECOVACS DEEBOT X11 OmniCyclone Robot Aspirateur Laveur', price=599.0,  # relevé Amazon 28/10/2026 ;  # OmniCyclone, lien fourni par Matthieu (499,17 €) ; prix à relever (releve.py)
     pour='Vous voulez un robot laveur qui gère seul son entretien, discret au quotidien.',
     eviter='Vous attendez une application très intuitive ou un prix contenu.', scope='gamme',
     ed=None)

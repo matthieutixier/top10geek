@@ -2,7 +2,7 @@
 """Catalogue Top 10 Geek — ROBOTS & ASPIRATEURS · usages « Aspirateurs balais », « Balais laveurs » et « Animaux » (27/10/2026).
 Les tests de la presse viennent de CommentChoisir (cc_fiche.py), conservés dans cc_fiches_usages.json : une ligne par média
 (moyenne si plusieurs tests du même média). La confirmation à la source (champ `verifie`) reste à faire.
-Prix : indicatifs (idealo, 27/10/2026) → PROVISOIRES, à remplacer par le relevé Amazon (releve.py) ; les prix Electro Dépôt viennent du flux Effinity.
+Prix : relevés Amazon du 28/10/2026 (navigateur) ; les prix Electro Dépôt viennent du flux Effinity.
 Les points forts / faibles reprennent ce que citent les tests ; rien n'est ajouté.
 Pas encore d'usage « Petit prix » : sous 300 € il n'y a pas assez de robots avec des tests notés (voir LISEZMOI)."""
 import json, os, re
@@ -153,7 +153,7 @@ add("dreame-h12-pro", LAV, "Dreame H12 Pro", "Rouleau bord à bord · séchage",
     ["Rouleau bord à bord", "Autonettoyage et séchage de la brosse", "Mode électrolyse pour la désinfection"],
     ["Recharge un peu longue", "Appareil lourd et peu maniable", "Tête de lavage imposante"],
     ("Bord à bord", "Séchage air chaud"), "Dreame H12 Pro",
-    "B0BJVN2LH7", "Dreame H12 Pro aspirateur laveur sans fil", 189.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0BJVN2LH7", "Dreame H12 Pro aspirateur laveur sans fil", 189.0,  # relevé Amazon 28/10/2026
     "Vous voulez un balai laveur bien noté à moins de 200 €.",
     "Vous avez du mal à porter un appareil lourd.")
 
@@ -173,7 +173,7 @@ add("tineco-floor-one-s7-pro", LAV, "Tineco Floor One S7 Pro", "Auto-propulsion"
     ["Forte aspiration et lavage à la serpillière", "Auto-propulsion, nettoyage sans effort", "Plusieurs modes selon l'usage"],
     ["Réservoir d'eau de 0,85 L", "Réservoir d'eau sale à vider et rincer après chaque usage", "Autonomie de 40 minutes"],
     ("Auto-propulsion", "Autonettoyant"), "Tineco Floor One S7 Pro",
-    "B088H28VPM", "Tineco Floor One S7 Pro aspirateur laveur sans fil", 249.99,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B088H28VPM", "Tineco Floor One S7 Pro aspirateur laveur sans fil", 229.99,  # relevé Amazon 28/10/2026
     "Vous voulez un balai laveur qui avance seul.",
     "Vous avez une grande surface à laver d'une seule charge.")
 
@@ -182,7 +182,7 @@ add("tineco-floor-one-s9-artist", LAV, "Tineco Floor One S9 Artist", "22 000 Pa 
     ["Design élégant", "Très bonne aspiration et très bon nettoyage", "Entretien facile"],
     ["Prix très élevé", "Un peu lourd à la longue", "Bouton de réglage au fonctionnement confus"],
     ("22 000 Pa", "Autonettoyant"), "Tineco Floor One S9 Artist",
-    "B0DPP6C5YP", "Tineco Floor One S9 Artist aspirateur laveur sans fil", 429.99,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0DPP6C5YP", "Tineco Floor One S9 Artist aspirateur laveur sans fil", 459.99,  # relevé Amazon 28/10/2026
     "Vous voulez un balai laveur élégant, au nettoyage très abouti.",
     "Vous cherchez un modèle sous 300 €.")
 
@@ -191,7 +191,7 @@ add("mova-m50-ultra", LAV, "Mova M50 Ultra", "Manche pliable · station séchage
     ["Manche pliable et extensible inédit", "Aspiration puissante, lavage efficace", "Station d'accueil avec séchage rapide"],
     ["Pas de lavage du sol à l'eau chaude", "Niveau sonore perfectible", "Pas de phare LED"],
     ("22 000 Pa", "Station séchage"), "Mova M50 Ultra",
-    "B0FM3HH8NG", "Mova M50 Ultra aspirateur laveur sans fil", 322.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0FM3HH8NG", "Mova M50 Ultra aspirateur laveur sans fil", 349.0,  # relevé Amazon 28/10/2026
     "Vous rangez l'appareil dans un petit espace : le manche se plie.",
     "Vous voulez un lavage du sol à l'eau chaude.")
 
@@ -255,7 +255,7 @@ add("mova-v70-ultra", ANI, "Mova V70 Ultra", "Vadrouille extensible · marches 4
     ["Vadrouille extensible qui atteint 16 cm sous les meubles", "Franchit des marches jusqu'à 4,5 cm (9 cm en transitions composées)", "Station sans sac, bac à poussière lavable"],
     ["Prix élevé", "Petit rouleau avant qui ramasse encore des poils", "Détection d'obstacles prise en défaut sur un support plat"],
     ("40 000 Pa", "Station sans sac"), "Mova V70 Ultra",
-    "B0GXW3NHKY", "Mova V70 Ultra Complete robot aspirateur laveur", 948.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0GXW3NHKY", "Mova V70 Ultra Complete robot aspirateur laveur", 949.0,  # relevé Amazon 28/10/2026
     "Vous avez des seuils ou des marches à franchir.",
     "Vous voulez un robot à moins de 800 €.", scope="gamme")
 
@@ -264,7 +264,7 @@ add("dji-romo-p2", ANI, "DJI Romo P2", "36 000 Pa · jambes robotisées", TOP,
     ["Cartographie et évitement d'obstacles de très haut niveau", "Franchit jusqu'à 8,5 cm", "Bras oscillant qui lave sous les meubles et le long des plinthes"],
     ["Tarif premium", "Design transparent qui ne fera pas l'unanimité", "Assistant vocal indisponible dans certains pays au lancement"],
     ("36 000 Pa", "Station complète"), "DJI Romo P2",
-    "B0H8DJ99LD", "DJI ROMO P2 robot aspirateur laveur", 1199.0,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0H8DJ99LD", "DJI ROMO P2 robot aspirateur laveur", 1199.0,  # relevé Amazon 28/10/2026
     "Vous voulez la navigation la plus avancée du moment.",
     "Vous cherchez un robot à moins de 1 000 €.")
 
@@ -273,7 +273,7 @@ add("narwal-flow-2", ANI, "Narwal Flow 2", "31 000 Pa · rouleaux de lavage", "L
     ["31 000 Pa de puissance d'aspiration", "Rouleaux de lavage à la place des tampons", "Détection d'obstacles Narmind 2.0"],
     ["Brosse latérale non rétractable", "Auto-nettoyage de la base jugé insuffisant", "Franchissement de seuils élevés limité"],
     ("31 000 Pa", "Station FlowWash"), "Narwal Flow 2",
-    "B0GRHDJBQ6", "Narwal Flow 2 robot aspirateur laveur", 1038.05,  # PROVISOIRE (idealo, 27/10/2026) ; prix à relever (releve.py)
+    "B0GRHDJBQ6", "Narwal Flow 2 robot aspirateur laveur", 1299.0,  # relevé Amazon 28/10/2026
     "Vous voulez une très forte aspiration et un lavage par rouleau.",
     "Vous avez des seuils hauts à franchir.")
 
