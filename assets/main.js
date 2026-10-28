@@ -44,8 +44,19 @@
 
 (function(){
   try{
-    var btn=document.getElementById('navToggle'), nav=document.getElementById('topnav');
-    btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');});
+    var hd=document.querySelector('.hd');
+    if(hd){
+      var items=[].slice.call(hd.querySelectorAll('.b-item'));
+      var closeAll=function(){items.forEach(function(x){x.classList.remove('open');x.querySelector('.b-trig').setAttribute('aria-expanded','false');});};
+      items.forEach(function(it){
+        var t=it.querySelector('.b-trig');
+        t.addEventListener('click',function(){var was=it.classList.contains('open');closeAll();if(!was){it.classList.add('open');t.setAttribute('aria-expanded','true');}});
+      });
+      document.addEventListener('keydown',function(e){if(e.key==='Escape')closeAll();});
+      document.addEventListener('click',function(e){if(!e.target.closest('.b-item'))closeAll();});
+      var tg=document.getElementById('hdToggle'), pn=document.getElementById('hdPanel');
+      tg.addEventListener('click',function(){var on=pn.hidden;pn.hidden=!on;tg.setAttribute('aria-expanded',on?'true':'false');tg.textContent=on?'Fermer':'Menu';});
+    }
   }catch(e){}
 
   var DATA=window.T10G||{}, L=DATA.laptops||{};

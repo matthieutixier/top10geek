@@ -22,8 +22,8 @@ from catalog_sols import SOLS
 from catalog_reconditionnes import RECO, GUIDE_RECO
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css']
-VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main13.js'])).hexdigest()[:8]
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css']
+VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main14.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
@@ -106,6 +106,13 @@ for f in FAMILIES:
         CAT[c["key"]] = c
 FAM = {f["key"]: f for f in FAMILIES}
 
+def foot_tail(root):
+    """Fin du pied de page : liens des rubriques (1re ligne) puis liens du site sur une ligne à part."""
+    return f'''<div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}audio/">Audio</a>{FOOT_VIDEO(root)}<a href="{root}black-friday/">Black Friday 2026</a><span>MAJ {MAJ}</span></div>
+    </div>
+    <nav class="foot-legal" aria-label="Informations sur le site"><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a></nav>'''
+
+
 def FOOT_VIDEO(root):
     return f'<a href="{root}photo-video/">Photo et vidéo</a>' if "photo-video" in FAM_SLUGS_OK else ""
 
@@ -116,8 +123,8 @@ def carte_video():
         return ""
     n = sum(1 for d in ITEMS.values() if d['family'] == 'video')
     return (f'''<a class="fam-card maison" href="photo-video/">
-        <div class="fam-art"><img src="assets/img/badge-cameras-surveillance.webp" alt="" width="96" height="96"></div>
-        <h3>Photo et vidéo</h3><p>{n} caméras de surveillance classées d'après les tests de la presse. Caméras d'action, vidéoprojecteurs, appareils photo et drones arrivent.</p>
+        <div class="fam-art"><img src="assets/img/sticker-camera.webp" alt="" width="96" height="96" loading="lazy" decoding="async"><img src="assets/img/sticker-drone.webp" alt="" width="96" height="96" loading="lazy" decoding="async"><img src="assets/img/sticker-projector.webp" alt="" width="96" height="96" loading="lazy" decoding="async"></div>
+        <h3>Photo et vidéo</h3><p>{n} caméras, vidéoprojecteurs, appareils photo et drones classés par usage, de la surveillance au drone.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in VCATS)}</div><span class="uc-go">Explorer →</span></a>''')
 
 BUDGETS = [("all", "Tous les prix", 0, 1e9), ("b1", "< 500 €", 0, 500), ("b2", "500 – 1 000 €", 500, 1000),
@@ -469,16 +476,45 @@ PROVISIONAL_NOTE = '<div class="provisional"><b>Sélection provisoire.</b> Le co
 
 
 # ---------------------------------------------------------------- Gabarit
+UNIVERS = [("info", "Informatique", "PC, écrans et imprimantes", "assets/img/pose-tour.webp"),
+           ("maison", "Maison", "TV, son, photo et robots", "assets/img/pose-video-hub.webp")]
+NAV_PLURAL = {"pc-portable": "PC portables", "ordinateur-de-bureau": "PC de bureau", "ecran-pc": "Écrans", "imprimante": "Imprimantes",
+              "aspirateur-robot": "Robots aspirateurs", "tv": "Téléviseurs", "audio": "Audio", "photo-video": "Photo et vidéo"}
+
+
 def nav_html(root, active):
-    parts = []
-    for f in FAMILIES:
-        subs = f'<a class="dd-all" href="{root}{f["slug"]}/"><span>Tout le comparatif</span><span class="arr">→</span></a><div class="dd-sep">Par usage</div>' + "".join(
-            f'<a href="{root}{f["slug"]}/{c["slug"]}/"><span class="dot {c["cls"].replace("f-", "")}"></span>{c["label"]}</a>' for c in f["cats"])
-        act = " active" if active == f["slug"] else ""
-        parts.append(f"""<div class="dd{act}"><a class="dd-top" href="{root}{f['slug']}/" aria-haspopup="true">{f['label']}<span class="caret">▾</span></a>
-  <div class="dd-menu">{subs}</div></div>""")
-    parts.append(f'<a class="nav-link{" active" if active == "methode" else ""}" href="{root}methode">Méthode</a>')
-    return "".join(parts)
+    """En-tête du site : deux onglets d'univers (Informatique, Maison) avec méga-menu, lien Méthode à l'écart, volets sur mobile."""
+    items, msec = "", ""
+    for k, kick, titre, pose in UNIVERS:
+        fams = [f for f in FAMILIES if (f["slug"] in MAISON_SLUGS) == (k == "maison")]
+        cur = " is-current" if active in {f["slug"] for f in fams} else ""
+        cols = "".join(
+            f'<div class="b-col{" is-active" if active == f["slug"] else ""}"><a class="b-col-t" href="{root}{f["slug"]}/">{NAV_PLURAL.get(f["slug"], f["plural"])}</a><ul>'
+            + "".join(f'<li><a href="{root}{f["slug"]}/{c["slug"]}/"><span class="dot {c["cls"].replace("f-", "")}"></span>{c["label"]}</a></li>' for c in f["cats"])
+            + "</ul></div>" for f in fams)
+        items += (f'<div class="b-item u-{k}{cur}" data-u="{k}"><button class="b-trig" type="button" aria-expanded="false" aria-controls="bp-{k}">'
+                  f'<span class="b-tab"><i class="bub"></i><span class="b-tt"><small>{kick}</small><b>{titre}</b></span><span class="caret">▾</span></span></button>\n'
+                  f'  <div class="b-panel" id="bp-{k}"><div class="b-cols">{cols}</div><img class="b-mascot" src="{root}{pose}" alt="" width="170" height="250"></div></div>')
+        n = sum(len(f["cats"]) for f in fams)
+        det = "".join(
+            f'<details class="m-fam"{" open" if active == f["slug"] else ""}><summary><span>{NAV_PLURAL.get(f["slug"], f["plural"])}</span><span class="n">{len(f["cats"])}</span></summary>'
+            f'<a class="m-all" href="{root}{f["slug"]}/">Tout le comparatif</a><ul>'
+            + "".join(f'<li><a href="{root}{f["slug"]}/{c["slug"]}/"><span class="dot {c["cls"].replace("f-", "")}"></span>{c["label"]}</a></li>' for c in f["cats"])
+            + "</ul></details>" for f in fams)
+        msec += f'<section class="m-uni u-{k}"><h2><i class="bub"></i><span>{titre}<small>{kick}, {n} usages</small></span></h2>{det}</section>'
+    meth = ' aria-current="page"' if active == "methode" else ""
+    return f"""<header class="hd hd-b">
+  <div class="hd-row">
+    <a class="brand-lockup" href="{root or "./"}">
+      <img class="brand-mark" src="{root}assets/img/logo-face.webp" alt="Symbole Top 10 Geek" width="40" height="40">
+      <div class="brand-text"><div class="brand">TOP<span class="dot">10</span>GEEK</div><div class="baseline">{BASELINE}</div></div>
+    </a>
+    <nav class="b-nav" aria-label="Rubriques">{items}</nav>
+    <a class="hd-method" href="{root}methode"{meth}>Méthode</a>
+    <button class="hd-toggle" id="hdToggle" type="button" aria-expanded="false" aria-controls="hdPanel">Menu</button>
+  </div>
+  <div class="hd-panel" id="hdPanel" hidden>{msec}<a class="m-method" href="{root}methode">Méthode</a></div>
+</header>"""
 
 
 PERSON_ID = DOMAIN + "/a-propos#matthieu-tixier"
@@ -654,21 +690,13 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 {ld_script(ld)}</head>
 <body class="{(body_cls + " univers-maison").strip() if path.startswith(MAISON_SLUGS) else body_cls}">
 <div class="wrap">
-  <div class="topbar">
-    <a class="brand-lockup" href="{root or "./"}">
-      <img class="brand-mark" src="{root}assets/img/logo-face.webp" alt="Symbole Top 10 Geek" width="40" height="40">
-      <div class="brand-text"><div class="brand">TOP<span class="dot">10</span>GEEK</div><div class="baseline">{BASELINE}</div></div>
-    </a>
-    <nav class="topnav" id="topnav">{nav_html(root, active)}</nav>
-    <div class="topbar-actions"><button class="topnav-toggle" id="navToggle" aria-expanded="false" aria-controls="topnav">Menu</button></div>
-  </div>
+  {nav_html(root, active)}
 {body}
   <footer>
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}audio/">Audio</a>{FOOT_VIDEO(root)}<a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
-    </div>
+      {foot_tail(root)}
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
 </div>
@@ -1511,11 +1539,36 @@ def ticker():
     return f'<div class="ticker" aria-hidden="true"><div class="tk-track">{items}{items}</div></div>'
 
 
-radar_items = [by_cat[c["key"]][i] for c in LCATS for i in (0, 1, 2)]
-SOON_IMG = ["soon-smartphone", "soon-casque", "soon-tablette"]
-SOON = [("Smartphones", "Les meilleurs téléphones par budget, notes presse à l'appui."),
-        ("Casques &amp; écouteurs", "Réduction de bruit, sport, gaming : le son sans se tromper."), ("Tablettes", "iPad, Android, Windows : laquelle pour lire, dessiner ou travailler ?")]
+CHAMP_LAB = {"pc-portable": "PC portables", "ordinateur-de-bureau": "Ordinateurs de bureau", "ecran-pc": "Écrans PC", "imprimante": "Imprimantes",
+             "aspirateur-robot": "Robots aspirateurs", "tv": "TV et barres de son", "audio": "Audio", "photo-video": "Photo et vidéo"}
 
+
+def mini_champ(d):
+    """Carte compacte d'accueil : le choix n° 1 d'un usage (le même que « Notre choix » sur la page de l'usage)."""
+    c = CAT[d["cat"]]
+    pr = d["press"]
+    note = f'<i>{fr(pr["avg"])}<small>/10</small></i>' if pr else '<i>Testé</i>'
+    img = f'<img src="assets/img/p/{d["img"]}" alt="" width="64" height="48" loading="lazy">' if d["img"] else ""
+    return (f'<a class="mc" href="{d["href"]}" style="--c:{c["color"]}"><span class="mc-u"><span class="dot" style="background:{c["color"]}"></span>{c["label"]}</span>{img}'
+            f'<span class="mc-t"><b>{E(d["short"])}</b><span class="mc-m">{note}<em>{d["price_txt"]}</em></span></span></a>')
+
+
+def champions_html():
+    out = ""
+    for k, nom, cls in (("info", "Informatique", "info"), ("maison", "Maison", "maison")):
+        out += f'<div class="ch2-uni {cls}">{nom}</div>'
+        for f in FAMILIES:
+            if (f["slug"] in MAISON_SLUGS) != (k == "maison"):
+                continue
+            cards = "".join(mini_champ(by_cat[c["key"]][0]) for c in f["cats"] if c["key"] != "reconditionne")
+            out += (f'<div class="ch2-row"><div class="ch2-head"><h3>{CHAMP_LAB[f["slug"]]}</h3><a class="see-all" href="{f["slug"]}/">Tout le comparatif →</a></div>'
+                    f'<div class="ch2-grid">{cards}</div></div>')
+    return out
+
+
+CHAMPIONS_HTML = champions_html()
+
+radar_items = [by_cat[c["key"]][i] for c in LCATS for i in (0, 1, 2)]
 ICON = {
     "laptop": '<path d="M5 6h14v9H5z"/><path d="M2.5 18.5h19"/>',
     "desktop": '<rect x="3" y="4" width="13" height="10" rx="1"/><path d="M9.5 14v3M6.5 17h6"/><rect x="18" y="6" width="3.5" height="11" rx="0.8"/>',
@@ -1550,10 +1603,10 @@ home = f"""
     </div>
     <div class="hh-visual">
       <div class="hh-blob"></div>
-      <img class="hh-mascot" src="assets/img/mascotte-persona-v2.webp" alt="La mascotte de Top 10 Geek" width="800" height="800" fetchpriority="high">
-      <img class="hh-sticker s1" src="assets/img/badge-gaming.webp" alt="" width="120" height="120">
-      <img class="hh-sticker s2" src="assets/img/badge-creation.webp" alt="" width="120" height="120">
-      <img class="hh-sticker s3" src="assets/img/badge-bureautique.webp" alt="" width="120" height="120">
+      <img class="hh-mascot trio" src="assets/img/hero-trio.webp" srcset="assets/img/hero-trio-600.webp 440w, assets/img/hero-trio.webp 660w" sizes="(max-width: 700px) 80vw, 440px" alt="Le jeune geek, son père et sa grand-mère, entourés de produits high-tech" width="660" height="900" fetchpriority="high">
+      <img class="hh-sticker s1" src="assets/img/sticker-laptop.webp" alt="" width="120" height="120">
+      <img class="hh-sticker s2" src="assets/img/sticker-tv.webp" alt="" width="120" height="120">
+      <img class="hh-sticker s3" src="assets/img/sticker-robot.webp" alt="" width="120" height="120">
       <div class="hh-bubble">« J'ai lu {TOTAL_TESTS} tests pour vous. De rien. »</div>
     </div>
     <nav class="fam-btns row4 grouped" aria-label="Nos comparatifs">
@@ -1564,23 +1617,8 @@ home = f"""
   {ticker()}
 
   <section class="section">
-    <div class="section-head"><h2>Les champions du moment</h2><div class="tag">Les mieux notés par la presse, par usage</div></div>
-    <div class="family-row">
-      <div class="fr-head"><h3>PC portables</h3><a class="see-all" href="pc-portable/">Tout le comparatif →</a></div>
-      <p class="champ-hint">← Faites glisser pour voir les 6 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'laptop')}</div>
-    </div>
-    <div class="family-row">
-      <div class="fr-head"><h3>Ordinateurs de bureau</h3><a class="see-all" href="ordinateur-de-bureau/">Tout le comparatif →</a></div>
-      <p class="champ-hint">← Faites glisser pour voir les 5 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'desktop')}</div>
-    </div>
-    <div class="family-row">
-      <div class="fr-head"><h3>Écrans PC</h3><a class="see-all" href="ecran-pc/">Tout le comparatif →</a></div>
-      <p class="champ-hint">← Faites glisser pour voir les 5 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'ecran')}</div>
-    </div>
-    <div class="family-row">
-      <div class="fr-head"><h3>Imprimantes</h3><a class="see-all" href="imprimante/">Tout le comparatif →</a></div>
-      <p class="champ-hint">← Faites glisser pour voir les 5 usages →</p><div class="champ-grid">{''.join(champ_card(d) for d in champions if d['family'] == 'imprimante')}</div>
-    </div>
+    <div class="section-head"><h2>Les champions du moment</h2><div class="tag">Un champion par usage, noté par la presse</div></div>
+    {CHAMPIONS_HTML}
   </section>
 
   <section class="section radar">
@@ -1593,6 +1631,21 @@ home = f"""
         <img class="radar-pose" src="assets/img/pose-radar.webp" alt="" width="200" height="254">
       </div>
       <div class="chart-col"><div class="chart-pane">{bubble_svg(radar_items, "Radar des bonnes affaires : note presse contre prix des champions", link_root="", sid="homeRadar")}</div></div>
+    </div>
+  </section>
+
+  <section class="section method-strip" style="border-bottom:none;">
+    <div class="ms-grid">
+      <img src="assets/img/pose-lowcost.webp" alt="La mascotte" width="170" height="260">
+      <div>
+        <div class="section-head"><h2>Notre méthode en 3 étapes</h2><div class="tag">Transparence</div></div>
+        <div class="method-grid">
+          <div class="method-card"><span class="mono-big">01</span><h3>On lit tous les tests</h3><p>Presse française et internationale : Clubic, Les Numériques, Notebookcheck, Tom's Hardware, The Verge…</p></div>
+          <div class="method-card"><span class="mono-big">02</span><h3>On calcule une note presse</h3><p>La moyenne de toutes les notes, convertie sur 10, avec le nombre de tests toujours affiché.</p></div>
+          <div class="method-card"><span class="mono-big">03</span><h3>On résume le verdict</h3><p>Points forts, points faibles, pour qui c'est fait — et notre choix pour chaque usage.</p></div>
+        </div>
+        <p style="margin-top:16px"><a class="see-all" href="methode">Lire notre méthode complète →</a></p>
+      </div>
     </div>
   </section>
 
@@ -1622,35 +1675,20 @@ home = f"""
     <div class="fam-grid maison">
       <a class="fam-card maison" href="aspirateur-robot/">
         <div class="fam-art"><img src="assets/img/badge-robots-laveurs-v2.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-balais-laveurs-v2.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-animaux-v2.webp" alt="" width="96" height="96"></div>
-        <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots aspirateurs laveurs, classés d'après les tests de la presse. D'autres usages arrivent.</p>
+        <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots et aspirateurs classés par usage : laveurs, aspirateurs balais, balais laveurs, robots pour animaux et petits prix.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in SCATS)}</div><span class="uc-go">Explorer →</span></a>
       <a class="fam-card maison" href="tv/">
-        <div class="fam-art"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"></div>
-        <h3>TV et home cinéma</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'tv')} téléviseurs 50–55 pouces classés d'après les tests de la presse. Petits formats, grands écrans, petits prix et barres de son arrivent.</p>
+        <div class="fam-art"><img src="assets/img/sticker-tv.webp" alt="" width="96" height="96" loading="lazy" decoding="async"><img src="assets/img/sticker-soundbar.webp" alt="" width="96" height="96" loading="lazy" decoding="async"></div>
+        <h3>TV et home cinéma</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'tv')} téléviseurs et barres de son classés par taille et par budget, d'après les tests de la presse.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in TCATS)}</div><span class="uc-go">Explorer →</span></a>
       <a class="fam-card maison" href="audio/">
-        <div class="fam-art"><img src="assets/img/badge-enceintes-bluetooth.webp" alt="" width="96" height="96"></div>
-        <h3>Son, audio et hi-fi</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'audio')} enceintes Bluetooth portables classées d'après les tests de la presse. Écouteurs, casques, enceintes passives et chaînes hi-fi arrivent.</p>
+        <div class="fam-art"><img src="assets/img/sticker-speaker.webp" alt="" width="96" height="96" loading="lazy" decoding="async"><img src="assets/img/sticker-headphones.webp" alt="" width="96" height="96" loading="lazy" decoding="async"></div>
+        <h3>Son, audio et hi-fi</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'audio')} enceintes, écouteurs et casques classés par usage : Bluetooth, réduction de bruit, open-ear et gaming.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in ACATS)}</div><span class="uc-go">Explorer →</span></a>
       {carte_video()}
     </div>
-    <div class="soon-grid">{''.join(f'<div class="soon-card"><img class="soon-img" src="assets/img/{SOON_IMG[i]}.webp" alt="" width="84" height="84" loading="lazy"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(SOON))}</div>
   </section>
 
-  <section class="section method-strip" style="border-bottom:none;">
-    <div class="ms-grid">
-      <img src="assets/img/pose-lowcost.webp" alt="La mascotte" width="170" height="260">
-      <div>
-        <div class="section-head"><h2>Notre méthode en 3 étapes</h2><div class="tag">Transparence</div></div>
-        <div class="method-grid">
-          <div class="method-card"><span class="mono-big">01</span><h3>On lit tous les tests</h3><p>Presse française et internationale : Clubic, Les Numériques, Notebookcheck, Tom's Hardware, The Verge…</p></div>
-          <div class="method-card"><span class="mono-big">02</span><h3>On calcule une note presse</h3><p>La moyenne de toutes les notes, convertie sur 10, avec le nombre de tests toujours affiché.</p></div>
-          <div class="method-card"><span class="mono-big">03</span><h3>On résume le verdict</h3><p>Points forts, points faibles, pour qui c'est fait — et notre choix pour chaque usage.</p></div>
-        </div>
-        <p style="margin-top:16px"><a class="see-all" href="methode">Lire notre méthode complète →</a></p>
-      </div>
-    </div>
-  </section>
 """
 write("index.html", page("", "Top 10 Geek : tests high-tech résumés — PC, écrans, imprimantes",
                          "Nous lisons les tests de la presse high-tech et vous donnons une note sur 10 et un verdict par usage : PC portables, PC de bureau, écrans, imprimantes.",
@@ -1832,8 +1870,13 @@ write("assets/style.css", CSS_INLINE)   # pour 404.html et les pages légales, �
 for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"):   # leur lien vers style.css suit la version
     _p = os.path.join(OUT, _f)
     _t = open(_p, encoding="utf-8").read()
-    open(_p, "w", encoding="utf-8").write(re.sub(r"style\.css\?v=[0-9a-f]+", f"style.css?v={VER}", _t))
-shutil.copy(SRC + "main13.js", os.path.join(OUT, "assets/main.js"))
+    _t = re.sub(r"style\.css\?v=[0-9a-f]+", f"style.css?v={VER}", _t)
+    _t = re.sub(r"main\.js\?v=[0-9a-f]+", f"main.js?v={VER}", _t)
+    _r = "/" if _f == "404.html" else ""      # la 404 est servie sous n'importe quelle URL : liens absolus
+    _t = re.sub(r'  (?:<div class="topbar">.*?\n  </div>|<header class="hd hd-b">.*?</header>)\n', lambda m: "  " + nav_html(_r, "") + "\n", _t, count=1, flags=re.S)
+    _t = re.sub(r'<div class="foot-links">.*?</div>\n    </div>', lambda m: foot_tail(_r), _t, count=1, flags=re.S)
+    open(_p, "w", encoding="utf-8").write(_t)
+shutil.copy(SRC + "main14.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
