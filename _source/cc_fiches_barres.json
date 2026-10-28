@@ -365,5 +365,27 @@
    "#8211; modes d'emploi non disponibles en français",
    "#8211; transition des basses entre la barre et le caisson perceptible"
   ]
+ },
+ "LG S90TR": {
+  "source": "https://www.commentchoisir.fr/test-LG_S90TR.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/08/2024",
+    "url": "https://www.rtings.com/soundbar/reviews/lg/s90tr"
+   }
+  ],
+  "pros": [
+   "L'étalonnage de la pièce par l'IA ajuste le son à votre espace.",
+   "Compatible avec Dolby Atmos et DTS:X.",
+   "Devient assez fort sans beaucoup de compression.",
+   "De nombreuses fonctionnalités d'amélioration du son."
+  ],
+  "cons": [
+   "Pas la meilleure performance en hauteur.",
+   "Pas de prise en charge HDMI 2.1."
+  ]
  }
 }

@@ -267,5 +267,18 @@ add("hisense-hs2100", TBS, "Hisense HS2100", "2.1 · caisson · DTS Virtual:X", 
     "Vous cherchez l'Atmos ou le Wi-Fi.", seller="Son-Video", src=B)
 
 
+# --- Offre Electro Dépôt (flux Effinity du 28/10/2026) : une seule note de presse, signalée comme telle ---
+add("lg-s90tr", TBS, "LG S90TR", "7.1.3 · Atmos · enceintes arrière", "Le plus complet",
+    "Un système 7.1.3 avec enceintes arrière sans fil et Dolby Atmos, aujourd'hui moins cher chez Electro Dépôt. Un seul test de presse à ce jour.",
+    ["Étalonnage de la pièce par IA", "Compatible Dolby Atmos et DTS:X", "Volume élevé avec peu de compression"],
+    ["Hauteur sonore pas la meilleure", "Pas de HDMI 2.1"],
+    ("Dolby Atmos", "7.1.3"), "LG S90TR",
+    "B0D4R7C695", "LG S90TR Barre de Son 7.1.3 670 W Dolby Atmos DTS:X", 499.0,
+    "Vous voulez un son enveloppant avec enceintes arrière, sans passer par un système à 800 €.",
+    "Vous jouez en 4K 120 Hz via la barre, ou n'avez pas la place pour des enceintes arrière.", src=B)
+TV["lg-s90tr"]["ed"] = {"url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fbarre-de-son-lg-s90tr.html",
+    "name": "Barre De Son Lg S90tr", "price": 399.98, "ean": "8806096058640", "edid": "10015474"}
+
+
 def build():
     return dict(TV)
