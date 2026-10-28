@@ -426,7 +426,7 @@ def table(items, fam, show_cat=True, root='../'):
         pcell = (f'<td class="num"><span class="press-chip">{fr(pr["avg"])}<small>·{pr["n"]}</small></span></td>' if pr else '<td class="num muted">sans note</td>')
         m0 = d["m"][0]
         rows.append(f"""<tr data-id="{d['id']}" data-cat="{d['cat']}" data-budget="{d['bucket']}" data-price="{d['p']}" data-press="{pr['avg'] if pr else -1}" data-idx="{d['idx'] or -1}" data-rating="{d['r']}" tabindex="0">
-<td class="name-cell">{f'<img class="thumb" src="{root}assets/img/p/{d["img"]}" alt="" width="48" height="36" loading="lazy">' if d['img'] else ''}<span class="dot {CAT[d['cat']]['cls'].replace('f-', '')}"></span><span>{E(d['short'])}</span></td>{f"<td>{CAT[d['cat']]['label']}</td>" if show_cat else ''}
+<td class="name-cell">{f'<img class="thumb" src="{root}assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="48" height="36" loading="lazy">' if d['img'] else ''}<span class="dot {CAT[d['cat']]['cls'].replace('f-', '')}"></span><span>{E(d['short'])}</span></td>{f"<td>{CAT[d['cat']]['label']}</td>" if show_cat else ''}
 {pcell}<td class="num">{d['price_txt']}</td><td class="{'num' if fam['key'] == 'laptop' else ''}">{'—' if m0 == 'n.c.' else E(m0)}</td>{('<td class="num">' + ('—' if d['r'] < 0 else fr(d['r']) + ' ★') + '</td>') if fam['key'] == 'laptop' else ''}</tr>""")
     cat_th = '<th data-sort="cat">Usage<span class="sort-arrow">↕</span></th>' if show_cat else ""
     return f"""<div class="data-table-wrap"><table class="data-table" id="dataTable">
@@ -668,11 +668,39 @@ def images(html):
     return re.sub(r"<img\b[^>]*>", lazy, html)
 
 
+def fit_title(t, limit=65):
+    """SEO 29/10/2026 : title <= 65 caractères (Google tronque au-delà)."""
+    for pat in (r" \| Top 10 Geek$", r"[ ,:]+tests et prix$", r" par usage$"):
+        if len(t) <= limit:
+            break
+        t = re.sub(pat, "", t)
+    return t
+
+
+def fit_desc(d, limit=160):
+    """SEO 29/10/2026 : meta description <= 160 caractères, sans couper une phrase au milieu si possible."""
+    if len(d) <= limit:
+        return d
+    d = d.replace(", points forts et faibles.", ".").replace(", points forts et points faibles.", ".")
+    d = d.replace(" classés d'après les tests de la presse : note sur 10, prix indicatif.", " classés par note presse, avec prix indicatif.")
+    d = d.replace(" classés d\u2019après les tests de la presse : note sur 10, prix indicatif.", " classés par note presse, avec prix indicatif.")
+    if len(d) > limit:
+        m = re.match(r"^(.*? : )(.+?)(\. Prix indicatifs\.)$", d)
+        if m:
+            marques = m.group(2).split(", ")
+            while len(marques) > 2 and len(m.group(1) + ", ".join(marques) + m.group(3)) > limit:
+                marques.pop()
+            d = m.group(1) + ", ".join(marques) + m.group(3)
+    if len(d) > limit:
+        d = d[:limit - 1].rsplit(" ", 1)[0].rstrip(",;: ") + "\u2026"
+    return d
+
+
 def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None, robots=None):
     if og_img == "assets/img/og-image.jpg":
         og_img = og_pour(path)
-    if len(title) > 65 and title.endswith(" | Top 10 Geek"):
-        title = title[:-len(" | Top 10 Geek")]  # SEO 27/10/2026 : Google tronque au-delà de ~65 caractères
+    title = fit_title(title)  # SEO 27/10/2026 puis 29/10/2026 : Google tronque au-delà de ~65 caractères
+    desc = fit_desc(desc)
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -681,7 +709,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <link rel="canonical" href="{DOMAIN}/{path}">{f'<meta name="robots" content="{robots}">' if robots else ''}
-<meta property="og:type" content="website"><meta property="og:site_name" content="Top 10 Geek">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Top 10 Geek"><meta property="og:url" content="{DOMAIN}/{path}">
 <meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}">
 <meta property="og:image" content="{DOMAIN}/{og_img}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{DOMAIN}/{og_img}">
 <link rel="icon" type="image/png" href="{root}assets/img/logo-face.png">
@@ -885,7 +913,7 @@ def pick_block(fam, c, items, root):
         meta = (f'{fr(apr["avg"])}/10 presse · ' if apr else "") + a["price_txt"]
         alts.append(f'''<a class="alt-card" href="#{a['id']}">
       <span class="alt-k">{label}</span>
-      {f'<img src="{root}assets/img/p/{a["img"]}" alt="" width="96" height="72" loading="lazy">' if a['img'] else ''}
+      {f'<img src="{root}assets/img/p/{a["img"]}" alt="{E(a["short"])}" width="96" height="72" loading="lazy">' if a['img'] else ''}
       <b>{E(a['short'])}</b><span class="alt-why">{E(reason)}</span><span class="alt-meta">{meta}</span></a>''')
     return f"""<section class="pick" id="notre-choix" data-z="choix" data-pid="{d['id']}">
     <div class="pick-card">
@@ -1312,7 +1340,7 @@ def product_page(fam, c, rank, d, items):
     near.sort(key=lambda x: items.index(x))
     alt = "".join(f"""<a class="alt-card" href="{root}{a['purl']}">
       <span class="alt-k">N° {items.index(a) + 1} · {E(a['badge'])}</span>
-      {f'<img src="{root}assets/img/p/{a["img"]}" alt="" width="96" height="72" loading="lazy">' if a['img'] else ''}
+      {f'<img src="{root}assets/img/p/{a["img"]}" alt="{E(a["short"])}" width="96" height="72" loading="lazy">' if a['img'] else ''}
       <b>{E(a['short'])}</b><span class="alt-why">{E(a['verdict'])}</span>
       <span class="alt-meta">{(fr(a['press']['avg']) + '/10 presse · ') if a['press'] else ''}{a['price_txt']}</span></a>""" for a in near)
 
@@ -1360,7 +1388,7 @@ def product_page(fam, c, rank, d, items):
         t_ed = next((o for o in t["offers"] if prix_exact(o)), None)
         if t_ed:
             t_meta += f' · {euro2(t_ed["price"])} chez {E(t_ed["m"])}'
-        t_img = f'<img src="{root}assets/img/p/{t["img"]}" alt="" width="72" height="54">' if t["img"] else ""
+        t_img = f'<img src="{root}assets/img/p/{t["img"]}" alt="{E(t["short"])}" width="72" height="54">' if t["img"] else ""
         top1 = (f'<a class="p-top1" href="{root}{t["purl"]}">{t_img}<span class="p-top1-t"><span class="p-top1-k">Avant d&#39;acheter : le n° 1 des {usage_txt if usage_txt[1:2].isupper() else low_first(usage_txt)}</span>'
                 f'<span class="p-top1-m"><b>{E(t["short"])}</b> · {t_meta}</span></span><span class="p-top1-go">Voir la fiche →</span></a>')
 
@@ -1465,7 +1493,7 @@ def product_page(fam, c, rank, d, items):
     title = next((x for x in cands_t if len(x) <= 65), f'{s} : avis, tests et prix')
     bar_alt = next((o for o in d["offers"][1:]), None)
     bar = (f'<div class="buy-bar" id="buyBar" data-z="barre" data-pid="{d["id"]}" aria-hidden="true">'
-           + (f'<img src="{root}assets/img/p/{d["img"]}" alt="" width="56" height="42">' if d["img"] else "")
+           + (f'<img src="{root}assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="56" height="42">' if d["img"] else "")
            + f'<span class="bb-t"><b>{name}</b>'
            + (f'<a href="{E(bar_alt["url"])}" target="_blank" rel="{rel_m(bar_alt["m"])}" tabindex="-1">ou chez {E(bar_alt["m"])}</a>' if bar_alt else f'<span>{P}</span>')
            + f'</span><a class="cta buy" href="{E(best["url"])}" target="_blank" rel="{rel_m(best["m"])}" tabindex="-1">'
@@ -1548,7 +1576,7 @@ def mini_champ(d):
     c = CAT[d["cat"]]
     pr = d["press"]
     note = f'<i>{fr(pr["avg"])}<small>/10</small></i>' if pr else '<i>Testé</i>'
-    img = f'<img src="assets/img/p/{d["img"]}" alt="" width="64" height="48" loading="lazy">' if d["img"] else ""
+    img = f'<img src="assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="64" height="48" loading="lazy">' if d["img"] else ""
     return (f'<a class="mc" href="{d["href"]}" style="--c:{c["color"]}"><span class="mc-u"><span class="dot" style="background:{c["color"]}"></span>{c["label"]}</span>{img}'
             f'<span class="mc-t"><b>{E(d["short"])}</b><span class="mc-m">{note}<em>{d["price_txt"]}</em></span></span></a>')
 
@@ -1690,8 +1718,8 @@ home = f"""
   </section>
 
 """
-write("index.html", page("", "Top 10 Geek : tests high-tech résumés — PC, écrans, imprimantes",
-                         "Nous lisons les tests de la presse high-tech et vous donnons une note sur 10 et un verdict par usage : PC portables, PC de bureau, écrans, imprimantes.",
+write("index.html", page("", "Top 10 Geek : tests high-tech résumés — PC, TV, audio, robots",
+                         "Nous lisons les tests de la presse et vous donnons une note sur 10 et un verdict par usage : PC, écrans, imprimantes, TV, audio, photo, robots aspirateurs.",
                          "", home, "home", body_cls="home",
                          ld=[ORG, {"@type": "WebSite", "@id": DOMAIN + "/#site", "url": DOMAIN + "/", "name": "Top 10 Geek", "description": BASELINE,
                                    "inLanguage": "fr-FR", "publisher": {"@id": ORG["@id"]}}]))
@@ -1775,7 +1803,7 @@ def bf_card(d, root, label):
     pr = d["press"]
     note = (f'{fr(pr["avg"])}/10 presse · {pr["n"]} note{"s" if pr["n"] > 1 else ""}{" (prudence)" if pr["n"] < 3 else ""}' if pr
             else f'{d["tests"]["tests"]} test{"s" if d["tests"]["tests"] > 1 else ""} presse, sans note chiffrée')
-    img = f'<img src="{root}assets/img/p/{d["img"]}" alt="" width="96" height="72" loading="lazy">' if d["img"] else ""
+    img = f'<img src="{root}assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="96" height="72" loading="lazy">' if d["img"] else ""
     return f"""<a class="alt-card" href="{root}{d['purl']}">
       <span class="alt-k">{label}</span>
       {img}

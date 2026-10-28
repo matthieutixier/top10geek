@@ -1,1538 +1,1538 @@
 {
 "": {
-"d": "2026-10-28",
-"h": "d078980de28b"
+"d": "2026-10-29",
+"h": "e7daa330ad57"
 },
 "a-propos": {
-"d": "2026-10-28",
-"h": "4acd12a82e73"
+"d": "2026-10-29",
+"h": "dd94fe4d0732"
 },
 "aspirateur-robot/": {
-"d": "2026-10-28",
-"h": "c39410d8e7d4"
+"d": "2026-10-29",
+"h": "915ef6b23540"
 },
 "aspirateur-robot/aspirateurs-balais-laveurs/": {
-"d": "2026-10-28",
-"h": "69ad2a088430"
+"d": "2026-10-29",
+"h": "0c5b170b0aaa"
 },
 "aspirateur-robot/aspirateurs-balais/": {
-"d": "2026-10-28",
-"h": "77218b0a0c78"
+"d": "2026-10-29",
+"h": "e53ec815b61d"
 },
 "aspirateur-robot/dji-romo-p2/": {
-"d": "2026-10-28",
-"h": "fcb3bbdb8373"
+"d": "2026-10-29",
+"h": "7392e30f5af2"
 },
 "aspirateur-robot/dreame-aqua10-ultra/": {
-"d": "2026-10-28",
-"h": "31cb4b69ced5"
+"d": "2026-10-29",
+"h": "43e27c6cf5f2"
 },
 "aspirateur-robot/dreame-d10-plus-gen-2/": {
-"d": "2026-10-28",
-"h": "9308be3ed0f4"
+"d": "2026-10-29",
+"h": "7521342a71b9"
 },
 "aspirateur-robot/dreame-h12-pro/": {
-"d": "2026-10-28",
-"h": "139cab847ad1"
+"d": "2026-10-29",
+"h": "98fdccf8d68a"
 },
 "aspirateur-robot/dreame-h14/": {
-"d": "2026-10-28",
-"h": "021b5d3b8071"
+"d": "2026-10-29",
+"h": "e49e383646bf"
 },
 "aspirateur-robot/dreame-h15-pro/": {
-"d": "2026-10-28",
-"h": "b403c1b03dfa"
+"d": "2026-10-29",
+"h": "84f49d704090"
 },
 "aspirateur-robot/dreame-l10s-pro-gen-3/": {
-"d": "2026-10-28",
-"h": "2d5b3f6b1db0"
+"d": "2026-10-29",
+"h": "d769770cd68a"
 },
 "aspirateur-robot/dreame-l10s-ultra/": {
-"d": "2026-10-28",
-"h": "069f257361aa"
+"d": "2026-10-29",
+"h": "e0cb83d23d17"
 },
 "aspirateur-robot/dreame-l40-ultra/": {
-"d": "2026-10-28",
-"h": "4c9c12578852"
+"d": "2026-10-29",
+"h": "5176d2d7a8ba"
 },
 "aspirateur-robot/dreame-r20/": {
-"d": "2026-10-28",
-"h": "001ee983ec9e"
+"d": "2026-10-29",
+"h": "4814c6f2530a"
 },
 "aspirateur-robot/dreame-x50-ultra-complete/": {
-"d": "2026-10-28",
-"h": "6090b7f8a1d6"
+"d": "2026-10-29",
+"h": "adb272e34180"
 },
 "aspirateur-robot/dreame-z30/": {
-"d": "2026-10-28",
-"h": "beab0b888907"
+"d": "2026-10-29",
+"h": "2f048fd371b4"
 },
 "aspirateur-robot/dyson-v11-absolute/": {
-"d": "2026-10-28",
-"h": "d9628f43ec3f"
+"d": "2026-10-29",
+"h": "4d9e1ebbad93"
 },
 "aspirateur-robot/dyson-v12-detect-slim/": {
-"d": "2026-10-28",
-"h": "1e21d62c2e17"
+"d": "2026-10-29",
+"h": "190b8438397c"
 },
 "aspirateur-robot/dyson-v15-detect-absolute/": {
-"d": "2026-10-28",
-"h": "b7369bbd6f98"
+"d": "2026-10-29",
+"h": "172c6b070605"
 },
 "aspirateur-robot/dyson-v16-piston-animal/": {
-"d": "2026-10-28",
-"h": "964f241cde5e"
+"d": "2026-10-29",
+"h": "525e57a70fdf"
 },
 "aspirateur-robot/ecovacs-deebot-t90-pro-omni/": {
-"d": "2026-10-28",
-"h": "7a149c058ed1"
+"d": "2026-10-29",
+"h": "e7654c842cf6"
 },
 "aspirateur-robot/ecovacs-deebot-x11/": {
-"d": "2026-10-28",
-"h": "71280fc7e427"
+"d": "2026-10-29",
+"h": "db215e709547"
 },
 "aspirateur-robot/mova-e40-ultra/": {
-"d": "2026-10-28",
-"h": "af3bc0136504"
+"d": "2026-10-29",
+"h": "2407306806f4"
 },
 "aspirateur-robot/mova-m50-ultra/": {
-"d": "2026-10-28",
-"h": "77b2769f1df0"
+"d": "2026-10-29",
+"h": "38fa52f1460c"
 },
 "aspirateur-robot/mova-v70-ultra/": {
-"d": "2026-10-28",
-"h": "4b4fdb2b3c20"
+"d": "2026-10-29",
+"h": "9f801e34021c"
 },
 "aspirateur-robot/mova-z60-ultra/": {
-"d": "2026-10-28",
-"h": "0422fa8df425"
+"d": "2026-10-29",
+"h": "139d8a0f80be"
 },
 "aspirateur-robot/narwal-flow-2/": {
-"d": "2026-10-28",
-"h": "a3a1de1a4085"
+"d": "2026-10-29",
+"h": "c001ba6decd6"
 },
 "aspirateur-robot/narwal-freo-z10-ultra/": {
-"d": "2026-10-28",
-"h": "593fc7b5fc60"
+"d": "2026-10-29",
+"h": "f6eee7ea1889"
 },
 "aspirateur-robot/petit-prix/": {
-"d": "2026-10-28",
-"h": "85cf1b263b8f"
+"d": "2026-10-29",
+"h": "c0da8b9efdf2"
 },
 "aspirateur-robot/roborock-h60-hub/": {
-"d": "2026-10-28",
-"h": "51b8c1042b12"
+"d": "2026-10-29",
+"h": "83816f234545"
 },
 "aspirateur-robot/roborock-qrevo-curv-2/": {
-"d": "2026-10-28",
-"h": "963d18046e37"
+"d": "2026-10-29",
+"h": "f6811f130f7a"
 },
 "aspirateur-robot/roborock-qrevo-maxv/": {
-"d": "2026-10-28",
-"h": "ceca231104f5"
+"d": "2026-10-29",
+"h": "a3077dc8ad57"
 },
 "aspirateur-robot/roborock-qrevo-s-pro/": {
-"d": "2026-10-28",
-"h": "a4bc05216c19"
+"d": "2026-10-29",
+"h": "50b9319d0267"
 },
 "aspirateur-robot/roborock-saros-10r/": {
-"d": "2026-10-28",
-"h": "0433ff432128"
+"d": "2026-10-29",
+"h": "4c47dfb373c3"
 },
 "aspirateur-robot/roborock-saros-20/": {
-"d": "2026-10-28",
-"h": "af559063c0c9"
+"d": "2026-10-29",
+"h": "56ccc4908ef9"
 },
 "aspirateur-robot/robots-aspirateurs-animaux/": {
-"d": "2026-10-28",
-"h": "debcb1e25d11"
+"d": "2026-10-29",
+"h": "8f6a8936f833"
 },
 "aspirateur-robot/robots-aspirateurs-laveurs/": {
-"d": "2026-10-28",
-"h": "93e2f042367f"
+"d": "2026-10-29",
+"h": "7740b63d7156"
 },
 "aspirateur-robot/rowenta-x-force-flex-14-60/": {
-"d": "2026-10-28",
-"h": "e48184c79ce3"
+"d": "2026-10-29",
+"h": "3f5a0d55b675"
 },
 "aspirateur-robot/samsung-bespoke-jet/": {
-"d": "2026-10-28",
-"h": "2f0f0849693b"
+"d": "2026-10-29",
+"h": "96cc4c4f3d9f"
 },
 "aspirateur-robot/samsung-jet-90/": {
-"d": "2026-10-28",
-"h": "b8f508e11c73"
+"d": "2026-10-29",
+"h": "29c58a99170a"
 },
 "aspirateur-robot/tineco-floor-one-s7-pro/": {
-"d": "2026-10-28",
-"h": "5b35401b2511"
+"d": "2026-10-29",
+"h": "adccb8a1feee"
 },
 "aspirateur-robot/tineco-floor-one-s9-artist/": {
-"d": "2026-10-28",
-"h": "3ea045fbfdcc"
+"d": "2026-10-29",
+"h": "c07ba265b3ad"
 },
 "audio/": {
-"d": "2026-10-28",
-"h": "4a2b2762559c"
+"d": "2026-10-29",
+"h": "4100faa9a620"
 },
 "audio/apple-airpods-4-anc/": {
-"d": "2026-10-28",
-"h": "2c58235d5014"
+"d": "2026-10-29",
+"h": "34531bf9e37f"
 },
 "audio/apple-airpods-max-2/": {
-"d": "2026-10-28",
-"h": "b56124f95ad1"
+"d": "2026-10-29",
+"h": "d92fa366878a"
 },
 "audio/apple-airpods-pro-3/": {
-"d": "2026-10-28",
-"h": "103927bc69d4"
+"d": "2026-10-29",
+"h": "edd0b73f487d"
 },
 "audio/audeze-maxwell-2/": {
-"d": "2026-10-28",
-"h": "2e8141d4547d"
+"d": "2026-10-29",
+"h": "2596a26968ea"
 },
 "audio/bose-quietcomfort-ultra-earbuds-2e-gen/": {
-"d": "2026-10-28",
-"h": "3b2df52f9d0b"
+"d": "2026-10-29",
+"h": "81d8fc2c43fa"
 },
 "audio/bose-soundlink-flex-2e-gen/": {
-"d": "2026-10-28",
-"h": "952a38bccca0"
+"d": "2026-10-29",
+"h": "91ba639086db"
 },
 "audio/casques-bluetooth/": {
-"d": "2026-10-28",
-"h": "1b3c79e42b99"
+"d": "2026-10-29",
+"h": "7d09de9912ab"
 },
 "audio/casques-gaming/": {
-"d": "2026-10-28",
-"h": "f9b084f5c3ef"
+"d": "2026-10-29",
+"h": "f61ac091a223"
 },
 "audio/cmf-buds-pro-2/": {
-"d": "2026-10-28",
-"h": "c39c4ca17b60"
+"d": "2026-10-29",
+"h": "58ee7180594b"
 },
 "audio/cmf-headphone-pro/": {
-"d": "2026-10-28",
-"h": "931cc99c9bb7"
+"d": "2026-10-29",
+"h": "1ea61728d676"
 },
 "audio/ecouteurs-open-ear/": {
-"d": "2026-10-28",
-"h": "9655166c2632"
+"d": "2026-10-29",
+"h": "300691ec3fdc"
 },
 "audio/ecouteurs-reduction-de-bruit/": {
-"d": "2026-10-28",
-"h": "3386d93b0072"
+"d": "2026-10-29",
+"h": "85e74b9547ff"
 },
 "audio/enceintes-bluetooth/": {
-"d": "2026-10-28",
-"h": "34345be74e1a"
+"d": "2026-10-29",
+"h": "33e1a72dbb27"
 },
 "audio/google-pixel-buds-pro-2/": {
-"d": "2026-10-28",
-"h": "44fe5651ba97"
+"d": "2026-10-29",
+"h": "9d0b47342e26"
 },
 "audio/huawei-freeclip/": {
-"d": "2026-10-28",
-"h": "03dce9cd6ec1"
+"d": "2026-10-29",
+"h": "8cb795959bea"
 },
 "audio/hyperx-cloud-alpha-2/": {
-"d": "2026-10-28",
-"h": "f6899e2633fe"
+"d": "2026-10-29",
+"h": "cb1a8d27520e"
 },
 "audio/jbl-charge-6/": {
-"d": "2026-10-28",
-"h": "881c62f134dc"
+"d": "2026-10-29",
+"h": "843d0c383be2"
 },
 "audio/jbl-flip-7/": {
-"d": "2026-10-28",
-"h": "9eb6b3f90669"
+"d": "2026-10-29",
+"h": "faa7acb8a94f"
 },
 "audio/jbl-go-5/": {
-"d": "2026-10-28",
-"h": "badff6bb07c8"
+"d": "2026-10-29",
+"h": "e9f960beea5e"
 },
 "audio/jbl-grip/": {
-"d": "2026-10-28",
-"h": "1f65b2719b2f"
+"d": "2026-10-29",
+"h": "c4f8eab440be"
 },
 "audio/jbl-live-780nc/": {
-"d": "2026-10-28",
-"h": "b74ceeb0ef27"
+"d": "2026-10-29",
+"h": "35ec20a0bd6a"
 },
 "audio/jbl-tour-one-m3/": {
-"d": "2026-10-28",
-"h": "66cfd0eca80a"
+"d": "2026-10-29",
+"h": "e9a59806fcc3"
 },
 "audio/marshall-emberton-iii/": {
-"d": "2026-10-28",
-"h": "725ef41bc701"
+"d": "2026-10-29",
+"h": "7e66dab7475b"
 },
 "audio/nothing-ear-3a/": {
-"d": "2026-10-28",
-"h": "410ced536acb"
+"d": "2026-10-29",
+"h": "5db346893958"
 },
 "audio/nothing-ear-open/": {
-"d": "2026-10-28",
-"h": "6102bd6108ae"
+"d": "2026-10-29",
+"h": "1182b6208e9b"
 },
 "audio/nothing-headphone-1/": {
-"d": "2026-10-28",
-"h": "32b04c4ca2cc"
+"d": "2026-10-29",
+"h": "edb4f19d35a2"
 },
 "audio/razer-barracuda-v2-pro/": {
-"d": "2026-10-28",
-"h": "c652d06f8086"
+"d": "2026-10-29",
+"h": "85a6c751dbea"
 },
 "audio/razer-blackshark-v3-pro/": {
-"d": "2026-10-28",
-"h": "0bb6618986b2"
+"d": "2026-10-29",
+"h": "5c6076a695df"
 },
 "audio/razer-kraken-kitty-v3-pro/": {
-"d": "2026-10-28",
-"h": "16a4c7f39f82"
+"d": "2026-10-29",
+"h": "23435e07496d"
 },
 "audio/samsung-galaxy-buds4-pro/": {
-"d": "2026-10-28",
-"h": "76141a491ea5"
+"d": "2026-10-29",
+"h": "c4f57bb8d956"
 },
 "audio/sennheiser-accentum-plus/": {
-"d": "2026-10-28",
-"h": "9e20a1a2dec3"
+"d": "2026-10-29",
+"h": "f4cc106b889e"
 },
 "audio/sennheiser-momentum-5/": {
-"d": "2026-10-28",
-"h": "24791cc4af0e"
+"d": "2026-10-29",
+"h": "2f87e73baefc"
 },
 "audio/sennheiser-momentum-true-wireless-5/": {
-"d": "2026-10-28",
-"h": "c79cef5e8002"
+"d": "2026-10-29",
+"h": "af32b78ac943"
 },
 "audio/shokz-opendots-one/": {
-"d": "2026-10-28",
-"h": "e071e95893ef"
+"d": "2026-10-29",
+"h": "74a933f93933"
 },
 "audio/shokz-openfit-2/": {
-"d": "2026-10-28",
-"h": "e2ff978fb1a8"
+"d": "2026-10-29",
+"h": "b2b5c6a87a22"
 },
 "audio/shokz-openrun-pro-2/": {
-"d": "2026-10-28",
-"h": "518ca8c649af"
+"d": "2026-10-29",
+"h": "2a0b88d93404"
 },
 "audio/sonos-roam-2/": {
-"d": "2026-10-28",
-"h": "e0d226b85901"
+"d": "2026-10-29",
+"h": "8048b745b5d0"
 },
 "audio/sony-inzone-e9/": {
-"d": "2026-10-28",
-"h": "92f514593d5d"
+"d": "2026-10-29",
+"h": "2b1d3b7cfd1f"
 },
 "audio/sony-linkbuds-clip/": {
-"d": "2026-10-28",
-"h": "97bda24cfaef"
+"d": "2026-10-29",
+"h": "2a2cc89e91af"
 },
 "audio/sony-linkbuds-open/": {
-"d": "2026-10-28",
-"h": "352ea9fe75df"
+"d": "2026-10-29",
+"h": "ff5855f210bf"
 },
 "audio/sony-ult-field-1/": {
-"d": "2026-10-28",
-"h": "9801609340cb"
+"d": "2026-10-29",
+"h": "352fc3e4c58e"
 },
 "audio/sony-ult-wear/": {
-"d": "2026-10-28",
-"h": "ddbe67d48a84"
+"d": "2026-10-29",
+"h": "41c8e24a3560"
 },
 "audio/sony-wf-1000xm6/": {
-"d": "2026-10-28",
-"h": "74b0f1c5f634"
+"d": "2026-10-29",
+"h": "13887f07e8bc"
 },
 "audio/sony-wf-c710n/": {
-"d": "2026-10-28",
-"h": "0d37d70e7dd5"
+"d": "2026-10-29",
+"h": "0de78a3021f0"
 },
 "audio/sony-wh-1000xm5/": {
-"d": "2026-10-28",
-"h": "ffc82f8cccc7"
+"d": "2026-10-29",
+"h": "36c7eabde234"
 },
 "audio/sony-wh-1000xm6/": {
-"d": "2026-10-28",
-"h": "5fa6d201a3d4"
+"d": "2026-10-29",
+"h": "9a597037ca18"
 },
 "audio/soundcore-aerofit-2-pro/": {
-"d": "2026-10-28",
-"h": "223cd6307203"
+"d": "2026-10-29",
+"h": "0b62eb8d2934"
 },
 "audio/soundcore-aerofit-2/": {
-"d": "2026-10-28",
-"h": "89441c0b94de"
+"d": "2026-10-29",
+"h": "fc0599b4cf08"
 },
 "audio/steelseries-arctis-nova-pro-omni/": {
-"d": "2026-10-28",
-"h": "685a40708319"
+"d": "2026-10-29",
+"h": "49b93fab6d35"
 },
 "audio/turtle-beach-stealth-pro-ii/": {
-"d": "2026-10-28",
-"h": "cdcf84b2e7b9"
+"d": "2026-10-29",
+"h": "8c2c9f7496cc"
 },
 "audio/ue-wonderboom-4/": {
-"d": "2026-10-28",
-"h": "da4aaade57df"
+"d": "2026-10-29",
+"h": "a6b5ff4823a9"
 },
 "black-friday/": {
-"d": "2026-10-28",
-"h": "38c4a4fb5e33"
+"d": "2026-10-29",
+"h": "06e8c10314a7"
 },
 "ecran-pc/": {
-"d": "2026-10-28",
-"h": "b48aabdc9cee"
+"d": "2026-10-29",
+"h": "e26a8d51733f"
 },
 "ecran-pc/acer-pd163q/": {
-"d": "2026-10-28",
-"h": "64b71660e5ed"
+"d": "2026-10-29",
+"h": "f7fd7f86532b"
 },
 "ecran-pc/alienware-aw2725d/": {
-"d": "2026-10-28",
-"h": "3f369c29e7cd"
+"d": "2026-10-29",
+"h": "be1ae201991f"
 },
 "ecran-pc/alienware-aw2725q/": {
-"d": "2026-10-28",
-"h": "598546783447"
+"d": "2026-10-29",
+"h": "228d9762fd96"
 },
 "ecran-pc/alienware-aw2726dm/": {
-"d": "2026-10-28",
-"h": "0518dab62451"
+"d": "2026-10-29",
+"h": "3327bdb5f090"
 },
 "ecran-pc/aoc-agon-pro-ag276qsg2/": {
-"d": "2026-10-28",
-"h": "56be3318db11"
+"d": "2026-10-29",
+"h": "df7ea5e7cdc4"
 },
 "ecran-pc/aoc-agon-q27g4zd/": {
-"d": "2026-10-28",
-"h": "56c68c813385"
+"d": "2026-10-29",
+"h": "089434e48451"
 },
 "ecran-pc/aoc-gaming-24g4zr/": {
-"d": "2026-10-28",
-"h": "047c4365feb7"
+"d": "2026-10-29",
+"h": "e62fc023f029"
 },
 "ecran-pc/aoc-gaming-q27g42ze/": {
-"d": "2026-10-28",
-"h": "51fbf9ad0af4"
+"d": "2026-10-29",
+"h": "84769377e075"
 },
 "ecran-pc/aoc-gaming-q27g4x/": {
-"d": "2026-10-28",
-"h": "c8628fe71605"
+"d": "2026-10-29",
+"h": "6bbab196c859"
 },
 "ecran-pc/aoc-gaming-q27g4zr/": {
-"d": "2026-10-28",
-"h": "764696efb41d"
+"d": "2026-10-29",
+"h": "9c3df00ecaef"
 },
 "ecran-pc/asus-proart-pa278qv/": {
-"d": "2026-10-28",
-"h": "214b14a203b7"
+"d": "2026-10-29",
+"h": "f2e533a1ffc9"
 },
 "ecran-pc/asus-proart-pa279crv/": {
-"d": "2026-10-28",
-"h": "addb070ccbd9"
+"d": "2026-10-29",
+"h": "a5c5cb41328d"
 },
 "ecran-pc/asus-proart-pa279cv/": {
-"d": "2026-10-28",
-"h": "0ed5fb6cbd1c"
+"d": "2026-10-29",
+"h": "021b6eae0e58"
 },
 "ecran-pc/asus-proart-pa27ucge/": {
-"d": "2026-10-28",
-"h": "2d62fedbf0a8"
+"d": "2026-10-29",
+"h": "8b65ed37c98b"
 },
 "ecran-pc/asus-proart-pa32qcv/": {
-"d": "2026-10-28",
-"h": "fb87b0123d70"
+"d": "2026-10-29",
+"h": "f9be481ecf57"
 },
 "ecran-pc/asus-proart-pa32ucdm/": {
-"d": "2026-10-28",
-"h": "4c7a8491cecd"
+"d": "2026-10-29",
+"h": "604ce477a57a"
 },
 "ecran-pc/asus-rog-swift-pg32ucdm/": {
-"d": "2026-10-28",
-"h": "5bcf5fee1d18"
+"d": "2026-10-29",
+"h": "02081d05fc44"
 },
 "ecran-pc/asus-tuf-gaming-vg279qm5a/": {
-"d": "2026-10-28",
-"h": "a0db96ebc4ab"
+"d": "2026-10-29",
+"h": "97f2cdf0b3eb"
 },
 "ecran-pc/asus-zenscreen-duo-oled-mq149cd/": {
-"d": "2026-10-28",
-"h": "a5cb3f30a09e"
+"d": "2026-10-29",
+"h": "14d116696d19"
 },
 "ecran-pc/asus-zenscreen-fold-mq17qh/": {
-"d": "2026-10-28",
-"h": "c38b48a35102"
+"d": "2026-10-29",
+"h": "ae3a30faf2fe"
 },
 "ecran-pc/asus-zenscreen-mb166c/": {
-"d": "2026-10-28",
-"h": "fd2fce989a28"
+"d": "2026-10-29",
+"h": "5b7aae17b3cd"
 },
 "ecran-pc/asus-zenscreen-mb169ck/": {
-"d": "2026-10-28",
-"h": "be18107a6de5"
+"d": "2026-10-29",
+"h": "5bc1d4ed92d5"
 },
 "ecran-pc/asus-zenscreen-mb16acv/": {
-"d": "2026-10-28",
-"h": "9dadf0ce2210"
+"d": "2026-10-29",
+"h": "a5bb567774b0"
 },
 "ecran-pc/benq-gw2490ce/": {
-"d": "2026-10-28",
-"h": "d791c238b038"
+"d": "2026-10-29",
+"h": "572d48f0007d"
 },
 "ecran-pc/benq-gw2790ce/": {
-"d": "2026-10-28",
-"h": "be69f7dc38ca"
+"d": "2026-10-29",
+"h": "277b6dd9e992"
 },
 "ecran-pc/benq-pd2732u/": {
-"d": "2026-10-28",
-"h": "0b849ae811bd"
+"d": "2026-10-29",
+"h": "8f92e87cf245"
 },
 "ecran-pc/bureautique/": {
-"d": "2026-10-28",
-"h": "984c501b780d"
+"d": "2026-10-29",
+"h": "71a2ee3d254a"
 },
 "ecran-pc/creation/": {
-"d": "2026-10-28",
-"h": "d66ebd0429cb"
+"d": "2026-10-29",
+"h": "55535e9acd26"
 },
 "ecran-pc/dell-27-plus-s2725dc/": {
-"d": "2026-10-28",
-"h": "d21f6c199c3f"
+"d": "2026-10-29",
+"h": "fbd1ee17840e"
 },
 "ecran-pc/dell-27-plus-s2725qc/": {
-"d": "2026-10-28",
-"h": "4cd0d6ec1a36"
+"d": "2026-10-29",
+"h": "91eb8c719eec"
 },
 "ecran-pc/dell-27-plus-s2725qs/": {
-"d": "2026-10-28",
-"h": "95aecc110442"
+"d": "2026-10-29",
+"h": "8209c6cae6f7"
 },
 "ecran-pc/dell-ultrasharp-u2724d/": {
-"d": "2026-10-28",
-"h": "5fe808f8384c"
+"d": "2026-10-29",
+"h": "67dae4e9afa9"
 },
 "ecran-pc/dell-ultrasharp-u2724de/": {
-"d": "2026-10-28",
-"h": "c3a782d87d76"
+"d": "2026-10-29",
+"h": "ed45f9e24b64"
 },
 "ecran-pc/eizo-coloredge-cg2700s/": {
-"d": "2026-10-28",
-"h": "1b1b70148567"
+"d": "2026-10-29",
+"h": "1d572a2a9201"
 },
 "ecran-pc/gaming/": {
-"d": "2026-10-28",
-"h": "b7f8b9c98c10"
+"d": "2026-10-29",
+"h": "fd2be1c2eee0"
 },
 "ecran-pc/gigabyte-gs27qca/": {
-"d": "2026-10-28",
-"h": "dfd0a0d10a71"
+"d": "2026-10-29",
+"h": "62d373735b04"
 },
 "ecran-pc/iiyama-g-master-gb2771qsu/": {
-"d": "2026-10-28",
-"h": "cedd749bb923"
+"d": "2026-10-29",
+"h": "4f8d4674f7c9"
 },
 "ecran-pc/lenovo-legion-27q-10/": {
-"d": "2026-10-28",
-"h": "7d78c473058a"
+"d": "2026-10-29",
+"h": "857d9e7ea629"
 },
 "ecran-pc/lenovo-legion-r34w-30/": {
-"d": "2026-10-28",
-"h": "b5aa5b6f9c28"
+"d": "2026-10-29",
+"h": "d7761f46a1cb"
 },
 "ecran-pc/lg-ultrafine-32up83a/": {
-"d": "2026-10-28",
-"h": "f77833311aaf"
+"d": "2026-10-29",
+"h": "e96c383d45b9"
 },
 "ecran-pc/lg-ultrafine-ergo-32un88a/": {
-"d": "2026-10-28",
-"h": "68fe122726cb"
+"d": "2026-10-29",
+"h": "f38979c7f43f"
 },
 "ecran-pc/mobile-pixels-duex-max/": {
-"d": "2026-10-28",
-"h": "64d3abbfff1a"
+"d": "2026-10-29",
+"h": "6c052d18cdc7"
 },
 "ecran-pc/msi-mpg-271qr-x50/": {
-"d": "2026-10-28",
-"h": "f88a5395afd5"
+"d": "2026-10-29",
+"h": "54ae9329ee3e"
 },
 "ecran-pc/msi-mpg-321urx/": {
-"d": "2026-10-28",
-"h": "43bb53e5cf87"
+"d": "2026-10-29",
+"h": "6056996b15d2"
 },
 "ecran-pc/msi-pro-mp165-e6/": {
-"d": "2026-10-28",
-"h": "5434195f0e6c"
+"d": "2026-10-29",
+"h": "71abcaa6d988"
 },
 "ecran-pc/petit-prix/": {
-"d": "2026-10-28",
-"h": "827477ff7908"
+"d": "2026-10-29",
+"h": "80437b32b7cd"
 },
 "ecran-pc/portable/": {
-"d": "2026-10-28",
-"h": "6ebb1af0ddd8"
+"d": "2026-10-29",
+"h": "696070834007"
 },
 "ecran-pc/sony-inzone-m10s/": {
-"d": "2026-10-28",
-"h": "2479013b3321"
+"d": "2026-10-29",
+"h": "7f06da5275c2"
 },
 "ecran-pc/viewsonic-va1655/": {
-"d": "2026-10-28",
-"h": "e2759025ed50"
+"d": "2026-10-29",
+"h": "c96baf69eba5"
 },
 "imprimante/": {
-"d": "2026-10-28",
-"h": "c62a17f04bd7"
+"d": "2026-10-29",
+"h": "5e0d1cd6e41d"
 },
 "imprimante/brother-dcp-j1360dw/": {
-"d": "2026-10-28",
-"h": "b2f587e7b276"
+"d": "2026-10-29",
+"h": "30b3205c013c"
 },
 "imprimante/brother-dcp-l1642w/": {
-"d": "2026-10-28",
-"h": "958b9b127c31"
+"d": "2026-10-29",
+"h": "662e276d2760"
 },
 "imprimante/brother-dcp-l2620dw/": {
-"d": "2026-10-28",
-"h": "b6d38ea9c265"
+"d": "2026-10-29",
+"h": "3cf698c5e0fa"
 },
 "imprimante/brother-dcp-l2665dw/": {
-"d": "2026-10-28",
-"h": "2ed37f7a108c"
+"d": "2026-10-29",
+"h": "64cab3074bf0"
 },
 "imprimante/brother-hl-l1240w/": {
-"d": "2026-10-28",
-"h": "005474db0da5"
+"d": "2026-10-29",
+"h": "998b4f643d7d"
 },
 "imprimante/brother-hl-l2865dw/": {
-"d": "2026-10-28",
-"h": "a66a02c1bab1"
+"d": "2026-10-29",
+"h": "4167cacff5ba"
 },
 "imprimante/brother-hl-l3220cwe/": {
-"d": "2026-10-28",
-"h": "3a72e32ec34b"
+"d": "2026-10-29",
+"h": "65f0f2be2a7e"
 },
 "imprimante/brother-mfc-l2800dw/": {
-"d": "2026-10-28",
-"h": "ec0b8dde4e68"
+"d": "2026-10-29",
+"h": "a00fa7c950e4"
 },
 "imprimante/brother-mfc-l2960dw/": {
-"d": "2026-10-28",
-"h": "ec7580ff4ce5"
+"d": "2026-10-29",
+"h": "a0bfdbaadb0c"
 },
 "imprimante/brother-mfc-l3760cdw/": {
-"d": "2026-10-28",
-"h": "57e1cf403e80"
+"d": "2026-10-29",
+"h": "15501fee7e51"
 },
 "imprimante/canon-i-sensys-lbp243dw-ii/": {
-"d": "2026-10-28",
-"h": "fc9c5f9e2ac4"
+"d": "2026-10-29",
+"h": "97816d40eb93"
 },
 "imprimante/canon-i-sensys-lbp647cdw/": {
-"d": "2026-10-28",
-"h": "26d78066ff23"
+"d": "2026-10-29",
+"h": "9e17876bc4b1"
 },
 "imprimante/canon-i-sensys-mf752cdw/": {
-"d": "2026-10-28",
-"h": "6623ff66a21e"
+"d": "2026-10-29",
+"h": "daee630bce07"
 },
 "imprimante/canon-pixma-g3570/": {
-"d": "2026-10-28",
-"h": "418565d030c9"
+"d": "2026-10-29",
+"h": "67cb398843da"
 },
 "imprimante/canon-pixma-ix6850/": {
-"d": "2026-10-28",
-"h": "179257c1f88d"
+"d": "2026-10-29",
+"h": "aefd69c09035"
 },
 "imprimante/canon-pixma-tr4755i/": {
-"d": "2026-10-28",
-"h": "7c8e4a7172b7"
+"d": "2026-10-29",
+"h": "18e0e8a282cb"
 },
 "imprimante/canon-pixma-ts4151i/": {
-"d": "2026-10-28",
-"h": "6fdf50f6cc69"
+"d": "2026-10-29",
+"h": "df68b2cf6684"
 },
 "imprimante/canon-pixma-ts6550i/": {
-"d": "2026-10-28",
-"h": "113e2c0dcc18"
+"d": "2026-10-29",
+"h": "40ceaea01827"
 },
 "imprimante/canon-pixma-ts7550i/": {
-"d": "2026-10-28",
-"h": "fed24bcefd2d"
+"d": "2026-10-29",
+"h": "6ae0eb46911d"
 },
 "imprimante/canon-selphy-cp1500/": {
-"d": "2026-10-28",
-"h": "ccb1af747583"
+"d": "2026-10-29",
+"h": "fa5b940246ef"
 },
 "imprimante/canon-selphy-qx20/": {
-"d": "2026-10-28",
-"h": "d7cedfbdef30"
+"d": "2026-10-29",
+"h": "4097d4d33ab8"
 },
 "imprimante/canon-zoemini-2/": {
-"d": "2026-10-28",
-"h": "ba29d48598fd"
+"d": "2026-10-29",
+"h": "af364d2013b0"
 },
 "imprimante/epson-ecotank-et-2856/": {
-"d": "2026-10-28",
-"h": "1a44c79952b7"
+"d": "2026-10-29",
+"h": "8a8348bf38b6"
 },
 "imprimante/epson-ecotank-et-2862/": {
-"d": "2026-10-28",
-"h": "36c599109450"
+"d": "2026-10-29",
+"h": "92d93e43f366"
 },
 "imprimante/epson-ecotank-et-2876/": {
-"d": "2026-10-28",
-"h": "d1237037c5c7"
+"d": "2026-10-29",
+"h": "0ba103a16bf1"
 },
 "imprimante/epson-ecotank-et-2951/": {
-"d": "2026-10-28",
-"h": "fd6d5e850262"
+"d": "2026-10-29",
+"h": "8bf251497f25"
 },
 "imprimante/epson-ecotank-et-3950/": {
-"d": "2026-10-28",
-"h": "04c9086034af"
+"d": "2026-10-29",
+"h": "d4adbc2daa9c"
 },
 "imprimante/epson-ecotank-et-4856/": {
-"d": "2026-10-28",
-"h": "6f6ea8f185f6"
+"d": "2026-10-29",
+"h": "40e907f1b9a7"
 },
 "imprimante/epson-ecotank-et-4900/": {
-"d": "2026-10-28",
-"h": "02966492e477"
+"d": "2026-10-29",
+"h": "42453b358a95"
 },
 "imprimante/epson-ecotank-et-4956/": {
-"d": "2026-10-28",
-"h": "1ab325a014e7"
+"d": "2026-10-29",
+"h": "60bc7fd12dae"
 },
 "imprimante/epson-ecotank-photo-et-8500/": {
-"d": "2026-10-28",
-"h": "5b673b17ec06"
+"d": "2026-10-29",
+"h": "77299910cbca"
 },
 "imprimante/epson-ecotank-photo-et-8550/": {
-"d": "2026-10-28",
-"h": "2d4bd8d715ac"
+"d": "2026-10-29",
+"h": "006cccb23665"
 },
 "imprimante/epson-expression-home-xp-2200/": {
-"d": "2026-10-28",
-"h": "95c6a82b6ff0"
+"d": "2026-10-29",
+"h": "36da9fb10e45"
 },
 "imprimante/epson-workforce-wf-2930dwf/": {
-"d": "2026-10-28",
-"h": "8de9f0741359"
+"d": "2026-10-29",
+"h": "8ab9bfdf9dd0"
 },
 "imprimante/fujifilm-instax-link-wide/": {
-"d": "2026-10-28",
-"h": "fe5541bfc90a"
+"d": "2026-10-29",
+"h": "fbbee3bd6d91"
 },
 "imprimante/fujifilm-instax-mini-link-3/": {
-"d": "2026-10-28",
-"h": "16c3cd000772"
+"d": "2026-10-29",
+"h": "7cbd33be99fd"
 },
 "imprimante/hp-color-laserjet-pro-mfp-3302sdw/": {
-"d": "2026-10-28",
-"h": "6f1ac7e87824"
+"d": "2026-10-29",
+"h": "2b4ac697686b"
 },
 "imprimante/hp-deskjet-2921e/": {
-"d": "2026-10-28",
-"h": "75f9245f1922"
+"d": "2026-10-29",
+"h": "93e8f9855158"
 },
 "imprimante/hp-envy-6132e/": {
-"d": "2026-10-28",
-"h": "538629d38093"
+"d": "2026-10-29",
+"h": "c9fab74aeafd"
 },
 "imprimante/hp-laserjet-m234dw/": {
-"d": "2026-10-28",
-"h": "1ac864b14e51"
+"d": "2026-10-29",
+"h": "f1e2267507b8"
 },
 "imprimante/hp-officejet-pro-8124e/": {
-"d": "2026-10-28",
-"h": "f95b90ce19da"
+"d": "2026-10-29",
+"h": "e459d59baa59"
 },
 "imprimante/hp-sprocket-2x3/": {
-"d": "2026-10-28",
-"h": "aad2ec555fe8"
+"d": "2026-10-29",
+"h": "426730574258"
 },
 "imprimante/kodak-step/": {
-"d": "2026-10-28",
-"h": "50b86696c8e0"
+"d": "2026-10-29",
+"h": "3c9c9f48269f"
 },
 "imprimante/laser-couleur/": {
-"d": "2026-10-28",
-"h": "77bf630cf80e"
+"d": "2026-10-29",
+"h": "af4500569c9a"
 },
 "imprimante/laser-noir-et-blanc/": {
-"d": "2026-10-28",
-"h": "2965a0c8b372"
+"d": "2026-10-29",
+"h": "8451c7615621"
 },
 "imprimante/petit-prix/": {
-"d": "2026-10-28",
-"h": "d12955fb6557"
+"d": "2026-10-29",
+"h": "fe457925cd0f"
 },
 "imprimante/photo/": {
-"d": "2026-10-28",
-"h": "23744fd8a738"
+"d": "2026-10-29",
+"h": "5513c055dc4c"
 },
 "imprimante/reservoir/": {
-"d": "2026-10-28",
-"h": "5f5cc5f2f5d7"
+"d": "2026-10-29",
+"h": "fc71f9ce4042"
 },
 "imprimante/xerox-c230/": {
-"d": "2026-10-28",
-"h": "ebb7c635b888"
+"d": "2026-10-29",
+"h": "4b6fbc144ff9"
 },
 "mentions-legales": {
-"d": "2026-10-28",
-"h": "6d3ad7e15fdd"
+"d": "2026-10-29",
+"h": "dd910ef85d6d"
 },
 "methode": {
-"d": "2026-10-28",
-"h": "29b2f3fd6a3e"
+"d": "2026-10-29",
+"h": "8720d1a48540"
 },
 "ordinateur-de-bureau/": {
-"d": "2026-10-28",
-"h": "5703dfd398b1"
+"d": "2026-10-29",
+"h": "cbf1fc2f42e3"
 },
 "ordinateur-de-bureau/acemagic-k1/": {
-"d": "2026-10-28",
-"h": "745d50216439"
+"d": "2026-10-29",
+"h": "47a62499d7aa"
 },
 "ordinateur-de-bureau/acer-aspire-c-27/": {
-"d": "2026-10-28",
-"h": "64cd4b495b1d"
+"d": "2026-10-29",
+"h": "be87d6c5926c"
 },
 "ordinateur-de-bureau/acer-predator-orion-7000/": {
-"d": "2026-10-28",
-"h": "00f68d621c44"
+"d": "2026-10-29",
+"h": "1824e2a440df"
 },
 "ordinateur-de-bureau/alienware-area-51/": {
-"d": "2026-10-28",
-"h": "a37298ec9364"
+"d": "2026-10-29",
+"h": "fb7e5e599130"
 },
 "ordinateur-de-bureau/apple-imac-24-m4/": {
-"d": "2026-10-28",
-"h": "66ccf302eeae"
+"d": "2026-10-29",
+"h": "eda4cbcd2994"
 },
 "ordinateur-de-bureau/apple-mac-mini-m5-pro/": {
-"d": "2026-10-28",
-"h": "02158a6ecd82"
+"d": "2026-10-29",
+"h": "d37ed06b7c51"
 },
 "ordinateur-de-bureau/apple-mac-mini-m6/": {
-"d": "2026-10-28",
-"h": "a6b07e083eba"
+"d": "2026-10-29",
+"h": "caf10f5a6d71"
 },
 "ordinateur-de-bureau/apple-mac-studio-m5-max/": {
-"d": "2026-10-28",
-"h": "9430b73012c5"
+"d": "2026-10-29",
+"h": "3d05cf49a39c"
 },
 "ordinateur-de-bureau/asus-v500/": {
-"d": "2026-10-28",
-"h": "fb321abb158f"
+"d": "2026-10-29",
+"h": "8eee9deda788"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
-"d": "2026-10-28",
-"h": "8df8dda98efd"
+"d": "2026-10-29",
+"h": "37c698719e3e"
 },
 "ordinateur-de-bureau/bureautique/": {
-"d": "2026-10-28",
-"h": "bf298812f676"
+"d": "2026-10-29",
+"h": "665151111d6f"
 },
 "ordinateur-de-bureau/creation/": {
-"d": "2026-10-28",
-"h": "6e7061f5669b"
+"d": "2026-10-29",
+"h": "deefdb561738"
 },
 "ordinateur-de-bureau/gaming/": {
-"d": "2026-10-28",
-"h": "fa09f69bcee6"
+"d": "2026-10-29",
+"h": "f50f4ba933c3"
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
-"d": "2026-10-28",
-"h": "38dc40cb35a7"
+"d": "2026-10-29",
+"h": "21adf2c1c8d3"
 },
 "ordinateur-de-bureau/geekom-a5/": {
-"d": "2026-10-28",
-"h": "2fb43a9508d8"
+"d": "2026-10-29",
+"h": "c4ad9fbe7c0f"
 },
 "ordinateur-de-bureau/geekom-a6/": {
-"d": "2026-10-28",
-"h": "944ca4ac650c"
+"d": "2026-10-29",
+"h": "531e63bc7e5e"
 },
 "ordinateur-de-bureau/geekom-a7/": {
-"d": "2026-10-28",
-"h": "9d745e8494c2"
+"d": "2026-10-29",
+"h": "9b0d53298abc"
 },
 "ordinateur-de-bureau/geekom-a8/": {
-"d": "2026-10-28",
-"h": "ee9b77b3b927"
+"d": "2026-10-29",
+"h": "d42dda612b92"
 },
 "ordinateur-de-bureau/geekom-a9-max/": {
-"d": "2026-10-28",
-"h": "33adf60846dc"
+"d": "2026-10-29",
+"h": "5e15fb3b0127"
 },
 "ordinateur-de-bureau/geekom-gt1-mega/": {
-"d": "2026-10-28",
-"h": "8363301cb7a4"
+"d": "2026-10-29",
+"h": "a15713c023a4"
 },
 "ordinateur-de-bureau/geekom-it13/": {
-"d": "2026-10-28",
-"h": "9d477fe0970e"
+"d": "2026-10-29",
+"h": "14af0e7500cc"
 },
 "ordinateur-de-bureau/geekom-it15/": {
-"d": "2026-10-28",
-"h": "4abb93cf931a"
+"d": "2026-10-29",
+"h": "0ac727a7aed7"
 },
 "ordinateur-de-bureau/geekom-mini-air12-lite/": {
-"d": "2026-10-28",
-"h": "fd557af86633"
+"d": "2026-10-29",
+"h": "c32ca59c55bf"
 },
 "ordinateur-de-bureau/geekom-mini-it12/": {
-"d": "2026-10-28",
-"h": "d7e4abda7663"
+"d": "2026-10-29",
+"h": "2bafac041357"
 },
 "ordinateur-de-bureau/gigabyte-aorus-prime-5/": {
-"d": "2026-10-28",
-"h": "b6944bd547ea"
+"d": "2026-10-29",
+"h": "bfb7a37e620a"
 },
 "ordinateur-de-bureau/gmktec-evo-x2/": {
-"d": "2026-10-28",
-"h": "cf7158feac6c"
+"d": "2026-10-29",
+"h": "25a0de7ab32f"
 },
 "ordinateur-de-bureau/gmktec-nucbox-k13/": {
-"d": "2026-10-28",
-"h": "d3d2b165e39d"
+"d": "2026-10-29",
+"h": "0322e2560848"
 },
 "ordinateur-de-bureau/hp-omen-16l/": {
-"d": "2026-10-28",
-"h": "5ae37e8dde04"
+"d": "2026-10-29",
+"h": "24f4ce364a4f"
 },
 "ordinateur-de-bureau/hp-omen-35l/": {
-"d": "2026-10-28",
-"h": "6e9706aa3180"
+"d": "2026-10-29",
+"h": "4175e7f8c355"
 },
 "ordinateur-de-bureau/hp-omnistudio-x-31-5/": {
-"d": "2026-10-28",
-"h": "4947b1780b46"
+"d": "2026-10-29",
+"h": "96bf014e1dcc"
 },
 "ordinateur-de-bureau/hp-z2-mini-g1a/": {
-"d": "2026-10-28",
-"h": "8691b167dc90"
+"d": "2026-10-29",
+"h": "63445bcc2e85"
 },
 "ordinateur-de-bureau/lenovo-ideacentre-aio-27/": {
-"d": "2026-10-28",
-"h": "a47276e941e8"
+"d": "2026-10-29",
+"h": "5cf8c5c36b05"
 },
 "ordinateur-de-bureau/lenovo-ideacentre-mini/": {
-"d": "2026-10-28",
-"h": "d39028932764"
+"d": "2026-10-29",
+"h": "d536aeb52289"
 },
 "ordinateur-de-bureau/lenovo-legion-tower-5-gen-10/": {
-"d": "2026-10-28",
-"h": "1a2de21e64c4"
+"d": "2026-10-29",
+"h": "994d79573253"
 },
 "ordinateur-de-bureau/lenovo-loq-tower/": {
-"d": "2026-10-28",
-"h": "3e690b8c32e0"
+"d": "2026-10-29",
+"h": "6899182a5a3a"
 },
 "ordinateur-de-bureau/lenovo-thinkstation-p3-tiny/": {
-"d": "2026-10-28",
-"h": "b4af428b0e1c"
+"d": "2026-10-29",
+"h": "7689aa037f73"
 },
 "ordinateur-de-bureau/mini-pc/": {
-"d": "2026-10-28",
-"h": "cb428fa5194a"
+"d": "2026-10-29",
+"h": "81b14406b0b4"
 },
 "ordinateur-de-bureau/minisforum-ai-x1-pro/": {
-"d": "2026-10-28",
-"h": "b63c2d6b57ef"
+"d": "2026-10-29",
+"h": "0a3c7c74a7a9"
 },
 "ordinateur-de-bureau/minisforum-ms-s1-max/": {
-"d": "2026-10-28",
-"h": "62933509e533"
+"d": "2026-10-29",
+"h": "86f637346c44"
 },
 "ordinateur-de-bureau/nipogi-am06-pro/": {
-"d": "2026-10-28",
-"h": "618ad9801491"
+"d": "2026-10-29",
+"h": "8da705ee271c"
 },
 "ordinateur-de-bureau/tout-en-un/": {
-"d": "2026-10-28",
-"h": "051158c12771"
+"d": "2026-10-29",
+"h": "d85d3dd0f1ef"
 },
 "pc-portable/": {
-"d": "2026-10-28",
-"h": "0319ffe27a42"
+"d": "2026-10-29",
+"h": "22ab8fe98d90"
 },
 "pc-portable/acer-aspire-go-15/": {
-"d": "2026-10-28",
-"h": "b30c6f3d4c0b"
+"d": "2026-10-29",
+"h": "72784d75fec1"
 },
 "pc-portable/acer-chromebook-plus-514/": {
-"d": "2026-10-28",
-"h": "dc673901b17e"
+"d": "2026-10-29",
+"h": "4a78b0daf7cd"
 },
 "pc-portable/acer-nitro-v-16-ai/": {
-"d": "2026-10-28",
-"h": "caddfdb7d742"
+"d": "2026-10-29",
+"h": "1df4c811fd69"
 },
 "pc-portable/acer-predator-helios-neo-16-ai/": {
-"d": "2026-10-28",
-"h": "26b810331e21"
+"d": "2026-10-29",
+"h": "3a3a005eeb20"
 },
 "pc-portable/acer-swift-16-ai/": {
-"d": "2026-10-28",
-"h": "04990db91c84"
+"d": "2026-10-29",
+"h": "a9b45115f384"
 },
 "pc-portable/acer-swift-air-14/": {
-"d": "2026-10-28",
-"h": "5319f81bf26c"
+"d": "2026-10-29",
+"h": "785cc10627f4"
 },
 "pc-portable/apple-macbook-air-13-m5/": {
-"d": "2026-10-28",
-"h": "462945c51e5f"
+"d": "2026-10-29",
+"h": "ed45dd10d958"
 },
 "pc-portable/apple-macbook-air-15-m5/": {
-"d": "2026-10-28",
-"h": "3e82897559d1"
+"d": "2026-10-29",
+"h": "a9465999eff3"
 },
 "pc-portable/apple-macbook-neo/": {
-"d": "2026-10-28",
-"h": "26c64d481f13"
+"d": "2026-10-29",
+"h": "499d305149e5"
 },
 "pc-portable/apple-macbook-pro-14-m5/": {
-"d": "2026-10-28",
-"h": "830dea0aeb82"
+"d": "2026-10-29",
+"h": "5783f29e693c"
 },
 "pc-portable/asus-chromebook-cx14/": {
-"d": "2026-10-28",
-"h": "2bb102509e00"
+"d": "2026-10-29",
+"h": "291fc756d110"
 },
 "pc-portable/asus-proart-p16/": {
-"d": "2026-10-28",
-"h": "e32c23aaf003"
+"d": "2026-10-29",
+"h": "c0349e8d2179"
 },
 "pc-portable/asus-proart-px13/": {
-"d": "2026-10-28",
-"h": "3bcb5512236f"
+"d": "2026-10-29",
+"h": "7ca08a8e6217"
 },
 "pc-portable/asus-rog-strix-g16/": {
-"d": "2026-10-28",
-"h": "46c63bad8949"
+"d": "2026-10-29",
+"h": "8f9c620df636"
 },
 "pc-portable/asus-rog-zephyrus-g16/": {
-"d": "2026-10-28",
-"h": "747e8785a4de"
+"d": "2026-10-29",
+"h": "fe3af943ef49"
 },
 "pc-portable/asus-vivobook-14/": {
-"d": "2026-10-28",
-"h": "f0ca9c0b02f9"
+"d": "2026-10-29",
+"h": "088b82e23dbe"
 },
 "pc-portable/asus-vivobook-go-14/": {
-"d": "2026-10-28",
-"h": "96c44e5db8b7"
+"d": "2026-10-29",
+"h": "066c982ca967"
 },
 "pc-portable/asus-vivobook-s14/": {
-"d": "2026-10-28",
-"h": "e4a993bfb048"
+"d": "2026-10-29",
+"h": "0d45cef20f1d"
 },
 "pc-portable/asus-zenbook-a14/": {
-"d": "2026-10-28",
-"h": "e2dfd9fe9279"
+"d": "2026-10-29",
+"h": "28f2a5adffc4"
 },
 "pc-portable/asus-zenbook-a16/": {
-"d": "2026-10-28",
-"h": "ded6263ff5b7"
+"d": "2026-10-29",
+"h": "086da0b8e363"
 },
 "pc-portable/asus-zenbook-duo/": {
-"d": "2026-10-28",
-"h": "7cf99056bd2f"
+"d": "2026-10-29",
+"h": "7edd409f5cc6"
 },
 "pc-portable/asus-zenbook-s-14/": {
-"d": "2026-10-28",
-"h": "9765b5314c16"
+"d": "2026-10-29",
+"h": "9e73823a14a3"
 },
 "pc-portable/asus-zenbook-s-16/": {
-"d": "2026-10-28",
-"h": "4bdc286c6c29"
+"d": "2026-10-29",
+"h": "1afa7e73ae2c"
 },
 "pc-portable/bureautique/": {
-"d": "2026-10-28",
-"h": "d043c5b66ab6"
+"d": "2026-10-29",
+"h": "83c71fde933b"
 },
 "pc-portable/creation/": {
-"d": "2026-10-28",
-"h": "c7fdc3a2409e"
+"d": "2026-10-29",
+"h": "0205124a0fa6"
 },
 "pc-portable/dell-latitude-5420/": {
-"d": "2026-10-28",
-"h": "4567cc0d9206"
+"d": "2026-10-29",
+"h": "6379ab8c2132"
 },
 "pc-portable/dell-latitude-7490/": {
-"d": "2026-10-28",
-"h": "a8ba153acfe1"
+"d": "2026-10-29",
+"h": "b471ec4fa9bf"
 },
 "pc-portable/dell-xps-14-2026/": {
-"d": "2026-10-28",
-"h": "2c2fc86cd4d6"
+"d": "2026-10-29",
+"h": "aa4f74b8da9a"
 },
 "pc-portable/gaming/": {
-"d": "2026-10-28",
-"h": "e486c93a0926"
+"d": "2026-10-29",
+"h": "7582f5c1cb55"
 },
 "pc-portable/gigabyte-aero-x16/": {
-"d": "2026-10-28",
-"h": "ec35d1a14e26"
+"d": "2026-10-29",
+"h": "aa322e56c90e"
 },
 "pc-portable/gigabyte-gaming-a16/": {
-"d": "2026-10-28",
-"h": "e21161d50012"
+"d": "2026-10-29",
+"h": "caaf51c7281d"
 },
 "pc-portable/hp-omen-max-16/": {
-"d": "2026-10-28",
-"h": "891e340e66e4"
+"d": "2026-10-29",
+"h": "f73cfd2431b1"
 },
 "pc-portable/hp-omnibook-5-14/": {
-"d": "2026-10-28",
-"h": "7dbf30adf0d6"
+"d": "2026-10-29",
+"h": "a2ed952849c2"
 },
 "pc-portable/hp-omnibook-x-flip-14/": {
-"d": "2026-10-28",
-"h": "7965f7a614db"
+"d": "2026-10-29",
+"h": "abca62cd628e"
 },
 "pc-portable/lenovo-chromebook-duet-11/": {
-"d": "2026-10-28",
-"h": "2a17c2173787"
+"d": "2026-10-29",
+"h": "82aef23d9c79"
 },
 "pc-portable/lenovo-ideapad-1-15/": {
-"d": "2026-10-28",
-"h": "d5d92979c38c"
+"d": "2026-10-29",
+"h": "87a8c17b36ad"
 },
 "pc-portable/lenovo-ideapad-slim-3/": {
-"d": "2026-10-28",
-"h": "f6ad00be0976"
+"d": "2026-10-29",
+"h": "338a9380a39c"
 },
 "pc-portable/lenovo-ideapad-slim-3x-15/": {
-"d": "2026-10-28",
-"h": "7ae740c83d72"
+"d": "2026-10-29",
+"h": "6f497a53a369"
 },
 "pc-portable/lenovo-ideapad-slim-5-16/": {
-"d": "2026-10-28",
-"h": "1aa781b05889"
+"d": "2026-10-29",
+"h": "4fd65eaf8ba2"
 },
 "pc-portable/lenovo-legion-5-15/": {
-"d": "2026-10-28",
-"h": "f0293cfd64f0"
+"d": "2026-10-29",
+"h": "37abb4a79d2a"
 },
 "pc-portable/lenovo-loq-15/": {
-"d": "2026-10-28",
-"h": "ad81157297ca"
+"d": "2026-10-29",
+"h": "67a4617e9abe"
 },
 "pc-portable/lenovo-thinkpad-t470s/": {
-"d": "2026-10-28",
-"h": "71c80b58d21b"
+"d": "2026-10-29",
+"h": "dd12f96c5158"
 },
 "pc-portable/lenovo-thinkpad-t480/": {
-"d": "2026-10-28",
-"h": "6ac42566218f"
+"d": "2026-10-29",
+"h": "1441bc7833bc"
 },
 "pc-portable/lenovo-thinkpad-t490/": {
-"d": "2026-10-28",
-"h": "1aefe9b8bfe0"
+"d": "2026-10-29",
+"h": "99e4b58bf3ea"
 },
 "pc-portable/lenovo-yoga-7-2-en-1/": {
-"d": "2026-10-28",
-"h": "b86f0e02ef6f"
+"d": "2026-10-29",
+"h": "f7f1b3a36482"
 },
 "pc-portable/lenovo-yoga-pro-7-15/": {
-"d": "2026-10-28",
-"h": "6652e8c6d788"
+"d": "2026-10-29",
+"h": "97b815319c35"
 },
 "pc-portable/lenovo-yoga-pro-9i-16/": {
-"d": "2026-10-28",
-"h": "8b3613efa7ac"
+"d": "2026-10-29",
+"h": "ef7b78d1e3a9"
 },
 "pc-portable/lenovo-yoga-slim-7-14/": {
-"d": "2026-10-28",
-"h": "c8a1d4bfec6d"
+"d": "2026-10-29",
+"h": "c1fd8e3b91d1"
 },
 "pc-portable/lenovo-yoga-slim-7x/": {
-"d": "2026-10-28",
-"h": "b7d078916e4d"
+"d": "2026-10-29",
+"h": "34a2472be9a4"
 },
 "pc-portable/lg-gram-17/": {
-"d": "2026-10-28",
-"h": "ca4f5c942779"
+"d": "2026-10-29",
+"h": "6a43dd0eefd4"
 },
 "pc-portable/lowcost/": {
-"d": "2026-10-28",
-"h": "d5648b8141af"
+"d": "2026-10-29",
+"h": "2fe2149db9c7"
 },
 "pc-portable/microsoft-surface-laptop-13/": {
-"d": "2026-10-28",
-"h": "cc2ed67c6579"
+"d": "2026-10-29",
+"h": "fa8c8ba802b3"
 },
 "pc-portable/msi-crosshair-16-hx-ai/": {
-"d": "2026-10-28",
-"h": "dbdd47ab63e4"
+"d": "2026-10-29",
+"h": "0a7420cbbaa2"
 },
 "pc-portable/msi-cyborg-15/": {
-"d": "2026-10-28",
-"h": "aeb49c7b59db"
+"d": "2026-10-29",
+"h": "56eafff9abfd"
 },
 "pc-portable/msi-katana-15-hx/": {
-"d": "2026-10-28",
-"h": "225d8a27e171"
+"d": "2026-10-29",
+"h": "b410d4cc9482"
 },
 "pc-portable/polyvalent/": {
-"d": "2026-10-28",
-"h": "1fac2a4fef3c"
+"d": "2026-10-29",
+"h": "30c6b9c5b5c0"
 },
 "pc-portable/reconditionnes/": {
-"d": "2026-10-28",
-"h": "cd3d774b7f14"
+"d": "2026-10-29",
+"h": "3580ac481137"
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
-"d": "2026-10-28",
-"h": "a8b7bd55bf92"
+"d": "2026-10-29",
+"h": "4172c4e7019a"
 },
 "photo-video/": {
-"d": "2026-10-28",
-"h": "b6a04953784c"
+"d": "2026-10-29",
+"h": "ef1ebb75a2a3"
 },
 "photo-video/appareils-photo-hybrides-compacts/": {
-"d": "2026-10-28",
-"h": "6e8bc268bfab"
+"d": "2026-10-29",
+"h": "d805e06c11c8"
 },
 "photo-video/benq-gp520/": {
-"d": "2026-10-28",
-"h": "47807e560556"
+"d": "2026-10-29",
+"h": "5ef9c08473bb"
 },
 "photo-video/benq-gv50/": {
-"d": "2026-10-28",
-"h": "b314a2b8546d"
+"d": "2026-10-29",
+"h": "7454c2daaf8e"
 },
 "photo-video/benq-w2720i/": {
-"d": "2026-10-28",
-"h": "3cec92d1eb5b"
+"d": "2026-10-29",
+"h": "f025b0beff58"
 },
 "photo-video/benq-x3100i/": {
-"d": "2026-10-28",
-"h": "fc443cecbd77"
+"d": "2026-10-29",
+"h": "1463b46fc6d1"
 },
 "photo-video/benq-x500i/": {
-"d": "2026-10-28",
-"h": "5ccd304c781a"
+"d": "2026-10-29",
+"h": "4e07e19c2668"
 },
 "photo-video/blink-outdoor-4/": {
-"d": "2026-10-28",
-"h": "304acab150de"
+"d": "2026-10-29",
+"h": "c2f77ebb6e82"
 },
 "photo-video/cameras-de-surveillance/": {
-"d": "2026-10-28",
-"h": "7cfe500652a7"
+"d": "2026-10-29",
+"h": "cec518c6e059"
 },
 "photo-video/cameras-sport-360-vlog/": {
-"d": "2026-10-28",
-"h": "dcdf59e5758d"
+"d": "2026-10-29",
+"h": "3f22b48e369d"
 },
 "photo-video/canon-eos-r50/": {
-"d": "2026-10-28",
-"h": "98095dd2d43c"
+"d": "2026-10-29",
+"h": "1e4ac5428d67"
 },
 "photo-video/canon-powershot-v1/": {
-"d": "2026-10-28",
-"h": "ff9ad031a301"
+"d": "2026-10-29",
+"h": "cd4d27b1054e"
 },
 "photo-video/dji-avata-360/": {
-"d": "2026-10-28",
-"h": "21533bc99e7f"
+"d": "2026-10-29",
+"h": "4f4c6c5268a8"
 },
 "photo-video/dji-flip/": {
-"d": "2026-10-28",
-"h": "c51829d8de50"
+"d": "2026-10-29",
+"h": "3c8315f7262a"
 },
 "photo-video/dji-lito-x1/": {
-"d": "2026-10-28",
-"h": "bbf4d0b66715"
+"d": "2026-10-29",
+"h": "6247f6c53906"
 },
 "photo-video/dji-mavic-4-pro/": {
-"d": "2026-10-28",
-"h": "603ceb677a42"
+"d": "2026-10-29",
+"h": "4bee33cb7f71"
 },
 "photo-video/dji-mini-5-pro/": {
-"d": "2026-10-28",
-"h": "98c5e444c55e"
+"d": "2026-10-29",
+"h": "98942a7be7ea"
 },
 "photo-video/dji-neo-2/": {
-"d": "2026-10-28",
-"h": "2e64e5d758c4"
+"d": "2026-10-29",
+"h": "19e6bfa762de"
 },
 "photo-video/dji-neo/": {
-"d": "2026-10-28",
-"h": "574ce3003456"
+"d": "2026-10-29",
+"h": "da9d2eaabdf3"
 },
 "photo-video/dji-osmo-360/": {
-"d": "2026-10-28",
-"h": "47a7e88fce98"
+"d": "2026-10-29",
+"h": "b1a6bec007b5"
 },
 "photo-video/dji-osmo-action-5-pro/": {
-"d": "2026-10-28",
-"h": "0f6b9aedf44c"
+"d": "2026-10-29",
+"h": "2587dd178d30"
 },
 "photo-video/dji-osmo-action-6/": {
-"d": "2026-10-28",
-"h": "0166eff6ef49"
+"d": "2026-10-29",
+"h": "360c67437756"
 },
 "photo-video/dji-osmo-pocket-3/": {
-"d": "2026-10-28",
-"h": "5020dc1a4ec8"
+"d": "2026-10-29",
+"h": "33fb9def6201"
 },
 "photo-video/dji-osmo-pocket-4p/": {
-"d": "2026-10-28",
-"h": "ce123e5d172b"
+"d": "2026-10-29",
+"h": "d7f39b9330bb"
 },
 "photo-video/drones-camera/": {
-"d": "2026-10-28",
-"h": "be69683aa297"
+"d": "2026-10-29",
+"h": "a49c6666b5d4"
 },
 "photo-video/epson-co-w01/": {
-"d": "2026-10-28",
-"h": "65fb7036fbf2"
+"d": "2026-10-29",
+"h": "b732a9edd3e6"
 },
 "photo-video/epson-eh-ls800b/": {
-"d": "2026-10-28",
-"h": "d4e7a2a3cab3"
+"d": "2026-10-29",
+"h": "3c3eebe9d75e"
 },
 "photo-video/eufy-solocam-s340/": {
-"d": "2026-10-28",
-"h": "308babb5195a"
+"d": "2026-10-29",
+"h": "c815da493e86"
 },
 "photo-video/eufycam-s4/": {
-"d": "2026-10-28",
-"h": "06be3b635c91"
+"d": "2026-10-29",
+"h": "6d649b238057"
 },
 "photo-video/fujifilm-x-e5/": {
-"d": "2026-10-28",
-"h": "4495e957726f"
+"d": "2026-10-29",
+"h": "99b07c524c8a"
 },
 "photo-video/fujifilm-x-m5/": {
-"d": "2026-10-28",
-"h": "0e1d42836019"
+"d": "2026-10-29",
+"h": "8254b633ea5e"
 },
 "photo-video/fujifilm-x-t50/": {
-"d": "2026-10-28",
-"h": "9f279203f363"
+"d": "2026-10-29",
+"h": "1b9d201a9e17"
 },
 "photo-video/gopro-hero13-black/": {
-"d": "2026-10-28",
-"h": "2a4f6b3dd698"
+"d": "2026-10-29",
+"h": "47f945f7dfc4"
 },
 "photo-video/hoverair-x1-pro/": {
-"d": "2026-10-28",
-"h": "be158b8d9741"
+"d": "2026-10-29",
+"h": "1a216f9b3228"
 },
 "photo-video/insta360-ace-pro-2/": {
-"d": "2026-10-28",
-"h": "9363bf1cb07b"
+"d": "2026-10-29",
+"h": "cf13072174bb"
 },
 "photo-video/insta360-go-ultra/": {
-"d": "2026-10-28",
-"h": "cfa659afee11"
+"d": "2026-10-29",
+"h": "d066040f8215"
 },
 "photo-video/insta360-x5/": {
-"d": "2026-10-28",
-"h": "5d3c2520c4fb"
+"d": "2026-10-29",
+"h": "0d86bae1dff3"
 },
 "photo-video/nikon-z5-ii/": {
-"d": "2026-10-28",
-"h": "26e9e284e046"
+"d": "2026-10-29",
+"h": "edc284ea1a29"
 },
 "photo-video/nikon-z50-ii/": {
-"d": "2026-10-28",
-"h": "942860d46f04"
+"d": "2026-10-29",
+"h": "198884f04960"
 },
 "photo-video/nikon-z6-iii/": {
-"d": "2026-10-28",
-"h": "4f841135f17e"
+"d": "2026-10-29",
+"h": "077d6a864412"
 },
 "photo-video/potensic-atom-2/": {
-"d": "2026-10-28",
-"h": "70abe712f630"
+"d": "2026-10-29",
+"h": "9905c97b146e"
 },
 "photo-video/reolink-argus-4-pro/": {
-"d": "2026-10-28",
-"h": "3323c5fbeb37"
+"d": "2026-10-29",
+"h": "e9ebca2431c5"
 },
 "photo-video/reolink-argus-eco-ultra/": {
-"d": "2026-10-28",
-"h": "032a8be95ef2"
+"d": "2026-10-29",
+"h": "08f397e2008b"
 },
 "photo-video/reolink-duo-3-poe/": {
-"d": "2026-10-28",
-"h": "5785b957dbfb"
+"d": "2026-10-29",
+"h": "38090528fa0a"
 },
 "photo-video/reolink-e1-zoom/": {
-"d": "2026-10-28",
-"h": "998f460a1704"
+"d": "2026-10-29",
+"h": "48a2472ca684"
 },
 "photo-video/sony-a6700/": {
-"d": "2026-10-28",
-"h": "e7a8307aae77"
+"d": "2026-10-29",
+"h": "14df86f8bf1f"
 },
 "photo-video/sony-zv-e10-ii/": {
-"d": "2026-10-28",
-"h": "114e2a8357e9"
+"d": "2026-10-29",
+"h": "f40d4bd44965"
 },
 "photo-video/tapo-c425/": {
-"d": "2026-10-28",
-"h": "5b4751285e48"
+"d": "2026-10-29",
+"h": "e85b72b4e1a9"
 },
 "photo-video/tapo-c660-kit/": {
-"d": "2026-10-28",
-"h": "6a96c23aa6fc"
+"d": "2026-10-29",
+"h": "dd21c1b7dd9c"
 },
 "photo-video/videoprojecteurs/": {
-"d": "2026-10-28",
-"h": "0cf7d7c105da"
+"d": "2026-10-29",
+"h": "9c6709b4bd1e"
 },
 "photo-video/xgimi-aura-2/": {
-"d": "2026-10-28",
-"h": "b92f57f184f4"
+"d": "2026-10-29",
+"h": "3843ab6d55aa"
 },
 "photo-video/xgimi-horizon-20-max/": {
-"d": "2026-10-28",
-"h": "106046cdca7f"
+"d": "2026-10-29",
+"h": "5dcf0d84ee8d"
 },
 "photo-video/xgimi-mogo-4/": {
-"d": "2026-10-28",
-"h": "5112d4c437b2"
+"d": "2026-10-29",
+"h": "cbd9b9adfaa8"
 },
 "politique-confidentialite": {
-"d": "2026-10-28",
-"h": "2a0b7d32319a"
+"d": "2026-10-29",
+"h": "6e452d718485"
 },
 "tv/": {
-"d": "2026-10-28",
-"h": "1d4d9ccac133"
+"d": "2026-10-29",
+"h": "81d5f01c8473"
 },
 "tv/50-55-pouces/": {
-"d": "2026-10-28",
-"h": "1b7f19dc2121"
+"d": "2026-10-29",
+"h": "dfdd40aeb1a4"
 },
 "tv/65-pouces-et-plus/": {
-"d": "2026-10-28",
-"h": "2210455f825e"
+"d": "2026-10-29",
+"h": "bbeb7cf60b98"
 },
 "tv/barres-de-son/": {
-"d": "2026-10-28",
-"h": "4a3a1c5100db"
+"d": "2026-10-29",
+"h": "80a2be4d60d3"
 },
 "tv/hisense-e7q-pro-55/": {
-"d": "2026-10-28",
-"h": "afdb5a18399d"
+"d": "2026-10-29",
+"h": "efad1fdeb0ef"
 },
 "tv/hisense-e7q-pro-65/": {
-"d": "2026-10-28",
-"h": "81db1fae5cee"
+"d": "2026-10-29",
+"h": "7c88c180fc32"
 },
 "tv/hisense-hs2100/": {
-"d": "2026-10-28",
-"h": "2ffc58b65d98"
+"d": "2026-10-29",
+"h": "2124f1ed009c"
 },
 "tv/hisense-u7q-55/": {
-"d": "2026-10-28",
-"h": "ae1790081004"
+"d": "2026-10-29",
+"h": "5b8d5c32fabe"
 },
 "tv/hisense-u7q-pro-65/": {
-"d": "2026-10-28",
-"h": "f11d669c376c"
+"d": "2026-10-29",
+"h": "b27869230382"
 },
 "tv/jbl-bar-300-mk2/": {
-"d": "2026-10-28",
-"h": "9403e3aff031"
+"d": "2026-10-29",
+"h": "906f81f178e1"
 },
 "tv/lg-oled-c5-48/": {
-"d": "2026-10-28",
-"h": "28f9bab092ea"
+"d": "2026-10-29",
+"h": "f3f98f347cf3"
 },
 "tv/lg-oled-g5-55/": {
-"d": "2026-10-28",
-"h": "54c5dde3018b"
+"d": "2026-10-29",
+"h": "fdf8e6a66ee3"
 },
 "tv/lg-qned85-55/": {
-"d": "2026-10-28",
-"h": "754a208491fa"
+"d": "2026-10-29",
+"h": "87dd939aff13"
 },
 "tv/lg-qned85-65/": {
-"d": "2026-10-28",
-"h": "bc280d3b0894"
+"d": "2026-10-29",
+"h": "3d1dee69d0b7"
 },
 "tv/petit-prix/": {
-"d": "2026-10-28",
-"h": "8a23c0f930a4"
+"d": "2026-10-29",
+"h": "c9e6ab34c4cc"
 },
 "tv/petits-formats/": {
-"d": "2026-10-28",
-"h": "e0fe2a15b63e"
+"d": "2026-10-29",
+"h": "e1748db7cd13"
 },
 "tv/samsung-crystal-uhd-u8000f-55/": {
-"d": "2026-10-28",
-"h": "ad48f8ef8c3e"
+"d": "2026-10-29",
+"h": "a7eb28e614b7"
 },
 "tv/samsung-hw-qs700f/": {
-"d": "2026-10-28",
-"h": "b55854fcacec"
+"d": "2026-10-29",
+"h": "b84d84e7810d"
 },
 "tv/samsung-neo-qled-qn80f-50/": {
-"d": "2026-10-28",
-"h": "6274db05fc4b"
+"d": "2026-10-29",
+"h": "a94962e84aab"
 },
 "tv/samsung-neo-qled-qn80f-55/": {
-"d": "2026-10-28",
-"h": "1a9fff16a4b9"
+"d": "2026-10-29",
+"h": "e004d1c8093c"
 },
 "tv/samsung-neo-qled-qn80f-65/": {
-"d": "2026-10-28",
-"h": "d50e72e70db0"
+"d": "2026-10-29",
+"h": "d559248b9359"
 },
 "tv/samsung-neo-qled-qn90f-50/": {
-"d": "2026-10-28",
-"h": "b5606655b7f1"
+"d": "2026-10-29",
+"h": "3568be558c94"
 },
 "tv/samsung-oled-s90f-42/": {
-"d": "2026-10-28",
-"h": "6bd46bcd1a7c"
+"d": "2026-10-29",
+"h": "013bd53cfc47"
 },
 "tv/samsung-oled-s90f-65/": {
-"d": "2026-10-28",
-"h": "8d8b1c06ac63"
+"d": "2026-10-29",
+"h": "d21ed3bb7c08"
 },
 "tv/sonos-beam-ultra/": {
-"d": "2026-10-28",
-"h": "c1deca05ffe0"
+"d": "2026-10-29",
+"h": "54050bb37047"
 },
 "tv/sony-bravia-3-43/": {
-"d": "2026-10-28",
-"h": "e4515620229e"
+"d": "2026-10-29",
+"h": "d1cc75fde5d6"
 },
 "tv/sony-bravia-3-55/": {
-"d": "2026-10-28",
-"h": "9920178736a7"
+"d": "2026-10-29",
+"h": "32cb95f0f031"
 },
 "tv/sony-bravia-3-65/": {
-"d": "2026-10-28",
-"h": "d3e3bc67df65"
+"d": "2026-10-29",
+"h": "2092e8c9a9c4"
 },
 "tv/sony-bravia-theatre-bar-7/": {
-"d": "2026-10-28",
-"h": "6cad712f3c62"
+"d": "2026-10-29",
+"h": "c4eb64f6fef0"
 },
 "tv/tcl-p7k-65/": {
-"d": "2026-10-28",
-"h": "aed5e6f20ffc"
+"d": "2026-10-29",
+"h": "417bb9905369"
 },
 "tv/tcl-q65h/": {
-"d": "2026-10-28",
-"h": "9afe6aebc984"
+"d": "2026-10-29",
+"h": "771e93c85532"
 }
 }
