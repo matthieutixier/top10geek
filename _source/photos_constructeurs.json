@@ -1042,5 +1042,25 @@
  "dji-osmo-360": {
   "constructeur": "DJI",
   "source": "https://www.electrodepot.fr/media/catalog/product/P10020661.jpg"
+ },
+ "sony-wh-1000xm6": {
+  "constructeur": "Sony",
+  "source": "https://sony.scene7.com/is/image/sonyglobalsolutions/WH1000XM6_Product_intro_16_M"
+ },
+ "sony-ult-wear": {
+  "constructeur": "Sony",
+  "source": "https://sony.scene7.com/is/image/sonyglobalsolutions/Product-Intro-white_standard_M"
+ },
+ "nothing-headphone-1": {
+  "constructeur": "Nothing",
+  "source": "https://fr.nothing.tech/products/headphone-1"
+ },
+ "cmf-headphone-pro": {
+  "constructeur": "Nothing",
+  "source": "https://fr.nothing.tech/products/cmf-headphone-pro"
+ },
+ "sennheiser-momentum-5": {
+  "constructeur": "Sennheiser",
+  "source": "https://eu.sennheiser-hearing.com/cdn/shop/files/M5_Black_Main_IsoFront.jpg"
  }
 }

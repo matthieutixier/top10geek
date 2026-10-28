@@ -3161,5 +3161,2190 @@
    "Perte de qualité à un volume très élevé",
    "Les sons de statut ne peuvent pas être désactivés."
   ]
+ },
+ "Sony WH-1000XM6": {
+  "source": "https://www.commentchoisir.fr/test-Sony_WH-1000XM6.htm",
+  "tests": [
+   {
+    "media": "Journal du Geek",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.journaldugeek.com/test/test-sony-wh-1000xm6-le-roi-des-casques-a-reduction-de-bruit-cest-lui/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://leclaireur.fnac.com/test/cp66999-prise-en-main-du-sony-wh-1000xm6-nos-premieres-impressions-sur-le-nouveau-casque-haut-de-gamme/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "15/05/2025",
+    "url": "https://leclaireur.fnac.com/test/596069-test-labo-du-casque-sony-wh-1000xm5-rassemble-qualite-audio-confort-isolation/"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.techradar.com/audio/wireless-headphones/sony-wh-1000xm6-review"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "17/05/2025",
+    "url": "https://www.techradar.com/tech/reviews-recap-25-05-17"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.absolutegeeks.com/article/featured-top/sony-wh-1000xm6-review-so-quiet-we-had-to-check-if-the-earth-was-still-spinning/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "13/06/2025",
+    "url": "https://www.absolutegeeks.com/article/reviews/headphones/sony-wh-1000xm6-vs-sonos-ace-a-tale-of-two-headphones-and-one-fussy-head/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "07/10/2026",
+    "url": "https://www.absolutegeeks.com/reviews/sonos-ace-ultra-vs-sony-wh-1000xm6-ive-lived-with-both-and-sonos-takes-the-crown/"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 9.4,
+    "origine": "bloc",
+    "date": "05/06/2025",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/sony-wh-1000xm6-test/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.frandroid.com/marques/sony/2615521_test-du-sony-wh-1000xm6-une-evolution-discrete-une-experience-magnifiee"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "26/05/2025",
+    "url": "https://www.hardwarezone.com.sg/review-sony-wh-1000xm6-wireless-anc-headphone-singapore-price-specs-buy"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "23/06/2025",
+    "url": "https://www.nextpit.fr/tests/sony-wh-1000xm6-test-complet"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.01net.com/tests/test-sony-wh-1000xm6-avis.html"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.trustedreviews.com/reviews/sony-wh-1000xm6"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/05/2025",
+    "url": "https://www.soundguys.com/sony-wh-1000xm6-review-137397/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/05/2025",
+    "url": "https://www.chip.de/test/Sony-WH-1000XM6-im-Test_185989677.html"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "26/05/2025",
+    "url": "https://www.kopfhoerer.de/test/sony-wh-1000xm6/"
+   },
+   {
+    "media": "Pokde.net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "09/06/2025",
+    "url": "https://pokde.net/review/sony-wh-1000xm6-review"
+   },
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/06/2025",
+    "url": "https://www.rtings.com/headphones/reviews/sony/wh-1000xm6"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/10/2025",
+    "url": "https://www.gadgetbridge.com/gadget-reviews/sony-wh-1000xm6-review-polished-powerhouse/"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "15/05/2025",
+    "url": "https://www.wired.com/review/sony-wh-1000xm6/"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "15/05/2025",
+    "url": "https://www.connect.de/testbericht/sony-wh-1000xm6-over-ear-kopfhoerer-test-3209400.html"
+   },
+   {
+    "media": "ComputerBase",
+    "note10": null,
+    "origine": "",
+    "date": "15/05/2025",
+    "url": "https://www.computerbase.de/artikel/audio-video-foto/sony-wh-1000xm6-anc-kopfhoerer-test.92508/"
+   },
+   {
+    "media": "Tweakers",
+    "note10": null,
+    "origine": "",
+    "date": "15/05/2025",
+    "url": "https://tweakers.net/reviews/13256/sony-wh-1000xm6-iets-beter-veel-duurder.html"
+   },
+   {
+    "media": "AndroidWorld",
+    "note10": null,
+    "origine": "",
+    "date": "15/05/2025",
+    "url": "https://www.smartworld.it/recensioni/sony-wh-1000xm6"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "origine": "",
+    "date": "27/05/2025",
+    "url": "https://www.digitaltrends.com/home-theater/sony-wh-1000xm6-review/"
+   },
+   {
+    "media": "GameStar",
+    "note10": null,
+    "origine": "",
+    "date": "12/06/2025",
+    "url": "https://www.gamestar.de/artikel/sony-wh-1000xm6-test,3434561.html"
+   },
+   {
+    "media": "GeekCulture",
+    "note10": null,
+    "origine": "",
+    "date": "09/07/2025",
+    "url": "https://geekculture.co/sony-wh-1000xm6-wireless-noise-cancelling-headphones-review/"
+   },
+   {
+    "media": "GeekiT",
+    "note10": null,
+    "origine": "",
+    "date": "30/10/2025",
+    "url": "https://www.geekit.fr/tests/audio/4649/test-du-sony-wh-1000xm6-le-roi-du-casque-sans-fil-revient-plus-fort"
+   },
+   {
+    "media": "Peopleware",
+    "note10": null,
+    "origine": "",
+    "date": "13/05/2026",
+    "url": "https://pplware.sapo.pt/analises-2/analise-sony-wh-1000xm6-o-cancelamento-de-ruido-mais-avancado-do-mercado/"
+   }
+  ],
+  "pros": [
+   "Efficacité de la réduction active du bruit",
+   "Qualité audio digne de la gamme",
+   "Confort amélioré",
+   "Nombreuses fonctionnalités",
+   "Annulation de bruit de premier plan",
+   "Excellente performance audio",
+   "Super léger et confortable",
+   "Commandes tactiles hautement intuitives",
+   "Ils sont de nouveau pliables!",
+   "ANC inégalé",
+   "Son chaud et vivant",
+   "Design résumable"
+  ],
+  "cons": [
+   "Prix élevé",
+   "Pas de mode audio USB",
+   "Interface de l'application complexe",
+   "Augmentation de prix par rapport au modèle précédent",
+   "La durée de vie de la batterie n'est rien d'exceptionnel",
+   "Toujours pas étanche",
+   "Certains peuvent les trouver un peu encombrants",
+   "Pas d'audio USB",
+   "Application confuse",
+   "Autonomie de la batterie seulement moyenne",
+   "Application Sound Connect dense",
+   "L'Audio immersif peine à emballer"
+  ]
+ },
+ "Sony WH-1000XM5": {
+  "source": "https://www.commentchoisir.fr/test-Sony_WH-1000XM5.htm",
+  "tests": [
+   {
+    "media": "DigitalTrends",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.digitaltrends.com/home-theater/sony-wh-1000xm5-review/"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/sony-wh-1000xm5"
+   },
+   {
+    "media": "T3",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "13/05/2022",
+    "url": "https://www.t3.com/reviews/sony-wh-1000xm5-review"
+   },
+   {
+    "media": "Pocket-lint",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "25/05/2022",
+    "url": "https://www.pocket-lint.com/headphones/reviews/sony/161265-sony-wh-1000xm5-review"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "09/06/2022",
+    "url": "https://www.expertreviews.co.uk/headphones/1416131/sony-wh-1000xm5-review"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.lesnumeriques.com/casque-nomade/sony-wh-1000xm5-p68753/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "07/10/2025",
+    "url": "https://www.lesnumeriques.com/casque-bluetooth/sony-wh-1000xm5sa-p77232/test.html"
+   },
+   {
+    "media": "Engadget",
+    "note10": 9.5,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.engadget.com/sony-wh-1000xm5-review-160045478.html?src=rss"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.journaldugeek.com/test/test-sony-wh-1000xm5-le-presque-parfait/"
+   },
+   {
+    "media": "SlashGear",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "20/05/2022",
+    "url": "https://www.slashgear.com/870287/sony-wh-1000xm5-review-the-price-of-more-clarity/"
+   },
+   {
+    "media": "Tom's Guide (FR)",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "31/05/2022",
+    "url": "https://www.tomsguide.fr/test-sony-wh-1000xm5-meilleur-casque-anc-reduction-bruit-prix/"
+   },
+   {
+    "media": "CNET France",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "14/06/2022",
+    "url": "https://www.cnetfrance.fr/produits/test-sony-wh-1000xm5-39943060.htm#xtor=RSS-2"
+   },
+   {
+    "media": "Numerama",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "19/06/2022",
+    "url": "https://www.numerama.com/tech/1007666-test-du-casque-sony-wh-1000xm5-enfin-un-design-different.html"
+   },
+   {
+    "media": "GeekCulture",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "22/06/2022",
+    "url": "https://geekculture.co/geek-review-sony-wh-1000xm5-wireless-noise-cancelling-headphones/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "24/07/2022",
+    "url": "https://www.absolutegeeks.com/article/reviews/sony-wh-1000xm5-review-still-the-king/"
+   },
+   {
+    "media": "Mighty Gadget",
+    "note10": 8.5,
+    "origine": "bloc",
+    "date": "22/02/2023",
+    "url": "https://mightygadget.com/edifier-wh950nb-anc-headphones-review/"
+   },
+   {
+    "media": "Digit",
+    "note10": 8.4,
+    "origine": "bloc",
+    "date": "21/09/2022",
+    "url": "https://www.digit.in/reviews/audio-video/sony-wh-1000xm5-review-318314.html"
+   },
+   {
+    "media": "PCMag",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.pcmag.com/reviews/sony-wh-1000xm5"
+   },
+   {
+    "media": "Tom's Guide (US)",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.tomsguide.com/reviews/sony-wh-1000xm5"
+   },
+   {
+    "media": "The Verge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.theverge.com/23067645/sony-wh-1000xm5-noise-canceling-headphones-review"
+   },
+   {
+    "media": "ImTest",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/05/2022",
+    "url": "https://www.imtest.de/184148/ratgeber/sony-wh-1000xm5-im-test-absolute-stille-kopfhoerer-headphones/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/05/2022",
+    "url": "https://www.frandroid.com/marques/sony/1334245_test-sony-wh-1000xm5-casque-audio-reduction-bruit"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "30/05/2022",
+    "url": "https://www.kopfhoerer.de/test/sony-wh-1000xm5/"
+   },
+   {
+    "media": "Laptop Mag",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/06/2022",
+    "url": "https://www.laptopmag.com/reviews/sony-wh-1000xm5"
+   },
+   {
+    "media": "SiteGeek",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "16/06/2022",
+    "url": "https://www.sitegeek.fr/article-technologie/audio-video/test-sony-wh-1000-xm5/"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "05/07/2022",
+    "url": "https://www.01net.com/tests/en-cours-sony-wh-1000xm5-6763.html"
+   },
+   {
+    "media": "4WeAreGamers",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/07/2022",
+    "url": "https://www.4wearegamers.com/2022/07/10/sony-wh-1000xm5-test-avis/"
+   },
+   {
+    "media": "Indian Express",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/09/2022",
+    "url": "https://indianexpress.com/article/technology/tech-reviews/sony-wh-1000xm5-review-create-your-own-bubble-8163506/"
+   },
+   {
+    "media": "Gadgets360",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/09/2022",
+    "url": "https://gadgets360.com/audio/reviews/sony-wh-1000xm5-review-price-in-india-anc-headphones-vs-xm4-bose-700-3361397#rss-gadgets-reviews"
+   },
+   {
+    "media": "CharlesTech",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/09/2022",
+    "url": "https://charlestech.fr/test-sony-wh-1000xm5/"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/09/2022",
+    "url": "https://www.gadgetbridge.com/gadget-reviews/sony-wh-1000xm5-review-the-sound-speaks-for-itself/"
+   },
+   {
+    "media": "Android Central",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "19/12/2022",
+    "url": "https://www.androidcentral.com/accessories/audio/headphones/sony-wh-1000xm5-review"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "06/02/2023",
+    "url": "https://www.nextpit.fr/sony-wh-1000-xm5-test-complet"
+   },
+   {
+    "media": "HeadphonesAddict",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "25/09/2023",
+    "url": "https://headphonesaddict.com/sony-wh-1000xm5-review/"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/06/2022",
+    "url": "https://www.hardwarezone.com.sg/review-sony-wh-1000xm5-wireless-anc-headphone-review-singapore-specs-price"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "17/02/2024",
+    "url": "https://www.hardwarezone.com.sg/review-sony-wh-1000xm5-anc-headphone-review-singapore-specs-price"
+   },
+   {
+    "media": "Pokde.net",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "08/07/2023",
+    "url": "https://pokde.net/review/sony-wh-1000xm5-review-wireless-noise-cancelling-headphones-improvised"
+   },
+   {
+    "media": "Pokde.net",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "04/11/2024",
+    "url": "https://pokde.net/review/sony-wh-1000xm5-review-le-sserafim"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/12/2025",
+    "url": "https://leclaireur.fnac.com/test/641423-test-labo-du-sony-wh-1000xm5-sa-une-legende-toujours-aussi-seduisante/"
+   },
+   {
+    "media": "NextN",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/04/2026",
+    "url": "https://www.nextn.es/2026/04/analisis-auriculares-sony-wh-1000xm5-sonido-premium-movilidad-switch-2/"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "17/06/2022",
+    "url": "https://www.rtings.com/headphones/reviews/sony/wh-1000xm5-wireless"
+   },
+   {
+    "media": "L&B Tech",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "13/05/2022",
+    "url": "https://www.lbtechreviews.com/test/headphones/sony-wh-1000xm5"
+   },
+   {
+    "media": "Chip.de",
+    "note10": null,
+    "origine": "",
+    "date": "12/05/2022",
+    "url": "https://www.chip.de/test/Keiner-daempft-besser-Noise-Cancelling-Kopfhoerer-Sony-WH-1000XM5-im-Test_184252915.html"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": null,
+    "origine": "",
+    "date": "13/05/2022",
+    "url": "https://www.soundguys.com/sony-wh-1000xm5-review-71783/"
+   },
+   {
+    "media": "PCtipp",
+    "note10": null,
+    "origine": "",
+    "date": "19/05/2022",
+    "url": "https://www.pctipp.ch/tests/audio/im-test-sony-wh1000xm5-2767425.html"
+   },
+   {
+    "media": "MeriStation",
+    "note10": null,
+    "origine": "",
+    "date": "26/06/2022",
+    "url": "https://as.com/meristation/2022/06/25/mexico/1656171443_408662.html"
+   },
+   {
+    "media": "Android Authority",
+    "note10": null,
+    "origine": "",
+    "date": "29/06/2022",
+    "url": "https://www.androidauthority.com/sony-wh-1000xm5-review-3179256/"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "27/07/2022",
+    "url": "https://majorhifi.com/sony-wh-1000xm5-vs-bowers-wilkins-px7-s2-comparison-review/"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "27/03/2023",
+    "url": "https://majorhifi.com/yamaha-yh-l700a-vs-sony-wh-1000xm5-comparison-review/"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "17/04/2023",
+    "url": "https://majorhifi.com/sony-wh-1000xm5-vs-wh-xb910n-comparison-review/"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "16/05/2024",
+    "url": "https://majorhifi.com/focal-bathys-vs-sony-wh-1000xm5-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=focal-bathys-vs-sony-wh-1000xm5-comparison-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "22/05/2024",
+    "url": "https://majorhifi.com/sony-wh-1000xm5-vs-ult-wear-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=sony-wh-1000xm5-vs-ult-wear-comparison-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "05/07/2024",
+    "url": "https://majorhifi.com/psb-m4u8-mkii-vs-sony-wh-1000xm5-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=psb-m4u8-mkii-vs-sony-wh-1000xm5-comparison-review"
+   },
+   {
+    "media": "PC Magazin",
+    "note10": null,
+    "origine": "",
+    "date": "23/08/2022",
+    "url": "https://www.pc-magazin.de/testbericht/sony-wh-1000xm5-test-headset-kopfhoerer-3203792.html"
+   },
+   {
+    "media": "EH NoCord",
+    "note10": null,
+    "origine": "",
+    "date": "04/09/2022",
+    "url": "https://ehnocord.com/soundcore-space-q45-review/"
+   },
+   {
+    "media": "Headphonesty",
+    "note10": null,
+    "origine": "",
+    "date": "23/09/2022",
+    "url": "https://www.headphonesty.com/2022/09/review-sony-wh-1000xm5/"
+   },
+   {
+    "media": "Android Police",
+    "note10": null,
+    "origine": "",
+    "date": "18/11/2022",
+    "url": "https://www.androidpolice.com/sony-wh-1000xm5-review/"
+   },
+   {
+    "media": "PlaySense",
+    "note10": null,
+    "origine": "",
+    "date": "26/11/2022",
+    "url": "https://playsense.nl/520832/review-sony-wh-1000xm5/"
+   },
+   {
+    "media": "Digital Citizen",
+    "note10": null,
+    "origine": "",
+    "date": "09/03/2023",
+    "url": "https://www.digitalcitizen.life/sony-wh-1000xm5-review/"
+   },
+   {
+    "media": "GameStar",
+    "note10": null,
+    "origine": "",
+    "date": "15/11/2023",
+    "url": "https://www.gamestar.de/artikel/black-friday-bluetooth-kopfhoerer-sony-wh-1000xm5-noise-cancelling-angebot,3403863.html"
+   },
+   {
+    "media": "ObjetConnecte.net",
+    "note10": null,
+    "origine": "",
+    "date": "18/04/2024",
+    "url": "https://technplay.com/test-du-casque-sony-wh-1000xm5/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "12/06/2024",
+    "url": "https://www.trustedreviews.com/reviews/sony-wh-1000xm5"
+   },
+   {
+    "media": "ChinaHandys",
+    "note10": null,
+    "origine": "",
+    "date": "02/02/2025",
+    "url": "https://www.smartzone.de/sony-wh-1000xm5-test/"
+   }
+  ],
+  "pros": [
+   "Excellente qualité sonore",
+   "Excellent son",
+   "Extrêmement confortable",
+   "Très bon confort",
+   "Qualité d?appel ultra-claire",
+   "La meilleure réduction de bruit de sa catégorie",
+   "Très bonne autonomie de la batterie",
+   "Compatible haute résolution (filaire/sans fil)",
+   "Accès à l?assistant vocal mains libres",
+   "Design élégant et moderne",
+   "Un son confiant, expansif et équilibré",
+   "La meilleure réduction de bruit de Sony"
+  ],
+  "cons": [
+   "Cher",
+   "Pliez à plat, mais ne pliez pas",
+   "Unblinkingly cher",
+   "Ne pliez pas comme le XM4 précédent",
+   "Pas de support pour aptX",
+   "Ne pliez pas aussi petit qu'avant.",
+   "Plus cher que le prédécesseur",
+   "Manque encore de résistance à l?eau",
+   "N?est plus pliable",
+   "Reproduction des médiums un peu moins détaillée que sur le XM4.",
+   "L'optimisation automatique de la RBA n'est pas toujours des plus pertinentes.",
+   "Conception désormais non pliable."
+  ]
+ },
+ "Sennheiser Momentum 5": {
+  "source": "https://www.commentchoisir.fr/test-Sennheiser_Momentum+5.htm",
+  "tests": [
+   {
+    "media": "Basic Tutorials",
+    "note10": 9.3,
+    "origine": "bloc",
+    "date": "24/06/2026",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/sennheiser-momentum-5-wireless-im-test/"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "02/08/2026",
+    "url": "https://lecafedugeek.fr/test-sennheiser-momentum-5-wireless-une-nouvelle-reference-pour-les-amateurs-de-son/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "16/08/2026",
+    "url": "https://www.frandroid.com/marques/sennheiser/3203499_test-du-sennheiser-momentum-5-le-meilleur-casque-nomade-de-la-marque-et-de-loin"
+   },
+   {
+    "media": "Headfonics",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/06/2026",
+    "url": "https://headfonics.com/sennheiser-momentum-5-wireless-review/"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/06/2026",
+    "url": "https://www.techradar.com/audio/wireless-headphones/sennheiser-momentum-5-review"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "26/06/2026",
+    "url": "https://www.kopfhoerer.de/test/sennheiser-momentum-5-wireless/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "07/07/2026",
+    "url": "https://www.trustedreviews.com/reviews/sennheiser-momentum-5-wireless"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "05/08/2026",
+    "url": "https://leclaireur.fnac.com/test/686413-test-labo-du-sennheiser-momentum-5-un-haut-de-gamme-convaincant/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/08/2026",
+    "url": "https://www.chip.de/test-kaufberatung/tv-audio/sennheiser-momentum-5-wireless-im-test_97d6267b-8af0-4f19-aa22-e398903bf1a2.html"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "28/09/2026",
+    "url": "https://www.gadgetbridge.com/sennheiser-momentum-5-wireless-headphones-review-brilliant-sound-and-battery-life/"
+   },
+   {
+    "media": "GeekCulture",
+    "note10": null,
+    "origine": "",
+    "date": "11/06/2026",
+    "url": "https://geekculture.co/sennheiser-momentum-5-wireless-headphones-review/"
+   },
+   {
+    "media": "Tech Jio",
+    "note10": null,
+    "origine": "",
+    "date": "11/06/2026",
+    "url": "https://techjioblog.com/2026/06/12/review-sennheiser-momentum-5/"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "16/06/2026",
+    "url": "https://majorhifi.com/38886-2/?utm_source=rss&utm_medium=rss&utm_campaign=38886-2"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "18/06/2026",
+    "url": "https://majorhifi.com/sennheiser-momentum-5-vs-momentum-4-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-5-vs-momentum-4-comparison-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "23/06/2026",
+    "url": "https://majorhifi.com/sennheiser-momentum-5-vs-sony-wh-1000xm6-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-5-vs-sony-wh-1000xm6-comparison-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "27/06/2026",
+    "url": "https://majorhifi.com/sennheiser-momentum-5-and-bowers-wilkins-px7-s3-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-5-and-bowers-wilkins-px7-s3-comparison-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "23/07/2026",
+    "url": "https://majorhifi.com/sennheiser-momentum-5-vs-hdb-630-which-wireless-headphone-is-better/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-5-vs-hdb-630-which-wireless-headphone-is-better"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "17/08/2026",
+    "url": "https://majorhifi.com/sennheiser-momentum-5-vs-bowers-wilkins-px7-s3-comparison/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-5-vs-bowers-wilkins-px7-s3-comparison"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": null,
+    "origine": "",
+    "date": "29/06/2026",
+    "url": "https://www.hardwarezone.com.sg/lifestyle/audio/sennheiser-momentum-5-anc-wireless-headphones-review-singapore-specs-buy"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "31/07/2026",
+    "url": "https://www.rtings.com/headphones/reviews/sennheiser/momentum-5"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "01/09/2026",
+    "url": "https://www.wired.com/review/sennheiser-momentum-5/"
+   },
+   {
+    "media": "Future Zone",
+    "note10": null,
+    "origine": "",
+    "date": "13/10/2026",
+    "url": "https://futurezone.at/produkte/sennheiser-momentum-5-test-wechselakku-austauschbarer-akku-kopfhoerer/403191427"
+   }
+  ],
+  "pros": [
+   "Batterie remplaçable",
+   "Son exceptionnel",
+   "Excellente qualité de microphone",
+   "ANC exceptionnel",
+   "Autonomie de la batterie exceptionnelle",
+   "Batterie et coussinets d'oreille remplaçables",
+   "Commande tactile intuitive",
+   "Application claire et bien structurée",
+   "Qualité sonore exceptionnelle et très équilibrée",
+   "Excellente autonomie de 57 heures",
+   "Réduction de bruit nettement améliorée",
+   "Dolby Atmos convaincant"
+  ],
+  "cons": [
+   "Non entièrement pliable",
+   "Coussinets d'oreille avec accumulation de chaleur",
+   "ANC pas tout à fait au niveau de Bose/Sony",
+   "ANC encore légèrement derrière Bose sur certains environnements",
+   "Casque non pliable malgré un étui plus compact",
+   "Aucune certification d'étanchéité",
+   "L'ajustement peut devenir un peu fatigant après de longues séances.",
+   "Le manque d'énergie globale (sans utiliser l'application) peut vous laisser avec envie de plus de vivacité.",
+   "Accordage par défaut décevant",
+   "ANC assez faible",
+   "Douleur après de longues sessions d'écoute",
+   "Pas de mécanisme de pliage, le casque ne se plie pas dans un format de voyage plus compact."
+  ]
+ },
+ "JBL Live 780NC": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Live+780NC.htm",
+  "tests": [
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "30/08/2026",
+    "url": "https://leclaireur.fnac.com/test/689011-test-labo-du-jbl-live-780nc-il-a-tout-dun-grand/"
+   },
+   {
+    "media": "COGconnected",
+    "note10": 8.2,
+    "origine": "bloc",
+    "date": "10/06/2026",
+    "url": "https://cogconnected.com/review/jbl-live-780nc-wireless-headset-review/"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/headphones/jbl-live-780nc"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/07/2026",
+    "url": "https://www.lesnumeriques.com/casque-bluetooth/jbl-live-780c-p78011/test.html"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/07/2026",
+    "url": "https://www.kopfhoerer.de/test/jbl-live-780nc/"
+   },
+   {
+    "media": "Presse Citron",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "08/08/2026",
+    "url": "https://www.presse-citron.net/test-jbl-live-780nc/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/08/2026",
+    "url": "https://www.trustedreviews.com/reviews/jbl-live-780nc"
+   },
+   {
+    "media": "Engadget",
+    "note10": null,
+    "origine": "",
+    "date": "09/04/2026",
+    "url": "https://www.engadget.com/audio/headphones/jbl-live-780nc-and-680nc-review-great-leaps-greater-missteps-120000508.html?src=rss"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "28/04/2026",
+    "url": "https://www.rtings.com/headphones/reviews/jbl/live-780nc"
+   },
+   {
+    "media": "GeekCulture",
+    "note10": null,
+    "origine": "",
+    "date": "21/05/2026",
+    "url": "https://geekculture.co/jbl-live-780nc-headphones-review/"
+   }
+  ],
+  "pros": [
+   "Excellente autonomie de la batterie",
+   "Une réduction de bruit formidable",
+   "Peu de distorsion",
+   "Signature sonore très agréable",
+   "Durée de vie exceptionnelle de la batterie",
+   "Conception légère et confortable",
+   "Son puissant",
+   "Application compagnon facile à utiliser",
+   "Connectivité multipoint Bluetooth",
+   "Caractère lisse et riche",
+   "Bonne quantité de détails et de solidité",
+   "Design confortable et de qualité premium"
+  ],
+  "cons": [
+   "Léger manque de basses",
+   "L'annulation de bruit est seulement moyenne",
+   "La basse est agressive par défaut",
+   "La pochette incluse offre une protection minimale",
+   "Le caractère de basse est excessivement riche",
+   "Pourrait sonner plus précis et agile",
+   "Basses trop en avant.",
+   "Qualité technique (détails, ouverture, dynamique) moyenne.",
+   "Pas d'USB Audio, plus de mode passif.",
+   "Légère pression sur le sommet du crâne.",
+   "Une pression d'appui plus ferme à long terme est fatigante.",
+   "Le coussin pourrait être plus épais."
+  ]
+ },
+ "JBL Tour One M3": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Tour+One+M3.htm",
+  "tests": [
+   {
+    "media": "ComputerHoy",
+    "note10": 9.1,
+    "origine": "bloc",
+    "date": "10/09/2025",
+    "url": "https://computerhoy.20minutos.es/dispositivos/he-probado-jbl-tour-one-m3-prepare-sony-porque-estos-auriculares-vienen-pisando-fuerte-1479835"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "25/04/2025",
+    "url": "https://www.frandroid.com/marques/jbl/2590095_test-du-jbl-tour-one-m3-un-raffinement-sonore-qui-fait-vibrer"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "28/04/2025",
+    "url": "https://www.journaldugeek.com/test/test-jbl-tour-one-m3-un-casque-haut-de-gamme-reussi/"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 8.9,
+    "origine": "bloc",
+    "date": "07/06/2026",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/jbl-tour-one-m3-im-test/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/04/2025",
+    "url": "https://www.soundguys.com/jbl-tour-one-m3-review-the-next-generation-of-anc-135374/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/04/2025",
+    "url": "https://www.chip.de/test/JBL-Tour-One-M3-im-Test_185926699.html"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "08/05/2025",
+    "url": "https://www.01net.com/tests/jbl-tour-one-m3-avis.html"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "14/06/2025",
+    "url": "https://www.clubic.com/test-produit-568608-test-jbl-tour-one-m3-le-casque-bluetooth-du-futur-derriere-les-champions-du-present.html"
+   },
+   {
+    "media": "Allround-PC",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/10/2025",
+    "url": "https://www.allround-pc.com/artikel/audio/jbl-tour-one-m3-im-test-der-beste-freund-im-flugzeug"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/05/2025",
+    "url": "https://www.trustedreviews.com/reviews/jbl-tour-one-m3-smart-tx"
+   },
+   {
+    "media": "L&B Tech",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "10/06/2025",
+    "url": "https://www.lbtechreviews.com/test/headphones/jbl-tour-one-m3"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "09/01/2025",
+    "url": "https://www.avcesar.com/ces-25-jbl-tour-one-m3-premier-casque-avec-emetteur-externe-bluetooth-auracast-43774"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "08/04/2025",
+    "url": "https://www.connect.de/testbericht/jbl-tour-one-m3-test-3208826.html"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "origine": "",
+    "date": "11/04/2025",
+    "url": "https://www.digitaltrends.com/home-theater/jbl-tour-one-m3-review/"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "08/05/2025",
+    "url": "https://www.wired.com/review/jbl-tour-one-m3-smart-tx/"
+   },
+   {
+    "media": "PCtipp",
+    "note10": null,
+    "origine": "",
+    "date": "28/11/2025",
+    "url": "https://www.pctipp.ch/tests/kopfhoerer/over-ear-kopfhoerer-jbl-tour-one-m3-smart-tx-im-pctipp-test-2977579.html"
+   },
+   {
+    "media": "Play Central",
+    "note10": null,
+    "origine": "",
+    "date": "14/01/2026",
+    "url": "https://www.playcentral.de/jbl-tour-one-m3-im-test-premium-anc-mit-smart-tx-trick-und-70-stunden-akku/"
+   }
+  ],
+  "pros": [
+   "Réduction de bruit active efficace",
+   "Autonomie exceptionnelle",
+   "Matériaux de qualité supérieure et confort",
+   "Son puissant",
+   "Autonomie",
+   "Son énergique, équilibré et personnalisable",
+   "Grave profond et puissant",
+   "Scène sonore ample et immersive",
+   "Dynamique impressionnante même à fort volume",
+   "Connectivité complète (LDAC, Auracast, multipoint)",
+   "Confort irréprochable",
+   "Design et finition"
+  ],
+  "cons": [
+   "L'émetteur Smart TX est vendu séparément.",
+   "Je doute de la durabilité des coussinets.",
+   "Réglages avancés dépendants de l'application",
+   "Mode Audio Spatial pas indispensable",
+   "Certains préfèreront un designe mat",
+   "Idem, certains auraient aimé des contrôles sensitifs",
+   "La plage de hautes fréquences est un peu agressive.",
+   "Le service nécessite un temps d'adaptation.",
+   "ANC pas tout à fait au niveau supérieur",
+   "Le récepteur Smart TX coûte un supplément.",
+   "Le traitement pourrait être de meilleure qualité.",
+   "ANC laisse passer des basses profondes"
+  ]
+ },
+ "Apple AirPods Max 2": {
+  "source": "https://www.commentchoisir.fr/test-Apple_AirPods+Max+2.htm",
+  "tests": [
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "10/06/2026",
+    "url": "https://leclaireur.fnac.com/test/677204-test-labo-du-apple-airpods-max-2-une-reussite-totale/"
+   },
+   {
+    "media": "Engadget",
+    "note10": 8.7,
+    "origine": "bloc",
+    "date": "31/03/2026",
+    "url": "https://www.engadget.com/audio/headphones/apple-airpods-max-2-review-better-late-than-never-130000982.html?src=rss"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/03/2026",
+    "url": "https://www.absolutegeeks.com/article/reviews/headphones/airpods-max-2-vs-airpods-max-whats-actually-new-whats-improved-and-is-the-upgrade-worth-it-in-2026/"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "31/03/2026",
+    "url": "https://www.clubic.com/test-produit-607078-test-apple-airpods-max-2-mise-a-jour-minimale-mais-casque-haut-de-gamme-convaincant.html"
+   },
+   {
+    "media": "Tom's Guide (US)",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "31/03/2026",
+    "url": "https://www.tomsguide.com/audio/headphones/apple-airpods-max-2-review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/headphones/apple-airpods-max-2"
+   },
+   {
+    "media": "T3",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/04/2026",
+    "url": "https://www.t3.com/tech/headphones/apple-airpods-max-2-review"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "14/04/2026",
+    "url": "https://www.kopfhoerer.de/test/apple-airpods-max-2/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "14/04/2026",
+    "url": "https://www.trustedreviews.com/reviews/apple-airpods-max-2"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/04/2026",
+    "url": "https://www.01net.com/tests/test-apple-airpods-max-2-avis.html"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "03/04/2026",
+    "url": "https://www.soundguys.com/apple-airpods-max-2-review-155613/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "origine": "",
+    "date": "31/03/2026",
+    "url": "https://www.lesnumeriques.com/casque-bluetooth/apple-airpods-max-pro-2-p77995/test.html"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": null,
+    "origine": "",
+    "date": "31/03/2026",
+    "url": "https://www.hardwarezone.com.sg/lifestyle/audio/apple-airpods-max-2-headphones-review-singapore-buy"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "31/03/2026",
+    "url": "https://www.connect.de/testbericht/apple-airpods-max-2-kopfhoerer-anc-klang-test-hifi-3212211.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "22/04/2026",
+    "url": "https://www.rtings.com/headphones/reviews/apple/airpods-max-2"
+   },
+   {
+    "media": "Future Zone",
+    "note10": null,
+    "origine": "",
+    "date": "24/04/2026",
+    "url": "https://futurezone.at/produkte/airpods-max-2-im-test-review-erfahrung-apple-kopfhoerer-akku-akkulaufzeit-ton-klang/403151495"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "02/05/2026",
+    "url": "https://www.wired.com/review/apple-airpods-max-2/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": null,
+    "origine": "",
+    "date": "18/05/2026",
+    "url": "https://www.chip.de/test/Apple-AirPods-Max-2-im-Test_186868988.html"
+   }
+  ],
+  "pros": [
+   "Une réduction de bruit parfaite",
+   "Aucune distorsion",
+   "Une signature sonore plus neutre que sur la V1",
+   "L'écoute hifi avec le câble",
+   "Excellente performance audio, scène sonore ample",
+   "Isolation phonique au top",
+   "Mode transparence parfait",
+   "Qualité des microphones",
+   "Construction admirable",
+   "Fonctions avancées de la puce H2",
+   "Paysage sonore riche, complexe et amusant",
+   "Lecture native USB-C haute résolution"
+  ],
+  "cons": [
+   "Autonomie toujours un peu juste",
+   "Prix toujours très salé",
+   "Des oscillations dans les aigus (creux, puis brillance)",
+   "Kit main-libre toujours perfectible en milieu bruyant",
+   "Assez lourd",
+   "Pas de LE Audio ni de Multipoint",
+   "Autonomie très moyenne",
+   "Autonomie de batterie de 20 heures non améliorée",
+   "Ils pèsent près d'une livre",
+   "Aucun changement au niveau du boîtier ou de la durée de vie de la batterie",
+   "Pas aussi pratique que les concurrents",
+   "Les chefs de classe offrent une plus grande clarté, une précision rythmique et une puissance dynamique."
+  ]
+ },
+ "Nothing Headphone 1": {
+  "source": "https://www.commentchoisir.fr/test-Nothing_Headphone+1.htm",
+  "tests": [
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "02/08/2025",
+    "url": "https://leclaireur.fnac.com/test/614072-test-nothing-headphone-1/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "07/10/2025",
+    "url": "https://leclaireur.fnac.com/test/627107-test-labo-du-nothing-headphone-1-un-rapport-qualite-prix-redoutable/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "01/07/2025",
+    "url": "https://www.frandroid.com/marques/nothing/2713433_test-du-nothing-headphone-1-le-casque-retro-futuriste-qui-ecrase-la-concurrence"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "05/07/2025",
+    "url": "https://www.clubic.com/test-produit-571215-test-nothing-headphone-1-design-unique-prix-raisonnable-son-signe-kef-un-pari-gagnant.html"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "22/11/2025",
+    "url": "https://lecafedugeek.fr/test-nothing-headphones-1-vous-pouvez-ranger-les-airpods-max/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/07/2025",
+    "url": "https://www.lesnumeriques.com/casque-bluetooth/nothing-headphone-1-p76777/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "origine": "",
+    "date": "06/07/2025",
+    "url": "https://www.lesnumeriques.com/casque-bluetooth/le-test-du-casque-bluetooth-nothing-headphone-1-a-rejoint-notre-comparatif-n239193.html"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/07/2025",
+    "url": "https://www.kopfhoerer.de/test/nothing-headphone-1/"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "02/07/2025",
+    "url": "https://www.journaldugeek.com/test/test-nothing-headphone-1-un-premier-casque-qui-arrive-par-la-grande-porte/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "04/07/2025",
+    "url": "https://www.soundguys.com/nothing-headphone-1-review-something-different-140323/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/07/2025",
+    "url": "https://www.chip.de/test/Nothing-Headphone-1-im-Test_186121723.html"
+   },
+   {
+    "media": "Presse Citron",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/08/2025",
+    "url": "https://www.presse-citron.net/jai-teste-1-mois-le-headphone-1-que-vaut-le-premier-casque-audio-de-nothing/"
+   },
+   {
+    "media": "IGN",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "26/09/2025",
+    "url": "https://www.ign.com/articles/nothing-headphone-1-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "01/07/2025",
+    "url": "https://www.trustedreviews.com/reviews/nothing-headphone-1"
+   },
+   {
+    "media": "The Verge",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "01/07/2025",
+    "url": "https://www.theverge.com/headphone-review/695609/nothing-headphone-1-review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/headphones/wireless-headphones/nothing-headphone-1-review"
+   },
+   {
+    "media": "01net",
+    "note10": null,
+    "origine": "",
+    "date": "01/07/2025",
+    "url": "https://www.01net.com/tests/test-casque-audio-nothing-headphone-1-avis.html"
+   },
+   {
+    "media": "BeGeek",
+    "note10": null,
+    "origine": "",
+    "date": "01/07/2025",
+    "url": "https://www.begeek.fr/test/test-nothing-headphone-1-417580"
+   },
+   {
+    "media": "SlashGear",
+    "note10": null,
+    "origine": "",
+    "date": "01/07/2025",
+    "url": "https://www.slashgear.com/1900023/nothing-headphone-1-review-earphones-audio-music-control-features/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": null,
+    "origine": "",
+    "date": "02/07/2025",
+    "url": "https://www.absolutegeeks.com/article/featured-top/nothing-headphone-1-review-transparent-beauty-meets-kef-audio-mastery/"
+   },
+   {
+    "media": "ChinaHandys",
+    "note10": null,
+    "origine": "",
+    "date": "02/07/2025",
+    "url": "https://www.smartzone.de/nothing-headphone-1-test/"
+   },
+   {
+    "media": "AndroidWorld",
+    "note10": null,
+    "origine": "",
+    "date": "01/07/2025",
+    "url": "https://www.smartworld.it/recensioni/nothing-headphone-1"
+   },
+   {
+    "media": "ComputerBase",
+    "note10": null,
+    "origine": "",
+    "date": "17/07/2025",
+    "url": "https://www.computerbase.de/artikel/audio-video-foto/nothing-headphone-1-anc-kopfhoerer-test.93273/"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "origine": "",
+    "date": "19/07/2025",
+    "url": "https://www.notebookcheck.com/Klangstarke-Premiere-mit-Blickfanggarantie-Test-Nothing-Headphone-1.1047760.0.html"
+   },
+   {
+    "media": "PCtipp",
+    "note10": null,
+    "origine": "",
+    "date": "23/07/2025",
+    "url": "https://www.pctipp.ch/tests/audio/im-test-nothing-headphone-1-2967906.html"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "28/07/2025",
+    "url": "https://www.wired.com/review/nothing-headphones-1/"
+   },
+   {
+    "media": "GeekCulture",
+    "note10": null,
+    "origine": "",
+    "date": "22/08/2025",
+    "url": "https://geekculture.co/nothing-headphone-1-review/"
+   },
+   {
+    "media": "Beebom",
+    "note10": null,
+    "origine": "",
+    "date": "10/10/2025",
+    "url": "https://beebom.com/nothing-headphone-1-review/"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "10/10/2025",
+    "url": "https://www.rtings.com/headphones/reviews/nothing/headphone-1"
+   },
+   {
+    "media": "EuroGamer.fr",
+    "note10": null,
+    "origine": "",
+    "date": "25/02/2026",
+    "url": "https://www.eurogamer.net/nothing-headphone-1-review-unlike-anything-else-ive-ever-seen"
+   }
+  ],
+  "pros": [
+   "Excellente autonomie",
+   "Une scène sonore digne des plus grands",
+   "Une réduction de bruit redoutable",
+   "Un look original",
+   "La signature sonore KEF, neutre, détaillée, puissante",
+   "La réduction de bruit active, au niveau des meilleures",
+   "Le design rétro-futuriste unique et la qualité de fabrication",
+   "L'excellent confort de port",
+   "L'application Nothing X, simple et complète",
+   "L'autonomie très confortable",
+   "Le rapport qualité/prix imbattable",
+   "Bonne qualité sonore, beaucoup de polyvalence"
+  ],
+  "cons": [
+   "Un peu de distorsion aux 200 Hz",
+   "Le mode Audio Spatial, anecdotique",
+   "Le mode transparence, bon mais encore perfectible",
+   "Aigus un peu en retrait par défaut",
+   "Kit mains-libres inutilisable en milieu bruyant",
+   "Avance/retour rapide pas toujours fonctionnel",
+   "Plus lourd que la moyenne (329 g)",
+   "Pas compatible LE Audio",
+   "Haut-médium un peu sage.",
+   "Réduction de bruit perfectible dans le grave.",
+   "Microphones inefficaces en milieu bruyant.",
+   "Poids notable, coques non pliables."
+  ]
+ },
+ "Sennheiser Accentum Plus": {
+  "source": "https://www.commentchoisir.fr/test-Sennheiser_Accentum+Plus.htm",
+  "tests": [
+   {
+    "media": "T3",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "20/02/2024",
+    "url": "https://www.t3.com/reviews/sennheiser-accentum-plus-review"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "20/02/2024",
+    "url": "https://www.expertreviews.co.uk/headphones/sennheiser-accentum-plus-review"
+   },
+   {
+    "media": "Connect.de",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "12/03/2024",
+    "url": "https://www.connect.de/testbericht/sennheiser-accentum-wireless-plus-test-3204947.html"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/02/2024",
+    "url": "https://www.frandroid.com/marques/sennheiser/1940162_test-du-casque-sennheiser-accentum-plus-une-incitation-a-ecouter-plus-de-musique"
+   },
+   {
+    "media": "CharlesTech",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/02/2024",
+    "url": "https://charlestech.fr/test-sennheiser-accentum-plus/"
+   },
+   {
+    "media": "Day-Technology",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/03/2024",
+    "url": "https://day-technology.com/sennheiser-accentum-plus-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-accentum-plus-review"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "07/03/2024",
+    "url": "https://www.lesnumeriques.com/casque-nomade/sennheiser-accentum-plus-p74427/test.html"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/03/2024",
+    "url": "https://www.kopfhoerer.de/test/sennheiser-accentum-plus-wireless/"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/03/2024",
+    "url": "https://www.nextpit.fr/sennheiser-accentum-plus-wireless-test-complet"
+   },
+   {
+    "media": "Android Central",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/03/2024",
+    "url": "https://www.androidcentral.com/accessories/audio/sennheiser-accentum-plus-review"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/04/2024",
+    "url": "https://leclaireur.fnac.com/test/457295-test-labo-du-sennheiser-accentum-plus-wireless-un-casque-endurant-et-equilibre/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "06/05/2024",
+    "url": "https://www.chip.de/test/Sennheiser-Accentum-Plus-im-Test-Noise-Cancelling-Kopfhoerer-mit-starkem-Sound_185262005.html"
+   },
+   {
+    "media": "Headfonics",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/02/2024",
+    "url": "https://headfonics.com/sennheiser-accentum-wireless-review/"
+   },
+   {
+    "media": "Headfonics",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "18/05/2024",
+    "url": "https://headfonics.com/sennheiser-accentum-plus-review/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/02/2024",
+    "url": "https://www.absolutegeeks.com/article/reviews/sennheiser-accentum-plus-upgraded-features-great-sound-should-you-buy-it/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "22/05/2024",
+    "url": "https://www.absolutegeeks.com/article/reviews/sennheiser-officially-launches-accentum-plus-headphones-in-the-uae/"
+   },
+   {
+    "media": "Tech Jio",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "08/07/2024",
+    "url": "https://techjioblog.com/2024/07/08/review-sennheiser-accentum-plus/"
+   },
+   {
+    "media": "Engadget",
+    "note10": 7.2,
+    "origine": "bloc",
+    "date": "15/03/2024",
+    "url": "https://www.engadget.com/sennheiser-accentum-plus-review-upgrades-that-arent-worth-the-extra-cost-160035421.html?src=rss"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "20/02/2024",
+    "url": "https://www.journaldugeek.com/test/test-accentum-plus-sennheiser-arrive-t-il-a-corriger-les-defauts-de-la-premiere-version/"
+   },
+   {
+    "media": "91mobiles.com",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "21/02/2024",
+    "url": "https://www.91mobiles.com/hub/sennheiser-accentum-plus-review/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "23/02/2024",
+    "url": "https://www.soundguys.com/sennheiser-accentum-plus-review-110432/"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "01/03/2024",
+    "url": "https://www.hardwarezone.com.sg/review-sennheiser-accentum-plus-review-singapore-price-specs-buy"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "06/05/2024",
+    "url": "https://www.rtings.com/headphones/reviews/sennheiser/accentum-plus-wireless"
+   },
+   {
+    "media": "01net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "21/02/2024",
+    "url": "https://www.01net.com/tests/test-sennheiser-accentum-plus-50-euros-de-plus-beaucoup-de-defauts-en-moins.html"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/sennheiser-accentum-plus-wireless"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "05/02/2024",
+    "url": "https://www.trustedreviews.com/reviews/sennheiser-accentum-plus-wireless"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "08/02/2024",
+    "url": "https://majorhifi.com/sennheiser-accentum-plus-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-accentum-plus-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "29/02/2024",
+    "url": "https://majorhifi.com/sennheiser-accentum-plus-vs-sony-wh-1000xm5-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-accentum-plus-vs-sony-wh-1000xm5-review"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "07/06/2024",
+    "url": "https://majorhifi.com/sony-ult-wear-vs-sennheiser-accentum-plus-comparison-review/?utm_source=rss&utm_medium=rss&utm_campaign=sony-ult-wear-vs-sennheiser-accentum-plus-comparison-review"
+   },
+   {
+    "media": "PCtipp",
+    "note10": null,
+    "origine": "",
+    "date": "20/03/2024",
+    "url": "https://www.pctipp.ch/tests/kopfhoerer/im-test-sennheiser-accentum-plus-wireless-2912999.html"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "24/05/2024",
+    "url": "https://www.avcesar.com/casque-sennheiser-accentum-plus-50-heures-d-autonomie-41919"
+   }
+  ],
+  "pros": [
+   "Excellente autonomie",
+   "Durée de vie de la batterie",
+   "Le boîtier est léger et solide",
+   "La qualité sonore reste exemplaire",
+   "Annulation de bruit active solide (ANC)",
+   "Plastique simple et robuste",
+   "très facile",
+   "Multipoint Bluetooth et AptX HD",
+   "Application moderne avec quelques fonctionnalités supplémentaires",
+   "Bon son et bon ANC",
+   "Autonomie de la batterie au top",
+   "Son dynamique et entraînant"
+  ],
+  "cons": [
+   "Peut-être légèrement serré sur la tête",
+   "Pleine fonctionnalité de l'application uniquement avec un compte utilisateur Sennheiser.",
+   "Contrôle tactile pas toujours précis",
+   "L'aigu manque de précision",
+   "Filtrage des bruits pendant les appels téléphoniques",
+   "Aucune cote IP spécifiée par l'entreprise.",
+   "Aigus peu précis.",
+   "Manque d'aération de la scène sonore.",
+   "Micros très sensibles au vent (hors mode dédié).",
+   "dans certaines situations, distorsions via une prise mini-jack",
+   "Prix un peu trop élevé",
+   "Pas de certification IP"
+  ]
+ },
+ "Sony ULT Wear": {
+  "source": "https://www.commentchoisir.fr/test-Sony_ULT+Wear.htm",
+  "tests": [
+   {
+    "media": "Connect.de",
+    "note10": 9.1,
+    "origine": "bloc",
+    "date": "26/04/2024",
+    "url": "https://www.connect.de/testbericht/sony-ult-wear-wh-ult900n-over-ear-kopfhoerer-anc-test-3205309.html"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://www.journaldugeek.com/test/test-sony-ult-wear-le-casque-a-reduction-de-bruit-parfait-pour-200-euros/"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 8.8,
+    "origine": "bloc",
+    "date": "16/07/2024",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/sony-ult-wear/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://www.soundguys.com/sony-ult-wear-review-113412/"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://www.01net.com/tests/test-sony-ult-wear-le-casque-audio-ultime-pour-seulement-200-euros.html"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://www.absolutegeeks.com/article/reviews/sony-ult-wear-review-bass-power-meets-audio-precision-a-serious-contender-is-born/"
+   },
+   {
+    "media": "SlashGear",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://www.slashgear.com/1559449/sony-ult-wear-review-bass-headphones-rebrand-audio/"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "28/05/2024",
+    "url": "https://www.expertreviews.co.uk/headphones/sony-ult-wear-review"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "04/06/2024",
+    "url": "https://www.chip.de/test/Sony-ULT-Wear-im-Test_185302642.html"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/06/2024",
+    "url": "https://www.nextpit.fr/sony-ult-wear-test-complet"
+   },
+   {
+    "media": "HardwareZone",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "08/07/2024",
+    "url": "https://www.hardwarezone.com.sg/review-sony-ult-wear-wireless-headphones-singapore-price-specs-buy"
+   },
+   {
+    "media": "Digital Citizen",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "05/12/2024",
+    "url": "https://www.digitalcitizen.life/sony-ult-wear-review/"
+   },
+   {
+    "media": "Engadget",
+    "note10": 7.8,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://www.engadget.com/sony-ult-wear-headphones-review-brain-shaking-bass-160000739.html?src=rss"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "11/06/2024",
+    "url": "https://www.rtings.com/headphones/reviews/sony/ult-wear-wireless"
+   },
+   {
+    "media": "Pokde.net",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "15/07/2024",
+    "url": "https://pokde.net/review/sony-ult-wear-review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/sony-ult-wear"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "02/05/2024",
+    "url": "https://www.frandroid.com/marques/sony/2005094_test-du-sony-ult-wear-des-basses-qui-impressionnent"
+   },
+   {
+    "media": "Android Central",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "19/05/2024",
+    "url": "https://www.androidcentral.com/accessories/audio/sony-ult-wear-review"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "21/06/2024",
+    "url": "https://www.gadgetbridge.com/gadget-reviews/sony-ult-wear-wh-ult900n-review-a-good-mix-of-form-and-function/"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "origine": "",
+    "date": "06/05/2024",
+    "url": "https://www.digitaltrends.com/home-theater/sony-ult-wear-review/"
+   },
+   {
+    "media": "MajorHiFi",
+    "note10": null,
+    "origine": "",
+    "date": "10/05/2024",
+    "url": "https://majorhifi.com/sony-ult-wear-review/?utm_source=rss&utm_medium=rss&utm_campaign=sony-ult-wear-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "11/06/2024",
+    "url": "https://www.trustedreviews.com/reviews/sony-wh-ult900n"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "24/06/2024",
+    "url": "https://www.avcesar.com/sony-ult-wear-casque-bluetooth-52-en-plastique-recycle-41821"
+   },
+   {
+    "media": "GameStar",
+    "note10": null,
+    "origine": "",
+    "date": "22/07/2024",
+    "url": "https://www.gamestar.de/artikel/sony-ult-kopfhoerer-test,3416842.html"
+   },
+   {
+    "media": "Tweakers",
+    "note10": null,
+    "origine": "",
+    "date": "13/08/2024",
+    "url": "https://tweakers.net/reviews/12284/sony-ult-wear-bas-boven-bas.html"
+   },
+   {
+    "media": "NextGenTech",
+    "note10": null,
+    "origine": "",
+    "date": "23/07/2025",
+    "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/sony-ult-wear-recensione/"
+   }
+  ],
+  "pros": [
+   "sensation de port agréable",
+   "Contrôle simple",
+   "bonne réduction de bruit active avec jusqu'à 30 dB d'atténuation",
+   "Le son peut être réglé à un bon niveau.",
+   "Bouton pour des basses supplémentaires",
+   "peut être plié de manière compacte",
+   "longue durée de vie de la batterie",
+   "Après l'ajustement de l'égaliseur, un bon son.",
+   "Annulation de bruit très efficace",
+   "Longue durée de vie de la batterie",
+   "Bon équipement",
+   "BEAUCOUP de basses"
+  ],
+  "cons": [
+   "Pas de son USB-C",
+   "Son son est terne dans les réglages de base car il ne reproduit pas assez d'aigus.",
+   "Boost des basses trop extrême à notre goût",
+   "Son trop basse en réglage standard",
+   "Le matériau pourrait sembler de meilleure qualité.",
+   "Signature audio très déséquilibrée",
+   "Qualité du micro désastreuse",
+   "Construction en plastique",
+   "Le mode ambiant sonne numérisé",
+   "Distorsion aux niveaux de basses élevés",
+   "Pas d'écoute filaire USB-C",
+   "Scène sonore passive décevante."
+  ]
+ },
+ "Nothing CMF Headphone Pro": {
+  "source": "https://www.commentchoisir.fr/test-Nothing_CMF+Headphone+Pro.htm",
+  "tests": [
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "13/12/2025",
+    "url": "https://www.frandroid.com/marques/cmf/2901517_test-du-cmf-headphone-pro-a-99-euros-nothing-donne-une-lecon-dhumilite-aux-geants-de-laudio"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/09/2025",
+    "url": "https://www.absolutegeeks.com/article/reviews/headphones/cmf-headphone-pro-review-because-30-hours-of-battery-is-for-mere-mortals/"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "20/10/2025",
+    "url": "https://www.kopfhoerer.de/test/cmf-by-nothing-headphone-pro/"
+   },
+   {
+    "media": "Multiplayer.it",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/10/2025",
+    "url": "https://multiplayer.it/recensioni/cmf-headphone-pro-recensione-cuffie-over-ear.html"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "19/11/2025",
+    "url": "https://www.clubic.com/test-produit-586186-test-cmf-headphone-pro-un-casque-performant-mais-abordable-a-un-petit-nothing-de-l-excellence.html"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/01/2026",
+    "url": "https://www.chip.de/test/CMF-Headphone-Pro-im-Test_186532315.html"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/01/2026",
+    "url": "https://www.gadgetbridge.com/gadget-reviews/cmf-headphone-pro-review-another-cmf-masterclass/"
+   },
+   {
+    "media": "Toms Hardware (it)",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "22/10/2025",
+    "url": "https://www.tomshw.it/smartphone/cmf-headphone-pro-cuffie-wireless-economiche-di-qualita"
+   },
+   {
+    "media": "Journal du Geek",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "27/10/2025",
+    "url": "https://www.journaldugeek.com/test/test-cmf-headphone-pro-le-casque-qui-veut-jouer-dans-la-cour-des-grands-pour-moins-de-100-euros/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "03/11/2025",
+    "url": "https://www.soundguys.com/cmf-headphone-pro-review-a-solid-b-side-146595/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "23/10/2025",
+    "url": "https://www.lesnumeriques.com/casque-bluetooth/cmf-headphone-pro-p77197/test.html"
+   },
+   {
+    "media": "01net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "02/11/2025",
+    "url": "https://www.01net.com/tests/test-cmf-headphone-pro-avis.html"
+   },
+   {
+    "media": "AndroidWorld",
+    "note10": null,
+    "origine": "",
+    "date": "07/10/2025",
+    "url": "https://www.smartworld.it/recensioni/cmf-headphone-pro"
+   },
+   {
+    "media": "NerdMovieProductions",
+    "note10": null,
+    "origine": "",
+    "date": "04/11/2025",
+    "url": "https://nerdmovieproductions.it/cmf-headphone-pro-la-recensione/?utm_source=rss&utm_medium=rss&utm_campaign=cmf-headphone-pro-la-recensione"
+   },
+   {
+    "media": "Well Played",
+    "note10": null,
+    "origine": "",
+    "date": "10/11/2025",
+    "url": "https://www.well-played.com.au/cmf-headphone-pro-review/"
+   },
+   {
+    "media": "PCtipp",
+    "note10": null,
+    "origine": "",
+    "date": "05/12/2025",
+    "url": "https://www.pctipp.ch/tests/kopfhoerer/cmf-by-nothing-headphone-over-ear-kopfhoerer-im-pctipp-test-2977611.html"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "origine": "",
+    "date": "11/03/2026",
+    "url": "https://www.notebookcheck.com/Preis-Leistungs-Hammer-unter-den-Over-Ears-Test-CMF-Headphone-Pro.1229343.0.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "08/07/2026",
+    "url": "https://www.rtings.com/headphones/reviews/cmf/headphone-pro"
+   }
+  ],
+  "pros": [
+   "Connectivité moderne",
+   "Utilisation intuitive",
+   "Autonomie exceptionnelle",
+   "Design",
+   "Rapport qualité / prix exceptionnel",
+   "Performances sonores épatantes",
+   "Équilibre entre les registres de fréquences, résolution, douceur",
+   "Réduction de bruit active de premier plan",
+   "Commandes par boutons ingénieuses (balance tonale, volume)",
+   "Entrée ligne pour liaison filaire",
+   "Oreillettes interchangeables facilement",
+   "App truffée de fonctionnalités (adaptation auditive, audio spatial)"
+  ],
+  "cons": [
+   "Il bouge si on secoue trop la tête",
+   "Pas de mise en pause automatique lorsqu'on ôte le casque",
+   "Protection contre les projections d'eau seulement IPX2",
+   "Boîtier entièrement en plastique",
+   "ANC lors de voix et de bruits soudains seulement moyenne",
+   "Energy-Slider est plus un gadget qu'un outil de précision.",
+   "ANC et modalités de transparence améliorables",
+   "Le curseur d'énergie a une utilité discutable.",
+   "Un peu de mollesse",
+   "Mode transparence et kit mains-libres médiocres",
+   "Finir par appuyer au sommet du crâne",
+   "Durée de vie de la batterie avec ANC seulement moyenne"
+  ]
  }
 }

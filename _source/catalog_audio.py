@@ -11,6 +11,7 @@ from catalog_sols import S, TOP
 _HERE = os.path.dirname(os.path.abspath(__file__))
 ABT = "a-bt"
 AANC = "a-anc"
+ACAS = "a-cas"
 AUD = {}
 
 
@@ -226,6 +227,99 @@ add("cmf-buds-pro-2", AANC, "CMF Buds Pro 2", "ANC 50 dB · égaliseur · 64,95 
     "B0F5B56X84", "CMF by Nothing Buds Pro 2 Écouteurs sans Fil avec Son Hi-FI, 50 DB Suppression Active du Bruit Hybride", 64.95,
     "Vous voulez de l'ANC pour moins de 70 €.",
     "Vous cherchez un son très travaillé ou un étui premium.")
+
+
+# ============================================================ CASQUES BLUETOOTH
+# Prix Amazon relevés le 28/10/2026 dans le navigateur (vendus et expédiés par Amazon) ; à renouveler par releve.py.
+add("jbl-live-780nc", ACAS, "JBL Live 780NC", "ANC adaptative · 80 h · Bluetooth 6.0", TOP,
+    "Le meilleur compromis de la sélection : bien noté par la presse, très léger et confortable, avec une autonomie annoncée de 80 heures, pour 149 €. Les basses sont un peu appuyées et l'ANC reste moyenne.",
+    ["Autonomie exceptionnelle", "Signature sonore agréable, peu de distorsion", "Conception légère et confortable"],
+    ["Basses un peu agressives par défaut", "Réduction de bruit seulement moyenne", "Pochette peu protectrice"],
+    ("80 h", "ANC adaptative"), "JBL Live 780NC",
+    "B0GLPHXR6N", "JBL Live 780NC Casque Circum-Auriculaire sans Fil, Noir, Bluetooth 6.0, Réduction de Bruit Adaptative, 80 Heures", 149.0,
+    "Vous voulez un casque confortable à grande autonomie, pour moins de 150 €.",
+    "Vous voulez la meilleure réduction de bruit du marché.")
+
+add("sony-wh-1000xm6", ACAS, "Sony WH-1000XM6", "ANC référence · Hi-Res · 30 h", "Référence ANC",
+    "La référence des casques à réduction de bruit : un ANC de premier plan, un son abouti et un confort amélioré. Prix en hausse et batterie sans exceptionnel.",
+    ["Réduction de bruit de premier plan", "Excellente performance audio", "Confort amélioré, nombreuses fonctions"],
+    ["Prix élevé", "Pas de mode audio USB", "Autonomie dans la moyenne"],
+    ("30 h", "ANC référence"), "Sony WH-1000XM6",
+    "B0F2TT8Q7M", "Sony WH-1000XM6 Casque Bluetooth sans Fil Premium à réduction de Bruit, Over-ear, son haute résolution", 379.0,
+    "Vous voulez la meilleure réduction de bruit pour les transports, iPhone comme Android.",
+    "Vous cherchez un petit prix ou un casque étanche.")
+
+add("sony-wh-1000xm5", ACAS, "Sony WH-1000XM5", "ANC · 30 h · appels cristallins", "Prix en baisse",
+    "Le modèle précédent de Sony, toujours excellent et nettement moins cher qu'à sa sortie : très confortable, avec une des meilleures réductions de bruit. Il ne se plie plus aussi compact.",
+    ["Réduction de bruit parmi les meilleures", "Très bon confort", "Qualité d'appel ultra-claire"],
+    ["Ne se plie pas compact", "Pas de support aptX", "Toujours cher"],
+    ("30 h", "ANC référence"), "Sony WH-1000XM5",
+    "B0BXM22X99", "Sony WH-1000XM5 Casque bluetooth sans fil premium à réduction de bruit, Over-ear, 30h d'autonomie", 249.99,
+    "Vous voulez le niveau XM6 à un prix plus doux.",
+    "Vous voulez un casque pliable et compact.")
+
+add("sennheiser-momentum-5", ACAS, "Sennheiser Momentum 5", "Batterie remplaçable · Dolby Atmos · 57 h", "Son audiophile",
+    "Un son de grande classe, une excellente qualité de micro et une batterie remplaçable. L'ANC reste un cran derrière Bose et Sony, et le casque ne se plie pas entièrement.",
+    ["Son impressionnant", "Batterie et coussinets remplaçables", "Excellente qualité de micro"],
+    ["ANC en retrait de Bose et Sony", "Pas entièrement pliable", "Coussinets qui chauffent"],
+    ("57 h", "Batterie remplaçable"), "Sennheiser Momentum 5",
+    "B0H2MWG3GS", "Sennheiser Casque Audio Momentum 5 I Casque réduction de Bruit Wireless, Autonomie 57 heures, Dolby Atmos", 399.0,
+    "Vous privilégiez le son et la durabilité (batterie remplaçable).",
+    "Vous voulez la meilleure réduction de bruit ou un budget limité.")
+
+add("jbl-tour-one-m3", ACAS, "JBL Tour One M3", "ANC adaptative · 70 h · Spatial 360", "Autonomie",
+    "Un casque premium bien équipé : un son puissant et équilibré, une réduction de bruit efficace et 70 heures d'autonomie. Plusieurs réglages passent par l'application.",
+    ["Réduction de bruit active efficace", "Autonomie exceptionnelle", "Son puissant, équilibré et personnalisable"],
+    ["Émetteur Smart TX vendu séparément", "Réglages avancés via l'application", "Durabilité des coussinets en question"],
+    ("70 h", "ANC adaptative"), "JBL Tour One M3",
+    "B0DZJ3CSDY", "JBL Tour One M3, Casque Bluetooth sans Fil Supra-auriculaire, Latte, Réduction Adaptative du Bruit, 70 h d'autonomie", 244.99,
+    "Vous voulez un casque haut de gamme à grosse autonomie, sans payer le prix des références.",
+    "Vous voulez un casque très compact.")
+
+add("airpods-max-2", ACAS, "Apple AirPods Max 2", "ANC · audio spatial · USB-C", "Pour iPhone",
+    "Le casque premium d'Apple : une réduction de bruit très efficace, une signature sonore plus neutre et une excellente isolation. Prix très élevé, poids important et autonomie un peu juste.",
+    ["Réduction de bruit très efficace", "Excellente scène sonore", "Signature plus neutre que la version précédente"],
+    ["Prix très élevé", "Assez lourd", "Pas de multipoint ni de LE Audio"],
+    ("20 h", "Apple H2"), "Apple AirPods Max 2",
+    "B0GSS4M55K", "Apple AirPods Max 2, Casque Circum-auriculaire sans Fil, Réduction Active du Bruit, Audio adaptatif, Minuit", 549.0,
+    "Vous avez un iPhone et voulez un casque haut de gamme à l'intégration parfaite.",
+    "Vous êtes sur Android ou cherchez un casque léger.")
+
+add("nothing-headphone-1", ACAS, "Nothing Headphone (1)", "Son KEF · LDAC · 80 h", "Design KEF",
+    "Un casque au look original, réglé par KEF : une scène sonore ample, une réduction de bruit au niveau des meilleurs et une grosse autonomie, pour 174 €. Le micro est faible en milieu bruyant.",
+    ["Signature sonore KEF, neutre et détaillée", "Réduction de bruit active de haut niveau", "Excellente autonomie"],
+    ["Kit mains libres faible en milieu bruyant", "Mode transparence perfectible", "Audio spatial anecdotique"],
+    ("80 h", "Son KEF"), "Nothing Headphone 1",
+    "B0F1Z88FBT", "Nothing Headphone (1) – Casque Bluetooth Sans Fil avec ANC, Sound by KEF, ANC adaptatif jusqu'à 42 dB, LDAC", 173.99,
+    "Vous voulez un casque original, au son soigné et à l'autonomie très longue.",
+    "Vous téléphonez souvent dans le bruit.")
+
+add("sennheiser-accentum-plus", ACAS, "Sennheiser Accentum Plus", "ANC hybride · 50 h", "Valeur sûre",
+    "Un casque solide et bien noté par la presse : bonne réduction de bruit, son très correct et 50 heures d'autonomie. Les aigus manquent de précision et le serrage peut gêner.",
+    ["Autonomie excellente", "Annulation de bruit active solide", "Bonne qualité sonore"],
+    ["Aigus peu précis", "Légèrement serré sur la tête", "Appli complète avec compte Sennheiser"],
+    ("50 h", "ANC hybride"), "Sennheiser Accentum Plus",
+    "B0CQKDKPS6", "Sennheiser ACCENTUM Plus – Casque Sans Fil Bluetooth à Réduction de Bruit, Charge Rapide, 50 h d'Autonomie", 149.95,
+    "Vous voulez un casque fiable à moins de 150 €, avec une bonne autonomie.",
+    "Vous cherchez des aigus très détaillés ou un casque très léger.")
+
+add("sony-ult-wear", ACAS, "Sony ULT Wear", "ULT Power Sound · basses · 30 h", "Basses puissantes",
+    "Un casque pensé pour les basses, confortable et pliable, avec une bonne réduction de bruit. Le son est déséquilibré en réglage standard et l'USB-C n'est pas utilisable pour l'audio.",
+    ["Bouton pour basses supplémentaires", "Bonne réduction de bruit active", "Confortable et pliable"],
+    ["Signature audio déséquilibrée", "Pas de son USB-C", "Matériaux simples"],
+    ("30 h", "Basses ULT"), "Sony ULT Wear",
+    "B0CX1TJXKV", "Sony ULT Wear Casque Bluetooth sans Fil à réduction de Bruit - Noir, ULT Power Sound, 30h d'autonomie", 121.5,
+    "Vous aimez les basses profondes (électro, hip-hop) et voulez un casque confortable.",
+    "Vous cherchez un rendu neutre et équilibré.")
+
+add("cmf-headphone-pro", ACAS, "CMF Headphone Pro", "ANC hybride · LDAC · 100 h", "Le moins cher",
+    "Le plus petit prix de la sélection : une autonomie annoncée de 100 heures, LDAC, un design soigné et un excellent rapport qualité/prix selon la presse. ANC moyenne sur les voix et protection IPX2 seulement.",
+    ["Rapport qualité/prix exceptionnel", "Autonomie exceptionnelle", "Connectivité moderne (LDAC)"],
+    ["ANC moyenne sur les voix", "Boîtier entièrement en plastique", "Protection IPX2 seulement"],
+    ("100 h", "LDAC"), "Nothing CMF Headphone Pro",
+    "B0FKG6TDRR", "CMF Headphone Pro - Casque Bluetooth Over-Ear, ANC Hybride, Jusqu'à 100 h, Hi-Res avec LDAC", 78.84,
+    "Vous voulez de l'ANC et une énorme autonomie pour moins de 80 €.",
+    "Vous voulez la meilleure réduction de bruit.")
 
 
 def build():

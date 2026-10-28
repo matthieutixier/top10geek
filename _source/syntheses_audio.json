@@ -246,5 +246,158 @@
    "TechRadar",
    "Gadget Bridge"
   ]
+ },
+ {
+  "id": "jbl-live-780nc",
+  "texte": "Six médias ont noté le Live 780NC, pour une moyenne de 8,4/10. Labo Fnac lui donne 10/10, COGconnected 8,2/10, tandis que Les Numériques, Kopfhörer, Presse Citron et Trusted Reviews s'en tiennent à 8/10.\n\nLes testeurs apprécient une signature sonore agréable avec peu de distorsion, une conception légère et confortable et une autonomie hors norme. Ils reprochent des basses un peu appuyées par défaut, un léger manque de précision et une réduction de bruit jugée seulement moyenne par certains, ainsi qu'une pochette qui protège peu.",
+  "sources": [
+   "Labo Fnac",
+   "COGconnected",
+   "Les Numériques",
+   "Kopfhörer",
+   "Presse Citron",
+   "Trusted Reviews"
+  ]
+ },
+ {
+  "id": "sony-wh-1000xm6",
+  "texte": "Seize médias ont noté le WH-1000XM6, pour une moyenne de 8,6/10, la meilleure de la sélection. Journal du Geek lui donne 10/10, Basic Tutorials 9,4/10, Labo Fnac, TechRadar, FrAndroid, HardwareZone et AndroidPit 9/10, alors que 01net, Trusted Reviews, SoundGuys et Chip.de s'en tiennent à 8/10.\n\nLes tests retiennent l'efficacité de la réduction de bruit, une qualité audio à la hauteur de la gamme, un confort amélioré et de nombreuses fonctions. Les réserves portent sur un prix en hausse, l'absence de mode audio USB, une application à l'interface complexe, une autonomie dans la moyenne et l'absence de certification d'étanchéité.",
+  "sources": [
+   "Journal du Geek",
+   "Basic Tutorials",
+   "Labo Fnac",
+   "TechRadar",
+   "FrAndroid",
+   "HardwareZone",
+   "AndroidPit",
+   "01net",
+   "Trusted Reviews",
+   "SoundGuys",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "sony-wh-1000xm5",
+  "texte": "Cinq médias ont noté le WH-1000XM5, pour une moyenne de 8,4/10. Les Numériques lui donnent 10/10, HardwareZone, Pokde.net, Labo Fnac et NextN 8/10.\n\nLes testeurs soulignent une excellente qualité sonore, un confort très apprécié, une qualité d'appel très claire et l'une des meilleures réductions de bruit de sa catégorie. Ils regrettent un prix élevé à sa sortie, un casque qui se plie à plat mais pas en position compacte comme le XM4, et l'absence de prise en charge de l'aptX. Le faible nombre de tests récents invite à relativiser la moyenne.",
+  "sources": [
+   "Les Numériques",
+   "HardwareZone",
+   "Pokde.net",
+   "Labo Fnac",
+   "NextN"
+  ]
+ },
+ {
+  "id": "sennheiser-momentum-5",
+  "texte": "Dix médias ont noté le Momentum 5, pour une moyenne de 8,3/10. Basic Tutorials lui donne 9,3/10, LeCafeDuGeek et FrAndroid 9/10, tandis que Headfonics, TechRadar, Kopfhörer, Trusted Reviews, Labo Fnac, Chip.de et Gadget Bridge s'arrêtent à 8/10.\n\nLa presse retient un son de grande qualité, un très bon microphone, une autonomie élevée et une batterie remplaçable, avec des coussinets également remplaçables. Elle note une réduction de bruit encore un cran derrière Bose et Sony, un casque qui ne se plie pas entièrement, des coussinets qui font chauffer et l'absence de certification d'étanchéité.",
+  "sources": [
+   "Basic Tutorials",
+   "LeCafeDuGeek",
+   "FrAndroid",
+   "Headfonics",
+   "TechRadar",
+   "Kopfhörer",
+   "Trusted Reviews",
+   "Labo Fnac",
+   "Chip.de",
+   "Gadget Bridge"
+  ]
+ },
+ {
+  "id": "jbl-tour-one-m3",
+  "texte": "Onze médias ont noté le Tour One M3, pour une moyenne de 8,2/10. ComputerHoy lui donne 9,1/10, FrAndroid et Journal du Geek 9/10, Basic Tutorials 8,9/10, SoundGuys, Chip.de, 01net, Clubic, Allround-PC et Trusted Reviews 8/10, alors que L&B Tech s'arrête à 6/10.\n\nLes testeurs saluent une réduction de bruit efficace, une autonomie remarquable, des matériaux et un confort de bon niveau et un son puissant, équilibré et personnalisable. Ils notent que l'émetteur Smart TX est vendu séparément, que les réglages avancés dépendent de l'application et que la durabilité des coussinets reste à confirmer.",
+  "sources": [
+   "ComputerHoy",
+   "FrAndroid",
+   "Journal du Geek",
+   "Basic Tutorials",
+   "SoundGuys",
+   "Chip.de",
+   "01net",
+   "Clubic.com",
+   "Allround-PC",
+   "Trusted Reviews",
+   "L&B Tech"
+  ]
+ },
+ {
+  "id": "airpods-max-2",
+  "texte": "Dix médias ont noté l'AirPods Max 2, pour une moyenne de 8,2/10. Labo Fnac lui donne 10/10, Engadget 8,7/10, Absolute Geeks, Clubic, Tom's Guide (US), T3, Kopfhörer, Trusted Reviews et 01net 8/10, tandis que SoundGuys s'arrête à 7/10.\n\nLes tests retiennent une réduction de bruit très efficace, une isolation excellente, une scène sonore ample et une signature plus neutre que sur la première version. Ils pointent un prix très élevé, un poids important, une autonomie un peu juste, des oscillations dans les aigus et l'absence de multipoint et de LE Audio.",
+  "sources": [
+   "Labo Fnac",
+   "Engadget",
+   "Absolute Geeks",
+   "Clubic.com",
+   "Tom's Guide (US)",
+   "T3",
+   "Kopfhörer",
+   "Trusted Reviews",
+   "01net",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "nothing-headphone-1",
+  "texte": "Treize médias ont noté le Headphone (1), pour une moyenne de 8,1/10. Labo Fnac lui donne 10/10, FrAndroid, Clubic et LeCafeDuGeek 9/10, Les Numériques, Kopfhörer, Journal du Geek, SoundGuys, Chip.de, Presse Citron et IGN 8/10, alors que Trusted Reviews et The Verge s'arrêtent à 6/10.\n\nLa presse apprécie la signature sonore réglée par KEF, une scène sonore ample, une réduction de bruit au niveau des meilleurs et une très bonne autonomie, avec un look original. Elle regrette un mode transparence perfectible, un audio spatial anecdotique, un peu de distorsion dans les médiums graves et un kit mains libres peu utilisable dans le bruit.",
+  "sources": [
+   "Labo Fnac",
+   "FrAndroid",
+   "Clubic.com",
+   "LeCafeDuGeek",
+   "Les Numériques",
+   "Kopfhörer",
+   "Journal du Geek",
+   "SoundGuys",
+   "Chip.de",
+   "Presse Citron",
+   "IGN",
+   "Trusted Reviews",
+   "The Verge"
+  ]
+ },
+ {
+  "id": "sennheiser-accentum-plus",
+  "texte": "Vingt-deux médias ont noté l'Accentum Plus, pour une moyenne de 7,9/10. T3 et ExpertReviews lui donnent 10/10, Connect.de 9/10, une quinzaine d'autres titres dont FrAndroid, Les Numériques et Labo Fnac 8/10, tandis que 01net s'arrête à 6/10.\n\nLes testeurs soulignent une autonomie excellente, une annulation de bruit active solide, un boîtier léger et robuste et une qualité sonore appréciable. Ils relèvent des aigus peu précis, un serrage un peu fort sur la tête, des commandes tactiles parfois imprécises et une application qui exige un compte Sennheiser pour toutes ses fonctions.",
+  "sources": [
+   "T3",
+   "ExpertReviews",
+   "Connect.de",
+   "FrAndroid",
+   "Les Numériques",
+   "Labo Fnac",
+   "01net"
+  ]
+ },
+ {
+  "id": "sony-ult-wear",
+  "texte": "Dix-huit médias ont noté l'ULT Wear, pour une moyenne de 7,7/10. Connect.de lui donne 9,1/10, Journal du Geek 9/10, Basic Tutorials 8,8/10, plusieurs titres dont SoundGuys, 01net et Absolute Geeks 8/10, alors que FrAndroid, Android Central et Gadget Bridge s'arrêtent à 6/10.\n\nLa presse apprécie le confort de port, une bonne réduction de bruit active, le bouton dédié aux basses supplémentaires et un format pliable compact. Elle critique un son terne dans les réglages de base, des basses trop marquées, l'absence d'audio en USB-C et des matériaux qui pourraient paraître plus soignés.",
+  "sources": [
+   "Connect.de",
+   "Journal du Geek",
+   "Basic Tutorials",
+   "SoundGuys",
+   "01net",
+   "Absolute Geeks",
+   "FrAndroid",
+   "Android Central",
+   "Gadget Bridge"
+  ]
+ },
+ {
+  "id": "cmf-headphone-pro",
+  "texte": "Douze médias ont noté le CMF Headphone Pro, pour une moyenne de 7,5/10. FrAndroid lui donne 9/10, Absolute Geeks, Kopfhörer, Multiplayer.it, Clubic, Chip.de et Gadget Bridge 8/10, Journal du Geek et SoundGuys 7/10, tandis que Les Numériques et 01net s'arrêtent à 6/10.\n\nLes testeurs retiennent un rapport qualité/prix remarquable, une autonomie très élevée, une connectivité moderne et un design soigné. Ils notent une réduction de bruit moyenne sur les voix et les bruits soudains, un boîtier entièrement en plastique, une protection limitée aux éclaboussures (IPX2) et un bouton Energy Slider plus gadget que précis.",
+  "sources": [
+   "FrAndroid",
+   "Absolute Geeks",
+   "Kopfhörer",
+   "Multiplayer.it",
+   "Clubic.com",
+   "Chip.de",
+   "Gadget Bridge",
+   "Journal du Geek",
+   "SoundGuys",
+   "Les Numériques",
+   "01net"
+  ]
  }
 ]

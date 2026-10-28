@@ -100,6 +100,12 @@ ACATS = [
          seo_desc="Les meilleurs écouteurs sans fil à réduction de bruit en 2026, classés par note presse : AirPods, Sony, Bose, Samsung, Sennheiser, Google, Nothing. Prix indicatifs, points forts et faibles.",
          h1='Les meilleurs <span class="flash">écouteurs sans fil à réduction de bruit</span> en 2026',
          intro="Des AirPods aux Sony, Bose, Samsung ou Nothing : la presse départage la réduction de bruit, le son, le confort et l'autonomie. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
+    dict(key="a-cas", slug="casques-bluetooth", label="Casques Bluetooth", top_label="casques Bluetooth", h="Casques Bluetooth", tag="Le casque qui fait le silence", color="var(--cat-gaming)", cls="f-gaming", badge="casques", scene="audio-cas", scene_alt="Le père de famille geek, un casque sur les oreilles, les yeux fermés, un sourire tranquille au milieu du bruit",
+         plural_low="casques",
+         seo_title="Meilleurs casques Bluetooth 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs casques Bluetooth à réduction de bruit en 2026, classés par note presse : Sony, Sennheiser, JBL, Apple, Nothing. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">casques Bluetooth</span> en 2026',
+         intro="Des références Sony et Sennheiser aux casques à petit prix : la presse départage la réduction de bruit, le son, le confort et l'autonomie. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
 ]
 
 VCATS = [

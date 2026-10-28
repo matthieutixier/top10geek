@@ -313,6 +313,20 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certains écouteurs sont vendus par des tiers."],
     budget=[("60 – 130 €", "Écouteurs d'entrée de gamme avec une bonne ANC : CMF, Nothing, Sony WF-C710N, AirPods 4."), ("150 – 300 €", "Modèles haut de gamme : meilleur son, meilleure ANC, meilleurs micros.")],
 ),
+"a-cas": dict(
+    titre="Comment choisir un casque Bluetooth",
+    intro="Un casque se juge sur quatre points : <b>la réduction de bruit, le confort sur la durée, l'autonomie et le son</b>. Les écarts de prix se justifient surtout par l'ANC et les matériaux ; à 150 €, on trouve déjà d'excellents casques.",
+    criteres=[
+        ("Réduction de bruit", "Sony, Bose et Apple restent en tête ; les casques à 100–150 € filtrent bien les bruits graves mais moins les voix."),
+        ("Confort et poids", "Un casque lourd ou serré fatigue en quelques heures : le poids et les coussinets comptent autant que le son."),
+        ("Autonomie", "De 30 à plus de 80 heures selon le modèle. Les durées annoncées sont mesurées sans ANC ou à volume modéré."),
+        ("Son et codecs", "LDAC ou aptX Lossless améliorent le rendu sur Android ; sur iPhone, le codec AAC est le seul utilisé. Un égaliseur dans l'application aide à corriger les basses."),
+    ],
+    pieges=["Se fier à l'autonomie maximale annoncée sans lire les mesures des tests.",
+            "Acheter un casque lié à un écosystème (AirPods Max, Galaxy) sans vérifier ce qui fonctionne sur votre téléphone.",
+            "Comparer des prix sans regarder le vendeur : certaines coloris sont vendus par des tiers."],
+    budget=[("80 – 150 €", "Casques d'entrée de gamme à grosse autonomie : CMF, JBL Live, Sennheiser Accentum."), ("170 – 250 €", "Milieu de gamme : Nothing, JBL Tour One M3, Sony XM5."), ("380 – 550 €", "Références : Sony XM6, Sennheiser Momentum 5, AirPods Max 2.")],
+),
 "v-surv": dict(
     titre="Comment choisir une caméra de surveillance",
     intro="Avant la résolution, trois questions : <b>l'emplacement (intérieur ou extérieur), l'alimentation (secteur, batterie, solaire ou PoE) et le stockage des vidéos</b>. Les fonctions d'IA et le cloud sont parfois payants : lisez les tests.",
