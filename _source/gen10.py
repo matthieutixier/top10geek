@@ -116,7 +116,7 @@ def carte_video():
         return ""
     n = sum(1 for d in ITEMS.values() if d['family'] == 'video')
     return (f'''<a class="fam-card maison" href="photo-video/">
-        <div class="fam-art"><img src="assets/img/badge-photo.webp" alt="" width="96" height="96"></div>
+        <div class="fam-art"><img src="assets/img/badge-cameras-surveillance.webp" alt="" width="96" height="96"></div>
         <h3>Photo et vidéo</h3><p>{n} caméras de surveillance classées d'après les tests de la presse. Caméras d'action, vidéoprojecteurs, appareils photo et drones arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in VCATS)}</div><span class="uc-go">Explorer →</span></a>''')
 
@@ -1629,7 +1629,7 @@ home = f"""
         <h3>TV et home cinéma</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'tv')} téléviseurs 50–55 pouces classés d'après les tests de la presse. Petits formats, grands écrans, petits prix et barres de son arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in TCATS)}</div><span class="uc-go">Explorer →</span></a>
       <a class="fam-card maison" href="audio/">
-        <div class="fam-art"><img src="assets/img/badge-tv-barres-son.webp" alt="" width="96" height="96"></div>
+        <div class="fam-art"><img src="assets/img/badge-enceintes-bluetooth.webp" alt="" width="96" height="96"></div>
         <h3>Son, audio et hi-fi</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'audio')} enceintes Bluetooth portables classées d'après les tests de la presse. Écouteurs, casques, enceintes passives et chaînes hi-fi arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in ACATS)}</div><span class="uc-go">Explorer →</span></a>
       {carte_video()}

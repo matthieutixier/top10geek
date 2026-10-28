@@ -88,7 +88,7 @@ TCATS = [
 ]
 
 ACATS = [
-    dict(key="a-bt", slug="enceintes-bluetooth", label="Enceintes Bluetooth", top_label="enceintes Bluetooth portables", h="Enceintes Bluetooth portables", tag="Le son qui vous suit partout", color="var(--cat-gaming)", cls="f-gaming", badge="tv-barres-son",
+    dict(key="a-bt", slug="enceintes-bluetooth", label="Enceintes Bluetooth", top_label="enceintes Bluetooth portables", h="Enceintes Bluetooth portables", tag="Le son qui vous suit partout", color="var(--cat-gaming)", cls="f-gaming", badge="enceintes-bluetooth", scene="audio-bt", scene_alt="Le père de famille geek, assis sur un muret, une canette à la main, à côté d'une enceinte Bluetooth qui diffuse sa musique",
          plural_low="enceintes",
          seo_title="Meilleures enceintes Bluetooth portables 2026 : tests et prix | Top 10 Geek",
          seo_desc="Les meilleures enceintes Bluetooth portables en 2026, classées par note presse : JBL, Marshall, Sony, Bose, Sonos, Ultimate Ears. Prix indicatifs, points forts et faibles.",
@@ -97,7 +97,7 @@ ACATS = [
 ]
 
 VCATS = [
-    dict(key="v-surv", slug="cameras-de-surveillance", label="Caméras de surveillance", top_label="caméras de surveillance", h="Caméras de surveillance", tag="Voir chez soi, même à distance", color="var(--cat-creation)", cls="f-creation", badge="photo",
+    dict(key="v-surv", slug="cameras-de-surveillance", label="Caméras de surveillance", top_label="caméras de surveillance", h="Caméras de surveillance", tag="Voir chez soi, même à distance", color="var(--cat-creation)", cls="f-creation", badge="cameras-surveillance", scene="video-surv", scene_alt="Le père de famille geek regarde sur son téléphone l'image de la caméra de surveillance posée au-dessus de sa porte",
          plural_low="caméras",
          seo_title="Meilleures caméras de surveillance 2026 : tests et prix | Top 10 Geek",
          seo_desc="Les meilleures caméras de surveillance connectées en 2026, intérieur et extérieur, classées par note presse : Tapo, Ezviz, Reolink, Eufy, Arlo. Prix indicatifs, points forts et faibles.",
@@ -139,7 +139,7 @@ FAMILIES_NEW = [
          usage_title="Meilleurs téléviseurs {label} 2026 : tests et prix | Top 10 Geek",
          usage_desc="Les meilleurs téléviseurs « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
     dict(key="audio", slug="audio", label="Audio", plural="Audio", plural_low="produits audio", cats=ACATS, provisional=False,
-         m_labels=("Étanchéité", "Atout"), col="Étanchéité", mascot="pose-tv", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
+         m_labels=("Étanchéité", "Atout"), col="Étanchéité", mascot="pose-audio-hub", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
          h1='Comparatif audio 2026 : <span class="flash">le verdict par usage</span>',
          intro="Enceintes, écouteurs, casques et hi-fi : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif relevé chez Amazon ou Electro Dépôt et les liens vers les marchands.",
          title="Meilleur son et audio 2026 : tous les tests par usage | Top 10 Geek",
@@ -147,7 +147,7 @@ FAMILIES_NEW = [
          usage_title="Meilleur audio : {label} 2026, tests et prix | Top 10 Geek",
          usage_desc="Les meilleurs modèles « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
     dict(key="video", slug="photo-video", label="Photo / Vidéo", plural="Photo et vidéo", plural_low="appareils", cats=VCATS, provisional=False,
-         m_labels=("Résolution", "Atout"), col="Résolution", mascot="pose-tv", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
+         m_labels=("Résolution", "Atout"), col="Résolution", mascot="pose-video-hub", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
          h1='Comparatif photo et vidéo 2026 : <span class="flash">le verdict par usage</span>',
          intro="Caméras de surveillance, caméras d'action, vidéoprojecteurs, appareils photo et drones : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif et les liens vers les marchands.",
          title="Meilleure caméra et appareil photo 2026 : tous les tests par usage | Top 10 Geek",
