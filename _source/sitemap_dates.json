@@ -173,23 +173,23 @@
 },
 "audio/": {
 "d": "2026-10-28",
-"h": "d838acc0c738"
+"h": "4529f06ad2e8"
 },
 "audio/apple-airpods-4-anc/": {
 "d": "2026-10-28",
-"h": "7ec70114e426"
+"h": "9c4dabe29cc3"
 },
 "audio/apple-airpods-max-2/": {
 "d": "2026-10-28",
-"h": "25ac5eab40f2"
+"h": "35b1ee5e92cd"
 },
 "audio/apple-airpods-pro-3/": {
 "d": "2026-10-28",
-"h": "9f9759577953"
+"h": "e673df280c75"
 },
 "audio/bose-quietcomfort-ultra-earbuds-2e-gen/": {
 "d": "2026-10-28",
-"h": "b7e3d925d2bb"
+"h": "45ee3f56734b"
 },
 "audio/bose-soundlink-flex-2e-gen/": {
 "d": "2026-10-28",
@@ -197,7 +197,7 @@
 },
 "audio/casques-bluetooth/": {
 "d": "2026-10-28",
-"h": "3bc48a648f11"
+"h": "c808fb622b09"
 },
 "audio/cmf-buds-pro-2/": {
 "d": "2026-10-28",
@@ -205,11 +205,11 @@
 },
 "audio/cmf-headphone-pro/": {
 "d": "2026-10-28",
-"h": "64ddeb5fe4a7"
+"h": "f481806fd0d6"
 },
 "audio/ecouteurs-reduction-de-bruit/": {
 "d": "2026-10-28",
-"h": "18520c4128eb"
+"h": "6b58d9194756"
 },
 "audio/enceintes-bluetooth/": {
 "d": "2026-10-28",
@@ -237,11 +237,11 @@
 },
 "audio/jbl-live-780nc/": {
 "d": "2026-10-28",
-"h": "17d6536a39df"
+"h": "d8f85ed36c12"
 },
 "audio/jbl-tour-one-m3/": {
 "d": "2026-10-28",
-"h": "5db231c35088"
+"h": "e004168e63e2"
 },
 "audio/marshall-emberton-iii/": {
 "d": "2026-10-28",
@@ -253,23 +253,23 @@
 },
 "audio/nothing-headphone-1/": {
 "d": "2026-10-28",
-"h": "b768c688614d"
+"h": "655bb39da81a"
 },
 "audio/samsung-galaxy-buds4-pro/": {
 "d": "2026-10-28",
-"h": "ce3e1e2ad58b"
+"h": "297815751ae3"
 },
 "audio/sennheiser-accentum-plus/": {
 "d": "2026-10-28",
-"h": "c6aee36cf0c9"
+"h": "f633c736e10b"
 },
 "audio/sennheiser-momentum-5/": {
 "d": "2026-10-28",
-"h": "84bfb677bcda"
+"h": "24e753e87c43"
 },
 "audio/sennheiser-momentum-true-wireless-5/": {
 "d": "2026-10-28",
-"h": "2066b0f5ed54"
+"h": "a060fdf3db59"
 },
 "audio/sonos-roam-2/": {
 "d": "2026-10-28",
@@ -281,11 +281,11 @@
 },
 "audio/sony-ult-wear/": {
 "d": "2026-10-28",
-"h": "08b6dd6fa7b4"
+"h": "b646839dd4f8"
 },
 "audio/sony-wf-1000xm6/": {
 "d": "2026-10-28",
-"h": "e8102bafcab4"
+"h": "714dd054bed7"
 },
 "audio/sony-wf-c710n/": {
 "d": "2026-10-28",
@@ -293,11 +293,11 @@
 },
 "audio/sony-wh-1000xm5/": {
 "d": "2026-10-28",
-"h": "b2869adf052c"
+"h": "c16f4d918702"
 },
 "audio/sony-wh-1000xm6/": {
 "d": "2026-10-28",
-"h": "999a7829adef"
+"h": "12319467da77"
 },
 "audio/ue-wonderboom-4/": {
 "d": "2026-10-28",
@@ -1121,7 +1121,7 @@
 },
 "photo-video/": {
 "d": "2026-10-28",
-"h": "ad0f10a0aa86"
+"h": "c78a6f30bbf8"
 },
 "photo-video/appareils-photo-hybrides-compacts/": {
 "d": "2026-10-28",
@@ -1149,15 +1149,15 @@
 },
 "photo-video/blink-outdoor-4/": {
 "d": "2026-10-28",
-"h": "0a1eb98dd55c"
+"h": "f61c25857733"
 },
 "photo-video/cameras-de-surveillance/": {
 "d": "2026-10-28",
-"h": "b5d07821a41b"
+"h": "4d17542b5e63"
 },
 "photo-video/cameras-sport-360-vlog/": {
 "d": "2026-10-28",
-"h": "642438aa8b1b"
+"h": "3f5c3855e42e"
 },
 "photo-video/canon-eos-r50/": {
 "d": "2026-10-28",
@@ -1181,11 +1181,11 @@
 },
 "photo-video/dji-osmo-pocket-3/": {
 "d": "2026-10-28",
-"h": "0c017ffa8e56"
+"h": "c2fc08465df7"
 },
 "photo-video/dji-osmo-pocket-4p/": {
 "d": "2026-10-28",
-"h": "03c691f63cf8"
+"h": "2a5a983aae7f"
 },
 "photo-video/epson-co-w01/": {
 "d": "2026-10-28",
@@ -1217,19 +1217,19 @@
 },
 "photo-video/gopro-hero13-black/": {
 "d": "2026-10-28",
-"h": "60f750dcc66b"
+"h": "2624ea305ad1"
 },
 "photo-video/insta360-ace-pro-2/": {
 "d": "2026-10-28",
-"h": "16f99f63c9ed"
+"h": "b0e9ecb4dc6e"
 },
 "photo-video/insta360-go-ultra/": {
 "d": "2026-10-28",
-"h": "ee3f7a35e9d4"
+"h": "ecba172a7406"
 },
 "photo-video/insta360-x5/": {
 "d": "2026-10-28",
-"h": "93bce38301a2"
+"h": "a1e71529aeef"
 },
 "photo-video/nikon-z5-ii/": {
 "d": "2026-10-28",
@@ -1245,11 +1245,11 @@
 },
 "photo-video/reolink-argus-4-pro/": {
 "d": "2026-10-28",
-"h": "944e1dfef731"
+"h": "a11f71d24c14"
 },
 "photo-video/reolink-argus-eco-ultra/": {
 "d": "2026-10-28",
-"h": "a3f7def7000c"
+"h": "e2042d6bb28e"
 },
 "photo-video/reolink-duo-3-poe/": {
 "d": "2026-10-28",
@@ -1257,7 +1257,7 @@
 },
 "photo-video/reolink-e1-zoom/": {
 "d": "2026-10-28",
-"h": "1e7b5bca1bda"
+"h": "4997a5ccc9ff"
 },
 "photo-video/sony-a6700/": {
 "d": "2026-10-28",
