@@ -1022,5 +1022,25 @@
  "airpods-4-anc": {
   "constructeur": "Apple",
   "source": "https://www.electrodepot.fr/media/catalog/product/P10008780.jpg"
+ },
+ "dji-osmo-action-5-pro": {
+  "constructeur": "DJI",
+  "source": "https://www.dji.com/fr/osmo-action-5-pro"
+ },
+ "dji-osmo-action-6": {
+  "constructeur": "DJI",
+  "source": "https://www.dji.com/fr/osmo-action-6"
+ },
+ "dji-osmo-pocket-3": {
+  "constructeur": "DJI",
+  "source": "https://www.dji.com/fr/osmo-pocket-3"
+ },
+ "insta360-x5": {
+  "constructeur": "Insta360",
+  "source": "https://www.insta360.com/fr/product/insta360-x5"
+ },
+ "dji-osmo-360": {
+  "constructeur": "DJI",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10020661.jpg"
  }
 }

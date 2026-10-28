@@ -30540,6 +30540,1122 @@
      "Gadget Bridge"
     ]
    }
+  },
+  "dji-osmo-action-5-pro": {
+   "cat": "v-sport",
+   "short": "DJI Osmo Action 5 Pro",
+   "ref": "4K 120 · double écran · 20 m",
+   "badge": "Le choix de la bande",
+   "verdict": "La caméra d'action la mieux placée en rapport qualité/prix : très bien stabilisée, double écran tactile et étanche à 20 mètres, avec une autonomie en hausse. Pas d'interface HDMI et pas de GPS intégré.",
+   "strengths": [
+    "Deux écrans tactiles",
+    "Excellente stabilisation",
+    "Étanche à 20 mètres, autonomie en hausse"
+   ],
+   "weak": [
+    "Pas de GPS intégré",
+    "Pas d'interface HDMI",
+    "Bouton déclencheur un peu dur"
+   ],
+   "m": [
+    "4K 120",
+    "Double écran"
+   ],
+   "id": "dji-osmo-action-5-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 362.0,
+     "url": "https://www.amazon.fr/dp/B07FW4CZZL?tag=geekconcept-21",
+     "name": "Bundle Aventure DJI Osmo Action 5 Pro, caméra d'action 4K voyage/vlog, capteur 1/1,3, 12 h d'autonomie avec 3 batteries",
+     "cfg": "",
+     "asin": "B07FW4CZZL"
+    }
+   ],
+   "press": {
+    "avg": 8.5625,
+    "n": 8,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/technology/cameras/action-cameras/dji-osmo-action-5-pro-review",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/dji/2425684_test-de-la-dji-osmo-action-5-pro-du-coup-detat-au-couronnement",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": 9.0,
+      "url": "https://www.slashgear.com/1668129/dji-osmo-action-5-pro-review-night-dark-performance-camera/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.5,
+      "url": "https://www.engadget.com/cameras/dji-osmo-action-5-pro-review-finally-a-worthy-gopro-rival-143027778.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/dji-osmo-action-5-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/DJI-Osmo-Action-5-Pro-im-CHIP-Test_185478503.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/dji-osmo-action-5-pro-review",
+      "date": ""
+     },
+     {
+      "src": "ImTest",
+      "score": 8.0,
+      "url": "https://www.imtest.de/einzeltests/dji-osmo-action-5-pro-test-action-cam-review/527812",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dji-osmo-action-5-pro-test-3207808.html",
+      "date": ""
+     },
+     {
+      "src": "TechBroll",
+      "score": null,
+      "url": "https://techbroll.com/2025/02/dji-osmo-action-5-pro-review-5-reasons-why-you-should-consider-it.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/dji-osmo-action-5-pro",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dji-osmo-action-5-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 362.0,
+   "img": "dji-osmo-action-5-pro.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit médias ont noté l'Osmo Action 5 Pro, pour une moyenne de 8,6/10. ExpertReviews lui donne 10/10, SlashGear et FrAndroid 9/10, Engadget 8,5/10, tandis que Digital Camera World, Chip.de, ImTest et Camera Jabber s'en tiennent à 8/10.\n\nLes testeurs apprécient les deux écrans tactiles, l'excellente stabilisation, l'étanchéité jusqu'à 20 mètres, une qualité d'image convaincante de jour comme de nuit et une autonomie en hausse. Ils relèvent l'absence de GPS intégré et d'interface HDMI, un bouton déclencheur un peu dur et un système de fixation que GoPro fait mieux cette année.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 12,
+    "sources": [
+     "ExpertReviews",
+     "SlashGear",
+     "FrAndroid",
+     "Engadget",
+     "Digital Camera World",
+     "Chip.de",
+     "ImTest",
+     "Camera Jabber"
+    ]
+   }
+  },
+  "dji-osmo-action-6": {
+   "cat": "v-sport",
+   "short": "DJI Osmo Action 6",
+   "ref": "8K · capteur 1/1,1\" · ouverture variable",
+   "badge": "Meilleure note",
+   "verdict": "La note la plus haute de la sélection (9,6/10, sur 4 tests) : un grand capteur carré, une ouverture variable et d'excellentes performances en faible lumière. Un peu plus lourde, toujours sans GPS.",
+   "strengths": [
+    "Ouverture variable de f/2,0 à f/4,0",
+    "Excellente performance en faible luminosité",
+    "Longue durée de vie de la batterie"
+   ],
+   "weak": [
+    "Pas de GPS",
+    "Légèrement plus lourde que sa devancière",
+    "Micro mal placé, risque d'obstruction"
+   ],
+   "m": [
+    "8K",
+    "Capteur 1/1,1\""
+   ],
+   "id": "dji-osmo-action-6",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 426.0,
+     "url": "https://www.amazon.fr/dp/B0FNMP8LZX?tag=geekconcept-21",
+     "name": "DJI Bundle Essentiel Osmo Action 6, caméra d'action 8K à démarrage rapide, capteur carré de 1/1,1 pouce",
+     "cfg": "",
+     "asin": "B0FNMP8LZX"
+    }
+   ],
+   "press": {
+    "avg": 9.6,
+    "n": 4,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Camera Jabber",
+      "score": 10.0,
+      "url": "https://camerajabber.com/reviews/dji-osmo-action-6-review/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 10.0,
+      "url": "https://www.t3.com/tech/gopro-action-cameras/dji-osmo-action-6-review",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.4,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-osmo-action-6-test/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-dji-osmo-action-6/",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/dji-osmo-action-6-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dji-osmo-action-6-test-3211450.html",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/dji-osmo-action-6-test,3444506.html",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/action-cam/dji-osmo-action-6-p77373/test.html",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Mehr-Sensor-mehr-Blende-mehr-Moeglichkeiten-Unser-Test-der-DJI-Osmo-Action-6.1168344.0.html",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": null,
+      "url": "https://www.slashgear.com/2040571/dji-osmo-action-6-review-camera-testing/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 426.0,
+   "img": "dji-osmo-action-6.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias ont noté l'Osmo Action 6, pour une moyenne de 9,6/10, la meilleure de la sélection. T3 et Camera Jabber lui donnent 10/10, Basic Tutorials 9,4/10 et Presse Citron 9/10.\n\nLes tests louent l'ouverture variable de f/2,0 à f/4,0, d'excellentes performances en basse lumière, une longue durée de batterie et des objectifs interchangeables. Ils notent en revanche l'absence de GPS, un poids légèrement supérieur au modèle précédent, un micro mal placé qui risque d'être obstrué et un zoom numérique médiocre. Le faible nombre de tests invite à relativiser cette moyenne.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 10,
+    "sources": [
+     "T3",
+     "Camera Jabber",
+     "Basic Tutorials",
+     "Presse Citron"
+    ]
+   }
+  },
+  "gopro-hero13-black": {
+   "cat": "v-sport",
+   "short": "GoPro HERO13 Black",
+   "ref": "5.3K 60 · objectifs HB · 27 MP",
+   "badge": "Valeur sûre",
+   "verdict": "La caméra d'action de référence : une stabilisation exceptionnelle, une très bonne image de jour et des objectifs interchangeables. Plus en retrait en basse lumière que la concurrence récente.",
+   "strengths": [
+    "Stabilisation exceptionnelle",
+    "Excellente qualité d'image de jour",
+    "Objectifs interchangeables et autonomie à toute épreuve"
+   ],
+   "weak": [
+    "En retrait en basse lumière",
+    "Surchauffe à haute résolution",
+    "Carte SD non fournie"
+   ],
+   "m": [
+    "5.3K 60",
+    "Objectifs HB"
+   ],
+   "id": "gopro-hero13-black",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 384.16,
+     "url": "https://www.amazon.fr/dp/B0F8PHLFX1?tag=geekconcept-21",
+     "name": "GoPro HERO13 Black en Vert forêt (Couleur en édition limitée) - Caméra d'action étanche avec vidéo 5.3K60, Photo 27MP",
+     "cfg": "",
+     "asin": "B0F8PHLFX1"
+    }
+   ],
+   "press": {
+    "avg": 8.11111111111111,
+    "n": 9,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "SlashGear",
+      "score": 9.0,
+      "url": "https://www.slashgear.com/1662680/gopro-hero-13-black-review-action-camera-upgrading-almost-everything/",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": 9.0,
+      "url": "https://blog.studiosport.fr/test-de-la-gopro-hero-13-black/",
+      "date": ""
+     },
+     {
+      "src": "Actualidad Gadget",
+      "score": 8.0,
+      "url": "https://www.actualidadgadget.com/go-pro-hero-13-black-analisis-con-precio-y-caracteristicas/",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/gopro-hero13-black-review/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/GoPro-Hero-13-Black-im-CHIP-Test_185443999.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/gopro-hero13-black-hands-on-review",
+      "date": ""
+     },
+     {
+      "src": "ImTest",
+      "score": 8.0,
+      "url": "https://www.imtest.de/einzeltests/gopro-hero-13-black-test-actioncam/525865",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-gopro-hero-13-black/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/gopro/2403062_test-de-la-gopro-hero-13-black-encore-plus-pro-mais-que-pour-les-pros",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/gopro-hero-13-vs-dji-osmo-action-5-pro-confronto",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/cameras/action-cameras/gopro-hero-13-black-review",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/gopro-hero-13-black/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 384.16,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Neuf médias ont noté la GoPro Hero 13 Black, pour une moyenne de 8,1/10. SlashGear et StudioSport lui attribuent 9/10, Chip.de, Digital Camera World, ImTest, Presse Citron et Camera Jabber 8/10, tandis que FrAndroid ne va pas au-delà de 7/10.\n\nLes tests soulignent une stabilisation parmi les meilleures du marché, une très bonne image de jour, une autonomie solide et des objectifs interchangeables pour des résultats plus professionnels. Les points faibles sont une performance en retrait en basse lumière, une surchauffe à haute résolution, le prix des accessoires et l'absence de carte SD dans la boîte.",
+    "date": "2026-10-28",
+    "n": 9,
+    "tests": 12,
+    "sources": [
+     "SlashGear",
+     "StudioSport",
+     "Chip.de",
+     "Digital Camera World",
+     "ImTest",
+     "Presse Citron",
+     "Camera Jabber",
+     "FrAndroid"
+    ]
+   }
+  },
+  "insta360-ace-pro-2": {
+   "cat": "v-sport",
+   "short": "Insta360 Ace Pro 2",
+   "ref": "8K · objectif Leica · écran rabattable",
+   "badge": "8K polyvalente",
+   "verdict": "Une caméra d'action 8K à objectif Leica, très bonne en faible lumière, avec un écran tactile rabattable. Les couleurs HDR sont parfois artificielles et le boîtier un peu plus lourd.",
+   "strengths": [
+    "Vidéo 8K",
+    "Très bonne stabilisation d'image",
+    "Performance élevée en faible luminosité"
+   ],
+   "weak": [
+    "Couleurs HDR parfois artificielles",
+    "Un peu plus lourde que la concurrence",
+    "Écran avant peu exploité"
+   ],
+   "m": [
+    "8K",
+    "Leica"
+   ],
+   "id": "insta360-ace-pro-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 379.0,
+     "url": "https://www.amazon.fr/dp/B0DHD6SFJB?tag=geekconcept-21",
+     "name": "Insta360 Ace Pro 2 Noir Minuit - Caméra d'action 8K Objectif Leica, capteur 1/1,3, HDR 4K",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DHD6SFJB"
+    }
+   ],
+   "press": {
+    "avg": 8.333333333333334,
+    "n": 3,
+    "tests": 9,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "SlashGear",
+      "score": 9.0,
+      "url": "https://www.slashgear.com/1694267/insta360-ace-pro-2-review-double-action-cam-power-battery-life-price/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Insta360-Ace-Pro-2-im-Test_185541834.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/insta360-ace-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/insta360-ace-pro-2-flash-print-bundle-sofortbildkamera-test-review/403146975",
+      "date": ""
+     },
+     {
+      "src": "GamesWelt",
+      "score": null,
+      "url": "https://www.gameswelt.de/insta360-ace-pro-2/test/test-diese-8k-action-cam-heizt-dji-und-gopro-ordentlich-ein-333815?utm_campaign=tbuk",
+      "date": ""
+     },
+     {
+      "src": "NextGenTech",
+      "score": null,
+      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-ace-pro-2-recensione/",
+      "date": ""
+     },
+     {
+      "src": "ObjetConnecte.net",
+      "score": null,
+      "url": "https://technplay.com/jai-teste-le-insta360-ace-pro-2/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/insta360-ace-pro-2",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/insta360-ace-pro-2-xplorer-grip-pro-kit/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 379.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Trois médias ont noté l'Ace Pro 2, pour une moyenne de 8,3/10 : SlashGear lui donne 9/10, Chip.de et Digital Camera World 8/10.\n\nLes testeurs retiennent la vidéo 8K, une très bonne stabilisation, de bonnes performances en faible lumière et un écran tactile rabattable, avec une qualité photo appréciée. Ils regrettent des couleurs HDR parfois peu naturelles, un boîtier un peu plus lourd que la concurrence et un écran avant sous-exploité. Le faible nombre de tests invite à rester prudent sur la moyenne.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 9,
+    "sources": [
+     "SlashGear",
+     "Chip.de",
+     "Digital Camera World"
+    ]
+   }
+  },
+  "dji-osmo-pocket-3": {
+   "cat": "v-sport",
+   "short": "DJI Osmo Pocket 3",
+   "ref": "CMOS 1\" · 4K 120 · nacelle 3 axes",
+   "badge": "Vlog de poche",
+   "verdict": "La caméra de vlog de poche à nacelle 3 axes : une stabilisation efficace, une bonne image et une grande autonomie pour un format très compact. Autofocus parfois capricieux et batterie inamovible. Peu de tests récents.",
+   "strengths": [
+    "Stabilisation efficace",
+    "Bonne qualité d'image, compacte",
+    "Longue durée de vie de la batterie"
+   ],
+   "weak": [
+    "Autofocus parfois capricieux",
+    "Batterie inamovible",
+    "Gestion du bruit en haute sensibilité"
+   ],
+   "m": [
+    "4K 120",
+    "Nacelle 3 axes"
+   ],
+   "id": "dji-osmo-pocket-3",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 336.45,
+     "url": "https://www.amazon.fr/dp/B0CG19QXWD?tag=geekconcept-21",
+     "name": "DJI Osmo Pocket 3, Caméra Vlogging CMOS 1'' et Vidéo 4K/120 IPS, stabilisation à 3 axes",
+     "cfg": "",
+     "asin": "B0CG19QXWD"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 8.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/agfaphoto-realimove-mc3x-test/",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dji-osmo-pocket-3",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/dji-osmo-pocket-3-test,3406997.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 336.45,
+   "img": "dji-osmo-pocket-3.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Deux médias ont noté l'Osmo Pocket 3 depuis 2024 : tuttoteK et Basic Tutorials lui donnent chacun 8/10.\n\nLes tests retiennent une stabilisation efficace, une bonne qualité d'image pour un format très compact, une longue autonomie et des fonctions créatives variées, dont la diffusion en direct. Ils notent un autofocus parfois capricieux, une batterie inamovible, une gestion du bruit moyenne en haute sensibilité, l'absence de chargeur et un tarif élevé. Peu de tests récents sont disponibles pour ce modèle.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "tuttoteK",
+     "Basic Tutorials"
+    ]
+   }
+  },
+  "dji-osmo-pocket-4p": {
+   "cat": "v-sport",
+   "short": "DJI Osmo Pocket 4P",
+   "ref": "Double objectif · zoom 3x · 4K 240",
+   "badge": "Double objectif",
+   "verdict": "La nouvelle caméra de poche de DJI : deux objectifs, un zoom optique 3x et une qualité d'image exceptionnelle selon les tests. Chère, sans protection contre les intempéries et avec quelques limites en D-Log 2.",
+   "strengths": [
+    "Qualité d'image exceptionnelle",
+    "Deux objectifs, zoom optique 3x",
+    "Plage dynamique améliorée"
+   ],
+   "weak": [
+    "Très chère",
+    "Pas de protection contre les intempéries",
+    "Limites en D-Log 2"
+   ],
+   "m": [
+    "4K 240",
+    "Zoom 3x"
+   ],
+   "id": "dji-osmo-pocket-4p",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 599.0,
+     "url": "https://www.amazon.fr/dp/B0H2MRDB2C?tag=geekconcept-21",
+     "name": "DJI Bundle Standard Osmo Pocket 4P, caméra vlog 4K à Double Objectif, zoom optique 3×",
+     "cfg": "",
+     "asin": "B0H2MRDB2C"
+    }
+   ],
+   "press": {
+    "avg": 8.459999999999999,
+    "n": 5,
+    "tests": 11,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.3,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-osmo-pocket-4p-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 9.0,
+      "url": "https://www.engadget.com/2226364/dji-osmo-pocket-4p-review/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/jai-teste-la-dji-osmo-pocket-4p-le-double-objectif-change-t-il-vraiment-la-donne.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/dji-pocket-4p",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/action-cam/dji-osmo-pocket-p4-p78620/test.html",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/dji-osmo-pocket-4p-test/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": null,
+      "url": "https://www.chip.de/test-kaufberatung/foto-video/kinoqualitaet-fuer-die-hosentasche-dji-osmo-pocket-4p-im-test_70db4f0d-70fb-45a0-af74-d873ee825821.html",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/dji-osmo-pocket-4p-test-erfahrung-bildqualitaet-gimbal-preis/403196090",
+      "date": ""
+     },
+     {
+      "src": "GameWave",
+      "score": null,
+      "url": "https://gamewave.fr/tests/dji-osmo-pocket-4p-test-de-la-camera-de-poche-qui-voit-desormais-double/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/DJI-Osmo-Pocket-4P-im-Test-Zwei-Objektive-starke-4K-Qualitaet-zum-Kampfpreis.1338429.0.html",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": null,
+      "url": "https://www.slashgear.com/2235706/dji-osmo-pocket-4p-review-beyond-testing/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 599.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias ont noté l'Osmo Pocket 4P, pour une moyenne de 8,5/10. Basic Tutorials lui donne 9,3/10, Engadget 9/10, tandis qu'AndroidWorld, 01net et Les Numériques s'arrêtent à 8/10.\n\nLa presse retient une qualité d'image remarquable, deux objectifs avec un zoom optique de 3x, un capteur 1/1,28 pouce et une plage dynamique améliorée. Elle regrette un prix très élevé, l'absence de protection contre les intempéries, un changement d'objectif peu fluide et des limites du D-Log 2, utilisable seulement avec l'objectif principal.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 11,
+    "sources": [
+     "Basic Tutorials",
+     "Engadget",
+     "AndroidWorld",
+     "01net",
+     "Les Numériques"
+    ]
+   }
+  },
+  "insta360-x5": {
+   "cat": "v-sport",
+   "short": "Insta360 X5",
+   "ref": "8K 360° · capteurs 1/1,28\" · objectifs remplaçables",
+   "badge": "360° de référence",
+   "verdict": "La caméra 360° la mieux couverte par la presse (11 tests) : vidéo 8K, bonne qualité jour et nuit, objectifs remplaçables. Grande et lourde, avec une autonomie moyenne et un prix élevé.",
+   "strengths": [
+    "Vidéo 8K, mode InstaFrame",
+    "Objectifs remplaçables",
+    "Grand écran tactile, étanche"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Batterie médiocre",
+    "Grande et lourde"
+   ],
+   "m": [
+    "8K 360°",
+    "Objectifs remplaçables"
+   ],
+   "id": "insta360-x5",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 582.0,
+     "url": "https://www.amazon.fr/dp/B0DZCBYCNY?tag=geekconcept-21",
+     "name": "Insta360 X5 - Caméra 360 8K, Double Capteur 1/1,28, objectifs robustes & remplaçables, étanche",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DZCBYCNY"
+    }
+   ],
+   "press": {
+    "avg": 8.481818181818182,
+    "n": 11,
+    "tests": 15,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.3,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/insta360-x5-test/",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-insta360-x5-la-meilleure-camera-daction-cest-elle/",
+      "date": ""
+     },
+     {
+      "src": "NextGenTech",
+      "score": 9.0,
+      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-x5-recensione/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-insta360-x5/",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": 9.0,
+      "url": "https://www.slashgear.com/1841277/insta360-x5-review-refined-robust-the-best360-action-camera/",
+      "date": ""
+     },
+     {
+      "src": "Allround-PC",
+      "score": 8.0,
+      "url": "https://www.allround-pc.com/artikel/gadgets/insta360-x5-test-perfekte-360-grad-kamera-urlaub-sport-reisen",
+      "date": ""
+     },
+     {
+      "src": "CNET France",
+      "score": 8.0,
+      "url": "https://www.cnetfrance.fr/produits/test-insta360-x5-le-monde-autour-de-vous-en-une-seule-prise-cest-possible-433959.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/insta360/2745271_test-de-linsta360-x5-plus-seule-au-royaume-des-cameras-360-mais-toujours-sur-le-trone",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/camera-360-degres/insta360-insta360-x5-p76556/test.html",
+      "date": ""
+     },
+     {
+      "src": "Neozone",
+      "score": 8.0,
+      "url": "https://www.neozone.org/tests/video-envoyee-par-mail-je-teste-la-camera-insta360-x5-pack-essentiels-une-camera-360-8k-qui-sublime-mes-balades-et-mes-tests/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/insta360-x5",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/insta360-x4-x5-test-review-360-grad-kamera-action-cam-funktionen/403058348",
+      "date": ""
+     },
+     {
+      "src": "GameRevolution",
+      "score": null,
+      "url": "https://www.gamerevolution.com/review/981564-insta360-x5-review-action-camera-worth-buying-8k-360",
+      "date": ""
+     },
+     {
+      "src": "Hardware Upgrade",
+      "score": null,
+      "url": "https://smarthome.hwupgrade.it/articoli/audio-video/7029/insta360-x5-e-sempre-la-regina-delle-action-cam-a-360-gradi-recensione_index.html",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/insta360-x5-360-camera/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 582.0,
+   "img": "insta360-x5.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Onze médias ont noté l'Insta360 X5, pour une moyenne de 8,5/10. Basic Tutorials lui donne 9,3/10, Journal du Geek, SlashGear, Presse Citron et NextGenTech 9/10, tandis que Trusted Reviews, Les Numériques, FrAndroid, Neozone, Allround-PC et CNET France s'en tiennent à 8/10.\n\nLes testeurs apprécient la vidéo 8K, le grand écran tactile, l'étanchéité et surtout les objectifs désormais remplaçables, ainsi que le mode InstaFrame qui permet de recadrer après coup. Ils reprochent un prix élevé, une autonomie médiocre, un format grand et lourd pour une caméra d'action et un certain temps d'apprentissage, sans commandes vocales en français.",
+    "date": "2026-10-28",
+    "n": 11,
+    "tests": 15,
+    "sources": [
+     "Basic Tutorials",
+     "Journal du Geek",
+     "SlashGear",
+     "Presse Citron",
+     "NextGenTech",
+     "Trusted Reviews",
+     "Les Numériques",
+     "FrAndroid",
+     "Neozone",
+     "Allround-PC",
+     "CNET France"
+    ]
+   }
+  },
+  "dji-osmo-360": {
+   "cat": "v-sport",
+   "short": "DJI Osmo 360",
+   "ref": "8K 360° · capteur 1\" · perche invisible",
+   "badge": "360° plus abordable",
+   "verdict": "Une caméra 360° à grand capteur 1 pouce : image nette, très bonne stabilisation et mode perche invisible convaincant. Objectifs fragiles et non interchangeables, application Windows décevante.",
+   "strengths": [
+    "Images nettes et de haute qualité",
+    "Stabilisation de haut niveau",
+    "Mode perche invisible convaincant"
+   ],
+   "weak": [
+    "Objectifs fragiles, non interchangeables",
+    "Application Windows décevante",
+    "Écran tactile un peu petit"
+   ],
+   "m": [
+    "8K 360°",
+    "Capteur 1\""
+   ],
+   "id": "dji-osmo-360",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 408.08,
+     "url": "https://www.amazon.fr/dp/B0FXGWJNNZ?tag=geekconcept-21",
+     "name": "Bundle Essentiel DJI Osmo 360, Caméra Moto 360, imagerie 360° de 1 pouce, vidéo 360° en 8K native, perche invisible 1,2 m",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FXGWJNNZ"
+    }
+   ],
+   "press": {
+    "avg": 8.5125,
+    "n": 8,
+    "tests": 14,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/technology/action-cameras/dji-osmo-360-review",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.1,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-osmo-360-test/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/dji-osmo-360",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/dji-osmo-360-camera-review/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.0,
+      "url": "https://www.engadget.com/2260043/dji-osmo-360-ii-review/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/dji/2778779_test-de-la-dji-osmo-360-une-entree-fracassante-dans-le-royaume-des-cameras-360",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-dji-osmo-360/",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": 8.0,
+      "url": "https://blog.studiosport.fr/test-dji-osmo-360/",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2025/07/31/dji-osmo-360-test/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": null,
+      "url": "https://leclaireur.fnac.com/test/692857-test-dji-osmo-360-ii-2/",
+      "date": ""
+     },
+     {
+      "src": "PhotographyLife",
+      "score": null,
+      "url": "https://photographylife.com/reviews/dji-osmo-360-action-camera",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": null,
+      "url": "https://www.slashgear.com/1973074/dji-osmo-360-review-features-flaws-price/",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/14670/insta360-x5-vs-gopro-max2-vs-dji-osmo-360-360-gradencameras-met-8k-video.html",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dji-osmo-360/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 408.08,
+   "img": "dji-osmo-360.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit médias ont noté l'Osmo 360, pour une moyenne de 8,5/10. ExpertReviews lui accorde 10/10, Basic Tutorials 9,1/10, Trusted Reviews 9/10, alors que Presse Citron, StudioSport, Camera Jabber, FrAndroid et Engadget s'arrêtent à 8/10.\n\nLa presse retient des images nettes grâce à un grand capteur lumineux, une stabilisation de très haut niveau, la vidéo 8K à 50 images par seconde et un mode perche invisible particulièrement convaincant. Elle regrette un design fade, des objectifs fragiles et non interchangeables, un écran tactile un peu petit et une application Windows décevante.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 14,
+    "sources": [
+     "ExpertReviews",
+     "Basic Tutorials",
+     "Trusted Reviews",
+     "Presse Citron",
+     "StudioSport",
+     "Camera Jabber",
+     "FrAndroid",
+     "Engadget"
+    ]
+   }
+  },
+  "insta360-go-ultra": {
+   "cat": "v-sport",
+   "short": "Insta360 GO Ultra",
+   "ref": "4K · 53 g · magnétique · mains libres",
+   "badge": "Mains libres",
+   "verdict": "Une mini-caméra magnétique de 53 grammes à poser sur un vêtement, avec une image nettement améliorée et une bonne autonomie grâce à l'Action Pod. Chère, et l'étanchéité est limitée avec le boîtier.",
+   "strengths": [
+    "Mise à niveau massive de la qualité d'image",
+    "Connexion magnétique bien plus forte",
+    "Légère : 53 grammes"
+   ],
+   "weak": [
+    "Très chère",
+    "Étanchéité IPX4 avec l'Action Pod",
+    "Montage IA un peu bâclé"
+   ],
+   "m": [
+    "4K",
+    "53 g"
+   ],
+   "id": "insta360-go-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 429.0,
+     "url": "https://www.amazon.fr/dp/B0FH22RB4S?tag=geekconcept-21",
+     "name": "Insta360 GO Ultra Noir - Caméra Vlog 4K Mains Libres, caméra d'action magnétique portable",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FH22RB4S"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 5,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/insta360-go-ultra",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Insta360-GO-Ultra-im-Test_186247594.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-insta360-go-ultra/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/cameras-photography/gopro-action-cameras/insta360-go-ultra-review",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/action-cam/insta360-go-ultra-p76989/test.html",
+      "date": ""
+     },
+     {
+      "src": "NextGenTech",
+      "score": null,
+      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-go-ultra-recensione/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/insta360-go-ultra/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 429.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias ont noté la GO Ultra, pour une moyenne de 8/10. Trusted Reviews lui donne 10/10, Chip.de, Presse Citron et Tom's Guide (US) 8/10, tandis que Les Numériques s'arrêtent à 6/10.\n\nLes tests soulignent une nette amélioration de la qualité d'image, un aimant bien plus solide, un poids de seulement 53 grammes et une meilleure autonomie grâce à l'Action Pod. Les critiques portent sur un prix en forte hausse, une étanchéité limitée à l'IPX4 avec le boîtier, un montage par intelligence artificielle un peu bâclé et un format moins fin que les générations précédentes.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 7,
+    "sources": [
+     "Trusted Reviews",
+     "Chip.de",
+     "Presse Citron",
+     "Tom's Guide (US)",
+     "Les Numériques"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

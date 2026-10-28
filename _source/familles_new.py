@@ -109,6 +109,12 @@ VCATS = [
          seo_desc="Les meilleures caméras de surveillance connectées en 2026, intérieur et extérieur, classées par note presse : Tapo, Ezviz, Reolink, Eufy, Arlo. Prix indicatifs, points forts et faibles.",
          h1='Les meilleures <span class="flash">caméras de surveillance</span> en 2026',
          intro="Intérieur ou extérieur, filaires ou sur batterie : la presse départage la qualité d'image de jour comme de nuit, la détection, le stockage et l'abonnement éventuel. Voici les caméras qui ont des notes chiffrées et une offre d'achat."),
+    dict(key="v-sport", slug="cameras-sport-360-vlog", label="Caméras sport, 360° et vlog", top_label="caméras sport, 360° et vlog", h="Caméras sport, 360° et vlog", tag="Filmer l'action sans rien rater", color="var(--cat-creation)", cls="f-creation", badge="cameras-sport", scene="video-sport", scene_alt="Le père de famille geek, une caméra d'action fixée au casque, descend un chemin en vélo, le sourire jusqu'aux oreilles",
+         plural_low="caméras",
+         seo_title="Meilleures caméras sport, 360° et vlog 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleures caméras d'action, caméras 360° et caméras de vlog en 2026, classées par note presse : DJI, GoPro, Insta360. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleures <span class="flash">caméras sport, 360° et vlog</span> en 2026',
+         intro="Caméra d'action, caméra 360° ou caméra de vlog de poche : la presse départage la stabilisation, la qualité d'image, l'autonomie et la résistance. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
 ]
 
 FAMILIES_NEW = [

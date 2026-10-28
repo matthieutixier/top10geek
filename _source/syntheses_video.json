@@ -95,5 +95,113 @@
    "FrAndroid",
    "Chip.de"
   ]
+ },
+ {
+  "id": "insta360-x5",
+  "texte": "Onze médias ont noté l'Insta360 X5, pour une moyenne de 8,5/10. Basic Tutorials lui donne 9,3/10, Journal du Geek, SlashGear, Presse Citron et NextGenTech 9/10, tandis que Trusted Reviews, Les Numériques, FrAndroid, Neozone, Allround-PC et CNET France s'en tiennent à 8/10.\n\nLes testeurs apprécient la vidéo 8K, le grand écran tactile, l'étanchéité et surtout les objectifs désormais remplaçables, ainsi que le mode InstaFrame qui permet de recadrer après coup. Ils reprochent un prix élevé, une autonomie médiocre, un format grand et lourd pour une caméra d'action et un certain temps d'apprentissage, sans commandes vocales en français.",
+  "sources": [
+   "Basic Tutorials",
+   "Journal du Geek",
+   "SlashGear",
+   "Presse Citron",
+   "NextGenTech",
+   "Trusted Reviews",
+   "Les Numériques",
+   "FrAndroid",
+   "Neozone",
+   "Allround-PC",
+   "CNET France"
+  ]
+ },
+ {
+  "id": "dji-osmo-360",
+  "texte": "Huit médias ont noté l'Osmo 360, pour une moyenne de 8,5/10. ExpertReviews lui accorde 10/10, Basic Tutorials 9,1/10, Trusted Reviews 9/10, alors que Presse Citron, StudioSport, Camera Jabber, FrAndroid et Engadget s'arrêtent à 8/10.\n\nLa presse retient des images nettes grâce à un grand capteur lumineux, une stabilisation de très haut niveau, la vidéo 8K à 50 images par seconde et un mode perche invisible particulièrement convaincant. Elle regrette un design fade, des objectifs fragiles et non interchangeables, un écran tactile un peu petit et une application Windows décevante.",
+  "sources": [
+   "ExpertReviews",
+   "Basic Tutorials",
+   "Trusted Reviews",
+   "Presse Citron",
+   "StudioSport",
+   "Camera Jabber",
+   "FrAndroid",
+   "Engadget"
+  ]
+ },
+ {
+  "id": "gopro-hero13-black",
+  "texte": "Neuf médias ont noté la GoPro Hero 13 Black, pour une moyenne de 8,1/10. SlashGear et StudioSport lui attribuent 9/10, Chip.de, Digital Camera World, ImTest, Presse Citron et Camera Jabber 8/10, tandis que FrAndroid ne va pas au-delà de 7/10.\n\nLes tests soulignent une stabilisation parmi les meilleures du marché, une très bonne image de jour, une autonomie solide et des objectifs interchangeables pour des résultats plus professionnels. Les points faibles sont une performance en retrait en basse lumière, une surchauffe à haute résolution, le prix des accessoires et l'absence de carte SD dans la boîte.",
+  "sources": [
+   "SlashGear",
+   "StudioSport",
+   "Chip.de",
+   "Digital Camera World",
+   "ImTest",
+   "Presse Citron",
+   "Camera Jabber",
+   "FrAndroid"
+  ]
+ },
+ {
+  "id": "dji-osmo-action-5-pro",
+  "texte": "Huit médias ont noté l'Osmo Action 5 Pro, pour une moyenne de 8,6/10. ExpertReviews lui donne 10/10, SlashGear et FrAndroid 9/10, Engadget 8,5/10, tandis que Digital Camera World, Chip.de, ImTest et Camera Jabber s'en tiennent à 8/10.\n\nLes testeurs apprécient les deux écrans tactiles, l'excellente stabilisation, l'étanchéité jusqu'à 20 mètres, une qualité d'image convaincante de jour comme de nuit et une autonomie en hausse. Ils relèvent l'absence de GPS intégré et d'interface HDMI, un bouton déclencheur un peu dur et un système de fixation que GoPro fait mieux cette année.",
+  "sources": [
+   "ExpertReviews",
+   "SlashGear",
+   "FrAndroid",
+   "Engadget",
+   "Digital Camera World",
+   "Chip.de",
+   "ImTest",
+   "Camera Jabber"
+  ]
+ },
+ {
+  "id": "dji-osmo-action-6",
+  "texte": "Quatre médias ont noté l'Osmo Action 6, pour une moyenne de 9,6/10, la meilleure de la sélection. T3 et Camera Jabber lui donnent 10/10, Basic Tutorials 9,4/10 et Presse Citron 9/10.\n\nLes tests louent l'ouverture variable de f/2,0 à f/4,0, d'excellentes performances en basse lumière, une longue durée de batterie et des objectifs interchangeables. Ils notent en revanche l'absence de GPS, un poids légèrement supérieur au modèle précédent, un micro mal placé qui risque d'être obstrué et un zoom numérique médiocre. Le faible nombre de tests invite à relativiser cette moyenne.",
+  "sources": [
+   "T3",
+   "Camera Jabber",
+   "Basic Tutorials",
+   "Presse Citron"
+  ]
+ },
+ {
+  "id": "insta360-ace-pro-2",
+  "texte": "Trois médias ont noté l'Ace Pro 2, pour une moyenne de 8,3/10 : SlashGear lui donne 9/10, Chip.de et Digital Camera World 8/10.\n\nLes testeurs retiennent la vidéo 8K, une très bonne stabilisation, de bonnes performances en faible lumière et un écran tactile rabattable, avec une qualité photo appréciée. Ils regrettent des couleurs HDR parfois peu naturelles, un boîtier un peu plus lourd que la concurrence et un écran avant sous-exploité. Le faible nombre de tests invite à rester prudent sur la moyenne.",
+  "sources": [
+   "SlashGear",
+   "Chip.de",
+   "Digital Camera World"
+  ]
+ },
+ {
+  "id": "insta360-go-ultra",
+  "texte": "Cinq médias ont noté la GO Ultra, pour une moyenne de 8/10. Trusted Reviews lui donne 10/10, Chip.de, Presse Citron et Tom's Guide (US) 8/10, tandis que Les Numériques s'arrêtent à 6/10.\n\nLes tests soulignent une nette amélioration de la qualité d'image, un aimant bien plus solide, un poids de seulement 53 grammes et une meilleure autonomie grâce à l'Action Pod. Les critiques portent sur un prix en forte hausse, une étanchéité limitée à l'IPX4 avec le boîtier, un montage par intelligence artificielle un peu bâclé et un format moins fin que les générations précédentes.",
+  "sources": [
+   "Trusted Reviews",
+   "Chip.de",
+   "Presse Citron",
+   "Tom's Guide (US)",
+   "Les Numériques"
+  ]
+ },
+ {
+  "id": "dji-osmo-pocket-3",
+  "texte": "Deux médias ont noté l'Osmo Pocket 3 depuis 2024 : tuttoteK et Basic Tutorials lui donnent chacun 8/10.\n\nLes tests retiennent une stabilisation efficace, une bonne qualité d'image pour un format très compact, une longue autonomie et des fonctions créatives variées, dont la diffusion en direct. Ils notent un autofocus parfois capricieux, une batterie inamovible, une gestion du bruit moyenne en haute sensibilité, l'absence de chargeur et un tarif élevé. Peu de tests récents sont disponibles pour ce modèle.",
+  "sources": [
+   "tuttoteK",
+   "Basic Tutorials"
+  ]
+ },
+ {
+  "id": "dji-osmo-pocket-4p",
+  "texte": "Cinq médias ont noté l'Osmo Pocket 4P, pour une moyenne de 8,5/10. Basic Tutorials lui donne 9,3/10, Engadget 9/10, tandis qu'AndroidWorld, 01net et Les Numériques s'arrêtent à 8/10.\n\nLa presse retient une qualité d'image remarquable, deux objectifs avec un zoom optique de 3x, un capteur 1/1,28 pouce et une plage dynamique améliorée. Elle regrette un prix très élevé, l'absence de protection contre les intempéries, un changement d'objectif peu fluide et des limites du D-Log 2, utilisable seulement avec l'objectif principal.",
+  "sources": [
+   "Basic Tutorials",
+   "Engadget",
+   "AndroidWorld",
+   "01net",
+   "Les Numériques"
+  ]
  }
 ]

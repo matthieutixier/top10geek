@@ -327,4 +327,18 @@ GUIDES_NEW = {
             "Filmer l'espace public ou celui des voisins : la loi encadre le champ de vision d'une caméra extérieure."],
     budget=[("40 – 100 €", "Caméras d'intérieur et petits modèles extérieurs filaires ou à batterie."), ("120 – 300 €", "Caméras extérieures solaires, grand angle ou multi-objectifs, avec une meilleure image de nuit.")],
 ),
+"v-sport": dict(
+    titre="Comment choisir une caméra sport, 360° ou de vlog",
+    intro="Trois familles se côtoient : la <b>caméra d'action</b> (robuste, étanche), la <b>caméra 360°</b> (on filme tout, on recadre après) et la <b>caméra de vlog de poche</b> (stabilisée, pour se filmer). Choisissez d'abord l'usage, puis le budget.",
+    criteres=[
+        ("Usage et format", "Sport, vélo, plongée : une caméra d'action. Perche invisible et recadrage après coup : une caméra 360°. Vlog, voyage, famille : une caméra de poche à nacelle."),
+        ("Image en faible lumière", "Les grands capteurs (1/1,3 pouce et plus) et l'ouverture variable font la différence le soir et en intérieur : c'est ce que les tests départagent le plus."),
+        ("Stabilisation et autonomie", "Toutes stabilisent bien ; l'autonomie réelle, elle, diffère beaucoup d'un modèle à l'autre, surtout en 8K et à froid."),
+        ("Accessoires et écosystème", "Fixations, batteries de rechange et applications de montage pèsent dans le coût réel : GoPro et DJI ont l'offre la plus large."),
+    ],
+    pieges=["Se fier à la résolution annoncée : la 8K n'a d'intérêt qu'avec une bonne lumière et un montage derrière.",
+            "Oublier les accessoires et les cartes microSD, rarement fournis.",
+            "Acheter un pack avec des accessoires inutiles : comparez le contenu des bundles, plusieurs offres Amazon sont des packs."],
+    budget=[("330 – 430 €", "Caméras d'action et de vlog de poche : la grande majorité des modèles bien notés."), ("450 – 600 €", "Caméras 360° et caméras de poche à double objectif.")],
+),
 }

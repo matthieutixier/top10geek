@@ -10,6 +10,7 @@ from catalog_sols import S, TOP
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 VSV = "v-surv"
+VSP = "v-sport"
 VID = {}
 
 
@@ -129,6 +130,90 @@ add("blink-outdoor-4", VSV, "Blink Outdoor 4", "HD · piles 2 ans · module Sync
     "B0B1N5RL1Q", "Caméra Blink Outdoor 4 : caméra de surveillance connectée HD sans fil, 2 ans d'autonomie (caméra supplémentaire uniquement)", 74.99,
     "Vous êtes déjà dans l'écosystème Amazon/Alexa et voulez une caméra à piles.",
     "Vous voulez une caméra autonome sans module ni abonnement.")
+
+
+# ============================================================ CAMÉRAS SPORT / 360° / VLOG
+# Prix Amazon relevés le 28/10/2026 dans le navigateur ; vendeur indiqué quand ce n'est pas Amazon.
+add("dji-osmo-action-5-pro", VSP, "DJI Osmo Action 5 Pro", "4K 120 · double écran · 20 m", TOP,
+    "La caméra d'action la mieux placée en rapport qualité/prix : très bien stabilisée, double écran tactile et étanche à 20 mètres, avec une autonomie en hausse. Pas d'interface HDMI et pas de GPS intégré.",
+    ["Deux écrans tactiles", "Excellente stabilisation", "Étanche à 20 mètres, autonomie en hausse"],
+    ["Pas de GPS intégré", "Pas d'interface HDMI", "Bouton déclencheur un peu dur"],
+    ("4K 120", "Double écran"), "DJI Osmo Action 5 Pro",
+    "B07FW4CZZL", "Bundle Aventure DJI Osmo Action 5 Pro, caméra d'action 4K voyage/vlog, capteur 1/1,3, 12 h d'autonomie avec 3 batteries", 362.0,
+    "Vous voulez une caméra d'action polyvalente pour le sport, le voyage ou le vélo, avec trois batteries fournies.",
+    "Vous voulez filmer en 8K ou en 360°.")
+
+add("dji-osmo-action-6", VSP, "DJI Osmo Action 6", "8K · capteur 1/1,1\" · ouverture variable", "Meilleure note",
+    "La note la plus haute de la sélection (9,6/10, sur 4 tests) : un grand capteur carré, une ouverture variable et d'excellentes performances en faible lumière. Un peu plus lourde, toujours sans GPS.",
+    ["Ouverture variable de f/2,0 à f/4,0", "Excellente performance en faible luminosité", "Longue durée de vie de la batterie"],
+    ["Pas de GPS", "Légèrement plus lourde que sa devancière", "Micro mal placé, risque d'obstruction"],
+    ("8K", "Capteur 1/1,1\""), "DJI Osmo Action 6",
+    "B0FNMP8LZX", "DJI Bundle Essentiel Osmo Action 6, caméra d'action 8K à démarrage rapide, capteur carré de 1/1,1 pouce", 426.0,
+    "Vous filmez souvent en faible lumière et voulez le meilleur capteur d'une caméra d'action.",
+    "Vous cherchez la caméra la plus légère ou la moins chère.")
+
+add("gopro-hero13-black", VSP, "GoPro HERO13 Black", "5.3K 60 · objectifs HB · 27 MP", "Valeur sûre",
+    "La caméra d'action de référence : une stabilisation exceptionnelle, une très bonne image de jour et des objectifs interchangeables. Plus en retrait en basse lumière que la concurrence récente.",
+    ["Stabilisation exceptionnelle", "Excellente qualité d'image de jour", "Objectifs interchangeables et autonomie à toute épreuve"],
+    ["En retrait en basse lumière", "Surchauffe à haute résolution", "Carte SD non fournie"],
+    ("5.3K 60", "Objectifs HB"), "GoPro Hero 13 Black",
+    "B0F8PHLFX1", "GoPro HERO13 Black en Vert forêt (Couleur en édition limitée) - Caméra d'action étanche avec vidéo 5.3K60, Photo 27MP", 384.16,
+    "Vous voulez l'écosystème d'accessoires GoPro et une stabilisation de référence.",
+    "Vous filmez surtout de nuit ou en intérieur.")
+
+add("insta360-ace-pro-2", VSP, "Insta360 Ace Pro 2", "8K · objectif Leica · écran rabattable", "8K polyvalente",
+    "Une caméra d'action 8K à objectif Leica, très bonne en faible lumière, avec un écran tactile rabattable. Les couleurs HDR sont parfois artificielles et le boîtier un peu plus lourd.",
+    ["Vidéo 8K", "Très bonne stabilisation d'image", "Performance élevée en faible luminosité"],
+    ["Couleurs HDR parfois artificielles", "Un peu plus lourde que la concurrence", "Écran avant peu exploité"],
+    ("8K", "Leica"), "Insta360 Ace Pro 2",
+    "B0DHD6SFJB", "Insta360 Ace Pro 2 Noir Minuit - Caméra d'action 8K Objectif Leica, capteur 1/1,3, HDR 4K", 379.0,
+    "Vous voulez une caméra d'action 8K à écran rabattable pour le vlog et le sport.",
+    "Vous voulez des couleurs HDR toujours naturelles.", seller="Insta360 Official Store EU")
+
+add("dji-osmo-pocket-3", VSP, "DJI Osmo Pocket 3", "CMOS 1\" · 4K 120 · nacelle 3 axes", "Vlog de poche",
+    "La caméra de vlog de poche à nacelle 3 axes : une stabilisation efficace, une bonne image et une grande autonomie pour un format très compact. Autofocus parfois capricieux et batterie inamovible. Peu de tests récents.",
+    ["Stabilisation efficace", "Bonne qualité d'image, compacte", "Longue durée de vie de la batterie"],
+    ["Autofocus parfois capricieux", "Batterie inamovible", "Gestion du bruit en haute sensibilité"],
+    ("4K 120", "Nacelle 3 axes"), "DJI Osmo Pocket 3",
+    "B0CG19QXWD", "DJI Osmo Pocket 3, Caméra Vlogging CMOS 1'' et Vidéo 4K/120 IPS, stabilisation à 3 axes", 336.45,
+    "Vous faites du vlog, du voyage ou du YouTube et voulez une caméra de poche très stable.",
+    "Vous filmez dans l'eau ou dans des conditions extrêmes : elle n'est pas étanche.")
+
+add("dji-osmo-pocket-4p", VSP, "DJI Osmo Pocket 4P", "Double objectif · zoom 3x · 4K 240", "Double objectif",
+    "La nouvelle caméra de poche de DJI : deux objectifs, un zoom optique 3x et une qualité d'image exceptionnelle selon les tests. Chère, sans protection contre les intempéries et avec quelques limites en D-Log 2.",
+    ["Qualité d'image exceptionnelle", "Deux objectifs, zoom optique 3x", "Plage dynamique améliorée"],
+    ["Très chère", "Pas de protection contre les intempéries", "Limites en D-Log 2"],
+    ("4K 240", "Zoom 3x"), "DJI Osmo Pocket 4P",
+    "B0H2MRDB2C", "DJI Bundle Standard Osmo Pocket 4P, caméra vlog 4K à Double Objectif, zoom optique 3×", 599.0,
+    "Vous cherchez la meilleure caméra de vlog de poche, avec un vrai téléobjectif.",
+    "Vous avez un budget limité ou filmez sous la pluie.")
+
+add("insta360-x5", VSP, "Insta360 X5", "8K 360° · capteurs 1/1,28\" · objectifs remplaçables", "360° de référence",
+    "La caméra 360° la mieux couverte par la presse (11 tests) : vidéo 8K, bonne qualité jour et nuit, objectifs remplaçables. Grande et lourde, avec une autonomie moyenne et un prix élevé.",
+    ["Vidéo 8K, mode InstaFrame", "Objectifs remplaçables", "Grand écran tactile, étanche"],
+    ["Prix élevé", "Batterie médiocre", "Grande et lourde"],
+    ("8K 360°", "Objectifs remplaçables"), "Insta360 x5",
+    "B0DZCBYCNY", "Insta360 X5 - Caméra 360 8K, Double Capteur 1/1,28, objectifs robustes & remplaçables, étanche", 582.0,
+    "Vous voulez filmer en 360° avec une qualité d'image haut de gamme et recadrer ensuite.",
+    "Vous cherchez une caméra compacte ou un petit prix.", seller="Tim Schüerhoff")
+
+add("dji-osmo-360", VSP, "DJI Osmo 360", "8K 360° · capteur 1\" · perche invisible", "360° plus abordable",
+    "Une caméra 360° à grand capteur 1 pouce : image nette, très bonne stabilisation et mode perche invisible convaincant. Objectifs fragiles et non interchangeables, application Windows décevante.",
+    ["Images nettes et de haute qualité", "Stabilisation de haut niveau", "Mode perche invisible convaincant"],
+    ["Objectifs fragiles, non interchangeables", "Application Windows décevante", "Écran tactile un peu petit"],
+    ("8K 360°", "Capteur 1\""), "DJI Osmo 360",
+    "B0FXGWJNNZ", "Bundle Essentiel DJI Osmo 360, Caméra Moto 360, imagerie 360° de 1 pouce, vidéo 360° en 8K native, perche invisible 1,2 m", 408.08,
+    "Vous voulez une caméra 360° à grand capteur, à un prix plus doux que l'Insta360 X5.",
+    "Vous voulez des objectifs remplaçables.", seller="M.BUR")
+
+add("insta360-go-ultra", VSP, "Insta360 GO Ultra", "4K · 53 g · magnétique · mains libres", "Mains libres",
+    "Une mini-caméra magnétique de 53 grammes à poser sur un vêtement, avec une image nettement améliorée et une bonne autonomie grâce à l'Action Pod. Chère, et l'étanchéité est limitée avec le boîtier.",
+    ["Mise à niveau massive de la qualité d'image", "Connexion magnétique bien plus forte", "Légère : 53 grammes"],
+    ["Très chère", "Étanchéité IPX4 avec l'Action Pod", "Montage IA un peu bâclé"],
+    ("4K", "53 g"), "Insta360 GO Ultra",
+    "B0FH22RB4S", "Insta360 GO Ultra Noir - Caméra Vlog 4K Mains Libres, caméra d'action magnétique portable", 429.0,
+    "Vous voulez filmer en point de vue, mains libres, pour le vélo, la course ou le vlog.",
+    "Vous cherchez une caméra d'action classique et robuste.", seller="Insta360 Official Store EU")
 
 
 def build():
