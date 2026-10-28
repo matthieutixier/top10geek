@@ -299,6 +299,20 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certaines enceintes sont vendues par des tiers."],
     budget=[("30 – 80 €", "Enceintes de poche, étanches et ludiques, pour le sac ou la douche."), ("110 – 200 €", "Enceintes plus puissantes ou plus abouties, avec une autonomie et un son plus aboutis.")],
 ),
+"a-anc": dict(
+    titre="Comment choisir des écouteurs sans fil à réduction de bruit",
+    intro="La réduction de bruit varie beaucoup d'un modèle à l'autre. Ce qui compte : <b>votre téléphone (iPhone, Samsung ou autre), l'efficacité de l'ANC et le confort</b> pour une écoute de plusieurs heures.",
+    criteres=[
+        ("Compatibilité avec votre téléphone", "Les AirPods exploitent tout leur potentiel avec un iPhone, les Galaxy Buds avec un Samsung, les Pixel Buds avec Android : hors de leur écosystème, plusieurs fonctions disparaissent."),
+        ("Réduction de bruit", "Bose, Sony et Apple sont en tête dans les tests ; les modèles à moins de 100 € filtrent bien les bruits graves mais moins les voix."),
+        ("Confort et maintien", "Des embouts adaptés à la forme de l'oreille font autant pour l'isolation que l'électronique : essayez plusieurs tailles."),
+        ("Autonomie et appels", "Comptez 6 à 8 heures avec l'ANC activée, plus avec le boîtier. La qualité des micros varie : consultez les tests si vous téléphonez souvent."),
+    ],
+    pieges=["Se fier à l'autonomie annoncée sans ANC : elle baisse nettement quand la réduction de bruit est active.",
+            "Acheter des écouteurs liés à une marque de téléphone sans vérifier ce qui fonctionne sur le vôtre.",
+            "Comparer des prix sans regarder le vendeur : certains écouteurs sont vendus par des tiers."],
+    budget=[("60 – 130 €", "Écouteurs d'entrée de gamme avec une bonne ANC : CMF, Nothing, Sony WF-C710N, AirPods 4."), ("150 – 300 €", "Modèles haut de gamme : meilleur son, meilleure ANC, meilleurs micros.")],
+),
 "v-surv": dict(
     titre="Comment choisir une caméra de surveillance",
     intro="Avant la résolution, trois questions : <b>l'emplacement (intérieur ou extérieur), l'alimentation (secteur, batterie, solaire ou PoE) et le stockage des vidéos</b>. Les fonctions d'IA et le cloud sont parfois payants : lisez les tests.",

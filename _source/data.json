@@ -28597,6 +28597,1949 @@
      "Chip.de"
     ]
    }
+  },
+  "galaxy-buds4-pro": {
+   "cat": "a-anc",
+   "short": "Samsung Galaxy Buds4 Pro",
+   "ref": "Double haut-parleur · 26 h avec boîtier",
+   "badge": "Le choix de la bande",
+   "verdict": "Les mieux placés en rapport qualité/prix : un son généreux, une des meilleures réductions de bruit du moment et un prix déjà redescendu à 152 €. Les fonctions avancées sont surtout réservées aux téléphones Samsung.",
+   "strengths": [
+    "ANC parmi les meilleures de la catégorie",
+    "Son généreux, grave texturé et rapide",
+    "Mode transparence très naturel"
+   ],
+   "weak": [
+    "Fonctions avancées réservées à l'écosystème Samsung",
+    "Pas de LDAC ni d'aptX hors Samsung",
+    "Maintien perfectible"
+   ],
+   "m": [
+    "n.c.",
+    "26 h"
+   ],
+   "id": "galaxy-buds4-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 152.0,
+     "url": "https://www.amazon.fr/dp/B0G59QG1TR?tag=geekconcept-21",
+     "name": "Samsung Galaxy Buds4 Pro, Écouteurs Bluetooth sans Fil, Son Hi-FI de qualité Studio, Double Haut-Parleur",
+     "cfg": "",
+     "asin": "B0G59QG1TR"
+    }
+   ],
+   "press": {
+    "avg": 8.083333333333334,
+    "n": 12,
+    "tests": 26,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/660689-test-labo-des-samsung-galaxy-buds-4-pro-une-nouvelle-formule-gagnante-pour-ces-intras-redoutables/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/samsung/3008317_test-des-samsung-galaxy-buds-4-pro-samsung-joue-enfin-dans-la-cour-des-grands",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/samsung-galaxy-buds-4-pro-review-premium-sound-smart-galaxy-features-and-a-design-that-feels-complete/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Samsung-Galaxy-Buds4-Pro-im-Test_186712417.html",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 8.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/samsung-galaxy-buds-4-pro-review-cut-above-the-noise/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/samsung-galaxy-buds4-pro/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/samsung-galaxy-buds4-pro-recensione-auricolari-true-wireless-galaxy.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/jai-teste-les-galaxy-buds4-pro-pendant-une-semaine-samsung-a-son-meilleur/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/samsung-galaxy-buds-4-pro-review-153435/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/audio/earbuds/samsung-galaxy-buds-4-pro-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/samsung-galaxy-buds-4-pro",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-galaxy-buds4-pro-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": null,
+      "url": "https://www.androidcentral.com/accessories/earbuds/the-samsung-galaxy-buds-4-pro-leaks-dont-impress-me",
+      "date": ""
+     },
+     {
+      "src": "Android Headlines",
+      "score": null,
+      "url": "https://www.androidheadlines.com/samsung-galaxy-buds-4-pro-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/samsung-galaxy-buds-4-pro",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": null,
+      "url": "https://www.clubic.com/test-produit-602191-test-samsung-galaxy-buds4-pro-les-veritables-airpods-pro-3-pour-android.html",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/samsung-galaxy-buds-4-pro-test-3212037.html",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": null,
+      "url": "https://www.engadget.com/audio/headphones/samsung-galaxy-buds-4-and-4-pro-review-impressive-audio-imperfect-anc-190000202.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/samsung-galaxy-buds4-pro-test-review-klang-android-smartphone/403141357",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/lifestyle/audio/samsung-galaxy-buds4-pro-review-singapore-price-buy",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/samsung-galaxy-buds-4-pro-p77825/test.html",
+      "date": ""
+     },
+     {
+      "src": "MajorHiFi",
+      "score": null,
+      "url": "https://majorhifi.com/samsung-galaxy-buds-4-pro-vs-sony-wf-1000xm6-which-true-wireless-earbuds-are-better/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-galaxy-buds-4-pro-vs-sony-wf-1000xm6-which-true-wireless-earbuds-are-better",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/samsung/galaxy-buds4-pro",
+      "date": ""
+     },
+     {
+      "src": "SamMobile",
+      "score": null,
+      "url": "https://www.sammobile.com/samsung/galaxy-buds-4-pro/review/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": null,
+      "url": "https://www.t3.com/tech/earbuds/samsung-galaxy-buds-4-pro-review-one-week-early-verdict",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/samsung-galaxy-buds-4-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 152.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Douze médias ont noté les Galaxy Buds4 Pro, pour une moyenne de 8,1/10. Labo Fnac les place en tête avec 10/10, FrAndroid donne 9/10, tandis que Presse Citron, Trusted Reviews, SoundGuys et Chip.de s'en tiennent à 8/10 et 01net à 6/10.\n\nLes testeurs soulignent une réduction de bruit parmi les meilleures de la catégorie, un mode transparence très naturel et un son généreux, avec des graves nets et une écoute peu fatigante. Les réserves concernent surtout l'écosystème : codec haute qualité et fonctions avancées sont réservés aux appareils Samsung, et le maintien dans l'oreille laisse à désirer pour certains.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 26,
+    "sources": [
+     "Labo Fnac",
+     "FrAndroid",
+     "Presse Citron",
+     "Trusted Reviews",
+     "SoundGuys",
+     "Chip.de",
+     "01net"
+    ]
+   }
+  },
+  "airpods-pro-3": {
+   "cat": "a-anc",
+   "short": "Apple AirPods Pro 3",
+   "ref": "IP57 · capteur cardiaque",
+   "badge": "Pour iPhone",
+   "verdict": "La référence pour l'iPhone : réduction de bruit parmi les meilleures du marché, très bon confort et capteur de fréquence cardiaque, avec une autonomie en recul face à la génération précédente.",
+   "strengths": [
+    "L'un des meilleurs ANC du marché",
+    "Très bon confort, excellent maintien",
+    "Kit mains-libres de haut vol"
+   ],
+   "weak": [
+    "Régression de l'autonomie totale",
+    "Expérience tronquée sur Android",
+    "Étui plus grand"
+   ],
+   "m": [
+    "IP57",
+    "Cardio"
+   ],
+   "id": "airpods-pro-3",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 209.0,
+     "url": "https://www.amazon.fr/dp/B0FQF32239?tag=geekconcept-21",
+     "name": "Apple AirPods Pro 3 Écouteurs sans Fil, réduction Active du Bruit, détection de la fréquence Cardiaque",
+     "cfg": "",
+     "asin": "B0FQF32239"
+    }
+   ],
+   "press": {
+    "avg": 8.45625,
+    "n": 16,
+    "tests": 29,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/apple-airpods-pro-3-p75593/test.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/apple-airpods-pro-3",
+      "date": ""
+     },
+     {
+      "src": "ComputerHoy",
+      "score": 9.3,
+      "url": "https://computerhoy.20minutos.es/apple/airpods-pro-3-son-evolucion-perfecta-comodidad-mejoras-salud-cancelacion-ruido-top-1486075",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-581206-test-apple-airpods-pro-3-les-pro-2-ridiculises-ou-toujours-dans-le-coup.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/apple/2821325_test-des-apple-airpods-pro-3-apple-enfonce-le-clou",
+      "date": ""
+     },
+     {
+      "src": "Numerama",
+      "score": 9.0,
+      "url": "https://www.numerama.com/tech/2074001-on-a-teste-les-airpods-pro-3-dapple-du-mieux-a-tous-les-niveaux.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-airpods-pro-3-apple/",
+      "date": ""
+     },
+     {
+      "src": "The Verge",
+      "score": 9.0,
+      "url": "https://www.theverge.com/headphone-review/777798/airpods-pro-3-review-active-noise-cancelling-live-translation-headphones",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-airpods-pro-3-apple-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Apple-AirPods-Pro-3-im-Test_186319106.html",
+      "date": ""
+     },
+     {
+      "src": "GeekiT",
+      "score": 8.0,
+      "url": "https://www.geekit.fr/tests/audio/6187/test-des-apple-airpods-pro-3-la-reference-de-l-iphone-devient-plus-accessible",
+      "date": ""
+     },
+     {
+      "src": "ImTest",
+      "score": 8.0,
+      "url": "https://www.imtest.de/einzeltests/audio/apple-airpods-pro-3-test-review/582296",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/apple-airpods-pro-3/",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/audio/airpods/apple-airpods-pro-3-review",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/apple-airpods-pro-3-review-close-to-perfect-144636/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 6.0,
+      "url": "https://leclaireur.fnac.com/test/628548-test-labo-des-apple-airpods-pro-3-un-nouveau-modele-qui-interroge/",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/airpods-pro-3-moniteur-cardiaque-en-vue-43659",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": null,
+      "url": "https://www.absolutegeeks.com/article/reviews/headphones/airpods-pro-3-apple-took-the-best-earbuds-ever-and-somehow-leveled-them-up-again/",
+      "date": ""
+     },
+     {
+      "src": "Allround-PC",
+      "score": null,
+      "url": "https://www.allround-pc.com/artikel/audio/apple-airpods-pro-3-im-test-evolution-statt-revolution",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/airpods-pro-3",
+      "date": ""
+     },
+     {
+      "src": "ComputerBase",
+      "score": null,
+      "url": "https://www.computerbase.de/artikel/audio-video-foto/apple-airpods-pro-3-test.94381/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/apple-airpods-pro-3-review/",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/airpods-pro-3-apple-test-erfahrung-review-anc-geraeuschunterdrueckung-herzfrequenz-puls-preis/403087360",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/apple-airpods-pro-3-test,3439853.html",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/lifestyle/audio/apple-airpods-pro-3-review-why-would-you-buy-anything-else",
+      "date": ""
+     },
+     {
+      "src": "MajorHiFi",
+      "score": null,
+      "url": "https://majorhifi.com/apple-airpods-pro-3-review/?utm_source=rss&utm_medium=rss&utm_campaign=apple-airpods-pro-3-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/apple/airpods-pro-3",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/13808/apple-airpods-pro-3-iets-goedkoper-maar-veel-beter.html",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/apple-airpods-pro-3/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 209.0,
+   "img": "airpods-pro-3.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Seize médias ont noté les AirPods Pro 3, pour une moyenne de 8,5/10. Les Numériques et Trusted Reviews leur attribuent 10/10, ComputerHoy 9,3/10, Numerama, Clubic, FrAndroid, Presse Citron et The Verge 9/10, alors que SoundGuys s'arrête à 7/10 et Labo Fnac à 6/10.\n\nLa presse retient une réduction de bruit parmi les plus efficaces du marché, un confort et un maintien améliorés, une bonne qualité d'appel et l'ajout d'un capteur de fréquence cardiaque précis. Les critiques portent sur une autonomie totale en recul, un étui plus volumineux et une expérience nettement moins riche sur Android, où plusieurs fonctions exigent un iPhone.",
+    "date": "2026-10-28",
+    "n": 16,
+    "tests": 29,
+    "sources": [
+     "Les Numériques",
+     "Trusted Reviews",
+     "ComputerHoy",
+     "Numerama",
+     "Clubic.com",
+     "FrAndroid",
+     "Presse Citron",
+     "The Verge",
+     "SoundGuys",
+     "Labo Fnac"
+    ]
+   }
+  },
+  "bose-qc-ultra-earbuds-2": {
+   "cat": "a-anc",
+   "short": "Bose QuietComfort Ultra Earbuds (2e gén.)",
+   "ref": "ANC référence · IPX4",
+   "badge": "Meilleure note",
+   "verdict": "La meilleure note moyenne de la sélection : une réduction de bruit de premier plan, un son riche et un maintien exemplaire. Autonomie tout juste correcte et prix élevé.",
+   "strengths": [
+    "Réduction de bruit très efficace",
+    "Graves profonds, son riche et détaillé",
+    "Maintien et confort exemplaires"
+   ],
+   "weak": [
+    "Autonomie tout juste correcte",
+    "Parmi les plus chers",
+    "Microphones perfectibles"
+   ],
+   "m": [
+    "IPX4",
+    "6 h"
+   ],
+   "id": "bose-qc-ultra-earbuds-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 286.99,
+     "url": "https://www.amazon.fr/dp/B0F7M3HPBD?tag=geekconcept-21",
+     "name": "Bose QuietComfort Ultra Écouteurs (2e génération), écouteurs sans Fil à réduction de Bruit, IPx4",
+     "cfg": "",
+     "asin": "B0F7M3HPBD"
+    }
+   ],
+   "press": {
+    "avg": 8.658333333333333,
+    "n": 12,
+    "tests": 14,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/bose-qc-ultra-earbuds-2e-generation-p76907/test.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/bose-quietcomfort-ultra-earbuds-2nd-gen",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.4,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/bose-quietcomfort-ultra-2-gen-test/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": 9.0,
+      "url": "https://www.digitaltrends.com/home-theater/bose-quietcomfort-ultra-earbuds-2nd-gen-review/",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/bose/2774033_test-bose-quietcomfort-ultra-earbuds-2nd-gen-une-evolution-subtile-qui-affine-lanc-et-le-son",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2025/10/10/bose-quietcomfort-ultra-2-earbuds-review/?utm_source=rss&utm_medium=rss&utm_campaign=bose-quietcomfort-ultra-2-earbuds-review",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-bose-quietcomfort-ultra-2-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Bose-QuietComfort-Ultra-Headphones-2.-Gen-Test_186327641.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/bose-quietcomfort-ultra-headphones-2-gen/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 8.0,
+      "url": "https://leclaireur.fnac.com/test/628547-test-labo-du-bose-quietcomfort-ultra-2nd-gen-un-casque-bien-sous-tous-rapports/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/headphones/bose-quietcomfort-ultra-headphones-2-review",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.5,
+      "url": "https://www.soundguys.com/bose-quietcomfort-ultra-earbuds-2nd-gen-review-140812/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/bose-qc-ultra-2-test-evolution-platzhirsch-hifi-3210775.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/bose/quietcomfort-ultra-earbuds-2nd-gen",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 286.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Douze médias ont noté les QuietComfort Ultra Earbuds de deuxième génération, pour une moyenne de 8,7/10, la meilleure de la sélection. Les Numériques et Trusted Reviews donnent 10/10, Basic Tutorials 9,4/10, DigitalTrends, FrAndroid et TechAeris 9/10, tandis que 01net et Chip.de en restent à 8/10.\n\nLes tests louent une réduction de bruit de premier plan, un son riche avec des graves profonds, un maintien exemplaire et une bonne qualité de connexion Bluetooth. Ils regrettent une autonomie tout juste correcte, face à des concurrents qui ont pris de l'avance, un prix parmi les plus élevés du segment et des microphones encore perfectibles.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 14,
+    "sources": [
+     "Les Numériques",
+     "Trusted Reviews",
+     "Basic Tutorials",
+     "DigitalTrends",
+     "FrAndroid",
+     "TechAeris",
+     "01net",
+     "Chip.de"
+    ]
+   }
+  },
+  "sony-wf-1000xm6": {
+   "cat": "a-anc",
+   "short": "Sony WF-1000XM6",
+   "ref": "ANC premium · Hi-Res · IPX4",
+   "badge": "Haut de gamme",
+   "verdict": "Le haut de gamme de Sony : un son naturel et détaillé, une réduction de bruit impressionnante et une bonne qualité d'appel. Le prix est élevé et l'étui encombrant.",
+   "strengths": [
+    "Annulation de bruit exceptionnelle",
+    "Son naturel et musical",
+    "Confortable à porter"
+   ],
+   "weak": [
+    "Prix élevé",
+    "Étui encombrant",
+    "Mode adaptatif parfois capricieux"
+   ],
+   "m": [
+    "IPX4",
+    "24 h"
+   ],
+   "id": "sony-wf-1000xm6",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 299.0,
+     "url": "https://www.amazon.fr/dp/B0GF9ZNLWM?tag=geekconcept-21",
+     "name": "Sony WF-1000XM6 Écouteurs sans Fil Premium avec réduction de Bruit ANC, Hi-Res, IPX4",
+     "cfg": "",
+     "asin": "B0GF9ZNLWM"
+    }
+   ],
+   "press": {
+    "avg": 8.261538461538462,
+    "n": 13,
+    "tests": 24,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Absolute Geeks",
+      "score": 10.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/sony-wf-1000xm6-review-the-noise-canceling-crown-has-been-reforged-and-silence-just-unlocked-its-final-form/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/sony-wf-1000xm6",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/sony/2970723_test-sony-wf-1000xm6-la-claque-audiophile",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-sony-wf-1000xm6-petits-mais-tellement-costauds/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-sony-wf-1000xm6-avis/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.4,
+      "url": "https://www.engadget.com/audio/headphones/sony-wf-1000xm6-review-facing-tougher-competition-160000652.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-sony-wf-1000xm6-le-roi-du-silence-fait-taire-la-concurrence.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Sony-WF-1000XM6-im-Test_186723912.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/sony-wf-1000xm6/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/sony-wf-1000xm6-review-152013/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/earbuds/sony-wf-1000xm6-review",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": 6.0,
+      "url": "https://www.lbtechreviews.com/test/headphones/sony-wf-1000xm6",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 6.0,
+      "url": "https://leclaireur.fnac.com/test/cp69963-sony-wf-1000xm6-le-nouveau-roi-du-silence-est-il-arrive-notre-prise-en-main/",
+      "date": ""
+     },
+     {
+      "src": "Android Headlines",
+      "score": null,
+      "url": "https://www.androidheadlines.com/sony-wf-1000xm6-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/sony-wf-1000xm6",
+      "date": ""
+     },
+     {
+      "src": "ComputerBase",
+      "score": null,
+      "url": "https://www.computerbase.de/artikel/audio-video-foto/sony-wf-1000xm6-test.96239/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/sony-wf-1000xm6-in-ear-kopfhoerer-test-3211901.html",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/sony-wf-1000xm6-test-in-ear-kopfhoerer-sound-komfort-anc/403142845",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/sony-wf-1000xm6-p77881/test.html",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/audio/im-test-sony-wf-1000xm6-2981707.html",
+      "date": ""
+     },
+     {
+      "src": "Peopleware",
+      "score": null,
+      "url": "https://pplware.sapo.pt/analises-2/analise-sony-wf-1000xm6-dos-melhores-cancelamentos-de-ruido-que-ja-testamos/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/sony/wf-1000xm6",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/14344/sony-wf-1000xm6-geen-juweeltjes-wel-weer-de-kroon.html",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/sony-wf-1000xm6/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 299.0,
+   "img": "sony-wf-1000xm6.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Treize médias ont noté les WF-1000XM6, pour une moyenne de 8,3/10. Absolute Geeks et Trusted Reviews donnent 10/10, FrAndroid, Journal du Geek et Presse Citron 9/10, Engadget 8,4/10, alors que L&B Tech ne leur attribue que 6/10.\n\nLes testeurs apprécient un son naturel et musical, un excellent niveau de détail, une réduction de bruit impressionnante et une meilleure qualité d'appel que sur la génération précédente. Les points négatifs sont le prix élevé, un étui volumineux, la difficulté à obtenir un bon joint avec certains embouts et un mode adaptatif parfois capricieux. L'indice de protection reste IPX4.",
+    "date": "2026-10-28",
+    "n": 13,
+    "tests": 24,
+    "sources": [
+     "Absolute Geeks",
+     "Trusted Reviews",
+     "FrAndroid",
+     "Journal du Geek",
+     "Presse Citron",
+     "Engadget",
+     "L&B Tech"
+    ]
+   }
+  },
+  "sennheiser-mtw5": {
+   "cat": "a-anc",
+   "short": "Sennheiser Momentum True Wireless 5",
+   "ref": "aptX Lossless · batterie remplaçable",
+   "badge": "Son audiophile",
+   "verdict": "Un son nuancé et équilibré, le Bluetooth 6.0 avec aptX Lossless et une batterie remplaçable par l'utilisateur. La réduction de bruit reste un cran derrière Apple, Sony et Bose, et le prix est élevé.",
+   "strengths": [
+    "Son impressionnant, nuancé et équilibré",
+    "Bluetooth 6.0, multipoint, aptX Lossless",
+    "Batterie remplaçable"
+   ],
+   "weak": [
+    "ANC en retrait des leaders",
+    "Qualité des appels moyenne",
+    "Très cher"
+   ],
+   "m": [
+    "n.c.",
+    "40 h"
+   ],
+   "id": "sennheiser-mtw5",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 299.0,
+     "url": "https://www.amazon.fr/dp/B0HC72BMGT?tag=geekconcept-21",
+     "name": "Sennheiser Momentum True Wireless 5 écouteurs Bluetooth, Batterie 40h, ANC",
+     "cfg": "",
+     "asin": "B0HC72BMGT"
+    }
+   ],
+   "press": {
+    "avg": 8.4,
+    "n": 11,
+    "tests": 19,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/audio/earbuds-airpods/sennheisers-eco-conscious-addition-to-the-momentum-true-wireless-5-earbuds-is-commendable-but-their-sound-alone-makes-them-the-buds-to-beat",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/sennheiser-momentum-true-wireless-5",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.4,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/sennheiser-momentum-true-wireless-5-im-test/",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2026/10/12/sennheiser-momentum-true-wireless-5/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-sennheiser-momentum-true-wireless-5-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-627967-test-sennheiser-momentum-true-wireless-5-la-qualite-hifi-pour-l-eternite.html",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.0,
+      "url": "https://www.engadget.com/2249856/sennheiser-momentum-true-wireless-5-review/",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": 8.0,
+      "url": "https://geekculture.co/sennheiser-momentum-true-wireless-5-earbuds-review/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/sennheiser-momentum-true-wireless-5/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/sennheiser-momentum-true-wireless-5-review-161261/",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 6.0,
+      "url": "https://www.gadgetbridge.com/sennheiser-momentum-true-wireless-5-review-a-bold-new-look-same-legendary-sound/",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/sennheiser-momentum-true-wireless-5-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/sennheiser-momentum-true-wireless-5-test-3213896.html",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": null,
+      "url": "https://www.hardwarezone.com.sg/lifestyle/audio/sennheiser-momentum-true-wireless-5-review-big-potatoes-earbuds",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": null,
+      "url": "https://leclaireur.fnac.com/test/cp72239-sennheiser-momentum-5-et-momentum-true-wireless-5-le-sans-fil-monte-en-gamme/",
+      "date": ""
+     },
+     {
+      "src": "MajorHiFi",
+      "score": null,
+      "url": "https://majorhifi.com/sennheiser-momentum-true-wireless-5-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-true-wireless-5-review",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/themen/tests/im-test-sennheiser-momentum-true-wireless-5",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/sennheiser/momentum-true-wireless-5",
+      "date": ""
+     },
+     {
+      "src": "Stuff",
+      "score": null,
+      "url": "https://www.stuff.tv/review/sennheiser-momentum-5-true-wireless-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 299.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Onze médias ont noté les Momentum True Wireless 5, pour une moyenne de 8,4/10. TechRadar et Trusted Reviews donnent 10/10, Basic Tutorials 9,4/10, TechAeris 9/10, Clubic, Engadget, SoundGuys et 01net 8/10, alors que Gadget Bridge s'arrête à 6/10.\n\nLa presse vante un son nuancé et équilibré, le Bluetooth 6.0 avec multipoint et aptX Lossless, un confort de port soigné et une batterie remplaçable par l'utilisateur. Les réserves portent sur une réduction de bruit encore un cran derrière Apple, Sony et Bose, une qualité d'appel moyenne, un format un peu plus volumineux et un prix élevé.",
+    "date": "2026-10-28",
+    "n": 11,
+    "tests": 19,
+    "sources": [
+     "TechRadar",
+     "Trusted Reviews",
+     "Basic Tutorials",
+     "TechAeris",
+     "Clubic.com",
+     "Engadget",
+     "SoundGuys",
+     "01net",
+     "Gadget Bridge"
+    ]
+   }
+  },
+  "pixel-buds-pro-2": {
+   "cat": "a-anc",
+   "short": "Google Pixel Buds Pro 2",
+   "ref": "Gemini · 12 h",
+   "badge": "Pour Pixel",
+   "verdict": "Légers, très confortables et bien intégrés à Android avec Gemini : un son agréable et une réduction de bruit enfin au niveau de la concurrence, mais sans codecs haute qualité.",
+   "strengths": [
+    "Mode transparence cristallin",
+    "Très confortables, design compact",
+    "Autonomie jusqu'à 12 heures"
+   ],
+   "weak": [
+    "Pas de codecs Bluetooth haute qualité",
+    "ANC en retrait de Bose",
+    "Micros perfectibles"
+   ],
+   "m": [
+    "n.c.",
+    "12 h"
+   ],
+   "id": "pixel-buds-pro-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 197.42,
+     "url": "https://www.amazon.fr/dp/B0FJGBYK8B?tag=geekconcept-21",
+     "name": "Google Pixel Buds Pro 2 – Écouteurs sans Fil avec Suppression Active du Bruit – Quartz Gris",
+     "cfg": "",
+     "asin": "B0FJGBYK8B"
+    }
+   ],
+   "press": {
+    "avg": 7.811764705882354,
+    "n": 17,
+    "tests": 28,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "AndroidPit",
+      "score": 9.0,
+      "url": "https://www.nextpit.fr/google-pixel-buds-pro-2-test-complet",
+      "date": ""
+     },
+     {
+      "src": "The Verge",
+      "score": 9.0,
+      "url": "https://www.theverge.com/24254109/google-pixel-buds-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.8,
+      "url": "https://www.engadget.com/audio/headphones/pixel-buds-pro-2-review-tiny-earbuds-with-big-sound-and-a-direct-line-to-gemini-170016328.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-pixel-buds-pro-2-lia-de-google-suffit-elle-a-rendre-ces-true-wireless-incontournables.html",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 8.0,
+      "url": "https://www.androidcentral.com/accessories/earbuds/google-pixel-buds-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Google-Pixel-Buds-Pro-2-im-Test_185587365.html",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": 8.0,
+      "url": "https://www.hardwarezone.com.sg/review-google-pixel-buds-pro-2-singapore-price-specs-buy",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/test-des-pixel-buds-pro-2-lia-de-google-peut-elle-transformer-ces-ecouteurs-true-wireless-en-reference/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/google-pixel-buds-pro-2/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 8.0,
+      "url": "https://leclaireur.fnac.com/test/659350-test-labo-des-google-pixel-buds-pro-2-des-intras-equilibres-mais-perfectibles/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/pixel-buds-pro-2-recensione-migliori-auricolari-google.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-google-pixel-buds-pro-2/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/headphones/reviews/google/pixel-buds-pro-2-truly-wireless",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/google/2373772_test-des-google-pixel-buds-pro-2-un-son-ameliore-et-une-touche-dintelligence-artificielle",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/google-pixel-buds-pro-2-review-124563/",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 6.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/google-pixel-buds-pro-2-review-can-they-dethrone-apples-airpods-pro-2/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 6.0,
+      "url": "https://www.techradar.com/audio/earbuds-airpods/google-pixel-buds-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "Android Headlines",
+      "score": null,
+      "url": "https://www.androidheadlines.com/2024/10/google-pixel-buds-pro-2-review-my-new-favorite-earbuds.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/google-pixel-buds-pro-2",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/google-pixel-buds-pro-2-im-test/",
+      "date": ""
+     },
+     {
+      "src": "ComputerBase",
+      "score": null,
+      "url": "https://www.computerbase.de/artikel/audio-video-foto/google-pixel-buds-pro-2-test.90021/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/google-pixel-buds-pro-2-test-3207630.html",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/google-pixel-buds-pro-2-review/",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/google-pixel-buds-pro-2-test-review,3422087.html",
+      "date": ""
+     },
+     {
+      "src": "Games.ch",
+      "score": null,
+      "url": "https://www.games.ch/google-pixel-buds-pro-2/hardware-test/review-lii9/preview/",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/12506/google-pixel-buds-pro-2-stukken-beter-maar-niet-perfect.html",
+      "date": ""
+     },
+     {
+      "src": "Well Played",
+      "score": null,
+      "url": "https://www.well-played.com.au/google-pixel-buds-pro-2-review/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/google-pixel-buds-pro-2/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 197.42,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Dix-sept médias ont noté les Pixel Buds Pro 2, pour une moyenne de 7,8/10. AndroidPit et The Verge leur donnent 9/10, Engadget 8,8/10, 01net, Android Central, Presse Citron et Journal du Geek 8/10, tandis que TechRadar et Absolute Geeks ne vont pas au-delà de 6/10.\n\nLes tests relèvent un design plus petit et très confortable, un mode transparence cristallin, une réduction de bruit enfin au niveau de la concurrence et une autonomie allant jusqu'à 12 heures. Ils déplorent l'absence de codecs Bluetooth haute qualité, une réduction de bruit encore derrière celle de Bose, des microphones moyens et un prix supérieur à la génération précédente.",
+    "date": "2026-10-28",
+    "n": 17,
+    "tests": 28,
+    "sources": [
+     "AndroidPit",
+     "The Verge",
+     "Engadget",
+     "01net",
+     "Android Central",
+     "Presse Citron",
+     "Journal du Geek",
+     "TechRadar",
+     "Absolute Geeks"
+    ]
+   }
+  },
+  "airpods-4-anc": {
+   "cat": "a-anc",
+   "short": "Apple AirPods 4 (ANC)",
+   "ref": "Réduction active · sans embouts",
+   "badge": "Sans embouts",
+   "verdict": "Les AirPods à réduction de bruit sans embouts : un son plutôt riche, une ANC valable et une très bonne intégration à l'iPhone. Autonomie moyenne et fonctions limitées hors Apple.",
+   "strengths": [
+    "Performances acoustiques",
+    "Réduction de bruit active valable",
+    "Mode transparence très naturel"
+   ],
+   "weak": [
+    "Autonomie correcte sans plus",
+    "Limitations hors appareils Apple",
+    "Pas de multipoint approprié"
+   ],
+   "m": [
+    "IP54",
+    "ANC"
+   ],
+   "id": "airpods-4-anc",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 134.0,
+     "url": "https://www.amazon.fr/dp/B0DGHYDYJL?tag=geekconcept-21",
+     "name": "Apple AirPods 4 Écouteurs sans Fil, écouteurs Bluetooth, avec Réduction Active du Bruit",
+     "cfg": "",
+     "asin": "B0DGHYDYJL"
+    }
+   ],
+   "press": {
+    "avg": 7.973684210526316,
+    "n": 19,
+    "tests": 31,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/technology/audio/headphones/apple-airpods-4-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 9.0,
+      "url": "https://www.nextpit.fr/apple-airpods-4-test-complet",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/apple/2368232_test-des-apple-airpods-4-avec-anc-apple-reinvente-les-ecouteurs-ouverts",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-apple-airpods-4-avec-reduction-active-du-bruit-beaucoup-de-qualites-et-un-seul-gros-defaut.html",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/apple-airpods-4-review-open-ear-anc-done-right/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Apple-AirPods-4-mit-ANC-im-Test_185640399.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-577830-test-apple-airpods-4-anc-les-meilleurs-true-wireless-ouverts-malgre-quelques-defauts.html",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": 8.0,
+      "url": "https://geekculture.co/apple-airpods-4-with-active-noise-cancellation-review/",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": 8.0,
+      "url": "https://www.hardwarezone.com.sg/review-apple-airpods-4-review-anc-earbuds-singapore-price-specs-buy",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/apple-airpods-4-anc/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 8.0,
+      "url": "https://leclaireur.fnac.com/test/552034-test-labo-des-apple-airpods-4-anc-des-ecouteurs-surprenants/",
+      "date": ""
+     },
+     {
+      "src": "Numerama",
+      "score": 8.0,
+      "url": "https://www.numerama.com/tech/1811168-test-des-apple-airpods-4-les-ecouteurs-presque-pro.html",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-apple-airpods-4-anc.html",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": 8.0,
+      "url": "https://www.slashgear.com/1670948/apple-airpods-4-review-anc-active-noise-cancellation-price-upgrade/",
+      "date": ""
+     },
+     {
+      "src": "The Verge",
+      "score": 8.0,
+      "url": "https://www.theverge.com/24245570/apple-airpods-4-review",
+      "date": ""
+     },
+     {
+      "src": "Pokde.net",
+      "score": 7.5,
+      "url": "https://pokde.net/review/apple-airpods-4-review",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 7.0,
+      "url": "https://www.presse-citron.net/test-apple-airpods-4-anc/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/headphones/reviews/apple/airpods-4-with-active-noise-cancellation-truly-wireless",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.0,
+      "url": "https://www.soundguys.com/apple-airpods-4-with-active-noise-cancellation-review-124137/",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/apple-airpods-4-maintenant-avec-reduction-active-de-bruit-42884",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/airpods-4-anc",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/open-ear-apple-airpods4-test-preis-3207278.html",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/apple-airpods-4-with-anc-review/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": null,
+      "url": "https://www.engadget.com/audio/headphones/apple-airpods-4-review-pro-features-for-everyone-120032046.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/apple-airpods-4-mit-anc-im-test,3422667.html",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Test-Apple-AirPods-4-ANC-Kompakte-Kopfhoerer-entpuppen-sich-als-Klangriese.934545.0.html",
+      "date": ""
+     },
+     {
+      "src": "Press Start",
+      "score": null,
+      "url": "https://press-start.com.au/reviews/tech/2024/10/21/apple-airpods-4-review-incredible-value-with-great-noise-cancelling/",
+      "date": ""
+     },
+     {
+      "src": "Stuff",
+      "score": null,
+      "url": "https://www.stuff.tv/features/apple-airpods-4-preview-specs-release-date-and-everything-we-know/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/audio/headphones/earbuds-airpods/airpods-4-with-active-noise-cancellation-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/apple-airpods-4-with-anc",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/apple-airpods-4/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 134.0,
+   "img": "airpods-4-anc.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Dix-neuf médias ont noté les AirPods 4 avec réduction de bruit, pour une moyenne de 8/10. ExpertReviews leur donne 10/10, AndroidPit et FrAndroid 9/10, Numerama, Clubic, 01net et Chip.de 8/10, alors que SoundGuys s'arrête à 6/10.\n\nLes testeurs retiennent de bonnes performances acoustiques, une réduction de bruit valable pour un format sans embouts, un mode transparence très naturel, une qualité d'appel surprenante et une intégration soignée à l'écosystème Apple. Ils notent en revanche une autonomie moyenne avec l'ANC, des limites importantes avec des appareils non Apple et l'absence de multipoint véritable.",
+    "date": "2026-10-28",
+    "n": 19,
+    "tests": 31,
+    "sources": [
+     "ExpertReviews",
+     "AndroidPit",
+     "FrAndroid",
+     "Numerama",
+     "Clubic.com",
+     "01net",
+     "Chip.de",
+     "SoundGuys"
+    ]
+   }
+  },
+  "sony-wf-c710n": {
+   "cat": "a-anc",
+   "short": "Sony WF-C710N",
+   "ref": "ANC · 40 h · IPX4",
+   "badge": "Autonomie",
+   "verdict": "Une réduction de bruit efficace pour le prix, un son agréable et une grande autonomie. Peu de codecs compatibles et une application un peu compliquée.",
+   "strengths": [
+    "Annulation de bruit efficace",
+    "Excellente autonomie",
+    "Ajustement confortable"
+   ],
+   "weak": [
+    "Peu de codecs compatibles",
+    "Pas de recharge sans fil",
+    "Commandes tactiles confuses"
+   ],
+   "m": [
+    "IPX4",
+    "40 h"
+   ],
+   "id": "sony-wf-c710n",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 99.0,
+     "url": "https://www.amazon.fr/dp/B0FDBD6WQ3?tag=geekconcept-21",
+     "name": "Sony WF-C710N Écouteurs sans Fil avec réduction de Bruit Active, IPX4, autonomie 40h",
+     "cfg": "",
+     "asin": "B0FDBD6WQ3"
+    }
+   ],
+   "press": {
+    "avg": 7.8,
+    "n": 10,
+    "tests": 14,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/sony-wf-c710n",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-sony-wf-c710n-des-ecouteurs-tres-abordables-et-pourtant-excellents.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Sony-WF-C710N-im-Test_185963690.html",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 8.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/sony-wf-c710n-review-transparent-style-strong-anc-and-sound-that-sticks/",
+      "date": ""
+     },
+     {
+      "src": "Gadgets360",
+      "score": 8.0,
+      "url": "https://www.gadgets360.com/audio/reviews/sony-wf-c710n-review-9059723#rss-gadgets-reviews",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-sony-wf-c710n/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/sony-wf-c710n-review-136737/",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 7.0,
+      "url": "https://www.nextpit.fr/sony-wf-c710n-test-complet",
+      "date": ""
+     },
+     {
+      "src": "CharlesTech",
+      "score": 7.0,
+      "url": "https://charlestech.fr/test-sony-wf-c710n/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 6.0,
+      "url": "https://www.kopfhoerer.de/test/sony-wf-c710n/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/sony-wf-c710n",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/audio/im-test-sony-wf-c710n-2953633.html",
+      "date": ""
+     },
+     {
+      "src": "Peopleware",
+      "score": null,
+      "url": "https://pplware.sapo.pt/analises-2/sony-wf-c710n-earbuds-com-anc-que-surpreendem-pela-qualidade-pelo-preco/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/sony/wf-c710n",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 99.0,
+   "img": "sony-wf-c710n.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Dix médias ont noté les WF-C710N, pour une moyenne de 7,8/10. Trusted Reviews les place en haut avec 10/10, 01net, Chip.de, Presse Citron et SoundGuys leur donnent 8/10, AndroidPit et CharlesTech 7/10 et Kopfhörer 6/10.\n\nLa presse apprécie une réduction de bruit efficace pour ce niveau de prix, un son lisse et agréable, un ajustement confortable et une autonomie très généreuse. Elle regrette peu de codecs compatibles, l'absence de recharge sans fil, des commandes tactiles parfois confuses et une application dont l'ergonomie manque de clarté.",
+    "date": "2026-10-28",
+    "n": 10,
+    "tests": 14,
+    "sources": [
+     "Trusted Reviews",
+     "01net",
+     "Chip.de",
+     "Presse Citron",
+     "SoundGuys",
+     "AndroidPit",
+     "CharlesTech",
+     "Kopfhörer"
+    ]
+   }
+  },
+  "nothing-ear-3a": {
+   "cat": "a-anc",
+   "short": "Nothing Ear (3a)",
+   "ref": "Bluetooth 6.0 · LDAC · multipoint",
+   "badge": "Petit prix",
+   "verdict": "Un excellent rapport fonctionnalités/prix : LDAC, Bluetooth 6.0, multipoint, un son équilibré et une bonne autonomie. La réduction de bruit est un cran sous le haut de gamme.",
+   "strengths": [
+    "Bluetooth 6.0, LDAC, multipoint",
+    "Signature sonore équilibrée",
+    "Excellente autonomie"
+   ],
+   "weak": [
+    "ANC en retrait des références",
+    "Coque qui fait un peu cheap",
+    "Fonctions complètes avec un téléphone Nothing"
+   ],
+   "m": [
+    "n.c.",
+    "LDAC"
+   ],
+   "id": "nothing-ear-3a",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 99.95,
+     "url": "https://www.amazon.fr/dp/B0GZW9B97V?tag=geekconcept-21",
+     "name": "Nothing Ear (3a) – Écouteurs sans Fil avec ANC Jusqu'à 45 DB, Hi-Res Audio, double connexion Bluetooth",
+     "cfg": "",
+     "asin": "B0GZW9B97V"
+    }
+   ],
+   "press": {
+    "avg": 7.888888888888889,
+    "n": 9,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-nothing-ear-3a-des-ecouteurs-qui-voient-plus-loin-que-leur-prix/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/nothing-ear-3a",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test-kaufberatung/tv-audio/nothing-ear-3a-im-test_b44465dc-93b5-47c6-a851-34fc1bf29279.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/nothing-ear-3a/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/nothing-ear-3a-p78522/test.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/nothing-ear-3a-test/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/nothing-ear-3a-review-159720/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/nothing-ear-3a",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-nothing-ear-3a-avis.html",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/nothing-ear-3a-test/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Starke-In-Ears-zum-fairen-Preis-Test-Nothing-Ear-3a.1410411.0.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/headphones/reviews/nothing/ear-3a",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/nothing-ear-3a/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 99.95,
+   "img": "nothing-ear-3a.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Neuf médias ont noté les Ear (3a), pour une moyenne de 7,9/10. LeCafeDuGeek leur donne 9/10, Presse Citron, Les Numériques, AndroidWorld, SoundGuys, Chip.de et Trusted Reviews 8/10, alors que 01net n'attribue que 6/10.\n\nLes tests retiennent un excellent rapport fonctionnalités et prix, avec Bluetooth 6.0, LDAC et multipoint, une signature sonore équilibrée, un confort très correct et une bonne autonomie. Les points faibles sont une réduction de bruit en retrait face aux références, une coque qui fait un peu bon marché, un boîtier jugé fragile et des fonctions qui prennent tout leur sens avec un smartphone Nothing.",
+    "date": "2026-10-28",
+    "n": 9,
+    "tests": 13,
+    "sources": [
+     "LeCafeDuGeek",
+     "Presse Citron",
+     "Les Numériques",
+     "AndroidWorld",
+     "SoundGuys",
+     "Chip.de",
+     "Trusted Reviews",
+     "01net"
+    ]
+   }
+  },
+  "cmf-buds-pro-2": {
+   "cat": "a-anc",
+   "short": "CMF Buds Pro 2",
+   "ref": "ANC 50 dB · égaliseur · 64,95 €",
+   "badge": "Le moins cher",
+   "verdict": "Le plus petit prix de la sélection : une bonne réduction de bruit, un égaliseur personnalisable et une autonomie solide. Basses marquées par défaut et matériaux simples.",
+   "strengths": [
+    "Très bonne réduction de bruit pour le prix",
+    "Égaliseur personnalisable",
+    "Autonomie solide"
+   ],
+   "weak": [
+    "Son déséquilibré par défaut",
+    "Pas de vrai multipoint",
+    "Matériaux bon marché"
+   ],
+   "m": [
+    "n.c.",
+    "ANC 50 dB"
+   ],
+   "id": "cmf-buds-pro-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 64.95,
+     "url": "https://www.amazon.fr/dp/B0F5B56X84?tag=geekconcept-21",
+     "name": "CMF by Nothing Buds Pro 2 Écouteurs sans Fil avec Son Hi-FI, 50 DB Suppression Active du Bruit Hybride",
+     "cfg": "",
+     "asin": "B0F5B56X84"
+    }
+   ],
+   "press": {
+    "avg": 7.826666666666667,
+    "n": 15,
+    "tests": 19,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "AndroidPit",
+      "score": 9.0,
+      "url": "https://www.nextpit.fr/nothing-cmf-buds-pro-2-test-complet",
+      "date": ""
+     },
+     {
+      "src": "Day-Technology",
+      "score": 9.0,
+      "url": "https://day-technology.com/cmf-buds-pro-2-review.html?utm_source=rss&utm_medium=rss&utm_campaign=cmf-buds-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2025/10/22/cmf-buds-pro-2-review-feature/?utm_source=rss&utm_medium=rss&utm_campaign=cmf-buds-pro-2-review-feature",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.7,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/cmf-by-nothing-buds-pro-2-test/",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": 8.7,
+      "url": "https://www.chinahandys.net/cmf-buds-pro-2-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Nothing-CMF-Buds-Pro-2-im-Test_185651330.html",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/technology/headphones-audio/cmf-buds-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/cmf-by-nothing-buds-pro-2/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/cmf-buds-pro-2-recensione-auricolari-economici-nothing.html",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/cmf-buds-pro-2-review-big-features-small-price-smart-dial-123206/",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": 7.0,
+      "url": "https://www.hardwarezone.com.sg/review-cmf-buds-pro-2-earbuds-singapore-price-buy-specs",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 7.0,
+      "url": "https://www.journaldugeek.com/test/test-cmf-buds-pro-2-des-ecouteurs-a-prix-contenu-avec-une-molette-intelligente/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/headphones/reviews/cmf/buds-pro-2",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 6.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/cmf-buds-pro-2-review-greatly-astonished-us/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 6.0,
+      "url": "https://www.techradar.com/audio/earbuds-airpods/cmf-buds-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/cmf-buds-pro-2-by-nothing",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/cmf-buds-pro-2-im-test,3417830.html",
+      "date": ""
+     },
+     {
+      "src": "TopForPhone",
+      "score": null,
+      "url": "https://www.top-for-phone.fr/test-cmf-buds-pro-2",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/cmf-by-nothing-buds-pro-2",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 64.95,
+   "img": "cmf-buds-pro-2.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quinze médias ont noté les CMF Buds Pro 2, pour une moyenne de 7,8/10. AndroidPit, Day-Technology et TechAeris leur accordent 9/10, Basic Tutorials et ChinaHandys 8,7/10, tandis que TechRadar et Gadget Bridge s'arrêtent à 6/10.\n\nLes testeurs soulignent une bonne réduction de bruit pour le prix, un égaliseur personnalisable, six microphones et une autonomie solide, avec une molette pratique sur l'étui. Ils reprochent un réglage des basses déséquilibré par défaut, l'absence de multipoint complet et de recharge sans fil, ainsi que des matériaux qui sentent le petit prix.",
+    "date": "2026-10-28",
+    "n": 15,
+    "tests": 19,
+    "sources": [
+     "AndroidPit",
+     "Day-Technology",
+     "TechAeris",
+     "Basic Tutorials",
+     "ChinaHandys",
+     "TechRadar",
+     "Gadget Bridge"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

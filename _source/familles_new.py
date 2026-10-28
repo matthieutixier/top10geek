@@ -94,6 +94,12 @@ ACATS = [
          seo_desc="Les meilleures enceintes Bluetooth portables en 2026, classées par note presse : JBL, Marshall, Sony, Bose, Sonos, Ultimate Ears. Prix indicatifs, points forts et faibles.",
          h1='Les meilleures <span class="flash">enceintes Bluetooth portables</span> en 2026',
          intro="De la petite enceinte de poche à l'enceinte de terrasse : la presse départage le son, l'autonomie, la résistance à l'eau et le prix. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon ou Electro Dépôt."),
+    dict(key="a-anc", slug="ecouteurs-reduction-de-bruit", label="Écouteurs à réduction de bruit", top_label="écouteurs sans fil à réduction de bruit", h="Écouteurs sans fil à réduction de bruit", tag="Le silence dans les oreilles", color="var(--cat-gaming)", cls="f-gaming", badge="ecouteurs", scene="audio-anc", scene_alt="Le père de famille geek, dans le train, des écouteurs dans les oreilles, un sourire apaisé pendant que le wagon s'agite",
+         plural_low="écouteurs",
+         seo_title="Meilleurs écouteurs sans fil à réduction de bruit 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs écouteurs sans fil à réduction de bruit en 2026, classés par note presse : AirPods, Sony, Bose, Samsung, Sennheiser, Google, Nothing. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">écouteurs sans fil à réduction de bruit</span> en 2026',
+         intro="Des AirPods aux Sony, Bose, Samsung ou Nothing : la presse départage la réduction de bruit, le son, le confort et l'autonomie. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
 ]
 
 VCATS = [

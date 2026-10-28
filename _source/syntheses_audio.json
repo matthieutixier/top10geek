@@ -105,5 +105,146 @@
    "01net",
    "SoundGuys"
   ]
+ },
+ {
+  "id": "galaxy-buds4-pro",
+  "texte": "Douze médias ont noté les Galaxy Buds4 Pro, pour une moyenne de 8,1/10. Labo Fnac les place en tête avec 10/10, FrAndroid donne 9/10, tandis que Presse Citron, Trusted Reviews, SoundGuys et Chip.de s'en tiennent à 8/10 et 01net à 6/10.\n\nLes testeurs soulignent une réduction de bruit parmi les meilleures de la catégorie, un mode transparence très naturel et un son généreux, avec des graves nets et une écoute peu fatigante. Les réserves concernent surtout l'écosystème : codec haute qualité et fonctions avancées sont réservés aux appareils Samsung, et le maintien dans l'oreille laisse à désirer pour certains.",
+  "sources": [
+   "Labo Fnac",
+   "FrAndroid",
+   "Presse Citron",
+   "Trusted Reviews",
+   "SoundGuys",
+   "Chip.de",
+   "01net"
+  ]
+ },
+ {
+  "id": "airpods-pro-3",
+  "texte": "Seize médias ont noté les AirPods Pro 3, pour une moyenne de 8,5/10. Les Numériques et Trusted Reviews leur attribuent 10/10, ComputerHoy 9,3/10, Numerama, Clubic, FrAndroid, Presse Citron et The Verge 9/10, alors que SoundGuys s'arrête à 7/10 et Labo Fnac à 6/10.\n\nLa presse retient une réduction de bruit parmi les plus efficaces du marché, un confort et un maintien améliorés, une bonne qualité d'appel et l'ajout d'un capteur de fréquence cardiaque précis. Les critiques portent sur une autonomie totale en recul, un étui plus volumineux et une expérience nettement moins riche sur Android, où plusieurs fonctions exigent un iPhone.",
+  "sources": [
+   "Les Numériques",
+   "Trusted Reviews",
+   "ComputerHoy",
+   "Numerama",
+   "Clubic.com",
+   "FrAndroid",
+   "Presse Citron",
+   "The Verge",
+   "SoundGuys",
+   "Labo Fnac"
+  ]
+ },
+ {
+  "id": "bose-qc-ultra-earbuds-2",
+  "texte": "Douze médias ont noté les QuietComfort Ultra Earbuds de deuxième génération, pour une moyenne de 8,7/10, la meilleure de la sélection. Les Numériques et Trusted Reviews donnent 10/10, Basic Tutorials 9,4/10, DigitalTrends, FrAndroid et TechAeris 9/10, tandis que 01net et Chip.de en restent à 8/10.\n\nLes tests louent une réduction de bruit de premier plan, un son riche avec des graves profonds, un maintien exemplaire et une bonne qualité de connexion Bluetooth. Ils regrettent une autonomie tout juste correcte, face à des concurrents qui ont pris de l'avance, un prix parmi les plus élevés du segment et des microphones encore perfectibles.",
+  "sources": [
+   "Les Numériques",
+   "Trusted Reviews",
+   "Basic Tutorials",
+   "DigitalTrends",
+   "FrAndroid",
+   "TechAeris",
+   "01net",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "sony-wf-1000xm6",
+  "texte": "Treize médias ont noté les WF-1000XM6, pour une moyenne de 8,3/10. Absolute Geeks et Trusted Reviews donnent 10/10, FrAndroid, Journal du Geek et Presse Citron 9/10, Engadget 8,4/10, alors que L&B Tech ne leur attribue que 6/10.\n\nLes testeurs apprécient un son naturel et musical, un excellent niveau de détail, une réduction de bruit impressionnante et une meilleure qualité d'appel que sur la génération précédente. Les points négatifs sont le prix élevé, un étui volumineux, la difficulté à obtenir un bon joint avec certains embouts et un mode adaptatif parfois capricieux. L'indice de protection reste IPX4.",
+  "sources": [
+   "Absolute Geeks",
+   "Trusted Reviews",
+   "FrAndroid",
+   "Journal du Geek",
+   "Presse Citron",
+   "Engadget",
+   "L&B Tech"
+  ]
+ },
+ {
+  "id": "sennheiser-mtw5",
+  "texte": "Onze médias ont noté les Momentum True Wireless 5, pour une moyenne de 8,4/10. TechRadar et Trusted Reviews donnent 10/10, Basic Tutorials 9,4/10, TechAeris 9/10, Clubic, Engadget, SoundGuys et 01net 8/10, alors que Gadget Bridge s'arrête à 6/10.\n\nLa presse vante un son nuancé et équilibré, le Bluetooth 6.0 avec multipoint et aptX Lossless, un confort de port soigné et une batterie remplaçable par l'utilisateur. Les réserves portent sur une réduction de bruit encore un cran derrière Apple, Sony et Bose, une qualité d'appel moyenne, un format un peu plus volumineux et un prix élevé.",
+  "sources": [
+   "TechRadar",
+   "Trusted Reviews",
+   "Basic Tutorials",
+   "TechAeris",
+   "Clubic.com",
+   "Engadget",
+   "SoundGuys",
+   "01net",
+   "Gadget Bridge"
+  ]
+ },
+ {
+  "id": "pixel-buds-pro-2",
+  "texte": "Dix-sept médias ont noté les Pixel Buds Pro 2, pour une moyenne de 7,8/10. AndroidPit et The Verge leur donnent 9/10, Engadget 8,8/10, 01net, Android Central, Presse Citron et Journal du Geek 8/10, tandis que TechRadar et Absolute Geeks ne vont pas au-delà de 6/10.\n\nLes tests relèvent un design plus petit et très confortable, un mode transparence cristallin, une réduction de bruit enfin au niveau de la concurrence et une autonomie allant jusqu'à 12 heures. Ils déplorent l'absence de codecs Bluetooth haute qualité, une réduction de bruit encore derrière celle de Bose, des microphones moyens et un prix supérieur à la génération précédente.",
+  "sources": [
+   "AndroidPit",
+   "The Verge",
+   "Engadget",
+   "01net",
+   "Android Central",
+   "Presse Citron",
+   "Journal du Geek",
+   "TechRadar",
+   "Absolute Geeks"
+  ]
+ },
+ {
+  "id": "airpods-4-anc",
+  "texte": "Dix-neuf médias ont noté les AirPods 4 avec réduction de bruit, pour une moyenne de 8/10. ExpertReviews leur donne 10/10, AndroidPit et FrAndroid 9/10, Numerama, Clubic, 01net et Chip.de 8/10, alors que SoundGuys s'arrête à 6/10.\n\nLes testeurs retiennent de bonnes performances acoustiques, une réduction de bruit valable pour un format sans embouts, un mode transparence très naturel, une qualité d'appel surprenante et une intégration soignée à l'écosystème Apple. Ils notent en revanche une autonomie moyenne avec l'ANC, des limites importantes avec des appareils non Apple et l'absence de multipoint véritable.",
+  "sources": [
+   "ExpertReviews",
+   "AndroidPit",
+   "FrAndroid",
+   "Numerama",
+   "Clubic.com",
+   "01net",
+   "Chip.de",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "sony-wf-c710n",
+  "texte": "Dix médias ont noté les WF-C710N, pour une moyenne de 7,8/10. Trusted Reviews les place en haut avec 10/10, 01net, Chip.de, Presse Citron et SoundGuys leur donnent 8/10, AndroidPit et CharlesTech 7/10 et Kopfhörer 6/10.\n\nLa presse apprécie une réduction de bruit efficace pour ce niveau de prix, un son lisse et agréable, un ajustement confortable et une autonomie très généreuse. Elle regrette peu de codecs compatibles, l'absence de recharge sans fil, des commandes tactiles parfois confuses et une application dont l'ergonomie manque de clarté.",
+  "sources": [
+   "Trusted Reviews",
+   "01net",
+   "Chip.de",
+   "Presse Citron",
+   "SoundGuys",
+   "AndroidPit",
+   "CharlesTech",
+   "Kopfhörer"
+  ]
+ },
+ {
+  "id": "nothing-ear-3a",
+  "texte": "Neuf médias ont noté les Ear (3a), pour une moyenne de 7,9/10. LeCafeDuGeek leur donne 9/10, Presse Citron, Les Numériques, AndroidWorld, SoundGuys, Chip.de et Trusted Reviews 8/10, alors que 01net n'attribue que 6/10.\n\nLes tests retiennent un excellent rapport fonctionnalités et prix, avec Bluetooth 6.0, LDAC et multipoint, une signature sonore équilibrée, un confort très correct et une bonne autonomie. Les points faibles sont une réduction de bruit en retrait face aux références, une coque qui fait un peu bon marché, un boîtier jugé fragile et des fonctions qui prennent tout leur sens avec un smartphone Nothing.",
+  "sources": [
+   "LeCafeDuGeek",
+   "Presse Citron",
+   "Les Numériques",
+   "AndroidWorld",
+   "SoundGuys",
+   "Chip.de",
+   "Trusted Reviews",
+   "01net"
+  ]
+ },
+ {
+  "id": "cmf-buds-pro-2",
+  "texte": "Quinze médias ont noté les CMF Buds Pro 2, pour une moyenne de 7,8/10. AndroidPit, Day-Technology et TechAeris leur accordent 9/10, Basic Tutorials et ChinaHandys 8,7/10, tandis que TechRadar et Gadget Bridge s'arrêtent à 6/10.\n\nLes testeurs soulignent une bonne réduction de bruit pour le prix, un égaliseur personnalisable, six microphones et une autonomie solide, avec une molette pratique sur l'étui. Ils reprochent un réglage des basses déséquilibré par défaut, l'absence de multipoint complet et de recharge sans fil, ainsi que des matériaux qui sentent le petit prix.",
+  "sources": [
+   "AndroidPit",
+   "Day-Technology",
+   "TechAeris",
+   "Basic Tutorials",
+   "ChinaHandys",
+   "TechRadar",
+   "Gadget Bridge"
+  ]
  }
 ]

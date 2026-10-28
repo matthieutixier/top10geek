@@ -10,6 +10,7 @@ from catalog_sols import S, TOP
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 ABT = "a-bt"
+AANC = "a-anc"
 AUD = {}
 
 
@@ -132,6 +133,99 @@ add("jbl-go-essential-2", ABT, "JBL Go Essential 2", "IP68 · 5 h · Bluetooth 4
     "Vous voulez une enceinte de dépannage ou un cadeau à moins de 30 €.",
     "Vous attendez de la puissance ou des basses.",
     ed=ed("enceinte-jbl-go-essential-2-noir", "Enceinte Jbl Go Essential 2 Noir", 29.0, "1200130018589", "10005191"))
+
+
+# ============================================================ ÉCOUTEURS SANS FIL À RÉDUCTION DE BRUIT
+# Prix Amazon relevés le 28/10/2026 dans le navigateur (vendu et expédié par Amazon) ; à renouveler par releve.py.
+add("galaxy-buds4-pro", AANC, "Samsung Galaxy Buds4 Pro", "Double haut-parleur · 26 h avec boîtier", TOP,
+    "Les mieux placés en rapport qualité/prix : un son généreux, une des meilleures réductions de bruit du moment et un prix déjà redescendu à 152 €. Les fonctions avancées sont surtout réservées aux téléphones Samsung.",
+    ["ANC parmi les meilleures de la catégorie", "Son généreux, grave texturé et rapide", "Mode transparence très naturel"],
+    ["Fonctions avancées réservées à l'écosystème Samsung", "Pas de LDAC ni d'aptX hors Samsung", "Maintien perfectible"],
+    ("n.c.", "26 h"), "Samsung Galaxy Buds 4 Pro",
+    "B0G59QG1TR", "Samsung Galaxy Buds4 Pro, Écouteurs Bluetooth sans Fil, Son Hi-FI de qualité Studio, Double Haut-Parleur", 152.0,
+    "Vous avez un smartphone Samsung Galaxy et voulez un excellent son avec une très bonne réduction de bruit.",
+    "Vous avez un iPhone ou un téléphone d'une autre marque : plusieurs fonctions sont perdues.")
+
+add("airpods-pro-3", AANC, "Apple AirPods Pro 3", "IP57 · capteur cardiaque", "Pour iPhone",
+    "La référence pour l'iPhone : réduction de bruit parmi les meilleures du marché, très bon confort et capteur de fréquence cardiaque, avec une autonomie en recul face à la génération précédente.",
+    ["L'un des meilleurs ANC du marché", "Très bon confort, excellent maintien", "Kit mains-libres de haut vol"],
+    ["Régression de l'autonomie totale", "Expérience tronquée sur Android", "Étui plus grand"],
+    ("IP57", "Cardio"), "Apple AirPods Pro 3",
+    "B0FQF32239", "Apple AirPods Pro 3 Écouteurs sans Fil, réduction Active du Bruit, détection de la fréquence Cardiaque", 209.0,
+    "Vous utilisez un iPhone et voulez la meilleure intégration, avec un excellent kit mains-libres.",
+    "Vous êtes sur Android : de nombreuses fonctions exigent un iPhone.")
+
+add("bose-qc-ultra-earbuds-2", AANC, "Bose QuietComfort Ultra Earbuds (2e gén.)", "ANC référence · IPX4", "Meilleure note",
+    "La meilleure note moyenne de la sélection : une réduction de bruit de premier plan, un son riche et un maintien exemplaire. Autonomie tout juste correcte et prix élevé.",
+    ["Réduction de bruit très efficace", "Graves profonds, son riche et détaillé", "Maintien et confort exemplaires"],
+    ["Autonomie tout juste correcte", "Parmi les plus chers", "Microphones perfectibles"],
+    ("IPX4", "6 h"), "Bose QuietComfort Ultra 2",
+    "B0F7M3HPBD", "Bose QuietComfort Ultra Écouteurs (2e génération), écouteurs sans Fil à réduction de Bruit, IPx4", 286.99,
+    "Vous voulez la réduction de bruit la plus efficace, pour les transports ou l'open space.",
+    "Vous cherchez une grande autonomie ou un budget serré.")
+
+add("sony-wf-1000xm6", AANC, "Sony WF-1000XM6", "ANC premium · Hi-Res · IPX4", "Haut de gamme",
+    "Le haut de gamme de Sony : un son naturel et détaillé, une réduction de bruit impressionnante et une bonne qualité d'appel. Le prix est élevé et l'étui encombrant.",
+    ["Annulation de bruit exceptionnelle", "Son naturel et musical", "Confortable à porter"],
+    ["Prix élevé", "Étui encombrant", "Mode adaptatif parfois capricieux"],
+    ("IPX4", "24 h"), "Sony WF-1000XM6",
+    "B0GF9ZNLWM", "Sony WF-1000XM6 Écouteurs sans Fil Premium avec réduction de Bruit ANC, Hi-Res, IPX4", 299.0,
+    "Vous voulez un son très abouti et une réduction de bruit au sommet, sur iPhone comme sur Android.",
+    "Vous cherchez de gros graves ou un étui compact.")
+
+add("sennheiser-mtw5", AANC, "Sennheiser Momentum True Wireless 5", "aptX Lossless · batterie remplaçable", "Son audiophile",
+    "Un son nuancé et équilibré, le Bluetooth 6.0 avec aptX Lossless et une batterie remplaçable par l'utilisateur. La réduction de bruit reste un cran derrière Apple, Sony et Bose, et le prix est élevé.",
+    ["Son impressionnant, nuancé et équilibré", "Bluetooth 6.0, multipoint, aptX Lossless", "Batterie remplaçable"],
+    ["ANC en retrait des leaders", "Qualité des appels moyenne", "Très cher"],
+    ("n.c.", "40 h"), "Sennheiser Momentum True Wireless 5",
+    "B0HC72BMGT", "Sennheiser Momentum True Wireless 5 écouteurs Bluetooth, Batterie 40h, ANC", 299.0,
+    "Vous privilégiez la qualité sonore et les codecs haute résolution.",
+    "Vous voulez la meilleure réduction de bruit ou un petit prix.")
+
+add("pixel-buds-pro-2", AANC, "Google Pixel Buds Pro 2", "Gemini · 12 h", "Pour Pixel",
+    "Légers, très confortables et bien intégrés à Android avec Gemini : un son agréable et une réduction de bruit enfin au niveau de la concurrence, mais sans codecs haute qualité.",
+    ["Mode transparence cristallin", "Très confortables, design compact", "Autonomie jusqu'à 12 heures"],
+    ["Pas de codecs Bluetooth haute qualité", "ANC en retrait de Bose", "Micros perfectibles"],
+    ("n.c.", "12 h"), "Google Pixel Buds Pro 2",
+    "B0FJGBYK8B", "Google Pixel Buds Pro 2 – Écouteurs sans Fil avec Suppression Active du Bruit – Quartz Gris", 197.42,
+    "Vous êtes sur Android, de préférence un Pixel, et voulez des écouteurs légers pour la journée.",
+    "Vous cherchez des codecs haute résolution ou le meilleur ANC.")
+
+add("airpods-4-anc", AANC, "Apple AirPods 4 (ANC)", "Réduction active · sans embouts", "Sans embouts",
+    "Les AirPods à réduction de bruit sans embouts : un son plutôt riche, une ANC valable et une très bonne intégration à l'iPhone. Autonomie moyenne et fonctions limitées hors Apple.",
+    ["Performances acoustiques", "Réduction de bruit active valable", "Mode transparence très naturel"],
+    ["Autonomie correcte sans plus", "Limitations hors appareils Apple", "Pas de multipoint approprié"],
+    ("IP54", "ANC"), "Apple AirPods 4",
+    "B0DGHYDYJL", "Apple AirPods 4 Écouteurs sans Fil, écouteurs Bluetooth, avec Réduction Active du Bruit", 134.0,
+    "Vous avez un iPhone et préférez des écouteurs sans embouts en silicone.",
+    "Vous voulez une isolation passive forte ou vous êtes sur Android.")
+
+add("sony-wf-c710n", AANC, "Sony WF-C710N", "ANC · 40 h · IPX4", "Autonomie",
+    "Une réduction de bruit efficace pour le prix, un son agréable et une grande autonomie. Peu de codecs compatibles et une application un peu compliquée.",
+    ["Annulation de bruit efficace", "Excellente autonomie", "Ajustement confortable"],
+    ["Peu de codecs compatibles", "Pas de recharge sans fil", "Commandes tactiles confuses"],
+    ("IPX4", "40 h"), "Sony WF-C710N",
+    "B0FDBD6WQ3", "Sony WF-C710N Écouteurs sans Fil avec réduction de Bruit Active, IPX4, autonomie 40h", 99.0,
+    "Vous voulez de la réduction de bruit sous les 100 € et une grosse autonomie.",
+    "Vous attendez un son haut de gamme ou la recharge sans fil.")
+
+add("nothing-ear-3a", AANC, "Nothing Ear (3a)", "Bluetooth 6.0 · LDAC · multipoint", "Petit prix",
+    "Un excellent rapport fonctionnalités/prix : LDAC, Bluetooth 6.0, multipoint, un son équilibré et une bonne autonomie. La réduction de bruit est un cran sous le haut de gamme.",
+    ["Bluetooth 6.0, LDAC, multipoint", "Signature sonore équilibrée", "Excellente autonomie"],
+    ["ANC en retrait des références", "Coque qui fait un peu cheap", "Fonctions complètes avec un téléphone Nothing"],
+    ("n.c.", "LDAC"), "Nothing Ear 3a",
+    "B0GZW9B97V", "Nothing Ear (3a) – Écouteurs sans Fil avec ANC Jusqu'à 45 DB, Hi-Res Audio, double connexion Bluetooth", 99.95,
+    "Vous voulez des écouteurs complets pour 100 €, avec LDAC et multipoint.",
+    "Vous cherchez la meilleure réduction de bruit.")
+
+add("cmf-buds-pro-2", AANC, "CMF Buds Pro 2", "ANC 50 dB · égaliseur · 64,95 €", "Le moins cher",
+    "Le plus petit prix de la sélection : une bonne réduction de bruit, un égaliseur personnalisable et une autonomie solide. Basses marquées par défaut et matériaux simples.",
+    ["Très bonne réduction de bruit pour le prix", "Égaliseur personnalisable", "Autonomie solide"],
+    ["Son déséquilibré par défaut", "Pas de vrai multipoint", "Matériaux bon marché"],
+    ("n.c.", "ANC 50 dB"), "Nothing CMF Buds Pro 2",
+    "B0F5B56X84", "CMF by Nothing Buds Pro 2 Écouteurs sans Fil avec Son Hi-FI, 50 DB Suppression Active du Bruit Hybride", 64.95,
+    "Vous voulez de l'ANC pour moins de 70 €.",
+    "Vous cherchez un son très travaillé ou un étui premium.")
 
 
 def build():

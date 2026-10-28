@@ -994,5 +994,33 @@
  "eufy-solocam-s340": {
   "constructeur": "eufy",
   "source": "https://cdn.shopify.com/s/files/1/1054/0698/8369/files/1500_1500_d6b72bb0-6408-4818-89e0-f393e1a9117e.png"
+ },
+ "sony-wf-1000xm6": {
+  "constructeur": "Sony",
+  "source": "https://sony.scene7.com/is/image/sonyglobalsolutions/Product-Intro-Plate-7"
+ },
+ "sony-wf-c710n": {
+  "constructeur": "Sony",
+  "source": "https://sony.scene7.com/is/image/sonyglobalsolutions/00-28"
+ },
+ "google-pixel-buds-pro-2": {
+  "constructeur": "Google",
+  "source": "https://store.google.com/fr/product/pixel_buds_pro_2"
+ },
+ "nothing-ear-3a": {
+  "constructeur": "Nothing",
+  "source": "https://fr.nothing.tech/products/ear-3a"
+ },
+ "cmf-buds-pro-2": {
+  "constructeur": "Nothing",
+  "source": "https://fr.nothing.tech/products/cmf-buds-pro-2"
+ },
+ "airpods-pro-3": {
+  "constructeur": "Apple",
+  "source": "https://www.apple.com/fr/airpods-pro/"
+ },
+ "airpods-4-anc": {
+  "constructeur": "Apple",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10008780.jpg"
  }
 }
