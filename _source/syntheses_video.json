@@ -405,5 +405,95 @@
    "FrAndroid",
    "PhotoTrend"
   ]
+ },
+ {
+  "id": "dji-neo-2",
+  "texte": "8 médias ont noté le DJI Neo 2, pour une moyenne de 8,1/10 ; les plus hautes notes viennent de T3 à 10/10, FrAndroid à 9/10, Presse Citron à 9/10.\n\nLes tests retiennent le décollage depuis la paume, le contrôle gestuel et vocal, le LiDAR pour éviter les obstacles et la nacelle à deux axes qui lisse l'image. Ils regrettent une autonomie courte, l'absence de fente microSD et une vidéo verticale qui n'est pas native.\n\nParmi les autres médias, Basic Tutorials lui donne 8,9/10, 01net lui donne 8/10, Camera Jabber lui donne 8/10, The Verge lui donne 8/10.",
+  "sources": [
+   "T3",
+   "FrAndroid",
+   "Presse Citron"
+  ]
+ },
+ {
+  "id": "dji-neo",
+  "texte": "12 médias ont noté le DJI Neo, pour une moyenne de 8,1/10 ; les plus hautes notes viennent de Camera Jabber à 10/10, Engadget à 9,2/10, SlashGear à 9/10.\n\nLes tests saluent un drone de 135 g qui décolle de la main, suit son sujet et se prend en main sans effort, à un prix contenu. Les réserves portent sur l'autonomie par batterie, une image moins fine que sur les drones à grand capteur et un évitement d'obstacles limité.\n\nParmi les autres médias, AndroidPit lui donne 9/10, Basic Tutorials lui donne 8,8/10, StudioSport lui donne 8/10, Digital Camera World lui donne 8/10.",
+  "sources": [
+   "Camera Jabber",
+   "Engadget",
+   "SlashGear"
+  ]
+ },
+ {
+  "id": "dji-flip",
+  "texte": "Neuf médias chiffrent leur verdict sur le DJI Flip, avec une moyenne proche de 8,5/10. Camera Jabber le place à 10/10, Basic Tutorials à 9,2/10 et SlashGear à 9/10 ; Engadget l'évalue à 8,2/10, tandis que Chip.de, FrAndroid, TechRadar, Presse Citron et StudioSport s'accordent sur 8/10.\n\nSon argument principal est la protection des hélices par des cages : le drone se garde au plus près des proches sans risque de coupure. La nacelle trois axes et la vidéo 4K font de lui un compagnon de voyage plus sérieux qu'un modèle de poche. Reste une détection d'obstacles partielle, et une batterie dont la durée moyenne justifie l'achat d'un pack complémentaire.",
+  "sources": [
+   "Camera Jabber",
+   "Basic Tutorials",
+   "SlashGear",
+   "Engadget",
+   "Chip.de",
+   "FrAndroid",
+   "TechRadar",
+   "Presse Citron",
+   "StudioSport"
+  ]
+ },
+ {
+  "id": "dji-lito-x1",
+  "texte": "3 médias ont noté le DJI Lito X1, pour une moyenne de 8,7/10 : Trusted Reviews à 10/10, AndroidWorld à 8/10, StudioSport à 8/10.\n\nLes tests mettent en avant le capteur de 1/1,3 pouce, la détection d'obstacles omnidirectionnelle avec LiDAR frontal et une autonomie qui peut atteindre 36 minutes. Ils reprochent à la nacelle de ne pas pivoter pour la vidéo verticale, un zoom numérique qui se dégrade et une tenue au vent seulement moyenne.\n\nCes notes datent de 2024 ou après, et n'incluent que les médias qui chiffrent leur verdict : les tests sans note publique ne sont pas comptés dans la moyenne.",
+  "sources": [
+   "Trusted Reviews",
+   "AndroidWorld",
+   "StudioSport"
+  ]
+ },
+ {
+  "id": "potensic-atom-2",
+  "texte": "4 médias ont noté le Potensic Atom 2, pour une moyenne de 7/10 ; les plus hautes notes viennent de Mac Sources à 8/10, tuttoteK à 8/10, T3 à 8/10.\n\nLes tests retiennent un excellent rapport qualité-prix, une vidéo au niveau de sa catégorie, une radiocommande à écran de 5,5 pouces et un vol convaincant. Ils signalent l'absence d'évitement d'obstacles, une batterie qui ne tient pas ses promesses et une manette assez grande.\n\nParmi les autres médias, Chip.de lui donne 4/10, un écart net avec les trois autres médias, qui le placent tous à 8/10. Seuls les tests datés de 2024 ou après sont comptés.",
+  "sources": [
+   "Mac Sources",
+   "tuttoteK",
+   "T3"
+  ]
+ },
+ {
+  "id": "hoverair-x1-pro",
+  "texte": "Deux médias ont chiffré leur avis sur la HOVERAir X1 Pro, tous deux à 8/10 : TechRadar, dès octobre 2024, puis Mac Sources en 2026. Le constat se recoupe : la caméra suit son sujet sans manette et reste simple à lancer.\n\nCe fonctionnement autonome plaît à ceux qui veulent se filmer en vélo ou en randonnée. L'envers du décor : les photos sont décevantes, le mode manuel via l'application est lent, et le prix dépasse celui d'un DJI Neo, qui propose en plus un LiDAR. Seuls deux tests chiffrés sont disponibles à ce jour : la moyenne reste donc fragile, et le classement de ce modèle doit se lire avec prudence.",
+  "sources": [
+   "TechRadar",
+   "Mac Sources"
+  ]
+ },
+ {
+  "id": "dji-avata-360",
+  "texte": "8 médias ont noté le DJI Avata 360, pour une moyenne de 8,6/10 ; les plus hautes notes viennent de Trusted Reviews à 10/10, Basic Tutorials à 9/10, Presse Citron à 9/10.\n\nLes tests retiennent la vidéo 360° en 8K à 60 images par seconde, un vol rapide et agile même par temps venteux et une détection d'obstacles omnidirectionnelle. Ils notent des coutures visibles lors de virages brusques, une autonomie pratique de 18 à 20 minutes et l'absence de vrai mode acro.\n\nParmi les autres médias, Engadget lui donne 8,4/10, Tom's Guide (US) lui donne 8/10, AndroidWorld lui donne 8/10, T3 lui donne 8/10.",
+  "sources": [
+   "Trusted Reviews",
+   "Basic Tutorials",
+   "Presse Citron"
+  ]
+ },
+ {
+  "id": "dji-mini-5-pro",
+  "texte": "7 médias ont noté le DJI Mini 5 Pro, pour une moyenne de 9/10 ; les plus hautes notes viennent de Les Numériques à 10/10, Trusted Reviews à 10/10, Camera Jabber à 10/10.\n\nLes tests mettent en avant le capteur de 1 pouce de 50 mégapixels, la nacelle qui tourne à 225°, le capteur LiDAR avant et le suivi de sujet. Ils critiquent un tarif élevé, un chargeur non fourni et une autonomie réelle en dessous des attentes.\n\nParmi les autres médias, FrAndroid lui donne 9/10, T3 lui donne 8/10, Chip.de lui donne 8/10, Presse Citron lui donne 8/10.",
+  "sources": [
+   "Les Numériques",
+   "Trusted Reviews",
+   "Camera Jabber"
+  ]
+ },
+ {
+  "id": "dji-mavic-4-pro",
+  "texte": "Sept médias ont publié une note sur le DJI Mavic 4 Pro, soit en moyenne 9,0/10. Trusted Reviews et Camera Jabber lui attribuent 10/10, FrAndroid, TechRadar et StudioSport 9/10, PhotoTrend et Chip.de 8/10.\n\nCe drone cible les professionnels : trois caméras dont un capteur 4/3 Hasselblad de 100 mégapixels, jusqu'à 51 minutes de vol et une portée vidéo de 30 km. En contrepartie, il pèse lourd, coûte plus de 2 000 euros et, au-delà de 250 g, impose des règles de vol plus strictes que les modèles ultralégers.",
+  "sources": [
+   "Trusted Reviews",
+   "Camera Jabber",
+   "FrAndroid",
+   "TechRadar",
+   "StudioSport",
+   "PhotoTrend",
+   "Chip.de"
+  ]
  }
 ]

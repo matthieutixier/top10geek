@@ -13,6 +13,7 @@ VSV = "v-surv"
 VSP = "v-sport"
 VPRJ = "v-proj"
 VPH = "v-photo"
+VDR = "v-drone"
 VID = {}
 
 
@@ -399,6 +400,89 @@ add("nikon-z6-iii", VPH, "Nikon Z6 III", "Plein format · 24,5 MP · 6K · rafal
     "B0D79QY952", "Nikon Hybride Z6III, boitier Nu, Plein Format 24,5 MP, vidéo 6K, jusqu'à 120 i/s, écran Tactile et orientable", 2498.0,
     "Vous voulez un plein format qui fait aussi bien la photo que la vidéo.",
     "Vous avez un budget limité.", seller="Concept Store Photo")
+
+
+# ---- Drones ----
+add("dji-neo-2", VDR, "DJI Neo 2", "135 g · 4K · évitement d'obstacles · décollage main", TOP,
+    "Le drone de poche le plus facile à prendre en main : il décolle de la paume, suit son sujet et évite les obstacles. L'autonomie reste courte et il n'y a pas de fente microSD.",
+    ["Décollage depuis la main et contrôle gestuel", "Évitement d'obstacles par LiDAR", "Prix bas pour un drone 4K stabilisé"],
+    ["Autonomie courte", "Pas de fente microSD", "Pas de vidéo verticale native"],
+    ("4K · 135 g", "Évitement d'obstacles"), "DJI Neo 2",
+    "B0FJ1S18HF", "DJI Neo 2 (drone seul), drone 4K léger avec caméra", 224.99,
+    "Vous voulez filmer vos sorties sans manette, avec un drone qui tient dans la poche.",
+    "Vous voulez voler longtemps ou piloter avec précision.")
+
+add("dji-neo", VDR, "DJI Neo", "135 g · 4K · Fly More Combo avec RC-N3", "Petit prix DJI",
+    "Le premier Neo reste un drone de poche accessible, vendu ici en pack Fly More avec trois batteries et la radiocommande RC-N3. Il est moins complet que le Neo 2 sur l'évitement d'obstacles.",
+    ["Format de poche et prix contenu", "Pack avec 3 batteries et radiocommande", "Suivi de sujet simple"],
+    ["Pas d'évitement d'obstacles complet", "Autonomie courte par batterie", "Image moins fine que les drones à grand capteur"],
+    ("4K · 135 g", "Pack 3 batteries"), "DJI Neo",
+    "B07FTRYVT5", "Bundle Fly More DJI Neo, Mini Drone avec Caméra 4K UHD pour Adultes", 264.87,
+    "Vous cherchez un premier drone DJI à petit prix, avec batteries de rechange.",
+    "Vous voulez l'évitement d'obstacles et la dernière génération.")
+
+add("dji-flip", VDR, "DJI Flip", "249 g · 4K · hélices protégées · RC-N3", "Hélices protégées",
+    "Un drone pliable aux hélices protégées par des cages, pratique pour voler autour de proches. Il décolle de la paume et propose un suivi automatique fiable ; l'image est meilleure que sur un drone de poche.",
+    ["Cages d'hélices pour voler près des gens", "Nacelle 3 axes et image 4K soignée", "Décollage depuis la main"],
+    ["Pas de détection d'obstacles complète", "Autonomie moyenne par batterie", "Vendu ici par un vendeur tiers expédié par Amazon"],
+    ("4K · 249 g", "Hélices protégées"), "DJI Flip",
+    "B0DJ1H6KCP", "DJI Flip (RC-N3), Drone Caméra 4K UHD pour adultes, < 249 g", 349.0,
+    "Vous voulez un drone sûr à utiliser en famille, avec une bonne image.",
+    "Vous voulez une détection d'obstacles complète.", seller="EnerVolt Hub (expédié par Amazon)")
+
+add("dji-lito-x1", VDR, "DJI Lito X1", "Capteur 1/1,3\" · 4K · 36 min · obstacles", "Image soignée",
+    "Un drone débutant à capteur 1/1,3 pouce qui filme plus finement que les modèles d'entrée de gamme, avec une bonne autonomie et une détection d'obstacles omnidirectionnelle. La nacelle ne pivote pas pour le format vertical.",
+    ["Capteur 1/1,3 pouce et image détaillée", "Autonomie annoncée jusqu'à 36 minutes", "Détection d'obstacles omnidirectionnelle"],
+    ["Nacelle sans rotation verticale", "Zoom numérique de qualité moyenne", "Tenue au vent moyenne"],
+    ("4K · 36 min", "Capteur 1/1,3\""), "DJI Lito X1",
+    "B0FZ9XSKKD", "DJI Lito X1, drone caméra 4K pour débutants, Version améliorée de Mini 3", 369.99,
+    "Vous voulez une bonne image et de l'autonomie sans passer au 1 pouce.",
+    "Vous voulez publier surtout en vidéo verticale.")
+
+add("potensic-atom-2", VDR, "Potensic Atom 2", "249 g · 4K HDR · 8K photo · pack 96 min", "Meilleur rapport qualité-prix",
+    "Un drone de moins de 249 g avec nacelle 3 axes, vidéo 4K HDR et un pack de trois batteries qui totalise environ 96 minutes de vol. Il n'a pas d'évitement d'obstacles et sa batterie tient moins longtemps qu'annoncé.",
+    ["Qualité vidéo correcte pour le prix", "Pack de 3 batteries inclus", "Radiocommande à écran 5,5 pouces"],
+    ["Pas d'évitement d'obstacles", "Batterie en dessous des promesses", "Radiocommande volumineuse"],
+    ("4K HDR · 249 g", "Pack 96 min"), "Potensic Atom 2",
+    "B0DK96YNS1", "Potensic ATOM 2 Drone avec Caméra, Photo 8K, Vidéo 4K HDR avec Gimbal à 3 Axes, Moins de 249 g, Fly More Combo", 399.99,
+    "Vous voulez un drone complet avec manette à écran et plusieurs batteries.",
+    "Vous voulez un évitement d'obstacles.")
+
+add("hoverair-x1-pro", VDR, "HOVERAir X1 Pro", "192 g · 4K · suivi autonome · sans manette", "Caméra volante",
+    "Une caméra volante qui se pilote sans manette : elle suit le sujet seule et se contrôle depuis l'application. Le suivi est très bon, mais la photo est limitée et il coûte plus cher qu'un DJI Neo.",
+    ["Suivi autonome efficace", "Très compact et facile à utiliser", "Pilotage manuel possible par l'application"],
+    ["Qualité photo limitée", "Vitesse de vol manuel lente", "Plus cher qu'un DJI Neo"],
+    ("4K · 192 g", "Suivi autonome"), "Hoverair X1 Pro",
+    "B0DGTHCKKS", "HOVERAir X1 Pro Caméra Sport 4K, Caméra Volante Pliable, Standard", 499.0,
+    "Vous voulez vous filmer en sport sans piloter.",
+    "Vous voulez piloter vous-même ou faire de belles photos.", seller="Hover Camera Direct (expédié par Amazon)")
+
+add("dji-avata-360", VDR, "DJI Avata 360", "360° 8K · capteurs 1/1,1\" · obstacles", "Vidéo 360°",
+    "Un drone qui filme à 360° en 8K et recadre ensuite l'image, pour des plans aériens impossibles à cadrer au vol. Il vole vite par grand vent ; des coutures peuvent apparaître lors de virages brusques.",
+    ["Vidéo 360° 8K 60 i/s", "Vol agile même par vent", "Détection d'obstacles omnidirectionnelle"],
+    ["Coutures visibles lors de virages brusques", "Autonomie réelle d'environ 18 à 20 minutes", "Pas de vrai mode acro"],
+    ("8K 360° · 60 i/s", "Recadrage après vol"), "DJI Avata 360",
+    "B0FWRMDNGV", "DJI Avata 360 (RC 2), drone caméra 360° 8K", 645.0,
+    "Vous voulez des plans aériens créatifs et recadrer l'image après le vol.",
+    "Vous cherchez la meilleure qualité d'image classique.")
+
+add("dji-mini-5-pro", VDR, "DJI Mini 5 Pro", "249 g · CMOS 1\" · 50 MP · LiDAR", "Référence légère",
+    "Le drone de moins de 250 g à capteur 1 pouce : image de très haut niveau, nacelle à 225°, capteur LiDAR avant et suivi de sujet. Le tarif est élevé et le chargeur n'est pas fourni.",
+    ["Capteur 1 pouce 50 MP", "Nacelle rotative à 225° et LiDAR avant", "Suivi de sujet fiable"],
+    ["Tarif élevé", "Chargeur non fourni", "Autonomie réelle sous les attentes"],
+    ("1\" · 50 MP", "LiDAR et 225°"), "DJI Mini 5 Pro",
+    "B0F6XJ7W9M", "DJI Mini 5 Pro, drone ultra-léger avec caméra, CMOS 1 pouce", 718.0,
+    "Vous voulez la meilleure image possible dans un drone de moins de 250 g.",
+    "Vous cherchez un drone à petit prix.")
+
+add("dji-mavic-4-pro", VDR, "DJI Mavic 4 Pro", "Hasselblad 4/3 · 100 MP · 51 min · triple caméra", "Haut de gamme",
+    "Le drone phare de DJI : triple caméra à capteur Hasselblad 4/3, jusqu'à 51 minutes de vol et transmission sur 30 km. Une machine de professionnel, lourde et très chère.",
+    ["Triple caméra et capteur 4/3 de 100 MP", "Autonomie annoncée jusqu'à 51 minutes", "Transmission vidéo sur 30 km"],
+    ["Prix très élevé", "Encombrant et lourd", "Réglementation plus stricte au-delà de 250 g"],
+    ("4/3 · 100 MP", "Triple caméra"), "DJI Mavic 4 Pro",
+    "B0DS2HDF1M", "DJI Mavic 4 Pro avec DJI RC 2, drone phare à triple caméra", 2098.9,
+    "Vous cherchez une qualité professionnelle pour la photo et la vidéo aériennes.",
+    "Vous débutez ou voulez un drone sous 250 g.")
 
 
 def build():

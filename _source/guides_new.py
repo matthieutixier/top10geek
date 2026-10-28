@@ -355,6 +355,20 @@ GUIDES_NEW = {
             "Prendre un compact sans viseur si vous photographiez surtout en plein soleil."],
     budget=[("550 – 1 000 €", "Hybrides APS-C d'entrée de gamme et compacts de poche."), ("1 300 – 1 600 €", "APS-C haut de gamme, 40 MP ou autofocus par IA."), ("1 700 – 2 500 €", "Plein format.")],
 ),
+"v-drone": dict(
+    titre="Comment choisir un drone avec caméra",
+    intro="Le choix tient à trois points : le <b>poids</b> (sous 250 g, la réglementation est plus souple), la <b>taille du capteur</b> et le <b>type de pilotage</b> (sans manette, radiocommande ou lunettes). L'autonomie réelle est souvent inférieure à celle annoncée.",
+    criteres=[
+        ("Poids et réglementation", "Un drone de moins de 250 g (classe C0) se vole plus librement ; au-delà, formation et enregistrement sont plus exigeants. Vérifiez le poids réel avec les accessoires."),
+        ("Capteur et image", "Un capteur de 1/1,3 pouce ou 1 pouce filme mieux en basse lumière qu'un petit capteur ; les drones de poche misent sur la simplicité plus que sur l'image."),
+        ("Évitement d'obstacles", "Les modèles à capteurs omnidirectionnels ou LiDAR sont plus sûrs pour les débutants ; certains drones d'entrée de gamme n'en ont pas."),
+        ("Autonomie et batteries", "Comptez des vols de 15 à 35 minutes en pratique : un pack avec plusieurs batteries évite de se retrouver à terre après un seul vol."),
+    ],
+    pieges=["Comparer le prix du drone seul et celui d'un pack Fly More : les prix de cette page indiquent la version relevée chez Amazon.",
+            "Oublier la manette ou l'écran : certains modèles se vendent sans radiocommande ou avec une radiocommande sans écran.",
+            "Négliger les règles de vol : zones interdites, hauteur limitée et distance de sécurité des personnes."],
+    budget=[("220 – 400 €", "Drones de poche, pliables et modèles d'entrée de gamme."), ("500 – 900 €", "Drones à capteur 1 pouce ou à image 360°."), ("2 000 € et plus", "Drones professionnels à triple caméra.")],
+),
 "v-surv": dict(
     titre="Comment choisir une caméra de surveillance",
     intro="Avant la résolution, trois questions : <b>l'emplacement (intérieur ou extérieur), l'alimentation (secteur, batterie, solaire ou PoE) et le stockage des vidéos</b>. Les fonctions d'IA et le cloud sont parfois payants : lisez les tests.",

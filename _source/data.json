@@ -35809,6 +35809,1086 @@
      "PhotoTrend"
     ]
    }
+  },
+  "dji-neo-2": {
+   "cat": "v-drone",
+   "short": "DJI Neo 2",
+   "ref": "135 g · 4K · évitement d'obstacles · décollage main",
+   "badge": "Le choix de la bande",
+   "verdict": "Le drone de poche le plus facile à prendre en main : il décolle de la paume, suit son sujet et évite les obstacles. L'autonomie reste courte et il n'y a pas de fente microSD.",
+   "strengths": [
+    "Décollage depuis la main et contrôle gestuel",
+    "Évitement d'obstacles par LiDAR",
+    "Prix bas pour un drone 4K stabilisé"
+   ],
+   "weak": [
+    "Autonomie courte",
+    "Pas de fente microSD",
+    "Pas de vidéo verticale native"
+   ],
+   "m": [
+    "4K · 135 g",
+    "Évitement d'obstacles"
+   ],
+   "id": "dji-neo-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 224.99,
+     "url": "https://www.amazon.fr/dp/B0FJ1S18HF?tag=geekconcept-21",
+     "name": "DJI Neo 2 (drone seul), drone 4K léger avec caméra",
+     "cfg": "",
+     "asin": "B0FJ1S18HF"
+    }
+   ],
+   "press": {
+    "avg": 8.1125,
+    "n": 8,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "T3",
+      "score": 10.0,
+      "url": "https://www.t3.com/tech/drones/dji-neo-2-review",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/dji/2866097_test-dji-neo-2",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-dji-neo-2/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.9,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-neo-2-review-im-test/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/dji-neo2-drone-suivi-pas-cher-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 8.0,
+      "url": "https://camerajabber.com/reviews/dji-neo-2-review-this-palm%e2%80%91sized-tracking-drone-is-and-ideal-option-for-content-creators/",
+      "date": ""
+     },
+     {
+      "src": "The Verge",
+      "score": 8.0,
+      "url": "https://www.theverge.com/tech/849707/dji-neo-2-review-i-guess-im-a-drone-guy-now",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 4.0,
+      "url": "https://www.chip.de/test/DJI-Neo-2-im-Test_186389817.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/dji-neo-2",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2025/11/13/dji-neo-2-test/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/drone/dji-dji-neo-2-drone-seul-leger-pliable-decollage-at-p77366/test.html",
+      "date": ""
+     },
+     {
+      "src": "TechBroll",
+      "score": null,
+      "url": "https://techbroll.com/2025/12/dji-neo-2-review-better-in-every-way.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 224.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "8 médias ont noté le DJI Neo 2, pour une moyenne de 8,1/10 ; les plus hautes notes viennent de T3 à 10/10, FrAndroid à 9/10, Presse Citron à 9/10.\n\nLes tests retiennent le décollage depuis la paume, le contrôle gestuel et vocal, le LiDAR pour éviter les obstacles et la nacelle à deux axes qui lisse l'image. Ils regrettent une autonomie courte, l'absence de fente microSD et une vidéo verticale qui n'est pas native.\n\nParmi les autres médias, Basic Tutorials lui donne 8,9/10, 01net lui donne 8/10, Camera Jabber lui donne 8/10, The Verge lui donne 8/10.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 12,
+    "sources": [
+     "T3",
+     "FrAndroid",
+     "Presse Citron"
+    ]
+   }
+  },
+  "dji-neo": {
+   "cat": "v-drone",
+   "short": "DJI Neo",
+   "ref": "135 g · 4K · Fly More Combo avec RC-N3",
+   "badge": "Petit prix DJI",
+   "verdict": "Le premier Neo reste un drone de poche accessible, vendu ici en pack Fly More avec trois batteries et la radiocommande RC-N3. Il est moins complet que le Neo 2 sur l'évitement d'obstacles.",
+   "strengths": [
+    "Format de poche et prix contenu",
+    "Pack avec 3 batteries et radiocommande",
+    "Suivi de sujet simple"
+   ],
+   "weak": [
+    "Pas d'évitement d'obstacles complet",
+    "Autonomie courte par batterie",
+    "Image moins fine que les drones à grand capteur"
+   ],
+   "m": [
+    "4K · 135 g",
+    "Pack 3 batteries"
+   ],
+   "id": "dji-neo",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 264.87,
+     "url": "https://www.amazon.fr/dp/B07FTRYVT5?tag=geekconcept-21",
+     "name": "Bundle Fly More DJI Neo, Mini Drone avec Caméra 4K UHD pour Adultes",
+     "cfg": "",
+     "asin": "B07FTRYVT5"
+    }
+   ],
+   "press": {
+    "avg": 8.083333333333334,
+    "n": 12,
+    "tests": 18,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Camera Jabber",
+      "score": 10.0,
+      "url": "https://camerajabber.com/reviews/dji-neo-review/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 9.2,
+      "url": "https://www.engadget.com/cameras/dji-neo-review-the-best-200-drone-ever-made-010032884.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 9.0,
+      "url": "https://www.nextpit.fr/dji-neo-test-complet",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": 9.0,
+      "url": "https://www.slashgear.com/1696067/dji-neo-review-the-best-cheap-controllerless-starter-drone/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.8,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-neo-test/",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/dji-neo-review",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": 8.0,
+      "url": "https://www.hardwarezone.com.sg/review-dji-neo-drone-review-singapore-price-specs-buy",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-dji-neo/",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": 8.0,
+      "url": "https://blog.studiosport.fr/test-complet-du-drone-dji-neo/",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dji-neo-un-drone-piccolo-ma-sorprendente",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/dji/2319714_test-du-dji-neo-un-drone-de-poche-pour-les-reseaux-sociaux",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 4.0,
+      "url": "https://www.chip.de/test/DJI-Neo-im-Test_185444737.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/dji-neo",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/dji-leichteste-drohne-ohne-fernbedienung-kompakt-ifa,3419145.html",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2024/09/05/dji-neo-test-review/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Brandneue-DJI-Neo-im-Hands-On-DJIs-bislang-leichteste-und-preiswerteste-Video-Drohne.882487.0.html",
+      "date": ""
+     },
+     {
+      "src": "TechBroll",
+      "score": null,
+      "url": "https://techbroll.com/2025/01/dji-neo-review.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/dji-neo",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 264.87,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "12 médias ont noté le DJI Neo, pour une moyenne de 8,1/10 ; les plus hautes notes viennent de Camera Jabber à 10/10, Engadget à 9,2/10, SlashGear à 9/10.\n\nLes tests saluent un drone de 135 g qui décolle de la main, suit son sujet et se prend en main sans effort, à un prix contenu. Les réserves portent sur l'autonomie par batterie, une image moins fine que sur les drones à grand capteur et un évitement d'obstacles limité.\n\nParmi les autres médias, AndroidPit lui donne 9/10, Basic Tutorials lui donne 8,8/10, StudioSport lui donne 8/10, Digital Camera World lui donne 8/10.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 18,
+    "sources": [
+     "Camera Jabber",
+     "Engadget",
+     "SlashGear"
+    ]
+   }
+  },
+  "dji-flip": {
+   "cat": "v-drone",
+   "short": "DJI Flip",
+   "ref": "249 g · 4K · hélices protégées · RC-N3",
+   "badge": "Hélices protégées",
+   "verdict": "Un drone pliable aux hélices protégées par des cages, pratique pour voler autour de proches. Il décolle de la paume et propose un suivi automatique fiable ; l'image est meilleure que sur un drone de poche.",
+   "strengths": [
+    "Cages d'hélices pour voler près des gens",
+    "Nacelle 3 axes et image 4K soignée",
+    "Décollage depuis la main"
+   ],
+   "weak": [
+    "Pas de détection d'obstacles complète",
+    "Autonomie moyenne par batterie",
+    "Vendu ici par un vendeur tiers expédié par Amazon"
+   ],
+   "m": [
+    "4K · 249 g",
+    "Hélices protégées"
+   ],
+   "id": "dji-flip",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 349.0,
+     "url": "https://www.amazon.fr/dp/B0DJ1H6KCP?tag=geekconcept-21",
+     "name": "DJI Flip (RC-N3), Drone Caméra 4K UHD pour adultes, < 249 g",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DJ1H6KCP"
+    }
+   ],
+   "press": {
+    "avg": 8.488888888888889,
+    "n": 9,
+    "tests": 16,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Camera Jabber",
+      "score": 10.0,
+      "url": "https://camerajabber.com/reviews/dji-flip-review/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.2,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-flip-test/",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": 9.0,
+      "url": "https://www.slashgear.com/1761388/dji-flip-review-flipping-flying-revolutionary-drone-cameras-testing/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.2,
+      "url": "https://www.engadget.com/cameras/dji-flip-review-a-unique-and-useful-creator-drone-with-a-few-flaws-181507462.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/DJI-Flip-im-Test_185716021.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/dji/2470118_test-du-dji-flip-petit-format-grandes-ambitions",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-dji-flip/",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": 8.0,
+      "url": "https://blog.studiosport.fr/test-dji-flip-2/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/cameras/drones/dji-flip-review-a-new-breed-of-beginner-drone",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/dji-flip",
+      "date": ""
+     },
+     {
+      "src": "GeekCulture",
+      "score": null,
+      "url": "https://geekculture.co/dji-flip-drone-review/",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2025/01/14/dji-flip-test-c0/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/DJI-Flip-im-Test-Die-Kameradrohne-fuer-Vlogs-ist-faltbar-kostet-439-Euro-und-begruendet-neue-Flip-Serie.943049.0.html",
+      "date": ""
+     },
+     {
+      "src": "TechBroll",
+      "score": null,
+      "url": "https://techbroll.com/2025/01/dji-flip-unboxing-and-first-impressions.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/dji-flip",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dji-flip/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 349.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Neuf médias chiffrent leur verdict sur le DJI Flip, avec une moyenne proche de 8,5/10. Camera Jabber le place à 10/10, Basic Tutorials à 9,2/10 et SlashGear à 9/10 ; Engadget l'évalue à 8,2/10, tandis que Chip.de, FrAndroid, TechRadar, Presse Citron et StudioSport s'accordent sur 8/10.\n\nSon argument principal est la protection des hélices par des cages : le drone se garde au plus près des proches sans risque de coupure. La nacelle trois axes et la vidéo 4K font de lui un compagnon de voyage plus sérieux qu'un modèle de poche. Reste une détection d'obstacles partielle, et une batterie dont la durée moyenne justifie l'achat d'un pack complémentaire.",
+    "date": "2026-10-28",
+    "n": 9,
+    "tests": 16,
+    "sources": [
+     "Camera Jabber",
+     "Basic Tutorials",
+     "SlashGear",
+     "Engadget",
+     "Chip.de",
+     "FrAndroid",
+     "TechRadar",
+     "Presse Citron",
+     "StudioSport"
+    ]
+   }
+  },
+  "dji-lito-x1": {
+   "cat": "v-drone",
+   "short": "DJI Lito X1",
+   "ref": "Capteur 1/1,3\" · 4K · 36 min · obstacles",
+   "badge": "Image soignée",
+   "verdict": "Un drone débutant à capteur 1/1,3 pouce qui filme plus finement que les modèles d'entrée de gamme, avec une bonne autonomie et une détection d'obstacles omnidirectionnelle. La nacelle ne pivote pas pour le format vertical.",
+   "strengths": [
+    "Capteur 1/1,3 pouce et image détaillée",
+    "Autonomie annoncée jusqu'à 36 minutes",
+    "Détection d'obstacles omnidirectionnelle"
+   ],
+   "weak": [
+    "Nacelle sans rotation verticale",
+    "Zoom numérique de qualité moyenne",
+    "Tenue au vent moyenne"
+   ],
+   "m": [
+    "4K · 36 min",
+    "Capteur 1/1,3\""
+   ],
+   "id": "dji-lito-x1",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 369.99,
+     "url": "https://www.amazon.fr/dp/B0FZ9XSKKD?tag=geekconcept-21",
+     "name": "DJI Lito X1, drone caméra 4K pour débutants, Version améliorée de Mini 3",
+     "cfg": "",
+     "asin": "B0FZ9XSKKD"
+    }
+   ],
+   "press": {
+    "avg": 8.666666666666666,
+    "n": 3,
+    "tests": 6,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dji-lito-x1",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/dji-lito-x1",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": 8.0,
+      "url": "https://blog.studiosport.fr/test-du-dji-lito-x1/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": null,
+      "url": "https://www.chip.de/test/DJI-Lito-X1-im-Test_186899684.html",
+      "date": ""
+     },
+     {
+      "src": "Hardware Upgrade",
+      "score": null,
+      "url": "https://www.hwupgrade.it/articoli/audio-video/7234/dji-lito-1-e-lito-x1-recensione-i-nuovi-droni-per-principianti-che-non-si-fanno-mancare-nulla_index.html",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2026/04/23/dji-lito-x1-test/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 369.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "3 médias ont noté le DJI Lito X1, pour une moyenne de 8,7/10 : Trusted Reviews à 10/10, AndroidWorld à 8/10, StudioSport à 8/10.\n\nLes tests mettent en avant le capteur de 1/1,3 pouce, la détection d'obstacles omnidirectionnelle avec LiDAR frontal et une autonomie qui peut atteindre 36 minutes. Ils reprochent à la nacelle de ne pas pivoter pour la vidéo verticale, un zoom numérique qui se dégrade et une tenue au vent seulement moyenne.\n\nCes notes datent de 2024 ou après, et n'incluent que les médias qui chiffrent leur verdict : les tests sans note publique ne sont pas comptés dans la moyenne.",
+    "date": "2026-10-28",
+    "n": 3,
+    "tests": 6,
+    "sources": [
+     "Trusted Reviews",
+     "AndroidWorld",
+     "StudioSport"
+    ]
+   }
+  },
+  "potensic-atom-2": {
+   "cat": "v-drone",
+   "short": "Potensic Atom 2",
+   "ref": "249 g · 4K HDR · 8K photo · pack 96 min",
+   "badge": "Meilleur rapport qualité-prix",
+   "verdict": "Un drone de moins de 249 g avec nacelle 3 axes, vidéo 4K HDR et un pack de trois batteries qui totalise environ 96 minutes de vol. Il n'a pas d'évitement d'obstacles et sa batterie tient moins longtemps qu'annoncé.",
+   "strengths": [
+    "Qualité vidéo correcte pour le prix",
+    "Pack de 3 batteries inclus",
+    "Radiocommande à écran 5,5 pouces"
+   ],
+   "weak": [
+    "Pas d'évitement d'obstacles",
+    "Batterie en dessous des promesses",
+    "Radiocommande volumineuse"
+   ],
+   "m": [
+    "4K HDR · 249 g",
+    "Pack 96 min"
+   ],
+   "id": "potensic-atom-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 399.99,
+     "url": "https://www.amazon.fr/dp/B0DK96YNS1?tag=geekconcept-21",
+     "name": "Potensic ATOM 2 Drone avec Caméra, Photo 8K, Vidéo 4K HDR avec Gimbal à 3 Axes, Moins de 249 g, Fly More Combo",
+     "cfg": "",
+     "asin": "B0DK96YNS1"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 4,
+    "tests": 4,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Mac Sources",
+      "score": 8.0,
+      "url": "https://macsources.com/potensic-atom-2-drone-review-lightweight-easy-to-fly-4k-drone-for-beginners/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/drones/potensic-atom-2-ptd-1-controller-review",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-potensic-atom-2-miglior-drone-da-comprare",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 4.0,
+      "url": "https://www.chip.de/test/Ist-diese-guenstige-Drohne-so-gut-wie-eine-DJI-Potensic-Atom-2-im-CHIP-Test_186067126.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 399.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "4 médias ont noté le Potensic Atom 2, pour une moyenne de 7/10 ; les plus hautes notes viennent de Mac Sources à 8/10, tuttoteK à 8/10, T3 à 8/10.\n\nLes tests retiennent un excellent rapport qualité-prix, une vidéo au niveau de sa catégorie, une radiocommande à écran de 5,5 pouces et un vol convaincant. Ils signalent l'absence d'évitement d'obstacles, une batterie qui ne tient pas ses promesses et une manette assez grande.\n\nParmi les autres médias, Chip.de lui donne 4/10, un écart net avec les trois autres médias, qui le placent tous à 8/10. Seuls les tests datés de 2024 ou après sont comptés.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 4,
+    "sources": [
+     "Mac Sources",
+     "tuttoteK",
+     "T3"
+    ]
+   }
+  },
+  "hoverair-x1-pro": {
+   "cat": "v-drone",
+   "short": "HOVERAir X1 Pro",
+   "ref": "192 g · 4K · suivi autonome · sans manette",
+   "badge": "Caméra volante",
+   "verdict": "Une caméra volante qui se pilote sans manette : elle suit le sujet seule et se contrôle depuis l'application. Le suivi est très bon, mais la photo est limitée et il coûte plus cher qu'un DJI Neo.",
+   "strengths": [
+    "Suivi autonome efficace",
+    "Très compact et facile à utiliser",
+    "Pilotage manuel possible par l'application"
+   ],
+   "weak": [
+    "Qualité photo limitée",
+    "Vitesse de vol manuel lente",
+    "Plus cher qu'un DJI Neo"
+   ],
+   "m": [
+    "4K · 192 g",
+    "Suivi autonome"
+   ],
+   "id": "hoverair-x1-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 499.0,
+     "url": "https://www.amazon.fr/dp/B0DGTHCKKS?tag=geekconcept-21",
+     "name": "HOVERAir X1 Pro Caméra Sport 4K, Caméra Volante Pliable, Standard",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DGTHCKKS"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Mac Sources",
+      "score": 8.0,
+      "url": "https://macsources.com/hoverair-x1-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/cameras/drones/hoverairs-x1-pro-and-pro-max-drones-will-soon-take-flight-as-a-new-preview-pops-up-online",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2024/11/17/hoverair-x1-pro-test/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 499.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Deux médias ont chiffré leur avis sur la HOVERAir X1 Pro, tous deux à 8/10 : TechRadar, dès octobre 2024, puis Mac Sources en 2026. Le constat se recoupe : la caméra suit son sujet sans manette et reste simple à lancer.\n\nCe fonctionnement autonome plaît à ceux qui veulent se filmer en vélo ou en randonnée. L'envers du décor : les photos sont décevantes, le mode manuel via l'application est lent, et le prix dépasse celui d'un DJI Neo, qui propose en plus un LiDAR. Seuls deux tests chiffrés sont disponibles à ce jour : la moyenne reste donc fragile, et le classement de ce modèle doit se lire avec prudence.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "TechRadar",
+     "Mac Sources"
+    ]
+   }
+  },
+  "dji-avata-360": {
+   "cat": "v-drone",
+   "short": "DJI Avata 360",
+   "ref": "360° 8K · capteurs 1/1,1\" · obstacles",
+   "badge": "Vidéo 360°",
+   "verdict": "Un drone qui filme à 360° en 8K et recadre ensuite l'image, pour des plans aériens impossibles à cadrer au vol. Il vole vite par grand vent ; des coutures peuvent apparaître lors de virages brusques.",
+   "strengths": [
+    "Vidéo 360° 8K 60 i/s",
+    "Vol agile même par vent",
+    "Détection d'obstacles omnidirectionnelle"
+   ],
+   "weak": [
+    "Coutures visibles lors de virages brusques",
+    "Autonomie réelle d'environ 18 à 20 minutes",
+    "Pas de vrai mode acro"
+   ],
+   "m": [
+    "8K 360° · 60 i/s",
+    "Recadrage après vol"
+   ],
+   "id": "dji-avata-360",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 645.0,
+     "url": "https://www.amazon.fr/dp/B0FWRMDNGV?tag=geekconcept-21",
+     "name": "DJI Avata 360 (RC 2), drone caméra 360° 8K",
+     "cfg": "",
+     "asin": "B0FWRMDNGV"
+    }
+   ],
+   "press": {
+    "avg": 8.55,
+    "n": 8,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dji-avata-360",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-avata-360-test/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-dji-avata-360/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 8.4,
+      "url": "https://www.engadget.com/cameras/dji-avata-360-drone-review-360-video-hits-new-highs-120014666.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 8.0,
+      "url": "https://www.smartworld.it/recensioni/dji-avata-360",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/drone/dji-dji-avata-360-rc-2-drone-avec-imagerie-3600-8k-de-1-p78076/test.html",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/drones/dji-avata-360-review",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": 8.0,
+      "url": "https://www.tomsguide.com/cameras-photography/drones/dji-avata-360-review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": null,
+      "url": "https://www.chip.de/test-kaufberatung/foto-video/dji-avata-360-test_0aa8f442-0f53-4751-ad52-d5bb2763c838.html",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/dji-anata-360-test-8k-drohne-3212189.html",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2026/03/26/dji-avata-360-test/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/DJI-Avata-360-im-Test-Diese-360-Drohne-veraendert-wie-man-Videos-dreht.1248679.0.html",
+      "date": ""
+     },
+     {
+      "src": "PhotographyLife",
+      "score": null,
+      "url": "https://photographylife.com/dji-avata-360-review-seeing-the-andes-through-the-eyes-of-a-condor",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 645.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "8 médias ont noté le DJI Avata 360, pour une moyenne de 8,6/10 ; les plus hautes notes viennent de Trusted Reviews à 10/10, Basic Tutorials à 9/10, Presse Citron à 9/10.\n\nLes tests retiennent la vidéo 360° en 8K à 60 images par seconde, un vol rapide et agile même par temps venteux et une détection d'obstacles omnidirectionnelle. Ils notent des coutures visibles lors de virages brusques, une autonomie pratique de 18 à 20 minutes et l'absence de vrai mode acro.\n\nParmi les autres médias, Engadget lui donne 8,4/10, Tom's Guide (US) lui donne 8/10, AndroidWorld lui donne 8/10, T3 lui donne 8/10.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 13,
+    "sources": [
+     "Trusted Reviews",
+     "Basic Tutorials",
+     "Presse Citron"
+    ]
+   }
+  },
+  "dji-mini-5-pro": {
+   "cat": "v-drone",
+   "short": "DJI Mini 5 Pro",
+   "ref": "249 g · CMOS 1\" · 50 MP · LiDAR",
+   "badge": "Référence légère",
+   "verdict": "Le drone de moins de 250 g à capteur 1 pouce : image de très haut niveau, nacelle à 225°, capteur LiDAR avant et suivi de sujet. Le tarif est élevé et le chargeur n'est pas fourni.",
+   "strengths": [
+    "Capteur 1 pouce 50 MP",
+    "Nacelle rotative à 225° et LiDAR avant",
+    "Suivi de sujet fiable"
+   ],
+   "weak": [
+    "Tarif élevé",
+    "Chargeur non fourni",
+    "Autonomie réelle sous les attentes"
+   ],
+   "m": [
+    "1\" · 50 MP",
+    "LiDAR et 225°"
+   ],
+   "id": "dji-mini-5-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 718.0,
+     "url": "https://www.amazon.fr/dp/B0F6XJ7W9M?tag=geekconcept-21",
+     "name": "DJI Mini 5 Pro, drone ultra-léger avec caméra, CMOS 1 pouce",
+     "cfg": "",
+     "asin": "B0F6XJ7W9M"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 7,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Camera Jabber",
+      "score": 10.0,
+      "url": "https://camerajabber.com/reviews/dji-mini-5-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/drone/dji-mini-5-pro-p77130/test.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dji-mini-5-pro",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/dji/2802745_test-du-dji-mini-5-pro-la-qualite-dimage-franchit-un-nouveau-cap",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/DJI-Mini-5-Pro-im-Test_186272704.html",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-dji-mini-5-pro/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/drones/dji-mini-5-pro-review",
+      "date": ""
+     },
+     {
+      "src": "Hardware Upgrade",
+      "score": null,
+      "url": "https://www.hwupgrade.it/articoli/audio-video/7153/recensione-dji-mini-5-pro-il-drone-c0-ultra-leggero-con-sensore-da-1-pollice_index.html",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2025/09/17/dji-mini-5-pro-test/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/dji-mini-5-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 718.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "7 médias ont noté le DJI Mini 5 Pro, pour une moyenne de 9/10 ; les plus hautes notes viennent de Les Numériques à 10/10, Trusted Reviews à 10/10, Camera Jabber à 10/10.\n\nLes tests mettent en avant le capteur de 1 pouce de 50 mégapixels, la nacelle qui tourne à 225°, le capteur LiDAR avant et le suivi de sujet. Ils critiquent un tarif élevé, un chargeur non fourni et une autonomie réelle en dessous des attentes.\n\nParmi les autres médias, FrAndroid lui donne 9/10, T3 lui donne 8/10, Chip.de lui donne 8/10, Presse Citron lui donne 8/10.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 10,
+    "sources": [
+     "Les Numériques",
+     "Trusted Reviews",
+     "Camera Jabber"
+    ]
+   }
+  },
+  "dji-mavic-4-pro": {
+   "cat": "v-drone",
+   "short": "DJI Mavic 4 Pro",
+   "ref": "Hasselblad 4/3 · 100 MP · 51 min · triple caméra",
+   "badge": "Haut de gamme",
+   "verdict": "Le drone phare de DJI : triple caméra à capteur Hasselblad 4/3, jusqu'à 51 minutes de vol et transmission sur 30 km. Une machine de professionnel, lourde et très chère.",
+   "strengths": [
+    "Triple caméra et capteur 4/3 de 100 MP",
+    "Autonomie annoncée jusqu'à 51 minutes",
+    "Transmission vidéo sur 30 km"
+   ],
+   "weak": [
+    "Prix très élevé",
+    "Encombrant et lourd",
+    "Réglementation plus stricte au-delà de 250 g"
+   ],
+   "m": [
+    "4/3 · 100 MP",
+    "Triple caméra"
+   ],
+   "id": "dji-mavic-4-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 2098.9,
+     "url": "https://www.amazon.fr/dp/B0DS2HDF1M?tag=geekconcept-21",
+     "name": "DJI Mavic 4 Pro avec DJI RC 2, drone phare à triple caméra",
+     "cfg": "",
+     "asin": "B0DS2HDF1M"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 7,
+    "tests": 8,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Camera Jabber",
+      "score": 10.0,
+      "url": "https://camerajabber.com/reviews/dji-mavic-4-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dji-mavic-4-pro",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/dji/2610997_test-du-dji-mavic-4-pro-capteurs-et-optiques-nouvelle-generation-autonomie-record",
+      "date": ""
+     },
+     {
+      "src": "StudioSport",
+      "score": 9.0,
+      "url": "https://blog.studiosport.fr/test-du-dji-mavic-4-pro-un-drone-au-sommet-de-limage/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/cameras/drones/dji-mavic-pro-4-review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/DJI-Mavic-4-Pro-im-Test_185975965.html",
+      "date": ""
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.0,
+      "url": "https://phototrend.fr/2025/05/test-drone-dji-mavic-4-pro/",
+      "date": ""
+     },
+     {
+      "src": "HelicoMicro",
+      "score": null,
+      "url": "https://www.helicomicro.com/2025/05/13/dji-mavic-4-pro-test/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 2098.9,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept médias ont publié une note sur le DJI Mavic 4 Pro, soit en moyenne 9,0/10. Trusted Reviews et Camera Jabber lui attribuent 10/10, FrAndroid, TechRadar et StudioSport 9/10, PhotoTrend et Chip.de 8/10.\n\nCe drone cible les professionnels : trois caméras dont un capteur 4/3 Hasselblad de 100 mégapixels, jusqu'à 51 minutes de vol et une portée vidéo de 30 km. En contrepartie, il pèse lourd, coûte plus de 2 000 euros et, au-delà de 250 g, impose des règles de vol plus strictes que les modèles ultralégers.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 8,
+    "sources": [
+     "Trusted Reviews",
+     "Camera Jabber",
+     "FrAndroid",
+     "TechRadar",
+     "StudioSport",
+     "PhotoTrend",
+     "Chip.de"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

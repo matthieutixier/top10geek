@@ -134,6 +134,12 @@ VCATS = [
          seo_desc="Les meilleurs appareils photo hybrides et compacts en 2026, classés par note presse : Canon, Fujifilm, Nikon, Sony. Prix indicatifs, points forts et faibles.",
          h1='Les meilleurs <span class="flash">appareils photo hybrides et compacts</span> en 2026',
          intro="APS-C ou plein format, hybride ou compact de poche : la presse départage l'autofocus, la qualité d'image, la vidéo et la prise en main. Voici les boîtiers qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon (boîtier nu, sans objectif sauf mention)."),
+    dict(key="v-drone", slug="drones-camera", label="Drones avec caméra", top_label="drones avec caméra", h="Drones avec caméra", tag="Voir le monde d'en haut", color="var(--cat-creation)", cls="f-creation", badge="drones", scene="video-drone", scene_alt="Le père de famille geek, télécommande en main, regarde son drone voler au-dessus de lui",
+         plural_low="drones",
+         seo_title="Meilleurs drones avec caméra 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs drones avec caméra en 2026, classés par note presse : DJI Neo 2, Mini 5 Pro, Flip, Avata 360, Mavic 4 Pro, Potensic, HOVERAir. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">drones avec caméra</span> en 2026',
+         intro="Drone de poche sans manette, pliable de moins de 250 g ou machine de professionnel : la presse départage l'image, l'autonomie, l'évitement d'obstacles et la facilité de pilotage. Voici les modèles qui ont des notes chiffrées et une offre Amazon, avec un prix indicatif."),
 ]
 
 FAMILIES_NEW = [
