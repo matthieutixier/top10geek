@@ -1230,5 +1230,17 @@
  "sony-zv-e10-ii": {
   "constructeur": "visuel produit fourni par Matthieu",
   "source": "fourni par Matthieu (chat)"
+ },
+ "steelseries-arctis-nova-pro-omni": {
+  "constructeur": "SteelSeries",
+  "source": "steelseries.com (page produit Arctis Nova Pro Omni)"
+ },
+ "hyperx-cloud-alpha-2": {
+  "constructeur": "HyperX",
+  "source": "hyperx.com (page produit Cloud Alpha 2 Wireless)"
+ },
+ "nothing-ear-open": {
+  "constructeur": "Nothing",
+  "source": "fr.nothing.tech (page produit Ear (open))"
  }
 }
