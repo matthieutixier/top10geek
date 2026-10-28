@@ -1130,5 +1130,57 @@
  "nikon-z6-iii": {
   "constructeur": "Nikon",
   "source": "https://www.nikon.fr/globalassets/digizuite/190047-en-z6iii_front-vD0491068D5AC.png"
+ },
+ "dji-osmo-pocket-4p": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "insta360-go-ultra": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "insta360-ace-pro-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "gopro-hero13-black": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "blink-outdoor-4": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "sennheiser-accentum-plus": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "airpods-max-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "jbl-tour-one-m3": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "jbl-live-780nc": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "sony-wh-1000xm5": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "sennheiser-mtw5": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "bose-qc-ultra-earbuds-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "galaxy-buds4-pro": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
  }
 }
