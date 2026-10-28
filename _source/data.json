@@ -24728,6 +24728,318 @@
      "Les Numériques"
     ]
    }
+  },
+  "lg-oled-c5-48": {
+   "cat": "t-petit",
+   "short": "LG OLED C5 48\"",
+   "ref": "OLED evo · 120 Hz · α9 Gen 8",
+   "badge": "Le choix de la bande",
+   "verdict": "L'OLED de référence de LG en petit format : noirs parfaits, couleurs précises et image lumineuse, avec une télécommande sans rétroéclairage et un HDR10 jugé étrange dans les scènes sombres.",
+   "strengths": [
+    "Rapport de contraste quasi infini, noirs parfaits",
+    "Angle de vision très large",
+    "Couleurs vibrantes, réalistes et précises"
+   ],
+   "weak": [
+    "HDR10 avec un contour inhabituel dans les scènes sombres",
+    "Réflectance significative de la dalle",
+    "Classe énergétique F"
+   ],
+   "m": [
+    "OLED evo",
+    "120 Hz"
+   ],
+   "id": "lg-oled-c5-48",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 999.0,
+     "url": "https://www.amazon.fr/dp/B0FQP2W4Z4?tag=geekconcept-21",
+     "name": "LG TV OLED OLED48C5 OLED Evo Noir Profond 120 Hz 4K 121 cm 2025",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FQP2W4Z4"
+    }
+   ],
+   "press": {
+    "avg": 8.2,
+    "n": 7,
+    "tests": 10,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ComputerHoy",
+      "score": 9.4,
+      "url": "https://computerhoy.20minutos.es/dispositivos/ni-imagen-ni-sonido-resisten-lg-oled-evo-ai-c5-4k-ponerla-prueba-varias-semanas-1479183",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/lg-oled-42c5-im-test_341164",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-583891-test-lg-oled-c5.html",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/lg-c5-review",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-lg-oled-evo-c5.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/tv/reviews/lg/c5-oled",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/lg-oled42c5",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/lg-c5-review/",
+      "date": ""
+     },
+     {
+      "src": "FlatpanelsHD",
+      "score": null,
+      "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1760942616",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-du-lg-xboom-rnc5-le-haut-parleur-bluetooth-portable-et-puissant",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 999.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept médias notent l'OLED C5, pour une moyenne de 8,2/10. ComputerHoy se montre le plus enthousiaste avec 9,4 ; RTings, PhonAndroid, Chip.de, Trusted Reviews, Clubic.com et IGN s'accordent tous sur 8. Aucun avis négatif : l'écart entre les notes extrêmes est de 1,4 point, et la presse converge nettement. Les tests portent sur la série C5 ; le prix suivi est celui du 48 pouces.\n\nLes tests recensés retiennent un rapport de contraste quasi infini, des noirs parfaits sans halo, un angle de vision très large et des couleurs vibrantes, réalistes et précises. Côté réserves : un HDR10 avec un contour inhabituel dans les scènes sombres, une dalle assez réfléchissante, des sources lumineuses directes visibles à l'écran et une classe énergétique F.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 10,
+    "sources": [
+     "ComputerHoy",
+     "RTings",
+     "Clubic.com",
+     "IGN"
+    ]
+   }
+  },
+  "samsung-s90f-42": {
+   "cat": "t-petit",
+   "short": "Samsung OLED S90F 42\"",
+   "ref": "QD-OLED · 144 Hz · anti-reflets",
+   "badge": "Les couleurs vives",
+   "verdict": "Un OLED Samsung très bien noté pour ses couleurs vibrantes et sa gestion des reflets, mais sans Dolby Vision et aux basses limitées. À noter : les dalles diffèrent selon la diagonale.",
+   "strengths": [
+    "Noirs parfaits sans halo",
+    "Excellente gestion des reflets",
+    "Couleurs très vibrantes et précises"
+   ],
+   "weak": [
+    "Pas de Dolby Vision",
+    "Luminosité en retrait face aux meilleurs OLED",
+    "Dalles distinctes selon la diagonale"
+   ],
+   "m": [
+    "OLED",
+    "Anti-reflets"
+   ],
+   "id": "samsung-s90f-42",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 861.44,
+     "url": "https://www.amazon.fr/dp/B0FT879YNJ?tag=geekconcept-21",
+     "name": "Samsung TV AI OLED 42 Pouces S90F 4K Smart TV 2025",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FT879YNJ"
+    }
+   ],
+   "press": {
+    "avg": 8.333333333333334,
+    "n": 6,
+    "tests": 8,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Samsung-GQ55S90F-im-Test_186694051.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/test/2658147_test-du-samsung-65s90f-le-qd-oled-qui-veut-seduire-le-plus-grand-nombre",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/samsung-s90f-review",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-tv-samsung-s90f.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/13576/samsung-s90f-oled-tv-midranger-met-mooie-hdr-prestaties.html",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/samsung-s90f/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 861.44,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six médias ont noté l'OLED S90F, avec une moyenne de 8,3/10. Labo Fnac donne la meilleure note (10), tandis que RTings, FrAndroid, PhonAndroid, IGN et Chip.de se retrouvent à 8. Un seul avis très favorable tire donc la moyenne vers le haut ; la presse s'accorde plutôt autour de 8. Les tests portent sur la série S90F et la presse signale que les dalles diffèrent selon la diagonale : le prix suivi est celui du 42 pouces.\n\nLes tests recensés apprécient des noirs parfaits sans halo, une excellente gestion des reflets, des couleurs très vibrantes et précises, et une luminosité HDR impressionnante. Ils reprochent l'absence de Dolby Vision, une luminosité en retrait face aux meilleurs OLED, des basses limitées et une télécommande sans rétroéclairage.",
+    "date": "2026-10-28",
+    "n": 6,
+    "tests": 8,
+    "sources": [
+     "Labo Fnac",
+     "RTings",
+     "FrAndroid",
+     "IGN"
+    ]
+   }
+  },
+  "sony-bravia-3-43": {
+   "cat": "t-petit",
+   "short": "Sony Bravia 3 43\"",
+   "ref": "Direct LED · Google TV · HDMI 2.1",
+   "badge": "Le plus abordable",
+   "verdict": "Un petit téléviseur Sony abordable, au traitement d'image reconnu et à l'interface Google TV, mais à la luminosité HDR limitée.",
+   "strengths": [
+    "Traitement d'image Sony",
+    "Interface Google TV",
+    "Rapport qualité-prix attractif"
+   ],
+   "weak": [
+    "Manque de luminosité HDR",
+    "Luminosité limitée dans les pièces très éclairées",
+    "Dalle native 50/60 Hz, sans 120 Hz"
+   ],
+   "m": [
+    "Direct LED",
+    "Google TV"
+   ],
+   "id": "sony-bravia-3-43",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 469.0,
+     "url": "https://www.amazon.fr/dp/B0F4KVZSKW?tag=geekconcept-21",
+     "name": "Sony BRAVIA 3 Direct LED 43 pouces Google TV (2025)",
+     "cfg": "",
+     "asin": "B0F4KVZSKW"
+    }
+   ],
+   "press": {
+    "avg": 6.5,
+    "n": 4,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 6.0,
+      "url": "https://www.phonandroid.com/test-sony-bravia-3.html",
+      "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 6.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 469.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias ont noté la série Bravia 3, pour une moyenne de 6,5/10. RTings et FrAndroid donnent 7 ; PhonAndroid et What Hi-Fi? se limitent à 6. Cette série ne séduit pas la presse autant que les OLED de cette sélection, mais son prix reste le plus bas des petits formats. Les notes concernent la série, pas la diagonale de 43 pouces seule.\n\nDans les tests, on retient surtout l'image typée Sony, le système Google TV, le HDMI 2.1 et un tarif jugé attractif. Les critiques visent la luminosité HDR, une gestion des reflets limitée aux lumières placées face à l'écran, une dalle native à 50/60 Hz et un son intégré moyen pour le cinéma.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 4,
+    "sources": [
+     "RTings",
+     "FrAndroid",
+     "PhonAndroid",
+     "What Hi-Fi?"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

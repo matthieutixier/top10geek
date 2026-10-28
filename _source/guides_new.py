@@ -229,4 +229,18 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certains téléviseurs sont vendus par des tiers."],
     budget=[("450 – 650 €", "Bons Mini-LED d'entrée de gamme, jeu à 120 Hz possible."), ("800 € et plus", "Mini-LED premium ou OLED, image nettement supérieure.")],
 ),
+"t-petit": dict(
+    titre="Comment choisir un petit téléviseur (jusqu'à 48 pouces)",
+    intro="Sur une petite diagonale, on regarde de près : <b>la finesse de l'image et le contraste comptent plus que la taille</b>. Les tests portent souvent sur une taille plus grande de la même série.",
+    criteres=[
+        ("Technologie de dalle", "L'OLED offre des noirs parfaits même sur 42 ou 48 pouces ; le Direct LED reste plus abordable mais moins contrasté."),
+        ("Distance de vue", "À 1,5 ou 2 mètres, la définition 4K se voit mieux que sur un grand écran lointain."),
+        ("Usage jeu et bureau", "Un OLED compact fait un excellent écran de jeu ou de bureau : cherchez HDMI 2.1 et 120 Hz."),
+        ("Tests parfois sur une autre taille", "La presse teste souvent le 55 pouces : la dalle d'un petit format peut différer, comme le signale la presse pour certains modèles."),
+    ],
+    pieges=["Croire que les tests d'un 55 pouces valent à l'identique pour le 42 ou le 48 pouces.",
+            "Acheter un Direct LED d'entrée de gamme pour un usage jeu en 120 Hz.",
+            "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
+    budget=[("450 – 500 €", "Un petit téléviseur correct pour la chambre ou la cuisine."), ("850 € et plus", "Un OLED compact, pour le bureau, le jeu ou un petit salon.")],
+),
 }

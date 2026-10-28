@@ -728,5 +728,101 @@
    "Pic de luminosité très limité",
    "HDR manquant de punch et d'éclat"
   ]
+ },
+ "Samsung S90F": {
+  "source": "https://www.commentchoisir.fr/test-Samsung_S90F.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "02/06/2025",
+    "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "05/07/2025",
+    "url": "https://www.frandroid.com/test/2658147_test-du-samsung-65s90f-le-qd-oled-qui-veut-seduire-le-plus-grand-nombre"
+   },
+   {
+    "media": "Tweakers",
+    "note10": null,
+    "origine": "",
+    "date": "10/08/2025",
+    "url": "https://tweakers.net/reviews/13576/samsung-s90f-oled-tv-midranger-met-mooie-hdr-prestaties.html"
+   },
+   {
+    "media": "PhonAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "13/10/2025",
+    "url": "https://www.phonandroid.com/test-tv-samsung-s90f.html"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "01/09/2025",
+    "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "origine": "inline",
+    "date": "13/10/2025",
+    "url": "https://leclaireur.fnac.com/test/629765-test-labo-du-samsung-tq48s90fae-la-perfection-faite-oled/"
+   },
+   {
+    "media": "IGN",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "27/10/2025",
+    "url": "https://www.ign.com/articles/samsung-s90f-review"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "30/01/2026",
+    "url": "https://www.wired.com/review/samsung-s90f/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "02/03/2026",
+    "url": "https://www.chip.de/test/Samsung-GQ55S90F-im-Test_186694051.html"
+   }
+  ],
+  "pros": [
+   "Noirs parfaits dans une pièce sombre sans aucun effet de halo autour des points lumineux.",
+   "Angle de vision incroyablement large pour une image cohérente depuis les côtés.",
+   "Une excellente gestion des reflets signifie qu'elle gère bien les reflets dans une pièce bien éclairée.",
+   "Les couleurs sont très vibrantes, lumineuses, réalistes et surtout précises.",
+   "Une impressionnante luminosité maximale en HDR signifie que les points forts ressortent vraiment.",
+   "Qualité d?image QD-OLED",
+   "Fidélité des couleurs",
+   "Luminosité élevée",
+   "Angles de vision",
+   "Connectique HDMI 2.1 complète",
+   "Interface Tizen 9.0 intelligente",
+   "Excellentes performances en gaming"
+  ],
+  "cons": [
+   "Pas de Dolby Vision",
+   "Les niveaux de noir sont augmentés dans les pièces avec les lumières allumées.",
+   "Luminosité en retrait face aux meilleurs OLED",
+   "Basses audio limitées",
+   "Dalles distinctes selon la taille de la diagonale",
+   "Télécommande non rétroéclairée",
+   "La télécommande non rétro-éclairée",
+   "Le lancement automatique d'une source vidéo",
+   "La prise de contrôle forcée des appareils connectés en HDMI",
+   "La non prise en charge du format Dolby Vision",
+   "La présence d'une dalle QD-OLED seulement en 65 pouces",
+   "La connexion à un compte Samsung obligatoire"
+  ]
  }
 }

@@ -9,6 +9,7 @@ from catalog_sols import S, TOP
 
 _HERE = os.path.dirname(os.path.abspath(__file__))
 T55 = "t-55"
+TPF = "t-petit"
 TV = {}
 
 
@@ -92,6 +93,35 @@ add("hisense-e7q-pro-55", T55, "Hisense E7Q Pro 55\"", "Mini-LED · 144 Hz · Fr
     "B0F1N7WT6C", "Hisense 55E7Q Pro TV QLED 4K 55 pouces 144Hz Dolby Vision FreeSync Premium", 489.0,
     "Vous voulez jouer à 144 Hz sur grand écran pour moins de 500 €.",
     "Vous regardez dans la pénombre des scènes très contrastées ou à plusieurs, de côté.", scope="gamme", seller="Icoza")
+
+
+# ============================================================ PETITS FORMATS (jusqu'à 48 pouces)
+add("lg-oled-c5-48", TPF, "LG OLED C5 48\"", "OLED evo · 120 Hz · α9 Gen 8", TOP,
+    "L'OLED de référence de LG en petit format : noirs parfaits, couleurs précises et image lumineuse, avec une télécommande sans rétroéclairage et un HDR10 jugé étrange dans les scènes sombres.",
+    ["Rapport de contraste quasi infini, noirs parfaits", "Angle de vision très large", "Couleurs vibrantes, réalistes et précises"],
+    ["HDR10 avec un contour inhabituel dans les scènes sombres", "Réflectance significative de la dalle", "Classe énergétique F"],
+    ("OLED evo", "120 Hz"), "LG OLED C5",
+    "B0FQP2W4Z4", "LG TV OLED OLED48C5 OLED Evo Noir Profond 120 Hz 4K 121 cm 2025", 999.0,
+    "Vous voulez un vrai OLED sur un bureau, une chambre ou un petit salon, et jouer en 120 Hz.",
+    "Vous cherchez un téléviseur à moins de 600 € ou regardez dans une pièce très éclairée.", scope="gamme", seller="Icoza")
+
+add("samsung-s90f-42", TPF, "Samsung OLED S90F 42\"", "QD-OLED · 144 Hz · anti-reflets", "Les couleurs vives",
+    "Un OLED Samsung très bien noté pour ses couleurs vibrantes et sa gestion des reflets, mais sans Dolby Vision et aux basses limitées. À noter : les dalles diffèrent selon la diagonale.",
+    ["Noirs parfaits sans halo", "Excellente gestion des reflets", "Couleurs très vibrantes et précises"],
+    ["Pas de Dolby Vision", "Luminosité en retrait face aux meilleurs OLED", "Dalles distinctes selon la diagonale"],
+    ("OLED", "Anti-reflets"), "Samsung S90F",
+    "B0FT879YNJ", "Samsung TV AI OLED 42 Pouces S90F 4K Smart TV 2025", 861.44,
+    "Vous voulez un OLED compact aux couleurs vives, pour un bureau ou une pièce lumineuse.",
+    "Vous tenez au Dolby Vision ou à la même dalle que les grandes diagonales.", scope="gamme", seller="Super10count")
+
+add("sony-bravia-3-43", TPF, "Sony Bravia 3 43\"", "Direct LED · Google TV · HDMI 2.1", "Le plus abordable",
+    "Un petit téléviseur Sony abordable, au traitement d'image reconnu et à l'interface Google TV, mais à la luminosité HDR limitée.",
+    ["Traitement d'image Sony", "Interface Google TV", "Rapport qualité-prix attractif"],
+    ["Manque de luminosité HDR", "Luminosité limitée dans les pièces très éclairées", "Dalle native 50/60 Hz, sans 120 Hz"],
+    ("Direct LED", "Google TV"), "Sony Bravia 3",
+    "B0F4KVZSKW", "Sony BRAVIA 3 Direct LED 43 pouces Google TV (2025)", 469.0,
+    "Vous voulez un petit téléviseur Sony simple et abordable, pour une chambre ou une cuisine.",
+    "Vous jouez à 120 Hz ou regardez des films HDR dans une pièce lumineuse.", scope="gamme")
 
 
 def build():

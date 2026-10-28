@@ -63,5 +63,35 @@
    "FrAndroid",
    "Les Numériques"
   ]
+ },
+ {
+  "id": "lg-oled-c5-48",
+  "texte": "Sept médias notent l'OLED C5, pour une moyenne de 8,2/10. ComputerHoy se montre le plus enthousiaste avec 9,4 ; RTings, PhonAndroid, Chip.de, Trusted Reviews, Clubic.com et IGN s'accordent tous sur 8. Aucun avis négatif : l'écart entre les notes extrêmes est de 1,4 point, et la presse converge nettement. Les tests portent sur la série C5 ; le prix suivi est celui du 48 pouces.\n\nLes tests recensés retiennent un rapport de contraste quasi infini, des noirs parfaits sans halo, un angle de vision très large et des couleurs vibrantes, réalistes et précises. Côté réserves : un HDR10 avec un contour inhabituel dans les scènes sombres, une dalle assez réfléchissante, des sources lumineuses directes visibles à l'écran et une classe énergétique F.",
+  "sources": [
+   "ComputerHoy",
+   "RTings",
+   "Clubic.com",
+   "IGN"
+  ]
+ },
+ {
+  "id": "samsung-s90f-42",
+  "texte": "Six médias ont noté l'OLED S90F, avec une moyenne de 8,3/10. Labo Fnac donne la meilleure note (10), tandis que RTings, FrAndroid, PhonAndroid, IGN et Chip.de se retrouvent à 8. Un seul avis très favorable tire donc la moyenne vers le haut ; la presse s'accorde plutôt autour de 8. Les tests portent sur la série S90F et la presse signale que les dalles diffèrent selon la diagonale : le prix suivi est celui du 42 pouces.\n\nLes tests recensés apprécient des noirs parfaits sans halo, une excellente gestion des reflets, des couleurs très vibrantes et précises, et une luminosité HDR impressionnante. Ils reprochent l'absence de Dolby Vision, une luminosité en retrait face aux meilleurs OLED, des basses limitées et une télécommande sans rétroéclairage.",
+  "sources": [
+   "Labo Fnac",
+   "RTings",
+   "FrAndroid",
+   "IGN"
+  ]
+ },
+ {
+  "id": "sony-bravia-3-43",
+  "texte": "Quatre médias ont noté la série Bravia 3, pour une moyenne de 6,5/10. RTings et FrAndroid donnent 7 ; PhonAndroid et What Hi-Fi? se limitent à 6. Cette série ne séduit pas la presse autant que les OLED de cette sélection, mais son prix reste le plus bas des petits formats. Les notes concernent la série, pas la diagonale de 43 pouces seule.\n\nDans les tests, on retient surtout l'image typée Sony, le système Google TV, le HDMI 2.1 et un tarif jugé attractif. Les critiques visent la luminosité HDR, une gestion des reflets limitée aux lumières placées face à l'écran, une dalle native à 50/60 Hz et un son intégré moyen pour le cinéma.",
+  "sources": [
+   "RTings",
+   "FrAndroid",
+   "PhonAndroid",
+   "What Hi-Fi?"
+  ]
  }
 ]
