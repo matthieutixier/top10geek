@@ -289,3 +289,7 @@ SOLS.update(catalog_usages.build())
 # rubrique TV & home cinéma (28/10/2026)
 import catalog_tv
 SOLS.update(catalog_tv.build())
+
+# rubriques Son / Audio / Hi-Fi et Photo / Vidéo (28/10/2026)
+import catalog_audio
+SOLS.update(catalog_audio.build())

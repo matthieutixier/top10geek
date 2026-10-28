@@ -48,6 +48,8 @@ FAMILLES = {
     "imprimante": lambda c: c.startswith("i-"),
     "robot": lambda c: c.startswith("s-"),
     "tv": lambda c: c.startswith("t-"),
+    "audio": lambda c: c.startswith("a-"),
+    "video": lambda c: c.startswith("v-"),
 }
 
 # statuts : ok | indispo | marketplace | autre_produit | captcha | echec

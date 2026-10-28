@@ -1,0 +1,109 @@
+[
+ {
+  "id": "marshall-emberton-3",
+  "texte": "Huit médias ont noté l'Emberton III, pour une moyenne de 8,5/10. Absolute Geeks et Android Central la placent en haut avec 10/10, TechAeris donne 9/10, tandis que 01net, TechRadar et Trusted Reviews s'arrêtent à 8/10 et FrAndroid à 7/10.\n\nLes tests retiennent surtout une autonomie supérieure à celle de ses prédécesseurs, des niveaux de volume en hausse et une prise en main simple, avec ou sans application. Les réserves portent sur l'absence d'égaliseur personnalisable et sur une distorsion perceptible à fort volume.",
+  "sources": [
+   "Absolute Geeks",
+   "Android Central",
+   "TechAeris",
+   "01net",
+   "TechRadar",
+   "Trusted Reviews",
+   "FrAndroid"
+  ]
+ },
+ {
+  "id": "jbl-charge-6",
+  "texte": "La JBL Charge 6 réunit 10 notes chiffrées, moyenne 8,1/10. TechRadar et Trusted Reviews lui donnent 10/10, FrAndroid 9/10, puis 01net, Clubic et Chip.de 8/10. Les notes les plus basses viennent de SoundGuys (6,5/10) et de Labo Fnac (6/10).\n\nLes testeurs apprécient son volume élevé, son son équilibré et l'audio sans perte via USB-C. Ils notent aussi un son plus tiède à faible volume, l'absence de câble USB-C dans la boîte et un poids supérieur à celui de la Charge 5. Plusieurs tests la présentent aussi comme une batterie externe pour téléphone, en plus de son usage d'enceinte.",
+  "sources": [
+   "TechRadar",
+   "Trusted Reviews",
+   "FrAndroid",
+   "Clubic.com",
+   "SoundGuys",
+   "Labo Fnac"
+  ]
+ },
+ {
+  "id": "jbl-flip-7",
+  "texte": "Douze notes de presse pour la JBL Flip 7, moyenne 7,6/10, avec un écart important : TechRadar attribue 10/10, FrAndroid et Presse Citron 9/10, alors que Chip.de, Labo Fnac, PhonAndroid et SoundGuys en restent à 6/10.\n\nLes avis favorables soulignent un son percutant et détaillé pour sa taille, une grande autonomie et une construction robuste. Les critiques relèvent une recharge lente, l'impossibilité de la coupler avec les Flip précédents et la disparition du mode PartyBoost. Les graves, limités par le format, reviennent dans plusieurs tests moins bien notés.",
+  "sources": [
+   "TechRadar",
+   "FrAndroid",
+   "Presse Citron",
+   "Chip.de",
+   "Labo Fnac",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "sony-ult-field-1",
+  "texte": "La Sony ULT Field 1 totalise 12 notes chiffrées, moyenne 7,3/10. Huit médias, dont FrAndroid, Absolute Geeks et Trusted Reviews, lui donnent 8/10 ou plus ; 01net, Android Central, Chip.de et SoundGuys la notent 6/10.\n\nLes tests apprécient sa signature sonore charpentée, sa solidité (indice IP67) et son mode ULT pensé pour l'extérieur. Ils regrettent un volume maximal limité, l'absence de Bluetooth multipoint et de radio FM ou de prise AUX. La plupart des tests datent de 2024. Les tests la situent plutôt dans l'entrée de gamme tout-terrain que parmi les enceintes très puissantes pour animer une soirée.",
+  "sources": [
+   "FrAndroid",
+   "Absolute Geeks",
+   "Trusted Reviews",
+   "01net",
+   "Android Central",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "jbl-go-5",
+  "texte": "Neuf notes chiffrées pour la JBL Go 5, moyenne 7,7/10. TechRadar la note 10/10 et TechAeris 9/10 ; Clubic, Kopfhörer, SoundGuys et Trusted Reviews donnent 8/10 ; 01net, Les Numériques et Chip.de sont à 6/10.\n\nLes tests louent un son musical pour une enceinte de cette taille, l'audio USB-C sans perte et un design très portable. Les critiques visent des basses limitées, l'absence de câble USB-C fourni et une autonomie inférieure à celle de certains concurrents. Il s'agit de la plus compacte de la sélection, ce qui explique en grande partie les limites relevées sur les basses.",
+  "sources": [
+   "TechRadar",
+   "TechAeris",
+   "Clubic.com",
+   "SoundGuys",
+   "01net",
+   "Les Numériques"
+  ]
+ },
+ {
+  "id": "sonos-roam-2",
+  "texte": "Huit notes chiffrées pour la Sonos Roam 2, moyenne 7,4/10. FrAndroid donne 9/10, Absolute Geeks, Kopfhörer et TechRadar 8/10, puis Android Central et SoundGuys 7/10 ; Les Numériques et RTings sont à 6/10. Les tests datent surtout de 2024.\n\nLes avis mettent en avant un bon équilibre tonal, le son sans perte en Wi-Fi et la charge sans fil. Ils pointent une autonomie limitée à 10 heures, un prix élevé au regard de la puissance et une stéréo disponible seulement en Wi-Fi. Elle se distingue par un double usage, enceinte Bluetooth en déplacement et enceinte Wi-Fi à la maison au sein d'un système Sonos.",
+  "sources": [
+   "FrAndroid",
+   "Absolute Geeks",
+   "TechRadar",
+   "Les Numériques",
+   "RTings"
+  ]
+ },
+ {
+  "id": "jbl-grip",
+  "texte": "Sept notes chiffrées pour la JBL Grip, moyenne 6,7/10, avec des avis très partagés : T3 donne 10/10, ExpertReviews et Trusted Reviews 8/10, mais Chip.de et Allround-PC 6/10 et Labo Fnac seulement 2/10.\n\nLes tests favorables retiennent un design réussi, un éclairage d'ambiance et la compatibilité Auracast. Les plus sévères jugent le son brillant et mince, relèvent une autonomie inférieure à l'annonce et rappellent la concurrence nombreuse à ce niveau de prix. Les Numériques et RTings l'ont testée sans note publique.",
+  "sources": [
+   "T3",
+   "ExpertReviews",
+   "Trusted Reviews",
+   "Chip.de",
+   "Labo Fnac"
+  ]
+ },
+ {
+  "id": "bose-soundlink-flex-2",
+  "texte": "Six médias notent la Bose SoundLink Flex 2e génération, moyenne 7,0/10 : T3 et TechRadar 8/10, RTings et SoundGuys 7/10, 01net et Kopfhörer 6/10.\n\nLes tests apprécient un son propre et équilibré, la résistance à l'eau et à la poussière (IP67) et l'égaliseur graphique de l'application. Ils reprochent une autonomie moyenne, peu de changements par rapport au modèle précédent et un son qui s'excite à fort volume. Les tests la comparent systématiquement à la première génération, dont elle reprend l'essentiel du format et des performances, ce qui limite l'intérêt d'une mise à niveau pour ceux qui la possèdent déjà.",
+  "sources": [
+   "T3",
+   "TechRadar",
+   "RTings",
+   "SoundGuys",
+   "01net",
+   "Kopfhörer"
+  ]
+ },
+ {
+  "id": "ue-wonderboom-4",
+  "texte": "Six médias ont noté l'UE Wonderboom 4, moyenne 7,2/10 : FrAndroid, Tech Advisor et TechRadar donnent 8/10, RTings 7/10, 01net et SoundGuys 6/10. Les tests datent de 2024.\n\nLes avis retiennent une enceinte robuste, étanche et ludique, un format ultra-portable avec boucle élastique et le Bluetooth multipoint. Ils regrettent un lifting timide par rapport à la génération précédente et l'absence d'égaliseur personnalisable ; un test juge même la Wonderboom 3 meilleure sur le rapport qualité-prix. Elle reste la seule de la sélection à flotter sur l'eau, un argument souvent cité pour la plage et la piscine.",
+  "sources": [
+   "FrAndroid",
+   "Tech Advisor",
+   "TechRadar",
+   "RTings",
+   "01net",
+   "SoundGuys"
+  ]
+ }
+]

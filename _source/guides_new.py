@@ -285,4 +285,18 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
     budget=[("100 – 250 €", "Une barre avec caisson sans fil, à l'équipement correct."), ("300 – 700 €", "Une barre Atmos plus fine, avec Wi-Fi et un meilleur son.")],
 ),
+"a-bt": dict(
+    titre="Comment choisir une enceinte Bluetooth portable",
+    intro="Le format fait le son : plus l'enceinte est grosse, plus elle gagne en basses et en volume, mais plus elle pèse. Ce qui compte : <b>où vous l'emmenez, le volume dont vous avez besoin et la résistance à l'eau</b>.",
+    criteres=[
+        ("Format et puissance", "Une enceinte de poche suffit pour une pièce ou une serviette de plage ; pour une terrasse ou un jardin, visez un format moyen. Les basses profondes restent le point faible des petits modèles."),
+        ("Autonomie", "Les durées annoncées sont mesurées à volume modéré : les tests de la presse les trouvent souvent surévaluées à fort volume. Comptez large si vous sortez toute la journée."),
+        ("Étanchéité", "IP67 résiste à l'immersion brève et à la poussière, IP68 à une immersion plus longue : l'un comme l'autre convient à la plage et à la piscine."),
+        ("Fonctions", "Auracast pour relier plusieurs enceintes, multipoint pour deux appareils à la fois, USB-C pour l'audio sans perte, application pour l'égaliseur : vérifiez ce qui vous sert."),
+    ],
+    pieges=["Se fier à la durée de batterie annoncée sans lire les mesures des tests.",
+            "Confondre résistance à l'eau et étanchéité à la poussière : l'indice IP donne les deux.",
+            "Comparer des prix sans regarder le vendeur : certaines enceintes sont vendues par des tiers."],
+    budget=[("30 – 80 €", "Enceintes de poche, étanches et ludiques, pour le sac ou la douche."), ("110 – 200 €", "Enceintes plus puissantes ou plus abouties, avec une autonomie et un son plus aboutis.")],
+),
 }

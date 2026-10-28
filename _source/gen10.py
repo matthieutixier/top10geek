@@ -14,7 +14,7 @@ from guides import GUIDES
 from guides_desk import GUIDES_DESK
 from desk import DCATS
 from profiles import PROFILES
-from familles_new import ECATS, ICATS, SCATS, TCATS, FAMILIES_NEW, FAQ_E, FAQ_I, FAQ_S, FAQ_T
+from familles_new import ECATS, ICATS, SCATS, TCATS, ACATS, VCATS, FAMILIES_NEW, FAQ_E, FAQ_I, FAQ_S, FAQ_T, FAQ_A, FAQ_V
 from guides_new import GUIDES_NEW
 from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
@@ -34,8 +34,9 @@ IND = f"prix indicatif · {PRIX_DATE}"
 # Mise à jour par rubrique (releve.py --famille) : chaque rubrique a sa date et son mois de prix.
 # Sans entrée pour une rubrique, on retombe sur les dates globales.
 ASSOC = {"Test-Achats", "Que Choisir", "Which?", "Tænk", "Choice", "Stiftung Warentest", "Consumer Reports", "OCU", "Altroconsumo"}
-MAISON_SLUGS = ("aspirateur-robot", "tv")   # univers « Maison » : accent et ambiance propres (extra21.css)
-FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante", "robot": "robot", "tv": "tv"}
+FAM_SLUGS_OK = None  # défini après le filtrage des familles
+MAISON_SLUGS = ("aspirateur-robot", "tv", "audio", "photo-video")   # univers « Maison » : accent et ambiance propres (extra21.css)
+FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante", "robot": "robot", "tv": "tv", "audio": "audio", "video": "video"}
 FAM_DATES = DATA.get("familles", {})
 
 
@@ -93,12 +94,32 @@ FAMILIES = [
          h1='Comparatif ordinateurs de bureau 2026 : <span class="flash">tours, mini-PC et tout-en-un</span>',
          intro="50 ordinateurs de bureau classés par usage : bureautique, création, gaming, mini-PC et tout-en-un, avec les notes de la presse, un prix indicatif et les liens vers les marchands."),
 ] + FAMILIES_NEW
+# Une famille V2 sans aucun produit dans data.json n'est pas générée (rubrique en construction).
+import json as _j, os as _o
+_present = {_i["cat"] for _i in _j.load(open(_o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "data.json"), encoding="utf-8"))["items"].values()}
+FAMILIES = [_f for _f in FAMILIES if any(_c["key"] in _present for _c in _f["cats"])]
+FAM_SLUGS_OK = {_f["slug"] for _f in FAMILIES}
 CAT = {}
 for f in FAMILIES:
     for c in f["cats"]:
         c["family"] = f["key"]; c["fslug"] = f["slug"]
         CAT[c["key"]] = c
 FAM = {f["key"]: f for f in FAMILIES}
+
+def FOOT_VIDEO(root):
+    return f'<a href="{root}photo-video/">Photo et vidéo</a>' if "photo-video" in FAM_SLUGS_OK else ""
+
+
+def carte_video():
+    """Carte d'accueil Photo et vidéo, seulement quand la rubrique a des produits (en construction sinon)."""
+    if "photo-video" not in FAM_SLUGS_OK:
+        return ""
+    n = sum(1 for d in ITEMS.values() if d['family'] == 'video')
+    return (f'''<a class="fam-card maison" href="photo-video/">
+        <div class="fam-art"><img src="assets/img/badge-photo.webp" alt="" width="96" height="96"></div>
+        <h3>Photo et vidéo</h3><p>{n} caméras de surveillance classées d'après les tests de la presse. Caméras d'action, vidéoprojecteurs, appareils photo et drones arrivent.</p>
+        <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in VCATS)}</div><span class="uc-go">Explorer →</span></a>''')
+
 BUDGETS = [("all", "Tous les prix", 0, 1e9), ("b1", "< 500 €", 0, 500), ("b2", "500 – 1 000 €", 500, 1000),
            ("b3", "1 000 – 1 500 €", 1000, 1500), ("b4", "1 500 – 2 000 €", 1500, 2000), ("b5", "> 2 000 €", 2000, 1e9)]
 MERCHANT_CLS = {"Amazon": "amazon", "Darty": "darty", "Fnac": "fnac", "Acer Store": "acer", "Geekom": "geekom",
@@ -232,6 +253,8 @@ CHOIX_CHANGES = {}
 for _k in CAT:
     _rows = [dict(id=d["id"], badge=d["badge"], avg=(d["press"]["avg"] if d["press"] else None), n=(d["press"]["n"] if d["press"] else 0),
                   tests=d["tests"]["tests"], p=d["p"]) for d in ITEMS.values() if d["cat"] == _k]
+    if not _rows:
+        continue
     for _id, _b in appliquer_choix(_rows).items():
         CHOIX_CHANGES[_id] = (ITEMS[_id]["badge"], _b)
         ITEMS[_id]["badge"] = _b
@@ -249,7 +272,7 @@ def rank_key(d):
 
 by_cat = {k: sorted([d for d in ITEMS.values() if d["cat"] == k], key=rank_key) for k in CAT}
 for k in CAT:
-    assert len(by_cat[k]) == 10 or k[:2] in ("s-", "t-"), k
+    assert len(by_cat[k]) == 10 or k[:2] in ("s-", "t-", "a-", "v-"), k
     for i, d in enumerate(by_cat[k], 1):   # « le choix de la bande » rétrogradé faute de notes : badge honnête
         d["badge"] = badge_affiche(d["badge"], i)
 
@@ -644,7 +667,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
+      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}audio/">Audio</a>{FOOT_VIDEO(root)}<a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
@@ -702,7 +725,7 @@ FAQ_L = [
 
 
 def fam_faq(fam):
-    return {"ecran": FAQ_E, "imprimante": FAQ_I, "robot": FAQ_S, "tv": FAQ_T}.get(fam["key"], FAQ_L)
+    return {"ecran": FAQ_E, "imprimante": FAQ_I, "robot": FAQ_S, "tv": FAQ_T, "audio": FAQ_A, "video": FAQ_V}.get(fam["key"], FAQ_L)
 
 
 # ---------------------------------------------------------------- Pages comparatif par famille
@@ -1500,6 +1523,8 @@ ICON = {
     "imprimante": '<path d="M7 9V3.5h10V9"/><rect x="3" y="9" width="18" height="7.5" rx="1.2"/><path d="M7 14h10v6.5H7z"/>',
     "robot": '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/><path d="M12 3.5v2.5"/>',
     "tv": '<rect x="2.5" y="5" width="19" height="12" rx="1.5"/><path d="M8 20h8"/>',
+    "audio": '<rect x="7" y="3" width="10" height="18" rx="2.5"/><circle cx="12" cy="14.5" r="3"/><circle cx="12" cy="7.5" r="1"/>',
+    "video": '<path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.2"/>',
 }
 def fam_btn(fam):
     n = sum(len(by_cat[c["key"]]) for c in fam["cats"])
@@ -1603,6 +1628,11 @@ home = f"""
         <div class="fam-art"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"></div>
         <h3>TV et home cinéma</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'tv')} téléviseurs 50–55 pouces classés d'après les tests de la presse. Petits formats, grands écrans, petits prix et barres de son arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in TCATS)}</div><span class="uc-go">Explorer →</span></a>
+      <a class="fam-card maison" href="audio/">
+        <div class="fam-art"><img src="assets/img/badge-tv-barres-son.webp" alt="" width="96" height="96"></div>
+        <h3>Son, audio et hi-fi</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'audio')} enceintes Bluetooth portables classées d'après les tests de la presse. Écouteurs, casques, enceintes passives et chaînes hi-fi arrivent.</p>
+        <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in ACATS)}</div><span class="uc-go">Explorer →</span></a>
+      {carte_video()}
     </div>
     <div class="soon-grid">{''.join(f'<div class="soon-card"><img class="soon-img" src="assets/img/{SOON_IMG[i]}.webp" alt="" width="84" height="84" loading="lazy"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(SOON))}</div>
   </section>

@@ -26390,6 +26390,1241 @@
    "img": "lg-s90tr.webp",
    "rating": null,
    "nrev": 0
+  },
+  "marshall-emberton-3": {
+   "cat": "a-bt",
+   "short": "Marshall Emberton III",
+   "ref": "IP67 · 32 h · Auracast",
+   "badge": "Le choix de la bande",
+   "verdict": "L'enceinte la mieux notée de la sélection : compacte, résistante à l'eau et à la poussière, avec une autonomie annoncée de plus de 32 heures. Pas d'égaliseur personnalisé, et le son force un peu à volume élevé.",
+   "strengths": [
+    "Meilleure autonomie que ses prédécesseurs",
+    "Niveaux de volume améliorés",
+    "Facile à utiliser, avec ou sans application"
+   ],
+   "weak": [
+    "Pas d'égaliseur personnalisé",
+    "Distorsion à fort volume"
+   ],
+   "m": [
+    "IP67",
+    "32 h"
+   ],
+   "id": "marshall-emberton-3",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 162.9,
+     "url": "https://www.amazon.fr/dp/B0DDCJMDJC?tag=geekconcept-21",
+     "name": "Marshall Emberton III Enceintes Bluetooth Portables, sans Fil, IP67",
+     "cfg": "",
+     "asin": "B0DDCJMDJC"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 8,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Absolute Geeks",
+      "score": 10.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/speakers/willen-ii-vs-emberton-iii-review-which-marshall-speaker-reigns-supreme/",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 10.0,
+      "url": "https://www.androidcentral.com/accessories/audio/marshall-emberton-iii-review",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2025/03/16/marshall-emberton-iii-review/?utm_source=rss&utm_medium=rss&utm_campaign=marshall-emberton-iii-review",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-marshall-emberton-iii-la-petite-enceinte-nomade-qui-evolue-en-douceur.html",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-marshall-emberton-iii-licone-rock-toujours-en-balade/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/marshall-emberton-iii-bluetooth-speaker-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/marshall-emberton-iii",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/marshall/2648917_test-marshall-emberton-iii-licone-bluetooth-peaufine-sa-formule",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/marshall-emberton-iii-bluetooth-auracast-et-32-h-d-autonomie-42767",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-de-lenceinte-bluetooth-marshall-emberton-iii-puissance-et-resistance",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 162.9,
+   "img": "marshall-emberton-3.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit médias ont noté l'Emberton III, pour une moyenne de 8,5/10. Absolute Geeks et Android Central la placent en haut avec 10/10, TechAeris donne 9/10, tandis que 01net, TechRadar et Trusted Reviews s'arrêtent à 8/10 et FrAndroid à 7/10.\n\nLes tests retiennent surtout une autonomie supérieure à celle de ses prédécesseurs, des niveaux de volume en hausse et une prise en main simple, avec ou sans application. Les réserves portent sur l'absence d'égaliseur personnalisable et sur une distorsion perceptible à fort volume.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 10,
+    "sources": [
+     "Absolute Geeks",
+     "Android Central",
+     "TechAeris",
+     "01net",
+     "TechRadar",
+     "Trusted Reviews",
+     "FrAndroid"
+    ]
+   }
+  },
+  "jbl-charge-6": {
+   "cat": "a-bt",
+   "short": "JBL Charge 6",
+   "ref": "IP68 · 28 h · batterie externe",
+   "badge": "Avec batterie externe",
+   "verdict": "Une enceinte puissante et bien équipée, très bien notée par la presse, qui sert aussi de batterie externe. Plus lourde que sa devancière et un peu terne à faible volume.",
+   "strengths": [
+    "Volume élevé",
+    "Audio sans perte via USB-C",
+    "Son équilibré et expansif"
+   ],
+   "weak": [
+    "Son tiède à faible volume",
+    "Aucun câble USB-C fourni",
+    "Plus lourde que sa devancière"
+   ],
+   "m": [
+    "IP68",
+    "28 h"
+   ],
+   "id": "jbl-charge-6",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 149.0,
+     "url": "https://www.amazon.fr/dp/B0DXKNBQS6?tag=geekconcept-21",
+     "name": "JBL Charge 6, Enceinte Bluetooth Portable sans Fil, Noir, IP68, 28 h, Auracast",
+     "cfg": "",
+     "asin": "B0DXKNBQS6"
+    }
+   ],
+   "press": {
+    "avg": 8.05,
+    "n": 10,
+    "tests": 14,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-charge-6-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-charge-6",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/jbl/2634133_test-jbl-charge-6-la-reference-des-enceintes-portables-se-bonifie-encore",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/test-jbl-charge-6-avis-2.html",
+      "date": ""
+     },
+     {
+      "src": "Allround-PC",
+      "score": 8.0,
+      "url": "https://www.allround-pc.com/artikel/audio/jbl-charge-6-test-starker-sound-lange-laufzeit-auracast",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/JBL-Charge-6-im-Test_186357302.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-570363-test-jbl-charge-6-une-enceinte-baroudeuse-moderne-a-la-sonorite-efficace.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/charge-6",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.5,
+      "url": "https://www.soundguys.com/jbl-charge-6-review-132332/",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 6.0,
+      "url": "https://leclaireur.fnac.com/test/589785-test-labo-de-la-jbl-charge-6-une-sacree-force-de-frappe/",
+      "date": ""
+     },
+     {
+      "src": "3RD Strike",
+      "score": null,
+      "url": "https://3rd-strike.com/jbl-charge-6-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/jbl-charge-6-test-mehr-leistung-mehr-bass-mehr-ausdauer-hifi-3210149.html",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/jbl-charge-6-review/",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-de-lenceinte-jbl-charge-6-autonomie-impressionnante-et-robustesse",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 149.0,
+   "img": "jbl-charge-6.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La JBL Charge 6 réunit 10 notes chiffrées, moyenne 8,1/10. TechRadar et Trusted Reviews lui donnent 10/10, FrAndroid 9/10, puis 01net, Clubic et Chip.de 8/10. Les notes les plus basses viennent de SoundGuys (6,5/10) et de Labo Fnac (6/10).\n\nLes testeurs apprécient son volume élevé, son son équilibré et l'audio sans perte via USB-C. Ils notent aussi un son plus tiède à faible volume, l'absence de câble USB-C dans la boîte et un poids supérieur à celui de la Charge 5. Plusieurs tests la présentent aussi comme une batterie externe pour téléphone, en plus de son usage d'enceinte.",
+    "date": "2026-10-28",
+    "n": 10,
+    "tests": 14,
+    "sources": [
+     "TechRadar",
+     "Trusted Reviews",
+     "FrAndroid",
+     "Clubic.com",
+     "SoundGuys",
+     "Labo Fnac"
+    ]
+   }
+  },
+  "jbl-flip-7": {
+   "cat": "a-bt",
+   "short": "JBL Flip 7",
+   "ref": "IP68 · 16 h · Auracast",
+   "badge": "Valeur sûre",
+   "verdict": "La petite enceinte JBL la plus répandue : un son percutant et détaillé pour sa taille et une construction robuste, mais des notes très dispersées selon les médias.",
+   "strengths": [
+    "Son percutant et détaillé",
+    "Grande autonomie",
+    "Construction robuste"
+   ],
+   "weak": [
+    "Recharge lente",
+    "Ne se couple pas avec les Flip précédents",
+    "Disparition du mode PartyBoost"
+   ],
+   "m": [
+    "IP68",
+    "16 h"
+   ],
+   "id": "jbl-flip-7",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 109.0,
+     "url": "https://www.amazon.fr/dp/B0DXKMXPXW?tag=geekconcept-21",
+     "name": "JBL Flip 7, Enceinte Bluetooth Portable sans Fil, Étanche, Noir",
+     "cfg": "",
+     "asin": "B0DXKMXPXW"
+    }
+   ],
+   "press": {
+    "avg": 7.583333333333333,
+    "n": 12,
+    "tests": 18,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-flip-7-review",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/jbl/2656663_test-jbl-flip-7-la-reine-des-enceintes-portables-pousse-le-volume",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-jbl-flip-7/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 8.0,
+      "url": "https://www.01net.com/tests/jbl-flip-7-enceinte-bluetooth-avis-complet.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-570645-test-jbl-flip-7-une-enceinte-bluetooth-compacte-qui-voyage-bien.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/jbl-flip-7/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-flip-7",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/flip-7",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/JBL-Flip-7-im-Test_186364815.html",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 6.0,
+      "url": "https://leclaireur.fnac.com/test/589786-test-labo-de-la-jbl-flip-7-bleu-une-puissance-insoupconnee/",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 6.0,
+      "url": "https://www.phonandroid.com/test-jbl-flip-7.html",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.0,
+      "url": "https://www.soundguys.com/jbl-flip-7-review-same-flip-more-features-132337/",
+      "date": ""
+     },
+     {
+      "src": "3RD Strike",
+      "score": null,
+      "url": "https://3rd-strike.com/jbl-flip-7-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/jbl-flip-7-review/",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-jbl-flip-7-enceinte-bluetooth-robuste-et-endurante",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/hardware/bluetooth-lautsprecher-jbl-flip-7-im-pctipp-test-2956442.html",
+      "date": ""
+     },
+     {
+      "src": "TestingBuddies",
+      "score": null,
+      "url": "https://testingbuddies.de/reviews/jbl-flip-7-im-test-kleine-roehre-grosser-sound",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/jbl-flip-7-review/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 109.0,
+   "img": "jbl-flip-7.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Douze notes de presse pour la JBL Flip 7, moyenne 7,6/10, avec un écart important : TechRadar attribue 10/10, FrAndroid et Presse Citron 9/10, alors que Chip.de, Labo Fnac, PhonAndroid et SoundGuys en restent à 6/10.\n\nLes avis favorables soulignent un son percutant et détaillé pour sa taille, une grande autonomie et une construction robuste. Les critiques relèvent une recharge lente, l'impossibilité de la coupler avec les Flip précédents et la disparition du mode PartyBoost. Les graves, limités par le format, reviennent dans plusieurs tests moins bien notés.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 18,
+    "sources": [
+     "TechRadar",
+     "FrAndroid",
+     "Presse Citron",
+     "Chip.de",
+     "Labo Fnac",
+     "SoundGuys"
+    ]
+   }
+  },
+  "sony-ult-field-1": {
+   "cat": "a-bt",
+   "short": "Sony ULT Field 1",
+   "ref": "IP67 · 12 h · mode ULT",
+   "badge": "Tout-terrain",
+   "verdict": "Une enceinte robuste au son charpenté et un mode ULT pensé pour l'extérieur, bien notée par la presse. Volume maximal limité et pas de multipoint.",
+   "strengths": [
+    "Signature sonore charpentée",
+    "Solide et étanche (IP67)",
+    "Mode ULT adapté à l'extérieur"
+   ],
+   "weak": [
+    "Volume maximal limité",
+    "Pas de Bluetooth multipoint",
+    "Pas de radio FM ni de prise AUX"
+   ],
+   "m": [
+    "IP67",
+    "12 h"
+   ],
+   "id": "sony-ult-field-1",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 79.0,
+     "url": "https://www.amazon.fr/dp/B0CX1WXP8M?tag=geekconcept-21",
+     "name": "Sony ULT Field 1 - Enceinte Portable sans Fil Bluetooth ULT Power Sound, IP67",
+     "cfg": "",
+     "asin": "B0CX1WXP8M"
+    }
+   ],
+   "press": {
+    "avg": 7.316666666666666,
+    "n": 12,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 8.8,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/sony-ult-field-1-test/",
+      "date": ""
+     },
+     {
+      "src": "91mobiles.com",
+      "score": 8.0,
+      "url": "https://www.91mobiles.com/hub/sony-ult-field-1-review/",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/sony-ult-field-1-review-where-big-audio-is-delivered-in-a-small-rugged-package/",
+      "date": ""
+     },
+     {
+      "src": "Day-Technology",
+      "score": 8.0,
+      "url": "https://day-technology.com/sony-ult-field-1-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sony-ult-field-1-review",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/sony/2023290_test-de-la-sony-ult-field-1-coffre-et-raffinement-pour-cette-enceinte-nomade-etanche",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 8.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/sony-ult-field-1-review-its-a-keeper/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/sony-ult-field-1",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/speaker/reviews/sony/ult-field-1",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/sony-ult-field-1-une-mini-enceinte-baroudeuse-et-pas-avare-en-basses.html",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 6.0,
+      "url": "https://www.androidcentral.com/accessories/audio/sony-ult-field-1-review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Sony-ULT-Field-1-im-Test_185393949.html",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.0,
+      "url": "https://www.soundguys.com/sony-ult-field-1-review-113404/",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/sony-ult-field-1-enceinte-bluetooth-baroudeuse-41818",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 79.0,
+   "img": "sony-ult-field-1.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La Sony ULT Field 1 totalise 12 notes chiffrées, moyenne 7,3/10. Huit médias, dont FrAndroid, Absolute Geeks et Trusted Reviews, lui donnent 8/10 ou plus ; 01net, Android Central, Chip.de et SoundGuys la notent 6/10.\n\nLes tests apprécient sa signature sonore charpentée, sa solidité (indice IP67) et son mode ULT pensé pour l'extérieur. Ils regrettent un volume maximal limité, l'absence de Bluetooth multipoint et de radio FM ou de prise AUX. La plupart des tests datent de 2024. Les tests la situent plutôt dans l'entrée de gamme tout-terrain que parmi les enceintes très puissantes pour animer une soirée.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 13,
+    "sources": [
+     "FrAndroid",
+     "Absolute Geeks",
+     "Trusted Reviews",
+     "01net",
+     "Android Central",
+     "SoundGuys"
+    ]
+   }
+  },
+  "jbl-go-5": {
+   "cat": "a-bt",
+   "short": "JBL Go 5",
+   "ref": "Étanche · 10 h · Bluetooth 6.0",
+   "badge": "Ultra-compacte",
+   "verdict": "La plus petite enceinte de la sélection : un son musical pour sa taille et un prix bas, mais des basses limitées par le format.",
+   "strengths": [
+    "Audio USB-C sans perte",
+    "Son musical pour sa taille",
+    "Design ultra-portable"
+   ],
+   "weak": [
+    "Basses limitées",
+    "Aucun câble USB-C fourni",
+    "Autonomie battue par d'autres modèles"
+   ],
+   "m": [
+    "Étanche",
+    "10 h"
+   ],
+   "id": "jbl-go-5",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 44.99,
+     "url": "https://www.amazon.fr/dp/B0GPQ5H2LM?tag=geekconcept-21",
+     "name": "JBL Go 5, Enceinte Bluetooth Ultra-Portable, Étanche, Bleu",
+     "cfg": "",
+     "asin": "B0GPQ5H2LM"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 49.99,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-go-5-noir.html",
+     "name": "Enceinte Jbl Go 5 Noir",
+     "cfg": "",
+     "ean": "1200130034282",
+     "edid": "10018105"
+    }
+   ],
+   "press": {
+    "avg": 7.666666666666667,
+    "n": 9,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-go-5-review",
+      "date": ""
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.0,
+      "url": "https://techaeris.com/2026/04/28/jbl-go-5-review-still-small-still-mighty/?utm_source=rss&utm_medium=rss&utm_campaign=jbl-go-5-review-still-small-still-mighty",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-623545-test-jbl-go-5-une-enceinte-bluetooth-compacte-et-abordable-au-son-naturel.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/jbl-go-5/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.0,
+      "url": "https://www.soundguys.com/jbl-go-5-review-small-upgrades-same-ultra-portable-appeal-156037/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-go-5",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-jbl-go-5-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test-kaufberatung/tv-audio/jbl-go-5-im-test_82ca3982-d64e-436b-b626-4f2f6c06d665.html",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-go-5-p77971/test.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/go-5",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 44.99,
+   "img": "jbl-go-5.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Neuf notes chiffrées pour la JBL Go 5, moyenne 7,7/10. TechRadar la note 10/10 et TechAeris 9/10 ; Clubic, Kopfhörer, SoundGuys et Trusted Reviews donnent 8/10 ; 01net, Les Numériques et Chip.de sont à 6/10.\n\nLes tests louent un son musical pour une enceinte de cette taille, l'audio USB-C sans perte et un design très portable. Les critiques visent des basses limitées, l'absence de câble USB-C fourni et une autonomie inférieure à celle de certains concurrents. Il s'agit de la plus compacte de la sélection, ce qui explique en grande partie les limites relevées sur les basses.",
+    "date": "2026-10-28",
+    "n": 9,
+    "tests": 10,
+    "sources": [
+     "TechRadar",
+     "TechAeris",
+     "Clubic.com",
+     "SoundGuys",
+     "01net",
+     "Les Numériques"
+    ]
+   }
+  },
+  "sonos-roam-2": {
+   "cat": "a-bt",
+   "short": "Sonos Roam 2",
+   "ref": "Étanche · Wi-Fi + Bluetooth · 10 h",
+   "badge": "Wi-Fi et Bluetooth",
+   "verdict": "Une enceinte nomade qui devient une enceinte Wi-Fi à la maison, avec un son équilibré, mais une autonomie limitée et un prix élevé pour sa puissance.",
+   "strengths": [
+    "Équilibre tonal convaincant",
+    "Son sans perte en Wi-Fi",
+    "Charge sans fil possible"
+   ],
+   "weak": [
+    "Autonomie limitée à 10 heures",
+    "Assez chère pour sa puissance",
+    "Stéréo seulement en Wi-Fi"
+   ],
+   "m": [
+    "Étanche",
+    "Wi-Fi + BT"
+   ],
+   "id": "sonos-roam-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 199.0,
+     "url": "https://www.amazon.fr/dp/B0D37ZDYLH?tag=geekconcept-21",
+     "name": "Sonos Roam 2 | Enceinte Nomade légère et étanche avec Bluetooth, Wi-Fi",
+     "cfg": "",
+     "asin": "B0D37ZDYLH"
+    }
+   ],
+   "press": {
+    "avg": 7.375,
+    "n": 8,
+    "tests": 12,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/sonos/2065932_test-de-la-sonos-roam-2-la-petite-enceinte-residentielle-et-nomade-qui-a-tout-dune-grande",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/sonos-roam-2-review-unbreakable-sound-for-unforgettable-adventures/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/sonos-roam-2/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/sonos-roam-2-review",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 7.0,
+      "url": "https://www.androidcentral.com/accessories/audio/sonos-roam-2-review",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/sonos-roam-2-review-119162/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/enceintes-portables/sonos-roam-2-p75017/test.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 6.0,
+      "url": "https://www.rtings.com/speaker/reviews/sonos/roam-2",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/sonos-roam-2-test-kompakter-allrounder-mit-multi-room-und-smarter-steuerung-3207204.html",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-sonos-roam-2-lenceinte-nomade-compacte-et-etanche",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/sonos-roam-2",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/sonos-roam-2/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 199.0,
+   "img": "sonos-roam-2.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit notes chiffrées pour la Sonos Roam 2, moyenne 7,4/10. FrAndroid donne 9/10, Absolute Geeks, Kopfhörer et TechRadar 8/10, puis Android Central et SoundGuys 7/10 ; Les Numériques et RTings sont à 6/10. Les tests datent surtout de 2024.\n\nLes avis mettent en avant un bon équilibre tonal, le son sans perte en Wi-Fi et la charge sans fil. Ils pointent une autonomie limitée à 10 heures, un prix élevé au regard de la puissance et une stéréo disponible seulement en Wi-Fi. Elle se distingue par un double usage, enceinte Bluetooth en déplacement et enceinte Wi-Fi à la maison au sein d'un système Sonos.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 12,
+    "sources": [
+     "FrAndroid",
+     "Absolute Geeks",
+     "TechRadar",
+     "Les Numériques",
+     "RTings"
+    ]
+   }
+  },
+  "bose-soundlink-flex-2": {
+   "cat": "a-bt",
+   "short": "Bose SoundLink Flex 2e gén.",
+   "ref": "IP67 · 12 h",
+   "badge": "Le son équilibré",
+   "verdict": "Une enceinte au son propre et équilibré, étanche IP67, mais très proche du modèle précédent et d'autonomie moyenne.",
+   "strengths": [
+    "Audio propre et équilibré",
+    "Étanche et résistante à la poussière (IP67)",
+    "Égaliseur graphique dans l'application"
+   ],
+   "weak": [
+    "Autonomie moyenne",
+    "Peu de changements par rapport au modèle précédent",
+    "Son qui s'excite à fort volume"
+   ],
+   "m": [
+    "IP67",
+    "12 h"
+   ],
+   "id": "bose-soundlink-flex-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 146.1,
+     "url": "https://www.amazon.fr/dp/B0D6WD2QSQ?tag=geekconcept-21",
+     "name": "Bose SoundLink Flex (2e génération) Enceinte Bluetooth, Enceinte d'extérieur ultra-portable",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D6WD2QSQ"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 6,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/audio/bose-soundlink-flex-2-review",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/bose-soundlink-flex-gen-2-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/speaker/reviews/bose/soundlink-flex-2nd-gen",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/bose-soundlink-flex-2nd-gen-review-125253/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-de-la-bose-soundlink-flex-2e-generation-lenceinte-du-baroudeur-exigeant.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 6.0,
+      "url": "https://www.kopfhoerer.de/test/bose-soundlink-flex-2/",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-de-lenceinte-bose-soundlink-flex-2-performance-et-portabilite",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 146.1,
+   "img": "bose-soundlink-flex-2.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six médias notent la Bose SoundLink Flex 2e génération, moyenne 7,0/10 : T3 et TechRadar 8/10, RTings et SoundGuys 7/10, 01net et Kopfhörer 6/10.\n\nLes tests apprécient un son propre et équilibré, la résistance à l'eau et à la poussière (IP67) et l'égaliseur graphique de l'application. Ils reprochent une autonomie moyenne, peu de changements par rapport au modèle précédent et un son qui s'excite à fort volume. Les tests la comparent systématiquement à la première génération, dont elle reprend l'essentiel du format et des performances, ce qui limite l'intérêt d'une mise à niveau pour ceux qui la possèdent déjà.",
+    "date": "2026-10-28",
+    "n": 6,
+    "tests": 7,
+    "sources": [
+     "T3",
+     "TechRadar",
+     "RTings",
+     "SoundGuys",
+     "01net",
+     "Kopfhörer"
+    ]
+   }
+  },
+  "ue-wonderboom-4": {
+   "cat": "a-bt",
+   "short": "UE Wonderboom 4",
+   "ref": "Étanche · son 360° · flottante",
+   "badge": "Flotte sur l'eau",
+   "verdict": "Une petite enceinte ludique au son à 360° qui flotte, robuste et dotée du multipoint. La presse regrette un lifting timide.",
+   "strengths": [
+    "Robuste, étanche et ludique",
+    "Boucle élastique, format ultra-portable",
+    "Bluetooth multipoint"
+   ],
+   "weak": [
+    "Lifting timide par rapport à la génération précédente",
+    "Pas d'égaliseur personnalisé",
+    "Un test juge la Wonderboom 3 meilleure en rapport qualité-prix"
+   ],
+   "m": [
+    "Étanche",
+    "Son 360°"
+   ],
+   "id": "ue-wonderboom-4",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 74.72,
+     "url": "https://www.amazon.fr/dp/B0D3X3YKVF?tag=geekconcept-21",
+     "name": "Ultimate Ears WONDERBOOM 4, enceinte Bluetooth portable et étanche",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D3X3YKVF"
+    }
+   ],
+   "press": {
+    "avg": 7.166666666666667,
+    "n": 6,
+    "tests": 6,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/ultimate-ears/2084350_test-de-la-ultimate-ears-wonderboom-4-faut-il-craquer-pour-cette-nouvelle-version",
+      "date": ""
+     },
+     {
+      "src": "Tech Advisor",
+      "score": 8.0,
+      "url": "https://www.techadvisor.com/article/2437722/ultimate-ears-wonderboom-4-review.html",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/ultimate-ears-wonderboom-4-review",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/speaker/reviews/ultimate-ears/wonderboom-4",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-ultimate-ears-wonderboom-4-lenceinte-ultra-nomade-qui-ne-craint-presque-rien.html",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.0,
+      "url": "https://www.soundguys.com/ultimate-ears-wonderboom-4-review-121445/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 74.72,
+   "img": "ue-wonderboom-4.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six médias ont noté l'UE Wonderboom 4, moyenne 7,2/10 : FrAndroid, Tech Advisor et TechRadar donnent 8/10, RTings 7/10, 01net et SoundGuys 6/10. Les tests datent de 2024.\n\nLes avis retiennent une enceinte robuste, étanche et ludique, un format ultra-portable avec boucle élastique et le Bluetooth multipoint. Ils regrettent un lifting timide par rapport à la génération précédente et l'absence d'égaliseur personnalisable ; un test juge même la Wonderboom 3 meilleure sur le rapport qualité-prix. Elle reste la seule de la sélection à flotter sur l'eau, un argument souvent cité pour la plage et la piscine.",
+    "date": "2026-10-28",
+    "n": 6,
+    "tests": 6,
+    "sources": [
+     "FrAndroid",
+     "Tech Advisor",
+     "TechRadar",
+     "RTings",
+     "01net",
+     "SoundGuys"
+    ]
+   }
+  },
+  "jbl-grip": {
+   "cat": "a-bt",
+   "short": "JBL Grip",
+   "ref": "IP68 · 14 h · éclairage d'ambiance",
+   "badge": "Compacte et lumineuse",
+   "verdict": "Une enceinte compacte au design réussi et à l'éclairage d'ambiance, abordable, mais des notes très dispersées : le son est jugé énergique par certains, mince et brillant par d'autres.",
+   "strengths": [
+    "Design réussi",
+    "Éclairage d'ambiance",
+    "Compatible Auracast"
+   ],
+   "weak": [
+    "Son brillant et mince selon certains tests",
+    "Autonomie inférieure à l'annonce",
+    "Beaucoup de concurrence à ce prix"
+   ],
+   "m": [
+    "IP68",
+    "14 h"
+   ],
+   "id": "jbl-grip",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 69.0,
+     "url": "https://www.amazon.fr/dp/B0FMGXH38Q?tag=geekconcept-21",
+     "name": "JBL Grip, Enceinte Bluetooth compacte, Noir, IP68, 14 h",
+     "cfg": "",
+     "asin": "B0FMGXH38Q"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 74.99,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-grip-noire.html",
+     "name": "Enceinte Jbl Grip Noire",
+     "cfg": "",
+     "ean": "1200130024849",
+     "edid": "10013118"
+    }
+   ],
+   "press": {
+    "avg": 6.714285714285714,
+    "n": 7,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "T3",
+      "score": 10.0,
+      "url": "https://www.t3.com/tech/speakers/jbl-grip-review",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/technology/headphones-audio/jbl-grip-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-grip",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/jbl-grip-review-143712/",
+      "date": ""
+     },
+     {
+      "src": "Allround-PC",
+      "score": 6.0,
+      "url": "https://www.allround-pc.com/artikel/audio/jbl-grip-im-test-zwischen-go-4-und-flip-7-lohnt-sich-der-neue-mittelklasse-speaker",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/JBL-Grip-im-Test_186382108.html",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 2.0,
+      "url": "https://leclaireur.fnac.com/test/634316-test-labo-de-la-jbl-grip-une-entree-de-gamme-qui-manque-de-puissan/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-grip-p76931/test.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/grip",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/jbl-grip/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 69.0,
+   "img": "jbl-grip.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept notes chiffrées pour la JBL Grip, moyenne 6,7/10, avec des avis très partagés : T3 donne 10/10, ExpertReviews et Trusted Reviews 8/10, mais Chip.de et Allround-PC 6/10 et Labo Fnac seulement 2/10.\n\nLes tests favorables retiennent un design réussi, un éclairage d'ambiance et la compatibilité Auracast. Les plus sévères jugent le son brillant et mince, relèvent une autonomie inférieure à l'annonce et rappellent la concurrence nombreuse à ce niveau de prix. Les Numériques et RTings l'ont testée sans note publique.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 10,
+    "sources": [
+     "T3",
+     "ExpertReviews",
+     "Trusted Reviews",
+     "Chip.de",
+     "Labo Fnac"
+    ]
+   }
+  },
+  "jbl-go-essential-2": {
+   "cat": "a-bt",
+   "short": "JBL Go Essential 2",
+   "ref": "IP68 · 5 h · Bluetooth 4.2",
+   "badge": "Petit prix",
+   "verdict": "Le plus petit prix de la sélection (29 €) : une enceinte de poche étanche dont le seul test de presse, sévère, relève surtout un manque de basses. À prendre pour le prix.",
+   "strengths": [
+    "Belle présence dans les médiums",
+    "Abordable et compacte"
+   ],
+   "weak": [
+    "Gros manque de basses",
+    "Volume modeste"
+   ],
+   "m": [
+    "IP68",
+    "5 h"
+   ],
+   "id": "jbl-go-essential-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 29.0,
+     "url": "https://www.amazon.fr/dp/B0DSG1NYJJ?tag=geekconcept-21",
+     "name": "JBL GO Essential 2, Enceinte Bluetooth Portable, Noir, IP68, 5 h",
+     "cfg": "",
+     "asin": "B0DSG1NYJJ"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 29.0,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-go-essential-2-noir.html",
+     "name": "Enceinte Jbl Go Essential 2 Noir",
+     "cfg": "",
+     "ean": "1200130018589",
+     "edid": "10005191"
+    }
+   ],
+   "press": {
+    "avg": 2.0,
+    "n": 1,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 2.0,
+      "url": "https://leclaireur.fnac.com/test/582393-test-labo-de-la-jbl-go-essential-2-une-petite-enceinte-abordable-et-sans-pretentions/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 29.0,
+   "img": "jbl-go-essential-2.webp",
+   "rating": null,
+   "nrev": 0
   }
  },
  "prix_date": "octobre 2026",

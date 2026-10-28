@@ -27,7 +27,7 @@ SRC = Path(__file__).resolve().parent
 DATA = SRC / "data.json"
 SEUIL = 2
 PUB = re.compile(r"\b(incroyable|révolutionnaire|exceptionnel(le)?|parfait(e)?|imbattable|le meilleur du marché|à couper le souffle|must-have|bluffant)\b", re.I)
-FAM = lambda cat: "tv" if cat.startswith("t-") else "robot" if cat.startswith("s-") else "ecran" if cat.startswith("e-") else "imprimante" if cat.startswith("i-") else "bureau" if cat.startswith("d-") else "portable"
+FAM = lambda cat: "audio" if cat.startswith("a-") else "video" if cat.startswith("v-") else "tv" if cat.startswith("t-") else "robot" if cat.startswith("s-") else "ecran" if cat.startswith("e-") else "imprimante" if cat.startswith("i-") else "bureau" if cat.startswith("d-") else "portable"
 
 
 def ngrams(t, k=5):

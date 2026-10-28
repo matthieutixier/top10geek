@@ -1,0 +1,1078 @@
+{
+ "JBL Flip 7": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Flip+7.htm",
+  "tests": [
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "28/04/2025",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-flip-7-review"
+   },
+   {
+    "media": "Presse Citron",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "27/04/2025",
+    "url": "https://www.presse-citron.net/test-jbl-flip-7/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "30/06/2025",
+    "url": "https://www.frandroid.com/marques/jbl/2656663_test-jbl-flip-7-la-reine-des-enceintes-portables-pousse-le-volume"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "08/04/2025",
+    "url": "https://www.01net.com/tests/jbl-flip-7-enceinte-bluetooth-avis-complet.html"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "06/07/2025",
+    "url": "https://www.clubic.com/test-produit-570645-test-jbl-flip-7-une-enceinte-bluetooth-compacte-qui-voyage-bien.html"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/11/2025",
+    "url": "https://www.kopfhoerer.de/test/jbl-flip-7/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/04/2026",
+    "url": "https://www.trustedreviews.com/reviews/jbl-flip-7"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "29/05/2025",
+    "url": "https://www.rtings.com/speaker/reviews/jbl/flip-7"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "10/03/2025",
+    "url": "https://www.soundguys.com/jbl-flip-7-review-same-flip-more-features-132337/"
+   },
+   {
+    "media": "PhonAndroid",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "17/04/2025",
+    "url": "https://www.phonandroid.com/test-jbl-flip-7.html"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "19/04/2025",
+    "url": "https://leclaireur.fnac.com/test/589786-test-labo-de-la-jbl-flip-7-bleu-une-puissance-insoupconnee/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "31/10/2025",
+    "url": "https://www.chip.de/test/JBL-Flip-7-im-Test_186364815.html"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "19/03/2025",
+    "url": "https://www.wired.com/review/jbl-flip-7-review/"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "origine": "",
+    "date": "27/03/2025",
+    "url": "https://www.digitaltrends.com/home-theater/jbl-flip-7-review/"
+   },
+   {
+    "media": "PCtipp",
+    "note10": null,
+    "origine": "",
+    "date": "08/04/2025",
+    "url": "https://www.pctipp.ch/tests/hardware/bluetooth-lautsprecher-jbl-flip-7-im-pctipp-test-2956442.html"
+   },
+   {
+    "media": "3RD Strike",
+    "note10": null,
+    "origine": "",
+    "date": "22/08/2025",
+    "url": "https://3rd-strike.com/jbl-flip-7-hardware-review/"
+   },
+   {
+    "media": "TestingBuddies",
+    "note10": null,
+    "origine": "",
+    "date": "06/11/2025",
+    "url": "https://testingbuddies.de/reviews/jbl-flip-7-im-test-kleine-roehre-grosser-sound"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "24/03/2026",
+    "url": "https://www.mds-cineson.fr/test-jbl-flip-7-enceinte-bluetooth-robuste-et-endurante"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "09/07/2026",
+    "url": "https://www.mds-cineson.fr/test-jbl-flip-7-enceinte-bluetooth-etanche-et-ultra-resistante"
+   }
+  ],
+  "pros": [
+   "Design",
+   "Son percutant, détaillé et à grande échelle",
+   "Une grande autonomie de la batterie fait partie d'un bon ensemble de fonctionnalités",
+   "Robuste, qualité de construction tactile",
+   "Qualité de construction et résistance",
+   "Une réserve de puissance imprésionnante",
+   "Une meilleure gestion de la distortion",
+   "Une bonne autonomie",
+   "Une excellente ergonomie",
+   "Son remarquablement équilibré et précis (grâce au tweeter)",
+   "Volume maximum plus élevé sans distorsion grâce à l'AI Sound Boost",
+   "Certification IP68"
+  ],
+  "cons": [
+   "Pourrait se recharger plus rapidement",
+   "Ne se couple pas avec les Flips précédents",
+   "Des accessoires un peu trop petits...",
+   "La disparition du mode « PartyBoost »",
+   "Un indicateur de batterie trop imprécis",
+   "Extension limitée dans les graves (inhérente au format)",
+   "Encore de la distorsion à fort volume",
+   "Application limitée",
+   "Application minimaliste (affichage de l'autonomie notamment)",
+   "Pas compatible Wi-Fi",
+   "Scène sonore assez restreinte",
+   "Durée de vie de la batterie"
+  ]
+ },
+ "JBL Charge 6": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Charge+6.htm",
+  "tests": [
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "30/09/2025",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-charge-6-review"
+   },
+   {
+    "media": "TechRadar",
+    "note10": null,
+    "origine": "",
+    "date": "01/10/2025",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/we-loved-jbls-charge-6-in-our-just-published-review-and-right-now-you-can-score-20-percent-off-this-5-star-portable-speaker"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "01/05/2026",
+    "url": "https://www.trustedreviews.com/reviews/jbl-charge-6"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "09/06/2025",
+    "url": "https://www.frandroid.com/marques/jbl/2634133_test-jbl-charge-6-la-reference-des-enceintes-portables-se-bonifie-encore"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/06/2025",
+    "url": "https://www.clubic.com/test-produit-570363-test-jbl-charge-6-une-enceinte-baroudeuse-moderne-a-la-sonorite-efficace.html"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/07/2025",
+    "url": "https://www.01net.com/tests/test-jbl-charge-6-avis-2.html"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/10/2025",
+    "url": "https://www.chip.de/test/JBL-Charge-6-im-Test_186357302.html"
+   },
+   {
+    "media": "Allround-PC",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "14/01/2026",
+    "url": "https://www.allround-pc.com/artikel/audio/jbl-charge-6-test-starker-sound-lange-laufzeit-auracast"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "20/05/2025",
+    "url": "https://www.rtings.com/speaker/reviews/jbl/charge-6"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "10/03/2025",
+    "url": "https://www.soundguys.com/jbl-charge-6-review-132332/"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "inline",
+    "date": "26/06/2025",
+    "url": "https://www.soundguys.com/bose-soundlink-plus-review-better-than-the-jbl-charge-6-139985/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "20/04/2025",
+    "url": "https://leclaireur.fnac.com/test/589785-test-labo-de-la-jbl-charge-6-une-sacree-force-de-frappe/"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "origine": "",
+    "date": "16/04/2025",
+    "url": "https://www.digitaltrends.com/home-theater/jbl-charge-6-review/"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "24/07/2025",
+    "url": "https://www.connect.de/testbericht/jbl-charge-6-test-mehr-leistung-mehr-bass-mehr-ausdauer-hifi-3210149.html"
+   },
+   {
+    "media": "3RD Strike",
+    "note10": null,
+    "origine": "",
+    "date": "18/08/2025",
+    "url": "https://3rd-strike.com/jbl-charge-6-hardware-review/"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "22/06/2026",
+    "url": "https://www.mds-cineson.fr/test-de-lenceinte-jbl-charge-6-autonomie-impressionnante-et-robustesse"
+   }
+  ],
+  "pros": [
+   "Capable of impressive volume",
+   "Audio sans perte via USB-C",
+   "Son équilibré et expansif",
+   "Spécifications améliorées, même qualité de construction exceptionnelle",
+   "Audio clair, détaillé et percutant",
+   "Longue durée de vie de la batterie (au bon volume)",
+   "Performances Bluetooth puissantes sur de longues distances",
+   "Bandoulière",
+   "Son équilibré, puissant et détaillé",
+   "Un tweeter qui affine les hautes fréquences",
+   "Poignée textile détachable pratique",
+   "Classification IP68 (sable, eau, chutes)"
+  ],
+  "cons": [
+   "Le son est tiède à faible volume.",
+   "Aucun câble USB-C inclus",
+   "Revendications de batterie légèrement surestimées",
+   "Plus lourde que sa devancière",
+   "Représentation mono, scène sonore assez restreinte",
+   "Distorsion à haut volume",
+   "Pas de microphones (pas de mode mains-libres)",
+   "Pas d'entrée analogique",
+   "Pas de mode stéréo en solo",
+   "Poids en augmentation",
+   "Câble USB-C non inclus",
+   "Pas d'entrée AUX"
+  ]
+ },
+ "JBL Go 5": {
+  "source": "https://www.commentchoisir.fr/test-JBL_GO+5.htm",
+  "tests": [
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/speakers/wireless-speakers/jbl-go-5"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "13/05/2026",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-go-5-review"
+   },
+   {
+    "media": "TechAeris",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "29/04/2026",
+    "url": "https://techaeris.com/2026/04/28/jbl-go-5-review-still-small-still-mighty/?utm_source=rss&utm_medium=rss&utm_campaign=jbl-go-5-review-still-small-still-mighty"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/04/2026",
+    "url": "https://www.soundguys.com/jbl-go-5-review-small-upgrades-same-ultra-portable-appeal-156037/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/05/2026",
+    "url": "https://www.trustedreviews.com/reviews/jbl-go-5"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "13/05/2026",
+    "url": "https://www.kopfhoerer.de/test/jbl-go-5/"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "04/08/2026",
+    "url": "https://www.clubic.com/test-produit-623545-test-jbl-go-5-une-enceinte-bluetooth-compacte-et-abordable-au-son-naturel.html"
+   },
+   {
+    "media": "01net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "13/05/2026",
+    "url": "https://www.01net.com/tests/test-jbl-go-5-avis.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "10/06/2026",
+    "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-go-5-p77971/test.html"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "10/08/2026",
+    "url": "https://www.chip.de/test-kaufberatung/tv-audio/jbl-go-5-im-test_82ca3982-d64e-436b-b626-4f2f6c06d665.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "21/07/2026",
+    "url": "https://www.rtings.com/speaker/reviews/jbl/go-5"
+   }
+  ],
+  "pros": [
+   "Audio USB-C sans perte",
+   "Un son engageant, étonnamment musical",
+   "Détail impressionnant et clarté compte tenu de sa taille",
+   "Excellent ensemble de fonctionnalités pour le prix",
+   "Design attrayant et ultra-portable",
+   "Un son exceptionnel pour sa taille",
+   "Éclairage de bord attrayant",
+   "Hautement imperméable et durable",
+   "Appairage stéréo AirTouch",
+   "Durabilité améliorée",
+   "Éclairage d'ambiance Edge",
+   "Meilleure performance de la batterie"
+  ],
+  "cons": [
+   "Personnalisation limitée pour l'éclairage sur l'unité",
+   "Aucun câble USB-C fourni",
+   "Peut être battu en termes d'autonomie de la batterie",
+   "Basse limitée en raison de la forme compacte",
+   "Impossible de changer la couleur des lumières",
+   "Vitesse de chargement",
+   "La physique est toujours valable",
+   "Single Go 5 sons mono",
+   "Le câble USB-C n'est toujours pas dans la boîte",
+   "Pas d'entrée 3,5 mm",
+   "L'éclairage de bord vide rapidement la batterie",
+   "Durée de fonctionnement dans le milieu de terrain"
+  ]
+ },
+ "JBL Go Essential 2": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Go+Essential+2.htm",
+  "tests": [
+   {
+    "media": "Labo Fnac",
+    "note10": 2.0,
+    "origine": "bloc",
+    "date": "21/03/2025",
+    "url": "https://leclaireur.fnac.com/test/582393-test-labo-de-la-jbl-go-essential-2-une-petite-enceinte-abordable-et-sans-pretentions/"
+   }
+  ],
+  "pros": [
+   "Belle présence dans les médiums",
+   "Abordable et compact"
+  ],
+  "cons": [
+   "Gros manque de basses",
+   "Volume modeste"
+  ]
+ },
+ "JBL Grip": {
+  "source": "https://www.commentchoisir.fr/test-JBL_Grip.htm",
+  "tests": [
+   {
+    "media": "T3",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "21/10/2025",
+    "url": "https://www.t3.com/tech/speakers/jbl-grip-review"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/11/2025",
+    "url": "https://www.expertreviews.co.uk/technology/headphones-audio/jbl-grip-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/04/2026",
+    "url": "https://www.trustedreviews.com/reviews/jbl-grip"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "28/09/2025",
+    "url": "https://www.soundguys.com/jbl-grip-review-143712/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "09/11/2025",
+    "url": "https://www.chip.de/test/JBL-Grip-im-Test_186382108.html"
+   },
+   {
+    "media": "Allround-PC",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "27/11/2025",
+    "url": "https://www.allround-pc.com/artikel/audio/jbl-grip-im-test-zwischen-go-4-und-flip-7-lohnt-sich-der-neue-mittelklasse-speaker"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 2.0,
+    "origine": "bloc",
+    "date": "22/11/2025",
+    "url": "https://leclaireur.fnac.com/test/634316-test-labo-de-la-jbl-grip-une-entree-de-gamme-qui-manque-de-puissan/"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "08/12/2025",
+    "url": "https://www.wired.com/review/jbl-grip/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "origine": "",
+    "date": "13/01/2026",
+    "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-grip-p76931/test.html"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "origine": "",
+    "date": "30/01/2026",
+    "url": "https://www.rtings.com/speaker/reviews/jbl/grip"
+   }
+  ],
+  "pros": [
+   "Excellent nouveau design",
+   "Un son formidable pour sa taille",
+   "Éclairage d'accentuation amusant",
+   "Support Auracast",
+   "Son énergique",
+   "Abordable",
+   "Facile à transporter",
+   "Beau spectacle de lumière",
+   "Compact et robuste construit",
+   "Bande lumineuse élégante",
+   "Une portée Bluetooth exceptionnelle",
+   "forme pratique"
+  ],
+  "cons": [
+   "Beaucoup de concurrence",
+   "Vacille sur un son brillant et mince",
+   "La durée de vie de la batterie n'est pas aussi longue que ce qui est annoncé",
+   "Qualité sonore moyenne",
+   "Des durées de fonctionnement courtes",
+   "Bass-Punch et scène sonore extensible",
+   "prix élevé",
+   "Précision globale perfectible.",
+   "Manque d'assise dans les basses.",
+   "Aigu un peu trop brillant.",
+   "Aucune connectique filaire.",
+   "Autonomie insuffisante à mi-volume."
+  ]
+ },
+ "Sonos Roam 2": {
+  "source": "https://www.commentchoisir.fr/test-Sonos_Roam+2.htm",
+  "tests": [
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "04/07/2024",
+    "url": "https://www.frandroid.com/marques/sonos/2065932_test-de-la-sonos-roam-2-la-petite-enceinte-residentielle-et-nomade-qui-a-tout-dune-grande"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "29/06/2024",
+    "url": "https://www.absolutegeeks.com/article/featured-top/sonos-roam-2-review-unbreakable-sound-for-unforgettable-adventures/"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/08/2024",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/sonos-roam-2-review"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "16/05/2025",
+    "url": "https://www.kopfhoerer.de/test/sonos-roam-2/"
+   },
+   {
+    "media": "Android Central",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "25/06/2024",
+    "url": "https://www.androidcentral.com/accessories/audio/sonos-roam-2-review"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "19/07/2024",
+    "url": "https://www.soundguys.com/sonos-roam-2-review-119162/"
+   },
+   {
+    "media": "RTings",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "20/06/2024",
+    "url": "https://www.rtings.com/speaker/reviews/sonos/roam-2"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "23/07/2024",
+    "url": "https://www.lesnumeriques.com/enceintes-portables/sonos-roam-2-p75017/test.html"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/sonos-roam-2"
+   },
+   {
+    "media": "Wired",
+    "note10": null,
+    "origine": "",
+    "date": "20/07/2024",
+    "url": "https://www.wired.com/review/sonos-roam-2/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "10/09/2024",
+    "url": "https://www.trustedreviews.com/reviews/sonos-roam-2"
+   },
+   {
+    "media": "Maison Adam",
+    "note10": null,
+    "origine": "",
+    "date": "01/01/1970",
+    "url": "https://maisonadam.ca/conseils-d-experts/post/test-haut-parleur-bluetooth-roam-2-de-sonos"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "11/10/2024",
+    "url": "https://www.connect.de/testbericht/sonos-roam-2-test-kompakter-allrounder-mit-multi-room-und-smarter-steuerung-3207204.html"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "07/12/2025",
+    "url": "https://www.mds-cineson.fr/test-sonos-roam-2-lenceinte-nomade-compacte-et-etanche"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "24/04/2026",
+    "url": "https://www.mds-cineson.fr/test-de-lenceinte-nomade-sonos-roam-2-legere-et-etanche"
+   }
+  ],
+  "pros": [
+   "Résolution sonore",
+   "Équilibre tonal très convaincant",
+   "Charge sans fil possible",
+   "Son lossless en Wi-Fi",
+   "Présence et incarnation des voix",
+   "Rapport puissance/taille",
+   "Calibration automatique",
+   "AirPlay et multiroom Sonos",
+   "Assistants vocaux Sonos ou Alexa (en Wi-Fi)",
+   "Design sobre et praticité d?utilisation",
+   "Positionnement horizontal ou vertical",
+   "Produit un son riche et puissant"
+  ],
+  "cons": [
+   "Bluetooth monopoint",
+   "Autonomie un peu juste",
+   "Seulement 10 heures d'autonomie de batterie",
+   "Assez cher pour sa puissance",
+   "Pas le haut-parleur extérieur le plus fort",
+   "Mode stéréo uniquement en Wi-Fi",
+   "Prix relativement élevé par rapport aux enceintes Bluetooth pures.",
+   "Pas de codecs Bluetooth haute résolution",
+   "Pas d'Assistant Google",
+   "Pas de changement dans la sortie sonore",
+   "Alexa ne peut pas contrôler la musique",
+   "Cher"
+  ]
+ },
+ "Marshall Emberton III": {
+  "source": "https://www.commentchoisir.fr/test-Marshall_Emberton+III.htm",
+  "tests": [
+   {
+    "media": "Android Central",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "09/10/2024",
+    "url": "https://www.androidcentral.com/accessories/audio/marshall-emberton-iii-review"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "10/11/2024",
+    "url": "https://www.absolutegeeks.com/article/reviews/speakers/willen-ii-vs-emberton-iii-review-which-marshall-speaker-reigns-supreme/"
+   },
+   {
+    "media": "TechAeris",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "16/03/2025",
+    "url": "https://techaeris.com/2025/03/16/marshall-emberton-iii-review/?utm_source=rss&utm_medium=rss&utm_campaign=marshall-emberton-iii-review"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "03/11/2024",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/marshall-emberton-iii-bluetooth-speaker-review"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/11/2024",
+    "url": "https://www.01net.com/tests/test-marshall-emberton-iii-la-petite-enceinte-nomade-qui-evolue-en-douceur.html"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "03/07/2025",
+    "url": "https://lecafedugeek.fr/test-marshall-emberton-iii-licone-rock-toujours-en-balade/"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/07/2025",
+    "url": "https://www.trustedreviews.com/reviews/marshall-emberton-iii"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "03/07/2025",
+    "url": "https://www.frandroid.com/marques/marshall/2648917_test-marshall-emberton-iii-licone-bluetooth-peaufine-sa-formule"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "16/09/2024",
+    "url": "https://www.avcesar.com/marshall-emberton-iii-bluetooth-auracast-et-32-h-d-autonomie-42767"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "16/06/2026",
+    "url": "https://www.mds-cineson.fr/test-de-lenceinte-bluetooth-marshall-emberton-iii-puissance-et-resistance"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "09/07/2026",
+    "url": "https://www.mds-cineson.fr/test-marshall-emberton-iii-enceinte-bluetooth-portable-et-robuste"
+   }
+  ],
+  "pros": [
+   "Appariement rapide de Google",
+   "Prêt pour Bluetooth Auracast",
+   "Meilleure autonomie de la batterie",
+   "Niveaux de volume améliorés",
+   "Nouveau support utile",
+   "Facile à utiliser et à configurer, peut être utilisé avec l'application ou sans",
+   "Il a toujours un son exceptionnel",
+   "La durée de vie de la batterie est fantastique et améliorée de 12 heures par rapport à la première génération.",
+   "Meilleure protection contre l'eau et la poussière",
+   "La valeur est de 100% ici et le prix de vente est le même que le prix régulier de la première génération.",
+   "Superbe autonomie de la batterie",
+   "Son équilibré"
+  ],
+  "cons": [
+   "Pas d'égaliseur personnalisé",
+   "AUCUNE plainte concernant ce haut-parleur",
+   "Pas de personnalisation de l'égaliseur",
+   "Fort à des volumes plus élevés",
+   "Distortion à fort volume",
+   "Diodes rouges du niveau de batterie allumées en permanence",
+   "Pas de bouton d'égalisation",
+   "Pas de sangle",
+   "Pas de prise jack (problème pour certains)",
+   "Pas de mode Stack comme l'emberton II",
+   "Pas le même impact de basse",
+   "Un son qui manque de dynamisme et de punch"
+  ]
+ },
+ "Sony ULT Field 1": {
+  "source": "https://www.commentchoisir.fr/test-Sony_ULT+Field+1.htm",
+  "tests": [
+   {
+    "media": "Basic Tutorials",
+    "note10": 8.8,
+    "origine": "bloc",
+    "date": "25/07/2024",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/sony-ult-field-1-test/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/05/2024",
+    "url": "https://www.frandroid.com/marques/sony/2023290_test-de-la-sony-ult-field-1-coffre-et-raffinement-pour-cette-enceinte-nomade-etanche"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/01/1970",
+    "url": "https://www.whathifi.com/reviews/sony-ult-field-1"
+   },
+   {
+    "media": "Gadget Bridge",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "28/06/2024",
+    "url": "https://www.gadgetbridge.com/gadget-reviews/sony-ult-field-1-review-its-a-keeper/"
+   },
+   {
+    "media": "91mobiles.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "09/07/2024",
+    "url": "https://www.91mobiles.com/hub/sony-ult-field-1-review/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/09/2024",
+    "url": "https://www.absolutegeeks.com/article/featured-top/sony-ult-field-1-review-where-big-audio-is-delivered-in-a-small-rugged-package/"
+   },
+   {
+    "media": "Day-Technology",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/12/2024",
+    "url": "https://day-technology.com/sony-ult-field-1-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sony-ult-field-1-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "03/06/2025",
+    "url": "https://www.trustedreviews.com/reviews/sony-ult-field-1"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "10/07/2024",
+    "url": "https://www.rtings.com/speaker/reviews/sony/ult-field-1"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "18/04/2024",
+    "url": "https://www.soundguys.com/sony-ult-field-1-review-113404/"
+   },
+   {
+    "media": "01net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "22/04/2024",
+    "url": "https://www.01net.com/tests/sony-ult-field-1-une-mini-enceinte-baroudeuse-et-pas-avare-en-basses.html"
+   },
+   {
+    "media": "Android Central",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "29/05/2024",
+    "url": "https://www.androidcentral.com/accessories/audio/sony-ult-field-1-review"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "30/07/2024",
+    "url": "https://www.chip.de/test/Sony-ULT-Field-1-im-Test_185393949.html"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "origine": "",
+    "date": "31/05/2024",
+    "url": "https://www.avcesar.com/sony-ult-field-1-enceinte-bluetooth-baroudeuse-41818"
+   }
+  ],
+  "pros": [
+   "Signature sonore charpentée et délicate",
+   "Tweeter qui apporte du raffinement aux sons aigus",
+   "Solide et étanche (IP67)",
+   "Mode ULT adapté à l?utilisation extérieure",
+   "Cordelette de transport",
+   "Mode mains-libres",
+   "App avec égaliseur",
+   "Mode stéréo avec deux enceintes",
+   "Compact et portable.",
+   "Design élégant.",
+   "Construction robuste.",
+   "Basse puissante."
+  ],
+  "cons": [
+   "Volume maximal suffisant, mais pas impressionnant",
+   "Plus de LED d'éclairage festif",
+   "Pas de Bluetooth multipoint",
+   "Taille et type de conducteur inconnus.",
+   "Puissance de sortie (RMS) non connue.",
+   "Pas de radio FM, de fente pour carte SD ou de connectivité AUX.",
+   "Capacité de la batterie en mAh inconnue.",
+   "Le son semble plat",
+   "La durée de vie de la batterie est moyenne",
+   "Pas de préréglages d'égalisation",
+   "Mélange le contenu stéréo en mono.",
+   "Beaucoup de compression au volume maximum."
+  ]
+ },
+ "Bose SoundLink Flex 2": {
+  "source": "https://www.commentchoisir.fr/test-Bose_SoundLink+Flex%3A+2nd+Gen.htm",
+  "tests": [
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "07/12/2024",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/bose-soundlink-flex-gen-2-review"
+   },
+   {
+    "media": "T3",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "18/09/2025",
+    "url": "https://www.t3.com/tech/audio/bose-soundlink-flex-2-review"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "03/10/2024",
+    "url": "https://www.soundguys.com/bose-soundlink-flex-2nd-gen-review-125253/"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "31/10/2024",
+    "url": "https://www.rtings.com/speaker/reviews/bose/soundlink-flex-2nd-gen"
+   },
+   {
+    "media": "01net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "22/11/2024",
+    "url": "https://www.01net.com/tests/test-de-la-bose-soundlink-flex-2e-generation-lenceinte-du-baroudeur-exigeant.html"
+   },
+   {
+    "media": "Kopfhörer",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "09/04/2025",
+    "url": "https://www.kopfhoerer.de/test/bose-soundlink-flex-2/"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "origine": "",
+    "date": "25/12/2025",
+    "url": "https://www.mds-cineson.fr/test-de-lenceinte-bose-soundlink-flex-2-performance-et-portabilite"
+   }
+  ],
+  "pros": [
+   "Audio propre et équilibré",
+   "Indice de protection IP67, étanche à l'eau et à la poussière",
+   "Design attrayant",
+   "Robuste et résistant à l'eau/poussière",
+   "Qualité de son propre",
+   "L'application compagnon dispose d'un égaliseur graphique.",
+   "Performances sonores",
+   "Codecs AAC et aptX",
+   "Égaliseur disponible",
+   "Des basses insoupçonnées",
+   "Résistante eau/poussière/chocs (IP67)",
+   "Qualité en kit main libre"
+  ],
+  "cons": [
+   "Le son peut devenir excité à des volumes élevés.",
+   "Durée de vie moyenne de la batterie",
+   "Changements limités par rapport au prédécesseur",
+   "Durée de vie de la batterie décevante",
+   "Pas très différent de l'original",
+   "Besoin d'une deuxième unité pour produire de l'audio stéréo.",
+   "Trop peu d'évolutions par rapport à la 1ère génération",
+   "Pas de sortie minijack",
+   "Portée et latence étonnament moins bonnes que la 1ère génération",
+   "Mode stéréo impossible avec une Flex V1",
+   "Durée de vie de la batterie",
+   "#8211; batterie ne tenant pas toujours 12 heures"
+  ]
+ },
+ "UE Wonderboom 4": {
+  "source": "https://www.commentchoisir.fr/test-Ultimate+Ears_Wonderboom+4.htm",
+  "tests": [
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "21/07/2024",
+    "url": "https://www.frandroid.com/marques/ultimate-ears/2084350_test-de-la-ultimate-ears-wonderboom-4-faut-il-craquer-pour-cette-nouvelle-version"
+   },
+   {
+    "media": "Tech Advisor",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/08/2024",
+    "url": "https://www.techadvisor.com/article/2437722/ultimate-ears-wonderboom-4-review.html"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "26/09/2024",
+    "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/ultimate-ears-wonderboom-4-review"
+   },
+   {
+    "media": "RTings",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "20/09/2024",
+    "url": "https://www.rtings.com/speaker/reviews/ultimate-ears/wonderboom-4"
+   },
+   {
+    "media": "01net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "09/07/2024",
+    "url": "https://www.01net.com/tests/test-ultimate-ears-wonderboom-4-lenceinte-ultra-nomade-qui-ne-craint-presque-rien.html"
+   },
+   {
+    "media": "SoundGuys",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "14/08/2024",
+    "url": "https://www.soundguys.com/ultimate-ears-wonderboom-4-review-121445/"
+   }
+  ],
+  "pros": [
+   "Robuste, étanche et ludique",
+   "Son agréable",
+   "Ultra-portable avec sa boucle élastique",
+   "Bluetooth multipoint",
+   "Autonomie confortable",
+   "Port USB-C",
+   "Son étonnamment riche et clair",
+   "Conception durable et adaptée aux voyages",
+   "Vraiment une durée de vie de batterie solide",
+   "13 heures d'autonomie de batterie.",
+   "Directivité à 360 degrés pour un placement facile.",
+   "Vous pouvez ajouter un deuxième WONDERBOOM 4 pour former une paire stéréo."
+  ],
+  "cons": [
+   "Un lifting timide",
+   "Son de démarrage trop fort",
+   "Pas une énorme amélioration",
+   "Pas de support de l'application Boom",
+   "Wonderboom 3 offre désormais un meilleur rapport qualité-prix",
+   "Pas d'égaliseur personnalisé.",
+   "Ne peut pas devenir très fort sans compression perceptible.",
+   "L'appairage stéréo n'est pas compatible avec les modèles WONDERBOOM précédents."
+  ]
+ }
+}

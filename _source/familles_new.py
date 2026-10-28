@@ -87,6 +87,24 @@ TCATS = [
          intro="Les haut-parleurs d'un téléviseur sont rarement à la hauteur : une barre de son change l'expérience pour peu de frais. La presse départage les dialogues, les basses, l'effet Dolby Atmos et le prix ; la sélection va de 109 à 800 €."),
 ]
 
+ACATS = [
+    dict(key="a-bt", slug="enceintes-bluetooth", label="Enceintes Bluetooth", top_label="enceintes Bluetooth portables", h="Enceintes Bluetooth portables", tag="Le son qui vous suit partout", color="var(--cat-gaming)", cls="f-gaming", badge="tv-barres-son",
+         plural_low="enceintes",
+         seo_title="Meilleures enceintes Bluetooth portables 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleures enceintes Bluetooth portables en 2026, classées par note presse : JBL, Marshall, Sony, Bose, Sonos, Ultimate Ears. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleures <span class="flash">enceintes Bluetooth portables</span> en 2026',
+         intro="De la petite enceinte de poche à l'enceinte de terrasse : la presse départage le son, l'autonomie, la résistance à l'eau et le prix. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon ou Electro Dépôt."),
+]
+
+VCATS = [
+    dict(key="v-surv", slug="cameras-de-surveillance", label="Caméras de surveillance", top_label="caméras de surveillance", h="Caméras de surveillance", tag="Voir chez soi, même à distance", color="var(--cat-creation)", cls="f-creation", badge="photo",
+         plural_low="caméras",
+         seo_title="Meilleures caméras de surveillance 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleures caméras de surveillance connectées en 2026, intérieur et extérieur, classées par note presse : Tapo, Ezviz, Reolink, Eufy, Arlo. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleures <span class="flash">caméras de surveillance</span> en 2026',
+         intro="Intérieur ou extérieur, filaires ou sur batterie : la presse départage la qualité d'image de jour comme de nuit, la détection, le stockage et l'abonnement éventuel. Voici les caméras qui ont des notes chiffrées et une offre d'achat."),
+]
+
 FAMILIES_NEW = [
     dict(key="ecran", slug="ecran-pc", label="Écran PC", plural="Écrans PC", plural_low="écrans PC", cats=ECATS, provisional=False,
          m_labels=("Taille et définition", "Fréquence"), col="Taille", mascot="pose-ecran", noun="écran", noun_det="l'écran",
@@ -120,6 +138,22 @@ FAMILIES_NEW = [
          desc="Les meilleurs téléviseurs 2026 classés d'après les tests de la presse : note sur 10, prix indicatif, points forts et faibles.",
          usage_title="Meilleurs téléviseurs {label} 2026 : tests et prix | Top 10 Geek",
          usage_desc="Les meilleurs téléviseurs « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
+    dict(key="audio", slug="audio", label="Audio", plural="Audio", plural_low="produits audio", cats=ACATS, provisional=False,
+         m_labels=("Étanchéité", "Atout"), col="Étanchéité", mascot="pose-tv", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
+         h1='Comparatif audio 2026 : <span class="flash">le verdict par usage</span>',
+         intro="Enceintes, écouteurs, casques et hi-fi : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif relevé chez Amazon ou Electro Dépôt et les liens vers les marchands.",
+         title="Meilleur son et audio 2026 : tous les tests par usage | Top 10 Geek",
+         desc="Les meilleures enceintes, écouteurs, casques et chaînes hi-fi 2026 classés d'après les tests de la presse : note sur 10, prix indicatif, points forts et faibles.",
+         usage_title="Meilleur audio : {label} 2026, tests et prix | Top 10 Geek",
+         usage_desc="Les meilleurs modèles « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
+    dict(key="video", slug="photo-video", label="Photo / Vidéo", plural="Photo et vidéo", plural_low="appareils", cats=VCATS, provisional=False,
+         m_labels=("Résolution", "Atout"), col="Résolution", mascot="pose-tv", noun="modèle", noun_det="le modèle", stat_noun="Modèles",
+         h1='Comparatif photo et vidéo 2026 : <span class="flash">le verdict par usage</span>',
+         intro="Caméras de surveillance, caméras d'action, vidéoprojecteurs, appareils photo et drones : les modèles les mieux testés par la presse, avec une note sur 10, un prix indicatif et les liens vers les marchands.",
+         title="Meilleure caméra et appareil photo 2026 : tous les tests par usage | Top 10 Geek",
+         desc="Les meilleures caméras de surveillance, caméras d'action, vidéoprojecteurs, appareils photo et drones 2026 classés d'après les tests de la presse : note sur 10, prix indicatif.",
+         usage_title="Meilleur(e)s {label} 2026 : tests et prix | Top 10 Geek",
+         usage_desc="Les meilleurs modèles « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
 ]
 
 FAQ_E = [
@@ -152,4 +186,20 @@ FAQ_T = [
     ("OLED ou Mini-LED : que choisir ?", "L'OLED offre des noirs parfaits et un contraste infini : c'est le meilleur choix pour les films dans une pièce sombre ou tamisée. Le Mini-LED est plus lumineux et souvent moins cher : il convient mieux à un salon éclairé. Pour un même budget, un bon Mini-LED vaut souvent mieux qu'un OLED d'entrée de gamme."),
     ("Les tests portent-ils sur la taille indiquée ?", "Pas toujours : la presse teste souvent une seule taille d'une gamme (55 ou 65 pouces) et ses conclusions valent pour toute la série. Le prix affiché est celui de la taille de l'usage, 55 pouces sauf mention contraire ; la mention « gamme » signale que les tests portent sur une taille ou une variante proche."),
     ("D'où viennent les prix ?", "Nous affichons un prix indicatif par téléviseur : celui constaté sur Amazon lors de notre dernier relevé, arrondi à la dizaine d'euros. Les téléviseurs étant souvent en promotion, vérifiez le prix et le vendeur sur la fiche du marchand avant d'acheter."),
+]
+
+FAQ_A = [
+    ("Comment est calculée la note presse ?", "C'est la moyenne simple des notes publiées par les médias spécialisés (Les Numériques, 01net, Clubic, FrAndroid, TechRadar, Trusted Reviews, SoundGuys…), toutes converties sur 10 : 4/5 devient 8/10. Le nombre de tests est toujours indiqué à côté de la note ; un modèle à un seul test noté est signalé comme tel."),
+    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage : de préférence un produit de la zone « bonnes affaires » du radar (note presse d'au moins 8/10, prix sous la médiane de l'usage), si sa note repose sur au moins trois tests. Le reste du classement suit la note presse ajustée au nombre de tests."),
+    ("Quelle autonomie et quelle étanchéité choisir ?", "Pour la plage ou la douche, visez au moins l'indice IP67 (poussière et immersion) ; pour un usage à la maison, l'étanchéité compte moins que l'autonomie. Les durées annoncées par les fabricants sont mesurées à volume modéré : les tests de la presse les trouvent souvent surévaluées à fort volume."),
+    ("Faut-il une enceinte Wi-Fi ou Bluetooth ?", "Le Bluetooth suffit pour l'extérieur et les déplacements. Une enceinte Wi-Fi (type Sonos) offre un meilleur son sans perte et le multiroom à la maison, mais elle coûte plus cher et dépend d'un réseau. Quelques modèles nomades, comme la Sonos Roam 2, proposent les deux."),
+    ("D'où viennent les prix ?", "Nous affichons un prix indicatif par enceinte : le plus bas constaté sur Amazon ou chez Electro Dépôt lors de notre dernier relevé, arrondi à la dizaine d'euros. Pour Electro Dépôt, nous affichons aussi son prix exact, tiré de son flux produits officiel, avec la date du relevé. Vérifiez le prix et le vendeur sur la fiche du marchand avant d'acheter."),
+]
+
+FAQ_V = [
+    ("Comment est calculée la note presse ?", "C'est la moyenne simple des notes publiées par les médias spécialisés (Les Numériques, 01net, Clubic, FrAndroid, Tom's Guide, TechRadar…), toutes converties sur 10 : 4/5 devient 8/10. Le nombre de tests est toujours indiqué à côté de la note ; un modèle à un seul test noté est signalé comme tel."),
+    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage : de préférence un produit de la zone « bonnes affaires » du radar (note presse d'au moins 8/10, prix sous la médiane de l'usage), si sa note repose sur au moins trois tests. Le reste du classement suit la note presse ajustée au nombre de tests."),
+    ("Faut-il un abonnement pour une caméra de surveillance ?", "Pas forcément : beaucoup de caméras enregistrent sur une carte microSD sans abonnement. L'abonnement du fabricant donne en général un stockage dans le cloud et des alertes intelligentes (personne, colis, animal) ; vérifiez ce qui est inclus avant d'acheter."),
+    ("Que dit la loi sur la vidéosurveillance chez soi ?", "Filmer l'intérieur de son logement est libre, mais il faut informer les personnes filmées (invités, aide à domicile). En extérieur, la caméra ne doit pas filmer la voie publique ni le terrain du voisin. En cas de doute, consultez les recommandations de la CNIL."),
+    ("D'où viennent les prix ?", "Nous affichons un prix indicatif par produit : le plus bas constaté sur Amazon ou chez Electro Dépôt lors de notre dernier relevé, arrondi à la dizaine d'euros. Pour Electro Dépôt, nous affichons aussi son prix exact, tiré de son flux produits officiel, avec la date du relevé. Vérifiez le prix et le vendeur sur la fiche du marchand avant d'acheter."),
 ]

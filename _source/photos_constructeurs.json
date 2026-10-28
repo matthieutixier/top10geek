@@ -918,5 +918,45 @@
  "hisense-hs2100": {
   "constructeur": "Hisense",
   "source": "site constructeur"
+ },
+ "marshall-emberton-3": {
+  "constructeur": "Marshall",
+  "source": "https://images.ctfassets.net/javen7msabdh/Fttl4DrU7xxpEqrPBRiRB/58175527eaf6b1c3a114bfd04e5bbc9b/emberton-iii-blackandbrass-front-desktop.jpeg"
+ },
+ "jbl-charge-6": {
+  "constructeur": "JBL",
+  "source": "https://fr.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwf730bf50/LS_JBL_CHARGE_6_BLACK_HERO_071_x1.png?sw=680&sh=680"
+ },
+ "jbl-flip-7": {
+  "constructeur": "JBL",
+  "source": "https://fr.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwf90f0f82/JBL_FLIP_7_HERO_BLACK_060_x2.png?sw=680&sh=680"
+ },
+ "sony-ult-field-1": {
+  "constructeur": "Sony",
+  "source": "https://d1ncau8tqf99kp.cloudfront.net/converted/119140_original_local_1200x1050_v3_converted.webp"
+ },
+ "jbl-go-5": {
+  "constructeur": "Electro Dépôt (flux Effinity)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10018105.jpg"
+ },
+ "sonos-roam-2": {
+  "constructeur": "Sonos",
+  "source": "https://media.sonos.com/images/znqtjj88/production/110a711ffb1d9ec82743734ef7477a7d400c8d11-2400x2400.png"
+ },
+ "bose-soundlink-flex-2": {
+  "constructeur": "Bose",
+  "source": "https://assets.bosecreative.com/transform/0c5c0127-bce9-4f37-8cb5-811a86399806/SLFLXII_Black_SF_PDP_Gallery_01?format=png&quality=95"
+ },
+ "ue-wonderboom-4": {
+  "constructeur": "Ultimate Ears",
+  "source": "https://resource.ultimateears.com/wonderboom-4/gallery/wonderboom4-gallery-black-front.png"
+ },
+ "jbl-grip": {
+  "constructeur": "Electro Dépôt (flux Effinity)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10013118.jpg"
+ },
+ "jbl-go-essential-2": {
+  "constructeur": "Electro Dépôt (flux Effinity)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10005191.jpg"
  }
 }
