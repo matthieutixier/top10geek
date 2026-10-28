@@ -29853,6 +29853,15 @@
      "name": "Apple AirPods 4 Écouteurs sans Fil, écouteurs Bluetooth, avec Réduction Active du Bruit",
      "cfg": "",
      "asin": "B0DGHYDYJL"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 168.9,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fecouteurs-apple-airpods-4-anc-reduction-de-bruit-active.html",
+     "name": "Apple Airpods 4 Anc Reduction De Bruit Active",
+     "cfg": "",
+     "ean": "0195949689673",
+     "edid": "10008780"
     }
    ],
    "press": {
@@ -35256,7 +35265,7 @@
     ]
    },
    "prix": 999.0,
-   "img": null,
+   "img": "sony-zv-e10-ii.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -35494,7 +35503,7 @@
     ]
    },
    "prix": 1394.0,
-   "img": null,
+   "img": "fujifilm-x-e5.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -35572,7 +35581,7 @@
     ]
    },
    "prix": 1542.14,
-   "img": null,
+   "img": "sony-a6700.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -35926,7 +35935,7 @@
     ]
    },
    "prix": 224.99,
-   "img": null,
+   "img": "dji-neo-2.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36093,7 +36102,7 @@
     ]
    },
    "prix": 264.87,
-   "img": null,
+   "img": "dji-neo.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36248,7 +36257,7 @@
     ]
    },
    "prix": 349.0,
-   "img": null,
+   "img": "dji-flip.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36349,7 +36358,7 @@
     ]
    },
    "prix": 369.99,
-   "img": null,
+   "img": "dji-lito-x1.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36432,7 +36441,7 @@
     ]
    },
    "prix": 399.99,
-   "img": null,
+   "img": "potensic-atom-2.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36509,7 +36518,7 @@
     ]
    },
    "prix": 499.0,
-   "img": null,
+   "img": "hoverair-x1-pro.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36645,7 +36654,7 @@
     ]
    },
    "prix": 645.0,
-   "img": null,
+   "img": "dji-avata-360.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36764,7 +36773,7 @@
     ]
    },
    "prix": 718.0,
-   "img": null,
+   "img": "dji-mini-5-pro.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36871,7 +36880,7 @@
     ]
    },
    "prix": 2098.9,
-   "img": null,
+   "img": "dji-mavic-4-pro.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
@@ -36887,6 +36896,1426 @@
      "StudioSport",
      "PhotoTrend",
      "Chip.de"
+    ]
+   }
+  },
+  "shokz-openfit-2": {
+   "cat": "a-open",
+   "short": "Shokz OpenFit 2+",
+   "ref": "Crochet d'oreille · IP55 · 48 h avec boîtier",
+   "badge": "Le plus abouti",
+   "verdict": "Des écouteurs à oreilles libres à crochet, très confortables, avec un son plus fort et plus riche que la première génération et un vrai bouton à la place du tactile. Ils fuient un peu et n'ont ni réduction de bruit ni détection de port. L'offre suivie est la version 2+ (boîtier plus endurant) ; les tests portent sur l'OpenFit 2.",
+   "strengths": [
+    "Confort sans pression sur le conduit",
+    "Son plus puissant que la 1re génération",
+    "Bouton physique plutôt que tactile"
+   ],
+   "weak": [
+    "Aucune réduction de bruit (par conception)",
+    "Un peu de fuite sonore",
+    "Pas de détection de port"
+   ],
+   "m": [
+    "IP55",
+    "Crochet souple"
+   ],
+   "id": "shokz-openfit-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 199.0,
+     "url": "https://www.amazon.fr/dp/B0DYCJSZLS?tag=geekconcept-21",
+     "name": "SHOKZ OpenFit 2+ écouteurs à Oreilles Libres, Dolby Audio - Noir",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DYCJSZLS"
+    }
+   ],
+   "press": {
+    "avg": 8.653846153846153,
+    "n": 13,
+    "tests": 19,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Absolute Geeks",
+      "score": 10.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/headphones/shokz-openfit-2-review-next-level-comfort-and-dolby-sound-in-one-perfect-package/",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 10.0,
+      "url": "https://www.androidcentral.com/accessories/audio/shokz-openfit-2-review",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/technology/headphones-audio/shokz-openfit-2-and-2-plus-review",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 9.0,
+      "url": "https://www.nextpit.fr/shokz-openfit-2-test-complet",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/shokz/2723041_test-des-shokz-openfit-2-le-son-et-la-securite-enfin-reconcilies",
+      "date": ""
+     },
+     {
+      "src": "GadgetGear",
+      "score": 9.0,
+      "url": "https://www.gadgetgear.nl/2025/08/review-shokz-openfit-2/",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-shokz-openfit-2-les-ecouteurs-open-ear-qui-vont-vous-faire-oublier-les-intras/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/shokz-open-fit-2-test/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Shokz-OpenFit-2-im-Test_185984412.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-581860-test-shokz-openfit-2-cardio-dans-le-rouge-son-dans-le-vert.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/shokz-openfit-2-plus/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/shokz-openfit-2",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 5.5,
+      "url": "https://www.soundguys.com/shokz-openfit-2-review-iteration-done-right-133776/",
+      "date": ""
+     },
+     {
+      "src": "3RD Strike",
+      "score": null,
+      "url": "https://3rd-strike.com/shokz-openfit-2-hardware-review/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/shokz-openfit-2-review/",
+      "date": ""
+     },
+     {
+      "src": "GeekiT",
+      "score": null,
+      "url": "https://www.geekit.fr/tests/audio/5050/test-des-shokz-openfit-2-les-ecouteurs-qui-laissent-vos-oreilles-respirer",
+      "date": ""
+     },
+     {
+      "src": "Movies Games and Tech",
+      "score": null,
+      "url": "https://moviesgamesandtech.com/2025/06/05/review-openfit-2-earphones/",
+      "date": ""
+     },
+     {
+      "src": "Tech Jio",
+      "score": null,
+      "url": "https://techjioblog.com/2025/09/02/review-shokz-openfit-2-open-ear-earbuds/",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/13346/shokz-openfit-2-en-openfit-2+-buitenboordoortjes-met-bas.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 199.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Treize médias ont noté l'OpenFit 2, pour une moyenne de 8,7/10. Absolute Geeks, Android Central et ExpertReviews donnent 10/10, AndroidPit, FrAndroid, Journal du Geek et Presse Citron 9/10, Clubic et Trusted Reviews 8/10. SoundGuys est le plus sévère avec 5,5/10.\n\nLes testeurs apprécient la liberté laissée aux oreilles, le son nettement plus puissant que sur la première génération et le bouton physique qui remplace le tactile. Ils regrettent l'absence de réduction de bruit, une légère fuite sonore, l'absence de détection de port et un prix proche de 200 €. Précision : l'offre suivie est la version 2+, les tests portent sur l'OpenFit 2.",
+    "date": "2026-10-28",
+    "n": 13,
+    "tests": 19,
+    "sources": [
+     "Absolute Geeks",
+     "Android Central",
+     "ExpertReviews",
+     "AndroidPit",
+     "FrAndroid",
+     "Journal du Geek",
+     "Presse Citron",
+     "Clubic.com",
+     "Trusted Reviews",
+     "SoundGuys"
+    ]
+   }
+  },
+  "shokz-openrun-pro-2": {
+   "cat": "a-open",
+   "short": "Shokz OpenRun Pro 2",
+   "ref": "Conduction osseuse · IP55 · 12 h",
+   "badge": "Pour le sport",
+   "verdict": "Un casque à conduction osseuse pour le running et le vélo : léger, stable et endurant, avec une charge rapide. Le rendu est correct dans le grave mais les écarts entre les tests sont importants (de 6 à 10/10) et quelques sibilances sont signalées.",
+   "strengths": [
+    "Confort de port élevé",
+    "Bonne autonomie",
+    "Tenue sûre pendant le sport"
+   ],
+   "weak": [
+    "Quelques sibilances",
+    "Notes très disparates selon les médias",
+    "Fuite sonore à fort volume"
+   ],
+   "m": [
+    "IP55",
+    "Conduction osseuse"
+   ],
+   "id": "shokz-openrun-pro-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 199.0,
+     "url": "https://www.amazon.fr/dp/B0D2HKCMBP?tag=geekconcept-21",
+     "name": "SHOKZ OpenRun Pro 2 Casque à Conduction osseuse, Charge Rapide USB-C - Noir",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D2HKCMBP"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 14,
+    "tests": 21,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "GadgetGear",
+      "score": 10.0,
+      "url": "https://www.gadgetgear.nl/2024/10/review-shokz-openrun-pro-2-open-ear-headset/",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": 10.0,
+      "url": "https://www.lbtechreviews.com/test/headphones/shokz-openrun-pro-2",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/casque-conduction-osseuse/shokz-openrun-pro-2-p75473/test.html",
+      "date": ""
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-shockz-openrun-pro-2-le-casque-parfait-pour-le-sport/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.6,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/shokz-openrun-pro-2-test/",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 8.4,
+      "url": "https://techtest.org/shokz-openrun-pro-2-im-test-open-ear-ohrhoerer-fuer-sportler/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Shokz-OpenRun-Pro-2-im-Test_185497218.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/shokz-openrun-pro-2/",
+      "date": ""
+     },
+     {
+      "src": "SlashGear",
+      "score": 8.0,
+      "url": "https://www.slashgear.com/1679842/shokz-openrun-pro-2-review-bone-conduction-audio-headphones-active-wireless/",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/headphones/reviews/shokz/openrun-pro-2-bone-conduction",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/shokz-openrun-pro-2-review-127935/",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/shokz-openrun-pro-2-avis.html",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 6.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/shokz-openrun-pro-2-review-a-bold-step-in-bone-conduction-with-a-bass-boost/",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 6.0,
+      "url": "https://www.androidcentral.com/accessories/audio/shokz-openrun-pro-2-review",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/shokz-open-run-pro-2-im-test/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/shokz-openrun-pro-2-review/",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/shokz-openrun-pro-2-test,3423483.html",
+      "date": ""
+     },
+     {
+      "src": "Movies Games and Tech",
+      "score": null,
+      "url": "https://moviesgamesandtech.com/2024/09/06/review-shokz-openrun-pro-2-headphones/",
+      "date": ""
+     },
+     {
+      "src": "Tech Jio",
+      "score": null,
+      "url": "https://techjioblog.com/2025/10/02/review-shokz-openrun-pro-2-open-ear/",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2026/04/03/test-openrun-pro-2-de-shokz/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/review-shokz-openrun-pro-2/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 199.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le casque à conduction osseuse de Shokz a reçu quatorze notes, moyenne 8,0/10, mais avec un écart rare : Les Numériques, GadgetGear et L&B Tech lui mettent 10/10, quand 01net, Absolute Geeks et Android Central s'arrêtent à 6/10. RTings et SoundGuys le placent à 7/10.\n\nDu côté des satisfactions : le confort, la bonne endurance, un son équilibré avec une extension honnête dans le grave. Du côté des reproches, quelques sibilances et un rendu qui reste celui d'un casque ouvert, moins précis qu'un intra. C'est un produit taillé pour le sport en extérieur plus que pour l'écoute au calme.",
+    "date": "2026-10-28",
+    "n": 14,
+    "tests": 21,
+    "sources": [
+     "Les Numériques",
+     "GadgetGear",
+     "L&B Tech",
+     "01net",
+     "Absolute Geeks",
+     "Android Central",
+     "RTings",
+     "SoundGuys"
+    ]
+   }
+  },
+  "shokz-opendots-one": {
+   "cat": "a-open",
+   "short": "Shokz OpenDots One",
+   "ref": "Clip-on · IP54 · Dolby Audio",
+   "badge": "Clip discret",
+   "verdict": "Des écouteurs à clip, légers et agréables à porter, avec un son Dolby Audio, la charge rapide et sans fil. La commande est uniquement tactile et un port prolongé peut devenir inconfortable pour certains.",
+   "strengths": [
+    "Confort au quotidien",
+    "Son Dolby Audio",
+    "Charge sans fil et rapide"
+   ],
+   "weak": [
+    "Commandes tactiles seulement",
+    "Port long parfois douloureux",
+    "Prix élevé"
+   ],
+   "m": [
+    "IP54",
+    "Clip léger"
+   ],
+   "id": "shokz-opendots-one",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 199.0,
+     "url": "https://www.amazon.fr/dp/B0DWF5S6K3?tag=geekconcept-21",
+     "name": "SHOKZ OpenDots One écouteurs Clip-on à Oreilles Libres, IP54 - Noir",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DWF5S6K3"
+    }
+   ],
+   "press": {
+    "avg": 8.181818181818182,
+    "n": 11,
+    "tests": 16,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/technology/headphones-audio/shokz-opendots-one-review",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": 10.0,
+      "url": "https://www.lbtechreviews.com/test/headphones/shokz-opendots-one",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/headphones/shokz-opendots-one-review-the-clip-on-earbuds-that-made-me-believe-in-open-ear-audio/",
+      "date": ""
+     },
+     {
+      "src": "Actualidad Gadget",
+      "score": 8.0,
+      "url": "https://www.actualidadgadget.com/shokz-opendots-one-analisis-en-profundidad/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Shokz-OpenDots-One-im-Test_186260307.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/shokz/2797769_test-des-shokz-opendots-one-un-equilibre-sonore-inattendu-pour-des-ecouteurs-ouverts-a-clip",
+      "date": ""
+     },
+     {
+      "src": "GadgetGear",
+      "score": 8.0,
+      "url": "https://www.gadgetgear.nl/2025/09/review-shokz-opendots-one/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/shokz-opendots-one/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-shokz-opendots-one/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/shokz-opendots-one",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": 6.0,
+      "url": "https://www.smartworld.it/recensioni/shokz-opendots-one",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/shokz-opendots-one-im-test/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/shokz-opendots-one-review/",
+      "date": ""
+     },
+     {
+      "src": "GameWave",
+      "score": null,
+      "url": "https://gamewave.fr/tests/test-des-shokz-opendots-one-les-ecouteurs-open-ear-qui-se-portent-comme-des-boucles-d-oreilles/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/shokz-opendots-one-p76993/test.html",
+      "date": ""
+     },
+     {
+      "src": "Movies Games and Tech",
+      "score": null,
+      "url": "https://moviesgamesandtech.com/2025/09/13/review-shokz-opendots-one/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 199.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Onze médias ont noté l'OpenDots One, pour 8,2/10 de moyenne. ExpertReviews et L&B Tech lui accordent 10/10 ; FrAndroid, Presse Citron, Trusted Reviews et Absolute Geeks restent sur 8/10, tandis qu'AndroidWorld descend à 6/10.\n\nPoint commun des tests : un clip léger, confortable au quotidien, un son Dolby Audio flatteur et une charge rapide ou sans fil. En contrepartie, les commandes uniquement tactiles agacent, certains trouvent le port prolongé douloureux et le prix, proche de 200 €, n'a rien d'une bonne affaire.",
+    "date": "2026-10-28",
+    "n": 11,
+    "tests": 16,
+    "sources": [
+     "ExpertReviews",
+     "L&B Tech",
+     "FrAndroid",
+     "Presse Citron",
+     "Trusted Reviews",
+     "Absolute Geeks",
+     "AndroidWorld"
+    ]
+   }
+  },
+  "huawei-freeclip": {
+   "cat": "a-open",
+   "short": "Huawei FreeClip",
+   "ref": "Clip-on · IP54 · 8 h",
+   "badge": "Le design",
+   "verdict": "Un clip en forme de C, original et confortable, avec une très bonne autonomie et la charge sans fil. Le son manque de détail dans les aigus et les notes de la presse vont de 2 à 9/10.",
+   "strengths": [
+    "Confort de port",
+    "Très bonne autonomie",
+    "Charge sans fil"
+   ],
+   "weak": [
+    "Aigus parfois stridents",
+    "Son peu détaillé",
+    "Câble USB-C non fourni"
+   ],
+   "m": [
+    "IP54",
+    "Clip en C"
+   ],
+   "id": "huawei-freeclip",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 129.99,
+     "url": "https://www.amazon.fr/dp/B0CNH1DVWB?tag=geekconcept-21",
+     "name": "HUAWEI FreeClip écouteurs, écouteurs sans Fil, IP54, Noir",
+     "cfg": "",
+     "asin": "B0CNH1DVWB"
+    }
+   ],
+   "press": {
+    "avg": 6.75,
+    "n": 12,
+    "tests": 19,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/huawei-freeclip-2-test/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-huawei-freeclip-2-des-ecouteurs-ouverts-au-design-bijou/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Huawei-FreeClip-im-Test_185498639.html",
+      "date": ""
+     },
+     {
+      "src": "GadgetGear",
+      "score": 8.0,
+      "url": "https://www.gadgetgear.nl/2024/03/review-huawei-freeclip-open-ears-met-een-andere-insteek/",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/huawei-freeclip/",
+      "date": ""
+     },
+     {
+      "src": "Presse Citron",
+      "score": 8.0,
+      "url": "https://www.presse-citron.net/test-freeclips-huawei/",
+      "date": ""
+     },
+     {
+      "src": "Numerama",
+      "score": 7.0,
+      "url": "https://www.numerama.com/tech/1596494-il-ny-a-pas-plus-etrange-que-les-ecouteurs-huawei-freeclip.html",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-freeclip-les-ecouteurs-sans-fil-de-huawei-sont-aussi-etranges-que-reussis.html",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 6.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/huawei-freeclip-review-ditch-the-earbuds-clip-on-freedom/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/intra-ecouteur-true-wireless/huawei-freeclip-p74356/test.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 4.0,
+      "url": "https://www.frandroid.com/marques/huawei/1924971_test-des-huawei-freeclip-des-ecouteurs-boucles-doreilles",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 2.0,
+      "url": "https://leclaireur.fnac.com/test/552032-test-labo-des-huawei-freeclip-un-son-bien-restitue-mais-une-isolation-inexistante-a-dessein/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/huawei-freeclip",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.chinahandys.net/huawei-freeclip-open-ear-kopfhoerer-im-test/",
+      "date": ""
+     },
+     {
+      "src": "ComputerBase",
+      "score": null,
+      "url": "https://www.computerbase.de/2024-01/huawei-freeclip-open-ear-kopfhoerer-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/huawei-freeclip-open-ear-kopfhoerer-test-3204722.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Citizen",
+      "score": null,
+      "url": "https://www.digitalcitizen.life/huawei-freeclip-review/",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/huawei-freeclip-test-der-musik-ohrring-open-ear-ohr-clip-pearcing/402817399",
+      "date": ""
+     },
+     {
+      "src": "Peopleware",
+      "score": null,
+      "url": "https://pplware.sapo.pt/gadgets/analise-huawei-freeclip-os-auriculares-mais-confortaveis-com-tecnologia-open-ear/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 129.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les douze tests du Huawei FreeClip donnent 6,8/10 de moyenne, avec la plus grande dispersion du comparatif : Basic Tutorials et LeCafeDuGeek lui mettent 9/10, Presse Citron 8/10, Numerama 7/10, mais 01net et Les Numériques 6/10, FrAndroid 4/10 et Labo Fnac 2/10.\n\nLes avis favorables saluent l'autonomie, le confort et la charge sans fil. Les critiques visent un son qui manque de détail, des aigus parfois stridents et l'absence de câble USB-C dans la boîte. Le design en C, lui, fait l'unanimité sur l'originalité plus que sur la qualité sonore.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 19,
+    "sources": [
+     "Basic Tutorials",
+     "LeCafeDuGeek",
+     "Presse Citron",
+     "Numerama",
+     "01net",
+     "Les Numériques",
+     "FrAndroid",
+     "Labo Fnac"
+    ]
+   }
+  },
+  "sony-linkbuds-open": {
+   "cat": "a-open",
+   "short": "Sony LinkBuds Open",
+   "ref": "Anneau ouvert · IPX4 · 22 h",
+   "badge": "Anneau ouvert",
+   "verdict": "Des écouteurs à anneau ouvert, légers et confortables, qui laissent passer tous les bruits. Les basses sont très en retrait et ils conviennent mal aux environnements bruyants.",
+   "strengths": [
+    "Confort et légèreté",
+    "Conception ouverte unique",
+    "Bonne autonomie"
+   ],
+   "weak": [
+    "Basses très en retrait",
+    "Peu adaptés aux lieux bruyants",
+    "Design qui ne plaît pas à tous"
+   ],
+   "m": [
+    "IPX4",
+    "Anneau ouvert"
+   ],
+   "id": "sony-linkbuds-open",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 99.99,
+     "url": "https://www.amazon.fr/dp/B0DBLMGP2F?tag=geekconcept-21",
+     "name": "Sony LinkBuds Open - Ecouteurs Ouverts Bluetooth sans Fil - Son Transparent",
+     "cfg": "",
+     "asin": "B0DBLMGP2F"
+    }
+   ],
+   "press": {
+    "avg": 7.0,
+    "n": 8,
+    "tests": 14,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "AndroidPit",
+      "score": 8.0,
+      "url": "https://www.nextpit.fr/sony-linkbuds-open-test-complet",
+      "date": ""
+     },
+     {
+      "src": "Day-Technology",
+      "score": 8.0,
+      "url": "https://day-technology.com/sony-linkbuds-open-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sony-linkbuds-open-review",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/sony-linkbuds-open/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/sony-linkbuds-open",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 6.0,
+      "url": "https://www.01net.com/tests/test-linkbuds-open-tout-le-savoir-faire-de-sony-dans-des-true-wireless-ouverts.html",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Sony-LinkBuds-Open-im-Test_185622635.html",
+      "date": ""
+     },
+     {
+      "src": "Gadget Bridge",
+      "score": 6.0,
+      "url": "https://www.gadgetbridge.com/gadget-reviews/sony-linkbuds-open-wf-l910-review-an-expert-in-its-category/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.0,
+      "url": "https://www.soundguys.com/sony-linkbuds-open-review-an-interesting-sequel-125497/",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/sony-linkbuds-open-ecouteurs-true-wireless-ouverts-43087",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/sony-linkbuds-open-review/",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/sony-linkbuds-open-test-review-in-ear-kopfhoerer-wireless/402985987",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/kopfhoerer/im-test-sony-linkbuds-open-fit-2940455.html",
+      "date": ""
+     },
+     {
+      "src": "Peopleware",
+      "score": null,
+      "url": "https://pplware.sapo.pt/analises-2/analise-sony-linkbuds-open-ouvir-musica-sem-perder-a-percecao-do-ambiente/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/sony-linkbuds-open/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 99.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit médias ont testé les LinkBuds Open et leur moyenne s'établit à 7,0/10. AndroidPit, Trusted Reviews et Day-Technology donnent 8/10, 01net, Chip.de et SoundGuys 6/10.\n\nSelon eux, la conception en anneau est originale, légère et confortable, avec une bonne autonomie. Mais les basses sont très en retrait, le rendu se noie dès que l'environnement devient bruyant et le design divise. Ils s'adressent à ceux qui privilégient la conscience de l'environnement plutôt que la richesse sonore. Dans la pratique, ils conviennent aux trajets à pied et au bureau, beaucoup moins à la salle de sport ou au métro.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 14,
+    "sources": [
+     "AndroidPit",
+     "Trusted Reviews",
+     "Day-Technology",
+     "01net",
+     "Chip.de",
+     "SoundGuys"
+    ]
+   }
+  },
+  "sony-linkbuds-clip": {
+   "cat": "a-open",
+   "short": "Sony LinkBuds Clip",
+   "ref": "Clip-on · IPX4 · 37 h",
+   "badge": "Autonomie",
+   "verdict": "Un clip léger à grande autonomie avec égaliseur dans l'application. Le volume maximal est limité, les basses manquent de profondeur et la charnière du boîtier est jugée fragile.",
+   "strengths": [
+    "Grand confort de port",
+    "Longue durée de vie de la batterie",
+    "Égaliseur à 10 bandes"
+   ],
+   "weak": [
+    "Volume maximal limité",
+    "Basses peu profondes",
+    "Charnière du boîtier instable"
+   ],
+   "m": [
+    "IPX4",
+    "37 h"
+   ],
+   "id": "sony-linkbuds-clip",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 129.43,
+     "url": "https://www.amazon.fr/dp/B0GBY5L7JH?tag=geekconcept-21",
+     "name": "Sony LinkBuds Clip Écouteurs sans Fil Oreilles Libres",
+     "cfg": "",
+     "asin": "B0GBY5L7JH"
+    }
+   ],
+   "press": {
+    "avg": 6.525,
+    "n": 8,
+    "tests": 15,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Sony-LinkBuds-Clip-im-Test_186704827.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/sony-linkbuds-clip/",
+      "date": ""
+     },
+     {
+      "src": "Engadget",
+      "score": 7.2,
+      "url": "https://www.engadget.com/audio/headphones/sony-linkbuds-clip-review-open-fit-benefits-arent-enough-to-stand-out-160000140.html?src=rss",
+      "date": ""
+     },
+     {
+      "src": "GadgetGear",
+      "score": 7.0,
+      "url": "https://www.gadgetgear.nl/2026/04/review-sony-linkbuds-clip/",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 6.0,
+      "url": "https://www.soundguys.com/sony-linkbuds-clip-review-152048/",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 6.0,
+      "url": "https://www.t3.com/tech/earbuds/sony-linkbuds-clip-review",
+      "date": ""
+     },
+     {
+      "src": "Tom's Guide (US)",
+      "score": 6.0,
+      "url": "https://www.tomsguide.com/audio/earbuds/sony-linkbuds-clip-review",
+      "date": ""
+     },
+     {
+      "src": "01net",
+      "score": 4.0,
+      "url": "https://www.01net.com/tests/test-sony-linkbuds-clip-avis.html",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/sony-linkbuds-clip",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/sony-linkbuds-clip-open-ear-kopfhoerer-test-3212711.html",
+      "date": ""
+     },
+     {
+      "src": "Future Zone",
+      "score": null,
+      "url": "https://futurezone.at/produkte/sony-linkbuds-clip-test-kopfhoerer-fazit-ton-qualitaet-open-ear/403139453",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": null,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/sony-linkbuds-clip-p77776/test.html",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/audio/im-test-sony-linkbuds-clip-2981150.html",
+      "date": ""
+     },
+     {
+      "src": "Peopleware",
+      "score": null,
+      "url": "https://pplware.sapo.pt/gadgets/analise-sony-linkbuds-clip-um-som-tao-nitido-nuns-auriculares-abertos-e-de-louvar/",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/sony-linkbuds-clip/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 129.43,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Huit notes pour le LinkBuds Clip, moyenne 6,5/10 : Chip.de attribue 8/10, Engadget 7,2/10 et GadgetGear 7/10, alors que SoundGuys, T3 et Tom's Guide (US) restent à 6/10 et 01net à 4/10.\n\nPetit boîtier, grand confort et longue autonomie sont mis en avant, ainsi que l'égaliseur à dix bandes de l'application. Les tests déplorent un volume maximal limité, peu de basses profondes, une charnière de boîtier jugée instable et l'absence de charge sans fil. Ils visent plutôt un usage tranquille, au bureau ou en marchant, qu'une écoute à plein volume.",
+    "date": "2026-10-28",
+    "n": 8,
+    "tests": 15,
+    "sources": [
+     "Chip.de",
+     "Engadget",
+     "GadgetGear",
+     "SoundGuys",
+     "T3",
+     "Tom's Guide (US)",
+     "01net"
+    ]
+   }
+  },
+  "nothing-ear-open": {
+   "cat": "a-open",
+   "short": "Nothing Ear (Open)",
+   "ref": "Crochet · IP54 · 30 h",
+   "badge": "Le moins cher",
+   "verdict": "Un crochet à oreilles libres au design transparent, au bon son et très confortable. La qualité baisse à fort volume et il n'y a ni codec HD, ni détection de port, ni charge sans fil.",
+   "strengths": [
+    "Bon son",
+    "Très grand confort",
+    "Bonne autonomie"
+   ],
+   "weak": [
+    "Qualité sonore dégradée à fort volume",
+    "Pas de détection de port",
+    "Pas de recharge sans fil"
+   ],
+   "m": [
+    "IP54",
+    "Design"
+   ],
+   "id": "nothing-ear-open",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 98.99,
+     "url": "https://www.amazon.fr/dp/B0DBJ2CRV4?tag=geekconcept-21",
+     "name": "Nothing Ear (Open) Ecouteurs Bluetooth avec Technologie Open Sound, Deux micros + AI Clear Voice",
+     "cfg": "",
+     "asin": "B0DBJ2CRV4"
+    }
+   ],
+   "press": {
+    "avg": 7.333333333333333,
+    "n": 12,
+    "tests": 20,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "SlashGear",
+      "score": 10.0,
+      "url": "https://www.slashgear.com/1671483/nothing-ear-open-review-clever-earbuds-design-audio-wireless/",
+      "date": ""
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/nothing-ear-open-review-open-earbuds-that-actually-deliver-on-bass/",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 8.0,
+      "url": "https://www.nextpit.fr/nothing-ear-open-test-complet",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Nothing-Ear-Open-im-Test_185842077.html",
+      "date": ""
+     },
+     {
+      "src": "CowCotLand.com",
+      "score": 8.0,
+      "url": "https://www.cowcotland.com/articles/4390/test-nothing-ear-open-originaux-et-bluffants.html",
+      "date": ""
+     },
+     {
+      "src": "HardwareZone",
+      "score": 8.0,
+      "url": "https://www.hardwarezone.com.sg/review-nothing-ear-open-singapore-price-specs-buy",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/nothing-ear-open/",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.0,
+      "url": "https://multiplayer.it/recensioni/nothing-ear-open-recensione-auricolari-non-isolano.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/nothing/2346632_test-nothing-ear-open-quand-le-son-prend-lair",
+      "date": ""
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.0,
+      "url": "https://www.soundguys.com/nothing-ear-open-review-124038/",
+      "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 6.0,
+      "url": "https://www.techradar.com/audio/earbuds-airpods/nothing-ear-open-review-one-issue-upsets-nothings-first-draft-open-ear-headphones",
+      "date": ""
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 2.0,
+      "url": "https://leclaireur.fnac.com/test/646686-test-labo-des-nothing-ear-open-des-ecouteurs-ouverts-limites-par-essence/",
+      "date": ""
+     },
+     {
+      "src": "AndroidWorld",
+      "score": null,
+      "url": "https://www.smartworld.it/recensioni/recensione-nothing-ear-open",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/nothing-ear-open-im-test/",
+      "date": ""
+     },
+     {
+      "src": "GameStar",
+      "score": null,
+      "url": "https://www.gamestar.de/artikel/nothing-ear-open-test,3420333.html",
+      "date": ""
+     },
+     {
+      "src": "MUO",
+      "score": null,
+      "url": "https://www.makeuseof.com/nothing-ear-open-review/",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Test-Nothing-Ear-Open-Open-Ear-Kopfhoerer-ueberraschen-positiv.914072.0.html",
+      "date": ""
+     },
+     {
+      "src": "PCtipp",
+      "score": null,
+      "url": "https://www.pctipp.ch/tests/kopfhoerer/im-test-nothing-ear-open-2938049.html",
+      "date": ""
+     },
+     {
+      "src": "TopForPhone",
+      "score": null,
+      "url": "https://www.top-for-phone.fr/test-nothing-ear-open",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/nothing-ear-open",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 98.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Douze médias ont noté le Nothing Ear (Open), pour 7,3/10 de moyenne. SlashGear va jusqu'à 10/10, AndroidPit, Absolute Geeks, HardwareZone et Multiplayer.it donnent 8/10, FrAndroid et SoundGuys 7/10, TechRadar 6/10, et Labo Fnac 2/10.\n\nLe design, le bon son et le grand confort reviennent dans la plupart des comptes rendus. Revers : la qualité se dégrade à fort volume, il n'y a ni codec haute définition, ni détection de port, ni charge sans fil. Il se place parmi les moins chers de la sélection. Les avis les plus sévères portent surtout sur le rendu à volume élevé, là où les modèles ouverts perdent naturellement en précision.",
+    "date": "2026-10-28",
+    "n": 12,
+    "tests": 20,
+    "sources": [
+     "SlashGear",
+     "AndroidPit",
+     "Absolute Geeks",
+     "HardwareZone",
+     "Multiplayer.it",
+     "FrAndroid",
+     "SoundGuys",
+     "TechRadar",
+     "Labo Fnac"
+    ]
+   }
+  },
+  "soundcore-aerofit-2-pro": {
+   "cat": "a-open",
+   "short": "Soundcore AeroFit 2 Pro",
+   "ref": "Crochet · IP55 · LDAC",
+   "badge": "Le plus complet",
+   "verdict": "Un crochet réglable sur cinq niveaux avec LDAC, multipoint et réduction de bruit active. Le boîtier est grand, les finitions améliorables et la réduction de bruit sans effet marqué.",
+   "strengths": [
+    "Bon son (LDAC)",
+    "Multipoint",
+    "Crochet réglable"
+   ],
+   "weak": [
+    "Boîtier un peu grand",
+    "Finitions améliorables",
+    "ANC peu convaincante"
+   ],
+   "m": [
+    "IP55",
+    "LDAC"
+   ],
+   "id": "soundcore-aerofit-2-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 168.99,
+     "url": "https://www.amazon.fr/dp/B0FMJP7T3M?tag=geekconcept-21",
+     "name": "soundcore par Anker AeroFit 2 Pro Écouteurs Ouvert",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FMJP7T3M"
+    }
+   ],
+   "press": {
+    "avg": 8.066666666666666,
+    "n": 6,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Presse Citron",
+      "score": 9.0,
+      "url": "https://www.presse-citron.net/test-soundcore-aero-fit-2-pro-ecouteurs/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.4,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/soundcore-aerofit-2-pro-test/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Soundcore-AeroFit-2-Pro-Open-Ears-im-Test_186742550.html",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/soundcore-aerofit-2-pro/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/soundcore-aerofit-2-pro",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 7.0,
+      "url": "https://www.ign.com/articles/soundcore-aerofit-2-pro-earbuds-review",
+      "date": ""
+     },
+     {
+      "src": "ChinaHandys",
+      "score": null,
+      "url": "https://www.smartzone.de/soundcore-aerofit-2-pro-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/soundcore-aerofit-2-pro-test-3211682.html",
+      "date": ""
+     },
+     {
+      "src": "GamesWelt",
+      "score": null,
+      "url": "https://www.gameswelt.de/soundcore-aerofit-2-pro/test/test-zwei-kopfhoerer-in-einem-was-soll-das-denn-heissen-333183?utm_campaign=tbuk",
+      "date": ""
+     },
+     {
+      "src": "Wired",
+      "score": null,
+      "url": "https://www.wired.com/review/anker-soundcore-aerofit-2-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 168.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six médias ont noté l'AeroFit 2 Pro, pour une moyenne de 8,1/10. Presse Citron lui met 9/10, Basic Tutorials 8,4/10, Chip.de et Trusted Reviews 8/10, IGN 7/10.\n\nLes testeurs retiennent le bon son avec le LDAC, le multipoint et un crochet réglable. Ils notent aussi un boîtier encombrant, des finitions améliorables, un confort de port très variable d'une personne à l'autre et une réduction de bruit sans effet marqué. Un produit complet, mais cher face à son petit frère. La presse reste partagée sur l'intérêt de payer l'écart de prix, d'autant que la réduction de bruit d'un modèle ouvert reste symbolique.",
+    "date": "2026-10-28",
+    "n": 6,
+    "tests": 10,
+    "sources": [
+     "Presse Citron",
+     "Basic Tutorials",
+     "Chip.de",
+     "Trusted Reviews",
+     "IGN"
+    ]
+   }
+  },
+  "soundcore-aerofit-2": {
+   "cat": "a-open",
+   "short": "Soundcore AeroFit 2",
+   "ref": "Crochet · IP55 · 42 h",
+   "badge": "Petit prix",
+   "verdict": "Un crochet à moins de 100 € avec LDAC, une excellente autonomie et un très bon confort. Les basses sont faibles et il n'a pas d'arrêt manuel.",
+   "strengths": [
+    "Très bon confort",
+    "Clarté grâce au LDAC",
+    "Excellente autonomie"
+   ],
+   "weak": [
+    "Boîtier assez grand",
+    "Basses faibles",
+    "Pas de mise en marche manuelle"
+   ],
+   "m": [
+    "IP55",
+    "42 h"
+   ],
+   "id": "soundcore-aerofit-2",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 95.99,
+     "url": "https://www.amazon.fr/dp/B0DFCHZ699?tag=geekconcept-21",
+     "name": "soundcore par Anker AeroFit 2 Écouteurs ouvert",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0DFCHZ699"
+    }
+   ],
+   "press": {
+    "avg": 8.4,
+    "n": 5,
+    "tests": 8,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "AndroidPit",
+      "score": 10.0,
+      "url": "https://www.nextpit.fr/soundcore-aerofit-2-test-complet",
+      "date": ""
+     },
+     {
+      "src": "Android Central",
+      "score": 8.0,
+      "url": "https://www.androidcentral.com/accessories/earbuds/soundcore-aerofit-2-review",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Soundcore-AeroFit-2-im-Test_185750110.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/anker/2722901_test-soundcore-aerofit-2-lopen-ear-qui-tient-la-route",
+      "date": ""
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.0,
+      "url": "https://www.kopfhoerer.de/test/soundcore-aerofit-2-by-anker/",
+      "date": ""
+     },
+     {
+      "src": "DigitalTrends",
+      "score": null,
+      "url": "https://www.digitaltrends.com/home-theater/soundcore-aerofit-2-review/",
+      "date": ""
+     },
+     {
+      "src": "MUO",
+      "score": null,
+      "url": "https://www.makeuseof.com/soundcore-aerofit-2-review/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/soundcore-aerofit-2",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 95.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias ont testé l'AeroFit 2, pour 8,4/10 de moyenne : AndroidPit lui accorde 10/10, tandis qu'Android Central, Chip.de et FrAndroid donnent 8/10.\n\nLe confort, la clarté apportée par le LDAC et l'autonomie excellente ressortent. Parmi les bémols, un boîtier assez grand, des basses faibles, un volume élevé à manier avec précaution et l'impossibilité d'éteindre manuellement les écouteurs. Au prix demandé, c'est le meilleur rapport note/prix du comparatif. Le fabricant mise ici sur l'autonomie et la tenue du crochet, deux points que les testeurs valident clairement.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 8,
+    "sources": [
+     "AndroidPit",
+     "Android Central",
+     "Chip.de",
+     "FrAndroid"
     ]
    }
   }

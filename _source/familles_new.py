@@ -106,6 +106,12 @@ ACATS = [
          seo_desc="Les meilleurs casques Bluetooth à réduction de bruit en 2026, classés par note presse : Sony, Sennheiser, JBL, Apple, Nothing. Prix indicatifs, points forts et faibles.",
          h1='Les meilleurs <span class="flash">casques Bluetooth</span> en 2026',
          intro="Des références Sony et Sennheiser aux casques à petit prix : la presse départage la réduction de bruit, le son, le confort et l'autonomie. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
+    dict(key="a-open", slug="ecouteurs-open-ear", label="Écouteurs open-ear", top_label="écouteurs open-ear", h="Écouteurs open-ear", tag="Écouter sans se couper du monde", color="var(--cat-gaming)", cls="f-gaming", badge="ecouteurs", scene="audio-anc", scene_alt="Le père de famille geek, des écouteurs ouverts aux oreilles, le sourire aux lèvres",
+         plural_low="écouteurs",
+         seo_title="Meilleurs écouteurs open-ear 2026 : tests et prix | Top 10 Geek",
+         seo_desc="Les meilleurs écouteurs open-ear (oreilles libres, conduction osseuse, clip) en 2026, classés par note presse : Shokz, Huawei, Sony, Nothing, Soundcore. Prix indicatifs, points forts et faibles.",
+         h1='Les meilleurs <span class="flash">écouteurs open-ear</span> en 2026',
+         intro="Pour courir, rouler à vélo ou travailler en restant attentif à ce qui se passe autour de vous : la presse compare le confort, le son et la fuite sonore de Shokz, Huawei, Sony, Nothing et Soundcore. Voici les modèles qui ont des notes chiffrées et une offre d'achat, avec un prix indicatif relevé chez Amazon."),
 ]
 
 VCATS = [

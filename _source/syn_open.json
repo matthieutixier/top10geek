@@ -1,0 +1,120 @@
+[
+ {
+  "id": "shokz-openfit-2",
+  "texte": "Treize médias ont noté l'OpenFit 2, pour une moyenne de 8,7/10. Absolute Geeks, Android Central et ExpertReviews donnent 10/10, AndroidPit, FrAndroid, Journal du Geek et Presse Citron 9/10, Clubic et Trusted Reviews 8/10. SoundGuys est le plus sévère avec 5,5/10.\n\nLes testeurs apprécient la liberté laissée aux oreilles, le son nettement plus puissant que sur la première génération et le bouton physique qui remplace le tactile. Ils regrettent l'absence de réduction de bruit, une légère fuite sonore, l'absence de détection de port et un prix proche de 200 €. Précision : l'offre suivie est la version 2+, les tests portent sur l'OpenFit 2.",
+  "sources": [
+   "Absolute Geeks",
+   "Android Central",
+   "ExpertReviews",
+   "AndroidPit",
+   "FrAndroid",
+   "Journal du Geek",
+   "Presse Citron",
+   "Clubic.com",
+   "Trusted Reviews",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "shokz-openrun-pro-2",
+  "texte": "Le casque à conduction osseuse de Shokz a reçu quatorze notes, moyenne 8,0/10, mais avec un écart rare : Les Numériques, GadgetGear et L&B Tech lui mettent 10/10, quand 01net, Absolute Geeks et Android Central s'arrêtent à 6/10. RTings et SoundGuys le placent à 7/10.\n\nDu côté des satisfactions : le confort, la bonne endurance, un son équilibré avec une extension honnête dans le grave. Du côté des reproches, quelques sibilances et un rendu qui reste celui d'un casque ouvert, moins précis qu'un intra. C'est un produit taillé pour le sport en extérieur plus que pour l'écoute au calme.",
+  "sources": [
+   "Les Numériques",
+   "GadgetGear",
+   "L&B Tech",
+   "01net",
+   "Absolute Geeks",
+   "Android Central",
+   "RTings",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "shokz-opendots-one",
+  "texte": "Onze médias ont noté l'OpenDots One, pour 8,2/10 de moyenne. ExpertReviews et L&B Tech lui accordent 10/10 ; FrAndroid, Presse Citron, Trusted Reviews et Absolute Geeks restent sur 8/10, tandis qu'AndroidWorld descend à 6/10.\n\nPoint commun des tests : un clip léger, confortable au quotidien, un son Dolby Audio flatteur et une charge rapide ou sans fil. En contrepartie, les commandes uniquement tactiles agacent, certains trouvent le port prolongé douloureux et le prix, proche de 200 €, n'a rien d'une bonne affaire.",
+  "sources": [
+   "ExpertReviews",
+   "L&B Tech",
+   "FrAndroid",
+   "Presse Citron",
+   "Trusted Reviews",
+   "Absolute Geeks",
+   "AndroidWorld"
+  ]
+ },
+ {
+  "id": "huawei-freeclip",
+  "texte": "Les douze tests du Huawei FreeClip donnent 6,8/10 de moyenne, avec la plus grande dispersion du comparatif : Basic Tutorials et LeCafeDuGeek lui mettent 9/10, Presse Citron 8/10, Numerama 7/10, mais 01net et Les Numériques 6/10, FrAndroid 4/10 et Labo Fnac 2/10.\n\nLes avis favorables saluent l'autonomie, le confort et la charge sans fil. Les critiques visent un son qui manque de détail, des aigus parfois stridents et l'absence de câble USB-C dans la boîte. Le design en C, lui, fait l'unanimité sur l'originalité plus que sur la qualité sonore.",
+  "sources": [
+   "Basic Tutorials",
+   "LeCafeDuGeek",
+   "Presse Citron",
+   "Numerama",
+   "01net",
+   "Les Numériques",
+   "FrAndroid",
+   "Labo Fnac"
+  ]
+ },
+ {
+  "id": "sony-linkbuds-open",
+  "texte": "Huit médias ont testé les LinkBuds Open et leur moyenne s'établit à 7,0/10. AndroidPit, Trusted Reviews et Day-Technology donnent 8/10, 01net, Chip.de et SoundGuys 6/10.\n\nSelon eux, la conception en anneau est originale, légère et confortable, avec une bonne autonomie. Mais les basses sont très en retrait, le rendu se noie dès que l'environnement devient bruyant et le design divise. Ils s'adressent à ceux qui privilégient la conscience de l'environnement plutôt que la richesse sonore. Dans la pratique, ils conviennent aux trajets à pied et au bureau, beaucoup moins à la salle de sport ou au métro.",
+  "sources": [
+   "AndroidPit",
+   "Trusted Reviews",
+   "Day-Technology",
+   "01net",
+   "Chip.de",
+   "SoundGuys"
+  ]
+ },
+ {
+  "id": "sony-linkbuds-clip",
+  "texte": "Huit notes pour le LinkBuds Clip, moyenne 6,5/10 : Chip.de attribue 8/10, Engadget 7,2/10 et GadgetGear 7/10, alors que SoundGuys, T3 et Tom's Guide (US) restent à 6/10 et 01net à 4/10.\n\nPetit boîtier, grand confort et longue autonomie sont mis en avant, ainsi que l'égaliseur à dix bandes de l'application. Les tests déplorent un volume maximal limité, peu de basses profondes, une charnière de boîtier jugée instable et l'absence de charge sans fil. Ils visent plutôt un usage tranquille, au bureau ou en marchant, qu'une écoute à plein volume.",
+  "sources": [
+   "Chip.de",
+   "Engadget",
+   "GadgetGear",
+   "SoundGuys",
+   "T3",
+   "Tom's Guide (US)",
+   "01net"
+  ]
+ },
+ {
+  "id": "nothing-ear-open",
+  "texte": "Douze médias ont noté le Nothing Ear (Open), pour 7,3/10 de moyenne. SlashGear va jusqu'à 10/10, AndroidPit, Absolute Geeks, HardwareZone et Multiplayer.it donnent 8/10, FrAndroid et SoundGuys 7/10, TechRadar 6/10, et Labo Fnac 2/10.\n\nLe design, le bon son et le grand confort reviennent dans la plupart des comptes rendus. Revers : la qualité se dégrade à fort volume, il n'y a ni codec haute définition, ni détection de port, ni charge sans fil. Il se place parmi les moins chers de la sélection. Les avis les plus sévères portent surtout sur le rendu à volume élevé, là où les modèles ouverts perdent naturellement en précision.",
+  "sources": [
+   "SlashGear",
+   "AndroidPit",
+   "Absolute Geeks",
+   "HardwareZone",
+   "Multiplayer.it",
+   "FrAndroid",
+   "SoundGuys",
+   "TechRadar",
+   "Labo Fnac"
+  ]
+ },
+ {
+  "id": "soundcore-aerofit-2-pro",
+  "texte": "Six médias ont noté l'AeroFit 2 Pro, pour une moyenne de 8,1/10. Presse Citron lui met 9/10, Basic Tutorials 8,4/10, Chip.de et Trusted Reviews 8/10, IGN 7/10.\n\nLes testeurs retiennent le bon son avec le LDAC, le multipoint et un crochet réglable. Ils notent aussi un boîtier encombrant, des finitions améliorables, un confort de port très variable d'une personne à l'autre et une réduction de bruit sans effet marqué. Un produit complet, mais cher face à son petit frère. La presse reste partagée sur l'intérêt de payer l'écart de prix, d'autant que la réduction de bruit d'un modèle ouvert reste symbolique.",
+  "sources": [
+   "Presse Citron",
+   "Basic Tutorials",
+   "Chip.de",
+   "Trusted Reviews",
+   "IGN"
+  ]
+ },
+ {
+  "id": "soundcore-aerofit-2",
+  "texte": "Cinq médias ont testé l'AeroFit 2, pour 8,4/10 de moyenne : AndroidPit lui accorde 10/10, tandis qu'Android Central, Chip.de et FrAndroid donnent 8/10.\n\nLe confort, la clarté apportée par le LDAC et l'autonomie excellente ressortent. Parmi les bémols, un boîtier assez grand, des basses faibles, un volume élevé à manier avec précaution et l'impossibilité d'éteindre manuellement les écouteurs. Au prix demandé, c'est le meilleur rapport note/prix du comparatif. Le fabricant mise ici sur l'autonomie et la tenue du crochet, deux points que les testeurs valident clairement.",
+  "sources": [
+   "AndroidPit",
+   "Android Central",
+   "Chip.de",
+   "FrAndroid"
+  ]
+ }
+]

@@ -327,6 +327,20 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certaines coloris sont vendus par des tiers."],
     budget=[("80 – 150 €", "Casques d'entrée de gamme à grosse autonomie : CMF, JBL Live, Sennheiser Accentum."), ("170 – 250 €", "Milieu de gamme : Nothing, JBL Tour One M3, Sony XM5."), ("380 – 550 €", "Références : Sony XM6, Sennheiser Momentum 5, AirPods Max 2.")],
 ),
+"a-open": dict(
+    titre="Comment choisir des écouteurs open-ear",
+    intro="Des écouteurs open-ear laissent le conduit libre : on entend la musique <b>et</b> les bruits autour. Ils se choisissent sur <b>le mode de port, le confort, la fuite sonore et l'autonomie</b>, pas sur la réduction de bruit, qui n'existe pas par conception.",
+    criteres=[
+        ("Mode de port", "Crochet d'oreille (Shokz OpenFit, Nothing, Soundcore) pour la stabilité, clip (OpenDots, FreeClip, LinkBuds Clip) pour la discrétion, conduction osseuse (OpenRun) pour le sport."),
+        ("Confort sur la durée", "C'est le point fort de la catégorie, mais il reste très individuel : un clip qui serre ou un crochet qui frotte se remarque au bout d'une heure."),
+        ("Fuite sonore et volume", "Le son s'échappe vers l'extérieur et se noie dans le bruit ambiant : à fort volume, la qualité baisse et l'entourage entend."),
+        ("Autonomie et boîtier", "De 8 h à plus de 40 h avec le boîtier selon le modèle ; la charge sans fil et l'indice IP comptent pour le sport."),
+    ],
+    pieges=["Attendre de la réduction de bruit : ces écouteurs n'en ont pas, ou très peu.",
+            "Se fier à un test d'un modèle voisin : OpenFit 2 et 2+, FreeClip et FreeClip 2 sont des produits distincts.",
+            "Acheter sans essayer : le confort de port varie beaucoup d'une oreille à l'autre."],
+    budget=[("95 – 130 €", "Entrée de gamme : Nothing Ear (Open), Sony LinkBuds Open, Soundcore AeroFit 2, Huawei FreeClip."), ("130 – 170 €", "Milieu de gamme : LinkBuds Clip, AeroFit 2 Pro."), ("200 €", "Shokz : OpenFit 2+, OpenRun Pro 2, OpenDots One.")],
+),
 "v-proj": dict(
     titre="Comment choisir un vidéoprojecteur",
     intro="Un vidéoprojecteur remplace un téléviseur dès que la pièce peut être assombrie. Le choix tient en trois questions : <b>où le poser</b> (ultra courte focale près du mur, courte focale ou portable), <b>la résolution</b> (4K ou 1080p) et <b>la luminosité</b> dont la pièce a besoin.",

@@ -199,7 +199,8 @@ add("airpods-4-anc", AANC, "Apple AirPods 4 (ANC)", "Réduction active · sans e
     ("IP54", "ANC"), "Apple AirPods 4",
     "B0DGHYDYJL", "Apple AirPods 4 Écouteurs sans Fil, écouteurs Bluetooth, avec Réduction Active du Bruit", 134.0,
     "Vous avez un iPhone et préférez des écouteurs sans embouts en silicone.",
-    "Vous voulez une isolation passive forte ou vous êtes sur Android.")
+    "Vous voulez une isolation passive forte ou vous êtes sur Android.",
+    ed=ed("ecouteurs-apple-airpods-4-anc-reduction-de-bruit-active", "Apple Airpods 4 Anc Reduction De Bruit Active", 168.9, "0195949689673", "10008780"))
 
 add("sony-wf-c710n", AANC, "Sony WF-C710N", "ANC · 40 h · IPX4", "Autonomie",
     "Une réduction de bruit efficace pour le prix, un son agréable et une grande autonomie. Peu de codecs compatibles et une application un peu compliquée.",
@@ -320,6 +321,90 @@ add("cmf-headphone-pro", ACAS, "CMF Headphone Pro", "ANC hybride · LDAC · 100 
     "B0FKG6TDRR", "CMF Headphone Pro - Casque Bluetooth Over-Ear, ANC Hybride, Jusqu'à 100 h, Hi-Res avec LDAC", 78.84,
     "Vous voulez de l'ANC et une énorme autonomie pour moins de 80 €.",
     "Vous voulez la meilleure réduction de bruit.")
+
+
+AOPN = "a-open"
+
+add("shokz-openfit-2", AOPN, "Shokz OpenFit 2+", "Crochet d'oreille · IP55 · 48 h avec boîtier", "Le plus abouti",
+    "Des écouteurs à oreilles libres à crochet, très confortables, avec un son plus fort et plus riche que la première génération et un vrai bouton à la place du tactile. Ils fuient un peu et n'ont ni réduction de bruit ni détection de port. L'offre suivie est la version 2+ (boîtier plus endurant) ; les tests portent sur l'OpenFit 2.",
+    ["Confort sans pression sur le conduit", "Son plus puissant que la 1re génération", "Bouton physique plutôt que tactile"],
+    ["Aucune réduction de bruit (par conception)", "Un peu de fuite sonore", "Pas de détection de port"],
+    ("IP55", "Crochet souple"), "Shokz OpenFit 2",
+    "B0DYCJSZLS", "SHOKZ OpenFit 2+ écouteurs à Oreilles Libres, Dolby Audio - Noir", 199.0,
+    "Vous voulez rester attentif aux bruits autour de vous (vélo, bureau, enfants) et porter des écouteurs toute la journée.",
+    "Vous voulez de la réduction de bruit ou une forte isolation dans les transports.", scope="gamme", seller="SHOKZ Store (expédié par Amazon)")
+
+add("shokz-openrun-pro-2", AOPN, "Shokz OpenRun Pro 2", "Conduction osseuse · IP55 · 12 h", "Pour le sport",
+    "Un casque à conduction osseuse pour le running et le vélo : léger, stable et endurant, avec une charge rapide. Le rendu est correct dans le grave mais les écarts entre les tests sont importants (de 6 à 10/10) et quelques sibilances sont signalées.",
+    ["Confort de port élevé", "Bonne autonomie", "Tenue sûre pendant le sport"],
+    ["Quelques sibilances", "Notes très disparates selon les médias", "Fuite sonore à fort volume"],
+    ("IP55", "Conduction osseuse"), "Shokz OpenRun Pro 2",
+    "B0D2HKCMBP", "SHOKZ OpenRun Pro 2 Casque à Conduction osseuse, Charge Rapide USB-C - Noir", 199.0,
+    "Vous courez ou roulez à vélo et voulez entendre la circulation.",
+    "Vous écoutez surtout de la musique au calme et attendez des basses profondes.", seller="SHOKZ Store (expédié par Amazon)")
+
+add("shokz-opendots-one", AOPN, "Shokz OpenDots One", "Clip-on · IP54 · Dolby Audio", "Clip discret",
+    "Des écouteurs à clip, légers et agréables à porter, avec un son Dolby Audio, la charge rapide et sans fil. La commande est uniquement tactile et un port prolongé peut devenir inconfortable pour certains.",
+    ["Confort au quotidien", "Son Dolby Audio", "Charge sans fil et rapide"],
+    ["Commandes tactiles seulement", "Port long parfois douloureux", "Prix élevé"],
+    ("IP54", "Clip léger"), "Shokz OpenDots One",
+    "B0DWF5S6K3", "SHOKZ OpenDots One écouteurs Clip-on à Oreilles Libres, IP54 - Noir", 199.0,
+    "Vous préférez un clip à un crochet et voulez des écouteurs légers et discrets.",
+    "Vous voulez des boutons physiques ou un budget serré.", seller="SHOKZ Store (expédié par Amazon)")
+
+add("huawei-freeclip", AOPN, "Huawei FreeClip", "Clip-on · IP54 · 8 h", "Le design",
+    "Un clip en forme de C, original et confortable, avec une très bonne autonomie et la charge sans fil. Le son manque de détail dans les aigus et les notes de la presse vont de 2 à 9/10.",
+    ["Confort de port", "Très bonne autonomie", "Charge sans fil"],
+    ["Aigus parfois stridents", "Son peu détaillé", "Câble USB-C non fourni"],
+    ("IP54", "Clip en C"), "Huawei FreeClip",
+    "B0CNH1DVWB", "HUAWEI FreeClip écouteurs, écouteurs sans Fil, IP54, Noir", 129.99,
+    "Vous voulez un design reconnaissable et des écouteurs qui tiennent toute la journée.",
+    "Vous cherchez un son détaillé ou le meilleur rapport qualité/prix.")
+
+add("sony-linkbuds-open", AOPN, "Sony LinkBuds Open", "Anneau ouvert · IPX4 · 22 h", "Anneau ouvert",
+    "Des écouteurs à anneau ouvert, légers et confortables, qui laissent passer tous les bruits. Les basses sont très en retrait et ils conviennent mal aux environnements bruyants.",
+    ["Confort et légèreté", "Conception ouverte unique", "Bonne autonomie"],
+    ["Basses très en retrait", "Peu adaptés aux lieux bruyants", "Design qui ne plaît pas à tous"],
+    ("IPX4", "Anneau ouvert"), "Sony LinkBuds Open",
+    "B0DBLMGP2F", "Sony LinkBuds Open - Ecouteurs Ouverts Bluetooth sans Fil - Son Transparent", 99.99,
+    "Vous voulez des écouteurs ouverts très légers à moins de 100 €.",
+    "Vous aimez les basses ou écoutez en milieu bruyant.")
+
+add("sony-linkbuds-clip", AOPN, "Sony LinkBuds Clip", "Clip-on · IPX4 · 37 h", "Autonomie",
+    "Un clip léger à grande autonomie avec égaliseur dans l'application. Le volume maximal est limité, les basses manquent de profondeur et la charnière du boîtier est jugée fragile.",
+    ["Grand confort de port", "Longue durée de vie de la batterie", "Égaliseur à 10 bandes"],
+    ["Volume maximal limité", "Basses peu profondes", "Charnière du boîtier instable"],
+    ("IPX4", "37 h"), "Sony LinkBuds Clip",
+    "B0GBY5L7JH", "Sony LinkBuds Clip Écouteurs sans Fil Oreilles Libres", 129.43,
+    "Vous voulez un clip léger avec beaucoup d'autonomie.",
+    "Vous écoutez fort ou cherchez des basses puissantes.")
+
+add("nothing-ear-open", AOPN, "Nothing Ear (Open)", "Crochet · IP54 · 30 h", "Le moins cher",
+    "Un crochet à oreilles libres au design transparent, au bon son et très confortable. La qualité baisse à fort volume et il n'y a ni codec HD, ni détection de port, ni charge sans fil.",
+    ["Bon son", "Très grand confort", "Bonne autonomie"],
+    ["Qualité sonore dégradée à fort volume", "Pas de détection de port", "Pas de recharge sans fil"],
+    ("IP54", "Design"), "Nothing Ear Open",
+    "B0DBJ2CRV4", "Nothing Ear (Open) Ecouteurs Bluetooth avec Technologie Open Sound, Deux micros + AI Clear Voice", 98.99,
+    "Vous voulez un son agréable à oreilles libres pour environ 100 €.",
+    "Vous écoutez très fort ou voulez la charge sans fil.")
+
+add("soundcore-aerofit-2-pro", AOPN, "Soundcore AeroFit 2 Pro", "Crochet · IP55 · LDAC", "Le plus complet",
+    "Un crochet réglable sur cinq niveaux avec LDAC, multipoint et réduction de bruit active. Le boîtier est grand, les finitions améliorables et la réduction de bruit sans effet marqué.",
+    ["Bon son (LDAC)", "Multipoint", "Crochet réglable"],
+    ["Boîtier un peu grand", "Finitions améliorables", "ANC peu convaincante"],
+    ("IP55", "LDAC"), "Anker Soundcore AeroFit 2 Pro",
+    "B0FMJP7T3M", "soundcore par Anker AeroFit 2 Pro Écouteurs Ouvert", 168.99,
+    "Vous voulez un crochet complet avec LDAC et multipoint.",
+    "Vous cherchez un boîtier compact ou une vraie réduction de bruit.", seller="AnkerDirect FR (expédié par Amazon)")
+
+add("soundcore-aerofit-2", AOPN, "Soundcore AeroFit 2", "Crochet · IP55 · 42 h", "Petit prix",
+    "Un crochet à moins de 100 € avec LDAC, une excellente autonomie et un très bon confort. Les basses sont faibles et il n'a pas d'arrêt manuel.",
+    ["Très bon confort", "Clarté grâce au LDAC", "Excellente autonomie"],
+    ["Boîtier assez grand", "Basses faibles", "Pas de mise en marche manuelle"],
+    ("IP55", "42 h"), "Anker Soundcore AeroFit 2",
+    "B0DFCHZ699", "soundcore par Anker AeroFit 2 Écouteurs ouvert", 95.99,
+    "Vous voulez de l'autonomie et du LDAC pour moins de 100 €.",
+    "Vous voulez des basses marquées.", seller="AnkerDirect FR (expédié par Amazon)")
 
 
 def build():
