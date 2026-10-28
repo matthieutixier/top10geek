@@ -846,5 +846,77 @@
  "lg-qned85-65": {
   "constructeur": "LG",
   "source": "site constructeur"
+ },
+ "samsung-qn90f-50": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "sony-bravia-3-55": {
+  "constructeur": "Sony",
+  "source": "site constructeur"
+ },
+ "samsung-qn80f-55": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "hisense-e7q-pro-55": {
+  "constructeur": "Hisense",
+  "source": "site constructeur"
+ },
+ "samsung-s90f-42": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "sony-bravia-3-43": {
+  "constructeur": "Sony",
+  "source": "site constructeur"
+ },
+ "samsung-qn80f-50": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "samsung-s90f-65": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "samsung-qn80f-65": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "hisense-e7q-pro-65": {
+  "constructeur": "Hisense",
+  "source": "site constructeur"
+ },
+ "sony-bravia-3-65": {
+  "constructeur": "Sony",
+  "source": "site constructeur"
+ },
+ "tcl-p7k-65": {
+  "constructeur": "TCL",
+  "source": "site constructeur"
+ },
+ "samsung-u8000f-55": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "sonos-beam-ultra": {
+  "constructeur": "Sonos",
+  "source": "site constructeur"
+ },
+ "sony-bravia-theatre-bar-7": {
+  "constructeur": "Sony",
+  "source": "site constructeur"
+ },
+ "jbl-bar-300-mk2": {
+  "constructeur": "JBL",
+  "source": "site constructeur"
+ },
+ "tcl-q65h": {
+  "constructeur": "TCL",
+  "source": "site constructeur"
+ },
+ "hisense-hs2100": {
+  "constructeur": "Hisense",
+  "source": "site constructeur"
  }
 }
