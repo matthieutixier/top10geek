@@ -814,5 +814,37 @@
  "dreame-l10s-pro-gen-3": {
   "constructeur": "Dreame (visuel fourni par Matthieu Tixier)",
   "source": "fourni par Matthieu Tixier"
+ },
+ "hisense-u7q-pro-65": {
+  "constructeur": "Electro Dépôt",
+  "source": "flux Electro Dépôt"
+ },
+ "lg-s90tr": {
+  "constructeur": "Electro Dépôt",
+  "source": "flux Electro Dépôt"
+ },
+ "hisense-u7q-55": {
+  "constructeur": "Hisense",
+  "source": "site constructeur"
+ },
+ "samsung-hw-qs700f": {
+  "constructeur": "Samsung",
+  "source": "site constructeur"
+ },
+ "lg-oled-g5": {
+  "constructeur": "LG",
+  "source": "site constructeur"
+ },
+ "lg-oled-c5-48": {
+  "constructeur": "LG",
+  "source": "site constructeur"
+ },
+ "lg-qned85-55": {
+  "constructeur": "LG",
+  "source": "site constructeur"
+ },
+ "lg-qned85-65": {
+  "constructeur": "LG",
+  "source": "site constructeur"
  }
 }
