@@ -1597,7 +1597,7 @@ home = f"""
   </section>
 
   <section class="section">
-    <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">{["", "Une", "Deux", "Trois", "Quatre", "Cinq", "Six", "Sept"][len(FAMILIES)]} familles, {len(CAT)} usages</div></div>
+    <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">{["", "Une", "Deux", "Trois", "Quatre", "Cinq", "Six", "Sept", "Huit"][len(FAMILIES)]} familles, {len(CAT)} usages</div></div>
     <p class="bf-home"><a class="see-all" href="black-friday/">Black Friday 2026 : les PC qui valent vraiment le coup, et leur prix repère →</a></p>
     <h3 class="univers-head">Informatique</h3>
     <div class="fam-grid">

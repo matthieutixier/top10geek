@@ -1,0 +1,735 @@
+{
+ "Reolink Argus 4 Pro": {
+  "source": "https://www.commentchoisir.fr/test-Reolink_Argus+4+Pro.htm",
+  "tests": [
+   {
+    "media": "Mighty Gadget",
+    "note10": 9.5,
+    "origine": "bloc",
+    "date": "10/06/2024",
+    "url": "https://mightygadget.co.uk/reolink-argus-4-pro-review/"
+   },
+   {
+    "media": "TechTest",
+    "note10": 9.2,
+    "origine": "bloc",
+    "date": "10/06/2024",
+    "url": "https://techtest.org/die-reolink-argus-4-pro-im-test-eine-herausragende-akku-ueberwachungskamera/"
+   },
+   {
+    "media": "Connect.de",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "16/07/2024",
+    "url": "https://www.connect.de/testbericht/reolink-argus-4-pro-test-3206248.html"
+   },
+   {
+    "media": "MYC Media",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "31/07/2024",
+    "url": "https://myc-media.de/reolink-argus-4-pro-wifi-4k-kamera-mit-180-blickwinkel-im-test/"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 8.9,
+    "origine": "bloc",
+    "date": "18/06/2024",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/reolink-argus-4-pro/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "10/09/2025",
+    "url": "https://www.chip.de/test/Reolink-Argus-4-Pro-im-Test_186227031.html"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "22/02/2026",
+    "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2876401_test-reolink-argus-4-pro-cette-camera-sans-fil-180-est-compacte-discrete-et-efficace"
+   },
+   {
+    "media": "NetCost",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/03/2026",
+    "url": "https://www.netcost-security.fr/test-produit/270639/test-reolink-argus-4-pro/"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "27/06/2024",
+    "url": "https://www.nextpit.fr/reolink-argus-4-pro-test-complet"
+   },
+   {
+    "media": "Digital Camera World",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "27/08/2024",
+    "url": "https://www.digitalcameraworld.com/reviews/reolink-argus-4-pro-review"
+   },
+   {
+    "media": "Generation-NT",
+    "note10": null,
+    "origine": "",
+    "date": "17/06/2024",
+    "url": "https://www.generation-nt.com/tests/test-camera-surveillance-reolink-argus-pro-2047743"
+   },
+   {
+    "media": "ObjetConnecte.net",
+    "note10": null,
+    "origine": "",
+    "date": "18/11/2024",
+    "url": "https://technplay.com/test-reolink-argus-4-pro/"
+   },
+   {
+    "media": "NotebookCheck",
+    "note10": null,
+    "origine": "",
+    "date": "12/01/2025",
+    "url": "https://www.notebookcheck.com/Reolink-Argus-4-Pro-4K-UEberwachungskamera-im-Langzeittest.946127.0.html"
+   }
+  ],
+  "pros": [
+   "Conception à double objectif offrant une résolution de 5120×1440 avec un champ de vision de 180°",
+   "Vidéo nocturne en couleur réelle grâce au capteur ColorX",
+   "Haute résolution, grand angle de vue. Wi-Fi 6 bibande (2,4 et 5 GHz)",
+   "grande batterie, autonomie de plusieurs semaines",
+   "beaucoup de notifications et",
+   "Options de stockage",
+   "Bonne qualité de fabrication",
+   "Très grand angle de vue",
+   "Contrôle via une application et un logiciel PC",
+   "Résolution 4K",
+   "Différentes options d'enregistrement",
+   "Alimentation externe via adaptateur USB ou panneau solaire"
+  ],
+  "cons": [
+   "La durée de vie de la batterie n'est pas géniale avec un panneau solaire.",
+   "Inscription obligatoire auprès du fabricant",
+   "Enregistrement avec seulement 15 images par seconde",
+   "Pas de géo-clôture",
+   "Le volume des sirènes n'est pas réglable individuellement.",
+   "Paramètres parfois difficiles à trouver",
+   "Application qui demande à s'investir",
+   "Autonomie",
+   "Identification des cibles en retrait de nuit",
+   "Qualité des image de nuit moyenne",
+   "Batterie inamovible, autonomie courte sans panneau solaire",
+   "Format panoramique peu adapté au smartphone"
+  ]
+ },
+ "Reolink Duo 3": {
+  "source": "https://www.commentchoisir.fr/test-Reolink_Duo+3.htm",
+  "tests": [
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "14/03/2024",
+    "url": "https://www.lesnumeriques.com/camera-surveillance/reolink-duo-3-p74526/test.html"
+   },
+   {
+    "media": "TechTest",
+    "note10": 9.2,
+    "origine": "bloc",
+    "date": "14/01/2025",
+    "url": "https://techtest.org/reolink-duo-3-wifi-im-test-die-ueberwachungskamera-mit-180-grad-sichtfeld-und-2x-4k-aufloesung/"
+   },
+   {
+    "media": "Mighty Gadget",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "06/02/2024",
+    "url": "https://mightygadget.com/reolink-duo-3-poe-camera-review/"
+   },
+   {
+    "media": "PC Magazin",
+    "note10": 8.5,
+    "origine": "bloc",
+    "date": "04/03/2024",
+    "url": "https://www.connect-living.de/testbericht/reolink-duo-3-poe-ip-kamera-test-review-3206867.html"
+   },
+   {
+    "media": "MBReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "16/02/2024",
+    "url": "https://www.mbreviews.com/reolink-duo-3-camera-review/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "07/12/2025",
+    "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2871505_test-de-la-reolink-duo-3-wifi-la-surveillance-connectee-en-panoramique-et-en-8k"
+   },
+   {
+    "media": "NerdTechy",
+    "note10": null,
+    "origine": "",
+    "date": "02/02/2024",
+    "url": "https://nerdtechy.com/reolink-duo-3-poe-unboxing-feature-review"
+   },
+   {
+    "media": "PCWorld.com",
+    "note10": null,
+    "origine": "",
+    "date": "07/01/2025",
+    "url": "https://www.pcworld.com/article/2564497/reolink-duo-3-wifi-review.html"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "03/02/2025",
+    "url": "https://www.connect.de/testbericht/reolink-duo-3-wifi-test-ueberwachungskamera-review-3208256.html"
+   },
+   {
+    "media": "ObjetConnecte.net",
+    "note10": null,
+    "origine": "",
+    "date": "19/02/2025",
+    "url": "https://technplay.com/test-reolink-duo-3-wifi-camera-securite-maison/"
+   }
+  ],
+  "pros": [
+   "Champ de vision de 180°.",
+   "Belle qualité d'image de jour et avec les projecteurs de nuit.",
+   "Détection très efficace.",
+   "Power over Ethernet.",
+   "Slot microSD.",
+   "Pas d'options payantes.",
+   "Micro performant et haut-parleur puissant.",
+   "Amélioration significative des détails par rapport aux générations précédentes.",
+   "robuste et adapté à une utilisation en extérieur (IP67)",
+   "Bonne qualité d'image, champ de vision large",
+   "Reconnaissance d'objets IA, fonctionne bien",
+   "également notification par e-mail, également FTP"
+  ],
+  "cons": [
+   "Pas d'alimentation fournie.",
+   "Vision infrarouge un peu décevante.",
+   "Pas de stockage cloud.",
+   "Pas de reconnaissance faciale.",
+   "Support mural pas très pratique.",
+   "Pas de version wifi.",
+   "Nécessite des projecteurs pour des images nocturnes en couleur.",
+   "Accessoires pour l'alimentation électrique non inclus",
+   "La détection des animaux nécessite un peu plus de travail.",
+   "Vision nocturne en couleur non infrarouge manquante",
+   "Pas de batterrie",
+   "Aucun stockage Cloud"
+  ]
+ },
+ "Reolink Argus Eco Ultra": {
+  "source": "https://www.commentchoisir.fr/test-Reolink_Argus+Eco+Ultra.htm",
+  "tests": [
+   {
+    "media": "TechTest",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "27/08/2024",
+    "url": "https://techtest.org/reolink-argus-eco-ultra-test-4k-ueberwachungskamera-ohne-abo-zwang-und-mit-langer-akkulaufzeit/"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "16/08/2024",
+    "url": "https://lecafedugeek.fr/test-reolink-argus-eco-ultra-solaire-et-performance/"
+   }
+  ],
+  "pros": [
+   "Des finitions exemplaires",
+   "Un tarif abordable"
+  ],
+  "cons": [
+   "Une caméra plutôt imposante"
+  ]
+ },
+ "Reolink E1 Zoom": {
+  "source": "https://www.commentchoisir.fr/test-Reolink_E1+Zoom.htm",
+  "tests": [
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "09/09/2025",
+    "url": "https://www.chip.de/test/Reolink-E1-Zoom-im-Ueberwachungskamera-Test_186226550.html"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "28/07/2026",
+    "url": "https://www.absolutegeeks.com/tech-news/reolink-e1-zoom-review/"
+   },
+   {
+    "media": "Absolute Geeks",
+    "note10": 8.0,
+    "origine": "inline",
+    "date": "28/07/2026",
+    "url": "https://www.absolutegeeks.com/reviews/reolink-e1-zoom-review/"
+   },
+   {
+    "media": "PCWorld.com",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "13/04/2020",
+    "url": "https://www.techhive.com/article/3534520/reolink-e1-zoom-review.html#tk.rss_reviews"
+   },
+   {
+    "media": "ObjetConnecte.net",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "14/08/2020",
+    "url": "https://www.objetconnecte.net/test-reolink-e1-zoom/"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": 5.0,
+    "origine": "bloc",
+    "date": "11/09/2020",
+    "url": "https://www.digitaltrends.com/home-security-reviews/reolink-e1-zoom-review/"
+   },
+   {
+    "media": "Vonguru",
+    "note10": null,
+    "origine": "",
+    "date": "25/06/2025",
+    "url": "https://vonguru.fr/2025/06/26/test-camera-reolink-e1-zoom/"
+   }
+  ],
+  "pros": [
+   "Grande qualité d'image avec zoom 3x",
+   "Mouvement de pivotement et d'inclinaison moteur, suivi d'objet",
+   "Pas de coûts supplémentaires pour les fonctionnalités d'IA",
+   "Options de réglage étendues",
+   "Pas de compte en ligne nécessaire",
+   "Pan-and-tilt offre une couverture complète de la chambre",
+   "Détection de mouvement personnalisable",
+   "Excellente qualité vidéo et audio",
+   "Zoom 3x",
+   "Fonctions vocales",
+   "Images de qualité",
+   "Zoom fournit plus de détails"
+  ],
+  "cons": [
+   "Pas de géo-clôture",
+   "Mouvement manuel de rotation/inclinaison de la caméra imprécis",
+   "Paramètres parfois difficiles à trouver",
+   "Pas de détection audio",
+   "L?entrée de la zone de mouvement peut être difficile",
+   "App peut être buggy",
+   "Erreurs constatées durant l?installation de la caméra",
+   "Ressemble beaucoup à la série Pro",
+   "Zoom lent et mise au point",
+   "Can't suit automatiquement",
+   "Microphone interne faible"
+  ]
+ },
+ "TP-Link Tapo C660": {
+  "source": "https://www.commentchoisir.fr/test-TP-Link_Tapo+C660.htm",
+  "tests": [
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "26/07/2025",
+    "url": "https://www.lesnumeriques.com/camera-surveillance/tp-link-tapo-c660-kit-p76876/test.html"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "10/06/2026",
+    "url": "https://lecafedugeek.fr/test-tapo-c660-kit-la-camera-solaire-qui-ne-lache-jamais/"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 8.9,
+    "origine": "bloc",
+    "date": "06/10/2025",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/tp-link-tapo-c660-kit/"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "23/08/2025",
+    "url": "https://www.clubic.com/test-produit-568629-tp-link-tapo-c660-kit.html"
+   },
+   {
+    "media": "T3",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/09/2025",
+    "url": "https://www.t3.com/home-living/smart-home/tp-link-tapo-c660-security-camera"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "01/05/2026",
+    "url": "https://www.trustedreviews.com/reviews/tp-link-tapo-c660-kit"
+   },
+   {
+    "media": "tuttoteK",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "27/05/2026",
+    "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-tp-link-tapo-c660-kit"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "31/10/2025",
+    "url": "https://www.connect.de/testbericht/tp-link-tapo-c660-kit-test-ueberwachungskamera-review-3211065.html"
+   },
+   {
+    "media": "TechTest",
+    "note10": null,
+    "origine": "",
+    "date": "11/03/2026",
+    "url": "https://techtest.org/tp-link-tapo-c660-kit-im-test-solar-ueberwachungskamera-mit-4k-und-ki-tracking/"
+   }
+  ],
+  "pros": [
+   "Installation sans fil.",
+   "Panneau solaire fourni.",
+   "Deux supports pour installer caméra et panneau ensemble ou séparément.",
+   "App claire et complète.",
+   "Détection et suivi de mouvement efficaces.",
+   "Filtre les personnes, les véhicules et les animaux.",
+   "Stockage sur carte microSD ou dans le cloud (payant).",
+   "? Application Tapo extrêmement complète",
+   "? Panneau solaire inclus et réellement efficace",
+   "? Suivi IA 360° très performant",
+   "Facilité de la mise en route",
+   "Qualité de la captation et de la détection de jour comme de nuit"
+  ],
+  "cons": [
+   "Projecteur pas très puissant.",
+   "Notifications enrichies payantes.",
+   "Sirène faiblarde.",
+   "Tarif supérieur à certaines caméras Tapo",
+   "Haut-parleur un peu faiblard",
+   "Dimensions du tout",
+   "Sensibilité détection IR selon environnement",
+   "Guide de démarrage rapide en anglais",
+   "Cloud payant et pas donné",
+   "Aucune carte microSD incluse",
+   "Le solaire peut dépendre de l'emplacement",
+   "Assez volumineux"
+  ]
+ },
+ "TP-Link Tapo C425": {
+  "source": "https://www.commentchoisir.fr/test-TP-Link_Tapo+C425.htm",
+  "tests": [
+   {
+    "media": "Basic Tutorials",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "11/04/2024",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/tp-link-tapo-c425/"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "28/04/2026",
+    "url": "https://lecafedugeek.fr/test-tp-link-tapo-c425-la-camera-exterieure-autonome-sans-faille/"
+   },
+   {
+    "media": "Digital Camera World",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/01/2024",
+    "url": "https://www.digitalcameraworld.com/reviews/tp-link-tapo-c425-smart-wire-free-security-camera-review"
+   },
+   {
+    "media": "ImTest",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "27/01/2024",
+    "url": "https://www.imtest.de/476560/einzeltests/tapo-c425-test-tp-links-flexible-wlan-kamera"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/09/2025",
+    "url": "https://www.chip.de/test/TP-Link-Tapo-C425_186227785.html"
+   }
+  ],
+  "pros": [
+   "Montage flexible",
+   "indépendant de la prise électrique",
+   "bonne IA de reconnaissance.",
+   "Vision nocturne en couleur grâce à l'éclairage",
+   "Haute résolution (2560 x 1440)",
+   "Grand champ de vision",
+   "Montage facile",
+   "Stockage local sur carte Micro-SD"
+  ],
+  "cons": [
+   "Aucune protection mécanique contre le vandalisme ou le démontage.",
+   "Connecteur Micro-USB obsolète",
+   "Chargement lent",
+   "Ne détecte pas de manière fiable les mouvements rapides dans l'obscurité."
+  ]
+ },
+ "TP-Link Tapo C520WS": {
+  "source": "https://www.commentchoisir.fr/test-TP-Link_Tapo+C520WS.htm",
+  "tests": [
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "23/04/2026",
+    "url": "https://lecafedugeek.fr/test-tp-link-tapo-c520ws-la-camera-exterieure-qui-rassure-vraiment/"
+   }
+  ],
+  "pros": [],
+  "cons": []
+ },
+ "Eufy EufyCam S4": {
+  "source": "https://www.commentchoisir.fr/test-Eufy_eufyCam+S4.htm",
+  "tests": [
+   {
+    "media": "L&B Tech",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "02/02/2026",
+    "url": "https://www.lbtechreviews.com/test/smart-home/eufycam-s4-2-cam-kit"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 9.3,
+    "origine": "bloc",
+    "date": "15/07/2026",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/eufy-eufycam-s4/"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "17/10/2025",
+    "url": "https://www.expertreviews.co.uk/technology/home-security/eufycam-s4-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "04/11/2025",
+    "url": "https://www.trustedreviews.com/reviews/eufy-eufycam-s4"
+   },
+   {
+    "media": "T3",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "04/12/2025",
+    "url": "https://www.t3.com/home-living/smart-home/eufycam-s4"
+   },
+   {
+    "media": "Vonguru",
+    "note10": null,
+    "origine": "",
+    "date": "04/12/2025",
+    "url": "https://vonguru.fr/2025/12/05/test-camera-de-surveillance-s4-de-eufy/"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "23/01/2026",
+    "url": "https://www.connect.de/testbericht/eufy-eufycam-s4-ueberwachungskamera-test-3211101.html"
+   }
+  ],
+  "pros": [
+   "Système de lentilles triple avec grand angle 4K et PTZ motorisé",
+   "Autosuffisant en énergie grâce à un panneau solaire de 5,5 watts à partir d'une heure de soleil",
+   "Batterie amovible de 10 000 mAh pour une durée de vie plus longue",
+   "Certifié IP65 contre la pluie, la neige et la poussière",
+   "Suivi basé sur l'IA avec reconnaissance faciale via HomeBase S380",
+   "Les zones de protection des données restent fiablement masquées même en cas de mouvement PTZ.",
+   "Excellent suivi",
+   "Vidéo de haute qualité",
+   "Pas de frais en cours",
+   "Excellente qualité vidéo",
+   "Vision nocturne impressionnante",
+   "Recharge solaire"
+  ],
+  "cons": [
+   "Prix élevé pour le système complet",
+   "HomeBase S380 est absolument nécessaire pour les fonctionnalités d'IA.",
+   "Cher",
+   "Les images enregistrées ne sont pas en 4K",
+   "Les spécifications haut de gamme entraînent un prix haut de gamme",
+   "Encombrant",
+   "Nécessite le hub S340 pour une fonctionnalité complète",
+   "L'application réagit parfois de manière lente.",
+   "prix élevé"
+  ]
+ },
+ "Eufy SoloCam S340": {
+  "source": "https://www.commentchoisir.fr/test-Eufy_SoloCam+S340.htm",
+  "tests": [
+   {
+    "media": "ExpertReviews",
+    "note10": 10.0,
+    "origine": "bloc",
+    "date": "24/04/2024",
+    "url": "https://www.expertreviews.co.uk/security-cameras/eufy-solocam-s340-review"
+   },
+   {
+    "media": "Basic Tutorials",
+    "note10": 9.2,
+    "origine": "bloc",
+    "date": "06/03/2024",
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/eufy-solocam-s340/"
+   },
+   {
+    "media": "LeCafeDuGeek",
+    "note10": 9.0,
+    "origine": "bloc",
+    "date": "09/05/2024",
+    "url": "https://lecafedugeek.fr/test-eufy-solocam-s340-la-surveillance-exterieure-sans-fil/"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "11/09/2025",
+    "url": "https://www.chip.de/test/Gute-Bedienung-viele-Details-und-Solarpanel-Eufy-Solocam-S340-im-Test_186227123.html"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "origine": "",
+    "date": "19/03/2024",
+    "url": "https://www.trustedreviews.com/reviews/eufy-solocam-s340"
+   },
+   {
+    "media": "Vonguru",
+    "note10": null,
+    "origine": "",
+    "date": "20/07/2025",
+    "url": "https://vonguru.fr/2025/07/21/test-camera-exterieure-eufy-solocam-s340/"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "15/10/2025",
+    "url": "https://www.connect.de/testbericht/eufy-security-solocam-s340-test-3210897.html"
+   }
+  ],
+  "pros": [
+   "Design compact et moderne",
+   "Performances vidéo et vision nocturne avancée",
+   "Application intuitive avec fonctionnalités avancées",
+   "Deux caméras : grand angle 3K et téléobjectif 2K",
+   "Installation sans fil grâce à la batterie et au panneau solaire",
+   "Fonctions de pivotement et d'inclinaison motorisées",
+   "Pas de coûts supplémentaires pour les fonctionnalités d'IA",
+   "Qualité d'image et de son convaincante",
+   "Objectif grand angle 3K et caméra téléobjectif 2K",
+   "Pas de coûts supplémentaires cachés"
+  ],
+  "cons": [
+   "Nécessite une connexion Wi-Fi stable pour un fonctionnement optimal",
+   "Aucun stockage sur NAS ou dans le cloud n'est possible.",
+   "Pas de mode privé",
+   "L'application pourrait être plus conviviale."
+  ]
+ },
+ "Blink Outdoor 4": {
+  "source": "https://www.commentchoisir.fr/test-Blink_Outdoor+4.htm",
+  "tests": [
+   {
+    "media": "Tom's Guide (US)",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "24/08/2023",
+    "url": "https://www.tomsguide.com/reviews/blink-outdoor-4"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "12/12/2024",
+    "url": "https://www.techradar.com/home/home-security/blink-outdoor-4-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "origine": "bloc",
+    "date": "15/09/2025",
+    "url": "https://www.trustedreviews.com/reviews/blink-outdoor-4"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 7.0,
+    "origine": "bloc",
+    "date": "16/11/2025",
+    "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2828421_test-blink-outdoor-4-une-camera-facile-dutilisation-et-endurante"
+   },
+   {
+    "media": "Android Central",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "05/12/2023",
+    "url": "https://www.androidcentral.com/accessories/smart-home/blink-outdoor-4-floodlight-camera-review"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 6.0,
+    "origine": "bloc",
+    "date": "11/09/2025",
+    "url": "https://www.chip.de/test/Klein-wie-eine-Actioncam-mit-Batterien-Blink-Outdoor-4-im-Test_186228844.html"
+   },
+   {
+    "media": "Connect.de",
+    "note10": null,
+    "origine": "",
+    "date": "15/06/2025",
+    "url": "https://www.connect.de/testbericht/amazon-klink-outdoor-4-test-aussenkamera-akku-usb-3209679.html"
+   }
+  ],
+  "pros": [
+   "Bon marché",
+   "Longue durée de vie de la batterie",
+   "Petit et facile à installer",
+   "Aucun câble requis",
+   "Durée de vie de la batterie de deux ans",
+   "Interface utilisateur facile",
+   "Facile à installer",
+   "Autonomie très confortable",
+   "Simplicité d'installation et d'utilisation",
+   "Très bon champ de vision",
+   "Prix attractif",
+   "Excellente autonomie de la batterie"
+  ],
+  "cons": [
+   "Il manque encore la détection des animaux, des véhicules et des colis.",
+   "Impossible de mettre en place plusieurs plannings.",
+   "Fonctionne uniquement avec Alexa",
+   "De nombreuses fonctionnalités nécessitent un abonnement",
+   "Résolution et étendue des fonctionnalités peuvent être insatisfaisantes.",
+   "Personnalisation limitée",
+   "Paramètres assez basiques",
+   "Qualité d'image moyenne",
+   "Nombreuses fonctionnalités payantes",
+   "Pas d'enregistrement en local (sans achat supplémentaire)",
+   "Application mobile un peu austère",
+   "Limité à une résolution de 1080p"
+  ]
+ }
+}

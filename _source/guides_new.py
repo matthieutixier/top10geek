@@ -299,4 +299,18 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certaines enceintes sont vendues par des tiers."],
     budget=[("30 – 80 €", "Enceintes de poche, étanches et ludiques, pour le sac ou la douche."), ("110 – 200 €", "Enceintes plus puissantes ou plus abouties, avec une autonomie et un son plus aboutis.")],
 ),
+"v-surv": dict(
+    titre="Comment choisir une caméra de surveillance",
+    intro="Avant la résolution, trois questions : <b>l'emplacement (intérieur ou extérieur), l'alimentation (secteur, batterie, solaire ou PoE) et le stockage des vidéos</b>. Les fonctions d'IA et le cloud sont parfois payants : lisez les tests.",
+    criteres=[
+        ("Intérieur ou extérieur", "Une caméra extérieure doit résister à la pluie et à la poussière (indice IP65 ou plus) ; une caméra d'intérieur mise plutôt sur le pan-tilt et le zoom."),
+        ("Alimentation", "Batterie ou solaire : pose facile, mais à recharger ou à surveiller en hiver. Secteur ou PoE : fiable, mais il faut tirer un câble."),
+        ("Stockage et abonnement", "Carte microSD, NAS ou cloud : vérifiez ce qui est possible sans abonnement. Certaines notifications enrichies (personnes, véhicules, colis) sont payantes chez certaines marques."),
+        ("Image et vision nocturne", "La définition (2K, 4K) compte moins que la qualité de la vision de nuit et la détection : les tests relèvent des écarts entre ce qui est annoncé et ce qui est enregistré."),
+    ],
+    pieges=["Oublier que certaines caméras exigent une station ou un module vendu à part (HomeBase, Sync Module).",
+            "Se fier à l'autonomie annoncée : elle dépend du nombre de détections et, avec un panneau solaire, de l'ensoleillement.",
+            "Filmer l'espace public ou celui des voisins : la loi encadre le champ de vision d'une caméra extérieure."],
+    budget=[("40 – 100 €", "Caméras d'intérieur et petits modèles extérieurs filaires ou à batterie."), ("120 – 300 €", "Caméras extérieures solaires, grand angle ou multi-objectifs, avec une meilleure image de nuit.")],
+),
 }

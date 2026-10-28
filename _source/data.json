@@ -27625,6 +27625,978 @@
    "img": "jbl-go-essential-2.webp",
    "rating": null,
    "nrev": 0
+  },
+  "eufy-solocam-s340": {
+   "cat": "v-surv",
+   "short": "eufy SoloCam S340",
+   "ref": "3K · double objectif · solaire · PTZ",
+   "badge": "Le choix de la bande",
+   "verdict": "Une caméra extérieure autonome à deux objectifs et panneau solaire, très bien notée (9,1/10) et sans abonnement obligatoire. Pas de stockage sur NAS ni dans le cloud, et un Wi-Fi stable est nécessaire.",
+   "strengths": [
+    "Deux caméras : grand angle 3K et téléobjectif 2K",
+    "Installation sans fil, batterie et panneau solaire",
+    "Pivotement et inclinaison motorisés"
+   ],
+   "weak": [
+    "Wi-Fi stable nécessaire",
+    "Aucun stockage sur NAS ni dans le cloud",
+    "Pas de mode privé"
+   ],
+   "m": [
+    "3K",
+    "Solaire, PTZ"
+   ],
+   "id": "eufy-solocam-s340",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 127.65,
+     "url": "https://www.amazon.fr/dp/B0CF8R2P24?tag=geekconcept-21",
+     "name": "eufy SoloCamS340 3K Caméra surveillance wifi extérieur sans fil",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0CF8R2P24"
+    }
+   ],
+   "press": {
+    "avg": 9.05,
+    "n": 4,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "ExpertReviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/security-cameras/eufy-solocam-s340-review",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.2,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/eufy-solocam-s340/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-eufy-solocam-s340-la-surveillance-exterieure-sans-fil/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Gute-Bedienung-viele-Details-und-Solarpanel-Eufy-Solocam-S340-im-Test_186227123.html",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/eufy-security-solocam-s340-test-3210897.html",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": null,
+      "url": "https://www.trustedreviews.com/reviews/eufy-solocam-s340",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/07/21/test-camera-exterieure-eufy-solocam-s340/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 127.65,
+   "img": "eufy-solocam-s340.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias ont noté la eufy SoloCam S340, pour une moyenne de 9,1/10 : ExpertReviews la place à 10/10, Basic Tutorials à 9,2/10, Le Café du Geek à 9/10 et Chip.de à 8/10. Trusted Reviews, Connect.de et Vonguru l'ont aussi testée, sans note chiffrée publique.\n\nLes tests retiennent ses deux caméras (grand angle 3K et téléobjectif 2K), une installation sans fil grâce à la batterie et au panneau solaire, et des fonctions de pivotement et d'inclinaison motorisées. Les réserves portent sur le besoin d'un Wi-Fi stable, l'absence de stockage sur NAS ou dans le cloud et l'absence de mode privé.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 7,
+    "sources": [
+     "ExpertReviews",
+     "Basic Tutorials",
+     "LeCafeDuGeek",
+     "Chip.de"
+    ]
+   }
+  },
+  "reolink-duo-3-poe": {
+   "cat": "v-surv",
+   "short": "Reolink Duo 3 PoE",
+   "ref": "16 MP · 180° · PoE",
+   "badge": "Panorama 180°",
+   "verdict": "La meilleure note de la sélection (8,8/10) : deux objectifs pour un panorama de 180° et une détection efficace, sans abonnement. Filaire (PoE) : l'alimentation n'est pas fournie et il n'existe pas de stockage cloud.",
+   "strengths": [
+    "Champ de vision de 180°",
+    "Belle qualité d'image de jour et avec les projecteurs de nuit",
+    "Détection très efficace, sans option payante"
+   ],
+   "weak": [
+    "Alimentation PoE non fournie",
+    "Vision infrarouge un peu décevante",
+    "Pas de stockage cloud"
+   ],
+   "m": [
+    "16 MP",
+    "PoE, 180°"
+   ],
+   "id": "reolink-duo-3-poe",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 199.99,
+     "url": "https://www.amazon.fr/dp/B0CM34VG3X?tag=geekconcept-21",
+     "name": "Reolink 16MP Camera PoE avec Double Objectif Vue Panor à 180°, Duo 3 PoE",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0CM34VG3X"
+    }
+   ],
+   "press": {
+    "avg": 8.783333333333333,
+    "n": 6,
+    "tests": 10,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/camera-surveillance/reolink-duo-3-p74526/test.html",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 9.2,
+      "url": "https://techtest.org/reolink-duo-3-wifi-im-test-die-ueberwachungskamera-mit-180-grad-sichtfeld-und-2x-4k-aufloesung/",
+      "date": ""
+     },
+     {
+      "src": "Mighty Gadget",
+      "score": 9.0,
+      "url": "https://mightygadget.com/reolink-duo-3-poe-camera-review/",
+      "date": ""
+     },
+     {
+      "src": "PC Magazin",
+      "score": 8.5,
+      "url": "https://www.connect-living.de/testbericht/reolink-duo-3-poe-ip-kamera-test-review-3206867.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2871505_test-de-la-reolink-duo-3-wifi-la-surveillance-connectee-en-panoramique-et-en-8k",
+      "date": ""
+     },
+     {
+      "src": "MBReviews",
+      "score": 8.0,
+      "url": "https://www.mbreviews.com/reolink-duo-3-camera-review/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/reolink-duo-3-wifi-test-ueberwachungskamera-review-3208256.html",
+      "date": ""
+     },
+     {
+      "src": "NerdTechy",
+      "score": null,
+      "url": "https://nerdtechy.com/reolink-duo-3-poe-unboxing-feature-review",
+      "date": ""
+     },
+     {
+      "src": "ObjetConnecte.net",
+      "score": null,
+      "url": "https://technplay.com/test-reolink-duo-3-wifi-camera-securite-maison/",
+      "date": ""
+     },
+     {
+      "src": "PCWorld.com",
+      "score": null,
+      "url": "https://www.pcworld.com/article/2564497/reolink-duo-3-wifi-review.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 199.99,
+   "img": "reolink-duo-3-poe.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Six médias notent la Reolink Duo 3, moyenne 8,8/10 : Les Numériques lui attribuent 10/10, TechTest 9,2/10, Mighty Gadget 9/10, PC Magazin 8,5/10, puis FrAndroid et MBReviews 8/10. Les tests portent sur la version PoE, filaire, de la série Duo 3.\n\nLes avis apprécient le champ de vision de 180°, la qualité d'image de jour comme de nuit avec les projecteurs, une détection très efficace et l'absence d'options payantes. Ils regrettent l'alimentation PoE non fournie, une vision infrarouge un peu décevante, l'absence de stockage cloud et un support mural peu pratique.",
+    "date": "2026-10-28",
+    "n": 6,
+    "tests": 10,
+    "sources": [
+     "Les Numériques",
+     "TechTest",
+     "Mighty Gadget",
+     "PC Magazin",
+     "FrAndroid",
+     "MBReviews"
+    ]
+   }
+  },
+  "eufycam-s4": {
+   "cat": "v-surv",
+   "short": "eufyCam S4",
+   "ref": "4K · triple objectif · solaire · PTZ",
+   "badge": "Haut de gamme",
+   "verdict": "Le système le plus complet et le plus cher de la sélection (8,7/10) : trois objectifs, PTZ motorisé et panneau solaire. Les fonctions d'IA exigent la station HomeBase S380, vendue à part, et l'ensemble coûte cher.",
+   "strengths": [
+    "Triple objectif avec grand angle 4K et PTZ motorisé",
+    "Autonome grâce au panneau solaire, batterie amovible 10 000 mAh",
+    "Certifiée IP65"
+   ],
+   "weak": [
+    "Prix élevé pour le système complet",
+    "HomeBase S380 nécessaire pour les fonctions d'IA",
+    "Images enregistrées pas en 4K"
+   ],
+   "m": [
+    "4K",
+    "Triple objectif"
+   ],
+   "id": "eufycam-s4",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 299.0,
+     "url": "https://www.amazon.fr/dp/B0FH52BSZ7?tag=geekconcept-21",
+     "name": "eufy Security eufyCam S4 4K UHD Caméra Surveillance WiFi extérieur sans Fil",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FH52BSZ7"
+    }
+   ],
+   "press": {
+    "avg": 8.66,
+    "n": 5,
+    "tests": 7,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "L&B Tech",
+      "score": 10.0,
+      "url": "https://www.lbtechreviews.com/test/smart-home/eufycam-s4-2-cam-kit",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.3,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/eufy-eufycam-s4/",
+      "date": ""
+     },
+     {
+      "src": "ExpertReviews",
+      "score": 8.0,
+      "url": "https://www.expertreviews.co.uk/technology/home-security/eufycam-s4-review",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/home-living/smart-home/eufycam-s4",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/eufy-eufycam-s4",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/eufy-eufycam-s4-ueberwachungskamera-test-3211101.html",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/12/05/test-camera-de-surveillance-s4-de-eufy/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 299.0,
+   "img": "eufycam-s4.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias ont noté l'eufyCam S4, moyenne 8,7/10 : L&B Tech donne 10/10, Basic Tutorials 9,3/10, puis ExpertReviews, T3 et Trusted Reviews 8/10. Connect.de et Vonguru l'ont testée sans note chiffrée publique.\n\nLes tests citent un système à triple objectif avec grand angle 4K et PTZ motorisé, une alimentation par panneau solaire et une batterie amovible de 10 000 mAh, avec une certification IP65. Côté réserves : un prix élevé pour le système complet, la station HomeBase S380 indispensable aux fonctions d'IA et des enregistrements qui ne sont pas en 4K.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 7,
+    "sources": [
+     "L&B Tech",
+     "Basic Tutorials",
+     "ExpertReviews",
+     "T3",
+     "Trusted Reviews"
+    ]
+   }
+  },
+  "tapo-c660": {
+   "cat": "v-surv",
+   "short": "Tapo C660 Kit",
+   "ref": "4K · 360° · solaire",
+   "badge": "Solaire 360°",
+   "verdict": "Une caméra extérieure 4K à 360°, livrée avec son panneau solaire, très bien notée (8,6/10) : installation sans fil, suivi de mouvement et filtre personnes, véhicules et animaux. Projecteur et sirène un peu faibles.",
+   "strengths": [
+    "Installation sans fil, panneau solaire fourni",
+    "Détection et suivi de mouvement efficaces",
+    "Application claire et complète"
+   ],
+   "weak": [
+    "Projecteur pas très puissant",
+    "Notifications enrichies payantes",
+    "Sirène et haut-parleur faibles"
+   ],
+   "m": [
+    "4K",
+    "Solaire 360°"
+   ],
+   "id": "tapo-c660",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 144.99,
+     "url": "https://www.amazon.fr/dp/B0FDQTRVSZ?tag=geekconcept-21",
+     "name": "Tapo 4K Camera Exterieur sans fil solaire 360° Suivi IA, C660 KIT",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0FDQTRVSZ"
+    }
+   ],
+   "press": {
+    "avg": 8.557142857142857,
+    "n": 7,
+    "tests": 9,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/camera-surveillance/tp-link-tapo-c660-kit-p76876/test.html",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-tapo-c660-kit-la-camera-solaire-qui-ne-lache-jamais/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.9,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/tp-link-tapo-c660-kit/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-568629-tp-link-tapo-c660-kit.html",
+      "date": ""
+     },
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/home-living/smart-home/tp-link-tapo-c660-security-camera",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/tp-link-tapo-c660-kit",
+      "date": ""
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-tp-link-tapo-c660-kit",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/tp-link-tapo-c660-kit-test-ueberwachungskamera-review-3211065.html",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": null,
+      "url": "https://techtest.org/tp-link-tapo-c660-kit-im-test-solar-ueberwachungskamera-mit-4k-und-ki-tracking/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 144.99,
+   "img": "tapo-c660.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Sept médias notent la Tapo C660 Kit, moyenne 8,6/10 : Les Numériques lui donne 10/10, Le Café du Geek 9/10, Basic Tutorials 8,9/10, puis Clubic, T3, Trusted Reviews et tuttoteK 8/10. Connect.de et TechTest l'ont aussi testée sans note chiffrée publique.\n\nLes tests soulignent une installation sans fil avec panneau solaire fourni, deux supports permettant de poser caméra et panneau ensemble ou séparément, une application claire, ainsi qu'une détection et un suivi de mouvement efficaces, avec filtre personnes, véhicules et animaux. Ils relèvent un projecteur peu puissant, une sirène faiblarde, des notifications enrichies payantes et un tarif supérieur à certaines caméras Tapo.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 9,
+    "sources": [
+     "Les Numériques",
+     "LeCafeDuGeek",
+     "Basic Tutorials",
+     "Clubic.com",
+     "T3",
+     "Trusted Reviews",
+     "tuttoteK"
+    ]
+   }
+  },
+  "tapo-c425": {
+   "cat": "v-surv",
+   "short": "Tapo C425",
+   "ref": "2K+ · batterie 300 jours",
+   "badge": "Sans câble",
+   "verdict": "Une caméra extérieure à batterie (10 000 mAh) très simple à poser, bien notée (8,4/10) : image 2K+, vision nocturne en couleur et bonne reconnaissance. Chargement lent via micro-USB.",
+   "strengths": [
+    "Montage flexible, indépendant de la prise électrique",
+    "Haute résolution (2 560 × 1 440), grand champ",
+    "Vision nocturne en couleur"
+   ],
+   "weak": [
+    "Pas de protection contre le vandalisme",
+    "Connecteur micro-USB obsolète, charge lente",
+    "Mouvements rapides mal détectés dans l'obscurité"
+   ],
+   "m": [
+    "2K+",
+    "Batterie"
+   ],
+   "id": "tapo-c425",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 98.98,
+     "url": "https://www.amazon.fr/dp/B0CMCWXPFX?tag=geekconcept-21",
+     "name": "Tapo 2K+ Camera Exterieur sans fil Batterie 10000mAh Autonomie de 300j, C425",
+     "cfg": "",
+     "asin": "B0CMCWXPFX"
+    }
+   ],
+   "press": {
+    "avg": 8.4,
+    "n": 5,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Basic Tutorials",
+      "score": 9.0,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/tp-link-tapo-c425/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-tp-link-tapo-c425-la-camera-exterieure-autonome-sans-faille/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/TP-Link-Tapo-C425_186227785.html",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/tp-link-tapo-c425-smart-wire-free-security-camera-review",
+      "date": ""
+     },
+     {
+      "src": "ImTest",
+      "score": 8.0,
+      "url": "https://www.imtest.de/476560/einzeltests/tapo-c425-test-tp-links-flexible-wlan-kamera",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 98.98,
+   "img": "tapo-c425.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cinq médias notent la Tapo C425, moyenne 8,4/10 : Basic Tutorials et Le Café du Geek donnent 9/10, Chip.de, Digital Camera World et ImTest 8/10.\n\nLes tests apprécient un montage flexible, indépendant de la prise électrique grâce à la batterie, une bonne reconnaissance par l'IA, la vision nocturne en couleur, une résolution de 2 560 × 1 440 et un grand champ de vision. Ils reprochent l'absence de protection mécanique contre le vandalisme ou le démontage, un connecteur micro-USB obsolète à la charge lente, et une détection peu fiable des mouvements rapides dans l'obscurité.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 5,
+    "sources": [
+     "Basic Tutorials",
+     "LeCafeDuGeek",
+     "Chip.de",
+     "Digital Camera World",
+     "ImTest"
+    ]
+   }
+  },
+  "reolink-argus-4-pro": {
+   "cat": "v-surv",
+   "short": "Reolink Argus 4 Pro",
+   "ref": "4K · 180° · solaire",
+   "badge": "Grand angle solaire",
+   "verdict": "Une caméra solaire à deux objectifs (panorama 180°) et vision nocturne en couleur, notée 8,3/10 par dix médias. L'enregistrement est limité à 15 images par seconde et l'autonomie sur panneau solaire n'est pas exceptionnelle.",
+   "strengths": [
+    "Deux objectifs, 5 120 × 1 440 px, champ de 180°",
+    "Vision nocturne couleur (capteur ColorX)",
+    "Wi-Fi 6 bibande, grande batterie"
+   ],
+   "weak": [
+    "Autonomie moyenne avec panneau solaire",
+    "Enregistrement à seulement 15 images/s",
+    "Inscription obligatoire auprès du fabricant"
+   ],
+   "m": [
+    "4K",
+    "180°, solaire"
+   ],
+   "id": "reolink-argus-4-pro",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 195.51,
+     "url": "https://www.amazon.fr/dp/B0D1BNPRR6?tag=geekconcept-21",
+     "name": "Reolink 4K 180° Camera Exterieur sans Fil Solaire, ColorX, Argus 4 Pro",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0D1BNPRR6"
+    }
+   ],
+   "press": {
+    "avg": 8.26,
+    "n": 10,
+    "tests": 13,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Mighty Gadget",
+      "score": 9.5,
+      "url": "https://mightygadget.co.uk/reolink-argus-4-pro-review/",
+      "date": ""
+     },
+     {
+      "src": "TechTest",
+      "score": 9.2,
+      "url": "https://techtest.org/die-reolink-argus-4-pro-im-test-eine-herausragende-akku-ueberwachungskamera/",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": 9.0,
+      "url": "https://www.connect.de/testbericht/reolink-argus-4-pro-test-3206248.html",
+      "date": ""
+     },
+     {
+      "src": "MYC Media",
+      "score": 9.0,
+      "url": "https://myc-media.de/reolink-argus-4-pro-wifi-4k-kamera-mit-180-blickwinkel-im-test/",
+      "date": ""
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 8.9,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/reolink-argus-4-pro/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Reolink-Argus-4-Pro-im-Test_186227031.html",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2876401_test-reolink-argus-4-pro-cette-camera-sans-fil-180-est-compacte-discrete-et-efficace",
+      "date": ""
+     },
+     {
+      "src": "NetCost",
+      "score": 8.0,
+      "url": "https://www.netcost-security.fr/test-produit/270639/test-reolink-argus-4-pro/",
+      "date": ""
+     },
+     {
+      "src": "AndroidPit",
+      "score": 7.0,
+      "url": "https://www.nextpit.fr/reolink-argus-4-pro-test-complet",
+      "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 6.0,
+      "url": "https://www.digitalcameraworld.com/reviews/reolink-argus-4-pro-review",
+      "date": ""
+     },
+     {
+      "src": "Generation-NT",
+      "score": null,
+      "url": "https://www.generation-nt.com/tests/test-camera-surveillance-reolink-argus-pro-2047743",
+      "date": ""
+     },
+     {
+      "src": "NotebookCheck",
+      "score": null,
+      "url": "https://www.notebookcheck.com/Reolink-Argus-4-Pro-4K-UEberwachungskamera-im-Langzeittest.946127.0.html",
+      "date": ""
+     },
+     {
+      "src": "ObjetConnecte.net",
+      "score": null,
+      "url": "https://technplay.com/test-reolink-argus-4-pro/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 195.51,
+   "img": "reolink-argus-4-pro.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La Reolink Argus 4 Pro compte 10 notes chiffrées, moyenne 8,3/10, avec un éventail large : Mighty Gadget donne 9,5/10, TechTest 9,2/10, Connect.de et MYC Media 9/10, Basic Tutorials 8,9/10, tandis que Digital Camera World s'arrête à 6/10 et AndroidPit à 7/10.\n\nLes avis retiennent la conception à double objectif (5 120 × 1 440 pixels, champ de 180°), la vision nocturne en couleur du capteur ColorX, le Wi-Fi 6 bibande et une grande batterie. Les critiques portent sur une autonomie moyenne avec le panneau solaire, un enregistrement limité à 15 images par seconde, l'inscription obligatoire auprès du fabricant et l'absence de géo-clôture.",
+    "date": "2026-10-28",
+    "n": 10,
+    "tests": 13,
+    "sources": [
+     "Mighty Gadget",
+     "TechTest",
+     "Connect.de",
+     "MYC Media",
+     "Basic Tutorials",
+     "Digital Camera World",
+     "AndroidPit"
+    ]
+   }
+  },
+  "reolink-argus-eco-ultra": {
+   "cat": "v-surv",
+   "short": "Reolink Argus Eco Ultra",
+   "ref": "4K · solaire · sans abonnement",
+   "badge": "Petit prix solaire",
+   "verdict": "Une caméra solaire 4K abordable, aux finitions soignées, notée 8,5/10 par deux médias. Un peu imposante.",
+   "strengths": [
+    "Finitions exemplaires",
+    "Tarif abordable",
+    "Vision nocturne en couleur, sans abonnement"
+   ],
+   "weak": [
+    "Caméra plutôt imposante"
+   ],
+   "m": [
+    "4K",
+    "Solaire"
+   ],
+   "id": "reolink-argus-eco-ultra",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 119.99,
+     "url": "https://www.amazon.fr/dp/B0CFL6Z141?tag=geekconcept-21",
+     "name": "Reolink 4K Camera Exterieur Solaire, Vision Nuit Couleur, Argus Eco Ultra",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0CFL6Z141"
+    }
+   ],
+   "press": {
+    "avg": 8.5,
+    "n": 2,
+    "tests": 2,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechTest",
+      "score": 9.0,
+      "url": "https://techtest.org/reolink-argus-eco-ultra-test-4k-ueberwachungskamera-ohne-abo-zwang-und-mit-langer-akkulaufzeit/",
+      "date": ""
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.0,
+      "url": "https://lecafedugeek.fr/test-reolink-argus-eco-ultra-solaire-et-performance/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 119.99,
+   "img": "reolink-argus-eco-ultra.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Deux médias seulement ont noté la Reolink Argus Eco Ultra : TechTest lui donne 9/10 et LeCafeDuGeek 8/10, soit une moyenne de 8,5/10. Avec si peu de notes, cette moyenne reste fragile et ne doit pas être lue comme un consensus.\n\nLes tests citent des finitions exemplaires et un tarif abordable pour une caméra solaire 4K, vendue sans abonnement pour les fonctions de détection. Ils relèvent en contrepartie une caméra plutôt imposante, que l'on ne peut pas qualifier de discrète une fois posée sur une façade ou sur un mur de jardin.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 2,
+    "sources": [
+     "TechTest",
+     "LeCafeDuGeek"
+    ]
+   }
+  },
+  "reolink-e1-zoom": {
+   "cat": "v-surv",
+   "short": "Reolink E1 Zoom",
+   "ref": "4K · intérieur · zoom ×3 · pan-tilt",
+   "badge": "Intérieur 4K",
+   "verdict": "La caméra d'intérieur de la sélection : pan-tilt motorisé, zoom optique ×3 et suivi d'objet, sans compte en ligne obligatoire. Rotation manuelle imprécise et application parfois capricieuse.",
+   "strengths": [
+    "Grande qualité d'image avec zoom ×3",
+    "Pivotement et inclinaison motorisés, suivi d'objet",
+    "Pas de coûts supplémentaires pour l'IA"
+   ],
+   "weak": [
+    "Pas de géo-clôture",
+    "Rotation manuelle imprécise",
+    "Application parfois buguée"
+   ],
+   "m": [
+    "4K",
+    "Intérieur, zoom ×3"
+   ],
+   "id": "reolink-e1-zoom",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 99.99,
+     "url": "https://www.amazon.fr/dp/B0F18235L4?tag=geekconcept-21",
+     "name": "Reolink 4K 360° Caméra Surveillance WiFi Intérieure, E1 Zoom",
+     "cfg": "",
+     "asin": "B0F18235L4"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 3,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Absolute Geeks",
+      "score": 8.0,
+      "url": "https://www.absolutegeeks.com/tech-news/reolink-e1-zoom-review/",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.0,
+      "url": "https://www.chip.de/test/Reolink-E1-Zoom-im-Ueberwachungskamera-Test_186226550.html",
+      "date": ""
+     },
+     {
+      "src": "Vonguru",
+      "score": null,
+      "url": "https://vonguru.fr/2025/06/26/test-camera-reolink-e1-zoom/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 99.99,
+   "img": "reolink-e1-zoom.webp",
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "La Reolink E1 Zoom est notée 8/10 par deux médias, Chip.de et Absolute Geeks ; Vonguru l'a testée sans note chiffrée publique. La moyenne repose donc sur très peu d'avis.\n\nLes tests soulignent la qualité d'image avec le zoom optique ×3, le pivotement et l'inclinaison motorisés avec suivi d'objet, l'absence de coût supplémentaire pour les fonctions d'IA et l'absence de compte en ligne obligatoire. Ils regrettent l'absence de géo-clôture, une rotation manuelle imprécise, des réglages parfois difficiles à trouver et une application parfois buguée.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 3,
+    "sources": [
+     "Chip.de",
+     "Absolute Geeks",
+     "Vonguru"
+    ]
+   }
+  },
+  "tapo-c520ws": {
+   "cat": "v-surv",
+   "short": "Tapo C520WS",
+   "ref": "2K+ · pan-tilt 360° · filaire",
+   "badge": "Petit prix pan-tilt",
+   "verdict": "La caméra extérieure pan-tilt la moins chère de la sélection (43 €) : un seul test de presse recensé (9/10 pour Le Café du Geek), donc une note à lire avec prudence.",
+   "strengths": [
+    "Pan-tilt 360° et image 2K+",
+    "Vision nocturne couleur",
+    "Connexion Wi-Fi ou Ethernet"
+   ],
+   "weak": [
+    "Un seul test de presse recensé"
+   ],
+   "m": [
+    "2K+",
+    "Pan-tilt 360°"
+   ],
+   "id": "tapo-c520ws",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 42.99,
+     "url": "https://www.amazon.fr/dp/B0CCW8GHT8?tag=geekconcept-21",
+     "name": "Tapo 2K+ Camera Exterieur WiFi 360° Vision Nocturne Couleur Avancée, C520WS",
+     "cfg": "",
+     "asin": "B0CCW8GHT8"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 42.99,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fcamera-tapo-c520ws-ex-mo-fil-2k.html",
+     "name": "Camera Tapo C520ws 4mp 2k",
+     "cfg": "",
+     "ean": "4895252501599",
+     "edid": "10009498"
+    }
+   ],
+   "press": {
+    "avg": 9.0,
+    "n": 1,
+    "tests": 1,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-tp-link-tapo-c520ws-la-camera-exterieure-qui-rassure-vraiment/",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 42.99,
+   "img": "tapo-c520ws.webp",
+   "rating": null,
+   "nrev": 0
+  },
+  "blink-outdoor-4": {
+   "cat": "v-surv",
+   "short": "Blink Outdoor 4",
+   "ref": "HD · piles 2 ans · module Sync requis",
+   "badge": "Piles longue durée",
+   "verdict": "Une caméra extérieure bon marché, à piles (environ deux ans), simple à installer, notée 7,2/10. Elle exige un module de synchronisation Blink, n'est compatible qu'avec Alexa et plusieurs fonctions passent par un abonnement. L'offre relevée est celle de la caméra seule.",
+   "strengths": [
+    "Bon marché",
+    "Piles : environ deux ans d'autonomie",
+    "Petite et facile à installer"
+   ],
+   "weak": [
+    "Pas de détection des animaux, véhicules et colis",
+    "Fonctionne uniquement avec Alexa",
+    "Plusieurs fonctions sous abonnement"
+   ],
+   "m": [
+    "HD",
+    "Piles 2 ans"
+   ],
+   "id": "blink-outdoor-4",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 74.99,
+     "url": "https://www.amazon.fr/dp/B0B1N5RL1Q?tag=geekconcept-21",
+     "name": "Caméra Blink Outdoor 4 : caméra de surveillance connectée HD sans fil, 2 ans d'autonomie (caméra supplémentaire uniquement)",
+     "cfg": "",
+     "asin": "B0B1N5RL1Q"
+    }
+   ],
+   "press": {
+    "avg": 7.25,
+    "n": 4,
+    "tests": 5,
+    "scope": "modele",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/home/home-security/blink-outdoor-4-review",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/blink-outdoor-4",
+      "date": ""
+     },
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2828421_test-blink-outdoor-4-une-camera-facile-dutilisation-et-endurante",
+      "date": ""
+     },
+     {
+      "src": "Chip.de",
+      "score": 6.0,
+      "url": "https://www.chip.de/test/Klein-wie-eine-Actioncam-mit-Batterien-Blink-Outdoor-4-im-Test_186228844.html",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/amazon-klink-outdoor-4-test-aussenkamera-akku-usb-3209679.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 74.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Quatre médias notent la Blink Outdoor 4, moyenne 7,2/10 : TechRadar et Trusted Reviews donnent 8/10, FrAndroid 7/10 et Chip.de 6/10.\n\nLes tests apprécient son prix contenu, une autonomie annoncée de deux ans sur piles, sa petite taille et sa facilité d'installation. Ils relèvent l'absence de détection des animaux, des véhicules et des colis, la compatibilité limitée à Alexa, de nombreuses fonctions soumises à un abonnement et une résolution parfois jugée insuffisante. L'offre relevée sur le site est celle de la caméra seule : il faut y ajouter le module de synchronisation Blink pour la faire fonctionner.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 5,
+    "sources": [
+     "TechRadar",
+     "Trusted Reviews",
+     "FrAndroid",
+     "Chip.de"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

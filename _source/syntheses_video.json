@@ -1,0 +1,99 @@
+[
+ {
+  "id": "eufy-solocam-s340",
+  "texte": "Quatre médias ont noté la eufy SoloCam S340, pour une moyenne de 9,1/10 : ExpertReviews la place à 10/10, Basic Tutorials à 9,2/10, Le Café du Geek à 9/10 et Chip.de à 8/10. Trusted Reviews, Connect.de et Vonguru l'ont aussi testée, sans note chiffrée publique.\n\nLes tests retiennent ses deux caméras (grand angle 3K et téléobjectif 2K), une installation sans fil grâce à la batterie et au panneau solaire, et des fonctions de pivotement et d'inclinaison motorisées. Les réserves portent sur le besoin d'un Wi-Fi stable, l'absence de stockage sur NAS ou dans le cloud et l'absence de mode privé.",
+  "sources": [
+   "ExpertReviews",
+   "Basic Tutorials",
+   "LeCafeDuGeek",
+   "Chip.de"
+  ]
+ },
+ {
+  "id": "reolink-duo-3-poe",
+  "texte": "Six médias notent la Reolink Duo 3, moyenne 8,8/10 : Les Numériques lui attribuent 10/10, TechTest 9,2/10, Mighty Gadget 9/10, PC Magazin 8,5/10, puis FrAndroid et MBReviews 8/10. Les tests portent sur la version PoE, filaire, de la série Duo 3.\n\nLes avis apprécient le champ de vision de 180°, la qualité d'image de jour comme de nuit avec les projecteurs, une détection très efficace et l'absence d'options payantes. Ils regrettent l'alimentation PoE non fournie, une vision infrarouge un peu décevante, l'absence de stockage cloud et un support mural peu pratique.",
+  "sources": [
+   "Les Numériques",
+   "TechTest",
+   "Mighty Gadget",
+   "PC Magazin",
+   "FrAndroid",
+   "MBReviews"
+  ]
+ },
+ {
+  "id": "eufycam-s4",
+  "texte": "Cinq médias ont noté l'eufyCam S4, moyenne 8,7/10 : L&B Tech donne 10/10, Basic Tutorials 9,3/10, puis ExpertReviews, T3 et Trusted Reviews 8/10. Connect.de et Vonguru l'ont testée sans note chiffrée publique.\n\nLes tests citent un système à triple objectif avec grand angle 4K et PTZ motorisé, une alimentation par panneau solaire et une batterie amovible de 10 000 mAh, avec une certification IP65. Côté réserves : un prix élevé pour le système complet, la station HomeBase S380 indispensable aux fonctions d'IA et des enregistrements qui ne sont pas en 4K.",
+  "sources": [
+   "L&B Tech",
+   "Basic Tutorials",
+   "ExpertReviews",
+   "T3",
+   "Trusted Reviews"
+  ]
+ },
+ {
+  "id": "tapo-c660",
+  "texte": "Sept médias notent la Tapo C660 Kit, moyenne 8,6/10 : Les Numériques lui donne 10/10, Le Café du Geek 9/10, Basic Tutorials 8,9/10, puis Clubic, T3, Trusted Reviews et tuttoteK 8/10. Connect.de et TechTest l'ont aussi testée sans note chiffrée publique.\n\nLes tests soulignent une installation sans fil avec panneau solaire fourni, deux supports permettant de poser caméra et panneau ensemble ou séparément, une application claire, ainsi qu'une détection et un suivi de mouvement efficaces, avec filtre personnes, véhicules et animaux. Ils relèvent un projecteur peu puissant, une sirène faiblarde, des notifications enrichies payantes et un tarif supérieur à certaines caméras Tapo.",
+  "sources": [
+   "Les Numériques",
+   "LeCafeDuGeek",
+   "Basic Tutorials",
+   "Clubic.com",
+   "T3",
+   "Trusted Reviews",
+   "tuttoteK"
+  ]
+ },
+ {
+  "id": "tapo-c425",
+  "texte": "Cinq médias notent la Tapo C425, moyenne 8,4/10 : Basic Tutorials et Le Café du Geek donnent 9/10, Chip.de, Digital Camera World et ImTest 8/10.\n\nLes tests apprécient un montage flexible, indépendant de la prise électrique grâce à la batterie, une bonne reconnaissance par l'IA, la vision nocturne en couleur, une résolution de 2 560 × 1 440 et un grand champ de vision. Ils reprochent l'absence de protection mécanique contre le vandalisme ou le démontage, un connecteur micro-USB obsolète à la charge lente, et une détection peu fiable des mouvements rapides dans l'obscurité.",
+  "sources": [
+   "Basic Tutorials",
+   "LeCafeDuGeek",
+   "Chip.de",
+   "Digital Camera World",
+   "ImTest"
+  ]
+ },
+ {
+  "id": "reolink-argus-4-pro",
+  "texte": "La Reolink Argus 4 Pro compte 10 notes chiffrées, moyenne 8,3/10, avec un éventail large : Mighty Gadget donne 9,5/10, TechTest 9,2/10, Connect.de et MYC Media 9/10, Basic Tutorials 8,9/10, tandis que Digital Camera World s'arrête à 6/10 et AndroidPit à 7/10.\n\nLes avis retiennent la conception à double objectif (5 120 × 1 440 pixels, champ de 180°), la vision nocturne en couleur du capteur ColorX, le Wi-Fi 6 bibande et une grande batterie. Les critiques portent sur une autonomie moyenne avec le panneau solaire, un enregistrement limité à 15 images par seconde, l'inscription obligatoire auprès du fabricant et l'absence de géo-clôture.",
+  "sources": [
+   "Mighty Gadget",
+   "TechTest",
+   "Connect.de",
+   "MYC Media",
+   "Basic Tutorials",
+   "Digital Camera World",
+   "AndroidPit"
+  ]
+ },
+ {
+  "id": "reolink-argus-eco-ultra",
+  "texte": "Deux médias seulement ont noté la Reolink Argus Eco Ultra : TechTest lui donne 9/10 et LeCafeDuGeek 8/10, soit une moyenne de 8,5/10. Avec si peu de notes, cette moyenne reste fragile et ne doit pas être lue comme un consensus.\n\nLes tests citent des finitions exemplaires et un tarif abordable pour une caméra solaire 4K, vendue sans abonnement pour les fonctions de détection. Ils relèvent en contrepartie une caméra plutôt imposante, que l'on ne peut pas qualifier de discrète une fois posée sur une façade ou sur un mur de jardin.",
+  "sources": [
+   "TechTest",
+   "LeCafeDuGeek"
+  ]
+ },
+ {
+  "id": "reolink-e1-zoom",
+  "texte": "La Reolink E1 Zoom est notée 8/10 par deux médias, Chip.de et Absolute Geeks ; Vonguru l'a testée sans note chiffrée publique. La moyenne repose donc sur très peu d'avis.\n\nLes tests soulignent la qualité d'image avec le zoom optique ×3, le pivotement et l'inclinaison motorisés avec suivi d'objet, l'absence de coût supplémentaire pour les fonctions d'IA et l'absence de compte en ligne obligatoire. Ils regrettent l'absence de géo-clôture, une rotation manuelle imprécise, des réglages parfois difficiles à trouver et une application parfois buguée.",
+  "sources": [
+   "Chip.de",
+   "Absolute Geeks",
+   "Vonguru"
+  ]
+ },
+ {
+  "id": "blink-outdoor-4",
+  "texte": "Quatre médias notent la Blink Outdoor 4, moyenne 7,2/10 : TechRadar et Trusted Reviews donnent 8/10, FrAndroid 7/10 et Chip.de 6/10.\n\nLes tests apprécient son prix contenu, une autonomie annoncée de deux ans sur piles, sa petite taille et sa facilité d'installation. Ils relèvent l'absence de détection des animaux, des véhicules et des colis, la compatibilité limitée à Alexa, de nombreuses fonctions soumises à un abonnement et une résolution parfois jugée insuffisante. L'offre relevée sur le site est celle de la caméra seule : il faut y ajouter le module de synchronisation Blink pour la faire fonctionner.",
+  "sources": [
+   "TechRadar",
+   "Trusted Reviews",
+   "FrAndroid",
+   "Chip.de"
+  ]
+ }
+]

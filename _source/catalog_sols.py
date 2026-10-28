@@ -292,4 +292,6 @@ SOLS.update(catalog_tv.build())
 
 # rubriques Son / Audio / Hi-Fi et Photo / Vidéo (28/10/2026)
 import catalog_audio
+import catalog_video
 SOLS.update(catalog_audio.build())
+SOLS.update(catalog_video.build())

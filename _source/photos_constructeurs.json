@@ -958,5 +958,41 @@
  "jbl-go-essential-2": {
   "constructeur": "Electro Dépôt (flux Effinity)",
   "source": "https://www.electrodepot.fr/media/catalog/product/P10005191.jpg"
+ },
+ "reolink-argus-4-pro": {
+  "constructeur": "Reolink",
+  "source": "https://reolink.com/product/argus-4-pro/ (visuel argus-4-pro-whitesolar-panel-2-white.png)"
+ },
+ "reolink-duo-3-poe": {
+  "constructeur": "Reolink",
+  "source": "https://home-cdn.reolink.us/wp-content/uploads/2024/01/030826541704270414.65.png"
+ },
+ "reolink-argus-eco-ultra": {
+  "constructeur": "Reolink",
+  "source": "https://home-cdn.reolink.us/wp-content/uploads/2023/08/140655211691996121.2889.png"
+ },
+ "reolink-e1-zoom": {
+  "constructeur": "Reolink",
+  "source": "https://home-cdn.reolink.us/wp-content/assets/2019/10/e1-zoom-340.png"
+ },
+ "tapo-c660": {
+  "constructeur": "TP-Link",
+  "source": "https://static.tp-link.com/upload/image-line/Tapo_C660_KIT_EU_1.0_overview_01_large_20250408025139g.jpg"
+ },
+ "tapo-c425": {
+  "constructeur": "TP-Link",
+  "source": "https://static.tp-link.com/upload/image-line/01_large_20231027074200a.jpg"
+ },
+ "tapo-c520ws": {
+  "constructeur": "Electro Dépôt (flux Effinity)",
+  "source": "https://www.electrodepot.fr/media/catalog/product/P10009498.jpg"
+ },
+ "eufycam-s4": {
+  "constructeur": "eufy",
+  "source": "https://cdn.shopify.com/s/files/1/0555/1167/9128/files/eufycam_S4.png"
+ },
+ "eufy-solocam-s340": {
+  "constructeur": "eufy",
+  "source": "https://cdn.shopify.com/s/files/1/1054/0698/8369/files/1500_1500_d6b72bb0-6408-4818-89e0-f393e1a9117e.png"
  }
 }
