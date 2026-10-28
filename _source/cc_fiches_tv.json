@@ -1,0 +1,1087 @@
+{
+ "LG OLED G5": {
+  "source": "https://www.commentchoisir.fr/test-LG_G5.htm",
+  "tests": [
+   {
+    "media": "ExpertReviews",
+    "note10": 10.0,
+    "date": "05/04/2016",
+    "url": "http://www.expertreviews.co.uk/lg/lg-g5"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 10.0,
+    "date": "05/04/2016",
+    "url": "https://www.expertreviews.co.uk/lg/lg-g5"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "date": "21/02/2016",
+    "url": "http://www.techradar.com/reviews/phones/mobile-phones/lg-g5-1315187/review?src=rss&attr=all"
+   },
+   {
+    "media": "TechRadar",
+    "note10": null,
+    "date": "21/02/2016",
+    "url": "http://www.techradar.com/us/reviews/phones/mobile-phones/lg-g5-1315187/review?src=rss&attr=all"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 8.0,
+    "date": "26/10/2016",
+    "url": "http://feedproxy.google.com/~r/techradar/tech-reviews/~3/fMst4X8g9mI/review"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "date": "12/04/2025",
+    "url": "https://www.techradar.com/televisions/lg-g5-review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 8.0,
+    "date": "22/02/2016",
+    "url": "http://www.whathifi.com/lg/g5/review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "date": "27/01/2025",
+    "url": "https://www.whathifi.com/reviews/lg-g5"
+   },
+   {
+    "media": "L&B Tech",
+    "note10": null,
+    "date": "27/05/2025",
+    "url": "https://www.lbtechreviews.com/test/tv/lg-oled-g5-oled65g5"
+   },
+   {
+    "media": "FlatpanelsHD",
+    "note10": 9.0,
+    "date": "30/05/2025",
+    "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1748586137"
+   },
+   {
+    "media": "Multiplayer.it",
+    "note10": 8.0,
+    "date": "12/08/2025",
+    "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "date": "19/10/2025",
+    "url": "https://www.01net.com/tests/test-lg-oled65g5-plus-quun-televiseur-une-veritable-oeuvre-dart-sur-le-mur-du-salon.html"
+   },
+   {
+    "media": "IGN",
+    "note10": 8.0,
+    "date": "18/11/2025",
+    "url": "https://www.ign.com/articles/lg-g5-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "date": "22/03/2016",
+    "url": "http://www.trustedreviews.com/lg-g5-review"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 10.0,
+    "date": "02/01/2026",
+    "url": "https://www.trustedreviews.com/reviews/lg-oled65g5"
+   },
+   {
+    "media": "PCGamer",
+    "note10": 8.0,
+    "date": "17/09/2026",
+    "url": "https://www.pcgamer.com/hardware/gaming-monitors/lg-ultragear-25g590b-review/"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 8.0,
+    "date": "29/03/2016",
+    "url": "http://www.frandroid.com/marques/lg/350555_test-lg-g5"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 9.0,
+    "date": "02/04/2025",
+    "url": "https://www.frandroid.com/marques/lg/2563179_test-du-tv-lg-oled65g5-2025-des-qualites-vraiment-tres-impressionnantes"
+   },
+   {
+    "media": "S2P Mag",
+    "note10": null,
+    "date": "16/09/2016",
+    "url": "http://feedproxy.google.com/~r/S2pmag/~3/04sN7xM7H2Y/"
+   },
+   {
+    "media": "AVCesar",
+    "note10": 8.1,
+    "date": "11/11/2024",
+    "url": "https://www.avcesar.com/ces-25-tv-oled-lg-g5-objectif-4-000-nits-43320"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "06/12/2024",
+    "url": "https://www.avcesar.com/ces-25-tv-oled-lg-g5-objectif-pc-gaming-avec-la-certification-vesa-165-hz-43527"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "07/01/2025",
+    "url": "https://www.avcesar.com/ces-25-lg-g5-evo-m5-evo-nouvelle-dalle-tandem-oled-rvb-luminosite-40-pour-un-apl-100-43725"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "07/01/2025",
+    "url": "https://www.avcesar.com/maj-ces-25-lg-g5-evo-m5-evo-adieu-la-technologie-meta-mla-43731"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "09/01/2025",
+    "url": "https://www.avcesar.com/ces-25-tv-lg-oled-2025-lg-b5-lg-c5-lg-g5-et-lg-m5-du-42-au-97-43777"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "08/01/2025",
+    "url": "https://www.avcesar.com/maj-ces-25-lg-g5-evo-m5-evo-nouvelle-dalle-tandem-oled-rvb-luminosite-40-pour-un-apl-100-43768"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "16/01/2025",
+    "url": "https://www.avcesar.com/ces-25-tv-oled-lg-g5-et-lg-m5-4-000-nits-confirmes-43822"
+   },
+   {
+    "media": "AVCesar",
+    "note10": null,
+    "date": "22/01/2025",
+    "url": "https://www.avcesar.com/lg-g5-evo-m5-evo-zoom-sur-les-dalles-oled-primary-rgb-tandem-43872"
+   },
+   {
+    "media": "Engadget",
+    "note10": 8.0,
+    "date": "11/04/2016",
+    "url": "http://www.engadget.com/2016/04/11/lg-g5-review/"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": 8.0,
+    "date": "24/03/2016",
+    "url": "http://www.digitaltrends.com/cell-phone-reviews/lg-g5-review/"
+   },
+   {
+    "media": "CNET USA",
+    "note10": 8.0,
+    "date": "05/04/2016",
+    "url": "http://www.cnet.com/products/lg-g5/#ftag=CADe9e329a"
+   },
+   {
+    "media": "PCMag",
+    "note10": 8.0,
+    "date": "07/04/2016",
+    "url": "http://feedproxy.google.com/~r/ziffdavis/pcmag/~3/94w2uz3vdXU/lg-g5-at-t"
+   },
+   {
+    "media": "Android MT",
+    "note10": 8.0,
+    "date": "12/04/2016",
+    "url": "http://www.android-mt.com/appareil/lg-g5-48198"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": 8.0,
+    "date": "21/02/2016",
+    "url": "http://www.androidpit.fr/test-complet-lg-g5"
+   },
+   {
+    "media": "AndroidPit",
+    "note10": null,
+    "date": "03/05/2016",
+    "url": "http://www.androidpit.fr/test-complet-modules-lg-g5"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 8.0,
+    "date": "11/05/2016",
+    "url": "http://www.lesnumeriques.com/telephone-portable/lg-g5-p30891/test-labo-lg-g5-double-appareil-photo-qui-a-arguments-n52057.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 8.0,
+    "date": "12/05/2016",
+    "url": "http://www.lesnumeriques.com/telephone-portable/lg-g5-p30891/test.html"
+   },
+   {
+    "media": "PhonAndroid",
+    "note10": 8.0,
+    "date": "13/05/2016",
+    "url": "http://www.phonandroid.com/test-lg-g5-photophone-top-modules-qui-font-flop.html"
+   },
+   {
+    "media": "lesMobiles.com",
+    "note10": 8.0,
+    "date": "16/05/2016",
+    "url": "http://feedproxy.google.com/~r/lesmobiles/~3/Sz7ZJPeotrc/21804-test-du-lg-g5-heureusement-ce-smartphone-n-est-pas-que-modulaire.html"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "date": "19/05/2016",
+    "url": "http://www.clubic.com/smartphone/android/article-806230-1-test-lg-g5.html"
+   },
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "date": "07/05/2025",
+    "url": "https://www.rtings.com/tv/reviews/lg/g5-oled"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 7.0,
+    "date": "24/06/2025",
+    "url": "https://www.chip.de/test/lg-oled-65g5-test_341196"
+   },
+   {
+    "media": "Tom's Guide (FR)",
+    "note10": 7.0,
+    "date": "14/04/2016",
+    "url": "http://www.tomsguide.fr/article/lg-g5-modulaire,2-1884.html#xtor=RSS-202"
+   },
+   {
+    "media": "MeilleurMobile",
+    "note10": 6.0,
+    "date": "05/08/2016",
+    "url": "http://actu.meilleurmobile.com/prise-main-lg-g5-photophone-modulable_138571"
+   },
+   {
+    "media": "EuroGamer.fr",
+    "note10": 6.0,
+    "date": "15/05/2016",
+    "url": "http://www.eurogamer.net/articles/digitalfoundry-2016-lg-g5-review"
+   },
+   {
+    "media": "NotebookReview",
+    "note10": 6.0,
+    "date": "25/05/2016",
+    "url": "http://www.notebookreview.com/phonereview/lg-g5-review/"
+   },
+   {
+    "media": "TopForPhone",
+    "note10": null,
+    "date": "05/12/2016",
+    "url": "http://www.top-for-phone.fr/test-lg-g5"
+   },
+   {
+    "media": "AvisMobiles",
+    "note10": null,
+    "date": "01/02/2017",
+    "url": "https://avismobiles.fr/tests/test-lg-g5/"
+   },
+   {
+    "media": "Tweakers",
+    "note10": null,
+    "date": "19/04/2025",
+    "url": "https://tweakers.net/reviews/13174/lg-oled-evo-c5-en-g5-een-grote-stap-dankzij-4-stack.html"
+   }
+  ],
+  "pros": [
+   "Batterie amovible",
+   "Finition",
+   "Appareil photo",
+   "Excellente conception modulaire",
+   "Fantastique appareil orienté vers l?arrière",
+   "Superbe écran IPS",
+   "Une conception entièrement métallique",
+   "Caméra arrière grand angle",
+   "Neat toujours sur l'écran",
+   "Grande photo",
+   "Son d'excellente qualité (avec module Hi-Fi Plus)",
+   "Superbe appareil photo"
+  ],
+  "cons": [
+   "Autonomie",
+   "Visualisez un peu terne",
+   "Vie de la batterie pauvres sans le module de batterie",
+   "Aspect terne",
+   "Aucun tiroir app plus",
+   "Toujours sur l'écran est un drain de batterie",
+   "Son apathique sans module HiFi Plus",
+   "Reflets directs gérés de manière discrète",
+   "Aucun support pour l'audio DTS",
+   "Luminosité réduite en mode Jeu par rapport à celle standard",
+   "Risque possible de burn-in lors d'une utilisation prolongée en tant que moniteur PC",
+   "Les modèles de 97 et 48 pouces n'ont ni panneaux tandem ni MLA."
+  ]
+ },
+ "LG OLED C5": {
+  "source": "https://www.commentchoisir.fr/test-LG_C5.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "13/05/2025",
+    "url": "https://www.rtings.com/tv/reviews/lg/c5-oled"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "date": "17/10/2025",
+    "url": "https://www.rtings.com/monitor/reviews/lg/c5-42-oled"
+   },
+   {
+    "media": "ComputerHoy",
+    "note10": 8.0,
+    "date": "10/09/2025",
+    "url": "https://computerhoy.20minutos.es/dispositivos/ni-imagen-ni-sonido-resisten-lg-oled-evo-ai-c5-4k-ponerla-prueba-varias-semanas-1479183"
+   },
+   {
+    "media": "PhonAndroid",
+    "note10": 8.0,
+    "date": "11/06/2025",
+    "url": "https://www.phonandroid.com/test-lg-oled-evo-c5.html"
+   },
+   {
+    "media": "Chip.de",
+    "note10": 8.0,
+    "date": "13/06/2025",
+    "url": "https://www.chip.de/test/lg-oled-42c5-im-test_341164"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "date": "26/08/2025",
+    "url": "https://www.trustedreviews.com/reviews/lg-oled42c5"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "date": "24/10/2025",
+    "url": "https://www.clubic.com/test-produit-583891-test-lg-oled-c5.html"
+   },
+   {
+    "media": "IGN",
+    "note10": null,
+    "date": "16/01/2026",
+    "url": "https://www.ign.com/articles/lg-c5-review"
+   },
+   {
+    "media": "FlatpanelsHD",
+    "note10": null,
+    "date": "20/10/2025",
+    "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1760942616"
+   },
+   {
+    "media": "DigitalTrends",
+    "note10": null,
+    "date": "02/01/2026",
+    "url": "https://www.digitaltrends.com/home-theater/lg-c5-review/"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "date": "15/06/2026",
+    "url": "https://www.mds-cineson.fr/test-du-lg-xboom-rnc5-le-haut-parleur-bluetooth-portable-et-puissant"
+   }
+  ],
+  "pros": [
+   "Rapport de contraste quasi infini pour des noirs parfaits sans halo lumineux autour des points forts lumineux.",
+   "Angle de vision très large pour une image cohérente depuis les côtés.",
+   "La très bonne luminosité SDR le rend adapté aux pièces bien éclairées.",
+   "Les couleurs sont vibrantes, réalistes, lumineuses et précises.",
+   "Amélioration de l'image et du son avec l'IA.",
+   "Télécommande magique.",
+   "Contrôle vocal.",
+   "Design ultra-fin.",
+   "Le design extrêmement fin",
+   "La qualité d'image en mode FilmMaker SDR",
+   "Les 4 ports HDMI 2.1",
+   "La complétude de WebOS"
+  ],
+  "cons": [
+   "HDR10 présente un contour inhabituel dans les scènes sombres qui rend l'image moche.",
+   "Les sources lumineuses directes sont visibles sur l'écran.",
+   "Étiquette énergétique F.",
+   "La saturation prononcée des couleurs quand le HDR est activé",
+   "La réflectance significative de la dalle",
+   "L'absence de rétroéclairage de la télécommande",
+   "L'étrange présence d'Alexa aux côtés de LG AI",
+   "L'expérience audio sans support externe",
+   "Pas de HDR10+",
+   "Seulement un triple tuner",
+   "Faible efficacité énergétique",
+   "Pas le plus grand saut de luminosité par rapport aux anciens modèles de la série C de 42 pouces."
+  ]
+ },
+ "Samsung Neo QLED QN90F": {
+  "source": "https://www.commentchoisir.fr/test-Samsung_QN90F.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 8.0,
+    "date": "02/05/2025",
+    "url": "https://www.rtings.com/tv/reviews/samsung/qn90f"
+   },
+   {
+    "media": "Clubic.com",
+    "note10": null,
+    "date": "17/06/2025",
+    "url": "https://www.clubic.com/test-produit-568809-test-samsung-qn90f.html"
+   },
+   {
+    "media": "L&B Tech",
+    "note10": null,
+    "date": "30/06/2025",
+    "url": "https://www.lbtechreviews.com/test/tv/samsung-qn90f-tq65qn90f"
+   },
+   {
+    "media": "Android Headlines",
+    "note10": 8.0,
+    "date": "18/08/2025",
+    "url": "https://www.androidheadlines.com/2025/08/samsung-qn90f-tv-ultimate-review-the-mini-led-tv-that-just-might-make-you-forget-oled.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "30/09/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-65qn90f-p77181/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "12/11/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-98qn90f-p77275/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "12/11/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-85qn90f-p77274/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "12/11/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-75qn90f-p77273/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "12/11/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-55qn90f-p77272/test.html"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "date": "15/10/2025",
+    "url": "https://leclaireur.fnac.com/test/629139-test-labo-du-samsung-tq43qn90fat-un-qled-qui-a-presque-tout-pour-lui/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 10.0,
+    "date": "16/11/2025",
+    "url": "https://leclaireur.fnac.com/test/635905-test-labo-du-samsung-tq55qn90fat-un-miracle-de-luminosite/"
+   },
+   {
+    "media": "IGN",
+    "note10": null,
+    "date": "04/02/2026",
+    "url": "https://www.ign.com/articles/samsung-qn90f-review"
+   }
+  ],
+  "pros": [
+   "Qualité d'image époustouflante avec des noirs profonds",
+   "Sans éblouissement est un changement de jeu",
+   "De nombreuses fonctionnalités de jeu pour tous les types de joueurs",
+   "Prise en charge de AirPlay, Alexa et Matter",
+   "Très bons niveaux de noir avec peu de débordement.",
+   "Excellente luminosité HDR pour des points forts percutants.",
+   "Incroyablement lumineux en SDR.",
+   "Bande passante HDMI 2.1 sur les quatre ports, tous capables de jusqu'à 4k @ 165Hz avec support VRR.",
+   "Les couleurs sont vives et éclatantes en HDR.",
+   "Excellents niveaux de luminosité et contraste",
+   "Colorimétrie précise en SDR comme en HDR (Delta E < 2)",
+   "Filtre antireflet \"Glare Free\" ultra-efficace"
+  ],
+  "cons": [
+   "Pas de Dolby Vision",
+   "Cher par rapport aux téléviseurs concurrents",
+   "Les niveaux de noir sont nettement pires en mode jeu.",
+   "Les transitions de pixels lentes en mode jeu entraînent un mouvement flou.",
+   "Toujours pas de Dolby Vision ni de DTS chez Samsung",
+   "Couverture colorimétrique limitée face aux QD-OLED",
+   "Gestion HDR un peu trop \"punchy\"",
+   "Léger blooming perceptible",
+   "Rendu Atmos limité",
+   "Angles de vision limités.",
+   "Partie audio décevante.",
+   "Blooming visible de côté."
+  ]
+ },
+ "Hisense U7Q": {
+  "source": "https://www.commentchoisir.fr/test-Hisense_U7Q.htm",
+  "tests": [
+   {
+    "media": "Clubic.com",
+    "note10": 8.0,
+    "date": "05/07/2025",
+    "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html"
+   },
+   {
+    "media": "ZTGD",
+    "note10": 8.0,
+    "date": "28/08/2025",
+    "url": "https://ztgd.com/reviews/hisense-u7qg-hardware/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "01/09/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "24/09/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55u7q-pro-p77165/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "24/09/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-75u7q-pro-p77168/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "24/09/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-85u7q-pro-p77169/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "24/09/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-100u7q-pro-p77171/test.html"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": null,
+    "date": "14/11/2025",
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro"
+   },
+   {
+    "media": "Tweakers",
+    "note10": 8.0,
+    "date": "17/12/2025",
+    "url": "https://tweakers.net/reviews/14114/hisense-u7q-pro-en-u8q-miniled-tvs-heldere-hdr-maar-random-reclame-in-os.html"
+   },
+   {
+    "media": "PhonAndroid",
+    "note10": null,
+    "date": "02/04/2026",
+    "url": "https://www.phonandroid.com/test-hisense-u7q-pro.html"
+   }
+  ],
+  "pros": [
+   "Contraste natif élevé grâce à la dalle VA",
+   "Calibrage SDR et HDR très propre en mode Filmmaker",
+   "Compatibilité HDMI 2.1 (VRR 144 Hz, ALLM, eARC)",
+   "Mode jeu performant avec input lag très faible",
+   "Interface Vidaa fluide et complète",
+   "Upscaling efficace",
+   "Bon rapport qualité/prix",
+   "Quatre ports HDMI 2.1",
+   "Couleurs exceptionnelles",
+   "Télécommande rétroéclairée",
+   "Design élégant",
+   "Excellente calibration en SDR et en mode Jeu."
+  ],
+  "cons": [
+   "Rétroéclairage Mini-LED peu dense",
+   "Luminosité HDR limitée pour les contenus exigeants",
+   "Palette de couleurs un peu faible pour du QLED",
+   "Revêtement semi-brillant sujet aux reflets",
+   "Télécommande basique, non rétroéclairée",
+   "HDR en mode jeu est un peu sombre",
+   "Pas beaucoup de place pour la barre de son sous le support",
+   "Angles de vision limités.",
+   "Blooming encore perceptible.",
+   "Reflets visibles.",
+   "Télécommande sans rétroéclairage.",
+   "Graves qui peuvent faire vibrer le TV."
+  ]
+ },
+ "Samsung Q7F": {
+  "source": "https://www.commentchoisir.fr/test-Samsung_Q7F.htm",
+  "tests": [
+   {
+    "media": "Trusted Reviews",
+    "note10": 8.0,
+    "date": "26/04/2017",
+    "url": "http://www.trustedreviews.com/samsung-q7-review"
+   },
+   {
+    "media": "Pocket-lint",
+    "note10": 6.0,
+    "date": "15/05/2017",
+    "url": "http://www.pocket-lint.com/review/140975-samsung-qled-q7f-4k-tv-review-qled-gets-off-to-a-flying-start"
+   },
+   {
+    "media": "CNET USA",
+    "note10": 7.3,
+    "date": "22/05/2017",
+    "url": "https://www.cnet.com/products/samsung-qnq7f-series/#ftag=CADe9e329a"
+   },
+   {
+    "media": "CNET France",
+    "note10": 10.0,
+    "date": "01/06/2017",
+    "url": "http://www.cnetfrance.fr/produits/test-du-samsung-qe55q7f-une-tv-qled-innovante-mais-surtout-en-matiere-de-design-39853168.htm#xtor=RSS-2"
+   },
+   {
+    "media": "AVCesar",
+    "note10": 10.0,
+    "date": "17/10/2017",
+    "url": "http://www.avcesar.com/test/ecran_plat/id-171/samsung-qe65q7f/page-1.html"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "date": "12/01/2018",
+    "url": "http://www.whathifi.com/samsung/qe49q7f/review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "date": "15/06/2017",
+    "url": "http://www.whathifi.com/samsung/qe55q7f/review"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": 10.0,
+    "date": "27/10/2017",
+    "url": "http://www.whathifi.com/samsung/qe65q7f/review"
+   },
+   {
+    "media": "ExpertReviews",
+    "note10": 6.0,
+    "date": "13/12/2017",
+    "url": "http://www.expertreviews.co.uk/tvs/1406544/samsung-qled-q7f-qe49q7f-review-samsungs-qled-tech-hits-the-spot"
+   },
+   {
+    "media": "01net",
+    "note10": 8.0,
+    "date": "01/02/2018",
+    "url": "http://www.01net.com/tests/test-du-samsung-qe55q7f-un-televiseur-qled-4k-qui-seduit-par-sa-qualite-d-image-5908.html"
+   },
+   {
+    "media": "PCWorld.com",
+    "note10": 8.0,
+    "date": "25/06/2018",
+    "url": "https://www.techhive.com/article/3272246/smart-tv/samsung-65q7fn-4k-uhd-tv-review.html#tk.rss_reviews"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "date": "15/07/2017",
+    "url": "http://feedproxy.google.com/~r/techradar/tech-reviews/~3/nRuvheJKEDo/samsung-q7f-qled-tv"
+   },
+   {
+    "media": "TechRadar",
+    "note10": 10.0,
+    "date": "03/07/2018",
+    "url": "http://feedproxy.google.com/~r/techradar/tech-reviews/~3/2S8hs28UxZ8/samsung-q7fn-qled-tv-55q7fn"
+   },
+   {
+    "media": "Maison Adam",
+    "note10": 8.6,
+    "date": "05/07/2018",
+    "url": "https://maisonadam.ca/conseils-d-experts/post/test-televiseur-4k-hdr-q7f-de-samsung-une-brillance-difficile-a-egaler"
+   },
+   {
+    "media": "4K.com",
+    "note10": 10.0,
+    "date": "03/05/2017",
+    "url": "http://4k.com/tv/review-samsung-q7f-4k-hdr-ultra-hd-lcd-tv-qn55q7f-qn65q7f-qn75q7f/"
+   },
+   {
+    "media": "4K.com",
+    "note10": 10.0,
+    "date": "12/09/2018",
+    "url": "http://4k.com/tv/samsung-q7fn-4k-hdr-lcd-tv-review-qn55q7-qn65q7-qn75q7-7574/"
+   },
+   {
+    "media": "Labo Fnac",
+    "note10": 8.0,
+    "date": "22/10/2018",
+    "url": "http://labo.fnac.com/tv/televiseur-tv-4k-oled/8801643158835/test-samsung-qe55q7fn/"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "07/08/2017",
+    "url": "http://www.lesnumeriques.com/tv-televiseur/samsung-qe65q7f-p38183/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "10/08/2017",
+    "url": "http://www.lesnumeriques.com/tv-televiseur/samsung-qe49q7f-p38191/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "10/08/2017",
+    "url": "http://www.lesnumeriques.com/tv-televiseur/samsung-qe55q7f-p38181/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "18/02/2019",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-qe55q7f-2018-p43489/test.html"
+   },
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "15/05/2018",
+    "url": "http://www.rtings.com/tv/reviews/samsung/q7fn"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "date": "29/08/2018",
+    "url": "https://youtu.be/0nFa-mVWujU"
+   },
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "27/06/2025",
+    "url": "https://www.rtings.com/tv/reviews/samsung/q7f-2025"
+   },
+   {
+    "media": "Tom's Guide (US)",
+    "note10": 10.0,
+    "date": "25/08/2017",
+    "url": "https://www.tomsguide.com/us/samsung-q7f-qled-tv,review-4617.html#xtor=RSS-212"
+   },
+   {
+    "media": "Tom's Guide (US)",
+    "note10": 10.0,
+    "date": "07/04/2026",
+    "url": "https://www.tomsguide.com/tvs/qled-tvs/samsung-q7f-qled-tv-review"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "date": "21/04/2026",
+    "url": "https://www.mds-cineson.fr/test-samsung-tv-qled-55q7f3-immersion-4k-garantie"
+   }
+  ],
+  "pros": [
+   "Colorimétrie riche et lumineuse grâce à la technologie Quantum Dot",
+   "Rapport qualité-prix apprécié par la majorité des utilisateurs",
+   "Écosystème Smart TV complet : WiFi, AirPlay, Gaming Hub, applications opérateurs",
+   "Installation du pied facilitée (système à clipser)",
+   "Image convaincante pour les films et contenus 4K récents",
+   "Knox Security pour la protection des données personnelles",
+   "Lumineux avec belles couleurs",
+   "Fort contraste",
+   "Conception et construction de prime",
+   "Boîte de connexions externes",
+   "Conception complète de 360 degrés",
+   "Une boîte de connexion maintient les choses propre"
+  ],
+  "cons": [
+   "#8211; Absence de port optique : connexion audio limitée au HDMI",
+   "#8211; Traitement IA de l'image activé par défaut, parfois jugé intrusif",
+   "#8211; Paramétrage réseau initial nécessaire, pas toujours intuitif",
+   "#8211; Taux de rafraîchissement limité à 60 Hz (moins adapté au gaming compétitif)",
+   "#8211; Offre de remboursement promotionnelle signalée comme problématique par un utilisateur",
+   "Questions d'éclairage occasionnel",
+   "Cher",
+   "Quelques lumière saigner chez les noirs pour des scènes extrêmes à cause de l'éclairage de bord bas seulement",
+   "le prix est assez hight",
+   "câble d'alimentation est trop court",
+   "Qualité d'image globale de la Q7 coûteux ne peut pas correspondre OLED ou le meilleur LED TV LCD.",
+   "le prix pour une qualité d?image qui ne saurait rivaliser avec les technologies Oled et Oled LCD."
+  ]
+ },
+ "LG QNED85": {
+  "source": "https://www.commentchoisir.fr/test-LG_QNED85.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "21/02/2023",
+    "url": "https://www.rtings.com/tv/reviews/lg/qned85"
+   },
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "12/11/2024",
+    "url": "https://www.rtings.com/tv/reviews/lg/qned85t"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "date": "18/12/2025",
+    "url": "https://www.rtings.com/tv/reviews/lg/qned85a"
+   },
+   {
+    "media": "AVCesar",
+    "note10": 8.0,
+    "date": "10/01/2025",
+    "url": "https://www.avcesar.com/ces-25-lg-qned85-evo-alpha-8-ai-gen-2-super-slim-design-hdmi-2-1-lg-ai-tv-43698"
+   },
+   {
+    "media": "T3",
+    "note10": 8.0,
+    "date": "11/12/2025",
+    "url": "https://www.t3.com/tech/tvs/lg-qned85-review-qned86"
+   },
+   {
+    "media": "Trusted Reviews",
+    "note10": null,
+    "date": "06/01/2026",
+    "url": "https://www.trustedreviews.com/reviews/lg-65qned85"
+   }
+  ],
+  "pros": [
+   "Affiche le contenu 4k et de résolution inférieure sans problème.",
+   "L?image reste cohérente selon un angle.",
+   "Gestion décente des réflexions.",
+   "Grande luminosité maximale pour surmonter l?éblouissement dans une pièce lumineuse.",
+   "Images lumineuses, vibrantes et détaillées à partir de contenu en 4K",
+   "Bonne spécification, de nombreuses technologies intéressantes",
+   "Aussi bon pour les joueurs que le sont toujours les téléviseurs LG.",
+   "Images lumineuses, à fort contraste et confiantes",
+   "Technologie intéressante et spécifications décentes",
+   "Les soins habituels de LG apportés à l'expérience de jeu"
+  ],
+  "cons": [
+   "Les couleurs ne sont pas très vives.",
+   "Distorsion notable à volume élevé.",
+   "La mise en ?uvre de l'IA n'est pas entièrement réussie",
+   "A ses limites en tant qu'agrandisseur.",
+   "Le son est assez médiocre",
+   "L'amélioration de la qualité a certainement ses limites.",
+   "Le son est authentiquement mauvais",
+   "\"L'IA avec tout\" est une politique aléatoire."
+  ]
+ },
+ "Sony Bravia 3": {
+  "source": "https://www.commentchoisir.fr/test-Sony_Bravia+3.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "02/08/2024",
+    "url": "https://www.rtings.com/tv/reviews/sony/bravia-3"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "date": "06/08/2026",
+    "url": "https://www.rtings.com/tv/reviews/sony/bravia-3-ii"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": 6.0,
+    "date": "31/05/2025",
+    "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3"
+   },
+   {
+    "media": "PhonAndroid",
+    "note10": 6.0,
+    "date": "11/11/2025",
+    "url": "https://www.phonandroid.com/test-sony-bravia-3.html"
+   },
+   {
+    "media": "What Hi-Fi?",
+    "note10": null,
+    "date": "06/01/2026",
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp"
+   }
+  ],
+  "pros": [
+   "Un large angle de vision signifie qu'il est adapté à une utilisation en groupe.",
+   "Traitement d'image Sony",
+   "Interface Google TV",
+   "Connectivité HDMI 2.1",
+   "Compatibilité gaming étendue (ALLM, Dolby Vision Gaming)",
+   "Rapport qualité-prix attractif",
+   "Couleurs chaudes et naturelles",
+   "Impressionnante traitement du mouvement",
+   "Son intégré dynamique et spacieux"
+  ],
+  "cons": [
+   "Manque de luminosité HDR nécessaire pour des points forts percutants.",
+   "La gestion des reflets est correcte uniquement avec des lumières placées directement en face de l'écran.",
+   "Luminosité limitée pour les environnements très éclairés",
+   "Absence de rétroéclairage local avancé",
+   "Audio intégré perfectible pour les contenus cinéma",
+   "Dalle 50/60 Hz native sans 120 Hz",
+   "Consommation",
+   "Matériaux plastiques sur certaines finitions",
+   "Mauvais niveaux de noir",
+   "Le panneau de 60 Hz ne séduira pas les joueurs.",
+   "Cher par rapport aux concurrents"
+  ]
+ },
+ "Samsung QN80F": {
+  "source": "https://www.commentchoisir.fr/test-Samsung_QN80F.htm",
+  "tests": [
+   {
+    "media": "RTings",
+    "note10": 10.0,
+    "date": "16/07/2025",
+    "url": "https://www.rtings.com/tv/reviews/samsung/qn80f"
+   },
+   {
+    "media": "RTings",
+    "note10": null,
+    "date": "25/11/2025",
+    "url": "https://www.rtings.com/tv/reviews/samsung/100qn80f"
+   },
+   {
+    "media": "Connect.de",
+    "note10": 8.0,
+    "date": "11/11/2025",
+    "url": "https://www.connect.de/testbericht/samsung-gq65qn80f-test-3211144.html"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": null,
+    "date": "30/11/2025",
+    "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "date": "05/06/2026",
+    "url": "https://www.mds-cineson.fr/test-samsung-neo-qled-qn80f-65-pouces-4k"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "date": "07/06/2026",
+    "url": "https://www.mds-cineson.fr/test-samsung-neo-qled-qn80f-immersion-4k-et-technologie-ai"
+   }
+  ],
+  "pros": [
+   "Rétroéclairage Mini-LED avec véritable point quantique",
+   "beaucoup d'intelligence artificielle intelligente",
+   "de belles couleurs naturelles",
+   "son harmonieux et dynamique",
+   "beau design plat",
+   "Concept de commande moderne",
+   "beaucoup d'interaction avec l'IoT et les périphériques",
+   "Dalle Mini LED avec gestion fine du rétroéclairage local",
+   "Taux de rafraîchissement 144 Hz natif, idéal pour le gaming",
+   "Gaming Hub intégré pour le jeu en nuage sans console",
+   "Compatibilité Dolby Atmos et Q-Symphony",
+   "Airplay et connectivité multi-écosystème"
+  ],
+  "cons": [
+   "Accord simple",
+   "pas de Dolby Vision",
+   "quelques zones d'assombrissement",
+   "#8211; Classe énergétique F : consommation élevée",
+   "#8211; Pas de support HDR Dolby Vision (HDR10 uniquement)",
+   "#8211; Q-Symphony nécessite une barre de son Samsung pour être pleinement utile",
+   "#8211; Taux de contraste non chiffré précisément dans la fiche technique",
+   "#8211; Bixby moins performant que Google Assistant ou Alexa selon les usages",
+   "Reflets directs et distractifs comme un miroir.",
+   "Je ne peux pas faire grand-chose pour lisser le contenu de basse qualité sans causer une perte de détails fins.",
+   "Basses audio trop faibles",
+   "Absence de prise casque jack"
+  ]
+ },
+ "Hisense E7Q Pro": {
+  "source": "https://www.commentchoisir.fr/test-Hisense_E7Q+Pro.htm",
+  "tests": [
+   {
+    "media": "Les Numériques",
+    "note10": 10.0,
+    "date": "12/11/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55e7q-pro-p77341/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "10/12/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65e7q-pro-p77593/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "10/12/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-75e7q-pro-p77594/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "10/12/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-85e7q-pro-p77595/test.html"
+   },
+   {
+    "media": "Les Numériques",
+    "note10": null,
+    "date": "10/12/2025",
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-100e7q-pro-p77596/test.html"
+   },
+   {
+    "media": "Tweakers",
+    "note10": 7.0,
+    "date": "26/12/2025",
+    "url": "https://tweakers.net/reviews/14160/hisense-e7q-pro-qled-tv-simpele-tv-voor-een-lastige-prijs.html"
+   },
+   {
+    "media": "FrAndroid",
+    "note10": null,
+    "date": "27/12/2025",
+    "url": "https://www.frandroid.com/marques/hisense/2920197_test-du-hisense-55e7q-pro-un-televiseur-qled-144-hz-accessible-tres-fluide-et-reactif"
+   },
+   {
+    "media": "MDS CineSon",
+    "note10": null,
+    "date": "06/06/2026",
+    "url": "https://www.mds-cineson.fr/test-hisense-55e7q-pro-tv-qled-4k-lexperience-immersive-a-144hz"
+   }
+  ],
+  "pros": [
+   "Dalle Mini-LED avec 1 000 nits de luminosité crête",
+   "144 Hz natifs et mode HSR 240 Hz pour une fluidité élevée",
+   "Compatibilité AMD FreeSync Premium idéale pour le gaming",
+   "Dolby Vision IQ et HDR 10",
+   "+ pour les contenus HDR",
+   "Smart TV VIDAA réactive avec Alexa et AirPlay 2 intégrés",
+   "Bon rapport fonctionnalités/prix dans sa gamme",
+   "Bon calibrage SDR.",
+   "Dalle 144 Hz fluide.",
+   "Plutôt réactif pour le jeu vidéo.",
+   "Compatibilité Dolby Vision et HDR10",
+   "Consommation faible."
+  ],
+  "cons": [
+   "#8211; Finition d'écran brillante sensible aux reflets en environnement éclairé",
+   "#8211; Système VIDAA moins fourni en applications que Google TV ou Tizen",
+   "#8211; Gestion des halos Mini-LED perfectible sur les scènes très contrastées",
+   "#8211; Rétroéclairage direct moins précis qu'un full-array haut de gamme",
+   "Luminosité HDR trop faible.",
+   "Angles de vision limités.",
+   "Blooming visible.",
+   "Réflectance élevée.",
+   "Audio sans relief.",
+   "Télécommande non rétroéclairée.",
+   "Pic de luminosité très limité",
+   "HDR manquant de punch et d'éclat"
+  ]
+ }
+}
