@@ -1044,8 +1044,8 @@
   "source": "https://www.electrodepot.fr/media/catalog/product/P10020661.jpg"
  },
  "sony-wh-1000xm6": {
-  "constructeur": "Sony",
-  "source": "https://sony.scene7.com/is/image/sonyglobalsolutions/WH1000XM6_Product_intro_16_M"
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
  },
  "sony-ult-wear": {
   "constructeur": "Sony",
@@ -1108,16 +1108,16 @@
   "source": "https://cdn.media.amplience.net/i/canon/powershot-v1_range-page_462cfb394cc4450c92ae2d0c182b8f2f"
  },
  "canon-eos-r50": {
-  "constructeur": "Canon",
-  "source": "https://cdn.media.amplience.net/i/canon/eos-r50-bk-frt-rf-s-18-45mm_related-products_01_5dd84105a7a247048773392b1e33b7d2"
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
  },
  "fujifilm-x-m5": {
-  "constructeur": "Fujifilm",
-  "source": "https://fujifilm-x.b-cdn.net/wp-content/uploads/2024/10/product_thumb_x-m5.jpg"
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
  },
  "fujifilm-x-t50": {
-  "constructeur": "Fujifilm",
-  "source": "https://fujifilm-x.b-cdn.net/wp-content/uploads/2024/05/product-list_X-T50_front_16-50_silver.jpg"
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
  },
  "nikon-z50-ii": {
   "constructeur": "Nikon",
@@ -1242,5 +1242,61 @@
  "nothing-ear-open": {
   "constructeur": "Nothing",
   "source": "fr.nothing.tech (page produit Ear (open))"
+ },
+ "sony-inzone-e9": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "razer-kraken-kitty-v3-pro": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "razer-barracuda-v2-pro": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "audeze-maxwell-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "turtle-beach-stealth-pro-ii": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "razer-blackshark-v3-pro": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "soundcore-aerofit-2-pro": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "soundcore-aerofit-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "sony-linkbuds-clip": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "sony-linkbuds-open": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "huawei-freeclip": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "shokz-opendots-one": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "shokz-openrun-pro-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
+ },
+ "shokz-openfit-2": {
+  "constructeur": "visuel produit fourni par Matthieu",
+  "source": "fourni par Matthieu (chat)"
  }
 }

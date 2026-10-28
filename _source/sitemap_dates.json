@@ -173,7 +173,7 @@
 },
 "audio/": {
 "d": "2026-10-28",
-"h": "e4f55c176381"
+"h": "d45c017ea7c3"
 },
 "audio/apple-airpods-4-anc/": {
 "d": "2026-10-28",
@@ -189,7 +189,7 @@
 },
 "audio/audeze-maxwell-2/": {
 "d": "2026-10-28",
-"h": "78fe8f605b02"
+"h": "810f5671c5b8"
 },
 "audio/bose-quietcomfort-ultra-earbuds-2e-gen/": {
 "d": "2026-10-28",
@@ -205,7 +205,7 @@
 },
 "audio/casques-gaming/": {
 "d": "2026-10-28",
-"h": "2051ca36137b"
+"h": "d02954c060a9"
 },
 "audio/cmf-buds-pro-2/": {
 "d": "2026-10-28",
@@ -217,11 +217,11 @@
 },
 "audio/ecouteurs-open-ear/": {
 "d": "2026-10-28",
-"h": "1405dc4ef869"
+"h": "fa17972312ce"
 },
 "audio/ecouteurs-reduction-de-bruit/": {
 "d": "2026-10-28",
-"h": "dc0df8c4f94a"
+"h": "83b62f39b8c8"
 },
 "audio/enceintes-bluetooth/": {
 "d": "2026-10-28",
@@ -229,15 +229,15 @@
 },
 "audio/google-pixel-buds-pro-2/": {
 "d": "2026-10-28",
-"h": "10b5d98d282d"
+"h": "89c98b6517fa"
 },
 "audio/huawei-freeclip/": {
 "d": "2026-10-28",
-"h": "664ad76de5c6"
+"h": "fa610f8b723c"
 },
 "audio/hyperx-cloud-alpha-2/": {
 "d": "2026-10-28",
-"h": "6528209f3a6f"
+"h": "f44ef4d462ed"
 },
 "audio/jbl-charge-6/": {
 "d": "2026-10-28",
@@ -273,7 +273,7 @@
 },
 "audio/nothing-ear-open/": {
 "d": "2026-10-28",
-"h": "e34128b0fbbf"
+"h": "d7eae6955f5f"
 },
 "audio/nothing-headphone-1/": {
 "d": "2026-10-28",
@@ -281,15 +281,15 @@
 },
 "audio/razer-barracuda-v2-pro/": {
 "d": "2026-10-28",
-"h": "51fe72072bdc"
+"h": "9772e1ae432e"
 },
 "audio/razer-blackshark-v3-pro/": {
 "d": "2026-10-28",
-"h": "7d5fbccea9a3"
+"h": "120ef889edb3"
 },
 "audio/razer-kraken-kitty-v3-pro/": {
 "d": "2026-10-28",
-"h": "80f2956d0ff3"
+"h": "1777e3f25815"
 },
 "audio/samsung-galaxy-buds4-pro/": {
 "d": "2026-10-28",
@@ -309,15 +309,15 @@
 },
 "audio/shokz-opendots-one/": {
 "d": "2026-10-28",
-"h": "8dcf4f702625"
+"h": "51ed11a0d223"
 },
 "audio/shokz-openfit-2/": {
 "d": "2026-10-28",
-"h": "8e114e6a6bd1"
+"h": "a3b78b294543"
 },
 "audio/shokz-openrun-pro-2/": {
 "d": "2026-10-28",
-"h": "d6ac127abebb"
+"h": "088fbe255164"
 },
 "audio/sonos-roam-2/": {
 "d": "2026-10-28",
@@ -325,15 +325,15 @@
 },
 "audio/sony-inzone-e9/": {
 "d": "2026-10-28",
-"h": "aa167e510cc3"
+"h": "60ec6e1b314d"
 },
 "audio/sony-linkbuds-clip/": {
 "d": "2026-10-28",
-"h": "899282ace4aa"
+"h": "9fec53bca961"
 },
 "audio/sony-linkbuds-open/": {
 "d": "2026-10-28",
-"h": "c9cef3a9fccc"
+"h": "d5106f982c8c"
 },
 "audio/sony-ult-field-1/": {
 "d": "2026-10-28",
@@ -349,7 +349,7 @@
 },
 "audio/sony-wf-c710n/": {
 "d": "2026-10-28",
-"h": "b3ccaa952b14"
+"h": "dd6ece92fe2f"
 },
 "audio/sony-wh-1000xm5/": {
 "d": "2026-10-28",
@@ -361,19 +361,19 @@
 },
 "audio/soundcore-aerofit-2-pro/": {
 "d": "2026-10-28",
-"h": "17bca326f32b"
+"h": "7099b0ed34a1"
 },
 "audio/soundcore-aerofit-2/": {
 "d": "2026-10-28",
-"h": "8c91a35d7b5d"
+"h": "cbee18020d20"
 },
 "audio/steelseries-arctis-nova-pro-omni/": {
 "d": "2026-10-28",
-"h": "93d4ec917cfc"
+"h": "2e05e4b2d79a"
 },
 "audio/turtle-beach-stealth-pro-ii/": {
 "d": "2026-10-28",
-"h": "b87b19aa3c05"
+"h": "439ed751bc8d"
 },
 "audio/ue-wonderboom-4/": {
 "d": "2026-10-28",
