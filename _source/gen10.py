@@ -14,7 +14,7 @@ from guides import GUIDES
 from guides_desk import GUIDES_DESK
 from desk import DCATS
 from profiles import PROFILES
-from familles_new import ECATS, ICATS, SCATS, FAMILIES_NEW, FAQ_E, FAQ_I, FAQ_S
+from familles_new import ECATS, ICATS, SCATS, TCATS, FAMILIES_NEW, FAQ_E, FAQ_I, FAQ_S, FAQ_T
 from guides_new import GUIDES_NEW
 from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
@@ -35,7 +35,7 @@ IND = f"prix indicatif · {PRIX_DATE}"
 # Sans entrée pour une rubrique, on retombe sur les dates globales.
 ASSOC = {"Test-Achats", "Que Choisir", "Which?", "Tænk", "Choice", "Stiftung Warentest", "Consumer Reports", "OCU", "Altroconsumo"}
 MAISON_SLUGS = ("aspirateur-robot", "tv")   # univers « Maison » : accent et ambiance propres (extra21.css)
-FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante", "robot": "robot"}
+FAM_REL = {"laptop": "portable", "desktop": "bureau", "ecran": "ecran", "imprimante": "imprimante", "robot": "robot", "tv": "tv"}
 FAM_DATES = DATA.get("familles", {})
 
 
@@ -249,7 +249,7 @@ def rank_key(d):
 
 by_cat = {k: sorted([d for d in ITEMS.values() if d["cat"] == k], key=rank_key) for k in CAT}
 for k in CAT:
-    assert len(by_cat[k]) == 10 or k[:2] == "s-", k
+    assert len(by_cat[k]) == 10 or k[:2] in ("s-", "t-"), k
     for i, d in enumerate(by_cat[k], 1):   # « le choix de la bande » rétrogradé faute de notes : badge honnête
         d["badge"] = badge_affiche(d["badge"], i)
 
@@ -644,7 +644,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
+      <div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}black-friday/">Black Friday 2026</a><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a><span>MAJ {MAJ}</span></div>
     </div>
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
@@ -702,7 +702,7 @@ FAQ_L = [
 
 
 def fam_faq(fam):
-    return {"ecran": FAQ_E, "imprimante": FAQ_I, "robot": FAQ_S}.get(fam["key"], FAQ_L)
+    return {"ecran": FAQ_E, "imprimante": FAQ_I, "robot": FAQ_S, "tv": FAQ_T}.get(fam["key"], FAQ_L)
 
 
 # ---------------------------------------------------------------- Pages comparatif par famille
@@ -1497,6 +1497,7 @@ ICON = {
     "ecran": '<rect x="2.5" y="4" width="19" height="12" rx="1"/><path d="M12 16v3.5M8 19.5h8"/>',
     "imprimante": '<path d="M7 9V3.5h10V9"/><rect x="3" y="9" width="18" height="7.5" rx="1.2"/><path d="M7 14h10v6.5H7z"/>',
     "robot": '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/><path d="M12 3.5v2.5"/>',
+    "tv": '<rect x="2.5" y="5" width="19" height="12" rx="1.5"/><path d="M8 20h8"/>',
 }
 def fam_btn(fam):
     n = sum(len(by_cat[c["key"]]) for c in fam["cats"])
@@ -1506,7 +1507,7 @@ FAM_BTNS = ('<div class="fb-group"><span class="fb-label">Informatique</span><di
             + "\n        ".join(fam_btn(f) for f in FAMILIES if f["slug"] not in MAISON_SLUGS) + '</div></div>'
             '<div class="fb-group maison"><span class="fb-label">Maison</span><div class="fb-row">'
             + "\n        ".join(fam_btn(f) for f in FAMILIES if f["slug"] in MAISON_SLUGS)
-            + '<span class="fam-btn ghost"><span class="fb-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="12" rx="1.5"/><path d="M8 20h8"/></svg></span><span class="fb-txt"><b>TV et home cinéma</b><small>Bientôt</small></span></span></div></div>')
+            + '</div></div>')
 
 home = f"""
   <section class="home-hero">
@@ -1596,9 +1597,10 @@ home = f"""
         <div class="fam-art"><img src="assets/img/badge-robots-laveurs-v2.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-balais-laveurs-v2.webp" alt="" width="96" height="96"><img src="assets/img/badge-robots-animaux-v2.webp" alt="" width="96" height="96"></div>
         <h3>Robots aspirateurs</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'robot')} robots aspirateurs laveurs, classés d'après les tests de la presse. D'autres usages arrivent.</p>
         <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in SCATS)}</div><span class="uc-go">Explorer →</span></a>
-      <div class="fam-card maison ghost" aria-label="TV et home cinéma, bientôt">
-        <h3>TV et home cinéma</h3><p>Petits prix, tailles 43, 55 et 65 pouces, barres de son : les tests de la presse, usage par usage.</p>
-        <div class="fam-chips"><span>Petit prix</span><span>43″ et moins</span><span>50–55″</span><span>65″ et plus</span><span>Barres de son</span></div><span class="soon-chip">Bientôt</span></div>
+      <a class="fam-card maison" href="tv/">
+        <div class="fam-art"><img src="assets/img/badge-gaming.webp" alt="" width="96" height="96"></div>
+        <h3>TV et home cinéma</h3><p>{sum(1 for d in ITEMS.values() if d['family'] == 'tv')} téléviseurs 50–55 pouces classés d'après les tests de la presse. Petits formats, grands écrans, petits prix et barres de son arrivent.</p>
+        <div class="fam-chips">{''.join(f'<span>{c["label"]}</span>' for c in TCATS)}</div><span class="uc-go">Explorer →</span></a>
     </div>
     <div class="soon-grid">{''.join(f'<div class="soon-card"><img class="soon-img" src="assets/img/{SOON_IMG[i]}.webp" alt="" width="84" height="84" loading="lazy"><span class="soon-chip">Bientôt</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(SOON))}</div>
   </section>

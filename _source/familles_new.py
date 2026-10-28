@@ -57,6 +57,12 @@ SCATS = [
          intro="Moins de 400 € : on retient les robots et les balais laveurs bien notés par la presse, avec le prix constaté chez Amazon. Plusieurs figurent aussi dans leur usage d'origine (robots laveurs, balais laveurs)."),
 ]
 
+TCATS = [
+    dict(key="t-55", slug="50-55-pouces", label="50–55″", top_label="téléviseurs 50–55 pouces", h="50–55 pouces", tag="La taille du salon", color="var(--cat-gaming)", cls="f-gaming", badge="gaming",
+         h1='Les meilleurs <span class="flash">téléviseurs 50–55 pouces</span> en 2026',
+         intro="Le 55 pouces est la taille la plus vendue : assez grand pour le salon, accessible en OLED comme en Mini-LED. La presse départage la luminosité, le contraste, le jeu et le son intégré."),
+]
+
 FAMILIES_NEW = [
     dict(key="ecran", slug="ecran-pc", label="Écran PC", plural="Écrans PC", plural_low="écrans PC", cats=ECATS, provisional=False,
          m_labels=("Taille et définition", "Fréquence"), col="Taille", mascot="pose-ecran", noun="écran", noun_det="l'écran",
@@ -82,6 +88,14 @@ FAMILIES_NEW = [
          desc="Les meilleurs robots aspirateurs laveurs 2026 classés d'après les tests de la presse : note sur 10, prix indicatif, points forts et faibles.",
          usage_title="Meilleurs robots et aspirateurs : {label} 2026, tests et prix | Top 10 Geek",
          usage_desc="Les meilleurs modèles « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
+    dict(key="tv", slug="tv", label="Téléviseur", plural="Téléviseurs", plural_low="téléviseurs", cats=TCATS, provisional=False,
+         m_labels=("Technologie", "Atout"), col="Technologie", mascot="pose-ecran", noun="téléviseur", noun_det="le téléviseur",
+         h1='Comparatif téléviseurs 2026 : <span class="flash">le verdict par taille et par usage</span>',
+         intro="Les téléviseurs les mieux testés par la presse, avec une note sur 10, un prix indicatif relevé chez Amazon et les liens vers les marchands.",
+         title="Meilleur téléviseur 2026 : tous les tests par taille | Top 10 Geek",
+         desc="Les meilleurs téléviseurs 2026 classés d'après les tests de la presse : note sur 10, prix indicatif, points forts et faibles.",
+         usage_title="Meilleurs téléviseurs {label} 2026 : tests et prix | Top 10 Geek",
+         usage_desc="Les meilleurs téléviseurs « {label} » en 2026, classés par note presse, avec prix indicatif, points forts et points faibles."),
 ]
 
 FAQ_E = [
@@ -106,4 +120,12 @@ FAQ_S = [
     ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage : de préférence un produit de la zone « bonnes affaires » du radar (note presse d'au moins 8/10, prix sous la médiane de l'usage), si sa note repose sur au moins 3 notes presse. Ensuite viennent les robots notés par au moins 3 médias, puis ceux qui n'ont qu'1 ou 2 notes. Dans chaque groupe, ils sont classés par note presse ajustée : une note isolée pèse moins qu'une moyenne de nombreux tests."),
     ("Faut-il une station qui vide et lave toute seule ?", "Si vous voulez ne toucher au robot qu'une fois par mois, oui : la station vide le bac, lave et sèche la serpillière. Elle prend de la place et coûte plus cher. Pour un petit logement ou un budget serré, un robot sans station suffit souvent."),
     ("D'où viennent les prix ?", "Nous affichons un prix indicatif par robot : le plus bas constaté sur Amazon ou chez Electro Dépôt lors de notre dernier relevé, arrondi à la dizaine d'euros. Pour Electro Dépôt, nous affichons aussi son prix exact, tiré de son flux produits officiel. Quand le robot n'est proposé que par un vendeur tiers sur Amazon, nous l'indiquons. Seul le prix affiché par le marchand fait foi."),
+]
+
+FAQ_T = [
+    ("Comment est calculée la note presse ?", "C'est la moyenne simple des notes publiées par les médias spécialisés (Les Numériques, RTINGS, Clubic, Trusted Reviews, What Hi-Fi?…), toutes converties sur 10 : 4/5 devient 8/10. Le nombre de tests est toujours indiqué à côté de la note."),
+    ("Comment est établi le classement ?", "En tête : « le choix de la bande », notre recommandation pour l'usage : de préférence un produit de la zone « bonnes affaires » du radar (note presse d'au moins 8/10, prix sous la médiane de l'usage), si sa note repose sur au moins trois tests. Le reste du classement suit la note presse, corrigée du nombre de tests."),
+    ("OLED ou Mini-LED : que choisir ?", "L'OLED offre des noirs parfaits et un contraste infini : c'est le meilleur choix pour les films dans une pièce sombre ou tamisée. Le Mini-LED est plus lumineux et souvent moins cher : il convient mieux à un salon éclairé. Pour un même budget, un bon Mini-LED vaut souvent mieux qu'un OLED d'entrée de gamme."),
+    ("Les tests portent-ils sur la taille indiquée ?", "Pas toujours : la presse teste souvent une seule taille d'une gamme (55 ou 65 pouces) et ses conclusions valent pour toute la série. Le prix affiché est celui de la taille de l'usage, 55 pouces sauf mention contraire ; la mention « gamme » signale que les tests portent sur une taille ou une variante proche."),
+    ("D'où viennent les prix ?", "Nous affichons un prix indicatif par téléviseur : celui constaté sur Amazon lors de notre dernier relevé, arrondi à la dizaine d'euros. Les téléviseurs étant souvent en promotion, vérifiez le prix et le vendeur sur la fiche du marchand avant d'acheter."),
 ]

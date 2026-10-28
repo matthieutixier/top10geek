@@ -1,0 +1,67 @@
+[
+ {
+  "id": "lg-oled-g5",
+  "texte": "Les 7 médias qui ont testé le LG OLED G5 55\" lui attribuent tous 10/10 : 01net, IGN, L&B Tech et Multiplayer.it. La moyenne est donc de 10/10, sans aucune voix discordante parmi les tests chiffrés recensés. Les tests portent sur la série G5, dont le prix suivi ici est celui du 55 pouces.\n\nLes tests recensés retiennent une luminosité de crête très élevée, une image nette et colorée, et un équipement complet pour les joueurs, avec un large support des formats HDR. Côté réserves : un son terne, une luminosité réduite en mode Jeu, l'absence de l'audio DTS et un risque de rémanence si on l'utilise longtemps comme moniteur de PC.",
+  "sources": [
+   "01net",
+   "IGN",
+   "L&B Tech",
+   "Multiplayer.it"
+  ]
+ },
+ {
+  "id": "samsung-qn90f-50",
+  "texte": "Côté presse, 5 avis chiffrés pour le Samsung Neo QLED QN90F 50\", moyenne 8,3/10. Le sommet (10) est atteint par Labo Fnac ; le plancher (6) par IGN. Les Numériques, Clubic.com et RTings se placent entre les deux. Les tests portent sur la série QN90F ; le prix suivi est celui du 50 pouces, seule taille vendue par Amazon au moment du relevé.\n\nLes tests recensés apprécient des noirs profonds, une excellente luminosité HDR, un traitement anti-éblouissement et de nombreuses fonctions de jeu. Ils reprochent l'absence de Dolby Vision, un prix élevé face à la concurrence, des niveaux de noir moins bons en mode Jeu et une couverture colorimétrique limitée face aux dalles QD-OLED.",
+  "sources": [
+   "Labo Fnac",
+   "IGN",
+   "Les Numériques",
+   "Clubic.com",
+   "RTings"
+  ]
+ },
+ {
+  "id": "sony-bravia-3-55",
+  "texte": "À 6,5/10 en moyenne, le Sony Bravia 3 55\" est jugé par 4 médias. On trouve 7 chez FrAndroid et RTings et 6 chez PhonAndroid et What Hi-Fi?. Les tests portent sur la série Bravia 3, y compris sa version 2026 ; le prix suivi est celui du 55 pouces.\n\nLes tests recensés citent le traitement d'image Sony, l'interface Google TV, la connectivité HDMI 2.1 et un rapport qualité-prix attractif. Les réserves : un manque de luminosité HDR, des reflets bien gérés seulement face à l'écran, une dalle native 50/60 Hz et un son intégré perfectible pour le cinéma.",
+  "sources": [
+   "FrAndroid",
+   "RTings",
+   "PhonAndroid",
+   "What Hi-Fi?"
+  ]
+ },
+ {
+  "id": "samsung-qn80f-55",
+  "texte": "Le Samsung Neo QLED QN80F 55\" cumule 2 notes comprises entre 7 et 8. La plus généreuse vient de FrAndroid, la plus sévère de RTings ; la moyenne s'établit à 7,5/10. Les tests portent sur la série QN80F, et seuls deux médias l'ont notée : la moyenne est donc plus fragile.\n\nLes tests recensés retiennent un rétroéclairage Mini-LED à points quantiques, de belles couleurs naturelles, un son harmonieux et un design plat. Côté réserves : pas de Dolby Vision (HDR10 uniquement), une classe énergétique F, quelques zones d'assombrissement et un Q-Symphony qui demande une barre de son Samsung.",
+  "sources": [
+   "FrAndroid",
+   "RTings"
+  ]
+ },
+ {
+  "id": "hisense-u7q-55",
+  "texte": "Notre moyenne de 7,8/10 pour le Hisense U7Q 55\" agrège 4 médias : Les Numériques, PhonAndroid et ZTGD monte jusqu'à 8, Clubic.com s'arrête à 7. Les tests portent sur la série U7Q, avec un prix suivi pour le 55 pouces.\n\nLes tests recensés apprécient un contraste natif élevé grâce à la dalle VA, un calibrage très propre en mode Filmmaker, un HDMI 2.1 complet et un mode jeu à très faible latence. Ils reprochent un rétroéclairage Mini-LED peu dense, une luminosité HDR limitée, un revêtement semi-brillant sensible aux reflets et une télécommande basique.",
+  "sources": [
+   "Les Numériques",
+   "PhonAndroid",
+   "ZTGD",
+   "Clubic.com"
+  ]
+ },
+ {
+  "id": "lg-qned85-55",
+  "texte": "Les 2 médias qui ont testé le LG QNED85 55\" lui attribuent tous 8/10 : T3 et Trusted Reviews. La moyenne est donc de 8/10, sans aucune voix discordante parmi les tests chiffrés recensés. Seuls deux médias ont noté la série QNED85 : prudence sur la solidité de cette moyenne.\n\nLes tests recensés citent une grande luminosité maximale, une bonne gestion des reflets, un angle de vision cohérent et une image 4K détaillée. Les réserves : des couleurs peu vives, un son assez médiocre, une mise en œuvre de l'IA pas entièrement réussie et des limites sur les contenus de résolution inférieure.",
+  "sources": [
+   "T3",
+   "Trusted Reviews"
+  ]
+ },
+ {
+  "id": "hisense-e7q-pro-55",
+  "texte": "2 tests chiffrés pour le Hisense E7Q Pro 55\", soit 6,5/10 en moyenne. FrAndroid : 7. Les Numériques : 6. La série E7Q Pro n'est notée que par deux médias, et le prix suivi correspond au 55 pouces.\n\nLes tests recensés retiennent une dalle Mini-LED à 1 000 nits de crête, du 144 Hz natif, le FreeSync Premium et le Dolby Vision IQ. Côté réserves : une finition brillante sensible aux reflets, un système VIDAA moins fourni en applications, des halos Mini-LED perfectibles sur les scènes contrastées et des angles de vision limités.",
+  "sources": [
+   "FrAndroid",
+   "Les Numériques"
+  ]
+ }
+]

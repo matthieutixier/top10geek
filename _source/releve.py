@@ -47,6 +47,7 @@ FAMILLES = {
     "ecran": lambda c: c.startswith("e-"),
     "imprimante": lambda c: c.startswith("i-"),
     "robot": lambda c: c.startswith("s-"),
+    "tv": lambda c: c.startswith("t-"),
 }
 
 # statuts : ok | indispo | marketplace | autre_produit | captcha | echec

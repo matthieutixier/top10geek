@@ -25,14 +25,14 @@ def fiche(u):
             if not lien: continue
             media = html.unescape(lien.group(2)).strip()
             note = re.search(r'\[(\d+(?:[.,]\d+)?)\s*/\s*(\d+)\]', part)
-            n10 = None
-            if note:
-                n10 = round(10 * float(note.group(1).replace(',', '.')) / float(note.group(2)), 1)
-            elif pending and norm(pending[2]) == norm(media):
-                n10 = round(10 * pending[0] / pending[1], 1)
-            if pending and norm(pending[2]) == norm(media): pending = None
+            n10 = None; origine = ''
+            if pending and norm(pending[2]) == norm(media):
+                n10 = round(10 * pending[0] / pending[1], 1)   # la note du bloc média prime
+                pending = None; origine = 'bloc'
+            elif note:
+                n10 = round(10 * float(note.group(1).replace(',', '.')) / float(note.group(2)), 1); origine = 'inline'
             date = re.search(r'test.? le (\d\d/\d\d/\d{4})', part)
-            tests.append(dict(media=media, note10=n10, date=date.group(1) if date else '', url=lien.group(1)))
+            tests.append(dict(media=media, note10=n10, origine=origine, date=date.group(1) if date else '', url=lien.group(1)))
     seen = set(); uniq = []
     for t in tests:
         if t['url'] in seen: continue

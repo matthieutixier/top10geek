@@ -24085,6 +24085,649 @@
      "RTings"
     ]
    }
+  },
+  "lg-oled-g5": {
+   "cat": "t-55",
+   "short": "LG OLED G5 55\"",
+   "ref": "OLED evo · 4 000 nits · 144 Hz",
+   "badge": "Le choix de la bande",
+   "verdict": "Le téléviseur le mieux noté de la sélection : une image très lumineuse et des noirs parfaits, avec un équipement complet pour le jeu. Son prix est celui du haut de gamme.",
+   "strengths": [
+    "Luminosité de crête très élevée",
+    "Qualité d'image excellente, nette et colorée",
+    "Excellent ensemble de fonctionnalités pour les joueurs"
+   ],
+   "weak": [
+    "Son terne",
+    "Luminosité réduite en mode Jeu",
+    "Pas de support de l'audio DTS"
+   ],
+   "m": [
+    "OLED evo",
+    "Prix élevé"
+   ],
+   "id": "lg-oled-g5",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 1299.0,
+     "url": "https://www.amazon.fr/dp/B0F3D88VP6?tag=geekconcept-21",
+     "name": "LG OLED55G54LW TV 55 pouces OLED Evo 4K Smart TV AI G5",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F3D88VP6"
+    }
+   ],
+   "press": {
+    "avg": 10.0,
+    "n": 7,
+    "tests": 9,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "01net",
+      "score": 10.0,
+      "url": "https://www.01net.com/tests/test-lg-oled65g5-plus-quun-televiseur-une-veritable-oeuvre-dart-sur-le-mur-du-salon.html",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 10.0,
+      "url": "https://www.ign.com/articles/lg-g5-review",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": 10.0,
+      "url": "https://www.lbtechreviews.com/test/tv/lg-oled-g5-oled65g5",
+      "date": ""
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 10.0,
+      "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html",
+      "date": ""
+     },
+     {
+      "src": "PCGamer",
+      "score": 10.0,
+      "url": "https://www.pcgamer.com/hardware/gaming-monitors/lg-ultragear-25g590b-review/",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/lg-oled55g5",
+      "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 10.0,
+      "url": "https://www.whathifi.com/reviews/lg-g5",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/ces-25-tv-oled-lg-g5-et-lg-m5-4-000-nits-confirmes-43822",
+      "date": ""
+     },
+     {
+      "src": "FlatpanelsHD",
+      "score": null,
+      "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1748586137",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 1299.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les 7 médias qui ont testé le LG OLED G5 55\" lui attribuent tous 10/10 : 01net, IGN, L&B Tech et Multiplayer.it. La moyenne est donc de 10/10, sans aucune voix discordante parmi les tests chiffrés recensés. Les tests portent sur la série G5, dont le prix suivi ici est celui du 55 pouces.\n\nLes tests recensés retiennent une luminosité de crête très élevée, une image nette et colorée, et un équipement complet pour les joueurs, avec un large support des formats HDR. Côté réserves : un son terne, une luminosité réduite en mode Jeu, l'absence de l'audio DTS et un risque de rémanence si on l'utilise longtemps comme moniteur de PC.",
+    "date": "2026-10-28",
+    "n": 7,
+    "tests": 9,
+    "sources": [
+     "01net",
+     "IGN",
+     "L&B Tech",
+     "Multiplayer.it"
+    ]
+   }
+  },
+  "samsung-qn90f-50": {
+   "cat": "t-55",
+   "short": "Samsung Neo QLED QN90F 50\"",
+   "ref": "Mini-LED · anti-reflets · 144 Hz",
+   "badge": "Le mini-LED premium",
+   "verdict": "Un Mini-LED Samsung très bien noté pour ses noirs profonds et sa luminosité HDR, avec un traitement anti-reflets. Pas de Dolby Vision et un prix élevé pour la taille.",
+   "strengths": [
+    "Qualité d'image époustouflante avec des noirs profonds",
+    "Excellente luminosité HDR",
+    "Écran anti-éblouissement"
+   ],
+   "weak": [
+    "Pas de Dolby Vision",
+    "Cher par rapport aux téléviseurs concurrents",
+    "Niveaux de noir moins bons en mode Jeu"
+   ],
+   "m": [
+    "Mini-LED",
+    "Anti-reflets"
+   ],
+   "id": "samsung-qn90f-50",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 799.0,
+     "url": "https://www.amazon.fr/dp/B0F2241BR4?tag=geekconcept-21",
+     "name": "Samsung Mini TV 50 Pouces Neo QLED QN90F 4K Mini LED Smart TV",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F2241BR4"
+    }
+   ],
+   "press": {
+    "avg": 8.32,
+    "n": 5,
+    "tests": 7,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/629139-test-labo-du-samsung-tq43qn90fat-un-qled-qui-a-presque-tout-pour-lui/",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.6,
+      "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-65qn90f-p77181/test.html",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 8.0,
+      "url": "https://www.clubic.com/test-produit-568809-test-samsung-qn90f.html",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/tv/reviews/samsung/qn90f",
+      "date": ""
+     },
+     {
+      "src": "IGN",
+      "score": 6.0,
+      "url": "https://www.ign.com/articles/samsung-qn90f-review",
+      "date": ""
+     },
+     {
+      "src": "Android Headlines",
+      "score": null,
+      "url": "https://www.androidheadlines.com/2025/08/samsung-qn90f-tv-ultimate-review-the-mini-led-tv-that-just-might-make-you-forget-oled.html",
+      "date": ""
+     },
+     {
+      "src": "L&B Tech",
+      "score": null,
+      "url": "https://www.lbtechreviews.com/test/tv/samsung-qn90f-tq65qn90f",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 799.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Côté presse, 5 avis chiffrés pour le Samsung Neo QLED QN90F 50\", moyenne 8,3/10. Le sommet (10) est atteint par Labo Fnac ; le plancher (6) par IGN. Les Numériques, Clubic.com et RTings se placent entre les deux. Les tests portent sur la série QN90F ; le prix suivi est celui du 50 pouces, seule taille vendue par Amazon au moment du relevé.\n\nLes tests recensés apprécient des noirs profonds, une excellente luminosité HDR, un traitement anti-éblouissement et de nombreuses fonctions de jeu. Ils reprochent l'absence de Dolby Vision, un prix élevé face à la concurrence, des niveaux de noir moins bons en mode Jeu et une couverture colorimétrique limitée face aux dalles QD-OLED.",
+    "date": "2026-10-28",
+    "n": 5,
+    "tests": 7,
+    "sources": [
+     "Labo Fnac",
+     "IGN",
+     "Les Numériques",
+     "Clubic.com",
+     "RTings"
+    ]
+   }
+  },
+  "sony-bravia-3-55": {
+   "cat": "t-55",
+   "short": "Sony Bravia 3 55\"",
+   "ref": "Direct LED · Google TV · HDMI 2.1",
+   "badge": "Le traitement d'image Sony",
+   "verdict": "Un téléviseur Sony abordable au traitement d'image reconnu et à l'interface Google TV, mais à la luminosité HDR limitée.",
+   "strengths": [
+    "Traitement d'image Sony",
+    "Interface Google TV",
+    "Rapport qualité-prix attractif"
+   ],
+   "weak": [
+    "Manque de luminosité HDR",
+    "Luminosité limitée dans les pièces très éclairées",
+    "Dalle native 50/60 Hz, sans 120 Hz"
+   ],
+   "m": [
+    "Direct LED",
+    "Google TV"
+   ],
+   "id": "sony-bravia-3-55",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 649.0,
+     "url": "https://www.amazon.fr/dp/B0F4KXJQ42?tag=geekconcept-21",
+     "name": "Sony BRAVIA 3 Direct LED 55 pouces Google TV (2025)",
+     "cfg": "",
+     "asin": "B0F4KXJQ42"
+    }
+   ],
+   "press": {
+    "avg": 6.5,
+    "n": 4,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 6.0,
+      "url": "https://www.phonandroid.com/test-sony-bravia-3.html",
+      "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 6.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 649.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "À 6,5/10 en moyenne, le Sony Bravia 3 55\" est jugé par 4 médias. On trouve 7 chez FrAndroid et RTings et 6 chez PhonAndroid et What Hi-Fi?. Les tests portent sur la série Bravia 3, y compris sa version 2026 ; le prix suivi est celui du 55 pouces.\n\nLes tests recensés citent le traitement d'image Sony, l'interface Google TV, la connectivité HDMI 2.1 et un rapport qualité-prix attractif. Les réserves : un manque de luminosité HDR, des reflets bien gérés seulement face à l'écran, une dalle native 50/60 Hz et un son intégré perfectible pour le cinéma.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 4,
+    "sources": [
+     "FrAndroid",
+     "RTings",
+     "PhonAndroid",
+     "What Hi-Fi?"
+    ]
+   }
+  },
+  "samsung-qn80f-55": {
+   "cat": "t-55",
+   "short": "Samsung Neo QLED QN80F 55\"",
+   "ref": "Mini-LED · Quantum Matrix · Tizen",
+   "badge": "Mini-LED Samsung",
+   "verdict": "Un Mini-LED Samsung aux belles couleurs naturelles et au design plat, mais sans Dolby Vision et à la classe énergétique F.",
+   "strengths": [
+    "Rétroéclairage Mini-LED à points quantiques",
+    "Belles couleurs naturelles",
+    "Son harmonieux et dynamique"
+   ],
+   "weak": [
+    "Pas de Dolby Vision (HDR10 uniquement)",
+    "Classe énergétique F",
+    "Quelques zones d'assombrissement"
+   ],
+   "m": [
+    "Mini-LED",
+    "Tizen"
+   ],
+   "id": "samsung-qn80f-55",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 589.0,
+     "url": "https://www.amazon.fr/dp/B0F2FJY819?tag=geekconcept-21",
+     "name": "Samsung TV AI 55QN80F Neo QLED 4K 55 pouces Smart TV 2025",
+     "cfg": "",
+     "asin": "B0F2FJY819"
+    }
+   ],
+   "press": {
+    "avg": 7.5,
+    "n": 2,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": 7.0,
+      "url": "https://www.rtings.com/tv/reviews/samsung/qn80f",
+      "date": ""
+     },
+     {
+      "src": "Connect.de",
+      "score": null,
+      "url": "https://www.connect.de/testbericht/samsung-gq65qn80f-test-3211144.html",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-samsung-neo-qled-qn80f-65-pouces-4k",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 589.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Le Samsung Neo QLED QN80F 55\" cumule 2 notes comprises entre 7 et 8. La plus généreuse vient de FrAndroid, la plus sévère de RTings ; la moyenne s'établit à 7,5/10. Les tests portent sur la série QN80F, et seuls deux médias l'ont notée : la moyenne est donc plus fragile.\n\nLes tests recensés retiennent un rétroéclairage Mini-LED à points quantiques, de belles couleurs naturelles, un son harmonieux et un design plat. Côté réserves : pas de Dolby Vision (HDR10 uniquement), une classe énergétique F, quelques zones d'assombrissement et un Q-Symphony qui demande une barre de son Samsung.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 4,
+    "sources": [
+     "FrAndroid",
+     "RTings"
+    ]
+   }
+  },
+  "hisense-u7q-55": {
+   "cat": "t-55",
+   "short": "Hisense U7Q 55\"",
+   "ref": "Mini-LED · HDMI 2.1 · VIDAA",
+   "badge": "Le bon compromis",
+   "verdict": "Un Mini-LED abordable au contraste élevé et au mode jeu réactif, mais dont la luminosité HDR reste limitée.",
+   "strengths": [
+    "Contraste natif élevé grâce à la dalle VA",
+    "Mode jeu performant, input lag très faible",
+    "HDMI 2.1 (VRR 144 Hz, ALLM, eARC)"
+   ],
+   "weak": [
+    "Rétroéclairage Mini-LED peu dense",
+    "Luminosité HDR limitée",
+    "Revêtement semi-brillant sujet aux reflets"
+   ],
+   "m": [
+    "Mini-LED",
+    "HDMI 2.1"
+   ],
+   "id": "hisense-u7q-55",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 509.0,
+     "url": "https://www.amazon.fr/dp/B0F32M68DW?tag=geekconcept-21",
+     "name": "Hisense TV 55U7Q (2025) 55 ULED Mini-LED UHD 4K",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F32M68DW"
+    }
+   ],
+   "press": {
+    "avg": 7.75,
+    "n": 4,
+    "tests": 6,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html",
+      "date": ""
+     },
+     {
+      "src": "PhonAndroid",
+      "score": 8.0,
+      "url": "https://www.phonandroid.com/test-hisense-u7q-pro.html",
+      "date": ""
+     },
+     {
+      "src": "ZTGD",
+      "score": 8.0,
+      "url": "https://ztgd.com/reviews/hisense-u7qg-hardware/",
+      "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/14114/hisense-u7q-pro-en-u8q-miniled-tvs-heldere-hdr-maar-random-reclame-in-os.html",
+      "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": null,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 509.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Notre moyenne de 7,8/10 pour le Hisense U7Q 55\" agrège 4 médias : Les Numériques, PhonAndroid et ZTGD monte jusqu'à 8, Clubic.com s'arrête à 7. Les tests portent sur la série U7Q, avec un prix suivi pour le 55 pouces.\n\nLes tests recensés apprécient un contraste natif élevé grâce à la dalle VA, un calibrage très propre en mode Filmmaker, un HDMI 2.1 complet et un mode jeu à très faible latence. Ils reprochent un rétroéclairage Mini-LED peu dense, une luminosité HDR limitée, un revêtement semi-brillant sensible aux reflets et une télécommande basique.",
+    "date": "2026-10-28",
+    "n": 4,
+    "tests": 6,
+    "sources": [
+     "Les Numériques",
+     "PhonAndroid",
+     "ZTGD",
+     "Clubic.com"
+    ]
+   }
+  },
+  "lg-qned85-55": {
+   "cat": "t-55",
+   "short": "LG QNED85 55\"",
+   "ref": "Mini-LED · 120 Hz · HDMI 2.1",
+   "badge": "Lumineux et abordable",
+   "verdict": "Un téléviseur LG lumineux, vendu à un prix contenu, qui gère bien les reflets ; les couleurs sont moins vives et le son modeste.",
+   "strengths": [
+    "Grande luminosité maximale",
+    "Gestion décente des reflets",
+    "Angle de vision cohérent"
+   ],
+   "weak": [
+    "Couleurs peu vives",
+    "Son assez médiocre",
+    "Mise en œuvre de l'IA pas entièrement réussie"
+   ],
+   "m": [
+    "Mini-LED",
+    "120 Hz"
+   ],
+   "id": "lg-qned85-55",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 509.99,
+     "url": "https://www.amazon.fr/dp/B0GWFRGP27?tag=geekconcept-21",
+     "name": "LG TV QNED Evo AI MiniLED 55QNED85 55 pouces 4K UHD Smart TV 120Hz",
+     "cfg": "",
+     "asin": "B0GWFRGP27"
+    }
+   ],
+   "press": {
+    "avg": 8.0,
+    "n": 2,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "T3",
+      "score": 8.0,
+      "url": "https://www.t3.com/tech/tvs/lg-qned85-review-qned86",
+      "date": ""
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/lg-65qned85",
+      "date": ""
+     },
+     {
+      "src": "AVCesar",
+      "score": null,
+      "url": "https://www.avcesar.com/ces-25-lg-qned85-evo-alpha-8-ai-gen-2-super-slim-design-hdmi-2-1-lg-ai-tv-43698",
+      "date": ""
+     },
+     {
+      "src": "RTings",
+      "score": null,
+      "url": "https://www.rtings.com/tv/reviews/lg/qned85t",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 509.99,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les 2 médias qui ont testé le LG QNED85 55\" lui attribuent tous 8/10 : T3 et Trusted Reviews. La moyenne est donc de 8/10, sans aucune voix discordante parmi les tests chiffrés recensés. Seuls deux médias ont noté la série QNED85 : prudence sur la solidité de cette moyenne.\n\nLes tests recensés citent une grande luminosité maximale, une bonne gestion des reflets, un angle de vision cohérent et une image 4K détaillée. Les réserves : des couleurs peu vives, un son assez médiocre, une mise en œuvre de l'IA pas entièrement réussie et des limites sur les contenus de résolution inférieure.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 4,
+    "sources": [
+     "T3",
+     "Trusted Reviews"
+    ]
+   }
+  },
+  "hisense-e7q-pro-55": {
+   "cat": "t-55",
+   "short": "Hisense E7Q Pro 55\"",
+   "ref": "Mini-LED · 144 Hz · FreeSync",
+   "badge": "Le moins cher",
+   "verdict": "Le moins cher de la sélection : une dalle Mini-LED à 144 Hz bien équipée pour le jeu, mais à la gestion des halos et aux angles de vision limités.",
+   "strengths": [
+    "Dalle Mini-LED, 1 000 nits de luminosité crête",
+    "144 Hz natifs, FreeSync Premium",
+    "Dolby Vision IQ et HDR10"
+   ],
+   "weak": [
+    "Finition brillante sensible aux reflets",
+    "Système VIDAA moins fourni en applications",
+    "Halos Mini-LED perfectibles, angles de vision limités"
+   ],
+   "m": [
+    "Mini-LED",
+    "144 Hz"
+   ],
+   "id": "hisense-e7q-pro-55",
+   "offers": [
+    {
+     "m": "Amazon",
+     "price": 489.0,
+     "url": "https://www.amazon.fr/dp/B0F1N7WT6C?tag=geekconcept-21",
+     "name": "Hisense 55E7Q Pro TV QLED 4K 55 pouces 144Hz Dolby Vision FreeSync Premium",
+     "cfg": "vendu par un vendeur tiers",
+     "asin": "B0F1N7WT6C"
+    }
+   ],
+   "press": {
+    "avg": 6.5,
+    "n": 2,
+    "tests": 4,
+    "scope": "gamme",
+    "src": [
+     "",
+     ""
+    ],
+    "notes": [
+     {
+      "src": "FrAndroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/marques/hisense/2920197_test-du-hisense-55e7q-pro-un-televiseur-qled-144-hz-accessible-tres-fluide-et-reactif",
+      "date": ""
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55e7q-pro-p77341/test.html",
+      "date": ""
+     },
+     {
+      "src": "MDS CineSon",
+      "score": null,
+      "url": "https://www.mds-cineson.fr/test-hisense-55e7q-pro-tv-qled-4k-lexperience-immersive-a-144hz",
+      "date": ""
+     },
+     {
+      "src": "Tweakers",
+      "score": null,
+      "url": "https://tweakers.net/reviews/14160/hisense-e7q-pro-qled-tv-simpele-tv-voor-een-lastige-prijs.html",
+      "date": ""
+     }
+    ]
+   },
+   "prix": 489.0,
+   "img": null,
+   "rating": null,
+   "nrev": 0,
+   "synthese": {
+    "texte": "2 tests chiffrés pour le Hisense E7Q Pro 55\", soit 6,5/10 en moyenne. FrAndroid : 7. Les Numériques : 6. La série E7Q Pro n'est notée que par deux médias, et le prix suivi correspond au 55 pouces.\n\nLes tests recensés retiennent une dalle Mini-LED à 1 000 nits de crête, du 144 Hz natif, le FreeSync Premium et le Dolby Vision IQ. Côté réserves : une finition brillante sensible aux reflets, un système VIDAA moins fourni en applications, des halos Mini-LED perfectibles sur les scènes contrastées et des angles de vision limités.",
+    "date": "2026-10-28",
+    "n": 2,
+    "tests": 4,
+    "sources": [
+     "FrAndroid",
+     "Les Numériques"
+    ]
+   }
   }
  },
  "prix_date": "octobre 2026",

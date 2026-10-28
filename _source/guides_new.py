@@ -215,4 +215,18 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : certains modèles sont vendus par des tiers."],
     budget=[("150 – 250 €", "Un bon robot de base, avec ou sans station de vidage."), ("300 – 400 €", "Station plus complète ou balai laveur haut de gamme.")],
 ),
+"t-55": dict(
+    titre="Comment choisir un téléviseur de 50 à 55 pouces",
+    intro="À cette taille, la technologie de la dalle compte plus que la diagonale. Ce qui compte : <b>la luminosité de la pièce, l'usage (films ou jeu) et le budget</b>.",
+    criteres=[
+        ("OLED ou Mini-LED", "L'OLED donne des noirs parfaits, idéal en pièce sombre ; le Mini-LED est plus lumineux et plus abordable, mieux adapté à un salon éclairé."),
+        ("Luminosité HDR", "Elle fait la différence entre un HDR spectaculaire et un HDR terne : la presse mesure la luminosité de crête en nits."),
+        ("Jeu", "Pour une console récente, cherchez HDMI 2.1, 120 Hz ou plus, VRR et un faible input lag."),
+        ("Son", "Les haut-parleurs intégrés sont rarement à la hauteur : prévoyez une barre de son si le cinéma compte."),
+    ],
+    pieges=["Se fier à la diagonale ou au nombre de Hz annoncés sans regarder le test de l'image.",
+            "Oublier que le Dolby Vision n'existe pas chez Samsung.",
+            "Comparer des prix sans regarder le vendeur : certains téléviseurs sont vendus par des tiers."],
+    budget=[("450 – 650 €", "Bons Mini-LED d'entrée de gamme, jeu à 120 Hz possible."), ("800 € et plus", "Mini-LED premium ou OLED, image nettement supérieure.")],
+),
 }

@@ -97,12 +97,12 @@ if __name__ == "__main__":
                 new["synthese"] = old["synthese"]
             data["items"][pid] = new
     # écrans et imprimantes retirés des catalogues : retirés aussi de data.json (les ordinateurs ne sont pas concernés)
-    retires = [k for k, v in data["items"].items() if v["cat"][:2] in ("e-", "i-", "s-") and k not in ECR and k not in IMP and k not in SOLS]
+    retires = [k for k, v in data["items"].items() if v["cat"][:2] in ("e-", "i-", "s-", "t-") and k not in ECR and k not in IMP and k not in SOLS]
     for k in retires:
         del data["items"][k]
     if retires:
         print("retirés :", ", ".join(retires))
     json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     from collections import Counter
-    print(len(data["items"]), "produits ;", Counter(d["cat"] for d in data["items"].values() if d["cat"][:2] in ("e-", "i-", "s-")))
+    print(len(data["items"]), "produits ;", Counter(d["cat"] for d in data["items"].values() if d["cat"][:2] in ("e-", "i-", "s-", "t-")))
     print("sans photo :", sum(1 for d in data["items"].values() if d["cat"][:2] in ("e-", "i-") and not d["img"]))
