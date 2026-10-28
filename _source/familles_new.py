@@ -58,13 +58,19 @@ SCATS = [
 ]
 
 TCATS = [
-    dict(key="t-petit", slug="petits-formats", label="Petits formats", top_label="téléviseurs jusqu'à 50 pouces", h="Petits formats (jusqu'à 50″)", tag="Pour la chambre ou le bureau", color="var(--cat-creation)", cls="f-creation", badge="gaming",
+    dict(key="t-petit", slug="petits-formats", label="Petits formats", top_label="téléviseurs jusqu'à 50 pouces", h="Petits formats (jusqu'à 50″)", tag="Pour la chambre ou le bureau", color="var(--cat-creation)", cls="f-creation", badge="tv-petits-formats",
+         scene="tv-petits-formats", scene_alt="Le père de famille geek, assis sur un lit d'enfant, un seau de pop-corn dans les bras, devant un petit téléviseur",
          extra=["samsung-qn90f-50"],
          h1='Les meilleurs <span class="flash">petits téléviseurs</span> jusqu\'à 50 pouces',
          intro="Chambre, bureau, cuisine ou studio : de 42 à 50 pouces, la presse teste peu de modèles. Voici ceux qui ont des notes chiffrées et une offre d'achat. Le Samsung QN90F 50″ figure aussi dans l'usage 50–55″."),
-    dict(key="t-55", slug="50-55-pouces", label="50–55″", top_label="téléviseurs 50–55 pouces", h="50–55 pouces", tag="La taille du salon", color="var(--cat-gaming)", cls="f-gaming", badge="gaming",
+    dict(key="t-55", slug="50-55-pouces", label="50–55″", top_label="téléviseurs 50–55 pouces", h="50–55 pouces", tag="La taille du salon", color="var(--cat-gaming)", cls="f-gaming", badge="tv-55",
+         scene="tv-55", scene_alt="Le père de famille geek, assis sur son canapé, télécommande en main et pouce levé, devant un téléviseur",
          h1='Les meilleurs <span class="flash">téléviseurs 50–55 pouces</span> en 2026',
          intro="Le 55 pouces est la taille la plus vendue : assez grand pour le salon, accessible en OLED comme en Mini-LED. La presse départage la luminosité, le contraste, le jeu et le son intégré."),
+    dict(key="t-65", slug="65-pouces-et-plus", label="65″ et plus", top_label="téléviseurs 65 pouces et plus", h="65 pouces et plus", tag="Le cinéma à la maison", color="var(--cat-poly)", cls="f-polyvalent", badge="tv-65",
+         scene="tv-65", scene_alt="Le père de famille geek, bras écartés devant un immense écran mural affichant ses applications de streaming",
+         h1='Les meilleurs <span class="flash">téléviseurs 65 pouces et plus</span> en 2026',
+         intro="À partir de 65 pouces, l'écran devient le centre du salon. Le prix grimpe vite : la presse départage la luminosité, le contraste dans une pièce sombre et le jeu en 120 Hz, et le rapport qualité-prix compte autant que l'image."),
 ]
 
 FAMILIES_NEW = [

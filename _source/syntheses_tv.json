@@ -101,5 +101,48 @@
    "FrAndroid",
    "RTings"
   ]
+ },
+ {
+  "id": "samsung-s90f-65",
+  "sources": [
+   "Labo Fnac",
+   "RTings",
+   "IGN"
+  ],
+  "texte": "À 65 pouces, le S90F est l'OLED le plus cher de ce comparatif, et la presse l'a largement testé : six médias, 8,3/10 en moyenne. Labo Fnac met 10, RTings, IGN et les autres restent autour de 8. Ces notes concernent la série S90F, pas la seule diagonale 65.\n\nCe qui revient dans les tests : un contraste d'une grande profondeur, un traitement antireflet efficace en salon lumineux et des teintes éclatantes. En face, le Dolby Vision manque à l'appel, la luminosité plafonne un peu en dessous des OLED haut de gamme et le son reste sage."
+ },
+ {
+  "id": "samsung-qn80f-65",
+  "sources": [
+   "FrAndroid",
+   "RTings"
+  ],
+  "texte": "Peu de tests pour ce Mini-LED : FrAndroid (8) et RTings (7) seulement, soit 7,5/10. C'est suffisant pour un avis préliminaire, pas pour une certitude. Le prix suivi est celui de la version 65 pouces, vendue ici par un revendeur tiers.\n\nDans les comptes rendus, on lit des couleurs naturelles grâce aux points quantiques, un châssis très fin et un son équilibré pour un téléviseur. Les points faibles : le HDR se limite au HDR10 sans Dolby Vision, la consommation est élevée (classe F) et certaines scènes sombres manquent de finesse."
+ },
+ {
+  "id": "hisense-e7q-pro-65",
+  "sources": [
+   "FrAndroid",
+   "Les Numériques"
+  ],
+  "texte": "La presse a peu écrit sur ce téléviseur Hisense : FrAndroid lui attribue 7/10 et Les Numériques 6/10, soit 6,5 de moyenne. Avec deux avis seulement, mieux vaut garder du recul. Le prix suivi correspond au 65 pouces, l'un des plus accessibles de la sélection.\n\nLes testeurs apprécient la luminosité du Mini-LED, la fluidité du 144 Hz et la prise en charge du Dolby Vision IQ pour le jeu. Ils reprochent une dalle brillante sensible aux reflets, une plateforme VIDAA moins fournie en applications et des effets de halo sur les images très contrastées."
+ },
+ {
+  "id": "lg-qned85-65",
+  "sources": [
+   "T3",
+   "Trusted Reviews"
+  ],
+  "texte": "T3 et Trusted Reviews ont chacun noté le QNED85 de LG 8/10, ce qui constitue toute la base de la moyenne affichée. Deux avis qui concordent, mais un échantillon mince. Le prix suivi est celui du 65 pouces, proposé par un vendeur tiers et non par Amazon directement.\n\nSes atouts, d'après ces tests : une image 4K bien définie, un pic de luminosité élevé et une dalle qui conserve ses couleurs sous un angle. Côté réserves : des teintes moins éclatantes que sur OLED, un haut-parleur sans relief et une IA encore peu convaincante sur les sources en basse définition."
+ },
+ {
+  "id": "sony-bravia-3-65",
+  "sources": [
+   "RTings",
+   "FrAndroid",
+   "PhonAndroid",
+   "What Hi-Fi?"
+  ],
+  "texte": "Le Bravia 3 de Sony a été noté par quatre médias, pour 6,5/10 de moyenne : RTings et FrAndroid lui donnent 7, PhonAndroid et What Hi-Fi? 6. L'ensemble reste modeste, mais le prix suivi pour le 65 pouces est l'un des plus bas de la sélection. Les notes concernent la série et non cette diagonale précise.\n\nLes avis retiennent le traitement d'image Sony, Google TV, le HDMI 2.1 et un prix attractif. Ils relèvent un HDR manquant de luminosité, des reflets gérés surtout de face, une dalle native 50/60 Hz et un son intégré moyen pour regarder des films."
  }
 ]

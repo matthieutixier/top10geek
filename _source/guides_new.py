@@ -243,4 +243,18 @@ GUIDES_NEW = {
             "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
     budget=[("450 – 500 €", "Un petit téléviseur correct pour la chambre ou la cuisine."), ("850 € et plus", "Un OLED compact, pour le bureau, le jeu ou un petit salon.")],
 ),
+"t-65": dict(
+    titre="Comment choisir un téléviseur de 65 pouces et plus",
+    intro="À 65 pouces et au-delà, le prix monte vite et chaque euro doit se justifier. Ce qui compte : <b>la luminosité de la pièce, la distance de vue et ce que vous regardez</b>.",
+    criteres=[
+        ("Distance de vue", "À 65 pouces, comptez environ 2,5 mètres ; en dessous, la 4K se voit encore mieux, au-delà un écran plus grand a du sens."),
+        ("OLED ou Mini-LED", "L'OLED donne des noirs parfaits en pièce sombre ; le Mini-LED reste plus lumineux et bien moins cher à grande taille."),
+        ("Jeu", "Pour une console récente, cherchez HDMI 2.1, 120 Hz ou plus, VRR et un faible input lag."),
+        ("Son", "Les haut-parleurs intégrés sont rarement à la hauteur sur un grand écran : une barre de son change l'expérience."),
+    ],
+    pieges=["Choisir la taille avant de mesurer la pièce et la distance de vue.",
+            "Payer un OLED pour un salon très lumineux, où un Mini-LED fait aussi bien pour moins cher.",
+            "Comparer des prix sans regarder le vendeur : plusieurs offres sont chez des tiers."],
+    budget=[("700 – 900 €", "Bons Mini-LED en 65 pouces, jeu à 120 ou 144 Hz possible."), ("1 600 € et plus", "OLED de grande taille, image nettement supérieure.")],
+),
 }

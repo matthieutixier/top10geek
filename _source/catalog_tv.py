@@ -10,6 +10,7 @@ from catalog_sols import S, TOP
 _HERE = os.path.dirname(os.path.abspath(__file__))
 T55 = "t-55"
 TPF = "t-petit"
+T65 = "t-65"
 TV = {}
 
 
@@ -131,6 +132,53 @@ add("samsung-qn80f-50", TPF, "Samsung Neo QLED QN80F 50\"", "Mini-LED · Quantum
     "B0F22914WP", "Samsung Mini TV 50 Pouces Neo QLED QN80F 4K Mini LED Smart TV", 720.11,
     "Vous voulez un Mini-LED Samsung de taille raisonnable, pour une pièce de taille moyenne ou un bureau.",
     "Vous tenez au Dolby Vision ou cherchez un tarif plus bas : le 55 pouces coûte moins cher.", scope="gamme", seller="Super10count")
+
+
+# ============================================================ 65 POUCES ET PLUS (taille de référence : 65 pouces)
+add("samsung-s90f-65", T65, "Samsung OLED S90F 65\"", "QD-OLED · 144 Hz · anti-reflets", TOP,
+    "Un OLED Samsung très bien noté pour ses couleurs vibrantes et sa gestion des reflets, mais sans Dolby Vision et nettement plus cher que les Mini-LED.",
+    ["Noirs parfaits sans halo", "Excellente gestion des reflets", "Couleurs très vibrantes et précises"],
+    ["Pas de Dolby Vision", "Luminosité en retrait face aux meilleurs OLED", "Basses limitées"],
+    ("OLED", "Anti-reflets"), "Samsung S90F",
+    "B0F2FLZW69", "Samsung TV 65 Pouces OLED S90F 4K Smart TV avec Vision AI Motion Xcelerator 144Hz", 1649.0,
+    "Vous voulez un OLED aux couleurs vives pour un salon lumineux, et acceptez un prix élevé.",
+    "Vous tenez au Dolby Vision ou cherchez un téléviseur à moins de 1 000 €.", scope="gamme", seller="Icoza")
+
+add("samsung-qn80f-65", T65, "Samsung Neo QLED QN80F 65\"", "Mini-LED · Quantum Matrix · Tizen", "Mini-LED Samsung",
+    "Un Mini-LED Samsung aux belles couleurs naturelles, vendu à un prix intermédiaire en 65 pouces, mais sans Dolby Vision et en classe énergétique F.",
+    ["Rétroéclairage Mini-LED à points quantiques", "Belles couleurs naturelles", "Son harmonieux et dynamique"],
+    ["Pas de Dolby Vision (HDR10 uniquement)", "Classe énergétique F", "Quelques zones d'assombrissement"],
+    ("Mini-LED", "Tizen"), "Samsung QN80F",
+    "B0F2FM1YNY", "Samsung TV AI 65QN80F Neo QLED 4K 65 pouces Smart TV 2025", 986.48,
+    "Vous voulez un Mini-LED Samsung de grande taille, aux couleurs naturelles, pour un salon.",
+    "Vous tenez au Dolby Vision ou à une faible consommation.", scope="gamme", seller="You Get - Innovation & Technology")
+
+add("hisense-e7q-pro-65", T65, "Hisense E7Q Pro 65\"", "Mini-LED · 144 Hz · FreeSync", "Le jeu à petit prix",
+    "Un grand téléviseur à dalle 144 Hz, bien équipé pour le jeu et vendu sous 750 €, mais aux halos Mini-LED et aux angles de vision limités.",
+    ["Dalle Mini-LED, 1 000 nits de luminosité crête", "144 Hz natifs, FreeSync Premium", "Dolby Vision IQ et HDR10"],
+    ["Finition brillante sensible aux reflets", "Système VIDAA moins fourni en applications", "Halos Mini-LED perfectibles, angles de vision limités"],
+    ("Mini-LED", "144 Hz"), "Hisense E7Q Pro",
+    "B0F1N62VSW", "Hisense 65E7Q Pro TV QLED 4K 65 pouces 144Hz Dolby Vision IQ", 749.0,
+    "Vous voulez un grand écran 144 Hz pour la console ou le PC sans dépasser 750 €.",
+    "Vous regardez dans la pénombre des scènes très contrastées ou à plusieurs, de côté.", scope="gamme", seller="best 4me")
+
+add("lg-qned85-65", T65, "LG QNED85 65\"", "Mini-LED · 120 Hz · HDMI 2.1", "Lumineux et abordable",
+    "Un téléviseur LG lumineux, qui gère bien les reflets, au prix contenu en 65 pouces ; les couleurs sont moins vives et le son modeste.",
+    ["Grande luminosité maximale", "Gestion décente des reflets", "Angle de vision cohérent"],
+    ["Couleurs peu vives", "Son assez médiocre", "Mise en œuvre de l'IA pas entièrement réussie"],
+    ("Mini-LED", "120 Hz"), "LG QNED85",
+    "B0GWFPJH72", "LG TV QNED 65 pouces 4K UHD QNED85 Smart TV 120Hz MiniLED", 799.0,
+    "Vous voulez un grand téléviseur lumineux pour un salon éclairé, sans dépasser 800 €.",
+    "Vous cherchez des couleurs éclatantes ou un bon son intégré.", scope="gamme", seller="Son-Video")
+
+add("sony-bravia-3-65", T65, "Sony Bravia 3 65\"", "Direct LED · Google TV · HDMI 2.1", "Le traitement d'image Sony",
+    "Un grand téléviseur Sony au traitement d'image reconnu et à l'interface Google TV, mais à la luminosité HDR limitée.",
+    ["Traitement d'image Sony", "Interface Google TV", "Rapport qualité-prix attractif"],
+    ["Manque de luminosité HDR", "Luminosité limitée dans les pièces très éclairées", "Dalle native 50/60 Hz, sans 120 Hz"],
+    ("Direct LED", "Google TV"), "Sony Bravia 3",
+    "B0F4KX8CK4", "Sony BRAVIA 3 Direct LED 65 pouces Google TV (2025)", 750.0,
+    "Vous voulez un grand téléviseur Sony simple, avec Google TV, pour un usage familial.",
+    "Vous regardez surtout des films HDR dans une pièce lumineuse ou jouez à 120 Hz.", scope="gamme")
 
 
 def build():
