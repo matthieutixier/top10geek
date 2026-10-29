@@ -416,6 +416,13 @@ CALENDRIER = pathlib.Path(__file__).resolve().parent / "pins_calendrier.json"   
 FEED = ROOT / "assets" / "pins" / "feed"
 
 
+def avec_utm(lien, typ):
+    """Ajoute le suivi de source (sans cookie) : le site le relit côté navigateur pour attribuer les visites et les clics à Pinterest."""
+    base, _, frag = lien.partition("#")
+    base += ("&" if "?" in base else "?") + f"utm_source=pinterest&utm_medium=social&utm_campaign={typ}"
+    return base + ("#" + frag if frag else "")
+
+
 def planifier(lignes, a):
     """Répartit les épingles pas encore planifiées sur les prochains jours : un fichier JSON par date.
 
@@ -437,7 +444,7 @@ def planifier(lignes, a):
     i, derniere = 0, cal["derniere_date"]
     while jour < fin and i < len(nouvelles):
         lot = nouvelles[i:i + a.par_jour]
-        pins = [{"title": l[1], "description": l[2], "link": l[3], "image": l[4], "board_id": str(l[6]), "board": l[5]} for l in lot]
+        pins = [{"title": l[1], "description": l[2], "link": avec_utm(l[3], l[7]), "image": l[4], "board_id": str(l[6]), "board": l[5]} for l in lot]
         json.dump({"date": jour.isoformat(), "pins": pins}, open(FEED / f"{jour.isoformat()}.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
         cal["planifies"] += [l[4] for l in lot]
         i += len(lot)
