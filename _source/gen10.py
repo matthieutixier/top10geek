@@ -1623,6 +1623,7 @@ BF_DATE = "vendredi 27 novembre 2026"
 BF_DEBUT = "2026-11-23"    # début de la semaine d'opérations ; la référence est le plus bas prix des 30 jours précédents
 BF_FIN = "2026-11-30"      # Cyber Monday
 BF_SEUIL_BAISSE = 5.0      # baisse minimale affichée (en %)
+BF_BAISSE_MAX = 50.0       # au-delà, la « baisse » est presque sûrement une erreur de relevé (autre produit, autre configuration) : non affichée
 BF_MIN_JOURS = 3           # nombre minimal de relevés de la période de référence pour parler de baisse
 BF_MAX = 20                # nombre maximal de produits dans le bloc « baisses constatées »
 
@@ -1663,7 +1664,7 @@ def bf_baisses():
                 continue
             ref = min(avant)
             pct = (ref - cur) / ref * 100
-            if pct >= BF_SEUIL_BAISSE and (best is None or pct > best["pct"]):
+            if BF_SEUIL_BAISSE <= pct <= BF_BAISSE_MAX and (best is None or pct > best["pct"]):
                 best = dict(d=d, m=m, cur=cur, ref=ref, pct=pct)
         if best:
             res.append(best)

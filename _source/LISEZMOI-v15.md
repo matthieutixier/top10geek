@@ -6,3 +6,4 @@
 - **Bandeau d'accueil** : interrupteur `BF_ACTIF` dans `gen10.py` (False à la mise en ligne ; passé à True le 22/11/2026 par une tâche planifiée). `False` + régénération = bandeau et lien d'accueil retirés (la page reste en ligne, le lien du pied de page aussi).
 - Clics : bouton marchand en zone `data-z="bf"`, lien vers la fiche en `data-zi="bf-fiche"`.
 - CSS : `extra23.css`.
+- Garde-fou : une baisse de plus de `BF_BAISSE_MAX` (50 %) n'est jamais affichée (erreur de relevé probable).
