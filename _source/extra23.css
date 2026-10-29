@@ -1,0 +1,23 @@
+/* extra23 : Black Friday 2026 (bandeau d'accueil retirable via BF_ACTIF dans gen10.py, cartes « baisses constatées ») */
+.bf-banner{display:flex;align-items:center;justify-content:space-between;gap:18px 24px;flex-wrap:wrap;margin:18px 0 6px;padding:14px 20px;border-radius:14px;background:#15171C;color:#fff;border:1.5px solid #15171C;}
+.bf-banner-txt{display:flex;align-items:center;gap:6px 12px;flex-wrap:wrap;flex:1 1 380px;min-width:0;}
+.bf-banner .bf-pill{font-family:"IBM Plex Mono",monospace;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#FF3B57;color:#fff;padding:5px 10px;border-radius:999px;white-space:nowrap;}
+.bf-banner b{font-family:"Bricolage Grotesque","Plus Jakarta Sans",sans-serif;font-size:1.1rem;line-height:1.25;}
+.bf-banner .bf-sub{flex-basis:100%;font-size:.88rem;line-height:1.45;color:#D9DCE3;}
+.bf-banner .bf-go{flex:none;text-decoration:none;font-family:"Plus Jakarta Sans",sans-serif;font-weight:800;font-size:.92rem;color:#15171C;background:#fff;padding:11px 18px;border-radius:10px;border:1.5px solid #fff;white-space:nowrap;}
+.bf-banner .bf-go:hover,.bf-banner .bf-go:focus-visible{background:#FF3B57;color:#fff;border-color:#FF3B57;}
+@media (max-width:720px){.bf-banner{padding:14px 16px}.bf-banner .bf-go{width:100%;text-align:center}}
+.bf-chip-hot{background:#FF3B57;border-color:#FF3B57;color:#fff;}
+.bf-chip-hot:hover{color:#fff;box-shadow:0 2px 0 #15171C;}
+.bf-deals{align-items:stretch;}
+.bf-deal{display:flex;flex-direction:column;gap:8px;}
+.bf-deal .bf-deal-main{flex:1;}
+.bf-deal .bf-buy{align-self:flex-start;font-size:.88rem;}
+.bf-prices{grid-column:1/-1;display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 10px;margin-top:4px;}
+.bf-prices s{color:var(--ink-muted);font-size:.9rem;}
+.bf-prices strong{font-family:"Bricolage Grotesque","Plus Jakarta Sans",sans-serif;font-size:1.25rem;}
+.bf-pct{font-family:"IBM Plex Mono",monospace;font-weight:700;font-size:.82rem;color:#B3112B;background:#FFE9EC;padding:3px 8px;border-radius:6px;white-space:nowrap;}
+.bf-deal-main .alt-why{grid-column:2/-1;}
+.bf-deal-main .alt-meta{grid-column:1/-1;}
+.bf-deal-main .alt-meta{font-size:.8rem;}
+.bf-deal-main img{grid-row:2/5;}

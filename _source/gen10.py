@@ -22,7 +22,7 @@ from catalog_sols import SOLS
 from catalog_reconditionnes import RECO, GUIDE_RECO
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css', 'extra23.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main14.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -1617,7 +1617,81 @@ FAM_BTNS = ('<div class="fb-group"><span class="fb-label">Informatique</span><di
             + "\n        ".join(fam_btn(f) for f in FAMILIES if f["slug"] in MAISON_SLUGS)
             + '</div></div>')
 
+# ---------------------------------------------------------------- Black Friday : réglages, baisses constatées, bandeau d'accueil
+BF_ACTIF = True            # INTERRUPTEUR : False retire le bandeau et le lien de l'accueil (la page /black-friday/ reste en ligne)
+BF_DATE = "vendredi 27 novembre 2026"
+BF_DEBUT = "2026-11-23"    # début de la semaine d'opérations ; la référence est le plus bas prix des 30 jours précédents
+BF_FIN = "2026-11-30"      # Cyber Monday
+BF_SEUIL_BAISSE = 5.0      # baisse minimale affichée (en %)
+BF_MIN_JOURS = 3           # nombre minimal de relevés de la période de référence pour parler de baisse
+BF_MAX = 20                # nombre maximal de produits dans le bloc « baisses constatées »
+
+
+def _jfr(iso):
+    return f"{iso[8:10]}/{iso[5:7]}/{iso[:4]}"
+
+
+def bf_baisses():
+    """Produits dont le prix a baissé d'au moins BF_SEUIL_BAISSE % chez un marchand affilié, par rapport au plus bas prix
+    constaté chez CE MÊME marchand pendant les 30 jours précédant BF_DEBUT (historique_prix.json, alimenté par bf_historique.py).
+    Garde-fous : note presse d'au moins 7/10 sur au moins 3 notes (2 pour la Maison), ni reconditionnés ni vendeurs tiers.
+    Renvoie (liste triée par baisse décroissante, date du dernier relevé)."""
+    import datetime
+    chemin = SRC + "historique_prix.json"
+    h = json.load(open(chemin, encoding="utf-8")) if os.path.exists(chemin) else {}
+    jours = sorted(h)
+    if not jours:
+        return [], None
+    dernier = jours[-1]
+    if dernier < BF_DEBUT:        # avant l'opération : pas de baisse affichée (les relevés servent à fixer la référence)
+        return [], dernier
+    deb = (datetime.date.fromisoformat(BF_DEBUT) - datetime.timedelta(days=30)).isoformat()
+    ref_jours = [j for j in jours if deb <= j < BF_DEBUT]
+    res = []
+    for pid, d in ITEMS.items():
+        pr = d["press"]
+        if d["cat"] == "reconditionne" or not pr or pr["avg"] is None or pr["avg"] < 7:
+            continue
+        if pr["n"] < (2 if d["fslug"] in MAISON_SLUGS else 3):
+            continue
+        best = None
+        for m, cur in h[dernier].get(pid, {}).items():
+            if m not in AFFILIATED:
+                continue
+            avant = [h[j][pid][m] for j in ref_jours if pid in h[j] and m in h[j][pid]]
+            if len(avant) < BF_MIN_JOURS:
+                continue
+            ref = min(avant)
+            pct = (ref - cur) / ref * 100
+            if pct >= BF_SEUIL_BAISSE and (best is None or pct > best["pct"]):
+                best = dict(d=d, m=m, cur=cur, ref=ref, pct=pct)
+        if best:
+            res.append(best)
+    res.sort(key=lambda x: -x["pct"])
+    return res[:BF_MAX], dernier
+
+
+def bf_banner():
+    if not BF_ACTIF:
+        return ""
+    return """
+  <aside class="bf-banner" aria-label="Black Friday 2026">
+    <div class="bf-banner-txt"><span class="bf-pill">Black Friday</span>
+      <b>Du 23 au 30 novembre : les vraies baisses, vérifiées par la presse.</b>
+      <span class="bf-sub">PC, TV, audio, robots, photo… Chaque baisse est comparée au prix le plus bas des 30 jours précédents.</span></div>
+    <a class="bf-go" href="black-friday/">Voir les baisses →</a>
+  </aside>
+"""
+
+
+def bf_home_link():
+    if not BF_ACTIF:
+        return ""
+    return '<p class="bf-home"><a class="see-all" href="black-friday/">Black Friday 2026 : les produits les mieux notés et les vraies baisses de prix →</a></p>'
+
+
 home = f"""
+{bf_banner()}
   <section class="home-hero">
     <div class="hh-text">
       <div class="eyebrow">LE COMPARATEUR QUI A LU TOUS LES TESTS · MAJ {MAJ}</div>
@@ -1679,7 +1753,7 @@ home = f"""
 
   <section class="section">
     <div class="section-head"><h2>Par où commencer ?</h2><div class="tag">{["", "Une", "Deux", "Trois", "Quatre", "Cinq", "Six", "Sept", "Huit"][len(FAMILIES)]} familles, {len(CAT)} usages</div></div>
-    <p class="bf-home"><a class="see-all" href="black-friday/">Black Friday 2026 : les PC qui valent vraiment le coup, et leur prix repère →</a></p>
+    {bf_home_link()}
     <h3 class="univers-head">Informatique</h3>
     <div class="fam-grid">
       <a class="fam-card" href="pc-portable/">
@@ -1789,12 +1863,11 @@ write("a-propos.html", page("", "À propos : qui édite Top 10 Geek ? | Top 10 G
                                                           "inLanguage": "fr-FR", "mainEntity": {"@id": PERSON_ID}, "publisher": {"@id": ORG["@id"]}},
                                                          dict(PERSON, description="Éditeur de Top 10 Geek, ancien consultant en informatique, vingt ans de management."), ORG]))
 
-# ---------------------------------------------------------------- Page Black Friday
-BF_DATE = "vendredi 27 novembre 2026"
+# ---------------------------------------------------------------- Page Black Friday (toutes les rubriques)
 BF_TIPS = [
-    ("Partez du prix repère", "Une promo n'est une affaire que si elle passe nettement sous le prix habituel. Nous affichons pour chaque machine le prix le plus bas que nous avons constaté avant le Black Friday : c'est votre point de comparaison."),
-    ("Vérifiez la configuration", "Un même nom de modèle cache souvent plusieurs versions. Avant de comparer deux prix, comparez la mémoire, le stockage et le processeur : 8 Go et 256 Go ne valent pas 16 Go et 512 Go."),
-    ("Regardez la note presse", "Un gros rabais sur une machine mal notée reste un mauvais achat. Mieux vaut une petite remise sur un ordinateur que la presse recommande."),
+    ("Partez du prix le plus bas", "Une promo n'est une affaire que si elle passe nettement sous le prix habituel. Pour chaque produit, nous gardons le plus bas prix constaté chez le même marchand pendant les 30 jours avant l'opération : c'est notre point de comparaison."),
+    ("Vérifiez la référence exacte", "Un même nom de modèle cache souvent plusieurs versions : mémoire et stockage pour un ordinateur, taille ou génération pour une TV ou des écouteurs. Comparez la référence avant de comparer deux prix."),
+    ("Regardez la note presse", "Un gros rabais sur un produit mal noté reste un mauvais achat. Mieux vaut une petite remise sur un produit que la presse recommande."),
     ("Méfiez-vous du prix barré", "Le prix barré est parfois un ancien prix conseillé que plus personne ne pratiquait. Seul l'écart avec le prix réellement constaté les semaines précédentes compte."),
 ]
 
@@ -1810,69 +1883,128 @@ def bf_card(d, root, label):
       <b>{E(d['short'])}</b><span class="alt-why">{note}</span><span class="alt-meta">Prix repère : {d['price_txt']}</span></a>"""
 
 
+def bf_deal(x, root, maj):
+    """Carte d'un produit en baisse : écart, ancien plus bas prix, prix du jour, bouton vers le marchand (clic mesuré, zone « bf »)."""
+    d, m = x["d"], x["m"]
+    pr = d["press"]
+    if m in PRIX_EXACTS:
+        cur, ref, pct = euro2(x["cur"]), euro2(x["ref"]), f'−{int(round(x["pct"]))} %'
+        qual = ""
+    else:
+        cur, ref, pct = "env. " + euro_ind(x["cur"]), "env. " + euro_ind(x["ref"]), f'env. −{int(round(x["pct"]))} %'
+        qual = " (prix indicatif)"
+    offre = next((o for o in d["offers"] if o["m"] == m and "tiers" not in (o.get("cfg") or "")), None)
+    if not offre:
+        return ""
+    c = CAT[d["cat"]]
+    img = f'<img src="{root}assets/img/p/{d["img"]}" alt="{E(d["short"])}" width="96" height="72" loading="lazy">' if d["img"] else ""
+    return f"""<article class="bf-deal" data-pid="{d['id']}">
+      <a class="alt-card bf-deal-main" href="{root}{d['purl']}" data-zi="bf-fiche">
+        <span class="alt-k">{E(FAM[d['family']]['plural'])} · {E(c['label'])}</span>
+        {img}
+        <b>{E(d['short'])}</b><span class="alt-why">{fr(pr['avg'])}/10 presse · {pr['n']} note{'s' if pr['n'] > 1 else ''}</span>
+        <span class="bf-prices"><span class="bf-pct">{pct}</span> <s>{ref}</s> <strong>{cur}</strong></span>
+        <span class="alt-meta">chez {E(m)}{qual} · relevé du {maj}</span></a>
+      <a class="cta bf-buy" data-z="bf" href="{E(offre['url'])}" target="_blank" rel="{rel_m(m)}">Voir l'offre chez {E(m)} →</a>
+    </article>"""
+
+
+def bf_baisses_section(root):
+    liste, dernier = bf_baisses()
+    if liste:
+        maj = _jfr(dernier)
+        cards = "".join(bf_deal(x, root, maj) for x in liste)
+        corps = f"""<p class="bf-note">Relevé du {maj}. L'écart est mesuré chez le même marchand, par rapport au <b>prix le plus bas constaté pendant les 30 jours précédant le {_jfr(BF_DEBUT)}</b>. Seuls figurent les produits en baisse d'au moins {int(BF_SEUIL_BAISSE)} %, notés au moins 7/10 par la presse. Seul le prix affiché par le marchand fait foi.</p>
+    <div class="alt-grid bf-two bf-deals">{cards}</div>"""
+    elif dernier is None or dernier < BF_DEBUT:
+        corps = f"""<p class="bf-note">L'opération démarre le lundi {_jfr(BF_DEBUT)}. Nous relevons déjà les prix pour fixer la référence : dès cette date, les produits dont le prix passe nettement sous leur plus bas des 30 jours précédents apparaîtront ici, avec l'écart constaté. En attendant, voici les produits que la presse recommande.</p>"""
+    else:
+        corps = f"""<p class="bf-note">Aucune baisse notable relevée à ce jour (seuil : {int(BF_SEUIL_BAISSE)} % sous le plus bas des 30 jours précédents, produit noté au moins 7/10). Les prix sont relevés chaque jour : revenez demain.</p>"""
+    return f"""
+  <section class="section" id="baisses">
+    <div class="section-head"><h2>Baisses constatées</h2><div class="tag">Relevées chaque jour, du {_jfr(BF_DEBUT)} au {_jfr(BF_FIN)}</div></div>
+    {corps}
+  </section>"""
+
+
 BF_PIEGES = [
     ("PC portables", "Le même nom cache plusieurs configurations : comparez processeur, mémoire et stockage avant le prix. Méfiez-vous des modèles de l'an dernier présentés comme des nouveautés."),
     ("Ordinateurs de bureau", "Une grosse carte graphique attire l'œil, mais une alimentation ou un stockage au rabais font souvent la différence de prix. Vérifiez aussi ce qui est fourni : écran, clavier, souris."),
     ("Écrans PC", "Regardez la dalle (IPS, VA, OLED), la définition et la fréquence, pas seulement la taille. Une révision plus ancienne d'un même modèle peut être vendue sous un nom proche."),
     ("Imprimantes", "Le prix d'achat compte moins que celui de l'encre. Une imprimante bradée avec des cartouches chères coûte vite plus cher qu'une imprimante à réservoirs."),
+    ("Robots et aspirateurs", "Regardez le coût d'entretien : filtres, brosses, lingettes et sacs reviennent à la caisse. Vérifiez aussi la référence exacte, car plusieurs versions portent des noms très proches."),
+    ("Téléviseurs", "Comparez le type de dalle, la luminosité et la fréquence, pas seulement la taille. Une même série existe en plusieurs diagonales dont les performances diffèrent : vérifiez la référence de la taille visée."),
+    ("Audio", "Un même nom de gamme couvre plusieurs générations : vérifiez le numéro de version. La réduction de bruit, l'autonomie et le confort comptent davantage qu'une remise de quelques euros."),
+    ("Photo et vidéo", "Vérifiez ce qui est inclus (objectif, carte mémoire, batterie, abonnement pour stocker les vidéos d'une caméra de surveillance). Un boîtier nu et un kit n'ont pas le même prix."),
+]
+
+# titre, nombre de produits par usage et pastille de chaque section, dans l'ordre d'affichage
+BF_SECTIONS = [
+    ("laptop", "Les PC portables à surveiller", 1, "Notre choix par usage"),
+    ("desktop", "Les ordinateurs de bureau à surveiller", 1, "Notre choix par usage"),
+    ("ecran", "Les écrans PC à surveiller", 1, "Notre choix par usage"),
+    ("imprimante", "Les imprimantes à surveiller", 1, "Notre choix par usage"),
+    ("robot", "Les robots et aspirateurs à surveiller", 1, "Notre choix par usage"),
+    ("tv", "Les téléviseurs et barres de son à surveiller", 1, "Notre choix par usage"),
+    ("audio", "Les enceintes, écouteurs et casques à surveiller", 1, "Notre choix par usage"),
+    ("video", "Les caméras, vidéoprojecteurs et appareils photo à surveiller", 1, "Notre choix par usage"),
 ]
 
 
 def bf_family(fam, root, n_top, title, tag):
-    blocks = []
+    """Un « Notre choix » par usage, en grille ; les autres du top 10 sont à un clic (lien de l'usage)."""
+    cards, liens = [], []
     for c in fam["cats"]:
-        top = by_cat[c["key"]][:n_top]
-        cards = "".join(bf_card(d, root, "Notre choix" if i == 0 else f"N° {i + 1}") for i, d in enumerate(top))
-        blocks.append(f"""<div class="bf-block">
-      <h3><span class="dot {c['cls'].replace('f-', '')}"></span>{c['label']}</h3>
-      <div class="alt-grid{' bf-two' if n_top == 2 else ''}">{cards}</div>
-      <p class="bf-more"><a class="see-all" href="{root}{fam['slug']}/{c['slug']}/">Voir le top 10 {c['label'].lower()} →</a></p>
-    </div>""")
+        top = by_cat[c["key"]][:1]
+        if not top:
+            continue
+        cards.append(bf_card(top[0], root, E(c["label"])))
+        liens.append(f'<a href="{root}{fam["slug"]}/{c["slug"]}/">{E(c["label"])}</a>')
     return f"""
   <section class="section" id="bf-{fam['slug']}">
     <div class="section-head"><h2>{title}</h2><div class="tag">{tag}</div></div>
     <p class="bf-note">Prix repères ({ind_txt(fam)}), pas des promotions.</p>
-    {''.join(blocks)}
+    <div class="alt-grid">{''.join(cards)}</div>
+    <p class="bf-more">Tous les tops 10 : {' · '.join(liens)}</p>
   </section>"""
 
 
 def black_friday_page():
     root = "../"
-    lap, desk, ecr, imp = FAM["laptop"], FAM["desktop"], FAM["ecran"], FAM["imprimante"]
     tips = "".join(f'<div class="g-card"><span class="g-num">0{i}</span><h3>{t}</h3><p>{x}</p></div>' for i, (t, x) in enumerate(BF_TIPS, 1))
     pieges = "".join(f'<div class="g-card"><span class="g-num">{t[:2].upper()}</span><h3>{t}</h3><p>{x}</p></div>' for t, x in BF_PIEGES)
-    nav = "".join(f'<a class="bf-chip" href="#bf-{f["slug"]}">{f["plural"]}</a>' for f in (lap, desk, ecr, imp))
+    sections = [(FAM[k], t, n, tg) for k, t, n, tg in BF_SECTIONS if k in FAM]
+    nav = '<a class="bf-chip bf-chip-hot" href="#baisses">Baisses constatées</a>' + "".join(f'<a class="bf-chip" href="#bf-{f["slug"]}">{f["plural"]}</a>' for f, *_ in sections)
     faq = [
-        ("Quand a lieu le Black Friday 2026 ?", f"Le Black Friday tombe le {BF_DATE}. Il est suivi du Cyber Monday, le lundi 30 novembre 2026. Beaucoup de marchands lancent leurs offres plusieurs jours avant et les prolongent après."),
-        ("Les prix affichés sur cette page sont-ils des promotions ?", f"Non. Ce sont des prix repères : le prix le plus bas que nous avons constaté pour chaque produit avant le Black Friday, arrondi à la dizaine d'euros (mois du relevé indiqué dans chaque rubrique). Ils servent à juger si une offre est réellement intéressante. Seul le prix affiché par le marchand fait foi."),
+        ("Quand a lieu le Black Friday 2026 ?", f"Le Black Friday tombe le {BF_DATE}. Il est suivi du Cyber Monday, le lundi 30 novembre 2026. Beaucoup de marchands lancent leurs offres plusieurs jours avant et les prolongent après : nous relevons les prix du {_jfr(BF_DEBUT)} au {_jfr(BF_FIN)}."),
+        ("Comment calculez-vous les baisses de prix ?", f"Nous relevons les prix chaque jour chez les marchands que nous suivons. Pour chaque produit, nous comparons le prix du jour au plus bas prix constaté chez le même marchand pendant les 30 jours précédant le {_jfr(BF_DEBUT)}. Une baisse n'est affichée que si elle atteint {int(BF_SEUIL_BAISSE)} % et que le produit est noté au moins 7/10 par la presse. Les vendeurs tiers d'Amazon et les reconditionnés sont exclus."),
+        ("Les prix des sections « à surveiller » sont-ils des promotions ?", "Non. Ce sont des prix repères : le prix indicatif de chaque produit avant le Black Friday, arrondi à la dizaine d'euros (mois du relevé indiqué dans chaque rubrique). Ils servent à juger si une offre est réellement intéressante. Seul le prix affiché par le marchand fait foi."),
         ("Comment savoir si une promo Black Friday est une vraie affaire ?", "Comparez le prix de l'offre au prix repère du produit, vérifiez que la référence et la configuration sont bien les mêmes, puis regardez la note presse. Une remise sur un produit mal noté n'est pas une bonne affaire."),
-        ("Quels PC portables surveiller pendant le Black Friday ?", "Ceux que la presse recommande déjà au prix normal. Nous listons pour chaque usage les trois premiers de notre classement : bureautique, création, gaming, polyvalent et petits prix."),
+        ("Quels produits surveiller pendant le Black Friday ?", "Ceux que la presse recommande déjà au prix normal. Nous listons pour chaque usage les premiers de notre classement : PC, écrans, imprimantes, TV, audio, robots aspirateurs, photo et vidéo."),
         ("Faut-il acheter un écran PC pendant le Black Friday ?", "C'est souvent le bon moment pour les écrans gaming et les écrans 4K, très présents dans les promotions. Partez de l'usage (bureautique, jeu, création) et vérifiez la dalle et la définition : un gros écran mal adapté reste un mauvais achat."),
         ("Une imprimante en promo est-elle une bonne affaire ?", "Seulement si l'encre suit. Regardez le prix des cartouches ou des bouteilles et le nombre de pages qu'elles impriment. Pour imprimer régulièrement, une imprimante à réservoirs, même moins remisée, revient presque toujours moins cher."),
         ("Top 10 Geek teste-t-il les produits ?", "Non. Nous lisons les tests publiés par la presse spécialisée et les associations de consommateurs, et nous en tirons une note presse sur 10, avec le nombre de tests et les liens vers les sources."),
     ]
     faq_html = "".join(f'<details class="faq-item"><summary>{q}</summary><p>{a}</p></details>' for q, a in faq)
+    fam_html = "".join(bf_family(f, root, n, t, tg) for f, t, n, tg in sections)
     body = f"""
   <div class="crumb"><a href="../">Accueil</a> › Black Friday 2026</div>
   <section class="usage-hero">
     <div>
       <div class="eyebrow">BLACK FRIDAY · {BF_DATE.upper()}</div>
       <h1>Black Friday 2026 : la high-tech qui <span class="flash">vaut vraiment le coup</span></h1>
-      <p>Pendant le Black Friday, tout est « en promo ». Pour trier, nous partons de ce que dit la presse : voici les PC, écrans et imprimantes les mieux notés de nos comparatifs, avec leur <b>prix repère</b> relevé avant les promotions. Si une offre passe nettement en dessous, c'est une vraie affaire.</p>
+      <p>Pendant le Black Friday, tout est « en promo ». Pour trier, nous partons de ce que dit la presse : voici les produits les mieux notés de nos comparatifs et, du {_jfr(BF_DEBUT)[:5]} au {_jfr(BF_FIN)[:5]}, ceux dont le prix baisse <b>vraiment</b>, par rapport à leur plus bas des 30 jours précédents.</p>
       <p class="bf-chips">{nav}</p>
       <p class="hero-links"><a href="#reconnaitre">Reconnaître une vraie promo</a> · <a href="#pieges">Les pièges par catégorie</a></p>
     </div>
     <img class="hero-badge tall" src="../assets/img/pose-lowcost.webp" alt="La mascotte avec un PC en promo" width="170" height="260">
   </section>
-
+{bf_baisses_section(root)}
   <section class="guide" id="reconnaitre">
     <div class="section-head"><h2>Reconnaître une vraie promo</h2><div class="tag">4 réflexes</div></div>
     <div class="g-grid">{tips}</div>
   </section>
-{bf_family(lap, root, 3, "Les PC portables à surveiller", "Les 3 premiers par usage")}
-{bf_family(desk, root, 2, "Les ordinateurs de bureau à surveiller", "Les 2 premiers par usage")}
-{bf_family(ecr, root, 2, "Les écrans PC à surveiller", "Les 2 premiers par usage")}
-{bf_family(imp, root, 2, "Les imprimantes à surveiller", "Les 2 premières par usage")}
+{fam_html}
 
   <section class="guide" id="pieges">
     <div class="section-head"><h2>Les pièges, catégorie par catégorie</h2><div class="tag">À vérifier avant de payer</div></div>
@@ -1884,8 +2016,8 @@ def black_friday_page():
     <div class="faq-list">{faq_html}</div>
   </section>
 """
-    write("black-friday/index.html", page(root, "Black Friday 2026 : PC, écrans, imprimantes selon la presse | Top 10 Geek",
-          "Black Friday 2026 : PC, écrans et imprimantes les mieux notés par la presse, avec leur prix repère pour reconnaître une vraie promo.",
+    write("black-friday/index.html", page(root, "Black Friday 2026 : les vraies baisses high-tech | Top 10 Geek",
+          "Black Friday 2026 : les baisses de prix vérifiées sur PC, TV, audio, robots et photo, et les produits les mieux notés par la presse pour chaque usage.",
           "black-friday/", body, "black-friday",
           ld=[ld_crumbs(("Accueil", ""), ("Black Friday 2026", "black-friday/")), ld_faq(faq)]))
 
