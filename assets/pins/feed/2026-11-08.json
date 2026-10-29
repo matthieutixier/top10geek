@@ -2,36 +2,36 @@
  "date": "2026-11-08",
  "pins": [
   {
-   "title": "Top 3 Imprimantes réservoirs 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Epson EcoTank ET-2862 (8,0/10), Epson EcoTank ET-4856 (8,6/10), Epson EcoTank ET-2856 (7,6/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/imprimante/reservoir/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-imprimante-reservoir.jpg",
+   "title": "Top 3 Caméras sport, 360° et vlog 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : DJI Osmo Action 5 Pro (8,6/10), DJI Osmo Action 6 (9,6/10), DJI Osmo 360 (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/photo-video/cameras-sport-360-vlog/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-photo-video-cameras-sport-360-vlog.jpg",
    "board_id": "1091700834613967505",
-   "board": "Imprimantes"
+   "board": "Photo, vidéo et drones"
   },
   {
-   "title": "Top 3 Robots aspirateurs petit prix 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Dreame L10s Pro Gen 3 (8,6/10), Dreame L10s Ultra (8,8/10), Dreame H12 Pro (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/aspirateur-robot/petit-prix/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-aspirateur-robot-petit-prix.jpg",
+   "title": "Top 3 PC portables création 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Apple MacBook Pro 14\" M5 (9,3/10), Apple MacBook Air 15\" M5 (9,0/10), Asus Zenbook Duo (8,7/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/creation/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-pc-portable-creation.jpg",
    "board_id": "1091700834613967505",
-   "board": "Aspirateurs robots"
+   "board": "PC portables"
   },
   {
-   "title": "Top 3 Barres de son 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Samsung HW-QS700F (9,0/10), Sonos Beam Ultra (8,7/10), TCL Q65H (7,3/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/tv/barres-de-son/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-tv-barres-de-son.jpg",
+   "title": "Top 3 PC de bureau création 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Apple Mac mini M5 Pro (8,7/10), Apple Mac Studio M5 Max (9,4/10), Geekom GT1 Mega (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/creation/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-ordinateur-de-bureau-creation.jpg",
    "board_id": "1091700834613967505",
-   "board": "TV et barres de son"
+   "board": "PC de bureau et mini-PC"
   },
   {
-   "title": "Top 3 Écouteurs open-ear 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Soundcore AeroFit 2 (8,4/10), Shokz OpenFit 2+ (8,7/10), Shokz OpenDots One (8,2/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/audio/ecouteurs-open-ear/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-audio-ecouteurs-open-ear.jpg",
+   "title": "Black Friday 2026 : top 3 Écrans PC gaming selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écrans PC gaming les mieux notés par la presse high-tech (AOC Agon Q27G4ZD, Asus ROG Swift PG32UCDM, Alienware AW2725Q). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ecran-pc-gaming.jpg",
    "board_id": "1091700834613967505",
-   "board": "Enceintes, casques et écouteurs"
+   "board": "Black Friday 2026"
   }
  ]
 }

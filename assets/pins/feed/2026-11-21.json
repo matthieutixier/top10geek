@@ -2,34 +2,34 @@
  "date": "2026-11-21",
  "pins": [
   {
-   "title": "Top 3 Mini-PC 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : GMKtec NucBox K13 (8,2/10), Geekom IT13 (8,3/10), Geekom A7 (7,9/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/ordinateur-de-bureau/mini-pc/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-ordinateur-de-bureau-mini-pc.jpg",
+   "title": "GMKtec NucBox K13 : avis, test et note de la presse (8,2/10)",
+   "description": "5 notes presse, moyenne 8,2/10. Très fin, très discret et remarquablement sobre grâce à la plateforme Lunar Lake. La RAM soudée limite son évolution. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/gmktec-nucbox-k13/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-gmktec-nucbox-k13.jpg",
    "board_id": "1091700834613967505",
    "board": "PC de bureau et mini-PC"
   },
   {
-   "title": "Black Friday 2026 : top 3 PC portables low-cost selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC portables low-cost les mieux notés par la presse high-tech (Acer Aspire Go 15, Acer Chromebook Plus 514, Lenovo Chromebook Duet 11). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-pc-portable-lowcost.jpg",
+   "title": "Acer Chromebook Plus 514 : avis, test et note de la presse (7,7/10)",
+   "description": "11 notes presse, moyenne 7,7/10. Solide, confortable et assez rapide pour ne jamais ralentir sous ChromeOS : le Chromebook à choisir si le budget le permet. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/acer-chromebook-plus-514/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-acer-chromebook-plus-514.jpg",
    "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
+   "board": "PC portables"
   },
   {
-   "title": "Black Friday 2026 : top 3 Mini-PC selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Mini-PC les mieux notés par la presse high-tech (GMKtec NucBox K13, Geekom IT13, Geekom A7). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-ordinateur-de-bureau-mini-pc.jpg",
+   "title": "Geekom IT13 : avis, test et note de la presse (8,3/10)",
+   "description": "21 notes presse, moyenne 8,3/10. Beaucoup de puissance dans un petit volume, avec lecteur de cartes et emplacement 2,5 pouces. Monte vite en température. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/geekom-it13/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-geekom-it13.jpg",
    "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
+   "board": "PC de bureau et mini-PC"
   },
   {
-   "title": "Acer Aspire Go 15 : avis, test et note de la presse (7,7/10)",
-   "description": "9 notes presse, moyenne 7,7/10. Le petit prix le mieux testé : un 15 pouces simple et honnête, suffisant pour le web, les cours et la bureautique. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/acer-aspire-go-15/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-acer-aspire-go-15.jpg",
+   "title": "Lenovo Chromebook Duet 11 : avis, test et note de la presse (7,6/10)",
+   "description": "Lenovo Chromebook Duet 11 : 6 notes presse, moyenne 7,6/10. Une tablette ChromeOS livrée avec clavier (et souvent stylet). Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-chromebook-duet-11/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-chromebook-duet-11.jpg",
    "board_id": "1091700834613967505",
    "board": "PC portables"
   }

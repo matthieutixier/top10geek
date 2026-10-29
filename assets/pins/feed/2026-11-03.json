@@ -2,36 +2,36 @@
  "date": "2026-11-03",
  "pins": [
   {
-   "title": "Black Friday 2026 : top 3 Appareils photo hybrides et compacts selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Appareils photo hybrides et compacts les mieux notés par la presse high-tech (Canon PowerShot V1, Nikon Z6 III, Sony A6700). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-photo-video-appareils-photo-hybrides-compacts.jpg",
+   "title": "Top 3 Imprimantes photo 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Canon Selphy CP1500 (7,6/10), Kodak Step (7,5/10), Fujifilm Instax Link Wide (7,3/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/imprimante/photo/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-imprimante-photo.jpg",
    "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
+   "board": "Imprimantes"
   },
   {
-   "title": "Asus Zenbook A14 : avis, test et note de la presse (8,2/10)",
-   "description": "27 notes presse, moyenne 8,2/10. Moins d'un kilo, un écran OLED et une autonomie qui dépasse largement la journée. Points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/asus-zenbook-a14/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-asus-zenbook-a14.jpg",
+   "title": "Top 3 Balais laveurs 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Dreame H15 Pro (8,2/10), Dreame H12 Pro (8,5/10), Tineco Floor One S7 Pro (8,3/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/aspirateur-robot/aspirateurs-balais-laveurs/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-aspirateur-robot-aspirateurs-balais-laveurs.jpg",
    "board_id": "1091700834613967505",
-   "board": "PC portables"
+   "board": "Aspirateurs robots"
   },
   {
-   "title": "Geekom A5 : avis, test et note de la presse (8,2/10)",
-   "description": "6 notes presse, moyenne 8,2/10. Un mini-PC bien construit, quasi inaudible et très sobre : tout ce qu'il faut pour la bureautique, à moins de 500 €. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/ordinateur-de-bureau/geekom-a5/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-geekom-a5.jpg",
+   "title": "Top 3 TV 65″ et plus 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Samsung OLED S90F 65\" (8,3/10), Hisense U7Q Pro 65\" (7,8/10), Sony Bravia 3 65\" (6,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/tv/65-pouces-et-plus/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-tv-65-pouces-et-plus.jpg",
    "board_id": "1091700834613967505",
-   "board": "PC de bureau et mini-PC"
+   "board": "TV et barres de son"
   },
   {
-   "title": "Top 3 Écrans PC création 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Asus ProArt PA279CRV (8,2/10), Asus ProArt PA32QCV (8,2/10), Asus ProArt PA27UCGE (9,0/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/ecran-pc/creation/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-ecran-pc-creation.jpg",
+   "title": "Top 3 Casques gaming 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Razer Kraken Kitty V3 Pro (8,7/10), SteelSeries Arctis Nova Pro Omni (8,6/10), Razer BlackShark V3 Pro (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/audio/casques-gaming/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-audio-casques-gaming.jpg",
    "board_id": "1091700834613967505",
-   "board": "Écrans PC"
+   "board": "Enceintes, casques et écouteurs"
   }
  ]
 }

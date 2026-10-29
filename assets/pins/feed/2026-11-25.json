@@ -2,34 +2,10 @@
  "date": "2026-11-25",
  "pins": [
   {
-   "title": "Top 3 PC portables reconditionnés 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Dell Latitude 7490 (9,0/10), Lenovo ThinkPad T480 (9,0/10), Lenovo ThinkPad T14 Gen 1 (AMD) (8,9/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/reconditionnes/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-pc-portable-reconditionnes.jpg",
-   "board_id": "1091700834613967505",
-   "board": "PC portables"
-  },
-  {
-   "title": "Black Friday 2026 : top 3 PC portables reconditionnés selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC portables reconditionnés les mieux notés par la presse high-tech (Dell Latitude 7490, Lenovo ThinkPad T480, Lenovo ThinkPad T14 Gen 1 (AMD)). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-pc-portable-reconditionnes.jpg",
-   "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
-  },
-  {
-   "title": "Dell Latitude 7490 : avis, test et note de la presse (9,0/10)",
-   "description": "Dell Latitude 7490 : 1 note presse, moyenne 9,0/10. Notebookcheck lui donne 90 %. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/dell-latitude-7490/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-dell-latitude-7490.jpg",
-   "board_id": "1091700834613967505",
-   "board": "PC portables"
-  },
-  {
-   "title": "Lenovo ThinkPad T480 : avis, test et note de la presse (9,0/10)",
-   "description": "Lenovo ThinkPad T480 : 1 note presse, moyenne 9,0/10. Avis de la presse, points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/lenovo-thinkpad-t480/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-thinkpad-t480.jpg",
+   "title": "Lenovo ThinkPad T14 Gen 1 (AMD) : avis, test et note de la presse (8,9/10)",
+   "description": "1 note presse, moyenne 8,9/10. La puce Ryzen 5 PRO 4650U surclasse les Intel de son époque, l'écran est lumineux et contrasté pour un PC pro. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-thinkpad-t14-gen-1-amd/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-thinkpad-t14-gen-1-amd.jpg",
    "board_id": "1091700834613967505",
    "board": "PC portables"
   }

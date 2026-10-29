@@ -2,36 +2,36 @@
  "date": "2026-11-12",
  "pins": [
   {
-   "title": "Top 3 Robots pour animaux 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Roborock Qrevo MaxV (8,7/10), DJI Romo P2 (9,0/10), Narwal Flow 2 (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/aspirateur-robot/robots-aspirateurs-animaux/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-aspirateur-robot-robots-aspirateurs-animaux.jpg",
+   "title": "Apple MacBook Pro 14\" M5 : avis, test et note de la presse (9,3/10)",
+   "description": "10 notes presse, moyenne 9,3/10. Écran mini-LED parfaitement calibré, puce M5 polyvalente et connectique complète. Points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/apple-macbook-pro-14-m5/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-apple-macbook-pro-14-m5.jpg",
    "board_id": "1091700834613967505",
-   "board": "Aspirateurs robots"
+   "board": "PC portables"
   },
   {
-   "title": "Top 3 TV petit prix 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : TCL P7K 65\" (8,0/10), Hisense U7Q 55\" (7,8/10), Sony Bravia 3 43\" (6,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/tv/petit-prix/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-tv-petit-prix.jpg",
+   "title": "Apple Mac mini M5 Pro : avis, test et note de la presse (8,7/10)",
+   "description": "Apple Mac mini M5 Pro : 3 notes presse, moyenne 8,7/10. La puissance d'une station de travail dans un boîtier de 12,7 cm. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/apple-mac-mini-m5-pro/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-apple-mac-mini-m5-pro.jpg",
    "board_id": "1091700834613967505",
-   "board": "TV et barres de son"
+   "board": "PC de bureau et mini-PC"
   },
   {
-   "title": "Top 3 Écouteurs à réduction de bruit 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : Samsung Galaxy Buds4 Pro (8,1/10), Bose QuietComfort Ultra Earbuds (2e gén.) (8,7/10), Apple AirPods Pro 3 (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/audio/ecouteurs-reduction-de-bruit/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-audio-ecouteurs-reduction-de-bruit.jpg",
+   "title": "Black Friday 2026 : top 3 Écrans PC petit prix selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écrans PC petit prix les mieux notés par la presse high-tech (AOC Gaming Q27G4X, iiyama G-Master GB2771QSU, AOC Gaming Q27G4ZR). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ecran-pc-petit-prix.jpg",
    "board_id": "1091700834613967505",
-   "board": "Enceintes, casques et écouteurs"
+   "board": "Black Friday 2026"
   },
   {
-   "title": "Top 3 Drones avec caméra 2026 : le choix de la presse",
-   "description": "Les 3 mieux classés : DJI Neo 2 (8,1/10), DJI Mini 5 Pro (9,0/10), DJI Mavic 4 Pro (9,0/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
-   "link": "https://top10geek.fr/photo-video/drones-camera/",
-   "image": "https://top10geek.fr/assets/img/pins/top3-photo-video-drones-camera.jpg",
+   "title": "Black Friday 2026 : top 3 Robots pour animaux selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Robots pour animaux les mieux notés par la presse high-tech (Roborock Qrevo MaxV, DJI Romo P2, Narwal Flow 2). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-aspirateur-robot-robots-aspirateurs-animaux.jpg",
    "board_id": "1091700834613967505",
-   "board": "Photo, vidéo et drones"
+   "board": "Black Friday 2026"
   }
  ]
 }

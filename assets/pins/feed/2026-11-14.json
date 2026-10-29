@@ -2,36 +2,36 @@
  "date": "2026-11-14",
  "pins": [
   {
-   "title": "Black Friday 2026 : top 3 TV petit prix selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 TV petit prix les mieux notés par la presse high-tech (TCL P7K 65\", Hisense U7Q 55\", Sony Bravia 3 43\"). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-tv-petit-prix.jpg",
+   "title": "Apple Mac Studio M5 Max : avis, test et note de la presse (9,4/10)",
+   "description": "3 notes presse, moyenne 9,4/10. Des performances de très haut niveau dans un boîtier compact et silencieux, avec une connectique exhaustive. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/apple-mac-studio-m5-max/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-apple-mac-studio-m5-max.jpg",
    "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
+   "board": "PC de bureau et mini-PC"
   },
   {
-   "title": "Black Friday 2026 : top 3 Écouteurs à réduction de bruit selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écouteurs à réduction de bruit les mieux notés par la presse high-tech (Samsung Galaxy Buds4 Pro, Bose QuietComfort Ultra Earbuds (2e gén.), Apple AirPods Pro 3). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-audio-ecouteurs-reduction-de-bruit.jpg",
+   "title": "Top 3 Écrans PC portable 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Asus ZenScreen Duo OLED MQ149CD (8,2/10), MSI Pro MP165 E6 (7,3/10), Acer PD163Q (7,2/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/ecran-pc/portable/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-ecran-pc-portable.jpg",
    "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
+   "board": "Écrans PC"
   },
   {
-   "title": "Black Friday 2026 : top 3 Drones avec caméra selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Drones avec caméra les mieux notés par la presse high-tech (DJI Neo 2, DJI Mini 5 Pro, DJI Mavic 4 Pro). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
-   "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-photo-video-drones-camera.jpg",
+   "title": "Top 3 Robots aspirateurs laveurs 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Dreame L10s Ultra (8,8/10), Roborock Saros 20 (8,7/10), Dreame X50 Ultra Complete (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/aspirateur-robot/robots-aspirateurs-laveurs/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-aspirateur-robot-robots-aspirateurs-laveurs.jpg",
    "board_id": "1091700834613967505",
-   "board": "Black Friday 2026"
+   "board": "Aspirateurs robots"
   },
   {
-   "title": "Apple MacBook Air 15\" M5 : avis, test et note de la presse (9,0/10)",
-   "description": "5 notes presse, moyenne 9,0/10. Grand écran, silence total et puce M5 : parfait pour la photo et le montage léger, sans ventilateur ni encombrement. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/apple-macbook-air-15-m5/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-apple-macbook-air-15-m5.jpg",
+   "title": "Top 3 TV petits formats 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Samsung OLED S90F 42\" (8,3/10), Samsung Neo QLED QN90F 50\" (8,3/10), LG OLED C5 48\" (8,2/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/tv/petits-formats/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-tv-petits-formats.jpg",
    "board_id": "1091700834613967505",
-   "board": "PC portables"
+   "board": "TV et barres de son"
   }
  ]
 }

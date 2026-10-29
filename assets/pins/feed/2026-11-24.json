@@ -2,34 +2,34 @@
  "date": "2026-11-24",
  "pins": [
   {
-   "title": "Black Friday 2026 : top 3 PC tout-en-un selon la presse",
-   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC tout-en-un les mieux notés par la presse high-tech (Apple iMac 24\" M4, Acer Aspire C 27, Lenovo Yoga AIO 32). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "title": "Top 3 PC portables reconditionnés 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Dell Latitude 7490 (9,0/10), Lenovo ThinkPad T480 (9,0/10), Lenovo ThinkPad T14 Gen 1 (AMD) (8,9/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/reconditionnes/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-pc-portable-reconditionnes.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 PC portables reconditionnés selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC portables reconditionnés les mieux notés par la presse high-tech (Dell Latitude 7490, Lenovo ThinkPad T480, Lenovo ThinkPad T14 Gen 1 (AMD)). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
    "link": "https://top10geek.fr/black-friday/",
-   "image": "https://top10geek.fr/assets/img/pins/bf-ordinateur-de-bureau-tout-en-un.jpg",
+   "image": "https://top10geek.fr/assets/img/pins/bf-pc-portable-reconditionnes.jpg",
    "board_id": "1091700834613967505",
    "board": "Black Friday 2026"
   },
   {
-   "title": "Lenovo Yoga Slim 7 14 : avis, test et note de la presse (8,5/10)",
-   "description": "19 notes presse, moyenne 8,5/10. Châssis léger, écran OLED bien calibré, grande autonomie et connectique complète. Points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/lenovo-yoga-slim-7-14/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-yoga-slim-7-14.jpg",
+   "title": "Dell Latitude 7490 : avis, test et note de la presse (9,0/10)",
+   "description": "Dell Latitude 7490 : 1 note presse, moyenne 9,0/10. Notebookcheck lui donne 90 %. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/dell-latitude-7490/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-dell-latitude-7490.jpg",
    "board_id": "1091700834613967505",
    "board": "PC portables"
   },
   {
-   "title": "Asus Zenbook S 14 : avis, test et note de la presse (8,5/10)",
-   "description": "29 notes presse, moyenne 8,5/10. Très fin, très léger, silencieux et endurant : un ultraportable premium unanimement salué, avec un superbe écran OLED. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/asus-zenbook-s-14/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-asus-zenbook-s-14.jpg",
-   "board_id": "1091700834613967505",
-   "board": "PC portables"
-  },
-  {
-   "title": "Lenovo Yoga Slim 7x : avis, test et note de la presse (8,5/10)",
-   "description": "Lenovo Yoga Slim 7x : 16 notes presse, moyenne 8,5/10. Écran OLED 3K superbe, finesse et autonomie. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
-   "link": "https://top10geek.fr/pc-portable/lenovo-yoga-slim-7x/",
-   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-yoga-slim-7x.jpg",
+   "title": "Lenovo ThinkPad T480 : avis, test et note de la presse (9,0/10)",
+   "description": "Lenovo ThinkPad T480 : 1 note presse, moyenne 9,0/10. Avis de la presse, points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-thinkpad-t480/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-thinkpad-t480.jpg",
    "board_id": "1091700834613967505",
    "board": "PC portables"
   }
