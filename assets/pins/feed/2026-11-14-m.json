@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-14",
+ "creneau": "m",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 TV petit prix selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 TV petit prix les mieux notés par la presse high-tech (TCL P7K 65\", Hisense U7Q 55\", Sony Bravia 3 43\"). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-tv-petit-prix.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Écouteurs à réduction de bruit selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écouteurs à réduction de bruit les mieux notés par la presse high-tech (Samsung Galaxy Buds4 Pro, Bose QuietComfort Ultra Earbuds (2e gén.), Apple AirPods Pro 3). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-audio-ecouteurs-reduction-de-bruit.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}

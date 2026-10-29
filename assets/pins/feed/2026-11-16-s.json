@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-16",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Asus Zenbook Duo : avis, test et note de la presse (8,7/10)",
+   "description": "Asus Zenbook Duo : 33 notes presse, moyenne 8,7/10. Deux écrans OLED superposés et un clavier détachable. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/asus-zenbook-duo/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-asus-zenbook-duo.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Geekom GT1 Mega : avis, test et note de la presse (8,5/10)",
+   "description": "Geekom GT1 Mega : 8 notes presse, moyenne 8,5/10. Processeur haut de gamme, Wi-Fi 7, double USB4 et double réseau 2,5 GbE pour moins de 900 €. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/geekom-gt1-mega/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-geekom-gt1-mega.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  }
+ ]
+}

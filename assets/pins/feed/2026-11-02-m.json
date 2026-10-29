@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-02",
+ "creneau": "m",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 Imprimantes laser couleur selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Imprimantes laser couleur les mieux notés par la presse high-tech (Canon i-SENSYS MF752Cdw, Xerox C230, Brother MFC-L3760CDW). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-imprimante-laser-couleur.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Aspirateur balai selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Aspirateur balai les mieux notés par la presse high-tech (Dyson V11 Absolute, Dyson V15 Detect Absolute, Dyson V12 Detect Slim). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-aspirateur-robot-aspirateurs-balais.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}

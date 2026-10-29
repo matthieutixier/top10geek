@@ -412,13 +412,59 @@ def coupe(t, n):
     return t if len(t) <= n else t[: n - 1].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
 
 
+CALENDRIER = pathlib.Path(__file__).resolve().parent / "pins_calendrier.json"   # mémoire : épingles déjà planifiées
+FEED = ROOT / "assets" / "pins" / "feed"
+
+
+def planifier(lignes, a):
+    """Répartit les épingles pas encore planifiées sur les prochains jours : un fichier JSON par date et créneau.
+
+    Make lit chaque jour https://top10geek.fr/assets/pins/feed/AAAA-MM-JJ-m.json (matin) et -s.json (soir) et publie son contenu.
+    Un visuel n'est jamais planifié deux fois (mémoire dans pins_calendrier.json)."""
+    import datetime
+    cal = json.load(open(CALENDRIER, encoding="utf8")) if CALENDRIER.exists() else {"planifies": [], "derniere_date": ""}
+    deja = set(cal["planifies"])
+    nouvelles = [l for l in lignes if l[4] not in deja]
+    if a.debut:
+        jour = datetime.date.fromisoformat(a.debut)
+    elif cal["derniere_date"]:
+        jour = datetime.date.fromisoformat(cal["derniere_date"]) + datetime.timedelta(days=1)
+    else:
+        jour = datetime.date.today() + datetime.timedelta(days=1)
+    jour = max(jour, datetime.date.today() + datetime.timedelta(days=1))
+    FEED.mkdir(parents=True, exist_ok=True)
+    pas = a.par_creneau
+    fin = jour + datetime.timedelta(days=a.jours)
+    i, derniere = 0, cal["derniere_date"]
+    while jour < fin and i < len(nouvelles):
+        for cr in ("m", "s"):
+            lot = nouvelles[i:i + pas]
+            if not lot:
+                break
+            pins = [{"title": l[1], "description": l[2], "link": l[3], "image": l[4], "board_id": str(l[6]), "board": l[5]} for l in lot]
+            json.dump({"date": jour.isoformat(), "creneau": cr, "pins": pins}, open(FEED / f"{jour.isoformat()}-{cr}.json", "w", encoding="utf8"),
+                      ensure_ascii=False, indent=1)
+            cal["planifies"] += [l[4] for l in lot]
+            i += len(lot)
+            derniere = jour.isoformat()
+        jour += datetime.timedelta(days=1)
+    cal["derniere_date"] = derniere
+    json.dump(cal, open(CALENDRIER, "w", encoding="utf8"), ensure_ascii=False, indent=1)
+    print(f"planifié : {i} épingles jusqu'au {derniere} ({len(nouvelles) - i} en attente)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--types", default="top3,produit,bf,bf-conseils")
     ap.add_argument("--max-produits", type=int, default=60)
     ap.add_argument("--famille", default="")
     ap.add_argument("--seulement-nouveaux", action="store_true", help="ne pas régénérer un visuel déjà présent")
+    ap.add_argument("--planifier", action="store_true", help="écrit les fichiers de publication quotidiens lus par Make (assets/pins/feed/)")
+    ap.add_argument("--jours", type=int, default=28, help="horizon de planification, en jours, à partir de la dernière date planifiée")
+    ap.add_argument("--par-creneau", type=int, default=2, help="épingles par créneau (2 créneaux par jour : m = matin, s = soir)")
+    ap.add_argument("--debut", default="", help="première date (AAAA-MM-JJ) ; par défaut le lendemain de la dernière date planifiée, ou demain")
     a = ap.parse_args()
+    a.seulement_nouveaux = False   # les visuels sont reproductibles ; la mémoire des épingles déjà planifiées est pins_calendrier.json
     types = set(a.types.split(","))
     boards = json.load(open(BOARDS_JSON, encoding="utf8")) if BOARDS_JSON.exists() else {}
     rows = []   # (famille, type, ligne)
@@ -490,6 +536,8 @@ def main():
         for k in cles:
             if par_fam[k]:
                 ordre.append(par_fam[k].pop(0))
+    if a.planifier:
+        planifier(ordre, a)
     OUT_CSV.parent.mkdir(exist_ok=True)
     with open(OUT_CSV, "w", newline="", encoding="utf8") as fh:
         w = csv.writer(fh)

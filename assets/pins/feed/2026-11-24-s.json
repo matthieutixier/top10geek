@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-24",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Asus Zenbook S 14 : avis, test et note de la presse (8,5/10)",
+   "description": "29 notes presse, moyenne 8,5/10. Très fin, très léger, silencieux et endurant : un ultraportable premium unanimement salué, avec un superbe écran OLED. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/asus-zenbook-s-14/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-asus-zenbook-s-14.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Lenovo Yoga Slim 7x : avis, test et note de la presse (8,5/10)",
+   "description": "Lenovo Yoga Slim 7x : 16 notes presse, moyenne 8,5/10. Écran OLED 3K superbe, finesse et autonomie. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-yoga-slim-7x/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-yoga-slim-7x.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

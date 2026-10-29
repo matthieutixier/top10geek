@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-25",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Dell Latitude 7490 : avis, test et note de la presse (9,0/10)",
+   "description": "Dell Latitude 7490 : 1 note presse, moyenne 9,0/10. Notebookcheck lui donne 90 %. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/dell-latitude-7490/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-dell-latitude-7490.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Lenovo ThinkPad T480 : avis, test et note de la presse (9,0/10)",
+   "description": "Lenovo ThinkPad T480 : 1 note presse, moyenne 9,0/10. Avis de la presse, points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-thinkpad-t480/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-thinkpad-t480.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

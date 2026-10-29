@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-09",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Top 3 PC de bureau création 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Apple Mac mini M5 Pro (8,7/10), Apple Mac Studio M5 Max (9,4/10), Geekom GT1 Mega (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/creation/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-ordinateur-de-bureau-creation.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Écrans PC gaming selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écrans PC gaming les mieux notés par la presse high-tech (AOC Agon Q27G4ZD, Asus ROG Swift PG32UCDM, Alienware AW2725Q). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ecran-pc-gaming.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}

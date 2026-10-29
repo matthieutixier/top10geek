@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-13",
+ "creneau": "m",
+ "pins": [
+  {
+   "title": "Apple MacBook Pro 14\" M5 : avis, test et note de la presse (9,3/10)",
+   "description": "10 notes presse, moyenne 9,3/10. Écran mini-LED parfaitement calibré, puce M5 polyvalente et connectique complète. Points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/apple-macbook-pro-14-m5/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-apple-macbook-pro-14-m5.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Apple Mac mini M5 Pro : avis, test et note de la presse (8,7/10)",
+   "description": "Apple Mac mini M5 Pro : 3 notes presse, moyenne 8,7/10. La puissance d'une station de travail dans un boîtier de 12,7 cm. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/apple-mac-mini-m5-pro/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-apple-mac-mini-m5-pro.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  }
+ ]
+}

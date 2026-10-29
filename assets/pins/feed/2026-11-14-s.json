@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-14",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 Drones avec caméra selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Drones avec caméra les mieux notés par la presse high-tech (DJI Neo 2, DJI Mini 5 Pro, DJI Mavic 4 Pro). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-photo-video-drones-camera.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Apple MacBook Air 15\" M5 : avis, test et note de la presse (9,0/10)",
+   "description": "5 notes presse, moyenne 9,0/10. Grand écran, silence total et puce M5 : parfait pour la photo et le montage léger, sans ventilateur ni encombrement. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/apple-macbook-air-15-m5/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-apple-macbook-air-15-m5.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-05",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Geekom Mini IT12 : avis, test et note de la presse (8,0/10)",
+   "description": "8 notes presse, moyenne 8,0/10. Un mini-PC Intel Core compact, à la connectique généreuse et facile à ouvrir. Son ventilateur s'entend presque toujours. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/geekom-mini-it12/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-geekom-mini-it12.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Écrans PC création selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écrans PC création les mieux notés par la presse high-tech (Asus ProArt PA279CRV, Asus ProArt PA32QCV, Asus ProArt PA27UCGE). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ecran-pc-creation.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}

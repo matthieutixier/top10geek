@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-20",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Acer Predator Orion 7000 : avis, test et note de la presse (8,2/10)",
+   "description": "Acer Predator Orion 7000 : 5 notes presse, moyenne 8,2/10. Un grand châssis spectaculaire, beaucoup de puissance et de ports. Très lourd, encombrant et cher. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/acer-predator-orion-7000/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-acer-predator-orion-7000.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Top 3 PC portables low-cost 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Acer Aspire Go 15 (7,7/10), Acer Chromebook Plus 514 (7,7/10), Lenovo Chromebook Duet 11 (7,6/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lowcost/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-pc-portable-lowcost.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

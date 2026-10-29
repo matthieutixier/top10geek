@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-06",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 TV 65″ et plus selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 TV 65″ et plus les mieux notés par la presse high-tech (Samsung OLED S90F 65\", Hisense U7Q Pro 65\", Sony Bravia 3 65\"). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-tv-65-pouces-et-plus.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Casques gaming selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Casques gaming les mieux notés par la presse high-tech (Razer Kraken Kitty V3 Pro, SteelSeries Arctis Nova Pro Omni, Razer BlackShark V3 Pro). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-audio-casques-gaming.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-19",
+ "creneau": "s",
+ "pins": [
+  {
+   "title": "HP Omen 35L : avis, test et note de la presse (8,7/10)",
+   "description": "HP Omen 35L : 7 notes presse, moyenne 8,7/10. La tour gaming la mieux notée de la sélection : puissante, polyvalente, évolutive et plutôt élégante. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/hp-omen-35l/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-hp-omen-35l.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Acer Nitro V 16 AI : avis, test et note de la presse (8,6/10)",
+   "description": "Acer Nitro V 16 AI : 3 notes presse, moyenne 8,6/10. Un grand écran rapide et une RTX 5060 dans un châssis sobre. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/acer-nitro-v-16-ai/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-acer-nitro-v-16-ai.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

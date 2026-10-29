@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-07",
+ "creneau": "m",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 Caméras de surveillance selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Caméras de surveillance les mieux notés par la presse high-tech (eufy SoloCam S340, Reolink Duo 3 PoE, eufyCam S4). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-photo-video-cameras-de-surveillance.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Apple MacBook Neo : avis, test et note de la presse (8,7/10)",
+   "description": "Apple MacBook Neo : 20 notes presse, moyenne 8,7/10. Le Mac le moins cher jamais lancé. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/apple-macbook-neo/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-apple-macbook-neo.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

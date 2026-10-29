@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-10",
+ "creneau": "m",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 Imprimantes réservoirs selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Imprimantes réservoirs les mieux notés par la presse high-tech (Epson EcoTank ET-2862, Epson EcoTank ET-4856, Epson EcoTank ET-2856). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-imprimante-reservoir.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Robots aspirateurs petit prix selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Robots aspirateurs petit prix les mieux notés par la presse high-tech (Dreame L10s Pro Gen 3, Dreame L10s Ultra, Dreame H12 Pro). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-aspirateur-robot-petit-prix.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}
