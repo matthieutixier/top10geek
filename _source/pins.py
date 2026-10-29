@@ -34,7 +34,7 @@ FALLBACK_BOARD = "Comparatifs high-tech"
 W, H = 1000, 1500
 
 BG = (81, 79, 56)
-GREEN = (0, 255, 171)
+GREEN = (0, 255, 171)   # remplacé par l'accent du thème (voir THEMES) ; conservé pour compatibilité
 MAGENTA = (255, 0, 200)
 WHITE = (255, 255, 255)
 CARD = (250, 250, 245)
@@ -204,6 +204,43 @@ def intitule(u):
 
 
 # ---------------------------------------------------------------- dessin
+# Chaque famille a deux fonds sombres (pas de vert) et un accent ; le fond alterne selon l'usage.
+THEMES = {
+    "pc-portable": [((36, 40, 96), (0, 214, 255)), ((60, 36, 110), (255, 196, 0))],
+    "ordinateur-de-bureau": [((38, 52, 78), (255, 196, 0)), ((20, 62, 96), (255, 140, 66))],
+    "ecran-pc": [((70, 36, 112), (0, 214, 255)), ((92, 30, 96), (255, 205, 60))],
+    "imprimante": [((112, 54, 22), (255, 214, 10)), ((100, 30, 52), (255, 196, 0))],
+    "aspirateur-robot": [((18, 50, 124), (255, 224, 0)), ((24, 64, 110), (255, 150, 70))],
+    "tv": [((18, 60, 98), (255, 150, 50)), ((78, 34, 40), (255, 200, 80))],
+    "audio": [((88, 26, 90), (0, 214, 255)), ((40, 38, 110), (255, 120, 200))],
+    "photo-video": [((110, 30, 44), (255, 196, 0)), ((30, 40, 84), (255, 130, 90))],
+    "": [((30, 20, 52), (255, 0, 200))],
+}
+# Mascotte par univers : le jeune geek (Informatique), la mamie (robots aspirateurs), le papa geek (TV, audio, photo/vidéo)
+MASCOTTES = {
+    "pc-portable": "mascotte-persona-v2", "ordinateur-de-bureau": "pose-tour", "ecran-pc": "pose-ecran", "imprimante": "pose-imprimante",
+    "aspirateur-robot": "mascotte-robot-portrait", "tv": "pose-tv", "audio": "pose-audio-open", "photo-video": "pose-video-hub", "": "hero-trio",
+}
+THEME = {"bg": BG, "acc": GREEN, "fam": ""}
+
+
+def theme(fam, label=""):
+    import zlib
+    opts = THEMES.get(fam) or THEMES[""]
+    bg, acc = opts[zlib.crc32((fam + label).encode()) % len(opts)]
+    THEME.update(bg=bg, acc=acc, fam=fam if fam in MASCOTTES else "")
+
+
+def mascotte(im, boite=(780, 1150, 1000, 1500)):
+    """Colle la mascotte de la famille en bas à droite (toujours visible, même petite)."""
+    x0, y0, x1, y1 = boite
+    nom = MASCOTTES.get(THEME["fam"], "hero-trio")
+    m = Image.open(ROOT / "assets" / "img" / f"{nom}.webp").convert("RGBA")
+    k = min((x1 - x0) / m.width, (y1 - y0) / m.height)
+    m = m.resize((max(1, int(m.width * k)), max(1, int(m.height * k))), Image.LANCZOS)
+    im.paste(m, (x1 - m.width, y1 - m.height), m)
+
+
 def lignes(d, texte, f, largeur):
     mots, cur, res = texte.split(), "", []
     for m in mots:
@@ -240,17 +277,21 @@ def centre(d, y, texte, f, fill, ombre=True, x=W // 2):
 
 
 def base():
-    im = Image.new("RGB", (W, H), BG)
+    im = Image.new("RGB", (W, H), THEME["bg"])
     d = ImageDraw.Draw(im)
-    d.rectangle([0, 0, W, 18], fill=GREEN)
+    d.rectangle([0, 0, W, 18], fill=THEME["acc"])
     return im, d
 
 
-def pied(d):
+def pied(d, im=None):
+    """Pastille du site à gauche, mascotte de la famille en bas à droite."""
     f = titre(52, 800)
     w = d.textlength("top10geek.fr", font=f)
-    d.rounded_rectangle([W / 2 - w / 2 - 36, 1388, W / 2 + w / 2 + 36, 1470], radius=22, fill=PILL)
-    d.text((W / 2 - w / 2, 1398), "top10geek.fr", font=f, fill=MAGENTA)
+    cx = 400
+    d.rounded_rectangle([cx - w / 2 - 36, 1388, cx + w / 2 + 36, 1470], radius=22, fill=PILL)
+    d.text((cx - w / 2, 1398), "top10geek.fr", font=f, fill=MAGENTA)
+    if im is not None:
+        mascotte(im)
 
 
 def pastille(d, x, y, texte, fond, couleur):
@@ -273,9 +314,9 @@ def entete(d, kicker, ligne1, sous, bf=False):
     fk = corps(30, 800)
     k = kicker.upper()
     w = d.textlength(k, font=fk)
-    d.rounded_rectangle([W / 2 - w / 2 - 26, 56, W / 2 + w / 2 + 26, 112], radius=28, fill=MAGENTA if bf else GREEN)
+    d.rounded_rectangle([W / 2 - w / 2 - 26, 56, W / 2 + w / 2 + 26, 112], radius=28, fill=MAGENTA if bf else THEME["acc"])
     d.text((W / 2 - w / 2, 64), k, font=fk, fill=WHITE if bf else PILL)
-    f, ls = ajuste(d, ligne1.upper(), lambda t: titre(t, 800), 880, 3, 92, 52)
+    f, ls = ajuste(d, ligne1.upper(), lambda t: titre(t, 800), 880, 2 if ligne1.startswith('Top 3') else 3, 92, 40)
     y = 140
     for l in ls:
         centre(d, y, l, f, WHITE)
@@ -283,7 +324,7 @@ def entete(d, kicker, ligne1, sous, bf=False):
     if sous:
         fs, lss = ajuste(d, sous, lambda t: titre(t, 700), 880, 2, 44, 30)
         for l in lss:
-            centre(d, y + 6, l, fs, GREEN)
+            centre(d, y + 6, l, fs, THEME["acc"])
             y += int(fs.size * 1.15)
     return y
 
@@ -296,7 +337,7 @@ def carte_top(im, d, y, rang, p):
     n = str(rang)
     f = titre(52, 800)
     d.text((cx - d.textlength(n, font=f) / 2, cy - 33), n, font=f, fill=WHITE)
-    fn, ls = ajuste(d, p["nom"], lambda t: corps(t, 800), 520, 2, 40, 28)
+    fn, ls = ajuste(d, p["nom"], lambda t: corps(t, 800), 520 if rang < 3 else 340, 2 if rang < 3 else 3, 40, 26)
     ty = y + 34
     for l in ls:
         d.text((414, ty), l, font=fn, fill=INK)
@@ -322,6 +363,7 @@ def pin_top3(u, bf=False):
             break
     if len(ps) < 3:
         return None
+    theme(u["fam"], u["label"])
     im, d = base()
     lab = u["label"]
     if bf:
@@ -332,11 +374,12 @@ def pin_top3(u, bf=False):
     for i, p in enumerate(ps, 1):
         carte_top(im, d, y, i, p)
         y += 330
-    pied(d)
+    pied(d, im)
     return im, ps
 
 
-def pin_produit(p):
+def pin_produit(p, u):
+    theme(u["fam"], u["label"])
     im, d = base()
     y = entete(d, "Le test en résumé", p["nom"], None)
     top = max(y + 30, 330)
@@ -345,13 +388,13 @@ def pin_produit(p):
     y = top + 590
     fnote = titre(150, 800)
     note = fr(p["avg"])
-    d.text((90, y - 12), note, font=fnote, fill=GREEN)
+    d.text((90, y - 12), note, font=fnote, fill=THEME["acc"])
     wn = d.textlength(note, font=fnote)
     d.text((90 + wn + 6, y + 82), "/10", font=corps(48, 700), fill=WHITE)
     x2 = 90 + wn + 130
     d.text((x2, y + 18), f"{p['n']} note{'s' if p['n'] > 1 else ''} de presse", font=corps(34, 800), fill=WHITE)
     if p["prix"]:
-        d.text((x2, y + 66), f"env. {euro(p['prix'])}", font=corps(34, 800), fill=GREEN)
+        d.text((x2, y + 66), f"env. {euro(p['prix'])}", font=corps(34, 800), fill=THEME["acc"])
         d.text((x2, y + 112), "prix indicatif", font=corps(24, 600), fill=(200, 200, 185))
     y += 190
     it = data_items().get(p["nom"], {})
@@ -359,21 +402,22 @@ def pin_produit(p):
     for sig, s in lst:
         if y > 1330:
             break
-        col = GREEN if sig == "+" else MAGENTA
+        col = THEME["acc"] if sig == "+" else MAGENTA
         d.ellipse([90, y + 4, 128, y + 42], fill=col)
         fs = corps(32, 800)
         d.text((109 - d.textlength(sig, font=fs) / 2, y + 2), sig, font=fs, fill=PILL)
-        f, ls = ajuste(d, s, lambda t: corps(t, 700), 760, 2, 32, 24)
+        f, ls = ajuste(d, s, lambda t: corps(t, 700), 620, 3, 32, 24)
         yy = y
         for l in ls:
             d.text((148, yy), l, font=f, fill=WHITE)
             yy += int(f.size * 1.25)
         y = max(yy, y + 50) + 14
-    pied(d)
+    pied(d, im)
     return im
 
 
 def pin_bf_conseils(titres):
+    theme("", "")
     im, d = base()
     y = entete(d, "Black Friday 2026", "Comment repérer une vraie promo", "4 réflexes avant d'acheter", bf=True)
     y = max(y + 40, 420)
@@ -383,13 +427,13 @@ def pin_bf_conseils(titres):
         f = titre(60, 800)
         n = str(i)
         d.text((140 - d.textlength(n, font=f) / 2, y + 60), n, font=f, fill=WHITE)
-        fn, ls = ajuste(d, t, lambda s: corps(s, 800), 680, 3, 38, 26)
+        fn, ls = ajuste(d, t, lambda s: corps(s, 800), 540, 4, 36, 24)
         ty = y + 95 - int(len(ls) * fn.size * 1.2 / 2) + 10
         for l in ls:
             d.text((225, ty), l, font=fn, fill=INK)
             ty += int(fn.size * 1.2)
         y += 215
-    pied(d)
+    pied(d, im)
     return im
 
 
@@ -516,7 +560,7 @@ def main():
                 f = OUT_IMG / f"produit-{u['fam']}-{slug(url)}.jpg"
                 if a.seulement_nouveaux and f.exists():
                     continue
-                url_img = enregistrer(pin_produit(p), f"produit-{u['fam']}-{slug(url)}")
+                url_img = enregistrer(pin_produit(p, u), f"produit-{u['fam']}-{slug(url)}")
                 ajouter(u["fam"], "produit", f"{p['nom']} : avis, test et note de la presse ({fr(p['avg'])}/10)",
                         (p["desc"] or f"{p['nom']} : {fr(p['avg'])}/10 sur {p['n']} notes presse.")
                         + " Points forts, réserves et prix indicatif sur Top10Geek.", url, url_img, u["board"])
