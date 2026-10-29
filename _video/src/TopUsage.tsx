@@ -10,13 +10,14 @@ export const DUREE_TOP3 = INTRO + 3 * SCENE + OUTRO;
 
 const Fond: React.FC<{couleur: string}> = ({couleur}) => (
   <AbsoluteFill style={{background: C.paper}}>
+    <AbsoluteFill style={{background: couleur.toUpperCase() === '#1F9E6E' ? '#7C3AED' : couleur, opacity: 0.22}} />
     <AbsoluteFill
       style={{
         backgroundImage: `radial-gradient(${C.ink}14 2px, transparent 2px)`,
         backgroundSize: '28px 28px',
       }}
     />
-    <div style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 26, background: couleur}} />
+    <div style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 26, background: couleur.toUpperCase() === '#1F9E6E' ? '#7C3AED' : couleur}} />
     <div style={{position: 'absolute', left: 0, bottom: 0, width: 1080, height: 26, background: C.accent}} />
   </AbsoluteFill>
 );
@@ -135,10 +136,15 @@ const Scene: React.FC<{p: Produit; u: Usage}> = ({p, u}) => {
             <Pastille fond={C.highlight} couleur={C.ink} taille={28}>{p.nnotes === 1 ? '1 seul test noté' : `${p.nnotes} tests notés seulement`}</Pastille>
           </div>
         )}
-        <div style={{opacity: fade(40), fontFamily: FONT.body, fontWeight: 600, fontSize: 40, color: C.ink, lineHeight: 1.3}}>
+        <div style={{opacity: fade(40), fontFamily: FONT.body, fontWeight: 600, fontSize: 40, color: C.ink, lineHeight: 1.3, maxWidth: 640}}>
           <span style={{color: u.couleur, fontWeight: 700}}>+ </span>{p.fort}
         </div>
       </div>
+
+      <Img
+        src={staticFile(`assets/img/${u.mascotte}.webp`)}
+        style={{position: 'absolute', right: 24, bottom: 175, height: 420, opacity: fade(25), filter: 'drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1.5px #fff) drop-shadow(0 6px 14px rgba(0,0,0,.35))'}}
+      />
 
       <div style={{position: 'absolute', left: 70, bottom: 110, opacity: fade(55)}}>
         <span style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 64, color: C.accent}}>env. {p.prix}</span>
