@@ -1618,7 +1618,7 @@ FAM_BTNS = ('<div class="fb-group"><span class="fb-label">Informatique</span><di
             + '</div></div>')
 
 # ---------------------------------------------------------------- Black Friday : réglages, baisses constatées, bandeau d'accueil
-BF_ACTIF = True            # INTERRUPTEUR : False retire le bandeau et le lien de l'accueil (la page /black-friday/ reste en ligne)
+BF_ACTIF = False           # INTERRUPTEUR : False retire le bandeau et le lien de l'accueil (la page /black-friday/ reste en ligne)
 BF_DATE = "vendredi 27 novembre 2026"
 BF_DEBUT = "2026-11-23"    # début de la semaine d'opérations ; la référence est le plus bas prix des 30 jours précédents
 BF_FIN = "2026-11-30"      # Cyber Monday
