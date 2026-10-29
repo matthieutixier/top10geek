@@ -5,7 +5,7 @@ Une synthèse résume ce que disent réellement les tests cités sur la fiche : 
 limites relevées, pour qui. Elle s'affiche sur la fiche, sous « Le consensus de la presse », avec sa date et ses sources.
 
   python3 _source/syntheses.py a-faire [--famille ecran] [--top 10]
-      Fiches à 3 notes presse ou plus sans synthèse, puis synthèses périmées (notes ou tests ajoutés depuis la rédaction).
+      Fiches à 2 notes presse ou plus sans synthèse, puis synthèses périmées (notes ou tests ajoutés depuis la rédaction).
   python3 _source/syntheses.py appliquer _source/data/syntheses.json [--apply]
       Contrôle puis écrit les synthèses dans data.json. Sans --apply : aperçu.
 
@@ -13,7 +13,7 @@ Fichier d'entrée : [{"id": "<produit>", "texte": "…", "sources": ["Les Numér
   - texte : 500 à 1 500 caractères, paragraphes séparés par une ligne vide, texte brut (ni HTML ni lien) ;
   - sources : médias réellement lus pour la rédiger, tous cités sur la fiche ; au moins 2 sont nommés dans le texte.
 
-Règles (vérifiées autant que possible par le script) : seulement des fiches à 3 notes presse ou plus ; rien d'inventé —
+Règles (vérifiées autant que possible par le script) : seulement des fiches à 2 notes presse ou plus (toutes rubriques, décision du 29/10/2026) ; rien d'inventé —
 chaque affirmation vient d'un test cité et lu ; pas de superlatif publicitaire ; pas de phrase type reprise d'une fiche à
 l'autre (une synthèse trop proche d'une autre est refusée) ; la note et le classement ne sont jamais modifiés ici."""
 import datetime
