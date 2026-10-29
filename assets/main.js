@@ -1,8 +1,21 @@
+// main15.js (v15, 29/10/2026) : main14.js + source de la visite (utm_source de l'adresse d'arrivée) jointe aux signaux de clic, et un signal « arrivée » par session quand une source est connue.
 // main13.js (v13, 20/10/2026) : main12.js + mesure des clics internes dans les zones data-zi (radar de la fiche, alternatives).
 // main11.js (v11, 20/10/2026) : main10.js + mesure des clics marchands + barre d'achat fixe sur mobile.
 (function(){
   // Mesure des clics vers les marchands : un signal sans cookie ni identifiant vers /api/clic (functions/api/clic.js).
   // Le lien reste un lien direct vers le marchand : rien n'est redirigé.
+  // Source de la visite : utm_source de l'adresse d'arrivée (ex. pinterest, reddit, linkedin, youtube), gardée le temps de la session.
+  // Aucun cookie, aucun identifiant : seulement le nom du canal, utilisé pour savoir quels canaux de communication rapportent des clics.
+  var SRC='';
+  try{
+    var us=new URLSearchParams(location.search).get('utm_source');
+    if(us&&/^[a-z0-9_-]{1,20}$/i.test(us)){ sessionStorage.setItem('t10src',us.toLowerCase()); }
+    SRC=sessionStorage.getItem('t10src')||'';
+    if(us&&SRC&&!sessionStorage.getItem('t10arr')){
+      sessionStorage.setItem('t10arr','1');
+      if(navigator.sendBeacon) navigator.sendBeacon('/api/clic',new Blob([JSON.stringify({p:location.pathname,m:'arrivee',id:'',z:'arrivee',a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi',s:SRC})],{type:'text/plain'}));
+    }
+  }catch(x){}
   var M=[[/amazon\./,'Amazon'],[/effiliation\.com|electrodepot\./,'Electro Dépôt'],[/darty\./,'Darty'],[/acer\./,'Acer Store'],[/geekom/,'Geekom'],[/fnac\./,'Fnac']];
   function marchand(h){for(var i=0;i<M.length;i++){if(M[i][0].test(h)) return M[i][1];} return null;}
   function signal(e){
@@ -19,7 +32,7 @@
       z=a.closest('[data-z]');
     }
     var d={p:location.pathname,m:m,id:f?f.getAttribute('data-pid'):'',z:z?z.getAttribute('data-z'):'autre',
-           a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi'};
+           a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi',s:SRC};
     try{ if(navigator.sendBeacon) navigator.sendBeacon('/api/clic',new Blob([JSON.stringify(d)],{type:'text/plain'})); }catch(x){}
   }
   document.addEventListener('click',signal,true);

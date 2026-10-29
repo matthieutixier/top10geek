@@ -23,7 +23,7 @@ from catalog_reconditionnes import RECO, GUIDE_RECO
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
 CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css', 'extra23.css']
-VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main14.js'])).hexdigest()[:8]
+VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main15.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
@@ -2037,7 +2037,7 @@ for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"
     _t = re.sub(r'  (?:<div class="topbar">.*?\n  </div>|<header class="hd hd-b">.*?</header>)\n', lambda m: "  " + nav_html(_r, "") + "\n", _t, count=1, flags=re.S)
     _t = re.sub(r'<div class="foot-links">.*?</div>\n    </div>', lambda m: foot_tail(_r), _t, count=1, flags=re.S)
     open(_p, "w", encoding="utf-8").write(_t)
-shutil.copy(SRC + "main14.js", os.path.join(OUT, "assets/main.js"))
+shutil.copy(SRC + "main15.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):

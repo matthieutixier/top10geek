@@ -1,0 +1,156 @@
+// main15.js (v15, 29/10/2026) : main14.js + source de la visite (utm_source de l'adresse d'arrivée) jointe aux signaux de clic, et un signal « arrivée » par session quand une source est connue.
+// main13.js (v13, 20/10/2026) : main12.js + mesure des clics internes dans les zones data-zi (radar de la fiche, alternatives).
+// main11.js (v11, 20/10/2026) : main10.js + mesure des clics marchands + barre d'achat fixe sur mobile.
+(function(){
+  // Mesure des clics vers les marchands : un signal sans cookie ni identifiant vers /api/clic (functions/api/clic.js).
+  // Le lien reste un lien direct vers le marchand : rien n'est redirigé.
+  // Source de la visite : utm_source de l'adresse d'arrivée (ex. pinterest, reddit, linkedin, youtube), gardée le temps de la session.
+  // Aucun cookie, aucun identifiant : seulement le nom du canal, utilisé pour savoir quels canaux de communication rapportent des clics.
+  var SRC='';
+  try{
+    var us=new URLSearchParams(location.search).get('utm_source');
+    if(us&&/^[a-z0-9_-]{1,20}$/i.test(us)){ sessionStorage.setItem('t10src',us.toLowerCase()); }
+    SRC=sessionStorage.getItem('t10src')||'';
+    if(us&&SRC&&!sessionStorage.getItem('t10arr')){
+      sessionStorage.setItem('t10arr','1');
+      if(navigator.sendBeacon) navigator.sendBeacon('/api/clic',new Blob([JSON.stringify({p:location.pathname,m:'arrivee',id:'',z:'arrivee',a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi',s:SRC})],{type:'text/plain'}));
+    }
+  }catch(x){}
+  var M=[[/amazon\./,'Amazon'],[/effiliation\.com|electrodepot\./,'Electro Dépôt'],[/darty\./,'Darty'],[/acer\./,'Acer Store'],[/geekom/,'Geekom'],[/fnac\./,'Fnac']];
+  function marchand(h){for(var i=0;i<M.length;i++){if(M[i][0].test(h)) return M[i][1];} return null;}
+  function signal(e){
+    if(e.type==='auxclick'&&e.button!==1) return;
+    var a=e.target&&e.target.closest?e.target.closest('a[href]'):null; if(!a) return;
+    var m, z, f=a.closest('[data-pid]'), u;
+    try{ u=new URL(a.getAttribute('href'),location.href); }catch(x){ return; }   // URL : marche aussi pour les liens SVG
+    if(u.host===location.host){
+      z=a.closest('[data-zi]'); if(!z) return;   // lien interne : compté seulement dans une zone data-zi
+      m='interne'; z={getAttribute:function(){return 'i-'+a.closest('[data-zi]').getAttribute('data-zi');}};
+      f={getAttribute:function(){return u.pathname;}};
+    } else {
+      m=marchand(u.hostname+u.pathname); if(!m) return;
+      z=a.closest('[data-z]');
+    }
+    var d={p:location.pathname,m:m,id:f?f.getAttribute('data-pid'):'',z:z?z.getAttribute('data-z'):'autre',
+           a:(window.matchMedia&&matchMedia('(max-width: 700px)').matches)?'mobile':'ordi',s:SRC};
+    try{ if(navigator.sendBeacon) navigator.sendBeacon('/api/clic',new Blob([JSON.stringify(d)],{type:'text/plain'})); }catch(x){}
+  }
+  document.addEventListener('click',signal,true);
+  document.addEventListener('auxclick',signal,true);
+})();
+
+(function(){
+  // Barre d'achat fixe (fiche produit, mobile) : visible une fois le bloc d'achat dépassé, masquée sur la section des offres.
+  var bar=document.getElementById('buyBar'), box=document.getElementById('buyBox');
+  if(!bar||!box||!('IntersectionObserver' in window)) return;
+  var vis={box:true,prix:false,pied:false};
+  var links=bar.querySelectorAll('a');
+  function maj(){
+    var on=!vis.box&&!vis.prix&&!vis.pied&&box.getBoundingClientRect().top<0;
+    bar.classList.toggle('on',on); document.body.classList.toggle('bar-on',on);
+    bar.setAttribute('aria-hidden',on?'false':'true');
+    for(var i=0;i<links.length;i++){ if(on) links[i].removeAttribute('tabindex'); else links[i].setAttribute('tabindex','-1'); }
+  }
+  function obs(el,k,marge){ if(!el) return; new IntersectionObserver(function(es){ vis[k]=es[0].isIntersecting; maj(); },marge?{rootMargin:marge}:undefined).observe(el); }
+  obs(box,'box'); obs(document.querySelector('#prix .p-offers'),'prix','-35% 0px -35% 0px'); obs(document.querySelector('footer'),'pied');
+})();
+
+(function(){
+  try{
+    var hd=document.querySelector('.hd');
+    if(hd){
+      var items=[].slice.call(hd.querySelectorAll('.b-item'));
+      var closeAll=function(){items.forEach(function(x){x.classList.remove('open');x.querySelector('.b-trig').setAttribute('aria-expanded','false');});};
+      items.forEach(function(it){
+        var t=it.querySelector('.b-trig');
+        t.addEventListener('click',function(){var was=it.classList.contains('open');closeAll();if(!was){it.classList.add('open');t.setAttribute('aria-expanded','true');}});
+      });
+      document.addEventListener('keydown',function(e){if(e.key==='Escape')closeAll();});
+      document.addEventListener('click',function(e){if(!e.target.closest('.b-item'))closeAll();});
+      var tg=document.getElementById('hdToggle'), pn=document.getElementById('hdPanel');
+      tg.addEventListener('click',function(){var on=pn.hidden;pn.hidden=!on;tg.setAttribute('aria-expanded',on?'true':'false');tg.textContent=on?'Fermer':'Menu';});
+    }
+  }catch(e){}
+
+  var DATA=window.T10G||{}, L=DATA.laptops||{};
+  var card=document.getElementById('detailCard');
+  if(!card) return;
+  var chart=document.getElementById('bubbleChart'), list=document.getElementById('topList');
+  function $(id){return document.getElementById(id);}
+  function fill(el,arr){el.innerHTML='';arr.forEach(function(s){var sp=document.createElement('span');sp.className='s';sp.textContent=s;el.appendChild(sp);});}
+
+  function select(id,opts){
+    var d=L[id]; if(!d) return;
+    card.setAttribute('data-pid',id);
+    $('detailName').textContent=d.short;
+    $('detailRef').textContent=d.ref;
+    var p=$('detailPress');
+    if(d.press){ p.className='score big-press'; p.innerHTML='<span class="pn">'+d.press.avg+'</span><span class="pd">/10</span><span class="pc">presse · '+d.press.n+' note'+(d.press.n>1?'s':'')+(d.press.gamme?' · gamme':'')+'</span>'; }
+    else { p.className='score big-press none'; p.innerHTML='<span class="pn">—</span><span class="pc">'+d.ntests+' test'+(d.ntests>1?'s':'')+' · sans note</span>'; }
+    $('detailRating').textContent=d.rating; $('mR').hidden=!d.rating;
+    [['mA','mAk','mAv'],['mB','mBk','mBv']].forEach(function(ids,i){ var kv=d.m[i]; $(ids[0]).hidden=(!kv[1]||kv[1]==='n.c.'); $(ids[1]).textContent=kv[0]; $(ids[2]).textContent=kv[1]; });
+    $('detailPrice').textContent=d.price;
+    $('detailVerdict').textContent=d.verdict;
+    var b=$('detailBadge'); b.textContent=d.badge; b.className='fbadge'+(d.badge==='Le choix de la bande'?'':' alt');
+    $('detailCatLabel').textContent=d.catLabel;
+    $('detailArt').className='art art-photo cat-'+d.cat;
+    $('detailArtImg').src=d.img?(DATA.root+'assets/img/p/'+d.img):(DATA.root+'assets/img/badge-'+d.badgeImg+'.webp');
+    $('detailArtImg').alt=d.short;
+    $('detailCatImg').src=DATA.root+'assets/img/badge-'+d.badgeImg+'.webp';
+    var ob=$('detailOffers'); ob.innerHTML='';
+    (d.offers||[]).forEach(function(o){var a=document.createElement('a');a.className='offer';a.href=o[2];a.target='_blank';a.rel=o[4]?'nofollow sponsored noopener':'nofollow noopener';
+      [['o-m',o[0]],['o-c',o[3]||''],['o-go','Voir →']].forEach(function(x){var e=document.createElement('span');e.className=x[0];e.textContent=x[1];a.appendChild(e);});ob.appendChild(a);});
+    fill($('detailStrengths'),d.strengths);
+    fill($('detailWeak'),d.weak.length?d.weak:['Aucun défaut majeur relevé par la presse']);
+    var mo=$('detailMore'); mo.href=DATA.root+d.purl;
+    var mn=$('detailMoreN'); if(mn) mn.textContent=d.ntests+' test'+(d.ntests>1?'s':'')+' presse'+(d.press?' · '+d.press.n+' note'+(d.press.n>1?'s':''):'');
+    if(chart) chart.querySelectorAll('.bubble').forEach(function(c){c.classList.toggle('selected',c.getAttribute('data-id')===id);});
+    if(!(opts&&opts.skipScroll)){ card.scrollIntoView({behavior:'smooth',block:window.innerWidth<=900?'start':'nearest'}); }
+  }
+  if(chart) chart.querySelectorAll('.bubble').forEach(function(c){
+    c.addEventListener('click',function(){select(c.getAttribute('data-id'));});
+    c.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();select(c.getAttribute('data-id'));}});
+  });
+
+  // Filtre par usage (pages comparatif)
+  var pills=document.querySelectorAll('#usageFilter .pill[data-filter]');
+  pills.forEach(function(p){p.addEventListener('click',function(){
+    var cat=p.getAttribute('data-filter'), firstId=null;
+    chart.querySelectorAll('.bubble').forEach(function(c){var off=cat!=='all'&&c.getAttribute('data-cat')!==cat;c.classList.toggle('dimmed',off);});
+    for(var id in L){ if(cat==='all'||L[id].cat===cat){ firstId=id; break; } }
+    pills.forEach(function(x){x.setAttribute('aria-pressed',x===p?'true':'false');});
+    if(firstId) select(firstId,{skipScroll:true});
+  });});
+
+  // Filtre par budget (pages usage)
+  var bp=document.querySelectorAll('#budgetFilter .pill');
+  bp.forEach(function(p){p.addEventListener('click',function(){
+    var f=p.getAttribute('data-budget-filter'), shown=0, firstId=null;
+    if(chart) chart.querySelectorAll('.bubble').forEach(function(c){c.classList.toggle('dimmed',f!=='all'&&c.getAttribute('data-budget')!==f);});
+    document.querySelectorAll('.fiche').forEach(function(a){var ok=(f==='all'||a.getAttribute('data-budget')===f);a.hidden=!ok;if(ok){shown++; if(!firstId) firstId=a.id;}});
+    // le message « aucun modèle » n'existe dans la page que s'il y a lieu de l'afficher
+    var en=$('emptyNote');
+    if(!shown&&!en&&list){ en=document.createElement('p'); en.id='emptyNote'; en.className='empty-note'; en.textContent='Aucun modèle de cette sélection dans cette tranche de prix.'; list.parentNode.insertBefore(en,list); }
+    if(en) en.hidden=shown>0;
+    bp.forEach(function(x){x.setAttribute('aria-pressed',x===p?'true':'false');});
+    if(firstId) select(firstId,{skipScroll:true});
+  });});
+
+  // Tri des fiches
+  var sortSel=$('sortBy');
+  if(sortSel&&list){ sortSel.addEventListener('change',function(){
+    var k=sortSel.value, items=Array.prototype.slice.call(list.querySelectorAll('.fiche'));
+    function n(a,key){return parseFloat(a.getAttribute('data-'+key));}
+    items.sort(function(a,b){
+      var byRank=n(a,'rank')-n(b,'rank');
+      if(k==='price-asc') return (n(a,'price')-n(b,'price'))||byRank;
+      if(k==='price-desc') return (n(b,'price')-n(a,'price'))||byRank;
+      if(k==='press') return (n(b,'press')-n(a,'press'))||byRank;
+      if(k==='tests') return (n(b,'tests')-n(a,'tests'))||byRank;
+      return byRank;
+    });
+    items.forEach(function(a){list.appendChild(a);});
+  }); }
+
+  select(DATA.first,{skipScroll:true});
+})();
