@@ -16,3 +16,7 @@ _source/effinity.local.json
 # Contexte projet Claude : jamais dans le dépôt public
 CLAUDE.md
 CLAUDE.md.*
+
+# Épingles Pinterest : cache polices et planning local
+_source/.cache_pins/
+_com/
