@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-19",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 PC de bureau gaming selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC de bureau gaming les mieux notés par la presse high-tech (HP Omen 35L, Lenovo LOQ Tower, Acer Predator Orion 7000). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ordinateur-de-bureau-gaming.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Lenovo Legion 5 15 : avis, test et note de la presse (8,9/10)",
+   "description": "Lenovo Legion 5 15 : 6 notes presse, moyenne 8,9/10. Un écran OLED 165 Hz, un châssis soigné et un prix encore raisonnable. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-legion-5-15/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-legion-5-15.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "HP Omen 35L : avis, test et note de la presse (8,7/10)",
+   "description": "HP Omen 35L : 7 notes presse, moyenne 8,7/10. La tour gaming la mieux notée de la sélection : puissante, polyvalente, évolutive et plutôt élégante. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/hp-omen-35l/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-hp-omen-35l.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Acer Nitro V 16 AI : avis, test et note de la presse (8,6/10)",
+   "description": "Acer Nitro V 16 AI : 3 notes presse, moyenne 8,6/10. Un grand écran rapide et une RTX 5060 dans un châssis sobre. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/acer-nitro-v-16-ai/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-acer-nitro-v-16-ai.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

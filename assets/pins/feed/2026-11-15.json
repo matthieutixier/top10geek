@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-15",
+ "pins": [
+  {
+   "title": "Apple Mac Studio M5 Max : avis, test et note de la presse (9,4/10)",
+   "description": "3 notes presse, moyenne 9,4/10. Des performances de très haut niveau dans un boîtier compact et silencieux, avec une connectique exhaustive. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/apple-mac-studio-m5-max/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-apple-mac-studio-m5-max.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Top 3 Écrans PC portable 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Asus ZenScreen Duo OLED MQ149CD (8,2/10), MSI Pro MP165 E6 (7,3/10), Acer PD163Q (7,2/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/ecran-pc/portable/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-ecran-pc-portable.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Écrans PC"
+  },
+  {
+   "title": "Top 3 Robots aspirateurs laveurs 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Dreame L10s Ultra (8,8/10), Roborock Saros 20 (8,7/10), Dreame X50 Ultra Complete (8,5/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/aspirateur-robot/robots-aspirateurs-laveurs/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-aspirateur-robot-robots-aspirateurs-laveurs.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Aspirateurs robots"
+  },
+  {
+   "title": "Top 3 TV petits formats 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Samsung OLED S90F 42\" (8,3/10), Samsung Neo QLED QN90F 50\" (8,3/10), LG OLED C5 48\" (8,2/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/tv/petits-formats/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-tv-petits-formats.jpg",
+   "board_id": "1091700834613967505",
+   "board": "TV et barres de son"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-24",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : top 3 PC tout-en-un selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC tout-en-un les mieux notés par la presse high-tech (Apple iMac 24\" M4, Acer Aspire C 27, Lenovo Yoga AIO 32). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ordinateur-de-bureau-tout-en-un.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Lenovo Yoga Slim 7 14 : avis, test et note de la presse (8,5/10)",
+   "description": "19 notes presse, moyenne 8,5/10. Châssis léger, écran OLED bien calibré, grande autonomie et connectique complète. Points forts, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-yoga-slim-7-14/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-yoga-slim-7-14.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Asus Zenbook S 14 : avis, test et note de la presse (8,5/10)",
+   "description": "29 notes presse, moyenne 8,5/10. Très fin, très léger, silencieux et endurant : un ultraportable premium unanimement salué, avec un superbe écran OLED. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/asus-zenbook-s-14/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-asus-zenbook-s-14.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Lenovo Yoga Slim 7x : avis, test et note de la presse (8,5/10)",
+   "description": "Lenovo Yoga Slim 7x : 16 notes presse, moyenne 8,5/10. Écran OLED 3K superbe, finesse et autonomie. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/lenovo-yoga-slim-7x/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-lenovo-yoga-slim-7x.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  }
+ ]
+}

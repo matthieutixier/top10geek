@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-16",
+ "pins": [
+  {
+   "title": "Top 3 Enceintes Bluetooth 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : Marshall Emberton III (8,5/10), JBL Charge 6 (8,1/10), JBL Go 5 (7,7/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/audio/enceintes-bluetooth/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-audio-enceintes-bluetooth.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Enceintes, casques et écouteurs"
+  },
+  {
+   "title": "Top 3 Vidéoprojecteurs 2026 : le choix de la presse",
+   "description": "Les 3 mieux classés : BenQ GP520 (8,0/10), XGIMI Horizon 20 Max (9,0/10), BenQ X3100i (8,7/10). Notes sur 10 calculées à partir des tests de la presse high-tech, sources à l'appui. Le top 10 complet, avec prix indicatifs et points forts, sur Top10Geek.",
+   "link": "https://top10geek.fr/photo-video/videoprojecteurs/",
+   "image": "https://top10geek.fr/assets/img/pins/top3-photo-video-videoprojecteurs.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Photo, vidéo et drones"
+  },
+  {
+   "title": "Asus Zenbook Duo : avis, test et note de la presse (8,7/10)",
+   "description": "Asus Zenbook Duo : 33 notes presse, moyenne 8,7/10. Deux écrans OLED superposés et un clavier détachable. Avis, réserves et prix indicatif. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/pc-portable/asus-zenbook-duo/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-pc-portable-asus-zenbook-duo.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC portables"
+  },
+  {
+   "title": "Geekom GT1 Mega : avis, test et note de la presse (8,5/10)",
+   "description": "Geekom GT1 Mega : 8 notes presse, moyenne 8,5/10. Processeur haut de gamme, Wi-Fi 7, double USB4 et double réseau 2,5 GbE pour moins de 900 €. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/geekom-gt1-mega/",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-geekom-gt1-mega.jpg",
+   "board_id": "1091700834613967505",
+   "board": "PC de bureau et mini-PC"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-01",
+ "pins": [
+  {
+   "title": "Black Friday 2026 : comment repérer une vraie promo (4 réflexes)",
+   "description": "Partir du prix le plus bas, vérifier la référence exacte, regarder la note de la presse, se méfier des pièges par catégorie : les 4 réflexes pour ne pas se faire piéger le 27 novembre.",
+   "link": "https://top10geek.fr/black-friday/#reconnaitre",
+   "image": "https://top10geek.fr/assets/img/pins/bf-conseils.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 PC portables bureautique selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC portables bureautique les mieux notés par la presse high-tech (Asus Zenbook A14, Apple MacBook Air 13\" M5, Apple MacBook Neo). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-pc-portable-bureautique.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 PC de bureau bureautique selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 PC de bureau bureautique les mieux notés par la presse high-tech (Geekom A5, Geekom Mini IT12, Apple Mac mini M6). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ordinateur-de-bureau-bureautique.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  },
+  {
+   "title": "Black Friday 2026 : top 3 Écrans PC bureautique selon la presse",
+   "description": "Black Friday le 27 novembre 2026 : avant de craquer, voici les 3 Écrans PC bureautique les mieux notés par la presse high-tech (Dell UltraSharp U2724DE, BenQ GW2490CE, Dell 27 Plus S2725DC). Les vraies baisses sont relevées sur la page Black Friday de Top10Geek.",
+   "link": "https://top10geek.fr/black-friday/",
+   "image": "https://top10geek.fr/assets/img/pins/bf-ecran-pc-bureautique.jpg",
+   "board_id": "1091700834613967505",
+   "board": "Black Friday 2026"
+  }
+ ]
+}
