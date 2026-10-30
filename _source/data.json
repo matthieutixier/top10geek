@@ -794,19 +794,19 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 529.98,
+     "price": 589.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-hp-17-omnibook-3-17-dp0046nfx-r5-8-256go.html",
      "name": "Pc Portable Hp 17,3'' Omnibook 3 17-dp0046nfx-r5/8/256go/argent",
      "cfg": "8 Go · 256 Go",
      "ean": "0821844416990",
      "edid": "10019070",
-     "releve": "2026-10-23"
+     "releve": "2026-10-30"
     }
    ],
    "img": "omnibook3-17.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 529.98
+   "prix": 589.98
   },
   "surface-laptop-13": {
    "cat": "bureau",
@@ -6649,7 +6649,7 @@
      "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go",
      "ean": "0199275183737",
      "edid": "10018724",
-     "releve": "2026-10-23"
+     "releve": "2026-10-30"
     }
    ],
    "img": "ideapad-slim3.webp",
@@ -6824,7 +6824,7 @@
      "cfg": "4 Go · 64 Go",
      "ean": "4711721178829",
      "edid": "10018899",
-     "releve": "2026-10-23"
+     "releve": "2026-10-30"
     }
    ],
    "img": "chromebook-315.webp",
@@ -7290,7 +7290,7 @@
      "cfg": "4 Go · 128 Go",
      "ean": "0199275252853",
      "edid": "10018811",
-     "releve": "2026-10-23"
+     "releve": "2026-10-30"
     }
    ],
    "img": "ideapad-slim3-cb14.webp",
@@ -12199,7 +12199,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 232.48,
+     "price": 279.0,
      "url": "https://www.amazon.fr/dp/B0FQ5B9BB1?tag=geekconcept-21",
      "name": "Dell 27 Plus USB-C Écran PC - S2725DC, QHD (2560x1440), 144Hz, IPS",
      "cfg": "",
@@ -12220,17 +12220,19 @@
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/pro/dell-27-plus-qhd-usb-c-s2725dc-business-monitor-review",
-      "date": ""
+      "date": "2026-07-03",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/dell/s2725dc",
-      "date": ""
+      "date": "2026-02-02"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 232.48,
+   "prix": 279.0,
    "img": "dell-s2725dc.webp",
    "rating": null,
    "nrev": 0
@@ -12281,23 +12283,26 @@
       "url": "https://monitornerds.com/dell-s2725qs-review/",
       "date": "",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Wired",
       "score": 8.0,
       "url": "https://www.wired.com/review/dell-27-plus-4k-monitor-s2725qs/",
-      "date": "",
+      "date": "2025-09-13",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/dell/s2725qs",
-      "date": ""
+      "date": "2025-09-30"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 274.75,
    "img": "dell-s2725qs.webp",
@@ -12331,7 +12336,8 @@
      "url": "https://www.amazon.fr/dp/B0F29RSLHP?tag=geekconcept-21",
      "name": "Dell 27 Plus USB-C Écran PC - S2725QC, 4K UHD (3840x2160), 120Hz, IPS, 4ms",
      "cfg": "",
-     "asin": "B0F29RSLHP"
+     "asin": "B0F29RSLHP",
+     "dispo": false
     }
    ],
    "press": {
@@ -12348,17 +12354,19 @@
       "src": "Les Numériques",
       "score": 7.0,
       "url": "https://www.lesnumeriques.com/moniteur/dell-s2725qc-p78273/test.html",
-      "date": "",
+      "date": "2026-05-18",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/dell/s2725qc",
-      "date": ""
+      "date": "2025-11-03"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 291.69,
    "img": "dell-s2725qc.webp",
@@ -12388,7 +12396,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 328.87,
+     "price": 389.33,
      "url": "https://www.amazon.fr/dp/B0F29SKXFQ?tag=geekconcept-21",
      "name": "Dell 32 Plus Écran PC - S3225QS, 4K UHD (3840x2160), 120Hz, VA, 4ms",
      "cfg": "",
@@ -12409,11 +12417,12 @@
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/dell/s3225qs",
-      "date": ""
+      "date": "2025-08-07"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 328.87,
+   "prix": 389.33,
    "img": "dell-s3225qs.webp",
    "rating": null,
    "nrev": 0
@@ -12441,7 +12450,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 360.75,
+     "price": 421.9,
      "url": "https://www.amazon.fr/dp/B0CNJSX8N8?tag=geekconcept-21",
      "name": "Dell UltraSharp 27 Écran PC - U2724DE, QHD (2560x1440), 120Hz, IPS Black",
      "cfg": "",
@@ -12462,7 +12471,8 @@
       "src": "IT Pro",
       "score": 10.0,
       "url": "https://www.itpro.com/hardware/monitors/dell-ultrasharp-u2724de-review-a-great-all-rounder",
-      "date": ""
+      "date": "2025-01-29",
+      "verifie": "30/10/2026"
      },
      {
       "src": "DisplayNinja",
@@ -12477,9 +12487,10 @@
       "src": "PCWorld",
       "score": 9.0,
       "url": "https://www.pcworld.com/article/2164596/dell-u2724de-review.html",
-      "date": "",
+      "date": "2023-12-06",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Expert Reviews",
@@ -12492,17 +12503,18 @@
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/dell-u2724de-review/",
-      "date": ""
+      "date": "2024-05-06"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/12964/dell-ultrasharp-u2724de-fijne-maar-dure-thuiswerkmonitor.html",
-      "date": ""
+      "date": "2025-02-24"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 360.75,
+   "prix": 421.9,
    "img": "dell-u2724de.webp",
    "rating": null,
    "nrev": 0,
@@ -12546,7 +12558,8 @@
      "url": "https://www.amazon.fr/dp/B0FQTCCJP1?tag=geekconcept-21",
      "name": "BenQ GW2790CE Moniteur IPS 27\" FHD 1080p 144Hz Eye-Care, télétravail, USB-C",
      "cfg": "",
-     "asin": "B0FQTCCJP1"
+     "asin": "B0FQTCCJP1",
+     "dispo": false
     }
    ],
    "press": {
@@ -12575,7 +12588,7 @@
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/benq-gw2790-review/",
-      "date": ""
+      "date": "2025-01-24"
      }
     ]
    },
@@ -12611,7 +12624,8 @@
      "url": "https://www.amazon.fr/dp/B0FQSS4P5D?tag=geekconcept-21",
      "name": "BenQ GW2490CE Moniteur IPS 23,8\" FHD 1080p 144Hz Eye-Care, télétravail, USB-C",
      "cfg": "",
-     "asin": "B0FQSS4P5D"
+     "asin": "B0FQSS4P5D",
+     "dispo": false
     }
    ],
    "press": {
@@ -12628,7 +12642,8 @@
       "src": "IT Pro",
       "score": 10.0,
       "url": "https://www.itpro.com/hardware/monitors/benq-gw2490-monitor-review-a-brilliant-office-monitor-for-under-gbp100",
-      "date": ""
+      "date": "2025-03-12",
+      "verifie": "30/10/2026"
      },
      {
       "src": "GizTele",
@@ -12636,7 +12651,8 @@
       "url": "https://www.giztele.com/benq-gw2490-monitor/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 102.69,
    "img": "benq-gw2490ce.webp",
@@ -12666,7 +12682,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 461.53,
+     "price": 459.95,
      "url": "https://www.amazon.fr/dp/B088BMZ41V?tag=geekconcept-21",
      "name": "LG Ergo Ultrafine 32UN88AP-W Ecran PC 4K 32\" - Dalle IPS 3840x2160, 60Hz, HDR 10",
      "cfg": "",
@@ -12687,25 +12703,27 @@
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/reviews/lg-32un880-ultrafine-display-ergo",
-      "date": "",
+      "date": "2020-08-10",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Korben",
       "score": null,
       "url": "https://korben.info/en/lg-ultra-fine-display-ergo-32un880-review.html",
-      "date": ""
+      "date": "2020-11-18"
      },
      {
       "src": "PurePC",
       "score": null,
       "url": "https://www.purepc.pl/lg-ultrafine-display-ergo-32un880-test-biurowego-monitora-z-matryca-ips-4k-hdr-oraz-z-ergonomiczna-podstawa-typu-ergo",
-      "date": ""
+      "date": "2021-12-31"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 461.53,
+   "prix": 459.95,
    "img": "lg-32un88a.webp",
    "rating": null,
    "nrev": 0
@@ -12737,7 +12755,8 @@
      "url": "https://www.amazon.fr/dp/B0DQXKKBDF?tag=geekconcept-21",
      "name": "LG 32UP83AK-W 32-inch Ultrafine 4K UHD (3840 x 2160) IPS Computer Monitor, 60Hz, HDR10",
      "cfg": "",
-     "asin": "B0DQXKKBDF"
+     "asin": "B0DQXKKBDF",
+     "dispo": false
     }
    ],
    "press": {
@@ -12754,15 +12773,16 @@
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/lg-32up83a-w-review/",
-      "date": ""
+      "date": "2024-03-21"
      },
      {
       "src": "PC Monitors",
       "score": null,
       "url": "https://pcmonitors.info/lg/lg-32up83a-4k-uhd-ips-with-usb-c/",
-      "date": ""
+      "date": "2021-11-30"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 483.65,
    "img": "lg-32up83a.webp",
@@ -12792,7 +12812,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 288.43,
+     "price": 339.99,
      "url": "https://www.amazon.fr/dp/B08JH7KQKV?tag=geekconcept-21",
      "name": "ASUS ProArt PA279CV 27 Pouces 4K Écran Professionnel USB-C",
      "cfg": "",
@@ -12813,27 +12833,30 @@
       "src": "Digital Camera World",
       "score": 9.0,
       "url": "https://www.digitalcameraworld.com/reviews/asus-proart-display-pa279cv-review",
-      "date": "",
+      "date": "2022-01-27",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 7.0,
       "url": "https://www.trustedreviews.com/reviews/asus-proart-pa279cv",
-      "date": "",
+      "date": "2022-01-17",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/asus-proart-pa279cv-review",
-      "date": ""
+      "date": "2022-01-18"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 288.43,
+   "prix": 339.99,
    "img": "asus-pa279cv.webp",
    "rating": null,
    "nrev": 0
@@ -12865,7 +12888,8 @@
      "url": "https://www.amazon.fr/dp/B0G6XZVL36?tag=geekconcept-21",
      "name": "AOC Gaming Moniteur Q27G4ZD 27 Pouce 280Hz QD-OLED Dalle, 0.03ms GtG, HDR400 TrueBlack",
      "cfg": "",
-     "asin": "B0G6XZVL36"
+     "asin": "B0G6XZVL36",
+     "dispo": false
     }
    ],
    "press": {
@@ -12882,17 +12906,19 @@
       "src": "MYC Media",
       "score": 9.4,
       "url": "https://myc-media.de/aoc-q27g4zdr-265%e2%80%b3-qd-oled-gaming-monitor-im-test/",
-      "date": "",
+      "date": "2026-04-15",
       "avant": 9.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 9.0,
       "url": "https://www.tomshardware.com/monitors/gaming-monitors/aoc-q27g4zd-qd-oled-240-hz-gaming-monitor-review",
-      "date": "",
+      "date": "2025-05-13",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "LeCafeDuGeek",
@@ -12905,17 +12931,19 @@
       "src": "Wired",
       "score": 8.0,
       "url": "https://www.wired.com/review/aoc-q27g4zd-review/",
-      "date": "",
+      "date": "2025-03-07",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Multiplayer.it",
       "score": 7.5,
       "url": "https://multiplayer.it/recensioni/aoc-agon-q27g4zdr-recensione-monitor-qd-oled-240-hz.html",
-      "date": "",
+      "date": "2026-03-19",
       "avant": 7.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Clubic",
@@ -12925,7 +12953,8 @@
       "ajout": "30/10/2026",
       "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 357.99,
    "img": "aoc-q27g4zd.webp",
@@ -12987,27 +13016,29 @@
       "src": "Tom's Hardware",
       "score": 9.0,
       "url": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw2725d-27-inch-qd-oled-qhd-280-hz-gaming-monitor-review",
-      "date": "",
+      "date": "2025-09-02",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/monitors/alienware-aw2725d-review",
-      "date": ""
+      "date": "2025-10-20"
      },
      {
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/2848200/alienware-aw2725d-review.html",
-      "date": ""
+      "date": "2025-07-18",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dell-alienware-aw2725d-test-3211420.html",
-      "date": ""
+      "date": "2025-12-11"
      }
     ]
    },
@@ -13039,7 +13070,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 351.58,
+     "price": 412.0,
      "url": "https://www.amazon.fr/dp/B0GYG3VLMR?tag=geekconcept-21",
      "name": "Alienware 27 Écran PC Gaming - AW2726DM, QHD (2560x1440), 240Hz, QD OLED",
      "cfg": "",
@@ -13074,7 +13105,8 @@
       "src": "PC Gamer",
       "score": 8.5,
       "url": "https://www.pcgamer.com/hardware/gaming-monitors/alienware-aw2726dm-review/",
-      "date": ""
+      "date": "2026-05-01",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Wired",
@@ -13092,7 +13124,7 @@
      }
     ]
    },
-   "prix": 351.58,
+   "prix": 412.0,
    "img": "alienware-aw2726dm.webp",
    "rating": null,
    "nrev": 0
@@ -13120,7 +13152,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 519.08,
+     "price": 639.24,
      "url": "https://www.amazon.fr/dp/B0F2JJ1T9K?tag=geekconcept-21",
      "name": "Alienware 27 Écran PC Gaming - AW2725Q, 4K UHD (3840x2160), 240Hz, QD OLED",
      "cfg": "",
@@ -13141,7 +13173,7 @@
       "src": "Engadget",
       "score": 9.0,
       "url": "https://www.engadget.com/gaming/pc/alienware-aw2725q-review-an-exceptional-oled-gaming-display-120046049.html?src=rss",
-      "date": ""
+      "date": "2025-05-02"
      },
      {
       "src": "Frandroid",
@@ -13161,9 +13193,10 @@
       "src": "Laptop Mag",
       "score": 9.0,
       "url": "https://www.laptopmag.com/gaming/gaming-monitors/alienware-27-4k-qd-oled-aw2725q-gaming-monitor-review",
-      "date": "",
+      "date": "2025-04-04",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "MKAU Gaming",
@@ -13189,39 +13222,42 @@
       "src": "TechAeris",
       "score": 9.0,
       "url": "https://techaeris.com/2025/04/02/alienware-aw2725q-review/",
-      "date": ""
+      "date": "2025-04-02"
      },
      {
       "src": "Tom's Hardware",
       "score": 9.0,
       "url": "https://www.tomshardware.com/monitors/gaming-monitors/alienware-aw2725q-4k-240-hz-oled-gaming-monitor-review-serious-value-and-high-performance",
-      "date": "",
+      "date": "2025-06-08",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 9.0,
       "url": "https://www.trustedreviews.com/reviews/alienware-aw2725q",
-      "date": "",
+      "date": "2025-03-04",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/accessories/monitors/alienware-27-4k-qd-oled-gaming-monitor-aw2725q-review",
-      "date": ""
+      "date": "2025-03-29",
+      "verifie": "30/10/2026"
      },
      {
       "src": "DisplayNinja",
       "score": 8.0,
       "url": "https://www.displayninja.com/dell-alienware-aw2725q-review/",
-      "date": ""
+      "date": "2025-04-10"
      }
     ]
    },
-   "prix": 519.08,
+   "prix": 639.24,
    "img": "alienware-aw2725q.webp",
    "rating": null,
    "nrev": 0
@@ -13249,7 +13285,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 777.62,
+     "price": 899.85,
      "url": "https://www.amazon.fr/dp/B0F94H18X8?tag=geekconcept-21",
      "name": "ASUS ROG Swift PG32UCDMZ 32 Pouces 4K 240Hz Écran PC Gamer OLED QD-OLED",
      "cfg": "",
@@ -13270,21 +13306,24 @@
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/moniteur/asus-rog-swift-oled-pg32ucdm-p74611/test.html",
-      "date": ""
+      "date": "2025-07-11",
+      "verifie": "30/10/2026"
      },
      {
       "src": "T3",
       "score": 10.0,
       "url": "https://www.t3.com/reviews/asus-rog-swift-oled-pg32ucdm-review",
-      "date": ""
+      "date": "2024-05-06",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Geeknetic",
       "score": 9.6,
       "url": "https://www.geeknetic.es/Review/2815/ASUS-ROG-Swift-OLED-PG32UCDM-Review.html",
-      "date": "",
+      "date": "2024-04-29",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "PC Gamer",
@@ -13298,7 +13337,8 @@
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/asus/1984436_test-de-lasus-rog-swift-oled-pg32ucdm",
-      "date": ""
+      "date": "2024-04-12",
+      "verifie": "30/10/2026"
      },
      {
       "src": "GizTele",
@@ -13317,31 +13357,32 @@
       "src": "RTINGS",
       "score": 9.0,
       "url": "https://www.rtings.com/monitor/reviews/asus/rog-swift-oled-pg32ucdm",
-      "date": ""
+      "date": "2024-06-03"
      },
      {
       "src": "DisplayNinja",
       "score": 8.0,
       "url": "https://www.displayninja.com/asus-pg32ucdm-review/",
-      "date": ""
+      "date": "2025-07-29"
      },
      {
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/2256541/asus-rog-swift-oled-pg32ucdm-review.html",
-      "date": "",
+      "date": "2024-03-05",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Eurogamer",
       "score": null,
       "url": "https://www.eurogamer.net/digitalfoundry-2024-asus-rog-swift-oled-pg32ucdm-review-the-best-gaming-monitor-we-have-tested",
-      "date": ""
+      "date": "2024-03-16"
      }
     ]
    },
-   "prix": 777.62,
+   "prix": 899.85,
    "img": "asus-pg32ucdm.webp",
    "rating": null,
    "nrev": 0,
@@ -13380,7 +13421,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 832.49,
+     "price": 1349.0,
      "url": "https://www.amazon.fr/dp/B0DGV5LPKS?tag=geekconcept-21",
      "name": "Sony INZONE M10S 27\" OLED QHD PC Gaming Monitor: 1440p, 480Hz, 0.03ms GTG",
      "cfg": "",
@@ -13388,8 +13429,8 @@
     }
    ],
    "press": {
-    "avg": 8.428571428571429,
-    "n": 7,
+    "avg": 8.25,
+    "n": 8,
     "tests": 8,
     "scope": "modele",
     "src": [
@@ -13401,57 +13442,67 @@
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/gaming/sony-inzone-m10s-review",
-      "date": ""
+      "date": "2024-09-24",
+      "verifie": "30/10/2026"
      },
      {
       "src": "GamesRadar",
       "score": 9.0,
       "url": "https://www.gamesradar.com/hardware/tvs-monitors/sony-inzone-m10s-review/",
-      "date": "",
+      "date": "2025-01-22",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
       "score": 9.0,
       "url": "https://www.rtings.com/monitor/reviews/sony/inzone-m10s",
-      "date": ""
+      "date": "2025-02-10"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/sony/2441836_test-du-sony-inzone-m10s",
-      "date": ""
+      "date": "2024-12-26",
+      "verifie": "30/10/2026"
      },
      {
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/2521339/sony-inzone-m10s-review.html",
-      "date": "",
+      "date": "2024-11-19",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/tech/monitors/sony-inzone-m10s-review",
-      "date": ""
+      "date": "2025-11-10",
+      "verifie": "30/10/2026"
+     },
+     {
+      "src": "Digital Trends",
+      "score": 7.0,
+      "url": "https://www.digitaltrends.com/computing/sony-inzone-m10s-review/",
+      "date": "2024-10-13",
+      "avant": null,
+      "corrige": "30/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Multiplayer.it",
       "score": 7.0,
       "url": "https://multiplayer.it/recensioni/sony-inzone-m10s-recensione-monitor-oled-gaming.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/computing/sony-inzone-m10s-review/",
-      "date": ""
+      "date": "2025-01-22",
+      "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 832.49,
+   "prix": 1349.0,
    "img": "sony-inzone-m10s.webp",
    "rating": null,
    "nrev": 0
@@ -13483,7 +13534,8 @@
      "url": "https://www.amazon.fr/dp/B0BSN2BXC5?tag=geekconcept-21",
      "name": "MSI MPG 321URXW QD-OLED Écran Gaming 31.5\" UHD",
      "cfg": "",
-     "asin": "B0BSN2BXC5"
+     "asin": "B0BSN2BXC5",
+     "dispo": false
     }
    ],
    "press": {
@@ -13500,55 +13552,58 @@
       "src": "Geeknetic",
       "score": 9.2,
       "url": "https://www.geeknetic.es/Review/2785/MSI-MPG-321URX-QD-OLED-Review.html",
-      "date": "",
+      "date": "2024-03-05",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "KitGuru",
       "score": 9.0,
       "url": "https://www.kitguru.net/peripherals/dominic-moass/msi-mpg-321urx-review-4k-240hz-qd-oled/",
-      "date": ""
+      "date": "2024-04-08"
      },
      {
       "src": "RTINGS",
       "score": 9.0,
       "url": "https://www.rtings.com/monitor/reviews/msi/mpg-321urx-qd-oled",
-      "date": ""
+      "date": "2024-07-26"
      },
      {
       "src": "Multiplayer.it",
       "score": 8.5,
       "url": "https://multiplayer.it/recensioni/msi-mpg-321urx-recensione-monitor-qd-oled-gaming.html",
-      "date": "",
+      "date": "2024-04-22",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "DisplayNinja",
       "score": 8.0,
       "url": "https://www.displayninja.com/msi-mpg-321urx-review/",
-      "date": ""
+      "date": "2025-07-30"
      },
      {
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/2615229/msi-mpg-321urxw-qd-oled-review.html",
-      "date": "",
+      "date": "2025-02-27",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Club386",
       "score": null,
       "url": "https://www.club386.com/msi-mpg-321urx-qd-oled-review-a-pixel-performance-prodigy/",
-      "date": ""
+      "date": "2024-03-15"
      },
      {
       "src": "HardwareCooking",
       "score": null,
       "url": "https://www.hardwarecooking.fr/test-msi-mpg-321urxw-qd-oled/",
-      "date": ""
+      "date": "2025-06-22"
      }
     ]
    },
@@ -13580,7 +13635,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 535.82,
+     "price": 642.99,
      "url": "https://www.amazon.fr/dp/B097PLXF1K?tag=geekconcept-21",
      "name": "MSI MPG 271QR QD-OLED X50 Écran Gaming 26.5\" WQHD",
      "cfg": "",
@@ -13601,23 +13656,26 @@
       "src": "PC Gamer",
       "score": 8.9,
       "url": "https://www.pcgamer.com/hardware/gaming-monitors/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review/",
-      "date": ""
+      "date": "2025-11-11",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Multiplayer.it",
       "score": 8.0,
       "url": "https://multiplayer.it/recensioni/msi-mpg-271qr-x50-recensione-monitor-qd-oled-27.html",
-      "date": ""
+      "date": "2026-01-28",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Wccftech",
       "score": null,
       "url": "https://wccftech.com/review/msi-mpg-271qr-x50-qd-oled-gaming-monitor-review-500hz-80-gbps-support-with-built-in-npu-powered-oled-care-3-0/",
-      "date": ""
+      "date": "2025-10-11"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 535.82,
+   "prix": 642.99,
    "img": "msi-mpg-271qr-x50.webp",
    "rating": null,
    "nrev": 0
@@ -13645,7 +13703,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 541.66,
+     "price": 649.99,
      "url": "https://www.amazon.fr/dp/B0GFYHB2M5?tag=geekconcept-21",
      "name": "AOC Gaming Moniteur AG276QSG2 27 Pouce 360Hz Fast IPS Dalle, 1ms GtG, HDR10",
      "cfg": "",
@@ -13666,37 +13724,39 @@
       "src": "Chip.de",
       "score": 9.0,
       "url": "https://www.chip.de/test/AOC-AGON-PRO-AG276QSG2-im-Test_186594666.html",
-      "date": "",
+      "date": "2026-03-02",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "KitGuru",
       "score": 8.0,
       "url": "https://www.kitguru.net/peripherals/monitors/dominic-moass/aoc-ag276qsg2-review-1440p-360hz-g-sync-pulsar/",
-      "date": ""
+      "date": "2026-01-30"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/aoc-agon-pro-ag276qsg2",
-      "date": ""
+      "date": "2026-05-25",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Club386",
       "score": 6.0,
       "url": "https://www.club386.com/aoc-agon-pro-ag276qsg2-review/",
-      "date": ""
+      "date": "2026-06-25"
      },
      {
       "src": "PC Games Hardware",
       "score": null,
       "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/Tests/Fast-IPS-WQHD-Nvidia-G-Sync-Pulsar-360-Hz-Review-Test-Tech-1490836/",
-      "date": ""
+      "date": "2026-01-20"
      }
     ]
    },
-   "prix": 541.66,
+   "prix": 649.99,
    "img": "aoc-ag276qsg2.webp",
    "rating": null,
    "nrev": 0
@@ -13724,7 +13784,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 329.75,
+     "price": 395.7,
      "url": "https://www.amazon.fr/dp/B0BY2R4BHW?tag=geekconcept-21",
      "name": "ASUS Monitor LED IPS ProArt 27\" IPS, 4K UHD, Display Port, Vesa, HDR10, USB-C PD 96W",
      "cfg": "",
@@ -13745,41 +13805,46 @@
       "src": "Chip.de",
       "score": 9.6,
       "url": "https://www.chip.de/test/Asus-ProArt-PA279CRV-im-Test_185201334.html",
-      "date": "",
+      "date": "2024-03-30",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/pro/asus-proart-pa279crv-monitor-review",
-      "date": "",
+      "date": "2023-06-22",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/1794810/asus-proart-pa279crv-review.html",
-      "date": "",
+      "date": "2023-04-27",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Les Numériques",
       "score": 6.0,
       "url": "https://www.lesnumeriques.com/moniteur/asus-proart-pa279crv-p74573/test.html",
-      "date": ""
+      "date": "2024-02-14",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-pa279crv",
-      "date": ""
+      "date": "2024-07-24"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 329.75,
+   "prix": 395.7,
    "img": "asus-pa279crv.webp",
    "rating": null,
    "nrev": 0
@@ -13807,7 +13872,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1124.99,
+     "price": 1199.0,
      "url": "https://www.amazon.fr/dp/B0FG8DB71B?tag=geekconcept-21",
      "name": "ASUS ProArt PA32QCV 32 Pouces 6K DCI-P3 Thunderbolt 4 Écran pour Mac",
      "cfg": "",
@@ -13837,29 +13902,32 @@
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/2873124/asus-proart-pa32qcv-review.html",
-      "date": ""
+      "date": "2025-08-20",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/monitors/asus-proart-pa32qcv-32-inch-6k-professional-monitor-review",
-      "date": ""
+      "date": "2025-09-17",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-6k-pa32qcv",
-      "date": ""
+      "date": "2025-11-27"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/13848/asus-proart-pa32qcv-goedkoopste-6k-monitor-is-niet-zonder-compromis.html",
-      "date": ""
+      "date": "2025-10-08"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 1124.99,
+   "prix": 1199.0,
    "img": "asus-pa32qcv.webp",
    "rating": null,
    "nrev": 0
@@ -13887,7 +13955,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 979.16,
+     "price": 999.0,
      "url": "https://www.amazon.fr/dp/B09T93CZVR?tag=geekconcept-21",
      "name": "ASUS ProArt PA32UCDM 32 Pouces 4K Écran Professionnel DCI-P3 OLED QD-OLED",
      "cfg": "",
@@ -13908,19 +13976,20 @@
       "src": "KitGuru",
       "score": 8.0,
       "url": "https://www.kitguru.net/peripherals/dominic-moass/asus-proart-pa32ucdm-review-4k-240hz-professional-oled/",
-      "date": ""
+      "date": "2025-05-08"
      },
      {
       "src": "PCWorld",
       "score": 7.0,
       "url": "https://www.pcworld.com/article/2762020/asus-proart-pa32ucdm-review.html",
-      "date": "",
+      "date": "2025-04-24",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      }
     ]
    },
-   "prix": 979.16,
+   "prix": 999.0,
    "img": "asus-pa32ucdm.webp",
    "rating": null,
    "nrev": 0
@@ -13948,7 +14017,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 536.37,
+     "price": 649.9,
      "url": "https://www.amazon.fr/dp/B08H4THPSB?tag=geekconcept-21",
      "name": "ASUS ProArt PA27JCV 27 Pouces 5K DCI-P3 USB-C Écran pour Mac",
      "cfg": "",
@@ -13969,11 +14038,12 @@
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-pa27jcv",
-      "date": ""
+      "date": "2025-05-29"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 536.37,
+   "prix": 649.9,
    "img": "asus-pa27jcv.webp",
    "rating": null,
    "nrev": 0
@@ -14001,7 +14071,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 624.92,
+     "price": 769.96,
      "url": "https://www.amazon.fr/dp/B09BC332H6?tag=geekconcept-21",
      "name": "ASUS ProArt PA279CDV, Écran Pro, 27\" 4K 120Hz, QD-OLED, USB-C 96W, HDR10",
      "cfg": "",
@@ -14022,13 +14092,15 @@
       "src": "Macworld",
       "score": 9.0,
       "url": "https://macworld.com/article/3253774/asus-proart-oled-pa279cdv-review.html",
-      "date": "",
+      "date": "2026-10-06",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 624.92,
+   "prix": 769.96,
    "img": "asus-pa279cdv.webp",
    "rating": null,
    "nrev": 0
@@ -14056,7 +14128,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 565.82,
+     "price": 678.99,
      "url": "https://www.amazon.fr/dp/B0F8W6VWRC?tag=geekconcept-21",
      "name": "ASUS ProArt PA27UCGE : 27, 4K IPS, 160Hz, 600 nits, 98% DCI-P3, Delta E1, colorimètre intégré",
      "cfg": "",
@@ -14077,17 +14149,18 @@
       "src": "Profesional Review",
       "score": 9.2,
       "url": "https://www.profesionalreview.com/2025/05/30/asus-proart-pa27ucge-review/",
-      "date": ""
+      "date": "2025-05-30",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Photo Review",
       "score": 8.8,
       "url": "https://www.photoreview.com.au/reviews/monitors-digital-darkroom/asus-proart-display-pa27ucge/",
-      "date": ""
+      "date": "2025-08-20"
      }
     ]
    },
-   "prix": 565.82,
+   "prix": 678.99,
    "img": "asus-pa27ucge.webp",
    "rating": null,
    "nrev": 0
@@ -14115,7 +14188,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 567.97,
+     "price": 728.9,
      "url": "https://www.amazon.fr/dp/B0H862B5P7?tag=geekconcept-21",
      "name": "BenQ PD2732U 27\" 4K Moniteur pour Mac avec Double Gamme de Couleurs 99%",
      "cfg": "",
@@ -14136,21 +14209,24 @@
       "src": "MacGeneration",
       "score": 8.0,
       "url": "https://www.macg.co/tests/2026/07/test-du-benq-creative-pro-pd2732u-un-moniteur-4k-de-27-pouces-qui-mise-tout-sur-les-couleurs-309945",
-      "date": "",
+      "date": "2026-07-27",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Tom's Guide",
       "score": 8.0,
       "url": "https://www.tomsguide.com/computing/monitors/benq-creative-pro-pd2732u-review",
-      "date": "",
+      "date": "2026-09-04",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 567.97,
+   "prix": 728.9,
    "img": "benq-pd2732u.webp",
    "rating": null,
    "nrev": 0
@@ -14178,7 +14254,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 264.92,
+     "price": 317.9,
      "url": "https://www.amazon.fr/dp/B0CMXGDK5S?tag=geekconcept-21",
      "name": "Dell UltraSharp 27 Écran PC - U2724D, QHD (2560x1440), 120Hz, IPS Black",
      "cfg": "",
@@ -14199,19 +14275,21 @@
       "src": "PCWorld",
       "score": 9.0,
       "url": "https://www.pcworld.com/article/2178689/dell-ultrasharp-u2724d-review.html",
-      "date": "",
+      "date": "2023-12-21",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/dell-ultrasharp-u2724d-review/",
-      "date": ""
+      "date": "2024-02-23"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 264.92,
+   "prix": 317.9,
    "img": "dell-u2724d.webp",
    "rating": null,
    "nrev": 0
@@ -14239,7 +14317,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 217.19,
+     "price": 236.92,
      "url": "https://www.amazon.fr/dp/B0886LBL8R?tag=geekconcept-21",
      "name": "ASUS ProArt PA278QV 27 Pouces 1440p Écran Professionnel",
      "cfg": "",
@@ -14260,19 +14338,22 @@
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/asus-proart-pa278qv-im-test_236989",
-      "date": ""
+      "date": "2023-10-26",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Les Numériques",
       "score": 7.0,
       "url": "https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-proart-pa278qv-p61255/test.html",
-      "date": "",
+      "date": "2020-12-21",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 217.19,
+   "prix": 236.92,
    "img": "asus-pa278qv.webp",
    "rating": null,
    "nrev": 0
@@ -14321,7 +14402,7 @@
       "src": "Fstoppers",
       "score": null,
       "url": "https://fstoppers.com/reviews/review-eizo-coloredge-cg-2700s-monitor-619533",
-      "date": ""
+      "date": "2022-11-08"
      },
      {
       "src": "PRAD",
@@ -14329,7 +14410,8 @@
       "url": "https://cdn.eizo.be/fileadmin/Media_Content/Awards/fr/ColorEdge/CG2700S/PRAD_Review_CG2700S_FR.pdf",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 1666.64,
    "img": "eizo-cg2700s.webp",
@@ -14359,7 +14441,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 82.5,
+     "price": 89.99,
      "url": "https://www.amazon.fr/dp/B0DT4NRV5Z?tag=geekconcept-21",
      "name": "ASUS ZenScreen MB169CK 15.6 Pouces Écran Portable",
      "cfg": "",
@@ -14367,8 +14449,8 @@
     }
    ],
    "press": {
-    "avg": 8.6,
-    "n": 1,
+    "avg": 8.3,
+    "n": 2,
     "tests": 4,
     "scope": "modele",
     "src": [
@@ -14380,7 +14462,18 @@
       "src": "Basic Tutorials",
       "score": 8.6,
       "url": "https://basic-tutorials.de/tests/peripherie/asus-zenscreen-mb169ck/",
-      "date": ""
+      "date": "2025-08-29",
+      "verifie": "30/10/2026"
+     },
+     {
+      "src": "IT Pro",
+      "score": 8.0,
+      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-mb169ck-review-portable-cheap-and-useful",
+      "date": "2025-06-23",
+      "ajout": "30/10/2026",
+      "avant": null,
+      "corrige": "30/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Expert Reviews",
@@ -14390,21 +14483,15 @@
       "ajout": "30/10/2026"
      },
      {
-      "src": "IT Pro",
-      "score": null,
-      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-mb169ck-review-portable-cheap-and-useful",
-      "date": "2025-06-23",
-      "ajout": "30/10/2026"
-     },
-     {
       "src": "TechTest",
       "score": null,
       "url": "https://techtest.org/asus-zenscreen-mb169ck-test-portabler-156-zoll-monitor-fuer-99e/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 82.5,
+   "prix": 89.99,
    "img": "asus-mb169ck.webp",
    "rating": null,
    "nrev": 0
@@ -14432,7 +14519,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 78.58,
+     "price": 109.9,
      "url": "https://www.amazon.fr/dp/B09P3SBQ8W?tag=geekconcept-21",
      "name": "ASUS ZenScreen MB166C 15.6 Pouces Écran Portable",
      "cfg": "",
@@ -14453,7 +14540,8 @@
       "src": "Creative Bloq",
       "score": 8.0,
       "url": "https://www.creativebloq.com/reviews/asus-zenscreen-mb166cr",
-      "date": ""
+      "date": "2024-04-10",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Digital Weekly",
@@ -14461,9 +14549,10 @@
       "url": "https://www.digitweek.com/asus-zenscreen-mb166c-review/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 78.58,
+   "prix": 109.9,
    "img": "asus-mb166c.webp",
    "rating": null,
    "nrev": 0
@@ -14491,7 +14580,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 139.71,
+     "price": 159.89,
      "url": "https://www.amazon.fr/dp/B0914KHQ4G?tag=geekconcept-21",
      "name": "ASUS Zenscreen MB16ACV - Ecran PC portable 15.6\" FHD - Télétravail ou gaming",
      "cfg": "",
@@ -14512,19 +14601,21 @@
       "src": "Allround-PC",
       "score": 7.0,
       "url": "https://www.allround-pc.com/artikel/monitore/test-asus-zenscreen-mb16ac",
-      "date": "",
+      "date": "2019-05-06",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Test-Asus-ZenScreen-MB16AC-15-6-FHD-IPS-Monitor.251642.0.html",
-      "date": ""
+      "date": "2017-09-27"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 139.71,
+   "prix": 159.89,
    "img": "asus-mb16acv.webp",
    "rating": null,
    "nrev": 0
@@ -14552,7 +14643,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 490.83,
+     "price": 589.0,
      "url": "https://www.amazon.fr/dp/B09K6Y85QH?tag=geekconcept-21",
      "name": "ASUS ZenScreen Duo OLED MQ149CD - Dual-OLED-Monitor - 35.6 cm (14\")",
      "cfg": "",
@@ -14560,8 +14651,8 @@
     }
    ],
    "press": {
-    "avg": 8.233333333333333,
-    "n": 3,
+    "avg": 8.675,
+    "n": 4,
     "tests": 4,
     "scope": "modele",
     "src": [
@@ -14569,6 +14660,16 @@
      ""
     ],
     "notes": [
+     {
+      "src": "IT Pro",
+      "score": 10.0,
+      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-duo-mq149-review-two-oled-screens-are-better-than-one",
+      "date": "2025-05-19",
+      "ajout": "30/10/2026",
+      "avant": null,
+      "corrige": "30/10/2026",
+      "verifie": "30/10/2026"
+     },
      {
       "src": "Profesional Review",
       "score": 8.7,
@@ -14580,7 +14681,7 @@
       "src": "Digital Citizen",
       "score": 8.0,
       "url": "https://www.digitalcitizen.life/asus-zenscreen-duo-oled-review/",
-      "date": "",
+      "date": "2025-02-11",
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "30/10/2026"
@@ -14592,17 +14693,10 @@
       "date": "",
       "avant": null,
       "corrige": "10/10/2026"
-     },
-     {
-      "src": "IT Pro",
-      "score": null,
-      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-duo-mq149-review-two-oled-screens-are-better-than-one",
-      "date": "2025-05-19",
-      "ajout": "30/10/2026"
      }
     ]
    },
-   "prix": 490.83,
+   "prix": 589.0,
    "img": "asus-mq149cd.webp",
    "rating": null,
    "nrev": 0
@@ -14630,7 +14724,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1803.74,
+     "price": 2667.78,
      "url": "https://www.amazon.fr/dp/B0DPL8F4MZ?tag=geekconcept-21",
      "name": "ASUS ZenScreen Fold MQ17QH Moniteur Portable 17,3, Quad HD OLED (2560 x 1920)",
      "cfg": "",
@@ -14651,17 +14745,20 @@
       "src": "Geeknetic",
       "score": 8.0,
       "url": "https://www.geeknetic.es/Review/2918/ASUS-ZenScreen-Fold-OLED-MQ17QH-Review.html",
-      "date": ""
+      "date": "2025-02-11",
+      "verifie": "30/10/2026"
      },
      {
       "src": "IT Pro",
       "score": 6.0,
       "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-fold-oled-mq17qh-review-the-portable-monitor-your-small-business-cant-afford",
-      "date": ""
+      "date": "2025-04-18",
+      "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 1803.74,
+   "prix": 2667.78,
    "img": "asus-mq17qh.webp",
    "rating": null,
    "nrev": 0
@@ -14712,7 +14809,8 @@
       "url": "https://root-nation.com/en/pc-en/pc-monitors-en/en-asus-zenscreen-oled-mq16fc-review/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 233.32,
    "img": "asus-mq16fc.webp",
@@ -14763,21 +14861,25 @@
       "src": "PCWorld",
       "score": 8.0,
       "url": "https://www.pcworld.com/article/2900743/msi-pro-mp165-e6-review.html",
-      "date": ""
+      "date": "2025-09-11",
+      "verifie": "30/10/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/pro/msi-pro-mp165-e6-portable-monitor-review",
-      "date": ""
+      "date": "2025-12-20",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 6.0,
       "url": "https://www.tomshardware.com/monitors/portable-monitors/msi-pro-mp165-e6-portable-monitor-review",
-      "date": ""
+      "date": "2025-11-02",
+      "verifie": "30/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 74.99,
    "img": "msi-pro-mp165-e6.webp",
@@ -14818,7 +14920,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 217.5,
+     "price": 262.21,
      "url": "https://www.amazon.fr/dp/B0DPXGSRNX?tag=geekconcept-21",
      "name": "Acer PD3 | Écran Portable Double | 15,6 Pouces | 2X FHD",
      "cfg": "",
@@ -14847,17 +14949,19 @@
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-572283-test-acer-pd163q-le-double-ecran-externe-qui-va-booster-votre-productivite.html",
-      "date": ""
+      "date": "2025-07-21",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/acer/2610193_test-de-lacer-pd163q-un-double-ecran-portable-pour-le-double-de-productivite",
-      "date": ""
+      "date": "2025-06-01",
+      "verifie": "30/10/2026"
      }
     ]
    },
-   "prix": 217.5,
+   "prix": 262.21,
    "img": "acer-pd163q.webp",
    "rating": null,
    "nrev": 0
@@ -14906,7 +15010,7 @@
       "src": "PC Magazin",
       "score": 8.9,
       "url": "https://www.connect-living.de/testbericht/viewsonic-va1655-tragbarer-monitor-test-review-3205440.html",
-      "date": ""
+      "date": "2023-07-05"
      },
      {
       "src": "PCWorld",
@@ -14924,7 +15028,7 @@
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/viewsonic-va1655-review-affordable-1080p-ips-portable-monitor/",
-      "date": ""
+      "date": "2024-04-26"
      }
     ]
    },
@@ -14985,7 +15089,8 @@
       "url": "https://keithwee.com/duex-max-portable-monitor-review-2023-productivity-max/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 208.14,
    "img": "duex-max.webp",
@@ -15015,7 +15120,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 133.32,
+     "price": 159.99,
      "url": "https://www.amazon.fr/dp/B0GWDTNJN3?tag=geekconcept-21",
      "name": "AOC Gaming Moniteur Q27G4XFAD 27 Pouce 180Hz Fast IPS Dalle, 1ms GtG, HDR10",
      "cfg": "",
@@ -15043,9 +15148,10 @@
       "src": "Tom's Hardware",
       "score": 9.0,
       "url": "https://www.tomshardware.com/monitors/gaming-monitors/aoc-q27g4xy-qhd-smart-gaming-monitor-review",
-      "date": "",
+      "date": "2025-05-16",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "LeCafeDuGeek",
@@ -15073,7 +15179,7 @@
      }
     ]
    },
-   "prix": 133.32,
+   "prix": 159.99,
    "img": "aoc-q27g4x.webp",
    "rating": null,
    "nrev": 0,
@@ -15112,7 +15218,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 166.66,
+     "price": 199.99,
      "url": "https://www.amazon.fr/dp/B0GWDRVW5P?tag=geekconcept-21",
      "name": "AOC Gaming Moniteur Q27G4ZRAD 27 Pouce 260Hz Fast IPS Dalle, 1ms GtG, HDR400",
      "cfg": "",
@@ -15139,19 +15245,21 @@
       "src": "Basic Tutorials",
       "score": 8.5,
       "url": "https://basic-tutorials.de/tests/peripherie/aoc-gaming-q27g4zr-im-test/",
-      "date": ""
+      "date": "2026-06-25",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Les Numériques",
       "score": 7.0,
       "url": "https://www.lesnumeriques.com/moniteur/aoc-q27g4zr-p78457/test.html",
-      "date": "",
+      "date": "2026-06-25",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      }
     ]
    },
-   "prix": 166.66,
+   "prix": 199.99,
    "img": "aoc-q27g4zr.webp",
    "rating": null,
    "nrev": 0
@@ -15179,7 +15287,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 95.79,
+     "price": 114.95,
      "url": "https://www.amazon.fr/dp/B0FR4VXQMV?tag=geekconcept-21",
      "name": "AOC Moniteur 24G4ZR 24 Pouce 260Hz Fast IPS Dalle, 1ms GtG, HDR10, G-Sync Compatible",
      "cfg": "",
@@ -15200,17 +15308,19 @@
       "src": "Basic Tutorials",
       "score": 8.6,
       "url": "https://basic-tutorials.de/tests/peripherie/aoc-gaming-24g4x/",
-      "date": ""
+      "date": "2024-07-31",
+      "verifie": "30/10/2026"
      },
      {
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/aoc-24g4-review/",
-      "date": ""
+      "date": "2024-02-07"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 95.79,
+   "prix": 114.95,
    "img": "aoc-24g4zr.webp",
    "rating": null,
    "nrev": 0
@@ -15242,7 +15352,8 @@
      "url": "https://www.amazon.fr/dp/B0DQ5J44NZ?tag=geekconcept-21",
      "name": "GIGABYTE GS27QCA 27\" Moniteur Gaming Incurvé QHD - 2560 x 1440, 180Hz, 1ms",
      "cfg": "",
-     "asin": "B0DQ5J44NZ"
+     "asin": "B0DQ5J44NZ",
+     "dispo": false
     }
    ],
    "press": {
@@ -15259,7 +15370,7 @@
       "src": "DisplayNinja",
       "score": 8.0,
       "url": "https://www.displayninja.com/gigabyte-gs27qc-review/",
-      "date": ""
+      "date": "2026-02-10"
      },
      {
       "src": "GizTele",
@@ -15271,7 +15382,7 @@
       "src": "RTINGS",
       "score": 8.0,
       "url": "https://www.rtings.com/monitor/reviews/gigabyte/gs27qc",
-      "date": ""
+      "date": "2024-08-07"
      },
      {
       "src": "Actu High-Tech",
@@ -15309,7 +15420,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 176.5,
+     "price": 214.99,
      "url": "https://www.amazon.fr/dp/B0DQ5T8M7J?tag=geekconcept-21",
      "name": "GIGABYTE GS32QCA 31,5\" Moniteur Gaming Incurvé QHD - 2560 x 1440, 180Hz, 1ms",
      "cfg": "",
@@ -15332,9 +15443,10 @@
       "url": "https://www.noticias3d.com/articulo/3919/p2/gigabyte-gs32qca-radeon-rx-9060-xt-review-pareja-avenida.html",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 176.5,
+   "prix": 214.99,
    "img": "gigabyte-gs32qca.webp",
    "rating": null,
    "nrev": 0
@@ -15362,7 +15474,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 90.83,
+     "price": 109.0,
      "url": "https://www.amazon.fr/dp/B0GHQ2BPYJ?tag=geekconcept-21",
      "name": "Dell 24 Écran PC Gaming - SE2426HG, Full HD (1920x1080), 240Hz, Fast IPS",
      "cfg": "",
@@ -15383,11 +15495,12 @@
       "src": "RTINGS",
       "score": null,
       "url": "https://www.rtings.com/monitor/reviews/dell/se2426hgs",
-      "date": ""
+      "date": "2026-05-07"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 90.83,
+   "prix": 109.0,
    "img": "dell-se2426hg.webp",
    "rating": null,
    "nrev": 0
@@ -15415,7 +15528,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 123.14,
+     "price": 139.99,
      "url": "https://www.amazon.fr/dp/B0FDBJBG7R?tag=geekconcept-21",
      "name": "ASUS TUF Gaming VG279QM5A 27 Pouces 240Hz Écran PC Gamer Fast IPS",
      "cfg": "",
@@ -15436,23 +15549,25 @@
       "src": "DisplayNinja",
       "score": 8.0,
       "url": "https://www.displayninja.com/asus-vg279qm-review/",
-      "date": ""
+      "date": "2022-02-04"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/moniteur-ecran-lcd/asus-vg279qm-p56789/test.html",
-      "date": "",
+      "date": "2020-03-12",
       "avant": 10.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "01net",
       "score": 7.6,
       "url": "https://www.01net.com/tests/test-de-l-asus-tuf-gaming-vg279qm-un-ecran-27-pouces-presque-parfait-pour-le-jeu-video-6459.html",
-      "date": "",
+      "date": "2020-06-30",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Actu High-Tech",
@@ -15462,7 +15577,7 @@
      }
     ]
    },
-   "prix": 123.14,
+   "prix": 139.99,
    "img": "asus-vg279qm5a.webp",
    "rating": null,
    "nrev": 0
@@ -15490,7 +15605,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 133.32,
+     "price": 193.96,
      "url": "https://www.amazon.fr/dp/B0FLQ62BSG?tag=geekconcept-21",
      "name": "Lenovo Legion 27Q-10 - Écran Gaming de 27\" QHD avec Eyesafe (IPS, 240Hz, 0.5ms)",
      "cfg": "",
@@ -15511,17 +15626,18 @@
       "src": "Croma Unboxed",
       "score": null,
       "url": "https://www.croma.com/unboxed/lenovo-legion-27q-10-gaming-monitor-review",
-      "date": ""
+      "date": "2025-11-29"
      },
      {
       "src": "FoneArena",
       "score": null,
       "url": "https://www.fonearena.com/blog/473942/lenovo-legion-27q-10-review.html",
-      "date": ""
+      "date": "2026-01-22"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 133.32,
+   "prix": 193.96,
    "img": "lenovo-legion-27q-10.webp",
    "rating": null,
    "nrev": 0
@@ -15549,7 +15665,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 145.75,
+     "price": 167.99,
      "url": "https://www.amazon.fr/dp/B0FV3CH9GZ?tag=geekconcept-21",
      "name": "iiyama Ecran G-Master Red Eagle, GB2771QSU-B1, Fast IPS, QHD@200Hz, 0.5ms, Haut-parleurs",
      "cfg": "",
@@ -15570,13 +15686,13 @@
       "src": "CowCotLand",
       "score": 10.0,
       "url": "https://www.cowcotland.com/articles/4503/iiyama-g-master-red-eagle-gb2770qsu-b6-un-excellent-ecran-qhd-qui-fait-le-job-mais.html",
-      "date": ""
+      "date": "2025-02-28"
      },
      {
       "src": "KitGuru",
       "score": 8.0,
       "url": "https://www.kitguru.net/peripherals/dominic-moass/iiyama-gb2770qsu-1440p-165hz-monitor-review/",
-      "date": ""
+      "date": "2021-11-15"
      },
      {
       "src": "CharlesTech",
@@ -15591,11 +15707,11 @@
       "src": "MonitorNerds",
       "score": null,
       "url": "https://monitornerds.com/iiyama-gb2770qsu-review/",
-      "date": ""
+      "date": "2022-08-08"
      }
     ]
    },
-   "prix": 145.75,
+   "prix": 167.99,
    "img": "iiyama-gb2771qsu.webp",
    "rating": null,
    "nrev": 0
@@ -15806,7 +15922,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2876/16/105076",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 244.5,
    "img": "epson-et-2876.webp",
@@ -15926,7 +16043,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-3956/16/125183",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 283.32,
    "img": "epson-et-3956.webp",
@@ -15985,7 +16103,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-4900/16/132659",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 308.37,
    "img": "epson-et-4900.webp",
@@ -16200,7 +16319,8 @@
       "url": "https://taenk.dk/test/printere/canon-pixma-g3570-0",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 259.78,
    "img": "canon-g3570.webp",
@@ -16265,7 +16385,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2620dw/16/105066",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 149.17,
    "img": "brother-dcp-l2620dw.webp",
@@ -16324,7 +16445,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-hl-l1240w",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 93.54,
    "img": "brother-hl-l1240w.webp",
@@ -16522,7 +16644,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-mfc-l2800dw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 190.75,
    "img": "brother-mfc-l2800dw.webp",
@@ -16575,7 +16698,8 @@
       "url": "https://www.rtings.com/printer/reviews/brother/mfc-l2820dw-dcp-l2640dw-hl-l2480dw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 195.83,
    "img": "brother-mfc-l2835dw.webp",
@@ -16634,7 +16758,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/brother-mfc-l2960dw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 276.42,
    "img": "brother-mfc-l2960dw.webp",
@@ -16693,7 +16818,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2660dw/16/105079",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 195.83,
    "img": "brother-dcp-l2665dw.webp",
@@ -16758,7 +16884,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-lbp243dw-ii",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 224.96,
    "img": "canon-lbp243dw-ii.webp",
@@ -16817,7 +16944,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-laserjet-mfp-m234d/16/114855",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 126.85,
    "img": "hp-laserjet-m234dw.webp",
@@ -16992,7 +17120,8 @@
       "url": "https://taenk.dk/test/printere/brother-hl-l3240cdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 216.58,
    "img": "brother-hl-l3240cdw.webp",
@@ -17118,7 +17247,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-lbp647cdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 236.14,
    "img": "canon-lbp647cdw.webp",
@@ -17171,7 +17301,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-mf664cdw/16/125181",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 283.36,
    "img": "canon-mf664cdw.webp",
@@ -17224,7 +17355,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/xerox-c-320/16/205884",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 271.82,
    "img": "xerox-c320.webp",
@@ -17277,7 +17409,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-color-laserjet-pro-3202dw/16/108966",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 215.83,
    "img": "hp-color-laserjet-pro-3202dw.webp",
@@ -17373,6 +17506,16 @@
      "name": "Canon SELPHY CP1500 Imprimante Photo Portable WiFi + Ensemble de Papier",
      "cfg": "",
      "asin": "B0DZDXF47Q"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 129.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-nomade-canon-selphy-cp1500-noire.html",
+     "name": "Imprimante Photo Wifi Canon Selphy Cp1500 Noire - Impression Format Photo (10x15cm)",
+     "cfg": "",
+     "ean": "4549292194692",
+     "edid": "10018462",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -17415,7 +17558,7 @@
      }
     ]
    },
-   "prix": 133.32,
+   "prix": 129.98,
    "img": "canon-selphy-cp1500.webp",
    "rating": null,
    "nrev": 0
@@ -17624,7 +17767,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/fujifilm-instax-mini-link-3/16/184723",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 108.25,
    "img": "fujifilm-instax-mini-link-3.webp",
@@ -18061,6 +18205,16 @@
      "name": "Canon PIXMA TS6550i – Imprimante Jet d'Encre Multifonction Wi-FI – Impression Rapide Recto Verso",
      "cfg": "",
      "asin": "B0GT28CL51"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 59.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts6550i.html",
+     "name": "Imprimante Canon Ts6550i Multifonction",
+     "cfg": "",
+     "ean": "4549292247985",
+     "edid": "10020364",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18094,7 +18248,7 @@
      }
     ]
    },
-   "prix": 74.99,
+   "prix": 59.98,
    "img": "canon-pixma-ts6550i.webp",
    "rating": null,
    "nrev": 0
@@ -18127,6 +18281,16 @@
      "name": "Epson Expression Home XP-2200 | Imprimante 3-en-1 - Impression, Numérisation, Copie - WiFi",
      "cfg": "",
      "asin": "B0B8X457PN"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 48.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-2205.html",
+     "name": "Imprimante Epson Expression Xp-2205 Multifonction",
+     "cfg": "version XP-2205",
+     "ean": "8715946702797",
+     "edid": "975904",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18188,6 +18352,16 @@
      "name": "Canon PIXMA TS4151i Imprimante Jet d'encre Multifonction WiFi Compacte",
      "cfg": "",
      "asin": "B0FY6RNQXL"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 69.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts4150i-blanc.html",
+     "name": "Imprimante Canon Ts4150i Multifonction",
+     "cfg": "version TS4150i",
+     "ean": "4549292248067",
+     "edid": "10016130",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18212,7 +18386,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts-4151-i/16/190144",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 45.82,
    "img": "canon-pixma-ts4151i.webp",
@@ -18277,7 +18452,8 @@
       "url": "https://taenk.dk/test/printere/epson-workforce-wf-2930dwf",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 49.99,
    "img": "epson-wf-2930dwf.webp",
@@ -18312,6 +18488,16 @@
      "name": "Canon PIXMA TR4755i Imprimante Jet d'encre Multifonction",
      "cfg": "",
      "asin": "B0FJSLRQMK"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 69.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-tr4755i.html",
+     "name": "Imprimante Canon Tr4755i Multifonction",
+     "cfg": "",
+     "ean": "4549292237368",
+     "edid": "10017501",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18342,7 +18528,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-pixma-tr4750i",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 58.32,
    "img": "canon-pixma-tr4755i.webp",
@@ -18377,6 +18564,16 @@
      "name": "Canon PIXMA TS7550i – Imprimante compacte Jet d'Encre Multifonction Wi-FI 2,4/5 GHz",
      "cfg": "",
      "asin": "B0GT281VRC"
+    },
+    {
+     "m": "Electro Dépôt",
+     "price": 84.98,
+     "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts7550i.html",
+     "name": "Imprimante Canon Ts7550i Multifonction",
+     "cfg": "",
+     "ean": "4549292247947",
+     "edid": "10020365",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18401,7 +18598,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts7550i/16/122165",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 66.66,
    "img": "canon-pixma-ts7550i.webp",
@@ -18466,7 +18664,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-j1360dw/16/122163",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 91.66,
    "img": "brother-dcp-j1360dw.webp",
@@ -18497,12 +18696,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 239.98,
+     "price": 279.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmoniteur-lenovo-34-r34w-30-uwqhd-180hz-0-5.html",
      "name": "Ecran Pc Gamer Incurve 34'' Lenovo Legion R34w-30 180hz/ Uwqhd",
      "cfg": "",
      "ean": "0198154304485",
-     "edid": "10012839"
+     "edid": "10012839",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18519,23 +18719,25 @@
       "src": "PCMasters",
       "score": 9.0,
       "url": "https://www.pcmasters.de/testbericht/133714430-lenovo-legion-r34w-30-g-gaming-monitor-test-review.html",
-      "date": ""
+      "date": "2025-07-08",
+      "verifie": "30/10/2026"
      },
      {
       "src": "HardwareInside",
       "score": null,
       "url": "https://www.hardwareinside.de/lenovo-legion-r34w-30-gaming-monitor-im-test-90204/",
-      "date": ""
+      "date": "2025-02-25"
      },
      {
       "src": "Hardwareluxx",
       "score": null,
       "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/monitore/65908-lenovo-legion-r34w-30-im-test-curved-display-f%C3%BCr-300-euro.html",
-      "date": ""
+      "date": "2025-05-14"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 239.98,
+   "prix": 279.98,
    "img": "lenovo-legion-r34w-30.webp",
    "rating": null,
    "nrev": 0
@@ -18569,7 +18771,8 @@
      "name": "Ecran Pc Gamer 27'' Aoc Q27g42ze- 0,3ms /240hz/qhd",
      "cfg": "",
      "ean": "4038986182980",
-     "edid": "10010548"
+     "edid": "10010548",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18586,7 +18789,7 @@
       "src": "PC Games Hardware",
       "score": null,
       "url": "https://www.pcgameshardware.de/Monitor-Display-Hardware-154105/Specials/Gaming-Monitor-guenstig-affordable-200-Hz-240-Hz-WQHD-4K-UHD-Test-1523374/",
-      "date": ""
+      "date": "2026-03-27"
      },
      {
       "src": "TechnologyInsider",
@@ -18594,7 +18797,8 @@
       "url": "https://www.technologyinsider.nl/index.php/artikelen/hardware/monitoren/66353-aoc-q27g42ze-review.html",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 168.98,
    "img": "aoc-q27g42ze.webp",
@@ -18625,12 +18829,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 248.98,
+     "price": 268.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-et-2951.html",
      "name": "Imprimante Epson Ecotank Et-2951 Multifonction À Reservoir",
      "cfg": "",
      "ean": "8715946737331",
-     "edid": "10013177"
+     "edid": "10013177",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18661,9 +18866,10 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/epson-ecotank-et-2951",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
-   "prix": 248.98,
+   "prix": 268.98,
    "img": "epson-et-2951.webp",
    "rating": null,
    "nrev": 0
@@ -18697,7 +18903,8 @@
      "name": "Imprimante Hp Laser Jet Pro 3302sdw",
      "cfg": "",
      "ean": "0196786388484",
-     "edid": "10003125"
+     "edid": "10003125",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18728,7 +18935,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/hp-color-laserjet-pro-mfp-3302sdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 419.9,
    "img": "hp-color-laserjet-pro-3302sdw.webp",
@@ -18764,7 +18972,8 @@
      "name": "Imprimante Multifonction Hp Oj Pro 8124e eligible Instant Ink",
      "cfg": "",
      "ean": "0197029469199",
-     "edid": "993267"
+     "edid": "993267",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18796,7 +19005,8 @@
       "url": "https://taenk.dk/test/printere/hp-officejet-pro-8124e",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 119.98,
    "img": "hp-officejet-pro-8124e.webp",
@@ -18832,7 +19042,8 @@
      "name": "Imprimante Hp Envy 6132e Multifonction Instant Ink 6 Mois Gratuits",
      "cfg": "",
      "ean": "0197498438948",
-     "edid": "10002597"
+     "edid": "10002597",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18863,7 +19074,8 @@
       "url": "https://taenk.dk/test/printere/hp-envy-6132e",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 58.98,
    "img": "hp-envy-6132e.webp",
@@ -18899,7 +19111,8 @@
      "name": "Imprimante Hp Deskjet 2921e Multifonction eligible Instant Ink",
      "cfg": "",
      "ean": "0198828789815",
-     "edid": "10013176"
+     "edid": "10013176",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -18924,7 +19137,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/hp-deskjet-2921",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "prix": 59.98,
    "img": "hp-deskjet-2921e.webp",
@@ -18974,7 +19188,8 @@
       "url": "https://laptopmedia.com/gb/review/dell-latitude-14-5420-review-it-will-effortlessly-last-you-through-two-workdays-on-a-single-charge/",
       "date": "2021-06-01"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -18984,7 +19199,7 @@
      "name": "DELL 5420 CORE-I5-1145G7 2.6GHZ - RAM 16 Go - SSD 250 Go - WINDOWS",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "4741",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "latitude-5420.webp",
@@ -19030,7 +19245,8 @@
       "date": "2020-11-18",
       "verifie": "26/10/2026"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19040,7 +19256,7 @@
      "name": "LENOVO T14 G1 AMD RYZEN 5 PRO 4650U - RAM 8Go - SSD 500Go- Windows",
      "cfg": "Ryzen 5 · 8 Go · SSD 500 Go · Windows 11 · grade B · reconditionné",
      "ppid": "5106",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "thinkpad-t14-gen1.webp",
@@ -19092,7 +19308,8 @@
       "url": "https://laptopmedia.com/review/lenovo-thinkpad-t490-review-a-businessmans-companion/",
       "date": "2019-06-17"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19102,7 +19319,7 @@
      "name": "LENOVO T490 - GRADE B - Core I5 - RAM 16 GO - SSD 250 GO - Windows",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "3052",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "thinkpad-t490.webp",
@@ -19154,7 +19371,8 @@
       "url": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t480",
       "date": "2018-03-25"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19164,7 +19382,7 @@
      "name": "LENOVO THINKPAD T480 - I5 - WINDOWS 11 - SSD 250 GO - RAM 8 GO",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "2289",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "thinkpad-t480.webp",
@@ -19216,7 +19434,8 @@
       "url": "https://laptopmag.com/reviews/laptops/dell-latitude-7490",
       "date": "2018-04-23"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19226,7 +19445,7 @@
      "name": "DELL E7490 - Windows 11 - SSD 250 Go - Ram 8 Go - N°160415 - GRADE B",
      "cfg": "8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "2903",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "latitude-7490.webp",
@@ -19278,7 +19497,8 @@
       "url": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t470s",
       "date": "2017-04-29"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19288,7 +19508,7 @@
      "name": "LENOVO t470s - Core I5 - RAM 8 GO - SSD 500 GO - Windows 11",
      "cfg": "Core i5 · 8 Go · SSD 500 Go · Windows 11 · grade B · reconditionné",
      "ppid": "3888",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "thinkpad-t470s.webp",
@@ -19332,7 +19552,8 @@
       "url": "https://laptopmedia.com/review/hp-elitebook-840-g6-review-one-for-the-classy-business-people-out-there/",
       "date": "2019-09-19"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19342,7 +19563,7 @@
      "name": "HP 840 G6 I5 - RAM 8 Go - SSD 250 Go - WINDOWS 11-290725209",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · reconditionné",
      "ppid": "4668",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": null,
@@ -19387,7 +19608,8 @@
       "url": "https://laptopmedia.com/review/dell-latitude-15-5510-review-a-sustainable-laptop-with-a-great-keyboard/",
       "date": "2020-09-17"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19397,7 +19619,7 @@
      "name": "DELL LATITUDE 5510 I5 Gen 10 RAM 8 Go - SSD 250 Go - WINDOWS 11",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "5137",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "latitude-5510.webp",
@@ -19442,7 +19664,8 @@
       "url": "https://laptopmedia.com/gb/review/lenovo-thinkpad-l14-review-even-the-intel-version-brings-performance-to-the-table/",
       "date": "2020-10-20"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19452,7 +19675,7 @@
      "name": "LENOVO THINKPAD L14 Génération 1 – Intel Core i5-10310U – RAM 16 Go",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · reconditionné",
      "ppid": "5166",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": null,
@@ -19496,7 +19719,8 @@
       "url": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-x280",
       "date": "2018-03-02"
      }
-    ]
+    ],
+    "releve_source": "30/10/2026"
    },
    "offers": [
     {
@@ -19506,7 +19730,7 @@
      "name": "LENOVO X280 - GRADE B - Core I5 - RAM 16 GO - SSD 250 Go - Windows",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "4071",
-     "releve": "2026-10-26"
+     "releve": "2026-10-30"
     }
    ],
    "img": "thinkpad-x280.webp",
@@ -20232,7 +20456,8 @@
      "name": "Aspirateur Robot Laveur Dreame L40 Ultra Ae",
      "cfg": "",
      "ean": "6977328066381",
-     "edid": "10011577"
+     "edid": "10011577",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -20387,7 +20612,8 @@
      "name": "Aspirateur Robot Laveur Dreame L10s Ultra Gen 3",
      "cfg": "",
      "ean": "6978515257025",
-     "edid": "10016676"
+     "edid": "10016676",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -20590,7 +20816,8 @@
      "name": "Aspirateur Robot Laveur Mova E40 Ultra Ae",
      "cfg": "",
      "ean": "6978794732749",
-     "edid": "10016684"
+     "edid": "10016684",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -20715,7 +20942,8 @@
      "name": "Aspirateur Robot Dreame Aqua 10 Roller Ae",
      "cfg": "",
      "ean": "6979181924129",
-     "edid": "10020078"
+     "edid": "10020078",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -21064,7 +21292,7 @@
      {
       "src": "Trusted Reviews",
       "score": 10.0,
-      "url": "https://www.trustedreviews.com/reviews/dyson-v11-absolute?utm_source=keystone&utm_medium=keystone_core_reviews_rss&utm_campaign=trusted+reviews",
+      "url": "https://www.trustedreviews.com/reviews/dyson-v11-absolute",
       "date": ""
      },
      {
@@ -21963,7 +22191,8 @@
      "name": "Aspirateur Balai Roborock H60 Hub Station De Vidage",
      "cfg": "",
      "ean": "6974653813628",
-     "edid": "10020540"
+     "edid": "10020540",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -22062,7 +22291,8 @@
      "name": "Aspirateur Laveur Dreame H15 Pro",
      "cfg": "",
      "ean": "6977328063854",
-     "edid": "10009023"
+     "edid": "10009023",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -22383,7 +22613,8 @@
      "name": "Aspirateur Laveur Dreame H14",
      "cfg": "",
      "ean": "6976233676067",
-     "edid": "10019413"
+     "edid": "10019413",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -23426,7 +23657,8 @@
      "name": "Aspirateur Balai Rowenta 14.60 Yy5640fe X Force Flex Auto",
      "cfg": "",
      "ean": "3700342483376",
-     "edid": "10009171"
+     "edid": "10009171",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -24043,7 +24275,7 @@
      {
       "src": "BeGeek",
       "score": null,
-      "url": "https://www.begeek.fr/test/test-dreame-d10-plus-372331?utm_source=feed&utm_campaign=general",
+      "url": "https://www.begeek.fr/test/test-dreame-d10-plus-372331",
       "date": ""
      },
      {
@@ -25984,7 +26216,7 @@
      {
       "src": "TechAeris",
       "score": 9.0,
-      "url": "https://techaeris.com/2025/04/18/samsung-hw-qs700f-review/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-hw-qs700f-review",
+      "url": "https://techaeris.com/2025/04/18/samsung-hw-qs700f-review/",
       "date": ""
      },
      {
@@ -26374,7 +26606,8 @@
      "name": "Tv Miniled 65'' Hisense 65u7q Pro",
      "cfg": "",
      "ean": "6942351417325",
-     "edid": "10011457"
+     "edid": "10011457",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -26477,7 +26710,8 @@
      "name": "Barre De Son Lg S90tr",
      "cfg": "",
      "ean": "8806096058640",
-     "edid": "10015474"
+     "edid": "10015474",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -26558,7 +26792,7 @@
      {
       "src": "TechAeris",
       "score": 9.0,
-      "url": "https://techaeris.com/2025/03/16/marshall-emberton-iii-review/?utm_source=rss&utm_medium=rss&utm_campaign=marshall-emberton-iii-review",
+      "url": "https://techaeris.com/2025/03/16/marshall-emberton-iii-review/",
       "date": ""
      },
      {
@@ -27003,7 +27237,7 @@
      {
       "src": "Day-Technology",
       "score": 8.0,
-      "url": "https://day-technology.com/sony-ult-field-1-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sony-ult-field-1-review",
+      "url": "https://day-technology.com/sony-ult-field-1-review.html",
       "date": ""
      },
      {
@@ -27118,7 +27352,8 @@
      "name": "Enceinte Jbl Go 5 Noir",
      "cfg": "",
      "ean": "1200130034282",
-     "edid": "10018105"
+     "edid": "10018105",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -27140,7 +27375,7 @@
      {
       "src": "TechAeris",
       "score": 9.0,
-      "url": "https://techaeris.com/2026/04/28/jbl-go-5-review-still-small-still-mighty/?utm_source=rss&utm_medium=rss&utm_campaign=jbl-go-5-review-still-small-still-mighty",
+      "url": "https://techaeris.com/2026/04/28/jbl-go-5-review-still-small-still-mighty/",
       "date": ""
      },
      {
@@ -27584,7 +27819,8 @@
      "name": "Enceinte Jbl Grip Noire",
      "cfg": "",
      "ean": "1200130024849",
-     "edid": "10013118"
+     "edid": "10013118",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -27712,7 +27948,8 @@
      "name": "Enceinte Jbl Go Essential 2 Noir",
      "cfg": "",
      "ean": "1200130018589",
-     "edid": "10005191"
+     "edid": "10005191",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -28591,10 +28828,11 @@
      "m": "Electro Dépôt",
      "price": 42.99,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fcamera-tapo-c520ws-ex-mo-fil-2k.html",
-     "name": "Camera Tapo C520ws 4mp 2k",
+     "name": "Camera De Surveillance Tapo C520ws 4mp 2k",
      "cfg": "",
      "ean": "4895252501599",
-     "edid": "10009498"
+     "edid": "10009498",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -28880,7 +29118,7 @@
      {
       "src": "MajorHiFi",
       "score": null,
-      "url": "https://majorhifi.com/samsung-galaxy-buds-4-pro-vs-sony-wf-1000xm6-which-true-wireless-earbuds-are-better/?utm_source=rss&utm_medium=rss&utm_campaign=samsung-galaxy-buds-4-pro-vs-sony-wf-1000xm6-which-true-wireless-earbuds-are-better",
+      "url": "https://majorhifi.com/samsung-galaxy-buds-4-pro-vs-sony-wf-1000xm6-which-true-wireless-earbuds-are-better/",
       "date": ""
      },
      {
@@ -29123,7 +29361,7 @@
      {
       "src": "MajorHiFi",
       "score": null,
-      "url": "https://majorhifi.com/apple-airpods-pro-3-review/?utm_source=rss&utm_medium=rss&utm_campaign=apple-airpods-pro-3-review",
+      "url": "https://majorhifi.com/apple-airpods-pro-3-review/",
       "date": ""
      },
      {
@@ -29243,7 +29481,7 @@
      {
       "src": "TechAeris",
       "score": 9.0,
-      "url": "https://techaeris.com/2025/10/10/bose-quietcomfort-ultra-2-earbuds-review/?utm_source=rss&utm_medium=rss&utm_campaign=bose-quietcomfort-ultra-2-earbuds-review",
+      "url": "https://techaeris.com/2025/10/10/bose-quietcomfort-ultra-2-earbuds-review/",
       "date": ""
      },
      {
@@ -29658,7 +29896,7 @@
      {
       "src": "MajorHiFi",
       "score": null,
-      "url": "https://majorhifi.com/sennheiser-momentum-true-wireless-5-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-momentum-true-wireless-5-review",
+      "url": "https://majorhifi.com/sennheiser-momentum-true-wireless-5-review/",
       "date": ""
      },
      {
@@ -29973,7 +30211,8 @@
      "name": "Apple Airpods 4 Anc Reduction De Bruit Active",
      "cfg": "",
      "ean": "0195949689673",
-     "edid": "10008780"
+     "edid": "10008780",
+     "releve": "2026-10-30"
     }
    ],
    "press": {
@@ -30535,13 +30774,13 @@
      {
       "src": "Day-Technology",
       "score": 9.0,
-      "url": "https://day-technology.com/cmf-buds-pro-2-review.html?utm_source=rss&utm_medium=rss&utm_campaign=cmf-buds-pro-2-review",
+      "url": "https://day-technology.com/cmf-buds-pro-2-review.html",
       "date": ""
      },
      {
       "src": "TechAeris",
       "score": 9.0,
-      "url": "https://techaeris.com/2025/10/22/cmf-buds-pro-2-review-feature/?utm_source=rss&utm_medium=rss&utm_campaign=cmf-buds-pro-2-review-feature",
+      "url": "https://techaeris.com/2025/10/22/cmf-buds-pro-2-review-feature/",
       "date": ""
      },
      {
@@ -31122,7 +31361,7 @@
      {
       "src": "GamesWelt",
       "score": null,
-      "url": "https://www.gameswelt.de/insta360-ace-pro-2/test/test-diese-8k-action-cam-heizt-dji-und-gopro-ordentlich-ein-333815?utm_campaign=tbuk",
+      "url": "https://www.gameswelt.de/insta360-ace-pro-2/test/test-diese-8k-action-cam-heizt-dji-und-gopro-ordentlich-ein-333815",
       "date": ""
      },
      {
@@ -31450,7 +31689,7 @@
      {
       "src": "CNET France",
       "score": 8.0,
-      "url": "https://www.cnetfrance.fr/produits/test-insta360-x5-le-monde-autour-de-vous-en-une-seule-prise-cest-possible-433959.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "url": "https://www.cnetfrance.fr/produits/test-insta360-x5-le-monde-autour-de-vous-en-une-seule-prise-cest-possible-433959.htm",
       "date": ""
      },
      {
@@ -32624,7 +32863,7 @@
      {
       "src": "MajorHiFi",
       "score": null,
-      "url": "https://majorhifi.com/38886-2/?utm_source=rss&utm_medium=rss&utm_campaign=38886-2",
+      "url": "https://majorhifi.com/38886-2/",
       "date": ""
      },
      {
@@ -33330,7 +33569,7 @@
      {
       "src": "Day-Technology",
       "score": 8.0,
-      "url": "https://day-technology.com/sennheiser-accentum-plus-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-accentum-plus-review",
+      "url": "https://day-technology.com/sennheiser-accentum-plus-review.html",
       "date": ""
      },
      {
@@ -33420,7 +33659,7 @@
      {
       "src": "MajorHiFi",
       "score": null,
-      "url": "https://majorhifi.com/sennheiser-accentum-plus-review/?utm_source=rss&utm_medium=rss&utm_campaign=sennheiser-accentum-plus-review",
+      "url": "https://majorhifi.com/sennheiser-accentum-plus-review/",
       "date": ""
      },
      {
@@ -33627,7 +33866,7 @@
      {
       "src": "MajorHiFi",
       "score": null,
-      "url": "https://majorhifi.com/sony-ult-wear-review/?utm_source=rss&utm_medium=rss&utm_campaign=sony-ult-wear-review",
+      "url": "https://majorhifi.com/sony-ult-wear-review/",
       "date": ""
      },
      {
@@ -33794,7 +34033,7 @@
      {
       "src": "NerdMovieProductions",
       "score": null,
-      "url": "https://nerdmovieproductions.it/cmf-headphone-pro-la-recensione/?utm_source=rss&utm_medium=rss&utm_campaign=cmf-headphone-pro-la-recensione",
+      "url": "https://nerdmovieproductions.it/cmf-headphone-pro-la-recensione/",
       "date": ""
      },
      {
@@ -37768,7 +38007,7 @@
      {
       "src": "Day-Technology",
       "score": 8.0,
-      "url": "https://day-technology.com/sony-linkbuds-open-review.html?utm_source=rss&utm_medium=rss&utm_campaign=sony-linkbuds-open-review",
+      "url": "https://day-technology.com/sony-linkbuds-open-review.html",
       "date": ""
      },
      {
@@ -38294,7 +38533,7 @@
      {
       "src": "GamesWelt",
       "score": null,
-      "url": "https://www.gameswelt.de/soundcore-aerofit-2-pro/test/test-zwei-kopfhoerer-in-einem-was-soll-das-denn-heissen-333183?utm_campaign=tbuk",
+      "url": "https://www.gameswelt.de/soundcore-aerofit-2-pro/test/test-zwei-kopfhoerer-in-einem-was-soll-das-denn-heissen-333183",
       "date": ""
      },
      {
@@ -38661,7 +38900,7 @@
      {
       "src": "GamesWelt",
       "score": null,
-      "url": "https://www.gameswelt.de/razer-blackshark/test/test-esports-headset-mit-anc-und-mehr-331288?utm_campaign=tbuk",
+      "url": "https://www.gameswelt.de/razer-blackshark/test/test-esports-headset-mit-anc-und-mehr-331288",
       "date": ""
      },
      {
@@ -38890,7 +39129,7 @@
      {
       "src": "GamesWelt",
       "score": null,
-      "url": "https://www.gameswelt.de/turtle-beach-stealth-pro/test/test-angriff-auf-den-headset-thron-333707?utm_campaign=tbuk",
+      "url": "https://www.gameswelt.de/turtle-beach-stealth-pro/test/test-angriff-auf-den-headset-thron-333707",
       "date": ""
      },
      {
@@ -39087,7 +39326,7 @@
      {
       "src": "GamesWelt",
       "score": null,
-      "url": "https://www.gameswelt.de/steelseries-arctis-nova/test/test-die-ultimative-schaltzentrale-fuer-multiplattformer-333706?utm_campaign=tbuk",
+      "url": "https://www.gameswelt.de/steelseries-arctis-nova/test/test-die-ultimative-schaltzentrale-fuer-multiplattformer-333706",
       "date": ""
      },
      {
@@ -39288,7 +39527,7 @@
      {
       "src": "GamesWelt",
       "score": null,
-      "url": "https://www.gameswelt.de/audeze-maxwell/test/test-planar-praezision-in-der-zweiten-runde-333704?utm_campaign=tbuk",
+      "url": "https://www.gameswelt.de/audeze-maxwell/test/test-planar-praezision-in-der-zweiten-runde-333704",
       "date": ""
      },
      {
@@ -39759,9 +39998,10 @@
    "tente": "2026-10-16"
   },
   "ecran": {
-   "date": "09/10/2026",
+   "date": "30/10/2026",
    "prix_date": "octobre 2026",
-   "iso": "2026-10-09"
+   "iso": "2026-10-30",
+   "tente": "2026-10-30"
   },
   "imprimante": {
    "date": "09/10/2026",
@@ -39776,6 +40016,6 @@
   }
  },
  "dates": {
-  "Amazon": "27/10/2026"
+  "Amazon": "30/10/2026"
  }
 }

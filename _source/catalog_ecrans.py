@@ -221,7 +221,7 @@ ECR["sony-inzone-m10s"] = E("e-gaming", "Sony Inzone M10S", "27\" QHD · OLED ·
      ("GamesRadar", 9.0, "https://www.gamesradar.com/hardware/tvs-monitors/sony-inzone-m10s-review/"),
      ("T3", 8, "https://www.t3.com/tech/monitors/sony-inzone-m10s-review"),
      ("Multiplayer.it", 7, "https://multiplayer.it/recensioni/sony-inzone-m10s-recensione-monitor-oled-gaming.html"),
-     ("Digital Trends", None, "https://www.digitaltrends.com/computing/sony-inzone-m10s-review/"),
+     ("Digital Trends", 7.0, "https://www.digitaltrends.com/computing/sony-inzone-m10s-review/"),
      ("PCWorld", 8.0, "https://www.pcworld.com/article/2521339/sony-inzone-m10s-review.html")],
     "B0DGV5LPKS", "Sony INZONE M10S 27\" OLED QHD PC Gaming Monitor: 1440p, 480Hz, 0.03ms GTG", 832.49,
     "Vous jouez en compétitif (FPS, e-sport) et chaque milliseconde compte.",
