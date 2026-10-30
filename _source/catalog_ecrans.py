@@ -70,7 +70,7 @@ ECR["dell-u2724de"] = E("e-bureau", "Dell UltraSharp U2724DE", "27\" QHD · IPS 
     ["Prix élevé pour du QHD", "Pas de HDR ni de haut-parleurs"],
     ("27\" QHD", "120 Hz"),
     [("IT Pro", 10, "https://www.itpro.com/hardware/monitors/dell-ultrasharp-u2724de-review-a-great-all-rounder"),
-     ("DisplayNinja", 8, "https://www.displayninja.com/dell-u2724de-review/"),
+     ("DisplayNinja", 9.0, "https://www.displayninja.com/dell-u2724de-review/"),
      ("PCWorld", 9.0, "https://www.pcworld.com/article/2164596/dell-u2724de-review.html"),
      (MN, None, "https://monitornerds.com/dell-u2724de-review/"),
      ("Tweakers", None, "https://tweakers.net/reviews/12964/dell-ultrasharp-u2724de-fijne-maar-dure-thuiswerkmonitor.html")],

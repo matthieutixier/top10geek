@@ -12449,9 +12449,9 @@
     }
    ],
    "press": {
-    "avg": 9.0,
+    "avg": 9.333333333333334,
     "n": 3,
-    "tests": 5,
+    "tests": 6,
     "scope": "modele",
     "src": [
      "",
@@ -12465,6 +12465,15 @@
       "date": ""
      },
      {
+      "src": "DisplayNinja",
+      "score": 9.0,
+      "url": "https://www.displayninja.com/dell-u2724de-review/",
+      "date": "2024-01-11",
+      "avant": 8.0,
+      "corrige": "30/10/2026",
+      "verifie": "30/10/2026"
+     },
+     {
       "src": "PCWorld",
       "score": 9.0,
       "url": "https://www.pcworld.com/article/2164596/dell-u2724de-review.html",
@@ -12473,10 +12482,11 @@
       "corrige": "10/10/2026"
      },
      {
-      "src": "DisplayNinja",
-      "score": 8.0,
-      "url": "https://www.displayninja.com/dell-u2724de-review/",
-      "date": ""
+      "src": "Expert Reviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/technology/monitors/dell-ultrasharp-u2724de-review",
+      "date": "2025-03-23",
+      "ajout": "30/10/2026"
      },
      {
       "src": "MonitorNerds",
@@ -12495,7 +12505,19 @@
    "prix": 360.75,
    "img": "dell-u2724de.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les tests saluent la dalle IPS Black de 27 pouces en 1440p à 120 Hz : couleurs fidèles en sRGB et P3 pour IT Pro et Expert Reviews, étalonnage d'usine sous Delta E 2 selon DisplayNinja, contraste nettement amélioré (2190:1 mesuré par PCWorld). Tous mettent en avant la connectique : Thunderbolt 4 avec 90 W de charge, hub USB, KVM et Ethernet 2,5 Gbit/s, ainsi qu'un pied réglable bien conçu.\n\nLes réserves sont communes : pas de HDR et une définition inférieure à la 4K de nombreux concurrents. Le rétroéclairage par les bords manque d'uniformité : IT Pro mesure jusqu'à 12 % de baisse dans certains coins, Expert Reviews note des bords plus sombres et des fuites de lumière, DisplayNinja un halo typique de l'IPS. PCWorld relève une luminosité plafonnant à 328 nits, des temps de réponse moyens et un Adaptive Sync sans certification FreeSync ni G-Sync. Expert Reviews trouve les réglages KVM peu pratiques.\n\nCet écran vous conviendra si vous reliez un portable pauvre en ports à un poste fixe, pour la bureautique, la retouche en sRGB ou P3 et le jeu occasionnel. Si vous n'avez besoin ni du Thunderbolt, ni du KVM, ni de l'Ethernet, PCWorld et DisplayNinja orientent vers le U2724D, moins cher.",
+    "date": "2026-10-30",
+    "n": 3,
+    "tests": 6,
+    "sources": [
+     "PCWorld",
+     "IT Pro",
+     "DisplayNinja",
+     "Expert Reviews"
+    ]
+   }
   },
   "benq-gw2790ce": {
    "cat": "e-bureau",
@@ -12847,9 +12869,9 @@
     }
    ],
    "press": {
-    "avg": 8.379999999999999,
-    "n": 5,
-    "tests": 5,
+    "avg": 8.15,
+    "n": 6,
+    "tests": 6,
     "scope": "gamme",
     "src": [
      "",
@@ -12876,7 +12898,8 @@
       "src": "LeCafeDuGeek",
       "score": 8.0,
       "url": "https://lecafedugeek.fr/test-aoc-q27g4zdr-un-ecran-gaming-qui-rend-loled-enfin-accessible/",
-      "date": ""
+      "date": "2026-01-21",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Wired",
@@ -12893,13 +12916,32 @@
       "date": "",
       "avant": 7.0,
       "corrige": "10/10/2026"
+     },
+     {
+      "src": "Clubic",
+      "score": 7.0,
+      "url": "https://www.clubic.com/test-produit-605638-j-ai-teste-le-aoc-q27g4zd-un-ecran-gaming-qd-oled-240-hz-a-un-prix-defiant-toute-concurrence.html",
+      "date": "2026-05-09",
+      "ajout": "30/10/2026",
+      "verifie": "30/10/2026"
      }
     ]
    },
    "prix": 357.99,
    "img": "aoc-q27g4zd.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les trois tests lus s'accordent sur l'image de cette dalle QD-OLED de 27 pouces en QHD à 240 Hz : noirs profonds, fort contraste et couleurs vives. Tom's Hardware souligne des couleurs justes sans étalonnage et une grande réactivité en jeu, Clubic des performances de haut niveau en jeu avec G-Sync et une ergonomie complète, LeCafeDuGeek un 1440p net sans mise à l'échelle et une fluidité adaptée au jeu compétitif.\n\nLes avis divergent sur l'ampleur des compromis. Clubic se montre le plus sévère : luminosité modeste, dalle très brillante qui reflète la lumière, pas de port USB-C, pied qui avance loin sur le bureau et connectique marquée par les économies, ce qui rend la bureautique prolongée moins agréable. LeCafeDuGeek note aussi un écran un peu terne en pièce très éclairée et l'absence d'alimentation USB-C. Tom's Hardware, qui lui décerne son Editor's Choice, regrette surtout un HDR limité, sans réglage de luminosité variable et aux rouges un peu désaturés, et apprécie la fabrication et les ports USB latéraux.\n\nCe moniteur vous conviendra si vous voulez passer à l'OLED pour jouer, dans une pièce plutôt sombre. Il est moins indiqué si votre bureau est très lumineux ou si vous comptez y brancher un portable par un seul câble USB-C.",
+    "date": "2026-10-30",
+    "n": 6,
+    "tests": 6,
+    "sources": [
+     "Tom's Hardware",
+     "LeCafeDuGeek",
+     "Clubic"
+    ]
+   }
   },
   "alienware-aw2725d": {
    "cat": "e-gaming",
@@ -13215,9 +13257,9 @@
     }
    ],
    "press": {
-    "avg": 9.066666666666666,
-    "n": 9,
-    "tests": 10,
+    "avg": 9.08,
+    "n": 10,
+    "tests": 11,
     "scope": "gamme",
     "src": [
      "",
@@ -13245,6 +13287,14 @@
       "corrige": "10/10/2026"
      },
      {
+      "src": "PC Gamer",
+      "score": 9.2,
+      "url": "https://www.pcgamer.com/hardware/gaming-monitors/asus-rog-swift-oled-pg32ucdm-review/",
+      "date": "2024-03-20",
+      "ajout": "30/10/2026",
+      "verifie": "30/10/2026"
+     },
+     {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/asus/1984436_test-de-lasus-rog-swift-oled-pg32ucdm",
@@ -13260,7 +13310,8 @@
       "src": "Multiplayer.it",
       "score": 9.0,
       "url": "https://multiplayer.it/recensioni/asus-rog-swift-oled-pg32ucdm-recensione-monitor-4k-240hz.html",
-      "date": ""
+      "date": "2024-05-20",
+      "verifie": "30/10/2026"
      },
      {
       "src": "RTINGS",
@@ -13293,7 +13344,18 @@
    "prix": 777.62,
    "img": "asus-pg32ucdm.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les tests décrivent un 32 pouces 4K QD-OLED à 240 Hz très abouti. PCWorld loue le contraste, l'étendue et la justesse des couleurs et une netteté due à environ 137 pixels par pouce ; PC Gamer juge le texte presque aussi net que sur un LCD de même densité et salue le rendu des scènes HDR sombres ; T3 retient la faible latence et la qualité du HDR en jeu. La connectique est appréciée : USB-C 90 W, deux HDMI 2.1, DisplayPort 1.4 et fonction KVM, avec FreeSync et G-Sync officiellement pris en charge selon PCWorld.\n\nLes limites portent d'abord sur la luminosité : 250 nits en plein écran pour PC Gamer, un HDR un peu en retrait pour PCWorld, une luminosité correcte sans être la meilleure pour T3. PCWorld trouve le pied trop large et trop profond et regrette l'absence de port USB-C descendant ; T3 note des ports orientés vers le bas difficiles d'accès, l'absence de haut-parleurs et un éclairage réglable uniquement par logiciel. PC Gamer trouve le style ROG daté, note une image grisâtre sous forte lumière et rappelle qu'il faut une carte graphique très haut de gamme pour exploiter la 4K à 240 Hz.\n\nIl s'adresse aux joueurs exigeants équipés d'un PC puissant. Si le HDR très lumineux est votre priorité, PCWorld suggère de regarder aussi l'Alienware AW3225QF, incurvé.",
+    "date": "2026-10-30",
+    "n": 10,
+    "tests": 11,
+    "sources": [
+     "PCWorld",
+     "T3",
+     "PC Gamer"
+    ]
+   }
   },
   "sony-inzone-m10s": {
    "cat": "e-gaming",
@@ -13766,9 +13828,10 @@
       "src": "PhotoTrend",
       "score": 8.6,
       "url": "https://phototrend.fr/2025/11/test-asus-proart-6k-pa32qcv/",
-      "date": "",
+      "date": "2025-11-13",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "PCWorld",
@@ -14306,7 +14369,7 @@
    "press": {
     "avg": 8.6,
     "n": 1,
-    "tests": 2,
+    "tests": 4,
     "scope": "modele",
     "src": [
      "",
@@ -14318,6 +14381,20 @@
       "score": 8.6,
       "url": "https://basic-tutorials.de/tests/peripherie/asus-zenscreen-mb169ck/",
       "date": ""
+     },
+     {
+      "src": "Expert Reviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/technology/monitors/asus-zenscreen-mb169ck-review",
+      "date": "2025-08-14",
+      "ajout": "30/10/2026"
+     },
+     {
+      "src": "IT Pro",
+      "score": null,
+      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-mb169ck-review-portable-cheap-and-useful",
+      "date": "2025-06-23",
+      "ajout": "30/10/2026"
      },
      {
       "src": "TechTest",
@@ -14485,7 +14562,7 @@
    "press": {
     "avg": 8.233333333333333,
     "n": 3,
-    "tests": 3,
+    "tests": 4,
     "scope": "modele",
     "src": [
      "",
@@ -14496,7 +14573,8 @@
       "src": "Profesional Review",
       "score": 8.7,
       "url": "https://www.profesionalreview.com/2025/04/24/asus-zenscreen-duo-oled-mq149cd-review/",
-      "date": ""
+      "date": "2025-04-24",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Digital Citizen",
@@ -14504,7 +14582,8 @@
       "url": "https://www.digitalcitizen.life/asus-zenscreen-duo-oled-review/",
       "date": "",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Tom's Hardware",
@@ -14513,6 +14592,13 @@
       "date": "",
       "avant": null,
       "corrige": "10/10/2026"
+     },
+     {
+      "src": "IT Pro",
+      "score": null,
+      "url": "https://www.itpro.com/hardware/monitors/asus-zenscreen-duo-mq149-review-two-oled-screens-are-better-than-one",
+      "date": "2025-05-19",
+      "ajout": "30/10/2026"
      }
     ]
    },
@@ -14696,7 +14782,18 @@
    "prix": 74.99,
    "img": "msi-pro-mp165-e6.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Cet écran portable de 15,6 pouces en 1080p plaît d'abord par ses fixations : pied intégré, VESA 75 et filetage pour trépied, que Tom's Hardware et PCWorld mettent en avant, ainsi qu'une housse et des câbles coudés fournis. Sa luminosité fait débat : Tom's Hardware mesure 264 nits, mieux que plusieurs concurrents, avec une dalle mate qui gère bien les reflets, et PCWorld la juge élevée pour la catégorie, alors que TechRadar parle d'environ 250 nits et la trouve limitée. TechRadar apprécie qu'un seul câble USB-C suffise pour l'image et l'alimentation.\n\nLes trois tests relèvent des couleurs peu étendues : rouges et verts ternes pour Tom's Hardware, un écran inadapté à la retouche pour PCWorld. Tom's Hardware ajoute un châssis en plastique qui fléchit, des haut-parleurs de 1 W faibles et un câble USB-C fourni qui n'a pas fonctionné avec ses ordinateurs, un autre câble ayant réglé le problème. PCWorld note l'absence de HDR et d'Adaptive Sync et un menu limité, TechRadar l'absence de batterie.\n\nIl vous conviendra comme second écran d'appoint pour la bureautique en déplacement, notamment si vous voulez le fixer à un bras ou un trépied. Pour la photo ou la vidéo, TechRadar conseille de viser plus haut ; pour une finition plus soignée, Tom's Hardware oriente vers l'Arzopa A1.",
+    "date": "2026-10-30",
+    "n": 3,
+    "tests": 3,
+    "sources": [
+     "Tom's Hardware",
+     "PCWorld",
+     "TechRadar"
+    ]
+   }
   },
   "acer-pd163q": {
    "cat": "e-portable",
@@ -14939,7 +15036,8 @@
       "src": "GadgetGear",
       "score": 9.0,
       "url": "https://www.gadgetgear.nl/2024/06/review-aoc-q27g4x-27-hoge-refreshrate-voor-iedereen/",
-      "date": ""
+      "date": "2024-06-24",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Tom's Hardware",
@@ -14953,17 +15051,19 @@
       "src": "LeCafeDuGeek",
       "score": 8.4,
       "url": "https://lecafedugeek.fr/test-aoc-q27g4x-un-ecran-gamer-qui-a-tout-pour-plaire/",
-      "date": "",
+      "date": "2024-06-30",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Multiplayer.it",
       "score": 7.5,
       "url": "https://multiplayer.it/recensioni/aoc-q27g4x-recensione-monitor-27-pollici-quad-hd-prezzo-abbordabile.html",
-      "date": "",
+      "date": "2024-06-25",
       "avant": 7.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "Game-eXperience",
@@ -14976,7 +15076,18 @@
    "prix": 133.32,
    "img": "aoc-q27g4x.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Les tests s'accordent sur l'essentiel de cet écran IPS de 27 pouces en 1440p à 180 Hz : jeu fluide et réactif, synchronisation adaptative contre les déchirements d'image. Multiplayer.it trouve l'image SDR riche et saturée, GadgetGear apprécie les couleurs, les angles de vision et un pied réglable en hauteur, inclinaison, rotation et pivot, LeCafeDuGeek ses bordures fines et ses réglages.\n\nIls divergent sur l'étalonnage : bon pour Multiplayer.it, à améliorer pour LeCafeDuGeek. Tous pointent une connectique minimale, sans port USB (LeCafeDuGeek, GadgetGear) et limitée à deux HDMI 2.0 et un DisplayPort. Multiplayer.it juge le HDR faible, autour de 400 nits sans gradation locale, et les boutons du menu mal placés, là où GadgetGear conseille plutôt le logiciel i-Menu. GadgetGear relève aussi des bords de boîtier tranchants, une gestion des câbles moyenne et une uniformité de luminosité moyenne, qui le lui font déconseiller pour la retouche photo ou vidéo sérieuse.\n\nCe moniteur vous conviendra si vous cherchez un écran de jeu QHD rapide sans dépenser beaucoup, ou un écran domestique polyvalent. Passez votre chemin si vous comptez sur le HDR, si vous voulez brancher des périphériques en USB sur l'écran ou si vous retouchez des images de façon exigeante.",
+    "date": "2026-10-30",
+    "n": 5,
+    "tests": 5,
+    "sources": [
+     "LeCafeDuGeek",
+     "Multiplayer.it",
+     "GadgetGear"
+    ]
+   }
   },
   "aoc-q27g4zr": {
    "cat": "e-lowcost",
@@ -15471,9 +15582,10 @@
       "src": "CharlesTech",
       "score": 7.3,
       "url": "https://charlestech.fr/test-iiyama-g-master-gb2770qsu/",
-      "date": "",
+      "date": "2024-11-21",
       "avant": 7.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "30/10/2026"
      },
      {
       "src": "MonitorNerds",
