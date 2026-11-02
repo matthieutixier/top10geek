@@ -1512,9 +1512,9 @@ def product_page(fam, c, rank, d, items):
                "url": f"{DOMAIN}/{d['purl']}",
                # Pas d'AggregateRating : Google réserve ce balisage aux notes collectées sur le site lui-même, pas aux notes de la presse.
                # Prix indicatif affiché sur la page (arrondi), sans offre ni prix par marchand.
-               "offers": ({"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": f"{ind:.2f}", "offerCount": len(d["offers"])} if len(d["offers"]) > 1
-                          else {"@type": "Offer", "priceCurrency": "EUR", "price": f"{ind:.2f}", "availability": "https://schema.org/InStock",
-                                "url": f"{DOMAIN}/{d['purl']}"})}
+               # Toujours une fourchette de prix (AggregateOffer), jamais une « Offer » seule avec stock et URL de la fiche :
+               # ce format est celui des fiches de marchand (pages où l'on achète). Top10Geek ne vend rien (correction du 02/11/2026).
+               "offers": {"@type": "AggregateOffer", "priceCurrency": "EUR", "lowPrice": f"{ind:.2f}", "offerCount": len(d["offers"])}}
     if d["img"]:
         product["image"] = f"{DOMAIN}/assets/img/p/{d['img']}"
     write(d["purl"] + "index.html", page(root, title, desc, d["purl"], body, fam["slug"], extra=bar,
