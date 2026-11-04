@@ -1,0 +1,77 @@
+# Calendrier Pinterest : prolonge chaque semaine les fichiers lus par le scénario Make
+# (assets/pins/feed/AAAA-MM-JJ.json, 4 épingles par jour, publiées à 10 h).
+# Remplace l'étape 1 de la tâche planifiée « communication hebdo », qui ne peut plus pousser
+# sur le dépôt depuis le 04/11/2026 (et les images ne passent pas par les fichiers de modifications).
+# Le calendrier doit couvrir au moins 21 jours ; sinon on lance _source/pins.py --planifier --jours 28.
+# Après le 27/11/2026 : plus d'épingles Black Friday (types top3 et produit seulement).
+name: Prolonger le calendrier Pinterest
+
+on:
+  schedule:
+    - cron: "17 13 * * 0"     # dimanche 14 h 17 (heure de Paris en hiver)
+  workflow_dispatch:
+    inputs:
+      forcer:
+        description: "Planifier même si le calendrier couvre déjà 21 jours (oui/non)"
+        default: "non"
+
+concurrency:
+  group: publication          # même file que la publication des données : jamais deux écritures en même temps
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pinterest:
+    if: github.repository == 'matthieutixier/top10geek'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 20
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install --quiet pillow fonttools brotli
+
+      - name: Prolonger le calendrier si besoin
+        env:
+          FORCER: ${{ github.event.inputs.forcer }}
+        run: |
+          set -euo pipefail
+          git config user.name "Matthieu Tixier"
+          git config user.email "matthieu.tixier@gmail.com"
+          aujourd=$(TZ=Europe/Paris date +%F)
+          limite=$(TZ=Europe/Paris date -d "+21 days" +%F)
+          dernier=$(ls assets/pins/feed/*.json 2>/dev/null | sed 's|.*/||; s|\.json$||' | sort | tail -1)
+          echo "Calendrier couvert jusqu'au : ${dernier:-aucun} (minimum attendu : $limite)"
+          if [ "${FORCER:-non}" != "oui" ] && [ -n "$dernier" ] && [[ "$dernier" > "$limite" || "$dernier" == "$limite" ]]; then
+            echo "Rien à faire."
+            exit 0
+          fi
+          if [[ "$aujourd" > "2026-11-27" ]]; then types="top3,produit"; else types="top3,produit,bf,bf-conseils"; fi
+          python _source/pins.py --planifier --jours 28 --types "$types"
+          # seuls les visuels, le calendrier et sa mémoire peuvent changer
+          autres=$(git status --porcelain | awk '{print $2}' | grep -vE '^(assets/img/pins/|assets/pins/feed/|_source/pins_calendrier\.json$)' || true)
+          if [ -n "$autres" ]; then
+            echo "::error::Fichiers inattendus modifiés, rien n'est publié : $autres"
+            exit 1
+          fi
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Aucune nouvelle épingle à planifier."
+            exit 0
+          fi
+          nouveau=$(ls assets/pins/feed/*.json | sed 's|.*/||; s|\.json$||' | sort | tail -1)
+          git add assets/img/pins assets/pins/feed _source/pins_calendrier.json
+          git commit -q -m "Pinterest : calendrier prolongé jusqu'au $(date -d "$nouveau" +%d/%m/%Y)"
+          for i in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase origin main
+          done
+          echo "::error::Push impossible après 3 essais"
+          exit 1
