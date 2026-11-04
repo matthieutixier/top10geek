@@ -1,0 +1,106 @@
+# Publication automatique des mises à jour de données déposées par les tâches planifiées.
+# Une tâche dépose _publication/<AAAA-MM-JJ>-<tâche>.patch (+ .msg = message de commit) sur main ;
+# ce workflow applique le patch, régénère le site, contrôle les règles SEO (_source/publier_patch.py)
+# et publie sur main. Si un contrôle échoue, RIEN n'est publié : le patch est rangé dans
+# _publication/refuses/ avec son journal et le workflow passe au rouge (GitHub envoie un e-mail).
+# Mode d'emploi : _publication/LISEZMOI.md
+name: Publier une mise à jour de données
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_publication/*.patch"
+  workflow_dispatch:
+
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publier:
+    if: github.repository == 'matthieutixier/top10geek'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer Pillow
+        run: pip install --quiet pillow
+
+      - name: Traiter les fichiers de modifications
+        shell: bash
+        run: |
+          set -u
+          git config user.name "Matthieu Tixier"
+          git config user.email "matthieu.tixier@gmail.com"
+          shopt -s nullglob
+          patches=(_publication/*.patch)
+          if [ ${#patches[@]} -eq 0 ]; then
+            echo "Aucun fichier de modifications à traiter."
+            exit 0
+          fi
+          echec=0
+          for p in "${patches[@]}"; do
+            nom=$(basename "$p" .patch)
+            echo "::group::$nom"
+            cp "$p" "$RUNNER_TEMP/$nom.patch"
+            msg="_publication/$nom.msg"
+            if [ -f "$msg" ]; then cp "$msg" "$RUNNER_TEMP/$nom.msg"; else printf 'Mise à jour des données (publication automatique %s)\n' "$nom" > "$RUNNER_TEMP/$nom.msg"; fi
+            # retire le fichier de modifications du dépôt, puis applique la copie
+            git rm -q -f "$p"
+            [ -f "$msg" ] && git rm -q -f "$msg"
+            git -c core.hooksPath=/dev/null commit -q -m "Fichier de modifications traité : $nom"
+            git reset -q --hard HEAD
+            set +e
+            python _source/publier_patch.py "$RUNNER_TEMP/$nom.patch" 2>&1 | tee "$RUNNER_TEMP/$nom.log"
+            code=${PIPESTATUS[0]}
+            set -e
+            echo "::endgroup::"
+            if [ "$code" -eq 0 ]; then
+              if [ -n "$(git status --porcelain)" ]; then
+                git add -A
+                git commit -q -F "$RUNNER_TEMP/$nom.msg"
+              fi
+              {
+                echo "### $nom : publié"
+                echo '```'
+                sed -n '/^===/,$p' "$RUNNER_TEMP/$nom.log"
+                echo '```'
+              } >> "$GITHUB_STEP_SUMMARY"
+            else
+              echec=1
+              # rien n'est publié : on range le fichier refusé avec son journal
+              git reset -q --hard HEAD
+              git clean -fdq
+              mkdir -p _publication/refuses
+              cp "$RUNNER_TEMP/$nom.patch" "_publication/refuses/$nom.patch"
+              cp "$RUNNER_TEMP/$nom.log" "_publication/refuses/$nom.log"
+              git add _publication/refuses
+              git commit -q -m "Fichier de modifications refusé (code $code) : $nom"
+              {
+                echo "### $nom : REFUSÉ (code $code), rien n'est publié"
+                echo '```'
+                sed -n '/^===/,$p' "$RUNNER_TEMP/$nom.log"
+                echo '```'
+              } >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+          # publication : un seul push, avec une reprise si main a avancé entre-temps
+          for essai in 1 2 3; do
+            if git push origin HEAD:main; then break; fi
+            git pull --rebase origin main || { git rebase --abort || true; echo "Conflit au rebase : rien de publié"; exit 1; }
+          done
+          if [ "$echec" -ne 0 ]; then
+            echo "Au moins un fichier de modifications a été refusé : voir le résumé et _publication/refuses/."
+            exit 1
+          fi
