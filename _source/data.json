@@ -24462,8 +24462,8 @@
     }
    ],
    "press": {
-    "avg": 10.0,
-    "n": 7,
+    "avg": 9.833333333333334,
+    "n": 6,
     "tests": 9,
     "scope": "gamme",
     "src": [
@@ -24490,18 +24490,6 @@
       "date": ""
      },
      {
-      "src": "Multiplayer.it",
-      "score": 10.0,
-      "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html",
-      "date": ""
-     },
-     {
-      "src": "PCGamer",
-      "score": 10.0,
-      "url": "https://www.pcgamer.com/hardware/gaming-monitors/lg-ultragear-25g590b-review/",
-      "date": ""
-     },
-     {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/lg-oled55g5",
@@ -24514,6 +24502,14 @@
       "date": ""
      },
      {
+      "src": "Multiplayer.it",
+      "score": 9.0,
+      "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html",
+      "date": "",
+      "avant": 10.0,
+      "corrige": "04/11/2026"
+     },
+     {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/ces-25-tv-oled-lg-g5-et-lg-m5-4-000-nits-confirmes-43822",
@@ -24524,6 +24520,13 @@
       "score": null,
       "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1748586137",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://global.techradar.com/fr-fr/televisions/test-lg-g5-son-incroyable-luminosite-nous-a-fait-changer-davis-sur-les-televiseurs-oled",
+      "date": "2025-04-11",
+      "ajout": "04/11/2026"
      }
     ]
    },
@@ -24578,7 +24581,7 @@
    "press": {
     "avg": 8.32,
     "n": 5,
-    "tests": 7,
+    "tests": 8,
     "scope": "gamme",
     "src": [
      "",
@@ -24626,6 +24629,13 @@
       "score": null,
       "url": "https://www.lbtechreviews.com/test/tv/samsung-qn90f-tq65qn90f",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": null,
+      "url": "https://www.techradar.com/televisions/samsung-qn90f-review",
+      "date": "2025-06-08",
+      "ajout": "04/11/2026"
      }
     ]
    },
@@ -24671,7 +24681,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 649.0,
+     "price": 599.0,
      "url": "https://www.amazon.fr/dp/B0F4KXJQ42?tag=geekconcept-21",
      "name": "Sony BRAVIA 3 Direct LED 55 pouces Google TV (2025)",
      "cfg": "",
@@ -24714,7 +24724,7 @@
      }
     ]
    },
-   "prix": 649.0,
+   "prix": 599.0,
    "img": "sony-bravia-3-55.webp",
    "rating": null,
    "nrev": 0,
@@ -24755,7 +24765,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 589.0,
+     "price": 579.0,
      "url": "https://www.amazon.fr/dp/B0F2FJY819?tag=geekconcept-21",
      "name": "Samsung TV AI 55QN80F Neo QLED 4K 55 pouces Smart TV 2025",
      "cfg": "",
@@ -24798,7 +24808,7 @@
      }
     ]
    },
-   "prix": 589.0,
+   "prix": 579.0,
    "img": "samsung-qn80f-55.webp",
    "rating": null,
    "nrev": 0,
@@ -24933,7 +24943,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 509.99,
+     "price": 649.0,
      "url": "https://www.amazon.fr/dp/B0GWFRGP27?tag=geekconcept-21",
      "name": "LG TV QNED Evo AI MiniLED 55QNED85 55 pouces 4K UHD Smart TV 120Hz",
      "cfg": "",
@@ -24976,7 +24986,7 @@
      }
     ]
    },
-   "prix": 509.99,
+   "prix": 649.0,
    "img": "lg-qned85-55.webp",
    "rating": null,
    "nrev": 0,
@@ -25169,10 +25179,11 @@
       "date": ""
      },
      {
-      "src": "MDS CineSon",
+      "src": "TechRadar",
       "score": null,
-      "url": "https://www.mds-cineson.fr/test-du-lg-xboom-rnc5-le-haut-parleur-bluetooth-portable-et-puissant",
-      "date": ""
+      "url": "https://global.techradar.com/fr-fr/televisions/test-lg-c5-oled-lun-des-meilleurs-tv-de-lannee-mais-avec-une-bonne-raison-de-ne-pas-lacheter-tout-de-suite",
+      "date": "2025-04-04",
+      "ajout": "04/11/2026"
      }
     ]
    },
@@ -25225,9 +25236,9 @@
     }
    ],
    "press": {
-    "avg": 8.333333333333334,
-    "n": 6,
-    "tests": 8,
+    "avg": 8.428571428571429,
+    "n": 7,
+    "tests": 10,
     "scope": "gamme",
     "src": [
      "",
@@ -25239,6 +25250,13 @@
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/",
       "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-560232-test-samsung-s90f.html",
+      "date": "2025-04-11",
+      "ajout": "04/11/2026"
      },
      {
       "src": "Chip.de",
@@ -25271,6 +25289,13 @@
       "date": ""
      },
      {
+      "src": "Tom's Guide",
+      "score": null,
+      "url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90f-oled-tv-review",
+      "date": "2025-09-24",
+      "ajout": "04/11/2026"
+     },
+     {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/13576/samsung-s90f-oled-tv-midranger-met-mooie-hdr-prestaties.html",
@@ -25289,15 +25314,14 @@
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "Six médias ont noté l'OLED S90F, avec une moyenne de 8,3/10. Labo Fnac donne la meilleure note (10), tandis que RTings, FrAndroid, PhonAndroid, IGN et Chip.de se retrouvent à 8. Un seul avis très favorable tire donc la moyenne vers le haut ; la presse s'accorde plutôt autour de 8. Les tests portent sur la série S90F et la presse signale que les dalles diffèrent selon la diagonale : le prix suivi est celui du 42 pouces.\n\nLes tests recensés apprécient des noirs parfaits sans halo, une excellente gestion des reflets, des couleurs très vibrantes et précises, et une luminosité HDR impressionnante. Ils reprochent l'absence de Dolby Vision, une luminosité en retrait face aux meilleurs OLED, des basses limitées et une télécommande sans rétroéclairage.",
-    "date": "2026-10-28",
-    "n": 6,
-    "tests": 8,
+    "texte": "Les tests lus ont porté sur le 65 pouces, pas sur le 42 pouces suivi ici. Clubic.com et PhonAndroid précisent que seule la version 65 pouces reçoit une dalle QD-OLED ; les autres tailles, dont le 42 pouces, utilisent une dalle W-OLED. Les conclusions sur les couleurs sont donc celles de la série, à prendre avec prudence pour cette diagonale.\n\nCe qui s'applique à toute la gamme : Tom's Guide apprécie la finesse du téléviseur et les larges angles de vision, PhonAndroid ses bordures presque invisibles, son pied monté sans outil et ses quatre prises HDMI 2.1. Clubic.com note la bonne gestion des sources en définition inférieure. Côté défauts, Tom's Guide cite l'interface Tizen qui met Samsung TV Plus en avant, PhonAndroid un compte Samsung obligatoire et une prise de contrôle automatique des appareils HDMI. Aucun des trois ne mentionne le Dolby Vision comme pris en charge.",
+    "date": "2026-11-04",
+    "n": 7,
+    "tests": 10,
     "sources": [
-     "Labo Fnac",
-     "RTings",
-     "FrAndroid",
-     "IGN"
+     "Clubic.com",
+     "Tom's Guide",
+     "PhonAndroid"
     ]
    }
   },
@@ -25499,9 +25523,9 @@
     }
    ],
    "press": {
-    "avg": 8.333333333333334,
-    "n": 6,
-    "tests": 8,
+    "avg": 8.428571428571429,
+    "n": 7,
+    "tests": 10,
     "scope": "gamme",
     "src": [
      "",
@@ -25513,6 +25537,13 @@
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/",
       "date": ""
+     },
+     {
+      "src": "Clubic.com",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-560232-test-samsung-s90f.html",
+      "date": "2025-04-11",
+      "ajout": "04/11/2026"
      },
      {
       "src": "Chip.de",
@@ -25545,6 +25576,13 @@
       "date": ""
      },
      {
+      "src": "Tom's Guide",
+      "score": null,
+      "url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90f-oled-tv-review",
+      "date": "2025-09-24",
+      "ajout": "04/11/2026"
+     },
+     {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/13576/samsung-s90f-oled-tv-midranger-met-mooie-hdr-prestaties.html",
@@ -25563,14 +25601,14 @@
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "À 65 pouces, le S90F est l'OLED le plus cher de ce comparatif, et la presse l'a largement testé : six médias, 8,3/10 en moyenne. Labo Fnac met 10, RTings, IGN et les autres restent autour de 8. Ces notes concernent la série S90F, pas la seule diagonale 65.\n\nCe qui revient dans les tests : un contraste d'une grande profondeur, un traitement antireflet efficace en salon lumineux et des teintes éclatantes. En face, le Dolby Vision manque à l'appel, la luminosité plafonne un peu en dessous des OLED haut de gamme et le son reste sage.",
-    "date": "2026-10-28",
-    "n": 6,
-    "tests": 8,
+    "texte": "Sur la version 65 pouces, Clubic.com, Tom's Guide et PhonAndroid dressent un portrait voisin. Clubic.com décrit une image équilibrée, avec des noirs profonds, du détail dans les ombres et un mode Filmmaker très bien étalonné d'usine ; le pic mesuré avoisine 1 424 cd/m² sur une fenêtre de 10 %. Tom's Guide juge le contraste et le volume colorimétrique très bons, avec une luminosité SDR supérieure à celle du LG C5 et un HDR à peu près au même niveau.\n\nLes réserves se recoupent aussi. Le Dolby Vision manque, ce que les trois tests soulignent. La dalle brillante renvoie la lumière directe : Tom's Guide évoque des difficultés en plein jour, Clubic.com un léger reflet violacé en pièce claire. Le son est jugé moyen, avec peu de graves. Pour le jeu, la fluidité est saluée (144 Hz, VRR, latence d'environ 9 ms). PhonAndroid regrette enfin une télécommande sans rétroéclairage et un pied central peu compatible avec une barre de son.",
+    "date": "2026-11-04",
+    "n": 7,
+    "tests": 10,
     "sources": [
-     "Labo Fnac",
-     "RTings",
-     "IGN"
+     "Clubic.com",
+     "Tom's Guide",
+     "PhonAndroid"
     ]
    }
   },
@@ -25598,7 +25636,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 986.48,
+     "price": 1077.18,
      "url": "https://www.amazon.fr/dp/B0F2FM1YNY?tag=geekconcept-21",
      "name": "Samsung TV AI 65QN80F Neo QLED 4K 65 pouces Smart TV 2025",
      "cfg": "vendu par un vendeur tiers",
@@ -25641,7 +25679,7 @@
      }
     ]
    },
-   "prix": 986.48,
+   "prix": 1077.18,
    "img": "samsung-qn80f-65.webp",
    "rating": null,
    "nrev": 0,
@@ -25844,7 +25882,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 750.0,
+     "price": 729.0,
      "url": "https://www.amazon.fr/dp/B0F4KX8CK4?tag=geekconcept-21",
      "name": "Sony BRAVIA 3 Direct LED 65 pouces Google TV (2025)",
      "cfg": "",
@@ -25887,7 +25925,7 @@
      }
     ]
    },
-   "prix": 750.0,
+   "prix": 729.0,
    "img": "sony-bravia-3-65.webp",
    "rating": null,
    "nrev": 0,
@@ -26200,7 +26238,7 @@
    "press": {
     "avg": 9.0,
     "n": 3,
-    "tests": 4,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
@@ -26224,6 +26262,13 @@
       "score": 8.0,
       "url": "https://www.chip.de/test/Kleiner-Subwoofer-grosse-Wirkung-Samsung-HW-QS700F-im-Test_185931165.html",
       "date": ""
+     },
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-barres-de-son-n819/samsung-hw-qs700f-p287986/",
+      "date": "2026-02-02",
+      "ajout": "04/11/2026"
      },
      {
       "src": "RTings",
@@ -26273,7 +26318,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 799.0,
+     "price": 599.0,
      "url": "https://www.amazon.fr/dp/B0GT1GGVGX?tag=geekconcept-21",
      "name": "Sony BRAVIA Theatre Bar 7, Barre de Son Simple, 9 Haut-parleurs, Dolby Atmos",
      "cfg": "",
@@ -26322,7 +26367,7 @@
      }
     ]
    },
-   "prix": 799.0,
+   "prix": 599.0,
    "img": "sony-bravia-theatre-bar-7.webp",
    "rating": null,
    "nrev": 0,
@@ -26363,7 +26408,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 278.99,
+     "price": 249.99,
      "url": "https://www.amazon.fr/dp/B0FF4M576D?tag=geekconcept-21",
      "name": "JBL Bar 300 MK2, Barre de Son Bluetooth pour TV, Noir",
      "cfg": "",
@@ -26394,7 +26439,7 @@
      }
     ]
    },
-   "prix": 278.99,
+   "prix": 249.99,
    "img": "jbl-bar-300-mk2.webp",
    "rating": null,
    "nrev": 0,
@@ -26613,7 +26658,7 @@
    "press": {
     "avg": 7.75,
     "n": 4,
-    "tests": 6,
+    "tests": 8,
     "scope": "gamme",
     "src": [
      "",
@@ -26645,6 +26690,20 @@
       "date": ""
      },
      {
+      "src": "ExpertReviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/hisense-u7q-pro-review",
+      "date": "2026-03-06",
+      "ajout": "04/11/2026"
+     },
+     {
+      "src": "Que Choisir",
+      "score": null,
+      "url": "https://www.quechoisir.org/comparatif-tv-n17/hisense-65u7q-pro-p288586/",
+      "date": "2026-02-17",
+      "ajout": "04/11/2026"
+     },
+     {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14114/hisense-u7q-pro-en-u8q-miniled-tvs-heldere-hdr-maar-random-reclame-in-os.html",
@@ -26663,7 +26722,7 @@
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "Trois médias ont noté la série U7Q de Hisense : ZTGD et Les Numériques lui donnent 8, Clubic 7, soit 7,7/10 en moyenne. Les Numériques a testé la version 65 pouces Pro, celle suivie ici. Ce Mini-LED est proposé à 799 € chez Electro Dépôt, contre plus de 900 € chez un vendeur tiers d'Amazon.\\n\\nLes tests apprécient un contraste élevé sur dalle VA, un mode jeu très réactif avec un input lag minimal et un HDMI 2.1 complet. Ils notent un rétroéclairage peu dense, un HDR en manque de luminosité et une finition semi-brillante qui capte les reflets.",
+    "texte": "Trois médias ont noté la série U7Q de Hisense : ZTGD et Les Numériques lui donnent 8, Clubic 7, soit 7,7/10 en moyenne. Les Numériques a testé la version 65 pouces Pro, celle suivie ici.\n\nLes tests apprécient un contraste élevé sur dalle VA, un mode jeu très réactif avec un input lag minimal et un HDMI 2.1 complet. Ils notent un rétroéclairage peu dense, un HDR en manque de luminosité et une finition semi-brillante qui capte les reflets.",
     "date": "2026-10-28",
     "n": 4,
     "tests": 6,
@@ -40013,6 +40072,12 @@
    "prix_date": "octobre 2026",
    "iso": "2026-10-27",
    "tente": "2026-10-27"
+  },
+  "tv": {
+   "date": "04/11/2026",
+   "prix_date": "novembre 2026",
+   "iso": "2026-11-04",
+   "tente": "2026-11-04"
   }
  },
  "dates": {

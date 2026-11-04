@@ -76,12 +76,11 @@
  },
  {
   "id": "samsung-s90f-42",
-  "texte": "Six médias ont noté l'OLED S90F, avec une moyenne de 8,3/10. Labo Fnac donne la meilleure note (10), tandis que RTings, FrAndroid, PhonAndroid, IGN et Chip.de se retrouvent à 8. Un seul avis très favorable tire donc la moyenne vers le haut ; la presse s'accorde plutôt autour de 8. Les tests portent sur la série S90F et la presse signale que les dalles diffèrent selon la diagonale : le prix suivi est celui du 42 pouces.\n\nLes tests recensés apprécient des noirs parfaits sans halo, une excellente gestion des reflets, des couleurs très vibrantes et précises, et une luminosité HDR impressionnante. Ils reprochent l'absence de Dolby Vision, une luminosité en retrait face aux meilleurs OLED, des basses limitées et une télécommande sans rétroéclairage.",
+  "texte": "Les tests lus ont porté sur le 65 pouces, pas sur le 42 pouces suivi ici. Clubic.com et PhonAndroid précisent que seule la version 65 pouces reçoit une dalle QD-OLED ; les autres tailles, dont le 42 pouces, utilisent une dalle W-OLED. Les conclusions sur les couleurs sont donc celles de la série, à prendre avec prudence pour cette diagonale.\n\nCe qui s'applique à toute la gamme : Tom's Guide apprécie la finesse du téléviseur et les larges angles de vision, PhonAndroid ses bordures presque invisibles, son pied monté sans outil et ses quatre prises HDMI 2.1. Clubic.com note la bonne gestion des sources en définition inférieure. Côté défauts, Tom's Guide cite l'interface Tizen qui met Samsung TV Plus en avant, PhonAndroid un compte Samsung obligatoire et une prise de contrôle automatique des appareils HDMI. Aucun des trois ne mentionne le Dolby Vision comme pris en charge.",
   "sources": [
-   "Labo Fnac",
-   "RTings",
-   "FrAndroid",
-   "IGN"
+   "Clubic.com",
+   "Tom's Guide",
+   "PhonAndroid"
   ]
  },
  {
@@ -105,11 +104,11 @@
  {
   "id": "samsung-s90f-65",
   "sources": [
-   "Labo Fnac",
-   "RTings",
-   "IGN"
+   "Clubic.com",
+   "Tom's Guide",
+   "PhonAndroid"
   ],
-  "texte": "À 65 pouces, le S90F est l'OLED le plus cher de ce comparatif, et la presse l'a largement testé : six médias, 8,3/10 en moyenne. Labo Fnac met 10, RTings, IGN et les autres restent autour de 8. Ces notes concernent la série S90F, pas la seule diagonale 65.\n\nCe qui revient dans les tests : un contraste d'une grande profondeur, un traitement antireflet efficace en salon lumineux et des teintes éclatantes. En face, le Dolby Vision manque à l'appel, la luminosité plafonne un peu en dessous des OLED haut de gamme et le son reste sage."
+  "texte": "Sur la version 65 pouces, Clubic.com, Tom's Guide et PhonAndroid dressent un portrait voisin. Clubic.com décrit une image équilibrée, avec des noirs profonds, du détail dans les ombres et un mode Filmmaker très bien étalonné d'usine ; le pic mesuré avoisine 1 424 cd/m² sur une fenêtre de 10 %. Tom's Guide juge le contraste et le volume colorimétrique très bons, avec une luminosité SDR supérieure à celle du LG C5 et un HDR à peu près au même niveau.\n\nLes réserves se recoupent aussi. Le Dolby Vision manque, ce que les trois tests soulignent. La dalle brillante renvoie la lumière directe : Tom's Guide évoque des difficultés en plein jour, Clubic.com un léger reflet violacé en pièce claire. Le son est jugé moyen, avec peu de graves. Pour le jeu, la fluidité est saluée (144 Hz, VRR, latence d'environ 9 ms). PhonAndroid regrette enfin une télécommande sans rétroéclairage et un pied central peu compatible avec une barre de son."
  },
  {
   "id": "samsung-qn80f-65",
@@ -225,6 +224,6 @@
    "ZTGD",
    "Les Numériques"
   ],
-  "texte": "Trois médias ont noté la série U7Q de Hisense : ZTGD et Les Numériques lui donnent 8, Clubic 7, soit 7,7/10 en moyenne. Les Numériques a testé la version 65 pouces Pro, celle suivie ici. Ce Mini-LED est proposé à 799 € chez Electro Dépôt, contre plus de 900 € chez un vendeur tiers d'Amazon.\\n\\nLes tests apprécient un contraste élevé sur dalle VA, un mode jeu très réactif avec un input lag minimal et un HDMI 2.1 complet. Ils notent un rétroéclairage peu dense, un HDR en manque de luminosité et une finition semi-brillante qui capte les reflets."
+  "texte": "Trois médias ont noté la série U7Q de Hisense : ZTGD et Les Numériques lui donnent 8, Clubic 7, soit 7,7/10 en moyenne. Les Numériques a testé la version 65 pouces Pro, celle suivie ici.\n\nLes tests apprécient un contraste élevé sur dalle VA, un mode jeu très réactif avec un input lag minimal et un HDMI 2.1 complet. Ils notent un rétroéclairage peu dense, un HDR en manque de luminosité et une finition semi-brillante qui capte les reflets."
  }
 ]
