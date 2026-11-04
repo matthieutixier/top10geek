@@ -29,6 +29,10 @@ OUT = os.path.dirname(SRC.rstrip("/"))
 DOMAIN = "https://top10geek.fr"
 DATA = json.load(open(SRC + "data.json", encoding="utf-8"))
 MAJ = DATA["date"]
+# Date affichée hors rubriques (accueil, méthode) : la dernière mise à jour réelle d'une rubrique (règle SEO 6 du 02/11/2026 :
+# une date ne bouge que si le contenu a changé ; DATA["date"] est remise au jour par chaque relevé, même partiel).
+_fams = [v for v in DATA.get("familles", {}).values() if v.get("iso") and v.get("date")]
+MAJ_SITE = max(_fams, key=lambda v: v["iso"])["date"] if _fams else MAJ
 PRIX_DATE = DATA.get("prix_date", "")          # ex. « octobre 2026 »
 IND = f"prix indicatif · {PRIX_DATE}"
 # Mise à jour par rubrique (releve.py --famille) : chaque rubrique a sa date et son mois de prix.
@@ -106,9 +110,10 @@ for f in FAMILIES:
         CAT[c["key"]] = c
 FAM = {f["key"]: f for f in FAMILIES}
 
-def foot_tail(root):
-    """Fin du pied de page : liens des rubriques (1re ligne) puis liens du site sur une ligne à part."""
-    return f'''<div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}audio/">Audio</a>{FOOT_VIDEO(root)}<a href="{root}black-friday/">Black Friday 2026</a><span>MAJ {MAJ}</span></div>
+def foot_tail(root, fam=None):
+    """Fin du pied de page : liens des rubriques (1re ligne) puis liens du site sur une ligne à part.
+    La date « MAJ » est celle de la rubrique de la page (fam) ; aucune date sur les autres pages (règle SEO 6)."""
+    return f'''<div class="foot-links"><a href="{root}pc-portable/">PC portables</a><a href="{root}ordinateur-de-bureau/">Ordinateurs de bureau</a><a href="{root}ecran-pc/">Écrans PC</a><a href="{root}imprimante/">Imprimantes</a><a href="{root}aspirateur-robot/">Robots aspirateurs</a><a href="{root}tv/">TV</a><a href="{root}audio/">Audio</a>{FOOT_VIDEO(root)}<a href="{root}black-friday/">Black Friday 2026</a>{f"<span>MAJ {maj(fam)}</span>" if fam else ""}</div>
     </div>
     <nav class="foot-legal" aria-label="Informations sur le site"><a href="{root}methode">Méthode</a><a href="{root}a-propos">À propos</a><a href="{root}mentions-legales">Mentions légales</a><a href="{root}politique-confidentialite">Confidentialité</a></nav>'''
 
@@ -696,6 +701,12 @@ def fit_desc(d, limit=160):
     return d
 
 
+def FAM_DE_PATH(path):
+    """Rubrique d'une page d'après son adresse (« tv/… » → famille tv), sinon None."""
+    seg = path.split("/")[0]
+    return next((f for f in FAMILIES if f["slug"] == seg), None)
+
+
 def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img="assets/img/og-image.jpg", ld=None, robots=None):
     if og_img == "assets/img/og-image.jpg":
         og_img = og_pour(path)
@@ -724,7 +735,7 @@ def page(root, title, desc, path, body, active="", extra="", body_cls="", og_img
     <div class="disclosure" id="affiliation">Certains liens de ce site sont des liens d'affiliation (à ce jour : {AFF_TXT}) : si vous achetez via ces liens, nous pouvons percevoir une commission. Cela n'entraîne aucun coût supplémentaire pour vous et n'influence pas nos verdicts, établis avant toute recherche de lien commercial. {AMAZON_MENTION}</div>
     <div class="foot-row">
       <div class="foot-sig"><img src="{root}assets/img/logo-face.webp" alt="" width="32" height="32">TOP 10 GEEK — {BASELINE}</div>
-      {foot_tail(root)}
+      {foot_tail(root, FAM_DE_PATH(path))}
   </footer>
   <a class="to-top" href="#" aria-label="Revenir en haut de la page">↑</a>
 </div>
@@ -1695,7 +1706,7 @@ home = f"""
 {bf_banner()}
   <section class="home-hero">
     <div class="hh-text">
-      <div class="eyebrow">LE COMPARATEUR QUI A LU TOUS LES TESTS · MAJ {MAJ}</div>
+      <div class="eyebrow">LE COMPARATEUR QUI A LU TOUS LES TESTS · MAJ {MAJ_SITE}</div>
       <h1>Tous les tests high&#8209;tech, <span class="flash">résumés pour vous.</span></h1>
       <p>Nous lisons les tests de la presse spécialisée, nous en tirons une <b>note presse sur 10</b> et nous vous disons, usage par usage, quoi acheter — et pourquoi. Sans jargon, sans pub déguisée.</p>
       <div class="spec-row">
@@ -1803,7 +1814,7 @@ write("index.html", page("", "Top 10 Geek : tests high-tech résumés — PC, TV
 methode = f"""
   <div class="prose">
     <div class="prose-hero">
-      <div><div class="eyebrow">MÉTHODE · MAJ {MAJ}</div><h1>Une note principale : celle de la presse</h1>
+      <div><div class="eyebrow">MÉTHODE · MAJ {MAJ_SITE}</div><h1>Une note principale : celle de la presse</h1>
       <p>Nous ne testons pas les produits nous-mêmes : nous n'avons pas de laboratoire, et nous préférons le dire. Notre travail, c'est de lire tout ce qui a été publié, de trier le solide du marketing, et de vous le rendre lisible.</p>
       {byline("")}</div>
       <img src="assets/img/pose-investigation.webp" alt="La mascotte, loupe à la main" width="200" height="200">
@@ -1818,7 +1829,7 @@ methode = f"""
     <p>Les autres produits sont classés en trois groupes : d'abord ceux notés par <b>au moins {SEUIL_NOTES} médias</b>, puis ceux qui n'ont qu'<b>1 ou 2 notes</b>, enfin ceux testés <b>sans note chiffrée</b> (nous donnons alors le lien vers le test plutôt que d'inventer une note). Dans chaque groupe, l'ordre suit la <b>note presse ajustée</b> : une moyenne bayésienne qui rapproche une note appuyée sur peu de tests de la moyenne de l'usage, comme si {PRIOR_M} notes moyennes s'y ajoutaient. Un 10/10 isolé ne peut donc pas devancer un 9/10 confirmé par dix médias. À égalité, le produit le plus noté puis le moins cher passe devant.</p>
     <p>La note affichée sur chaque produit reste la <b>moyenne simple</b> des médias, avec le nombre de notes ; la note ajustée ne sert qu'à l'ordre du classement. Aucun critère commercial (commission, marchand) n'intervient dans le classement.</p>
     <h2>Comment est calculée la note presse</h2>
-    <p>Toutes les notes sont ramenées sur 10 : 4/5 devient 8/10, 87 % devient 8,7/10. Nous faisons une moyenne simple, sans pondérer les médias. Le nombre de notes est toujours affiché : une moyenne appuyée sur quinze tests est plus solide qu'une note unique. Les tests sans note chiffrée sont listés mais n'entrent pas dans la moyenne. Au {MAJ}, le site recense <b>{TOTAL_TESTS} tests</b> et <b>{TOTAL_NOTES} notes</b> pour {len(ITEMS)} produits.</p>
+    <p>Toutes les notes sont ramenées sur 10 : 4/5 devient 8/10, 87 % devient 8,7/10. Nous faisons une moyenne simple, sans pondérer les médias. Le nombre de notes est toujours affiché : une moyenne appuyée sur quinze tests est plus solide qu'une note unique. Les tests sans note chiffrée sont listés mais n'entrent pas dans la moyenne. Au {MAJ_SITE}, le site recense <b>{TOTAL_TESTS} tests</b> et <b>{TOTAL_NOTES} notes</b> pour {len(ITEMS)} produits.</p>
     <h2>Les imprimantes et les associations de consommateurs</h2>
     <p>Les imprimantes sont peu testées par la presse high-tech, mais très bien par les <b>associations de consommateurs</b> (Test-Achats, Que Choisir, Which?, Tænk), qui les mesurent en laboratoire. Ces associations réservent leurs notes à leurs abonnés : nous citons et lions leurs tests, sans note chiffrée, et la note presse n'est calculée que sur les notes publiées librement. C'est pourquoi beaucoup d'imprimantes affichent « testé, sans note ».</p>
     <h2>Comment lire le graphe à bulles</h2>
@@ -1841,7 +1852,7 @@ write("methode.html", page("", "Notre méthode : sélection, note presse, prix |
 apropos = f"""
   <div class="prose">
     <div class="prose-hero">
-      <div><div class="eyebrow">À PROPOS · MAJ {MAJ}</div><h1>Qui est derrière Top 10 Geek ?</h1>
+      <div><div class="eyebrow">À PROPOS</div><h1>Qui est derrière Top 10 Geek ?</h1>
       <p>Top 10 Geek est un site indépendant édité par <b>Matthieu Tixier</b>, à La Rochelle. Pas de rédaction parisienne ni de groupe de médias : un geek de toujours, qui en avait assez de lire dix tests avant chaque achat.</p></div>
       <img src="assets/img/pose-investigation.webp" alt="La mascotte de Top 10 Geek, loupe à la main" width="200" height="200">
     </div>
@@ -2035,7 +2046,7 @@ for _f in ("404.html", "mentions-legales.html", "politique-confidentialite.html"
     _t = re.sub(r"main\.js\?v=[0-9a-f]+", f"main.js?v={VER}", _t)
     _r = "/" if _f == "404.html" else ""      # la 404 est servie sous n'importe quelle URL : liens absolus
     _t = re.sub(r'  (?:<div class="topbar">.*?\n  </div>|<header class="hd hd-b">.*?</header>)\n', lambda m: "  " + nav_html(_r, "") + "\n", _t, count=1, flags=re.S)
-    _t = re.sub(r'<div class="foot-links">.*?</div>\n    </div>', lambda m: foot_tail(_r), _t, count=1, flags=re.S)
+    _t = re.sub(r'<div class="foot-links">.*?</div>\n    </div>(?:\s*<nav class="foot-legal".*?</nav>)*', lambda m: foot_tail(_r), _t, count=1, flags=re.S)
     open(_p, "w", encoding="utf-8").write(_t)
 shutil.copy(SRC + "main15.js", os.path.join(OUT, "assets/main.js"))
 os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
@@ -2048,7 +2059,8 @@ urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/"
 def lastmods(urls):
     """Date de dernière modification réelle de chaque page (balise <lastmod> du sitemap).
     On garde dans _source/sitemap_dates.json une empreinte du contenu de chaque page ; si l'empreinte change
-    (prix, note, texte…), la date devient celle du jour. L'empreinte ignore le paramètre anti-cache ?v=."""
+    (prix, note, texte…), la date devient celle du jour. L'empreinte ignore le paramètre anti-cache ?v=, le CSS intégré
+    et la date « MAJ » du pied de page."""
     import datetime
     from zoneinfo import ZoneInfo
     jour = datetime.datetime.now(ZoneInfo("Europe/Paris")).strftime("%Y-%m-%d")
@@ -2058,7 +2070,8 @@ def lastmods(urls):
     for u in urls:
         f = "index.html" if u == "" else (u + "index.html" if u.endswith("/") else u + ".html")
         brut = open(os.path.join(OUT, f), encoding="utf-8").read()
-        h = hashlib.md5(re.sub(r"\?v=[0-9a-f]+|<style>.*?</style>", "", brut, flags=re.S).encode("utf-8")).hexdigest()[:12]
+        # l'empreinte ignore aussi la date du pied de page (« MAJ … ») : une date seule ne re-date pas la page (règle SEO 6)
+        h = hashlib.md5(re.sub(r"\?v=[0-9a-f]+|<style>.*?</style>|<span>MAJ [0-9/]+</span>", "", brut, flags=re.S).encode("utf-8")).hexdigest()[:12]
         ancien = dates.get(u)
         res[u] = ancien if ancien and ancien["h"] == h else {"h": h, "d": jour}
     json.dump(res, open(chemin, "w", encoding="utf-8"), ensure_ascii=False, indent=0, sort_keys=True)
