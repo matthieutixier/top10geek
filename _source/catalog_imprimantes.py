@@ -369,7 +369,7 @@ IMP["canon-selphy-qx20"] = E("i-photo", "Canon Selphy QX20", "Imprimante photo d
      ("Actualidad Gadget", 6, "https://www.actualidadgadget.com/canon-selphy-qx20-imprime-tus-fotos-donde-y-cuando-quieras-review/"),
      (RT, 5, "https://www.rtings.com/printer/reviews/canon/selphy-qx20"),
      ta("canon-selphy-qx-20", 190498),
-     ("Digital Trends", None, "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/")],
+     ("Digital Trends", 9.0, "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/")],
     "B0DG8LFP8V", "Canon SELPHY QX20 Imprimante Photo Portable Mini Sublimation 100 Ans", 107.50,
     "Vous voulez imprimer des souvenirs durables partout, en soirée ou en voyage.",
     "Vous imprimez beaucoup : le coût par tirage s'additionne.")
