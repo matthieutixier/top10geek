@@ -1,0 +1,1072 @@
+diff --git a/_source/catalog_imprimantes.py b/_source/catalog_imprimantes.py
+index 75fd71f0..ea548746 100644
+--- a/_source/catalog_imprimantes.py
++++ b/_source/catalog_imprimantes.py
+@@ -371,3 +371,3 @@ IMP["canon-selphy-qx20"] = E("i-photo", "Canon Selphy QX20", "Imprimante photo d
+      ta("canon-selphy-qx-20", 190498),
+-     ("Digital Trends", None, "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/")],
++     ("Digital Trends", 9.0, "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/")],
+     "B0DG8LFP8V", "Canon SELPHY QX20 Imprimante Photo Portable Mini Sublimation 100 Ans", 107.50,
+diff --git a/_source/data.json b/_source/data.json
+index 5e9589fb..7605c65d 100644
+--- a/_source/data.json
++++ b/_source/data.json
+@@ -1,3 +1,3 @@
+ {
+- "date": "27/10/2026",
++ "date": "06/11/2026",
+  "items": {
+@@ -796,3 +796,3 @@
+      "m": "Electro Dépôt",
+-     "price": 589.98,
++     "price": 599.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-hp-17-omnibook-3-17-dp0046nfx-r5-8-256go.html",
+@@ -802,3 +802,3 @@
+      "edid": "10019070",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -808,3 +808,3 @@
+    "nrev": 0,
+-   "prix": 589.98
++   "prix": 599.98
+   },
+@@ -6651,3 +6651,3 @@
+      "edid": "10018724",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -6820,3 +6820,3 @@
+      "m": "Electro Dépôt",
+-     "price": 299.98,
++     "price": 249.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fchromebook-acer-15-cb315-8h-88m3-4-64go.html",
+@@ -6826,3 +6826,3 @@
+      "edid": "10018899",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -7292,3 +7292,3 @@
+      "edid": "10018811",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -15851,3 +15851,4 @@
+       "url": "https://www.laptopmag.com/reviews/epson-ecotank-et-2850-all-in-one-printer",
+-      "date": ""
++      "date": "2021-12-21",
++      "verifie": "06/11/2026"
+      },
+@@ -15857,3 +15858,4 @@
+       "url": "https://www.tomsguide.com/reviews/epson-ecotank-et-2850",
+-      "date": ""
++      "date": "2023-08-16",
++      "verifie": "06/11/2026"
+      },
+@@ -15899,3 +15901,4 @@
+      "cfg": "vendu par un vendeur tiers",
+-     "asin": "B0D1R8GR11"
++     "asin": "B0D1R8GR11",
++     "dispo": false
+     }
+@@ -15976,5 +15979,6 @@
+       "url": "https://www.pcwelt.de/?p=3014071",
+-      "date": "",
++      "date": "2025-12-18",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -15984,3 +15988,3 @@
+       "url": "https://www.rtings.com/printer/reviews/epson/ecotank-et-3950",
+-      "date": ""
++      "date": "2025-10-15"
+      },
+@@ -15992,3 +15996,4 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+@@ -16022,3 +16027,3 @@
+      "m": "Amazon",
+-     "price": 283.32,
++     "price": 374.15,
+      "url": "https://www.amazon.fr/dp/B0FKSZCLFX?tag=geekconcept-21",
+@@ -16048,3 +16053,3 @@
+    },
+-   "prix": 283.32,
++   "prix": 374.15,
+    "img": "epson-et-3956.webp",
+@@ -16076,3 +16081,3 @@
+      "m": "Amazon",
+-     "price": 308.37,
++     "price": 299.99,
+      "url": "https://www.amazon.fr/dp/B0H1JJP668?tag=geekconcept-21",
+@@ -16097,3 +16102,3 @@
+       "url": "https://cybershack.com.au/computer/epson-ecotank-et-4900-review/",
+-      "date": ""
++      "date": "2026-06-11"
+      },
+@@ -16108,3 +16113,3 @@
+    },
+-   "prix": 308.37,
++   "prix": 299.99,
+    "img": "epson-et-4900.webp",
+@@ -16136,3 +16141,3 @@
+      "m": "Amazon",
+-     "price": 351.66,
++     "price": 399.99,
+      "url": "https://www.amazon.fr/dp/B0FLPTJ427?tag=geekconcept-21",
+@@ -16157,5 +16162,6 @@
+       "url": "https://www.techradar.com/pro/epson-ecotank-et-4950-ink-tank-printer-review",
+-      "date": "",
++      "date": "2026-01-23",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -16173,5 +16179,6 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 351.66,
++   "prix": 399.99,
+    "img": "epson-et-4956.webp",
+@@ -16203,3 +16210,3 @@
+      "m": "Amazon",
+-     "price": 487.93,
++     "price": 633.8,
+      "url": "https://www.amazon.fr/dp/B09GFV83QX?tag=geekconcept-21",
+@@ -16224,5 +16231,6 @@
+       "url": "https://www.sitegeek.fr/article-technologie/test-epson-ecotank-4850/",
+-      "date": "",
++      "date": "2022-01-13",
+       "avant": 8.0,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -16232,5 +16240,6 @@
+       "url": "https://www.techradar.com/pro/epson-ecotank-et-4850-review",
+-      "date": "",
++      "date": "2024-04-17",
+       "avant": 8.0,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -16240,5 +16249,6 @@
+       "url": "https://www.chip.de/test/Epson-EcoTank-ET-4850-im-Test_185863003.html",
+-      "date": "",
++      "date": "2025-09-26",
+       "avant": 8.0,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -16248,3 +16258,4 @@
+       "url": "https://www.itpro.co.uk/hardware/370336/epson-ecotank-review-an-above-average-mfp-with-low-running-costs",
+-      "date": ""
++      "date": "2023-03-27",
++      "verifie": "06/11/2026"
+      },
+@@ -16256,8 +16267,20 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 487.93,
++   "prix": 633.8,
+    "img": "epson-et-4856.webp",
+    "rating": null,
+-   "nrev": 0
++   "nrev": 0,
++   "synthese": {
++    "texte": "Les tests s'accordent sur le principal atout de cette EcoTank : un coût d'impression très bas grâce aux réservoirs rechargeables. Chip.de mesure environ 2 centimes la page en noir et 3 centimes en couleur et juge la qualité du texte et des graphiques excellente ; IT Pro souligne qu'on imprime des milliers de pages pour un coût minime, ce qui compense un achat plus cher que celui des modèles à cartouches.\n\nL'équipement est complet pour un bureau à domicile : impression, copie, numérisation et fax, chargeur automatique de documents, bac de 250 feuilles, recto-verso, Wi-Fi et réseau filaire. SiteGeek apprécie l'installation simple et l'écran tactile de 2,4 pouces, que Chip.de trouve au contraire peu pratique. Les réserves portent sur la vitesse : Chip.de compte près de trois minutes pour une photo, et IT Pro trouve la numérisation et le recto-verso plus lents que chez les concurrents, avec des couleurs moins éclatantes sur papier ordinaire.\n\nElle convient aux indépendants, aux petites entreprises et aux familles qui impriment régulièrement des documents et veulent réduire leur budget encre sur la durée. Si vous imprimez surtout des photos ou si la vitesse prime, d'autres modèles vous conviendront mieux.",
++    "date": "2026-11-06",
++    "n": 5,
++    "tests": 5,
++    "sources": [
++     "Chip.de",
++     "IT Pro",
++     "SiteGeek"
++    ]
++   }
+   },
+@@ -16418,3 +16441,3 @@
+      "m": "Amazon",
+-     "price": 93.54,
++     "price": 99.56,
+      "url": "https://www.amazon.fr/dp/B0FFVQW7RZ?tag=geekconcept-21",
+@@ -16450,3 +16473,3 @@
+    },
+-   "prix": 93.54,
++   "prix": 99.56,
+    "img": "brother-hl-l1240w.webp",
+@@ -16478,3 +16501,3 @@
+      "m": "Amazon",
+-     "price": 124.99,
++     "price": 149.99,
+      "url": "https://www.amazon.fr/dp/B0FFTS5Z7D?tag=geekconcept-21",
+@@ -16499,4 +16522,5 @@
+       "url": "https://www.clubic.com/test-produit-580633-test-brother-dcp-l1642-l-imprimante-multifonction-monochrome-a-volume-moyen.html",
+-      "date": "",
+-      "ajout": "09/10/2026"
++      "date": "2025-09-27",
++      "ajout": "09/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -16514,5 +16538,6 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 124.99,
++   "prix": 149.99,
+    "img": "brother-dcp-l1642w.webp",
+@@ -16565,5 +16590,6 @@
+       "url": "https://www.techradar.com/pro/brother-hl-l2865dw-printer-review",
+-      "date": "",
++      "date": "2025-01-20",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -16581,3 +16607,4 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+@@ -16611,3 +16638,3 @@
+      "m": "Amazon",
+-     "price": 190.75,
++     "price": 215.81,
+      "url": "https://www.amazon.fr/dp/B0CK2PVJSR?tag=geekconcept-21",
+@@ -16649,3 +16676,3 @@
+    },
+-   "prix": 190.75,
++   "prix": 215.81,
+    "img": "brother-mfc-l2800dw.webp",
+@@ -16677,3 +16704,3 @@
+      "m": "Amazon",
+-     "price": 195.83,
++     "price": 235.0,
+      "url": "https://www.amazon.fr/dp/B0CJRSY15B?tag=geekconcept-21",
+@@ -16703,3 +16730,3 @@
+    },
+-   "prix": 195.83,
++   "prix": 235.0,
+    "img": "brother-mfc-l2835dw.webp",
+@@ -16731,3 +16758,3 @@
+      "m": "Amazon",
+-     "price": 276.42,
++     "price": 316.63,
+      "url": "https://www.amazon.fr/dp/B0D818BSFQ?tag=geekconcept-21",
+@@ -16763,3 +16790,3 @@
+    },
+-   "prix": 276.42,
++   "prix": 316.63,
+    "img": "brother-mfc-l2960dw.webp",
+@@ -16791,3 +16818,3 @@
+      "m": "Amazon",
+-     "price": 195.83,
++     "price": 235.0,
+      "url": "https://www.amazon.fr/dp/B0CJRL253B?tag=geekconcept-21",
+@@ -16823,3 +16850,3 @@
+    },
+-   "prix": 195.83,
++   "prix": 235.0,
+    "img": "brother-dcp-l2665dw.webp",
+@@ -16872,3 +16899,3 @@
+       "url": "https://www.choice.com.au/products/electronics-and-technology/computers/scanners-and-printers/canon-i-sensys-lbp243dw-ii",
+-      "date": ""
++      "date": "2026-06-04"
+      },
+@@ -16998,3 +17025,4 @@
+       "url": "https://www.chip.de/test-kaufberatung/drucker-multifunktionsgeraete/brother-mfc-l3760cdw-im-test_6c122d8c-9c50-4a8e-94eb-cc686461d8cf.html",
+-      "date": ""
++      "date": "2026-05-20",
++      "verifie": "06/11/2026"
+      },
+@@ -17004,7 +17032,9 @@
+       "url": "https://www.trustedreviews.com/reviews/brother-mfc-l3760cdw",
+-      "date": "",
++      "date": "2024-05-06",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+@@ -17038,3 +17068,3 @@
+      "m": "Amazon",
+-     "price": 178.33,
++     "price": 214.0,
+      "url": "https://www.amazon.fr/dp/B0CJC6V76D?tag=geekconcept-21",
+@@ -17059,5 +17089,6 @@
+       "url": "https://www.trustedreviews.com/reviews/brother-hl-l3220cwe",
+-      "date": "",
++      "date": "2024-03-29",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -17069,5 +17100,6 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 178.33,
++   "prix": 214.0,
+    "img": "brother-hl-l3220cwe.webp",
+@@ -17103,3 +17135,4 @@
+      "cfg": "",
+-     "asin": "B0CJ9DFM4R"
++     "asin": "B0CJ9DFM4R",
++     "dispo": false
+     }
+@@ -17220,3 +17253,3 @@
+      "m": "Amazon",
+-     "price": 236.14,
++     "price": 273.37,
+      "url": "https://www.amazon.fr/dp/B0FXN9ZYK1?tag=geekconcept-21",
+@@ -17252,3 +17285,3 @@
+    },
+-   "prix": 236.14,
++   "prix": 273.37,
+    "img": "canon-lbp647cdw.webp",
+@@ -17503,3 +17536,3 @@
+      "m": "Amazon",
+-     "price": 133.32,
++     "price": 168.58,
+      "url": "https://www.amazon.fr/dp/B0DZDXF47Q?tag=geekconcept-21",
+@@ -17517,3 +17550,3 @@
+      "edid": "10018462",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -17534,3 +17567,4 @@
+       "url": "https://www.pc-magazin.de/testbericht/canon-selphy-cp1500-fotodrucker-test-review-3204235.html",
+-      "date": ""
++      "date": "2023-01-25",
++      "verifie": "06/11/2026"
+      },
+@@ -17540,3 +17574,4 @@
+       "url": "https://www.creativebloq.com/reviews/canon-selphy-cp1500",
+-      "date": ""
++      "date": "2023-02-08",
++      "verifie": "06/11/2026"
+      },
+@@ -17546,5 +17581,6 @@
+       "url": "https://www.trustedreviews.com/reviews/canon-selphy-cp1500",
+-      "date": "",
++      "date": "2023-07-11",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -17554,7 +17590,9 @@
+       "url": "https://www.frandroid.com/marques/canon/1586624_test-de-la-canon-selphy-cp1500-une-imprimante-photo-efficace-et-un-poil-plus-rapide",
+-      "date": "",
++      "date": "2023-03-13",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+@@ -17588,3 +17626,3 @@
+      "m": "Amazon",
+-     "price": 107.5,
++     "price": 128.9,
+      "url": "https://www.amazon.fr/dp/B0DG8LFP8V?tag=geekconcept-21",
+@@ -17596,4 +17634,4 @@
+    "press": {
+-    "avg": 7.0,
+-    "n": 3,
++    "avg": 7.5,
++    "n": 4,
+     "tests": 5,
+@@ -17609,5 +17647,15 @@
+       "url": "https://leclaireur.fnac.com/test/580989-test-canon-selphy-qx20-une-imprimante-photo-portable-efficace-et-polyvalente/",
+-      "date": "",
++      "date": "2025-03-08",
+       "avant": 8.0,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
++     },
++     {
++      "src": "Digital Trends",
++      "score": 9.0,
++      "url": "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/",
++      "date": "2025-02-14",
++      "avant": null,
++      "corrige": "06/11/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -17623,9 +17671,3 @@
+       "url": "https://www.rtings.com/printer/reviews/canon/selphy-qx20",
+-      "date": ""
+-     },
+-     {
+-      "src": "Digital Trends",
+-      "score": null,
+-      "url": "https://www.digitaltrends.com/computing/canon-selphy-qx20-review/",
+-      "date": ""
++      "date": "2025-02-28"
+      },
+@@ -17639,6 +17681,17 @@
+    },
+-   "prix": 107.5,
++   "prix": 128.9,
+    "img": "canon-selphy-qx20.webp",
+    "rating": null,
+-   "nrev": 0
++   "nrev": 0,
++   "synthese": {
++    "texte": "Les tests saluent la qualité des tirages de cette petite imprimante à sublimation thermique. Labo Fnac relève des couleurs fidèles, des contrastes marqués et des tons de peau soignés, sans tramage ; Digital Trends juge toutes ses photos bonnes et la plupart excellentes, même si quelques tirages lui ont paru un peu moins vifs que l'original. RTINGS confirme des photos plutôt nettes et justes en couleurs pour une imprimante portable, mais note une perte de détails fins face à une imprimante photo de bureau.\n\nDeux formats autocollants sont proposés, carte de crédit et carré, avec une photo en 40 à 50 secondes selon les mesures. Les limites sont partagées : le coût par tirage est jugé élevé par Digital Trends et RTINGS, et supérieur à celui des imprimantes Zink selon Labo Fnac ; la batterie ne tient qu'une vingtaine de photos et la recharge en USB-C demande environ 80 minutes. Labo Fnac regrette aussi l'absence de Bluetooth, l'impossibilité d'imprimer sans bordure sur les quatre côtés et un film de protection difficile à retirer au dos ; RTINGS rappelle qu'elle ne fonctionne qu'avec un smartphone ou une tablette.\n\nElle s'adresse à ceux qui veulent imprimer de petites photos en déplacement, pour un carnet ou une soirée, directement depuis leur téléphone. Pour tirer beaucoup de photos à moindre coût ou imprimer des documents, mieux vaut regarder ailleurs.",
++    "date": "2026-11-06",
++    "n": 4,
++    "tests": 5,
++    "sources": [
++     "Labo Fnac",
++     "Digital Trends",
++     "RTINGS"
++    ]
++   }
+   },
+@@ -17667,3 +17720,3 @@
+      "m": "Amazon",
+-     "price": 125.16,
++     "price": 109.0,
+      "url": "https://www.amazon.fr/dp/B00JOBFVMI?tag=geekconcept-21",
+@@ -17688,5 +17741,6 @@
+       "url": "https://www.lesnumeriques.com/imprimante-photo-portable/fujifilm-instax-link-wide-p65671/test.html",
+-      "date": "",
++      "date": "2021-10-28",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -17696,3 +17750,3 @@
+       "url": "https://www.01net.com/tests/test-fujifilm-instax-link-wide-enfin-une-imprimante-nomade-pour-imprimer-vos-photos-en-version-instantanee-large-6689.html",
+-      "date": ""
++      "date": "2021-10-15"
+      },
+@@ -17702,3 +17756,3 @@
+       "url": "https://www.rtings.com/printer/reviews/fujifilm/instax-link-wide",
+-      "date": ""
++      "date": "2024-09-30"
+      },
+@@ -17712,3 +17766,3 @@
+    },
+-   "prix": 125.16,
++   "prix": 109.0,
+    "img": "fujifilm-instax-link-wide.webp",
+@@ -17740,3 +17794,3 @@
+      "m": "Amazon",
+-     "price": 108.25,
++     "price": 113.25,
+      "url": "https://www.amazon.fr/dp/B0DB8SQSRH?tag=geekconcept-21",
+@@ -17761,3 +17815,3 @@
+       "url": "https://www.rtings.com/printer/reviews/fujifilm/instax-mini-link-3",
+-      "date": ""
++      "date": "2025-02-28"
+      },
+@@ -17772,3 +17826,3 @@
+    },
+-   "prix": 108.25,
++   "prix": 113.25,
+    "img": "fujifilm-instax-mini-link-3.webp",
+@@ -17800,3 +17854,3 @@
+      "m": "Amazon",
+-     "price": 83.29,
++     "price": 99.95,
+      "url": "https://www.amazon.fr/dp/B0BGT3G48W?tag=geekconcept-21",
+@@ -17833,3 +17887,3 @@
+    },
+-   "prix": 83.29,
++   "prix": 99.95,
+    "img": "canon-zoemini-2.webp",
+@@ -17861,3 +17915,3 @@
+      "m": "Amazon",
+-     "price": 79.16,
++     "price": 94.99,
+      "url": "https://www.amazon.fr/dp/B094K165S1?tag=geekconcept-21",
+@@ -17882,3 +17936,4 @@
+       "url": "https://www.pcmag.com/reviews/kodak-step-slim-instant-mobile-photo-printer",
+-      "date": ""
++      "date": "2022-08-10",
++      "verifie": "06/11/2026"
+      },
+@@ -17888,5 +17943,6 @@
+       "url": "https://www.techadvisor.com/article/723247/kodak-step-instant-printer-review.html",
+-      "date": "",
++      "date": "2022-05-03",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -17896,3 +17952,4 @@
+       "url": "https://www.tomsguide.com/reviews/kodak-step-slim-mobile-photo-printer",
+-      "date": ""
++      "date": "2022-12-19",
++      "verifie": "06/11/2026"
+      },
+@@ -17902,7 +17959,9 @@
+       "url": "https://www.digitalcameraworld.com/reviews/kodak-step-slim-review",
+-      "date": ""
++      "date": "2023-02-10",
++      "verifie": "06/11/2026"
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 79.16,
++   "prix": 94.99,
+    "img": "kodak-step.webp",
+@@ -17934,3 +17993,3 @@
+      "m": "Amazon",
+-     "price": 83.25,
++     "price": 120.38,
+      "url": "https://www.amazon.fr/dp/B07GFP7H8C?tag=geekconcept-21",
+@@ -17975,3 +18034,3 @@
+    },
+-   "prix": 83.25,
++   "prix": 120.38,
+    "img": "hp-sprocket.webp",
+@@ -18003,3 +18062,3 @@
+      "m": "Amazon",
+-     "price": 583.32,
++     "price": 748.9,
+      "url": "https://www.amazon.fr/dp/B08Y98MLMG?tag=geekconcept-21",
+@@ -18024,3 +18083,4 @@
+       "url": "https://www.pc-magazin.de/testbericht/epson-ecotank-et-8550-tintenstrahldrucker-a3-test-review-3204305.html",
+-      "date": ""
++      "date": "2023-02-16",
++      "verifie": "06/11/2026"
+      },
+@@ -18030,3 +18090,3 @@
+       "url": "https://www.rtings.com/printer/reviews/epson/ecotank-photo-et-8550",
+-      "date": ""
++      "date": "2023-10-12"
+      },
+@@ -18036,7 +18096,8 @@
+       "url": "https://geardiary.com/2026/08/04/epson-ecotank-photo-et-8550-review/",
+-      "date": ""
++      "date": "2026-08-04"
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 583.32,
++   "prix": 748.9,
+    "img": "epson-et-8550.webp",
+@@ -18068,3 +18129,3 @@
+      "m": "Amazon",
+-     "price": 413.32,
++     "price": 570.19,
+      "url": "https://www.amazon.fr/dp/B08Y99KDP6?tag=geekconcept-21",
+@@ -18097,3 +18158,3 @@
+       "url": "https://www.northlight-images.co.uk/epson-et-8500-printer-review/",
+-      "date": ""
++      "date": "2023-04-23"
+      },
+@@ -18107,3 +18168,3 @@
+    },
+-   "prix": 413.32,
++   "prix": 570.19,
+    "img": "epson-et-8500.webp",
+@@ -18135,3 +18196,3 @@
+      "m": "Amazon",
+-     "price": 145.0,
++     "price": 174.0,
+      "url": "https://www.amazon.fr/dp/B00HZDLDK6?tag=geekconcept-21",
+@@ -18156,5 +18217,6 @@
+       "url": "https://www.techradar.com/reviews/pc-mac/peripherals/printers-and-scanners/printers/canon-pixma-ix6850-wi-fi-office-printer-1240489/review",
+-      "date": "",
++      "date": "2014-04-08",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -18164,3 +18226,3 @@
+       "url": "https://www.expertreviews.co.uk/printers/53517/canon-pixma-ix6850-review",
+-      "date": ""
++      "date": "2014-05-08"
+      },
+@@ -18172,5 +18234,6 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 145.0,
++   "prix": 174.0,
+    "img": "canon-pixma-ix6850.webp",
+@@ -18202,3 +18265,3 @@
+      "m": "Amazon",
+-     "price": 74.99,
++     "price": 89.99,
+      "url": "https://www.amazon.fr/dp/B0GT28CL51?tag=geekconcept-21",
+@@ -18210,3 +18273,3 @@
+      "m": "Electro Dépôt",
+-     "price": 59.98,
++     "price": 79.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts6550i.html",
+@@ -18216,3 +18279,3 @@
+      "edid": "10020364",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18222,3 +18285,3 @@
+     "n": 1,
+-    "tests": 3,
++    "tests": 4,
+     "scope": "modele",
+@@ -18234,3 +18297,11 @@
+       "date": "2025-10-22",
+-      "ajout": "09/10/2026"
++      "ajout": "09/10/2026",
++      "verifie": "06/11/2026"
++     },
++     {
++      "src": "Benchmark.pl",
++      "score": null,
++      "url": "https://www.benchmark.pl/test-canon-pixma-ts6550i-drukarka-do-domu-7268587164025409a",
++      "date": "2025-12-01",
++      "ajout": "06/11/2026"
+      },
+@@ -18248,5 +18319,6 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 59.98,
++   "prix": 79.98,
+    "img": "canon-pixma-ts6550i.webp",
+@@ -18278,3 +18350,3 @@
+      "m": "Amazon",
+-     "price": 40.82,
++     "price": 48.76,
+      "url": "https://www.amazon.fr/dp/B0B8X457PN?tag=geekconcept-21",
+@@ -18292,3 +18364,3 @@
+      "edid": "975904",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18309,5 +18381,6 @@
+       "url": "https://www.gadreview.com/review/epson-expression-xp-2200-review-451396",
+-      "date": "",
++      "date": "2026-06-26",
+       "avant": null,
+-      "corrige": "10/10/2026"
++      "corrige": "10/10/2026",
++      "verifie": "06/11/2026"
+      },
+@@ -18319,5 +18392,6 @@
+      }
+-    ]
++    ],
++    "releve_source": "06/11/2026"
+    },
+-   "prix": 40.82,
++   "prix": 48.76,
+    "img": "epson-xp-2200.webp",
+@@ -18349,3 +18423,3 @@
+      "m": "Amazon",
+-     "price": 45.82,
++     "price": 67.53,
+      "url": "https://www.amazon.fr/dp/B0FY6RNQXL?tag=geekconcept-21",
+@@ -18363,3 +18437,4 @@
+      "edid": "10016130",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06",
++     "dispo": false
+     }
+@@ -18391,3 +18466,3 @@
+    },
+-   "prix": 45.82,
++   "prix": 67.53,
+    "img": "canon-pixma-ts4151i.webp",
+@@ -18419,3 +18494,3 @@
+      "m": "Amazon",
+-     "price": 49.99,
++     "price": 64.9,
+      "url": "https://www.amazon.fr/dp/B0B8X5H53X?tag=geekconcept-21",
+@@ -18457,3 +18532,3 @@
+    },
+-   "prix": 49.99,
++   "prix": 64.9,
+    "img": "epson-wf-2930dwf.webp",
+@@ -18485,3 +18560,3 @@
+      "m": "Amazon",
+-     "price": 58.32,
++     "price": 74.99,
+      "url": "https://www.amazon.fr/dp/B0FJSLRQMK?tag=geekconcept-21",
+@@ -18499,3 +18574,4 @@
+      "edid": "10017501",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06",
++     "dispo": false
+     }
+@@ -18533,3 +18609,3 @@
+    },
+-   "prix": 58.32,
++   "prix": 74.99,
+    "img": "canon-pixma-tr4755i.webp",
+@@ -18561,3 +18637,3 @@
+      "m": "Amazon",
+-     "price": 66.66,
++     "price": 99.99,
+      "url": "https://www.amazon.fr/dp/B0GT281VRC?tag=geekconcept-21",
+@@ -18569,3 +18645,3 @@
+      "m": "Electro Dépôt",
+-     "price": 84.98,
++     "price": 79.95,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts7550i.html",
+@@ -18575,3 +18651,3 @@
+      "edid": "10020365",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18603,3 +18679,3 @@
+    },
+-   "prix": 66.66,
++   "prix": 79.95,
+    "img": "canon-pixma-ts7550i.webp",
+@@ -18631,3 +18707,3 @@
+      "m": "Amazon",
+-     "price": 91.66,
++     "price": 107.37,
+      "url": "https://www.amazon.fr/dp/B0FB3YQKVJ?tag=geekconcept-21",
+@@ -18669,3 +18745,3 @@
+    },
+-   "prix": 91.66,
++   "prix": 107.37,
+    "img": "brother-dcp-j1360dw.webp",
+@@ -18698,3 +18774,3 @@
+      "m": "Electro Dépôt",
+-     "price": 279.98,
++     "price": 229.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fmoniteur-lenovo-34-r34w-30-uwqhd-180hz-0-5.html",
+@@ -18704,3 +18780,3 @@
+      "edid": "10012839",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18739,3 +18815,3 @@
+    },
+-   "prix": 279.98,
++   "prix": 229.98,
+    "img": "lenovo-legion-r34w-30.webp",
+@@ -18774,3 +18850,3 @@
+      "edid": "10010548",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18831,3 +18907,3 @@
+      "m": "Electro Dépôt",
+-     "price": 268.98,
++     "price": 228.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-et-2951.html",
+@@ -18837,3 +18913,3 @@
+      "edid": "10013177",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18871,3 +18947,3 @@
+    },
+-   "prix": 268.98,
++   "prix": 228.98,
+    "img": "epson-et-2951.webp",
+@@ -18900,3 +18976,3 @@
+      "m": "Electro Dépôt",
+-     "price": 419.9,
++     "price": 368.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-laser-hp-jet-pro-3302sdw.html",
+@@ -18906,3 +18982,3 @@
+      "edid": "10003125",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -18940,3 +19016,3 @@
+    },
+-   "prix": 419.9,
++   "prix": 368.98,
+    "img": "hp-color-laserjet-pro-3302sdw.webp",
+@@ -18969,3 +19045,3 @@
+      "m": "Electro Dépôt",
+-     "price": 119.98,
++     "price": 98.96,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-oj-pro-8124e.html",
+@@ -18975,3 +19051,3 @@
+      "edid": "993267",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19010,3 +19086,3 @@
+    },
+-   "prix": 119.98,
++   "prix": 98.96,
+    "img": "hp-officejet-pro-8124e.webp",
+@@ -19045,3 +19121,3 @@
+      "edid": "10002597",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19108,3 +19184,3 @@
+      "m": "Electro Dépôt",
+-     "price": 59.98,
++     "price": 39.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-deskjet-2921e.html",
+@@ -19114,3 +19190,3 @@
+      "edid": "10013176",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19142,3 +19218,3 @@
+    },
+-   "prix": 59.98,
++   "prix": 39.98,
+    "img": "hp-deskjet-2921e.webp",
+@@ -19201,3 +19277,3 @@
+      "ppid": "4741",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19258,3 +19334,3 @@
+      "ppid": "5106",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19321,3 +19397,3 @@
+      "ppid": "3052",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19384,3 +19460,3 @@
+      "ppid": "2289",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19447,3 +19523,3 @@
+      "ppid": "2903",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19510,3 +19586,3 @@
+      "ppid": "3888",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19565,3 +19641,3 @@
+      "ppid": "4668",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19621,3 +19697,3 @@
+      "ppid": "5137",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19677,3 +19753,3 @@
+      "ppid": "5166",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -19732,3 +19808,3 @@
+      "ppid": "4071",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -20459,3 +20535,3 @@
+      "edid": "10011577",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -20609,3 +20685,3 @@
+      "m": "Electro Dépôt",
+-     "price": 369.0,
++     "price": 319.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-robot-dreame-l10s-ultra-gen-3.html",
+@@ -20615,3 +20691,3 @@
+      "edid": "10016676",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -20774,3 +20850,3 @@
+    },
+-   "prix": 369.0,
++   "prix": 319.0,
+    "img": "dreame-l10s-ultra.webp",
+@@ -20813,3 +20889,3 @@
+      "m": "Electro Dépôt",
+-     "price": 295.0,
++     "price": 278.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-robot-mova-mova-e40-ultra-neo.html",
+@@ -20819,3 +20895,3 @@
+      "edid": "10016684",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -20900,3 +20976,3 @@
+    },
+-   "prix": 295.0,
++   "prix": 278.0,
+    "img": "mova-e40-ultra.webp",
+@@ -20939,3 +21015,3 @@
+      "m": "Electro Dépôt",
+-     "price": 699.98,
++     "price": 499.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-robot-dreame-aqua-10-roller-ae.html",
+@@ -20945,3 +21021,3 @@
+      "edid": "10020078",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -21074,3 +21150,3 @@
+    },
+-   "prix": 699.98,
++   "prix": 499.0,
+    "img": "dreame-aqua10-ultra.webp",
+@@ -22194,3 +22270,3 @@
+      "edid": "10020540",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -22288,3 +22364,3 @@
+      "m": "Electro Dépôt",
+-     "price": 339.0,
++     "price": 295.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fnettoyeur-de-sols-dreame-h15-pro.html",
+@@ -22294,3 +22370,3 @@
+      "edid": "10009023",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -22429,3 +22505,3 @@
+    },
+-   "prix": 339.0,
++   "prix": 295.0,
+    "img": "dreame-h15-pro.webp",
+@@ -22616,3 +22692,3 @@
+      "edid": "10019413",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -23654,3 +23730,3 @@
+      "m": "Electro Dépôt",
+-     "price": 295.0,
++     "price": 319.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-balai-rowenta-14-60-yy5640fe-x-force-flex-auto.html",
+@@ -23660,3 +23736,3 @@
+      "edid": "10009171",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -23693,3 +23769,3 @@
+    },
+-   "prix": 295.0,
++   "prix": 319.0,
+    "img": "rowenta-x-force-flex-14-60.webp",
+@@ -26654,3 +26730,3 @@
+      "edid": "10011457",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -26772,3 +26848,3 @@
+      "edid": "10015474",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -27408,3 +27484,3 @@
+      "m": "Electro Dépôt",
+-     "price": 49.99,
++     "price": 39.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-go-5-noir.html",
+@@ -27414,3 +27490,3 @@
+      "edid": "10018105",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -27489,3 +27565,3 @@
+    },
+-   "prix": 44.99,
++   "prix": 39.0,
+    "img": "jbl-go-5.webp",
+@@ -27881,3 +27957,3 @@
+      "edid": "10013118",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -28004,3 +28080,3 @@
+      "m": "Electro Dépôt",
+-     "price": 29.0,
++     "price": 34.5,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-go-essential-2-noir.html",
+@@ -28010,3 +28086,3 @@
+      "edid": "10005191",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -28887,3 +28963,3 @@
+      "m": "Electro Dépôt",
+-     "price": 42.99,
++     "price": 39.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fcamera-tapo-c520ws-ex-mo-fil-2k.html",
+@@ -28893,3 +28969,3 @@
+      "edid": "10009498",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -28914,3 +28990,3 @@
+    },
+-   "prix": 42.99,
++   "prix": 39.0,
+    "img": "tapo-c520ws.webp",
+@@ -30273,3 +30349,3 @@
+      "edid": "10008780",
+-     "releve": "2026-10-30"
++     "releve": "2026-11-06"
+     }
+@@ -40065,5 +40141,6 @@
+   "imprimante": {
+-   "date": "09/10/2026",
+-   "prix_date": "octobre 2026",
+-   "iso": "2026-10-09"
++   "date": "06/11/2026",
++   "prix_date": "novembre 2026",
++   "iso": "2026-11-06",
++   "tente": "2026-11-06"
+   },
+@@ -40083,3 +40160,3 @@
+  "dates": {
+-  "Amazon": "30/10/2026"
++  "Amazon": "06/11/2026"
+  },
