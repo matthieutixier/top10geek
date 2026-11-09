@@ -1,0 +1,32 @@
+{
+ "_note": "Plan de remontée Google du 09/11/2026 (option A validée par Matthieu) : fiches Informatique indexables avec moins de 2 notes presse et sans synthèse, sans aucune impression Google entre le 01/08 et le 25/10/2026. Elles restent en ligne mais en noindex,follow et hors sitemap jusqu'à ce qu'elles aient au moins 2 notes ET une synthèse (règle 7) : elles redeviennent alors indexables d'elles-mêmes. Les 29 fiches minces qui avaient des impressions restent indexées (règle 2).",
+ "fiches": [
+  "ecran-pc/aoc-gaming-q27g42ze",
+  "ecran-pc/asus-zenscreen-mb166c",
+  "ecran-pc/benq-gw2490ce",
+  "ecran-pc/benq-gw2790ce",
+  "ecran-pc/dell-27-plus-s2725dc",
+  "ecran-pc/dell-27-plus-s2725qc",
+  "ecran-pc/dell-ultrasharp-u2724d",
+  "ecran-pc/eizo-coloredge-cg2700s",
+  "ecran-pc/lenovo-legion-27q-10",
+  "ecran-pc/lenovo-legion-r34w-30",
+  "ecran-pc/lg-ultrafine-32up83a",
+  "imprimante/brother-dcp-j1360dw",
+  "imprimante/brother-hl-l3220cwe",
+  "imprimante/brother-mfc-l2800dw",
+  "imprimante/canon-i-sensys-lbp647cdw",
+  "imprimante/canon-pixma-tr4755i",
+  "imprimante/epson-ecotank-et-2876",
+  "imprimante/epson-ecotank-et-4900",
+  "imprimante/epson-ecotank-photo-et-8500",
+  "imprimante/epson-expression-home-xp-2200",
+  "imprimante/hp-color-laserjet-pro-mfp-3302sdw",
+  "ordinateur-de-bureau/geekom-a6",
+  "pc-portable/dell-latitude-5420",
+  "pc-portable/dell-latitude-7490",
+  "pc-portable/lenovo-thinkpad-t470s",
+  "pc-portable/lenovo-thinkpad-t480",
+  "pc-portable/lenovo-thinkpad-t490"
+ ]
+}

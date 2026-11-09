@@ -583,7 +583,12 @@ def indexable(d):
     même sans note publique (décision du 20/10/2026, après l'audit SEO du 10/10/2026 : ces fiches apportaient 43 % des clics Google).
     Les fiches à un seul test restent en ligne et dans les classements, mais en noindex,follow et hors sitemap.
     L'affichage ne change pas : pastilles « 1 seul test noté », « testé, sans note », fin de classement."""
+    if d.get("purl", "").rstrip("/") in NOINDEX_MINCES and not (d["press"] and d["press"]["n"] >= 2 and d.get("synthese")):
+        return False   # fiche mince sans impression avant le 26/10 : noindex jusqu'à 2 notes + synthèse (09/11/2026, noindex_minces.json)
     return (bool(d["press"]) and d["press"]["n"] >= 2) or d["tests"]["tests"] >= 2
+
+
+NOINDEX_MINCES = set(json.load(open(SRC + "noindex_minces.json", encoding="utf-8"))["fiches"]) if os.path.exists(SRC + "noindex_minces.json") else set()
 
 
 # ---------------------------------------------------------------- Vitesse d'affichage (audit SEO du 10/10/2026)
