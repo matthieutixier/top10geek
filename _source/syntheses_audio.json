@@ -9,7 +9,7 @@
    "01net",
    "TechRadar",
    "Trusted Reviews",
-   "FrAndroid"
+   "Frandroid"
   ]
  },
  {
@@ -18,8 +18,8 @@
   "sources": [
    "TechRadar",
    "Trusted Reviews",
-   "FrAndroid",
-   "Clubic.com",
+   "Frandroid",
+   "Clubic",
    "SoundGuys",
    "Labo Fnac"
   ]
@@ -29,8 +29,8 @@
   "texte": "Douze notes de presse pour la JBL Flip 7, moyenne 7,6/10, avec un écart important : TechRadar attribue 10/10, FrAndroid et Presse Citron 9/10, alors que Chip.de, Labo Fnac, PhonAndroid et SoundGuys en restent à 6/10.\n\nLes avis favorables soulignent un son percutant et détaillé pour sa taille, une grande autonomie et une construction robuste. Les critiques relèvent une recharge lente, l'impossibilité de la coupler avec les Flip précédents et la disparition du mode PartyBoost. Les graves, limités par le format, reviennent dans plusieurs tests moins bien notés.",
   "sources": [
    "TechRadar",
-   "FrAndroid",
-   "Presse Citron",
+   "Frandroid",
+   "Presse-citron",
    "Chip.de",
    "Labo Fnac",
    "SoundGuys"
@@ -40,7 +40,7 @@
   "id": "sony-ult-field-1",
   "texte": "La Sony ULT Field 1 totalise 12 notes chiffrées, moyenne 7,3/10. Huit médias, dont FrAndroid, Absolute Geeks et Trusted Reviews, lui donnent 8/10 ou plus ; 01net, Android Central, Chip.de et SoundGuys la notent 6/10.\n\nLes tests apprécient sa signature sonore charpentée, sa solidité (indice IP67) et son mode ULT pensé pour l'extérieur. Ils regrettent un volume maximal limité, l'absence de Bluetooth multipoint et de radio FM ou de prise AUX. La plupart des tests datent de 2024. Les tests la situent plutôt dans l'entrée de gamme tout-terrain que parmi les enceintes très puissantes pour animer une soirée.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Absolute Geeks",
    "Trusted Reviews",
    "01net",
@@ -54,7 +54,7 @@
   "sources": [
    "TechRadar",
    "TechAeris",
-   "Clubic.com",
+   "Clubic",
    "SoundGuys",
    "01net",
    "Les Numériques"
@@ -64,7 +64,7 @@
   "id": "sonos-roam-2",
   "texte": "Huit notes chiffrées pour la Sonos Roam 2, moyenne 7,4/10. FrAndroid donne 9/10, Absolute Geeks, Kopfhörer et TechRadar 8/10, puis Android Central et SoundGuys 7/10 ; Les Numériques et RTings sont à 6/10. Les tests datent surtout de 2024.\n\nLes avis mettent en avant un bon équilibre tonal, le son sans perte en Wi-Fi et la charge sans fil. Ils pointent une autonomie limitée à 10 heures, un prix élevé au regard de la puissance et une stéréo disponible seulement en Wi-Fi. Elle se distingue par un double usage, enceinte Bluetooth en déplacement et enceinte Wi-Fi à la maison au sein d'un système Sonos.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Absolute Geeks",
    "TechRadar",
    "Les Numériques",
@@ -76,7 +76,7 @@
   "texte": "Sept notes chiffrées pour la JBL Grip, moyenne 6,7/10, avec des avis très partagés : T3 donne 10/10, ExpertReviews et Trusted Reviews 8/10, mais Chip.de et Allround-PC 6/10 et Labo Fnac seulement 2/10.\n\nLes tests favorables retiennent un design réussi, un éclairage d'ambiance et la compatibilité Auracast. Les plus sévères jugent le son brillant et mince, relèvent une autonomie inférieure à l'annonce et rappellent la concurrence nombreuse à ce niveau de prix. Les Numériques et RTings l'ont testée sans note publique.",
   "sources": [
    "T3",
-   "ExpertReviews",
+   "Expert Reviews",
    "Trusted Reviews",
    "Chip.de",
    "Labo Fnac"
@@ -98,7 +98,7 @@
   "id": "ue-wonderboom-4",
   "texte": "Six médias ont noté l'UE Wonderboom 4, moyenne 7,2/10 : FrAndroid, Tech Advisor et TechRadar donnent 8/10, RTings 7/10, 01net et SoundGuys 6/10. Les tests datent de 2024.\n\nLes avis retiennent une enceinte robuste, étanche et ludique, un format ultra-portable avec boucle élastique et le Bluetooth multipoint. Ils regrettent un lifting timide par rapport à la génération précédente et l'absence d'égaliseur personnalisable ; un test juge même la Wonderboom 3 meilleure sur le rapport qualité-prix. Elle reste la seule de la sélection à flotter sur l'eau, un argument souvent cité pour la plage et la piscine.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Tech Advisor",
    "TechRadar",
    "RTings",
@@ -111,8 +111,8 @@
   "texte": "Douze médias ont noté les Galaxy Buds4 Pro, pour une moyenne de 8,1/10. Labo Fnac les place en tête avec 10/10, FrAndroid donne 9/10, tandis que Presse Citron, Trusted Reviews, SoundGuys et Chip.de s'en tiennent à 8/10 et 01net à 6/10.\n\nLes testeurs soulignent une réduction de bruit parmi les meilleures de la catégorie, un mode transparence très naturel et un son généreux, avec des graves nets et une écoute peu fatigante. Les réserves concernent surtout l'écosystème : codec haute qualité et fonctions avancées sont réservés aux appareils Samsung, et le maintien dans l'oreille laisse à désirer pour certains.",
   "sources": [
    "Labo Fnac",
-   "FrAndroid",
-   "Presse Citron",
+   "Frandroid",
+   "Presse-citron",
    "Trusted Reviews",
    "SoundGuys",
    "Chip.de",
@@ -127,9 +127,9 @@
    "Trusted Reviews",
    "ComputerHoy",
    "Numerama",
-   "Clubic.com",
-   "FrAndroid",
-   "Presse Citron",
+   "Clubic",
+   "Frandroid",
+   "Presse-citron",
    "The Verge",
    "SoundGuys",
    "Labo Fnac"
@@ -142,8 +142,8 @@
    "Les Numériques",
    "Trusted Reviews",
    "Basic Tutorials",
-   "DigitalTrends",
-   "FrAndroid",
+   "Digital Trends",
+   "Frandroid",
    "TechAeris",
    "01net",
    "Chip.de"
@@ -155,9 +155,9 @@
   "sources": [
    "Absolute Geeks",
    "Trusted Reviews",
-   "FrAndroid",
+   "Frandroid",
    "Journal du Geek",
-   "Presse Citron",
+   "Presse-citron",
    "Engadget",
    "L&B Tech"
   ]
@@ -170,7 +170,7 @@
    "Trusted Reviews",
    "Basic Tutorials",
    "TechAeris",
-   "Clubic.com",
+   "Clubic",
    "Engadget",
    "SoundGuys",
    "01net",
@@ -186,7 +186,7 @@
    "Engadget",
    "01net",
    "Android Central",
-   "Presse Citron",
+   "Presse-citron",
    "Journal du Geek",
    "TechRadar",
    "Absolute Geeks"
@@ -196,11 +196,11 @@
   "id": "airpods-4-anc",
   "texte": "Dix-neuf médias ont noté les AirPods 4 avec réduction de bruit, pour une moyenne de 8/10. ExpertReviews leur donne 10/10, AndroidPit et FrAndroid 9/10, Numerama, Clubic, 01net et Chip.de 8/10, alors que SoundGuys s'arrête à 6/10.\n\nLes testeurs retiennent de bonnes performances acoustiques, une réduction de bruit valable pour un format sans embouts, un mode transparence très naturel, une qualité d'appel surprenante et une intégration soignée à l'écosystème Apple. Ils notent en revanche une autonomie moyenne avec l'ANC, des limites importantes avec des appareils non Apple et l'absence de multipoint véritable.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "AndroidPit",
-   "FrAndroid",
+   "Frandroid",
    "Numerama",
-   "Clubic.com",
+   "Clubic",
    "01net",
    "Chip.de",
    "SoundGuys"
@@ -213,7 +213,7 @@
    "Trusted Reviews",
    "01net",
    "Chip.de",
-   "Presse Citron",
+   "Presse-citron",
    "SoundGuys",
    "AndroidPit",
    "CharlesTech",
@@ -225,7 +225,7 @@
   "texte": "Neuf médias ont noté les Ear (3a), pour une moyenne de 7,9/10. LeCafeDuGeek leur donne 9/10, Presse Citron, Les Numériques, AndroidWorld, SoundGuys, Chip.de et Trusted Reviews 8/10, alors que 01net n'attribue que 6/10.\n\nLes tests retiennent un excellent rapport fonctionnalités et prix, avec Bluetooth 6.0, LDAC et multipoint, une signature sonore équilibrée, un confort très correct et une bonne autonomie. Les points faibles sont une réduction de bruit en retrait face aux références, une coque qui fait un peu bon marché, un boîtier jugé fragile et des fonctions qui prennent tout leur sens avec un smartphone Nothing.",
   "sources": [
    "LeCafeDuGeek",
-   "Presse Citron",
+   "Presse-citron",
    "Les Numériques",
    "AndroidWorld",
    "SoundGuys",
@@ -255,7 +255,7 @@
    "COGconnected",
    "Les Numériques",
    "Kopfhörer",
-   "Presse Citron",
+   "Presse-citron",
    "Trusted Reviews"
   ]
  },
@@ -267,7 +267,7 @@
    "Basic Tutorials",
    "Labo Fnac",
    "TechRadar",
-   "FrAndroid",
+   "Frandroid",
    "HardwareZone",
    "AndroidPit",
    "01net",
@@ -293,7 +293,7 @@
   "sources": [
    "Basic Tutorials",
    "LeCafeDuGeek",
-   "FrAndroid",
+   "Frandroid",
    "Headfonics",
    "TechRadar",
    "Kopfhörer",
@@ -308,13 +308,13 @@
   "texte": "Onze médias ont noté le Tour One M3, pour une moyenne de 8,2/10. ComputerHoy lui donne 9,1/10, FrAndroid et Journal du Geek 9/10, Basic Tutorials 8,9/10, SoundGuys, Chip.de, 01net, Clubic, Allround-PC et Trusted Reviews 8/10, alors que L&B Tech s'arrête à 6/10.\n\nLes testeurs saluent une réduction de bruit efficace, une autonomie remarquable, des matériaux et un confort de bon niveau et un son puissant, équilibré et personnalisable. Ils notent que l'émetteur Smart TX est vendu séparément, que les réglages avancés dépendent de l'application et que la durabilité des coussinets reste à confirmer.",
   "sources": [
    "ComputerHoy",
-   "FrAndroid",
+   "Frandroid",
    "Journal du Geek",
    "Basic Tutorials",
    "SoundGuys",
    "Chip.de",
    "01net",
-   "Clubic.com",
+   "Clubic",
    "Allround-PC",
    "Trusted Reviews",
    "L&B Tech"
@@ -327,7 +327,7 @@
    "Labo Fnac",
    "Engadget",
    "Absolute Geeks",
-   "Clubic.com",
+   "Clubic",
    "Tom's Guide (US)",
    "T3",
    "Kopfhörer",
@@ -341,15 +341,15 @@
   "texte": "Treize médias ont noté le Headphone (1), pour une moyenne de 8,1/10. Labo Fnac lui donne 10/10, FrAndroid, Clubic et LeCafeDuGeek 9/10, Les Numériques, Kopfhörer, Journal du Geek, SoundGuys, Chip.de, Presse Citron et IGN 8/10, alors que Trusted Reviews et The Verge s'arrêtent à 6/10.\n\nLa presse apprécie la signature sonore réglée par KEF, une scène sonore ample, une réduction de bruit au niveau des meilleurs et une très bonne autonomie, avec un look original. Elle regrette un mode transparence perfectible, un audio spatial anecdotique, un peu de distorsion dans les médiums graves et un kit mains libres peu utilisable dans le bruit.",
   "sources": [
    "Labo Fnac",
-   "FrAndroid",
-   "Clubic.com",
+   "Frandroid",
+   "Clubic",
    "LeCafeDuGeek",
    "Les Numériques",
    "Kopfhörer",
    "Journal du Geek",
    "SoundGuys",
    "Chip.de",
-   "Presse Citron",
+   "Presse-citron",
    "IGN",
    "Trusted Reviews",
    "The Verge"
@@ -360,9 +360,9 @@
   "texte": "Vingt-deux médias ont noté l'Accentum Plus, pour une moyenne de 7,9/10. T3 et ExpertReviews lui donnent 10/10, Connect.de 9/10, une quinzaine d'autres titres dont FrAndroid, Les Numériques et Labo Fnac 8/10, tandis que 01net s'arrête à 6/10.\n\nLes testeurs soulignent une autonomie excellente, une annulation de bruit active solide, un boîtier léger et robuste et une qualité sonore appréciable. Ils relèvent des aigus peu précis, un serrage un peu fort sur la tête, des commandes tactiles parfois imprécises et une application qui exige un compte Sennheiser pour toutes ses fonctions.",
   "sources": [
    "T3",
-   "ExpertReviews",
+   "Expert Reviews",
    "Connect.de",
-   "FrAndroid",
+   "Frandroid",
    "Les Numériques",
    "Labo Fnac",
    "01net"
@@ -378,7 +378,7 @@
    "SoundGuys",
    "01net",
    "Absolute Geeks",
-   "FrAndroid",
+   "Frandroid",
    "Android Central",
    "Gadget Bridge"
   ]
@@ -387,11 +387,11 @@
   "id": "cmf-headphone-pro",
   "texte": "Douze médias ont noté le CMF Headphone Pro, pour une moyenne de 7,5/10. FrAndroid lui donne 9/10, Absolute Geeks, Kopfhörer, Multiplayer.it, Clubic, Chip.de et Gadget Bridge 8/10, Journal du Geek et SoundGuys 7/10, tandis que Les Numériques et 01net s'arrêtent à 6/10.\n\nLes testeurs retiennent un rapport qualité/prix remarquable, une autonomie très élevée, une connectivité moderne et un design soigné. Ils notent une réduction de bruit moyenne sur les voix et les bruits soudains, un boîtier entièrement en plastique, une protection limitée aux éclaboussures (IPX2) et un bouton Energy Slider plus gadget que précis.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Absolute Geeks",
    "Kopfhörer",
    "Multiplayer.it",
-   "Clubic.com",
+   "Clubic",
    "Chip.de",
    "Gadget Bridge",
    "Journal du Geek",
@@ -406,12 +406,12 @@
   "sources": [
    "Absolute Geeks",
    "Android Central",
-   "ExpertReviews",
+   "Expert Reviews",
    "AndroidPit",
-   "FrAndroid",
+   "Frandroid",
    "Journal du Geek",
-   "Presse Citron",
-   "Clubic.com",
+   "Presse-citron",
+   "Clubic",
    "Trusted Reviews",
    "SoundGuys"
   ]
@@ -434,10 +434,10 @@
   "id": "shokz-opendots-one",
   "texte": "Onze médias ont noté l'OpenDots One, pour 8,2/10 de moyenne. ExpertReviews et L&B Tech lui accordent 10/10 ; FrAndroid, Presse Citron, Trusted Reviews et Absolute Geeks restent sur 8/10, tandis qu'AndroidWorld descend à 6/10.\n\nPoint commun des tests : un clip léger, confortable au quotidien, un son Dolby Audio flatteur et une charge rapide ou sans fil. En contrepartie, les commandes uniquement tactiles agacent, certains trouvent le port prolongé douloureux et le prix, proche de 200 €, n'a rien d'une bonne affaire.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "L&B Tech",
-   "FrAndroid",
-   "Presse Citron",
+   "Frandroid",
+   "Presse-citron",
    "Trusted Reviews",
    "Absolute Geeks",
    "AndroidWorld"
@@ -449,11 +449,11 @@
   "sources": [
    "Basic Tutorials",
    "LeCafeDuGeek",
-   "Presse Citron",
+   "Presse-citron",
    "Numerama",
    "01net",
    "Les Numériques",
-   "FrAndroid",
+   "Frandroid",
    "Labo Fnac"
   ]
  },
@@ -491,7 +491,7 @@
    "Absolute Geeks",
    "HardwareZone",
    "Multiplayer.it",
-   "FrAndroid",
+   "Frandroid",
    "SoundGuys",
    "TechRadar",
    "Labo Fnac"
@@ -501,7 +501,7 @@
   "id": "soundcore-aerofit-2-pro",
   "texte": "Six médias ont noté l'AeroFit 2 Pro, pour une moyenne de 8,1/10. Presse Citron lui met 9/10, Basic Tutorials 8,4/10, Chip.de et Trusted Reviews 8/10, IGN 7/10.\n\nLes testeurs retiennent le bon son avec le LDAC, le multipoint et un crochet réglable. Ils notent aussi un boîtier encombrant, des finitions améliorables, un confort de port très variable d'une personne à l'autre et une réduction de bruit sans effet marqué. Un produit complet, mais cher face à son petit frère. La presse reste partagée sur l'intérêt de payer l'écart de prix, d'autant que la réduction de bruit d'un modèle ouvert reste symbolique.",
   "sources": [
-   "Presse Citron",
+   "Presse-citron",
    "Basic Tutorials",
    "Chip.de",
    "Trusted Reviews",
@@ -515,7 +515,7 @@
    "AndroidPit",
    "Android Central",
    "Chip.de",
-   "FrAndroid"
+   "Frandroid"
   ]
  },
  {
@@ -527,7 +527,7 @@
    "Les Numériques",
    "N-Gamz",
    "Labo Fnac",
-   "Clubic.com",
+   "Clubic",
    "LeCafeDuGeek",
    "Trusted Reviews",
    "SoundGuys",
@@ -558,8 +558,8 @@
    "TechTest",
    "Basic Tutorials",
    "IGN",
-   "Clubic.com",
-   "FrAndroid",
+   "Clubic",
+   "Frandroid",
    "Journal du Geek"
   ]
  },
@@ -592,9 +592,9 @@
   "texte": "Sept médias ont noté le Cloud Alpha 2, pour une moyenne de 7,9/10. Windows Central donne 9/10, PCGamer 8,5/10, Tom's Hardware, FrAndroid, Absolute Geeks et SoundGuys 8/10, mais GamesRadar s'arrête à 6/10.\n\nLa qualité des haut-parleurs, pour le jeu comme pour la musique, le micro détachable à réduction de bruit par IA et la station de contrôle RGB sont mis en avant. On lui reproche l'absence d'ANC et un prix jugé élevé. Les avis restent partagés : les uns apprécient l'autonomie et la station, d'autres jugent la facture élevée sans ANC pour la justifier.",
   "sources": [
    "Windows Central",
-   "PCGamer",
+   "PC Gamer",
    "Tom's Hardware",
-   "FrAndroid",
+   "Frandroid",
    "Absolute Geeks",
    "SoundGuys",
    "GamesRadar"
@@ -606,7 +606,7 @@
   "sources": [
    "Basic Tutorials",
    "Windows Central",
-   "PCGamer",
+   "PC Gamer",
    "GamesRadar"
   ]
  },

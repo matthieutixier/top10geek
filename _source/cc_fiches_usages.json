@@ -50,7 +50,7 @@
   "source": "https://www.commentchoisir.fr/test-Dyson_V12+Detect+Slim.htm",
   "tests": [
    {
-    "media": "ExpertReviews",
+    "media": "Expert Reviews",
     "note10": 10.0,
     "date": "04/07/2022",
     "url": "https://www.expertreviews.co.uk/vacuum-cleaners/1416268/dyson-v12-detect-slim-absolute-review"
@@ -127,7 +127,7 @@
     "url": "https://www.t3.com/home-living/vacuum-cleaners/dyson-v16-piston-animal-review-the-smartest-and-strongest-cordless-dyson-yet"
    },
    {
-    "media": "ExpertReviews",
+    "media": "Expert Reviews",
     "note10": 8.0,
     "date": "09/09/2025",
     "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/dyson-v16-piston-animal-review"
@@ -163,7 +163,7 @@
     "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/dyson-v16-piston-animal-submarine-ds60-492969-01-im-test_8f21720c-92c0-4d14-9799-05fad42c0f8a.html"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 7.0,
     "date": "08/10/2025",
     "url": "https://www.frandroid.com/marques/dyson/2819679_test-dyson-v16-piston-animal"
@@ -228,13 +228,13 @@
     "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-extra-pro-p57661/test.html"
    },
    {
-    "media": "ExpertReviews",
+    "media": "Expert Reviews",
     "note10": 10.0,
     "date": "20/03/2019",
     "url": "https://www.expertreviews.co.uk/dyson/1408901/dyson-v11-absolute-review"
    },
    {
-    "media": "ExpertReviews",
+    "media": "Expert Reviews",
     "note10": 10.0,
     "date": "20/03/2019",
     "url": "https://www.expertreviews.co.uk/dyson/dyson-v11"
@@ -329,7 +329,7 @@
     "url": "https://www.rtings.com/vacuum/reviews/samsung/bespoke-jet"
    },
    {
-    "media": "DigitalTrends",
+    "media": "Digital Trends",
     "note10": 7.0,
     "date": "18/09/2022",
     "url": "https://www.digitaltrends.com/home/samsung-bespoke-jet-review/"
@@ -376,7 +376,7 @@
     "url": "https://www.lesnumeriques.com/aspirateur-balai/samsung-jet-70-vs15t7036r5-p60351/test.html"
    },
    {
-    "media": "DigitalTrends",
+    "media": "Digital Trends",
     "note10": 8.0,
     "date": "13/02/2021",
     "url": "https://www.digitaltrends.com/smart-home-reviews/samsung-jet-90-complete-cordless-stick-vacuum-review/"
@@ -453,7 +453,7 @@
     "url": "https://www.smartworld.it/recensioni/dreame-z30-pro-aqua"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 6.0,
     "date": "08/10/2024",
     "url": "https://www.presse-citron.net/test-dreame-z30-aspiration-maximale-sinon-rien/"
@@ -583,7 +583,7 @@
     "url": "https://www.chip.de/test/Roborock-H60-Hub-Ultra-im-Test_186574185.html"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "23/10/2025",
     "url": "https://www.notebookcheck.com/Akku-Staubsauger-mit-automatischer-Absaugung-Roborock-H60-Hub-Ultra-im-Praxis-Test.1140740.0.html"
@@ -672,19 +672,19 @@
     "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h15-pro-heat-p76915/test.html"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 7.0,
     "date": "05/03/2025",
     "url": "https://www.presse-citron.net/test-aspirateur-laveur-dreame-h15-pro-nouvelle-technologie-pour-un-tarif-demesure/"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 9.0,
     "date": "20/05/2025",
     "url": "https://www.presse-citron.net/test-dreame-h15-pro-heat/"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 8.0,
     "date": "26/08/2025",
     "url": "https://www.presse-citron.net/test-dreame-h15-pro-foamwash-le-premier-aspirateur-laveur-a-projeter-une-mousse-nettoyante/"
@@ -696,25 +696,25 @@
     "url": "https://lecafedugeek.fr/test-dreame-h15-pro-foamwash-lallie-qui-aspire-et-serpille-sans-effort/"
    },
    {
-    "media": "Clubic.com",
+    "media": "Clubic",
     "note10": 8.0,
     "date": "15/07/2025",
     "url": "https://www.clubic.com/test-produit-572451-test-dreame-h15-pro-heat.html"
    },
    {
-    "media": "Clubic.com",
+    "media": "Clubic",
     "note10": 8.0,
     "date": "13/11/2025",
     "url": "https://www.clubic.com/test-produit-586327-test-dreame-h15-pro-foamwash-la-mousse-fait-elle-vraiment-la-difference.html"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 7.0,
     "date": "02/08/2025",
     "url": "https://www.frandroid.com/marques/dreame/2720345_test-des-dreame-h15-pro-et-h15-pro-heat-fort-potentiel-mais-imparfaits"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 7.0,
     "date": "04/11/2025",
     "url": "https://www.frandroid.com/test/2848869_test-dreame-h15-pro-foamwash"
@@ -791,7 +791,7 @@
     "url": "https://www.maison-et-domotique.com/149472-test-dreame-h14-pro/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 8.0,
     "date": "16/03/2025",
     "url": "https://www.frandroid.com/test/2432232_test-du-dreame-h14-pro-un-aspirateur-laveur-puissant-qui-nettoie-meme-sous-les-meubles"
@@ -1016,7 +1016,7 @@
   "source": "https://www.commentchoisir.fr/test-Tineco_Floor+One+S9+Artist.htm",
   "tests": [
    {
-    "media": "Clubic.com",
+    "media": "Clubic",
     "note10": 10.0,
     "date": "01/07/2025",
     "url": "https://www.clubic.com/test-produit-568899-test-tineco-floor-one-s9-artist.html"
@@ -1034,7 +1034,7 @@
     "url": "https://basic-tutorials.de/tests/technik-gadgets/tineco-floor-one-s9-artist-boost-steam-premium/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 9.0,
     "date": "08/09/2025",
     "url": "https://www.frandroid.com/test/2750127_test-du-tineco-floor-one-s9-artist-il-aspire-et-lave-passe-a-plat-a-180-et-seche-tout-seul"
@@ -1064,7 +1064,7 @@
     "url": "https://www.tomsguide.com/home/home-appliances/tineco-floor-one-s9-artist-pro-review"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 7.0,
     "date": "19/05/2025",
     "url": "https://www.presse-citron.net/test-tineco-floor-one-s9-artist/"
@@ -1088,7 +1088,7 @@
     "url": "https://www.smartworld.it/recensioni/tineco-floor-one-s9-artist-steam-pro"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "29/05/2025",
     "url": "https://www.notebookcheck.com/Schicker-Wischsauger-laesst-sich-Flachlegen-Tineco-Floor-One-S9-Artist-im-Praxis-Test.1023904.0.html"
@@ -1147,7 +1147,7 @@
     "url": "https://lecafedugeek.fr/test-mova-m50-ultra-laspirateur-laveur-qui-veut-reinventer-lentretien-quotidien/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 8.0,
     "date": "16/10/2025",
     "url": "https://www.frandroid.com/test/2820001_test-mova-m50-ultra"
@@ -1194,7 +1194,7 @@
     "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-q-revo-maxv-p74448/test.html"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 9.0,
     "date": "01/04/2024",
     "url": "https://www.frandroid.com/marques/roborock/1954978_test-des-roborock-q-revo-maxv-et-q-revo-pro-excellent-rapport-qualite-prix-et-nettoyage-minutieux"
@@ -1206,7 +1206,7 @@
     "url": "https://charlestech.fr/test-roborock-qrevo-maxv/"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 9.0,
     "date": "19/04/2024",
     "url": "https://www.presse-citron.net/test-roborock-qrevo-maxv/"
@@ -1230,7 +1230,7 @@
     "url": "https://www.journaldugeek.com/test/test-du-roborock-qrevo-maxv-le-robot-qui-democratise-des-technologies-phares-de-la-marque/"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "04/03/2024",
     "url": "https://www.notebookcheck.com/Roborock-Qrevo-MaxV-Saugroboter-im-Praxis-Test-Jetzt-faehrt-auch-Roborock-den-Wischmopp-aus.809365.0.html"
@@ -1277,13 +1277,13 @@
     "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 9.0,
     "date": "25/06/2026",
     "url": "https://www.frandroid.com/test/3152403_test-du-mova-v70-ultra-enfin-un-robot-aspirateur-laveur-qui-nettoie-les-moindres-recoins"
    },
    {
-    "media": "Clubic.com",
+    "media": "Clubic",
     "note10": 9.0,
     "date": "09/07/2026",
     "url": "https://www.clubic.com/test-produit-619483-test-mova-v70-ultra-complete.html"
@@ -1342,7 +1342,7 @@
   "source": "https://www.commentchoisir.fr/test-DJI_Romo+P2.htm",
   "tests": [
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 10.0,
     "date": "03/09/2026",
     "url": "https://www.frandroid.com/test/3230511_test-dji-romo-p2"
@@ -1390,7 +1390,7 @@
     "url": "https://www.connect.de/testbericht/dji-romo-p2-test-3213594.html"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "12/10/2026",
     "url": "https://www.notebookcheck.com/DJI-hat-es-wieder-getan-Saugroboter-DJI-Romo-2-im-Test.1411937.0.html"
@@ -1413,7 +1413,7 @@
     "url": "https://basic-tutorials.de/tests/technik-gadgets/narwal-flow-2-review/"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 9.0,
     "date": "20/04/2026",
     "url": "https://www.presse-citron.net/jai-teste-le-narwal-flow-2-le-plus-intelligent-des-aspirateurs-robots/"
@@ -1455,7 +1455,7 @@
     "url": "https://www.journaldugeek.com/test/test-aspirateur-robot-narwal-flow-2-le-lavage-des-sols-au-rouleau-une-affaire-qui-roule/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 8.0,
     "date": "02/06/2026",
     "url": "https://www.frandroid.com/test/3089181_test-du-narwal-flow-2-une-serpilliere-a-chenille-pour-un-nettoyage-complet"
@@ -1537,7 +1537,7 @@
     "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-saros-10r-test/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 8.0,
     "date": "30/03/2025",
     "url": "https://www.frandroid.com/test/2541115_test-roborock-saros-10r"
@@ -1567,7 +1567,7 @@
     "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r"
    },
    {
-    "media": "DigitalTrends",
+    "media": "Digital Trends",
     "note10": null,
     "date": "07/02/2025",
     "url": "https://www.digitaltrends.com/home/roborock-saros-10r-review/"
@@ -1585,13 +1585,13 @@
     "url": "https://www.connect.de/testbericht/roborock-saros-10r-test-saug-wisch-roboter-selbstreinigend-flach-hohe-saugkraft-3208478.html"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "03/03/2025",
     "url": "https://www.notebookcheck.com/Roborock-Saros-10R-Test-StarSight-Saugroboter-ist-ultraflach-und-richtig-gut.962122.0.html"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "07/03/2025",
     "url": "https://www.notebookcheck.com/Roborock-Saros-10-vs-Saros-10R-Vergleich-Welcher-ist-der-bessere-Flaggschiff-Saugroboter.971137.0.html"
@@ -1644,7 +1644,7 @@
     "url": "https://www.journaldugeek.com/test/test-ecovacs-deebot-t90-pro-omni-la-preuve-qua-800-euros-on-peut-avoir-un-lavage-au-top/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": 9.0,
     "date": "11/08/2026",
     "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/3208289_test-ecovacs-deebot-t90-pro-omni"
@@ -1662,7 +1662,7 @@
     "url": "https://charlestech.fr/test-ecovacs-deebot-t90-pro-omni/"
    },
    {
-    "media": "Clubic.com",
+    "media": "Clubic",
     "note10": 8.0,
     "date": "03/07/2026",
     "url": "https://www.clubic.com/test-produit-617527-test-ecovacs-deebot-t90-pro-omni.html"
@@ -1674,7 +1674,7 @@
     "url": "https://www.imtest.de/einzeltests/ecovacs-deebot-t90-pro-omni-saugroboter-saug-wisch-roboter-test/616460"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "13/03/2026",
     "url": "https://www.notebookcheck.com/Mittelklasse-Saugroboter-laesst-Flaggschiffe-erblassen-Ecovacs-Deebot-T90-Pro-Omni-im-Test.1245255.0.html"
@@ -1698,7 +1698,7 @@
     "url": "https://www.hardwarezone.com.sg/lifestyle/home/ecovacs-deebot-t90-pro-omni-robot-vacuum"
    },
    {
-    "media": "PCGamesHardware",
+    "media": "PC Games Hardware",
     "note10": null,
     "date": "14/04/2026",
     "url": "https://www.pcgameshardware.de/Saugroboter-Hardware-280626/Tests/Ecovacs-T90-Pro-Omni-Review-Release-1523242/"
@@ -1745,7 +1745,7 @@
     "url": "https://techtest.org/der-dreame-l10s-pro-ultra-heat-im-test-herausragend-gute-putzleistung/"
    },
    {
-    "media": "Presse Citron",
+    "media": "Presse-citron",
     "note10": 9.0,
     "date": "08/02/2024",
     "url": "https://www.presse-citron.net/test-du-dreame-l10s-pro-ultra-heat/"
@@ -1811,7 +1811,7 @@
     "url": "https://www.chinahandys.net/dreame-l10s-pro-im-test/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": null,
     "date": "04/02/2023",
     "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/1577718_test-dreame-l10s-pro-aspirateur-robot-laveur"
@@ -1835,7 +1835,7 @@
     "url": "https://vonguru.fr/2024/02/17/test-dreame-l10s-pro-ultra-heat/"
    },
    {
-    "media": "NotebookCheck",
+    "media": "Notebookcheck",
     "note10": null,
     "date": "23/02/2024",
     "url": "https://www.notebookcheck.com/Dreame-L10s-Pro-Ultra-Heat-im-Vergleichstest-Saugroboter-mit-Flaggschiff-Ausstattung-zum-kleineren-Preis.801961.0.html"
@@ -1965,7 +1965,7 @@
     "url": "https://www.91mobiles.com/hub/dreame-d9-max-review/"
    },
    {
-    "media": "FrAndroid",
+    "media": "Frandroid",
     "note10": null,
     "date": "06/05/2023",
     "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/1683235_test-dreame-d9-max-rapport-qualite-prix"
@@ -2018,7 +2018,7 @@
     "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s"
    },
    {
-    "media": "PCGamesHardware",
+    "media": "PC Games Hardware",
     "note10": null,
     "date": "09/05/2026",
     "url": "https://www.pcgameshardware.de/Saugroboter-Hardware-280626/Tests/Roborock-Qrevo-S-Pro-Review-Wischfunktion-1529692/"

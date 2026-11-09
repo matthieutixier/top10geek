@@ -16,7 +16,7 @@
    "Labo Fnac",
    "IGN",
    "Les Numériques",
-   "Clubic.com",
+   "Clubic",
    "RTings"
   ]
  },
@@ -24,7 +24,7 @@
   "id": "sony-bravia-3-55",
   "texte": "À 6,5/10 en moyenne, le Sony Bravia 3 55\" est jugé par 4 médias. On trouve 7 chez FrAndroid et RTings et 6 chez PhonAndroid et What Hi-Fi?. Les tests portent sur la série Bravia 3, y compris sa version 2026 ; le prix suivi est celui du 55 pouces.\n\nLes tests recensés citent le traitement d'image Sony, l'interface Google TV, la connectivité HDMI 2.1 et un rapport qualité-prix attractif. Les réserves : un manque de luminosité HDR, des reflets bien gérés seulement face à l'écran, une dalle native 50/60 Hz et un son intégré perfectible pour le cinéma.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "RTings",
    "PhonAndroid",
    "What Hi-Fi?"
@@ -34,7 +34,7 @@
   "id": "samsung-qn80f-55",
   "texte": "Le Samsung Neo QLED QN80F 55\" cumule 2 notes comprises entre 7 et 8. La plus généreuse vient de FrAndroid, la plus sévère de RTings ; la moyenne s'établit à 7,5/10. Les tests portent sur la série QN80F, et seuls deux médias l'ont notée : la moyenne est donc plus fragile.\n\nLes tests recensés retiennent un rétroéclairage Mini-LED à points quantiques, de belles couleurs naturelles, un son harmonieux et un design plat. Côté réserves : pas de Dolby Vision (HDR10 uniquement), une classe énergétique F, quelques zones d'assombrissement et un Q-Symphony qui demande une barre de son Samsung.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "RTings"
   ]
  },
@@ -45,7 +45,7 @@
    "Les Numériques",
    "PhonAndroid",
    "ZTGD",
-   "Clubic.com"
+   "Clubic"
   ]
  },
  {
@@ -60,7 +60,7 @@
   "id": "hisense-e7q-pro-55",
   "texte": "2 tests chiffrés pour le Hisense E7Q Pro 55\", soit 6,5/10 en moyenne. FrAndroid : 7. Les Numériques : 6. La série E7Q Pro n'est notée que par deux médias, et le prix suivi correspond au 55 pouces.\n\nLes tests recensés retiennent une dalle Mini-LED à 1 000 nits de crête, du 144 Hz natif, le FreeSync Premium et le Dolby Vision IQ. Côté réserves : une finition brillante sensible aux reflets, un système VIDAA moins fourni en applications, des halos Mini-LED perfectibles sur les scènes contrastées et des angles de vision limités.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Les Numériques"
   ]
  },
@@ -70,7 +70,7 @@
   "sources": [
    "ComputerHoy",
    "RTings",
-   "Clubic.com",
+   "Clubic",
    "IGN"
   ]
  },
@@ -78,7 +78,7 @@
   "id": "samsung-s90f-42",
   "texte": "Les tests lus ont porté sur le 65 pouces, pas sur le 42 pouces suivi ici. Clubic.com et PhonAndroid précisent que seule la version 65 pouces reçoit une dalle QD-OLED ; les autres tailles, dont le 42 pouces, utilisent une dalle W-OLED. Les conclusions sur les couleurs sont donc celles de la série, à prendre avec prudence pour cette diagonale.\n\nCe qui s'applique à toute la gamme : Tom's Guide apprécie la finesse du téléviseur et les larges angles de vision, PhonAndroid ses bordures presque invisibles, son pied monté sans outil et ses quatre prises HDMI 2.1. Clubic.com note la bonne gestion des sources en définition inférieure. Côté défauts, Tom's Guide cite l'interface Tizen qui met Samsung TV Plus en avant, PhonAndroid un compte Samsung obligatoire et une prise de contrôle automatique des appareils HDMI. Aucun des trois ne mentionne le Dolby Vision comme pris en charge.",
   "sources": [
-   "Clubic.com",
+   "Clubic",
    "Tom's Guide",
    "PhonAndroid"
   ]
@@ -88,7 +88,7 @@
   "texte": "Quatre médias ont noté la série Bravia 3, pour une moyenne de 6,5/10. RTings et FrAndroid donnent 7 ; PhonAndroid et What Hi-Fi? se limitent à 6. Cette série ne séduit pas la presse autant que les OLED de cette sélection, mais son prix reste le plus bas des petits formats. Les notes concernent la série, pas la diagonale de 43 pouces seule.\n\nDans les tests, on retient surtout l'image typée Sony, le système Google TV, le HDMI 2.1 et un tarif jugé attractif. Les critiques visent la luminosité HDR, une gestion des reflets limitée aux lumières placées face à l'écran, une dalle native à 50/60 Hz et un son intégré moyen pour le cinéma.",
   "sources": [
    "RTings",
-   "FrAndroid",
+   "Frandroid",
    "PhonAndroid",
    "What Hi-Fi?"
   ]
@@ -97,14 +97,14 @@
   "id": "samsung-qn80f-50",
   "texte": "Seuls deux médias ont noté la série QN80F : FrAndroid lui attribue 8 et RTings 7, soit 7,5/10 de moyenne. Avec si peu de notes, cette moyenne reste fragile. Les tests portent sur la série ; le prix suivi est celui du 50 pouces, plus élevé au pouce que le 55 de la même gamme.\n\nLes avis saluent des couleurs naturelles, un Mini-LED à points quantiques, un design plat et un son harmonieux. Ils déplorent le manque de Dolby Vision (HDR10 uniquement), une consommation élevée (classe F), quelques zones d'assombrissement et un Q-Symphony qui ne prend tout son sens qu'avec une barre de son Samsung.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "RTings"
   ]
  },
  {
   "id": "samsung-s90f-65",
   "sources": [
-   "Clubic.com",
+   "Clubic",
    "Tom's Guide",
    "PhonAndroid"
   ],
@@ -113,7 +113,7 @@
  {
   "id": "samsung-qn80f-65",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "RTings"
   ],
   "texte": "Peu de tests pour ce Mini-LED : FrAndroid (8) et RTings (7) seulement, soit 7,5/10. C'est suffisant pour un avis préliminaire, pas pour une certitude. Le prix suivi est celui de la version 65 pouces, vendue ici par un revendeur tiers.\n\nDans les comptes rendus, on lit des couleurs naturelles grâce aux points quantiques, un châssis très fin et un son équilibré pour un téléviseur. Les points faibles : le HDR se limite au HDR10 sans Dolby Vision, la consommation est élevée (classe F) et certaines scènes sombres manquent de finesse."
@@ -121,7 +121,7 @@
  {
   "id": "hisense-e7q-pro-65",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Les Numériques"
   ],
   "texte": "La presse a peu écrit sur ce téléviseur Hisense : FrAndroid lui attribue 7/10 et Les Numériques 6/10, soit 6,5 de moyenne. Avec deux avis seulement, mieux vaut garder du recul. Le prix suivi correspond au 65 pouces, l'un des plus accessibles de la sélection.\n\nLes testeurs apprécient la luminosité du Mini-LED, la fluidité du 144 Hz et la prise en charge du Dolby Vision IQ pour le jeu. Ils reprochent une dalle brillante sensible aux reflets, une plateforme VIDAA moins fournie en applications et des effets de halo sur les images très contrastées."
@@ -138,7 +138,7 @@
   "id": "sony-bravia-3-65",
   "sources": [
    "RTings",
-   "FrAndroid",
+   "Frandroid",
    "PhonAndroid",
    "What Hi-Fi?"
   ],
@@ -148,7 +148,7 @@
   "id": "tcl-p7k-65",
   "sources": [
    "T3",
-   "ExpertReviews",
+   "Expert Reviews",
    "What Hi-Fi?",
    "Trusted Reviews"
   ],
@@ -158,7 +158,7 @@
   "id": "samsung-u8000f-55",
   "sources": [
    "What Hi-Fi?",
-   "ExpertReviews"
+   "Expert Reviews"
   ],
   "texte": "Le Crystal UHD U8000F de Samsung est noté par What Hi-Fi? (8 sur la version 43 pouces, 10 sur le 65 pouces) et par ExpertReviews (6), ce qui donne une moyenne de 7,5/10 sur deux médias. RTings l'a aussi testé sans note chiffrée comparable. Le prix suivi est celui du 55 pouces, le plus bas de la rubrique.\\n\\nLes tests apprécient son rapport qualité-prix, sa polyvalence en vidéo, son bon comportement en jeu et un traitement du mouvement efficace. Ils regrettent un rétroéclairage inégal avec des taches visibles, des menus lents et l'absence de Dolby Vision."
  },
@@ -186,7 +186,7 @@
   "sources": [
    "Chip.de",
    "Gadget Bridge",
-   "Clubic.com",
+   "Clubic",
    "Les Numériques"
   ],
   "texte": "Pour la Theatre Bar 7 de Sony, cinq notes se partagent entre 6 et 8 : Chip.de et Gadget Bridge donnent 8, Clubic 7 et Les Numériques 6, soit 7,3/10 en moyenne. L'écart entre les avis traduit une barre appréciée pour sa clarté mais jugée chère face à des concurrentes.\\n\\nLes avis retiennent des effets Atmos convaincants, un son équilibré avec une voix nette, une basse serrée et un format compact avec passage HDMI. Les critiques portent sur des basses et une spatialité moyennes, l'absence d'affichage et de commandes sur la barre, et le manque d'assistant vocal, de radio et de Chromecast."
@@ -203,8 +203,8 @@
   "id": "tcl-q65h",
   "sources": [
    "Kopfhörer",
-   "Clubic.com",
-   "FrAndroid"
+   "Clubic",
+   "Frandroid"
   ],
   "texte": "La Q65H de TCL est notée par trois médias : Kopfhörer 8, Clubic 7 et FrAndroid 7, soit 7,3/10 de moyenne. C'est la barre avec caisson sans fil la moins chère de la sélection, à moins de 230 €, vendue ici par un revendeur tiers.\\n\\nLes testeurs saluent un son puissant et spatial en Dolby Atmos et DTS:X, des graves profonds, un équipement complet avec HDMI eARC, VRR et ALLM, et une installation simple. Ils regrettent des aigus moins raffinés, un caisson parfois trop présent, un design sobre et l'absence de Google Cast ou d'AirPlay 2."
  },
@@ -220,7 +220,7 @@
  {
   "id": "hisense-u7q-pro-65",
   "sources": [
-   "Clubic.com",
+   "Clubic",
    "ZTGD",
    "Les Numériques"
   ],
