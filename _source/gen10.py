@@ -9,7 +9,7 @@ v8 — bloc « Notre choix », tri des fiches (sans tableau), une page par produ
 v7 — catalogue réel (50 PC portables + 50 ordinateurs de bureau), photos produits,
 prix relevés par marchand (Amazon, Darty, Acer Store, Geekom, Electro Dépôt), notes presse avec liens vers les tests.
 Données : data.json (source de vérité ; build_data.py est hors service depuis le 10/10/2026)."""
-import json, os, html, re, shutil, math, hashlib, unicodedata
+import json, os, html, re, shutil, math, hashlib, unicodedata, collections, statistics
 from guides import GUIDES
 from guides_desk import GUIDES_DESK
 from desk import DCATS
@@ -22,7 +22,7 @@ from catalog_sols import SOLS
 from catalog_reconditionnes import RECO, GUIDE_RECO
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css', 'extra23.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css', 'extra23.css', 'extra24.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main15.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -1044,6 +1044,86 @@ def reponse_usage(c, items, root):
     return f'<p class="answer"><b>En bref :</b> {" ".join(out)}</p>'
 
 
+ANALYSES_USAGES = json.load(open(SRC + "analyses_usages.json", encoding="utf-8")) if os.path.exists(SRC + "analyses_usages.json") else {}
+STATS_USAGES = {}   # rempli par donnees_usage() ; écrit dans _source/data/stats_usages.json si T10_STATS=1
+
+
+def _eur(x):
+    return f"{int(round(x, -1)):,} €".replace(",", " ")
+
+
+def donnees_usage(fam, c, items, root):
+    """Bloc « Ce que disent nos données » des pages d'usage (09/11/2026) : uniquement des chiffres calculés
+    sur les notes, tests et prix indicatifs de data.json, plus une analyse rédigée par usage (analyses_usages.json)."""
+    prix = sorted(d["p"] for d in items if d.get("p"))
+    notes_num = {d["id"]: [x for x in d["tests"]["notes"] if x.get("score") is not None] for d in items}
+    medias = collections.Counter(x["src"] for d in items for x in d["tests"]["notes"])
+    notes = [d for d in items if d["press"]]
+    st = {"usage": c["key"], "label": c["label"], "n": len(items), "medias": len(medias),
+          "tests": sum(d["tests"]["tests"] for d in items),
+          "prix_min": prix[0] if prix else None, "prix_med": statistics.median(prix) if prix else None, "prix_max": prix[-1] if prix else None,
+          "produits": [{"rang": i, "nom": d["short"], "note": d["press"]["avg"] if d["press"] else None, "n": d["press"]["n"] if d["press"] else 0,
+                        "prix": d["p"], "ecart": (max(x["score"] for x in notes_num[d["id"]]) - min(x["score"] for x in notes_num[d["id"]])) if len(notes_num[d["id"]]) >= 3 else None}
+                       for i, d in enumerate(items, 1)]}
+    STATS_USAGES[c["key"]] = st
+    li = []
+    if prix and len(prix) >= 3:
+        li.append(f"<li><b>Prix indicatifs :</b> de {_eur(prix[0])} à {_eur(prix[-1])}, prix médian {_eur(statistics.median(prix))}.</li>")
+    # note et prix : la moitié la plus chère est-elle mieux notée ?
+    np_ = sorted((d for d in notes if d.get("p")), key=lambda d: d["p"])
+    if len(np_) >= 6:
+        h = len(np_) // 2
+        bas, haut = np_[:h], np_[-h:]
+        mb, mh = statistics.mean(d["press"]["avg"] for d in bas), statistics.mean(d["press"]["avg"] for d in haut)
+        st["note_moitie_basse"], st["note_moitie_haute"] = round(mb, 1), round(mh, 1)
+        if abs(mh - mb) < 0.3:
+            phr = "payer plus cher n'achète pas une meilleure note presse ici"
+        elif mh > mb:
+            phr = "payer plus cher se traduit ici par une meilleure note presse"
+        else:
+            phr = "les modèles les moins chers sont même un peu mieux notés"
+        li.append(f"<li><b>Note et prix :</b> les {h} modèles les moins chers obtiennent {fr(mb)}/10 en moyenne, les {h} plus chers {fr(mh)}/10 : {phr}.</li>")
+    # consensus et désaccord entre médias (produits avec au moins 3 notes chiffrées)
+    ec = [(d, notes_num[d["id"]]) for d in items if len(notes_num[d["id"]]) >= 3]
+    if len(ec) >= 2:
+        div = max(ec, key=lambda t: max(x["score"] for x in t[1]) - min(x["score"] for x in t[1]))
+        con = min(ec, key=lambda t: max(x["score"] for x in t[1]) - min(x["score"] for x in t[1]))
+        hi, lo = max(div[1], key=lambda x: x["score"]), min(div[1], key=lambda x: x["score"])
+        e_div = hi["score"] - lo["score"]
+        e_con = max(x["score"] for x in con[1]) - min(x["score"] for x in con[1])
+        if e_div >= 1.5:
+            li.append(f'<li><b>Le plus discuté :</b> {_lien(div[0], root)}, de {fr(lo["score"])}/10 ({E(lo["src"])}) à {fr(hi["score"])}/10 ({E(hi["src"])}) : '
+                      f"lisez ces deux tests avant d'acheter.</li>")
+        if con[0] is not div[0]:
+            if e_con < 0.05:
+                li.append(f'<li><b>Le plus consensuel :</b> {_lien(con[0], root)}, {len(con[1])} notes identiques de {fr(con[1][0]["score"])}/10.</li>')
+            else:
+                li.append(f'<li><b>Le plus consensuel :</b> {_lien(con[0], root)}, {len(con[1])} notes comprises entre {fr(min(x["score"] for x in con[1]))} '
+                          f'et {fr(max(x["score"] for x in con[1]))}/10 (écart de {fr(e_con)} point{"s" if e_con >= 2 else ""}).</li>')
+    if len(items) >= 3 and items[0]["press"] and items[2]["press"] and items[0].get("p") and items[2].get("p"):
+        a, b = items[0], items[2]
+        dn, dp = a["press"]["avg"] - b["press"]["avg"], a["p"] - b["p"]
+        sens = (f"{_eur(abs(dp))} de plus" if dp > 0 else f"{_eur(abs(dp))} de moins") if abs(dp) >= 10 else "le même prix"
+        if dn >= 0.05:
+            li.append(f'<li><b>N° 1 contre n° 3 :</b> {_lien(a, root)} a {fr(dn)} point{"s" if dn >= 2 else ""} de note presse de plus que {_lien(b, root)}, pour {sens}.</li>')
+        elif dn <= -0.05:
+            li.append(f'<li><b>N° 1 contre n° 3 :</b> {_lien(a, root)} est classé devant {_lien(b, root)} malgré {fr(-dn)} point{"s" if -dn >= 2 else ""} de note presse en moins, '
+                      f'pour {sens} : il repose sur plus de tests ou se situe dans la zone des bonnes affaires (voir le classement ci-dessous).</li>')
+        else:
+            li.append(f'<li><b>N° 1 contre n° 3 :</b> {_lien(a, root)} et {_lien(b, root)} ont la même note presse ; le n° 1 coûte {sens}.</li>')
+    if medias:
+        top = [m for m, _ in medias.most_common(3)]
+        li.append(f'<li><b>Sources :</b> {sum(d["tests"]["tests"] for d in items)} tests de {len(medias)} médias et associations, '
+                  f'surtout {", ".join(E(m) for m in top[:-1])} et {E(top[-1])}.</li>' if len(top) > 1 else
+                  f'<li><b>Sources :</b> {sum(d["tests"]["tests"] for d in items)} tests, tous de {E(top[0])}.</li>')
+    if not li:
+        return ""
+    ana = ANALYSES_USAGES.get(c["key"], "")
+    ana_html = f'<p class="dn-ana">{E(ana)}</p>' if ana else ""
+    return (f'<section class="donnees" id="donnees"><h2>Ce que disent nos données</h2>{ana_html}<ul class="dn-list">{"".join(li)}</ul>'
+            f'<p class="dn-src">Calculé à partir des notes presse et des prix indicatifs affichés sur cette page (rubrique mise à jour le {maj(fam)}). <a href="{root}methode">Notre méthode</a></p></section>')
+
+
 def usage_page(fam, c):
     root = "../../"
     items = by_cat_view[c["key"]]
@@ -1121,6 +1201,7 @@ def usage_page(fam, c):
   </section>
   {PROVISIONAL_NOTE if fam['provisional'] else ''}
   {pick_block(fam, c, items, root)}
+  {donnees_usage(fam, c, items, root)}
 
   <section class="comparator" id="comparateur">
     <div class="comparator-head">
@@ -2080,6 +2161,8 @@ def lastmods(urls):
     return {u: v["d"] for u, v in res.items()}
 
 
+if os.environ.get("T10_STATS"):
+    json.dump(STATS_USAGES, open(SRC + "data/stats_usages.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 LASTMOD = lastmods(urls)
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
       "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>{LASTMOD[u]}</lastmod></url>\n" for u in urls) + "</urlset>\n")

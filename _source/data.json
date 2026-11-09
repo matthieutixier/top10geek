@@ -7397,8 +7397,8 @@
    ],
    "id": "mac-mini-m6",
    "press": {
-    "avg": 7.471428571428571,
-    "n": 7,
+    "avg": 8.716666666666667,
+    "n": 6,
     "tests": 9,
     "scope": "modele",
     "src": [
@@ -7458,15 +7458,6 @@
       "verifie": "16/10/2026"
      },
      {
-      "src": "Press Start",
-      "score": 0.0,
-      "url": "https://press-start.com.au/reviews/tech/2026/09/21/apple-mac-mini-with-m6-review-even-more-power-in-a-tiny-package/",
-      "date": "2026-09-21",
-      "avant": null,
-      "corrige": "10/10/2026",
-      "verifie": "16/10/2026"
-     },
-     {
       "src": "ComputerBase",
       "score": null,
       "url": "https://www.computerbase.de/artikel/pc-systeme/apple-mac-mini-m6-test.99469/",
@@ -7477,6 +7468,15 @@
       "score": null,
       "url": "https://www.hardwarezone.com.sg/pc/apple-mac-mini-m6-review-singapore-specs-buy",
       "date": "2026-09-21"
+     },
+     {
+      "src": "Press Start",
+      "score": null,
+      "url": "https://press-start.com.au/reviews/tech/2026/09/21/apple-mac-mini-with-m6-review-even-more-power-in-a-tiny-package/",
+      "date": "2026-09-21",
+      "avant": 0.0,
+      "corrige": "09/11/2026",
+      "verifie": "09/11/2026"
      }
     ],
     "src_initiale": [
@@ -10114,8 +10114,8 @@
    ],
    "id": "geekom-a8",
    "press": {
-    "avg": 7.821428571428571,
-    "n": 14,
+    "avg": 8.423076923076923,
+    "n": 13,
     "tests": 19,
     "scope": "modele",
     "src": [
@@ -10223,15 +10223,6 @@
       "date": "2024-07-03"
      },
      {
-      "src": "Press Start",
-      "score": 0.0,
-      "url": "https://press-start.com.au/reviews/tech/2024/07/01/geekom-a8-mini-pc-review-a-tiny-machine-with-big-gaming-potential/",
-      "date": "2024-07-01",
-      "avant": null,
-      "corrige": "10/10/2026",
-      "verifie": "16/10/2026"
-     },
-     {
       "src": "Actu High-Tech",
       "score": null,
       "url": "https://www.actuhightech.com/test-du-geekom-a8-max-mini-pc-puissance-maximale-et-polyvalence/",
@@ -10254,6 +10245,15 @@
       "score": null,
       "url": "https://www.smartzone.de/geekom-a8-8745hs-im-test/",
       "date": "2025-10-30"
+     },
+     {
+      "src": "Press Start",
+      "score": null,
+      "url": "https://press-start.com.au/reviews/tech/2024/07/01/geekom-a8-mini-pc-review-a-tiny-machine-with-big-gaming-potential/",
+      "date": "2024-07-01",
+      "avant": 0.0,
+      "corrige": "09/11/2026",
+      "verifie": "09/11/2026"
      },
      {
       "src": "wccftech",
@@ -10538,8 +10538,8 @@
    ],
    "id": "geekom-a7",
    "press": {
-    "avg": 7.864705882352941,
-    "n": 17,
+    "avg": 8.35625,
+    "n": 16,
     "tests": 22,
     "scope": "modele",
     "src": [
@@ -10671,15 +10671,6 @@
       "verifie": "16/10/2026"
      },
      {
-      "src": "Press Start",
-      "score": 0.0,
-      "url": "https://press-start.com.au/reviews/tech/2024/04/05/geekom-a7-mini-pc-review-small-and-mighty/",
-      "date": "2024-04-05",
-      "avant": null,
-      "corrige": "10/10/2026",
-      "verifie": "16/10/2026"
-     },
-     {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/geekom-a7-max",
@@ -10702,6 +10693,15 @@
       "score": null,
       "url": "https://www.neowin.net/reviews/geekom-a7-max-review-an-oxymoron-of-untapped-gaming-potential/",
       "date": "2026-01-16"
+     },
+     {
+      "src": "Press Start",
+      "score": null,
+      "url": "https://press-start.com.au/reviews/tech/2024/04/05/geekom-a7-mini-pc-review-small-and-mighty/",
+      "date": "2024-04-05",
+      "avant": 0.0,
+      "corrige": "09/11/2026",
+      "verifie": "09/11/2026"
      },
      {
       "src": "wccftech",

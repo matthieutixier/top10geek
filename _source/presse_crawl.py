@@ -555,6 +555,16 @@ def cmd_confirmer(a):
             elif fam in CC_FICHES and tests_cc:
                 corriger_cc(cc, fam, e["id"], n, n["avant"], n["score"], jour)
             recalc(it["press"])
+        elif n["score"] is not None and "score" in e and e["score"] is None:
+            # la page du média n'affiche aucune note (ex. Press Start : un 0/10 lu par erreur dans le JSON-LD) -> test sans note
+            print(f"sans note {e['id'][:30]:30s} {n['src'][:20]:20s} {n['score']} -> test sans note (lu à la main)")
+            n.update(avant=n["score"], score=None, corrige=jour)
+            if fam in sources:
+                motif = re.compile(r'(,\s*)(\d+(?:\.\d+)?)(\s*,\s*["\']' + re.escape(n["url"]) + r'["\'])')
+                sources[fam] = motif.sub(lambda m: f"{m.group(1)}None{m.group(3)}", sources[fam])
+            elif fam in CC_FICHES and tests_cc:
+                corriger_cc(cc, fam, e["id"], n, n["avant"], None, jour)
+            recalc(it["press"])
         n["verifie"] = jour
         for nom, _, t in tests_cc:
             t["verifie"] = jour; cc.marquer(nom)
