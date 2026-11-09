@@ -396,8 +396,8 @@
 "h": "05fbf8f07f57"
 },
 "ecran-pc/alienware-aw2725q/": {
-"d": "2026-11-06",
-"h": "60a8c7eff255"
+"d": "2026-11-09",
+"h": "30ee9b8ee156"
 },
 "ecran-pc/alienware-aw2726dm/": {
 "d": "2026-11-06",
@@ -769,7 +769,7 @@
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
 "d": "2026-11-09",
-"h": "9c60767fb965"
+"h": "e4e0e4d119ed"
 },
 "ordinateur-de-bureau/geekom-a5/": {
 "d": "2026-11-09",
@@ -777,15 +777,15 @@
 },
 "ordinateur-de-bureau/geekom-a7/": {
 "d": "2026-11-09",
-"h": "24ca539d4bef"
+"h": "1366f539f2cf"
 },
 "ordinateur-de-bureau/geekom-a8/": {
 "d": "2026-11-09",
-"h": "7d1bf5c9e6fc"
+"h": "96a43f988ae3"
 },
 "ordinateur-de-bureau/geekom-a9-max/": {
-"d": "2026-10-30",
-"h": "5e04566f6d42"
+"d": "2026-11-09",
+"h": "4e7c4ba03083"
 },
 "ordinateur-de-bureau/geekom-gt1-mega/": {
 "d": "2026-10-30",
@@ -880,8 +880,8 @@
 "h": "472531303002"
 },
 "pc-portable/acer-aspire-go-15/": {
-"d": "2026-10-30",
-"h": "440ec5c5a54f"
+"d": "2026-11-09",
+"h": "4d02129469b4"
 },
 "pc-portable/acer-chromebook-plus-514/": {
 "d": "2026-10-30",
@@ -892,12 +892,12 @@
 "h": "e48142810573"
 },
 "pc-portable/acer-predator-helios-neo-16-ai/": {
-"d": "2026-10-30",
-"h": "a2b4487cc474"
+"d": "2026-11-09",
+"h": "57def55e08ff"
 },
 "pc-portable/acer-swift-16-ai/": {
-"d": "2026-10-30",
-"h": "b43f019833eb"
+"d": "2026-11-09",
+"h": "446de39cac2f"
 },
 "pc-portable/acer-swift-air-14/": {
 "d": "2026-11-06",
@@ -912,8 +912,8 @@
 "h": "9e1ec933cd56"
 },
 "pc-portable/apple-macbook-neo/": {
-"d": "2026-11-06",
-"h": "c638a8731e4f"
+"d": "2026-11-09",
+"h": "dfb4b543c5ca"
 },
 "pc-portable/apple-macbook-pro-14-m5/": {
 "d": "2026-10-30",
@@ -932,8 +932,8 @@
 "h": "f69eb9808964"
 },
 "pc-portable/asus-rog-strix-g16/": {
-"d": "2026-10-30",
-"h": "4a258f0084c0"
+"d": "2026-11-09",
+"h": "f037b2ac9e44"
 },
 "pc-portable/asus-rog-zephyrus-g16/": {
 "d": "2026-10-30",
@@ -948,28 +948,28 @@
 "h": "150c29fa0304"
 },
 "pc-portable/asus-vivobook-s14/": {
-"d": "2026-10-30",
-"h": "4750f108376b"
+"d": "2026-11-09",
+"h": "ff0d7ce7acb9"
 },
 "pc-portable/asus-zenbook-a14/": {
 "d": "2026-11-06",
 "h": "2c504c950603"
 },
 "pc-portable/asus-zenbook-a16/": {
-"d": "2026-11-06",
-"h": "be7e595d5fbf"
+"d": "2026-11-09",
+"h": "e2fc0ff2f56f"
 },
 "pc-portable/asus-zenbook-duo/": {
-"d": "2026-10-30",
-"h": "5b90f9198af1"
+"d": "2026-11-09",
+"h": "62034da4dd75"
 },
 "pc-portable/asus-zenbook-s-14/": {
 "d": "2026-10-30",
 "h": "dc8594b28846"
 },
 "pc-portable/asus-zenbook-s-16/": {
-"d": "2026-10-30",
-"h": "f4e5eebaa62c"
+"d": "2026-11-09",
+"h": "fc497d81df0f"
 },
 "pc-portable/bureautique/": {
 "d": "2026-11-09",
@@ -1004,8 +1004,8 @@
 "h": "72c8b600f80c"
 },
 "pc-portable/hp-omnibook-x-flip-14/": {
-"d": "2026-10-30",
-"h": "fa75fa55393a"
+"d": "2026-11-09",
+"h": "7c22bc5510d1"
 },
 "pc-portable/lenovo-chromebook-duet-11/": {
 "d": "2026-10-30",
@@ -1016,8 +1016,8 @@
 "h": "1bd71641764f"
 },
 "pc-portable/lenovo-ideapad-slim-3/": {
-"d": "2026-11-06",
-"h": "d3a9f26ec5f3"
+"d": "2026-11-09",
+"h": "59ac6ddf15a9"
 },
 "pc-portable/lenovo-ideapad-slim-3x-15/": {
 "d": "2026-11-06",
@@ -1052,8 +1052,8 @@
 "h": "41dfa525b705"
 },
 "pc-portable/lenovo-yoga-slim-7x/": {
-"d": "2026-10-30",
-"h": "b0b49d8dedea"
+"d": "2026-11-09",
+"h": "0fefbf1fc460"
 },
 "pc-portable/lg-gram-17/": {
 "d": "2026-10-30",
@@ -1088,8 +1088,8 @@
 "h": "072b9e3d2c67"
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
-"d": "2026-11-06",
-"h": "365532f161db"
+"d": "2026-11-09",
+"h": "660bf44fff41"
 },
 "photo-video/": {
 "d": "2026-11-06",

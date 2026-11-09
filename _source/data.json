@@ -747,7 +747,19 @@
    "img": "macbook-neo.webp",
    "rating": 4.7,
    "nrev": 17,
-   "prix": 799.0
+   "prix": 799.0,
+   "synthese": {
+    "texte": "Le premier Mac animé par une puce d'iPhone convainc surtout par ce qu'il conserve des MacBook plus chers : châssis entièrement en aluminium, bon clavier, écran net et lumineux (plus de 500 cd/m² mesurés par Notebookcheck et Wired) et fonctionnement totalement silencieux, faute de ventilateur. The Verge juge son pavé tactile mécanique le meilleur du genre, et Les Numériques salue un combo clavier-pavé tactile très réussi ainsi qu'une dalle bien calibrée.\n\nLes réserves se répètent d'un test à l'autre. Les 8 Go de mémoire, non extensibles, saturent vite : Wired et The Verge ont tous deux constaté des ralentissements en multitâche chargé, et le SSD se montre lent. Le clavier n'est pas rétroéclairé, Touch ID est réservé à la version 512 Go et l'un des deux ports USB-C est limité à l'USB 2.0. Notebookcheck relève aussi une autonomie qui chute nettement quand on pousse la luminosité, et Les Numériques parle d'une connectique « antédiluvienne ».\n\nC'est l'écart d'appréciation qui frappe : The Verge en fait la nouvelle recommandation par défaut pour les élèves et les débutants, quand le protocole de Les Numériques, qui ignore le prix, pénalise ses performances brutes. Pour la bureautique, le web et la vidéo, la machine suffit largement ; pour la retouche photo ou le montage, les testeurs orientent plutôt vers un MacBook Air.",
+    "date": "2026-11-09",
+    "n": 20,
+    "tests": 29,
+    "sources": [
+     "Notebookcheck",
+     "Les Numériques",
+     "Wired",
+     "The Verge"
+    ]
+   }
   },
   "omnibook3-17": {
    "cat": "bureau",
@@ -1146,7 +1158,18 @@
    "img": "zenbook-a16.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1049.99
+   "prix": 1049.99,
+   "synthese": {
+    "texte": "Un 16 pouces OLED de 1,2 kg équipé du Snapdragon X2 Elite Extreme : c'est l'association que Les Numériques, Clubic et Notebookcheck mettent en avant. Côté processeur, les trois relèvent une avance sur les puces Intel et AMD comparées, Notebookcheck précisant que même le mode silencieux, sous 30 dB(A), la conserve. Les couleurs de la dalle sont justes selon leurs mesures, et l'autonomie couvre une journée de bureautique (près de 15 h de vidéo chez Clubic comme chez Les Numériques).\n\nLes avis se séparent sur la construction. Clubic juge la charnière et le cadre d'écran fragiles et trouve le clavier plat, bruyant et incomplètement rétroéclairé ; Notebookcheck décrit au contraire un châssis stable et un bon clavier, et Les Numériques ne reproche rien à la frappe. Même désaccord sur la webcam, correcte pour Clubic, quelconque pour les deux autres.\n\nRestent des limites partagées : un écran brillant qui renvoie beaucoup de reflets (Les Numériques mesure environ 55 % de lumière réfléchie), une partie graphique Adreno en retrait face à Intel en jeu, un chargeur encombrant et, pour Les Numériques comme pour Notebookcheck, une ventilation qui se fait entendre en mode performance. Ce portable s'adresse à qui veut un grand écran facile à emporter pour travailler, moins à qui joue ou s'installe souvent en plein jour.",
+    "date": "2026-11-09",
+    "n": 20,
+    "tests": 24,
+    "sources": [
+     "Les Numériques",
+     "Clubic",
+     "Notebookcheck"
+    ]
+   }
   },
   "omnibook5-14": {
    "cat": "bureau",
@@ -1604,7 +1627,19 @@
    "img": "galaxy-book4-edge.webp",
    "rating": 4.7,
    "nrev": 35,
-   "prix": 959.99
+   "prix": 959.99,
+   "synthese": {
+    "texte": "Sur la version 15,6 pouces à puce Snapdragon X, l'endurance fait l'unanimité : le Labo Fnac a mesuré près de 19 heures sur batterie, Chip.de plus de 13 heures en bureautique et près de 19 heures en navigation, Notebookcheck entre 13 et 18 heures en Wi-Fi selon la luminosité. Tweakers ajoute que les performances ne baissent pas une fois le chargeur débranché. Le châssis en aluminium, silencieux même sous forte charge d'après Chip.de, la connectique (deux USB4, HDMI, microSD) et le Wi-Fi 7 sont appréciés.\n\nL'écran est le défaut le plus cité : une dalle IPS Full HD à 60 Hz, peu lumineuse pour le Labo Fnac, aux couleurs ternes pour Chip.de comme pour Tweakers. Tous regrettent l'absence de rétroéclairage du clavier, et le stockage UFS soudé ne se remplace pas : Notebookcheck n'a trouvé que 160 Go libres sur son modèle de 256 Go. Sur la puissance, Tweakers et Notebookcheck jugent le processeur vif au quotidien, quand le Labo Fnac le trouve peu polyvalent et que Chip.de bute sur le montage vidéo. La partie graphique reste faible partout, et la solidité divise : boîtier très rigide pour Chip.de, perfectible pour Tweakers.\n\nCe portable vise la bureautique et le Web loin d'une prise. Pour le jeu, la création ou un écran fidèle, il faut chercher autre chose, et Notebookcheck conseille de vérifier que vos logiciels fonctionnent sous Windows sur ARM.",
+    "date": "2026-11-09",
+    "n": 21,
+    "tests": 26,
+    "sources": [
+     "Labo Fnac",
+     "Chip.de",
+     "Notebookcheck",
+     "Tweakers"
+    ]
+   }
   },
   "swift-air-14": {
    "cat": "bureau",
@@ -2984,7 +3019,18 @@
    "img": "zenbook-duo.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1959.99
+   "prix": 1959.99,
+   "synthese": {
+    "texte": "Deux dalles OLED de 14 pouces identiques, un clavier Bluetooth magnétique qui se retire et une béquille au dos : c'est ce dispositif que Notebookcheck, PCWorld et Frandroid saluent d'abord, car il permet de déplacer les fenêtres d'un écran à l'autre sans souci d'échelle et d'empiler les deux affichages comme un petit poste fixe. Le passage à Arrow Lake apporte environ 20 % de puissance processeur et graphique selon Notebookcheck, et PCWorld note que la machine ne fait jamais attendre, même avec des applications ouvertes sur les deux dalles.\n\nL'autonomie partage davantage. PCWorld la juge moyenne et constate une chute d'un peu plus d'un tiers quand les deux écrans sont allumés ; Frandroid relève 9 à 10 heures sur un écran, 6 à 7 heures avec les deux ; Notebookcheck parle au contraire d'un progrès, avec des dalles 1200p moins gourmandes que la version 2,8K. Frandroid trouve aussi le mode livre peu stable et a croisé quelques bugs logiciels, quand PCWorld reproche à l'outil ScreenXpert d'être mal expliqué.\n\nLes réserves communes portent sur le poids et l'épaisseur, plus élevés qu'un 14 pouces classique, la mémoire soudée, un SSD difficile d'accès et l'absence de lecteur de cartes. Ce portable s'adresse à ceux qui travaillent réellement sur deux écrans en déplacement ; pour un usage sur une seule dalle, un ultraportable plus léger rend les mêmes services.",
+    "date": "2026-11-09",
+    "n": 33,
+    "tests": 42,
+    "sources": [
+     "Notebookcheck",
+     "PCWorld",
+     "Frandroid"
+    ]
+   }
   },
   "aero-x16": {
    "cat": "creation",
@@ -3804,7 +3850,19 @@
    "img": "helios-neo-16.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 2799.0
+   "prix": 2799.0,
+   "synthese": {
+    "texte": "Les tests lus portent sur la déclinaison fine 16S AI, avec Core Ultra 9 275HX, RTX 5070 Ti et dalle OLED 16 pouces 2560 x 1600 à 240 Hz. Cet écran fait l'unanimité pour ses couleurs et son contraste, avec la même réserve partout : il est très brillant et capte les reflets. Clubic note que la RTX 5070 Ti tient la QHD+ sans broncher, et Notebookcheck apprécie les deux emplacements de RAM et de SSD ainsi que la connectique fournie, Thunderbolt 4 compris.\n\nLes avis s'écartent ensuite. MKAU Gaming y voit une machine performante et bien refroidie, alors que Clubic relève une forte chauffe, une charnière fragile, l'absence de Wi-Fi 7 et des logiciels préinstallés en pagaille, jugeant l'ensemble trop cher face au Razer Blade 16. PCWorld constate que la RTX 5070 Ti, limitée en puissance, devance à peine une RTX 5070. L'autonomie divise aussi : six heures en vidéo chez PCWorld, cinq heures en navigation chez Notebookcheck, à peine trois en usage mixte chez Clubic. Haut-parleurs décevants pour PCWorld et Clubic.\n\nPour jouer en QHD sur un écran OLED, l'appareil tient ses promesses ; si le silence, la mobilité ou la fraîcheur du châssis comptent pour vous, les réserves de Clubic et Notebookcheck sont à peser.",
+    "date": "2026-11-09",
+    "n": 12,
+    "tests": 12,
+    "sources": [
+     "Notebookcheck",
+     "Clubic",
+     "PCWorld",
+     "MKAU Gaming"
+    ]
+   }
   },
   "loq15": {
    "cat": "gaming",
@@ -4380,7 +4438,18 @@
    "img": "strix-g16.webp",
    "rating": 1.0,
    "nrev": 1,
-   "prix": 1549.0
+   "prix": 1549.0,
+   "synthese": {
+    "texte": "Le Strix G16 existe en plusieurs déclinaisons, et les tests ne portent pas sur la même : Clubic a reçu un Core Ultra 9 avec RTX 5060, Notebookcheck la même puce avec une RTX 5080, PCWorld un modèle G614 sous Ryzen 9 9955HX3D et RTX 5070 Ti. Point commun : une puissance processeur de premier plan dans les trois mesures, et un châssis presque entièrement en plastique, jugé solide malgré tout. Sur le G615, Clubic et Notebookcheck apprécient la plaque inférieure qui se retire sans outil pour accéder à la RAM et aux deux emplacements SSD.\n\nL'écran IPS 2560 x 1600 à 240 Hz partage davantage. Notebookcheck loue son rendu, sans scintillement PWM mais sans HDR ; Clubic le trouve correct mais trop ordinaire pour la gamme ; PCWorld critique une variation automatique de luminosité gênante en navigation. Le bruit dépend du profil : discret chez Clubic et PCWorld, il impose un casque en mode Turbo selon Notebookcheck. Le pavé tactile, trop grand et mou pour Clubic, ne pose aucun souci à Notebookcheck.\n\nL'autonomie reste modeste (4 h 40 en vidéo chez Clubic, 3 à 4 h en usage réel chez PCWorld), et la version RTX 5060 montre ses limites en QHD+, avec des saccades quand la génération d'images est poussée au maximum. C'est une machine pour jouer branchée sur secteur ; choisissez la carte graphique selon la définition que vous visez.",
+    "date": "2026-11-09",
+    "n": 14,
+    "tests": 14,
+    "sources": [
+     "Clubic",
+     "Notebookcheck",
+     "PCWorld"
+    ]
+   }
   },
   "gigabyte-a16": {
    "cat": "gaming",
@@ -4976,7 +5045,18 @@
    "img": "yoga-slim7x.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1469.99
+   "prix": 1469.99,
+   "synthese": {
+    "texte": "Deux qualités ressortent de tous les tests de cette génération à Snapdragon X Elite : l'écran OLED 3K de 14,5 pouces à 90 Hz, lumineux et fidèle, et une autonomie très longue. Notebookcheck a mesuré près de 15 heures en navigation Wi-Fi et plus de 17 heures en lecture vidéo, PCWorld un peu moins de 16 heures en vidéo, 01net environ 13 heures. Le châssis en aluminium et le clavier sont aussi bien notés.\n\nLa contrepartie tient à Windows sur ARM. Les applications natives tournent bien, mais Notebookcheck observe des performances instables avec les logiciels émulés, et PCWorld cite des outils qui refusent de fonctionner (synchronisation Google Drive, vieux pilotes d'imprimante) ainsi que de nombreux jeux. La partie graphique reste modeste selon 01net, et les ventilateurs s'entendent nettement en charge. Côté connectique, seulement trois ports USB-C : ni prise casque, ni USB-A, ni lecteur de cartes. Notebookcheck signale encore un scintillement PWM et une consommation en veille trop élevée.\n\n01net le résume comme un ultraportable équilibré pour nomades et étudiants. Il vise donc ceux qui travaillent surtout dans le navigateur et la bureautique, après avoir vérifié que leurs logiciels et périphériques fonctionnent sous ARM.",
+    "date": "2026-11-09",
+    "n": 16,
+    "tests": 19,
+    "sources": [
+     "Notebookcheck",
+     "PCWorld",
+     "01net"
+    ]
+   }
   },
   "vivobook-s14": {
    "cat": "polyvalent",
@@ -5108,7 +5188,18 @@
    "img": "vivobook-s14.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 959.99
+   "prix": 959.99,
+   "synthese": {
+    "texte": "Les Numériques, Clubic et Frandroid ont testé la même configuration : Ryzen AI 7 350, 16 Go de RAM et dalle OLED 14 pouces en 1920 x 1200 à 60 Hz. Leur diagnostic sur l'écran se rejoint : des couleurs justes à la sonde, mais une luminosité plafonnant autour de 300 cd/m² derrière un revêtement brillant très réfléchissant, qui le cantonne à l'intérieur. L'autonomie met en revanche tout le monde d'accord, autour de 13 heures selon les protocoles.\n\nLes désaccords portent sur la chauffe et la finition. Clubic juge le refroidissement à un seul ventilateur trop juste, avec 57 °C relevés au centre du clavier ; Les Numériques le trouve discret tout en notant un clavier chaud ; Frandroid ne dépasse pas 46 °C. Frandroid parle d'un châssis métallique au ressenti haut de gamme, quand Clubic ne voit de l'aluminium que sur le capot et que Les Numériques décrit repose-poignets et contour d'écran en plastique. Le clavier est confortable pour Frandroid, un peu étroit et mou au centre pour Clubic.\n\nCôté limites, la Radeon 860M peine en jeu (16 i/s sur Shadow of the Tomb Raider chez Les Numériques et Clubic), le Wi-Fi s'arrête à la norme 6, les ports USB plafonnent à 5 Gb/s et les haut-parleurs déçoivent. Clubic et Les Numériques saluent un emplacement de RAM libre et un SSD remplaçable. Un choix cohérent pour étudier ou travailler en bureautique, à l'abri du plein soleil.",
+    "date": "2026-11-09",
+    "n": 9,
+    "tests": 9,
+    "sources": [
+     "Les Numériques",
+     "Clubic",
+     "Frandroid"
+    ]
+   }
   },
   "zenbook-s14": {
    "cat": "polyvalent",
@@ -5721,7 +5812,17 @@
    "img": "zenbook-s16.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1699.0
+   "prix": 1699.0,
+   "synthese": {
+    "texte": "Le Zenbook S 16 se distingue d'abord par son châssis : à peine plus d'un centimètre d'épaisseur, environ 1,5 kg, et malgré tout une connectique complète (deux USB4, un USB-A, HDMI, lecteur SD) que Notebookcheck met en avant dans ses deux tests, celui de la version Ryzen AI 9 HX 370 comme celui de la mouture 2026 en Ryzen AI 9 465. Le clavier, le très grand pavé tactile et l'autonomie sont aussi salués, PCWorld compris, qui relève une bonne endurance en lecture vidéo.\n\nLe désaccord porte sur la puissance et la chaleur. Notebookcheck juge le processeur compétitif face à des puces Intel plus gourmandes et la machine très discrète au quotidien, tout en notant un bloc secteur compact qui chauffe trop. PCWorld, qui a testé la puce Ryzen AI 9 365, trouve au contraire les performances multicœurs en retrait face aux concurrents de même prix, la partie graphique sans vrai progrès sur la génération précédente, et un dessous franchement inconfortable sous charge. Sur la version 2026, Notebookcheck signale des ventilateurs très bruyants en mode Performance, les deux autres profils restant calmes.\n\nL'OLED 120 Hz plaît pour son contraste et ses couleurs, mais il reflète beaucoup et scintille (PWM) ; la dalle tactile de 2026 gagne nettement en luminosité, au prix d'un léger grain sur fond clair. La mémoire est soudée. Ce portable vise un usage quotidien polyvalent plutôt que le jeu : PCWorld ne juge les titres récents jouables qu'en détails minimaux.",
+    "date": "2026-11-09",
+    "n": 28,
+    "tests": 33,
+    "sources": [
+     "Notebookcheck",
+     "PCWorld"
+    ]
+   }
   },
   "omnibook-x-flip14": {
    "cat": "polyvalent",
@@ -5855,7 +5956,18 @@
    "img": "omnibook-x-flip14.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1299.0
+   "prix": 1299.0,
+   "synthese": {
+    "texte": "Le convertible 14 pouces de HP existe en version Intel Core Ultra, testée par Frandroid, et en version AMD Ryzen AI, testée par PCWorld et Wired. Les trois décrivent un châssis métallique solide, une charnière ferme, un stylet fourni et une dalle OLED 2,8K à 120 Hz : PCWorld y mesure des couleurs très justes et la totalité du DCI-P3, Frandroid une bonne calibration en SDR. Cet écran brillant reste toutefois difficile à lire en plein soleil.\n\nLes écarts tiennent surtout à la puce. Avec l'Intel, Frandroid compte 11 à 12 heures en bureautique et un PC discret. Avec le Ryzen AI 7 350, PCWorld reste sous 11 heures en lecture vidéo et Wired n'atteint pas 8 heures, en signalant un ventilateur souvent audible ; ces deux médias jugent aussi la partie graphique AMD faible, alors que l'Intel Arc de Frandroid suffit pour de la retouche légère. Le clavier aux touches presque jointives divise : confortable pour Frandroid, déroutant pour la frappe à l'aveugle selon PCWorld et Wired. Frandroid et PCWorld trouvent les haut-parleurs pauvres en basses.\n\nCe 2-en-1 vise ceux qui alternent ordinateur et tablette, stylet en main. Si vous travaillez souvent sans chargeur, les mesures plaident pour la version Intel.",
+    "date": "2026-11-09",
+    "n": 8,
+    "tests": 9,
+    "sources": [
+     "Frandroid",
+     "PCWorld",
+     "Wired"
+    ]
+   }
   },
   "yoga7-2in1": {
    "cat": "polyvalent",
@@ -6260,7 +6372,19 @@
    "img": "swift16ai.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1979.99
+   "prix": 1979.99,
+   "synthese": {
+    "texte": "Cette édition 2026 du Swift 16 AI, animée par un Intel Core Ultra de génération Panther Lake, est saluée pour sa polyvalence : Clubic et Frandroid mettent en avant la partie graphique Arc B390, capable de faire tourner des jeux récents en Full HD+ et d'accélérer les logiciels de création, et Les Numériques mesure 60 images par seconde dans Shadow of the Tomb Raider en réglage très élevé. Notebookcheck insiste sur un châssis qui reste frais. La connectique (deux Thunderbolt 4, deux USB-A, HDMI, microSD) est jugée complète.\n\nL'autonomie fait débat : Notebookcheck dépasse 16 heures en Wi-Fi, Clubic approche 16 heures en vidéo et Frandroid obtient 12 à 13 heures en bureautique, mais Les Numériques ne relève que 6 h 28 avec son nouveau protocole. Le gigantesque pavé tactile haptique divise aussi : agréable et précis pour Clubic et Frandroid, il provoque des clics involontaires de la paume chez Les Numériques et gêne un peu la frappe selon Notebookcheck. L'écran OLED 2,8K à 120 Hz plaît pour ses contrastes et ses couleurs, mais il reflète beaucoup et manque de luminosité dehors.\n\nLes reproches communs visent des haut-parleurs sans graves, une webcam médiocre et une pile de logiciels préinstallés. Ce grand 16 pouces convient à la bureautique avancée, à la création ponctuelle et au jeu occasionnel sans carte graphique dédiée.",
+    "date": "2026-11-09",
+    "n": 16,
+    "tests": 17,
+    "sources": [
+     "Les Numériques",
+     "Clubic",
+     "Frandroid",
+     "Notebookcheck"
+    ]
+   }
   },
   "lg-gram17": {
    "cat": "polyvalent",
@@ -6495,7 +6619,18 @@
    "img": "aspire-go-15.webp",
    "rating": 4.5,
    "nrev": 109,
-   "prix": 489.99
+   "prix": 489.99,
+   "synthese": {
+    "texte": "Acer vend plusieurs configurations sous le nom Aspire Go 15, et les tests n'ont pas tous porté sur la même : Ryzen 5 et 8 Go pour le Labo Fnac, Core i5 et 16 Go chez Notebookcheck, Core i3-N355 et 16 Go chez PCWorld. Tous y voient un 15,6 pouces d'entrée de gamme fluide en bureautique, sur le Web et pour les cours, avec pavé numérique et connectique variée, mais un boîtier en plastique et un clavier sans rétroéclairage.\n\nL'autonomie varie nettement selon la version : le Labo Fnac a mesuré près de 14 heures sur la variante Ryzen, Notebookcheck presque 10 heures, alors que PCWorld s'arrête à un peu moins de 7 heures en lecture vidéo et la qualifie de moyenne. L'écran Full HD partage aussi : lumineux et mat mais pauvre en couleurs pour Notebookcheck, correct pour le prix selon PCWorld qui a pourtant dû pousser la luminosité au maximum, peu contrasté pour le Labo Fnac. Aucun ne le recommande pour les jeux exigeants, et la puce Intel N testée par PCWorld peine dès que la charge monte.\n\nCe PC convient aux familles, aux étudiants ou à qui remplace un vieil ordinateur pour des usages simples. Avant d'acheter, regardez le processeur et la mémoire de l'offre : ce sont eux qui expliquent l'écart entre les résultats des tests.",
+    "date": "2026-11-09",
+    "n": 9,
+    "tests": 10,
+    "sources": [
+     "Labo Fnac",
+     "Notebookcheck",
+     "PCWorld"
+    ]
+   }
   },
   "ideapad-slim3": {
    "cat": "lowcost",
@@ -6655,7 +6790,18 @@
    "img": "ideapad-slim3.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 449.99
+   "prix": 449.99,
+   "synthese": {
+    "texte": "Sous ce nom, Lenovo vend des machines très différentes, et les trois tests retenus ici portent sur des versions AMD distinctes : un Ryzen 7 8840HS en 14 pouces chez Notebookcheck, un Ryzen 5 150 en 15,3 pouces chez Chip.de, un Ryzen 5 7520U chez Labo Fnac. Le constat de base converge : bureautique, navigation et multitâche léger se déroulent sans accroc, mais Labo Fnac note des performances vite limitées dès qu'on sort de ce cadre.\n\nL'écran est le point faible récurrent. Notebookcheck et Chip.de décrivent une dalle IPS aux couleurs pâles et peu lumineuse ; Labo Fnac mesure des couleurs fidèles mais un contraste médiocre. Le son est jugé maigre par Notebookcheck comme par Chip.de, et le clavier n'est pas rétroéclairé sur les exemplaires de Chip.de et de Labo Fnac. Le bruit divise : ventilateur souvent audible selon Notebookcheck, discret même en charge selon Chip.de.\n\nEn autonomie, les chiffres vont d'environ 5 h en usage bureautique (Chip.de) à 16 h 30 au protocole de Labo Fnac. Notebookcheck apprécie la mémoire extensible par un emplacement SO-DIMM et un second logement SSD libre, Chip.de rappelle que 8 Go restent soudés. Vérifiez la référence exacte avant d'acheter : ce portable convient aux études et à la bureautique familiale, pas au jeu, hormis des titres anciens sur la version Ryzen 7 mesurée par Notebookcheck.",
+    "date": "2026-11-09",
+    "n": 12,
+    "tests": 13,
+    "sources": [
+     "Notebookcheck",
+     "Chip.de",
+     "Labo Fnac"
+    ]
+   }
   },
   "ideapad1": {
    "cat": "lowcost",
@@ -8697,7 +8843,18 @@
    "img": "geekom-a9max.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1699.0
+   "prix": 1699.0,
+   "synthese": {
+    "texte": "Boîtier en aluminium d'à peine un litre, connectique très fournie (deux USB4, deux HDMI 2.1, deux ports Ethernet 2,5 GbE, lecteur SD UHS-II), mémoire extensible jusqu'à 128 Go et emplacement M.2 libre : KitGuru, Notebookcheck et PhotoTrend décrivent le même socle solide. Le Ryzen AI 9 HX et sa Radeon 890M suffisent pour la retouche photo, avec des jeux récents jouables en définition réduite. PhotoTrend le compare au Mac mini M4 Pro, plus rapide sur presque toutes ses mesures et trois fois plus rapide en export vidéo 4K.\n\nLe bruit divise. KitGuru trouve le mode normal discret et seul le mode performance très bruyant ; Notebookcheck le dit presque inaudible au repos mais proche de 50 dB(A) en charge ; PhotoTrend entend un souffle permanent, même sur un bureau Windows au repos. Tous regrettent l'absence d'USB-C en façade, et KitGuru comme PhotoTrend jugent le remontage pénible à cause des câbles d'antenne Wi-Fi collés sur la plaque interne.\n\nPoint de vigilance sur l'édition 2026 à Ryzen AI 9 HX 470 : KitGuru a reçu un exemplaire équipé d'une seule barrette de 32 Go, en simple canal, et mesure une nette baisse de performances face au modèle 2025, alors que l'exemplaire de PhotoTrend avait deux barrettes de 16 Go. Vérifiez la configuration mémoire avant d'acheter. Pour un photographe sous Windows qui veut beaucoup de ports et un NAS en réseau, la proposition reste cohérente.",
+    "date": "2026-11-09",
+    "n": 18,
+    "tests": 26,
+    "sources": [
+     "KitGuru",
+     "Notebookcheck",
+     "PhotoTrend"
+    ]
+   }
   },
   "geekom-it15": {
    "cat": "d-creation",
@@ -10283,7 +10440,18 @@
    "img": "geekom-a8.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 749.0
+   "prix": 749.0,
+   "synthese": {
+    "texte": "Avec son Ryzen 7 8745HS, ce A8 est la déclinaison moins chère du modèle à Ryzen 9, et ChinaHandys ne constate en pratique qu'un écart de performances minime entre les deux. Notebookcheck y voit une base solide pour la bureautique exigeante et le multimédia, Neozone l'a utilisé plusieurs semaines comme poste principal pour du montage et de la retouche sans ralentissement, la Radeon 780M permettant aussi un peu de jeu en réglages moyens. Le boîtier en aluminium d'un demi-litre, la finition et la connectique (USB4, Ethernet 2,5 Gb, lecteur SD) font l'unanimité.\n\nSur le bruit, les mesures se contredisent. Neozone le décrit silencieux même en charge prolongée, sous les 40 dB. Notebookcheck et ChinaHandys le trouvent muet au repos mais nettement audible sous forte charge, vers 46 à 48 dB(A), Notebookcheck ajoutant que le refroidissement travaille vite à sa limite. L'évolutivité est aussi vue différemment : Neozone évoque un second emplacement de stockage, alors que Notebookcheck n'a de place que pour un SSD et que ChinaHandys signale des emplacements déjà tous occupés, à remplacer plutôt qu'à compléter.\n\nAutres réserves : pas d'USB-C en façade (Notebookcheck), pas d'alimentation par USB-C, BIOS très limité (ChinaHandys). La quantité de mémoire variait selon les exemplaires testés, 16 Go chez Neozone, 32 Go chez les deux autres. Ce mini PC convient à un usage bureautique, multimédia ou de création légère, pas à du jeu régulier.",
+    "date": "2026-11-09",
+    "n": 13,
+    "tests": 19,
+    "sources": [
+     "Notebookcheck",
+     "Neozone",
+     "ChinaHandys"
+    ]
+   }
   },
   "geekom-a5pro": {
    "cat": "d-mini",
@@ -10428,7 +10596,18 @@
    "img": "geekom-a5pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 538.69
+   "prix": 538.69,
+   "synthese": {
+    "texte": "Ce mini-PC à Ryzen 5 7530U, 16 Go de DDR4 et SSD de 1 To est décrit de façon assez concordante : boîtier compact et solide, consommation faible, bruit discret au repos et puissance suffisante pour la bureautique et le multimédia. Notebookcheck relève la possibilité de piloter quatre écrans, un lecteur de cartes SD et une garantie de 36 mois ; Frandroid apprécie le démontage simple et le second emplacement M.2 pour ajouter un SSD.\n\nKitGuru l'a poussé bien plus loin que prévu, en serveur domestique sous Proxmox avec routeur virtualisé et conteneurs Docker, et l'a trouvé à l'aise, discret et frais. Le site regrette en revanche l'unique port Ethernet, un contrôleur réseau Realtek qui demande des réglages et des composants de marque peu connue. Pour la ventilation, l'appréciation diffère : Notebookcheck entend nettement le ventilateur en charge et souhaiterait un réglage plus fin, alors que Frandroid n'évoque qu'un souffle peu aigu.\n\nLes manques cités sont les mêmes : pas d'USB4, pas d'USB-C en façade, HDMI limité à la norme 2.0, aucun emplacement de RAM libre et une partie graphique incapable de faire tourner les jeux récents. Il convient à un poste de bureau, à un usage familial ou à un premier serveur maison, pas au jeu.",
+    "date": "2026-11-09",
+    "n": 9,
+    "tests": 12,
+    "sources": [
+     "Notebookcheck",
+     "KitGuru",
+     "Frandroid"
+    ]
+   }
   },
   "geekom-a6": {
    "cat": "d-mini",
@@ -10733,15 +10912,15 @@
    "nrev": 0,
    "prix": 629.0,
    "synthese": {
-    "texte": "Les tests de l'A7 en Ryzen 9 7940HS saluent un boîtier en aluminium d'un demi-litre environ, bien fini, et une connectique fournie : USB4, deux HDMI, lecteur SD, jusqu'à quatre écrans. Côté puissance, PhotoTrend chronomètre un export de 101 RAW sous Lightroom proche d'un MacBook Pro M1 Max, et GBATemp obtient environ 30 i/s sur Baldur's Gate 3 en 1080p avec la seule Radeon 780M.\n\nLe bruit divise. GBATemp et KitGuru le trouvent discret sous charge, alors que PhotoTrend décrit un ventilateur parfois bruyant en usage soutenu et que Notebookcheck, sur l'A7 Max, l'entend nettement dès une charge partielle. L'évolutivité aussi : KitGuru regrette de ne pas pouvoir ajouter de RAM ou de SSD, tandis que Notebookcheck souligne que mémoire, SSD et module Wi-Fi restent accessibles et remplaçables.\n\nAutres limites : un seul emplacement de stockage, une légère baisse de performances en charge prolongée et des latences DPC élevées relevées par Notebookcheck. Sur l'A7 Max, ce média regrette une barrette de RAM unique qui bride la partie graphique, ainsi que l'absence d'OCuLink. Si vous voulez un mini-PC Windows pour la retouche photo, le montage 4K ou du jeu léger en réglages modestes, il tient la route ; si le silence sous charge compte beaucoup pour vous, mieux vaut regarder ailleurs.",
-    "date": "2026-10-16",
-    "n": 17,
+    "texte": "Deux générations se côtoient sous ce nom : l'A7 de 2024, un boîtier en aluminium de moins d'un demi-litre, et l'A7 Max de 2026, plus volumineux, toujours animé par le Ryzen 9 7940HS. Sur le premier, PhotoTrend chronomètre l'export de 101 fichiers RAW sous Lightroom en 1 min 48, tout près d'un MacBook Pro M1 Max, et KitGuru salue la puissance du processeur comme la discrétion en usage courant. Le lecteur SD, l'USB4 et les deux sorties HDMI reviennent dans chaque compte rendu.\n\nLe bruit fait débat. KitGuru le juge faible, PhotoTrend entend la ventilation monter pendant les exports longs sans la trouver gênante, et Notebookcheck relève sur l'A7 Max un ventilateur nettement audible dès que la charge grimpe. L'évolutivité divise aussi : KitGuru regrette l'absence de place pour ajouter RAM ou SSD sur le petit modèle, alors que Notebookcheck trouve mémoire, SSD et Wi-Fi accessibles sur le Max.\n\nLe reproche principal vise l'A7 Max livré avec une seule barrette de 16 Go : Notebookcheck et GBATemp mesurent une Radeon 780M nettement bridée, et GBATemp ajoute un boîtier pénible à ouvrir (patins collés, antennes Wi-Fi à ménager). Pour la retouche photo, le montage ou une bureautique chargée sous Windows, la version 2024 tient son rang ; sur l'A7 Max, prévoyez une seconde barrette si vous comptez jouer.",
+    "date": "2026-11-09",
+    "n": 16,
     "tests": 22,
     "sources": [
+     "PhotoTrend",
      "KitGuru",
      "Notebookcheck",
-     "GBATemp",
-     "PhotoTrend"
+     "GBATemp"
     ]
    }
   },
@@ -13260,7 +13439,18 @@
    "prix": 639.24,
    "img": "alienware-aw2725q.webp",
    "rating": null,
-   "nrev": 0
+   "nrev": 0,
+   "synthese": {
+    "texte": "Frandroid, PCWorld et DisplayNinja décrivent un 27 pouces dont la dalle QD-OLED 4K à 240 Hz donne une image très fine (166 pixels par pouce), des noirs profonds et une réactivité qui efface le flou de mouvement en jeu. PCWorld mesure une erreur de couleur moyenne inférieure à 1 et une couverture quasi complète du DCI-P3 ; Frandroid salue une calibration soignée et relève un pic proche de 1 000 cd/m² en HDR sur une petite zone. Le pied compact, réglable et percé d'un passe-câbles convainc, tout comme la garantie de trois ans qui couvre le marquage.\n\nLes réserves se recoupent. En SDR, la luminosité reste modeste (265 cd/m² chez Frandroid), et DisplayNinja rappelle que la dalle brillante laisse remonter les noirs sous un éclairage direct. La connectique s'arrête au DisplayPort 1.4 et à deux HDMI 2.1 : ni USB-C avec sortie vidéo ni prise casque, ce que regrette PCWorld. DisplayNinja signale aussi l'absence de certaines protections de l'OLED et un ventilateur, inaudible mais présent. Le design partage : Frandroid l'aime, PCWorld juge que son plastique imitation métal fait bon marché.\n\nSon principal atout face aux moniteurs qui reprennent la même dalle est un prix de lancement plus bas, obtenu en renonçant à l'USB-C. Il s'adresse aux joueurs dont la carte graphique peut alimenter la 4K à haute fréquence, dans une pièce où la lumière est maîtrisée.",
+    "date": "2026-11-09",
+    "n": 12,
+    "tests": 12,
+    "sources": [
+     "Frandroid",
+     "PCWorld",
+     "DisplayNinja"
+    ]
+   }
   },
   "asus-pg32ucdm": {
    "cat": "e-gaming",
