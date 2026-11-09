@@ -58,7 +58,7 @@ RECO = {
         pour="Vous tapez beaucoup et voulez un portable pro éprouvé, avec une sécurité complète.",
         eviter="Vous aimeriez un châssis rigide ou un écran aux couleurs étendues.",
         notes=[("Notebookcheck", 9.0, "https://www.notebookcheck.net/Lenovo-ThinkPad-T480-i7-8550U-MX150-FHD-Laptop-Review.293682.0.html", "2018-03-31", V),
-               ("LaptopMag", None, "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t480", "2018-03-25", None)],
+               ("Laptop Mag", None, "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t480", "2018-03-25", None)],
         flux=dict(ppid="2289", re=r"\bT480\b", non=r"T480S|QWERTZ")),
     "latitude-7490": dict(
         short="Dell Latitude 7490", ref='14" · Core i5/i7 8e génération',
@@ -70,7 +70,7 @@ RECO = {
         pour="Vous voulez un portable pro robuste et bien fini, pour travailler sans soucis toute la journée.",
         eviter="Vous avez besoin de Thunderbolt ou d'un écran aux couleurs précises.",
         notes=[("Notebookcheck", 9.0, "https://www.notebookcheck.com/Test-Dell-Latitude-7490-i5-8350U-FHD-Notebook.313394.0.html", "2018-06-28", V),
-               ("LaptopMag", None, "https://laptopmag.com/reviews/laptops/dell-latitude-7490", "2018-04-23", None)],
+               ("Laptop Mag", None, "https://laptopmag.com/reviews/laptops/dell-latitude-7490", "2018-04-23", None)],
         flux=dict(ppid="2903", re=r"\bE?7490\b", non=r"QWERTZ")),
     "thinkpad-t470s": dict(
         short="Lenovo ThinkPad T470s", ref='14" · Core i5 7e génération',
@@ -82,7 +82,7 @@ RECO = {
         pour="Vous cherchez un 14 pouces léger et solide à petit prix, pour des tâches simples.",
         eviter="Vous tenez à un système à jour : Windows 10 n'est plus pris en charge et la puce n'est pas compatible officiellement avec Windows 11.",
         notes=[("Notebookcheck", 8.8, "https://www.notebookcheck.com/Test-Lenovo-ThinkPad-T470s-7300U-FHD-Laptop.220792.0.html", "2017-05-14", V),
-               ("LaptopMag", None, "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t470s", "2017-04-29", None)],
+               ("Laptop Mag", None, "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t470s", "2017-04-29", None)],
         flux=dict(ppid="3888", re=r"\bT470S\b", non=r"QWERTZ")),
     "elitebook-840-g6": dict(
         short="HP EliteBook 840 G6", ref='14" · Core i5 8e génération',
@@ -126,7 +126,7 @@ RECO = {
         m=("≈ 1,4 kg", "n.c."),
         pour="Vous voulez le plus compact des ThinkPad de la sélection, pour voyager léger.",
         eviter="Vous passez la journée loin d'une prise : l'autonomie est sous la moyenne.",
-        notes=[("LaptopMag", None, "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-x280", "2018-03-02", None)],
+        notes=[("Laptop Mag", None, "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-x280", "2018-03-02", None)],
         flux=dict(ppid="4071", re=r"\bX280\b", non=r"QWERTZ")),
 }
 

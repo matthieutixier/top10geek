@@ -29,7 +29,7 @@
    "Trusted Reviews",
    "ImTest",
    "Chip.de",
-   "ExpertReviews"
+   "Expert Reviews"
   ]
  },
  {
@@ -37,7 +37,7 @@
   "texte": "À 8,2/10 en moyenne, le Dreame Z30 est jugé par 9 médias. On trouve 10 chez L&B Tech et 6 chez Presse Citron. La médiane des notes est de 8/10 ; Basic Tutorials, AndroidWorld et CharlesTech complètent le panel. Cela fait 4 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés mentionnent la batterie amovible, le design, un prix modéré et le grand nombre d'accessoires. Les critiques portent sur un réservoir un peu petit, un effet plastique général, un corps lourd et peu maniable, et un tarif jugé assez élevé par certains.",
   "sources": [
    "L&B Tech",
-   "Presse Citron",
+   "Presse-citron",
    "Basic Tutorials",
    "AndroidWorld",
    "CharlesTech"
@@ -47,10 +47,10 @@
   "id": "tineco-floor-one-s9-artist",
   "texte": "Côté presse, 9 avis chiffrés pour le Tineco Floor One S9 Artist, moyenne 8,2/10. Le sommet (10) est atteint par Clubic.com ; le plancher (6) par Neozone. Au centre, Basic Tutorials, FrAndroid et LeCafeDuGeek tranchent sans excès, autour d'une médiane de 8. Cela fait 4 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés vantent le design élégant, l'aspiration, le nettoyage et la facilité d'entretien, avec une solution de lavage fournie. Les reproches reviennent sur le prix, qualifié d'élevé voire de très élevé, un poids sensible à la longue et un bouton de réglage au fonctionnement confus.",
   "sources": [
-   "Clubic.com",
+   "Clubic",
    "Neozone",
    "Basic Tutorials",
-   "FrAndroid",
+   "Frandroid",
    "LeCafeDuGeek"
   ]
  },
@@ -72,15 +72,15 @@
    "Basic Tutorials",
    "TechRadar",
    "AndroidWorld",
-   "Clubic.com",
-   "FrAndroid"
+   "Clubic",
+   "Frandroid"
   ]
  },
  {
   "id": "dji-romo-p2",
   "texte": "Avec 7 médias et une moyenne de 9/10, le DJI Romo P2 reçoit des avis plutôt contrastés : 10 pour FrAndroid, 8 pour AndroidWorld et Les Numériques. Entre ces deux pôles, TechTest, Basic Tutorials et Journal du Geek se placent dans la zone centrale, la médiane étant à 9. Les différences de barème entre rédactions expliquent en partie les 2 points d'écart observés.\n\nLes tests recensés saluent la cartographie et l'évitement d'obstacles, la puissance sur tapis épais et parquet, des jambes robotisées qui franchissent 8,5 cm et un bras oscillant qui lave sous les meubles. Ils notent un tarif premium, un design transparent qui ne fera pas l'unanimité et un assistant vocal indisponible dans certains pays au lancement.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "AndroidWorld",
    "Les Numériques",
    "TechTest",
@@ -95,7 +95,7 @@
    "Chip.de",
    "Journal du Geek",
    "CharlesTech",
-   "FrAndroid"
+   "Frandroid"
   ]
  },
  {
@@ -103,7 +103,7 @@
   "texte": "TechStage offre le meilleur accueil au Samsung Bespoke Jet (10/10), face à 7 chez DigitalTrends et RTings. La moyenne des 7 médias ressort à 8,1/10. La médiane des notes est de 8/10 ; Tech Advisor, HardwareZone et Les Numériques complètent le panel. L'écart entre les notes extrêmes est de 3 points. Dans l'ordre décroissant : TechStage (10), Tech Advisor (8,5), HardwareZone (8), Les Numériques (8), TechRadar (8), DigitalTrends (7), RTings (7).\n\nLes tests recensés mettent en avant la station d'extraction ingénieuse, la forte aspiration et une bonne prise en main. Ils regrettent un prix élevé, un accès au filtre HEPA peu pratique et une seconde batterie qui ne se recharge pas sur la station.",
   "sources": [
    "TechStage",
-   "DigitalTrends",
+   "Digital Trends",
    "RTings",
    "Tech Advisor",
    "HardwareZone"
@@ -133,7 +133,7 @@
   "id": "dyson-v11-absolute",
   "texte": "Côté presse, 5 avis chiffrés pour le Dyson V11 Absolute, moyenne 9,7/10. Le sommet (10) est atteint par ExpertReviews, Les Numériques et Pocket-lint ; le plancher (8,3) par Chip.de. Cela fait 1,7 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés louent l'aspiration très puissante, l'ajustement automatique de la puissance, l'écran d'autonomie restante et la polyvalence sur escaliers, tapis, sols durs et poils d'animaux. Ils regrettent une seule batterie, un prix élevé, l'impossibilité de charger et d'utiliser l'appareil en même temps, et un bruit gênant à vide.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "Les Numériques",
    "Pocket-lint",
    "Chip.de"
@@ -143,7 +143,7 @@
   "id": "dyson-v12-detect-slim",
   "texte": "Notre moyenne de 8,5/10 pour le Dyson V12 Detect Slim agrège 6 médias. 91mobiles.com et Gadget Bridge se montrent le plus réservé (8) quand ExpertReviews monte jusqu'à 10. Entre ces deux pôles, GadgetGear se place dans la zone centrale, la médiane étant à 8. Cela fait 2 points d'amplitude entre l'avis le plus sévère et le plus favorable.\n\nLes tests recensés mentionnent le poids léger, l'aspiration puissante, la lumière de la brosse et les mêmes accessoires que le V15. Ils notent un prix élevé, une capacité de bac et une aspiration inférieures à celles du V15, et des têtes de sol à changer selon les surfaces.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "91mobiles.com",
    "Gadget Bridge",
    "GadgetGear"
@@ -177,7 +177,7 @@
   "sources": [
    "Basic Tutorials",
    "CharlesTech",
-   "FrAndroid",
+   "Frandroid",
    "LeCafeDuGeek",
    "Les Numériques"
   ]
@@ -198,7 +198,7 @@
   "sources": [
    "TechStage",
    "91mobiles.com",
-   "DigitalTrends"
+   "Digital Trends"
   ]
  },
  {
@@ -208,7 +208,7 @@
    "Basic Tutorials",
    "RTings",
    "Chip.de",
-   "FrAndroid",
+   "Frandroid",
    "LeCafeDuGeek"
   ]
  },
@@ -218,7 +218,7 @@
   "sources": [
    "TechTest",
    "ImTest",
-   "FrAndroid",
+   "Frandroid",
    "Journal du Geek",
    "CharlesTech"
   ]

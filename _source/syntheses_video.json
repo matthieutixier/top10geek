@@ -3,7 +3,7 @@
   "id": "eufy-solocam-s340",
   "texte": "Quatre médias ont noté la eufy SoloCam S340, pour une moyenne de 9,1/10 : ExpertReviews la place à 10/10, Basic Tutorials à 9,2/10, Le Café du Geek à 9/10 et Chip.de à 8/10. Trusted Reviews, Connect.de et Vonguru l'ont aussi testée, sans note chiffrée publique.\n\nLes tests retiennent ses deux caméras (grand angle 3K et téléobjectif 2K), une installation sans fil grâce à la batterie et au panneau solaire, et des fonctions de pivotement et d'inclinaison motorisées. Les réserves portent sur le besoin d'un Wi-Fi stable, l'absence de stockage sur NAS ou dans le cloud et l'absence de mode privé.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "Basic Tutorials",
    "LeCafeDuGeek",
    "Chip.de"
@@ -17,7 +17,7 @@
    "TechTest",
    "Mighty Gadget",
    "PC Magazin",
-   "FrAndroid",
+   "Frandroid",
    "MBReviews"
   ]
  },
@@ -27,7 +27,7 @@
   "sources": [
    "L&B Tech",
    "Basic Tutorials",
-   "ExpertReviews",
+   "Expert Reviews",
    "T3",
    "Trusted Reviews"
   ]
@@ -39,7 +39,7 @@
    "Les Numériques",
    "LeCafeDuGeek",
    "Basic Tutorials",
-   "Clubic.com",
+   "Clubic",
    "T3",
    "Trusted Reviews",
    "tuttoteK"
@@ -92,7 +92,7 @@
   "sources": [
    "TechRadar",
    "Trusted Reviews",
-   "FrAndroid",
+   "Frandroid",
    "Chip.de"
   ]
  },
@@ -103,11 +103,11 @@
    "Basic Tutorials",
    "Journal du Geek",
    "SlashGear",
-   "Presse Citron",
+   "Presse-citron",
    "NextGenTech",
    "Trusted Reviews",
    "Les Numériques",
-   "FrAndroid",
+   "Frandroid",
    "Neozone",
    "Allround-PC",
    "CNET France"
@@ -117,13 +117,13 @@
   "id": "dji-osmo-360",
   "texte": "Huit médias ont noté l'Osmo 360, pour une moyenne de 8,5/10. ExpertReviews lui accorde 10/10, Basic Tutorials 9,1/10, Trusted Reviews 9/10, alors que Presse Citron, StudioSport, Camera Jabber, FrAndroid et Engadget s'arrêtent à 8/10.\n\nLa presse retient des images nettes grâce à un grand capteur lumineux, une stabilisation de très haut niveau, la vidéo 8K à 50 images par seconde et un mode perche invisible particulièrement convaincant. Elle regrette un design fade, des objectifs fragiles et non interchangeables, un écran tactile un peu petit et une application Windows décevante.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "Basic Tutorials",
    "Trusted Reviews",
-   "Presse Citron",
+   "Presse-citron",
    "StudioSport",
    "Camera Jabber",
-   "FrAndroid",
+   "Frandroid",
    "Engadget"
   ]
  },
@@ -136,18 +136,18 @@
    "Chip.de",
    "Digital Camera World",
    "ImTest",
-   "Presse Citron",
+   "Presse-citron",
    "Camera Jabber",
-   "FrAndroid"
+   "Frandroid"
   ]
  },
  {
   "id": "dji-osmo-action-5-pro",
   "texte": "Huit médias ont noté l'Osmo Action 5 Pro, pour une moyenne de 8,6/10. ExpertReviews lui donne 10/10, SlashGear et FrAndroid 9/10, Engadget 8,5/10, tandis que Digital Camera World, Chip.de, ImTest et Camera Jabber s'en tiennent à 8/10.\n\nLes testeurs apprécient les deux écrans tactiles, l'excellente stabilisation, l'étanchéité jusqu'à 20 mètres, une qualité d'image convaincante de jour comme de nuit et une autonomie en hausse. Ils relèvent l'absence de GPS intégré et d'interface HDMI, un bouton déclencheur un peu dur et un système de fixation que GoPro fait mieux cette année.",
   "sources": [
-   "ExpertReviews",
+   "Expert Reviews",
    "SlashGear",
-   "FrAndroid",
+   "Frandroid",
    "Engadget",
    "Digital Camera World",
    "Chip.de",
@@ -162,7 +162,7 @@
    "T3",
    "Camera Jabber",
    "Basic Tutorials",
-   "Presse Citron"
+   "Presse-citron"
   ]
  },
  {
@@ -180,7 +180,7 @@
   "sources": [
    "Trusted Reviews",
    "Chip.de",
-   "Presse Citron",
+   "Presse-citron",
    "Tom's Guide (US)",
    "Les Numériques"
   ]
@@ -209,7 +209,7 @@
   "texte": "Trois médias chiffrent le GP520 à 8/10 : CharlesTech, ExpertReviews et Trusted Reviews. Leur accord porte sur une image lumineuse et nette, avec une bonne prise en charge du HDR, et sur une mise en place presque automatique.\n\nLes tests relèvent aussi un son intégré étonnamment performant. Les réserves sont communes : des noirs qui manquent de profondeur, l'absence de prise en charge des fréquences d'image élevées pour le jeu, et une distance de projection importante qui demande de la place.\n\nC'est le modèle 4K le moins cher de la sélection, ce qui explique sa place dans le haut du classement malgré une note de 8/10.",
   "sources": [
    "CharlesTech",
-   "ExpertReviews",
+   "Expert Reviews",
    "Trusted Reviews"
   ]
  },
@@ -218,8 +218,8 @@
   "texte": "Cinq médias notent l'Horizon 20 Max, pour une moyenne de 9/10 : Les Numériques lui donne 10/10, Clubic, FrAndroid et IGN 9/10, Trusted Reviews 8/10. Tous le décrivent comme un projecteur 4K triple laser très lumineux, aux couleurs justes et naturelles, avec une interface Google TV fluide.\n\nLes critiques se rejoignent sur ses limites : un contraste et des noirs bornés par la technologie DLP, un système audio en dessous des meilleurs, un effet arc-en-ciel perceptible par les personnes sensibles et un prix élevé.\n\nSa luminosité en fait le candidat des pièces qui ne sont pas totalement sombres, à condition d'accepter le tarif.",
   "sources": [
    "Les Numériques",
-   "Clubic.com",
-   "FrAndroid",
+   "Clubic",
+   "Frandroid",
    "IGN",
    "Trusted Reviews"
   ]
@@ -228,8 +228,8 @@
   "id": "xgimi-aura-2",
   "texte": "Sept médias chiffrent l'Aura 2, pour une moyenne de 8,3/10. FrAndroid et Presse Citron lui donnent 9/10 ; Maison et Domotique, LeCafeDuGeek, TechRadar, LegolasGamer et RTings 8/10.\n\nLa presse décrit un projecteur laser 4K à ultra courte focale à l'image HDR lumineuse et détaillée, associé à un système audio Harman Kardon, une connectique riche et une interface Android TV. Le design est jugé soigné.\n\nLes critiques portent sur le prix, très élevé, et sur le jeu : pas de HDMI 2.1 et une fréquence limitée à 60 Hz. Des tests signalent aussi quelques ralentissements de l'interface et une télécommande sans rétro-éclairage.",
   "sources": [
-   "FrAndroid",
-   "Presse Citron",
+   "Frandroid",
+   "Presse-citron",
    "TechRadar",
    "RTings",
    "LeCafeDuGeek"
@@ -249,7 +249,7 @@
   "texte": "Deux médias chiffrent le W2720i : Trusted Reviews 10/10 et FrAndroid 8/10, soit une moyenne de 9/10. Ils retiennent un étalonnage précis dès la sortie du carton, une image convaincante avec toutes les sources et un bon rapport qualité-prix pour un projecteur 4K à LED.\n\nLes tests citent aussi son intelligence intégrée et sa connectique complète. Les réserves portent sur un contraste natif limité, un son intégré modeste, un effet arc-en-ciel perceptible et l'absence d'un préréglage de jeu simple.\n\nIl s'adresse donc surtout aux amateurs de films qui veulent de bonnes couleurs sans réglages.",
   "sources": [
    "Trusted Reviews",
-   "FrAndroid"
+   "Frandroid"
   ]
  },
  {
@@ -257,7 +257,7 @@
   "texte": "Trois médias chiffrent le X500i : Consollection 9/10, ExpertReviews 8/10 et RTings 7/10, soit 8/10 de moyenne. Ils apprécient son contraste, qui donne des noirs profonds dans le noir, sa large gamme de couleurs et un pré-étalonnage très précis.\n\nSa courte focale convient aux petits espaces. Les critiques sont proches : une luminosité insuffisante dès qu'une lampe reste allumée, pas de HDMI 2.1 et un ventilateur audible en 4K.\n\nCes limites en font un modèle pour une pièce que l'on peut assombrir.",
   "sources": [
    "Consollection",
-   "ExpertReviews",
+   "Expert Reviews",
    "RTings"
   ]
  },
@@ -266,16 +266,16 @@
   "texte": "Deux médias chiffrent l'EH-LS800 à 8/10 : Danamic et FrAndroid. Ils décrivent un projecteur laser 3LCD à ultra courte focale qui sait remplacer un téléviseur, avec une image lumineuse aux belles couleurs, un temps de réponse court et un son Yamaha convaincant.\n\nLes tests regrettent l'absence d'eARC, du HDR10+ et du Dolby Vision, peu d'options de réglage des couleurs, une certification Netflix manquante et un ventilateur bruyant à pleine puissance.\n\nIl vise ceux qui veulent une grande image dans le salon sans fixer le projecteur au plafond.",
   "sources": [
    "Danamic",
-   "FrAndroid"
+   "Frandroid"
   ]
  },
  {
   "id": "xgimi-mogo-4",
   "texte": "Douze médias chiffrent le MoGo 4, pour environ 7,7/10 de moyenne. PCGamer lui donne 8,8/10 ; FrAndroid, Clubic, IGN, LeCafeDuGeek et la plupart des autres 8/10, tandis que Les Numériques s'arrête à 7/10 et RTings à 5/10.\n\nLes tests apprécient sa batterie, qui permet de regarder un film long, sa grande portabilité et sa polyvalence. La correction trapézoïdale reste utilisable en mode jeu.\n\nLes critiques sont constantes : luminosité limitée en plein jour, contraste natif faible, couleurs peu fidèles et haut-parleurs sans profondeur.",
   "sources": [
-   "PCGamer",
-   "FrAndroid",
-   "Clubic.com",
+   "PC Gamer",
+   "Frandroid",
+   "Clubic",
    "IGN",
    "Les Numériques",
    "RTings"
@@ -285,7 +285,7 @@
   "id": "benq-gv50",
   "texte": "Trois médias chiffrent le GV50 à 8/10 : FrAndroid, Chip.de et Trusted Reviews. Ils saluent un projecteur compact, simple à installer, avec des corrections automatiques efficaces, un étalonnage soigné dès la sortie du carton et un accès aux applications, Netflix compris.\n\nLes tests citent aussi une télécommande ergonomique et le principe de la tête inclinable, qui permet de viser le plafond.\n\nLes réserves sont partagées : une luminosité faible, un contraste natif modeste, des artefacts de mouvement, pas de 4K ni de HDR10+ ou de Dolby Vision.",
   "sources": [
-   "FrAndroid",
+   "Frandroid",
    "Chip.de",
    "Trusted Reviews"
   ]
@@ -294,7 +294,7 @@
   "id": "epson-co-w01",
   "texte": "Trois médias chiffrent le CO-W01 : Fortress Of Solitude 7,5/10, RTings 7/10 et Trusted Reviews 6/10, soit 6,8/10 de moyenne. Les tests le jugent correct pour le divertissement à la maison : une qualité de projection acceptable et une mise à l'échelle utile.\n\nLes critiques sont plus nombreuses : une résolution WXGA qui impose de convertir le 1080p, un contraste insuffisant qui grise les noirs dans une pièce sombre, un son peu puissant, un seul port HDMI et aucune fonction connectée.\n\nC'est le modèle le moins cher de la comparaison, à réserver à ceux qui veulent essayer sans gros budget.",
   "sources": [
-   "Fortress Of Solitude",
+   "Fortress of Solitude",
    "RTings",
    "Trusted Reviews"
   ]
@@ -307,7 +307,7 @@
    "ComputerHoy",
    "Engadget",
    "Chip.de",
-   "FrAndroid",
+   "Frandroid",
    "PhotoTrend"
   ]
  },
@@ -325,7 +325,7 @@
   "sources": [
    "Digital Camera World",
    "Camera Jabber",
-   "FrAndroid",
+   "Frandroid",
    "Labo Fnac",
    "RTings",
    "Chip.de"
@@ -338,7 +338,7 @@
    "TechRadar",
    "Labo Fnac",
    "PhotoTrend",
-   "FrAndroid",
+   "Frandroid",
    "Chip.de"
   ]
  },
@@ -361,7 +361,7 @@
    "TechRadar",
    "PhotoTrend",
    "Chip.de",
-   "FrAndroid",
+   "Frandroid",
    "Labo Fnac",
    "RTings"
   ]
@@ -371,7 +371,7 @@
   "texte": "Quatre médias notent le X-E5, pour 8,75/10 de moyenne : Labo Fnac 10/10, FrAndroid 9/10, Trusted Reviews et Chip.de 8/10.\n\nLes tests louent le piqué de la définition de 40 MP, les couleurs et simulations de films Fujifilm, une stabilisation mécanique efficace et le plaisir de prise de vue de ce boîtier au style rétro.\n\nLes limites relevées : un suivi autofocus pris en défaut en conditions difficiles, une ergonomie limitée avec les objectifs lourds, un écran tactile parfois trop sensible et un boîtier pas entièrement étanche. Il va aux amateurs de photo de rue et de voyage.",
   "sources": [
    "Labo Fnac",
-   "FrAndroid",
+   "Frandroid",
    "Trusted Reviews",
    "Chip.de"
   ]
@@ -391,7 +391,7 @@
   "sources": [
    "Les Numériques",
    "Chip.de",
-   "FrAndroid",
+   "Frandroid",
    "PhotoTrend"
   ]
  },
@@ -402,7 +402,7 @@
    "Digital Camera World",
    "TechRadar",
    "Labo Fnac",
-   "FrAndroid",
+   "Frandroid",
    "PhotoTrend"
   ]
  },
@@ -411,8 +411,8 @@
   "texte": "8 médias ont noté le DJI Neo 2, pour une moyenne de 8,1/10 ; les plus hautes notes viennent de T3 à 10/10, FrAndroid à 9/10, Presse Citron à 9/10.\n\nLes tests retiennent le décollage depuis la paume, le contrôle gestuel et vocal, le LiDAR pour éviter les obstacles et la nacelle à deux axes qui lisse l'image. Ils regrettent une autonomie courte, l'absence de fente microSD et une vidéo verticale qui n'est pas native.\n\nParmi les autres médias, Basic Tutorials lui donne 8,9/10, 01net lui donne 8/10, Camera Jabber lui donne 8/10, The Verge lui donne 8/10.",
   "sources": [
    "T3",
-   "FrAndroid",
-   "Presse Citron"
+   "Frandroid",
+   "Presse-citron"
   ]
  },
  {
@@ -433,9 +433,9 @@
    "SlashGear",
    "Engadget",
    "Chip.de",
-   "FrAndroid",
+   "Frandroid",
    "TechRadar",
-   "Presse Citron",
+   "Presse-citron",
    "StudioSport"
   ]
  },
@@ -471,7 +471,7 @@
   "sources": [
    "Trusted Reviews",
    "Basic Tutorials",
-   "Presse Citron"
+   "Presse-citron"
   ]
  },
  {
@@ -489,7 +489,7 @@
   "sources": [
    "Trusted Reviews",
    "Camera Jabber",
-   "FrAndroid",
+   "Frandroid",
    "TechRadar",
    "StudioSport",
    "PhotoTrend",

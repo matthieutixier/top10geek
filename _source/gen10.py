@@ -1921,6 +1921,8 @@ methode = f"""
     <p>Le prix indicatif est le plus bas que nous avons constaté chez Amazon, Darty, sur l'Acer Store, chez Geekom ou chez Electro Dépôt (pour les écrans et les imprimantes : sur Amazon ou chez Electro Dépôt, en précisant quand le produit n'est proposé que par un vendeur tiers sur Amazon), arrondi à la dizaine d'euros ; le mois du constat est indiqué à côté. Nous le revoyons environ une fois par mois. Il situe la machine mais ne remplace pas une comparaison : <b>seul le prix affiché par le marchand fait foi</b>. Nous ne comparons pas, pour l'instant, les prix marchand par marchand : nous indiquons seulement où la machine est en vente. Exception : Electro Dépôt, dont nous affichons le prix exact, lu dans son flux produits officiel et mis à jour chaque semaine (la date du relevé est indiquée à côté). Un même modèle existe souvent en plusieurs configurations (mémoire, stockage, carte graphique) : celle de chaque offre est indiquée à côté du lien, et peut différer d'un marchand à l'autre. Les photos sont celles fournies par les marchands et les constructeurs.</p>
     <h2>Avis clients, poids et autonomie</h2>
     <p>La note « avis clients Darty » est celle affichée par Darty lors de notre dernier relevé ; nous ne l'affichons qu'à partir de trois avis. Poids et autonomie sont ceux annoncés par le constructeur, sauf mention « test ». « n.c. » : non communiqué.</p>
+    <h2>Ce que révèlent toutes ces notes</h2>
+    <p>Le prix fait-il la note ? Quels médias notent le plus sévèrement ? Nous avons analysé l'ensemble de notre base : <a href="etude-notes-presse/">lire l'étude</a>.</p>
     <h2>Notre indépendance</h2>
     <p>Aucune marque ne paie pour figurer dans nos sélections. Certains liens sont des liens d'affiliation (à ce jour : {AFF_TXT}) : ils peuvent nous rapporter une commission, sans surcoût pour vous, et n'influencent ni les notes ni les classements.</p>
     <h2>Contact</h2>
@@ -1930,6 +1932,102 @@ methode = f"""
 write("methode.html", page("", "Notre méthode : sélection, note presse, prix | Top 10 Geek",
                            "Comment Top 10 Geek sélectionne les produits, calcule la note presse, établit le classement et indique les prix.",
                            "methode", methode, "methode", ld=[ld_crumbs(("Accueil", ""), ("Méthode", "methode")), ld_page("methode", "Notre méthode"), PERSON]))
+
+# ---------------------------------------------------------------- Étude « ce que disent les notes de la presse » (09/11/2026)
+def _rangs(v):
+    """Rangs moyens (ex aequo partagés), pour la corrélation de Spearman."""
+    o = sorted(range(len(v)), key=lambda i: v[i])
+    r = [0.0] * len(v)
+    i = 0
+    while i < len(o):
+        j = i
+        while j + 1 < len(o) and v[o[j + 1]] == v[o[i]]:
+            j += 1
+        for k in range(i, j + 1):
+            r[o[k]] = (i + j) / 2 + 1
+        i = j + 1
+    return r
+
+
+def _spearman(a, b):
+    ra, rb = _rangs(a), _rangs(b)
+    ma, mb = statistics.mean(ra), statistics.mean(rb)
+    num = sum((x - ma) * (y - mb) for x, y in zip(ra, rb))
+    den = math.sqrt(sum((x - ma) ** 2 for x in ra) * sum((y - mb) ** 2 for y in rb))
+    return num / den if den else 0.0
+
+
+def etude_page():
+    root = "../"
+    USAGES = {c["key"]: (f, c) for f in FAMILIES for c in f["cats"]}
+    notes_num = {k: [x for x in d["tests"]["notes"] if x.get("score") is not None] for k, d in ITEMS.items()}
+    n_notes = sum(len(v) for v in notes_num.values())
+    medias_tous = {x["src"] for d in ITEMS.values() for x in d["tests"]["notes"]}
+    # 1. sévérité des médias
+    dev = collections.defaultdict(list)
+    for k, ns in notes_num.items():
+        if len(ns) < 3:
+            continue
+        for x in ns:
+            autres = [y["score"] for y in ns if y is not x]
+            dev[x["src"]].append(x["score"] - statistics.mean(autres))
+    sev = sorted(((m, len(v), statistics.mean(v)) for m, v in dev.items() if len(v) >= 25), key=lambda r: r[2])
+    # 2. prix contre note, par usage
+    cors = []
+    for key, (f, c) in USAGES.items():
+        v = [(d["p"], d["press"]["avg"]) for d in by_cat_view.get(key, []) if d.get("p") and d["press"] and d["press"]["n"] >= 2]
+        if len(v) >= 6:
+            cors.append((f, c, len(v), _spearman([x[0] for x in v], [x[1] for x in v])))
+    cors.sort(key=lambda r: r[3])
+    faible = [r for r in cors if r[3] < 0.3]
+    # 3. désaccords
+    ecarts = [max(x["score"] for x in ns) - min(x["score"] for x in ns) for ns in notes_num.values() if len(ns) >= 3]
+    gros = sum(1 for e in ecarts if e >= 3)
+    pct = round(100 * gros / len(ecarts)) if ecarts else 0
+    plus_severe, plus_genereux = sev[0], sev[-1]
+    lien_u = lambda f, c: f'<a href="{root}{f["slug"]}/{c["slug"]}/">{E(plain(c["label"]))} ({E(f["plural"])})</a>'
+    lignes_sev = "".join(f'<tr><td>{E(m)}</td><td>{n}</td><td>{"+" if e > 0.005 else ("−" if e < -0.005 else "")}{fr(abs(e), 2)}</td></tr>' for m, n, e in sev)
+    lignes_cor = "".join(f'<tr><td>{lien_u(f, c)}</td><td>{n}</td><td>{"−" if r < -0.005 else ""}{fr(abs(r), 2)}</td></tr>' for f, c, n, r in cors)
+    STATS_USAGES["_etude"] = {"notes": n_notes, "medias": len(medias_tous), "produits": len(ITEMS), "categories": len(cors), "faible": len(faible),
+                              "pct_ecart3": pct, "n_ecart": len(ecarts), "ecart_median": statistics.median(ecarts) if ecarts else None,
+                              "severe": plus_severe, "genereux": plus_genereux}
+    n_txt = f"{n_notes:,}".replace(",", " ")
+    titre = f"Étude : ce que {n_txt} notes de tests high-tech révèlent"
+    body = f"""
+  <div class="prose etude">
+    <div class="crumb"><a href="{root}">Accueil</a> › Étude</div>
+    <div class="eyebrow">ÉTUDE · DONNÉES AU {MAJ_SITE}</div>
+    <h1>{titre}</h1>
+    <p class="lead">Top 10 Geek compile les notes publiées par la presse sur les produits high-tech en vente en France. Sur {n_txt} notes chiffrées de {len(medias_tous)} médias et associations, portant sur {len(ITEMS)} produits, trois résultats ressortent.</p>
+    {byline(root)}
+    <ol class="etude-cles">
+      <li><b>Payer plus cher n'achète pas toujours une meilleure note.</b> Dans {len(faible)} catégories sur {len(cors)}, le lien entre le prix et la note presse est faible, nul ou inversé.</li>
+      <li><b>Les médias sont souvent en désaccord.</b> Pour {pct} % des produits notés par au moins 3 médias, deux notes s'écartent de 3 points ou plus sur 10.</li>
+      <li><b>Certains médias notent plus sévèrement que d'autres.</b> {E(plus_severe[0])} note en moyenne {fr(abs(plus_severe[2]))} point sous ses confrères, {E(plus_genereux[0])} {fr(plus_genereux[2])} point au-dessus.</li>
+    </ol>
+    <h2>Qui note le plus sévèrement ?</h2>
+    <p>Écart moyen entre la note d'un média et la moyenne des autres médias sur le même produit, pour les produits notés au moins 3 fois et les médias qui ont noté au moins 25 produits de notre base. Un écart négatif signale un média plus sévère que ses confrères.</p>
+    <div class="etude-table"><table><thead><tr><th>Média</th><th>Produits notés</th><th>Écart moyen (points sur 10)</th></tr></thead><tbody>{lignes_sev}</tbody></table></div>
+    <h2>Le prix fait-il la note ?</h2>
+    <p>Corrélation de rang (Spearman) entre le prix indicatif et la note presse, pour chaque catégorie d'au moins 6 produits notés 2 fois ou plus : 1 = plus c'est cher, mieux c'est noté ; 0 = aucun lien ; une valeur négative = les moins chers sont mieux notés. Cliquez sur une catégorie pour voir son classement.</p>
+    <div class="etude-table"><table><thead><tr><th>Catégorie</th><th>Produits</th><th>Corrélation prix / note</th></tr></thead><tbody>{lignes_cor}</tbody></table></div>
+    <h2>Les désaccords entre médias</h2>
+    <p>Sur {len(ecarts)} produits notés par au moins 3 médias, l'écart médian entre la note la plus basse et la plus haute est de {fr(statistics.median(ecarts))} points ; il atteint 3 points ou plus pour {gros} produits ({pct} %). Sur chaque page d'usage, le bloc « Ce que disent nos données » signale le produit le plus discuté : c'est celui pour lequel il vaut le mieux lire plusieurs tests avant d'acheter.</p>
+    <h2>Méthode et limites</h2>
+    <p>Toutes les notes sont ramenées sur 10 (voir <a href="{root}methode">notre méthode</a>). Les associations de consommateurs, dont les notes sont réservées à leurs abonnés, n'entrent pas dans ces calculs. Les catégories comptent 6 à 10 produits : ce sont nos sélections (produits en vente et testés), pas tout le marché, et les échelles de notation diffèrent d'un média à l'autre. Les chiffres sont recalculés à chaque mise à jour du site.</p>
+    <p>Journalistes et blogueurs : vous pouvez reprendre ces chiffres en citant Top 10 Geek avec un lien vers cette page. Pour le détail par catégorie : <a href="mailto:contact@top10geek.fr">contact@top10geek.fr</a>.</p>
+  </div>
+"""
+    desc = (f"{n_notes} notes de tests high-tech analysées : le prix fait-il la note, quels médias notent le plus sévèrement, "
+            f"où la presse est en désaccord. Données Top 10 Geek.")
+    write("etude-notes-presse/index.html", page(root, f"Étude : {n_notes} notes de tests high-tech analysées | Top 10 Geek", desc, "etude-notes-presse/", body, "methode",
+          ld=[ld_crumbs(("Accueil", ""), ("Étude", "etude-notes-presse/")),
+              {"@type": "Article", "@id": f"{DOMAIN}/etude-notes-presse/#etude", "headline": plain(titre), "description": desc, "inLanguage": "fr-FR",
+               "author": {"@id": PERSON_ID}, "publisher": {"@id": DOMAIN + "/#organisation"}, "mainEntityOfPage": f"{DOMAIN}/etude-notes-presse/"},
+              PERSON]))
+
+
+etude_page()
 
 # ---------------------------------------------------------------- À propos
 apropos = f"""
@@ -2136,7 +2234,7 @@ os.makedirs(os.path.join(OUT, "assets/img/p"), exist_ok=True)
 for d in ITEMS.values():  # photos : copiées par build_data.py (img_p/) si présentes, sinon déjà dans assets/img/p
     if d["img"] and os.path.exists(SRC + "img_p/" + d["img"]):
         shutil.copy(SRC + "img_p/" + d["img"], os.path.join(OUT, "assets/img/p", d["img"]))
-urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k] if indexable(d)] + ["black-friday/", "methode", "a-propos", "mentions-legales", "politique-confidentialite"]
+urls = [""] + [f"{f['slug']}/" for f in FAMILIES] + [f"{f['slug']}/{c['slug']}/" for f in FAMILIES for c in f["cats"]] + [d["purl"] for k in CAT for d in by_cat[k] if indexable(d)] + ["black-friday/", "etude-notes-presse/", "methode", "a-propos", "mentions-legales", "politique-confidentialite"]
 
 
 def lastmods(urls):
