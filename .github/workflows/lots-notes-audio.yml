@@ -1,0 +1,61 @@
+# Workflow à usage unique (11/11/2026) : reconstitue les 3 lots de corrections de notes Maison audio à partir du relevé compact
+# _publication/tmp_lots/, vérifie leur empreinte, les dépose dans _publication/ (un fichier de modifications par lot),
+# se supprime, puis déclenche le workflow officiel « Publier une mise à jour de données » (qui applique les contrôles SEO).
+name: Lots notes audio (usage unique)
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/lots-notes-audio.yml"
+permissions:
+  contents: write
+  actions: write
+jobs:
+  lots:
+    if: github.repository == 'matthieutixier/top10geek'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reconstituer, vérifier, déposer
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          cd _publication/tmp_lots
+          cat > /tmp/attendu.md5 <<'EOF'
+          750acd55c47ceb5cfddd8d4d7ed02012  c.txt
+          9ce8d3bf3b431723baf39a7b824ef404  confirmations.json
+          6911cf212713eed55ef36e351ec781cb  retirer.json
+          bcd03eb5b6ec4120b997929138d629b1  extras.json
+          e11f5d3d8eeae5c700b3fa4914478e7e  build.py
+          EOF
+          sed -i 's/^ *//' /tmp/attendu.md5
+          md5sum -c /tmp/attendu.md5
+          cd ../..
+          git config user.name "Matthieu Tixier"
+          git config user.email "matthieu.tixier@gmail.com"
+          DEBUT=$(git rev-parse HEAD)
+          python3 _publication/tmp_lots/build.py _publication/tmp_lots
+          git reset -q --hard "$DEBUT"
+          git clean -fdq -e _source/data
+          echo "3a506c4ac85928f4fef6f86b9e442bd3  /tmp/lot1.patch" >  /tmp/lots.md5
+          echo "8ca74eec79ec84943c29b3737102e5de  /tmp/lot2.patch" >> /tmp/lots.md5
+          echo "1df34bb9f11e5fb6d08a5e4a5947b1dc  /tmp/lot3.patch" >> /tmp/lots.md5
+          md5sum -c /tmp/lots.md5
+          echo "6ace9c05e6352c32298d2ed8153caa794cd69bf5bd98eafca470c8f6b1254a10  /tmp/final.json" | sha256sum -c -
+          A="Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"
+          B="Claude-Session: https://claude.ai/code/session_018UDNFion6fTkPuWyKRyCch"
+          for k in 1 2 3; do cp /tmp/lot$k.patch _publication/2026-11-11-maison-audio-lot$k.patch; done
+          printf '%s\n\n%s\n\n%s\n%s\n' "MAJ hebdo Maison audio du 11/11/2026, lot 1/3 : enceintes Bluetooth et écouteurs à réduction de bruit (0 prix modifiés, 0 prix Electro Dépôt, 112 notes corrigées, 66 notes confirmées, 0 tests ajoutés, 0 synthèses)" "Notes relevées à la source ; 7 tests hors sujet retirés (Bose QC Ultra Earbuds 2, Sony WH-1000XM5, Huawei FreeClip, Galaxy Buds4 Pro, JBL Flip 7)." "$A" "$B" > _publication/2026-11-11-maison-audio-lot1.msg
+          printf '%s\n\n%s\n\n%s\n%s\n' "MAJ hebdo Maison audio du 11/11/2026, lot 2/3 : casques Bluetooth et écouteurs open-ear (0 prix modifiés, 0 prix Electro Dépôt, 140 notes corrigées, 89 notes confirmées, 0 tests ajoutés, 0 synthèses)" "Notes relevées à la source ; 7 tests hors sujet ou liens morts retirés (Sony WH-1000XM5, Huawei FreeClip, Galaxy Buds4 Pro, JBL Tour One M3, Shokz OpenDots One)." "$A" "$B" > _publication/2026-11-11-maison-audio-lot2.msg
+          printf '%s\n\n%s\n\n%s\n%s\n' "MAJ hebdo Maison audio du 11/11/2026, lot 3/3 : casques gaming (0 prix modifiés, 0 prix Electro Dépôt, 38 notes corrigées, 40 notes confirmées, 1 tests ajoutés, 0 synthèses)" "Notes relevées à la source ; test Gameblog ajouté pour le Razer Kraken Kitty V3 Pro ; les notes 0/10 (Well Played, Press Start) ne sont pas reprises." "$A" "$B" > _publication/2026-11-11-maison-audio-lot3.msg
+          git rm -rq _publication/tmp_lots .github/workflows/lots-notes-audio.yml
+          git add _publication
+          git commit -q -m "Dépôt des 3 lots de notes Maison audio du 11/11/2026" -m "$A" -m "$B"
+          git push
+          gh workflow run publier.yml --ref main
