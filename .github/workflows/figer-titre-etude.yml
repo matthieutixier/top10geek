@@ -1,0 +1,37 @@
+# Workflow à usage unique : fige le titre et le H1 de /etude-notes-presse/ dans gen10.py (ils ne suivent plus le nombre de notes),
+# puis se supprime. Valeurs figées = celles actuellement en ligne (« 2 050 » dans le H1, « 2050 » dans le title).
+name: Figer le titre de l'étude (usage unique)
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/figer-titre-etude.yml"
+permissions:
+  contents: write
+jobs:
+  figer:
+    if: github.repository == 'matthieutixier/top10geek'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Modifier gen10.py
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          p = '_source/gen10.py'
+          s = open(p, encoding='utf-8').read()
+          a1 = '    titre = f"Étude : ce que {n_txt} notes de tests high-tech révèlent"\n'
+          b1 = '    titre = "Étude : ce que 2 050 notes de tests high-tech révèlent"  # titre et H1 figés (règle SEO 5), indépendants du nombre de notes\n'
+          a2 = 'f"Étude : {n_notes} notes de tests high-tech analysées | Top 10 Geek"'
+          b2 = '"Étude : 2050 notes de tests high-tech analysées | Top 10 Geek"'
+          assert s.count(a1) == 1 and s.count(a2) == 1, 'motifs introuvables'
+          s = s.replace(a1, b1).replace(a2, b2)
+          open(p, 'w', encoding='utf-8').write(s)
+          PY
+          git diff --stat
+          git config user.name "Matthieu Tixier"
+          git config user.email "matthieu.tixier@gmail.com"
+          git rm -q -f .github/workflows/figer-titre-etude.yml
+          git add _source/gen10.py
+          git commit -q -m "Fige le titre et le H1 de /etude-notes-presse/ (règle SEO 5)" -m "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"
+          git push
