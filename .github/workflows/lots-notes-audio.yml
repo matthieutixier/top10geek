@@ -28,7 +28,7 @@ jobs:
           set -eu
           cd _publication/tmp_lots
           cat > /tmp/attendu.md5 <<'EOF'
-          750acd55c47ceb5cfddd8d4d7ed02012  c.txt
+          d86e277969703c09dd91c83a2ea620c4  c.txt
           9ce8d3bf3b431723baf39a7b824ef404  confirmations.json
           6911cf212713eed55ef36e351ec781cb  retirer.json
           bcd03eb5b6ec4120b997929138d629b1  extras.json
