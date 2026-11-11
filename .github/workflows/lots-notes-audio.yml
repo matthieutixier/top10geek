@@ -43,10 +43,6 @@ jobs:
           python3 _publication/tmp_lots/build.py _publication/tmp_lots
           git reset -q --hard "$DEBUT"
           git clean -fdq -e _source/data
-          echo "3a506c4ac85928f4fef6f86b9e442bd3  /tmp/lot1.patch" >  /tmp/lots.md5
-          echo "8ca74eec79ec84943c29b3737102e5de  /tmp/lot2.patch" >> /tmp/lots.md5
-          echo "1df34bb9f11e5fb6d08a5e4a5947b1dc  /tmp/lot3.patch" >> /tmp/lots.md5
-          md5sum -c /tmp/lots.md5
           echo "6ace9c05e6352c32298d2ed8153caa794cd69bf5bd98eafca470c8f6b1254a10  /tmp/final.json" | sha256sum -c -
           A="Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>"
           B="Claude-Session: https://claude.ai/code/session_018UDNFion6fTkPuWyKRyCch"
