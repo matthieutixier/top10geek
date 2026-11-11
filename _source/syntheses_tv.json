@@ -1,23 +1,22 @@
 [
  {
   "id": "lg-oled-g5",
-  "texte": "Les 7 médias qui ont testé le LG OLED G5 55\" lui attribuent tous 10/10 : 01net, IGN, L&B Tech et Multiplayer.it. La moyenne est donc de 10/10, sans aucune voix discordante parmi les tests chiffrés recensés. Les tests portent sur la série G5, dont le prix suivi ici est celui du 55 pouces.\n\nLes tests recensés retiennent une luminosité de crête très élevée, une image nette et colorée, et un équipement complet pour les joueurs, avec un large support des formats HDR. Côté réserves : un son terne, une luminosité réduite en mode Jeu, l'absence de l'audio DTS et un risque de rémanence si on l'utilise longtemps comme moniteur de PC.",
+  "texte": "Les quatre tests lus ont porté sur le 65 pouces. Multiplayer.it précise que le gain de luminosité de la nouvelle dalle concerne les tailles à partir de 55 pouces, seuls les 48 et 97 pouces en étant privés, ce que What Hi-Fi? confirme pour ces deux tailles. La luminosité est le grand progrès : environ 2 300 nits sur une fenêtre de 10 % chez L&B Tech, 2 268 chez Multiplayer.it, 2 200 en mode calibré chez FlatpanelsHD, qui mesure aussi 360 nits en plein écran, soit 50 % de plus que la G4.\n\nPour le jeu, les quatre HDMI 2.1 et la VRR jusqu'à 165 Hz sont salués, avec une latence d'environ 10 ms à 60 Hz (L&B Tech, FlatpanelsHD). Multiplayer.it note une luminosité réduite en mode Jeu et met en garde contre le marquage en usage PC prolongé. FlatpanelsHD juge les reflets bien maîtrisés, Multiplayer.it seulement correctement pour les reflets directs.\n\nRéserves communes : des bandes sur certains dégradés (L&B Tech, FlatpanelsHD), un son en retrait de l'image et l'absence de DTS, d'où le conseil d'ajouter une barre de son (What Hi-Fi?, FlatpanelsHD), et des publicités dans webOS selon FlatpanelsHD. Pour qui veut une image OLED très lumineuse et prévoit un système audio séparé.",
   "sources": [
-   "01net",
-   "IGN",
    "L&B Tech",
-   "Multiplayer.it"
+   "Multiplayer.it",
+   "What Hi-Fi?",
+   "FlatpanelsHD"
   ]
  },
  {
   "id": "samsung-qn90f-50",
-  "texte": "Côté presse, 5 avis chiffrés pour le Samsung Neo QLED QN90F 50\", moyenne 8,3/10. Le sommet (10) est atteint par Labo Fnac ; le plancher (6) par IGN. Les Numériques, Clubic.com et RTings se placent entre les deux. Les tests portent sur la série QN90F ; le prix suivi est celui du 50 pouces, seule taille vendue par Amazon au moment du relevé.\n\nLes tests recensés apprécient des noirs profonds, une excellente luminosité HDR, un traitement anti-éblouissement et de nombreuses fonctions de jeu. Ils reprochent l'absence de Dolby Vision, un prix élevé face à la concurrence, des niveaux de noir moins bons en mode Jeu et une couverture colorimétrique limitée face aux dalles QD-OLED.",
+  "texte": "Aucun des tests lus ne porte sur le 50 pouces : le Labo Fnac a évalué le 43 pouces, Clubic et L&B Tech le 65, Android Headlines le 75. Clubic précise que le 50 pouces garde une dalle 120 Hz, sans les fréquences plus élevées des 55 pouces et plus, alors que le 43 pouces descend à 60 Hz avec un rétroéclairage moins dense.\n\nLe traitement anti-reflets fait l'unanimité : Clubic le juge utilisable en plein jour près d'une baie vitrée, L&B Tech ne voit plus le reflet de la fenêtre et Android Headlines le trouve décisif dans un salon ensoleillé. La luminosité est forte : 2 672 cd/m² en HDR sur 10 % de l'écran chez Clubic, environ 2 500 nits chez L&B Tech. Clubic et L&B Tech relèvent un léger halo autour des zones claires en conditions extrêmes.\n\nLes angles de vision divisent : Clubic les trouve nettement meilleurs que ceux des dalles VA classiques, le Labo Fnac un peu serrés et L&B Tech limités à 45°. Pas de Dolby Vision (Clubic, Android Headlines). En jeu, Clubic mesure 9,6 ms de latence en mode Jeu. À considérer pour un salon lumineux.",
   "sources": [
    "Labo Fnac",
-   "IGN",
-   "Les Numériques",
    "Clubic",
-   "RTings"
+   "Android Headlines",
+   "L&B Tech"
   ]
  },
  {
@@ -219,11 +218,11 @@
  },
  {
   "id": "hisense-u7q-pro-65",
+  "texte": "Trois des tests de la fiche portent bien sur le U7Q Pro : PhonAndroid, Expert Reviews et What Hi-Fi?, ces deux derniers en 65 pouces. Ils s'accordent sur des noirs profonds pour un téléviseur LCD dans les scènes très sombres, mais aussi sur une image pas toujours constante : What Hi-Fi? et Expert Reviews voient les couleurs se délaver dans les scènes sombres, et What Hi-Fi? note des noirs parfois voilés en mode Standard ainsi qu'un halo plus marqué que chez un concurrent TCL.\n\nPour le jeu, la dalle accepte jusqu'à 165 Hz sur PC en HDMI ; What Hi-Fi? mesure 13,2 ms de latence à 60 Hz et rappelle que les consoles restent limitées à 120 Hz, PhonAndroid relève 6 ms en 1080p à 120 Hz mais une rémanence supérieure à 20 ms. Le traitement anti-reflets atténue la lumière diffuse sans bloquer les reflets intenses (What Hi-Fi?) ; PhonAndroid trouve les reflets encore gênants en plein jour.\n\nLe son divise : ample et capable de remplir la pièce pour Expert Reviews, avec un caisson qui peut craquer sur les basses très fortes selon What Hi-Fi?, aux basses peu puissantes pour PhonAndroid, qui signale aussi des publicités dans le système Vidaa. Pour un usage polyvalent et le jeu sur PC.",
   "sources": [
-   "Clubic",
-   "ZTGD",
-   "Les Numériques"
-  ],
-  "texte": "Trois médias ont noté la série U7Q de Hisense : ZTGD et Les Numériques lui donnent 8, Clubic 7, soit 7,7/10 en moyenne. Les Numériques a testé la version 65 pouces Pro, celle suivie ici.\n\nLes tests apprécient un contraste élevé sur dalle VA, un mode jeu très réactif avec un input lag minimal et un HDMI 2.1 complet. Ils notent un rétroéclairage peu dense, un HDR en manque de luminosité et une finition semi-brillante qui capte les reflets."
+   "PhonAndroid",
+   "Expert Reviews",
+   "What Hi-Fi?"
+  ]
  }
 ]

@@ -392,8 +392,8 @@
 "h": "164b91758a62"
 },
 "ecran-pc/alienware-aw2725d/": {
-"d": "2026-11-06",
-"h": "05fbf8f07f57"
+"d": "2026-11-11",
+"h": "b6694f1b8022"
 },
 "ecran-pc/alienware-aw2725q/": {
 "d": "2026-11-09",
@@ -436,16 +436,16 @@
 "h": "b9ff62c64c55"
 },
 "ecran-pc/asus-proart-pa27ucge/": {
-"d": "2026-10-30",
-"h": "6374898d063e"
+"d": "2026-11-11",
+"h": "9d999b07ef81"
 },
 "ecran-pc/asus-proart-pa32qcv/": {
-"d": "2026-10-30",
-"h": "dfa7a07e4c0a"
+"d": "2026-11-11",
+"h": "fafae595f8a0"
 },
 "ecran-pc/asus-proart-pa32ucdm/": {
-"d": "2026-10-30",
-"h": "fab178a4cd2d"
+"d": "2026-11-11",
+"h": "5ff00e141e54"
 },
 "ecran-pc/asus-rog-swift-pg32ucdm/": {
 "d": "2026-11-06",
@@ -460,20 +460,20 @@
 "h": "00c19da06dd7"
 },
 "ecran-pc/asus-zenscreen-fold-mq17qh/": {
-"d": "2026-10-30",
-"h": "87c211686127"
+"d": "2026-11-11",
+"h": "dec905c7698b"
 },
 "ecran-pc/asus-zenscreen-mb169ck/": {
-"d": "2026-10-30",
-"h": "0b9f41861c2f"
+"d": "2026-11-11",
+"h": "48592deab0c3"
 },
 "ecran-pc/asus-zenscreen-mb16acv/": {
 "d": "2026-10-30",
 "h": "f47c4e3b0f13"
 },
 "ecran-pc/benq-pd2732u/": {
-"d": "2026-10-30",
-"h": "89e31cd9d58a"
+"d": "2026-11-11",
+"h": "60998c6ac500"
 },
 "ecran-pc/bureautique/": {
 "d": "2026-11-09",
@@ -512,8 +512,8 @@
 "h": "202225b04187"
 },
 "ecran-pc/msi-mpg-271qr-x50/": {
-"d": "2026-11-06",
-"h": "157c9755f590"
+"d": "2026-11-11",
+"h": "e1cf99e1d85e"
 },
 "ecran-pc/msi-mpg-321urx/": {
 "d": "2026-11-10",
@@ -536,8 +536,8 @@
 "h": "077135a9bbb2"
 },
 "ecran-pc/viewsonic-va1655/": {
-"d": "2026-10-30",
-"h": "89a283136cb6"
+"d": "2026-11-11",
+"h": "fbcb143fd405"
 },
 "etude-notes-presse/": {
 "d": "2026-11-11",
@@ -752,8 +752,8 @@
 "h": "50132bd9f9f3"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
-"d": "2026-11-09",
-"h": "35286517eacf"
+"d": "2026-11-11",
+"h": "5998212d52b1"
 },
 "ordinateur-de-bureau/bureautique/": {
 "d": "2026-11-09",
@@ -800,16 +800,16 @@
 "h": "d1ec50627ffc"
 },
 "ordinateur-de-bureau/geekom-mini-air12-lite/": {
-"d": "2026-11-09",
-"h": "124bf8460c8c"
+"d": "2026-11-11",
+"h": "9b338f115ecd"
 },
 "ordinateur-de-bureau/geekom-mini-it12/": {
 "d": "2026-11-09",
 "h": "84d104e96056"
 },
 "ordinateur-de-bureau/gigabyte-aorus-prime-5/": {
-"d": "2026-10-30",
-"h": "99c8b75b6971"
+"d": "2026-11-11",
+"h": "257a92712aba"
 },
 "ordinateur-de-bureau/gmktec-evo-x2/": {
 "d": "2026-11-10",
@@ -832,8 +832,8 @@
 "h": "b255c0eb0373"
 },
 "ordinateur-de-bureau/hp-z2-mini-g1a/": {
-"d": "2026-10-30",
-"h": "2c9864d14d29"
+"d": "2026-11-11",
+"h": "93257c4002ec"
 },
 "ordinateur-de-bureau/lenovo-ideacentre-aio-27/": {
 "d": "2026-10-30",
@@ -848,8 +848,8 @@
 "h": "0b5ec2ad9db4"
 },
 "ordinateur-de-bureau/lenovo-loq-tower/": {
-"d": "2026-10-30",
-"h": "ec15507bbb91"
+"d": "2026-11-11",
+"h": "8a1383da653e"
 },
 "ordinateur-de-bureau/lenovo-thinkstation-p3-tiny/": {
 "d": "2026-10-30",
@@ -860,8 +860,8 @@
 "h": "cdeffa529988"
 },
 "ordinateur-de-bureau/minisforum-ai-x1-pro/": {
-"d": "2026-10-30",
-"h": "ad4bbddf8e5d"
+"d": "2026-11-11",
+"h": "d5e7647a74e5"
 },
 "ordinateur-de-bureau/minisforum-ms-s1-max/": {
 "d": "2026-10-30",
@@ -1068,8 +1068,8 @@
 "h": "f38a1d145cb3"
 },
 "pc-portable/msi-crosshair-16-hx-ai/": {
-"d": "2026-10-30",
-"h": "04dc12cadafd"
+"d": "2026-11-11",
+"h": "5cb603fddb12"
 },
 "pc-portable/msi-cyborg-15/": {
 "d": "2026-11-10",
@@ -1341,7 +1341,7 @@
 },
 "tv/hisense-u7q-pro-65/": {
 "d": "2026-11-11",
-"h": "2793b6ac48e4"
+"h": "1f4ea1c2dcd6"
 },
 "tv/jbl-bar-300-mk2/": {
 "d": "2026-11-04",
@@ -1352,8 +1352,8 @@
 "h": "723968d15b12"
 },
 "tv/lg-oled-g5-55/": {
-"d": "2026-11-04",
-"h": "bc34f9391bbf"
+"d": "2026-11-11",
+"h": "a12f3983e1fc"
 },
 "tv/lg-qned85-55/": {
 "d": "2026-11-04",
@@ -1392,8 +1392,8 @@
 "h": "4ff73d76429b"
 },
 "tv/samsung-neo-qled-qn90f-50/": {
-"d": "2026-11-04",
-"h": "5f2ee87ec4b1"
+"d": "2026-11-11",
+"h": "7bcea3d97efa"
 },
 "tv/samsung-oled-s90f-42/": {
 "d": "2026-11-04",
