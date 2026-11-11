@@ -27502,7 +27502,7 @@
     }
    ],
    "press": {
-    "avg": 8.5,
+    "avg": 8.775,
     "n": 8,
     "tests": 10,
     "scope": "modele",
@@ -27515,55 +27515,68 @@
       "src": "Absolute Geeks",
       "score": 10.0,
       "url": "https://www.absolutegeeks.com/article/reviews/speakers/willen-ii-vs-emberton-iii-review-which-marshall-speaker-reigns-supreme/",
-      "date": ""
+      "date": "2024-11-11",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Android Central",
       "score": 10.0,
       "url": "https://www.androidcentral.com/accessories/audio/marshall-emberton-iii-review",
-      "date": ""
+      "date": "2024-10-09",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechAeris",
       "score": 9.0,
       "url": "https://techaeris.com/2025/03/16/marshall-emberton-iii-review/",
-      "date": ""
+      "date": "2025-03-16"
      },
      {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-marshall-emberton-iii-la-petite-enceinte-nomade-qui-evolue-en-douceur.html",
-      "date": ""
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/marshall-emberton-iii",
+      "date": "2025-07-15",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://lecafedugeek.fr/test-marshall-emberton-iii-licone-rock-toujours-en-balade/",
-      "date": ""
+      "date": "2025-07-03",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 8.4,
+      "url": "https://www.01net.com/tests/test-marshall-emberton-iii-la-petite-enceinte-nomade-qui-evolue-en-douceur.html",
+      "date": "2024-11-15",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/marshall-emberton-iii-bluetooth-speaker-review",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/marshall-emberton-iii",
-      "date": ""
+      "date": "2024-11-03",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/marshall/2648917_test-marshall-emberton-iii-licone-bluetooth-peaufine-sa-formule",
-      "date": ""
+      "date": "2025-07-03",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/marshall-emberton-iii-bluetooth-auracast-et-32-h-d-autonomie-42767",
-      "date": ""
+      "date": "2024-09-16"
      },
      {
       "src": "MDS CineSon",
@@ -27625,8 +27638,8 @@
     }
    ],
    "press": {
-    "avg": 8.05,
-    "n": 10,
+    "avg": 8.363636363636363,
+    "n": 11,
     "tests": 14,
     "scope": "modele",
     "src": [
@@ -27638,61 +27651,90 @@
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-charge-6-review",
-      "date": ""
+      "date": "2025-09-30",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/jbl-charge-6",
-      "date": ""
+      "date": "2026-05-01",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Allround-PC",
+      "score": 9.0,
+      "url": "https://www.allround-pc.com/artikel/audio/jbl-charge-6-test-starker-sound-lange-laufzeit-auracast",
+      "date": "2026-01-14",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/jbl/2634133_test-jbl-charge-6-la-reference-des-enceintes-portables-se-bonifie-encore",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-jbl-charge-6-avis-2.html",
-      "date": ""
-     },
-     {
-      "src": "Allround-PC",
-      "score": 8.0,
-      "url": "https://www.allround-pc.com/artikel/audio/jbl-charge-6-test-starker-sound-lange-laufzeit-auracast",
-      "date": ""
+      "date": "2025-06-09",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 8.4,
       "url": "https://www.chip.de/test/JBL-Charge-6-im-Test_186357302.html",
-      "date": ""
+      "date": "2025-11-05",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.4,
+      "url": "https://www.soundguys.com/jbl-charge-6-review-132332/",
+      "date": "2025-06-11",
+      "avant": 6.5,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 8.2,
+      "url": "https://www.01net.com/tests/test-jbl-charge-6-avis-2.html",
+      "date": "2025-07-18",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-570363-test-jbl-charge-6-une-enceinte-baroudeuse-moderne-a-la-sonorite-efficace.html",
-      "date": ""
+      "date": "2025-06-29",
+      "verifie": "11/11/2026"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 8.0,
       "url": "https://www.rtings.com/speaker/reviews/jbl/charge-6",
-      "date": ""
+      "date": "2025-05-20",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "SoundGuys",
-      "score": 6.5,
-      "url": "https://www.soundguys.com/jbl-charge-6-review-132332/",
-      "date": ""
+      "src": "Digital Trends",
+      "score": 7.0,
+      "url": "https://www.digitaltrends.com/home-theater/jbl-charge-6-review/",
+      "date": "2025-04-16",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 6.0,
       "url": "https://leclaireur.fnac.com/test/589785-test-labo-de-la-jbl-charge-6-une-sacree-force-de-frappe/",
-      "date": ""
+      "date": "2025-04-20",
+      "verifie": "11/11/2026"
      },
      {
       "src": "3RD Strike",
@@ -27704,13 +27746,7 @@
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/jbl-charge-6-test-mehr-leistung-mehr-bass-mehr-ausdauer-hifi-3210149.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home-theater/jbl-charge-6-review/",
-      "date": ""
+      "date": "2025-07-24"
      },
      {
       "src": "MDS CineSon",
@@ -27718,7 +27754,8 @@
       "url": "https://www.mds-cineson.fr/test-de-lenceinte-jbl-charge-6-autonomie-impressionnante-et-robustesse",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "11/11/2026"
    },
    "prix": 149.0,
    "img": "jbl-charge-6.webp",
@@ -27772,9 +27809,9 @@
     }
    ],
    "press": {
-    "avg": 7.583333333333333,
-    "n": 12,
-    "tests": 18,
+    "avg": 8.221428571428572,
+    "n": 14,
+    "tests": 17,
     "scope": "modele",
     "src": [
      "",
@@ -27785,84 +27822,116 @@
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-flip-7-review",
-      "date": ""
+      "date": "2025-04-28",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "TestingBuddies",
+      "score": 9.5,
+      "url": "https://testingbuddies.de/reviews/jbl-flip-7-im-test-kleine-roehre-grosser-sound",
+      "date": "2025-11-06",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/jbl/2656663_test-jbl-flip-7-la-reine-des-enceintes-portables-pousse-le-volume",
-      "date": ""
+      "date": "2025-06-30",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-jbl-flip-7/",
-      "date": ""
+      "date": "2025-04-27",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-flip-7",
+      "date": "2026-04-22",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/jbl-flip-7-review/",
+      "date": "2025-03-19",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.4,
+      "url": "https://www.soundguys.com/jbl-flip-7-review-same-flip-more-features-132337/",
+      "date": "2025-06-13",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "01net",
-      "score": 8.0,
+      "score": 8.2,
       "url": "https://www.01net.com/tests/jbl-flip-7-enceinte-bluetooth-avis-complet.html",
-      "date": ""
+      "date": "2025-04-08",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-570645-test-jbl-flip-7-une-enceinte-bluetooth-compacte-qui-voyage-bien.html",
-      "date": ""
+      "date": "2025-07-06",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/jbl-flip-7/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/jbl-flip-7",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 7.0,
-      "url": "https://www.rtings.com/speaker/reviews/jbl/flip-7",
-      "date": ""
+      "date": "2025-11-21"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.6,
       "url": "https://www.chip.de/test/JBL-Flip-7-im-Test_186364815.html",
-      "date": ""
+      "date": "2026-01-28",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.4,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/flip-7",
+      "date": "2025-05-29",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 6.0,
       "url": "https://leclaireur.fnac.com/test/589786-test-labo-de-la-jbl-flip-7-bleu-une-puissance-insoupconnee/",
-      "date": ""
+      "date": "2025-04-19",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 6.0,
       "url": "https://www.phonandroid.com/test-jbl-flip-7.html",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 6.0,
-      "url": "https://www.soundguys.com/jbl-flip-7-review-same-flip-more-features-132337/",
-      "date": ""
+      "date": "2025-04-17"
      },
      {
       "src": "3RD Strike",
       "score": null,
       "url": "https://3rd-strike.com/jbl-flip-7-hardware-review/",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home-theater/jbl-flip-7-review/",
       "date": ""
      },
      {
@@ -27875,19 +27944,7 @@
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/tests/hardware/bluetooth-lautsprecher-jbl-flip-7-im-pctipp-test-2956442.html",
-      "date": ""
-     },
-     {
-      "src": "TestingBuddies",
-      "score": null,
-      "url": "https://testingbuddies.de/reviews/jbl-flip-7-im-test-kleine-roehre-grosser-sound",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/jbl-flip-7-review/",
-      "date": ""
+      "date": "2025-04-08"
      }
     ]
    },
@@ -27942,7 +27999,7 @@
     }
    ],
    "press": {
-    "avg": 7.316666666666666,
+    "avg": 7.7749999999999995,
     "n": 12,
     "tests": 13,
     "scope": "modele",
@@ -27952,34 +28009,39 @@
     ],
     "notes": [
      {
+      "src": "Absolute Geeks",
+      "score": 9.4,
+      "url": "https://www.absolutegeeks.com/article/featured-top/sony-ult-field-1-review-where-big-audio-is-delivered-in-a-small-rugged-package/",
+      "date": "2024-09-12",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "Basic Tutorials",
       "score": 8.8,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/sony-ult-field-1-test/",
-      "date": ""
+      "date": "2024-07-25",
+      "verifie": "11/11/2026"
      },
      {
       "src": "91mobiles.com",
       "score": 8.0,
       "url": "https://www.91mobiles.com/hub/sony-ult-field-1-review/",
-      "date": ""
-     },
-     {
-      "src": "Absolute Geeks",
-      "score": 8.0,
-      "url": "https://www.absolutegeeks.com/article/featured-top/sony-ult-field-1-review-where-big-audio-is-delivered-in-a-small-rugged-package/",
-      "date": ""
+      "date": "2024-07-09"
      },
      {
       "src": "Day-Technology",
       "score": 8.0,
       "url": "https://day-technology.com/sony-ult-field-1-review.html",
-      "date": ""
+      "date": "2024-12-12"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/sony/2023290_test-de-la-sony-ult-field-1-coffre-et-raffinement-pour-cette-enceinte-nomade-etanche",
-      "date": ""
+      "date": "2024-05-22",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Gadget Bridge",
@@ -27991,43 +28053,56 @@
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/sony-ult-field-1",
-      "date": ""
+      "date": "2025-06-03",
+      "verifie": "11/11/2026"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 7.7,
       "url": "https://www.rtings.com/speaker/reviews/sony/ult-field-1",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 6.0,
-      "url": "https://www.01net.com/tests/sony-ult-field-1-une-mini-enceinte-baroudeuse-et-pas-avare-en-basses.html",
-      "date": ""
-     },
-     {
-      "src": "Android Central",
-      "score": 6.0,
-      "url": "https://www.androidcentral.com/accessories/audio/sony-ult-field-1-review",
-      "date": ""
+      "date": "2024-07-10",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.6,
       "url": "https://www.chip.de/test/Sony-ULT-Field-1-im-Test_185393949.html",
-      "date": ""
+      "date": "2024-09-06",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Android Central",
+      "score": 7.0,
+      "url": "https://www.androidcentral.com/accessories/audio/sony-ult-field-1-review",
+      "date": "2024-05-29",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 6.8,
+      "url": "https://www.01net.com/tests/sony-ult-field-1-une-mini-enceinte-baroudeuse-et-pas-avare-en-basses.html",
+      "date": "2024-04-22",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
       "score": 6.0,
       "url": "https://www.soundguys.com/sony-ult-field-1-review-113404/",
-      "date": ""
+      "date": "2025-04-10"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/sony-ult-field-1-enceinte-bluetooth-baroudeuse-41818",
-      "date": ""
+      "date": "2024-05-31"
      }
     ]
    },
@@ -28092,8 +28167,8 @@
     }
    ],
    "press": {
-    "avg": 7.666666666666667,
-    "n": 9,
+    "avg": 8.03,
+    "n": 10,
     "tests": 10,
     "scope": "modele",
     "src": [
@@ -28105,7 +28180,8 @@
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/jbl-go-5-review",
-      "date": ""
+      "date": "2026-05-13",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechAeris",
@@ -28114,52 +28190,69 @@
       "date": ""
      },
      {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-go-5",
+      "date": "2026-05-12",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.3,
+      "url": "https://www.soundguys.com/jbl-go-5-review-small-upgrades-same-ultra-portable-appeal-156037/",
+      "date": "2026-04-18",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-623545-test-jbl-go-5-une-enceinte-bluetooth-compacte-et-abordable-au-son-naturel.html",
-      "date": ""
+      "date": "2026-08-04",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/jbl-go-5/",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 8.0,
-      "url": "https://www.soundguys.com/jbl-go-5-review-small-upgrades-same-ultra-portable-appeal-156037/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/jbl-go-5",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 6.0,
-      "url": "https://www.01net.com/tests/test-jbl-go-5-avis.html",
-      "date": ""
+      "date": "2026-05-13"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.4,
       "url": "https://www.chip.de/test-kaufberatung/tv-audio/jbl-go-5-im-test_82ca3982-d64e-436b-b626-4f2f6c06d665.html",
-      "date": ""
+      "date": "2026-08-17",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.4,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/go-5",
+      "date": "2026-07-21",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 7.2,
+      "url": "https://www.01net.com/tests/test-jbl-go-5-avis.html",
+      "date": "2026-05-13",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 6.0,
       "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-go-5-p77971/test.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/speaker/reviews/jbl/go-5",
-      "date": ""
+      "date": "2026-06-10",
+      "verifie": "11/11/2026"
      }
     ]
    },
@@ -28214,8 +28307,8 @@
     }
    ],
    "press": {
-    "avg": 7.375,
-    "n": 8,
+    "avg": 8.2,
+    "n": 10,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -28224,75 +28317,98 @@
     ],
     "notes": [
      {
+      "src": "Absolute Geeks",
+      "score": 9.0,
+      "url": "https://www.absolutegeeks.com/article/featured-top/sonos-roam-2-review-unbreakable-sound-for-unforgettable-adventures/",
+      "date": "2024-06-29",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/sonos/2065932_test-de-la-sonos-roam-2-la-petite-enceinte-residentielle-et-nomade-qui-a-tout-dune-grande",
-      "date": ""
+      "date": "2024-07-04",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Absolute Geeks",
-      "score": 8.0,
-      "url": "https://www.absolutegeeks.com/article/featured-top/sonos-roam-2-review-unbreakable-sound-for-unforgettable-adventures/",
-      "date": ""
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/sonos-roam-2-review",
+      "date": "2024-08-10",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/sonos-roam-2",
+      "date": "2024-09-10",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/sonos-roam-2/",
+      "date": "2024-07-20",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/sonos-roam-2/",
-      "date": ""
+      "date": "2025-05-16"
      },
      {
-      "src": "TechRadar",
+      "src": "Les Numériques",
       "score": 8.0,
-      "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/sonos-roam-2-review",
-      "date": ""
+      "url": "https://www.lesnumeriques.com/enceintes-portables/sonos-roam-2-p75017/test.html",
+      "date": "2024-07-23",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.4,
+      "url": "https://www.soundguys.com/sonos-roam-2-review-119162/",
+      "date": "2025-06-16",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Android Central",
       "score": 7.0,
       "url": "https://www.androidcentral.com/accessories/audio/sonos-roam-2-review",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 7.0,
-      "url": "https://www.soundguys.com/sonos-roam-2-review-119162/",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 6.0,
-      "url": "https://www.lesnumeriques.com/enceintes-portables/sonos-roam-2-p75017/test.html",
-      "date": ""
+      "date": "2024-06-25",
+      "verifie": "11/11/2026"
      },
      {
       "src": "RTings",
-      "score": 6.0,
+      "score": 6.6,
       "url": "https://www.rtings.com/speaker/reviews/sonos/roam-2",
-      "date": ""
+      "date": "2024-06-20",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/sonos-roam-2-test-kompakter-allrounder-mit-multi-room-und-smarter-steuerung-3207204.html",
-      "date": ""
+      "date": "2024-10-11"
      },
      {
       "src": "MDS CineSon",
       "score": null,
       "url": "https://www.mds-cineson.fr/test-sonos-roam-2-lenceinte-nomade-compacte-et-etanche",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/sonos-roam-2",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/sonos-roam-2/",
       "date": ""
      }
     ]
@@ -28347,7 +28463,7 @@
     }
    ],
    "press": {
-    "avg": 7.0,
+    "avg": 7.233333333333333,
     "n": 6,
     "tests": 7,
     "scope": "modele",
@@ -28369,6 +28485,15 @@
       "date": ""
      },
      {
+      "src": "01net",
+      "score": 7.4,
+      "url": "https://www.01net.com/tests/test-de-la-bose-soundlink-flex-2e-generation-lenceinte-du-baroudeur-exigeant.html",
+      "date": "2024-11-22",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "RTings",
       "score": 7.0,
       "url": "https://www.rtings.com/speaker/reviews/bose/soundlink-flex-2nd-gen",
@@ -28378,12 +28503,6 @@
       "src": "SoundGuys",
       "score": 7.0,
       "url": "https://www.soundguys.com/bose-soundlink-flex-2nd-gen-review-125253/",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 6.0,
-      "url": "https://www.01net.com/tests/test-de-la-bose-soundlink-flex-2e-generation-lenceinte-du-baroudeur-exigeant.html",
       "date": ""
      },
      {
@@ -28451,7 +28570,7 @@
     }
    ],
    "press": {
-    "avg": 7.166666666666667,
+    "avg": 8.0,
     "n": 6,
     "tests": 6,
     "scope": "modele",
@@ -28461,42 +28580,59 @@
     ],
     "notes": [
      {
-      "src": "Frandroid",
-      "score": 8.0,
-      "url": "https://www.frandroid.com/marques/ultimate-ears/2084350_test-de-la-ultimate-ears-wonderboom-4-faut-il-craquer-pour-cette-nouvelle-version",
-      "date": ""
-     },
-     {
       "src": "Tech Advisor",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.techadvisor.com/article/2437722/ultimate-ears-wonderboom-4-review.html",
-      "date": ""
+      "date": "2024-08-24",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechRadar",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.techradar.com/audio/wireless-bluetooth-speakers/ultimate-ears-wonderboom-4-review",
-      "date": ""
+      "date": "2024-09-26",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Frandroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/marques/ultimate-ears/2084350_test-de-la-ultimate-ears-wonderboom-4-faut-il-craquer-pour-cette-nouvelle-version",
+      "date": "2024-07-21",
+      "verifie": "11/11/2026"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 7.9,
       "url": "https://www.rtings.com/speaker/reviews/ultimate-ears/wonderboom-4",
-      "date": ""
+      "date": "2024-09-20",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "01net",
-      "score": 6.0,
+      "score": 7.6,
       "url": "https://www.01net.com/tests/test-ultimate-ears-wonderboom-4-lenceinte-ultra-nomade-qui-ne-craint-presque-rien.html",
-      "date": ""
+      "date": "2024-07-09",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
-      "score": 6.0,
+      "score": 6.5,
       "url": "https://www.soundguys.com/ultimate-ears-wonderboom-4-review-121445/",
-      "date": ""
+      "date": "2024-08-14",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      }
-    ]
+    ],
+    "releve_source": "11/11/2026"
    },
    "prix": 76.69,
    "img": "ue-wonderboom-4.webp",
@@ -28559,8 +28695,8 @@
     }
    ],
    "press": {
-    "avg": 6.714285714285714,
-    "n": 7,
+    "avg": 7.109999999999999,
+    "n": 10,
     "tests": 10,
     "scope": "modele",
     "src": [
@@ -28575,58 +28711,80 @@
       "date": ""
      },
      {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/jbl-grip",
+      "date": "2026-04-23",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/headphones-audio/jbl-grip-review",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/jbl-grip",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "SoundGuys",
-      "score": 7.0,
+      "score": 7.9,
       "url": "https://www.soundguys.com/jbl-grip-review-143712/",
-      "date": ""
+      "date": "2025-09-28",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.2,
+      "url": "https://www.rtings.com/speaker/reviews/jbl/grip",
+      "date": "2026-01-30",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Allround-PC",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.allround-pc.com/artikel/audio/jbl-grip-im-test-zwischen-go-4-und-flip-7-lohnt-sich-der-neue-mittelklasse-speaker",
-      "date": ""
+      "date": "2025-11-27",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.chip.de/test/JBL-Grip-im-Test_186382108.html",
-      "date": ""
+      "date": "2025-11-09",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 7.0,
+      "url": "https://www.wired.com/review/jbl-grip/",
+      "date": "2025-12-08",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-grip-p76931/test.html",
+      "date": "2026-01-13",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 2.0,
       "url": "https://leclaireur.fnac.com/test/634316-test-labo-de-la-jbl-grip-une-entree-de-gamme-qui-manque-de-puissan/",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/enceintes-portables/jbl-grip-p76931/test.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/speaker/reviews/jbl/grip",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/jbl-grip/",
-      "date": ""
+      "date": "2025-11-22",
+      "verifie": "11/11/2026"
      }
     ]
    },
@@ -28701,9 +28859,11 @@
       "src": "Labo Fnac",
       "score": 2.0,
       "url": "https://leclaireur.fnac.com/test/582393-test-labo-de-la-jbl-go-essential-2-une-petite-enceinte-abordable-et-sans-pretentions/",
-      "date": ""
+      "date": "2025-03-21",
+      "verifie": "11/11/2026"
      }
-    ]
+    ],
+    "releve_source": "11/11/2026"
    },
    "prix": 29.0,
    "img": "jbl-go-essential-2.webp",
@@ -29715,9 +29875,9 @@
     }
    ],
    "press": {
-    "avg": 8.083333333333334,
-    "n": 12,
-    "tests": 26,
+    "avg": 8.546666666666665,
+    "n": 15,
+    "tests": 24,
     "scope": "modele",
     "src": [
      "",
@@ -29731,22 +29891,56 @@
       "date": ""
      },
      {
-      "src": "Frandroid",
-      "score": 9.0,
-      "url": "https://www.frandroid.com/marques/samsung/3008317_test-des-samsung-galaxy-buds-4-pro-samsung-joue-enfin-dans-la-cour-des-grands",
-      "date": ""
+      "src": "Chip.de",
+      "score": 9.8,
+      "url": "https://www.chip.de/test/Samsung-Galaxy-Buds4-Pro-im-Test_186712417.html",
+      "date": "2026-03-12",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Absolute Geeks",
-      "score": 8.0,
+      "score": 9.4,
       "url": "https://www.absolutegeeks.com/article/reviews/samsung-galaxy-buds-4-pro-review-premium-sound-smart-galaxy-features-and-a-design-that-feels-complete/",
-      "date": ""
+      "date": "2026-03-16",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Samsung-Galaxy-Buds4-Pro-im-Test_186712417.html",
-      "date": ""
+      "src": "Frandroid",
+      "score": 9.0,
+      "url": "https://www.frandroid.com/marques/samsung/3008317_test-des-samsung-galaxy-buds-4-pro-samsung-joue-enfin-dans-la-cour-des-grands",
+      "date": "2026-03-11",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/samsung-galaxy-buds-4-pro-p77825/test.html",
+      "date": "2026-02-25",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 8.8,
+      "url": "https://www.kopfhoerer.de/test/samsung-galaxy-buds4-pro/",
+      "date": "2026-04-01",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.4,
+      "url": "https://www.rtings.com/headphones/reviews/samsung/galaxy-buds4-pro",
+      "date": "2026-03-23",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Gadget Bridge",
@@ -29755,28 +29949,25 @@
       "date": ""
      },
      {
-      "src": "Kopfhörer",
-      "score": 8.0,
-      "url": "https://www.kopfhoerer.de/test/samsung-galaxy-buds4-pro/",
-      "date": ""
-     },
-     {
       "src": "Multiplayer.it",
       "score": 8.0,
       "url": "https://multiplayer.it/recensioni/samsung-galaxy-buds4-pro-recensione-auricolari-true-wireless-galaxy.html",
-      "date": ""
+      "date": "2026-04-08",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 8.0,
       "url": "https://www.presse-citron.net/jai-teste-les-galaxy-buds4-pro-pendant-une-semaine-samsung-a-son-meilleur/",
-      "date": ""
+      "date": "2026-02-25",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
       "score": 8.0,
       "url": "https://www.soundguys.com/samsung-galaxy-buds-4-pro-review-153435/",
-      "date": ""
+      "date": "2026-03-01",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Tom's Guide (US)",
@@ -29791,16 +29982,22 @@
       "date": ""
      },
      {
-      "src": "01net",
-      "score": 6.0,
-      "url": "https://www.01net.com/tests/test-galaxy-buds4-pro-avis.html",
-      "date": ""
+      "src": "Wired",
+      "score": 8.0,
+      "url": "https://www.wired.com/review/samsung-galaxy-buds-4-pro/",
+      "date": "2026-03-18",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Android Central",
-      "score": null,
-      "url": "https://www.androidcentral.com/accessories/earbuds/the-samsung-galaxy-buds-4-pro-leaks-dont-impress-me",
-      "date": ""
+      "src": "01net",
+      "score": 7.8,
+      "url": "https://www.01net.com/tests/test-galaxy-buds4-pro-avis.html",
+      "date": "2026-02-25",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Android Headlines",
@@ -29836,31 +30033,13 @@
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/samsung-galaxy-buds4-pro-test-review-klang-android-smartphone/403141357",
-      "date": ""
+      "date": "2026-03-16"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/lifestyle/audio/samsung-galaxy-buds4-pro-review-singapore-price-buy",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/samsung-galaxy-buds-4-pro-p77825/test.html",
-      "date": ""
-     },
-     {
-      "src": "MajorHiFi",
-      "score": null,
-      "url": "https://majorhifi.com/samsung-galaxy-buds-4-pro-vs-sony-wf-1000xm6-which-true-wireless-earbuds-are-better/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/samsung/galaxy-buds4-pro",
-      "date": ""
+      "date": "2026-03-21"
      },
      {
       "src": "SamMobile",
@@ -29872,12 +30051,6 @@
       "src": "T3",
       "score": null,
       "url": "https://www.t3.com/tech/earbuds/samsung-galaxy-buds-4-pro-review-one-week-early-verdict",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/samsung-galaxy-buds-4-pro/",
       "date": ""
      }
     ]
@@ -29934,8 +30107,8 @@
     }
    ],
    "press": {
-    "avg": 8.45625,
-    "n": 16,
+    "avg": 8.915000000000001,
+    "n": 20,
     "tests": 29,
     "scope": "modele",
     "src": [
@@ -29944,178 +30117,219 @@
     ],
     "notes": [
      {
+      "src": "Absolute Geeks",
+      "score": 10.0,
+      "url": "https://www.absolutegeeks.com/article/reviews/headphones/airpods-pro-3-apple-took-the-best-earbuds-ever-and-somehow-leveled-them-up-again/",
+      "date": "2025-09-19",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/apple-airpods-pro-3-p75593/test.html",
-      "date": ""
+      "date": "2025-10-03",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/apple-airpods-pro-3",
-      "date": ""
+      "date": "2025-10-22",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Kopfhörer",
+      "score": 9.6,
+      "url": "https://www.kopfhoerer.de/test/apple-airpods-pro-3/",
+      "date": "2025-10-10",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 9.5,
+      "url": "https://www.presse-citron.net/test-airpods-pro-3-apple/",
+      "date": "2025-10-12",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "ComputerHoy",
       "score": 9.3,
       "url": "https://computerhoy.20minutos.es/apple/airpods-pro-3-son-evolucion-perfecta-comodidad-mejoras-salud-cancelacion-ruido-top-1486075",
-      "date": ""
+      "date": "2025-10-07",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 9.2,
+      "url": "https://www.01net.com/tests/test-airpods-pro-3-apple-avis.html",
+      "date": "2025-09-29",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.2,
+      "url": "https://www.chip.de/test/Apple-AirPods-Pro-3-im-Test_186319106.html",
+      "date": "2026-02-06",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-581206-test-apple-airpods-pro-3-les-pro-2-ridiculises-ou-toujours-dans-le-coup.html",
-      "date": ""
+      "date": "2025-09-30",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Digital Trends",
+      "score": 9.0,
+      "url": "https://www.digitaltrends.com/home-theater/apple-airpods-pro-3-review/",
+      "date": "2026-05-26",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/apple/2821325_test-des-apple-airpods-pro-3-apple-enfonce-le-clou",
-      "date": ""
+      "date": "2025-10-07",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Numerama",
       "score": 9.0,
       "url": "https://www.numerama.com/tech/2074001-on-a-teste-les-airpods-pro-3-dapple-du-mieux-a-tous-les-niveaux.html",
-      "date": ""
-     },
-     {
-      "src": "Presse-citron",
-      "score": 9.0,
-      "url": "https://www.presse-citron.net/test-airpods-pro-3-apple/",
-      "date": ""
+      "date": "2025-09-15",
+      "verifie": "11/11/2026"
      },
      {
       "src": "The Verge",
       "score": 9.0,
       "url": "https://www.theverge.com/headphone-review/777798/airpods-pro-3-review-active-noise-cancelling-live-translation-headphones",
-      "date": ""
+      "date": "2025-09-15",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-airpods-pro-3-apple-avis.html",
-      "date": ""
+      "src": "Tom's Guide (US)",
+      "score": 9.0,
+      "url": "https://www.tomsguide.com/audio/airpods/apple-airpods-pro-3-review",
+      "date": "2025-09-15",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Apple-AirPods-Pro-3-im-Test_186319106.html",
-      "date": ""
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/apple-airpods-pro-3/",
+      "date": "2025-09-26",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.5,
+      "url": "https://www.rtings.com/headphones/reviews/apple/airpods-pro-3",
+      "date": "2025-10-14",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "GeekiT",
-      "score": 8.0,
+      "score": 8.2,
       "url": "https://www.geekit.fr/tests/audio/6187/test-des-apple-airpods-pro-3-la-reference-de-l-iphone-devient-plus-accessible",
-      "date": ""
+      "date": "2026-06-06",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "ImTest",
       "score": 8.0,
       "url": "https://www.imtest.de/einzeltests/audio/apple-airpods-pro-3-test-review/582296",
-      "date": ""
-     },
-     {
-      "src": "Kopfhörer",
-      "score": 8.0,
-      "url": "https://www.kopfhoerer.de/test/apple-airpods-pro-3/",
-      "date": ""
-     },
-     {
-      "src": "Tom's Guide (US)",
-      "score": 8.0,
-      "url": "https://www.tomsguide.com/audio/airpods/apple-airpods-pro-3-review",
-      "date": ""
+      "date": "2026-10-03"
      },
      {
       "src": "SoundGuys",
-      "score": 7.0,
+      "score": 7.8,
       "url": "https://www.soundguys.com/apple-airpods-pro-3-review-close-to-perfect-144636/",
-      "date": ""
+      "date": "2025-11-19",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 6.0,
       "url": "https://leclaireur.fnac.com/test/628548-test-labo-des-apple-airpods-pro-3-un-nouveau-modele-qui-interroge/",
-      "date": ""
+      "date": "2025-10-07",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/airpods-pro-3-moniteur-cardiaque-en-vue-43659",
-      "date": ""
-     },
-     {
-      "src": "Absolute Geeks",
-      "score": null,
-      "url": "https://www.absolutegeeks.com/article/reviews/headphones/airpods-pro-3-apple-took-the-best-earbuds-ever-and-somehow-leveled-them-up-again/",
-      "date": ""
+      "date": "2024-12-27"
      },
      {
       "src": "Allround-PC",
       "score": null,
       "url": "https://www.allround-pc.com/artikel/audio/apple-airpods-pro-3-im-test-evolution-statt-revolution",
-      "date": ""
+      "date": "2025-12-08"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/airpods-pro-3",
-      "date": ""
+      "date": "2025-10-03"
      },
      {
       "src": "ComputerBase",
       "score": null,
       "url": "https://www.computerbase.de/artikel/audio-video-foto/apple-airpods-pro-3-test.94381/",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home-theater/apple-airpods-pro-3-review/",
-      "date": ""
+      "date": "2025-09-26"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/airpods-pro-3-apple-test-erfahrung-review-anc-geraeuschunterdrueckung-herzfrequenz-puls-preis/403087360",
-      "date": ""
+      "date": "2025-09-26"
      },
      {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/apple-airpods-pro-3-test,3439853.html",
-      "date": ""
+      "date": "2025-09-23"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/lifestyle/audio/apple-airpods-pro-3-review-why-would-you-buy-anything-else",
-      "date": ""
+      "date": "2025-10-05"
      },
      {
       "src": "MajorHiFi",
       "score": null,
       "url": "https://majorhifi.com/apple-airpods-pro-3-review/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/apple/airpods-pro-3",
-      "date": ""
+      "date": "2026-05-27"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/13808/apple-airpods-pro-3-iets-goedkoper-maar-veel-beter.html",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/apple-airpods-pro-3/",
-      "date": ""
+      "date": "2025-09-26"
      }
     ]
    },
@@ -30174,9 +30388,9 @@
     }
    ],
    "press": {
-    "avg": 8.658333333333333,
-    "n": 12,
-    "tests": 14,
+    "avg": 8.9875,
+    "n": 8,
+    "tests": 10,
     "scope": "modele",
     "src": [
      "",
@@ -30187,7 +30401,8 @@
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/bose-qc-ultra-earbuds-2e-generation-p76907/test.html",
-      "date": ""
+      "date": "2025-08-05",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Trusted Reviews",
@@ -30211,7 +30426,8 @@
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/bose/2774033_test-bose-quietcomfort-ultra-earbuds-2nd-gen-une-evolution-subtile-qui-affine-lanc-et-le-son",
-      "date": ""
+      "date": "2025-09-10",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechAeris",
@@ -30223,30 +30439,6 @@
       "src": "01net",
       "score": 8.0,
       "url": "https://www.01net.com/tests/test-bose-quietcomfort-ultra-2-avis.html",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Bose-QuietComfort-Ultra-Headphones-2.-Gen-Test_186327641.html",
-      "date": ""
-     },
-     {
-      "src": "Kopfhörer",
-      "score": 8.0,
-      "url": "https://www.kopfhoerer.de/test/bose-quietcomfort-ultra-headphones-2-gen/",
-      "date": ""
-     },
-     {
-      "src": "Labo Fnac",
-      "score": 8.0,
-      "url": "https://leclaireur.fnac.com/test/628547-test-labo-du-bose-quietcomfort-ultra-2nd-gen-un-casque-bien-sous-tous-rapports/",
-      "date": ""
-     },
-     {
-      "src": "T3",
-      "score": 8.0,
-      "url": "https://www.t3.com/tech/headphones/bose-quietcomfort-ultra-headphones-2-review",
       "date": ""
      },
      {
@@ -30322,8 +30514,8 @@
     }
    ],
    "press": {
-    "avg": 8.261538461538462,
-    "n": 13,
+    "avg": 8.84375,
+    "n": 16,
     "tests": 24,
     "scope": "modele",
     "src": [
@@ -30335,61 +30527,113 @@
       "src": "Absolute Geeks",
       "score": 10.0,
       "url": "https://www.absolutegeeks.com/article/reviews/sony-wf-1000xm6-review-the-noise-canceling-crown-has-been-reforged-and-silence-just-unlocked-its-final-form/",
-      "date": ""
+      "date": "2026-02-13",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 10.0,
+      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/sony-wf-1000xm6-p77881/test.html",
+      "date": "2026-02-12",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/sony-wf-1000xm6",
-      "date": ""
+      "date": "2026-02-12",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.6,
+      "url": "https://www.chip.de/test/Sony-WF-1000XM6-im-Test_186723912.html",
+      "date": "2026-03-18",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 9.4,
+      "url": "https://www.01net.com/tests/test-sony-wf-1000xm6-le-roi-du-silence-fait-taire-la-concurrence.html",
+      "date": "2026-02-12",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 9.2,
+      "url": "https://www.presse-citron.net/test-sony-wf-1000xm6-avis/",
+      "date": "2026-03-25",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/sony/2970723_test-sony-wf-1000xm6-la-claque-audiophile",
-      "date": ""
+      "date": "2026-02-12",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-sony-wf-1000xm6-petits-mais-tellement-costauds/",
-      "date": ""
+      "date": "2026-02-12",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Presse-citron",
+      "src": "Labo Fnac",
       "score": 9.0,
-      "url": "https://www.presse-citron.net/test-sony-wf-1000xm6-avis/",
-      "date": ""
+      "url": "https://leclaireur.fnac.com/test/cp69963-sony-wf-1000xm6-le-nouveau-roi-du-silence-est-il-arrive-notre-prise-en-main/",
+      "date": "2026-02-12",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/sony-wf-1000xm6/",
+      "date": "2026-03-13",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.5,
+      "url": "https://www.rtings.com/headphones/reviews/sony/wf-1000xm6",
+      "date": "2026-03-12",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Engadget",
       "score": 8.4,
       "url": "https://www.engadget.com/audio/headphones/sony-wf-1000xm6-review-facing-tougher-competition-160000652.html?src=rss",
-      "date": ""
+      "date": "2026-02-12"
      },
      {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-sony-wf-1000xm6-le-roi-du-silence-fait-taire-la-concurrence.html",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Sony-WF-1000XM6-im-Test_186723912.html",
-      "date": ""
+      "src": "SoundGuys",
+      "score": 8.4,
+      "url": "https://www.soundguys.com/sony-wf-1000xm6-review-152013/",
+      "date": "2026-04-02",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/sony-wf-1000xm6/",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 8.0,
-      "url": "https://www.soundguys.com/sony-wf-1000xm6-review-152013/",
-      "date": ""
+      "date": "2026-03-12"
      },
      {
       "src": "T3",
@@ -30401,13 +30645,7 @@
       "src": "L&B Tech",
       "score": 6.0,
       "url": "https://www.lbtechreviews.com/test/headphones/sony-wf-1000xm6",
-      "date": ""
-     },
-     {
-      "src": "Labo Fnac",
-      "score": 6.0,
-      "url": "https://leclaireur.fnac.com/test/cp69963-sony-wf-1000xm6-le-nouveau-roi-du-silence-est-il-arrive-notre-prise-en-main/",
-      "date": ""
+      "date": "2026-02-17"
      },
      {
       "src": "Android Headlines",
@@ -30419,61 +30657,43 @@
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/sony-wf-1000xm6",
-      "date": ""
+      "date": "2026-02-12"
      },
      {
       "src": "ComputerBase",
       "score": null,
       "url": "https://www.computerbase.de/artikel/audio-video-foto/sony-wf-1000xm6-test.96239/",
-      "date": ""
+      "date": "2026-03-16"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/sony-wf-1000xm6-in-ear-kopfhoerer-test-3211901.html",
-      "date": ""
+      "date": "2026-03-05"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/sony-wf-1000xm6-test-in-ear-kopfhoerer-sound-komfort-anc/403142845",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/sony-wf-1000xm6-p77881/test.html",
-      "date": ""
+      "date": "2026-03-31"
      },
      {
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/tests/audio/im-test-sony-wf-1000xm6-2981707.html",
-      "date": ""
+      "date": "2026-02-17"
      },
      {
       "src": "Peopleware",
       "score": null,
       "url": "https://pplware.sapo.pt/analises-2/analise-sony-wf-1000xm6-dos-melhores-cancelamentos-de-ruido-que-ja-testamos/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/sony/wf-1000xm6",
-      "date": ""
+      "date": "2026-06-06"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14344/sony-wf-1000xm6-geen-juweeltjes-wel-weer-de-kroon.html",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/sony-wf-1000xm6/",
-      "date": ""
+      "date": "2026-02-12"
      }
     ]
    },
@@ -30529,8 +30749,8 @@
     }
    ],
    "press": {
-    "avg": 8.4,
-    "n": 11,
+    "avg": 8.738461538461538,
+    "n": 13,
     "tests": 19,
     "scope": "modele",
     "src": [
@@ -30539,64 +30759,101 @@
     ],
     "notes": [
      {
+      "src": "Stuff",
+      "score": 10.0,
+      "url": "https://www.stuff.tv/review/sennheiser-momentum-5-true-wireless-review/",
+      "date": "2026-09-03",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/audio/earbuds-airpods/sennheisers-eco-conscious-addition-to-the-momentum-true-wireless-5-earbuds-is-commendable-but-their-sound-alone-makes-them-the-buds-to-beat",
-      "date": ""
+      "date": "2026-09-27",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/sennheiser-momentum-true-wireless-5",
-      "date": ""
+      "date": "2026-09-28",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "TechAeris",
+      "score": 9.5,
+      "url": "https://techaeris.com/2026/10/12/sennheiser-momentum-true-wireless-5/",
+      "date": "2026-10-12",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.4,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/sennheiser-momentum-true-wireless-5-im-test/",
-      "date": ""
-     },
-     {
-      "src": "TechAeris",
-      "score": 9.0,
-      "url": "https://techaeris.com/2026/10/12/sennheiser-momentum-true-wireless-5/",
-      "date": ""
+      "date": "2026-09-17",
+      "verifie": "11/11/2026"
      },
      {
       "src": "01net",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.01net.com/tests/test-sennheiser-momentum-true-wireless-5-avis.html",
-      "date": ""
+      "date": "2026-09-18",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 8.6,
+      "url": "https://geekculture.co/sennheiser-momentum-true-wireless-5-earbuds-review/",
+      "date": "2026-09-03",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Engadget",
+      "score": 8.4,
+      "url": "https://www.engadget.com/2249856/sennheiser-momentum-true-wireless-5-review/",
+      "date": "2026-09-03",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.4,
+      "url": "https://www.rtings.com/headphones/reviews/sennheiser/momentum-true-wireless-5",
+      "date": "2026-09-21",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.3,
+      "url": "https://www.soundguys.com/sennheiser-momentum-true-wireless-5-review-161261/",
+      "date": "2026-09-03",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-627967-test-sennheiser-momentum-true-wireless-5-la-qualite-hifi-pour-l-eternite.html",
-      "date": ""
-     },
-     {
-      "src": "Engadget",
-      "score": 8.0,
-      "url": "https://www.engadget.com/2249856/sennheiser-momentum-true-wireless-5-review/",
-      "date": ""
-     },
-     {
-      "src": "GeekCulture",
-      "score": 8.0,
-      "url": "https://geekculture.co/sennheiser-momentum-true-wireless-5-earbuds-review/",
-      "date": ""
+      "date": "2026-09-03",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/sennheiser-momentum-true-wireless-5/",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 8.0,
-      "url": "https://www.soundguys.com/sennheiser-momentum-true-wireless-5-review-161261/",
-      "date": ""
+      "date": "2026-09-09"
      },
      {
       "src": "Gadget Bridge",
@@ -30608,48 +30865,36 @@
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/sennheiser-momentum-true-wireless-5-test/",
-      "date": ""
+      "date": "2026-10-07"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/sennheiser-momentum-true-wireless-5-test-3213896.html",
-      "date": ""
+      "date": "2026-10-16"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/lifestyle/audio/sennheiser-momentum-true-wireless-5-review-big-potatoes-earbuds",
-      "date": ""
+      "date": "2026-09-03"
      },
      {
       "src": "Labo Fnac",
       "score": null,
       "url": "https://leclaireur.fnac.com/test/cp72239-sennheiser-momentum-5-et-momentum-true-wireless-5-le-sans-fil-monte-en-gamme/",
-      "date": ""
+      "date": "2026-09-15"
      },
      {
       "src": "MajorHiFi",
       "score": null,
       "url": "https://majorhifi.com/sennheiser-momentum-true-wireless-5-review/",
-      "date": ""
+      "date": "2026-09-03"
      },
      {
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/themen/tests/im-test-sennheiser-momentum-true-wireless-5",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/sennheiser/momentum-true-wireless-5",
-      "date": ""
-     },
-     {
-      "src": "Stuff",
-      "score": null,
-      "url": "https://www.stuff.tv/review/sennheiser-momentum-5-true-wireless-review/",
       "date": ""
      }
     ]
@@ -30708,8 +30953,8 @@
     }
    ],
    "press": {
-    "avg": 7.811764705882354,
-    "n": 17,
+    "avg": 8.11578947368421,
+    "n": 19,
     "tests": 28,
     "scope": "modele",
     "src": [
@@ -30717,6 +30962,15 @@
      ""
     ],
     "notes": [
+     {
+      "src": "Chip.de",
+      "score": 9.8,
+      "url": "https://www.chip.de/test/Google-Pixel-Buds-Pro-2-im-Test_185587365.html",
+      "date": "2024-11-13",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
      {
       "src": "AndroidPit",
       "score": 9.0,
@@ -30727,13 +30981,32 @@
       "src": "The Verge",
       "score": 9.0,
       "url": "https://www.theverge.com/24254109/google-pixel-buds-pro-2-review",
-      "date": ""
+      "date": "2024-09-25",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/google-pixel-buds-pro-2/",
+      "date": "2024-09-28",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 8.9,
+      "url": "https://www.presse-citron.net/test-google-pixel-buds-pro-2/",
+      "date": "2024-10-27",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Engadget",
       "score": 8.8,
       "url": "https://www.engadget.com/audio/headphones/pixel-buds-pro-2-review-tiny-earbuds-with-big-sound-and-a-direct-line-to-gemini-170016328.html?src=rss",
-      "date": ""
+      "date": "2024-09-25"
      },
      {
       "src": "01net",
@@ -30745,19 +31018,23 @@
       "src": "Android Central",
       "score": 8.0,
       "url": "https://www.androidcentral.com/accessories/earbuds/google-pixel-buds-pro-2-review",
-      "date": ""
+      "date": "2024-09-25",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Chip.de",
+      "src": "Digital Trends",
       "score": 8.0,
-      "url": "https://www.chip.de/test/Google-Pixel-Buds-Pro-2-im-Test_185587365.html",
-      "date": ""
+      "url": "https://www.digitaltrends.com/home-theater/google-pixel-buds-pro-2-review/",
+      "date": "2024-09-25",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "HardwareZone",
       "score": 8.0,
       "url": "https://www.hardwarezone.com.sg/review-google-pixel-buds-pro-2-singapore-price-specs-buy",
-      "date": ""
+      "date": "2024-10-07"
      },
      {
       "src": "Journal du Geek",
@@ -30769,55 +31046,62 @@
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/google-pixel-buds-pro-2/",
-      "date": ""
+      "date": "2025-09-30"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/659350-test-labo-des-google-pixel-buds-pro-2-des-intras-equilibres-mais-perfectibles/",
-      "date": ""
+      "date": "2026-03-24",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Multiplayer.it",
       "score": 8.0,
       "url": "https://multiplayer.it/recensioni/pixel-buds-pro-2-recensione-migliori-auricolari-google.html",
-      "date": ""
+      "date": "2024-11-12",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Presse-citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/test-google-pixel-buds-pro-2/",
-      "date": ""
+      "src": "Absolute Geeks",
+      "score": 7.8,
+      "url": "https://www.absolutegeeks.com/article/featured-top/google-pixel-buds-pro-2-review-can-they-dethrone-apples-airpods-pro-2/",
+      "date": "2024-11-11",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "RTings",
-      "score": 8.0,
+      "score": 7.5,
       "url": "https://www.rtings.com/headphones/reviews/google/pixel-buds-pro-2-truly-wireless",
-      "date": ""
+      "date": "2025-01-27",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.4,
+      "url": "https://www.soundguys.com/google-pixel-buds-pro-2-review-124563/",
+      "date": "2025-06-11",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/google/2373772_test-des-google-pixel-buds-pro-2-un-son-ameliore-et-une-touche-dintelligence-artificielle",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 7.0,
-      "url": "https://www.soundguys.com/google-pixel-buds-pro-2-review-124563/",
-      "date": ""
-     },
-     {
-      "src": "Absolute Geeks",
-      "score": 6.0,
-      "url": "https://www.absolutegeeks.com/article/featured-top/google-pixel-buds-pro-2-review-can-they-dethrone-apples-airpods-pro-2/",
-      "date": ""
+      "date": "2024-10-21",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 6.0,
       "url": "https://www.techradar.com/audio/earbuds-airpods/google-pixel-buds-pro-2-review",
-      "date": ""
+      "date": "2024-09-26",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Android Headlines",
@@ -30829,37 +31113,31 @@
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/google-pixel-buds-pro-2",
-      "date": ""
+      "date": "2024-09-25"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/google-pixel-buds-pro-2-im-test/",
-      "date": ""
+      "date": "2025-10-20"
      },
      {
       "src": "ComputerBase",
       "score": null,
       "url": "https://www.computerbase.de/artikel/audio-video-foto/google-pixel-buds-pro-2-test.90021/",
-      "date": ""
+      "date": "2024-10-23"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/google-pixel-buds-pro-2-test-3207630.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home-theater/google-pixel-buds-pro-2-review/",
-      "date": ""
+      "date": "2024-11-22"
      },
      {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/google-pixel-buds-pro-2-test-review,3422087.html",
-      "date": ""
+      "date": "2024-11-03"
      },
      {
       "src": "Games.ch",
@@ -30877,12 +31155,6 @@
       "src": "Well Played",
       "score": null,
       "url": "https://www.well-played.com.au/google-pixel-buds-pro-2-review/",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/google-pixel-buds-pro-2/",
       "date": ""
      }
     ]
@@ -30951,8 +31223,8 @@
     }
    ],
    "press": {
-    "avg": 7.973684210526316,
-    "n": 19,
+    "avg": 8.027272727272727,
+    "n": 22,
     "tests": 31,
     "scope": "modele",
     "src": [
@@ -30964,7 +31236,7 @@
       "src": "Expert Reviews",
       "score": 10.0,
       "url": "https://www.expertreviews.co.uk/technology/audio/headphones/apple-airpods-4-review",
-      "date": ""
+      "date": "2024-12-03"
      },
      {
       "src": "AndroidPit",
@@ -30976,121 +31248,175 @@
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/apple/2368232_test-des-apple-airpods-4-avec-anc-apple-reinvente-les-ecouteurs-ouverts",
-      "date": ""
+      "date": "2024-10-15",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-apple-airpods-4-avec-reduction-active-du-bruit-beaucoup-de-qualites-et-un-seul-gros-defaut.html",
-      "date": ""
-     },
-     {
-      "src": "Absolute Geeks",
-      "score": 8.0,
-      "url": "https://www.absolutegeeks.com/article/featured-top/apple-airpods-4-review-open-ear-anc-done-right/",
-      "date": ""
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/apple-airpods-4-with-anc",
+      "date": "2024-10-11",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://www.chip.de/test/Apple-AirPods-4-mit-ANC-im-Test_185640399.html",
-      "date": ""
+      "date": "2024-12-05",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Absolute Geeks",
+      "score": 8.4,
+      "url": "https://www.absolutegeeks.com/article/featured-top/apple-airpods-4-review-open-ear-anc-done-right/",
+      "date": "2024-09-21",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 8.2,
+      "url": "https://www.01net.com/tests/test-apple-airpods-4-avec-reduction-active-du-bruit-beaucoup-de-qualites-et-un-seul-gros-defaut.html",
+      "date": "2024-09-22",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-577830-test-apple-airpods-4-anc-les-meilleurs-true-wireless-ouverts-malgre-quelques-defauts.html",
-      "date": ""
+      "date": "2025-09-10",
+      "verifie": "11/11/2026"
      },
      {
       "src": "GeekCulture",
       "score": 8.0,
       "url": "https://geekculture.co/apple-airpods-4-with-active-noise-cancellation-review/",
-      "date": ""
+      "date": "2024-09-16",
+      "verifie": "11/11/2026"
      },
      {
       "src": "HardwareZone",
       "score": 8.0,
       "url": "https://www.hardwarezone.com.sg/review-apple-airpods-4-review-anc-earbuds-singapore-price-specs-buy",
-      "date": ""
+      "date": "2024-09-22"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/apple-airpods-4-anc/",
-      "date": ""
+      "date": "2024-09-23"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/552034-test-labo-des-apple-airpods-4-anc-des-ecouteurs-surprenants/",
-      "date": ""
+      "date": "2024-11-16",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Numerama",
       "score": 8.0,
       "url": "https://www.numerama.com/tech/1811168-test-des-apple-airpods-4-les-ecouteurs-presque-pro.html",
-      "date": ""
+      "date": "2024-09-20",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-apple-airpods-4-anc.html",
-      "date": ""
+      "date": "2024-11-12"
      },
      {
       "src": "SlashGear",
       "score": 8.0,
       "url": "https://www.slashgear.com/1670948/apple-airpods-4-review-anc-active-noise-cancellation-price-upgrade/",
-      "date": ""
+      "date": "2024-09-23",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/audio/headphones/earbuds-airpods/airpods-4-with-active-noise-cancellation-review",
+      "date": "2024-09-16",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "The Verge",
       "score": 8.0,
       "url": "https://www.theverge.com/24245570/apple-airpods-4-review",
-      "date": ""
+      "date": "2024-09-16"
      },
      {
       "src": "Pokde.net",
-      "score": 7.5,
+      "score": 7.8,
       "url": "https://pokde.net/review/apple-airpods-4-review",
-      "date": ""
+      "date": "2024-10-31",
+      "avant": 7.5,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Presse-citron",
-      "score": 7.0,
+      "score": 7.7,
       "url": "https://www.presse-citron.net/test-apple-airpods-4-anc/",
-      "date": ""
+      "date": "2024-09-30",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 7.4,
       "url": "https://www.rtings.com/headphones/reviews/apple/airpods-4-with-active-noise-cancellation-truly-wireless",
-      "date": ""
+      "date": "2024-11-14",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
-      "score": 6.0,
+      "score": 6.3,
       "url": "https://www.soundguys.com/apple-airpods-4-with-active-noise-cancellation-review-124137/",
-      "date": ""
+      "date": "2025-11-24",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 5.0,
+      "url": "https://www.wired.com/review/apple-airpods-4/",
+      "date": "2024-09-16",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/apple-airpods-4-maintenant-avec-reduction-active-de-bruit-42884",
-      "date": ""
+      "date": "2024-09-30"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/airpods-4-anc",
-      "date": ""
+      "date": "2024-10-17"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/open-ear-apple-airpods4-test-preis-3207278.html",
-      "date": ""
+      "date": "2024-10-18"
      },
      {
       "src": "Digital Trends",
@@ -31102,19 +31428,19 @@
       "src": "Engadget",
       "score": null,
       "url": "https://www.engadget.com/audio/headphones/apple-airpods-4-review-pro-features-for-everyone-120032046.html?src=rss",
-      "date": ""
+      "date": "2024-09-16"
      },
      {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/apple-airpods-4-mit-anc-im-test,3422667.html",
-      "date": ""
+      "date": "2024-11-14"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Test-Apple-AirPods-4-ANC-Kompakte-Kopfhoerer-entpuppen-sich-als-Klangriese.934545.0.html",
-      "date": ""
+      "date": "2025-01-24"
      },
      {
       "src": "Press Start",
@@ -31126,25 +31452,7 @@
       "src": "Stuff",
       "score": null,
       "url": "https://www.stuff.tv/features/apple-airpods-4-preview-specs-release-date-and-everything-we-know/",
-      "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": null,
-      "url": "https://www.techradar.com/audio/headphones/earbuds-airpods/airpods-4-with-active-noise-cancellation-review",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/apple-airpods-4-with-anc",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/apple-airpods-4/",
-      "date": ""
+      "date": "2024-09-01"
      }
     ]
    },
@@ -31201,8 +31509,8 @@
     }
    ],
    "press": {
-    "avg": 7.8,
-    "n": 10,
+    "avg": 8.036363636363637,
+    "n": 11,
     "tests": 14,
     "scope": "modele",
     "src": [
@@ -31214,19 +31522,35 @@
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/sony-wf-c710n",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-sony-wf-c710n-des-ecouteurs-tres-abordables-et-pourtant-excellents.html",
-      "date": ""
+      "date": "2025-09-19",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 9.2,
       "url": "https://www.chip.de/test/Sony-WF-C710N-im-Test_185963690.html",
-      "date": ""
+      "date": "2025-05-14",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 8.6,
+      "url": "https://www.presse-citron.net/test-sony-wf-c710n/",
+      "date": "2025-04-16",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 8.4,
+      "url": "https://www.01net.com/tests/test-sony-wf-c710n-des-ecouteurs-tres-abordables-et-pourtant-excellents.html",
+      "date": "2025-04-01",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Gadget Bridge",
@@ -31238,19 +31562,33 @@
       "src": "Gadgets360",
       "score": 8.0,
       "url": "https://www.gadgets360.com/audio/reviews/sony-wf-c710n-review-9059723#rss-gadgets-reviews",
-      "date": ""
-     },
-     {
-      "src": "Presse-citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/test-sony-wf-c710n/",
-      "date": ""
+      "date": "2025-08-11",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
       "score": 8.0,
       "url": "https://www.soundguys.com/sony-wf-c710n-review-136737/",
-      "date": ""
+      "date": "2025-04-30",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.7,
+      "url": "https://www.rtings.com/headphones/reviews/sony/wf-c710n",
+      "date": "2026-02-18",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "CharlesTech",
+      "score": 7.5,
+      "url": "https://charlestech.fr/test-sony-wf-c710n/",
+      "date": "2025-07-14",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -31259,40 +31597,28 @@
       "date": ""
      },
      {
-      "src": "CharlesTech",
-      "score": 7.0,
-      "url": "https://charlestech.fr/test-sony-wf-c710n/",
-      "date": ""
-     },
-     {
       "src": "Kopfhörer",
       "score": 6.0,
       "url": "https://www.kopfhoerer.de/test/sony-wf-c710n/",
-      "date": ""
+      "date": "2025-05-12"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/sony-wf-c710n",
-      "date": ""
+      "date": "2025-04-15"
      },
      {
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/tests/audio/im-test-sony-wf-c710n-2953633.html",
-      "date": ""
+      "date": "2025-03-26"
      },
      {
       "src": "Peopleware",
       "score": null,
       "url": "https://pplware.sapo.pt/analises-2/sony-wf-c710n-earbuds-com-anc-que-surpreendem-pela-qualidade-pelo-preco/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/sony/wf-c710n",
-      "date": ""
+      "date": "2025-08-07"
      }
     ]
    },
@@ -31349,8 +31675,8 @@
     }
    ],
    "press": {
-    "avg": 7.888888888888889,
-    "n": 9,
+    "avg": 8.10909090909091,
+    "n": 11,
     "tests": 13,
     "scope": "modele",
     "src": [
@@ -31360,39 +31686,49 @@
     "notes": [
      {
       "src": "LeCafeDuGeek",
-      "score": 9.0,
+      "score": 9.3,
       "url": "https://lecafedugeek.fr/test-nothing-ear-3a-des-ecouteurs-qui-voient-plus-loin-que-leur-prix/",
-      "date": ""
+      "date": "2026-07-16",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 8.5,
+      "url": "https://www.presse-citron.net/nothing-ear-3a-test/",
+      "date": "2026-07-07",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.2,
+      "url": "https://www.chip.de/test-kaufberatung/tv-audio/nothing-ear-3a-im-test_b44465dc-93b5-47c6-a851-34fc1bf29279.html",
+      "date": "2026-07-23",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/nothing-ear-3a",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test-kaufberatung/tv-audio/nothing-ear-3a-im-test_b44465dc-93b5-47c6-a851-34fc1bf29279.html",
-      "date": ""
+      "date": "2026-07-07"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/nothing-ear-3a/",
-      "date": ""
+      "date": "2026-07-13"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/ecouteurs-sans-fil/nothing-ear-3a-p78522/test.html",
-      "date": ""
-     },
-     {
-      "src": "Presse-citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/nothing-ear-3a-test/",
-      "date": ""
+      "date": "2026-07-07",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
@@ -31404,37 +31740,47 @@
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/nothing-ear-3a",
-      "date": ""
+      "date": "2026-08-04",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 8.0,
+      "url": "https://www.wired.com/review/nothing-ear-3a/",
+      "date": "2026-08-03",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.8,
+      "url": "https://www.rtings.com/headphones/reviews/nothing/ear-3a",
+      "date": "2026-07-30",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "01net",
-      "score": 6.0,
+      "score": 7.4,
       "url": "https://www.01net.com/tests/test-nothing-ear-3a-avis.html",
-      "date": ""
+      "date": "2026-07-07",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/nothing-ear-3a-test/",
-      "date": ""
+      "date": "2026-07-25"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Starke-In-Ears-zum-fairen-Preis-Test-Nothing-Ear-3a.1410411.0.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/nothing/ear-3a",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/nothing-ear-3a/",
-      "date": ""
+      "date": "2026-09-29"
      }
     ]
    },
@@ -31491,8 +31837,8 @@
     }
    ],
    "press": {
-    "avg": 7.826666666666667,
-    "n": 15,
+    "avg": 8.0375,
+    "n": 16,
     "tests": 19,
     "scope": "modele",
     "src": [
@@ -31507,76 +31853,105 @@
       "date": ""
      },
      {
+      "src": "Chip.de",
+      "score": 9.0,
+      "url": "https://www.chip.de/test/Nothing-CMF-Buds-Pro-2-im-Test_185651330.html",
+      "date": "2024-12-04",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "Day-Technology",
       "score": 9.0,
       "url": "https://day-technology.com/cmf-buds-pro-2-review.html",
-      "date": ""
+      "date": "2024-07-15"
      },
      {
       "src": "TechAeris",
       "score": 9.0,
       "url": "https://techaeris.com/2025/10/22/cmf-buds-pro-2-review-feature/",
-      "date": ""
+      "date": "2025-10-22"
      },
      {
       "src": "Basic Tutorials",
       "score": 8.7,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/cmf-by-nothing-buds-pro-2-test/",
-      "date": ""
+      "date": "2024-09-20",
+      "verifie": "11/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": 8.7,
       "url": "https://www.chinahandys.net/cmf-buds-pro-2-im-test/",
-      "date": ""
+      "date": "2024-08-08"
      },
      {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Nothing-CMF-Buds-Pro-2-im-Test_185651330.html",
-      "date": ""
+      "src": "Multiplayer.it",
+      "score": 8.5,
+      "url": "https://multiplayer.it/recensioni/cmf-buds-pro-2-recensione-auricolari-economici-nothing.html",
+      "date": "2024-07-24",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/headphones-audio/cmf-buds-pro-2-review",
-      "date": ""
+      "date": "2025-09-17"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/cmf-by-nothing-buds-pro-2/",
-      "date": ""
-     },
-     {
-      "src": "Multiplayer.it",
-      "score": 8.0,
-      "url": "https://multiplayer.it/recensioni/cmf-buds-pro-2-recensione-auricolari-economici-nothing.html",
-      "date": ""
+      "date": "2024-07-17"
      },
      {
       "src": "SoundGuys",
       "score": 8.0,
       "url": "https://www.soundguys.com/cmf-buds-pro-2-review-big-features-small-price-smart-dial-123206/",
-      "date": ""
+      "date": "2025-05-09"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/cmf-by-nothing-buds-pro-2",
+      "date": "2024-09-23",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.7,
+      "url": "https://www.rtings.com/headphones/reviews/cmf/buds-pro-2",
+      "date": "2025-04-09",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "HardwareZone",
       "score": 7.0,
       "url": "https://www.hardwarezone.com.sg/review-cmf-buds-pro-2-earbuds-singapore-price-buy-specs",
-      "date": ""
+      "date": "2024-12-15"
      },
      {
       "src": "Journal du Geek",
       "score": 7.0,
       "url": "https://www.journaldugeek.com/test/test-cmf-buds-pro-2-des-ecouteurs-a-prix-contenu-avec-une-molette-intelligente/",
-      "date": ""
+      "date": "2024-09-24",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "RTings",
+      "src": "TechRadar",
       "score": 7.0,
-      "url": "https://www.rtings.com/headphones/reviews/cmf/buds-pro-2",
-      "date": ""
+      "url": "https://www.techradar.com/audio/earbuds-airpods/cmf-buds-pro-2-review",
+      "date": "2024-08-28",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Gadget Bridge",
@@ -31585,34 +31960,22 @@
       "date": ""
      },
      {
-      "src": "TechRadar",
-      "score": 6.0,
-      "url": "https://www.techradar.com/audio/earbuds-airpods/cmf-buds-pro-2-review",
-      "date": ""
-     },
-     {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/cmf-buds-pro-2-by-nothing",
-      "date": ""
+      "date": "2024-07-08"
      },
      {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/cmf-buds-pro-2-im-test,3417830.html",
-      "date": ""
+      "date": "2024-08-14"
      },
      {
       "src": "TopForPhone",
       "score": null,
       "url": "https://www.top-for-phone.fr/test-cmf-buds-pro-2",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/cmf-by-nothing-buds-pro-2",
-      "date": ""
+      "date": "2024-07-13"
      }
     ]
    },

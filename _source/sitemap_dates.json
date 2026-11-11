@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-11-11",
-"h": "c2eeb95aa94e"
+"h": "7be39c242072"
 },
 "a-propos": {
 "d": "2026-10-30",
@@ -173,11 +173,11 @@
 },
 "audio/": {
 "d": "2026-11-11",
-"h": "a55625788890"
+"h": "1d361a633868"
 },
 "audio/apple-airpods-4-anc/": {
 "d": "2026-11-11",
-"h": "96a1728887d1"
+"h": "9d225c1bd35e"
 },
 "audio/apple-airpods-max-2/": {
 "d": "2026-11-11",
@@ -185,7 +185,7 @@
 },
 "audio/apple-airpods-pro-3/": {
 "d": "2026-11-11",
-"h": "0f6d13a73ba0"
+"h": "5dd50ab90378"
 },
 "audio/audeze-maxwell-2/": {
 "d": "2026-11-11",
@@ -193,11 +193,11 @@
 },
 "audio/bose-quietcomfort-ultra-earbuds-2e-gen/": {
 "d": "2026-11-11",
-"h": "ebc2a0b047c3"
+"h": "e1b02ffa5667"
 },
 "audio/bose-soundlink-flex-2e-gen/": {
 "d": "2026-11-11",
-"h": "aaaefc7975a3"
+"h": "5db92ed7fa23"
 },
 "audio/casques-bluetooth/": {
 "d": "2026-11-11",
@@ -209,7 +209,7 @@
 },
 "audio/cmf-buds-pro-2/": {
 "d": "2026-11-11",
-"h": "983275372826"
+"h": "6c358312b943"
 },
 "audio/cmf-headphone-pro/": {
 "d": "2026-11-11",
@@ -221,15 +221,15 @@
 },
 "audio/ecouteurs-reduction-de-bruit/": {
 "d": "2026-11-11",
-"h": "ff9d2b2e495f"
+"h": "24f7c4352cad"
 },
 "audio/enceintes-bluetooth/": {
 "d": "2026-11-11",
-"h": "43c170d0e743"
+"h": "fd44008711e2"
 },
 "audio/google-pixel-buds-pro-2/": {
 "d": "2026-11-11",
-"h": "dd04e1f38fdd"
+"h": "8efbe6776368"
 },
 "audio/huawei-freeclip/": {
 "d": "2026-11-11",
@@ -241,19 +241,19 @@
 },
 "audio/jbl-charge-6/": {
 "d": "2026-11-11",
-"h": "1618e02f0020"
+"h": "31278389a8bf"
 },
 "audio/jbl-flip-7/": {
 "d": "2026-11-11",
-"h": "242e4a8fcc35"
+"h": "1dd1bda1b7b0"
 },
 "audio/jbl-go-5/": {
 "d": "2026-11-11",
-"h": "62d67b65b098"
+"h": "730b6bc71a17"
 },
 "audio/jbl-grip/": {
 "d": "2026-11-11",
-"h": "1d23b31577a3"
+"h": "5b26e3705ee7"
 },
 "audio/jbl-live-780nc/": {
 "d": "2026-11-11",
@@ -265,11 +265,11 @@
 },
 "audio/marshall-emberton-iii/": {
 "d": "2026-11-11",
-"h": "50c206eef3cb"
+"h": "f73743f99a36"
 },
 "audio/nothing-ear-3a/": {
 "d": "2026-11-11",
-"h": "1825e9133736"
+"h": "68ed61df234d"
 },
 "audio/nothing-ear-open/": {
 "d": "2026-11-11",
@@ -293,7 +293,7 @@
 },
 "audio/samsung-galaxy-buds4-pro/": {
 "d": "2026-11-11",
-"h": "6e707b5186b9"
+"h": "187c578557e2"
 },
 "audio/sennheiser-accentum-plus/": {
 "d": "2026-11-11",
@@ -305,7 +305,7 @@
 },
 "audio/sennheiser-momentum-true-wireless-5/": {
 "d": "2026-11-11",
-"h": "823b1cb4c350"
+"h": "9eccabad42a8"
 },
 "audio/shokz-opendots-one/": {
 "d": "2026-11-11",
@@ -321,7 +321,7 @@
 },
 "audio/sonos-roam-2/": {
 "d": "2026-11-11",
-"h": "012632ac2506"
+"h": "622d9102fe6b"
 },
 "audio/sony-inzone-e9/": {
 "d": "2026-11-11",
@@ -337,7 +337,7 @@
 },
 "audio/sony-ult-field-1/": {
 "d": "2026-11-11",
-"h": "ea0743f89bef"
+"h": "ed2d7b4ba8f7"
 },
 "audio/sony-ult-wear/": {
 "d": "2026-11-11",
@@ -345,11 +345,11 @@
 },
 "audio/sony-wf-1000xm6/": {
 "d": "2026-11-11",
-"h": "95192f6357b7"
+"h": "d9e2d3c135af"
 },
 "audio/sony-wf-c710n/": {
 "d": "2026-11-11",
-"h": "029193475728"
+"h": "14423d6616e9"
 },
 "audio/sony-wh-1000xm5/": {
 "d": "2026-11-11",
@@ -377,11 +377,11 @@
 },
 "audio/ue-wonderboom-4/": {
 "d": "2026-11-11",
-"h": "789e6acf4fdc"
+"h": "fbaf57e116d7"
 },
 "black-friday/": {
 "d": "2026-11-11",
-"h": "e10881ad4ad4"
+"h": "5b0b08f0e5a5"
 },
 "ecran-pc/": {
 "d": "2026-11-06",
@@ -541,7 +541,7 @@
 },
 "etude-notes-presse/": {
 "d": "2026-11-11",
-"h": "4baf4454392f"
+"h": "c6db9b62c609"
 },
 "imprimante/": {
 "d": "2026-11-06",
@@ -709,7 +709,7 @@
 },
 "methode": {
 "d": "2026-11-11",
-"h": "c57780b9a864"
+"h": "b2309e4b2bca"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-09",
