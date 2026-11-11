@@ -40268,8 +40268,8 @@
     }
    ],
    "press": {
-    "avg": 8.456,
-    "n": 25,
+    "avg": 8.651724137931035,
+    "n": 29,
     "tests": 41,
     "scope": "modele",
     "src": [
@@ -40281,37 +40281,60 @@
       "src": "GamesRadar",
       "score": 10.0,
       "url": "https://www.gamesradar.com/hardware/headsets-headphones/razer-blackshark-v3-pro-review/",
-      "date": ""
+      "date": "2025-07-29",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/638973-test-razer-blackshark-v3-pro/",
-      "date": ""
+      "date": "2025-12-01",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/casque-gaming-micro/razer-blackshark-v3-pro-p77190/test.html",
-      "date": ""
+      "date": "2025-10-02",
+      "verifie": "11/11/2026"
      },
      {
       "src": "N-Gamz",
       "score": 10.0,
       "url": "http://n-gamz.com/product-review/razer-blackshark-v3-pro-ps5-white-edition-test-video-le-meilleur-casque-de-lannee/",
-      "date": ""
+      "date": "2025-10-07"
      },
      {
       "src": "Windows Central",
       "score": 10.0,
       "url": "https://www.windowscentral.com/accessories/headphones/razer-blackshark-v3-pro-review",
-      "date": ""
+      "date": "2025-08-01",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "MKAU Gaming",
+      "score": 9.5,
+      "url": "https://www.mkaugaming.com/all-review-list/razer-blackshark-v3-pro-wireless-headset-hardware-review/",
+      "date": "2025-08-18",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.4,
       "url": "https://basic-tutorials.de/tests/peripherie/razer-blackshark-v3-pro-test/",
-      "date": ""
+      "date": "2025-08-05",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.2,
+      "url": "https://www.chip.de/test/Razer-BlackShark-V3-Pro-im-Test_186591932.html",
+      "date": "2026-02-24",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Beyond Gaming",
@@ -40323,19 +40346,35 @@
       "src": "Comunidad Xbox",
       "score": 9.0,
       "url": "https://comunidadxbox.com/analisis-de-razer-blackshark-v3-pro/",
-      "date": ""
+      "date": "2025-08-29",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "MKAU Gaming",
+      "src": "Digital Citizen",
       "score": 9.0,
-      "url": "https://www.mkaugaming.com/all-review-list/razer-blackshark-v3-pro-wireless-headset-hardware-review/",
-      "date": ""
+      "url": "https://www.digitalcitizen.life/razer-blackshark-v3-pro-review/",
+      "date": "2025-08-18",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "XBoxEra",
+      "src": "GamerTech",
       "score": 9.0,
-      "url": "https://xboxera.com/2025/12/03/razer-blackshark-v3-pro-headset-review/",
-      "date": ""
+      "url": "https://www.gamertech.fr/casque-gamer/razer-blackshark-v3-pro/",
+      "date": "2025-08-05",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/razer-blackshark-v3-pro",
+      "date": "2025-09-02",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Wccftech",
@@ -40344,106 +40383,136 @@
       "date": ""
      },
      {
-      "src": "ActuGaming",
-      "score": 8.0,
-      "url": "https://www.actugaming.net/test-razer-blackshark-v3-pro-review-766512/",
-      "date": ""
+      "src": "XBoxEra",
+      "score": 9.0,
+      "url": "https://xboxera.com/2025/12/03/razer-blackshark-v3-pro-headset-review/",
+      "date": "2025-12-03"
      },
      {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Razer-BlackShark-V3-Pro-im-Test_186591932.html",
-      "date": ""
+      "src": "Computer Bild",
+      "score": 8.8,
+      "url": "https://www.computerbild.de/artikel/Tests-Spiele-Razer-BlackShark-V3-Pro-Test-Bereit-Review-39885299.html",
+      "date": "2025-08-24",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "ActuGaming",
+      "score": 8.5,
+      "url": "https://www.actugaming.net/test-razer-blackshark-v3-pro-review-766512/",
+      "date": "2025-11-06",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.5,
+      "url": "https://lecafedugeek.fr/test-razer-blackshark-v3-pro-le-grand-blanc-du-gaming/",
+      "date": "2025-10-31",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.5,
+      "url": "https://multiplayer.it/recensioni/razer-blackshark-v3-pro-recensione-cuffie-cancellazione-attiva-rumore.html",
+      "date": "2025-10-25",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.2,
+      "url": "https://www.rtings.com/headphones/reviews/razer/blackshark-v3-pro",
+      "date": "2025-11-06",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-578445-test-razer-blackshark-v3-pro-ce-casque-gamer-haut-de-gamme-fait-oublier-son-poids-excessif.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Citizen",
-      "score": 8.0,
-      "url": "https://www.digitalcitizen.life/razer-blackshark-v3-pro-review/",
-      "date": ""
+      "date": "2025-09-27",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/audio/casque-audio/2746953_test-du-razer-blackshark-v3-pro-un-casque-esport-tres-complet",
-      "date": ""
+      "date": "2025-07-29",
+      "verifie": "11/11/2026"
      },
      {
       "src": "GadgetGear",
       "score": 8.0,
       "url": "https://www.gadgetgear.nl/2025/09/review-razer-blackshark-v3-pro/",
-      "date": ""
+      "date": "",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "GamerTech",
+      "src": "Wired",
       "score": 8.0,
-      "url": "https://www.gamertech.fr/casque-gamer/razer-blackshark-v3-pro/",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-razer-blackshark-v3-pro-le-grand-blanc-du-gaming/",
-      "date": ""
-     },
-     {
-      "src": "Multiplayer.it",
-      "score": 8.0,
-      "url": "https://multiplayer.it/recensioni/razer-blackshark-v3-pro-recensione-cuffie-cancellazione-attiva-rumore.html",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/razer-blackshark-v3-pro",
-      "date": ""
+      "url": "https://www.wired.com/review/razer-blackshark-v3-pro/",
+      "date": "2025-09-14",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "XiaomiToday",
       "score": 8.0,
       "url": "https://xiaomitoday.com/razer-blackshark-v3-pro-niko-edition-review-wireless-anc-esports-gaming-headset-for-ps5/",
-      "date": ""
+      "date": "2026-10-12"
      },
      {
       "src": "SoundGuys",
-      "score": 7.0,
+      "score": 7.3,
       "url": "https://www.soundguys.com/razer-blackshark-v3-pro-review-built-for-fps-gamers-141492/",
-      "date": ""
+      "date": "2025-08-11",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 7.0,
+      "url": "https://geekculture.co/razer-blackshark-v3-pro-wireless-gaming-headset-review/",
+      "date": "2025-07-29",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 7.0,
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/razer-blackshark-v3-pro-review",
+      "date": "2025-11-06",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 6.0,
       "url": "https://www.kopfhoerer.de/test/razer-blackshark-v3-pro/",
-      "date": ""
-     },
-     {
-      "src": "Tom's Hardware",
-      "score": 6.0,
-      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/razer-blackshark-v3-pro-review",
-      "date": ""
+      "date": "2025-11-18"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/razer-blackshark-v3-pro",
-      "date": ""
+      "date": "2025-10-08"
      },
      {
       "src": "Areajugones",
       "score": null,
       "url": "https://areajugones.sport.es/videojuegos/analisis-razer-blackshark-v3-pro-para-ps5-los-mejores-auriculares-con-anc-para-consola/",
-      "date": ""
-     },
-     {
-      "src": "Computer Bild",
-      "score": null,
-      "url": "https://www.computerbild.de/artikel/Tests-Spiele-Razer-BlackShark-V3-Pro-Test-Bereit-Review-39885299.html",
-      "date": ""
+      "date": "2025-10-23"
      },
      {
       "src": "CowCotLand",
@@ -40455,67 +40524,49 @@
       "src": "FactorNews.com",
       "score": null,
       "url": "https://www.factornews.com/test/razer-blackshark-v3-pro-une-histoire-d-eq-51341.html",
-      "date": ""
+      "date": "2025-09-28"
      },
      {
       "src": "GameWave",
       "score": null,
       "url": "https://gamewave.fr/tests/test-complet-du-razer-blackshark-v3-pro-le-casque-sans-fil-qui-vise-l-excellence/",
-      "date": ""
+      "date": "2025-10-12"
      },
      {
       "src": "GamesWelt",
       "score": null,
       "url": "https://www.gameswelt.de/razer-blackshark/test/test-esports-headset-mit-anc-und-mehr-331288",
-      "date": ""
+      "date": "2025-08-02"
      },
      {
       "src": "Gaming Trend",
       "score": null,
       "url": "https://gamingtrend.com/reviews/razer-blackshark-v3-pro-wireless-headset-review-baring-its-teeth/",
-      "date": ""
-     },
-     {
-      "src": "GeekCulture",
-      "score": null,
-      "url": "https://geekculture.co/razer-blackshark-v3-pro-wireless-gaming-headset-review/",
-      "date": ""
+      "date": "2025-07-29"
      },
      {
       "src": "HardwareCooking",
       "score": null,
       "url": "https://www.hardwarecooking.fr/test-razer-blackshark-v3-pro/",
-      "date": ""
+      "date": "2025-08-14"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/entertainment/gaming/razer-blackshark-v3-pro-review-gaming-performance-first",
-      "date": ""
+      "date": "2025-09-06"
      },
      {
       "src": "PXLBBQ",
       "score": null,
       "url": "https://pxlbbq.com/test-razer-blackshark-v3-pro-un-casque-qui-affine-la-formule-sans-tout-reinventer/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/razer/blackshark-v3-pro",
-      "date": ""
+      "date": "2026-04-12"
      },
      {
       "src": "War Legend",
       "score": null,
       "url": "https://www.warlegend.net/test-razer-blackshark-v3-pro-review/",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/razer-blackshark-v3-pro/",
-      "date": ""
+      "date": "2025-09-27"
      },
      {
       "src": "XBoxOrNot",
@@ -40581,8 +40632,8 @@
     }
    ],
    "press": {
-    "avg": 8.421428571428573,
-    "n": 14,
+    "avg": 8.54,
+    "n": 15,
     "tests": 22,
     "scope": "modele",
     "src": [
@@ -40594,73 +40645,88 @@
       "src": "Gaming Trend",
       "score": 10.0,
       "url": "https://gamingtrend.com/reviews/turtle-beach-stealth-pro-ii-review/",
-      "date": ""
+      "date": "2026-05-14"
      },
      {
       "src": "COGconnected",
       "score": 9.4,
       "url": "https://cogconnected.com/review/turtle-beach-stealth-pro-ii-review/",
-      "date": ""
+      "date": "2026-05-14"
+     },
+     {
+      "src": "GamesRadar",
+      "score": 9.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/turtle-beach-stealth-pro-ii-review/",
+      "date": "2026-07-03",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 9.0,
       "url": "https://lecafedugeek.fr/test-turtle-beach-stealth-pro-ii-le-casque-gaming-premium-qui-veut-tout-faire/",
-      "date": ""
+      "date": "2026-09-22",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 9.0,
+      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/turtle-beach-stealth-pro-ii-review",
+      "date": "2026-05-14",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/accessories/headphones/review-turtle-beach-stealth-pro-ii-for-xbox-and-pc",
-      "date": ""
+      "date": "2026-07-16",
+      "verifie": "11/11/2026"
      },
      {
       "src": "ZTGD",
       "score": 9.0,
       "url": "https://ztgd.com/reviews/turtle-beach-stealth-pro-ii-hardware/",
-      "date": ""
+      "date": "2026-09-25",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Multiplayer.it",
+      "score": 8.5,
+      "url": "https://multiplayer.it/recensioni/turtle-beach-stealth-pro-ii-recensione-cuffie.html",
+      "date": "2026-07-15",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PC Gamer",
       "score": 8.5,
       "url": "https://www.pcgamer.com/hardware/gaming-headsets/turtle-beach-stealth-pro-ii-review/",
-      "date": ""
+      "date": "2026-05-28",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/turtle-beach-stealth-pro-ii",
-      "date": ""
+      "date": "2026-06-30"
      },
      {
       "src": "GameRevolution",
       "score": 8.0,
       "url": "https://www.gamerevolution.com/review/984797-turtle-beach-stealth-pro-ii-review-wireless-gaming-headset",
-      "date": ""
-     },
-     {
-      "src": "GamesRadar",
-      "score": 8.0,
-      "url": "https://www.gamesradar.com/hardware/headsets-headphones/turtle-beach-stealth-pro-ii-review/",
-      "date": ""
+      "date": "2026-07-07",
+      "verifie": "11/11/2026"
      },
      {
       "src": "IGN",
       "score": 8.0,
       "url": "https://www.ign.com/articles/turtle-beach-stealth-pro-ii-review",
-      "date": ""
-     },
-     {
-      "src": "Multiplayer.it",
-      "score": 8.0,
-      "url": "https://multiplayer.it/recensioni/turtle-beach-stealth-pro-ii-recensione-cuffie.html",
-      "date": ""
-     },
-     {
-      "src": "Tom's Hardware",
-      "score": 8.0,
-      "url": "https://www.tomshardware.com/peripherals/gaming-headsets/turtle-beach-stealth-pro-ii-review",
-      "date": ""
+      "date": "2026-06-30",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Wccftech",
@@ -40669,52 +40735,55 @@
       "date": ""
      },
      {
+      "src": "RTings",
+      "score": 7.7,
+      "url": "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-pro-ii",
+      "date": "2026-07-22",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "SoundGuys",
       "score": 7.0,
       "url": "https://www.soundguys.com/turtle-beach-stealth-pro-ii-review-great-sound-bad-build-157082/",
-      "date": ""
+      "date": "2026-05-14"
      },
      {
       "src": "FactorNews.com",
       "score": null,
       "url": "https://www.factornews.com/test/turtle-beach-stealth-pro-ii-52068.html",
-      "date": ""
+      "date": "2026-07-05"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/turtle-beach-stealth-pro-ii-test-gaming-headset-kopfhoerer-anc-sound-qualitaet-ps5-xbox-pc/403183507",
-      "date": ""
+      "date": "2026-08-14"
      },
      {
       "src": "GameWave",
       "score": null,
       "url": "https://gamewave.fr/tests/turtle-beach-stealth-pro-ii-test-du-casque-gaming-qui-ne-fait-aucun-compromis/",
-      "date": ""
+      "date": "2026-05-22"
      },
      {
       "src": "GamesWelt",
       "score": null,
       "url": "https://www.gameswelt.de/turtle-beach-stealth-pro/test/test-angriff-auf-den-headset-thron-333707",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/turtle-beach/stealth-pro-ii",
-      "date": ""
+      "date": "2026-05-27"
      },
      {
       "src": "TheXboxHub",
       "score": null,
       "url": "https://www.thexboxhub.com/turtle-beach-stealth-pro-ii-review/",
-      "date": ""
+      "date": "2026-08-25"
      },
      {
       "src": "War Legend",
       "score": null,
       "url": "https://www.warlegend.net/test-turtle-beach-stealth-pro-2-review/",
-      "date": ""
+      "date": "2026-07-27"
      },
      {
       "src": "XBoxOrNot",
@@ -40778,8 +40847,8 @@
     }
    ],
    "press": {
-    "avg": 8.575,
-    "n": 16,
+    "avg": 8.838095238095239,
+    "n": 21,
     "tests": 27,
     "scope": "modele",
     "src": [
@@ -40791,37 +40860,78 @@
       "src": "Gaming Trend",
       "score": 10.0,
       "url": "https://gamingtrend.com/reviews/steelseries-arctis-nova-pro-omni-headset-review/",
-      "date": ""
+      "date": "2026-05-05"
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 10.0,
+      "url": "https://leclaireur.fnac.com/test/681606-test-steelseries-arctis-nova-pro-omni/",
+      "date": "2026-07-03",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Stuff",
+      "score": 10.0,
+      "url": "https://www.stuff.tv/review/steelseries-arctis-nova-pro-omni-review/",
+      "date": "2026-05-05",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "TestingBuddies",
+      "score": 10.0,
+      "url": "https://testingbuddies.de/reviews/steel-series-arctis-nova-pro-omni-im-test-ein-headset-das-alles-will-und-fast-alles-kann",
+      "date": "2026-06-14",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "MKAU Gaming",
+      "score": 9.5,
+      "url": "https://www.mkaugaming.com/all-review-list/steelseries-arctis-nova-pro-omni-headset-hardware-review/",
+      "date": "2026-06-07",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "TechTest",
       "score": 9.4,
       "url": "https://techtest.org/steelseries-arctis-nova-pro-omni-im-test-das-beste-gaming-headset-2026/",
-      "date": ""
+      "date": "",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.3,
       "url": "https://basic-tutorials.de/tests/peripherie/steelseries-arctis-nova-pro-omni-test/",
-      "date": ""
+      "date": "2026-05-11",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-611788-test-steelseries-arctis-nova-pro-omni-une-esquisse-du-casque-gaming-ultime.html",
-      "date": ""
+      "date": "2026-05-11",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/produits-android/3082325_nous-avons-teste-le-steelseries-arctis-nova-pro-omni-un-casque-gaming-haut-de-gamme-taille-pour-le-multi-plateforme",
-      "date": ""
+      "date": "2026-05-09",
+      "verifie": "11/11/2026"
      },
      {
       "src": "IGN",
       "score": 9.0,
       "url": "https://www.ign.com/articles/steelseries-arctis-nova-pro-omni-headset-review",
-      "date": ""
+      "date": "2026-05-05",
+      "verifie": "11/11/2026"
      },
      {
       "src": "JeuxActu.com",
@@ -40830,124 +40940,118 @@
       "date": ""
      },
      {
-      "src": "MKAU Gaming",
+      "src": "Trusted Reviews",
       "score": 9.0,
-      "url": "https://www.mkaugaming.com/all-review-list/steelseries-arctis-nova-pro-omni-headset-hardware-review/",
-      "date": ""
+      "url": "https://www.trustedreviews.com/reviews/steelseries-arctis-nova-pro-omni",
+      "date": "2026-05-19",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PC Gamer",
       "score": 8.5,
       "url": "https://www.pcgamer.com/hardware/gaming-headsets/steelseries-arctis-nova-pro-omni-review/",
-      "date": ""
+      "date": "2026-05-07",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 8.4,
+      "url": "https://www.soundguys.com/steelseries-arctis-nova-pro-omni-review-156850/",
+      "date": "2026-05-05",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/steelseries-arctis-nova-pro-omni",
-      "date": ""
+      "date": "2026-07-15"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 8.0,
       "url": "https://lecafedugeek.fr/test-steelseries-arctis-nova-pro-omni-omni-soit-qui-mal-y-pense/",
-      "date": ""
+      "date": "2026-05-05",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PixelCritics",
       "score": 8.0,
       "url": "https://pixelcritics.com/steelseries-arctis-nova-pro-omni-im-test-genialer-multi-device-allrounder-mit-klanglichen-schattenseiten/",
-      "date": ""
+      "date": "2026-05-24"
      },
      {
       "src": "Presse-citron",
       "score": 8.0,
       "url": "https://www.presse-citron.net/steelseries-arctis-nova-pro-omni-test/",
-      "date": ""
+      "date": "2026-05-05",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "SoundGuys",
+      "src": "RTings",
       "score": 8.0,
-      "url": "https://www.soundguys.com/steelseries-arctis-nova-pro-omni-review-156850/",
-      "date": ""
+      "url": "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro-omni",
+      "date": "2026-05-28",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "Trusted Reviews",
+      "src": "Wired",
       "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/steelseries-arctis-nova-pro-omni",
-      "date": ""
+      "url": "https://www.wired.com/review/steelseries-arctis-nova-pro-omni/",
+      "date": "2026-07-31",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Journal du Geek",
-      "score": 7.0,
+      "score": 7.5,
       "url": "https://www.journaldugeek.com/test/test-casque-steelseries-arctis-nova-pro-omni-un-son-de-folie-pour-un-casque-gaming/",
-      "date": ""
+      "date": "2026-05-05",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "FactorNews.com",
       "score": null,
       "url": "https://www.factornews.com/test/steelseries-arctis-nova-pro-omni-un-casque-pour-les-gouverner-toutes-51950.html",
-      "date": ""
+      "date": "2026-05-05"
      },
      {
       "src": "GamesWelt",
       "score": null,
       "url": "https://www.gameswelt.de/steelseries-arctis-nova/test/test-die-ultimative-schaltzentrale-fuer-multiplattformer-333706",
-      "date": ""
+      "date": "2026-05-23"
      },
      {
       "src": "Gear Diary",
       "score": null,
       "url": "https://geardiary.com/2026/08/18/steelseries-gaming-setup-review/",
-      "date": ""
-     },
-     {
-      "src": "Labo Fnac",
-      "score": null,
-      "url": "https://leclaireur.fnac.com/test/681606-test-steelseries-arctis-nova-pro-omni/",
-      "date": ""
+      "date": "2026-08-18"
      },
      {
       "src": "PC Games Hardware",
       "score": null,
       "url": "https://www.pcgameshardware.de/Headset-Hardware-255588/Tests/Steelseries-Arctis-Nova-Pro-Omni-kabellos-Over-Ear-Preis-1530227/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/steelseries/arctis-nova-pro-omni",
-      "date": ""
+      "date": "2026-05-07"
      },
      {
       "src": "SlashGear",
       "score": null,
       "url": "https://www.slashgear.com/2248871/steelseries-arctis-nova-pro-omni-review-gaming-headset-high-end-audio/",
-      "date": ""
-     },
-     {
-      "src": "Stuff",
-      "score": null,
-      "url": "https://www.stuff.tv/review/steelseries-arctis-nova-pro-omni-review/",
-      "date": ""
-     },
-     {
-      "src": "TestingBuddies",
-      "score": null,
-      "url": "https://testingbuddies.de/reviews/steel-series-arctis-nova-pro-omni-im-test-ein-headset-das-alles-will-und-fast-alles-kann",
-      "date": ""
+      "date": "2026-09-01"
      },
      {
       "src": "TheXboxHub",
       "score": null,
       "url": "https://www.thexboxhub.com/steelseries-arctis-nova-pro-omni-review/",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/steelseries-arctis-nova-pro-omni/",
-      "date": ""
+      "date": "2026-08-02"
      }
     ]
    },
@@ -41003,8 +41107,8 @@
     }
    ],
    "press": {
-    "avg": 8.336363636363636,
-    "n": 11,
+    "avg": 8.516666666666667,
+    "n": 12,
     "tests": 16,
     "scope": "gamme",
     "src": [
@@ -41016,97 +41120,115 @@
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/casque-gaming-micro/audeze-maxwell-2-anc-p78668/test.html",
-      "date": ""
+      "date": "2026-10-09",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "Mac Sources",
+      "score": 9.7,
+      "url": "https://macsources.com/audeze-maxwell-2-gaming-headset-review/",
+      "date": "2026-03-10",
+      "avant": 9.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.1,
       "url": "https://basic-tutorials.de/tests/peripherie/audeze-maxwell-2-anc-im-test/",
-      "date": ""
+      "date": "2026-07-25",
+      "verifie": "11/11/2026"
      },
      {
       "src": "GameRevolution",
       "score": 9.0,
       "url": "https://www.gamerevolution.com/review/984908-audeze-maxwell-2-anc-review-wireless-gaming-headse",
-      "date": ""
+      "date": "2026-08-12",
+      "verifie": "11/11/2026"
      },
      {
       "src": "IGN",
       "score": 9.0,
       "url": "https://www.ign.com/articles/audeze-maxwell-2-gaming-headset-review-revising-an-all-time-great",
-      "date": ""
-     },
-     {
-      "src": "Mac Sources",
-      "score": 9.0,
-      "url": "https://macsources.com/audeze-maxwell-2-gaming-headset-review/",
-      "date": ""
+      "date": "2026-02-04",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PC Gamer",
       "score": 8.6,
       "url": "https://www.pcgamer.com/hardware/gaming-headsets/audeze-maxwell-2-review/",
-      "date": ""
+      "date": "2026-02-05",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.1,
+      "url": "https://www.rtings.com/headphones/reviews/audeze/maxwell-2",
+      "date": "2026-03-09",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "GamesRadar",
       "score": 8.0,
       "url": "https://www.gamesradar.com/hardware/headsets-headphones/audeze-maxwell-2-review/",
-      "date": ""
+      "date": "2026-02-27",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/audeze-maxwell-2/",
-      "date": ""
+      "date": "2026-05-08"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/gaming/our-own-review-gave-the-audeze-maxwell-2-four-stars-but-its-such-a-brilliant-gaming-headset-that-i-would-have-given-it-five",
-      "date": ""
+      "date": "2026-06-23"
      },
      {
       "src": "SoundGuys",
-      "score": 7.0,
+      "score": 7.7,
       "url": "https://www.soundguys.com/audeze-maxwell-2-review-152758/",
-      "date": ""
+      "date": "2026-04-01",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Tom's Hardware",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.tomshardware.com/peripherals/gaming-headsets/audeze-maxwell-2-review",
-      "date": ""
+      "date": "2026-01-30",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/audeze-maxwell-2-anc-kopfhoerer-im-test/",
-      "date": ""
+      "date": "2026-08-23"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/audeze-maxwell-2-test-headset-review-3212894.html",
-      "date": ""
+      "date": "2026-07-15"
      },
      {
       "src": "GamesWelt",
       "score": null,
       "url": "https://www.gameswelt.de/audeze-maxwell/test/test-planar-praezision-in-der-zweiten-runde-333704",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/audeze/maxwell-2",
-      "date": ""
+      "date": "2026-06-16"
      },
      {
       "src": "SlashGear",
       "score": null,
       "url": "https://www.slashgear.com/2245047/audeze-maxwell-2-anc-review-gaming-headphones-testing/",
-      "date": ""
+      "date": "2026-08-26"
      }
     ]
    },
@@ -41162,8 +41284,8 @@
     }
    ],
    "press": {
-    "avg": 8.32,
-    "n": 5,
+    "avg": 8.316666666666666,
+    "n": 6,
     "tests": 7,
     "scope": "modele",
     "src": [
@@ -41175,19 +41297,23 @@
       "src": "Basic Tutorials",
       "score": 9.1,
       "url": "https://basic-tutorials.de/tests/peripherie/razer-barracuda-v2-pro-im-test/",
-      "date": ""
+      "date": "2026-10-15",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Gaming Trend",
       "score": 8.5,
       "url": "https://gamingtrend.com/reviews/razer-barracuda-v2-pro-headset-review/",
-      "date": ""
+      "date": "2026-10-16"
      },
      {
       "src": "LeCafeDuGeek",
-      "score": 8.0,
+      "score": 8.3,
       "url": "https://lecafedugeek.fr/test-razer-barracuda-v2-pro-un-casque-gaming-pour-parader-en-ville/",
-      "date": ""
+      "date": "2026-10-16",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "T3",
@@ -41196,22 +41322,25 @@
       "date": ""
      },
      {
+      "src": "Wired",
+      "score": 8.0,
+      "url": "https://www.wired.com/review/razer-barracuda-v2-pro/",
+      "date": "2026-10-16",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
       "src": "XBoxEra",
       "score": 8.0,
       "url": "https://playday.one/2026/10/15/razer-barracuda-v2-pro-review/",
-      "date": ""
+      "date": "2026-10-15"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2026/10/28/test-casque-gaming-razer-barracuda-v2-pro/",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/razer-barracuda-v2-pro/",
-      "date": ""
+      "date": "2026-10-28"
      }
     ]
    },
@@ -41265,7 +41394,7 @@
     }
    ],
    "press": {
-    "avg": 7.928571428571429,
+    "avg": 8.071428571428571,
     "n": 7,
     "tests": 9,
     "scope": "modele",
@@ -41278,57 +41407,67 @@
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/accessories/hyperx-cloud-alpha-2-wireless-review",
-      "date": ""
+      "date": "2025-09-27",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PC Gamer",
       "score": 8.5,
       "url": "https://www.pcgamer.com/hardware/gaming-headsets/hyperx-cloud-alpha-2-wireless-review/",
-      "date": ""
+      "date": "2025-11-14",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Absolute Geeks",
       "score": 8.0,
       "url": "https://www.absolutegeeks.com/reviews/hyperx-cloud-alpha-2-wireless-gaming-headset-review-with-big-battery-comes-bigger-ambitions/",
-      "date": ""
+      "date": "2026-09-03",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/hyperx/3044477_test-cloud-alpha-2-wireless-le-plus-complet-des-casques-hyperx",
-      "date": ""
+      "date": "2026-04-13",
+      "verifie": "11/11/2026"
      },
      {
       "src": "SoundGuys",
       "score": 8.0,
       "url": "https://www.soundguys.com/hyperx-cloud-alpha-2-review-162061/",
-      "date": ""
+      "date": "2026-09-22",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Tom's Hardware",
       "score": 8.0,
       "url": "https://www.tomshardware.com/peripherals/gaming-headsets/hyperx-cloud-alpha-2-wireless-review",
-      "date": ""
+      "date": "2026-01-25",
+      "verifie": "11/11/2026"
      },
      {
       "src": "GamesRadar",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.gamesradar.com/hardware/headsets-headphones/hyperx-cloud-alpha-2-wireless-review/",
-      "date": ""
+      "date": "2025-12-12",
+      "avant": 6.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "CowCotLand",
       "score": null,
       "url": "https://www.cowcotland.com/articles/4820/test-hyperx-cloud-alpha-2-norme-prix-mais-enorme-claque.html",
-      "date": ""
+      "date": "2025-12-26"
      },
      {
       "src": "Lords of Gaming",
       "score": null,
       "url": "https://lordsofgaming.net/2025/09/hyperx-cloud-alpha-2-wireless-headset-review-premium-versatility/",
-      "date": ""
+      "date": "2025-09-09"
      }
-    ]
+    ],
+    "releve_source": "11/11/2026"
    },
    "prix": 201.99,
    "img": "hyperx-cloud-alpha-2.webp",
@@ -41382,9 +41521,9 @@
     }
    ],
    "press": {
-    "avg": 8.675,
-    "n": 4,
-    "tests": 8,
+    "avg": 8.74,
+    "n": 5,
+    "tests": 9,
     "scope": "modele",
     "src": [
      "",
@@ -41395,51 +41534,65 @@
       "src": "Basic Tutorials",
       "score": 9.2,
       "url": "https://basic-tutorials.de/tests/peripherie/razer-kraken-kitty-v3-pro-test/",
-      "date": ""
+      "date": "2025-09-04",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "GamesRadar",
+      "score": 9.0,
+      "url": "https://www.gamesradar.com/hardware/headsets-headphones/the-razer-kraken-kitty-v3-pro-proves-that-cat-headsets-can-have-style-and-substance-review/",
+      "date": "2025-12-31",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Windows Central",
       "score": 9.0,
       "url": "https://www.windowscentral.com/accessories/headphones/razer-kraken-kitty-v3-pro-review",
-      "date": ""
+      "date": "2025-09-14",
+      "verifie": "11/11/2026"
      },
      {
       "src": "PC Gamer",
       "score": 8.5,
       "url": "https://www.pcgamer.com/hardware/gaming-headsets/razer-kraken-kitty-v3-pro-review/",
-      "date": ""
+      "date": "2025-09-18",
+      "verifie": "11/11/2026"
      },
      {
-      "src": "GamesRadar",
+      "src": "Gameblog",
       "score": 8.0,
-      "url": "https://www.gamesradar.com/hardware/headsets-headphones/the-razer-kraken-kitty-v3-pro-proves-that-cat-headsets-can-have-style-and-substance-review/",
-      "date": ""
+      "url": "https://www.gameblog.fr/tech/hardware/tests/test-kraken-kitty-v3-pro-avis-709632",
+      "date": "2026-01-17",
+      "ajout": "11/11/2026"
      },
      {
       "src": "Areajugones",
       "score": null,
       "url": "https://areajugones.sport.es/videojuegos/review-de-razer-kraken-kitty-v3-pro-quartz-edition-un-periferico-perfecto-para-la-mejor-experiencia-gaming-inmersiva/",
-      "date": ""
+      "date": "2026-09-07"
      },
      {
       "src": "Gaming Trend",
       "score": null,
       "url": "https://gamingtrend.com/reviews/razer-kraken-kitty-v3-pro-wireless-headset-review-impawssibly-great/",
-      "date": ""
+      "date": "2025-08-26"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/09/03/test-casque-kraken-kitty-v3-pro-de-razer/",
-      "date": ""
+      "date": "2025-09-02"
      },
      {
       "src": "Xboxygen",
       "score": null,
       "url": "https://www.xboxygen.com/Tests/Tests-materiel/53766-Test-Casque-Razer-Kraken-Kitty-V3-Pro-Si-miaou-que-ca",
-      "date": ""
+      "date": "2025-08-26"
      }
-    ]
+    ],
+    "releve_source": "11/11/2026"
    },
    "prix": 149.99,
    "img": "razer-kraken-kitty-v3-pro.webp",
@@ -41490,8 +41643,8 @@
     }
    ],
    "press": {
-    "avg": 7.25,
-    "n": 4,
+    "avg": 7.5,
+    "n": 5,
     "tests": 5,
     "scope": "modele",
     "src": [
@@ -41501,33 +41654,43 @@
     "notes": [
      {
       "src": "Trusted Reviews",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.trustedreviews.com/reviews/sony-inzone-e9",
-      "date": ""
+      "date": "2025-10-20",
+      "avant": 8.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.3,
+      "url": "https://www.rtings.com/headphones/reviews/sony/inzone-e9",
+      "date": "2026-09-25",
+      "avant": null,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
+     },
+     {
+      "src": "SoundGuys",
+      "score": 7.2,
+      "url": "https://www.soundguys.com/sony-inzone-e9-review-142906/",
+      "date": "2025-08-22",
+      "avant": 7.0,
+      "corrige": "11/11/2026",
+      "verifie": "11/11/2026"
      },
      {
       "src": "Gaming Trend",
       "score": 7.0,
       "url": "https://gamingtrend.com/reviews/sony-inzone-e9-in-ear-monitors-review/",
-      "date": ""
+      "date": "2026-05-20"
      },
      {
       "src": "IGN",
       "score": 7.0,
       "url": "https://www.ign.com/articles/sony-inzone-e9-in-ear-gaming-monitor-review",
-      "date": ""
-     },
-     {
-      "src": "SoundGuys",
-      "score": 7.0,
-      "url": "https://www.soundguys.com/sony-inzone-e9-review-142906/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/headphones/reviews/sony/inzone-e9",
-      "date": ""
+      "date": "2025-11-17",
+      "verifie": "11/11/2026"
      }
     ]
    },
