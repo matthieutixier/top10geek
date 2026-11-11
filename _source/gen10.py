@@ -1997,7 +1997,7 @@ def etude_page():
                               "pct_ecart3": pct, "n_ecart": len(ecarts), "ecart_median": statistics.median(ecarts) if ecarts else None,
                               "severe": plus_severe, "genereux": plus_genereux}
     n_txt = f"{n_notes:,}".replace(",", " ")
-    titre = f"Étude : ce que {n_txt} notes de tests high-tech révèlent"
+    titre = "Étude : ce que 2 050 notes de tests high-tech révèlent"  # titre et H1 figés (règle SEO 5), indépendants du nombre de notes
     body = f"""
   <div class="prose etude">
     <div class="crumb"><a href="{root}">Accueil</a> › Étude</div>
@@ -2025,7 +2025,7 @@ def etude_page():
 """
     desc = (f"{n_notes} notes de tests high-tech analysées : le prix fait-il la note, quels médias notent le plus sévèrement, "
             f"où la presse est en désaccord. Données Top 10 Geek.")
-    write("etude-notes-presse/index.html", page(root, f"Étude : {n_notes} notes de tests high-tech analysées | Top 10 Geek", desc, "etude-notes-presse/", body, "methode",
+    write("etude-notes-presse/index.html", page(root, "Étude : 2050 notes de tests high-tech analysées | Top 10 Geek", desc, "etude-notes-presse/", body, "methode",
           ld=[ld_crumbs(("Accueil", ""), ("Étude", "etude-notes-presse/")),
               {"@type": "Article", "@id": f"{DOMAIN}/etude-notes-presse/#etude", "headline": plain(titre), "description": desc, "inLanguage": "fr-FR",
                "author": {"@id": PERSON_ID}, "publisher": {"@id": DOMAIN + "/#organisation"}, "mainEntityOfPage": f"{DOMAIN}/etude-notes-presse/"},
