@@ -1,0 +1,57 @@
+# Usage unique (11/11/2026) : rejoue les corrections de notes audio sur l'ancien data.json pour obtenir le cc_fiches_audio.json
+# correspondant, retire les tests supprimés, vérifie que data.json reste identique, puis ne valide que cc_fiches_audio.json.
+name: Sync cc_fiches audio (usage unique)
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/cc-fiches-audio.yml"
+permissions:
+  contents: write
+jobs:
+  sync:
+    if: github.repository == 'matthieutixier/top10geek'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rejouer et synchroniser
+        shell: bash
+        run: |
+          set -eu
+          git config user.name "Matthieu Tixier"
+          git config user.email "matthieu.tixier@gmail.com"
+          mkdir -p /tmp/in
+          for f in c.txt extras.json confirmations.json retirer.json build.py; do git show a10ee956:_publication/tmp_lots/$f > /tmp/in/$f; done
+          cp _source/data.json /tmp/data_main.json
+          git checkout f37fa8c0 -- _source/data.json
+          sed -i -e '/^# découpage en 3 lots/,$d' -e '/cc_fiches_audio.json"\]/d' /tmp/in/build.py
+          python3 /tmp/in/build.py /tmp/in
+          echo "6ace9c05e6352c32298d2ed8153caa794cd69bf5bd98eafca470c8f6b1254a10  /tmp/final.json" | sha256sum -c -
+          cmp /tmp/final.json /tmp/data_main.json
+          python3 - <<'PY'
+          import json
+          p = '_source/cc_fiches_audio.json'
+          raw = open(p, encoding='utf-8').read()
+          cc = json.loads(raw)
+          urls = {u for _, u in json.load(open('/tmp/in/retirer.json', encoding='utf-8'))}
+          k = 0
+          for f in cc.values():
+              t = [x for x in f['tests'] if x.get('url') not in urls]
+              k += len(f['tests']) - len(t)
+              f['tests'] = t
+          print('tests retirés des fiches CommentChoisir :', k)
+          open(p, 'w', encoding='utf-8').write(json.dumps(cc, ensure_ascii=False) + ('\n' if raw.endswith('\n') else ''))
+          PY
+          git checkout HEAD -- _source/data.json
+          git clean -fdq -e _source/data
+          git status --short
+          git add _source/cc_fiches_audio.json
+          git rm -q -f .github/workflows/cc-fiches-audio.yml
+          git commit -q -m "Synchronise cc_fiches_audio.json avec les notes corrigées du 11/11/2026 (notes, dates, tests retirés)" -m "Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_018UDNFion6fTkPuWyKRyCch"
+          git push
