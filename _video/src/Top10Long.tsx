@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, Img, interpolate, Sequence, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {C, FONT, Produit, Usage, attendreLesPolices, virgule} from './theme';
 
 // Vidéo longue « Top 10 » (1920×1080, 30 i/s) : intro, méthode, compte à rebours du n° 10 au n° 1, récapitulatif, fin.
@@ -12,6 +12,10 @@ const PODIUM = 420; // n° 3 à n° 1
 const RECAP = 300;
 const FIN = 240;
 export const DUREE_LONG = INTRO + METHODE + 7 * RANG + 3 * PODIUM + RECAP + FIN;
+
+// Piste sous licence CC BY 4.0, plus longue que la vidéo (2 min 54). Volume réglé pour environ -16 LUFS.
+const MUSIQUE = '_video/audio/newer-wave.mp3';
+const VOLUME = 0.6;
 
 const W = 1920;
 const H = 1080;
@@ -357,6 +361,12 @@ export const Top10Long: React.FC<{usage: Usage}> = ({usage}) => {
   let t = INTRO + METHODE;
   return (
     <AbsoluteFill>
+      {/* Musique de fond (crédit obligatoire dans la description, voir audio/LISEZMOI.md) : entrée en 1 s, sortie en 3 s. */}
+      <Audio
+        src={staticFile(MUSIQUE)}
+        startFrom={20}
+        volume={(f) => VOLUME * Math.min(interpolate(f, [0, 30], [0, 1], borne), interpolate(f, [DUREE_LONG - 90, DUREE_LONG - 5], [1, 0], borne))}
+      />
       <Fond u={usage} />
       <Bandeau u={usage} />
       <Sequence from={0} durationInFrames={INTRO}><Intro u={usage} /></Sequence>

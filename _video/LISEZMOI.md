@@ -29,10 +29,11 @@ Les vidéos ne montrent aucun prix attribué à un marchand (règle du 05/10/202
 
 L'écran final dit « Retrouvez-nous sur top10geek.fr pour en savoir plus » (12/11/2026), avec l'adresse de la page.
 
-## Vidéo longue « Top 10 » (1920×1080, 2 min 15, 30 i/s, sans son) — `src/Top10Long.tsx`
+## Vidéo longue « Top 10 » (1920×1080, 2 min 15, 30 i/s, avec musique) — `src/Top10Long.tsx`
 Pour YouTube, où le lien de la description est cliquable (il ne l'est pas sous un Short). Intro (titre, nombre de tests) → « Comment on classe » (tests recensés, notes, aucun marchand mis en avant) → compte à rebours du n° 10 au n° 1 (9 s par produit, 14 s pour le podium avec le verdict) → classement complet → fin (adresse de la page, « lien dans la description »). Un rail en bas d'écran montre où l'on en est. Mêmes garde-fous que le Top 3 : « 1 seul test noté », « testé, sans note », aucun prix attribué à un marchand.
 - Une fiche chargée (nom sur deux lignes, textes longs) passe seule en mise en page resserrée ; contrôler quand même l'aperçu avant chaque rendu.
 - À réserver aux usages dont la plupart des produits ont une note presse : avec beaucoup de « testé, sans note », la vidéo perd son intérêt.
+- Musique de fond : `audio/newer-wave.mp3` (Kevin MacLeod, CC BY 4.0). **Le crédit de `audio/LISEZMOI.md` doit figurer dans la description YouTube de chaque vidéo.**
 - `export_data.py` exporte pour cela `forts` (3 points forts) et `faibles` (2 points faibles) par produit.
 
 ## Points d'attention

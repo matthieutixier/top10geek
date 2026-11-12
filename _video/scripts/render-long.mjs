@@ -1,4 +1,4 @@
-// Rend les vidéos longues « Top 10 » (1920x1080, ~2 min 15, sans son).
+// Rend les vidéos longues « Top 10 » (1920x1080, 2 min 15, avec musique).
 //   node scripts/render-long.mjs                  -> liste les usages disponibles
 //   node scripts/render-long.mjs d-mini           -> rend un usage -> out/long/<famille>-<usage>.mp4
 //   node scripts/render-long.mjs d-mini apercu    -> une image par scène -> out/long/apercu/ (contrôle avant rendu)
