@@ -166,7 +166,10 @@ const Outro: React.FC<{u: Usage}> = ({u}) => {
         <div style={{fontFamily: FONT.title, fontWeight: 800, fontSize: 108, lineHeight: 1.03, color: C.ink, marginTop: 36, letterSpacing: -2}}>
           Tous les tests,<br />résumés<br />pour vous.
         </div>
-        <div style={{fontFamily: FONT.mono, fontWeight: 500, fontSize: 40, color: u.couleur, marginTop: 40, textTransform: 'none'}}>
+        <div style={{fontFamily: FONT.body, fontWeight: 700, fontSize: 46, lineHeight: 1.25, color: C.ink, marginTop: 40}}>
+          Retrouvez-nous sur <span style={{color: C.accent}}>top10geek.fr</span><br />pour en savoir plus.
+        </div>
+        <div style={{fontFamily: FONT.mono, fontWeight: 500, fontSize: 34, color: C.muted, marginTop: 22, textTransform: 'none'}}>
           top10geek.fr/{u.famille}/{u.slug}
         </div>
       </div>
