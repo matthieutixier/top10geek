@@ -37,6 +37,7 @@ export const attendreLesPolices = () => {
 
 export type Produit = {
   rang: number; id: string; nom: string; ref: string; badge: string; verdict: string; fort: string;
+  forts?: string[]; faibles?: string[];
   img: string | null; prix: string; note: number | null; nnotes: number; ntests: number;
 };
 export type Usage = {

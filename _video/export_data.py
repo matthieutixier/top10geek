@@ -86,7 +86,7 @@ def produits(catkey):
     for i, d in enumerate(out, 1):
         n, pr = d["n"], d["press"]
         res.append(dict(rang=i, id=d["id"], nom=n["short"], ref=n["ref"], badge=badge_affiche(d["badge"], i), verdict=n["verdict"],
-                        fort=(n["strengths"] or [""])[0], img=(f"assets/img/p/{n['img']}" if n.get("img") else None),
+                        fort=(n["strengths"] or [""])[0], forts=(n.get("strengths") or [])[:3], faibles=(n.get("weak") or [])[:2], img=(f"assets/img/p/{n['img']}" if n.get("img") else None),
                         prix=euro_ind(d["p"]), note=(round(pr["avg"], 1) if pr["avg"] is not None else None),
                         nnotes=pr["n"], ntests=pr["tests"]))
     return res
