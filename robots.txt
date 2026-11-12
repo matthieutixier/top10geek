@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://top10geek.fr/sitemap.xml
+Sitemap: https://top10geek.fr/sitemap-v2.xml

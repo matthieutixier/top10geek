@@ -121,7 +121,7 @@ def main():
     # 2. État avant
     data_avant = json.loads(head_file("_source/data.json"))
     date_avant = data_avant.get("date")
-    urls_avant = sitemap_info(head_file("sitemap.xml"))
+    urls_avant = sitemap_info(head_file("sitemap-v2.xml") or head_file("sitemap.xml") or "")   # sitemap-v2.xml depuis le 13/11/2026
     noindex_avant = pages_noindex("HEAD")
     nb_produits_avant = len(data_avant.get("items", data_avant.get("produits", []))) if isinstance(data_avant, dict) else None
 
@@ -168,13 +168,15 @@ def main():
     # 5. Contrôles SEO
     # 5a. Fichiers modifiés : seulement données, pages générées, sitemap, images réduites
     for f in modifs:
-        if f in ("_source/gen10.py", "_source/classement.py", "robots.txt", "_headers", "_redirects"):
+        if f in ("_source/gen10.py", "_source/classement.py", "_source/rivaux.py", "_source/sitemap_v2.json", "_source/rivaux_specs.json", "robots.txt", "_headers", "_redirects"):
             echecs.append(f"fichier protégé modifié : {f}")
         if f.endswith("effinity.local.json") or f.endswith("amazon.local.json"):
             echecs.append(f"fichier secret présent : {f}")
 
-    # 5b. Sitemap : aucune URL retirée ; les ajouts = fiches nouvellement indexables (règle 4)
-    urls_apres = sitemap_info(open("sitemap.xml", encoding="utf-8").read())
+    # 5b. Sitemap (sitemap-v2.xml, noyau figé depuis le 13/11/2026) : aucune URL retirée, aucune ajoutée par une tâche
+    urls_apres = sitemap_info(open("sitemap-v2.xml", encoding="utf-8").read()) if os.path.exists("sitemap-v2.xml") else {}
+    if not urls_apres:
+        echecs.append("sitemap-v2.xml absent ou vide")
     retirees = sorted(set(urls_avant) - set(urls_apres))
     ajoutees = sorted(set(urls_apres) - set(urls_avant))
     if retirees:
@@ -190,12 +192,13 @@ def main():
     nouvelles_indexees = sorted(noindex_avant - noindex_apres)
     if len(nouvelles_indexees) > MAX_NOUVELLES_INDEXEES:
         echecs.append(f"{len(nouvelles_indexees)} pages deviennent indexables (maximum {MAX_NOUVELLES_INDEXEES}, règle 4)")
-    # une page qui devient indexable doit apparaître au sitemap, et inversement
-    pages_sitemap_ajoutees = {u.replace("https://top10geek.fr/", "") for u in ajoutees}
-    for p in nouvelles_indexees:
-        cle = p[:-len("index.html")] if p.endswith("/index.html") else p[:-5]
-        if cle not in pages_sitemap_ajoutees:
-            echecs.append(f"page devenue indexable absente du sitemap : {p}")
+    # aucune URL du sitemap ne doit être en noindex (le sitemap est un noyau figé : une fiche qui devient indexable
+    # n'y entre pas automatiquement, elle reste indexable hors sitemap ; décision du 13/11/2026)
+    for u in urls_apres:
+        cle = u.replace("https://top10geek.fr/", "")
+        f = "index.html" if cle == "" else (cle + "index.html" if cle.endswith("/") else cle + ".html")
+        if f in noindex_apres:
+            echecs.append(f"URL du sitemap en noindex : {u}")
 
     # 5d. lastmod : seulement pour les pages réellement changées (règle 6)
     lm_changes = [u for u in urls_apres if u in urls_avant and urls_apres[u] != urls_avant[u]]

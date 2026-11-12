@@ -1,0 +1,15 @@
+/* v17 (13/11/2026) : bloc « Face à ses rivaux directs » des fiches du noyau */
+.riv-table{overflow-x:auto;margin:10px 0 8px;-webkit-overflow-scrolling:touch;border:1.5px solid var(--line-soft);border-radius:12px;background:#fff;}
+.riv-table table{border-collapse:collapse;width:100%;min-width:560px;font-size:.92rem;}
+.riv-table th,.riv-table td{padding:8px 10px;border-bottom:1px solid var(--line-soft);text-align:left;vertical-align:top;}
+.riv-table tbody tr:last-child th,.riv-table tbody tr:last-child td{border-bottom:0;}
+.riv-table thead th{font-family:"IBM Plex Mono",monospace;font-size:.76rem;letter-spacing:.03em;color:var(--ink-muted);font-weight:500;}
+.riv-table thead th a{color:var(--ink);text-decoration:underline;text-underline-offset:2px;}
+.riv-table tbody th{font-weight:600;color:var(--ink-muted);white-space:nowrap;font-size:.86rem;}
+.riv-table .moi{background:#FFF6D6;font-weight:700;color:var(--ink);}
+.riv-table thead th.moi{color:var(--ink);}
+.riv-table td.best{box-shadow:inset 0 -3px 0 var(--accent);font-weight:700;}
+.riv-table td.moi.best{background:#FFE89A;}
+.riv-lecture{margin-bottom:4px;}
+.riv-note{font-size:.8rem;color:var(--ink-muted);margin:6px 0 0;}
+.riv-note a{color:inherit;}
