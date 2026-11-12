@@ -173,12 +173,12 @@
  },
  {
   "id": "samsung-hw-qs700f",
+  "texte": "Cette barre 3.1.2 à caisson sans fil compact convainc RTings, Chip.de et TechAeris par ses dialogues : le canal central rend les voix présentes, et le mode d'amplification des voix est salué par Chip.de. Les basses du petit caisson sont jugées fortes et sans saturation, et RTings note qu'elle monte haut avec peu de compression.\n\nL'effet Dolby Atmos laisse plus mitigé. Chip.de le trouve correct sans égaler un vrai système surround, et RTings le juge peu enveloppant, avec une scène stéréo étroite et des aigus atténués à corriger à l'égaliseur. Faute d'enceintes arrière, le contenu 5.1 est ramené en stéréo. Son format convertible, posé à plat ou fixé au mur, adapte la diffusion à l'orientation, ce que relèvent les trois médias.\n\nTechAeris regrette un passage vidéo limité à la 4K à 60 Hz, gênant pour les joueurs. Le calibrage à la pièce exige un téléviseur Samsung compatible selon RTings, mais TechAeris l'a utilisée sans souci avec d'autres marques. Chip.de et les deux autres médias se contredisent sur Chromecast, absent pour le premier, présent pour RTings et TechAeris. Elle convient à qui veut surtout mieux comprendre les dialogues à la télévision, sans installation multi-enceintes.",
   "sources": [
-   "T3",
-   "TechAeris",
-   "Chip.de"
-  ],
-  "texte": "Trois médias notent la HW-QS700F de Samsung : T3 lui donne 10, TechAeris 9 et Chip.de 8, soit 9,0/10 de moyenne. RTings l'a testée sans note comparable. Ce résultat est d'autant plus intéressant qu'elle coûte environ 320 €, vendue ici par un revendeur tiers.\\n\\nLes testeurs apprécient un son large et plaisant pour le prix, un design fin et une installation simple, avec un système de haut-parleurs reconfigurable. Ils signalent un passage HDMI limité au 4K en 60 Hz, l'absence de haut-parleurs arrière fournis, le manque de LAN et d'entrée Aux, et un son parfois criard à fort volume."
+   "RTings",
+   "Chip.de",
+   "TechAeris"
+  ]
  },
  {
   "id": "sony-bravia-theatre-bar-7",
