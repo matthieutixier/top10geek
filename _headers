@@ -11,3 +11,9 @@
 # images : 7 jours (une photo remplacée garde parfois le même nom)
 /assets/img/*
   Cache-Control: public, max-age=604800
+
+# Copies de prévisualisation Cloudflare Pages (*.pages.dev) : jamais indexées, pour ne pas concurrencer top10geek.fr (13/11/2026)
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex

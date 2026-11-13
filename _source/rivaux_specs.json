@@ -1,0 +1,1022 @@
+{
+ "aero-x16": {
+  "releve": "2026-11-13",
+  "source": "https://www.gigabyte.com/Laptop/GIGABYTE-AERO-X16-EG61H/sp",
+  "v": {
+   "batterie_wh": 76,
+   "ecran": "16\" 165 Hz",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "poids_kg": 1.9,
+   "processeur": "AMD Ryzen AI",
+   "ram_go": 32
+  }
+ },
+ "alienware-aw2725d": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/en-uk/shop/alienware-27-280hz-qd-oled-gaming-monitor-aw2725d/apd/210-brzw/monitors-monitor-accessories",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "2560 × 1440",
+   "frequence_hz": 280,
+   "taille": 27
+  }
+ },
+ "alienware-aw2725q": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/en-us/shop/monitors/apd/alienware-27-4k-qd-oled-gaming-monitor-aw2725q/aw2725q_monitor/-",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "3840 × 2160",
+   "frequence_hz": 240,
+   "luminosite_cd": 250,
+   "taille": 27
+  }
+ },
+ "alienware-aw2726dm": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/en-us/shop/alienware-27-240hz-qd-oled-gaming-monitor-aw2726dm/apd/210-bvrc/monitors-monitor-accessories",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "2560 × 1440",
+   "frequence_hz": 240,
+   "luminosite_cd": 200,
+   "taille": 27
+  }
+ },
+ "aoc-ag276qsg2": {
+  "releve": "2026-11-13",
+  "source": "https://aoc.com/us/gaming/monitors/ag276qsg2",
+  "v": {
+   "dalle": "Fast IPS",
+   "definition": "2560 × 1440",
+   "frequence_hz": 360,
+   "luminosite_cd": 450,
+   "taille": 27
+  }
+ },
+ "aoc-q27g42ze": {
+  "releve": "2026-11-13",
+  "source": "https://www.aoc.com/us/gaming/monitors/q27g42ze",
+  "v": {
+   "dalle": "Fast IPS",
+   "definition": "2560 × 1440",
+   "frequence_hz": 240,
+   "luminosite_cd": 300,
+   "taille": 27
+  }
+ },
+ "aoc-q27g4x": {
+  "releve": "2026-11-13",
+  "source": "https://www.aoc.com/bg/gaming/monitors/q27g4x",
+  "v": {
+   "dalle": "Fast IPS",
+   "definition": "2560 × 1440",
+   "frequence_hz": 180,
+   "luminosite_cd": 450,
+   "taille": 27
+  }
+ },
+ "aoc-q27g4zd": {
+  "releve": "2026-11-13",
+  "source": "https://www.aoc.com/is/gaming/monitors/q27g4zd",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "2560 × 1440",
+   "frequence_hz": 280,
+   "luminosite_cd": 250,
+   "taille": 27
+  }
+ },
+ "aspire-go-15": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0G1N5HMY7",
+  "v": {
+   "ecran": "15,6\" 1920 × 1080 60 Hz",
+   "processeur": "Intel Core 3 N355",
+   "ram_go": 8,
+   "stockage_go": 256
+  }
+ },
+ "asus-mb169ck": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/displays-desktops/monitors/zenscreen/asus-zenscreen-mb169ck/techspec/",
+  "v": {
+   "dalle": "IPS",
+   "definition": "1920 × 1080",
+   "frequence_hz": 60,
+   "luminosite_cd": 250,
+   "poids_kg": 0.78,
+   "taille": 15.6
+  }
+ },
+ "asus-mq149cd": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/us/displays-desktops/monitors/zenscreen/zenscreen-duo-oled-mq149cd/techspec/",
+  "v": {
+   "dalle": "OLED",
+   "definition": "2 × 1920 × 1200",
+   "frequence_hz": 60,
+   "luminosite_cd": 400,
+   "poids_kg": 1.07,
+   "taille": "2 × 14"
+  }
+ },
+ "asus-pa279crv": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa279crv/techspec/",
+  "v": {
+   "dalle": "IPS",
+   "definition": "3840 × 2160",
+   "frequence_hz": 60,
+   "luminosite_cd": 350,
+   "taille": 27,
+   "usbc_w": 96
+  }
+ },
+ "asus-pa32qcv": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/displays-desktops/monitors/proart/proart-display-6k-pa32qcv/techspec/",
+  "v": {
+   "dalle": "IPS",
+   "definition": "6016 × 3384",
+   "frequence_hz": 60,
+   "luminosite_cd": 400,
+   "taille": 31.5,
+   "usbc_w": 96
+  }
+ },
+ "asus-pa32ucdm": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/displays-desktops/monitors/proart/proart-display-oled-pa32ucdm/techspec/",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "3840 × 2160",
+   "frequence_hz": 240,
+   "luminosite_cd": 250,
+   "taille": 31.5,
+   "usbc_w": 96
+  }
+ },
+ "asus-pg32ucdm": {
+  "releve": "2026-11-13",
+  "source": "https://rog.asus.com/us/monitors/27-to-31-5-inches/rog-swift-oled-pg32ucdm/spec/",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "3840 × 2160",
+   "frequence_hz": 240,
+   "taille": 31.5,
+   "usbc_w": 90
+  }
+ },
+ "beelink-eq14": {
+  "releve": "2026-11-13",
+  "source": "https://www.bee-link.com/products/beelink-eq14-n150",
+  "v": {
+   "format": "Mini-PC 12,6 × 12,6 × 3,9 cm, 490 g",
+   "gpu": "Intel UHD (intégré)",
+   "processeur": "Intel N150",
+   "ram_go": 16,
+   "stockage_go": 500
+  }
+ },
+ "canon-selphy-cp1500": {
+  "releve": "2026-11-13",
+  "source": "https://www.canon.fr/printers/selphy-cp1500/specifications/",
+  "v": {
+   "batterie": "en option",
+   "format_max": "100 × 148 mm",
+   "poids_kg": 0.85,
+   "technologie": "Sublimation thermique",
+   "temps_tirage_s": 41
+  }
+ },
+ "canon-selphy-qx20": {
+  "releve": "2026-11-13",
+  "source": "https://www.canon.fr/printers/selphy-qx20/specifications/",
+  "v": {
+   "batterie": "oui",
+   "format_max": "72 × 85 mm",
+   "poids_kg": 0.455,
+   "technologie": "Sublimation thermique",
+   "temps_tirage_s": 40
+  }
+ },
+ "chromebook-duet": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable_hybride/lenovo_cb_komp838_8_128.html",
+  "v": {
+   "batterie_wh": 29,
+   "ecran": "10,95\" 1920 × 1200 IPS",
+   "processeur": "MediaTek Kompanio 838",
+   "ram_go": 8,
+   "stockage_go": 128
+  }
+ },
+ "chromebook-plus-514": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0BBKYTKXR",
+  "v": {
+   "ecran": "14\" 1920 × 1200 IPS",
+   "processeur": "Intel Core 3 N355",
+   "ram_go": 8,
+   "stockage_go": 128
+  }
+ },
+ "crosshair16": {
+  "releve": "2026-11-13",
+  "source": "https://us.msi.com/Laptop/Crosshair-16-HX-AI-D2XWX/Specification",
+  "v": {
+   "batterie_wh": 90,
+   "ecran": "16\" 2560 × 1600 240 Hz",
+   "gpu": "NVIDIA GeForce RTX 5070",
+   "poids_kg": 2.5,
+   "processeur": "Intel Core Ultra 7 255HX",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "cyborg15": {
+  "releve": "2026-11-13",
+  "source": "https://us.msi.com/Laptop/Cyborg-15-C2WX/Specification",
+  "v": {
+   "batterie_wh": 60,
+   "ecran": "15,6\" 1920 × 1080 144 Hz",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "poids_kg": 1.98,
+   "processeur": "Intel Core 7 240H",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "dell-s3225qs": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/fr-fr/shop/%C3%A9cran-4k-dell-32-plus-s3225qs/apd/210-bqwp/%C3%A9crans-et-accessoires-pour-%C3%A9crans",
+  "v": {
+   "dalle": "VA",
+   "definition": "3840 × 2160",
+   "frequence_hz": 120,
+   "luminosite_cd": 300,
+   "taille": 31.5
+  }
+ },
+ "dell-u2724d": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/en-ie/shop/monitors/apd/dell-ultrasharp-27-monitor-u2724d/u2724d_monitor/-",
+  "v": {
+   "dalle": "IPS Black",
+   "definition": "2560 × 1440",
+   "frequence_hz": 120,
+   "luminosite_cd": 350,
+   "taille": 27
+  }
+ },
+ "dell-u2724de": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/fr-fr/shop/monitors/apd/%C3%A9cran-dell-ultrasharp-27-avec-hub-thunderbolt-u2724de/u2724de_withstnd_mon/-",
+  "v": {
+   "dalle": "IPS Black",
+   "definition": "2560 × 1440",
+   "frequence_hz": 120,
+   "luminosite_cd": 350,
+   "taille": 27,
+   "usbc_w": 90
+  }
+ },
+ "epson-et-2856": {
+  "releve": "2026-11-13",
+  "source": "https://www.epson.fr/fr_FR/produits/imprimantes/inkjet/grand-public/ecotank-et-2856/p/30589",
+  "v": {
+   "fonctions": "impression, copie, scan",
+   "format_max": "A4",
+   "recto_verso": "oui",
+   "technologie": "Jet d'encre à réservoirs",
+   "vitesse_couleur": 5,
+   "vitesse_noir": 10.5
+  }
+ },
+ "epson-et-3950": {
+  "releve": "2026-11-13",
+  "source": "https://www.epson.eu/en_EU/products/printers/inkjet/consumer/ecotank-et-3950-a4-multifunction-wi-fi-ink-tank-printer,-with-up-to-3-years-of-ink-included/p/44868",
+  "v": {
+   "chargeur": "oui (30 pages)",
+   "fonctions": "impression, copie, scan",
+   "format_max": "A4",
+   "recto_verso": "oui",
+   "technologie": "Jet d'encre à réservoirs",
+   "vitesse_couleur": 9,
+   "vitesse_noir": 18
+  }
+ },
+ "epson-et-4856": {
+  "releve": "2026-11-13",
+  "source": "https://epson.fr/fr_FR/produits/imprimantes/inkjet/grand-public/ecotank-et-4856/p/32300",
+  "v": {
+   "chargeur": "oui (30 pages)",
+   "fonctions": "impression, copie, scan, fax",
+   "format_max": "A4",
+   "recto_verso": "oui",
+   "technologie": "Jet d'encre à réservoirs",
+   "vitesse_couleur": 8.5,
+   "vitesse_noir": 15.5
+  }
+ },
+ "epson-et-4956": {
+  "releve": "2026-11-13",
+  "source": "https://www.epson.eu/en_EU/products/printers/inkjet/consumer/ecotank-et-4956-white-a4-multifunction-wi-fi-ink-tank-printer,-with-up-to-3-years-of-ink-included/p/44865",
+  "v": {
+   "chargeur": "oui (30 pages)",
+   "fonctions": "impression, copie, scan, fax",
+   "format_max": "A4",
+   "recto_verso": "oui",
+   "technologie": "Jet d'encre à réservoirs",
+   "vitesse_couleur": 9,
+   "vitesse_noir": 18
+  }
+ },
+ "fujifilm-instax-link-wide": {
+  "releve": "2026-11-13",
+  "source": "https://www.fujifilm.com/us/en/consumer/instax/printers/linkwide/specifications",
+  "v": {
+   "batterie": "oui",
+   "format_max": "86 × 108 mm",
+   "poids_kg": 0.34,
+   "technologie": "Film instantané Instax Wide",
+   "temps_tirage_s": 12
+  }
+ },
+ "galaxy-book4-edge": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_portable-portable/portable/samsung_np750xqb_qlc_16_512.html",
+  "v": {
+   "ecran": "15,6\"",
+   "processeur": "Qualcomm Snapdragon X",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "geekom-a5": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-a5-mini-pc/",
+  "v": {
+   "format": "Mini-PC 11,7 × 11,2 × 4,9 cm, 652 g",
+   "gpu": "AMD Radeon (intégré)",
+   "processeur": "AMD Ryzen 5 7430U ou Ryzen 7 7730U",
+   "ram_go": 16
+  }
+ },
+ "geekom-a5pro": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-a5-pro-mini-pc-2026-edition/",
+  "v": {
+   "format": "Mini-PC 11,2 × 11,2 × 3,7 cm, 416 g",
+   "gpu": "AMD Radeon (intégré)",
+   "processeur": "AMD Ryzen 5 7530U (ou Ryzen 7 7730U)",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "geekom-a7": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-a7-mini-pc/",
+  "v": {
+   "format": "Mini-PC 11,2 × 11,2 × 3,7 cm, 416 g",
+   "gpu": "AMD Radeon (intégré)",
+   "processeur": "AMD Ryzen 5 7535HS (ou 7545U, Ryzen 7 7730U)",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "geekom-a8": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-a8-mini-pc/",
+  "v": {
+   "format": "Mini-PC 11,2 × 11,2 × 3,8 cm, 416 g",
+   "gpu": "AMD Radeon 780M (intégré)",
+   "processeur": "AMD Ryzen 7 8745HS",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "geekom-a9max": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-a9-max-mini-pc/",
+  "v": {
+   "format": "Mini-PC 13,5 × 13,2 × 4,7 cm, 692 g",
+   "gpu": "AMD Radeon 890M (intégré)",
+   "processeur": "AMD Ryzen AI 9 HX 470 (ou HX 370)",
+   "ram_go": 32,
+   "stockage_go": 2000
+  }
+ },
+ "geekom-air12-lite": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-mini-air-12-lite-mini-pc/",
+  "v": {
+   "format": "Mini-PC 13,6 × 11,6 × 3,5 cm, 520 g",
+   "gpu": "Intel UHD (intégré)",
+   "processeur": "Intel N95",
+   "ram_go": 8,
+   "stockage_go": 256
+  }
+ },
+ "geekom-gt1mega": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-gt1-mega-mini-pc/",
+  "v": {
+   "format": "Mini-PC 13,5 × 13,2 × 4,4 cm, 692 g",
+   "gpu": "Intel Arc (intégré)",
+   "processeur": "Intel Core Ultra 9 185H"
+  }
+ },
+ "geekom-it12": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-mini-it12-mini-pc/",
+  "v": {
+   "format": "Mini-PC",
+   "processeur": "Intel Core i5 ou i7 (12e génération)",
+   "ram_go": 16
+  }
+ },
+ "geekom-it13": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0CTCPTRHM",
+  "v": {
+   "format": "Mini-PC",
+   "processeur": "Intel Core i5-13600H à i9-13900HK",
+   "ram_go": 16
+  }
+ },
+ "geekom-it15": {
+  "releve": "2026-11-13",
+  "source": "https://www.geekom.fr/geekom-mini-it15-mini-pc/",
+  "v": {
+   "format": "Mini-PC 11,7 × 11,2 × 4,6 cm, 652 g",
+   "gpu": "Intel Arc 140T (intégré)",
+   "processeur": "Intel Core Ultra 9 285H",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "gigabyte-a16": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_portable-portable/portable/gigabyte_a16",
+  "v": {
+   "ecran": "16\" 165 Hz",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "gmktec-evo-x2": {
+  "releve": "2026-11-13",
+  "source": "https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc",
+  "v": {
+   "format": "Mini-PC",
+   "gpu": "AMD Radeon 8060S (intégré)",
+   "processeur": "AMD Ryzen AI Max+ 395",
+   "ram_go": 64,
+   "stockage_go": 1000
+  }
+ },
+ "gmktec-k13": {
+  "releve": "2026-11-13",
+  "source": "https://www.gmktec.com/products/gmktec-k13-mini-pc-intel-core-ultra-7-256v",
+  "v": {
+   "format": "Mini-PC ultra-fin",
+   "gpu": "Intel Arc 140V (intégré)",
+   "processeur": "Intel Core Ultra 7 256V",
+   "ram_go": 16
+  }
+ },
+ "helios-neo-16": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0GDH6WQT9",
+  "v": {
+   "ecran": "16\" 2560 × 1600 IPS 240 Hz",
+   "gpu": "NVIDIA GeForce RTX 5070 Ti",
+   "processeur": "Intel Core Ultra 9 275HX",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "ideapad-slim3": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0GX1WCY17",
+  "v": {
+   "ecran": "15,6\"",
+   "gpu": "AMD Radeon 610M (intégrée)",
+   "processeur": "AMD Athlon Silver",
+   "ram_go": 8,
+   "stockage_go": 128
+  }
+ },
+ "ideapad-slim3x": {
+  "releve": "2026-11-13",
+  "source": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Slim_3_15Q8X10/IdeaPad_Slim_3_15Q8X10_Spec.PDF",
+  "v": {
+   "ecran": "15,3\" 1920 × 1200 IPS",
+   "gpu": "Qualcomm Adreno (intégré)",
+   "poids_kg": 1.55,
+   "processeur": "Qualcomm Snapdragon X X1-26-100",
+   "ram_go": 16,
+   "stockage_go": 256
+  }
+ },
+ "ideapad1": {
+  "releve": "2026-11-13",
+  "source": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_1_15ALC7/IdeaPad_1_15ALC7_Spec.pdf",
+  "v": {
+   "batterie_wh": 42,
+   "ecran": "15,6\"",
+   "gpu": "AMD Radeon (intégré)",
+   "poids_kg": 1.61,
+   "processeur": "AMD Ryzen 5",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "iiyama-gb2771qsu": {
+  "releve": "2026-11-13",
+  "source": "https://iiyama.com/gb_en/products/g-master-gb2771qsu-b1/",
+  "v": {
+   "dalle": "IPS",
+   "definition": "2560 × 1440",
+   "frequence_hz": 200,
+   "taille": 27
+  }
+ },
+ "imac-m4": {
+  "releve": "2026-11-13",
+  "source": "https://support.apple.com/en-us/121556",
+  "v": {
+   "ecran": "24\" 4480 × 2520",
+   "format": "Tout-en-un, 4,42 kg",
+   "gpu": "Apple M4 (8 cœurs, intégré)",
+   "processeur": "Apple M4 (8 cœurs)",
+   "ram_go": 16,
+   "stockage_go": 256
+  }
+ },
+ "katana15": {
+  "releve": "2026-11-13",
+  "source": "https://www.msi.com/Laptop/Katana-15-HX-C14WX/Specification",
+  "v": {
+   "batterie_wh": 60,
+   "ecran": "15,6\" 1920 × 1080 144 Hz",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "poids_kg": 2.1,
+   "processeur": "Intel Core i7 HX (14e gén.)",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "kodak-step": {
+  "releve": "2026-11-13",
+  "source": "https://www.kodak.com/en/consumer/product/printing-scanning/photo-printers/step-instant-mobile-photo-printer/",
+  "v": {
+   "format_max": "5 × 7,6 cm (2 × 3 pouces)",
+   "technologie": "Papier Zink (sans encre)"
+  }
+ },
+ "lg-32un88a": {
+  "releve": "2026-11-13",
+  "source": "https://www.lg.com/fr/monitore/uhd-4k-5k/32un88a-w-moniteur-ultrafine/",
+  "v": {
+   "dalle": "IPS",
+   "definition": "3840 × 2160",
+   "frequence_hz": 60,
+   "luminosite_cd": 350,
+   "taille": 32,
+   "usbc_w": 60
+  }
+ },
+ "lg-gram17": {
+  "releve": "2026-11-13",
+  "source": "https://www.lg.com/uk/laptops/gram/17z90tl-g-au78an/",
+  "v": {
+   "batterie_wh": 77,
+   "ecran": "17\" 2560 × 1600 IPS 60 Hz",
+   "poids_kg": 1.389,
+   "processeur": "Intel Core Ultra 7 256V",
+   "ram_go": 16
+  }
+ },
+ "loq-tower": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0FJG24FL4",
+  "v": {
+   "format": "Tour",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "processeur": "AMD Ryzen 7",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "loq15": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable/lenovo_loq_15_r7_24_1_5060.html",
+  "v": {
+   "batterie_wh": 60,
+   "ecran": "15,6\" 1920 × 1080 IPS 144 Hz",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "poids_kg": 2.4,
+   "processeur": "AMD Ryzen 7 250",
+   "ram_go": 24,
+   "stockage_go": 1000
+  }
+ },
+ "mac-mini-m6": {
+  "releve": "2026-11-13",
+  "source": "https://support.apple.com/en-us/128108",
+  "v": {
+   "format": "Mini-PC 12,7 × 12,7 × 5 cm, 0,67 kg",
+   "gpu": "Apple M6 (12 cœurs, intégré)",
+   "processeur": "Apple M6 (12 cœurs)",
+   "ram_go": 16,
+   "stockage_go": 256
+  }
+ },
+ "macbook-neo": {
+  "releve": "2026-11-13",
+  "source": "https://www.apple.com/mac/compare/?modelList=MacBook-Neo-A18-Pro,MacBook-Air-M5,MacBook-Air-M5-15",
+  "v": {
+   "ecran": "13\" 2408 × 1506",
+   "gpu": "Apple (5 cœurs, intégré)",
+   "poids_kg": 1.23,
+   "processeur": "Apple A18 Pro (6 cœurs)",
+   "ram_go": 8,
+   "stockage_go": 256
+  }
+ },
+ "mba13-m5": {
+  "releve": "2026-11-13",
+  "source": "https://www.apple.com/mac/compare/?modelList=MacBook-Neo-A18-Pro,MacBook-Air-M5,MacBook-Air-M5-15",
+  "v": {
+   "ecran": "13,6\" 2560 × 1664",
+   "gpu": "Apple M5 (intégré)",
+   "poids_kg": 1.23,
+   "processeur": "Apple M5 (10 cœurs)",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "mba15-m5": {
+  "releve": "2026-11-13",
+  "source": "https://www.apple.com/mac/compare/?modelList=MacBook-Neo-A18-Pro,MacBook-Air-M5,MacBook-Air-M5-15",
+  "v": {
+   "ecran": "15,3\" 2880 × 1864",
+   "gpu": "Apple M5 (10 cœurs, intégré)",
+   "poids_kg": 1.51,
+   "processeur": "Apple M5 (10 cœurs)",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "mbp14-m5": {
+  "releve": "2026-11-13",
+  "source": "https://support.apple.com/en-us/125405",
+  "v": {
+   "batterie_wh": 72.4,
+   "ecran": "14,2\" 3024 × 1964 mini-LED",
+   "gpu": "Apple M5 (10 cœurs, intégré)",
+   "poids_kg": 1.55,
+   "processeur": "Apple M5 (10 cœurs)",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "msi-mpg-321urx": {
+  "releve": "2026-11-13",
+  "source": "https://www.msi.com/Monitor/MPG-321URX-QD-OLED",
+  "v": {
+   "dalle": "QD-OLED",
+   "definition": "3840 × 2160",
+   "frequence_hz": 240,
+   "taille": 32,
+   "usbc_w": 90
+  }
+ },
+ "nipogi-am06pro": {
+  "releve": "2026-11-13",
+  "source": "https://www.amazon.fr/dp/B0BY25NQGP",
+  "v": {
+   "format": "Mini-PC",
+   "gpu": "AMD Radeon (intégré)",
+   "processeur": "AMD Ryzen 5 7430U",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "omen-max-16": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_portable-portable/portable/hp_omenmx_r7_32_1_5070t.html",
+  "v": {
+   "batterie_wh": 83,
+   "ecran": "16\" 2560 × 1600 IPS 240 Hz",
+   "gpu": "NVIDIA GeForce RTX 5070 Ti",
+   "poids_kg": 2.66,
+   "processeur": "AMD Ryzen AI 7 350",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "omen35l": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/bureau-bureau/bureau/hp_g_omen3_r7_32_1_5070.",
+  "v": {
+   "format": "Tour 35 L",
+   "gpu": "NVIDIA GeForce RTX 5070",
+   "processeur": "AMD Ryzen 7",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "omnibook-x-flip14": {
+  "releve": "2026-11-13",
+  "source": "https://www.hp.com/gb-en/shop/products/laptops/hp-omnibook-x-flip-2-in-1-laptop-next-gen-ai-14-fm0011nax-dc1f2ea-abu",
+  "v": {
+   "batterie_wh": 59,
+   "ecran": "14\" 1920 × 1200 OLED tactile",
+   "poids_kg": 1.38,
+   "processeur": "Intel Core Ultra ou AMD Ryzen AI",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "omnibook5-14": {
+  "releve": "2026-11-13",
+  "source": "https://www.hp.com/gb-en/shop/products/laptops/hp-omnibook-5-laptop-next-gen-ai-14-he0006nax-dw9c2ea-abu",
+  "v": {
+   "batterie_wh": 59,
+   "ecran": "14\" 1920 × 1200 OLED",
+   "gpu": "Qualcomm Adreno (intégré)",
+   "poids_kg": 1.29,
+   "processeur": "Qualcomm Snapdragon X X1-26-100",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "omnistudio-x27": {
+  "releve": "2026-11-13",
+  "source": "https://www.hp.com/gb-en/shop/products/desktops/hp-omnistudio-x-all-in-one-27-cs0001na-pc-a9dm0ea-abu",
+  "v": {
+   "ecran": "27\" 3840 × 2160",
+   "format": "Tout-en-un",
+   "gpu": "Intel Arc (intégré)",
+   "processeur": "Intel Core Ultra 7 155H",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "omnistudio-x32": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_bureau/tout/hp_a_32-c1006_u7_32_2_",
+  "v": {
+   "ecran": "31,5\" 3840 × 2160",
+   "format": "Tout-en-un",
+   "processeur": "Intel Core Ultra 7",
+   "ram_go": 32,
+   "stockage_go": 2000
+  }
+ },
+ "orion-7000": {
+  "releve": "2026-11-13",
+  "source": "https://store.acer.com/fr-fr/predator-orion-7000-pc-gamer-po7-655-noir-dg-e3zef-019",
+  "v": {
+   "format": "Grande tour 48,5 × 21,9 × 50,5 cm",
+   "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+   "processeur": "Intel Core i7-14700KF",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "proart-p16": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/us/laptops/for-creators/proart/proart-p16-h7606/techspec/",
+  "v": {
+   "batterie_wh": 90,
+   "ecran": "16\" OLED tactile",
+   "gpu": "NVIDIA GeForce RTX 5060",
+   "processeur": "AMD Ryzen AI 9 HX 370",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "proart-px13": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/us/business/product-compare?ProductID=25398,25395&LevelId=laptops-x-all-series",
+  "v": {
+   "batterie_wh": 73,
+   "ecran": "13,3\" 2880 × 1800 OLED",
+   "gpu": "AMD Radeon (intégré)",
+   "poids_kg": 1.38,
+   "processeur": "AMD Ryzen AI Max",
+   "ram_go": 64,
+   "stockage_go": 1000
+  }
+ },
+ "sony-inzone-m10s": {
+  "releve": "2026-11-13",
+  "source": "https://www.sony.ca/en/electronics/support/monitors-inzone-m10-series/sdm-27q10s",
+  "v": {
+   "dalle": "OLED",
+   "definition": "2560 × 1440",
+   "frequence_hz": 480,
+   "taille": 27
+  }
+ },
+ "strix-g16": {
+  "releve": "2026-11-13",
+  "source": "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2025/spec/",
+  "v": {
+   "batterie_wh": 90,
+   "ecran": "16\" 2560 × 1600",
+   "gpu": "NVIDIA GeForce RTX série 50",
+   "poids_kg": 2.65
+  }
+ },
+ "surface-laptop-13": {
+  "releve": "2026-11-13",
+  "source": "https://learn.microsoft.com/en-us/surface/tech-specs/surface-laptop-copilot-plus-pc-13inch-tech-specs",
+  "v": {
+   "batterie_wh": 50,
+   "ecran": "13\" 1920 × 1280 tactile",
+   "poids_kg": 1.22,
+   "processeur": "Qualcomm Snapdragon X Plus",
+   "ram_go": 16,
+   "stockage_go": 256
+  }
+ },
+ "swift-air-14": {
+  "releve": "2026-11-13",
+  "source": "https://www.acer.com/us-en/laptops/swift/swift-air-14-sfa14-i31",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "14\" 120 Hz",
+   "processeur": "Intel Core (série 3)"
+  }
+ },
+ "swift16ai": {
+  "releve": "2026-11-13",
+  "source": "https://www.acer.com/us-en/laptops/swift/swift-16-ai-sf16-71t",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "16\" 2880 × 1800 OLED tactile 120 Hz",
+   "gpu": "Intel Arc (intégré)",
+   "processeur": "Intel Core Ultra X9 (série 3)",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "viewsonic-va1655": {
+  "releve": "2026-11-13",
+  "source": "https://manuals.viewsonic.com/VA1655_Specifications",
+  "v": {
+   "definition": "1920 × 1080",
+   "frequence_hz": 75,
+   "poids_kg": 0.8,
+   "taille": 15.6
+  }
+ },
+ "vivobook-s14": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/us/laptops/for-home/vivobook/asus-vivobook-s14-s3407/techspec/",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "14\" 1920 × 1200 OLED",
+   "gpu": "Intel (intégré)",
+   "poids_kg": 1.4,
+   "processeur": "Intel Core Ultra 5",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "xps14": {
+  "releve": "2026-11-13",
+  "source": "https://www.dell.com/en-uk/shop/cty/pdp/spd/xps-da14260-laptop",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "14\" OLED 2880 × 1800 ou LCD 1920 × 1200",
+   "ram_go": 32
+  }
+ },
+ "yoga-pro9": {
+  "releve": "2026-11-13",
+  "source": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Pro_9_16IAH10/Yoga_Pro_9_16IAH10_Spec.pdf",
+  "v": {
+   "batterie_wh": 84,
+   "ecran": "16\" OLED 120 Hz",
+   "gpu": "NVIDIA GeForce RTX 5050, 5060 ou 5070",
+   "poids_kg": 1.92,
+   "processeur": "Intel Core Ultra 7 ou 9 (série 2)",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "yoga-slim7": {
+  "releve": "2026-11-13",
+  "source": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_14ILL10/Yoga_Slim_7_14ILL10_Spec.PDF",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "14\" OLED",
+   "gpu": "Intel Arc 130V ou 140V (intégré)",
+   "poids_kg": 1.19,
+   "processeur": "Intel Core Ultra 5 ou 7 (série 2)",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "yoga-slim7x": {
+  "releve": "2026-11-13",
+  "source": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_Slim_7_14Q8X9/Yoga_Slim_7_14Q8X9_Spec.PDF",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "14,5\" 2944 × 1840 OLED",
+   "gpu": "Qualcomm Adreno (intégré)",
+   "poids_kg": 1.28,
+   "processeur": "Qualcomm Snapdragon X Elite",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "yoga7-2in1": {
+  "releve": "2026-11-13",
+  "source": "https://psref.lenovo.com/syspool/Sys/PDF/Yoga/Yoga_7_2_in_1_14AKP10/Yoga_7_2_in_1_14AKP10_Spec.pdf",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "14\" OLED tactile",
+   "gpu": "AMD Radeon (intégré)",
+   "poids_kg": 1.38,
+   "processeur": "AMD Ryzen AI 5 ou 7 (série 300)",
+   "ram_go": 24,
+   "stockage_go": 512
+  }
+ },
+ "zenbook-a14": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-a14-ux3407/techspec/",
+  "v": {
+   "ecran": "14\" OLED",
+   "gpu": "Qualcomm Adreno (intégré)",
+   "processeur": "Qualcomm Snapdragon X",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "zenbook-a16": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-a16-ux3607/techspec/",
+  "v": {
+   "batterie_wh": 70,
+   "ecran": "16\" 2880 × 1800 OLED 120 Hz",
+   "gpu": "Qualcomm Adreno (intégré)",
+   "processeur": "Qualcomm Snapdragon X",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "zenbook-duo": {
+  "releve": "2026-11-13",
+  "source": "https://www.darty.com/nav/achat/informatique/ordinateur_portable/portable/asus_ux8406ca_i7_32_1.html",
+  "v": {
+   "ecran": "2 × 14\" 1920 × 1200 OLED tactiles",
+   "gpu": "Intel Graphics (intégrée)",
+   "processeur": "Intel Core Ultra 7 255H",
+   "ram_go": 32,
+   "stockage_go": 1000
+  }
+ },
+ "zenbook-s14": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-s-14-ux5406/techspec/",
+  "v": {
+   "ecran": "14\" OLED",
+   "gpu": "Intel Arc (intégré)",
+   "poids_kg": 1.2,
+   "processeur": "Intel Core Ultra 7",
+   "ram_go": 16,
+   "stockage_go": 512
+  }
+ },
+ "zenbook-s16": {
+  "releve": "2026-11-13",
+  "source": "https://www.asus.com/laptops/for-home/zenbook/asus-zenbook-s-16-um5606/techspec/",
+  "v": {
+   "ecran": "16\" 2880 × 1800 OLED 120 Hz",
+   "gpu": "AMD Radeon (intégré)",
+   "poids_kg": 1.5,
+   "processeur": "AMD Ryzen AI 9",
+   "ram_go": 16,
+   "stockage_go": 1000
+  }
+ },
+ "zephyrus-g16": {
+  "releve": "2026-11-13",
+  "source": "https://rog.asus.com/sg/laptops/rog-zephyrus/rog-zephyrus-g16-2026/spec/",
+  "v": {
+   "batterie_wh": 90,
+   "ecran": "16\" 2560 × 1600 OLED 240 Hz",
+   "processeur": "Intel Core Ultra 9 386H"
+  }
+ }
+}

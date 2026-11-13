@@ -11,6 +11,7 @@ prix relevés par marchand (Amazon, Darty, Acer Store, Geekom, Electro Dépôt),
 Données : data.json (source de vérité ; build_data.py est hors service depuis le 10/10/2026)."""
 import json, os, html, re, shutil, math, hashlib, unicodedata, collections, statistics
 from guides import GUIDES
+import rivaux
 from guides_desk import GUIDES_DESK
 from desk import DCATS
 from profiles import PROFILES
@@ -22,7 +23,7 @@ from catalog_sols import SOLS
 from catalog_reconditionnes import RECO, GUIDE_RECO
 PROFILES = dict(PROFILES, **{k: (v["pour"], v["eviter"]) for k, v in list(ECR.items()) + list(IMP.items()) + list(SOLS.items()) + list(RECO.items())})
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
-CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css', 'extra23.css', 'extra24.css']
+CSS_FILES = ['artifact_base.css', 'extra.css', 'extra4.css', 'extra5.css', 'extra6.css', 'extra7.css', 'extra8.css', 'extra9.css', 'extra10.css', 'extra11.css', 'extra12.css', 'extra13.css', 'extra14.css', 'extra15.css', 'extra16.css', 'extra17.css', 'extra18.css', 'extra19.css', 'extra20.css', 'extra21.css', 'extra22.css', 'extra23.css', 'extra24.css', 'extra25.css']
 VER = hashlib.md5(b''.join(open(SRC + f, 'rb').read() for f in CSS_FILES + ['main15.js'])).hexdigest()[:8]
 
 OUT = os.path.dirname(SRC.rstrip("/"))
@@ -579,16 +580,11 @@ def og_pour(path):
 
 
 def indexable(d):
-    """Fiche produit indexable si elle repose sur au moins 2 notes chiffrées OU au moins 2 tests presse recensés,
-    même sans note publique (décision du 20/10/2026, après l'audit SEO du 10/10/2026 : ces fiches apportaient 43 % des clics Google).
-    Les fiches à un seul test restent en ligne et dans les classements, mais en noindex,follow et hors sitemap.
-    L'affichage ne change pas : pastilles « 1 seul test noté », « testé, sans note », fin de classement."""
-    if d.get("purl", "").rstrip("/") in NOINDEX_MINCES and not (d["press"] and d["press"]["n"] >= 2 and d.get("synthese")):
-        return False   # fiche mince sans impression avant le 26/10 : noindex jusqu'à 2 notes + synthèse (09/11/2026, noindex_minces.json)
-    return (bool(d["press"]) and d["press"]["n"] >= 2) or d["tests"]["tests"] >= 2
-
-
-NOINDEX_MINCES = set(json.load(open(SRC + "noindex_minces.json", encoding="utf-8"))["fiches"]) if os.path.exists(SRC + "noindex_minces.json") else set()
+    """Fiche produit indexable si elle a une synthèse « Ce que disent les tests » ET au moins 3 tests recensés
+    (décision de Matthieu du 13/11/2026, plan de remontée Google : seules les fiches complètes sont jugées par Google).
+    Les autres restent en ligne et dans les classements, en noindex,follow. Une fiche redevient indexable d'elle-même
+    dès qu'elle remplit la règle. Le sitemap (sitemap-v2.xml) ne contient que le noyau figé de _source/sitemap_v2.json."""
+    return bool(d.get("synthese")) and d["tests"]["tests"] >= 3
 
 
 # ---------------------------------------------------------------- Vitesse d'affichage (audit SEO du 10/10/2026)
@@ -1419,7 +1415,10 @@ def product_page(fam, c, rank, d, items):
         val = f'<b>{fr(nt["score"])}</b>' if nt["score"] is not None else '<b class="nn">test</b>'
         return f"<li><span>{nm}</span>{val}</li>"
     notes = "".join(note_li(nt) for nt in ts["notes"])
-    src = f'<p class="src">Source du relevé : <a href="{E(ts["src"][1])}" target="_blank" rel="noopener nofollow">{E(ts["src"][0])}</a>.</p>' if ts["src"][1] else ""
+    riv_html, n_crit = rivaux.bloc(d, fam["key"], items, rank, fr, euro_ind, root)
+    src = (f'<p class="src">Relevé et synthèse éditoriale par Top 10 Geek : {ts["tests"]} test{"s" if ts["tests"] > 1 else ""} '
+           f'de {medias} média{"s" if medias > 1 else ""} recensé{"s" if ts["tests"] > 1 else ""}'
+           + (f', {n_crit} critères comparés à ses rivaux directs' if n_crit else "") + '.</p>')
 
     st = "".join(f'<span class="s">{E(x)}</span>' for x in d["strengths"])
     wk = "".join(f'<span class="s">{E(x)}</span>' for x in d["weak"]) or '<span class="s muted">Aucun défaut majeur relevé par la presse</span>'
@@ -1547,6 +1546,7 @@ def product_page(fam, c, rank, d, items):
     </div>
   </section>
 
+{riv_html}
   <section class="section p-sec" id="prix">
     <div class="section-head"><h2>Où l'acheter</h2><div class="tag">Environ {euro_ind(d['p'])} · {ind_txt(fam)}</div></div>
     <div class="p-buywrap">
@@ -2267,6 +2267,19 @@ def lastmods(urls):
 if os.environ.get("T10_STATS"):
     json.dump(STATS_USAGES, open(SRC + "data/stats_usages.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 LASTMOD = lastmods(urls)
-write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-      "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>{LASTMOD[u]}</lastmod></url>\n" for u in urls) + "</urlset>\n")
+# Sitemap (13/11/2026) : sitemap-v2.xml = le NOYAU figé de _source/sitemap_v2.json (fiches) + accueil, méthode, à propos,
+# étude, rubriques et usages Informatique. Une page du noyau qui ne serait plus indexable en est écartée (et signalée).
+# L'ancien sitemap.xml n'existe plus. Les autres pages indexables restent indexables, hors sitemap.
+_NOYAU_FICHES = {d["purl"] for d in ITEMS.values() if d["id"] in rivaux.NOYAU}
+_FAM_INFO = [f for f in FAMILIES if f["key"] in ("laptop", "desktop", "ecran", "imprimante")]
+urls_v2 = ([""] + [f"{f['slug']}/" for f in _FAM_INFO] + [f"{f['slug']}/{c['slug']}/" for f in _FAM_INFO for c in f["cats"]]
+           + [d["purl"] for k in CAT for d in by_cat[k] if d["purl"] in _NOYAU_FICHES and indexable(d)]
+           + ["etude-notes-presse/", "methode", "a-propos"])
+_ecartees = sorted(p for p in _NOYAU_FICHES if p not in urls_v2)
+if _ecartees:
+    print("ATTENTION : fiches du noyau non indexables, écartées de sitemap-v2.xml :", ", ".join(_ecartees))
+write("sitemap-v2.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+      "".join(f"  <url><loc>{DOMAIN}/{u}</loc><lastmod>{LASTMOD[u]}</lastmod></url>\n" for u in urls_v2) + "</urlset>\n")
+if os.path.exists(os.path.join(OUT, "sitemap.xml")):
+    os.remove(os.path.join(OUT, "sitemap.xml"))
 print("OK", len(ITEMS), "produits ;", TOTAL_NOTES, "notes ;", TOTAL_TESTS, "tests")
