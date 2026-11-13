@@ -1,7 +1,7 @@
 {
 "": {
-"d": "2026-11-11",
-"h": "907f18edbb1a"
+"d": "2026-11-13",
+"h": "74a4297e4b74"
 },
 "a-propos": {
 "d": "2026-10-30",
@@ -25,7 +25,7 @@
 },
 "aspirateur-robot/dreame-aqua10-ultra/": {
 "d": "2026-11-13",
-"h": "67026dfe07ef"
+"h": "fd9f952c0ca7"
 },
 "aspirateur-robot/dreame-d10-plus-gen-2/": {
 "d": "2026-11-13",
@@ -37,11 +37,11 @@
 },
 "aspirateur-robot/dreame-h14/": {
 "d": "2026-11-13",
-"h": "9cd129d0a6ce"
+"h": "42ed67a15e94"
 },
 "aspirateur-robot/dreame-h15-pro/": {
 "d": "2026-11-13",
-"h": "ed881594b207"
+"h": "3e4d71787efb"
 },
 "aspirateur-robot/dreame-l10s-pro-gen-3/": {
 "d": "2026-11-13",
@@ -49,11 +49,11 @@
 },
 "aspirateur-robot/dreame-l10s-ultra/": {
 "d": "2026-11-13",
-"h": "216ee3e0ec31"
+"h": "defa07e4caaa"
 },
 "aspirateur-robot/dreame-l40-ultra/": {
 "d": "2026-11-13",
-"h": "972115356ebe"
+"h": "28a29f97a3cd"
 },
 "aspirateur-robot/dreame-r20/": {
 "d": "2026-11-13",
@@ -93,7 +93,7 @@
 },
 "aspirateur-robot/mova-e40-ultra/": {
 "d": "2026-11-13",
-"h": "322e383e1fc7"
+"h": "976439c18ec8"
 },
 "aspirateur-robot/mova-m50-ultra/": {
 "d": "2026-11-13",
@@ -121,7 +121,7 @@
 },
 "aspirateur-robot/roborock-h60-hub/": {
 "d": "2026-11-13",
-"h": "524eb160eb36"
+"h": "89440a88068f"
 },
 "aspirateur-robot/roborock-qrevo-curv-2/": {
 "d": "2026-11-13",
@@ -169,11 +169,11 @@
 },
 "audio/": {
 "d": "2026-11-13",
-"h": "ed59014f520a"
+"h": "1e2b61e66cc5"
 },
 "audio/apple-airpods-4-anc/": {
 "d": "2026-11-13",
-"h": "d970126d09fc"
+"h": "493e67120675"
 },
 "audio/apple-airpods-max-2/": {
 "d": "2026-11-13",
@@ -193,7 +193,7 @@
 },
 "audio/bose-soundlink-flex-2e-gen/": {
 "d": "2026-11-13",
-"h": "9aa1ef5cda11"
+"h": "6e22f7e1814d"
 },
 "audio/casques-bluetooth/": {
 "d": "2026-11-11",
@@ -220,8 +220,8 @@
 "h": "24f7c4352cad"
 },
 "audio/enceintes-bluetooth/": {
-"d": "2026-11-11",
-"h": "fd44008711e2"
+"d": "2026-11-13",
+"h": "549aabb6128a"
 },
 "audio/google-pixel-buds-pro-2/": {
 "d": "2026-11-13",
@@ -237,19 +237,19 @@
 },
 "audio/jbl-charge-6/": {
 "d": "2026-11-13",
-"h": "1329d3889ef7"
+"h": "5409475c8036"
 },
 "audio/jbl-flip-7/": {
 "d": "2026-11-13",
-"h": "5686dbfe7c09"
+"h": "1571370188e0"
 },
 "audio/jbl-go-5/": {
 "d": "2026-11-13",
-"h": "03ce79830cfd"
+"h": "7f1a91e7c079"
 },
 "audio/jbl-grip/": {
 "d": "2026-11-13",
-"h": "dc039d6eb745"
+"h": "366a3494a573"
 },
 "audio/jbl-live-780nc/": {
 "d": "2026-11-13",
@@ -261,7 +261,7 @@
 },
 "audio/marshall-emberton-iii/": {
 "d": "2026-11-13",
-"h": "a37577d3dbe0"
+"h": "2feda604b66b"
 },
 "audio/nothing-ear-3a/": {
 "d": "2026-11-13",
@@ -317,7 +317,7 @@
 },
 "audio/sonos-roam-2/": {
 "d": "2026-11-13",
-"h": "d5c0ce47d9e2"
+"h": "aa030dd6ecc0"
 },
 "audio/sony-inzone-e9/": {
 "d": "2026-11-13",
@@ -333,7 +333,7 @@
 },
 "audio/sony-ult-field-1/": {
 "d": "2026-11-13",
-"h": "9744275f3fce"
+"h": "0a453cd8f016"
 },
 "audio/sony-ult-wear/": {
 "d": "2026-11-13",
@@ -373,11 +373,11 @@
 },
 "audio/ue-wonderboom-4/": {
 "d": "2026-11-13",
-"h": "7f07baa2db4b"
+"h": "9b8fae9d1a15"
 },
 "black-friday/": {
-"d": "2026-11-11",
-"h": "3e563ee55bb7"
+"d": "2026-11-13",
+"h": "9d0b4b458ecd"
 },
 "ecran-pc/": {
 "d": "2026-11-13",
@@ -484,16 +484,16 @@
 "h": "433df8187a14"
 },
 "etude-notes-presse/": {
-"d": "2026-11-11",
-"h": "685624984e4b"
+"d": "2026-11-13",
+"h": "c5328f9ce32a"
 },
 "imprimante/": {
 "d": "2026-11-13",
-"h": "8799ec43047d"
+"h": "4a340f101acc"
 },
 "imprimante/canon-selphy-cp1500/": {
 "d": "2026-11-13",
-"h": "0bbaad916937"
+"h": "337d909f764c"
 },
 "imprimante/canon-selphy-qx20/": {
 "d": "2026-11-13",
@@ -528,8 +528,8 @@
 "h": "97d7f15c06ff"
 },
 "imprimante/petit-prix/": {
-"d": "2026-11-11",
-"h": "f3732fe3425e"
+"d": "2026-11-13",
+"h": "82af4012094f"
 },
 "imprimante/photo/": {
 "d": "2026-11-09",
@@ -544,112 +544,120 @@
 "h": "3bb8f8bf5af3"
 },
 "methode": {
-"d": "2026-11-11",
-"h": "847ecfaf8b76"
+"d": "2026-11-13",
+"h": "68f67eb3dda4"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-13",
-"h": "20c72120de70"
+"h": "3ca982992a46"
 },
 "ordinateur-de-bureau/acer-predator-orion-7000/": {
 "d": "2026-11-13",
-"h": "84dede0cb99f"
+"h": "04f32ae92147"
 },
 "ordinateur-de-bureau/apple-imac-24-m4/": {
 "d": "2026-11-13",
-"h": "d292cdb56919"
+"h": "cfe42c31d0ec"
+},
+"ordinateur-de-bureau/apple-mac-mini-m5-pro/": {
+"d": "2026-11-13",
+"h": "365586166533"
 },
 "ordinateur-de-bureau/apple-mac-mini-m6/": {
 "d": "2026-11-13",
-"h": "65dc5d7fc18c"
+"h": "948b60ca0ea6"
+},
+"ordinateur-de-bureau/apple-mac-studio-m5-max/": {
+"d": "2026-11-13",
+"h": "7499349b2313"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
 "d": "2026-11-13",
-"h": "a96eeedca5c4"
+"h": "2fc95d20e886"
 },
 "ordinateur-de-bureau/bureautique/": {
-"d": "2026-11-09",
-"h": "640cb7704ec6"
+"d": "2026-11-13",
+"h": "ba6f24e25e4c"
 },
 "ordinateur-de-bureau/creation/": {
-"d": "2026-11-09",
-"h": "2d1cb2d7a2fd"
+"d": "2026-11-13",
+"h": "94588e5b45c8"
 },
 "ordinateur-de-bureau/gaming/": {
-"d": "2026-11-09",
-"h": "25fc1e852c95"
+"d": "2026-11-13",
+"h": "f63b437add39"
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
 "d": "2026-11-13",
-"h": "455aeec4b05b"
+"h": "77249a1f9b88"
 },
 "ordinateur-de-bureau/geekom-a5/": {
 "d": "2026-11-13",
-"h": "81e56670b9f9"
+"h": "209e6ec38ed7"
 },
 "ordinateur-de-bureau/geekom-a7/": {
 "d": "2026-11-13",
-"h": "3f42a05ede50"
+"h": "30fcda2ffa15"
 },
 "ordinateur-de-bureau/geekom-a8/": {
 "d": "2026-11-13",
-"h": "38f405eff4f5"
+"h": "ce9e04fc60d7"
 },
 "ordinateur-de-bureau/geekom-a9-max/": {
 "d": "2026-11-13",
-"h": "1c4d1de65c7d"
+"h": "4a2a4aeb08bf"
 },
 "ordinateur-de-bureau/geekom-gt1-mega/": {
 "d": "2026-11-13",
-"h": "5ae4984d420a"
+"h": "5e0d2b9c8a2c"
 },
 "ordinateur-de-bureau/geekom-it13/": {
 "d": "2026-11-13",
-"h": "0fa51c254a1a"
+"h": "f6e2cd9de4fd"
 },
 "ordinateur-de-bureau/geekom-it15/": {
 "d": "2026-11-13",
-"h": "2cf940447da7"
+"h": "8a6ee75d61b9"
 },
 "ordinateur-de-bureau/geekom-mini-air12-lite/": {
 "d": "2026-11-13",
-"h": "931ac4430373"
+"h": "5d6f9528ca17"
 },
 "ordinateur-de-bureau/geekom-mini-it12/": {
 "d": "2026-11-13",
-"h": "8f55c6a6e5e8"
+"h": "2c743f9dae64"
 },
 "ordinateur-de-bureau/gmktec-evo-x2/": {
 "d": "2026-11-13",
-"h": "b292b580173e"
+"h": "86f5b2e14ad8"
 },
 "ordinateur-de-bureau/gmktec-nucbox-k13/": {
 "d": "2026-11-13",
-"h": "c7524119c8be"
+"h": "1c4e14c33211"
 },
 "ordinateur-de-bureau/hp-omen-35l/": {
 "d": "2026-11-13",
-"h": "94fed1da6126"
+"h": "c5e65b241c3d"
 },
 "ordinateur-de-bureau/hp-z2-mini-g1a/": {
 "d": "2026-11-13",
-"h": "fcf3d1ef8632"
+"h": "3c0e4b34f37a"
 },
 "ordinateur-de-bureau/lenovo-loq-tower/": {
 "d": "2026-11-13",
-"h": "10451a3c97ae"
+"h": "7a45c02b874b"
 },
 "ordinateur-de-bureau/mini-pc/": {
-"d": "2026-11-09",
-"h": "cdeffa529988"
+"d": "2026-11-13",
+"h": "432be661552a"
 },
 "ordinateur-de-bureau/nipogi-am06-pro/": {
 "d": "2026-11-13",
-"h": "beb98feab4b4"
+"h": "8ad442799dc7"
 },
 "ordinateur-de-bureau/tout-en-un/": {
-"d": "2026-11-09",
-"h": "efbd0e8f55de"
+"d": "2026-11-13",
+"h": "b98ddca87809"
 },
 "pc-portable/": {
 "d": "2026-11-13",
@@ -777,7 +785,7 @@
 },
 "pc-portable/lenovo-ideapad-slim-3/": {
 "d": "2026-11-13",
-"h": "1f1df793d735"
+"h": "d79a7340842e"
 },
 "pc-portable/lenovo-ideapad-slim-3x-15/": {
 "d": "2026-11-13",
@@ -832,8 +840,8 @@
 "h": "50e66d677a41"
 },
 "pc-portable/reconditionnes/": {
-"d": "2026-11-09",
-"h": "072b9e3d2c67"
+"d": "2026-11-13",
+"h": "db06bb5092b6"
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
 "d": "2026-11-13",
@@ -1085,7 +1093,7 @@
 },
 "tv/hisense-u7q-pro-65/": {
 "d": "2026-11-13",
-"h": "facfdd4ffbd4"
+"h": "a6cbb1b9a1ae"
 },
 "tv/lg-oled-c5-48/": {
 "d": "2026-11-13",
