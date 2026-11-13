@@ -1,0 +1,650 @@
+diff --git a/_source/data.json b/_source/data.json
+index b2ee83a5..ebe5db1a 100644
+--- a/_source/data.json
++++ b/_source/data.json
+@@ -1,3 +1,3 @@
+ {
+- "date": "27/10/2026",
++ "date": "13/11/2026",
+  "items": {
+@@ -814,3 +814,3 @@
+      "edid": "10019070",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -6996,3 +6996,3 @@
+      "edid": "10018724",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -7192,3 +7192,3 @@
+      "edid": "10018899",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -7680,3 +7680,3 @@
+      "edid": "10018811",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -7878,3 +7878,3 @@
+      "m": "Amazon",
+-     "price": 1034.0,
++     "price": 948.0,
+      "url": "https://www.amazon.fr/dp/B0HGGL1RJ1?tag=geekconcept-21",
+@@ -7895,3 +7895,3 @@
+    "nrev": 0,
+-   "prix": 1034.0,
++   "prix": 948.0,
+    "synthese": {
+@@ -7964,3 +7964,3 @@
+      "m": "Amazon",
+-     "price": 999.99,
++     "price": 899.99,
+      "url": "https://www.amazon.fr/dp/B0FJFYYW7X?tag=geekconcept-21",
+@@ -8304,3 +8304,4 @@
+      "cfg": "8 Go · 512 Go",
+-     "asin": "B0F2HNJHSL"
++     "asin": "B0F2HNJHSL",
++     "dispo": false
+     },
+@@ -8342,5 +8343,5 @@
+    "press": {
+-    "avg": 8.216666666666667,
++    "avg": 8.233333333333333,
+     "n": 6,
+-    "tests": 7,
++    "tests": 8,
+     "scope": "modele",
+@@ -8360,2 +8361,11 @@
+      },
++     {
++      "src": "tuttoteK",
++      "score": 8.1,
++      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a5-2025-super-economico-e-performante",
++      "date": "2025-05-22",
++      "avant": 8.0,
++      "corrige": "13/11/2026",
++      "verifie": "13/11/2026"
++     },
+      {
+@@ -8380,8 +8390,2 @@
+      },
+-     {
+-      "src": "tuttoteK",
+-      "score": 8.0,
+-      "url": "https://www.tuttotek.it/hardware/recensioni-hardware/recensione-geekom-a5-2025-super-economico-e-performante",
+-      "date": "2025-05-22"
+-     },
+      {
+@@ -8399,2 +8403,9 @@
+       "date": "2025-05-20"
++     },
++     {
++      "src": "IT-Connect",
++      "score": null,
++      "url": "https://www.it-connect.fr/test-geekom-a5-2027-edition/",
++      "date": "2026-10-30",
++      "ajout": "13/11/2026"
+      }
+@@ -8412,3 +8423,3 @@
+      "m": "Amazon",
+-     "price": 479.0,
++     "price": 499.0,
+      "url": "https://www.amazon.fr/dp/B0FJRSLGC7?tag=geekconcept-21",
+@@ -8422,11 +8433,11 @@
+    "nrev": 0,
+-   "prix": 479.0,
++   "prix": 499.0,
+    "synthese": {
+-    "texte": "Un mini PC qu'on oublie sous le bureau : c'est le point sur lequel les trois rédactions convergent. Notebookcheck relève au maximum 31,5 dB(A) en test de stress et une machine muette au repos, AndroidWorld voit le Ryzen 7 7730U plafonner à 66 °C après plus d'une heure de charge, sans throttling. Ouverture par quatre vis, deux emplacements de mémoire DDR4 et jusqu'à trois unités de stockage facilitent les évolutions.\n\nLe gain face à l'édition précédente fait débat. TechRadar et Notebookcheck mesurent des fréquences soutenues plus basses qu'avec l'ancien Ryzen 7 5800H et parlent d'une simple mise à jour ; AndroidWorld, qui le compare au Ryzen 7 5825U, note surtout un meilleur score PCMark grâce à la mémoire en double canal. Les avis s'opposent aussi sur le SSD, annoncé en PCIe 4.0 par AndroidWorld alors que les deux autres le voient limité à une liaison PCIe 3.0. Absence d'USB4 et de Thunderbolt, partie graphique Radeon Vega réservée aux jeux légers ou anciens, BIOS sommaire et latences DPC qui peuvent gêner l'audio en temps réel (Notebookcheck) complètent les réserves.\n\nPour la bureautique, le navigateur avec de nombreux onglets ou un poste allumé en continu, il fait le travail en silence. Joueurs, monteurs vidéo et utilisateurs de stations d'accueil Thunderbolt devront regarder ailleurs ; TechRadar conseille aussi de conserver deux barrettes de mémoire.",
+-    "date": "2026-11-10",
++    "texte": "Silence et sobriété : c'est ce que retiennent les trois tests de l'édition 2027. Notebookcheck la trouve nettement plus discrète et plus économe que l'ancien modèle à Ryzen 7 5800H, IT-Connect la juge silencieuse au quotidien et discrète en pleine charge, avec un processeur vers 45 °C en usage léger, et TechRadar note que Geekom la présente désormais comme une machine de bureau allumée en continu plutôt que comme un PC de performance.\n\nCe gain se paie en puissance. Le Ryzen 7 7730U, puce de 15 W en architecture Zen 3, reste un peu derrière le 5800H selon Notebookcheck et TechRadar ; IT-Connect rappelle que la plateforme ne change pas (DDR4, PCIe 3.0, ni USB4 ni Thunderbolt) et mesure environ 30 images par seconde dans GTA V en 1080p avec les réglages au minimum. Le SSD PCIe 4.0 fourni fonctionne en PCIe 3.0 et le BIOS n'offre presque aucun réglage (IT-Connect). L'évolutivité est saluée partout : quatre vis, deux emplacements de mémoire et trois emplacements de stockage.\n\nPour la bureautique, le multitâche, un poste familial ou un petit serveur domestique, il fait l'affaire. Ceux qui veulent jouer à des titres récents ou brancher une carte graphique externe devront regarder ailleurs.",
++    "date": "2026-11-13",
+     "n": 6,
+-    "tests": 7,
++    "tests": 8,
+     "sources": [
++     "IT-Connect",
+      "Notebookcheck",
+-     "AndroidWorld",
+      "TechRadar"
+@@ -8592,3 +8603,4 @@
+       "url": "https://www.neowin.net/reviews/the-geekom-mini-it12-packs-12th-gen-intel-power-into-a-small-form-factor/",
+-      "date": "2023-05-06"
++      "date": "2023-05-06",
++      "verifie": "13/11/2026"
+      },
+@@ -8707,4 +8719,4 @@
+    "press": {
+-    "avg": 8.666666666666666,
+-    "n": 3,
++    "avg": 8.25,
++    "n": 4,
+     "tests": 4,
+@@ -8743,6 +8755,9 @@
+       "src": "Macwelt",
+-      "score": null,
++      "score": 7.0,
+       "url": "https://www.macwelt.de/article/3241596/mac-mini-m5-pro-test.html",
+       "date": "2026-09-23",
+-      "ajout": "16/10/2026"
++      "ajout": "16/10/2026",
++      "avant": null,
++      "corrige": "13/11/2026",
++      "verifie": "13/11/2026"
+      }
+@@ -8758,3 +8773,3 @@
+      "m": "Amazon",
+-     "price": 1999.0,
++     "price": 1899.0,
+      "url": "https://www.amazon.fr/dp/B0HGGDQ29W?tag=geekconcept-21",
+@@ -8775,3 +8790,15 @@
+    "nrev": 0,
+-   "prix": 1999.0
++   "prix": 1899.0,
++   "synthese": {
++    "texte": "Sur la puissance, les tests vont dans le même sens. PCMag place ce Mac mini devant tous les mini PC Windows de son comparatif, dont le HP Z2 Mini, à une exception près en Cinebench multicœur, et mesure un net progrès sur le modèle M4 Pro dans HandBrake et Geekbench. ZDNet monte de la vidéo 4K sous Final Cut Pro sans difficulté, Trusted Reviews fait tourner Cyberpunk 2077 à 60 images par seconde en réglages élevés, et tous rappellent que la puce M5 Pro reste plus puissante que la M6 du modèle d'entrée.\n\nLe boîtier n'a pas changé depuis le M4 Pro : trois ports Thunderbolt 5 à l'arrière, deux USB-C en façade, Wi-Fi 7 et jusqu'à trois écrans externes. ZDNet le trouve silencieux la plupart du temps, les ventilateurs se déclenchant rarement même quand il chauffe. Trusted Reviews regrette le bouton d'alimentation placé dessous, l'absence de lecteur SD et de port USB-A, et un SSD désormais impossible à remplacer.\n\nMacwelt est le plus critique : les performances progressent comme attendu, mais le coût des options de mémoire et de stockage a grimpé plus vite, sans changement de design ni de fonctions pour compenser. Pour le montage vidéo, le développement ou l'IA locale, il convient bien ; pour un usage courant, ZDNet et Trusted Reviews jugent le modèle M6 suffisant.",
++    "date": "2026-11-13",
++    "n": 4,
++    "tests": 4,
++    "sources": [
++     "PCMag",
++     "ZDNet",
++     "Trusted Reviews",
++     "Macwelt"
++    ]
++   }
+   },
+@@ -8798,4 +8825,4 @@
+    "press": {
+-    "avg": 9.366666666666667,
+-    "n": 3,
++    "avg": 9.275,
++    "n": 4,
+     "tests": 5,
+@@ -8825,2 +8852,12 @@
+      },
++     {
++      "src": "Creative Bloq",
++      "score": 9.0,
++      "url": "https://www.creativebloq.com/reviews/tested-the-mac-studio-m5-max-claims-its-crown-as-the-best-of-all-apple-computers",
++      "date": "2026-10-09",
++      "ajout": "16/10/2026",
++      "avant": null,
++      "corrige": "13/11/2026",
++      "verifie": "13/11/2026"
++     },
+      {
+@@ -8834,9 +8871,2 @@
+      },
+-     {
+-      "src": "Creative Bloq",
+-      "score": null,
+-      "url": "https://www.creativebloq.com/reviews/tested-the-mac-studio-m5-max-claims-its-crown-as-the-best-of-all-apple-computers",
+-      "date": "2026-10-09",
+-      "ajout": "16/10/2026"
+-     },
+      {
+@@ -8874,3 +8904,14 @@
+    "nrev": 0,
+-   "prix": 2999.0
++   "prix": 2999.0,
++   "synthese": {
++    "texte": "Les trois tests ont reçu la même configuration haut de gamme, M5 Max à 40 cœurs graphiques avec 128 Go de mémoire et 4 To de stockage, et la placent en tête de leurs mesures. GeekCulture chronomètre une conversion HandBrake de dix minutes de vidéo 4K en 3 min 36 s, contre 6 min 29 s pour le Mac Studio M4 Max, et un export Premiere Pro 4K en 4 min 27 s. Creative Bloq le voit prendre la première place de ses tests Geekbench, et Les Numériques le classe premier de son comparatif de PC de bureau, tout en notant que le Mac mini M6 le suit de près en indice processeur.\n\nLe silence fait l'unanimité : Les Numériques relève 32,7 dB en charge courante et n'entend les ventilateurs accélérer qu'une vingtaine de secondes sous Prime95, à 144 W et 85 °C. Le boîtier en aluminium et la connectique n'ont pas bougé depuis la génération précédente, hormis le passage au Wi-Fi 7 et au Bluetooth 6 ; Creative Bloq apprécie le bouton d'alimentation accessible sans retourner la machine et la présence de ports USB-A.\n\nLes trois rédactions le destinent aux créateurs vidéo et photo et à l'IA locale. Les Numériques rappelle que ses atouts se jouent dans les tâches multicœurs et que les nouveautés face au M4 Max sont minces.",
++    "date": "2026-11-13",
++    "n": 4,
++    "tests": 5,
++    "sources": [
++     "Les Numériques",
++     "GeekCulture",
++     "Creative Bloq"
++    ]
++   }
+   },
+@@ -9285,4 +9326,4 @@
+     "src": [
+-     "Synthèse CommentChoisir",
+-     "https://www.commentchoisir.fr/test-Geekom_GT1+Mega.htm"
++     "",
++     ""
+     ],
+@@ -9316,3 +9357,4 @@
+       "url": "https://www.club386.com/geekom-gt1-mega-review/",
+-      "date": "2025-10-09"
++      "date": "2025-10-09",
++      "verifie": "13/11/2026"
+      },
+@@ -9329,3 +9371,4 @@
+       "url": "https://www.kitguru.net/desktop-pc/mat-mynett/geekom-gt1-mega-mini-pc-review/",
+-      "date": "2025-08-29"
++      "date": "2025-08-29",
++      "verifie": "13/11/2026"
+      },
+@@ -9369,3 +9412,8 @@
+      }
+-    ]
++    ],
++    "src_initiale": [
++     "Synthèse CommentChoisir",
++     "https://www.commentchoisir.fr/test-Geekom_GT1+Mega.htm"
++    ],
++    "releve_source": "13/11/2026"
+    },
+@@ -9621,3 +9669,3 @@
+      "m": "Amazon",
+-     "price": 1229.0,
++     "price": 1359.0,
+      "url": "https://www.amazon.fr/dp/B0F54WBWW7?tag=geekconcept-21",
+@@ -9631,3 +9679,3 @@
+    "nrev": 0,
+-   "prix": 1229.0,
++   "prix": 1359.0,
+    "synthese": {
+@@ -9699,3 +9747,3 @@
+      "m": "Amazon",
+-     "price": 2719.0,
++     "price": 2799.0,
+      "url": "https://www.amazon.fr/dp/B0G345VHB8?tag=geekconcept-21",
+@@ -9703,4 +9751,3 @@
+      "cfg": "64 Go",
+-     "asin": "B0G345VHB8",
+-     "dispo": false
++     "asin": "B0G345VHB8"
+     }
+@@ -9710,3 +9757,3 @@
+    "nrev": 0,
+-   "prix": 2719.0,
++   "prix": 2799.0,
+    "synthese": {
+@@ -9806,3 +9853,3 @@
+      "m": "Amazon",
+-     "price": 2259.96,
++     "price": 2329.96,
+      "url": "https://www.amazon.fr/dp/B0F62TLND2?tag=geekconcept-21",
+@@ -9816,3 +9863,3 @@
+    "nrev": 0,
+-   "prix": 2259.96,
++   "prix": 2329.96,
+    "synthese": {
+@@ -9931,3 +9978,4 @@
+      "cfg": "32 Go · 1 To · RTX 5070",
+-     "asin": "B0GJ2SQ3FN"
++     "asin": "B0GJ2SQ3FN",
++     "dispo": false
+     }
+@@ -10094,3 +10142,3 @@
+      "m": "Amazon",
+-     "price": 1299.99,
++     "price": 1199.99,
+      "url": "https://www.amazon.fr/dp/B0FJG24FL4?tag=geekconcept-21",
+@@ -10111,3 +10159,3 @@
+    "nrev": 0,
+-   "prix": 1299.99,
++   "prix": 1199.99,
+    "synthese": {
+@@ -10644,3 +10692,3 @@
+    "press": {
+-    "avg": 8.423076923076923,
++    "avg": 8.4,
+     "n": 13,
+@@ -10666,3 +10714,4 @@
+       "url": "https://www.connect.de/testbericht/geekom-a8-mini-pc-test-3206158.html",
+-      "date": "2024-07-10"
++      "date": "2024-07-10",
++      "verifie": "13/11/2026"
+      },
+@@ -10670,5 +10719,8 @@
+       "src": "Connect.de",
+-      "score": 9.6,
++      "score": 9.3,
+       "url": "https://www.connect.de/testbericht/geekom-a8-mini-pc-test-3206209.html",
+-      "date": "2024-07-16"
++      "date": "2024-07-16",
++      "avant": 9.6,
++      "corrige": "13/11/2026",
++      "verifie": "13/11/2026"
+      },
+@@ -10719,3 +10771,4 @@
+       "url": "https://www.neowin.net/reviews/geekom-a8-review-powerful-ryzen-9-8040-series-mini-pc-with-dedicated-npu/",
+-      "date": "2024-06-01"
++      "date": "2024-06-01",
++      "verifie": "13/11/2026"
+      },
+@@ -11266,3 +11319,3 @@
+      "m": "Amazon",
+-     "price": 659.0,
++     "price": 549.0,
+      "url": "https://www.amazon.fr/dp/B0G6KR1VW5?tag=geekconcept-21",
+@@ -11283,3 +11336,3 @@
+    "nrev": 0,
+-   "prix": 629.0,
++   "prix": 549.0,
+    "synthese": {
+@@ -11353,3 +11406,4 @@
+       "url": "https://www.neowin.net/reviews/geekom-it13-review-the-2025-refresh-is-here-with-i9-goodness-for-your-home-or-office/",
+-      "date": "2025-04-15"
++      "date": "2025-04-15",
++      "verifie": "13/11/2026"
+      },
+@@ -11359,3 +11413,4 @@
+       "url": "https://www.neowin.net/reviews/geekom-mini-it13-review-the-first-mini-pc-with-13th-gen-intel-core-i9-inside/",
+-      "date": "2023-09-24"
++      "date": "2023-09-24",
++      "verifie": "13/11/2026"
+      },
+@@ -11629,3 +11684,3 @@
+      "m": "Amazon",
+-     "price": 259.0,
++     "price": 399.0,
+      "url": "https://www.amazon.fr/dp/B0C14H2BQ8?tag=geekconcept-21",
+@@ -11639,3 +11694,3 @@
+    "nrev": 0,
+-   "prix": 259.0,
++   "prix": 399.0,
+    "synthese": {
+@@ -11794,3 +11849,3 @@
+      "m": "Amazon",
+-     "price": 449.0,
++     "price": 429.0,
+      "url": "https://www.amazon.fr/dp/B0BY25NQGP?tag=geekconcept-21",
+@@ -11804,3 +11859,3 @@
+    "nrev": 0,
+-   "prix": 449.0,
++   "prix": 429.0,
+    "synthese": {
+@@ -11877,3 +11932,3 @@
+      "m": "Amazon",
+-     "price": 449.0,
++     "price": 429.9,
+      "url": "https://www.amazon.fr/dp/B0DT8T1WY2?tag=geekconcept-21",
+@@ -11887,3 +11942,3 @@
+    "nrev": 0,
+-   "prix": 449.0
++   "prix": 429.9
+   },
+@@ -11984,3 +12039,4 @@
+      "cfg": "16 Go",
+-     "asin": "B0GHD6LLBT"
++     "asin": "B0GHD6LLBT",
++     "dispo": false
+     }
+@@ -12200,3 +12256,4 @@
+      "cfg": "",
+-     "asin": "B0FBK4WFLC"
++     "asin": "B0FBK4WFLC",
++     "dispo": false
+     }
+@@ -12261,3 +12318,4 @@
+      "cfg": "16 Go · 1 To",
+-     "asin": "B0FK1YB2GF"
++     "asin": "B0FK1YB2GF",
++     "dispo": false
+     },
+@@ -12274,3 +12332,3 @@
+    "nrev": 0,
+-   "prix": 1714.12
++   "prix": 2199.99
+   },
+@@ -12462,3 +12520,3 @@
+      "m": "Amazon",
+-     "price": 899.99,
++     "price": 906.54,
+      "url": "https://www.amazon.fr/dp/B0GXLBY6VL?tag=geekconcept-21",
+@@ -12617,3 +12675,3 @@
+      "m": "Acer Store",
+-     "price": 1099.99,
++     "price": 899.99,
+      "url": "https://store.acer.com/fr-fr/acer-aspire-c-27-b-ai-tout-en-un-c27b-gkrk-noir",
+@@ -12634,3 +12692,3 @@
+    "nrev": 0,
+-   "prix": 1099.99
++   "prix": 899.99
+   },
+@@ -18362,3 +18420,3 @@
+      "edid": "10018462",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19135,3 +19193,3 @@
+      "edid": "10020364",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19220,3 +19278,3 @@
+      "edid": "975904",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19293,3 +19351,3 @@
+      "edid": "10016130",
+-     "releve": "2026-11-11",
++     "releve": "2026-11-13",
+      "dispo": false
+@@ -19430,3 +19488,3 @@
+      "edid": "10017501",
+-     "releve": "2026-11-11",
++     "releve": "2026-11-13",
+      "dispo": false
+@@ -19501,3 +19559,3 @@
+      "m": "Electro Dépôt",
+-     "price": 79.95,
++     "price": 64.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-canon-ts7550i.html",
+@@ -19507,4 +19565,3 @@
+      "edid": "10020365",
+-     "releve": "2026-11-11",
+-     "dispo": false
++     "releve": "2026-11-13"
+     }
+@@ -19536,3 +19593,3 @@
+    },
+-   "prix": 99.99,
++   "prix": 64.98,
+    "img": "canon-pixma-ts7550i.webp",
+@@ -19637,3 +19694,3 @@
+      "edid": "10012839",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19707,3 +19764,3 @@
+      "edid": "10010548",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19770,3 +19827,3 @@
+      "edid": "10013177",
+-     "releve": "2026-11-11",
++     "releve": "2026-11-13",
+      "dispo": false
+@@ -19840,3 +19897,3 @@
+      "edid": "10003125",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19909,3 +19966,3 @@
+      "edid": "993267",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -19973,3 +20030,3 @@
+      "m": "Electro Dépôt",
+-     "price": 58.98,
++     "price": 49.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-hp-envy-6132e.html",
+@@ -19979,3 +20036,3 @@
+      "edid": "10002597",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -20013,3 +20070,3 @@
+    },
+-   "prix": 58.98,
++   "prix": 49.98,
+    "img": "hp-envy-6132e.webp",
+@@ -20048,3 +20105,3 @@
+      "edid": "10013176",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -20135,3 +20192,3 @@
+      "ppid": "4741",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20192,3 +20249,3 @@
+      "ppid": "5106",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20255,3 +20312,3 @@
+      "ppid": "3052",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20381,3 +20438,3 @@
+      "ppid": "2903",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20444,3 +20501,3 @@
+      "ppid": "3888",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20499,3 +20556,3 @@
+      "ppid": "4668",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20555,3 +20612,3 @@
+      "ppid": "5137",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20606,3 +20663,3 @@
+      "m": "PC-Portable.net",
+-     "price": 339.0,
++     "price": 299.0,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23326809&url=https%3A%2F%2Fpc-portable.net%2Fpc-portable-plus-de-200%2F5166-lenovo-thinkpad-l14-generation-1-intel-core-i5-10310u-ram-16-go-ssd-250-go-windows-11-n07100267.html",
+@@ -20611,3 +20668,3 @@
+      "ppid": "5166",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -20617,3 +20674,3 @@
+    "nrev": 0,
+-   "prix": 339.0
++   "prix": 299.0
+   },
+@@ -20666,3 +20723,3 @@
+      "ppid": "4071",
+-     "releve": "2026-11-06"
++     "releve": "2026-11-13"
+     }
+@@ -21393,3 +21450,3 @@
+      "edid": "10011577",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -21549,3 +21606,3 @@
+      "edid": "10016676",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -21753,3 +21810,3 @@
+      "edid": "10016684",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -21879,3 +21936,3 @@
+      "edid": "10020078",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -23128,3 +23185,3 @@
+      "edid": "10020540",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -23228,3 +23285,3 @@
+      "edid": "10009023",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -23550,3 +23607,3 @@
+      "edid": "10019413",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -24594,3 +24651,3 @@
+      "edid": "10009171",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -27587,3 +27644,3 @@
+      "edid": "10011457",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -27705,3 +27762,3 @@
+      "edid": "10015474",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -28417,3 +28474,3 @@
+      "m": "Electro Dépôt",
+-     "price": 39.0,
++     "price": 49.99,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-go-5-noir.html",
+@@ -28423,3 +28480,3 @@
+      "edid": "10018105",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -28516,3 +28573,3 @@
+    },
+-   "prix": 39.0,
++   "prix": 44.99,
+    "img": "jbl-go-5.webp",
+@@ -28951,3 +29008,3 @@
+      "edid": "10013118",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -29102,3 +29159,3 @@
+      "edid": "10005191",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -29987,3 +30044,3 @@
+      "edid": "10009498",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -31452,3 +31509,3 @@
+      "edid": "10008780",
+-     "releve": "2026-11-11"
++     "releve": "2026-11-13"
+     }
+@@ -41859,3 +41916,3 @@
+    "iso": "2026-10-05",
+-   "tente": "2026-10-16"
++   "tente": "2026-11-13"
+   },
+@@ -41893,3 +41950,3 @@
+  "dates": {
+-  "Amazon": "11/11/2026"
++  "Amazon": "13/11/2026"
+  },
+diff --git a/_source/manuel_acer.json b/_source/manuel_acer.json
+new file mode 100644
+index 00000000..aa17131b
+--- /dev/null
++++ b/_source/manuel_acer.json
+@@ -0,0 +1,5 @@
++[
++ {"id": "aspire-c27", "j": 0, "price": 899.99},
++ {"id": "aspire-xc", "j": 1, "status": "indispo"},
++ {"id": "orion-7000", "j": 0, "status": "indispo"}
++]
