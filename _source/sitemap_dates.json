@@ -8,8 +8,8 @@
 "h": "d21f16c1c7e5"
 },
 "aspirateur-robot/": {
-"d": "2026-11-11",
-"h": "3bb1b536f0d1"
+"d": "2026-11-13",
+"h": "05f63b51d820"
 },
 "aspirateur-robot/aspirateurs-balais-laveurs/": {
 "d": "2026-11-11",
@@ -168,8 +168,8 @@
 "h": "02139ce6ce4b"
 },
 "audio/": {
-"d": "2026-11-11",
-"h": "375fd9444f69"
+"d": "2026-11-13",
+"h": "ed59014f520a"
 },
 "audio/apple-airpods-4-anc/": {
 "d": "2026-11-13",
@@ -380,8 +380,8 @@
 "h": "3e563ee55bb7"
 },
 "ecran-pc/": {
-"d": "2026-11-06",
-"h": "73fd5bacb509"
+"d": "2026-11-13",
+"h": "2094ab076fe5"
 },
 "ecran-pc/acer-pd163q/": {
 "d": "2026-11-13",
@@ -389,27 +389,27 @@
 },
 "ecran-pc/alienware-aw2725d/": {
 "d": "2026-11-13",
-"h": "78f0e8460ad7"
+"h": "eaf65d0d771d"
 },
 "ecran-pc/alienware-aw2725q/": {
 "d": "2026-11-13",
-"h": "e985b7ebff2a"
+"h": "c1aa61929307"
 },
 "ecran-pc/alienware-aw2726dm/": {
 "d": "2026-11-13",
-"h": "b5997a85500a"
+"h": "5b0f867e8433"
 },
 "ecran-pc/aoc-agon-pro-ag276qsg2/": {
 "d": "2026-11-13",
-"h": "5a1d526e66b5"
+"h": "9a14bca6b5db"
 },
 "ecran-pc/aoc-agon-q27g4zd/": {
 "d": "2026-11-13",
-"h": "f48e0f23f0b4"
+"h": "cf7da612bdde"
 },
 "ecran-pc/aoc-gaming-q27g4x/": {
 "d": "2026-11-13",
-"h": "3bc6971dabc4"
+"h": "d676d4a0b95a"
 },
 "ecran-pc/aoc-gaming-q27g4zr/": {
 "d": "2026-11-13",
@@ -417,23 +417,23 @@
 },
 "ecran-pc/asus-proart-pa279crv/": {
 "d": "2026-11-13",
-"h": "dcea1ad3eaa2"
+"h": "9e82308fdd53"
 },
 "ecran-pc/asus-proart-pa32qcv/": {
 "d": "2026-11-13",
-"h": "0676b1852ac3"
+"h": "9bf95182d7a5"
 },
 "ecran-pc/asus-rog-swift-pg32ucdm/": {
 "d": "2026-11-13",
-"h": "83031599dcd6"
+"h": "c443d84773b3"
 },
 "ecran-pc/asus-zenscreen-duo-oled-mq149cd/": {
 "d": "2026-11-13",
-"h": "62f4fbe80937"
+"h": "da4d3db6c035"
 },
 "ecran-pc/asus-zenscreen-mb169ck/": {
 "d": "2026-11-13",
-"h": "1ac171678708"
+"h": "05569f48f6dd"
 },
 "ecran-pc/bureautique/": {
 "d": "2026-11-09",
@@ -449,7 +449,7 @@
 },
 "ecran-pc/dell-ultrasharp-u2724de/": {
 "d": "2026-11-13",
-"h": "dcca32778139"
+"h": "8e270983ce0e"
 },
 "ecran-pc/gaming/": {
 "d": "2026-11-09",
@@ -461,7 +461,7 @@
 },
 "ecran-pc/msi-mpg-321urx/": {
 "d": "2026-11-13",
-"h": "76a4736476ea"
+"h": "1f830b2c8bae"
 },
 "ecran-pc/msi-pro-mp165-e6/": {
 "d": "2026-11-13",
@@ -477,35 +477,35 @@
 },
 "ecran-pc/sony-inzone-m10s/": {
 "d": "2026-11-13",
-"h": "017a2609536a"
+"h": "88f832af5cdd"
 },
 "ecran-pc/viewsonic-va1655/": {
 "d": "2026-11-13",
-"h": "7916181b28b3"
+"h": "433df8187a14"
 },
 "etude-notes-presse/": {
 "d": "2026-11-11",
 "h": "685624984e4b"
 },
 "imprimante/": {
-"d": "2026-11-06",
-"h": "1a2136f76612"
+"d": "2026-11-13",
+"h": "8799ec43047d"
 },
 "imprimante/canon-selphy-cp1500/": {
 "d": "2026-11-13",
-"h": "4bcc6fe12690"
+"h": "0bbaad916937"
 },
 "imprimante/canon-selphy-qx20/": {
 "d": "2026-11-13",
-"h": "99e9f4ab9436"
+"h": "001c72c05684"
 },
 "imprimante/epson-ecotank-et-2856/": {
 "d": "2026-11-13",
-"h": "1dc477220241"
+"h": "b0cf15d6d74c"
 },
 "imprimante/epson-ecotank-et-4856/": {
 "d": "2026-11-13",
-"h": "e179aaf216ed"
+"h": "7dc3205ae725"
 },
 "imprimante/epson-ecotank-photo-et-8550/": {
 "d": "2026-11-13",
@@ -513,11 +513,11 @@
 },
 "imprimante/fujifilm-instax-link-wide/": {
 "d": "2026-11-13",
-"h": "f47c46292b2e"
+"h": "658cdf82a722"
 },
 "imprimante/kodak-step/": {
 "d": "2026-11-13",
-"h": "86990d6c96b9"
+"h": "9598e78d0088"
 },
 "imprimante/laser-couleur/": {
 "d": "2026-11-09",
@@ -548,24 +548,24 @@
 "h": "847ecfaf8b76"
 },
 "ordinateur-de-bureau/": {
-"d": "2026-11-09",
-"h": "fbe4b23b94b7"
+"d": "2026-11-13",
+"h": "20c72120de70"
 },
 "ordinateur-de-bureau/acer-predator-orion-7000/": {
 "d": "2026-11-13",
-"h": "f913c5741e4b"
+"h": "84dede0cb99f"
 },
 "ordinateur-de-bureau/apple-imac-24-m4/": {
 "d": "2026-11-13",
-"h": "8715e1287570"
+"h": "d292cdb56919"
 },
 "ordinateur-de-bureau/apple-mac-mini-m6/": {
 "d": "2026-11-13",
-"h": "fb5718382030"
+"h": "65dc5d7fc18c"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
 "d": "2026-11-13",
-"h": "f7c20f6e4219"
+"h": "a96eeedca5c4"
 },
 "ordinateur-de-bureau/bureautique/": {
 "d": "2026-11-09",
@@ -581,55 +581,55 @@
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
 "d": "2026-11-13",
-"h": "2ba77252ec3a"
+"h": "455aeec4b05b"
 },
 "ordinateur-de-bureau/geekom-a5/": {
 "d": "2026-11-13",
-"h": "80e1d8d9e66c"
+"h": "81e56670b9f9"
 },
 "ordinateur-de-bureau/geekom-a7/": {
 "d": "2026-11-13",
-"h": "e8eb93c7a54a"
+"h": "3f42a05ede50"
 },
 "ordinateur-de-bureau/geekom-a8/": {
 "d": "2026-11-13",
-"h": "7c7f28b49282"
+"h": "38f405eff4f5"
 },
 "ordinateur-de-bureau/geekom-a9-max/": {
 "d": "2026-11-13",
-"h": "d50074f9c2eb"
+"h": "1c4d1de65c7d"
 },
 "ordinateur-de-bureau/geekom-gt1-mega/": {
 "d": "2026-11-13",
-"h": "bbf3484eccdd"
+"h": "5ae4984d420a"
 },
 "ordinateur-de-bureau/geekom-it13/": {
 "d": "2026-11-13",
-"h": "c3fc972d0dca"
+"h": "0fa51c254a1a"
 },
 "ordinateur-de-bureau/geekom-it15/": {
 "d": "2026-11-13",
-"h": "2824dac72e2e"
+"h": "2cf940447da7"
 },
 "ordinateur-de-bureau/geekom-mini-air12-lite/": {
 "d": "2026-11-13",
-"h": "1bf7adf2bfcd"
+"h": "931ac4430373"
 },
 "ordinateur-de-bureau/geekom-mini-it12/": {
 "d": "2026-11-13",
-"h": "1a7c9f767a49"
+"h": "8f55c6a6e5e8"
 },
 "ordinateur-de-bureau/gmktec-evo-x2/": {
 "d": "2026-11-13",
-"h": "a6f950a8619c"
+"h": "b292b580173e"
 },
 "ordinateur-de-bureau/gmktec-nucbox-k13/": {
 "d": "2026-11-13",
-"h": "4a8055407d7f"
+"h": "c7524119c8be"
 },
 "ordinateur-de-bureau/hp-omen-35l/": {
 "d": "2026-11-13",
-"h": "5ee24b7c2472"
+"h": "94fed1da6126"
 },
 "ordinateur-de-bureau/hp-z2-mini-g1a/": {
 "d": "2026-11-13",
@@ -637,7 +637,7 @@
 },
 "ordinateur-de-bureau/lenovo-loq-tower/": {
 "d": "2026-11-13",
-"h": "e4f151d887d7"
+"h": "10451a3c97ae"
 },
 "ordinateur-de-bureau/mini-pc/": {
 "d": "2026-11-09",
@@ -645,91 +645,91 @@
 },
 "ordinateur-de-bureau/nipogi-am06-pro/": {
 "d": "2026-11-13",
-"h": "64b80ca11db7"
+"h": "beb98feab4b4"
 },
 "ordinateur-de-bureau/tout-en-un/": {
 "d": "2026-11-09",
 "h": "efbd0e8f55de"
 },
 "pc-portable/": {
-"d": "2026-11-06",
-"h": "472531303002"
+"d": "2026-11-13",
+"h": "fabffe934bb9"
 },
 "pc-portable/acer-aspire-go-15/": {
 "d": "2026-11-13",
-"h": "8e3547b23fcc"
+"h": "e4a8ab60568e"
 },
 "pc-portable/acer-chromebook-plus-514/": {
 "d": "2026-11-13",
-"h": "99e1f1a860c8"
+"h": "4c580c57c915"
 },
 "pc-portable/acer-predator-helios-neo-16-ai/": {
 "d": "2026-11-13",
-"h": "aabcbfe52f66"
+"h": "21b06ece7aa3"
 },
 "pc-portable/acer-swift-16-ai/": {
 "d": "2026-11-13",
-"h": "4a7998a34d53"
+"h": "6d10e2396518"
 },
 "pc-portable/acer-swift-air-14/": {
 "d": "2026-11-13",
-"h": "211672bb1a5c"
+"h": "da0adb50b6d4"
 },
 "pc-portable/apple-macbook-air-13-m5/": {
 "d": "2026-11-13",
-"h": "5b1eb4d078da"
+"h": "db5212b13475"
 },
 "pc-portable/apple-macbook-air-15-m5/": {
 "d": "2026-11-13",
-"h": "5c7b7b31e78d"
+"h": "e22867774f36"
 },
 "pc-portable/apple-macbook-neo/": {
 "d": "2026-11-13",
-"h": "b2a2519f7173"
+"h": "f90d9d2b304c"
 },
 "pc-portable/apple-macbook-pro-14-m5/": {
 "d": "2026-11-13",
-"h": "2b3166d4bd77"
+"h": "50d5479373b2"
 },
 "pc-portable/asus-proart-p16/": {
 "d": "2026-11-13",
-"h": "81b17905590c"
+"h": "81047f53b700"
 },
 "pc-portable/asus-proart-px13/": {
 "d": "2026-11-13",
-"h": "573efd3f8b24"
+"h": "bd18bfc5c01e"
 },
 "pc-portable/asus-rog-strix-g16/": {
 "d": "2026-11-13",
-"h": "d7ae02b5bbc9"
+"h": "e2a749093004"
 },
 "pc-portable/asus-rog-zephyrus-g16/": {
 "d": "2026-11-13",
-"h": "93a2ee7cc243"
+"h": "e6310f213ef2"
 },
 "pc-portable/asus-vivobook-s14/": {
 "d": "2026-11-13",
-"h": "c01f62b5e42f"
+"h": "e41aa08dc584"
 },
 "pc-portable/asus-zenbook-a14/": {
 "d": "2026-11-13",
-"h": "9ef6f8bc32dc"
+"h": "f24f79db8ca4"
 },
 "pc-portable/asus-zenbook-a16/": {
 "d": "2026-11-13",
-"h": "4fc8ef87b9a1"
+"h": "1d7e87cec4cb"
 },
 "pc-portable/asus-zenbook-duo/": {
 "d": "2026-11-13",
-"h": "56a26db226fe"
+"h": "6323f3dcdf91"
 },
 "pc-portable/asus-zenbook-s-14/": {
 "d": "2026-11-13",
-"h": "26e1edce8532"
+"h": "040ab4de3c9f"
 },
 "pc-portable/asus-zenbook-s-16/": {
 "d": "2026-11-13",
-"h": "fcbf22592305"
+"h": "8f5db50c7e09"
 },
 "pc-portable/bureautique/": {
 "d": "2026-11-09",
@@ -741,7 +741,7 @@
 },
 "pc-portable/dell-xps-14-2026/": {
 "d": "2026-11-13",
-"h": "1b7318ac01dd"
+"h": "8cb8532496d9"
 },
 "pc-portable/gaming/": {
 "d": "2026-11-09",
@@ -749,63 +749,63 @@
 },
 "pc-portable/gigabyte-aero-x16/": {
 "d": "2026-11-13",
-"h": "960efc982127"
+"h": "10816c85e118"
 },
 "pc-portable/gigabyte-gaming-a16/": {
 "d": "2026-11-13",
-"h": "927e8fefc2ba"
+"h": "1660be88806d"
 },
 "pc-portable/hp-omen-max-16/": {
 "d": "2026-11-13",
-"h": "5baae85933ab"
+"h": "746e99cac530"
 },
 "pc-portable/hp-omnibook-5-14/": {
 "d": "2026-11-13",
-"h": "d27e99473c7a"
+"h": "9997250ca3a8"
 },
 "pc-portable/hp-omnibook-x-flip-14/": {
 "d": "2026-11-13",
-"h": "43805c04dd78"
+"h": "13fa13ed8e07"
 },
 "pc-portable/lenovo-chromebook-duet-11/": {
 "d": "2026-11-13",
-"h": "96f83f2709ee"
+"h": "8b0484eda080"
 },
 "pc-portable/lenovo-ideapad-1-15/": {
 "d": "2026-11-13",
-"h": "a9d84a523fe2"
+"h": "46e2be4c88fe"
 },
 "pc-portable/lenovo-ideapad-slim-3/": {
 "d": "2026-11-13",
-"h": "f2365c46f17f"
+"h": "1f1df793d735"
 },
 "pc-portable/lenovo-ideapad-slim-3x-15/": {
 "d": "2026-11-13",
-"h": "17abf3b1940e"
+"h": "b7bb1381b483"
 },
 "pc-portable/lenovo-loq-15/": {
 "d": "2026-11-13",
-"h": "9d5a75393dc2"
+"h": "2cc93de75816"
 },
 "pc-portable/lenovo-yoga-7-2-en-1/": {
 "d": "2026-11-13",
-"h": "76eca8c7e76b"
+"h": "94cdb8cbc6a6"
 },
 "pc-portable/lenovo-yoga-pro-9i-16/": {
 "d": "2026-11-13",
-"h": "fea04678a69a"
+"h": "86678517904c"
 },
 "pc-portable/lenovo-yoga-slim-7-14/": {
 "d": "2026-11-13",
-"h": "0d5cdea9fb3b"
+"h": "cfe6f13186d4"
 },
 "pc-portable/lenovo-yoga-slim-7x/": {
 "d": "2026-11-13",
-"h": "82f512edb7f0"
+"h": "efeaf4289261"
 },
 "pc-portable/lg-gram-17/": {
 "d": "2026-11-13",
-"h": "8c72991c182f"
+"h": "42a06a298ff4"
 },
 "pc-portable/lowcost/": {
 "d": "2026-11-09",
@@ -813,19 +813,19 @@
 },
 "pc-portable/microsoft-surface-laptop-13/": {
 "d": "2026-11-13",
-"h": "fb345b15b80a"
+"h": "d7156d9fa4e7"
 },
 "pc-portable/msi-crosshair-16-hx-ai/": {
 "d": "2026-11-13",
-"h": "1d1db99b87a1"
+"h": "fd8ba10d3df6"
 },
 "pc-portable/msi-cyborg-15/": {
 "d": "2026-11-13",
-"h": "5c0fda66df19"
+"h": "9b5b521653ee"
 },
 "pc-portable/msi-katana-15-hx/": {
 "d": "2026-11-13",
-"h": "b5c39b9372bc"
+"h": "b2c7f1650414"
 },
 "pc-portable/polyvalent/": {
 "d": "2026-11-09",
@@ -837,11 +837,11 @@
 },
 "pc-portable/samsung-galaxy-book4-edge-15/": {
 "d": "2026-11-13",
-"h": "8f4ec19afcb5"
+"h": "e762fc71463c"
 },
 "photo-video/": {
-"d": "2026-11-06",
-"h": "936d9e2c0d3d"
+"d": "2026-11-13",
+"h": "57d5ef06ce72"
 },
 "photo-video/appareils-photo-hybrides-compacts/": {
 "d": "2026-11-09",
@@ -1052,8 +1052,8 @@
 "h": "e64d6cdd0222"
 },
 "tv/": {
-"d": "2026-11-04",
-"h": "3c5cafc4e7a1"
+"d": "2026-11-13",
+"h": "718f6a43474f"
 },
 "tv/50-55-pouces/": {
 "d": "2026-11-09",

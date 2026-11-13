@@ -13,3 +13,12 @@
 .riv-lecture{margin-bottom:4px;}
 .riv-note{font-size:.8rem;color:var(--ink-muted);margin:6px 0 0;}
 .riv-note a{color:inherit;}
+
+/* Moyenne du top 10 dans le bloc rivaux, guides d'achat des rubriques (13/11/2026) */
+.riv-table th.moy, .riv-table td.moy { background: #F3F4F6; color: var(--ink); font-style: italic; border-left: 2px dashed #C9CDD3; }
+.riv-n { font-size: .78em; color: var(--muted, #6B7280); font-style: normal; white-space: nowrap; }
+.intro-plus { font-size: .95em; color: var(--muted, #4B5563); margin-top: .6em; }
+.guide .g-sub { font-size: 1.15em; margin: 1.4em 0 .6em; }
+.g-usages td, .g-usages th { vertical-align: top; }
+.g-usages td:last-child { white-space: nowrap; font-weight: 600; }
+.g-meth { margin: .4em 0 0; line-height: 1.55; }

@@ -12,6 +12,7 @@ Données : data.json (source de vérité ; build_data.py est hors service depuis
 import json, os, html, re, shutil, math, hashlib, unicodedata, collections, statistics
 from guides import GUIDES
 import rivaux
+from guides_rubriques import GUIDES_RUB, POUR_QUI
 from guides_desk import GUIDES_DESK
 from desk import DCATS
 from profiles import PROFILES
@@ -797,6 +798,49 @@ def fam_faq(fam):
 
 
 # ---------------------------------------------------------------- Pages comparatif par famille
+def guide_rubrique_html(fam, root):
+    """Guide d'achat en bas des pages de rubrique Informatique (13/11/2026). Fourchettes de prix calculées sur les tops 10."""
+    g = GUIDES_RUB.get(fam["key"])
+    if not g:
+        return ""
+    lignes = ""
+    for c in fam["cats"]:
+        items = by_cat.get(c["key"], [])
+        if not items:
+            continue
+        ps = [d["p"] for d in items]
+        lignes += (f'<tr><th><a href="{root}{fam["slug"]}/{c["slug"]}/">{c["label"]}</a></th>'
+                   f'<td>{POUR_QUI.get(c["key"], "")}</td><td>{euro_ind(min(ps))} à {euro_ind(max(ps))}</td></tr>')
+    crit = "".join(f'<div class="g-card"><span class="g-num">0{i}</span><h3>{E(a)}</h3><p>{E(b)}</p></div>' for i, (a, b) in enumerate(g["criteres"], 1))
+    pieges = "".join(f"<li>{E(x)}</li>" for x in g["pieges"])
+    return f"""
+  <section class="guide" id="guide">
+    <div class="section-head"><h2>{E(g['titre'])}</h2><div class="tag">Guide d'achat</div></div>
+    <p class="guide-intro">{E(g['intro'])}</p>
+    <h3 class="g-sub">Quel usage pour vous ?</h3>
+    <div class="riv-table"><table class="g-usages"><thead><tr><th>Usage</th><th>Pour qui</th><th>Prix indicatifs dans le top 10</th></tr></thead><tbody>{lignes}</tbody></table></div>
+    <h3 class="g-sub">Les critères qui comptent</h3>
+    <div class="g-grid">{crit}</div>
+    <div class="g-bottom">
+      <div class="g-box"><div class="legend-title">Les pièges à éviter</div><ul class="g-pieges">{pieges}</ul></div>
+      <div class="g-box"><div class="legend-title">Comment nous classons</div><p class="g-meth">Chaque top 10 classe les modèles par note de la presse ajustée selon le nombre de tests, puis par prix. Les critères et les sources sont détaillés dans <a href="{root}methode#classement">notre méthode</a>.</p></div>
+    </div>
+  </section>"""
+
+
+def intro_chiffres(fam, all_items):
+    """Deuxième paragraphe d'introduction des rubriques Informatique, calculé sur les données (13/11/2026)."""
+    if fam["key"] not in GUIDES_RUB:
+        return ""
+    medias = {n["src"] for d in all_items for n in d["tests"]["notes"]}
+    ps = sorted(d["p"] for d in all_items)
+    med = ps[len(ps) // 2] if len(ps) % 2 else (ps[len(ps) // 2 - 1] + ps[len(ps) // 2]) / 2
+    synth = sum(1 for d in all_items if d.get("synthese"))
+    return (f'<p class="intro-plus">Nos classements s\'appuient sur {sum(d["tests"]["tests"] for d in all_items)} tests publiés par {len(medias)} médias, '
+            f'relevés et synthétisés par Top 10 Geek ; {synth} fiches sur {len(all_items)} ont une synthèse rédigée. Les prix indicatifs vont de '
+            f'{euro_ind(ps[0])} à {euro_ind(ps[-1])}, avec un prix médian de {euro_ind(med)}. Le guide d\'achat en bas de page explique comment choisir.</p>')
+
+
 def family_page(fam):
     root = "../"
     cats = fam["cats"]
@@ -819,6 +863,7 @@ def family_page(fam):
       <div class="eyebrow">COMPARATIF {fam['plural'].upper()} · MAJ {maj(fam)}</div>
       <h1>{fam['h1']}</h1>
       <p>{fam['intro']}</p>
+      {intro_chiffres(fam, all_items)}
       {byline(root)}
       <div class="spec-row">
         <div><strong>{len(all_items)}</strong>{fam.get('stat_noun', fam['plural'])} sélectionné{'e' if fam['key'] == 'imprimante' else ''}s</div>
@@ -852,6 +897,7 @@ def family_page(fam):
     <div class="section-head"><h2>Choisissez votre usage</h2><div class="tag">{fam['plural']}</div></div>
     <div class="usage-grid">{usage_cards(fam, root)}</div>
   </section>
+  {guide_rubrique_html(fam, root)}
   <section class="section" id="faq" style="border-bottom:none;">
     <div class="section-head"><h2>Questions fréquentes</h2><div class="tag">FAQ</div></div>
     <div class="faq-list">{faq}</div>
