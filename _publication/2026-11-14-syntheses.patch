@@ -1,0 +1,705 @@
+diff --git a/_source/data.json b/_source/data.json
+index 740df7a..102b381 100644
+--- a/_source/data.json
++++ b/_source/data.json
+@@ -28077,14 +28077,11 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "La JBL Charge 6 réunit 10 notes chiffrées, moyenne 8,1/10. TechRadar et Trusted Reviews lui donnent 10/10, FrAndroid 9/10, puis 01net, Clubic et Chip.de 8/10. Les notes les plus basses viennent de SoundGuys (6,5/10) et de Labo Fnac (6/10).\n\nLes testeurs apprécient son volume élevé, son son équilibré et l'audio sans perte via USB-C. Ils notent aussi un son plus tiède à faible volume, l'absence de câble USB-C dans la boîte et un poids supérieur à celui de la Charge 5. Plusieurs tests la présentent aussi comme une batterie externe pour téléphone, en plus de son usage d'enceinte.",
+-    "date": "2026-10-28",
+-    "n": 10,
++    "texte": "La Charge 6 conserve sa fonction de batterie externe par un port USB-C bidirectionnel, qui sert aussi à l'écoute filaire sans perte. Clubic, SoundGuys et le Labo Fnac relèvent tous le passage à l'IP68, le Bluetooth 5.4 avec Auracast et l'égaliseur de l'application JBL Portable ; SoundGuys et le Labo Fnac ajoutent la résistance aux chutes d'un mètre.\n\nLe rendu est décrit comme équilibré et généreux en basses pour le format, mais à condition de rester raisonnable sur le volume : Clubic constate de la distorsion à haut niveau, le Labo Fnac une saturation marquée sur les morceaux chargés en graves et une perte de clarté hors de l'axe. SoundGuys juge le résultat dans la moyenne des enceintes Bluetooth et mesure même un score sonore légèrement inférieur à celui de la Charge 5. Les mesures d'autonomie divergent fortement : plus de 28 heures au Labo Fnac à volume modéré, 13 h 15 chez SoundGuys à volume plus élevé, environ 14 heures en moyenne pour Clubic.\n\nSont regrettés : l'absence de micro et d'entrée jack, un mode Playtime Boost qui coupe presque toutes les basses et, selon SoundGuys, l'impossibilité de l'associer à une Charge 5. C'est une enceinte d'extérieur robuste, pensée pour les sorties au bord de l'eau ou en voyage.",
++    "date": "2026-11-13",
++    "n": 11,
+     "tests": 14,
+     "sources": [
+-     "TechRadar",
+-     "Trusted Reviews",
+-     "Frandroid",
+      "Clubic",
+      "SoundGuys",
+      "Labo Fnac"
+@@ -28268,17 +28265,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Douze notes de presse pour la JBL Flip 7, moyenne 7,6/10, avec un écart important : TechRadar attribue 10/10, FrAndroid et Presse Citron 9/10, alors que Chip.de, Labo Fnac, PhonAndroid et SoundGuys en restent à 6/10.\n\nLes avis favorables soulignent un son percutant et détaillé pour sa taille, une grande autonomie et une construction robuste. Les critiques relèvent une recharge lente, l'impossibilité de la coupler avec les Flip précédents et la disparition du mode PartyBoost. Les graves, limités par le format, reviennent dans plusieurs tests moins bien notés.",
+-    "date": "2026-10-28",
+-    "n": 12,
+-    "tests": 18,
++    "texte": "Presse-citron, SoundGuys et Clubic décrivent une enceinte au gabarit presque inchangé par rapport à la Flip 6, mais mieux protégée : bumpers en caoutchouc renforcés, certification IP68 (immersion à 1,5 m pendant 30 minutes) et nouveau système d'accroche PushLock. Tous trois saluent l'arrivée du Bluetooth 5.4 avec Auracast ; SoundGuys et Clubic apprécient aussi l'audio par USB-C, qui permet une écoute filaire sans perte.\n\nCôté son, Clubic parle d'une restitution claire et équilibrée tant qu'on ne pousse pas trop le volume ; Presse-citron trouve les basses énergiques mais parfois imprécises sur les mixages chargés, et note que la distorsion arrive plus tard que sur la Flip 6. L'autonomie divise : Presse-citron dépasse 12 heures à 40 % du volume, Clubic plus de 20 heures en écoute fractionnée, alors que SoundGuys, à volume élevé constant, n'obtient qu'un peu plus de 6 heures.\n\nReproches relevés : le mode PartyBoost disparaît, ce qui empêche de coupler la Flip 7 avec une Flip 6, l'indicateur de batterie reste imprécis et le mode Playtime Boost dégrade nettement le rendu. Elle convient à qui cherche une enceinte robuste pour la plage, le camping ou la terrasse ; un possesseur de Flip 6 n'a pas de raison pressante de changer.",
++    "date": "2026-11-13",
++    "n": 14,
++    "tests": 17,
+     "sources": [
+-     "TechRadar",
+-     "Frandroid",
+      "Presse-citron",
+-     "Chip.de",
+-     "Labo Fnac",
+-     "SoundGuys"
++     "SoundGuys",
++     "Clubic"
+     ]
+    }
+   },
+@@ -28576,17 +28570,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Neuf notes chiffrées pour la JBL Go 5, moyenne 7,7/10. TechRadar la note 10/10 et TechAeris 9/10 ; Clubic, Kopfhörer, SoundGuys et Trusted Reviews donnent 8/10 ; 01net, Les Numériques et Chip.de sont à 6/10.\n\nLes tests louent un son musical pour une enceinte de cette taille, l'audio USB-C sans perte et un design très portable. Les critiques visent des basses limitées, l'absence de câble USB-C fourni et une autonomie inférieure à celle de certains concurrents. Il s'agit de la plus compacte de la sélection, ce qui explique en grande partie les limites relevées sur les basses.",
+-    "date": "2026-10-28",
+-    "n": 9,
++    "texte": "Mise à jour modeste de la Go 4, selon SoundGuys et TechAeris : même haut-parleur de 45 mm un peu plus puissant, IP68, égaliseur à sept bandes, audio par USB-C et appairage stéréo AirTouch en tapant deux enceintes l'une contre l'autre. Clubic apprécie l'application JBL Portable, simple et complète.\n\nLe rendu sonore est jugé net et assez équilibré à volume modéré. TechAeris s'étonne du grave obtenu dans un si petit volume, quand Clubic et SoundGuys parlent de basses limitées et d'un volume réservé à une écoute personnelle ; Clubic constate aussi un déséquilibre au-delà des deux tiers du volume. L'autonomie réelle tombe vers 5 à 6 heures en usage courant pour Clubic, loin des 10 heures annoncées à faible volume, et TechAeris trouve la recharge lente.\n\nClubic reproche encore un Auracast limité aux enceintes JBL et un port USB-C sans cache étanche ; SoundGuys regrette de ne pas pouvoir choisir la couleur de l'éclairage. Pour un premier achat d'enceinte de poche, elle est recommandée ; un possesseur de Go 4 n'y trouvera pas assez de changements.",
++    "date": "2026-11-13",
++    "n": 10,
+     "tests": 10,
+     "sources": [
+-     "TechRadar",
+-     "TechAeris",
+      "Clubic",
+      "SoundGuys",
+-     "01net",
+-     "Les Numériques"
++     "TechAeris"
+     ]
+    }
+   },
+@@ -28733,16 +28724,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Huit notes chiffrées pour la Sonos Roam 2, moyenne 7,4/10. FrAndroid donne 9/10, Absolute Geeks, Kopfhörer et TechRadar 8/10, puis Android Central et SoundGuys 7/10 ; Les Numériques et RTings sont à 6/10. Les tests datent surtout de 2024.\n\nLes avis mettent en avant un bon équilibre tonal, le son sans perte en Wi-Fi et la charge sans fil. Ils pointent une autonomie limitée à 10 heures, un prix élevé au regard de la puissance et une stéréo disponible seulement en Wi-Fi. Elle se distingue par un double usage, enceinte Bluetooth en déplacement et enceinte Wi-Fi à la maison au sein d'un système Sonos.",
+-    "date": "2026-10-28",
+-    "n": 8,
++    "texte": "La principale évolution relevée par SoundGuys, Kopfhörer et Absolute Geeks est le bouton Bluetooth dédié, qui permet d'utiliser la Roam 2 sans passer par l'application Sonos. Sur le reste, SoundGuys parle davantage d'un remplacement que d'une montée en gamme, avec les mêmes haut-parleurs que la première Roam. La robustesse IP67, le réglage Trueplay et une autonomie d'environ 10 heures font consensus.\n\nLe son est apprécié pour la taille : Kopfhörer décrit un rendu clair, sans distorsion à fort volume et aux basses présentes sans excès, Absolute Geeks met en avant la clarté des voix. SoundGuys est plus mesuré, avec moins de grave et d'aigu qu'une JBL Flip 6 et un égaliseur limité à deux bandes. Les médias divergent nettement sur la mise en service : rapide et sans frustration pour Kopfhörer, plus d'une heure de manipulations et des réglages qui ne répondent pas dans l'application pour SoundGuys.\n\nKopfhörer relève que la paire stéréo ne fonctionne qu'en Wi-Fi, donc pas en déplacement, et SoundGuys qu'elle ne s'associe qu'à une autre Roam 2. Le prix est jugé élevé par rapport à une simple enceinte Bluetooth. Elle s'adresse d'abord aux foyers déjà équipés en Sonos qui veulent une enceinte à emporter.",
++    "date": "2026-11-13",
++    "n": 10,
+     "tests": 12,
+     "sources": [
+-     "Frandroid",
++     "SoundGuys",
+      "Absolute Geeks",
+-     "TechRadar",
+-     "Les Numériques",
+-     "RTings"
++     "Kopfhörer"
+     ]
+    }
+   },
+@@ -29108,15 +29097,13 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Sept notes chiffrées pour la JBL Grip, moyenne 6,7/10, avec des avis très partagés : T3 donne 10/10, ExpertReviews et Trusted Reviews 8/10, mais Chip.de et Allround-PC 6/10 et Labo Fnac seulement 2/10.\n\nLes tests favorables retiennent un design réussi, un éclairage d'ambiance et la compatibilité Auracast. Les plus sévères jugent le son brillant et mince, relèvent une autonomie inférieure à l'annonce et rappellent la concurrence nombreuse à ce niveau de prix. Les Numériques et RTings l'ont testée sans note publique.",
+-    "date": "2026-10-28",
+-    "n": 7,
++    "texte": "Nouvelle enceinte verticale en forme de canette, la Grip se place entre la Clip 5 et la Flip 7, et c'est cette dernière qui revient dans chaque test comme point de comparaison. Expert Reviews et SoundGuys décrivent un appareil robuste, certifié IP68, avec une bande lumineuse réglable dans l'application, l'égaliseur à sept bandes et Auracast. SoundGuys précise qu'elle ne se couple pas avec les anciennes enceintes PartyBoost et n'a pas de micro.\n\nSur le son, les trois médias saluent des médiums et des aigus nets et des voix claires, et SoundGuys la trouve plus pleine que la Clip 5. Le grave est en revanche le point faible commun : Expert Reviews le juge léger, SoundGuys rappelle qu'elle n'a ni la puissance ni l'impact de la Flip 7. Le Labo Fnac est le plus sévère : volume plafonnant tôt, creux marqué dans le bas du spectre et beaucoup de distorsion, au point de la réserver à une petite pièce.\n\nExpert Reviews ajoute une dragonne jugée trop sommaire et une fatigue d'écoute à fort volume. La Grip vise ceux qui veulent une petite enceinte nomade, facile à glisser dans un sac ; pour davantage de grave, les tests orientent vers la Flip 7, à peine plus chère.",
++    "date": "2026-11-13",
++    "n": 10,
+     "tests": 10,
+     "sources": [
+-     "T3",
+      "Expert Reviews",
+-     "Trusted Reviews",
+-     "Chip.de",
++     "SoundGuys",
+      "Labo Fnac"
+     ]
+    }
+@@ -30770,19 +30757,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Douze médias ont noté les QuietComfort Ultra Earbuds de deuxième génération, pour une moyenne de 8,7/10, la meilleure de la sélection. Les Numériques et Trusted Reviews donnent 10/10, Basic Tutorials 9,4/10, DigitalTrends, FrAndroid et TechAeris 9/10, tandis que 01net et Chip.de en restent à 8/10.\n\nLes tests louent une réduction de bruit de premier plan, un son riche avec des graves profonds, un maintien exemplaire et une bonne qualité de connexion Bluetooth. Ils regrettent une autonomie tout juste correcte, face à des concurrents qui ont pris de l'avance, un prix parmi les plus élevés du segment et des microphones encore perfectibles.",
+-    "date": "2026-10-28",
+-    "n": 12,
+-    "tests": 14,
++    "texte": "La réduction de bruit reste l'argument central de cette deuxième génération : Digital Trends en fait une référence, SoundGuys mesure une atténuation parmi les plus fortes de ses tests, TechAeris la place dans le haut de la catégorie. Le mode transparence est jugé naturel. Les changements face à la première génération sont discrets, comme le souligne SoundGuys : recharge sans fil enfin présente, embouts avec garde-cérumen, micros améliorés, que Digital Trends et TechAeris trouvent clairs même dans le bruit.\n\nLe son est vivant et riche en grave et en aigu ; SoundGuys prévient qu'il ne plaira pas à tous, et les trois médias jugent l'égaliseur de l'application trop sommaire. L'autonomie, autour de 6 heures avec réduction de bruit et environ 4 heures avec l'audio spatial, est vue comme un point faible par Digital Trends et SoundGuys, alors que TechAeris s'en satisfait.\n\nLe confort divise : bon maintien et confort élevé pour Digital Trends et SoundGuys, écouteurs encombrants pour l'auteur de TechAeris, qui conseille de les essayer avant d'acheter. SoundGuys les déconseille aux petites oreilles. Ils visent ceux qui placent l'isolation avant tout ; SoundGuys suggère d'attendre une promotion pour qui possède déjà la première génération.",
++    "date": "2026-11-13",
++    "n": 8,
++    "tests": 10,
+     "sources": [
+-     "Les Numériques",
+-     "Trusted Reviews",
+-     "Basic Tutorials",
+      "Digital Trends",
+-     "Frandroid",
+-     "TechAeris",
+-     "01net",
+-     "Chip.de"
++     "SoundGuys",
++     "TechAeris"
+     ]
+    }
+   },
+@@ -31910,19 +31892,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Dix médias ont noté les WF-C710N, pour une moyenne de 7,8/10. Trusted Reviews les place en haut avec 10/10, 01net, Chip.de, Presse Citron et SoundGuys leur donnent 8/10, AndroidPit et CharlesTech 7/10 et Kopfhörer 6/10.\n\nLa presse apprécie une réduction de bruit efficace pour ce niveau de prix, un son lisse et agréable, un ajustement confortable et une autonomie très généreuse. Elle regrette peu de codecs compatibles, l'absence de recharge sans fil, des commandes tactiles parfois confuses et une application dont l'ergonomie manque de clarté.",
+-    "date": "2026-10-28",
+-    "n": 10,
++    "texte": "Successeurs des WF-C700N, les WF-C710N gagnent le multipoint et des commandes tactiles. Presse-citron et SoundGuys décrivent un confort durable et une autonomie conforme ou supérieure à l'annonce, SoundGuys mesurant 9 h 25 sur une charge. Tous trois notent que seuls les codecs SBC et AAC sont pris en charge, sans LDAC.\n\nLa réduction de bruit partage les testeurs : Presse-citron la trouve très convaincante dans le grave et SoundGuys la range parmi les bonnes de sa gamme, alors que CharlesTech la juge perfectible dans les fréquences élevées face aux modèles plus chers. Même contraste sur le son, détaillé avec des basses profondes pour Presse-citron, en retrait pour le prix selon CharlesTech ; SoundGuys relève un creux dans l'aigu qui fait perdre du détail aux cymbales.\n\nPresse-citron critique des commandes confuses, avec un volume qui se règle mal, un souffle en mode transparent et une voix étouffée en appel ; SoundGuys déconseille la course faute d'ailettes de maintien, et l'absence de recharge sans fil est relevée. Ce sont des écouteurs simples et confortables pour un usage quotidien ; qui place le son ou la réduction de bruit au premier plan regardera plus haut.",
++    "date": "2026-11-13",
++    "n": 11,
+     "tests": 14,
+     "sources": [
+-     "Trusted Reviews",
+-     "01net",
+-     "Chip.de",
+      "Presse-citron",
+      "SoundGuys",
+-     "AndroidPit",
+-     "CharlesTech",
+-     "Kopfhörer"
++     "CharlesTech"
+     ]
+    }
+   },
+@@ -32072,19 +32049,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Neuf médias ont noté les Ear (3a), pour une moyenne de 7,9/10. LeCafeDuGeek leur donne 9/10, Presse Citron, Les Numériques, AndroidWorld, SoundGuys, Chip.de et Trusted Reviews 8/10, alors que 01net n'attribue que 6/10.\n\nLes tests retiennent un excellent rapport fonctionnalités et prix, avec Bluetooth 6.0, LDAC et multipoint, une signature sonore équilibrée, un confort très correct et une bonne autonomie. Les points faibles sont une réduction de bruit en retrait face aux références, une coque qui fait un peu bon marché, un boîtier jugé fragile et des fonctions qui prennent tout leur sens avec un smartphone Nothing.",
+-    "date": "2026-10-28",
+-    "n": 9,
++    "texte": "Sur l'autonomie, les mesures se recoupent : SoundGuys obtient presque exactement 10 heures sans réduction de bruit, et Presse-citron confirme les chiffres annoncés, avec ou sans elle. La réduction de bruit est jugée efficace pour un trajet quotidien ; LeCafeDuGeek la place encore un cran sous les modèles haut de gamme de Sony, Bose ou Apple, et SoundGuys relève qu'elle peut se couper quand l'embout est mal ajusté.\n\nLe son fait davantage débat. Presse-citron le trouve percutant mais avec des basses qui masquent parfois le médium, SoundGuys le juge bien trop chargé en grave d'usine tout en le corrigeant sans peine avec l'égaliseur à huit bandes, quand LeCafeDuGeek parle d'une signature assez équilibrée aux voix naturelles. Les micros convainquent partout, y compris dans le vent, et la fonction Audio Snapshot, utile pour LeCafeDuGeek, reste un peu gadget pour Presse-citron.\n\nPoints faibles cités : un mode transparence en retrait, une coque qui fait un peu bon marché et des fonctions d'IA surtout utiles avec un smartphone Nothing. Ces écouteurs visent les utilisateurs, plutôt sous Android, qui veulent l'essentiel des fonctions récentes sans viser le très haut de gamme et acceptent de passer par l'application.",
++    "date": "2026-11-13",
++    "n": 11,
+     "tests": 13,
+     "sources": [
+-     "LeCafeDuGeek",
+      "Presse-citron",
+-     "Les Numériques",
+-     "AndroidWorld",
+-     "SoundGuys",
+-     "Chip.de",
+-     "Trusted Reviews",
+-     "01net"
++     "LeCafeDuGeek",
++     "SoundGuys"
+     ]
+    }
+   },
+@@ -33513,17 +33485,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Six médias ont noté le Live 780NC, pour une moyenne de 8,4/10. Labo Fnac lui donne 10/10, COGconnected 8,2/10, tandis que Les Numériques, Kopfhörer, Presse Citron et Trusted Reviews s'en tiennent à 8/10.\n\nLes testeurs apprécient une signature sonore agréable avec peu de distorsion, une conception légère et confortable et une autonomie hors norme. Ils reprochent des basses un peu appuyées par défaut, un léger manque de précision et une réduction de bruit jugée seulement moyenne par certains, ainsi qu'une pochette qui protège peu.",
+-    "date": "2026-10-28",
+-    "n": 6,
++    "texte": "Le Labo Fnac retient une isolation de très haut niveau pour ce casque de milieu de gamme, peu de distorsion et une signature qui met en avant les voix. Presse-citron trouve la réduction de bruit efficace sur les grondements continus, moins sur les voix proches et les bruits soudains, et GeekCulture la juge correcte sans bloquer tous les aigus. L'autonomie est saluée par Presse-citron comme par GeekCulture, avec une charge rapide utile.\n\nLe son partage les avis. Presse-citron et GeekCulture décrivent un rendu chaleureux et énergique, mais avec un grave qui déborde parfois sur le bas médium ; le Labo Fnac, à l'inverse, aimerait un peu plus de basses et apprécie ce calibrage sobre. Même désaccord sur le confort : Presse-citron souligne la légèreté et ne relève qu'une pression au sommet du crâne en longue session, GeekCulture critique une force de serrage qui devient vite inconfortable, surtout pour les grandes têtes.\n\nPresse-citron relève aussi un mode transparence peu naturel, des appels moins intelligibles dans le bruit et l'impossibilité d'écouter directement par USB-C, malgré le Bluetooth 6.0 avec LDAC et Auracast. Ce casque s'adresse aux amateurs d'un son généreux qui veulent une bonne réduction de bruit sans viser le très haut de gamme ; GeekCulture conseille de l'essayer avant achat.",
++    "date": "2026-11-13",
++    "n": 8,
+     "tests": 9,
+     "sources": [
+-     "Labo Fnac",
+-     "COGconnected",
+-     "Les Numériques",
+-     "Kopfhörer",
+      "Presse-citron",
+-     "Trusted Reviews"
++     "Labo Fnac",
++     "GeekCulture"
+     ]
+    }
+   },
+@@ -39443,18 +39412,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Onze médias ont noté l'OpenDots One, pour 8,2/10 de moyenne. ExpertReviews et L&B Tech lui accordent 10/10 ; FrAndroid, Presse Citron, Trusted Reviews et Absolute Geeks restent sur 8/10, tandis qu'AndroidWorld descend à 6/10.\n\nPoint commun des tests : un clip léger, confortable au quotidien, un son Dolby Audio flatteur et une charge rapide ou sans fil. En contrepartie, les commandes uniquement tactiles agacent, certains trouvent le port prolongé douloureux et le prix, proche de 200 €, n'a rien d'une bonne affaire.",
+-    "date": "2026-10-28",
+-    "n": 11,
+-    "tests": 16,
++    "texte": "Premiers écouteurs à clip de Shokz, les OpenDots One séduisent par leur légèreté et leur tenue : L&B Tech les garde sans bouger pendant des séances de sport, Digital Trends à la salle, et Presse-citron oublie qu'il les porte au quotidien. Le grave surprend pour un modèle ouvert ; Digital Trends le compte parmi les meilleurs qu'il ait entendus dans cette catégorie, tout en trouvant le médium un peu discret. L&B Tech est plus mesurée : son riche et détaillé, mais basses peu profondes et fuite sonore audible.\n\nLes avis se séparent sur le confort prolongé. Presse-citron ressent des douleurs autour de l'oreille au-delà de trois heures, Digital Trends une pression qui impose une pause, alors que L&B Tech n'a aucune gêne, y compris avec des lunettes. Les appels sont clairs en intérieur, mais L&B Tech trouve la voix transmise un peu fine et Digital Trends note des difficultés dehors.\n\nLes trois tests regrettent des commandes réduites à deux gestes et l'absence de réduction de bruit, ce qui les rend peu adaptés aux transports. L'autonomie et la charge sans fil du boîtier sont saluées. Ils s'adressent à qui veut écouter musique ou podcasts en restant conscient de son entourage, sans arceau derrière l'oreille.",
++    "date": "2026-11-13",
++    "n": 12,
++    "tests": 15,
+     "sources": [
+-     "Expert Reviews",
+-     "L&B Tech",
+-     "Frandroid",
+      "Presse-citron",
+-     "Trusted Reviews",
+-     "Absolute Geeks",
+-     "AndroidWorld"
++     "Digital Trends",
++     "L&B Tech"
+     ]
+    }
+   },
+@@ -39637,19 +39602,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Les douze tests du Huawei FreeClip donnent 6,8/10 de moyenne, avec la plus grande dispersion du comparatif : Basic Tutorials et LeCafeDuGeek lui mettent 9/10, Presse Citron 8/10, Numerama 7/10, mais 01net et Les Numériques 6/10, FrAndroid 4/10 et Labo Fnac 2/10.\n\nLes avis favorables saluent l'autonomie, le confort et la charge sans fil. Les critiques visent un son qui manque de détail, des aigus parfois stridents et l'absence de câble USB-C dans la boîte. Le design en C, lui, fait l'unanimité sur l'originalité plus que sur la qualité sonore.",
+-    "date": "2026-10-28",
++    "texte": "Le format clip, avec une sphère acoustique posée devant le conduit et un petit module derrière l'oreille reliés par un pont souple, fait l'unanimité côté confort : Kopfhörer explique qu'on ne les sent plus après quelques secondes, Presse-citron qu'ils tiennent en courant ou en dansant. Les deux écouteurs sont identiques et détectent seuls le côté gauche ou droit. L'autonomie tient les promesses, autour de 7 h 30 à 8 heures par charge selon Presse-citron et Kopfhörer.\n\nLe son est jugé agréable et aéré, mais léger dans le grave : Presse-citron prévient les amateurs de basses appuyées, Kopfhörer signale des aigus qui durcissent à fort volume. Digital Citizen se montre plus réservé : au-delà de 60 à 65 % du volume, l'entourage entend la musique et les appels, et dans un métro ou sur un boulevard chargé l'écoute devient difficile. En appel, Presse-citron et Kopfhörer louent au contraire le filtrage du vent et du bruit ambiant.\n\nLes limites relevées sont l'absence de réglage du volume au toucher et d'égaliseur personnalisable, et une application à installer hors du Play Store sur Android. Ce sont des écouteurs pour un usage calme ou sportif, par des personnes qui veulent rester attentives à leur environnement ou ne supportent pas les intra-auriculaires.",
++    "date": "2026-11-13",
+     "n": 12,
+-    "tests": 19,
++    "tests": 18,
+     "sources": [
+-     "Basic Tutorials",
+-     "LeCafeDuGeek",
+      "Presse-citron",
+-     "Numerama",
+-     "01net",
+-     "Les Numériques",
+-     "Frandroid",
+-     "Labo Fnac"
++     "Digital Citizen",
++     "Kopfhörer"
+     ]
+    }
+   },
+@@ -39801,17 +39761,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Huit médias ont testé les LinkBuds Open et leur moyenne s'établit à 7,0/10. AndroidPit, Trusted Reviews et Day-Technology donnent 8/10, 01net, Chip.de et SoundGuys 6/10.\n\nSelon eux, la conception en anneau est originale, légère et confortable, avec une bonne autonomie. Mais les basses sont très en retrait, le rendu se noie dès que l'environnement devient bruyant et le design divise. Ils s'adressent à ceux qui privilégient la conscience de l'environnement plutôt que la richesse sonore. Dans la pratique, ils conviennent aux trajets à pied et au bureau, beaucoup moins à la salle de sport ou au métro.",
+-    "date": "2026-10-28",
+-    "n": 8,
++    "texte": "Avec leur anneau ouvert posé devant le conduit, les LinkBuds Open laissent passer les bruits extérieurs par conception, ce que Day-Technology présente comme un moyen de rester conscient de son environnement. Digital Trends est surpris par une isolation passive meilleure qu'attendu en ville, tandis que SoundGuys les juge peu adaptés à l'écoute de musique dans les transports. L'autonomie est un point fort commun : 9 h 30 mesurées par SoundGuys, huit à neuf heures à 60 % du volume pour Digital Trends.\n\nLe confort est bon, mais le maintien inquiète : Digital Trends les a vus se détacher en riant pendant un appel, SoundGuys a toujours eu l'impression qu'ils allaient tomber sans que cela arrive. Sur le son, SoundGuys relève un grave très discret et des aigus trop en avant, dans la moyenne des écouteurs ouverts ; Digital Trends conseille de relever les basses à l'égaliseur. En appel, les interlocuteurs entendent le bruit de fond, et SoundGuys trouve le micro sensible au vent.\n\nDigital Trends critique aussi une application Sound Connect peu intuitive et des commandes vocales maladroites. Ces écouteurs visent le sport, le vélo ou le bureau, quand on veut entendre ce qui se passe autour de soi.",
++    "date": "2026-11-13",
++    "n": 10,
+     "tests": 14,
+     "sources": [
+-     "AndroidPit",
+-     "Trusted Reviews",
+-     "Day-Technology",
+-     "01net",
+-     "Chip.de",
+-     "SoundGuys"
++     "Digital Trends",
++     "SoundGuys",
++     "Day-Technology"
+     ]
+    }
+   },
+@@ -39973,18 +39930,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Huit notes pour le LinkBuds Clip, moyenne 6,5/10 : Chip.de attribue 8/10, Engadget 7,2/10 et GadgetGear 7/10, alors que SoundGuys, T3 et Tom's Guide (US) restent à 6/10 et 01net à 4/10.\n\nPetit boîtier, grand confort et longue autonomie sont mis en avant, ainsi que l'égaliseur à dix bandes de l'application. Les tests déplorent un volume maximal limité, peu de basses profondes, une charnière de boîtier jugée instable et l'absence de charge sans fil. Ils visent plutôt un usage tranquille, au bureau ou en marchant, qu'une écoute à plein volume.",
+-    "date": "2026-10-28",
+-    "n": 8,
++    "texte": "Le format clip des LinkBuds Clip divise. Engadget les porte toute la journée sans gêne et SoundGuys les trouve faciles à oublier une fois habitué, alors que Tom's Guide (US) ne les supporte qu'une heure à cause de la pince, et que SoundGuys reconnaît que la sensation de les perdre persiste. Les trois tests s'entendent sur un point fort : la qualité des appels, grâce à la réduction de bruit et au capteur à conduction osseuse.\n\nLe son reste limité, comme souvent sur les modèles ouverts : Engadget souligne la clarté mais regrette le manque de grave, Tom's Guide (US) juge le volume maximal insuffisant dans un lieu animé, et SoundGuys relève une isolation quasi nulle. Le mode de réduction des fuites sonores fonctionne, au prix d'un rendu dégradé. L'autonomie mesurée reste sous les 9 heures annoncées : un peu plus de 6 heures pour Engadget, 7 h 10 pour SoundGuys.\n\nSont aussi reprochés l'absence de recharge sans fil, des fonctions Sony absentes comme la détection du port, et une connexion capricieuse selon Tom's Guide (US). Ils conviennent à qui veut des écouteurs ouverts pour téléphoner et rester attentif à son environnement, mais pas à qui cherche un son enveloppant.",
++    "date": "2026-11-13",
++    "n": 10,
+     "tests": 15,
+     "sources": [
+-     "Chip.de",
+      "Engadget",
+-     "GadgetGear",
+-     "SoundGuys",
+-     "T3",
+      "Tom's Guide (US)",
+-     "01net"
++     "SoundGuys"
+     ]
+    }
+   },
+@@ -40309,16 +40262,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Six médias ont noté l'AeroFit 2 Pro, pour une moyenne de 8,1/10. Presse Citron lui met 9/10, Basic Tutorials 8,4/10, Chip.de et Trusted Reviews 8/10, IGN 7/10.\n\nLes testeurs retiennent le bon son avec le LDAC, le multipoint et un crochet réglable. Ils notent aussi un boîtier encombrant, des finitions améliorables, un confort de port très variable d'une personne à l'autre et une réduction de bruit sans effet marqué. Un produit complet, mais cher face à son petit frère. La presse reste partagée sur l'intérêt de payer l'écart de prix, d'autant que la réduction de bruit d'un modèle ouvert reste symbolique.",
+-    "date": "2026-10-28",
+-    "n": 6,
++    "texte": "L'idée est originale : en poussant l'écouteur, on passe d'un mode ouvert à une position semi-intra, et la réduction de bruit s'active. Presse-citron, Basic Tutorials et Kopfhörer trouvent la manœuvre naturelle et le maintien solide en mouvement. Les deux médias allemands rappellent toutefois que Soundcore annonce une bonne tenue pour environ 90 % des oreilles seulement, et que le confort dépend beaucoup de l'anatomie.\n\nLe son est bien reçu : aéré en mode ouvert avec un grave étonnant, plus direct et plus dense en position fermée selon Basic Tutorials et Kopfhörer. L'application, avec un égaliseur séparé pour chaque mode, est l'un des points forts cités. Le désaccord porte sur la réduction de bruit : Presse-citron la dit simplement améliorable, alors que Basic Tutorials et Kopfhörer la jugent quasiment sans effet, la conception ouverte laissant passer voix et circulation.\n\nAutres limites : un boîtier volumineux, des écouteurs plus lourds que la moyenne, des boutons trop sensibles et une autonomie moyenne, autour de 5 heures avec réduction de bruit selon Kopfhörer. C'est un produit de niche pour qui veut deux usages en un, sport en mode ouvert et concentration en mode fermé.",
++    "date": "2026-11-13",
++    "n": 7,
+     "tests": 10,
+     "sources": [
+      "Presse-citron",
+      "Basic Tutorials",
+-     "Chip.de",
+-     "Trusted Reviews",
+-     "IGN"
++     "Kopfhörer"
+     ]
+    }
+   },
+@@ -40432,15 +40383,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Cinq médias ont testé l'AeroFit 2, pour 8,4/10 de moyenne : AndroidPit lui accorde 10/10, tandis qu'Android Central, Chip.de et FrAndroid donnent 8/10.\n\nLe confort, la clarté apportée par le LDAC et l'autonomie excellente ressortent. Parmi les bémols, un boîtier assez grand, des basses faibles, un volume élevé à manier avec précaution et l'impossibilité d'éteindre manuellement les écouteurs. Au prix demandé, c'est le meilleur rapport note/prix du comparatif. Le fabricant mise ici sur l'autonomie et la tenue du crochet, deux points que les testeurs valident clairement.",
+-    "date": "2026-10-28",
+-    "n": 5,
++    "texte": "Le changement le plus visible de cette deuxième génération est la charnière à quatre positions, qui adapte l'écouteur à davantage de tailles d'oreille. Digital Trends et Kopfhörer y voient un vrai gain de maintien, au sport comme en portant des lunettes. MUO (MakeUseOf), qui a de petites oreilles, a eu plus de mal : le haut-parleur se décale facilement et les commandes tactiles se déclenchent par mégarde, au point qu'il a cessé de les utiliser.\n\nLe grave étonne pour un modèle ouvert : Kopfhörer parle d'un rendu puissant qui laisse à peine deviner les limites de la conception, Digital Trends d'une bonne quantité de basses dans un lieu calme, à condition de bien placer le haut-parleur. MUO juge le son plaisant pour courir mais pas destiné à une écoute précise. L'autonomie mesurée tourne autour de 8 à 9 heures par charge, et les appels sont clairs, même si le vent gêne les micros selon Digital Trends et Kopfhörer.\n\nAutres réserves : boîtier encombrant, étanchéité IP55 moins protectrice contre l'eau que la première génération, absence d'Auracast et pas d'extinction manuelle des écouteurs. Ils conviennent surtout aux sportifs qui veulent entendre leur environnement ; MUO oriente les autres vers des intra-auriculaires classiques.",
++    "date": "2026-11-13",
++    "n": 8,
+     "tests": 8,
+     "sources": [
+-     "AndroidPit",
+-     "Android Central",
+-     "Chip.de",
+-     "Frandroid"
++     "Digital Trends",
++     "MUO",
++     "Kopfhörer"
+     ]
+    }
+   },
+@@ -41539,16 +41489,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Cinq médias ont noté le Barracuda V2 Pro, moyenne 8,3/10 : Basic Tutorials lui donne 9,1/10, Gaming Trend 8,5/10, tandis que XBoxEra, LeCafeDuGeek et T3 restent à 8/10.\n\nLes tests apprécient le grand confort de port, le très bon son et la finition. Ils notent que le THX Spatial Audio n'est disponible que sur PC, que le son pourrait gagner en détail et que le micro est seulement bon. Un casque confortable avant d'être un casque spectaculaire. Face à un BlackShark V3 Pro plus précis, il joue la carte du confort et de la polyvalence entre PC et consoles.",
+-    "date": "2026-10-28",
+-    "n": 5,
++    "texte": "Gaming Trend, LeCafeDuGeek et Basic Tutorials présentent le Barracuda V2 Pro comme un casque de jeu qui se porte aussi dehors : design sobre, poids contenu, pliage à plat et dongle 2,4 GHz rangé dans le casque. Leur point fort commun est la connexion simultanée au dongle et en Bluetooth, qui permet par exemple de jouer sur PC ou console tout en recevant un appel du téléphone. L'autonomie, annoncée à 70 heures, est confirmée en usage par Gaming Trend et Basic Tutorials.\n\nLe son est jugé propre et équilibré, sans l'excès de basses que Basic Tutorials reprochait au modèle précédent, avec un audio spatial qui aide à localiser les pas ; ce dernier ne fonctionne toutefois que sur PC avec Synapse. Gaming Trend nuance l'intérêt en compétition, convaincant dans certains jeux, moins dans d'autres. La réduction de bruit divise : très efficace en avion pour Gaming Trend, perfectible dans le vent pour LeCafeDuGeek, réduite à quatre niveaux pour Basic Tutorials.\n\nLe micro amovible est clair selon Gaming Trend et LeCafeDuGeek, mais Basic Tutorials le trouve faible et parfois haché. Ce casque vise les joueurs qui voyagent et veulent un seul appareil pour jouer et écouter de la musique en déplacement.",
++    "date": "2026-11-13",
++    "n": 6,
+     "tests": 7,
+     "sources": [
+-     "Basic Tutorials",
+      "Gaming Trend",
+-     "XBoxEra",
+      "LeCafeDuGeek",
+-     "T3"
++     "Basic Tutorials"
+     ]
+    }
+   },
+@@ -41789,14 +41737,13 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Quatre médias ont testé le Kraken Kitty V3 Pro, pour 8,7/10 de moyenne : Basic Tutorials lui donne 9,2/10, Windows Central 9/10, PCGamer 8,5/10 et GamesRadar 8/10.\n\nC'est le casque des streamers, avec son design iconique, son éclairage RGB réactif et un son plein. Les testeurs le trouvent relativement lourd et cher. Avec seulement quatre tests, la moyenne reste à confirmer. Il se branche en sans fil Hyperspeed ou en Bluetooth et vise d'abord les créateurs de contenu, plus que les puristes du son.",
+-    "date": "2026-10-28",
+-    "n": 4,
+-    "tests": 8,
++    "texte": "Les oreilles de chat lumineuses, désormais fixées à l'arceau et non amovibles, sont la signature de ce casque, et PC Gamer, Windows Central et GamesRadar s'accordent à dire qu'elles ne sacrifient pas l'essentiel. Windows Central le décrit comme une variante du Kraken V4, avec un son agréable en jeu comme en musique. Le micro rétractable est salué partout pour sa clarté, et la triple connexion, 2,4 GHz, Bluetooth et filaire, est appréciée.\n\nGamesRadar trouve le grave un peu creux sans l'audio spatial THX, qui rend selon lui le son plus plein. Le confort divise : PC Gamer le porte toute la journée sans gêne, Windows Central assure que les oreilles ne changent rien, alors que GamesRadar trouve le casque déséquilibré vers le haut et peu adapté aux personnes sujettes aux maux de tête. Les trois tests relèvent que l'éclairage réduit nettement l'autonomie.\n\nAutres reproches : pas de charge rapide et quelques coupures en Bluetooth pour PC Gamer, des commandes confuses et une finition moins soignée que celle du Kraken V4 pour Windows Central, un micro difficile à rentrer d'une main pour GamesRadar, et un prix jugé élevé. Il s'adresse à qui veut un casque de jeu sans fil au look affirmé, sans renoncer au micro ni à la qualité de fabrication.",
++    "date": "2026-11-13",
++    "n": 5,
++    "tests": 9,
+     "sources": [
+-     "Basic Tutorials",
+-     "Windows Central",
+      "PC Gamer",
++     "Windows Central",
+      "GamesRadar"
+     ]
+    }
+@@ -41889,15 +41836,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Quatre médias ont noté les INZONE E9, pour une moyenne de 7,3/10 : Trusted Reviews donne 8/10, SoundGuys, IGN et Gaming Trend 7/10.\n\nCes intra filaires visent les jeux de tir, avec un audio directionnel précis, un faible poids et un port confortable. En contrepartie, leur profil sonore les rend moins agréables pour la musique et l'audio est jugé moyen. Un produit de niche à réserver aux joueurs de FPS. Leur format intra et leur câble en font un complément de casque plutôt qu'un remplaçant pour la maison.",
+-    "date": "2026-10-28",
+-    "n": 4,
++    "texte": "Conçus avec l'équipe d'e-sport Fnatic, comme le rappelle RTINGS, ces intra-auriculaires filaires misent tout sur le jeu compétitif. Leur isolation passive met les trois tests d'accord : SoundGuys mesure une atténuation d'environ 81 % avec les embouts en mousse, Gaming Trend décrit une étanchéité qui plonge dans la partie, et RTINGS précise qu'elle filtre bien les aigus mais laisse passer le grondement d'un avion ou d'un bus. Le confort tient sur de longues sessions, même si SoundGuys trouve les crochets d'oreille un peu raides.\n\nLe son partage davantage. SoundGuys juge l'accord très efficace pour repérer les pas dans les jeux de tir, mais terne en musique et dans les jeux d'action, avec des basses nettement en retrait. Gaming Trend, après des parties de Call of Duty sur PC et de Saros sur PlayStation 5, trouve le rendu correct sans plus, un peu métallique et pauvre en grave. RTINGS décrit une signature chaude, sans distorsion audible, et note sur son exemplaire un léger écart entre les deux écouteurs.\n\nAucun micro n'est intégré : il faut en prévoir un séparé. L'adaptateur USB-C fourni ouvre l'accès, sous Windows, à l'application Inzone Hub et à son égaliseur ; l'étui plaît à Gaming Trend, SoundGuys le trouve encombrant. Ils visent les joueurs de FPS en compétition ; SoundGuys conseille aux joueurs plus éclectiques de regarder ailleurs.",
++    "date": "2026-11-14",
++    "n": 5,
+     "tests": 5,
+     "sources": [
+-     "Trusted Reviews",
+      "SoundGuys",
+-     "IGN",
+-     "Gaming Trend"
++     "Gaming Trend",
++     "RTings"
+     ]
+    }
+   }
+diff --git a/_source/syntheses_audio.json b/_source/syntheses_audio.json
+index 324dc20..7f3b599 100644
+--- a/_source/syntheses_audio.json
++++ b/_source/syntheses_audio.json
+@@ -14,11 +14,8 @@
+  },
+  {
+   "id": "jbl-charge-6",
+-  "texte": "La JBL Charge 6 réunit 10 notes chiffrées, moyenne 8,1/10. TechRadar et Trusted Reviews lui donnent 10/10, FrAndroid 9/10, puis 01net, Clubic et Chip.de 8/10. Les notes les plus basses viennent de SoundGuys (6,5/10) et de Labo Fnac (6/10).\n\nLes testeurs apprécient son volume élevé, son son équilibré et l'audio sans perte via USB-C. Ils notent aussi un son plus tiède à faible volume, l'absence de câble USB-C dans la boîte et un poids supérieur à celui de la Charge 5. Plusieurs tests la présentent aussi comme une batterie externe pour téléphone, en plus de son usage d'enceinte.",
++  "texte": "La Charge 6 conserve sa fonction de batterie externe par un port USB-C bidirectionnel, qui sert aussi à l'écoute filaire sans perte. Clubic, SoundGuys et le Labo Fnac relèvent tous le passage à l'IP68, le Bluetooth 5.4 avec Auracast et l'égaliseur de l'application JBL Portable ; SoundGuys et le Labo Fnac ajoutent la résistance aux chutes d'un mètre.\n\nLe rendu est décrit comme équilibré et généreux en basses pour le format, mais à condition de rester raisonnable sur le volume : Clubic constate de la distorsion à haut niveau, le Labo Fnac une saturation marquée sur les morceaux chargés en graves et une perte de clarté hors de l'axe. SoundGuys juge le résultat dans la moyenne des enceintes Bluetooth et mesure même un score sonore légèrement inférieur à celui de la Charge 5. Les mesures d'autonomie divergent fortement : plus de 28 heures au Labo Fnac à volume modéré, 13 h 15 chez SoundGuys à volume plus élevé, environ 14 heures en moyenne pour Clubic.\n\nSont regrettés : l'absence de micro et d'entrée jack, un mode Playtime Boost qui coupe presque toutes les basses et, selon SoundGuys, l'impossibilité de l'associer à une Charge 5. C'est une enceinte d'extérieur robuste, pensée pour les sorties au bord de l'eau ou en voyage.",
+   "sources": [
+-   "TechRadar",
+-   "Trusted Reviews",
+-   "Frandroid",
+    "Clubic",
+    "SoundGuys",
+    "Labo Fnac"
+@@ -26,14 +23,11 @@
+  },
+  {
+   "id": "jbl-flip-7",
+-  "texte": "Douze notes de presse pour la JBL Flip 7, moyenne 7,6/10, avec un écart important : TechRadar attribue 10/10, FrAndroid et Presse Citron 9/10, alors que Chip.de, Labo Fnac, PhonAndroid et SoundGuys en restent à 6/10.\n\nLes avis favorables soulignent un son percutant et détaillé pour sa taille, une grande autonomie et une construction robuste. Les critiques relèvent une recharge lente, l'impossibilité de la coupler avec les Flip précédents et la disparition du mode PartyBoost. Les graves, limités par le format, reviennent dans plusieurs tests moins bien notés.",
++  "texte": "Presse-citron, SoundGuys et Clubic décrivent une enceinte au gabarit presque inchangé par rapport à la Flip 6, mais mieux protégée : bumpers en caoutchouc renforcés, certification IP68 (immersion à 1,5 m pendant 30 minutes) et nouveau système d'accroche PushLock. Tous trois saluent l'arrivée du Bluetooth 5.4 avec Auracast ; SoundGuys et Clubic apprécient aussi l'audio par USB-C, qui permet une écoute filaire sans perte.\n\nCôté son, Clubic parle d'une restitution claire et équilibrée tant qu'on ne pousse pas trop le volume ; Presse-citron trouve les basses énergiques mais parfois imprécises sur les mixages chargés, et note que la distorsion arrive plus tard que sur la Flip 6. L'autonomie divise : Presse-citron dépasse 12 heures à 40 % du volume, Clubic plus de 20 heures en écoute fractionnée, alors que SoundGuys, à volume élevé constant, n'obtient qu'un peu plus de 6 heures.\n\nReproches relevés : le mode PartyBoost disparaît, ce qui empêche de coupler la Flip 7 avec une Flip 6, l'indicateur de batterie reste imprécis et le mode Playtime Boost dégrade nettement le rendu. Elle convient à qui cherche une enceinte robuste pour la plage, le camping ou la terrasse ; un possesseur de Flip 6 n'a pas de raison pressante de changer.",
+   "sources": [
+-   "TechRadar",
+-   "Frandroid",
+    "Presse-citron",
+-   "Chip.de",
+-   "Labo Fnac",
+-   "SoundGuys"
++   "SoundGuys",
++   "Clubic"
+   ]
+  },
+  {
+@@ -50,35 +44,28 @@
+  },
+  {
+   "id": "jbl-go-5",
+-  "texte": "Neuf notes chiffrées pour la JBL Go 5, moyenne 7,7/10. TechRadar la note 10/10 et TechAeris 9/10 ; Clubic, Kopfhörer, SoundGuys et Trusted Reviews donnent 8/10 ; 01net, Les Numériques et Chip.de sont à 6/10.\n\nLes tests louent un son musical pour une enceinte de cette taille, l'audio USB-C sans perte et un design très portable. Les critiques visent des basses limitées, l'absence de câble USB-C fourni et une autonomie inférieure à celle de certains concurrents. Il s'agit de la plus compacte de la sélection, ce qui explique en grande partie les limites relevées sur les basses.",
++  "texte": "Mise à jour modeste de la Go 4, selon SoundGuys et TechAeris : même haut-parleur de 45 mm un peu plus puissant, IP68, égaliseur à sept bandes, audio par USB-C et appairage stéréo AirTouch en tapant deux enceintes l'une contre l'autre. Clubic apprécie l'application JBL Portable, simple et complète.\n\nLe rendu sonore est jugé net et assez équilibré à volume modéré. TechAeris s'étonne du grave obtenu dans un si petit volume, quand Clubic et SoundGuys parlent de basses limitées et d'un volume réservé à une écoute personnelle ; Clubic constate aussi un déséquilibre au-delà des deux tiers du volume. L'autonomie réelle tombe vers 5 à 6 heures en usage courant pour Clubic, loin des 10 heures annoncées à faible volume, et TechAeris trouve la recharge lente.\n\nClubic reproche encore un Auracast limité aux enceintes JBL et un port USB-C sans cache étanche ; SoundGuys regrette de ne pas pouvoir choisir la couleur de l'éclairage. Pour un premier achat d'enceinte de poche, elle est recommandée ; un possesseur de Go 4 n'y trouvera pas assez de changements.",
+   "sources": [
+-   "TechRadar",
+-   "TechAeris",
+    "Clubic",
+    "SoundGuys",
+-   "01net",
+-   "Les Numériques"
++   "TechAeris"
+   ]
+  },
+  {
+   "id": "sonos-roam-2",
+-  "texte": "Huit notes chiffrées pour la Sonos Roam 2, moyenne 7,4/10. FrAndroid donne 9/10, Absolute Geeks, Kopfhörer et TechRadar 8/10, puis Android Central et SoundGuys 7/10 ; Les Numériques et RTings sont à 6/10. Les tests datent surtout de 2024.\n\nLes avis mettent en avant un bon équilibre tonal, le son sans perte en Wi-Fi et la charge sans fil. Ils pointent une autonomie limitée à 10 heures, un prix élevé au regard de la puissance et une stéréo disponible seulement en Wi-Fi. Elle se distingue par un double usage, enceinte Bluetooth en déplacement et enceinte Wi-Fi à la maison au sein d'un système Sonos.",
++  "texte": "La principale évolution relevée par SoundGuys, Kopfhörer et Absolute Geeks est le bouton Bluetooth dédié, qui permet d'utiliser la Roam 2 sans passer par l'application Sonos. Sur le reste, SoundGuys parle davantage d'un remplacement que d'une montée en gamme, avec les mêmes haut-parleurs que la première Roam. La robustesse IP67, le réglage Trueplay et une autonomie d'environ 10 heures font consensus.\n\nLe son est apprécié pour la taille : Kopfhörer décrit un rendu clair, sans distorsion à fort volume et aux basses présentes sans excès, Absolute Geeks met en avant la clarté des voix. SoundGuys est plus mesuré, avec moins de grave et d'aigu qu'une JBL Flip 6 et un égaliseur limité à deux bandes. Les médias divergent nettement sur la mise en service : rapide et sans frustration pour Kopfhörer, plus d'une heure de manipulations et des réglages qui ne répondent pas dans l'application pour SoundGuys.\n\nKopfhörer relève que la paire stéréo ne fonctionne qu'en Wi-Fi, donc pas en déplacement, et SoundGuys qu'elle ne s'associe qu'à une autre Roam 2. Le prix est jugé élevé par rapport à une simple enceinte Bluetooth. Elle s'adresse d'abord aux foyers déjà équipés en Sonos qui veulent une enceinte à emporter.",
+   "sources": [
+-   "Frandroid",
++   "SoundGuys",
+    "Absolute Geeks",
+-   "TechRadar",
+-   "Les Numériques",
+-   "RTings"
++   "Kopfhörer"
+   ]
+  },
+  {
+   "id": "jbl-grip",
+-  "texte": "Sept notes chiffrées pour la JBL Grip, moyenne 6,7/10, avec des avis très partagés : T3 donne 10/10, ExpertReviews et Trusted Reviews 8/10, mais Chip.de et Allround-PC 6/10 et Labo Fnac seulement 2/10.\n\nLes tests favorables retiennent un design réussi, un éclairage d'ambiance et la compatibilité Auracast. Les plus sévères jugent le son brillant et mince, relèvent une autonomie inférieure à l'annonce et rappellent la concurrence nombreuse à ce niveau de prix. Les Numériques et RTings l'ont testée sans note publique.",
++  "texte": "Nouvelle enceinte verticale en forme de canette, la Grip se place entre la Clip 5 et la Flip 7, et c'est cette dernière qui revient dans chaque test comme point de comparaison. Expert Reviews et SoundGuys décrivent un appareil robuste, certifié IP68, avec une bande lumineuse réglable dans l'application, l'égaliseur à sept bandes et Auracast. SoundGuys précise qu'elle ne se couple pas avec les anciennes enceintes PartyBoost et n'a pas de micro.\n\nSur le son, les trois médias saluent des médiums et des aigus nets et des voix claires, et SoundGuys la trouve plus pleine que la Clip 5. Le grave est en revanche le point faible commun : Expert Reviews le juge léger, SoundGuys rappelle qu'elle n'a ni la puissance ni l'impact de la Flip 7. Le Labo Fnac est le plus sévère : volume plafonnant tôt, creux marqué dans le bas du spectre et beaucoup de distorsion, au point de la réserver à une petite pièce.\n\nExpert Reviews ajoute une dragonne jugée trop sommaire et une fatigue d'écoute à fort volume. La Grip vise ceux qui veulent une petite enceinte nomade, facile à glisser dans un sac ; pour davantage de grave, les tests orientent vers la Flip 7, à peine plus chère.",
+   "sources": [
+-   "T3",
+    "Expert Reviews",
+-   "Trusted Reviews",
+-   "Chip.de",
++   "SoundGuys",
+    "Labo Fnac"
+   ]
+  },
+@@ -126,16 +113,11 @@
+  },
+  {
+   "id": "bose-qc-ultra-earbuds-2",
+-  "texte": "Douze médias ont noté les QuietComfort Ultra Earbuds de deuxième génération, pour une moyenne de 8,7/10, la meilleure de la sélection. Les Numériques et Trusted Reviews donnent 10/10, Basic Tutorials 9,4/10, DigitalTrends, FrAndroid et TechAeris 9/10, tandis que 01net et Chip.de en restent à 8/10.\n\nLes tests louent une réduction de bruit de premier plan, un son riche avec des graves profonds, un maintien exemplaire et une bonne qualité de connexion Bluetooth. Ils regrettent une autonomie tout juste correcte, face à des concurrents qui ont pris de l'avance, un prix parmi les plus élevés du segment et des microphones encore perfectibles.",
++  "texte": "La réduction de bruit reste l'argument central de cette deuxième génération : Digital Trends en fait une référence, SoundGuys mesure une atténuation parmi les plus fortes de ses tests, TechAeris la place dans le haut de la catégorie. Le mode transparence est jugé naturel. Les changements face à la première génération sont discrets, comme le souligne SoundGuys : recharge sans fil enfin présente, embouts avec garde-cérumen, micros améliorés, que Digital Trends et TechAeris trouvent clairs même dans le bruit.\n\nLe son est vivant et riche en grave et en aigu ; SoundGuys prévient qu'il ne plaira pas à tous, et les trois médias jugent l'égaliseur de l'application trop sommaire. L'autonomie, autour de 6 heures avec réduction de bruit et environ 4 heures avec l'audio spatial, est vue comme un point faible par Digital Trends et SoundGuys, alors que TechAeris s'en satisfait.\n\nLe confort divise : bon maintien et confort élevé pour Digital Trends et SoundGuys, écouteurs encombrants pour l'auteur de TechAeris, qui conseille de les essayer avant d'acheter. SoundGuys les déconseille aux petites oreilles. Ils visent ceux qui placent l'isolation avant tout ; SoundGuys suggère d'attendre une promotion pour qui possède déjà la première génération.",
+   "sources": [
+-   "Les Numériques",
+-   "Trusted Reviews",
+-   "Basic Tutorials",
+    "Digital Trends",
+-   "Frandroid",
+-   "TechAeris",
+-   "01net",
+-   "Chip.de"
++   "SoundGuys",
++   "TechAeris"
+   ]
+  },
+  {
+@@ -176,30 +158,20 @@
+  },
+  {
+   "id": "sony-wf-c710n",
+-  "texte": "Dix médias ont noté les WF-C710N, pour une moyenne de 7,8/10. Trusted Reviews les place en haut avec 10/10, 01net, Chip.de, Presse Citron et SoundGuys leur donnent 8/10, AndroidPit et CharlesTech 7/10 et Kopfhörer 6/10.\n\nLa presse apprécie une réduction de bruit efficace pour ce niveau de prix, un son lisse et agréable, un ajustement confortable et une autonomie très généreuse. Elle regrette peu de codecs compatibles, l'absence de recharge sans fil, des commandes tactiles parfois confuses et une application dont l'ergonomie manque de clarté.",
++  "texte": "Successeurs des WF-C700N, les WF-C710N gagnent le multipoint et des commandes tactiles. Presse-citron et SoundGuys décrivent un confort durable et une autonomie conforme ou supérieure à l'annonce, SoundGuys mesurant 9 h 25 sur une charge. Tous trois notent que seuls les codecs SBC et AAC sont pris en charge, sans LDAC.\n\nLa réduction de bruit partage les testeurs : Presse-citron la trouve très convaincante dans le grave et SoundGuys la range parmi les bonnes de sa gamme, alors que CharlesTech la juge perfectible dans les fréquences élevées face aux modèles plus chers. Même contraste sur le son, détaillé avec des basses profondes pour Presse-citron, en retrait pour le prix selon CharlesTech ; SoundGuys relève un creux dans l'aigu qui fait perdre du détail aux cymbales.\n\nPresse-citron critique des commandes confuses, avec un volume qui se règle mal, un souffle en mode transparent et une voix étouffée en appel ; SoundGuys déconseille la course faute d'ailettes de maintien, et l'absence de recharge sans fil est relevée. Ce sont des écouteurs simples et confortables pour un usage quotidien ; qui place le son ou la réduction de bruit au premier plan regardera plus haut.",
+   "sources": [
+-   "Trusted Reviews",
+-   "01net",
+-   "Chip.de",
+    "Presse-citron",
+    "SoundGuys",
+-   "AndroidPit",
+-   "CharlesTech",
+-   "Kopfhörer"
++   "CharlesTech"
+   ]
+  },
+  {
+   "id": "nothing-ear-3a",
+-  "texte": "Neuf médias ont noté les Ear (3a), pour une moyenne de 7,9/10. LeCafeDuGeek leur donne 9/10, Presse Citron, Les Numériques, AndroidWorld, SoundGuys, Chip.de et Trusted Reviews 8/10, alors que 01net n'attribue que 6/10.\n\nLes tests retiennent un excellent rapport fonctionnalités et prix, avec Bluetooth 6.0, LDAC et multipoint, une signature sonore équilibrée, un confort très correct et une bonne autonomie. Les points faibles sont une réduction de bruit en retrait face aux références, une coque qui fait un peu bon marché, un boîtier jugé fragile et des fonctions qui prennent tout leur sens avec un smartphone Nothing.",
++  "texte": "Sur l'autonomie, les mesures se recoupent : SoundGuys obtient presque exactement 10 heures sans réduction de bruit, et Presse-citron confirme les chiffres annoncés, avec ou sans elle. La réduction de bruit est jugée efficace pour un trajet quotidien ; LeCafeDuGeek la place encore un cran sous les modèles haut de gamme de Sony, Bose ou Apple, et SoundGuys relève qu'elle peut se couper quand l'embout est mal ajusté.\n\nLe son fait davantage débat. Presse-citron le trouve percutant mais avec des basses qui masquent parfois le médium, SoundGuys le juge bien trop chargé en grave d'usine tout en le corrigeant sans peine avec l'égaliseur à huit bandes, quand LeCafeDuGeek parle d'une signature assez équilibrée aux voix naturelles. Les micros convainquent partout, y compris dans le vent, et la fonction Audio Snapshot, utile pour LeCafeDuGeek, reste un peu gadget pour Presse-citron.\n\nPoints faibles cités : un mode transparence en retrait, une coque qui fait un peu bon marché et des fonctions d'IA surtout utiles avec un smartphone Nothing. Ces écouteurs visent les utilisateurs, plutôt sous Android, qui veulent l'essentiel des fonctions récentes sans viser le très haut de gamme et acceptent de passer par l'application.",
+   "sources": [
+-   "LeCafeDuGeek",
+    "Presse-citron",
+-   "Les Numériques",
+-   "AndroidWorld",
+-   "SoundGuys",
+-   "Chip.de",
+-   "Trusted Reviews",
+-   "01net"
++   "LeCafeDuGeek",
++   "SoundGuys"
+   ]
+  },
+  {
+@@ -213,14 +185,11 @@
+  },
+  {
+   "id": "jbl-live-780nc",
+-  "texte": "Six médias ont noté le Live 780NC, pour une moyenne de 8,4/10. Labo Fnac lui donne 10/10, COGconnected 8,2/10, tandis que Les Numériques, Kopfhörer, Presse Citron et Trusted Reviews s'en tiennent à 8/10.\n\nLes testeurs apprécient une signature sonore agréable avec peu de distorsion, une conception légère et confortable et une autonomie hors norme. Ils reprochent des basses un peu appuyées par défaut, un léger manque de précision et une réduction de bruit jugée seulement moyenne par certains, ainsi qu'une pochette qui protège peu.",
++  "texte": "Le Labo Fnac retient une isolation de très haut niveau pour ce casque de milieu de gamme, peu de distorsion et une signature qui met en avant les voix. Presse-citron trouve la réduction de bruit efficace sur les grondements continus, moins sur les voix proches et les bruits soudains, et GeekCulture la juge correcte sans bloquer tous les aigus. L'autonomie est saluée par Presse-citron comme par GeekCulture, avec une charge rapide utile.\n\nLe son partage les avis. Presse-citron et GeekCulture décrivent un rendu chaleureux et énergique, mais avec un grave qui déborde parfois sur le bas médium ; le Labo Fnac, à l'inverse, aimerait un peu plus de basses et apprécie ce calibrage sobre. Même désaccord sur le confort : Presse-citron souligne la légèreté et ne relève qu'une pression au sommet du crâne en longue session, GeekCulture critique une force de serrage qui devient vite inconfortable, surtout pour les grandes têtes.\n\nPresse-citron relève aussi un mode transparence peu naturel, des appels moins intelligibles dans le bruit et l'impossibilité d'écouter directement par USB-C, malgré le Bluetooth 6.0 avec LDAC et Auracast. Ce casque s'adresse aux amateurs d'un son généreux qui veulent une bonne réduction de bruit sans viser le très haut de gamme ; GeekCulture conseille de l'essayer avant achat.",
+   "sources": [
+-   "Labo Fnac",
+-   "COGconnected",
+-   "Les Numériques",
+-   "Kopfhörer",
+    "Presse-citron",
+-   "Trusted Reviews"
++   "Labo Fnac",
++   "GeekCulture"
+   ]
+  },
+  {
+@@ -331,54 +300,38 @@
+  },
+  {
+   "id": "shokz-opendots-one",
+-  "texte": "Onze médias ont noté l'OpenDots One, pour 8,2/10 de moyenne. ExpertReviews et L&B Tech lui accordent 10/10 ; FrAndroid, Presse Citron, Trusted Reviews et Absolute Geeks restent sur 8/10, tandis qu'AndroidWorld descend à 6/10.\n\nPoint commun des tests : un clip léger, confortable au quotidien, un son Dolby Audio flatteur et une charge rapide ou sans fil. En contrepartie, les commandes uniquement tactiles agacent, certains trouvent le port prolongé douloureux et le prix, proche de 200 €, n'a rien d'une bonne affaire.",
++  "texte": "Premiers écouteurs à clip de Shokz, les OpenDots One séduisent par leur légèreté et leur tenue : L&B Tech les garde sans bouger pendant des séances de sport, Digital Trends à la salle, et Presse-citron oublie qu'il les porte au quotidien. Le grave surprend pour un modèle ouvert ; Digital Trends le compte parmi les meilleurs qu'il ait entendus dans cette catégorie, tout en trouvant le médium un peu discret. L&B Tech est plus mesurée : son riche et détaillé, mais basses peu profondes et fuite sonore audible.\n\nLes avis se séparent sur le confort prolongé. Presse-citron ressent des douleurs autour de l'oreille au-delà de trois heures, Digital Trends une pression qui impose une pause, alors que L&B Tech n'a aucune gêne, y compris avec des lunettes. Les appels sont clairs en intérieur, mais L&B Tech trouve la voix transmise un peu fine et Digital Trends note des difficultés dehors.\n\nLes trois tests regrettent des commandes réduites à deux gestes et l'absence de réduction de bruit, ce qui les rend peu adaptés aux transports. L'autonomie et la charge sans fil du boîtier sont saluées. Ils s'adressent à qui veut écouter musique ou podcasts en restant conscient de son entourage, sans arceau derrière l'oreille.",
+   "sources": [
+-   "Expert Reviews",
+-   "L&B Tech",
+-   "Frandroid",
+    "Presse-citron",
+-   "Trusted Reviews",
+-   "Absolute Geeks",
+-   "AndroidWorld"
++   "Digital Trends",
++   "L&B Tech"
+   ]
+  },
+  {
+   "id": "huawei-freeclip",
+-  "texte": "Les douze tests du Huawei FreeClip donnent 6,8/10 de moyenne, avec la plus grande dispersion du comparatif : Basic Tutorials et LeCafeDuGeek lui mettent 9/10, Presse Citron 8/10, Numerama 7/10, mais 01net et Les Numériques 6/10, FrAndroid 4/10 et Labo Fnac 2/10.\n\nLes avis favorables saluent l'autonomie, le confort et la charge sans fil. Les critiques visent un son qui manque de détail, des aigus parfois stridents et l'absence de câble USB-C dans la boîte. Le design en C, lui, fait l'unanimité sur l'originalité plus que sur la qualité sonore.",
++  "texte": "Le format clip, avec une sphère acoustique posée devant le conduit et un petit module derrière l'oreille reliés par un pont souple, fait l'unanimité côté confort : Kopfhörer explique qu'on ne les sent plus après quelques secondes, Presse-citron qu'ils tiennent en courant ou en dansant. Les deux écouteurs sont identiques et détectent seuls le côté gauche ou droit. L'autonomie tient les promesses, autour de 7 h 30 à 8 heures par charge selon Presse-citron et Kopfhörer.\n\nLe son est jugé agréable et aéré, mais léger dans le grave : Presse-citron prévient les amateurs de basses appuyées, Kopfhörer signale des aigus qui durcissent à fort volume. Digital Citizen se montre plus réservé : au-delà de 60 à 65 % du volume, l'entourage entend la musique et les appels, et dans un métro ou sur un boulevard chargé l'écoute devient difficile. En appel, Presse-citron et Kopfhörer louent au contraire le filtrage du vent et du bruit ambiant.\n\nLes limites relevées sont l'absence de réglage du volume au toucher et d'égaliseur personnalisable, et une application à installer hors du Play Store sur Android. Ce sont des écouteurs pour un usage calme ou sportif, par des personnes qui veulent rester attentives à leur environnement ou ne supportent pas les intra-auriculaires.",
+   "sources": [
+-   "Basic Tutorials",
+-   "LeCafeDuGeek",
+    "Presse-citron",
+-   "Numerama",
+-   "01net",
+-   "Les Numériques",
+-   "Frandroid",
+-   "Labo Fnac"
++   "Digital Citizen",
++   "Kopfhörer"
+   ]
+  },
+  {
+   "id": "sony-linkbuds-open",
+-  "texte": "Huit médias ont testé les LinkBuds Open et leur moyenne s'établit à 7,0/10. AndroidPit, Trusted Reviews et Day-Technology donnent 8/10, 01net, Chip.de et SoundGuys 6/10.\n\nSelon eux, la conception en anneau est originale, légère et confortable, avec une bonne autonomie. Mais les basses sont très en retrait, le rendu se noie dès que l'environnement devient bruyant et le design divise. Ils s'adressent à ceux qui privilégient la conscience de l'environnement plutôt que la richesse sonore. Dans la pratique, ils conviennent aux trajets à pied et au bureau, beaucoup moins à la salle de sport ou au métro.",
++  "texte": "Avec leur anneau ouvert posé devant le conduit, les LinkBuds Open laissent passer les bruits extérieurs par conception, ce que Day-Technology présente comme un moyen de rester conscient de son environnement. Digital Trends est surpris par une isolation passive meilleure qu'attendu en ville, tandis que SoundGuys les juge peu adaptés à l'écoute de musique dans les transports. L'autonomie est un point fort commun : 9 h 30 mesurées par SoundGuys, huit à neuf heures à 60 % du volume pour Digital Trends.\n\nLe confort est bon, mais le maintien inquiète : Digital Trends les a vus se détacher en riant pendant un appel, SoundGuys a toujours eu l'impression qu'ils allaient tomber sans que cela arrive. Sur le son, SoundGuys relève un grave très discret et des aigus trop en avant, dans la moyenne des écouteurs ouverts ; Digital Trends conseille de relever les basses à l'égaliseur. En appel, les interlocuteurs entendent le bruit de fond, et SoundGuys trouve le micro sensible au vent.\n\nDigital Trends critique aussi une application Sound Connect peu intuitive et des commandes vocales maladroites. Ces écouteurs visent le sport, le vélo ou le bureau, quand on veut entendre ce qui se passe autour de soi.",
+   "sources": [
+-   "AndroidPit",
+-   "Trusted Reviews",
+-   "Day-Technology",
+-   "01net",
+-   "Chip.de",
+-   "SoundGuys"
++   "Digital Trends",
++   "SoundGuys",
++   "Day-Technology"
+   ]
+  },
+  {
+   "id": "sony-linkbuds-clip",
+-  "texte": "Huit notes pour le LinkBuds Clip, moyenne 6,5/10 : Chip.de attribue 8/10, Engadget 7,2/10 et GadgetGear 7/10, alors que SoundGuys, T3 et Tom's Guide (US) restent à 6/10 et 01net à 4/10.\n\nPetit boîtier, grand confort et longue autonomie sont mis en avant, ainsi que l'égaliseur à dix bandes de l'application. Les tests déplorent un volume maximal limité, peu de basses profondes, une charnière de boîtier jugée instable et l'absence de charge sans fil. Ils visent plutôt un usage tranquille, au bureau ou en marchant, qu'une écoute à plein volume.",
++  "texte": "Le format clip des LinkBuds Clip divise. Engadget les porte toute la journée sans gêne et SoundGuys les trouve faciles à oublier une fois habitué, alors que Tom's Guide (US) ne les supporte qu'une heure à cause de la pince, et que SoundGuys reconnaît que la sensation de les perdre persiste. Les trois tests s'entendent sur un point fort : la qualité des appels, grâce à la réduction de bruit et au capteur à conduction osseuse.\n\nLe son reste limité, comme souvent sur les modèles ouverts : Engadget souligne la clarté mais regrette le manque de grave, Tom's Guide (US) juge le volume maximal insuffisant dans un lieu animé, et SoundGuys relève une isolation quasi nulle. Le mode de réduction des fuites sonores fonctionne, au prix d'un rendu dégradé. L'autonomie mesurée reste sous les 9 heures annoncées : un peu plus de 6 heures pour Engadget, 7 h 10 pour SoundGuys.\n\nSont aussi reprochés l'absence de recharge sans fil, des fonctions Sony absentes comme la détection du port, et une connexion capricieuse selon Tom's Guide (US). Ils conviennent à qui veut des écouteurs ouverts pour téléphoner et rester attentif à son environnement, mais pas à qui cherche un son enveloppant.",
+   "sources": [
+-   "Chip.de",
+    "Engadget",
+-   "GadgetGear",
+-   "SoundGuys",
+-   "T3",
+    "Tom's Guide (US)",
+-   "01net"
++   "SoundGuys"
+   ]
+  },
+  {
+@@ -392,23 +345,20 @@
+  },
+  {
+   "id": "soundcore-aerofit-2-pro",
+-  "texte": "Six médias ont noté l'AeroFit 2 Pro, pour une moyenne de 8,1/10. Presse Citron lui met 9/10, Basic Tutorials 8,4/10, Chip.de et Trusted Reviews 8/10, IGN 7/10.\n\nLes testeurs retiennent le bon son avec le LDAC, le multipoint et un crochet réglable. Ils notent aussi un boîtier encombrant, des finitions améliorables, un confort de port très variable d'une personne à l'autre et une réduction de bruit sans effet marqué. Un produit complet, mais cher face à son petit frère. La presse reste partagée sur l'intérêt de payer l'écart de prix, d'autant que la réduction de bruit d'un modèle ouvert reste symbolique.",
++  "texte": "L'idée est originale : en poussant l'écouteur, on passe d'un mode ouvert à une position semi-intra, et la réduction de bruit s'active. Presse-citron, Basic Tutorials et Kopfhörer trouvent la manœuvre naturelle et le maintien solide en mouvement. Les deux médias allemands rappellent toutefois que Soundcore annonce une bonne tenue pour environ 90 % des oreilles seulement, et que le confort dépend beaucoup de l'anatomie.\n\nLe son est bien reçu : aéré en mode ouvert avec un grave étonnant, plus direct et plus dense en position fermée selon Basic Tutorials et Kopfhörer. L'application, avec un égaliseur séparé pour chaque mode, est l'un des points forts cités. Le désaccord porte sur la réduction de bruit : Presse-citron la dit simplement améliorable, alors que Basic Tutorials et Kopfhörer la jugent quasiment sans effet, la conception ouverte laissant passer voix et circulation.\n\nAutres limites : un boîtier volumineux, des écouteurs plus lourds que la moyenne, des boutons trop sensibles et une autonomie moyenne, autour de 5 heures avec réduction de bruit selon Kopfhörer. C'est un produit de niche pour qui veut deux usages en un, sport en mode ouvert et concentration en mode fermé.",
+   "sources": [
+    "Presse-citron",
+    "Basic Tutorials",
+-   "Chip.de",
+-   "Trusted Reviews",
+-   "IGN"
++   "Kopfhörer"
+   ]
+  },
+  {
+   "id": "soundcore-aerofit-2",
+-  "texte": "Cinq médias ont testé l'AeroFit 2, pour 8,4/10 de moyenne : AndroidPit lui accorde 10/10, tandis qu'Android Central, Chip.de et FrAndroid donnent 8/10.\n\nLe confort, la clarté apportée par le LDAC et l'autonomie excellente ressortent. Parmi les bémols, un boîtier assez grand, des basses faibles, un volume élevé à manier avec précaution et l'impossibilité d'éteindre manuellement les écouteurs. Au prix demandé, c'est le meilleur rapport note/prix du comparatif. Le fabricant mise ici sur l'autonomie et la tenue du crochet, deux points que les testeurs valident clairement.",
++  "texte": "Le changement le plus visible de cette deuxième génération est la charnière à quatre positions, qui adapte l'écouteur à davantage de tailles d'oreille. Digital Trends et Kopfhörer y voient un vrai gain de maintien, au sport comme en portant des lunettes. MUO (MakeUseOf), qui a de petites oreilles, a eu plus de mal : le haut-parleur se décale facilement et les commandes tactiles se déclenchent par mégarde, au point qu'il a cessé de les utiliser.\n\nLe grave étonne pour un modèle ouvert : Kopfhörer parle d'un rendu puissant qui laisse à peine deviner les limites de la conception, Digital Trends d'une bonne quantité de basses dans un lieu calme, à condition de bien placer le haut-parleur. MUO juge le son plaisant pour courir mais pas destiné à une écoute précise. L'autonomie mesurée tourne autour de 8 à 9 heures par charge, et les appels sont clairs, même si le vent gêne les micros selon Digital Trends et Kopfhörer.\n\nAutres réserves : boîtier encombrant, étanchéité IP55 moins protectrice contre l'eau que la première génération, absence d'Auracast et pas d'extinction manuelle des écouteurs. Ils conviennent surtout aux sportifs qui veulent entendre leur environnement ; MUO oriente les autres vers des intra-auriculaires classiques.",
+   "sources": [
+-   "AndroidPit",
+-   "Android Central",
+-   "Chip.de",
+-   "Frandroid"
++   "Digital Trends",
++   "MUO",
++   "Kopfhörer"
+   ]
+  },
+  {
+@@ -453,13 +403,11 @@
+  },
+  {
+   "id": "razer-barracuda-v2-pro",
+-  "texte": "Cinq médias ont noté le Barracuda V2 Pro, moyenne 8,3/10 : Basic Tutorials lui donne 9,1/10, Gaming Trend 8,5/10, tandis que XBoxEra, LeCafeDuGeek et T3 restent à 8/10.\n\nLes tests apprécient le grand confort de port, le très bon son et la finition. Ils notent que le THX Spatial Audio n'est disponible que sur PC, que le son pourrait gagner en détail et que le micro est seulement bon. Un casque confortable avant d'être un casque spectaculaire. Face à un BlackShark V3 Pro plus précis, il joue la carte du confort et de la polyvalence entre PC et consoles.",
++  "texte": "Gaming Trend, LeCafeDuGeek et Basic Tutorials présentent le Barracuda V2 Pro comme un casque de jeu qui se porte aussi dehors : design sobre, poids contenu, pliage à plat et dongle 2,4 GHz rangé dans le casque. Leur point fort commun est la connexion simultanée au dongle et en Bluetooth, qui permet par exemple de jouer sur PC ou console tout en recevant un appel du téléphone. L'autonomie, annoncée à 70 heures, est confirmée en usage par Gaming Trend et Basic Tutorials.\n\nLe son est jugé propre et équilibré, sans l'excès de basses que Basic Tutorials reprochait au modèle précédent, avec un audio spatial qui aide à localiser les pas ; ce dernier ne fonctionne toutefois que sur PC avec Synapse. Gaming Trend nuance l'intérêt en compétition, convaincant dans certains jeux, moins dans d'autres. La réduction de bruit divise : très efficace en avion pour Gaming Trend, perfectible dans le vent pour LeCafeDuGeek, réduite à quatre niveaux pour Basic Tutorials.\n\nLe micro amovible est clair selon Gaming Trend et LeCafeDuGeek, mais Basic Tutorials le trouve faible et parfois haché. Ce casque vise les joueurs qui voyagent et veulent un seul appareil pour jouer et écouter de la musique en déplacement.",
+   "sources": [
+-   "Basic Tutorials",
+    "Gaming Trend",
+-   "XBoxEra",
+    "LeCafeDuGeek",
+-   "T3"
++   "Basic Tutorials"
+   ]
+  },
+  {
+@@ -477,22 +425,20 @@
+  },
+  {
+   "id": "razer-kraken-kitty-v3-pro",
+-  "texte": "Quatre médias ont testé le Kraken Kitty V3 Pro, pour 8,7/10 de moyenne : Basic Tutorials lui donne 9,2/10, Windows Central 9/10, PCGamer 8,5/10 et GamesRadar 8/10.\n\nC'est le casque des streamers, avec son design iconique, son éclairage RGB réactif et un son plein. Les testeurs le trouvent relativement lourd et cher. Avec seulement quatre tests, la moyenne reste à confirmer. Il se branche en sans fil Hyperspeed ou en Bluetooth et vise d'abord les créateurs de contenu, plus que les puristes du son.",
++  "texte": "Les oreilles de chat lumineuses, désormais fixées à l'arceau et non amovibles, sont la signature de ce casque, et PC Gamer, Windows Central et GamesRadar s'accordent à dire qu'elles ne sacrifient pas l'essentiel. Windows Central le décrit comme une variante du Kraken V4, avec un son agréable en jeu comme en musique. Le micro rétractable est salué partout pour sa clarté, et la triple connexion, 2,4 GHz, Bluetooth et filaire, est appréciée.\n\nGamesRadar trouve le grave un peu creux sans l'audio spatial THX, qui rend selon lui le son plus plein. Le confort divise : PC Gamer le porte toute la journée sans gêne, Windows Central assure que les oreilles ne changent rien, alors que GamesRadar trouve le casque déséquilibré vers le haut et peu adapté aux personnes sujettes aux maux de tête. Les trois tests relèvent que l'éclairage réduit nettement l'autonomie.\n\nAutres reproches : pas de charge rapide et quelques coupures en Bluetooth pour PC Gamer, des commandes confuses et une finition moins soignée que celle du Kraken V4 pour Windows Central, un micro difficile à rentrer d'une main pour GamesRadar, et un prix jugé élevé. Il s'adresse à qui veut un casque de jeu sans fil au look affirmé, sans renoncer au micro ni à la qualité de fabrication.",
+   "sources": [
+-   "Basic Tutorials",
+-   "Windows Central",
+    "PC Gamer",
++   "Windows Central",
+    "GamesRadar"
+   ]
+  },
+  {
+   "id": "sony-inzone-e9",
+-  "texte": "Quatre médias ont noté les INZONE E9, pour une moyenne de 7,3/10 : Trusted Reviews donne 8/10, SoundGuys, IGN et Gaming Trend 7/10.\n\nCes intra filaires visent les jeux de tir, avec un audio directionnel précis, un faible poids et un port confortable. En contrepartie, leur profil sonore les rend moins agréables pour la musique et l'audio est jugé moyen. Un produit de niche à réserver aux joueurs de FPS. Leur format intra et leur câble en font un complément de casque plutôt qu'un remplaçant pour la maison.",
++  "texte": "Conçus avec l'équipe d'e-sport Fnatic, comme le rappelle RTINGS, ces intra-auriculaires filaires misent tout sur le jeu compétitif. Leur isolation passive met les trois tests d'accord : SoundGuys mesure une atténuation d'environ 81 % avec les embouts en mousse, Gaming Trend décrit une étanchéité qui plonge dans la partie, et RTINGS précise qu'elle filtre bien les aigus mais laisse passer le grondement d'un avion ou d'un bus. Le confort tient sur de longues sessions, même si SoundGuys trouve les crochets d'oreille un peu raides.\n\nLe son partage davantage. SoundGuys juge l'accord très efficace pour repérer les pas dans les jeux de tir, mais terne en musique et dans les jeux d'action, avec des basses nettement en retrait. Gaming Trend, après des parties de Call of Duty sur PC et de Saros sur PlayStation 5, trouve le rendu correct sans plus, un peu métallique et pauvre en grave. RTINGS décrit une signature chaude, sans distorsion audible, et note sur son exemplaire un léger écart entre les deux écouteurs.\n\nAucun micro n'est intégré : il faut en prévoir un séparé. L'adaptateur USB-C fourni ouvre l'accès, sous Windows, à l'application Inzone Hub et à son égaliseur ; l'étui plaît à Gaming Trend, SoundGuys le trouve encombrant. Ils visent les joueurs de FPS en compétition ; SoundGuys conseille aux joueurs plus éclectiques de regarder ailleurs.",
+   "sources": [
+-   "Trusted Reviews",
+    "SoundGuys",
+-   "IGN",
+-   "Gaming Trend"
++   "Gaming Trend",
++   "RTings"
+   ]
+  }
+-]
+\ No newline at end of file
++]
