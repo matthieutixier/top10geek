@@ -20368,18 +20368,18 @@
    "offers": [
     {
      "m": "PC-Portable.net",
-     "price": 339.0,
+     "price": 239.0,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23326809&url=https%3A%2F%2Fpc-portable.net%2Fpc-portable-core-i5-i7%2F2289-lenovo-thinkpad-t480-i5-windows-11-ssd-250-go-ram-8-go-071001-grade-b.html",
      "name": "LENOVO THINKPAD T480 - I5 - WINDOWS 11 - SSD 250 GO - RAM 8 GO",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "2289",
-     "releve": "2026-11-06"
+     "releve": "2026-11-14"
     }
    ],
    "img": "thinkpad-t480.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 339.0
+   "prix": 239.0
   },
   "latitude-7490": {
    "cat": "reconditionne",
