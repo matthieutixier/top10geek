@@ -29204,8 +29204,8 @@
     }
    ],
    "press": {
-    "avg": 9.05,
-    "n": 4,
+    "avg": 9.0,
+    "n": 5,
     "tests": 7,
     "scope": "modele",
     "src": [
@@ -29217,43 +29217,51 @@
       "src": "Expert Reviews",
       "score": 10.0,
       "url": "https://www.expertreviews.co.uk/security-cameras/eufy-solocam-s340-review",
-      "date": ""
+      "date": "2024-04-24"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.2,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/eufy-solocam-s340/",
-      "date": ""
+      "date": "2024-03-06",
+      "verifie": "18/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 9.0,
       "url": "https://lecafedugeek.fr/test-eufy-solocam-s340-la-surveillance-exterieure-sans-fil/",
-      "date": ""
+      "date": "2024-05-09",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://www.chip.de/test/Gute-Bedienung-viele-Details-und-Solarpanel-Eufy-Solocam-S340-im-Test_186227123.html",
-      "date": ""
+      "date": "2025-09-17",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/eufy-solocam-s340",
+      "date": "2024-03-19",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/eufy-security-solocam-s340-test-3210897.html",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/eufy-solocam-s340",
-      "date": ""
+      "date": "2025-10-16"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/07/21/test-camera-exterieure-eufy-solocam-s340/",
-      "date": ""
+      "date": "2025-07-20"
      }
     ]
    },
@@ -29306,8 +29314,8 @@
     }
    ],
    "press": {
-    "avg": 8.783333333333333,
-    "n": 6,
+    "avg": 8.528571428571428,
+    "n": 7,
     "tests": 10,
     "scope": "modele",
     "src": [
@@ -29316,64 +29324,74 @@
     ],
     "notes": [
      {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/camera-surveillance/reolink-duo-3-p74526/test.html",
-      "date": ""
-     },
-     {
       "src": "TechTest",
       "score": 9.2,
       "url": "https://techtest.org/reolink-duo-3-wifi-im-test-die-ueberwachungskamera-mit-180-grad-sichtfeld-und-2x-4k-aufloesung/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/camera-surveillance/reolink-duo-3-p74526/test.html",
+      "date": "2024-03-14",
+      "avant": 10.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Mighty Gadget",
       "score": 9.0,
       "url": "https://mightygadget.com/reolink-duo-3-poe-camera-review/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      },
      {
       "src": "PC Magazin",
       "score": 8.5,
       "url": "https://www.connect-living.de/testbericht/reolink-duo-3-poe-ip-kamera-test-review-3206867.html",
-      "date": ""
+      "date": "2024-03-05",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2871505_test-de-la-reolink-duo-3-wifi-la-surveillance-connectee-en-panoramique-et-en-8k",
-      "date": ""
+      "date": "2025-12-07",
+      "verifie": "18/11/2026"
      },
      {
       "src": "MBReviews",
       "score": 8.0,
       "url": "https://www.mbreviews.com/reolink-duo-3-camera-review/",
-      "date": ""
+      "date": "2024-02-16"
+     },
+     {
+      "src": "PCWorld",
+      "score": 8.0,
+      "url": "https://www.pcworld.com/article/2564497/reolink-duo-3-wifi-review.html",
+      "date": "2025-01-07",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/reolink-duo-3-wifi-test-ueberwachungskamera-review-3208256.html",
-      "date": ""
+      "date": "2025-02-03"
      },
      {
       "src": "NerdTechy",
       "score": null,
       "url": "https://nerdtechy.com/reolink-duo-3-poe-unboxing-feature-review",
-      "date": ""
+      "date": "2024-02-02"
      },
      {
       "src": "ObjetConnecte.net",
       "score": null,
       "url": "https://technplay.com/test-reolink-duo-3-wifi-camera-securite-maison/",
-      "date": ""
-     },
-     {
-      "src": "PCWorld",
-      "score": null,
-      "url": "https://www.pcworld.com/article/2564497/reolink-duo-3-wifi-review.html",
-      "date": ""
+      "date": "2025-02-19"
      }
     ]
    },
@@ -29428,7 +29446,7 @@
     }
    ],
    "press": {
-    "avg": 8.66,
+    "avg": 8.86,
     "n": 5,
     "tests": 7,
     "scope": "modele",
@@ -29441,43 +29459,48 @@
       "src": "L&B Tech",
       "score": 10.0,
       "url": "https://www.lbtechreviews.com/test/smart-home/eufycam-s4-2-cam-kit",
-      "date": ""
+      "date": "2026-02-02"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.3,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/eufy-eufycam-s4/",
-      "date": ""
+      "date": "2026-07-15",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/eufy-eufycam-s4",
+      "date": "2025-11-03",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/home-security/eufycam-s4-review",
-      "date": ""
+      "date": "2025-11-03"
      },
      {
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/home-living/smart-home/eufycam-s4",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/eufy-eufycam-s4",
-      "date": ""
+      "date": "2025-12-03",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/eufy-eufycam-s4-ueberwachungskamera-test-3211101.html",
-      "date": ""
+      "date": "2026-01-23"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/12/05/test-camera-de-surveillance-s4-de-eufy/",
-      "date": ""
+      "date": "2025-12-04"
      }
     ]
    },
@@ -29526,12 +29549,11 @@
      "price": 117.54,
      "url": "https://www.amazon.fr/dp/B0FDQTRVSZ?tag=geekconcept-21",
      "name": "Tapo 4K Camera Exterieur sans fil solaire 360° Suivi IA, C660 KIT",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0FDQTRVSZ"
     }
    ],
    "press": {
-    "avg": 8.557142857142857,
+    "avg": 8.757142857142856,
     "n": 7,
     "tests": 9,
     "scope": "modele",
@@ -29544,49 +29566,60 @@
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/camera-surveillance/tp-link-tapo-c660-kit-p76876/test.html",
-      "date": ""
+      "date": "2025-07-26",
+      "verifie": "18/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
-      "score": 9.0,
+      "score": 9.7,
       "url": "https://lecafedugeek.fr/test-tapo-c660-kit-la-camera-solaire-qui-ne-lache-jamais/",
-      "date": ""
+      "date": "2026-06-10",
+      "avant": 9.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 8.9,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/tp-link-tapo-c660-kit/",
-      "date": ""
+      "date": "2025-10-06",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.7,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-tp-link-tapo-c660-kit",
+      "date": "2026-05-27",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-568629-tp-link-tapo-c660-kit.html",
-      "date": ""
+      "date": "2025-08-23",
+      "verifie": "18/11/2026"
      },
      {
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/home-living/smart-home/tp-link-tapo-c660-security-camera",
-      "date": ""
+      "date": "2025-09-12",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/tp-link-tapo-c660-kit",
-      "date": ""
-     },
-     {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-tp-link-tapo-c660-kit",
-      "date": ""
+      "date": "2026-05-01",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/tp-link-tapo-c660-kit-test-ueberwachungskamera-review-3211065.html",
-      "date": ""
+      "date": "2025-11-01"
      },
      {
       "src": "TechTest",
@@ -29594,7 +29627,8 @@
       "url": "https://techtest.org/tp-link-tapo-c660-kit-im-test-solar-ueberwachungskamera-mit-4k-und-ki-tracking/",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 117.54,
    "img": "tapo-c660.webp",
@@ -29648,7 +29682,7 @@
     }
    ],
    "press": {
-    "avg": 8.4,
+    "avg": 8.48,
     "n": 5,
     "tests": 5,
     "scope": "modele",
@@ -29658,34 +29692,42 @@
     ],
     "notes": [
      {
+      "src": "LeCafeDuGeek",
+      "score": 9.2,
+      "url": "https://lecafedugeek.fr/test-tp-link-tapo-c425-la-camera-exterieure-autonome-sans-faille/",
+      "date": "2026-04-28",
+      "avant": 9.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
       "src": "Basic Tutorials",
       "score": 9.0,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/tp-link-tapo-c425/",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 9.0,
-      "url": "https://lecafedugeek.fr/test-tp-link-tapo-c425-la-camera-exterieure-autonome-sans-faille/",
-      "date": ""
+      "date": "2024-04-11",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 8.2,
       "url": "https://www.chip.de/test/TP-Link-Tapo-C425_186227785.html",
-      "date": ""
+      "date": "2025-09-17",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Digital Camera World",
       "score": 8.0,
       "url": "https://www.digitalcameraworld.com/reviews/tp-link-tapo-c425-smart-wire-free-security-camera-review",
-      "date": ""
+      "date": "2024-01-11",
+      "verifie": "18/11/2026"
      },
      {
       "src": "ImTest",
       "score": 8.0,
       "url": "https://www.imtest.de/476560/einzeltests/tapo-c425-test-tp-links-flexible-wlan-kamera",
-      "date": ""
+      "date": "2024-01-27"
      }
     ]
    },
@@ -29734,12 +29776,11 @@
      "price": 155.78,
      "url": "https://www.amazon.fr/dp/B0D1BNPRR6?tag=geekconcept-21",
      "name": "Reolink 4K 180° Camera Exterieur sans Fil Solaire, ColorX, Argus 4 Pro",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0D1BNPRR6"
     }
    ],
    "press": {
-    "avg": 8.26,
+    "avg": 8.620000000000001,
     "n": 10,
     "tests": 13,
     "scope": "modele",
@@ -29752,49 +29793,63 @@
       "src": "Mighty Gadget",
       "score": 9.5,
       "url": "https://mightygadget.co.uk/reolink-argus-4-pro-review/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.4,
+      "url": "https://www.chip.de/test/Reolink-Argus-4-Pro-im-Test_186227031.html",
+      "date": "2025-09-17",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "MYC Media",
+      "score": 9.2,
+      "url": "https://myc-media.de/reolink-argus-4-pro-wifi-4k-kamera-mit-180-blickwinkel-im-test/",
+      "date": "2024-07-31",
+      "avant": 9.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechTest",
       "score": 9.2,
       "url": "https://techtest.org/die-reolink-argus-4-pro-im-test-eine-herausragende-akku-ueberwachungskamera/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": 9.0,
       "url": "https://www.connect.de/testbericht/reolink-argus-4-pro-test-3206248.html",
-      "date": ""
+      "date": "2024-07-16",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "MYC Media",
+      "src": "NetCost",
       "score": 9.0,
-      "url": "https://myc-media.de/reolink-argus-4-pro-wifi-4k-kamera-mit-180-blickwinkel-im-test/",
-      "date": ""
+      "url": "https://www.netcost-security.fr/test-produit/270639/test-reolink-argus-4-pro/",
+      "date": "2026-03-17",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 8.9,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/reolink-argus-4-pro/",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Reolink-Argus-4-Pro-im-Test_186227031.html",
-      "date": ""
+      "date": "2024-06-18",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2876401_test-reolink-argus-4-pro-cette-camera-sans-fil-180-est-compacte-discrete-et-efficace",
-      "date": ""
-     },
-     {
-      "src": "NetCost",
-      "score": 8.0,
-      "url": "https://www.netcost-security.fr/test-produit/270639/test-reolink-argus-4-pro/",
-      "date": ""
+      "date": "2026-02-22",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -29804,27 +29859,30 @@
      },
      {
       "src": "Digital Camera World",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.digitalcameraworld.com/reviews/reolink-argus-4-pro-review",
-      "date": ""
+      "date": "2024-08-27",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Generation-NT",
       "score": null,
       "url": "https://www.generation-nt.com/tests/test-camera-surveillance-reolink-argus-pro-2047743",
-      "date": ""
+      "date": "2024-06-17"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Reolink-Argus-4-Pro-4K-UEberwachungskamera-im-Langzeittest.946127.0.html",
-      "date": ""
+      "date": "2025-01-12"
      },
      {
       "src": "ObjetConnecte.net",
       "score": null,
       "url": "https://technplay.com/test-reolink-argus-4-pro/",
-      "date": ""
+      "date": "2025-01-26"
      }
     ]
    },
@@ -29878,7 +29936,7 @@
     }
    ],
    "press": {
-    "avg": 8.5,
+    "avg": 8.85,
     "n": 2,
     "tests": 2,
     "scope": "modele",
@@ -29891,15 +29949,20 @@
       "src": "TechTest",
       "score": 9.0,
       "url": "https://techtest.org/reolink-argus-eco-ultra-test-4k-ueberwachungskamera-ohne-abo-zwang-und-mit-langer-akkulaufzeit/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
-      "score": 8.0,
+      "score": 8.7,
       "url": "https://lecafedugeek.fr/test-reolink-argus-eco-ultra-solaire-et-performance/",
-      "date": ""
+      "date": "2024-08-16",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 119.99,
    "img": "reolink-argus-eco-ultra.webp",
@@ -29948,7 +30011,7 @@
     }
    ],
    "press": {
-    "avg": 8.0,
+    "avg": 8.8,
     "n": 2,
     "tests": 3,
     "scope": "modele",
@@ -29958,24 +30021,29 @@
     ],
     "notes": [
      {
+      "src": "Chip.de",
+      "score": 9.6,
+      "url": "https://www.chip.de/test/Reolink-E1-Zoom-im-Ueberwachungskamera-Test_186226550.html",
+      "date": "2025-09-17",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
       "src": "Absolute Geeks",
       "score": 8.0,
       "url": "https://www.absolutegeeks.com/tech-news/reolink-e1-zoom-review/",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Reolink-E1-Zoom-im-Ueberwachungskamera-Test_186226550.html",
-      "date": ""
+      "date": "2026-07-28",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/06/26/test-camera-reolink-e1-zoom/",
-      "date": ""
+      "date": "2025-06-25"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 79.99,
    "img": "reolink-e1-zoom.webp",
@@ -30033,7 +30101,7 @@
     }
    ],
    "press": {
-    "avg": 9.0,
+    "avg": 9.3,
     "n": 1,
     "tests": 1,
     "scope": "modele",
@@ -30044,11 +30112,15 @@
     "notes": [
      {
       "src": "LeCafeDuGeek",
-      "score": 9.0,
+      "score": 9.3,
       "url": "https://lecafedugeek.fr/test-tp-link-tapo-c520ws-la-camera-exterieure-qui-rassure-vraiment/",
-      "date": ""
+      "date": "2026-04-23",
+      "avant": 9.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 38.99,
    "img": "tapo-c520ws.webp",
@@ -30087,7 +30159,7 @@
     }
    ],
    "press": {
-    "avg": 7.25,
+    "avg": 7.6,
     "n": 4,
     "tests": 5,
     "scope": "modele",
@@ -30100,33 +30172,40 @@
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/home/home-security/blink-outdoor-4-review",
-      "date": ""
+      "date": "2024-12-12",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/blink-outdoor-4",
-      "date": ""
+      "date": "2025-09-15",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 7.4,
+      "url": "https://www.chip.de/test/Klein-wie-eine-Actioncam-mit-Batterien-Blink-Outdoor-4-im-Test_186228844.html",
+      "date": "2025-09-17",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/produits-android/maison-connectee/securite-connectee/camera-connectee/2828421_test-blink-outdoor-4-une-camera-facile-dutilisation-et-endurante",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 6.0,
-      "url": "https://www.chip.de/test/Klein-wie-eine-Actioncam-mit-Batterien-Blink-Outdoor-4-im-Test_186228844.html",
-      "date": ""
+      "date": "2025-11-16",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/amazon-klink-outdoor-4-test-aussenkamera-akku-usb-3209679.html",
-      "date": ""
+      "date": "2025-06-15"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 24.99,
    "img": "blink-outdoor-4.webp",
@@ -35727,12 +35806,11 @@
      "price": 990.0,
      "url": "https://www.amazon.fr/dp/B0DKFBSLSQ?tag=geekconcept-21",
      "name": "BenQ GP520 Vidéoprojecteur Home Cinéma 4K HDR, 2600 LM, Google TV | Mode Auto Cinéma, réglage auto de l’image, MEMC & Pro-Sports, HDR10+, 98% Rec.709, 2x12W, eARC",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0DKFBSLSQ"
     }
    ],
    "press": {
-    "avg": 8.0,
+    "avg": 8.4,
     "n": 4,
     "tests": 6,
     "scope": "modele",
@@ -35742,41 +35820,48 @@
     ],
     "notes": [
      {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/benq-gp520",
+      "date": "2026-04-13",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
       "src": "CharlesTech",
-      "score": 8.0,
+      "score": 8.6,
       "url": "https://charlestech.fr/test-benq-gp520/",
-      "date": ""
+      "date": "2025-02-20",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/benq-gp520-review",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/benq-gp520",
-      "date": ""
+      "date": "2025-09-22"
      },
      {
       "src": "What Hi-Fi?",
       "score": 8.0,
       "url": "https://www.whathifi.com/tv-home-cinema/projectors/benq-gp520",
       "date": "2025-03-27",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/benq-gp520",
-      "date": ""
+      "date": "2025-06-27"
      },
      {
       "src": "Pico Projecteur",
       "score": null,
       "url": "https://picoprojecteur.top/test-benq-gp520-le-projecteur-4k-qui-revolutionne-le-home-cinema/",
-      "date": ""
+      "date": "2025-07-23"
      }
     ]
    },
@@ -35828,8 +35913,8 @@
     }
    ],
    "press": {
-    "avg": 8.857142857142858,
-    "n": 7,
+    "avg": 9.0,
+    "n": 8,
     "tests": 13,
     "scope": "modele",
     "src": [
@@ -35841,51 +35926,69 @@
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-horizon-20-max-p77052/test.html",
-      "date": ""
+      "date": "2025-10-21",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-590260-test-xgimi-horizon-20-max.html",
-      "date": ""
+      "date": "2026-01-30",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/xgimi/2876505_test-du-xgimi-horizon-20-max-le-laser-4k-ultime-pour-le-home-cinema",
-      "date": ""
+      "date": "2025-11-19",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "GameRevolution",
+      "score": 9.0,
+      "url": "https://www.gamerevolution.com/review/982098-xgimi-horizon-20-max-review-projector-gaming",
+      "date": "2025-10-16",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "IGN",
       "score": 9.0,
       "url": "https://www.ign.com/articles/the-projector-to-replace-your-tv-xgimi-horizon-20-max-review",
-      "date": ""
+      "date": "2026-01-28",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/televisions/projectors/xgimi-horizon-20-max-review",
       "date": "2025-12-07",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.trustedreviews.com/reviews/xgimi-horizon-20-max",
-      "date": ""
+      "date": "2026-04-10",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "What Hi-Fi?",
       "score": 8.0,
       "url": "https://www.whathifi.com/tv-home-cinema/projectors/xgimi-horizon-20-max",
       "date": "2026-04-10",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/xgimi-horizon-20-max-test-review-4k-beamer-vrr-input-lag-maximale-helligkeit-3211021.html",
-      "date": ""
+      "date": "2025-11-03"
      },
      {
       "src": "Expert Reviews",
@@ -35895,30 +35998,26 @@
       "ajout": "18/11/2026"
      },
      {
-      "src": "GameRevolution",
-      "score": null,
-      "url": "https://www.gamerevolution.com/review/982098-xgimi-horizon-20-max-review-projector-gaming",
-      "date": ""
-     },
-     {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Extrem-hell-und-trotzdem-leise-Test-Xgimi-Horizon-20-Max-Beamer.1186162.0.html",
-      "date": ""
+      "date": "2025-12-16"
      },
      {
       "src": "Pico Projecteur",
       "score": null,
       "url": "https://picoprojecteur.top/xgimi-horizon-20-max-le-videoprojecteur-4k-qui-revolutionne-le-gaming-en-2025/",
-      "date": ""
+      "date": "2025-09-06"
      },
      {
       "src": "RTings",
       "score": null,
       "url": "https://www.rtings.com/projector/reviews/xgimi/horizon-20-max",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 2490.0,
    "img": "xgimi-horizon-20-max.webp",
@@ -35968,8 +36067,8 @@
     }
    ],
    "press": {
-    "avg": 8.285714285714286,
-    "n": 7,
+    "avg": 8.2375,
+    "n": 8,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -35981,49 +36080,71 @@
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/xgimi/2360174_test-du-xgimi-aura-2-le-cinema-grand-ecran-sans-contrainte",
-      "date": ""
+      "date": "2024-10-09",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "LegolasGamer",
+      "score": 9.0,
+      "url": "https://legolasgamer.com/test-du-videoprojecteur-ultra-courte-focale-xgimi-aura-2/",
+      "date": "",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-xgimi-aura-2-pourquoi-je-nacheterai-plus-de-tv/",
-      "date": ""
+      "date": "2024-10-02",
+      "verifie": "18/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
-      "score": 8.0,
+      "score": 8.7,
       "url": "https://lecafedugeek.fr/test-xgimi-aura-2-jetez-votre-televiseur-achetez-ce-videoprojecteur/",
-      "date": ""
-     },
-     {
-      "src": "LegolasGamer",
-      "score": 8.0,
-      "url": "https://legolasgamer.com/test-du-videoprojecteur-ultra-courte-focale-xgimi-aura-2/",
-      "date": ""
+      "date": "2024-10-26",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Maison et Domotique",
       "score": 8.0,
       "url": "https://www.maison-et-domotique.com/149216-test-xgimi-aura-2-videoprojecteur-4k-courte-focale/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 8.0,
-      "url": "https://www.rtings.com/projector/reviews/xgimi/aura-2",
-      "date": ""
+      "date": "2024-10-10",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/televisions/projectors/xgimi-aura-2-review",
-      "date": ""
+      "date": "2024-11-20",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/xgimi-aura-2",
+      "date": "2024-11-18",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 6.2,
+      "url": "https://www.rtings.com/projector/reviews/xgimi/aura-2",
+      "date": "",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/xgimi-aura-2-ultracourte-focale-uhd-4k-android-tv-11-et-dual-light-20-42803",
-      "date": ""
+      "date": "2024-09-06"
      },
      {
       "src": "Hitek",
@@ -36035,21 +36156,16 @@
       "src": "Pico Projecteur",
       "score": null,
       "url": "https://picoprojecteur.top/test-complet-du-xgimi-aura-2-le-videoprojecteur-ust-4k-qui-redefinit-le-home-cinema-en-2025/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/xgimi-aura-2",
-      "date": ""
+      "date": "2025-09-29"
      },
      {
       "src": "Xboxygen",
       "score": null,
       "url": "https://www.xboxygen.com/Tests/Tests-materiel/50175-Test-Videoprojecteur-XGIMI-AURA-2-Clap-de-fin-pour-la-TV",
-      "date": ""
+      "date": "2024-09-24"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 2599.0,
    "img": "xgimi-aura-2.webp",
@@ -36101,8 +36217,8 @@
     }
    ],
    "press": {
-    "avg": 8.666666666666666,
-    "n": 3,
+    "avg": 8.325,
+    "n": 4,
     "tests": 4,
     "scope": "modele",
     "src": [
@@ -36114,27 +36230,36 @@
       "src": "GamesRadar",
       "score": 10.0,
       "url": "https://www.gamesradar.com/hardware/benq-x3100i-review/",
-      "date": ""
+      "date": "2024-08-13",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "RTings",
-      "score": 8.0,
-      "url": "https://www.rtings.com/projector/reviews/benq/x3100i",
-      "date": ""
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/benq-x3100i",
+      "date": "2024-11-04",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/televisions/home-theater/projectors/benq-x3100i-review",
-      "date": ""
+      "date": "2024-04-09",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/benq-x3100i",
-      "date": ""
+      "src": "RTings",
+      "score": 6.3,
+      "url": "https://www.rtings.com/projector/reviews/benq/x3100i",
+      "date": "",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 2239.13,
    "img": "benq-x3100i.webp",
@@ -36197,21 +36322,25 @@
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/benq-w2720i",
-      "date": ""
+      "date": "2026-02-27",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/benq/2599061_test-du-benq-w2720i-ce-videoprojecteur-fond-de-salle-sous-android-tv-a-t-il-tout-dun-grand",
-      "date": ""
+      "date": "2025-05-01",
+      "verifie": "18/11/2026"
      },
      {
       "src": "RTings",
       "score": null,
       "url": "https://www.rtings.com/projector/reviews/benq/w2720i",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 1783.91,
    "img": "benq-w2720i.webp",
@@ -36255,12 +36384,11 @@
      "price": 1529.0,
      "url": "https://www.amazon.fr/dp/B0CMHCHPMV?tag=geekconcept-21",
      "name": "BenQ X500i Vidéoprojecteur Gaming Véritable 4K UHD HDR 4LED 2200 ANSI Lumens Courte focale | 4 ms de Latence | Mode Jeux Automatique | Xbox, PS5, Switch",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0CMHCHPMV"
     }
    ],
    "press": {
-    "avg": 8.0,
+    "avg": 7.833333333333333,
     "n": 3,
     "tests": 6,
     "scope": "modele",
@@ -36273,19 +36401,23 @@
       "src": "Consollection",
       "score": 9.0,
       "url": "https://www.consollection.com/high-tech/actualitae/test-du-benq-x500i-un-vidaeoprojecteur-gaming-idaeal-pour-la-4k-hdr-et-le-faible-input-lag-9833.html",
-      "date": ""
+      "date": "2024-12-18",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/projectors/benq-x500i-review",
-      "date": ""
+      "date": "2024-03-27"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 6.5,
       "url": "https://www.rtings.com/projector/reviews/benq/x500i",
-      "date": ""
+      "date": "",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "MDS CineSon",
@@ -36297,13 +36429,13 @@
       "src": "Pico Projecteur",
       "score": null,
       "url": "https://picoprojecteur.top/test-complet-du-benq-x500i-le-videoprojecteur-gaming-4k-qui-revolutionne-lexperience-de-jeu/",
-      "date": ""
+      "date": "2025-08-22"
      },
      {
       "src": "Xboxygen",
       "score": null,
       "url": "https://www.xboxygen.com/Tests/Tests-materiel/48275-Test-Videoprojecteur-BenQ-X500i-La-technologie-au-service-du-gaming",
-      "date": ""
+      "date": "2024-03-10"
      }
     ]
    },
@@ -36374,7 +36506,8 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/1903491_test-de-lepson-eh-ls800-un-videoprojecteur-avec-une-image-douce-et-contrastee",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
@@ -36431,8 +36564,8 @@
     }
    ],
    "press": {
-    "avg": 7.733333333333333,
-    "n": 12,
+    "avg": 7.838461538461539,
+    "n": 13,
     "tests": 18,
     "scope": "modele",
     "src": [
@@ -36441,94 +36574,123 @@
     ],
     "notes": [
      {
+      "src": "NextN",
+      "score": 9.0,
+      "url": "https://www.nextn.es/2025/11/analisis-proyector-portatil-xgimi-mogo-4-base-con-bateria-y-filtros-creativos/",
+      "date": "2025-11-27",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Neozone",
+      "score": 8.8,
+      "url": "https://www.neozone.org/tests/je-teste-le-nouveau-videoprojecteur-xgimi-mogo-4-aussi-compact-quun-thermos/",
+      "date": "2025-06-18",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
       "src": "PC Gamer",
       "score": 8.8,
       "url": "https://www.pcgamer.com/hardware/gaming-monitors/xgimi-mogo-4-laser-projector-review/",
-      "date": ""
+      "date": "2026-01-19",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 8.6,
       "url": "https://www.chip.de/test/XGIMI-MoGo-4-im-Test_186128923.html",
-      "date": ""
+      "date": "2025-07-30",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.5,
+      "url": "https://lecafedugeek.fr/test-xgimi-mogo-4-laser-le-cinema-partout-simplement/",
+      "date": "2025-11-06",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 8.5,
+      "url": "https://www.presse-citron.net/test-xgimi-mogo-4/",
+      "date": "2025-10-29",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-568638-test-xgimi-mogo-4.html",
-      "date": ""
+      "date": "2025-06-17",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/xgimi/2646037_test-du-xgimi-mogo-4-led-il-tient-dans-la-main-et-promet-une-experience-cinema-partout",
-      "date": ""
+      "date": "2025-06-12",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "GameRevolution",
+      "score": 8.0,
+      "url": "https://www.gamerevolution.com/review/981910-xgimi-mogo-4-laser-review-projector-worth-buying",
+      "date": "2025-09-30",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "IGN",
       "score": 8.0,
       "url": "https://www.ign.com/articles/xgimi-mogo-4-laser-review",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-xgimi-mogo-4-laser-le-cinema-partout-simplement/",
-      "date": ""
-     },
-     {
-      "src": "Neozone",
-      "score": 8.0,
-      "url": "https://www.neozone.org/tests/je-teste-le-nouveau-videoprojecteur-xgimi-mogo-4-aussi-compact-quun-thermos/",
-      "date": ""
-     },
-     {
-      "src": "NextN",
-      "score": 8.0,
-      "url": "https://www.nextn.es/2025/11/analisis-proyector-portatil-xgimi-mogo-4-base-con-bateria-y-filtros-creativos/",
-      "date": ""
-     },
-     {
-      "src": "Presse-citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/test-xgimi-mogo-4/",
-      "date": ""
+      "date": "2025-09-18",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/xgimi-mogo-4",
-      "date": ""
+      "date": "2026-02-06",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Les Numériques",
-      "score": 7.0,
+      "score": 6.0,
       "url": "https://www.lesnumeriques.com/videoprojecteur/xgimi-mogo-4-led-p76732/test.html",
-      "date": ""
+      "date": "2025-07-10",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "RTings",
-      "score": 5.0,
+      "score": 3.7,
       "url": "https://www.rtings.com/projector/reviews/xgimi/mogo-4",
-      "date": ""
+      "date": "",
+      "avant": 5.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/xgimi-mogo-4-test/",
-      "date": ""
+      "date": "2025-07-04"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/xgimi-mo-go-4-mini-beamer-test-3210027.html",
-      "date": ""
-     },
-     {
-      "src": "GameRevolution",
-      "score": null,
-      "url": "https://www.gamerevolution.com/review/981910-xgimi-mogo-4-laser-review-projector-worth-buying",
-      "date": ""
+      "date": "2025-07-17"
      },
      {
       "src": "Hitek",
@@ -36546,9 +36708,10 @@
       "src": "Pico Projecteur",
       "score": null,
       "url": "https://picoprojecteur.top/test-complet-du-xgimi-mogo-4-mini-le-compagnon-nomade-parfait-pour-vos-soirees-cine/",
-      "date": ""
+      "date": "2025-08-28"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 399.0,
    "img": "xgimi-mogo-4.webp",
@@ -36601,8 +36764,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 3,
+    "avg": 8.3,
+    "n": 4,
     "tests": 5,
     "scope": "modele",
     "src": [
@@ -36612,35 +36775,47 @@
     "notes": [
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 9.2,
       "url": "https://www.chip.de/test/BenQ-GV50-im-Test_186046965.html",
-      "date": ""
+      "date": "2025-07-07",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/benq-gv50",
+      "date": "2025-07-02",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/benq/2394472_test-du-benq-gv50-projetez-dans-tous-les-sens-avec-une-image-bien-calibree",
-      "date": ""
+      "date": "2024-12-20",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/benq-gv50",
-      "date": ""
+      "src": "Wired",
+      "score": 7.0,
+      "url": "https://www.wired.com/review/review-benq-gv50/",
+      "date": "2026-08-05",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "RTings",
       "score": null,
       "url": "https://www.rtings.com/projector/reviews/benq/gv50",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/review-benq-gv50/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 579.0,
    "img": "benq-gv50.webp",
@@ -36685,12 +36860,11 @@
      "price": 349.99,
      "url": "https://www.amazon.fr/dp/B0B985KPML?tag=geekconcept-21",
      "name": "Epson CO-W01 | Projecteur WXGA abordable | 3LCD | 3 000 lumens ANSI | Affichage 378 Pouces (9,6 m) | Configuration Facile | Correction du trapèze | HDMI | Utilisation à Domicile et au Bureau | Blanc",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0B985KPML"
     }
    ],
    "press": {
-    "avg": 6.833333333333333,
+    "avg": 6.566666666666666,
     "n": 3,
     "tests": 3,
     "scope": "modele",
@@ -36703,19 +36877,25 @@
       "src": "Fortress of Solitude",
       "score": 7.5,
       "url": "https://www.fortressofsolitude.co.za/epson-co-w01-projector-review-best-budget-projector-in-south-africa/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 7.0,
-      "url": "https://www.rtings.com/projector/reviews/epson/epiqvision-flex-co-w01",
-      "date": ""
+      "date": "2025-07-14"
      },
      {
       "src": "Trusted Reviews",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.trustedreviews.com/reviews/epson-co-w01",
-      "date": ""
+      "date": "2025-11-04",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 5.2,
+      "url": "https://www.rtings.com/projector/reviews/epson/epiqvision-flex-co-w01",
+      "date": "",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      }
     ]
    },
