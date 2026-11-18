@@ -32361,8 +32361,8 @@
     }
    ],
    "press": {
-    "avg": 8.65,
-    "n": 10,
+    "avg": 8.891666666666667,
+    "n": 12,
     "tests": 14,
     "scope": "modele",
     "src": [
@@ -32374,87 +32374,106 @@
       "src": "Expert Reviews",
       "score": 10.0,
       "url": "https://www.expertreviews.co.uk/technology/cameras/action-cameras/dji-osmo-action-5-pro-review",
-      "date": ""
+      "date": "2024-10-29"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.2,
+      "url": "https://www.chip.de/test/DJI-Osmo-Action-5-Pro-im-CHIP-Test_185478503.html",
+      "date": "2024-09-26",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 9.0,
+      "url": "https://camerajabber.com/reviews/dji-osmo-action-5-pro-review/",
+      "date": "2024-09-19",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 9.0,
+      "url": "https://www.digitalcameraworld.com/reviews/dji-osmo-action-5-pro-review",
+      "date": "2024-09-19",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/dji/2425684_test-de-la-dji-osmo-action-5-pro-du-coup-detat-au-couronnement",
-      "date": ""
+      "date": "2024-12-02",
+      "verifie": "18/11/2026"
      },
      {
       "src": "SlashGear",
       "score": 9.0,
       "url": "https://www.slashgear.com/1668129/dji-osmo-action-5-pro-review-night-dark-performance-camera/",
-      "date": ""
+      "date": "2024-09-19",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/cameras/action-cameras/dji-osmo-action-5-pro-review-a-seriously-feature-packed-action-camera",
       "date": "2024-09-19",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Tom's Guide",
       "score": 9.0,
       "url": "https://www.tomsguide.com/cameras-photography/gopro-action-cameras/dji-osmo-action-5-pro-review",
       "date": "2024-10-14",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/dji-osmo-action-5-pro",
+      "date": "2024-10-25",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Engadget",
       "score": 8.5,
       "url": "https://www.engadget.com/cameras/dji-osmo-action-5-pro-review-finally-a-worthy-gopro-rival-143027778.html?src=rss",
-      "date": ""
-     },
-     {
-      "src": "Camera Jabber",
-      "score": 8.0,
-      "url": "https://camerajabber.com/reviews/dji-osmo-action-5-pro-review/",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/DJI-Osmo-Action-5-Pro-im-CHIP-Test_185478503.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Camera World",
-      "score": 8.0,
-      "url": "https://www.digitalcameraworld.com/reviews/dji-osmo-action-5-pro-review",
-      "date": ""
+      "date": "2024-10-30"
      },
      {
       "src": "ImTest",
       "score": 8.0,
       "url": "https://www.imtest.de/einzeltests/dji-osmo-action-5-pro-test-action-cam-review/527812",
-      "date": ""
+      "date": "2024-09-20"
+     },
+     {
+      "src": "Wired",
+      "score": 8.0,
+      "url": "https://www.wired.com/review/dji-osmo-action-5-pro/",
+      "date": "2024-10-24",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dji-osmo-action-5-pro-test-3207808.html",
-      "date": ""
+      "date": "2024-12-16"
      },
      {
       "src": "TechBroll",
       "score": null,
       "url": "https://techbroll.com/2025/02/dji-osmo-action-5-pro-review-5-reasons-why-you-should-consider-it.html",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/dji-osmo-action-5-pro",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/dji-osmo-action-5-pro/",
-      "date": ""
+      "date": "2025-02-06"
      }
     ]
    },
@@ -32506,8 +32525,8 @@
     }
    ],
    "press": {
-    "avg": 9.566666666666666,
-    "n": 6,
+    "avg": 9.485714285714286,
+    "n": 7,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -32519,51 +32538,66 @@
       "src": "Camera Jabber",
       "score": 10.0,
       "url": "https://camerajabber.com/reviews/dji-osmo-action-6-review/",
-      "date": ""
+      "date": "2025-11-18",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Digital Camera World",
       "score": 10.0,
       "url": "https://www.digitalcameraworld.com/cameras/action-cameras/dji-osmo-action-6-review",
       "date": "2025-11-18",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "T3",
       "score": 10.0,
       "url": "https://www.t3.com/tech/gopro-action-cameras/dji-osmo-action-6-review",
-      "date": ""
+      "date": "2025-11-18",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.4,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-osmo-action-6-test/",
-      "date": ""
+      "date": "2025-12-12",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/action-cam/dji-osmo-action-6-p77373/test.html",
+      "date": "2026-02-24",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-dji-osmo-action-6/",
-      "date": ""
+      "date": "2025-11-29",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/cameras/action-cameras/dji-osmo-action-6-review",
       "date": "2025-11-18",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/dji-osmo-action-6-test/",
-      "date": ""
+      "date": "2026-07-24"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dji-osmo-action-6-test-3211450.html",
-      "date": ""
+      "date": "2025-12-11"
      },
      {
       "src": "GameStar",
@@ -32572,24 +32606,19 @@
       "date": ""
      },
      {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/action-cam/dji-osmo-action-6-p77373/test.html",
-      "date": ""
-     },
-     {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Mehr-Sensor-mehr-Blende-mehr-Moeglichkeiten-Unser-Test-der-DJI-Osmo-Action-6.1168344.0.html",
-      "date": ""
+      "date": "2025-12-05"
      },
      {
       "src": "SlashGear",
       "score": null,
       "url": "https://www.slashgear.com/2040571/dji-osmo-action-6-review-camera-testing/",
-      "date": ""
+      "date": "2025-12-01"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 426.0,
    "img": "dji-osmo-action-6.webp",
@@ -32653,7 +32682,8 @@
       "src": "SlashGear",
       "score": 9.0,
       "url": "https://www.slashgear.com/1662680/gopro-hero-13-black-review-action-camera-upgrading-almost-everything/",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      },
      {
       "src": "StudioSport",
@@ -32683,7 +32713,8 @@
       "src": "Digital Camera World",
       "score": 8.0,
       "url": "https://www.digitalcameraworld.com/reviews/gopro-hero13-black-hands-on-review",
-      "date": ""
+      "date": "2024-09-05",
+      "verifie": "18/11/2026"
      },
      {
       "src": "ImTest",
@@ -32701,7 +32732,8 @@
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/gopro/2403062_test-de-la-gopro-hero-13-black-encore-plus-pro-mais-que-pour-les-pros",
-      "date": ""
+      "date": "2024-11-17",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AndroidWorld",
@@ -32776,8 +32808,8 @@
     }
    ],
    "press": {
-    "avg": 8.333333333333334,
-    "n": 3,
+    "avg": 8.833333333333334,
+    "n": 6,
     "tests": 9,
     "scope": "modele",
     "src": [
@@ -32786,10 +32818,47 @@
     ],
     "notes": [
      {
+      "src": "Digital Camera World",
+      "score": 9.0,
+      "url": "https://www.digitalcameraworld.com/reviews/insta360-ace-pro-2-review",
+      "date": "2024-11-19",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "NextGenTech",
+      "score": 9.0,
+      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-ace-pro-2-recensione/",
+      "date": "2025-10-13",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
       "src": "SlashGear",
       "score": 9.0,
       "url": "https://www.slashgear.com/1694267/insta360-ace-pro-2-review-double-action-cam-power-battery-life-price/",
-      "date": ""
+      "date": "2024-10-22",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/insta360-ace-pro-2",
+      "date": "2024-10-28",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/insta360-ace-pro-2-xplorer-grip-pro-kit/",
+      "date": "2026-02-07",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
@@ -32798,46 +32867,22 @@
       "date": ""
      },
      {
-      "src": "Digital Camera World",
-      "score": 8.0,
-      "url": "https://www.digitalcameraworld.com/reviews/insta360-ace-pro-2-review",
-      "date": ""
-     },
-     {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/insta360-ace-pro-2-flash-print-bundle-sofortbildkamera-test-review/403146975",
-      "date": ""
+      "date": "2026-04-10"
      },
      {
       "src": "GamesWelt",
       "score": null,
       "url": "https://www.gameswelt.de/insta360-ace-pro-2/test/test-diese-8k-action-cam-heizt-dji-und-gopro-ordentlich-ein-333815",
-      "date": ""
-     },
-     {
-      "src": "NextGenTech",
-      "score": null,
-      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-ace-pro-2-recensione/",
-      "date": ""
+      "date": "2026-06-05"
      },
      {
       "src": "ObjetConnecte.net",
       "score": null,
       "url": "https://technplay.com/jai-teste-le-insta360-ace-pro-2/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/insta360-ace-pro-2",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/insta360-ace-pro-2-xplorer-grip-pro-kit/",
-      "date": ""
+      "date": "2026-06-25"
      }
     ]
    },
@@ -32889,7 +32934,7 @@
     }
    ],
    "press": {
-    "avg": 8.0,
+    "avg": 8.15,
     "n": 2,
     "tests": 3,
     "scope": "modele",
@@ -32899,24 +32944,29 @@
     ],
     "notes": [
      {
+      "src": "tuttoteK",
+      "score": 8.3,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dji-osmo-pocket-3",
+      "date": "2025-08-04",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
       "src": "Basic Tutorials",
       "score": 8.0,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/agfaphoto-realimove-mc3x-test/",
-      "date": ""
-     },
-     {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dji-osmo-pocket-3",
-      "date": ""
+      "date": "2025-10-24",
+      "verifie": "18/11/2026"
      },
      {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/dji-osmo-pocket-3-test,3406997.html",
-      "date": ""
+      "date": "2024-01-26"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 272.99,
    "img": "dji-osmo-pocket-3.webp",
@@ -32965,8 +33015,8 @@
     }
    ],
    "press": {
-    "avg": 8.459999999999999,
-    "n": 5,
+    "avg": 8.916666666666666,
+    "n": 6,
     "tests": 11,
     "scope": "modele",
     "src": [
@@ -32978,67 +33028,78 @@
       "src": "Basic Tutorials",
       "score": 9.3,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-osmo-pocket-4p-im-test/",
-      "date": ""
+      "date": "2026-10-22",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 9.2,
+      "url": "https://www.01net.com/tests/jai-teste-la-dji-osmo-pocket-4p-le-double-objectif-change-t-il-vraiment-la-donne.html",
+      "date": "2026-08-30",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.0,
+      "url": "https://www.chip.de/test-kaufberatung/foto-video/kinoqualitaet-fuer-die-hosentasche-dji-osmo-pocket-4p-im-test_70db4f0d-70fb-45a0-af74-d873ee825821.html",
+      "date": "2026-08-13",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Engadget",
       "score": 9.0,
       "url": "https://www.engadget.com/2226364/dji-osmo-pocket-4p-review/",
-      "date": ""
+      "date": "2026-07-30",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/jai-teste-la-dji-osmo-pocket-4p-le-double-objectif-change-t-il-vraiment-la-donne.html",
-      "date": ""
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/action-cam/dji-osmo-pocket-p4-p78620/test.html",
+      "date": "2026-09-25",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/dji-pocket-4p",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 8.0,
-      "url": "https://www.lesnumeriques.com/action-cam/dji-osmo-pocket-p4-p78620/test.html",
-      "date": ""
+      "date": "2026-07-30"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/dji-osmo-pocket-4p-test/",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": null,
-      "url": "https://www.chip.de/test-kaufberatung/foto-video/kinoqualitaet-fuer-die-hosentasche-dji-osmo-pocket-4p-im-test_70db4f0d-70fb-45a0-af74-d873ee825821.html",
-      "date": ""
+      "date": "2026-10-09"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/dji-osmo-pocket-4p-test-erfahrung-bildqualitaet-gimbal-preis/403196090",
-      "date": ""
+      "date": "2026-10-15"
      },
      {
       "src": "GameWave",
       "score": null,
       "url": "https://gamewave.fr/tests/dji-osmo-pocket-4p-test-de-la-camera-de-poche-qui-voit-desormais-double/",
-      "date": ""
+      "date": "2026-09-30"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/DJI-Osmo-Pocket-4P-im-Test-Zwei-Objektive-starke-4K-Qualitaet-zum-Kampfpreis.1338429.0.html",
-      "date": ""
+      "date": "2026-07-30"
      },
      {
       "src": "SlashGear",
       "score": null,
       "url": "https://www.slashgear.com/2235706/dji-osmo-pocket-4p-review-beyond-testing/",
-      "date": ""
+      "date": "2026-08-12"
      }
     ]
    },
@@ -33092,8 +33153,8 @@
     }
    ],
    "press": {
-    "avg": 8.481818181818182,
-    "n": 11,
+    "avg": 8.746153846153847,
+    "n": 13,
     "tests": 15,
     "scope": "modele",
     "src": [
@@ -33105,37 +33166,80 @@
       "src": "Basic Tutorials",
       "score": 9.3,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/insta360-x5-test/",
-      "date": ""
+      "date": "2025-08-09",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Allround-PC",
+      "score": 9.0,
+      "url": "https://www.allround-pc.com/artikel/gadgets/insta360-x5-test-perfekte-360-grad-kamera-urlaub-sport-reisen",
+      "date": "2025-11-28",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "GameRevolution",
+      "score": 9.0,
+      "url": "https://www.gamerevolution.com/review/981564-insta360-x5-review-action-camera-worth-buying-8k-360",
+      "date": "2025-08-24",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-insta360-x5-la-meilleure-camera-daction-cest-elle/",
-      "date": ""
+      "date": "2025-04-22",
+      "verifie": "18/11/2026"
      },
      {
       "src": "NextGenTech",
       "score": 9.0,
       "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-x5-recensione/",
-      "date": ""
+      "date": "2025-07-16",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-insta360-x5/",
-      "date": ""
+      "date": "2025-04-24"
      },
      {
       "src": "SlashGear",
       "score": 9.0,
       "url": "https://www.slashgear.com/1841277/insta360-x5-review-refined-robust-the-best360-action-camera/",
-      "date": ""
+      "date": "2025-04-22",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "Allround-PC",
-      "score": 8.0,
-      "url": "https://www.allround-pc.com/artikel/gadgets/insta360-x5-test-perfekte-360-grad-kamera-urlaub-sport-reisen",
-      "date": ""
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/insta360-x5",
+      "date": "2025-04-28",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/insta360-x5-360-camera/",
+      "date": "2025-05-10",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Neozone",
+      "score": 8.4,
+      "url": "https://www.neozone.org/tests/video-envoyee-par-mail-je-teste-la-camera-insta360-x5-pack-essentiels-une-camera-360-8k-qui-sublime-mes-balades-et-mes-tests/",
+      "date": "2025-09-05",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "CNET France",
@@ -33147,48 +33251,26 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/insta360/2745271_test-de-linsta360-x5-plus-seule-au-royaume-des-cameras-360-mais-toujours-sur-le-trone",
-      "date": ""
+      "date": "2025-08-01",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/camera-360-degres/insta360-insta360-x5-p76556/test.html",
-      "date": ""
-     },
-     {
-      "src": "Neozone",
-      "score": 8.0,
-      "url": "https://www.neozone.org/tests/video-envoyee-par-mail-je-teste-la-camera-insta360-x5-pack-essentiels-une-camera-360-8k-qui-sublime-mes-balades-et-mes-tests/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/insta360-x5",
-      "date": ""
+      "date": "2025-07-24",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/insta360-x4-x5-test-review-360-grad-kamera-action-cam-funktionen/403058348",
-      "date": ""
-     },
-     {
-      "src": "GameRevolution",
-      "score": null,
-      "url": "https://www.gamerevolution.com/review/981564-insta360-x5-review-action-camera-worth-buying-8k-360",
-      "date": ""
+      "date": "2025-07-16"
      },
      {
       "src": "Hardware Upgrade",
       "score": null,
       "url": "https://smarthome.hwupgrade.it/articoli/audio-video/7029/insta360-x5-e-sempre-la-regina-delle-action-cam-a-360-gradi-recensione_index.html",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/insta360-x5-360-camera/",
       "date": ""
      }
     ]
@@ -33244,13 +33326,12 @@
      "price": 389.0,
      "url": "https://www.amazon.fr/dp/B0FXGWJNNZ?tag=geekconcept-21",
      "name": "Bundle Essentiel DJI Osmo 360, Caméra Moto 360, imagerie 360° de 1 pouce, vidéo 360° en 8K native, perche invisible 1,2 m",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0FXGWJNNZ"
     }
    ],
    "press": {
-    "avg": 8.5125,
-    "n": 8,
+    "avg": 8.8,
+    "n": 9,
     "tests": 14,
     "scope": "modele",
     "src": [
@@ -33262,84 +33343,102 @@
       "src": "Expert Reviews",
       "score": 10.0,
       "url": "https://www.expertreviews.co.uk/technology/action-cameras/dji-osmo-360-review",
-      "date": ""
+      "date": "2025-09-12"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.1,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-osmo-360-test/",
-      "date": ""
+      "date": "2025-08-12",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Camera Jabber",
+      "score": 9.0,
+      "url": "https://camerajabber.com/reviews/dji-osmo-360-camera-review/",
+      "date": "2025-07-31",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 9.0,
       "url": "https://www.trustedreviews.com/reviews/dji-osmo-360",
-      "date": ""
+      "date": "2025-07-31",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "Camera Jabber",
-      "score": 8.0,
-      "url": "https://camerajabber.com/reviews/dji-osmo-360-camera-review/",
-      "date": ""
+      "src": "StudioSport",
+      "score": 8.9,
+      "url": "https://blog.studiosport.fr/test-dji-osmo-360/",
+      "date": "2025-08-12",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Engadget",
-      "score": 8.0,
+      "score": 8.7,
       "url": "https://www.engadget.com/2260043/dji-osmo-360-ii-review/",
-      "date": ""
+      "date": "2026-09-23",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 8.5,
+      "url": "https://www.presse-citron.net/test-dji-osmo-360/",
+      "date": "2025-08-08",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/dji/2778779_test-de-la-dji-osmo-360-une-entree-fracassante-dans-le-royaume-des-cameras-360",
-      "date": ""
+      "date": "2025-09-06",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "Presse-citron",
+      "src": "Wired",
       "score": 8.0,
-      "url": "https://www.presse-citron.net/test-dji-osmo-360/",
-      "date": ""
-     },
-     {
-      "src": "StudioSport",
-      "score": 8.0,
-      "url": "https://blog.studiosport.fr/test-dji-osmo-360/",
-      "date": ""
+      "url": "https://www.wired.com/review/dji-osmo-360/",
+      "date": "2025-08-16",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "HelicoMicro",
       "score": null,
       "url": "https://www.helicomicro.com/2025/07/31/dji-osmo-360-test/",
-      "date": ""
+      "date": "2025-07-31"
      },
      {
       "src": "Labo Fnac",
       "score": null,
       "url": "https://leclaireur.fnac.com/test/692857-test-dji-osmo-360-ii-2/",
-      "date": ""
+      "date": "2026-09-19"
      },
      {
       "src": "PhotographyLife",
       "score": null,
       "url": "https://photographylife.com/reviews/dji-osmo-360-action-camera",
-      "date": ""
+      "date": "2025-10-14"
      },
      {
       "src": "SlashGear",
       "score": null,
       "url": "https://www.slashgear.com/1973074/dji-osmo-360-review-features-flaws-price/",
-      "date": ""
+      "date": "2025-09-19"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14670/insta360-x5-vs-gopro-max2-vs-dji-osmo-360-360-gradencameras-met-8k-video.html",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/dji-osmo-360/",
       "date": ""
      }
     ]
@@ -33397,8 +33496,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 5,
+    "avg": 8.657142857142857,
+    "n": 7,
     "tests": 7,
     "scope": "modele",
     "src": [
@@ -33410,45 +33509,63 @@
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/insta360-go-ultra",
-      "date": ""
+      "date": "2025-08-22",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.chip.de/test/Insta360-GO-Ultra-im-Test_186247594.html",
-      "date": ""
+      "date": "2025-09-26",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/action-cam/insta360-go-ultra-p76989/test.html",
+      "date": "2025-10-22",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "NextGenTech",
+      "score": 9.0,
+      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-go-ultra-recensione/",
+      "date": "2025-09-29",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Presse-citron",
-      "score": 8.0,
+      "score": 8.6,
       "url": "https://www.presse-citron.net/test-insta360-go-ultra/",
-      "date": ""
+      "date": "2025-10-01",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Tom's Guide (US)",
       "score": 8.0,
       "url": "https://www.tomsguide.com/cameras-photography/gopro-action-cameras/insta360-go-ultra-review",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 6.0,
-      "url": "https://www.lesnumeriques.com/action-cam/insta360-go-ultra-p76989/test.html",
-      "date": ""
-     },
-     {
-      "src": "NextGenTech",
-      "score": null,
-      "url": "https://www.nextgentech.it/hardware_accessori_pc/review_hardware/insta360-go-ultra-recensione/",
-      "date": ""
+      "date": "2025-10-03",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Wired",
-      "score": null,
+      "score": 7.0,
       "url": "https://www.wired.com/review/insta360-go-ultra/",
-      "date": ""
+      "date": "2025-08-29",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 429.0,
    "img": "insta360-go-ultra.webp",
