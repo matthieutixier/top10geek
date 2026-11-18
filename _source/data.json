@@ -36947,7 +36947,7 @@
     }
    ],
    "press": {
-    "avg": 8.5,
+    "avg": 8.85,
     "n": 2,
     "tests": 3,
     "scope": "modele",
@@ -36960,21 +36960,26 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/497483-test-labo-du-canon-eos-r50-le-bon-choix-pour-decouvrir-la-photo/",
-      "date": ""
+      "date": "2024-07-11",
+      "verifie": "18/11/2026"
      },
      {
       "src": "PhotoTrend",
-      "score": 7.0,
+      "score": 7.7,
       "url": "https://phototrend.fr/2024/04/test-canon-eos-r50-hybride-aps-c-compact-equilibre/",
-      "date": ""
+      "date": "2024-04-11",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "ObjetConnecte.net",
       "score": null,
       "url": "https://technplay.com/test-du-canon-eos-r50/",
-      "date": ""
+      "date": "2024-05-11"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 549.0,
    "img": "canon-eos-r50.webp",
@@ -37023,7 +37028,7 @@
     }
    ],
    "press": {
-    "avg": 8.336363636363636,
+    "avg": 8.509090909090908,
     "n": 11,
     "tests": 14,
     "scope": "modele",
@@ -37036,7 +37041,17 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/638490-test-labo-du-canon-powershot-v1-un-compact-surprenant/",
-      "date": ""
+      "date": "2025-11-25",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 9.2,
+      "url": "https://www.chip.de/test/Canon-PowerShot-V1-im-Test_186373199.html",
+      "date": "2025-11-17",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "ComputerHoy",
@@ -37049,56 +37064,59 @@
       "score": 9.0,
       "url": "https://www.digitalcameraworld.com/cameras/compact-cameras/canon-powershot-v1-review",
       "date": "2025-02-27",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Engadget",
       "score": 8.7,
       "url": "https://www.engadget.com/cameras/canon-powershot-v1-review-a-powerful-compact-camera-capable-of-capturing-incredible-video-163009584.html?src=rss",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Canon-PowerShot-V1-im-Test_186373199.html",
-      "date": ""
+      "date": "2025-04-30"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/canon/2622283_test-du-canon-powershot-v1-un-compact-audacieux-avec-un-capteur-inedit-oriente-video",
-      "date": ""
+      "date": "2025-05-24",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 8.0,
       "url": "https://www.presse-citron.net/test-canon-powershot-v1/",
-      "date": ""
+      "date": "2025-10-26",
+      "verifie": "18/11/2026"
      },
      {
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/tech/cameras/canon-powershot-v1-review",
-      "date": ""
+      "date": "2026-04-07",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/cameras/compact-cameras/canon-powershot-v1-review",
       "date": "2025-03-26",
-      "ajout": "18/11/2026"
+      "ajout": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/canon-powershot-v1",
-      "date": ""
+      "date": "2025-09-25",
+      "verifie": "18/11/2026"
      },
      {
       "src": "PhotoTrend",
-      "score": 7.0,
+      "score": 7.7,
       "url": "https://phototrend.fr/2025/06/test-du-canon-powershot-v1/",
-      "date": ""
+      "date": "2025-06-24",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "DPReview",
@@ -37110,13 +37128,14 @@
       "src": "RTings",
       "score": null,
       "url": "https://www.rtings.com/camera/reviews/canon/powershot-v1",
-      "date": ""
+      "date": "",
+      "verifie": "18/11/2026"
      },
      {
       "src": "StudioSport",
       "score": null,
       "url": "https://blog.studiosport.fr/canon-powershot-v1-test-dune-camera-de-vlog-etonnante/",
-      "date": ""
+      "date": "2025-07-15"
      }
     ]
    },
@@ -37168,8 +37187,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 8,
+    "avg": 8.511111111111111,
+    "n": 9,
     "tests": 11,
     "scope": "modele",
     "src": [
@@ -37181,69 +37200,89 @@
       "src": "Digital Camera World",
       "score": 10.0,
       "url": "https://www.digitalcameraworld.com/reviews/fujifilm-x-m5-review",
-      "date": ""
+      "date": "2024-11-15",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Camera Jabber",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://camerajabber.com/reviews/fujifilm-x-m5-review/",
-      "date": ""
+      "date": "2024-11-21",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x-m5-review",
+      "date": "2024-10-14",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.5,
+      "url": "https://phototrend.fr/2024/11/test-fujifilm-x-m5-hybride-compact/",
+      "date": "2024-11-20",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.5,
+      "url": "https://www.rtings.com/camera/reviews/fujifilm/x-m5",
+      "date": "",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/fujifilm/2447534_test-du-fujifilm-x-m5-le-tout-petit-hybride-qui-ne-manque-pas-datouts",
-      "date": ""
+      "date": "2024-12-23",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/638487-test-labo-du-fujifilm-x-m5-de-belles-qualites-optiques-tirees-vers-le-bas-par-un-capteur-peu-sensible/",
-      "date": ""
-     },
-     {
-      "src": "PhotoTrend",
-      "score": 8.0,
-      "url": "https://phototrend.fr/2024/11/test-fujifilm-x-m5-hybride-compact/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 8.0,
-      "url": "https://www.rtings.com/camera/reviews/fujifilm/x-m5",
-      "date": ""
+      "date": "2025-11-28",
+      "verifie": "18/11/2026"
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/fotografia/recensioni-fotografia/recensione-fujifilm-x-m5-la-entry-level-con-cui-iniziare-a-fotografare",
-      "date": ""
+      "date": "2025-01-05",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.6,
       "url": "https://www.chip.de/test/Fujifilm-X-M5-im-Test_185728284.html",
-      "date": ""
+      "date": "2025-02-05",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/fujifilm-x-m5",
-      "date": ""
+      "date": "2024-10-14"
      },
      {
       "src": "DPReview",
       "score": null,
       "url": "https://www.dpreview.com/reviews/fujifilm-x-m5-initial-review",
       "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": null,
-      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x-m5-review",
-      "date": ""
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 799.9,
    "img": "fujifilm-x-m5.webp",
@@ -37296,7 +37335,7 @@
     }
    ],
    "press": {
-    "avg": 8.4,
+    "avg": 8.58,
     "n": 5,
     "tests": 6,
     "scope": "modele",
@@ -37309,31 +37348,42 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/566592-test-labo-du-nikon-z50-ii-un-formidable-hybride-a-un-prix-abordable/",
-      "date": ""
+      "date": "2025-01-21",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
-      "score": 10.0,
+      "score": 9.0,
       "url": "https://www.techradar.com/cameras/mirrorless-cameras/nikon-z50-ii-review-a-pocket-rocket-at-a-competitive-price",
-      "date": ""
+      "date": "2025-01-07",
+      "avant": 10.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.3,
+      "url": "https://phototrend.fr/2025/02/test-nikon-z50-ii/",
+      "date": "2025-02-19",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/nikon/2508893_test-du-nikon-z50-ii-un-appareil-photo-accessible-qui-en-a-sous-le-capot",
-      "date": ""
-     },
-     {
-      "src": "PhotoTrend",
-      "score": 8.0,
-      "url": "https://phototrend.fr/2025/02/test-nikon-z50-ii/",
-      "date": ""
+      "date": "2025-03-20",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.6,
       "url": "https://www.chip.de/test/Nikon-Z50II-im-Test_185728561.html",
-      "date": ""
+      "date": "2025-01-28",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "DPReview",
@@ -37341,7 +37391,8 @@
       "url": "https://www.dpreview.com/reviews/nikon-z50ii-initial-review",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 927.0,
    "img": "nikon-z50-ii.webp",
@@ -37393,7 +37444,7 @@
     }
    ],
    "press": {
-    "avg": 8.0,
+    "avg": 8.74,
     "n": 5,
     "tests": 7,
     "scope": "modele",
@@ -37406,31 +37457,44 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/658309-test-labo-du-sony-zv-e10ii-un-petit-hybride-polyvalent-qui-fait-comme-les-grands/",
-      "date": ""
+      "date": "2026-03-01",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Camera Jabber",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://camerajabber.com/reviews/sony-zv-e10-ii-review/",
-      "date": ""
+      "date": "2024-07-10",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Digital Camera World",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.digitalcameraworld.com/reviews/sony-zv-e10-ii-review",
-      "date": ""
+      "date": "2024-07-15",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "RTings",
-      "score": 8.0,
+      "score": 8.5,
       "url": "https://www.rtings.com/camera/reviews/sony/zv-e10-ii",
-      "date": ""
+      "date": "",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 6.0,
+      "score": 7.2,
       "url": "https://www.chip.de/test/Sony-ZV-E10-II-im-CHIP-Test_185589254.html",
-      "date": ""
+      "date": "2024-11-14",
+      "avant": 6.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "DPReview",
@@ -37442,9 +37506,10 @@
       "src": "PhotoTrend",
       "score": null,
       "url": "https://phototrend.fr/2024/07/sony-zv-e10-ii-prise-en-main-test-hybride-aps-c-26-mpx-vlog/",
-      "date": ""
+      "date": "2024-07-10"
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 999.0,
    "img": "sony-zv-e10-ii.webp",
@@ -37496,8 +37561,8 @@
     }
    ],
    "press": {
-    "avg": 7.8,
-    "n": 8,
+    "avg": 8.233333333333333,
+    "n": 9,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -37506,58 +37571,84 @@
     ],
     "notes": [
      {
-      "src": "Engadget",
-      "score": 8.4,
-      "url": "https://www.engadget.com/cameras/fujifilm-x-t50-review-a-big-improvement-for-a-lot-more-money-180046809.html?src=rss",
-      "date": ""
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x-t50-review",
+      "date": "2024-05-16",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 8.4,
       "url": "https://www.chip.de/test/Fujiflilm-X-T50-im-Test_185326965.html",
-      "date": ""
+      "date": "2025-08-19",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Engadget",
+      "score": 8.4,
+      "url": "https://www.engadget.com/cameras/fujifilm-x-t50-review-a-big-improvement-for-a-lot-more-money-180046809.html?src=rss",
+      "date": "2024-08-07"
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.4,
+      "url": "https://phototrend.fr/2024/05/test-fujifilm-x-t50/",
+      "date": "2024-05-30",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/reviews/fujifilm-x-t50-review",
+      "date": "2024-05-16",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/fujifilm/2353374_test-du-fujifilm-x-t50-la-puissance-dun-capteur-40-mp-dans-un-boitier-compact",
-      "date": ""
+      "date": "2024-10-02",
+      "verifie": "18/11/2026"
      },
      {
-      "src": "PhotoTrend",
+      "src": "Labo Fnac",
       "score": 8.0,
-      "url": "https://phototrend.fr/2024/05/test-fujifilm-x-t50/",
-      "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": 8.0,
-      "url": "https://www.techradar.com/cameras/mirrorless-cameras/fujifilm-x-t50-review",
-      "date": ""
+      "url": "https://leclaireur.fnac.com/test/526628-test-labo-du-fujifilm-x-t50-un-appareil-neoretro-qui-se-prend-les-pieds-dans-le-tapis/",
+      "date": "2024-10-09",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/fotografia/recensioni-fotografia/recensione-fujifilm-x-t50-la-mirrorless",
-      "date": ""
-     },
-     {
-      "src": "Labo Fnac",
-      "score": 7.0,
-      "url": "https://leclaireur.fnac.com/test/526628-test-labo-du-fujifilm-x-t50-un-appareil-neoretro-qui-se-prend-les-pieds-dans-le-tapis/",
-      "date": ""
+      "date": "2024-07-22",
+      "verifie": "18/11/2026"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 7.9,
       "url": "https://www.rtings.com/camera/reviews/fujifilm/x-t50",
-      "date": ""
+      "date": "",
+      "avant": 7.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/fujifilm-x-t50",
-      "date": ""
+      "date": "2024-06-06"
      },
      {
       "src": "DPReview",
@@ -37566,16 +37657,10 @@
       "date": ""
      },
      {
-      "src": "Digital Camera World",
-      "score": null,
-      "url": "https://www.digitalcameraworld.com/reviews/fujifilm-x-t50-review",
-      "date": ""
-     },
-     {
       "src": "Trusted Reviews",
       "score": null,
       "url": "https://www.trustedreviews.com/reviews/fujifilm-x-t50",
-      "date": ""
+      "date": "2024-05-16"
      }
     ]
    },
@@ -37631,8 +37716,8 @@
     }
    ],
    "press": {
-    "avg": 8.75,
-    "n": 4,
+    "avg": 8.683333333333334,
+    "n": 6,
     "tests": 7,
     "scope": "modele",
     "src": [
@@ -37644,45 +37729,60 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/644155-test-labo-du-fujifilm-x-e5-une-merveille-dhybride-compact/",
-      "date": ""
+      "date": "2025-12-25",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/fujifilm/2767543_test-du-fujifilm-x-e5-ultra-compact-stabilise-et-pret-pour-laventure-nomade",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Fujifilm-X-E5-im-Test_186243189.html",
-      "date": ""
+      "date": "2025-08-24",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.trustedreviews.com/reviews/fujifilm-x-e5",
-      "date": ""
+      "date": "2025-07-29",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": 8.6,
+      "url": "https://www.chip.de/test/Fujifilm-X-E5-im-Test_186243189.html",
+      "date": "2025-09-25",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.5,
+      "url": "https://phototrend.fr/2025/07/test-fujifilm-x-e5/",
+      "date": "2025-07-03",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 7.0,
+      "url": "https://www.wired.com/review/fujifilm-xe5-mirrorless-camera/",
+      "date": "2026-01-10",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "DPReview",
       "score": null,
       "url": "https://www.dpreview.com/reviews/fujifilm-x-e5-review",
       "date": ""
-     },
-     {
-      "src": "PhotoTrend",
-      "score": null,
-      "url": "https://phototrend.fr/2025/07/test-fujifilm-x-e5/",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/fujifilm-xe5-mirrorless-camera/",
-      "date": ""
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 1394.0,
    "img": "fujifilm-x-e5.webp",
@@ -37746,19 +37846,21 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/655590-test-labo-du-sony-a6700-un-redoutable-hybride-a-tout-faire/",
-      "date": ""
+      "date": "2026-02-16",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Engadget",
       "score": 8.8,
       "url": "https://www.engadget.com/sony-a6700-review-the-companys-best-aps-c-camera-yet-164540597.html?src=rss",
-      "date": ""
+      "date": "2024-03-07"
      },
      {
       "src": "Camera Jabber",
       "score": 8.0,
       "url": "https://camerajabber.com/reviews/sony-a6700-review/",
-      "date": ""
+      "date": "2025-03-22",
+      "verifie": "18/11/2026"
      }
     ]
    },
@@ -37810,7 +37912,7 @@
     }
    ],
    "press": {
-    "avg": 8.5,
+    "avg": 9.0,
     "n": 4,
     "tests": 5,
     "scope": "modele",
@@ -37823,25 +37925,33 @@
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/appareil-photo-numerique/nikon-z5ii-p76488/test.html",
-      "date": ""
+      "date": "2025-10-17",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.0,
+      "score": 9.2,
       "url": "https://www.chip.de/test/Nikon-Z5-II-im-Test_186030618.html",
-      "date": ""
+      "date": "2025-06-04",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "PhotoTrend",
+      "score": 8.8,
+      "url": "https://phototrend.fr/2025/04/test-nikon-z5-ii/",
+      "date": "2025-04-03",
+      "avant": 8.0,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/nikon/2758589_test-du-nikon-z5-ii-la-nouvelle-reference-des-appareils-full-frame-a-prix-accessible",
-      "date": ""
-     },
-     {
-      "src": "PhotoTrend",
-      "score": 8.0,
-      "url": "https://phototrend.fr/2025/04/test-nikon-z5-ii/",
-      "date": ""
+      "date": "2025-08-15",
+      "verifie": "18/11/2026"
      },
      {
       "src": "DPReview",
@@ -37849,7 +37959,8 @@
       "url": "https://www.dpreview.com/reviews/nikon-z5ii-initial-review-entry-level-full-frame",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 1674.13,
    "img": "nikon-z5-ii.webp",
@@ -37895,13 +38006,12 @@
      "price": 2299.0,
      "url": "https://www.amazon.fr/dp/B0D79QY952?tag=geekconcept-21",
      "name": "Nikon Hybride Z6III, boitier Nu, Plein Format 24,5 MP, vidéo 6K, jusqu'à 120 i/s, écran Tactile et orientable",
-     "cfg": "vendu par un vendeur tiers",
      "asin": "B0D79QY952"
     }
    ],
    "press": {
-    "avg": 9.6,
-    "n": 5,
+    "avg": 9.333333333333334,
+    "n": 6,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -37913,37 +38023,51 @@
       "src": "Digital Camera World",
       "score": 10.0,
       "url": "https://www.digitalcameraworld.com/reviews/nikon-z6-iii-review",
-      "date": ""
+      "date": "2024-07-09",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/515120-test-labo-nikon-z6-iii-une-qualite-optique-parfaite-pour-ce-plein-format/",
-      "date": ""
+      "date": "2024-10-11",
+      "verifie": "18/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/cameras/mirrorless-cameras/nikon-z6-iii-review",
-      "date": ""
+      "date": "2024-07-26",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/nikon/2066746_test-du-nikon-z6-iii-un-appareil-photo-milieu-de-gamme-qui-a-tout-dun-pro",
-      "date": ""
+      "date": "2024-07-26",
+      "verifie": "18/11/2026"
      },
      {
       "src": "PhotoTrend",
       "score": 9.0,
       "url": "https://phototrend.fr/2024/09/test-nikon-z6-iii/",
-      "date": ""
+      "date": "2024-09-12",
+      "verifie": "18/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 8.0,
+      "url": "https://www.wired.com/review/nikon-z6-iii/",
+      "date": "2025-01-25",
+      "avant": null,
+      "corrige": "18/11/2026",
+      "verifie": "18/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/nikon-z6-iii-test-3206057.html",
-      "date": ""
+      "date": "2024-07-03"
      },
      {
       "src": "DPReview",
@@ -37955,13 +38079,13 @@
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/review-nikon-z6iii-full-frame-mirrorless-camera-singapore-price",
-      "date": ""
+      "date": "2024-08-14"
      },
      {
       "src": "PhotographyLife",
       "score": null,
       "url": "https://photographylife.com/reviews/nikon-z6-iii",
-      "date": ""
+      "date": "2024-09-28"
      },
      {
       "src": "TechTest",
@@ -37974,14 +38098,9 @@
       "score": null,
       "url": "https://www.trustedreviews.com/reviews/nikon-z6-iii",
       "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/nikon-z6-iii/",
-      "date": ""
      }
-    ]
+    ],
+    "releve_source": "18/11/2026"
    },
    "prix": 2299.0,
    "img": "nikon-z6-iii.webp",
