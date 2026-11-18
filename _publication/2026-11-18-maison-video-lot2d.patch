@@ -1,0 +1,817 @@
+diff --git a/_source/data.json b/_source/data.json
+index 6c7ace67..ed996925 100644
+--- a/_source/data.json
++++ b/_source/data.json
+@@ -38271,4 +38271,4 @@
+    "press": {
+-    "avg": 8.445454545454545,
+-    "n": 11,
++    "avg": 8.583333333333334,
++    "n": 12,
+     "tests": 15,
+@@ -38285,3 +38285,4 @@
+       "date": "2025-11-13",
+-      "ajout": "18/11/2026"
++      "ajout": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38291,15 +38292,20 @@
+       "url": "https://www.t3.com/tech/drones/dji-neo-2-review",
+-      "date": ""
++      "date": "2025-11-13",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "Frandroid",
+-      "score": 9.0,
+-      "url": "https://www.frandroid.com/marques/dji/2866097_test-dji-neo-2",
+-      "date": ""
++      "src": "Presse-citron",
++      "score": 9.5,
++      "url": "https://www.presse-citron.net/test-dji-neo-2/",
++      "date": "2025-12-01",
++      "avant": 9.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "Presse-citron",
++      "src": "Frandroid",
+       "score": 9.0,
+-      "url": "https://www.presse-citron.net/test-dji-neo-2/",
+-      "date": ""
++      "url": "https://www.frandroid.com/marques/dji/2866097_test-dji-neo-2",
++      "date": "2025-11-13",
++      "verifie": "18/11/2026"
+      },
+@@ -38310,3 +38316,4 @@
+       "date": "2025-11-13",
+-      "ajout": "18/11/2026"
++      "ajout": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38317,3 +38324,4 @@
+       "date": "2025-12-11",
+-      "ajout": "18/11/2026"
++      "ajout": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38323,3 +38331,4 @@
+       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-neo-2-review-im-test/",
+-      "date": ""
++      "date": "2025-11-18",
++      "verifie": "18/11/2026"
+      },
+@@ -38327,5 +38336,8 @@
+       "src": "01net",
+-      "score": 8.0,
++      "score": 8.6,
+       "url": "https://www.01net.com/tests/dji-neo2-drone-suivi-pas-cher-avis.html",
+-      "date": ""
++      "date": "2025-11-13",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38337,2 +38349,11 @@
+      },
++     {
++      "src": "Les Numériques",
++      "score": 8.0,
++      "url": "https://www.lesnumeriques.com/drone/dji-dji-neo-2-drone-seul-leger-pliable-decollage-at-p77366/test.html",
++      "date": "2025-11-20",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
+      {
+@@ -38341,3 +38362,4 @@
+       "url": "https://www.theverge.com/tech/849707/dji-neo-2-review-i-guess-im-a-drone-guy-now",
+-      "date": ""
++      "date": "2026-01-14",
++      "verifie": "18/11/2026"
+      },
+@@ -38345,5 +38367,8 @@
+       "src": "Chip.de",
+-      "score": 4.0,
++      "score": 5.0,
+       "url": "https://www.chip.de/test/DJI-Neo-2-im-Test_186389817.html",
+-      "date": ""
++      "date": "2025-11-20",
++      "avant": 4.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38353,3 +38378,3 @@
+       "url": "https://www.smartworld.it/recensioni/dji-neo-2",
+-      "date": ""
++      "date": "2025-11-14"
+      },
+@@ -38359,9 +38384,3 @@
+       "url": "https://www.helicomicro.com/2025/11/13/dji-neo-2-test/",
+-      "date": ""
+-     },
+-     {
+-      "src": "Les Numériques",
+-      "score": null,
+-      "url": "https://www.lesnumeriques.com/drone/dji-dji-neo-2-drone-seul-leger-pliable-decollage-at-p77366/test.html",
+-      "date": ""
++      "date": "2025-11-13"
+      },
+@@ -38371,3 +38390,3 @@
+       "url": "https://techbroll.com/2025/12/dji-neo-2-review-better-in-every-way.html",
+-      "date": ""
++      "date": "2025-12-14"
+      }
+@@ -38423,4 +38442,4 @@
+    "press": {
+-    "avg": 8.083333333333334,
+-    "n": 12,
++    "avg": 8.192307692307692,
++    "n": 13,
+     "tests": 18,
+@@ -38436,3 +38455,4 @@
+       "url": "https://camerajabber.com/reviews/dji-neo-review/",
+-      "date": ""
++      "date": "2024-09-05",
++      "verifie": "18/11/2026"
+      },
+@@ -38442,3 +38462,3 @@
+       "url": "https://www.engadget.com/cameras/dji-neo-review-the-best-200-drone-ever-made-010032884.html?src=rss",
+-      "date": ""
++      "date": "2024-10-09"
+      },
+@@ -38454,3 +38474,4 @@
+       "url": "https://www.slashgear.com/1696067/dji-neo-review-the-best-cheap-controllerless-starter-drone/",
+-      "date": ""
++      "date": "2024-10-23",
++      "verifie": "18/11/2026"
+      },
+@@ -38460,3 +38481,22 @@
+       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-neo-test/",
+-      "date": ""
++      "date": "2024-11-14",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "StudioSport",
++      "score": 8.6,
++      "url": "https://blog.studiosport.fr/test-complet-du-drone-dji-neo/",
++      "date": "2024-09-05",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Presse-citron",
++      "score": 8.5,
++      "url": "https://www.presse-citron.net/test-dji-neo/",
++      "date": "2024-11-13",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38466,3 +38506,4 @@
+       "url": "https://www.digitalcameraworld.com/reviews/dji-neo-review",
+-      "date": ""
++      "date": "2024-09-05",
++      "verifie": "18/11/2026"
+      },
+@@ -38472,15 +38513,12 @@
+       "url": "https://www.hardwarezone.com.sg/review-dji-neo-drone-review-singapore-price-specs-buy",
+-      "date": ""
+-     },
+-     {
+-      "src": "Presse-citron",
+-      "score": 8.0,
+-      "url": "https://www.presse-citron.net/test-dji-neo/",
+-      "date": ""
++      "date": "2024-12-14"
+      },
+      {
+-      "src": "StudioSport",
++      "src": "Trusted Reviews",
+       "score": 8.0,
+-      "url": "https://blog.studiosport.fr/test-complet-du-drone-dji-neo/",
+-      "date": ""
++      "url": "https://www.trustedreviews.com/reviews/dji-neo",
++      "date": "2024-09-20",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38490,3 +38528,4 @@
+       "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dji-neo-un-drone-piccolo-ma-sorprendente",
+-      "date": ""
++      "date": "2025-03-03",
++      "verifie": "18/11/2026"
+      },
+@@ -38496,3 +38535,4 @@
+       "url": "https://www.frandroid.com/marques/dji/2319714_test-du-dji-neo-un-drone-de-poche-pour-les-reseaux-sociaux",
+-      "date": ""
++      "date": "2024-09-05",
++      "verifie": "18/11/2026"
+      },
+@@ -38500,5 +38540,8 @@
+       "src": "Chip.de",
+-      "score": 4.0,
++      "score": 4.4,
+       "url": "https://www.chip.de/test/DJI-Neo-im-Test_185444737.html",
+-      "date": ""
++      "date": "2026-04-28",
++      "avant": 4.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38508,3 +38551,3 @@
+       "url": "https://www.smartworld.it/recensioni/dji-neo",
+-      "date": ""
++      "date": "2024-09-05"
+      },
+@@ -38520,3 +38563,3 @@
+       "url": "https://www.helicomicro.com/2024/09/05/dji-neo-test-review/",
+-      "date": ""
++      "date": "2024-09-05"
+      },
+@@ -38526,3 +38569,3 @@
+       "url": "https://www.notebookcheck.com/Brandneue-DJI-Neo-im-Hands-On-DJIs-bislang-leichteste-und-preiswerteste-Video-Drohne.882487.0.html",
+-      "date": ""
++      "date": "2024-09-05"
+      },
+@@ -38532,9 +38575,3 @@
+       "url": "https://techbroll.com/2025/01/dji-neo-review.html",
+-      "date": ""
+-     },
+-     {
+-      "src": "Trusted Reviews",
+-      "score": null,
+-      "url": "https://www.trustedreviews.com/reviews/dji-neo",
+-      "date": ""
++      "date": "2025-01-16"
+      }
+@@ -38590,4 +38627,4 @@
+    "press": {
+-    "avg": 8.488888888888889,
+-    "n": 9,
++    "avg": 8.566666666666666,
++    "n": 12,
+     "tests": 16,
+@@ -38603,3 +38640,4 @@
+       "url": "https://camerajabber.com/reviews/dji-flip-review/",
+-      "date": ""
++      "date": "2025-01-14",
++      "verifie": "18/11/2026"
+      },
+@@ -38609,3 +38647,4 @@
+       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-flip-test/",
+-      "date": ""
++      "date": "2025-03-03",
++      "verifie": "18/11/2026"
+      },
+@@ -38615,9 +38654,22 @@
+       "url": "https://www.slashgear.com/1761388/dji-flip-review-flipping-flying-revolutionary-drone-cameras-testing/",
+-      "date": ""
++      "date": "2025-01-14",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "Engadget",
+-      "score": 8.2,
+-      "url": "https://www.engadget.com/cameras/dji-flip-review-a-unique-and-useful-creator-drone-with-a-few-flaws-181507462.html?src=rss",
+-      "date": ""
++      "src": "Trusted Reviews",
++      "score": 9.0,
++      "url": "https://www.trustedreviews.com/reviews/dji-flip",
++      "date": "2025-01-14",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "StudioSport",
++      "score": 8.7,
++      "url": "https://blog.studiosport.fr/test-dji-flip-2/",
++      "date": "2025-04-23",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38625,5 +38677,23 @@
+       "src": "Chip.de",
+-      "score": 8.0,
++      "score": 8.4,
+       "url": "https://www.chip.de/test/DJI-Flip-im-Test_185716021.html",
+-      "date": ""
++      "date": "2025-02-12",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "GeekCulture",
++      "score": 8.3,
++      "url": "https://geekculture.co/dji-flip-drone-review/",
++      "date": "2025-01-14",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Engadget",
++      "score": 8.2,
++      "url": "https://www.engadget.com/cameras/dji-flip-review-a-unique-and-useful-creator-drone-with-a-few-flaws-181507462.html?src=rss",
++      "date": "2025-02-21"
+      },
+@@ -38633,3 +38703,4 @@
+       "url": "https://www.frandroid.com/marques/dji/2470118_test-du-dji-flip-petit-format-grandes-ambitions",
+-      "date": ""
++      "date": "2025-01-14",
++      "verifie": "18/11/2026"
+      },
+@@ -38639,15 +38710,20 @@
+       "url": "https://www.presse-citron.net/test-dji-flip/",
+-      "date": ""
++      "date": "2025-01-27",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "StudioSport",
++      "src": "TechRadar",
+       "score": 8.0,
+-      "url": "https://blog.studiosport.fr/test-dji-flip-2/",
+-      "date": ""
++      "url": "https://www.techradar.com/cameras/drones/dji-flip-review-a-new-breed-of-beginner-drone",
++      "date": "2025-01-14",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "TechRadar",
++      "src": "Wired",
+       "score": 8.0,
+-      "url": "https://www.techradar.com/cameras/drones/dji-flip-review-a-new-breed-of-beginner-drone",
+-      "date": ""
++      "url": "https://www.wired.com/review/dji-flip/",
++      "date": "2025-01-28",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38657,9 +38733,3 @@
+       "url": "https://www.smartworld.it/recensioni/dji-flip",
+-      "date": ""
+-     },
+-     {
+-      "src": "GeekCulture",
+-      "score": null,
+-      "url": "https://geekculture.co/dji-flip-drone-review/",
+-      "date": ""
++      "date": "2025-02-27"
+      },
+@@ -38669,3 +38739,3 @@
+       "url": "https://www.helicomicro.com/2025/01/14/dji-flip-test-c0/",
+-      "date": ""
++      "date": "2025-01-14"
+      },
+@@ -38675,3 +38745,3 @@
+       "url": "https://www.notebookcheck.com/DJI-Flip-im-Test-Die-Kameradrohne-fuer-Vlogs-ist-faltbar-kostet-439-Euro-und-begruendet-neue-Flip-Serie.943049.0.html",
+-      "date": ""
++      "date": "2025-01-14"
+      },
+@@ -38681,15 +38751,3 @@
+       "url": "https://techbroll.com/2025/01/dji-flip-unboxing-and-first-impressions.html",
+-      "date": ""
+-     },
+-     {
+-      "src": "Trusted Reviews",
+-      "score": null,
+-      "url": "https://www.trustedreviews.com/reviews/dji-flip",
+-      "date": ""
+-     },
+-     {
+-      "src": "Wired",
+-      "score": null,
+-      "url": "https://www.wired.com/review/dji-flip/",
+-      "date": ""
++      "date": "2025-01-16"
+      }
+@@ -38751,4 +38809,4 @@
+    "press": {
+-    "avg": 8.666666666666666,
+-    "n": 3,
++    "avg": 8.75,
++    "n": 4,
+     "tests": 6,
+@@ -38764,9 +38822,13 @@
+       "url": "https://www.trustedreviews.com/reviews/dji-lito-x1",
+-      "date": ""
++      "date": "2026-04-23",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "AndroidWorld",
+-      "score": 8.0,
+-      "url": "https://www.smartworld.it/recensioni/dji-lito-x1",
+-      "date": ""
++      "src": "Chip.de",
++      "score": 8.6,
++      "url": "https://www.chip.de/test/DJI-Lito-X1-im-Test_186899684.html",
++      "date": "2026-06-02",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38774,11 +38836,14 @@
+       "src": "StudioSport",
+-      "score": 8.0,
++      "score": 8.4,
+       "url": "https://blog.studiosport.fr/test-du-dji-lito-x1/",
+-      "date": ""
++      "date": "2026-08-07",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "Chip.de",
+-      "score": null,
+-      "url": "https://www.chip.de/test/DJI-Lito-X1-im-Test_186899684.html",
+-      "date": ""
++      "src": "AndroidWorld",
++      "score": 8.0,
++      "url": "https://www.smartworld.it/recensioni/dji-lito-x1",
++      "date": "2026-04-24"
+      },
+@@ -38794,3 +38859,3 @@
+       "url": "https://www.helicomicro.com/2026/04/23/dji-lito-x1-test/",
+-      "date": ""
++      "date": "2026-04-23"
+      }
+@@ -38846,3 +38911,3 @@
+    "press": {
+-    "avg": 7.0,
++    "avg": 7.6,
+     "n": 4,
+@@ -38857,17 +38922,24 @@
+       "src": "Mac Sources",
+-      "score": 8.0,
++      "score": 8.7,
+       "url": "https://macsources.com/potensic-atom-2-drone-review-lightweight-easy-to-fly-4k-drone-for-beginners/",
+-      "date": ""
++      "date": "2025-08-11",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "T3",
+-      "score": 8.0,
+-      "url": "https://www.t3.com/tech/drones/potensic-atom-2-ptd-1-controller-review",
+-      "date": ""
++      "src": "tuttoteK",
++      "score": 8.7,
++      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-potensic-atom-2-miglior-drone-da-comprare",
++      "date": "2025-09-08",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "tuttoteK",
++      "src": "T3",
+       "score": 8.0,
+-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-potensic-atom-2-miglior-drone-da-comprare",
+-      "date": ""
++      "url": "https://www.t3.com/tech/drones/potensic-atom-2-ptd-1-controller-review",
++      "date": "2026-01-22",
++      "verifie": "18/11/2026"
+      },
+@@ -38875,7 +38947,11 @@
+       "src": "Chip.de",
+-      "score": 4.0,
++      "score": 5.0,
+       "url": "https://www.chip.de/test/Ist-diese-guenstige-Drohne-so-gut-wie-eine-DJI-Potensic-Atom-2-im-CHIP-Test_186067126.html",
+-      "date": ""
++      "date": "2025-06-26",
++      "avant": 4.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      }
+-    ]
++    ],
++    "releve_source": "18/11/2026"
+    },
+@@ -38929,3 +39005,3 @@
+    "press": {
+-    "avg": 8.0,
++    "avg": 8.15,
+     "n": 2,
+@@ -38940,5 +39016,8 @@
+       "src": "Mac Sources",
+-      "score": 8.0,
++      "score": 8.3,
+       "url": "https://macsources.com/hoverair-x1-pro-review/",
+-      "date": ""
++      "date": "2026-09-21",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -38948,3 +39027,3 @@
+       "url": "https://www.techradar.com/cameras/drones/hoverairs-x1-pro-and-pro-max-drones-will-soon-take-flight-as-a-new-preview-pops-up-online",
+-      "date": ""
++      "date": "2024-08-15"
+      },
+@@ -38954,3 +39033,3 @@
+       "url": "https://www.helicomicro.com/2024/11/17/hoverair-x1-pro-test/",
+-      "date": ""
++      "date": "2024-11-17"
+      }
+@@ -39005,3 +39084,3 @@
+    "press": {
+-    "avg": 8.55,
++    "avg": 8.8625,
+     "n": 8,
+@@ -39018,3 +39097,13 @@
+       "url": "https://www.trustedreviews.com/reviews/dji-avata-360",
+-      "date": ""
++      "date": "2026-03-26",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Presse-citron",
++      "score": 9.5,
++      "url": "https://www.presse-citron.net/test-dji-avata-360/",
++      "date": "2026-06-24",
++      "avant": 9.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39024,9 +39113,22 @@
+       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-avata-360-test/",
+-      "date": ""
++      "date": "2026-05-05",
++      "verifie": "18/11/2026"
+      },
+      {
+-      "src": "Presse-citron",
++      "src": "Les Numériques",
+       "score": 9.0,
+-      "url": "https://www.presse-citron.net/test-dji-avata-360/",
+-      "date": ""
++      "url": "https://www.lesnumeriques.com/drone/dji-dji-avata-360-rc-2-drone-avec-imagerie-3600-8k-de-1-p78076/test.html",
++      "date": "2026-04-23",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Tom's Guide (US)",
++      "score": 9.0,
++      "url": "https://www.tomsguide.com/cameras-photography/drones/dji-avata-360-review",
++      "date": "2026-03-26",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39036,3 +39138,3 @@
+       "url": "https://www.engadget.com/cameras/dji-avata-360-drone-review-360-video-hits-new-highs-120014666.html?src=rss",
+-      "date": ""
++      "date": "2026-03-26"
+      },
+@@ -39042,9 +39144,3 @@
+       "url": "https://www.smartworld.it/recensioni/dji-avata-360",
+-      "date": ""
+-     },
+-     {
+-      "src": "Les Numériques",
+-      "score": 8.0,
+-      "url": "https://www.lesnumeriques.com/drone/dji-dji-avata-360-rc-2-drone-avec-imagerie-3600-8k-de-1-p78076/test.html",
+-      "date": ""
++      "date": "2026-03-26"
+      },
+@@ -39054,9 +39150,4 @@
+       "url": "https://www.t3.com/tech/drones/dji-avata-360-review",
+-      "date": ""
+-     },
+-     {
+-      "src": "Tom's Guide (US)",
+-      "score": 8.0,
+-      "url": "https://www.tomsguide.com/cameras-photography/drones/dji-avata-360-review",
+-      "date": ""
++      "date": "2026-04-10",
++      "verifie": "18/11/2026"
+      },
+@@ -39066,3 +39157,3 @@
+       "url": "https://www.chip.de/test-kaufberatung/foto-video/dji-avata-360-test_0aa8f442-0f53-4751-ad52-d5bb2763c838.html",
+-      "date": ""
++      "date": "2026-04-30"
+      },
+@@ -39072,3 +39163,3 @@
+       "url": "https://www.connect.de/testbericht/dji-anata-360-test-8k-drohne-3212189.html",
+-      "date": ""
++      "date": "2026-03-26"
+      },
+@@ -39078,3 +39169,3 @@
+       "url": "https://www.helicomicro.com/2026/03/26/dji-avata-360-test/",
+-      "date": ""
++      "date": "2026-03-26"
+      },
+@@ -39084,3 +39175,3 @@
+       "url": "https://www.notebookcheck.com/DJI-Avata-360-im-Test-Diese-360-Drohne-veraendert-wie-man-Videos-dreht.1248679.0.html",
+-      "date": ""
++      "date": "2026-03-27"
+      },
+@@ -39090,3 +39181,3 @@
+       "url": "https://photographylife.com/dji-avata-360-review-seeing-the-andes-through-the-eyes-of-a-condor",
+-      "date": ""
++      "date": "2026-09-15"
+      }
+@@ -39142,4 +39233,4 @@
+    "press": {
+-    "avg": 9.3,
+-    "n": 10,
++    "avg": 9.281818181818181,
++    "n": 11,
+     "tests": 13,
+@@ -39155,3 +39246,4 @@
+       "url": "https://camerajabber.com/reviews/dji-mini-5-pro-review/",
+-      "date": ""
++      "date": "2025-12-18",
++      "verifie": "18/11/2026"
+      },
+@@ -39162,9 +39254,4 @@
+       "date": "2025-09-17",
+-      "ajout": "18/11/2026"
+-     },
+-     {
+-      "src": "Les Numériques",
+-      "score": 10.0,
+-      "url": "https://www.lesnumeriques.com/drone/dji-mini-5-pro-p77130/test.html",
+-      "date": ""
++      "ajout": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39175,3 +39262,4 @@
+       "date": "2025-09-17",
+-      "ajout": "18/11/2026"
++      "ajout": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39182,3 +39270,4 @@
+       "date": "2025-10-03",
+-      "ajout": "18/11/2026"
++      "ajout": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39188,3 +39277,4 @@
+       "url": "https://www.trustedreviews.com/reviews/dji-mini-5-pro",
+-      "date": ""
++      "date": "2025-10-14",
++      "verifie": "18/11/2026"
+      },
+@@ -39194,3 +39284,22 @@
+       "url": "https://www.frandroid.com/marques/dji/2802745_test-du-dji-mini-5-pro-la-qualite-dimage-franchit-un-nouveau-cap",
+-      "date": ""
++      "date": "2025-09-28",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Les Numériques",
++      "score": 9.0,
++      "url": "https://www.lesnumeriques.com/drone/dji-mini-5-pro-p77130/test.html",
++      "date": "2025-10-13",
++      "avant": 10.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Wired",
++      "score": 9.0,
++      "url": "https://www.wired.com/review/dji-mini-5-pro/",
++      "date": "2025-10-14",
++      "avant": null,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39198,5 +39307,8 @@
+       "src": "Chip.de",
+-      "score": 8.0,
++      "score": 8.6,
+       "url": "https://www.chip.de/test/DJI-Mini-5-Pro-im-Test_186272704.html",
+-      "date": ""
++      "date": "2025-12-16",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39204,5 +39316,8 @@
+       "src": "Presse-citron",
+-      "score": 8.0,
++      "score": 8.5,
+       "url": "https://www.presse-citron.net/test-dji-mini-5-pro/",
+-      "date": ""
++      "date": "2025-12-20",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39212,3 +39327,4 @@
+       "url": "https://www.t3.com/tech/drones/dji-mini-5-pro-review",
+-      "date": ""
++      "date": "2025-11-04",
++      "verifie": "18/11/2026"
+      },
+@@ -39224,11 +39340,6 @@
+       "url": "https://www.helicomicro.com/2025/09/17/dji-mini-5-pro-test/",
+-      "date": ""
+-     },
+-     {
+-      "src": "Wired",
+-      "score": null,
+-      "url": "https://www.wired.com/review/dji-mini-5-pro/",
+-      "date": ""
++      "date": "2025-09-17"
+      }
+-    ]
++    ],
++    "releve_source": "18/11/2026"
+    },
+@@ -39282,3 +39393,3 @@
+    "press": {
+-    "avg": 9.0,
++    "avg": 9.442857142857141,
+     "n": 7,
+@@ -39295,3 +39406,13 @@
+       "url": "https://camerajabber.com/reviews/dji-mavic-4-pro-review/",
+-      "date": ""
++      "date": "2025-05-13",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "TechRadar",
++      "score": 10.0,
++      "url": "https://www.techradar.com/cameras/drones/dji-mavic-pro-4-review",
++      "date": "2025-05-13",
++      "avant": 9.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39301,3 +39422,13 @@
+       "url": "https://www.trustedreviews.com/reviews/dji-mavic-4-pro",
+-      "date": ""
++      "date": "2025-05-13",
++      "verifie": "18/11/2026"
++     },
++     {
++      "src": "Chip.de",
++      "score": 9.6,
++      "url": "https://www.chip.de/test/DJI-Mavic-4-Pro-im-Test_185975965.html",
++      "date": "2025-05-20",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39307,3 +39438,4 @@
+       "url": "https://www.frandroid.com/marques/dji/2610997_test-du-dji-mavic-4-pro-capteurs-et-optiques-nouvelle-generation-autonomie-record",
+-      "date": ""
++      "date": "2025-05-13",
++      "verifie": "18/11/2026"
+      },
+@@ -39313,15 +39445,4 @@
+       "url": "https://blog.studiosport.fr/test-du-dji-mavic-4-pro-un-drone-au-sommet-de-limage/",
+-      "date": ""
+-     },
+-     {
+-      "src": "TechRadar",
+-      "score": 9.0,
+-      "url": "https://www.techradar.com/cameras/drones/dji-mavic-pro-4-review",
+-      "date": ""
+-     },
+-     {
+-      "src": "Chip.de",
+-      "score": 8.0,
+-      "url": "https://www.chip.de/test/DJI-Mavic-4-Pro-im-Test_185975965.html",
+-      "date": ""
++      "date": "2025-05-23",
++      "verifie": "18/11/2026"
+      },
+@@ -39329,5 +39450,8 @@
+       "src": "PhotoTrend",
+-      "score": 8.0,
++      "score": 8.5,
+       "url": "https://phototrend.fr/2025/05/test-drone-dji-mavic-4-pro/",
+-      "date": ""
++      "date": "2025-05-13",
++      "avant": 8.0,
++      "corrige": "18/11/2026",
++      "verifie": "18/11/2026"
+      },
+@@ -39337,5 +39461,6 @@
+       "url": "https://www.helicomicro.com/2025/05/13/dji-mavic-4-pro-test/",
+-      "date": ""
++      "date": "2025-05-13"
+      }
+-    ]
++    ],
++    "releve_source": "18/11/2026"
+    },
