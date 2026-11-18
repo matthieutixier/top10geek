@@ -806,19 +806,19 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 599.98,
+     "price": 589.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-hp-17-omnibook-3-17-dp0046nfx-r5-8-256go.html",
      "name": "Pc Portable Hp 17,3'' Omnibook 3 17-dp0046nfx-r5/8/256go/argent",
      "cfg": "8 Go · 256 Go",
      "ean": "0821844416990",
      "edid": "10019070",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "img": "omnibook3-17.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 599.98
+   "prix": 589.98
   },
   "surface-laptop-13": {
    "cat": "bureau",
@@ -6994,7 +6994,7 @@
      "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go",
      "ean": "0199275183737",
      "edid": "10018724",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "img": "ideapad-slim3.webp",
@@ -7190,7 +7190,7 @@
      "cfg": "4 Go · 64 Go",
      "ean": "4711721178829",
      "edid": "10018899",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "img": "chromebook-315.webp",
@@ -7678,7 +7678,7 @@
      "cfg": "4 Go · 128 Go",
      "ean": "0199275252853",
      "edid": "10018811",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "img": "ideapad-slim3-cb14.webp",
@@ -18412,13 +18412,13 @@
     },
     {
      "m": "Electro Dépôt",
-     "price": 129.98,
+     "price": 118.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-nomade-canon-selphy-cp1500-noire.html",
      "name": "Imprimante Photo Wifi Canon Selphy Cp1500 Noire - Impression Format Photo (10x15cm)",
      "cfg": "",
      "ean": "4549292194692",
      "edid": "10018462",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -18466,7 +18466,7 @@
     ],
     "releve_source": "06/11/2026"
    },
-   "prix": 129.98,
+   "prix": 118.98,
    "img": "canon-selphy-cp1500.webp",
    "rating": null,
    "nrev": 0,
@@ -19191,7 +19191,7 @@
      "cfg": "",
      "ean": "4549292247985",
      "edid": "10020364",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -19270,13 +19270,13 @@
     },
     {
      "m": "Electro Dépôt",
-     "price": 48.98,
+     "price": 44.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-epson-xp-2205.html",
      "name": "Imprimante Epson Expression Xp-2205 Multifonction",
      "cfg": "version XP-2205",
      "ean": "8715946702797",
      "edid": "975904",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -19307,7 +19307,7 @@
     ],
     "releve_source": "06/11/2026"
    },
-   "prix": 48.76,
+   "prix": 44.98,
    "img": "epson-xp-2200.webp",
    "rating": null,
    "nrev": 0
@@ -19349,7 +19349,7 @@
      "cfg": "version TS4150i",
      "ean": "4549292248067",
      "edid": "10016130",
-     "releve": "2026-11-13",
+     "releve": "2026-11-18",
      "dispo": false
     }
    ],
@@ -19486,7 +19486,7 @@
      "cfg": "",
      "ean": "4549292237368",
      "edid": "10017501",
-     "releve": "2026-11-13",
+     "releve": "2026-11-18",
      "dispo": false
     }
    ],
@@ -19563,7 +19563,7 @@
      "cfg": "",
      "ean": "4549292247947",
      "edid": "10020365",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -19692,7 +19692,7 @@
      "cfg": "",
      "ean": "0198154304485",
      "edid": "10012839",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -19762,7 +19762,7 @@
      "cfg": "",
      "ean": "4038986182980",
      "edid": "10010548",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -19825,7 +19825,7 @@
      "cfg": "",
      "ean": "8715946737331",
      "edid": "10013177",
-     "releve": "2026-11-13",
+     "releve": "2026-11-18",
      "dispo": false
     }
    ],
@@ -19895,7 +19895,7 @@
      "cfg": "",
      "ean": "0196786388484",
      "edid": "10003125",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -19964,7 +19964,7 @@
      "cfg": "",
      "ean": "0197029469199",
      "edid": "993267",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -20034,7 +20034,7 @@
      "cfg": "",
      "ean": "0197498438948",
      "edid": "10002597",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -20103,7 +20103,7 @@
      "cfg": "",
      "ean": "0198828789815",
      "edid": "10013176",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -21448,7 +21448,7 @@
      "cfg": "",
      "ean": "6977328066381",
      "edid": "10011577",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -21604,7 +21604,7 @@
      "cfg": "",
      "ean": "6978515257025",
      "edid": "10016676",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -21808,7 +21808,7 @@
      "cfg": "",
      "ean": "6978794732749",
      "edid": "10016684",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -21934,7 +21934,7 @@
      "cfg": "",
      "ean": "6979181924129",
      "edid": "10020078",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -23183,7 +23183,7 @@
      "cfg": "",
      "ean": "6974653813628",
      "edid": "10020540",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -23277,13 +23277,13 @@
     },
     {
      "m": "Electro Dépôt",
-     "price": 289.0,
+     "price": 285.0,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fnettoyeur-de-sols-dreame-h15-pro.html",
      "name": "Aspirateur Laveur Dreame H15 Pro",
      "cfg": "",
      "ean": "6977328063854",
      "edid": "10009023",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -23418,7 +23418,7 @@
      }
     ]
    },
-   "prix": 289.0,
+   "prix": 285.0,
    "img": "dreame-h15-pro.webp",
    "rating": null,
    "nrev": 0,
@@ -23605,7 +23605,7 @@
      "cfg": "",
      "ean": "6976233676067",
      "edid": "10019413",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -24649,7 +24649,7 @@
      "cfg": "",
      "ean": "3700342483376",
      "edid": "10009171",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -27642,7 +27642,7 @@
      "cfg": "",
      "ean": "6942351417325",
      "edid": "10011457",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -27760,7 +27760,7 @@
      "cfg": "",
      "ean": "8806096058640",
      "edid": "10015474",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -28472,7 +28472,7 @@
      "cfg": "",
      "ean": "1200130034282",
      "edid": "10018105",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -28995,7 +28995,7 @@
      "cfg": "",
      "ean": "1200130024849",
      "edid": "10013118",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -29138,13 +29138,13 @@
     },
     {
      "m": "Electro Dépôt",
-     "price": 34.5,
+     "price": 28.9,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fenceinte-jbl-go-essential-2-noir.html",
      "name": "Enceinte Jbl Go Essential 2 Noir",
      "cfg": "",
      "ean": "1200130018589",
      "edid": "10005191",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -29167,7 +29167,7 @@
     ],
     "releve_source": "11/11/2026"
    },
-   "prix": 29.0,
+   "prix": 28.9,
    "img": "jbl-go-essential-2.webp",
    "rating": null,
    "nrev": 0
@@ -29196,7 +29196,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 127.65,
+     "price": 119.0,
      "url": "https://www.amazon.fr/dp/B0CF8R2P24?tag=geekconcept-21",
      "name": "eufy SoloCamS340 3K Caméra surveillance wifi extérieur sans fil",
      "cfg": "vendu par un vendeur tiers",
@@ -29257,7 +29257,7 @@
      }
     ]
    },
-   "prix": 127.65,
+   "prix": 119.0,
    "img": "eufy-solocam-s340.webp",
    "rating": null,
    "nrev": 0,
@@ -29298,7 +29298,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 199.99,
+     "price": 149.99,
      "url": "https://www.amazon.fr/dp/B0CM34VG3X?tag=geekconcept-21",
      "name": "Reolink 16MP Camera PoE avec Double Objectif Vue Panor à 180°, Duo 3 PoE",
      "cfg": "vendu par un vendeur tiers",
@@ -29377,7 +29377,7 @@
      }
     ]
    },
-   "prix": 199.99,
+   "prix": 149.99,
    "img": "reolink-duo-3-poe.webp",
    "rating": null,
    "nrev": 0,
@@ -29420,7 +29420,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 299.0,
+     "price": 279.0,
      "url": "https://www.amazon.fr/dp/B0FH52BSZ7?tag=geekconcept-21",
      "name": "eufy Security eufyCam S4 4K UHD Caméra Surveillance WiFi extérieur sans Fil",
      "cfg": "vendu par un vendeur tiers",
@@ -29481,7 +29481,7 @@
      }
     ]
    },
-   "prix": 299.0,
+   "prix": 279.0,
    "img": "eufycam-s4.webp",
    "rating": null,
    "nrev": 0,
@@ -29523,7 +29523,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 144.99,
+     "price": 117.54,
      "url": "https://www.amazon.fr/dp/B0FDQTRVSZ?tag=geekconcept-21",
      "name": "Tapo 4K Camera Exterieur sans fil solaire 360° Suivi IA, C660 KIT",
      "cfg": "vendu par un vendeur tiers",
@@ -29596,7 +29596,7 @@
      }
     ]
    },
-   "prix": 144.99,
+   "prix": 117.54,
    "img": "tapo-c660.webp",
    "rating": null,
    "nrev": 0,
@@ -29640,7 +29640,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 98.98,
+     "price": 72.89,
      "url": "https://www.amazon.fr/dp/B0CMCWXPFX?tag=geekconcept-21",
      "name": "Tapo 2K+ Camera Exterieur sans fil Batterie 10000mAh Autonomie de 300j, C425",
      "cfg": "",
@@ -29689,7 +29689,7 @@
      }
     ]
    },
-   "prix": 98.98,
+   "prix": 72.89,
    "img": "tapo-c425.webp",
    "rating": null,
    "nrev": 0,
@@ -29731,7 +29731,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 195.51,
+     "price": 155.78,
      "url": "https://www.amazon.fr/dp/B0D1BNPRR6?tag=geekconcept-21",
      "name": "Reolink 4K 180° Camera Exterieur sans Fil Solaire, ColorX, Argus 4 Pro",
      "cfg": "vendu par un vendeur tiers",
@@ -29828,7 +29828,7 @@
      }
     ]
    },
-   "prix": 195.51,
+   "prix": 155.78,
    "img": "reolink-argus-4-pro.webp",
    "rating": null,
    "nrev": 0,
@@ -29940,7 +29940,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 99.99,
+     "price": 79.99,
      "url": "https://www.amazon.fr/dp/B0F18235L4?tag=geekconcept-21",
      "name": "Reolink 4K 360° Caméra Surveillance WiFi Intérieure, E1 Zoom",
      "cfg": "",
@@ -29977,7 +29977,7 @@
      }
     ]
    },
-   "prix": 99.99,
+   "prix": 79.99,
    "img": "reolink-e1-zoom.webp",
    "rating": null,
    "nrev": 0,
@@ -30015,7 +30015,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 42.99,
+     "price": 38.99,
      "url": "https://www.amazon.fr/dp/B0CCW8GHT8?tag=geekconcept-21",
      "name": "Tapo 2K+ Camera Exterieur WiFi 360° Vision Nocturne Couleur Avancée, C520WS",
      "cfg": "",
@@ -30029,7 +30029,7 @@
      "cfg": "",
      "ean": "4895252501599",
      "edid": "10009498",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -30050,7 +30050,7 @@
      }
     ]
    },
-   "prix": 39.0,
+   "prix": 38.99,
    "img": "tapo-c520ws.webp",
    "rating": null,
    "nrev": 0
@@ -30079,7 +30079,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 74.99,
+     "price": 24.99,
      "url": "https://www.amazon.fr/dp/B0B1N5RL1Q?tag=geekconcept-21",
      "name": "Caméra Blink Outdoor 4 : caméra de surveillance connectée HD sans fil, 2 ans d'autonomie (caméra supplémentaire uniquement)",
      "cfg": "",
@@ -30128,7 +30128,7 @@
      }
     ]
    },
-   "prix": 74.99,
+   "prix": 24.99,
    "img": "blink-outdoor-4.webp",
    "rating": null,
    "nrev": 0,
@@ -31489,7 +31489,7 @@
      "cfg": "",
      "ean": "0195949689673",
      "edid": "10008780",
-     "releve": "2026-11-13"
+     "releve": "2026-11-18"
     }
    ],
    "press": {
@@ -32274,7 +32274,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 362.0,
+     "price": 422.66,
      "url": "https://www.amazon.fr/dp/B07FW4CZZL?tag=geekconcept-21",
      "name": "Bundle Aventure DJI Osmo Action 5 Pro, caméra d'action 4K voyage/vlog, capteur 1/1,3, 12 h d'autonomie avec 3 batteries",
      "cfg": "",
@@ -32282,9 +32282,9 @@
     }
    ],
    "press": {
-    "avg": 8.5625,
-    "n": 8,
-    "tests": 12,
+    "avg": 8.65,
+    "n": 10,
+    "tests": 14,
     "scope": "modele",
     "src": [
      "",
@@ -32308,6 +32308,20 @@
       "score": 9.0,
       "url": "https://www.slashgear.com/1668129/dji-osmo-action-5-pro-review-night-dark-performance-camera/",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/cameras/action-cameras/dji-osmo-action-5-pro-review-a-seriously-feature-packed-action-camera",
+      "date": "2024-09-19",
+      "ajout": "18/11/2026"
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 9.0,
+      "url": "https://www.tomsguide.com/cameras-photography/gopro-action-cameras/dji-osmo-action-5-pro-review",
+      "date": "2024-10-14",
+      "ajout": "18/11/2026"
      },
      {
       "src": "Engadget",
@@ -32365,24 +32379,19 @@
      }
     ]
    },
-   "prix": 362.0,
+   "prix": 422.66,
    "img": "dji-osmo-action-5-pro.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "Huit médias ont noté l'Osmo Action 5 Pro, pour une moyenne de 8,6/10. ExpertReviews lui donne 10/10, SlashGear et FrAndroid 9/10, Engadget 8,5/10, tandis que Digital Camera World, Chip.de, ImTest et Camera Jabber s'en tiennent à 8/10.\n\nLes testeurs apprécient les deux écrans tactiles, l'excellente stabilisation, l'étanchéité jusqu'à 20 mètres, une qualité d'image convaincante de jour comme de nuit et une autonomie en hausse. Ils relèvent l'absence de GPS intégré et d'interface HDMI, un bouton déclencheur un peu dur et un système de fixation que GoPro fait mieux cette année.",
-    "date": "2026-10-28",
-    "n": 8,
-    "tests": 12,
+    "texte": "La DJI Osmo Action 5 Pro est une caméra d'action que TechRadar, Tom's Guide et Frandroid présentent comme une rivale directe de la GoPro Hero 13 Black. Les trois tests saluent ses deux écrans OLED tactiles, son étanchéité à 20 mètres sans caisson et une autonomie en nette progression, que Tom's Guide qualifie de remarquable. Frandroid ajoute la réactivité de l'appareil, une stabilisation excellente et le stockage interne, que Tom's Guide chiffre à 47 Go.\n\nCôté image, TechRadar relève une bonne plage dynamique et beaucoup de détails, et Tom's Guide une belle vidéo 4K enrichie de profils de gamma et d'une couleur sur 10 bits. Frandroid juge la qualité bonne de jour comme de nuit, quand TechRadar trouve le mode SuperNight seulement correct. Le couplage sans fil avec les micros DJI, en particulier le Mic 2, est cité comme un atout pour les vidéastes.\n\nLa limite la plus citée est la définition plafonnée à la 4K, sans option 5,3K comme chez GoPro. Frandroid regrette aussi un bouton de déclenchement un peu dur, un système de fixation moins réussi que celui de GoPro et l'absence de GPS intégré.",
+    "date": "2026-11-18",
+    "n": 10,
+    "tests": 14,
     "sources": [
-     "Expert Reviews",
-     "SlashGear",
-     "Frandroid",
-     "Engadget",
-     "Digital Camera World",
-     "Chip.de",
-     "ImTest",
-     "Camera Jabber"
+     "TechRadar",
+     "Tom's Guide",
+     "Frandroid"
     ]
    }
   },
@@ -32418,9 +32427,9 @@
     }
    ],
    "press": {
-    "avg": 9.6,
-    "n": 4,
-    "tests": 10,
+    "avg": 9.566666666666666,
+    "n": 6,
+    "tests": 12,
     "scope": "modele",
     "src": [
      "",
@@ -32432,6 +32441,13 @@
       "score": 10.0,
       "url": "https://camerajabber.com/reviews/dji-osmo-action-6-review/",
       "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 10.0,
+      "url": "https://www.digitalcameraworld.com/cameras/action-cameras/dji-osmo-action-6-review",
+      "date": "2025-11-18",
+      "ajout": "18/11/2026"
      },
      {
       "src": "T3",
@@ -32450,6 +32466,13 @@
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-dji-osmo-action-6/",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/cameras/action-cameras/dji-osmo-action-6-review",
+      "date": "2025-11-18",
+      "ajout": "18/11/2026"
      },
      {
       "src": "ChinaHandys",
@@ -32779,7 +32802,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 336.45,
+     "price": 272.99,
      "url": "https://www.amazon.fr/dp/B0CG19QXWD?tag=geekconcept-21",
      "name": "DJI Osmo Pocket 3, Caméra Vlogging CMOS 1'' et Vidéo 4K/120 IPS, stabilisation à 3 axes",
      "cfg": "",
@@ -32816,7 +32839,7 @@
      }
     ]
    },
-   "prix": 336.45,
+   "prix": 272.99,
    "img": "dji-osmo-pocket-3.webp",
    "rating": null,
    "nrev": 0,
@@ -32855,7 +32878,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 599.0,
+     "price": 569.99,
      "url": "https://www.amazon.fr/dp/B0H2MRDB2C?tag=geekconcept-21",
      "name": "DJI Bundle Standard Osmo Pocket 4P, caméra vlog 4K à Double Objectif, zoom optique 3×",
      "cfg": "",
@@ -32940,7 +32963,7 @@
      }
     ]
    },
-   "prix": 599.0,
+   "prix": 569.99,
    "img": "dji-osmo-pocket-4p.webp",
    "rating": null,
    "nrev": 0,
@@ -33139,7 +33162,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 408.08,
+     "price": 389.0,
      "url": "https://www.amazon.fr/dp/B0FXGWJNNZ?tag=geekconcept-21",
      "name": "Bundle Essentiel DJI Osmo 360, Caméra Moto 360, imagerie 360° de 1 pouce, vidéo 360° en 8K native, perche invisible 1,2 m",
      "cfg": "vendu par un vendeur tiers",
@@ -33242,7 +33265,7 @@
      }
     ]
    },
-   "prix": 408.08,
+   "prix": 389.0,
    "img": "dji-osmo-360.webp",
    "rating": null,
    "nrev": 0,
@@ -35710,8 +35733,8 @@
    ],
    "press": {
     "avg": 8.0,
-    "n": 3,
-    "tests": 5,
+    "n": 4,
+    "tests": 6,
     "scope": "modele",
     "src": [
      "",
@@ -35735,6 +35758,13 @@
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/benq-gp520",
       "date": ""
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 8.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/projectors/benq-gp520",
+      "date": "2025-03-27",
+      "ajout": "18/11/2026"
      },
      {
       "src": "AndroidWorld",
@@ -35790,7 +35820,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 2374.05,
+     "price": 2490.0,
      "url": "https://www.amazon.fr/dp/B0FMXYZCZF?tag=geekconcept-21",
      "name": "XGIMI Horizon 20 Max 4K Videoprojecteur 5700 ISO Triple Laser Home Cinéma | Zoom & Lens Shift, IMAX Enhanced, Dolby Vision, Jusqu'à 300 , 1ms/240Hz VRR, Harman Kardon, Google TV Netflix",
      "cfg": "vendu par un vendeur tiers",
@@ -35798,9 +35828,9 @@
     }
    ],
    "press": {
-    "avg": 9.0,
-    "n": 5,
-    "tests": 10,
+    "avg": 8.857142857142858,
+    "n": 7,
+    "tests": 13,
     "scope": "modele",
     "src": [
      "",
@@ -35832,16 +35862,37 @@
       "date": ""
      },
      {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/televisions/projectors/xgimi-horizon-20-max-review",
+      "date": "2025-12-07",
+      "ajout": "18/11/2026"
+     },
+     {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/xgimi-horizon-20-max",
       "date": ""
      },
      {
+      "src": "What Hi-Fi?",
+      "score": 8.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/projectors/xgimi-horizon-20-max",
+      "date": "2026-04-10",
+      "ajout": "18/11/2026"
+     },
+     {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/xgimi-horizon-20-max-test-review-4k-beamer-vrr-input-lag-maximale-helligkeit-3211021.html",
       "date": ""
+     },
+     {
+      "src": "Expert Reviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/xgimi-horizon-20-max-review",
+      "date": "2026-02-20",
+      "ajout": "18/11/2026"
      },
      {
       "src": "GameRevolution",
@@ -35869,21 +35920,19 @@
      }
     ]
    },
-   "prix": 2374.05,
+   "prix": 2490.0,
    "img": "xgimi-horizon-20-max.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "Cinq médias notent l'Horizon 20 Max, pour une moyenne de 9/10 : Les Numériques lui donne 10/10, Clubic, FrAndroid et IGN 9/10, Trusted Reviews 8/10. Tous le décrivent comme un projecteur 4K triple laser très lumineux, aux couleurs justes et naturelles, avec une interface Google TV fluide.\n\nLes critiques se rejoignent sur ses limites : un contraste et des noirs bornés par la technologie DLP, un système audio en dessous des meilleurs, un effet arc-en-ciel perceptible par les personnes sensibles et un prix élevé.\n\nSa luminosité en fait le candidat des pièces qui ne sont pas totalement sombres, à condition d'accepter le tarif.",
-    "date": "2026-10-28",
-    "n": 5,
-    "tests": 10,
+    "texte": "Le XGIMI Horizon 20 Max est un vidéoprojecteur 4K à triple laser conçu pour le salon. What Hi-Fi?, TechRadar et Clubic mettent tous en avant sa luminosité très élevée, qui permet de l'utiliser dans une pièce de vie sans faire le noir complet. Clubic loue aussi les couleurs et le rendu HDR du triple laser RGB, un piqué précis sur toute l'image, un fonctionnement discret et une interface Google TV fluide, avec Netflix intégré officiellement.\n\nTechRadar apprécie le contraste, les couleurs franches, le son intégré, la réactivité en jeu et les nombreux réglages d'installation. What Hi-Fi? souligne la qualité de fabrication, le design soigné et un son capable de remplir la pièce.\n\nLes réserves portent sur les noirs : What Hi-Fi? les juge en retrait et Clubic attribue ce contraste perfectible à la technologie DLP. What Hi-Fi? note en outre un effet arc-en-ciel assez marqué et des menus de réglage compliqués et parfois instables, TechRadar l'absence de 4K à 120 Hz et une image qui demande des réglages, Clubic une légère sensibilité au speckle selon la toile. Clubic conseille de l'associer à un écran pour en tirer le meilleur.",
+    "date": "2026-11-18",
+    "n": 7,
+    "tests": 13,
     "sources": [
-     "Les Numériques",
-     "Clubic",
-     "Frandroid",
-     "IGN",
-     "Trusted Reviews"
+     "What Hi-Fi?",
+     "TechRadar",
+     "Clubic"
     ]
    }
   },
@@ -36203,7 +36252,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1358.8,
+     "price": 1529.0,
      "url": "https://www.amazon.fr/dp/B0CMHCHPMV?tag=geekconcept-21",
      "name": "BenQ X500i Vidéoprojecteur Gaming Véritable 4K UHD HDR 4LED 2200 ANSI Lumens Courte focale | 4 ms de Latence | Mode Jeux Automatique | Xbox, PS5, Switch",
      "cfg": "vendu par un vendeur tiers",
@@ -36258,7 +36307,7 @@
      }
     ]
    },
-   "prix": 1358.8,
+   "prix": 1529.0,
    "img": "benq-x500i.webp",
    "rating": null,
    "nrev": 0,
@@ -36298,7 +36347,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 2390.59,
+     "price": 2398.0,
      "url": "https://www.amazon.fr/dp/B0B988BSBC?tag=geekconcept-21",
      "name": "Epson Lifestudio Grand Plus EH-LS800B | Project. laser TV intelligente 4K home cinéma ultracourte focale | 4 000 lumens | 3LCD | Sound by YAMAHA | Android TV | Affichage 150 po | Garantie 5 ans | Noir",
      "cfg": "",
@@ -36335,7 +36384,7 @@
      }
     ]
    },
-   "prix": 2390.59,
+   "prix": 2398.0,
    "img": "epson-eh-ls800.webp",
    "rating": null,
    "nrev": 0,
@@ -36374,7 +36423,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 539.0,
+     "price": 399.0,
      "url": "https://www.amazon.fr/dp/B0F37QW5NF?tag=geekconcept-21",
      "name": "XGIMI MoGo 4 Mini Videoprojecteur Portable 1080p | 450 ISO, Compatible avec Google TV, Netflix officiel, 360° rotation, 2.5h batterie, 2×6W Harman Kardon, WiFi Bluetooth",
      "cfg": "vendu par un vendeur tiers",
@@ -36501,7 +36550,7 @@
      }
     ]
    },
-   "prix": 539.0,
+   "prix": 399.0,
    "img": "xgimi-mogo-4.webp",
    "rating": null,
    "nrev": 0,
@@ -36544,7 +36593,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 598.98,
+     "price": 579.0,
      "url": "https://www.amazon.fr/dp/B0DL9HH3VR?tag=geekconcept-21",
      "name": "BenQ GV50 Vidéoprojecteur Laser Portable 1080p, 500 lumens, Google TV | Batterie intégrée, projection rotative, haut-parleur basses 18W 2.1, réglage auto de l’image, Bluetooth, Netflix",
      "cfg": "",
@@ -36593,7 +36642,7 @@
      }
     ]
    },
-   "prix": 598.98,
+   "prix": 579.0,
    "img": "benq-gv50.webp",
    "rating": null,
    "nrev": 0,
@@ -36633,7 +36682,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 334.54,
+     "price": 349.99,
      "url": "https://www.amazon.fr/dp/B0B985KPML?tag=geekconcept-21",
      "name": "Epson CO-W01 | Projecteur WXGA abordable | 3LCD | 3 000 lumens ANSI | Affichage 378 Pouces (9,6 m) | Configuration Facile | Correction du trapèze | HDMI | Utilisation à Domicile et au Bureau | Blanc",
      "cfg": "vendu par un vendeur tiers",
@@ -36670,7 +36719,7 @@
      }
     ]
    },
-   "prix": 334.54,
+   "prix": 349.99,
    "img": "epson-co-w01.webp",
    "rating": null,
    "nrev": 0,
@@ -36786,7 +36835,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 749.0,
+     "price": 674.1,
      "url": "https://www.amazon.fr/dp/B0F2M1MG3L?tag=geekconcept-21",
      "name": "Canon PowerShot V1 - Caméra pour Le Vlog avec Objectif Ultra Grand-Angle f/2.8 | Matériel pour Créateurs de Contenu | Vlog et Voyage | Connexion Via USB et Wi-FI",
      "cfg": "",
@@ -36794,9 +36843,9 @@
     }
    ],
    "press": {
-    "avg": 8.3,
-    "n": 9,
-    "tests": 12,
+    "avg": 8.336363636363636,
+    "n": 11,
+    "tests": 14,
     "scope": "modele",
     "src": [
      "",
@@ -36814,6 +36863,13 @@
       "score": 9.0,
       "url": "https://computerhoy.20minutos.es/dispositivos/canon-powershot-v1-perfecta-creacion-contenido-compacta-ligera-lista-grabar-sacar-fotografias-1487638",
       "date": ""
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 9.0,
+      "url": "https://www.digitalcameraworld.com/cameras/compact-cameras/canon-powershot-v1-review",
+      "date": "2025-02-27",
+      "ajout": "18/11/2026"
      },
      {
       "src": "Engadget",
@@ -36844,6 +36900,13 @@
       "score": 8.0,
       "url": "https://www.t3.com/tech/cameras/canon-powershot-v1-review",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/cameras/compact-cameras/canon-powershot-v1-review",
+      "date": "2025-03-26",
+      "ajout": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
@@ -36877,22 +36940,19 @@
      }
     ]
    },
-   "prix": 749.0,
+   "prix": 674.1,
    "img": "canon-powershot-v1.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "Neuf médias notent le PowerShot V1, pour une moyenne de 8,3/10 : Labo Fnac lui donne 10/10, ComputerHoy 9/10, Engadget 8,7/10, puis Chip.de, FrAndroid, Presse Citron, T3 et Trusted Reviews 8/10, PhotoTrend 7/10.\n\nLes tests retiennent surtout la qualité optique et les couleurs, un format compact et polyvalent, une bonne autonomie et un design facile à emporter. Le trépied et le pare-vent fournis sont cités.\n\nLes réserves sont partagées : pas de viseur électronique, pas de flash intégré, une sensibilité en basse lumière moyenne et un obturateur à effet rolling shutter. C'est un compact pour le vlog et le voyage, pas un boîtier à objectifs interchangeables.",
-    "date": "2026-10-28",
-    "n": 9,
-    "tests": 12,
+    "texte": "Le Canon PowerShot V1 est un compact pensé d'abord pour la vidéo. Digital Camera World et TechRadar le comparent au Sony ZV-1 II et à l'Osmo Pocket 3 : son capteur de 1,4 pouce, plus grand que chez ces rivaux, son filtre ND intégré et ses ouïes de refroidissement, qui autorisent des enregistrements 4K sans limite de durée, reviennent dans les deux tests. Digital Camera World salue aussi la 4K 30p suréchantillonnée, la rafale à 30 images par seconde et la qualité du son capté par l'appareil.\n\nLe zoom 3,1x qui démarre à 16 mm et l'autofocus, présenté par TechRadar comme le meilleur de Canon sur un compact, en font un outil polyvalent pour le vlog. Presse-citron apprécie l'ergonomie, la connectique complète (micro HDMI, jack, USB-C) et le profil C-Log 3, et relève très peu de chauffe.\n\nLes réserves convergent : pas de viseur (ni de flash, ajoute TechRadar), une ouverture limitée en position zoom, un recadrage de 1,4x sans stabilisation en 4K 60p et un ralenti 1080p 120p jugé peu net par Digital Camera World. Presse-citron se montre plus sévère sur la photo, avec du bruit visible dès 400 ISO, et sur une autonomie d'environ 1 h 10 de vidéo qu'il juge trop juste. Un appareil à réserver à ceux qui filment plus qu'ils ne photographient.",
+    "date": "2026-11-18",
+    "n": 11,
+    "tests": 14,
     "sources": [
-     "Labo Fnac",
-     "ComputerHoy",
-     "Engadget",
-     "Chip.de",
-     "Frandroid",
-     "PhotoTrend"
+     "Digital Camera World",
+     "TechRadar",
+     "Presse-citron"
     ]
    }
   },
@@ -36920,7 +36980,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 823.9,
+     "price": 799.9,
      "url": "https://www.amazon.fr/dp/B0DJC3XZT7?tag=geekconcept-21",
      "name": "Fujifilm X-M5 Nu Noir",
      "cfg": "",
@@ -37005,7 +37065,7 @@
      }
     ]
    },
-   "prix": 823.9,
+   "prix": 799.9,
    "img": "fujifilm-x-m5.webp",
    "rating": null,
    "nrev": 0,
@@ -37485,7 +37545,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1542.14,
+     "price": 1573.89,
      "url": "https://www.amazon.fr/dp/B0CB8T476W?tag=geekconcept-21",
      "name": "Sony Alpha 6700 Appareil Photo Hybride APS-C, 26 MP BSI, AF basée sur l'IA | Stabilisation 5 axes, Écran tactile pour vlogging & selfies, Vidéo 4K 120p, Design compact",
      "cfg": "",
@@ -37522,7 +37582,7 @@
      }
     ]
    },
-   "prix": 1542.14,
+   "prix": 1573.89,
    "img": "sony-a6700.webp",
    "rating": null,
    "nrev": 0,
@@ -37562,7 +37622,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1685.0,
+     "price": 1674.13,
      "url": "https://www.amazon.fr/dp/B0F3G8C7F4?tag=geekconcept-21",
      "name": "Nikon Z 5II boitier Nu, Appareil Photo Numérique Hybride Plein Format (24,5 MP, 4K/30p, Rafale 14 i/s en RAW ou 30 i/s en JPEG, stabilisation du capteur sur 5 Axes, Double Slots SD ou SDHC ou SDXC)",
      "cfg": "",
@@ -37611,7 +37671,7 @@
      }
     ]
    },
-   "prix": 1685.0,
+   "prix": 1674.13,
    "img": "nikon-z5-ii.webp",
    "rating": null,
    "nrev": 0,
@@ -37652,7 +37712,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 2498.0,
+     "price": 2299.0,
      "url": "https://www.amazon.fr/dp/B0D79QY952?tag=geekconcept-21",
      "name": "Nikon Hybride Z6III, boitier Nu, Plein Format 24,5 MP, vidéo 6K, jusqu'à 120 i/s, écran Tactile et orientable",
      "cfg": "vendu par un vendeur tiers",
@@ -37743,7 +37803,7 @@
      }
     ]
    },
-   "prix": 2498.0,
+   "prix": 2299.0,
    "img": "nikon-z6-iii.webp",
    "rating": null,
    "nrev": 0,
@@ -37785,7 +37845,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 224.99,
+     "price": 224.0,
      "url": "https://www.amazon.fr/dp/B0FJ1S18HF?tag=geekconcept-21",
      "name": "DJI Neo 2 (drone seul), drone 4K léger avec caméra",
      "cfg": "",
@@ -37793,15 +37853,22 @@
     }
    ],
    "press": {
-    "avg": 8.1125,
-    "n": 8,
-    "tests": 12,
+    "avg": 8.445454545454545,
+    "n": 11,
+    "tests": 15,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Digital Camera World",
+      "score": 10.0,
+      "url": "https://www.digitalcameraworld.com/drones/dji-neo-2-review",
+      "date": "2025-11-13",
+      "ajout": "18/11/2026"
+     },
      {
       "src": "T3",
       "score": 10.0,
@@ -37819,6 +37886,20 @@
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-dji-neo-2/",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/cameras/drones/dji-neo-2-review",
+      "date": "2025-11-13",
+      "ajout": "18/11/2026"
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 9.0,
+      "url": "https://www.tomsguide.com/cameras-photography/drones/dji-neo-2-review",
+      "date": "2025-12-11",
+      "ajout": "18/11/2026"
      },
      {
       "src": "Basic Tutorials",
@@ -37876,19 +37957,19 @@
      }
     ]
    },
-   "prix": 224.99,
+   "prix": 224.0,
    "img": "dji-neo-2.webp",
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "8 médias ont noté le DJI Neo 2, pour une moyenne de 8,1/10 ; les plus hautes notes viennent de T3 à 10/10, FrAndroid à 9/10, Presse Citron à 9/10.\n\nLes tests retiennent le décollage depuis la paume, le contrôle gestuel et vocal, le LiDAR pour éviter les obstacles et la nacelle à deux axes qui lisse l'image. Ils regrettent une autonomie courte, l'absence de fente microSD et une vidéo verticale qui n'est pas native.\n\nParmi les autres médias, Basic Tutorials lui donne 8,9/10, 01net lui donne 8/10, Camera Jabber lui donne 8/10, The Verge lui donne 8/10.",
-    "date": "2026-10-28",
-    "n": 8,
-    "tests": 12,
+    "texte": "Le DJI Neo 2 reprend la recette du premier Neo : un petit drone de poche pensé pour les débutants et les vidéos courtes. Son principal progrès, souligné par TechRadar, Presse-citron et 01net, est la détection d'obstacles omnidirectionnelle, qui réduit nettement le risque de casse. 01net n'a réussi à le prendre en défaut qu'en le poussant dans ses retranchements, et ses hélices protégées limitent alors les dégâts.\n\nPresse-citron met en avant le pilotage aux gestes de la main, sans radiocommande ni smartphone, ainsi que le nouveau capteur de 12 Mpx stabilisé par une nacelle deux axes. TechRadar relève une image légèrement meilleure grâce à des cadences plus élevées, un stockage interne plus que doublé (49 Go selon Presse-citron) et des transferts plus rapides. 01net apprécie le suivi du sujet et la compacité de l'appareil, qui pèse 151 g.\n\nLa réserve commune porte sur l'autonomie : Presse-citron mesure 10 à 12 minutes de vol en conditions réelles, loin des 19 minutes annoncées, et 01net juge des batteries supplémentaires indispensables. TechRadar regrette en outre que les photos restent limitées au format JPEG.",
+    "date": "2026-11-18",
+    "n": 11,
+    "tests": 15,
     "sources": [
-     "T3",
-     "Frandroid",
-     "Presse-citron"
+     "TechRadar",
+     "Presse-citron",
+     "01net"
     ]
    }
   },
@@ -37916,7 +37997,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 264.87,
+     "price": 235.0,
      "url": "https://www.amazon.fr/dp/B07FTRYVT5?tag=geekconcept-21",
      "name": "Bundle Fly More DJI Neo, Mini Drone avec Caméra 4K UHD pour Adultes",
      "cfg": "",
@@ -38043,7 +38124,7 @@
      }
     ]
    },
-   "prix": 264.87,
+   "prix": 235.0,
    "img": "dji-neo.webp",
    "rating": null,
    "nrev": 0,
@@ -38083,7 +38164,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 349.0,
+     "price": 279.0,
      "url": "https://www.amazon.fr/dp/B0DJ1H6KCP?tag=geekconcept-21",
      "name": "DJI Flip (RC-N3), Drone Caméra 4K UHD pour adultes, < 249 g",
      "cfg": "vendu par un vendeur tiers",
@@ -38198,7 +38279,7 @@
      }
     ]
    },
-   "prix": 349.0,
+   "prix": 279.0,
    "img": "dji-flip.webp",
    "rating": null,
    "nrev": 0,
@@ -38244,7 +38325,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 369.99,
+     "price": 398.0,
      "url": "https://www.amazon.fr/dp/B0FZ9XSKKD?tag=geekconcept-21",
      "name": "DJI Lito X1, drone caméra 4K pour débutants, Version améliorée de Mini 3",
      "cfg": "",
@@ -38299,7 +38380,7 @@
      }
     ]
    },
-   "prix": 369.99,
+   "prix": 398.0,
    "img": "dji-lito-x1.webp",
    "rating": null,
    "nrev": 0,
@@ -38339,7 +38420,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 399.99,
+     "price": 319.0,
      "url": "https://www.amazon.fr/dp/B0DK96YNS1?tag=geekconcept-21",
      "name": "Potensic ATOM 2 Drone avec Caméra, Photo 8K, Vidéo 4K HDR avec Gimbal à 3 Axes, Moins de 249 g, Fly More Combo",
      "cfg": "",
@@ -38382,7 +38463,7 @@
      }
     ]
    },
-   "prix": 399.99,
+   "prix": 319.0,
    "img": "potensic-atom-2.webp",
    "rating": null,
    "nrev": 0,
@@ -38498,7 +38579,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 645.0,
+     "price": 661.53,
      "url": "https://www.amazon.fr/dp/B0FWRMDNGV?tag=geekconcept-21",
      "name": "DJI Avata 360 (RC 2), drone caméra 360° 8K",
      "cfg": "",
@@ -38595,7 +38676,7 @@
      }
     ]
    },
-   "prix": 645.0,
+   "prix": 661.53,
    "img": "dji-avata-360.webp",
    "rating": null,
    "nrev": 0,
@@ -38643,9 +38724,9 @@
     }
    ],
    "press": {
-    "avg": 9.0,
-    "n": 7,
-    "tests": 10,
+    "avg": 9.3,
+    "n": 10,
+    "tests": 13,
     "scope": "modele",
     "src": [
      "",
@@ -38659,10 +38740,31 @@
       "date": ""
      },
      {
+      "src": "Digital Camera World",
+      "score": 10.0,
+      "url": "https://www.digitalcameraworld.com/drones/dji-5-mini-pro-review",
+      "date": "2025-09-17",
+      "ajout": "18/11/2026"
+     },
+     {
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/drone/dji-mini-5-pro-p77130/test.html",
       "date": ""
+     },
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/cameras/drones/dji-mini-5-pro-review",
+      "date": "2025-09-17",
+      "ajout": "18/11/2026"
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 10.0,
+      "url": "https://www.tomsguide.com/cameras-photography/drones/dji-mini-5-pro-review",
+      "date": "2025-10-03",
+      "ajout": "18/11/2026"
      },
      {
       "src": "Trusted Reviews",
@@ -38719,14 +38821,14 @@
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "7 médias ont noté le DJI Mini 5 Pro, pour une moyenne de 9/10 ; les plus hautes notes viennent de Les Numériques à 10/10, Trusted Reviews à 10/10, Camera Jabber à 10/10.\n\nLes tests mettent en avant le capteur de 1 pouce de 50 mégapixels, la nacelle qui tourne à 225°, le capteur LiDAR avant et le suivi de sujet. Ils critiquent un tarif élevé, un chargeur non fourni et une autonomie réelle en dessous des attentes.\n\nParmi les autres médias, FrAndroid lui donne 9/10, T3 lui donne 8/10, Chip.de lui donne 8/10, Presse Citron lui donne 8/10.",
-    "date": "2026-10-28",
-    "n": 7,
-    "tests": 10,
+    "texte": "Le DJI Mini 5 Pro coiffe la gamme Mini de DJI, ces drones de moins de 250 g classés C0 en Europe et donc pilotables sans formation contraignante, comme le rappelle Frandroid. TechRadar, Tom's Guide et Frandroid s'accordent sur le principal progrès : un capteur de 1 pouce qui améliore les images en basse lumière, avec une vidéo 4K de premier plan et des profils D-Log M 10 bits et RAW pour la retouche.\n\nLa sécurité est l'autre point fort. Tom's Guide détaille la détection d'obstacles omnidirectionnelle associée à un LiDAR frontal, qui permet au drone de rentrer à sa base même sans GPS, et apprécie la nacelle capable de pivoter sur 225°. TechRadar estime que ces systèmes éviteront bien des casses à un pilote débutant.\n\nLes réserves portent surtout sur l'autonomie. Tom's Guide la trouve à peine meilleure que celle du Mini 4 Pro et TechRadar observe des vols souvent plus courts qu'annoncé, alors que Frandroid, sur la côte Atlantique, a atteint et souvent dépassé les 21 minutes « typiques » données par DJI. TechRadar s'inquiète aussi d'un poids au décollage proche de la limite, qui pourrait faire basculer le drone dans une catégorie plus contrainte, et Frandroid rappelle qu'avec un vent soutenu sa vitesse peut être divisée par deux.",
+    "date": "2026-11-18",
+    "n": 10,
+    "tests": 13,
     "sources": [
-     "Les Numériques",
-     "Trusted Reviews",
-     "Camera Jabber"
+     "TechRadar",
+     "Tom's Guide",
+     "Frandroid"
     ]
    }
   },
@@ -38754,7 +38856,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 2098.9,
+     "price": 2026.47,
      "url": "https://www.amazon.fr/dp/B0DS2HDF1M?tag=geekconcept-21",
      "name": "DJI Mavic 4 Pro avec DJI RC 2, drone phare à triple caméra",
      "cfg": "",
@@ -38821,7 +38923,7 @@
      }
     ]
    },
-   "prix": 2098.9,
+   "prix": 2026.47,
    "img": "dji-mavic-4-pro.webp",
    "rating": null,
    "nrev": 0,
@@ -41891,10 +41993,16 @@
    "prix_date": "novembre 2026",
    "iso": "2026-11-11",
    "tente": "2026-11-11"
+  },
+  "video": {
+   "date": "18/11/2026",
+   "prix_date": "novembre 2026",
+   "iso": "2026-11-18",
+   "tente": "2026-11-18"
   }
  },
  "dates": {
-  "Amazon": "13/11/2026"
+  "Amazon": "18/11/2026"
  },
  "bf_actif": false
 }
