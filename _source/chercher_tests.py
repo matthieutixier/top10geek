@@ -19,6 +19,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -33,6 +34,8 @@ Modèle : {nom} — référence : {ref}
 Tests déjà connus (à ne pas renvoyer) : {connus}
 
 Règles :
+- Utilise UNIQUEMENT l'outil de recherche web (search_web), 3 recherches au maximum. N'exécute aucune commande, n'ouvre
+  aucune page, ne vérifie rien toi-même : la vérification sera faite après toi. Réponds dès la 3e recherche au plus tard.
 - Utilise la recherche Google. Cherche en français, anglais, allemand, espagnol, italien.
 - Seulement des pages de TEST complet de CE modèle exact (pas une autre taille, pas une autre génération, pas une actualité,
   pas un comparatif de plusieurs produits, pas une boutique, pas un forum, pas une vidéo).
@@ -51,8 +54,16 @@ def agy_exe():
 
 
 def demander(exe, prompt, timeout):
-    r = subprocess.run([exe, "-p", prompt, "--output-format", "json"], capture_output=True, text=True,
-                       encoding="utf-8", errors="replace", timeout=timeout)
+    """Une question à agy ; une nouvelle tentative après 60 s si les serveurs gratuits sont saturés (erreur 503)."""
+    for essai in (1, 2):
+        r = subprocess.run([exe, "-p", prompt, "--output-format", "json", "--effort", "low", "--sandbox",
+                            "--print-timeout", f"{timeout}s"], capture_output=True, text=True,
+                           encoding="utf-8", errors="replace", timeout=timeout + 60)
+        if essai == 1 and ("503" in r.stdout + r.stderr or "No capacity" in r.stdout + r.stderr):
+            print("   serveurs saturés, nouvel essai dans 60 s…")
+            time.sleep(60)
+            continue
+        break
     sortie = r.stdout.strip()
     try:                                    # enveloppe JSON documentée : {"response": "...", ...}
         env = json.loads(sortie)
@@ -79,7 +90,7 @@ def main():
     ap.add_argument("--rubrique", required=True, choices=sorted(set(PREFIXES.values()) | {"portable"}))
     ap.add_argument("--max", type=int, default=0, help="nombre maximal de fiches (essai)")
     ap.add_argument("--ids", help="fiches précises, séparées par des virgules")
-    ap.add_argument("--timeout", type=int, default=240)
+    ap.add_argument("--timeout", type=int, default=180)
     a = ap.parse_args()
     exe = agy_exe()
     d = json.loads((SRC / "data.json").read_text(encoding="utf-8"))
