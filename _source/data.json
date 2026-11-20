@@ -7694,9 +7694,9 @@
    ],
    "id": "ideapad-slim3-cb14",
    "press": {
-    "avg": 7.9,
-    "n": 1,
-    "tests": 1,
+    "avg": 7.45,
+    "n": 2,
+    "tests": 2,
     "scope": "modele",
     "src": [
      "",
@@ -7710,6 +7710,14 @@
       "date": "2024-01-13",
       "ajout": "12/10/2026",
       "verifie": "23/10/2026"
+     },
+     {
+      "src": "Android Central",
+      "score": 7.0,
+      "url": "https://www.androidcentral.com/chromebooks-laptops/lenovo-ideapad-slim-3-chromebook-review",
+      "date": "2023-09-19",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ],
     "releve_source": "23/10/2026"
@@ -7752,15 +7760,23 @@
    ],
    "id": "chromebook-cx14",
    "press": {
-    "avg": 6.5,
-    "n": 2,
-    "tests": 2,
+    "avg": 7.0,
+    "n": 3,
+    "tests": 3,
     "scope": "gamme",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "PCWorld",
+      "score": 8.0,
+      "url": "https://www.pcworld.com/article/3038029/asus-chromebook-plus-cx14-review.html",
+      "date": "2026-01-26",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "PCWorld",
       "score": 7.0,
