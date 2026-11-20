@@ -10,12 +10,17 @@ Fichier d'entrée : liste d'objets
 - Un test déjà présent (même URL, ou même média et même note) est ignoré.
 - La note presse (moyenne, nombre de notes, nombre de tests) est recalculée comme dans build_data.py.
 - Chaque test ajouté porte "ajout": "JJ/MM/AAAA" ; build_new.py conserve ces ajouts pour les écrans et imprimantes.
-Règle : jamais de test inventé — chaque entrée doit venir d'une page réellement lue, avec son URL."""
+Règle : jamais de test inventé — chaque entrée doit venir d'une page réellement lue, avec son URL.
+Garde-fou (20/11/2026) : une note n'entre dans la moyenne que si l'entrée porte "verifie": "JJ/MM/AAAA" (note lue sur la
+page du média : presse_crawl.py lire le remplit quand la page déclare sa note en JSON-LD). Sans « verifie », le test est
+ajouté sans note, la valeur gardée dans « score_import » (voir garde_notes.py), en attente de presse_crawl.py confirmer."""
 import datetime
 import json
 import sys
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+from garde_notes import mettre_en_attente
 
 SRC = Path(__file__).resolve().parent
 DATA = SRC / "data.json"
@@ -56,8 +61,15 @@ def main():
         it["press"] = pr
         meme = next((n for n in pr["notes"] if n["url"] == e["url"]), None)
         if meme and meme["score"] is None and sc is not None:     # test déjà cité, note retrouvée
+            if not e.get("verifie"):
+                print(f"   en attente (note non lue à la source) : {e['id']} · {e['src']} {float(sc):.1f}")
+                if not meme.get("a_confirmer"):
+                    meme.update(score_import=float(sc), a_confirmer=jour)
+                    ajoutes += 1
+                continue
             avant = pr["avg"]
-            meme.update(score=float(sc), ajout=jour)
+            meme.update(score=float(sc), ajout=jour, verifie=e["verifie"])
+            meme.pop("score_import", None); meme.pop("a_confirmer", None)
             recalc(pr)
             ajoutes += 1
             print(f"~  {e['id']:28s} {e['src']:22s} note ajoutée {float(sc):.1f} ; note presse "
@@ -69,12 +81,16 @@ def main():
             ignores += 1
             continue
         avant = pr["avg"]
-        pr["notes"].append(dict(src=e["src"], score=(float(sc) if sc is not None else None), url=e["url"],
-                                date=e.get("date", ""), ajout=jour))
+        n = dict(src=e["src"], score=(float(sc) if sc is not None else None), url=e["url"], date=e.get("date", ""), ajout=jour)
+        if e.get("verifie"):
+            n["verifie"] = e["verifie"]
+        elif mettre_en_attente(n, jour):
+            print(f"   en attente (note non lue à la source) : {e['id']} · {e['src']} {n['score_import']:.1f}")
+        pr["notes"].append(n)
         recalc(pr)
         ajoutes += 1
         f = lambda x: "—" if x is None else f"{x:.2f}"
-        print(f"+  {e['id']:28s} {e['src']:22s} {('%.1f' % float(sc)) if sc is not None else 'sans note':>9s}   "
+        print(f"+  {e['id']:28s} {e['src']:22s} {('%.1f' % n["score"]) if n["score"] is not None else ('attente' if n.get("a_confirmer") else 'sans note'):>9s}   "
               f"note presse {f(avant)} -> {f(pr['avg'])} ({pr['n']} notes, {pr['tests']} tests)")
     print(f"\n{ajoutes} test(s) ajouté(s), {ignores} ignoré(s).")
     if apply and ajoutes:
