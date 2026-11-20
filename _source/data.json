@@ -13404,15 +13404,23 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
+    "avg": 10.0,
+    "n": 1,
+    "tests": 2,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "IT Pro",
+      "score": 10.0,
+      "url": "https://www.itpro.com/hardware/monitors/dell-32-plus-s3225qs-monitor-review-a-great-value-32in-4k-monitor",
+      "date": "2025-10-24",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "RTINGS",
       "score": null,
@@ -15063,9 +15071,9 @@
     }
    ],
    "press": {
-    "avg": 7.5,
-    "n": 2,
-    "tests": 2,
+    "avg": 8.366666666666667,
+    "n": 6,
+    "tests": 9,
     "scope": "modele",
     "src": [
      "",
@@ -15073,10 +15081,42 @@
     ],
     "notes": [
      {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 9.2,
+      "url": "https://guide-gestion-des-couleurs.com/test-ecran-asus-proart-pa32ucdm.html",
+      "date": "2022-09-22",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/pro/asus-proart-pa32ucdm-4k-oled-monitor-review",
+      "date": "2025-07-17",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 9.0,
+      "url": "https://www.tomshardware.com/monitors/asus-proart-pa32ucdm-4k-240-hz-qd-oled-gaming-monitor-review",
+      "date": "2025-04-07",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "KitGuru",
       "score": 8.0,
       "url": "https://www.kitguru.net/peripherals/dominic-moass/asus-proart-pa32ucdm-review-4k-240hz-professional-oled/",
       "date": "2025-05-08"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://uk.pcmag.com/monitors/158478/asus-proart-display-oled-pa32ucdm",
+      "date": "2025-06-08",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PCWorld",
@@ -15086,6 +15126,27 @@
       "avant": 6.0,
       "corrige": "10/10/2026",
       "verifie": "30/10/2026"
+     },
+     {
+      "src": "Australian Photography",
+      "score": null,
+      "url": "https://www.australianphotography.com/gear/review-asus-proart-display-oled-pa32ucdm-32-monitor",
+      "date": "",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Hardwareluxx",
+      "score": null,
+      "url": "https://www.hardwareluxx.de/index.php/artikel/hardware/monitore/66625-asus-proart-pa32ucdm-im-test-qd-oled-goes-pro.html",
+      "date": "2025-09-09",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "TechTest",
+      "score": null,
+      "url": "https://techtest.org/herausragendes-bild-4k-oled-240-hz-proart-asus-proart-oled-pa32ucdm-im-test/",
+      "date": "",
+      "ajout": "20/11/2026"
      }
     ]
    },
@@ -15135,15 +15196,52 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
+    "avg": 9.1,
+    "n": 2,
+    "tests": 6,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 9.2,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-asus-pa27jcv.html",
+      "date": "2024-11-29",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 9.0,
+      "url": "https://www.tomshardware.com/monitors/asus-proart-pa27jcv-5k-professional-monitor-review",
+      "date": "2025-01-16",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Australian Photography",
+      "score": null,
+      "url": "https://www.australianphotography.com/gear/review-asus-proart-display-pa27jcv-monitor",
+      "date": "",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Parka Blogs",
+      "score": null,
+      "url": "https://www.parkablogs.com/content/review-asus-proart-pa27jcv-5k-display",
+      "date": "",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Photo et Mac",
+      "score": null,
+      "url": "https://photoetmac.com/2025/02/asus-proart-pa27jcv-un-27-pouces-5k-est-ce-mieux-quun-32-pouce-4k/",
+      "date": "2025-02-01",
+      "ajout": "20/11/2026"
+     },
      {
       "src": "RTINGS",
       "score": null,
@@ -15189,15 +15287,23 @@
     }
    ],
    "press": {
-    "avg": 9.0,
-    "n": 1,
-    "tests": 1,
+    "avg": 9.200000000000001,
+    "n": 3,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Digital Camera World",
+      "score": 10.0,
+      "url": "https://www.digitalcameraworld.com/tech/monitors/asus-proart-display-oled-pa279cdv-professional-monitor-review",
+      "date": "2026-10-08",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Macworld",
       "score": 9.0,
@@ -15206,6 +15312,28 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "30/10/2026"
+     },
+     {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 8.6,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-asus-pa279cdv.html",
+      "date": "2026-10-18",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Australian Photography",
+      "score": null,
+      "url": "https://www.australianphotography.com/gear/review-asus-proart-pa279cdv-the-best-27-mid-tier-oled-monitor",
+      "date": "",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": null,
+      "url": "https://basic-tutorials.com/reviews/peripherals/asus-proart-pa279cdv-review/",
+      "date": "2026-10-26",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -15247,8 +15375,8 @@
    ],
    "press": {
     "avg": 9.0,
-    "n": 2,
-    "tests": 2,
+    "n": 4,
+    "tests": 8,
     "scope": "modele",
     "src": [
      "",
@@ -15263,10 +15391,54 @@
       "verifie": "30/10/2026"
      },
      {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 9.0,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-asus-pa27ucge.html",
+      "date": "2025-10-21",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 9.0,
+      "url": "https://www.digitalcameraworld.com/tech/monitors/asus-proart-display-pa27ucge-monitor-review",
+      "date": "2026-11-08",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Photo Review",
       "score": 8.8,
       "url": "https://www.photoreview.com.au/reviews/monitors-digital-darkroom/asus-proart-display-pa27ucge/",
       "date": "2025-08-20"
+     },
+     {
+      "src": "Australian Photography",
+      "score": null,
+      "url": "https://www.australianphotography.com/gear/review-asus-proart-display-pa27ucge",
+      "date": "",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": null,
+      "url": "https://basic-tutorials.com/reviews/peripherals/asus-proart-pa27ucge-review/",
+      "date": "2025-07-27",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Digital Production",
+      "score": null,
+      "url": "https://digitalproduction.com/2026/05/29/asus-proart-pa27ucge-a-4k-monitor-that-mostly-refuses-to-be-annoying/",
+      "date": "2026-05-29",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Parka Blogs",
+      "score": null,
+      "url": "https://www.parkablogs.com/content/asus-pa27ucge-4k-display-colorimeter-review",
+      "date": "",
+      "ajout": "20/11/2026"
      }
     ]
    },
@@ -15316,15 +15488,39 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 2,
-    "tests": 2,
+    "avg": 8.133333333333333,
+    "n": 6,
+    "tests": 8,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 8.8,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-benq-pd2732u.html",
+      "date": "2026-10-25",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Creative Bloq",
+      "score": 8.0,
+      "url": "https://www.creativebloq.com/tech/monitors/benq-pd2732u-review",
+      "date": "2026-10-06",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Digital Camera World",
+      "score": 8.0,
+      "url": "https://www.digitalcameraworld.com/tech/monitors/benq-creative-pro-pd2732u-monitor-review",
+      "date": "2026-10-24",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "MacGeneration",
       "score": 8.0,
@@ -15335,6 +15531,14 @@
       "verifie": "30/10/2026"
      },
      {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/pro/benq-creative-pro-pd2732u-4k-monitor-review",
+      "date": "2026-08-06",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Tom's Guide",
       "score": 8.0,
       "url": "https://www.tomsguide.com/computing/monitors/benq-creative-pro-pd2732u-review",
@@ -15342,6 +15546,20 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "30/10/2026"
+     },
+     {
+      "src": "Chip.de",
+      "score": null,
+      "url": "https://www.chip.de/test-kaufberatung/pc-peripherie/benq-pd2732u-im-test_78df7c73-807f-40c9-8715-b0856ee06cf1.html",
+      "date": "2026-10-02",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Fstoppers",
+      "score": null,
+      "url": "https://fstoppers.com/gear/benq-pd2732u-review-could-be-monitor-photographers-904626",
+      "date": "2026-10-17",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -15392,15 +15610,23 @@
     }
    ],
    "press": {
-    "avg": 9.0,
-    "n": 1,
-    "tests": 2,
+    "avg": 8.675,
+    "n": 4,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Clubic",
+      "score": 9.0,
+      "url": "https://www.clubic.com/test-produit-524166-test-dell-ultrasharp-u2724d.html",
+      "date": "2024-04-22",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "PCWorld",
       "score": 9.0,
@@ -15409,6 +15635,22 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "30/10/2026"
+     },
+     {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 8.4,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-dell-u2724d.html",
+      "date": "2023-12-20",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Level Tech",
+      "score": 8.3,
+      "url": "https://leveltech.fr/test-dell-ultrasharp-27-2024/",
+      "date": "2025-04-25",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "MonitorNerds",
@@ -15455,9 +15697,9 @@
     }
    ],
    "press": {
-    "avg": 7.5,
-    "n": 2,
-    "tests": 2,
+    "avg": 7.85,
+    "n": 4,
+    "tests": 6,
     "scope": "modele",
     "src": [
      "",
@@ -15465,11 +15707,27 @@
     ],
     "notes": [
      {
+      "src": "PhotographyLife",
+      "score": 8.6,
+      "url": "https://photographylife.com/reviews/asus-proart-pa278qv",
+      "date": "2020-11-12",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/asus-proart-pa278qv-im-test_236989",
       "date": "2023-10-26",
       "verifie": "30/10/2026"
+     },
+     {
+      "src": "RTINGS",
+      "score": 7.8,
+      "url": "https://www.rtings.com/monitor/reviews/asus/proart-display-pa278qv",
+      "date": "2020-08-13",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
@@ -15479,6 +15737,20 @@
       "avant": 8.0,
       "corrige": "10/10/2026",
       "verifie": "30/10/2026"
+     },
+     {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": null,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-asus-pa278qv.html",
+      "date": "",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Expert Reviews",
+      "score": null,
+      "url": "https://www.expertreviews.co.uk/technology/monitors/asus-proart-display-pa278qv-review",
+      "date": "2022-01-27",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -15529,15 +15801,23 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
+    "avg": 9.8,
+    "n": 1,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Arnaud Frich (Guide gestion des couleurs)",
+      "score": 9.8,
+      "url": "https://www.guide-gestion-des-couleurs.com/test-ecran-eizo-coloredge-cg2700s.html",
+      "date": "2023-12-22",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Fstoppers",
       "score": null,
@@ -15967,15 +16247,31 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
+    "avg": 8.5,
+    "n": 2,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Tom's Hardware",
+      "score": 9.0,
+      "url": "https://www.tomshardware.com/monitors/portable-monitors/asus-zenscreen-oled-mq16fc-portable-monitor-review",
+      "date": "2026-08-24",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/asus-zenscreen-oled-mq16fc",
+      "date": "2026-11-07",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Root Nation",
       "score": null,
@@ -16264,15 +16560,39 @@
     }
    ],
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
+    "avg": 8.666666666666666,
+    "n": 3,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Craving Tech",
+      "score": 10.0,
+      "url": "https://www.cravingtech.com/duex-max-review-a-handy-portable-second-screen-for-your-laptop.html",
+      "date": "2024-04-18",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Macworld",
+      "score": 9.0,
+      "url": "https://www.macworld.com/article/2134789/mobile-pixels-duex-max-review.html",
+      "date": "2023-11-10",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Amateur Photographer",
+      "score": 7.0,
+      "url": "https://amateurphotographer.com/review/mobile-pixels-duex-max-review/",
+      "date": "2024-02-06",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Help Desk Geek",
       "score": null,

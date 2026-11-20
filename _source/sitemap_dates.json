@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-11-20",
-"h": "e50185488baa"
+"h": "e0ede757a333"
 },
 "a-propos": {
 "d": "2026-10-30",
@@ -377,15 +377,15 @@
 },
 "black-friday/": {
 "d": "2026-11-20",
-"h": "bd5c98435371"
+"h": "c4a4a9605769"
 },
 "ecran-pc/": {
-"d": "2026-11-13",
-"h": "2094ab076fe5"
+"d": "2026-11-20",
+"h": "a1d3a1945c69"
 },
 "ecran-pc/acer-pd163q/": {
-"d": "2026-11-13",
-"h": "c88be867dfb7"
+"d": "2026-11-20",
+"h": "ba3177e232ab"
 },
 "ecran-pc/alienware-aw2725d/": {
 "d": "2026-11-13",
@@ -415,41 +415,57 @@
 "d": "2026-11-13",
 "h": "1885a5f66701"
 },
+"ecran-pc/asus-proart-pa278qv/": {
+"d": "2026-11-20",
+"h": "4e6486d07012"
+},
 "ecran-pc/asus-proart-pa279crv/": {
-"d": "2026-11-13",
-"h": "9e82308fdd53"
+"d": "2026-11-20",
+"h": "a18766d8ba15"
+},
+"ecran-pc/asus-proart-pa27ucge/": {
+"d": "2026-11-20",
+"h": "5627d4d8683c"
 },
 "ecran-pc/asus-proart-pa32qcv/": {
-"d": "2026-11-13",
-"h": "9bf95182d7a5"
+"d": "2026-11-20",
+"h": "2b5529e2b161"
+},
+"ecran-pc/asus-proart-pa32ucdm/": {
+"d": "2026-11-20",
+"h": "63b732f776e9"
 },
 "ecran-pc/asus-rog-swift-pg32ucdm/": {
 "d": "2026-11-13",
 "h": "c443d84773b3"
 },
 "ecran-pc/asus-zenscreen-duo-oled-mq149cd/": {
-"d": "2026-11-13",
-"h": "da4d3db6c035"
+"d": "2026-11-20",
+"h": "924a8d4f6a60"
 },
 "ecran-pc/asus-zenscreen-mb169ck/": {
-"d": "2026-11-13",
-"h": "05569f48f6dd"
+"d": "2026-11-20",
+"h": "e984ef4b4d93"
+},
+"ecran-pc/benq-pd2732u/": {
+"d": "2026-11-20",
+"h": "c436070a3f24"
 },
 "ecran-pc/bureautique/": {
-"d": "2026-11-09",
-"h": "ada6df7ac3e4"
+"d": "2026-11-20",
+"h": "5641b3360f3f"
 },
 "ecran-pc/creation/": {
-"d": "2026-11-09",
-"h": "eec5434fbe86"
+"d": "2026-11-20",
+"h": "7193a4d6fdb0"
 },
 "ecran-pc/dell-27-plus-s2725qs/": {
-"d": "2026-11-13",
-"h": "74b5eb9c13e3"
+"d": "2026-11-20",
+"h": "a149fab381e5"
 },
 "ecran-pc/dell-ultrasharp-u2724de/": {
-"d": "2026-11-13",
-"h": "8e270983ce0e"
+"d": "2026-11-20",
+"h": "676ea8b173d0"
 },
 "ecran-pc/gaming/": {
 "d": "2026-11-09",
@@ -464,28 +480,28 @@
 "h": "1f830b2c8bae"
 },
 "ecran-pc/msi-pro-mp165-e6/": {
-"d": "2026-11-13",
-"h": "518dfb8ec3fe"
+"d": "2026-11-20",
+"h": "dbad467c0a49"
 },
 "ecran-pc/petit-prix/": {
 "d": "2026-11-09",
 "h": "d5757ff72b9b"
 },
 "ecran-pc/portable/": {
-"d": "2026-11-09",
-"h": "2d696de99148"
+"d": "2026-11-20",
+"h": "ce9d4395840c"
 },
 "ecran-pc/sony-inzone-m10s/": {
 "d": "2026-11-13",
 "h": "88f832af5cdd"
 },
 "ecran-pc/viewsonic-va1655/": {
-"d": "2026-11-13",
-"h": "433df8187a14"
+"d": "2026-11-20",
+"h": "1f6ff850508f"
 },
 "etude-notes-presse/": {
 "d": "2026-11-20",
-"h": "5ae2f9a949d2"
+"h": "35bbf73a8a30"
 },
 "imprimante/": {
 "d": "2026-11-20",
@@ -545,7 +561,7 @@
 },
 "methode": {
 "d": "2026-11-20",
-"h": "6403441c64d0"
+"h": "93d2cdd675c3"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-20",
