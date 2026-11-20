@@ -16675,13 +16675,15 @@
       "src": "Laptop Mag",
       "score": 8.0,
       "url": "https://www.laptopmag.com/reviews/epson-ecotank-et-2850-all-in-one-printer",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide",
       "score": 8.0,
       "url": "https://www.tomsguide.com/reviews/epson-ecotank-et-2850",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Que Choisir",
@@ -16693,7 +16695,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2862/16/105058",
-      "date": ""
+      "date": "2024-06-11"
      }
     ]
    },
@@ -16843,7 +16845,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2876/16/105076",
-      "date": ""
+      "date": "2024-06-11"
      }
     ],
     "releve_source": "30/10/2026"
@@ -16912,7 +16914,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-3950/16/125186",
-      "date": ""
+      "date": "2026-04-02"
      }
     ],
     "releve_source": "06/11/2026"
@@ -16966,7 +16968,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-3956/16/125183",
-      "date": ""
+      "date": "2026-04-02"
      }
     ],
     "releve_source": "30/10/2026"
@@ -17095,7 +17097,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-et-4956/16/125177",
-      "date": ""
+      "date": "2026-04-02"
      }
     ],
     "releve_source": "06/11/2026"
@@ -17254,7 +17256,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-g3570/16/116588",
-      "date": ""
+      "date": "2025-05-30"
      },
      {
       "src": "Tænk",
@@ -17326,7 +17328,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-l2620dw/16/105066",
-      "date": ""
+      "date": "2024-06-11"
      }
     ],
     "releve_source": "30/10/2026"
@@ -17380,7 +17382,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-hl-l1240w/16/122166",
-      "date": ""
+      "date": "2025-11-26"
      },
      {
       "src": "Which?",
@@ -17517,7 +17519,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-hl-l2865dw/16/111563",
-      "date": ""
+      "date": "2024-12-11"
      },
      {
       "src": "Which?",
@@ -17583,7 +17585,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-mfc-l2800dw/16/105078",
-      "date": ""
+      "date": "2024-06-11"
      },
      {
       "src": "Which?",
@@ -17823,7 +17825,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-lbp243dw-ii/16/125171",
-      "date": ""
+      "date": "2026-04-02"
      },
      {
       "src": "Which?",
@@ -18127,7 +18129,8 @@
       "url": "https://www.digitalcameraworld.com/reviews/canon-i-sensys-mf754cdw-review",
       "date": "",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "RTINGS",
@@ -18141,7 +18144,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/canon-i-sensys-mf752cdw",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 444.23,
    "img": "canon-mf752cdw.webp",
@@ -18192,7 +18196,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-lbp647cdw/16/125184",
-      "date": ""
+      "date": "2026-04-02"
      },
      {
       "src": "Which?",
@@ -18252,7 +18256,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-i-sensys-mf664cdw/16/125181",
-      "date": ""
+      "date": "2026-04-02"
      }
     ],
     "releve_source": "30/10/2026"
@@ -18360,7 +18364,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-color-laserjet-pro-3202dw/16/108966",
-      "date": ""
+      "date": "2024-07-05"
      }
     ],
     "releve_source": "30/10/2026"
@@ -18817,7 +18821,8 @@
       "url": "https://www.gathered.how/arts-crafts/canon-zoemini-2-printer-review",
       "date": "",
       "avant": null,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Test-Achats",
@@ -18825,7 +18830,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-zoemini-2/16/155338",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 99.95,
    "img": "canon-zoemini-2.webp",
@@ -18967,7 +18973,8 @@
       "url": "https://www.cnet.com/products/hp-sprocket-photo-printer/",
       "date": "",
       "avant": 6.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
@@ -18975,7 +18982,8 @@
       "url": "http://www.lesnumeriques.com/appareil-photo-instantane/hp-sprocket-p37853/test.html",
       "date": "",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Test-Achats",
@@ -18983,7 +18991,8 @@
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-sprocket-200-1as86a/16/145150",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 120.38,
    "img": "hp-sprocket.webp",
@@ -19114,7 +19123,8 @@
       "url": "https://www.lesnumeriques.com/imprimante/epson-ecotank-et-8500-copie-p63933/test.html",
       "date": "",
       "avant": 8.0,
-      "corrige": "10/10/2026"
+      "corrige": "10/10/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Northlight Images",
@@ -19128,7 +19138,8 @@
       "url": "https://www.which.co.uk/reviews/printers-and-ink/ecotank-et-8500",
       "date": ""
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 570.19,
    "img": "epson-et-8500.webp",
@@ -19279,7 +19290,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts6550i/16/122170",
-      "date": ""
+      "date": "2025-11-26"
      }
     ],
     "releve_source": "06/11/2026"
@@ -19483,7 +19494,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-workforce-wf-2930dwf/16/89372",
-      "date": ""
+      "date": "2023-01-09"
      },
      {
       "src": "Tænk",
@@ -19554,7 +19565,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-tr4755i/16/111570",
-      "date": ""
+      "date": "2024-12-11"
      },
      {
       "src": "Tænk",
@@ -19636,7 +19647,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/canon-pixma-ts7550i/16/122165",
-      "date": ""
+      "date": "2025-11-26"
      }
     ],
     "releve_source": "30/10/2026"
@@ -19702,7 +19713,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/brother-dcp-j1360dw/16/122163",
-      "date": ""
+      "date": "2025-11-26"
      }
     ],
     "releve_source": "30/10/2026"
@@ -19899,7 +19910,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/epson-ecotank-et-2951/16/122169",
-      "date": ""
+      "date": "2025-11-26"
      },
      {
       "src": "Which?",
@@ -19962,7 +19973,7 @@
       "src": "Altroconsumo",
       "score": null,
       "url": "https://www.altroconsumo.it/hi-tech/stampanti/comparatore/hp-color-laserjet-pro-mfp-3302sdw/16/110978",
-      "date": ""
+      "date": "2024-09-12"
      },
      {
       "src": "Tænk",
@@ -20038,7 +20049,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-officejet-pro-8124e/16/105097",
-      "date": ""
+      "date": "2024-06-11"
      },
      {
       "src": "Tænk",
@@ -20107,7 +20118,7 @@
       "src": "Test-Achats",
       "score": null,
       "url": "https://www.test-achats.be/hightech/imprimantes/comparateur/hp-envy-6132e/16/114848",
-      "date": ""
+      "date": "2025-03-19"
      },
      {
       "src": "Tænk",
@@ -20810,8 +20821,8 @@
     }
    ],
    "press": {
-    "avg": 8.68888888888889,
-    "n": 9,
+    "avg": 8.745454545454546,
+    "n": 11,
     "tests": 14,
     "scope": "modele",
     "src": [
@@ -20820,88 +20831,105 @@
     ],
     "notes": [
      {
+      "src": "T3",
+      "score": 10.0,
+      "url": "https://www.t3.com/home-living/vacuum-cleaners/roborock-saros-20-review-the-most-powerful-robot-vacuum-on-the-market-has-arrived",
+      "date": "2026-04-12",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/roborock-saros-20",
+      "date": "2026-03-30",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "LeCafeDuGeek",
       "score": 9.2,
       "url": "https://lecafedugeek.fr/test-roborock-saros-20-avez-vous-vraiment-besoin-de-ladaptilift-chez-vous/",
-      "date": ""
+      "date": "2026-03-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 9.0,
       "url": "https://www.smartworld.it/recensioni/roborock-saros-20",
-      "date": ""
+      "date": "2026-03-02"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-601999-test-roborock-saros-20.html",
-      "date": ""
+      "date": "2026-02-26",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-roborock-saros-20-est-il-vraiment-le-meilleur-robot-aspirateur-de-2026/",
-      "date": ""
-     },
-     {
-      "src": "T3",
-      "score": 9.0,
-      "url": "https://www.t3.com/home-living/vacuum-cleaners/roborock-saros-20-review-the-most-powerful-robot-vacuum-on-the-market-has-arrived",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 9.0,
-      "url": "https://www.trustedreviews.com/reviews/roborock-saros-20",
-      "date": ""
+      "date": "2026-06-10",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Roborock-Saros-20-im-Test_186693372.html",
-      "date": ""
+      "date": "2026-03-05"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/2978905_test-roborock-saros-20-20x",
-      "date": ""
+      "date": "2026-02-26",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.0,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20",
+      "date": "2026-07-14",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Stuff",
+      "score": 8.0,
+      "url": "https://www.stuff.tv/review/roborock-saros-20-neo-review/",
+      "date": "2026-09-09",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tech Advisor",
       "score": 8.0,
       "url": "https://www.techadvisor.com/article/3115154/roborock-saros-20-mopping-robot-vacuum-review.html",
-      "date": ""
+      "date": "2026-05-04",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/roborock-saros-20-neo-test-3213263.html",
-      "date": ""
+      "date": "2026-09-03"
      },
      {
       "src": "Labo Fnac",
       "score": null,
       "url": "https://leclaireur.fnac.com/test/696299-test-roborock-saros-20-flow/",
-      "date": ""
+      "date": "2026-10-11"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Diesen-Flaggschiff-Saugroboter-haelt-keine-Tuerschwelle-auf-Roborock-Saros-20-im-Test.1227836.0.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-20",
-      "date": ""
-     },
-     {
-      "src": "Stuff",
-      "score": null,
-      "url": "https://www.stuff.tv/review/roborock-saros-20-neo-review/",
-      "date": ""
+      "date": "2026-02-27"
      }
     ]
    },
@@ -20952,8 +20980,8 @@
     }
    ],
    "press": {
-    "avg": 8.35,
-    "n": 10,
+    "avg": 8.416666666666666,
+    "n": 12,
     "tests": 15,
     "scope": "gamme",
     "src": [
@@ -20962,94 +20990,118 @@
     ],
     "notes": [
      {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-qrevo-curv-2-pro-p77224/test.html",
-      "date": ""
-     },
-     {
       "src": "Basic Tutorials",
       "score": 9.0,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-qrevo-curv-2-pro-test/",
-      "date": ""
+      "date": "2025-11-01"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/roborock/2804417_test-du-roborock-qrevo-curv-2-pro-le-milieu-de-gamme-qui-a-tout-dun-grand",
-      "date": ""
+      "date": "2025-10-03",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 9.0,
+      "url": "https://www.journaldugeek.com/test/test-roborock-qrevo-curv-2-pro-un-monstre-de-puissance-qui-change-la-donne-a-la-maison/",
+      "date": "2025-10-16",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 9.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-qrevo-curv-2-pro-p77224/test.html",
+      "date": "2025-11-25",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom’s Hardware (it)",
+      "score": 9.0,
+      "url": "https://www.tomshw.it/altro/roborock-qrevo-curv-2-pro-il-robot-ultra-sottile-per-case-grandi-test-recensione",
+      "date": "2025-10-02",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 8.8,
+      "url": "https://www.01net.com/tests/test-roborock-qrevo-curv-2-pro-le-plus-sexy-des-aspirateurs-robots-fait-presque-un-sans-faute.html",
+      "date": "2025-10-14",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.8,
+      "url": "https://charlestech.fr/test-roborock-qrevo-curv-2-pro/",
+      "date": "2026-01-13",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 8.5,
       "url": "https://lecafedugeek.fr/test-roborock-qrevo-curv-2-flow-un-robot-premium-qui-simplifie-vraiment-le-quotidien/",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-roborock-qrevo-curv-2-pro-le-plus-sexy-des-aspirateurs-robots-fait-presque-un-sans-faute.html",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 8.0,
-      "url": "https://charlestech.fr/test-roborock-qrevo-curv-2-pro/",
-      "date": ""
+      "date": "2026-02-06",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Roborock-Qrevo-Curv-2-Pro-im-Test_186279661.html",
-      "date": ""
+      "date": "2025-10-02"
      },
      {
-      "src": "Journal du Geek",
+      "src": "Wired",
       "score": 8.0,
-      "url": "https://www.journaldugeek.com/test/test-roborock-qrevo-curv-2-pro-un-monstre-de-puissance-qui-change-la-donne-a-la-maison/",
-      "date": ""
-     },
-     {
-      "src": "Tom’s Hardware (it)",
-      "score": 8.0,
-      "url": "https://www.tomshw.it/altro/roborock-qrevo-curv-2-pro-il-robot-ultra-sottile-per-case-grandi-test-recensione",
-      "date": ""
+      "url": "https://www.wired.com/review/roborock-qrevo-curv-2-flow/",
+      "date": "2026-01-23",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-602929-test-roborock-qrevo-curv-2-flow-le-lavage-par-rouleau-tient-il-ses-promesses.html",
-      "date": ""
+      "date": "2026-03-06",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 6.9,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv-2-flow",
+      "date": "2026-05-13",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/roborock-qrevo-curv-2-pro",
-      "date": ""
+      "date": "2025-10-02"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/roborock-qrevo-curv-2-pro-test-3210505.html",
-      "date": ""
+      "date": "2025-09-04"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Rundherum-verbesserter-Saug-Wischroboter-mit-praktischen-Neuerungen-Roborock-Qrevo-Curv-2-Pro-im-Test.1039373.0.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-curv-2-flow",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/roborock-qrevo-curv-2-flow/",
-      "date": ""
+      "date": "2025-12-07"
      }
     ]
    },
@@ -21100,8 +21152,8 @@
     }
    ],
    "press": {
-    "avg": 8.254545454545454,
-    "n": 11,
+    "avg": 8.358333333333333,
+    "n": 12,
     "tests": 17,
     "scope": "gamme",
     "src": [
@@ -21113,7 +21165,17 @@
       "src": "CharlesTech",
       "score": 9.8,
       "url": "https://charlestech.fr/test-mova-z60-ultra-roller/",
-      "date": ""
+      "date": "2026-01-28",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.3,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-z60-ultra-roller-complete-test/",
+      "date": "2025-12-10",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -21122,94 +21184,106 @@
       "date": ""
      },
      {
-      "src": "Basic Tutorials",
-      "score": 9.0,
-      "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-z60-ultra-roller-complete-test/",
-      "date": ""
-     },
-     {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-mova-z60-ultra-roller-complete-la-nouvelle-reference-du-lavage-robotise/",
-      "date": ""
+      "date": "2025-12-17",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.9,
+      "url": "https://www.maison-et-domotique.com/168330-mova-z60-ultra-roller-standalone-robot-aspirateur-laveur-test/",
+      "date": "2026-03-12",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.7,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-mova-z60-ultra-roller-complete",
+      "date": "2025-09-04",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Neozone",
+      "score": 8.6,
+      "url": "https://www.neozone.org/tests/un-arsenal-de-technologies-je-teste-le-robot-aspirateur-mova-z60-ultra-roller-complete/",
+      "date": "2025-10-27",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Mova-Z60-Ultra-Roller-Complete-im-Test_186284608.html",
-      "date": ""
+      "date": "2025-10-03"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-591604-test-mova-z60-ultra-roller-complete.html",
-      "date": ""
+      "date": "2025-12-22",
+      "verifie": "20/11/2026"
      },
      {
       "src": "GadgetGear",
       "score": 8.0,
       "url": "https://www.gadgetgear.nl/2025/11/review-mova-z60-ultra-roller-complete/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Neozone",
-      "score": 8.0,
-      "url": "https://www.neozone.org/tests/un-arsenal-de-technologies-je-teste-le-robot-aspirateur-mova-z60-ultra-roller-complete/",
-      "date": ""
-     },
-     {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-mova-z60-ultra-roller-complete",
-      "date": ""
+      "src": "Frandroid",
+      "score": 7.0,
+      "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/2755725_test-du-mova-z60-ultra-roller-complete-une-nouvelle-serpilliere-pour-plus-defficacite",
+      "date": "2025-09-04",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
-      "score": 7.0,
+      "score": 6.0,
       "url": "https://www.lesnumeriques.com/aspirateur-robot/mova-z60-ultra-roller-p76947/test.html",
-      "date": ""
-     },
-     {
-      "src": "Maison et Domotique",
-      "score": 7.0,
-      "url": "https://www.maison-et-domotique.com/168330-mova-z60-ultra-roller-standalone-robot-aspirateur-laveur-test/",
-      "date": ""
+      "date": "2025-11-30",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/mova-z60-ultra-roller",
-      "date": ""
+      "date": "2025-09-01"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/mova-z60-ultra-roller-complete-saug-wisch-roboter-walze-frsichwasserreinigung-3210465.html",
-      "date": ""
-     },
-     {
-      "src": "Frandroid",
-      "score": null,
-      "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/2755725_test-du-mova-z60-ultra-roller-complete-une-nouvelle-serpilliere-pour-plus-defficacite",
-      "date": ""
+      "date": "2025-09-01"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Mit-gruendlicher-Wischwalze-und-enormer-Kletterfaehigkeit-Mova-Z60-Ultra-Roller-Complete-im-Test.1190481.0.html",
-      "date": ""
+      "date": "2025-12-25"
      },
      {
       "src": "Tech Jio",
       "score": null,
       "url": "https://techjioblog.com/2025/09/22/review-mova-z60-ultra-roller-robot-vacuum/",
-      "date": ""
+      "date": "2025-09-22"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2026/01/21/test-robot-aspirateur-laveur-z60-ultra-roller-standalone-de-mova/",
-      "date": ""
+      "date": "2026-01-21"
      }
     ]
    },
@@ -21260,7 +21334,7 @@
     }
    ],
    "press": {
-    "avg": 8.333333333333334,
+    "avg": 8.666666666666666,
     "n": 6,
     "tests": 9,
     "scope": "modele",
@@ -21271,59 +21345,72 @@
     "notes": [
      {
       "src": "PlaneteNumerique",
-      "score": 9.2,
+      "score": 10.0,
       "url": "https://www.planetenumerique.com/test-et-avis/tests-maison-et-plein-air/test-narwal-freo-z10-ultra-tout-simplement-le-meilleur-robot-aspirateur-laveur,6019.html",
-      "date": ""
+      "date": "2025-06-22",
+      "avant": 9.2,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
-      "score": 9.0,
+      "score": 9.2,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/narwal-freo-z10-ultra/",
-      "date": ""
+      "date": "2025-04-19",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 9.0,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-narwal-freo-z10-ultra",
+      "date": "2025-04-20",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Neozone",
       "score": 8.6,
       "url": "https://www.neozone.org/tests/je-teste-le-robot-aspirateur-narwal-freo-z10-ultra-du-haut-de-gamme-a-prix-raisonnable/",
-      "date": ""
+      "date": "2025-09-09",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
       "score": 8.2,
       "url": "https://charlestech.fr/test-narwal-freo-z10-ultra/",
-      "date": ""
-     },
-     {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-narwal-freo-z10-ultra",
-      "date": ""
+      "date": "2025-05-11",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 7.0,
       "url": "https://www.lesnumeriques.com/aspirateur-robot/narwal-freo-z10-ultra-p79024/test.html",
-      "date": ""
+      "date": "2026-10-23",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": null,
       "url": "https://www.chip.de/test/Narwal-Freo-Z10-Ultra-im-Test_186562497.html",
-      "date": ""
+      "date": "2026-02-02"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/narwal-freo-z10-ultra-test-saug-wisch-roboter-3209225.html",
-      "date": ""
+      "date": "2025-04-28"
      },
      {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/narwal-freo-z10-ultra-im-test,3432038.html",
-      "date": ""
+      "date": "2025-05-05"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 599.0,
    "img": "narwal-freo-z10-ultra.webp",
@@ -21371,8 +21458,8 @@
     }
    ],
    "press": {
-    "avg": 8.533333333333333,
-    "n": 6,
+    "avg": 8.971428571428572,
+    "n": 7,
     "tests": 12,
     "scope": "modele",
     "src": [
@@ -21381,10 +21468,29 @@
     ],
     "notes": [
      {
+      "src": "Trusted Reviews",
+      "score": 10.0,
+      "url": "https://www.trustedreviews.com/reviews/dreame-x50-ultra-complete",
+      "date": "2025-01-23",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": 9.6,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-x50-ultra-complete/",
+      "date": "2025-01-30",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Presse-citron",
       "score": 9.2,
       "url": "https://www.presse-citron.net/test-dreame-x50-ultra-complete/",
-      "date": ""
+      "date": "2025-03-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -21393,64 +21499,56 @@
       "date": ""
      },
      {
-      "src": "Basic Tutorials",
+      "src": "Tech Advisor",
       "score": 9.0,
-      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-x50-ultra-complete/",
-      "date": ""
+      "url": "https://www.techadvisor.com/article/2585714/dreame-x50-ultra-complete-review.html",
+      "date": "2025-01-23",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-X50-Ultra-Complete-im-Test_185777940.html",
-      "date": ""
-     },
-     {
-      "src": "Tech Advisor",
-      "score": 8.0,
-      "url": "https://www.techadvisor.com/article/2585714/dreame-x50-ultra-complete-review.html",
-      "date": ""
+      "date": "2025-04-04"
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dreame-x50-ultra-complete-vera-evoluzione",
-      "date": ""
+      "date": "2025-04-09",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-x50-ultra-complete-test-saug-wisch-roboter-absenkbarer-laser-ueberwindet-stufen-3208058.html",
-      "date": ""
+      "date": "2025-01-17"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/dreame-x50-ultra-complete-test-saugroboter-staubsaugroboter-kletterfuss/403024337",
-      "date": ""
+      "date": "2025-04-12"
      },
      {
       "src": "L&B Tech",
       "score": null,
       "url": "https://www.lbtechreviews.com/test/smart-home/dreame-x50-ultra-complete",
-      "date": ""
+      "date": "2025-07-25"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Dreame-X50-Ultra-Complete-Test-Kletternder-Flaggschiff-Saugroboter-ueberwindet-fast-jede-Tuerschwelle.946319.0.html",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/dreame-x50-ultra-complete",
-      "date": ""
+      "date": "2025-01-24"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/02/24/test-robot-aspirateur-laveur-x50-ultra-complete-de-dreame/",
-      "date": ""
+      "date": "2025-02-23"
      }
     ]
    },
@@ -21502,8 +21600,8 @@
     }
    ],
    "press": {
-    "avg": 8.35,
-    "n": 10,
+    "avg": 8.507692307692308,
+    "n": 13,
     "tests": 16,
     "scope": "modele",
     "src": [
@@ -21515,13 +21613,15 @@
       "src": "Tech Advisor",
       "score": 10.0,
       "url": "https://www.techadvisor.com/article/2523640/dreame-l40-ultra-robot-vacuum-review.html",
-      "date": ""
+      "date": "2024-11-18",
+      "verifie": "20/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 9.5,
       "url": "https://lecafedugeek.fr/test-dreame-l40-ultra-laspirateur-robot-intelligent-et-complet-pour-un-nettoyage-sans-effort/",
-      "date": ""
+      "date": "2024-11-26",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -21533,31 +21633,63 @@
       "src": "CharlesTech",
       "score": 9.0,
       "url": "https://charlestech.fr/test-dreame-l40-ultra/",
-      "date": ""
+      "date": "2024-10-26",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Digital Trends",
+      "score": 9.0,
+      "url": "https://www.digitaltrends.com/home/dreame-l40-ultra-review/",
+      "date": "2024-09-08",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "L&B Tech",
       "score": 9.0,
       "url": "https://www.lbtechreviews.com/test/smart-home/dreame-l40-ultra",
-      "date": ""
+      "date": "2025-07-22"
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/home/robot-vacuums/dreame-l40-ultra-review",
+      "date": "2024-11-20",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/dreame-l40-ultra",
+      "date": "2024-11-18",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-L40-Ultra-im-Test_185475898.html",
-      "date": ""
+      "date": "2024-10-08"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/dreame/2330150_test-du-dreame-l40-ultra-nettoyage-complet-pour-un-prix-abordable",
-      "date": ""
+      "date": "2024-09-14",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "TechRadar",
-      "score": 8.0,
-      "url": "https://www.techradar.com/home/robot-vacuums/dreame-l40-ultra-review",
-      "date": ""
+      "src": "tuttoteK",
+      "score": 7.8,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dreame-l40-ultra-cosa-cambia",
+      "date": "2024-12-06",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Gadget Bridge",
@@ -21566,46 +21698,31 @@
       "date": ""
      },
      {
-      "src": "tuttoteK",
-      "score": 6.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dreame-l40-ultra-cosa-cambia",
-      "date": ""
+      "src": "RTings",
+      "score": 6.3,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra",
+      "date": "2025-01-29",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-l40-ultra",
-      "date": ""
+      "date": "2024-10-04"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-l40-ultra-test-saug-wisch-roboter-mopp-und-buerste-ausfahrbar-ki-hinderniserkennung-3206762.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home/dreame-l40-ultra-review/",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/l40-ultra",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/dreame-l40-ultra",
-      "date": ""
+      "date": "2024-09-11"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/07/16/test-robot-aspirateur-l40-ultra-ae-de-dreame/",
-      "date": ""
+      "date": "2025-07-15"
      }
     ]
    },
@@ -21658,8 +21775,8 @@
     }
    ],
    "press": {
-    "avg": 8.835714285714285,
-    "n": 14,
+    "avg": 8.825,
+    "n": 16,
     "tests": 24,
     "scope": "gamme",
     "src": [
@@ -21671,25 +21788,37 @@
       "src": "tuttoteK",
       "score": 10.0,
       "url": "https://www.tuttotek.it/elettronica/recensione-dreamebot-l10s-ultra",
-      "date": ""
+      "date": "2022-09-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.5,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-l10s-ultra/",
-      "date": ""
+      "date": "2022-10-12",
+      "verifie": "20/11/2026"
      },
      {
       "src": "L&B Tech",
       "score": 9.5,
       "url": "https://www.lbtechreviews.com/test/smart-home/dreame-l10s-ultra-gen-2",
-      "date": ""
+      "date": "2025-07-23"
      },
      {
       "src": "CharlesTech",
       "score": 9.2,
       "url": "https://charlestech.fr/test-dreame-l10s-ultra/",
-      "date": ""
+      "date": "2022-10-17",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Android Police",
+      "score": 9.0,
+      "url": "https://www.androidpolice.com/dreamebot-l10s-ultra-review/",
+      "date": "2022-11-15",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -21707,25 +21836,31 @@
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/1524448_test-dreame-l10s-ultra",
-      "date": ""
+      "date": "2022-10-31",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.0,
+      "url": "https://lecafedugeek.fr/test-dreame-l10s-ultra-pro-heat-la-solution-ideale-chez-dreame/",
+      "date": "2024-03-18",
+      "avant": 8.5,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Maison et Domotique",
       "score": 9.0,
       "url": "https://www.maison-et-domotique.com/138597-dreamebot-l10s-ultra-test-robot-aspirateur/",
-      "date": ""
+      "date": "2022-10-14",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tech Advisor",
       "score": 9.0,
       "url": "https://www.techadvisor.com/article/1979031/dreame-l10s-ultra-robot-vacuum-review.html",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.5,
-      "url": "https://lecafedugeek.fr/test-dreame-l10s-ultra-pro-heat-la-solution-ideale-chez-dreame/",
-      "date": ""
+      "date": "2023-07-04",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Actualidad Gadget",
@@ -21737,55 +21872,61 @@
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-dreame-l10s-ultra-le-robot-haut-de-gamme-qui-promet-une-automatisation-totale/",
-      "date": ""
+      "date": "2022-09-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l10s-ultra-p70793/test.html",
-      "date": ""
+      "date": "2022-09-22",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/reviews/dreametech-l10s-ultra",
-      "date": ""
+      "date": "2023-03-04",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Android Police",
-      "score": null,
-      "url": "https://www.androidpolice.com/dreamebot-l10s-ultra-review/",
-      "date": ""
+      "src": "Trusted Reviews",
+      "score": 8.0,
+      "url": "https://www.trustedreviews.com/reviews/dreame-l10s-ultra-gen-2",
+      "date": "2024-11-20",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-l10s-ultra-gen-2",
-      "date": ""
+      "date": "2024-11-16"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.chinahandys.net/dreamebot-l10s-ultra-test/",
-      "date": ""
+      "date": "2022-12-13"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-l10s-ultra-gen-2-test-wisch-saug-roboter-kantenreinigung-basisstation-3207193.html",
-      "date": ""
+      "date": "2024-10-11"
      },
      {
       "src": "Gadgets360",
       "score": null,
       "url": "https://www.gadgets360.com/smart-home/reviews/dreame-l10s-ultra-robot-vacuum-mop-review-5787710#rss-gadgets-reviews",
-      "date": ""
+      "date": "2024-06-03"
      },
      {
       "src": "Generation-NT",
       "score": null,
       "url": "https://www.generation-nt.com/test-l10s-ultra-dreame-aspirateur-robot-article-2005344.html",
-      "date": ""
+      "date": "2022-09-26"
      },
      {
       "src": "LeMondeNumerique",
@@ -21797,18 +21938,12 @@
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Viel-Saugroboter-fuer-wenig-Geld-Dreame-L10s-Ultra-Gen-3-im-Test.1039376.0.html",
-      "date": ""
+      "date": "2025-12-21"
      },
      {
       "src": "TechTest",
       "score": null,
       "url": "https://techtest.org/der-dreamebot-l10s-ultra-im-test-eine-vollstaendig-automatische-reinigung/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/dreame-l10s-ultra-gen-2",
       "date": ""
      }
     ]
@@ -21862,8 +21997,8 @@
     }
    ],
    "press": {
-    "avg": 7.875,
-    "n": 8,
+    "avg": 8.233333333333333,
+    "n": 9,
     "tests": 11,
     "scope": "gamme",
     "src": [
@@ -21875,67 +22010,85 @@
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/mova/2901181_test-du-mova-e40-ultra-un-aspirateur-robot-ultra-complet-a-un-prix-tout-petit",
-      "date": ""
+      "date": "2025-12-10",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.5,
+      "url": "https://lecafedugeek.fr/test-mova-e40-ultra-le-robot-aspirateur-laveur-qui-joue-dans-la-cour-des-grands/",
+      "date": "2025-11-25",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 8.5,
+      "url": "https://www.presse-citron.net/test-mova-e40-ultra/",
+      "date": "2026-01-11",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "tuttoteK",
+      "score": 8.3,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-mova-e40-ultra-robot-aspirapolvere-e-lavapavimenti-con-stazione-all-in-one",
+      "date": "2025-12-23",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Allround-PC",
       "score": 8.0,
       "url": "https://www.allround-pc.com/artikel/smart-home/mova-e40-ultra-im-video-test-der-neue-preis-leistungs-koenig",
-      "date": ""
+      "date": "2025-11-24",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-587281-test-mova-e40-ultra-cet-aspirateur-robot-ne-devrait-pas-etre-aussi-bon-a-ce-prix.html",
-      "date": ""
+      "date": "2025-11-19",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "LeCafeDuGeek",
+      "src": "Journal du Geek",
       "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-mova-e40-ultra-le-robot-aspirateur-laveur-qui-joue-dans-la-cour-des-grands/",
-      "date": ""
-     },
-     {
-      "src": "Presse-citron",
-      "score": 8.0,
-      "url": "https://www.presse-citron.net/test-mova-e40-ultra/",
-      "date": ""
+      "url": "https://www.journaldugeek.com/test/mova-e40-ultra-quand-la-democratisation-technologique-rencontre-lintelligence-pratique/",
+      "date": "2026-01-12",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (FR)",
       "score": 8.0,
       "url": "https://www.tomsguide.fr/test-e40-ultra-de-mova-laspirateur-robot-a-prix-mini-qui-joue-dans-la-cour-des-grands/",
-      "date": ""
+      "date": "2025-12-13"
      },
      {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-mova-e40-ultra-robot-aspirapolvere-e-lavapavimenti-con-stazione-all-in-one",
-      "date": ""
-     },
-     {
-      "src": "Journal du Geek",
-      "score": 6.0,
-      "url": "https://www.journaldugeek.com/test/mova-e40-ultra-quand-la-democratisation-technologique-rencontre-lintelligence-pratique/",
-      "date": ""
+      "src": "Neozone",
+      "score": 7.8,
+      "url": "https://www.neozone.org/tests/test-complet-du-robot-aspirateur-mova-e40-ultra-voici-mon-avis/",
+      "date": "2026-03-31",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/mova-e40-ultra",
-      "date": ""
+      "date": "2025-11-20"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/mova-e40-ultra-test-preiswerter-saug-wisch-roboter-3211142.html",
-      "date": ""
-     },
-     {
-      "src": "Neozone",
-      "score": null,
-      "url": "https://www.neozone.org/tests/test-complet-du-robot-aspirateur-mova-e40-ultra-voici-mon-avis/",
-      "date": ""
+      "date": "2025-11-13"
      }
     ]
    },
@@ -21988,8 +22141,8 @@
     }
    ],
    "press": {
-    "avg": 8.511111111111111,
-    "n": 9,
+    "avg": 8.345454545454546,
+    "n": 11,
     "tests": 19,
     "scope": "gamme",
     "src": [
@@ -22001,79 +22154,110 @@
       "src": "Clubic",
       "score": 10.0,
       "url": "https://www.clubic.com/test-produit-577260-test-dreame-aqua10-ultra-roller-complete.html",
-      "date": ""
+      "date": "2025-09-15",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
-      "score": 9.6,
+      "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/dreame-aqua10-ultra-roller-complete",
-      "date": ""
+      "date": "2025-12-09",
+      "avant": 9.6,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "TechTest",
+      "score": 9.6,
+      "url": "https://techtest.org/30-000pa-perfekte-navigation-und-top-putzleistung-aber-mit-abzuege-in-der-b-note-dreame-aqua10-ultra-roller-im-test/",
+      "date": "",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 9.0,
       "url": "https://lecafedugeek.fr/test-dreame-aqua10-ultra-il-roule-sur-la-concurrence/",
-      "date": ""
+      "date": "2025-09-08",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Les Numériques",
-      "score": 9.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-aqua10-ultra-roller-p76872/test.html",
-      "date": ""
-     },
-     {
-      "src": "TechTest",
-      "score": 9.0,
-      "url": "https://techtest.org/30-000pa-perfekte-navigation-und-top-putzleistung-aber-mit-abzuege-in-der-b-note-dreame-aqua10-ultra-roller-im-test/",
-      "date": ""
+      "src": "Tom’s Hardware (it)",
+      "score": 8.5,
+      "url": "https://www.tomshw.it/altro/dreame-aqua10-ultra-roller-recensione",
+      "date": "2025-11-07",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-Aqua10-Ultra-Roller-Complete-im-Test_186275812.html",
-      "date": ""
+      "date": "2025-10-01"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/dreame/2800375_test-du-dreame-aqua10-ultra-roller-complete-que-vaut-le-robot-aspirateur-laveur-a-la-serpilliere-qui-reste-propre",
-      "date": ""
+      "date": "2025-09-24",
+      "verifie": "20/11/2026"
      },
      {
       "src": "tuttoteK",
       "score": 8.0,
       "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-dreame-aqua10-ultra-roller-complete",
-      "date": ""
+      "date": "2025-10-14",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.7,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/aqua10-ultra-roller",
+      "date": "2026-04-20",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-aqua10-ultra-roller-p76872/test.html",
+      "date": "2025-11-16",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 6.0,
       "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/dreame-aqua10-ultra-roller-review",
-      "date": ""
+      "date": "2025-11-20"
      },
      {
       "src": "01net",
       "score": null,
       "url": "https://www.01net.com/tests/dreame-aqua10-ultra-roller-avis.html",
-      "date": ""
+      "date": "2025-11-14"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-aqua10-ultra-roller",
-      "date": ""
+      "date": "2025-10-13"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/dreame-aqua10-ultra-roller-complete-saugroboter-im-test/",
-      "date": ""
+      "date": "2025-11-16"
      },
      {
       "src": "ComputerHoy",
       "score": null,
       "url": "https://computerhoy.20minutos.es/dispositivos/aspirador-dreame-aqua10-ultra-track-complete-ninja-mapear-mi-casa-pero-tiene-mopa-deja-rastro-alla-donde-vaya-1482481",
-      "date": ""
+      "date": "2025-09-15"
      },
      {
       "src": "GameStar",
@@ -22085,31 +22269,19 @@
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Klappe-zu-Wischwalze-weg-Saugroboter-Dreame-Aqua10-Ultra-Roller-Complete-im-Test.1101565.0.html",
-      "date": ""
+      "date": "2025-09-21"
      },
      {
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/tests/hardware/nass-trocken-roboter-dreame-aqua10-ultra-roller-complete-im-pctipp-test-2977057.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/dreame/aqua10-ultra-roller",
-      "date": ""
-     },
-     {
-      "src": "Tom’s Hardware (it)",
-      "score": null,
-      "url": "https://www.tomshw.it/altro/dreame-aqua10-ultra-roller-recensione",
-      "date": ""
+      "date": "2025-11-14"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/12/19/test-robot-aspirateur-laveur-aqua10-ultra-roller-complete-de-dreame/",
-      "date": ""
+      "date": "2025-12-19"
      }
     ]
    },
@@ -22161,8 +22333,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 7,
+    "avg": 8.129999999999999,
+    "n": 10,
     "tests": 14,
     "scope": "gamme",
     "src": [
@@ -22171,88 +22343,108 @@
     ],
     "notes": [
      {
+      "src": "TechTest",
+      "score": 9.4,
+      "url": "https://techtest.org/die-naechste-generation-saugroboter-der-ecovacs-deebot-x11-omnicyclone-im-test/",
+      "date": "",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 9.0,
+      "url": "https://geekculture.co/ecovacs-deebot-x11-omnicyclone-bagless-robot-vacuum-mop-review/",
+      "date": "2025-09-30",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "LeCafeDuGeek",
       "score": 9.0,
       "url": "https://lecafedugeek.fr/test-ecovacs-deebot-x11-omnicyclone-le-robot-qui-redefinit-le-menage-a-domicile/",
-      "date": ""
-     },
-     {
-      "src": "TechTest",
-      "score": 9.0,
-      "url": "https://techtest.org/die-naechste-generation-saugroboter-der-ecovacs-deebot-x11-omnicyclone-im-test/",
-      "date": ""
+      "date": "2025-09-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/ecovacs-deebot-x11-omnicyclone-test/",
-      "date": ""
+      "date": "2025-09-05",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Ecovacs-Deebot-X11-Omnicyclone_186265908.html",
-      "date": ""
+      "date": "2025-09-26"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/2832325_test-ecovacs-deebot-x11-omnicyclone",
-      "date": ""
+      "date": "2025-10-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "L&B Tech",
       "score": 8.0,
       "url": "https://www.lbtechreviews.com/test/smart-home/ecovacs-deebot-x11-omnicyclone",
-      "date": ""
+      "date": "2025-10-01"
+     },
+     {
+      "src": "RTings",
+      "score": 7.6,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/ecovacs/deebot-x11-omnicyclone",
+      "date": "2026-03-16",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (FR)",
-      "score": 6.0,
+      "score": 7.5,
       "url": "https://www.tomsguide.fr/test-de-laspirateur-robot-deebot-x11-omnicyclone-decovacs-la-performance-est-la-lexperience-utilisateur-un-peu-moins/",
-      "date": ""
+      "date": "2025-09-16",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "T3",
+      "score": 6.0,
+      "url": "https://www.t3.com/home-living/vacuum-cleaners/ecovacs-deebot-x11-omnicyclone",
+      "date": "2026-01-19",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/ecovacs-deebot-x11-omnicyclone",
-      "date": ""
+      "date": "2025-09-05"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/ecovacs-deebot-x11-omnicyclone-test-3210447.html",
-      "date": ""
-     },
-     {
-      "src": "GeekCulture",
-      "score": null,
-      "url": "https://geekculture.co/ecovacs-deebot-x11-omnicyclone-bagless-robot-vacuum-mop-review/",
-      "date": ""
+      "date": "2025-09-05"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/lifestyle/home/ecovacs-deebot-x11-omnicyclone-robot-vacuum-review",
-      "date": ""
+      "date": "2026-02-22"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Saugroboter-mit-Wischwalze-und-Schnellladen-aber-ohne-Staubbeutel-Ecovacs-Deebot-X11-OmniCyclone-Test.1101563.0.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/ecovacs/deebot-x11-omnicyclone",
-      "date": ""
-     },
-     {
-      "src": "T3",
-      "score": null,
-      "url": "https://www.t3.com/home-living/vacuum-cleaners/ecovacs-deebot-x11-omnicyclone",
-      "date": ""
+      "date": "2025-09-05"
      }
     ]
    },
@@ -22303,8 +22495,8 @@
     }
    ],
    "press": {
-    "avg": 9.66,
-    "n": 5,
+    "avg": 8.766666666666667,
+    "n": 6,
     "tests": 8,
     "scope": "gamme",
     "src": [
@@ -22316,31 +22508,47 @@
       "src": "Expert Reviews",
       "score": 10.0,
       "url": "https://www.expertreviews.co.uk/dyson/1408901/dyson-v11-absolute-review",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-cyclone-v11-absolute-p51421/test.html",
-      "date": ""
+      "date": "2023-12-04"
      },
      {
       "src": "Pocket-lint",
       "score": 10.0,
       "url": "https://www.pocket-lint.com/smart-home/reviews/dyson/147764-dyson-v11-absolute-vacuum-cleaner-review",
-      "date": ""
+      "date": "2019-04-12"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/dyson-v11-absolute",
-      "date": ""
+      "date": "2019-03-21",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Beebom",
+      "score": 9.4,
+      "url": "https://beebom.com/dyson-v11-absolute-pro-review/",
+      "date": "2019-08-01",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
-      "score": 8.3,
+      "score": 7.2,
       "url": "https://www.chip.de/test/Dyson-V11-Absolute-im-Test_165989266.html",
-      "date": ""
+      "date": "2022-04-06",
+      "avant": 8.3,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 6.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-cyclone-v11-absolute-p51421/test.html",
+      "date": "2019-04-06",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Aspirateurs.info",
@@ -22349,16 +22557,10 @@
       "date": ""
      },
      {
-      "src": "Beebom",
-      "score": null,
-      "url": "https://beebom.com/dyson-v11-absolute-pro-review/",
-      "date": ""
-     },
-     {
       "src": "Gadgets360",
       "score": null,
       "url": "https://gadgets.ndtv.com/home-appliances/reviews/dyson-v11-absolute-pro-vacuum-cleaner-review-price-in-india-2495252#rss-gadgets-reviews",
-      "date": ""
+      "date": "2021-07-26"
      }
     ]
    },
@@ -22410,7 +22612,7 @@
     }
    ],
    "press": {
-    "avg": 9.2,
+    "avg": 9.16,
     "n": 5,
     "tests": 6,
     "scope": "gamme",
@@ -22423,37 +22625,42 @@
       "src": "L&B Tech",
       "score": 10.0,
       "url": "https://www.lbtechreviews.com/test/smart-home/dyson-v15-detect-absolute",
-      "date": ""
+      "date": "2022-09-01"
      },
      {
       "src": "Les Numériques",
       "score": 10.0,
       "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-v15-detect-absolute-extra-p63659/test.html",
-      "date": ""
+      "date": "2021-06-17",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Stuff",
       "score": 10.0,
       "url": "https://www.stuff.tv/dyson/v15-detect/review",
-      "date": ""
-     },
-     {
-      "src": "Chip.de",
-      "score": 8.0,
-      "url": "https://www.chip.de/test/Dyson-V15-Detect-Absolute-im-Test_183962497.html",
-      "date": ""
+      "date": "2021-06-02",
+      "verifie": "20/11/2026"
      },
      {
       "src": "HardwareZone",
       "score": 8.0,
       "url": "https://www.hardwarezone.com.sg/review-dyson-v15-detect-absolute-hepa-review",
-      "date": ""
+      "date": "2022-08-23"
+     },
+     {
+      "src": "Chip.de",
+      "score": 7.8,
+      "url": "https://www.chip.de/test/Dyson-V15-Detect-Absolute-im-Test_183962497.html",
+      "date": "2023-07-21",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/tests/hardware/trockensauger-dyson-v15-detect-absolute-im-pctipp-test-2799396.html",
-      "date": ""
+      "date": "2022-09-21"
      }
     ]
    },
@@ -22506,8 +22713,8 @@
     }
    ],
    "press": {
-    "avg": 8.5,
-    "n": 6,
+    "avg": 8.485714285714286,
+    "n": 7,
     "tests": 9,
     "scope": "gamme",
     "src": [
@@ -22519,13 +22726,23 @@
       "src": "Expert Reviews",
       "score": 10.0,
       "url": "https://www.expertreviews.co.uk/vacuum-cleaners/1416268/dyson-v12-detect-slim-absolute-review",
-      "date": ""
+      "date": "2022-11-29"
      },
      {
       "src": "GadgetGear",
       "score": 9.0,
       "url": "https://www.gadgetgear.nl/2023/09/review-dyson-v12-detect-slim-absolute-stofzuiger/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 8.4,
+      "url": "https://geekculture.co/geek-review-dyson-v12-detect-slim-submarine/",
+      "date": "2023-07-27",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "91mobiles.com",
@@ -22540,16 +22757,20 @@
       "date": ""
      },
      {
-      "src": "GeekCulture",
-      "score": 8.0,
-      "url": "https://geekculture.co/geek-review-dyson-v12-detect-slim-submarine/",
-      "date": ""
-     },
-     {
       "src": "RTings",
       "score": 8.0,
       "url": "https://www.rtings.com/vacuum/reviews/dyson/v12-detect-slim",
-      "date": ""
+      "date": "2023-11-06",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 8.0,
+      "url": "https://www.wired.com/review/dyson-v12-detect-slim/",
+      "date": "2022-11-23",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Digit",
@@ -22561,13 +22782,7 @@
       "src": "Gadgets360",
       "score": null,
       "url": "https://gadgets360.com/home-appliances/reviews/dyson-v12-detect-slim-vacuum-cleaner-review-price-in-india-2775578#rss-gadgets-reviews",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/dyson-v12-detect-slim/",
-      "date": ""
+      "date": "2022-02-18"
      }
     ]
    },
@@ -22620,8 +22835,8 @@
     }
    ],
    "press": {
-    "avg": 8.090909090909092,
-    "n": 11,
+    "avg": 7.915384615384616,
+    "n": 13,
     "tests": 13,
     "scope": "modele",
     "src": [
@@ -22633,79 +22848,95 @@
       "src": "Absolute Geeks",
       "score": 10.0,
       "url": "https://www.absolutegeeks.com/article/featured-top/dyson-v16-piston-animal-wet-and-dry-review-pet-hair-dust-and-every-mess-in-between-conquered/",
-      "date": ""
+      "date": "2025-11-10",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/dyson-v16-piston-animal",
-      "date": ""
+      "date": "2025-09-08",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/dyson-v16-piston-animal-submarine-ds60-492969-01-im-test_8f21720c-92c0-4d14-9799-05fad42c0f8a.html",
-      "date": ""
+      "date": "2026-08-24"
      },
      {
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/home-garden/vacuums-cleaning/dyson-v16-piston-animal-review",
-      "date": ""
+      "date": "2025-09-09"
      },
      {
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-dyson-v16-piston-animal-de-la-puissance-a-revendre-et-une-etonnante-brosse-a-deux-cones/",
-      "date": ""
+      "date": "2025-10-23",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Labo Fnac",
       "score": 8.0,
       "url": "https://leclaireur.fnac.com/test/640446-test-dyson-v16-piston-animal/",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 8.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-v16-piston-animal-submarine-p76957/test.html",
-      "date": ""
+      "date": "2025-11-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/home-living/vacuum-cleaners/dyson-v16-piston-animal-review-the-smartest-and-strongest-cordless-dyson-yet",
-      "date": ""
+      "date": "2025-09-09",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tech Advisor",
       "score": 8.0,
       "url": "https://www.techadvisor.com/article/2906185/dyson-v16-piston-animal-cordless-vacuum-review.html",
-      "date": ""
+      "date": "2025-09-11",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.9,
+      "url": "https://www.rtings.com/vacuum/reviews/dyson/v16-piston-animal-submarine",
+      "date": "2026-05-20",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/dyson/2819679_test-dyson-v16-piston-animal",
-      "date": ""
+      "date": "2025-10-08",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dyson-v16-piston-animal-submarine-p76957/test.html",
+      "date": "2025-09-10",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 7.0,
+      "url": "https://www.wired.com/review/dyson-v16-piston-animal-submarine/",
+      "date": "2026-07-28",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ImTest",
       "score": 6.0,
       "url": "https://www.imtest.de/haushalt-kueche/dyson-v16-piston-animal-submarine-test-akkusauger-wischen/591982",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/vacuum/reviews/dyson/v16-piston-animal-submarine",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/dyson-v16-piston-animal-submarine/",
-      "date": ""
+      "date": "2026-07-27"
      }
     ]
    },
@@ -22759,8 +22990,8 @@
     }
    ],
    "press": {
-    "avg": 8.071428571428571,
-    "n": 7,
+    "avg": 7.944444444444445,
+    "n": 9,
     "tests": 11,
     "scope": "gamme",
     "src": [
@@ -22772,67 +23003,83 @@
       "src": "TechStage",
       "score": 10.0,
       "url": "https://www.techstage.de/test/akkusauger-samsung-bespoke-jet-im-test-teuer-wie-dyson-und-in-einem-details-besser/r1j1sz7",
-      "date": ""
+      "date": "2022-08-12",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tech Advisor",
-      "score": 8.5,
+      "score": 9.0,
       "url": "https://www.techadvisor.com/review/samsung-bespoke-jet-3815936/",
-      "date": ""
+      "date": "2022-05-17",
+      "avant": 8.5,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/samsung-bespoke-jet-ai",
+      "date": "2023-08-01",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "HardwareZone",
       "score": 8.0,
       "url": "https://www.hardwarezone.com.sg/review-samsung-bespoke-jet-ai-cordless-stick-vacuum-singapore-price",
-      "date": ""
+      "date": "2024-05-30"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/electromenager/lecteurs-testeurs-l-aspirateur-balai-samsung-bespoke-jet-face-aux-lecteurs-des-numeriques-e186567.html",
-      "date": ""
+      "date": "2022-06-28",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/home/vacuums/samsung-bespoke-jet-ai-review",
-      "date": ""
+      "date": "2023-12-13",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Digital Trends",
       "score": 7.0,
       "url": "https://www.digitaltrends.com/home/samsung-bespoke-jet-review/",
-      "date": ""
+      "date": "2022-09-18",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 7.0,
+      "url": "https://www.wired.com/review/samsung-bespoke-jet-ai/",
+      "date": "2023-08-16",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 5.5,
       "url": "https://www.rtings.com/vacuum/reviews/samsung/bespoke-jet",
-      "date": ""
+      "date": "2022-05-25",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/samsung-bespoke-jet-ai",
-      "date": ""
+      "date": "2024-02-29"
      },
      {
       "src": "PC Magazin",
       "score": null,
       "url": "https://www.connect-living.de/testbericht/samsung-bespoke-jet-ai-akku-plus-wet-and-clean-test-stielstaubsauger-wischfunktion-ki-3206525.html",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/samsung-bespoke-jet-ai",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/samsung-bespoke-jet-ai/",
-      "date": ""
+      "date": "2023-12-06"
      }
     ]
    },
@@ -22886,7 +23133,7 @@
     }
    ],
    "press": {
-    "avg": 8.5,
+    "avg": 8.25,
     "n": 4,
     "tests": 5,
     "scope": "gamme",
@@ -22897,9 +23144,12 @@
     "notes": [
      {
       "src": "TechStage",
-      "score": 10.0,
+      "score": 9.0,
       "url": "https://www.techstage.de/test/akkusauger-samsung-jet-90-complete-extra-im-test-gunstiger-aber-genauso-gut-wie-dyson/8gpcyrj",
-      "date": ""
+      "date": "2021-11-21",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "91mobiles.com",
@@ -22917,13 +23167,14 @@
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/aspirateur-balai/samsung-jet-70-vs15t7036r5-p60351/test.html",
-      "date": ""
+      "date": "2020-10-09",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Gadgets360",
       "score": null,
       "url": "https://gadgets360.com/home-appliances/reviews/samsung-jet-90-complete-cordless-handheld-vacuum-cleaner-review-price-in-india-3205807#rss-gadgets-reviews",
-      "date": ""
+      "date": "2022-07-29"
      }
     ]
    },
@@ -22975,8 +23226,8 @@
     }
    ],
    "press": {
-    "avg": 8.155555555555557,
-    "n": 9,
+    "avg": 8.209999999999999,
+    "n": 10,
     "tests": 13,
     "scope": "modele",
     "src": [
@@ -22988,79 +23239,94 @@
       "src": "L&B Tech",
       "score": 10.0,
       "url": "https://www.lbtechreviews.com/test/smart-home/dreame-z30-aquacycle",
-      "date": ""
+      "date": "2025-08-26"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.4,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-z30/",
-      "date": ""
+      "date": "2024-07-31",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.4,
+      "url": "https://lecafedugeek.fr/test-dreame-z30-laspirateur-balai-sans-fil-ideal/",
+      "date": "2024-07-31",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "CharlesTech",
+      "score": 8.3,
+      "url": "https://charlestech.fr/test-dreame-z30/",
+      "date": "2024-10-27",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/dreame-z30",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 8.0,
-      "url": "https://charlestech.fr/test-dreame-z30/",
-      "date": ""
+      "date": "2024-07-10"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-Z30-im-Test_185789425.html",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-dreame-z30-laspirateur-balai-sans-fil-ideal/",
-      "date": ""
+      "date": "2025-06-04"
      },
      {
       "src": "Tech Advisor",
       "score": 8.0,
       "url": "https://www.techadvisor.com/article/2918063/dreame-z30-stick-vacuum-cleaner-review.html",
-      "date": ""
+      "date": "2025-10-06",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (FR)",
       "score": 8.0,
       "url": "https://www.tomsguide.fr/test-dreame-z30-laspirateur-ultime-pour-eradiquer-la-poussiere-partout-dans-la-maison/",
-      "date": ""
+      "date": "2024-09-13",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.3,
+      "url": "https://www.rtings.com/vacuum/reviews/dreame/z30",
+      "date": "2026-10-13",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Presse-citron",
-      "score": 6.0,
+      "score": 6.7,
       "url": "https://www.presse-citron.net/test-dreame-z30-aspiration-maximale-sinon-rien/",
-      "date": ""
+      "date": "2024-10-08",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/dreame-z30-kabelloser-staubsauger-im-test/",
-      "date": ""
+      "date": "2024-08-23"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-z30-test-stilstaubsauger-akku-3206068.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/vacuum/reviews/dreame/z30",
-      "date": ""
+      "date": "2024-07-03"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2024/10/24/test-dreame-z30/",
-      "date": ""
+      "date": "2024-10-23"
      }
     ]
    },
@@ -23114,8 +23380,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 5,
+    "avg": 8.133333333333333,
+    "n": 6,
     "tests": 10,
     "scope": "modele",
     "src": [
@@ -23124,66 +23390,83 @@
     ],
     "notes": [
      {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-balai/dreame-r20-p74110/test.html",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-aspirateur-dreame-r20-lallie-ideal-pour-un-nettoyage-minutieux/",
-      "date": ""
+      "src": "Basic Tutorials",
+      "score": 9.2,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-r20/",
+      "date": "2023-06-15",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechRadar",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.techradar.com/home/vacuums/dreame-r20-cordless-vacuum-review",
-      "date": ""
+      "date": "2025-01-28",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.2,
+      "url": "https://lecafedugeek.fr/test-aspirateur-dreame-r20-lallie-ideal-pour-un-nettoyage-minutieux/",
+      "date": "2023-11-12",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (FR)",
       "score": 8.0,
       "url": "https://www.tomsguide.fr/test-dreame-r20-laspirateur-sans-fil-intelligent-qui-voulait-faire-de-lombre-a-dyson/",
-      "date": ""
+      "date": "2023-06-28",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Neozone",
-      "score": 6.0,
+      "score": 7.4,
       "url": "https://www.neozone.org/tests/notre-test-et-avis-sur-laspirateur-balai-sans-fil-dreame-r20/",
-      "date": ""
+      "date": "2024-01-04",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-balai/dreame-r20-p74110/test.html",
+      "date": "2023-10-14",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Actualidad Gadget",
       "score": null,
       "url": "https://www.actualidadgadget.com/dreame-r20-pro-a-una-aspiradora-todoterreno-a-precio-intermedio-review/",
-      "date": ""
-     },
-     {
-      "src": "Basic Tutorials",
-      "score": null,
-      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-r20/",
-      "date": ""
+      "date": "2026-05-26"
      },
      {
       "src": "BeGeek",
       "score": null,
       "url": "https://www.begeek.fr/test/test-dreame-r20-383881",
-      "date": ""
+      "date": "2023-06-28"
      },
      {
       "src": "Generation-NT",
       "score": null,
       "url": "https://www.generation-nt.com/tests/test-dreame-r20-aspirateur-balai-electrique-2038585",
-      "date": ""
+      "date": "2024-05-20"
      },
      {
       "src": "PC Magazin",
       "score": null,
       "url": "https://www.connect-living.de/testbericht/dreame-r20-test-akkusauger-3205380.html",
-      "date": ""
+      "date": "2023-06-30"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 209.0,
    "img": "dreame-r20.webp",
@@ -23237,7 +23520,7 @@
     }
    ],
    "press": {
-    "avg": 7.0,
+    "avg": 7.625,
     "n": 4,
     "tests": 5,
     "scope": "modele",
@@ -23248,33 +23531,42 @@
     "notes": [
      {
       "src": "Allround-PC",
-      "score": 8.0,
+      "score": 9.0,
       "url": "https://www.allround-pc.com/artikel/haus-garten/roborock-h60-hub-ultra-im-test-preiswerter-akkustaubsauger-mit-entleerungsstation",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 7.0,
-      "url": "https://charlestech.fr/test-roborock-h60-hub-ultra/",
-      "date": ""
+      "date": "2025-10-24",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "tuttoteK",
-      "score": 7.0,
+      "score": 7.8,
       "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-roborock-h60-hub-laspirapolvere-cordless-che-si-svuota-da-solo",
-      "date": ""
+      "date": "2025-10-09",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "CharlesTech",
+      "score": 7.7,
+      "url": "https://charlestech.fr/test-roborock-h60-hub-ultra/",
+      "date": "2026-02-04",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 6.0,
       "url": "https://www.chip.de/test/Roborock-H60-Hub-Ultra-im-Test_186574185.html",
-      "date": ""
+      "date": "2026-02-12"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Akku-Staubsauger-mit-automatischer-Absaugung-Roborock-H60-Hub-Ultra-im-Praxis-Test.1140740.0.html",
-      "date": ""
+      "date": "2025-10-23"
      }
     ]
    },
@@ -23337,7 +23629,7 @@
     }
    ],
    "press": {
-    "avg": 8.15,
+    "avg": 8.18125,
     "n": 16,
     "tests": 20,
     "scope": "modele",
@@ -23347,124 +23639,150 @@
     ],
     "notes": [
      {
-      "src": "Labo Fnac",
-      "score": 10.0,
-      "url": "https://leclaireur.fnac.com/test/611849-test-du-dreame-h15-pro-heat/",
-      "date": ""
-     },
-     {
       "src": "Basic Tutorials",
       "score": 9.4,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-h15-pro/",
-      "date": ""
+      "date": "2025-02-26",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-dreame-h15-pro-heat-laspirateur-laveur-a-eau-chaude-qui-change-tout/",
-      "date": ""
+      "date": "2025-06-05",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Labo Fnac",
+      "score": 9.0,
+      "url": "https://leclaireur.fnac.com/test/611849-test-du-dreame-h15-pro-heat/",
+      "date": "2025-07-22",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Mac Sources",
       "score": 9.0,
       "url": "https://macsources.com/dreame-h15-pro-carpetflex-wet-dry-vacuum-review/",
-      "date": ""
+      "date": "2025-10-22",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/dreame-h15-pro-wet-and-dry-vacuum-cleaner",
+      "date": "2025-04-15",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
-      "score": 8.0,
+      "score": 8.5,
       "url": "https://charlestech.fr/test-dreame-h15-pro-heat/",
-      "date": ""
+      "date": "2025-06-24",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.3,
+      "url": "https://www.maison-et-domotique.com/162198-test-dreame-h15-pro-heat/",
+      "date": "2025-06-03",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Neozone",
+      "score": 8.2,
+      "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-dreame-h15-pro-heat-sans-fil-qui-lave-les-sols-a-85/",
+      "date": "2025-07-17",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-H15-Pro-Heat-im-Test_186131305.html",
-      "date": ""
+      "date": "2025-07-23"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-572451-test-dreame-h15-pro-heat.html",
-      "date": ""
+      "date": "2025-07-15",
+      "verifie": "20/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 8.0,
       "url": "https://lecafedugeek.fr/test-dreame-h15-pro-foamwash-lallie-qui-aspire-et-serpille-sans-effort/",
-      "date": ""
+      "date": "2025-09-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h15-pro-heat-p76915/test.html",
-      "date": ""
-     },
-     {
-      "src": "Maison et Domotique",
-      "score": 8.0,
-      "url": "https://www.maison-et-domotique.com/162198-test-dreame-h15-pro-heat/",
-      "date": ""
-     },
-     {
-      "src": "Neozone",
-      "score": 8.0,
-      "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-dreame-h15-pro-heat-sans-fil-qui-lave-les-sols-a-85/",
-      "date": ""
+      "date": "2025-08-02",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-dreame-h15-pro-heat.html",
-      "date": ""
+      "date": "2025-06-10"
      },
      {
       "src": "Presse-citron",
-      "score": 8.0,
+      "score": 7.5,
       "url": "https://www.presse-citron.net/test-aspirateur-laveur-dreame-h15-pro-nouvelle-technologie-pour-un-tarif-demesure/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/dreame-h15-pro-wet-and-dry-vacuum-cleaner",
-      "date": ""
+      "date": "2025-03-05",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/dreame/2720345_test-des-dreame-h15-pro-et-h15-pro-heat-fort-potentiel-mais-imparfaits",
-      "date": ""
+      "date": "2025-08-02",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (US)",
       "score": 6.0,
       "url": "https://www.tomsguide.com/home/home-appliances/dreame-h15-pro-heat-review",
-      "date": ""
+      "date": "2025-12-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-h15-pro-heat",
-      "date": ""
+      "date": "2025-06-14"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/dreame-h15-pro-test/",
-      "date": ""
+      "date": "2025-05-02"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-h15-pro-test-nass-trocken-sauger-selbstreinigend-3208111.html",
-      "date": ""
+      "date": "2025-02-20"
      },
      {
       "src": "PCtipp",
       "score": null,
       "url": "https://www.pctipp.ch/tests/hardware/nass-trocken-sauger-dreame-h15-im-pctipp-test-2977589.html",
-      "date": ""
+      "date": "2025-12-09"
      }
     ]
    },
@@ -23518,8 +23836,8 @@
     }
    ],
    "press": {
-    "avg": 8.475,
-    "n": 8,
+    "avg": 8.5,
+    "n": 9,
     "tests": 13,
     "scope": "modele",
     "src": [
@@ -23528,82 +23846,99 @@
     ],
     "notes": [
      {
+      "src": "Basic Tutorials",
+      "score": 9.6,
+      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-h12-pro/",
+      "date": "2023-02-01",
+      "avant": 9.3,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "TechTest",
       "score": 9.5,
       "url": "https://techtest.org/der-dreame-h12-pro-im-test-eine-herausragende-putzleistung-und-besser-als-tineco/",
-      "date": ""
-     },
-     {
-      "src": "Basic Tutorials",
-      "score": 9.3,
-      "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-h12-pro/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Maison et Domotique",
       "score": 9.0,
       "url": "https://www.maison-et-domotique.com/140521-test-dreame-h12-pro/",
-      "date": ""
+      "date": "2023-01-26"
+     },
+     {
+      "src": "Mac Sources",
+      "score": 8.7,
+      "url": "https://macsources.com/dreame-h12-pro-flexreach-vacuum-review/",
+      "date": "2025-08-14",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
-      "score": 8.0,
+      "score": 8.5,
       "url": "https://charlestech.fr/test-dreame-h12-pro/",
-      "date": ""
+      "date": "2022-11-14",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.2,
+      "url": "https://lecafedugeek.fr/test-dreame-h12-pro-laspirateur-laveur-quil-vous-faut/",
+      "date": "2023-10-18",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Dreame-H12-Pro-im-Test_185311651.html",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-dreame-h12-pro-laspirateur-laveur-quil-vous-faut/",
-      "date": ""
+      "date": "2024-09-06"
      },
      {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-dreame-h12-pro-aspirateur-balai-nettoyeur-intelligent-s-p73418/test.html",
-      "date": ""
+      "date": "2023-05-11",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Mac Sources",
-      "score": 8.0,
-      "url": "https://macsources.com/dreame-h12-pro-flexreach-vacuum-review/",
-      "date": ""
+      "src": "Trusted Reviews",
+      "score": 7.0,
+      "url": "https://www.trustedreviews.com/reviews/dreame-h12-pro",
+      "date": "2023-05-19",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.chinahandys.net/dreame-h12-pro-nass-und-trockensauger-im-test-ein-neuer-koenig-sitzt-auf-dem-thron/",
-      "date": ""
+      "date": "2023-02-02"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-h12-pro-vs-proscenic-f20-test-nass-trocken-sauger-3203229.html",
-      "date": ""
+      "date": "2022-12-29"
      },
      {
       "src": "Tech Jio",
       "score": null,
       "url": "https://techjioblog.com/2022/11/04/dreame-h12-pro-vs-dreame-m12/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/dreame-h12-pro",
-      "date": ""
+      "date": "2022-11-04"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2023/11/11/test-le-nettoyeur-de-sol-dreame-h12-pro/",
-      "date": ""
+      "date": "2023-11-11"
      }
     ]
    },
@@ -23659,8 +23994,8 @@
     }
    ],
    "press": {
-    "avg": 8.25,
-    "n": 6,
+    "avg": 8.457142857142857,
+    "n": 7,
     "tests": 10,
     "scope": "modele",
     "src": [
@@ -23672,61 +24007,72 @@
       "src": "TechTest",
       "score": 9.5,
       "url": "https://techtest.org/dreame-h14-pro-test-der-beste-waschsauger-fuer-hartboeden-tierhaare/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://charlestech.fr/test-dreame-h14-pro/",
-      "date": ""
+      "date": "2024-09-06",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 8.5,
+      "url": "https://www.maison-et-domotique.com/149472-test-dreame-h14-pro/",
+      "date": "2024-10-31",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 8.4,
+      "url": "https://geekculture.co/dreame-h14-ultra-vacuum-cleaner-review/",
+      "date": "2025-02-10",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/dreame-h14-pro-im-test_2faf77a2-6185-4c3e-a743-ec544866d4a3.html",
-      "date": ""
+      "date": "2026-07-10"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/2432232_test-du-dreame-h14-pro-un-aspirateur-laveur-puissant-qui-nettoie-meme-sous-les-meubles",
-      "date": ""
+      "date": "2025-03-16",
+      "verifie": "20/11/2026"
      },
      {
       "src": "LeCafeDuGeek",
       "score": 8.0,
       "url": "https://lecafedugeek.fr/test-dreame-h14-pro-laspirateur-balai-qui-se-distingue/",
-      "date": ""
-     },
-     {
-      "src": "Maison et Domotique",
-      "score": 8.0,
-      "url": "https://www.maison-et-domotique.com/149472-test-dreame-h14-pro/",
-      "date": ""
+      "date": "2024-09-06"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-h14",
-      "date": ""
+      "date": "2024-09-02"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/dreame-h14-pro-im-test/",
-      "date": ""
-     },
-     {
-      "src": "GeekCulture",
-      "score": null,
-      "url": "https://geekculture.co/dreame-h14-ultra-vacuum-cleaner-review/",
-      "date": ""
+      "date": "2024-09-30"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2024/09/06/test-dreame-h14-pro/",
-      "date": ""
+      "date": "2024-09-05"
      }
     ]
    },
@@ -23778,7 +24124,7 @@
     }
    ],
    "press": {
-    "avg": 8.257142857142856,
+    "avg": 8.657142857142857,
     "n": 7,
     "tests": 11,
     "scope": "modele",
@@ -23791,67 +24137,77 @@
       "src": "TechTest",
       "score": 9.5,
       "url": "https://techtest.org/waschsauger-sind-ein-must-have-tineco-floor-one-s7-pro-im-test/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.3,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/tineco-floor-one-s7-pro/",
-      "date": ""
+      "date": "2023-04-20",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
       "score": 9.0,
       "url": "https://charlestech.fr/test-tineco-floor-one-s7-pro/",
-      "date": ""
+      "date": "2023-07-10",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/home/vacuums/tineco-floor-one-s7-pro-review-keeping-my-apartment-dirt-litter-and-pet-hair-free",
+      "date": "2023-11-12",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Tineco-Floor-One-S7-Pro-im-Test_185348639.html",
-      "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": 8.0,
-      "url": "https://www.techradar.com/home/vacuums/tineco-floor-one-s7-pro-review-keeping-my-apartment-dirt-litter-and-pet-hair-free",
-      "date": ""
+      "date": "2024-07-08"
      },
      {
       "src": "Tom's Guide (FR)",
       "score": 8.0,
       "url": "https://www.tomsguide.fr/test-tineco-floor-one-s7-pro-le-plus-tech-des-aspirateurs-balais-laveurs-est-il-pour-autant-le-plus-efficace/",
-      "date": ""
+      "date": "2024-02-03",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Neozone",
-      "score": 6.0,
+      "score": 7.8,
       "url": "https://www.neozone.org/tests/tineco-floor-one-s7-pro-le-meilleur-aspirateur-balai-laveur-de-2024-notre-avis-apres-un-test-complet/",
-      "date": ""
+      "date": "2024-01-30",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Generation-NT",
       "score": null,
       "url": "https://www.generation-nt.com/tests/test-tineco-floor-one-s7-pro-2032408",
-      "date": ""
+      "date": "2023-03-31"
      },
      {
       "src": "ObjetConnecte.net",
       "score": null,
       "url": "https://technplay.com/test-tineco-floor-one-s7-pro-un-menage-presque-sans-effort/",
-      "date": ""
+      "date": "2025-03-24"
      },
      {
       "src": "PC Magazin",
       "score": null,
       "url": "https://www.connect-living.de/testbericht/tineco-floor-one-s7-pro-test-review-nass-und-trockensauger-3205055.html",
-      "date": ""
+      "date": "2023-05-26"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2024/03/29/test-le-floor-one-s7-pro-de-tineco/",
-      "date": ""
+      "date": "2024-03-28"
      }
     ]
    },
@@ -23905,7 +24261,7 @@
     }
    ],
    "press": {
-    "avg": 8.233333333333333,
+    "avg": 8.588888888888889,
     "n": 9,
     "tests": 16,
     "scope": "modele",
@@ -23918,97 +24274,110 @@
       "src": "Clubic",
       "score": 10.0,
       "url": "https://www.clubic.com/test-produit-568899-test-tineco-floor-one-s9-artist.html",
-      "date": ""
+      "date": "2025-07-01",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 9.7,
+      "url": "https://lecafedugeek.fr/test-tineco-floor-one-s9-artist-steam-pro-le-nettoyeur-vapeur-qui-change-vraiment-le-quotidien/",
+      "date": "2026-05-20",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.1,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/tineco-floor-one-station-s9-artist/",
-      "date": ""
+      "date": "2026-06-17"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/test/2750127_test-du-tineco-floor-one-s9-artist-il-aspire-et-lave-passe-a-plat-a-180-et-seche-tout-seul",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 9.0,
-      "url": "https://lecafedugeek.fr/test-tineco-floor-one-s9-artist-steam-pro-le-nettoyeur-vapeur-qui-change-vraiment-le-quotidien/",
-      "date": ""
+      "date": "2025-09-08",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Tineco-Floor-One-S9-Artist-Premium-im-Test_186088996.html",
-      "date": ""
+      "date": "2025-07-09"
      },
      {
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/tineco-floor-one-s9-artist-quand-laspirateur-laveur-se-prend-pour-une-oeuvre-dart/",
-      "date": ""
+      "date": "2026-01-08",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (US)",
       "score": 8.0,
       "url": "https://www.tomsguide.com/home/home-appliances/tineco-floor-one-s9-artist-pro-review",
-      "date": ""
-     },
-     {
-      "src": "Presse-citron",
-      "score": 7.0,
-      "url": "https://www.presse-citron.net/test-tineco-floor-one-s9-artist/",
-      "date": ""
+      "date": "2026-02-16",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Neozone",
-      "score": 6.0,
+      "score": 7.8,
       "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-lavant-tineco-floor-one-s9-artist/",
-      "date": ""
+      "date": "2025-06-04",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Presse-citron",
+      "score": 7.7,
+      "url": "https://www.presse-citron.net/test-tineco-floor-one-s9-artist/",
+      "date": "2025-05-19",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/tineco-floor-one-s9-artist",
-      "date": ""
+      "date": "2025-05-21"
      },
      {
       "src": "BeGeek",
       "score": null,
       "url": "https://www.begeek.fr/test/test-tineco-floor-one-s9-artist-aspirateur-laveur-416492",
-      "date": ""
+      "date": "2025-06-30"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/tineco-floor-one-s9-artist-steam-pro-test/",
-      "date": ""
+      "date": "2026-05-23"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/tineco-floor-one-s9-test-3213021.html",
-      "date": ""
+      "date": "2026-08-26"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Schicker-Wischsauger-laesst-sich-Flachlegen-Tineco-Floor-One-S9-Artist-im-Praxis-Test.1023904.0.html",
-      "date": ""
+      "date": "2025-05-29"
      },
      {
       "src": "ObjetConnecte.net",
       "score": null,
       "url": "https://technplay.com/test-tineco-floor-one-s9-steam-artist-pro/",
-      "date": ""
+      "date": "2026-04-08"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/05/30/test-aspirateur-laveur-floor-one-s9-artist-de-tineco/",
-      "date": ""
+      "date": "2025-05-29"
      }
     ]
    },
@@ -24062,7 +24431,7 @@
     }
    ],
    "press": {
-    "avg": 8.040000000000001,
+    "avg": 8.1,
     "n": 5,
     "tests": 8,
     "scope": "modele",
@@ -24075,51 +24444,63 @@
       "src": "Basic Tutorials",
       "score": 9.2,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-m50-ultra-test/",
-      "date": ""
+      "date": "2025-11-13",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.5,
+      "url": "https://lecafedugeek.fr/test-mova-m50-ultra-laspirateur-laveur-qui-veut-reinventer-lentretien-quotidien/",
+      "date": "2025-10-02",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/2820001_test-mova-m50-ultra",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-mova-m50-ultra-laspirateur-laveur-qui-veut-reinventer-lentretien-quotidien/",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 8.0,
-      "url": "https://www.lesnumeriques.com/nettoyeur-sol/mova-m50-ultra-p77258/test.html",
-      "date": ""
+      "date": "2025-10-16",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
-      "score": 7.0,
+      "score": 7.8,
       "url": "https://charlestech.fr/test-mova-m50-ultra/",
-      "date": ""
+      "date": "2025-11-19",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/mova-m50-ultra-p77258/test.html",
+      "date": "2025-11-15",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/mova-m50-ultra",
-      "date": ""
+      "date": "2025-10-10"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/mova-m50-ultra-test-nass-trockensauger-selbstreinigung-3210737.html",
-      "date": ""
+      "date": "2025-09-26"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/10/02/test-aspirateur-laveur-m50-ultra-de-mova/",
-      "date": ""
+      "date": "2025-10-01"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 349.0,
    "img": "mova-m50-ultra.webp",
@@ -24171,7 +24552,7 @@
     }
    ],
    "press": {
-    "avg": 8.714285714285714,
+    "avg": 8.357142857142858,
     "n": 7,
     "tests": 11,
     "scope": "modele",
@@ -24181,70 +24562,79 @@
     ],
     "notes": [
      {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-q-revo-maxv-p74448/test.html",
-      "date": ""
-     },
-     {
       "src": "CharlesTech",
-      "score": 9.0,
+      "score": 9.5,
       "url": "https://charlestech.fr/test-roborock-qrevo-maxv/",
-      "date": ""
+      "date": "2024-04-18",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/marques/roborock/1954978_test-des-roborock-q-revo-maxv-et-q-revo-pro-excellent-rapport-qualite-prix-et-nettoyage-minutieux",
-      "date": ""
+      "date": "2024-04-01",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Presse-citron",
       "score": 9.0,
       "url": "https://www.presse-citron.net/test-roborock-qrevo-maxv/",
-      "date": ""
+      "date": "2024-04-19",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Roborock-Qrevo-MaxV-Test_185183802.html",
-      "date": ""
+      "date": "2024-03-21"
      },
      {
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-du-roborock-qrevo-maxv-le-robot-qui-democratise-des-technologies-phares-de-la-marque/",
-      "date": ""
+      "date": "2024-06-17",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-roborock-qrevo-maxv-2.html",
-      "date": ""
+      "date": "2024-05-21"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 7.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-q-revo-maxv-p74448/test.html",
+      "date": "2024-04-12",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/roborock-qrevo-maxv",
-      "date": ""
+      "date": "2024-08-04"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.chinahandys.net/roborock-q-revo-maxv-saugroboter-im-test/",
-      "date": ""
+      "date": "2024-03-28"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Roborock-Qrevo-MaxV-Saugroboter-im-Praxis-Test-Jetzt-faehrt-auch-Roborock-den-Wischmopp-aus.809365.0.html",
-      "date": ""
+      "date": "2024-03-04"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2024/04/19/test-laspirateur-robot-roborock-qrevo-maxv/",
-      "date": ""
+      "date": "2024-04-18"
      }
     ]
    },
@@ -24298,7 +24688,7 @@
     }
    ],
    "press": {
-    "avg": 8.3625,
+    "avg": 8.4,
     "n": 8,
     "tests": 11,
     "scope": "gamme",
@@ -24311,67 +24701,76 @@
       "src": "Basic Tutorials",
       "score": 9.4,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/",
-      "date": ""
+      "date": "2026-06-03"
      },
      {
       "src": "AndroidWorld",
       "score": 9.0,
       "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete",
-      "date": ""
+      "date": "2026-05-22"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-619483-test-mova-v70-ultra-complete.html",
-      "date": ""
+      "date": "2026-07-09",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/test/3152403_test-du-mova-v70-ultra-enfin-un-robot-aspirateur-laveur-qui-nettoie-les-moindres-recoins",
-      "date": ""
-     },
-     {
-      "src": "Journal du Geek",
-      "score": 8.5,
-      "url": "https://www.journaldugeek.com/test/test-du-mova-lidax-ultra-1200-votre-jardin-merite-mieux-quun-robot-aveugle/",
-      "date": ""
+      "date": "2026-06-25",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Neozone",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://www.neozone.org/tests/jai-teste-le-mova-v70-ultra-complete-un-robot-aspirateur-dote-dune-aspiration-de-40-000-pa/",
-      "date": ""
+      "date": "2026-06-09",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Journal du Geek",
+      "score": 8.0,
+      "url": "https://www.journaldugeek.com/test/test-du-mova-lidax-ultra-1200-votre-jardin-merite-mieux-quun-robot-aveugle/",
+      "date": "2026-05-22",
+      "avant": 8.5,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tom's Guide (FR)",
       "score": 8.0,
       "url": "https://www.tomsguide.fr/test-mova-v70-ultra-complete-un-robot-aspirateur-qui-va-dans-tous-les-petits-coins/",
-      "date": ""
+      "date": "2026-07-15"
      },
      {
       "src": "TechRadar",
       "score": 6.0,
       "url": "https://www.techradar.com/home/robot-vacuums/mova-v70-ultra-complete-robot-vacuum-review",
-      "date": ""
+      "date": "2026-10-16",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/mova-v70-ultra-complete-testbericht-3212630.html",
-      "date": ""
+      "date": "2026-06-03"
      },
      {
       "src": "Gear Diary",
       "score": null,
       "url": "https://geardiary.com/2026/08/31/mova-v70-ultra-complete-review/",
-      "date": ""
+      "date": "2026-08-31"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/lifestyle/home/mova-v70-ultra-complete-robot-vacuum-eview",
-      "date": ""
+      "date": "2026-08-23"
      }
     ]
    },
@@ -24425,7 +24824,7 @@
     }
    ],
    "press": {
-    "avg": 8.985714285714286,
+    "avg": 9.171428571428573,
     "n": 7,
     "tests": 9,
     "scope": "modele",
@@ -24438,49 +24837,59 @@
       "src": "Frandroid",
       "score": 10.0,
       "url": "https://www.frandroid.com/test/3230511_test-dji-romo-p2",
-      "date": ""
+      "date": "2026-09-03",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechTest",
       "score": 9.6,
       "url": "https://techtest.org/dji-romo-p2-im-test-2026-36-000-pa-und-die-beste-teppichreinigung/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.3,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dji-romo-p2/",
-      "date": ""
+      "date": "2026-09-20",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 9.3,
+      "url": "https://www.maison-et-domotique.com/173496-test-dji-romo-p2-robot-laveur/",
+      "date": "2026-10-07",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-romo-p2-dji-corrige-le-seul-vrai-defaut-de-son-robot-aspirateur-et-ca-change-tout/",
-      "date": ""
+      "date": "2026-10-13",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Maison et Domotique",
+      "src": "Les Numériques",
       "score": 9.0,
-      "url": "https://www.maison-et-domotique.com/173496-test-dji-romo-p2-robot-laveur/",
-      "date": ""
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dji-romo-p2-p78793/test.html",
+      "date": "2026-10-01",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/dji-romo-p2",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": 8.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dji-romo-p2-p78793/test.html",
-      "date": ""
+      "date": "2026-09-04"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dji-romo-p2-test-3213594.html",
-      "date": ""
+      "date": "2026-09-28"
      },
      {
       "src": "Notebookcheck",
@@ -24540,8 +24949,8 @@
     }
    ],
    "press": {
-    "avg": 8.484615384615385,
-    "n": 13,
+    "avg": 8.485714285714286,
+    "n": 14,
     "tests": 17,
     "scope": "modele",
     "src": [
@@ -24553,85 +24962,113 @@
       "src": "TechTest",
       "score": 9.7,
       "url": "https://techtest.org/narwal-flow-2-test-2026-neuer-koenig-unter-den-saugrobotern/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.6,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/narwal-flow-2-review/",
-      "date": ""
+      "date": "2026-04-22",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 9.4,
+      "url": "https://www.01net.com/tests/test-narwal-flow-2-avis.html",
+      "date": "2026-04-20",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "CharlesTech",
+      "score": 9.3,
+      "url": "https://charlestech.fr/jai-teste-le-narwal-flow-2-laspirateur-robot-qui-lave-et-apprend-avec-lia/",
+      "date": "2026-05-25",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": 9.0,
       "url": "https://www.smartworld.it/recensioni/narwal-flow-2",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 9.0,
-      "url": "https://charlestech.fr/jai-teste-le-narwal-flow-2-laspirateur-robot-qui-lave-et-apprend-avec-lia/",
-      "date": ""
+      "date": "2026-04-20"
      },
      {
       "src": "Presse-citron",
       "score": 9.0,
       "url": "https://www.presse-citron.net/jai-teste-le-narwal-flow-2-le-plus-intelligent-des-aspirateurs-robots/",
-      "date": ""
+      "date": "2026-04-20",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-narwal-flow-2-avis.html",
-      "date": ""
+      "src": "tuttoteK",
+      "score": 8.8,
+      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-narwal-flow-2-il-robot-lavapavimenti-che-punta-su-pulizia-profonda-intelligenza-e-continuita",
+      "date": "2026-04-20",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.7,
+      "url": "https://lecafedugeek.fr/test-narwal-flow-2-un-robot-aspirateur-laveur-qui-donne-chaud/",
+      "date": "2026-08-04",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test-kaufberatung/haushalt-garten/narwal-flow-2-im-test_085b82f1-a4f4-4b5e-b28f-e6997cd1f7bd.html",
-      "date": ""
+      "date": "2026-05-20"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/3089181_test-du-narwal-flow-2-une-serpilliere-a-chenille-pour-un-nettoyage-complet",
-      "date": ""
+      "date": "2026-06-02",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 8.0,
       "url": "https://www.journaldugeek.com/test/test-aspirateur-robot-narwal-flow-2-le-lavage-des-sols-au-rouleau-une-affaire-qui-roule/",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-narwal-flow-2-un-robot-aspirateur-laveur-qui-donne-chaud/",
-      "date": ""
+      "date": "2026-05-25",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Neozone",
       "score": 8.0,
       "url": "https://www.neozone.org/tests/mon-test-du-narwal-flow-2-un-aspirateur-robot-laveur-puissant-mais-un-petit-peu-bruyant/",
-      "date": ""
+      "date": "2026-09-23",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/narwal-flow-2",
-      "date": ""
+      "date": "2026-07-24",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "tuttoteK",
-      "score": 8.0,
-      "url": "https://www.tuttotek.it/elettronica/recensioni-elettronica/recensione-narwal-flow-2-il-robot-lavapavimenti-che-punta-su-pulizia-profonda-intelligenza-e-continuita",
-      "date": ""
+      "src": "RTings",
+      "score": 5.3,
+      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2",
+      "date": "2026-10-21",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/narwal-flow-2-test-saug-wisch-roboter-walze-3212287.html",
-      "date": ""
+      "date": "2026-04-20"
      },
      {
       "src": "GameStar",
@@ -24640,16 +25077,10 @@
       "date": ""
      },
      {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/robot-vacuum/reviews/narwal/flow-2",
-      "date": ""
-     },
-     {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2026/06/20/test-narwal-flow-2/",
-      "date": ""
+      "date": "2026-06-19"
      }
     ]
    },
@@ -24703,7 +25134,7 @@
     }
    ],
    "press": {
-    "avg": 7.5,
+    "avg": 7.7,
     "n": 2,
     "tests": 3,
     "scope": "gamme",
@@ -24714,23 +25145,28 @@
     "notes": [
      {
       "src": "Neozone",
-      "score": 8.0,
+      "score": 8.4,
       "url": "https://www.neozone.org/tests/je-teste-laspirateur-balai-qui-se-plie-rowenta-x-force-flex-14-80/",
-      "date": ""
+      "date": "2025-05-22",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 7.0,
       "url": "https://www.journaldugeek.com/test/test-du-rowenta-x-force-flex-14-80-laspirateur-qui-se-plie-en-quatre-pour-vous/",
-      "date": ""
+      "date": "2025-03-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/rowenta-x-force-flex-14-80",
-      "date": ""
+      "date": "2025-05-22"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 319.0,
    "img": "rowenta-x-force-flex-14-60.webp",
@@ -24769,8 +25205,8 @@
     }
    ],
    "press": {
-    "avg": 8.083333333333334,
-    "n": 6,
+    "avg": 8.466666666666667,
+    "n": 9,
     "tests": 15,
     "scope": "modele",
     "src": [
@@ -24782,25 +25218,57 @@
       "src": "Basic Tutorials",
       "score": 9.5,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-saros-10r-test/",
-      "date": ""
+      "date": "2025-02-16",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Digital Trends",
+      "score": 9.0,
+      "url": "https://www.digitaltrends.com/home/roborock-saros-10r-review/",
+      "date": "2025-02-07",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/roborock-saros-10r",
+      "date": "2025-02-20",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.8,
+      "url": "https://lecafedugeek.fr/test-roborock-saros-10r-robot-aspirateur-qui-veut-tout-faire-et-qui-y-arrive-presque/",
+      "date": "2025-05-08",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Android Headlines",
+      "score": 8.0,
+      "url": "https://www.androidheadlines.com/roborock-saros-10r-ultimate-review",
+      "date": "2025-03-24",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/roborock-saros-10r-im-test_339895",
-      "date": ""
+      "date": "2025-06-24"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/2541115_test-roborock-saros-10r",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-roborock-saros-10r-robot-aspirateur-qui-veut-tout-faire-et-qui-y-arrive-presque/",
-      "date": ""
+      "date": "2025-03-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "tuttoteK",
@@ -24810,63 +25278,48 @@
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 7.9,
       "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/saros-10r",
-      "date": ""
-     },
-     {
-      "src": "Android Headlines",
-      "score": null,
-      "url": "https://www.androidheadlines.com/roborock-saros-10r-ultimate-review",
-      "date": ""
+      "date": "2025-05-15",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/roborock-saros-10r",
-      "date": ""
+      "date": "2025-03-06"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/roborock-saros-10r-test/",
-      "date": ""
+      "date": "2025-03-30"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/roborock-saros-10r-test-saug-wisch-roboter-selbstreinigend-flach-hohe-saugkraft-3208478.html",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home/roborock-saros-10r-review/",
-      "date": ""
+      "date": "2025-02-21"
      },
      {
       "src": "KelRobot",
       "score": null,
       "url": "https://www.kelrobot.fr/2026/04/01/test-et-avis-de-laspirateur-robot-roborock-saros-10r/",
-      "date": ""
+      "date": "2026-04-01"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Roborock-Saros-10R-Test-StarSight-Saugroboter-ist-ultraflach-und-richtig-gut.962122.0.html",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/roborock-saros-10r",
-      "date": ""
+      "date": "2025-03-03"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2025/03/17/test-roborock-saros-10r/",
-      "date": ""
+      "date": "2025-03-16"
      }
     ]
    },
@@ -24920,8 +25373,8 @@
     }
    ],
    "press": {
-    "avg": 8.214285714285714,
-    "n": 7,
+    "avg": 8.5125,
+    "n": 8,
     "tests": 13,
     "scope": "modele",
     "src": [
@@ -24933,79 +25386,92 @@
       "src": "TechTest",
       "score": 9.5,
       "url": "https://techtest.org/ozmo-roller-3-0-und-30-000-pa-der-ecovacs-deebot-t90-pro-omni-im-test/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "GeekCulture",
+      "score": 9.2,
+      "url": "https://geekculture.co/ecovacs-deebot-t90-pro-omni-robot-vacuum-cleaner-review/",
+      "date": "2026-06-28",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 9.0,
       "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/3208289_test-ecovacs-deebot-t90-pro-omni",
-      "date": ""
+      "date": "2026-08-11",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-ecovacs-deebot-t90-pro-omni-la-preuve-qua-800-euros-on-peut-avoir-un-lavage-au-top/",
-      "date": ""
+      "date": "2026-06-12",
+      "verifie": "20/11/2026"
      },
      {
       "src": "CharlesTech",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://charlestech.fr/test-ecovacs-deebot-t90-pro-omni/",
-      "date": ""
+      "date": "2026-05-04",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "LeCafeDuGeek",
+      "score": 8.6,
+      "url": "https://lecafedugeek.fr/test-ecovacs-deebot-t90-pro-omni-une-nouvelle-reference-du-nettoyage-automatise/",
+      "date": "2026-04-24",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-617527-test-ecovacs-deebot-t90-pro-omni.html",
-      "date": ""
-     },
-     {
-      "src": "LeCafeDuGeek",
-      "score": 8.0,
-      "url": "https://lecafedugeek.fr/test-ecovacs-deebot-t90-pro-omni-une-nouvelle-reference-du-nettoyage-automatise/",
-      "date": ""
+      "date": "2026-07-03",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ImTest",
       "score": 6.0,
       "url": "https://www.imtest.de/einzeltests/ecovacs-deebot-t90-pro-omni-saugroboter-saug-wisch-roboter-test/616460",
-      "date": ""
+      "date": "2026-04-02"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/ecovacs-deebot-t90-pro-omni",
-      "date": ""
+      "date": "2026-03-13"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/ecovacs-deebot-t90-pro-omni-test-3212090.html",
-      "date": ""
-     },
-     {
-      "src": "GeekCulture",
-      "score": null,
-      "url": "https://geekculture.co/ecovacs-deebot-t90-pro-omni-robot-vacuum-cleaner-review/",
-      "date": ""
+      "date": "2026-03-18"
      },
      {
       "src": "HardwareZone",
       "score": null,
       "url": "https://www.hardwarezone.com.sg/lifestyle/home/ecovacs-deebot-t90-pro-omni-robot-vacuum",
-      "date": ""
+      "date": "2026-04-06"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Mittelklasse-Saugroboter-laesst-Flaggschiffe-erblassen-Ecovacs-Deebot-T90-Pro-Omni-im-Test.1245255.0.html",
-      "date": ""
+      "date": "2026-03-13"
      },
      {
       "src": "PC Games Hardware",
       "score": null,
       "url": "https://www.pcgameshardware.de/Saugroboter-Hardware-280626/Tests/Ecovacs-T90-Pro-Omni-Review-Release-1523242/",
-      "date": ""
+      "date": "2026-04-14"
      }
     ]
    },
@@ -25059,8 +25525,8 @@
     }
    ],
    "press": {
-    "avg": 8.61111111111111,
-    "n": 9,
+    "avg": 8.49,
+    "n": 10,
     "tests": 18,
     "scope": "gamme",
     "src": [
@@ -25069,34 +25535,36 @@
     ],
     "notes": [
      {
-      "src": "Les Numériques",
-      "score": 10.0,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l10s-pro-p70795/test.html",
-      "date": ""
+      "src": "Tech Jio",
+      "score": 9.6,
+      "url": "https://techjioblog.com/2023/12/11/review-dreame-l10s-pro-ultra-heat/",
+      "date": "2023-12-11",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Basic Tutorials",
       "score": 9.5,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-l10s-pro/",
-      "date": ""
+      "date": "2022-11-03",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechTest",
       "score": 9.5,
       "url": "https://techtest.org/der-dreame-l10s-pro-ultra-heat-im-test-herausragend-gute-putzleistung/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Presse-citron",
-      "score": 9.0,
+      "score": 9.3,
       "url": "https://www.presse-citron.net/test-du-dreame-l10s-pro-ultra-heat/",
-      "date": ""
-     },
-     {
-      "src": "CharlesTech",
-      "score": 8.5,
-      "url": "https://charlestech.fr/test-dreame-l10s-pro/",
-      "date": ""
+      "date": "2024-02-08",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -25111,70 +25579,85 @@
       "date": ""
      },
      {
-      "src": "Tech Jio",
+      "src": "CharlesTech",
       "score": 8.0,
-      "url": "https://techjioblog.com/2023/12/11/review-dreame-l10s-pro-ultra-heat/",
-      "date": ""
+      "url": "https://charlestech.fr/test-dreame-l10s-pro/",
+      "date": "2022-10-25",
+      "avant": 8.5,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Frandroid",
+      "score": 8.0,
+      "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/1577718_test-dreame-l10s-pro-aspirateur-robot-laveur",
+      "date": "2023-02-04",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l10s-pro-p70795/test.html",
+      "date": "2022-12-27",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 7.0,
       "url": "https://www.chip.de/test/Dreame-Bot-L10s-Pro-im-Test_184822306.html",
-      "date": ""
+      "date": "2023-06-23"
      },
      {
       "src": "AndroidWorld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-l10s-pro-ultra-heat",
-      "date": ""
+      "date": "2024-01-31"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.chinahandys.net/dreame-l10s-pro-im-test/",
-      "date": ""
+      "date": "2022-12-01"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/dreame-l10s-pro-saug-wisch-roboter-lasernavigation-hinderniserkennung-test-3203053.html",
-      "date": ""
-     },
-     {
-      "src": "Frandroid",
-      "score": null,
-      "url": "https://www.frandroid.com/produits-android/maison-connectee/robot-aspirateur/1577718_test-dreame-l10s-pro-aspirateur-robot-laveur",
-      "date": ""
+      "date": "2022-10-31"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/dreame-l10s-pro-ultra-heat-test-saugroboter-staubsaugroboter-review-funktionen-preis/402779224",
-      "date": ""
+      "date": "2024-02-15"
      },
      {
       "src": "Notebookcheck",
       "score": null,
       "url": "https://www.notebookcheck.com/Dreame-L10s-Pro-Ultra-Heat-im-Vergleichstest-Saugroboter-mit-Flaggschiff-Ausstattung-zum-kleineren-Preis.801961.0.html",
-      "date": ""
+      "date": "2024-02-23"
      },
      {
       "src": "PC Magazin",
       "score": null,
       "url": "https://www.connect-living.de/testbericht/dreame-l10s-pro-ultra-heat-test-saug-wisch-roboter-moppreinigung-wasserwechsel-ki-staubentleerung-3206871.html",
-      "date": ""
+      "date": "2024-03-05"
      },
      {
       "src": "Smartworld",
       "score": null,
       "url": "https://www.smartworld.it/recensioni/dreame-l10s-pro",
-      "date": ""
+      "date": "2022-11-23"
      },
      {
       "src": "Vonguru",
       "score": null,
       "url": "https://vonguru.fr/2024/02/17/test-dreame-l10s-pro-ultra-heat/",
-      "date": ""
+      "date": "2024-02-16"
      }
     ]
    },
@@ -25232,8 +25715,8 @@
     }
    ],
    "press": {
-    "avg": 7.941666666666666,
-    "n": 12,
+    "avg": 7.992307692307692,
+    "n": 13,
     "tests": 15,
     "scope": "gamme",
     "src": [
@@ -25245,19 +25728,33 @@
       "src": "Basic Tutorials",
       "score": 9.2,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/dreame-d10-plus/",
-      "date": ""
+      "date": "2022-06-24",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Maison et Domotique",
+      "score": 9.2,
+      "url": "https://www.maison-et-domotique.com/137648-test-dreamebot-d10-plus-robot-aspirateur/",
+      "date": "2022-07-26",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechTest",
       "score": 9.1,
       "url": "https://techtest.org/der-dreamebot-d10-plus-im-test-sehr-gute-leistung-und-fairer-preis/",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Maison et Domotique",
+      "src": "Tech Advisor",
       "score": 9.0,
-      "url": "https://www.maison-et-domotique.com/137648-test-dreamebot-d10-plus-robot-aspirateur/",
-      "date": ""
+      "url": "https://www.techadvisor.com/article/784814/dreamebot-d10-plus-review.html",
+      "date": "2022-06-13",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Actualidad Gadget",
@@ -25269,31 +25766,36 @@
       "src": "Allround-PC",
       "score": 8.0,
       "url": "https://www.allround-pc.com/artikel/smart-home/2022/dreame-d10-plus-videotest-saugroboter-mit-absaugstation",
-      "date": ""
+      "date": "2022-07-08",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPC.es",
       "score": 8.0,
       "url": "https://androidpc.es/dreame-bot-d10-plus-analisis-review/",
-      "date": ""
+      "date": "2022-06-27"
      },
      {
       "src": "NerdTechy",
       "score": 8.0,
       "url": "https://nerdtechy.com/dreametech-d10-plus-review",
-      "date": ""
-     },
-     {
-      "src": "Tech Advisor",
-      "score": 8.0,
-      "url": "https://www.techadvisor.com/article/784814/dreamebot-d10-plus-review.html",
-      "date": ""
+      "date": "2022-06-07"
      },
      {
       "src": "TechRadar",
       "score": 8.0,
       "url": "https://www.techradar.com/reviews/dreametech-d10-plus-robot-vacuum-and-mop-review/",
-      "date": ""
+      "date": "2022-06-20",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Neozone",
+      "score": 7.4,
+      "url": "https://www.neozone.org/tests/dreame-d10-plus-test-et-avis-de-laspirateur-laveur-avec-navigation-lidar-et-station-de-vidange-automatique/",
+      "date": "2022-06-24",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -25305,31 +25807,29 @@
       "src": "Journal du Geek",
       "score": 7.0,
       "url": "https://www.journaldugeek.com/test/test-du-dreame-d10-plus-pas-parfait-mais-plein-de-qualites/",
-      "date": ""
+      "date": "2022-08-04",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Neozone",
+      "src": "Focus-Numerique",
       "score": 6.0,
-      "url": "https://www.neozone.org/tests/dreame-d10-plus-test-et-avis-de-laspirateur-laveur-avec-navigation-lidar-et-station-de-vidange-automatique/",
-      "date": ""
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-d10-plus-p70233/test.html",
+      "date": "2022-08-20",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "BeGeek",
       "score": null,
       "url": "https://www.begeek.fr/test/test-dreame-d10-plus-372331",
-      "date": ""
-     },
-     {
-      "src": "Focus-Numerique",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-d10-plus-p70233/test.html",
-      "date": ""
+      "date": "2022-08-23"
      },
      {
       "src": "Generation-NT",
       "score": null,
       "url": "https://www.generation-nt.com/test-dreame-bot-d10-plus-aspirateur-article-2002531.html",
-      "date": ""
+      "date": "2022-06-24"
      }
     ]
    },
@@ -25389,8 +25889,8 @@
     }
    ],
    "press": {
-    "avg": 8.15,
-    "n": 4,
+    "avg": 8.42,
+    "n": 5,
     "tests": 9,
     "scope": "gamme",
     "src": [
@@ -25402,7 +25902,8 @@
       "src": "Basic Tutorials",
       "score": 9.1,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-qrevo-s-pro/",
-      "date": ""
+      "date": "2026-06-09",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AndroidPit",
@@ -25411,46 +25912,52 @@
       "date": ""
      },
      {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s",
+      "date": "2025-03-24",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "AndroidWorld",
       "score": 8.0,
       "url": "https://www.smartworld.it/recensioni/roborock-qrevo-s-pro",
-      "date": ""
+      "date": "2026-04-28"
      },
      {
       "src": "RTings",
-      "score": 6.5,
+      "score": 7.0,
       "url": "https://www.rtings.com/vacuum/reviews/roborock/qrevo-s",
-      "date": ""
+      "date": "2024-10-11",
+      "avant": 6.5,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/roborock-qrevo-s-pro-test/",
-      "date": ""
+      "date": "2026-06-19"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/roborock-qrevo-s-pro-test-hartboden-heisswasser-wischroboter-3212509.html",
-      "date": ""
+      "date": "2026-05-18"
      },
      {
       "src": "Future Zone",
       "score": null,
       "url": "https://futurezone.at/produkte/roborock-qrevo-s-test-review-staubsaugroboter-wischen-fazit-erfahrung-staubbeutel-sauberkeit/402943609",
-      "date": ""
+      "date": "2024-09-13"
      },
      {
       "src": "PC Games Hardware",
       "score": null,
       "url": "https://www.pcgameshardware.de/Saugroboter-Hardware-280626/Tests/Roborock-Qrevo-S-Pro-Review-Wischfunktion-1529692/",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": null,
-      "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s",
-      "date": ""
+      "date": "2026-05-09"
      }
     ]
    },
@@ -25503,8 +26010,8 @@
     }
    ],
    "press": {
-    "avg": 9.833333333333334,
-    "n": 6,
+    "avg": 9.200000000000001,
+    "n": 7,
     "tests": 9,
     "scope": "gamme",
     "src": [
@@ -25513,42 +26020,61 @@
     ],
     "notes": [
      {
-      "src": "01net",
-      "score": 10.0,
-      "url": "https://www.01net.com/tests/test-lg-oled65g5-plus-quun-televiseur-une-veritable-oeuvre-dart-sur-le-mur-du-salon.html",
-      "date": ""
-     },
-     {
-      "src": "IGN",
-      "score": 10.0,
-      "url": "https://www.ign.com/articles/lg-g5-review",
-      "date": ""
-     },
-     {
       "src": "L&B Tech",
       "score": 10.0,
       "url": "https://www.lbtechreviews.com/test/tv/lg-oled-g5-oled65g5",
-      "date": ""
+      "date": "2025-04-28"
+     },
+     {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://global.techradar.com/fr-fr/televisions/test-lg-g5-son-incroyable-luminosite-nous-a-fait-changer-davis-sur-les-televiseurs-oled",
+      "date": "2025-04-11",
+      "ajout": "04/11/2026",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/lg-oled55g5",
-      "date": ""
+      "date": "2025-06-24",
+      "verifie": "20/11/2026"
      },
      {
       "src": "What Hi-Fi?",
       "score": 10.0,
       "url": "https://www.whathifi.com/reviews/lg-g5",
-      "date": ""
+      "date": "2025-04-04",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Multiplayer.it",
       "score": 9.0,
       "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html",
-      "date": "",
+      "date": "2025-08-12",
       "avant": 10.0,
-      "corrige": "04/11/2026"
+      "corrige": "04/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/lg-g5-review",
+      "date": "2025-11-18",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 7.4,
+      "url": "https://www.01net.com/tests/test-lg-oled65g5-plus-quun-televiseur-une-veritable-oeuvre-dart-sur-le-mur-du-salon.html",
+      "date": "2025-10-19",
+      "avant": 10.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AVCesar",
@@ -25561,13 +26087,6 @@
       "score": null,
       "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1748586137",
       "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": null,
-      "url": "https://global.techradar.com/fr-fr/televisions/test-lg-g5-son-incroyable-luminosite-nous-a-fait-changer-davis-sur-les-televiseurs-oled",
-      "date": "2025-04-11",
-      "ajout": "04/11/2026"
      }
     ]
    },
@@ -25620,8 +26139,8 @@
     }
    ],
    "press": {
-    "avg": 8.32,
-    "n": 5,
+    "avg": 8.314285714285715,
+    "n": 7,
     "tests": 8,
     "scope": "gamme",
     "src": [
@@ -25633,52 +26152,68 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/629139-test-labo-du-samsung-tq43qn90fat-un-qled-qui-a-presque-tout-pour-lui/",
-      "date": ""
+      "date": "2025-10-15",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "Les Numériques",
-      "score": 9.6,
-      "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-65qn90f-p77181/test.html",
-      "date": ""
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://www.techradar.com/televisions/samsung-qn90f-review",
+      "date": "2025-06-08",
+      "ajout": "04/11/2026",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.2,
+      "url": "https://www.rtings.com/tv/reviews/samsung/qn90f",
+      "date": "2025-05-02",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Android Headlines",
+      "score": 8.0,
+      "url": "https://www.androidheadlines.com/2025/08/samsung-qn90f-tv-ultimate-review-the-mini-led-tv-that-just-might-make-you-forget-oled.html",
+      "date": "2025-08-18",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-568809-test-samsung-qn90f.html",
-      "date": ""
+      "date": "2025-06-17",
+      "verifie": "20/11/2026"
      },
      {
-      "src": "RTings",
+      "src": "Les Numériques",
       "score": 8.0,
-      "url": "https://www.rtings.com/tv/reviews/samsung/qn90f",
-      "date": ""
+      "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-65qn90f-p77181/test.html",
+      "date": "2025-09-30",
+      "avant": 9.6,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "IGN",
       "score": 6.0,
       "url": "https://www.ign.com/articles/samsung-qn90f-review",
-      "date": ""
-     },
-     {
-      "src": "Android Headlines",
-      "score": null,
-      "url": "https://www.androidheadlines.com/2025/08/samsung-qn90f-tv-ultimate-review-the-mini-led-tv-that-just-might-make-you-forget-oled.html",
-      "date": ""
+      "date": "2026-02-04",
+      "verifie": "20/11/2026"
      },
      {
       "src": "L&B Tech",
       "score": null,
       "url": "https://www.lbtechreviews.com/test/tv/samsung-qn90f-tq65qn90f",
-      "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": null,
-      "url": "https://www.techradar.com/televisions/samsung-qn90f-review",
-      "date": "2025-06-08",
-      "ajout": "04/11/2026"
+      "date": "2025-06-30"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 799.0,
    "img": "samsung-qn90f-50.webp",
@@ -25729,7 +26264,7 @@
     }
    ],
    "press": {
-    "avg": 6.5,
+    "avg": 6.15,
     "n": 4,
     "tests": 4,
     "scope": "gamme",
@@ -25742,25 +26277,30 @@
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 7.0,
-      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
-      "date": ""
+      "date": "2025-05-31",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 6.0,
       "url": "https://www.phonandroid.com/test-sony-bravia-3.html",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "What Hi-Fi?",
       "score": 6.0,
       "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp",
-      "date": ""
+      "date": "2026-01-06",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 5.6,
+      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
+      "date": "2025-03-18",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -25826,19 +26366,20 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand",
-      "date": ""
+      "date": "2025-11-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "RTings",
       "score": 7.0,
       "url": "https://www.rtings.com/tv/reviews/samsung/qn80f",
-      "date": ""
+      "date": "2025-07-16"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/samsung-gq65qn80f-test-3211144.html",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "MDS CineSon",
@@ -25895,8 +26436,8 @@
     }
    ],
    "press": {
-    "avg": 7.75,
-    "n": 4,
+    "avg": 7.8,
+    "n": 5,
     "tests": 6,
     "scope": "gamme",
     "src": [
@@ -25908,13 +26449,23 @@
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html",
-      "date": ""
+      "date": "2025-09-01",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-hisense-u7q-pro.html",
-      "date": ""
+      "date": "2026-04-02"
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 8.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
+      "date": "2025-11-14",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ZTGD",
@@ -25926,19 +26477,14 @@
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html",
-      "date": ""
+      "date": "2025-07-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14114/hisense-u7q-pro-en-u8q-miniled-tvs-heldere-hdr-maar-random-reclame-in-os.html",
-      "date": ""
-     },
-     {
-      "src": "What Hi-Fi?",
-      "score": null,
-      "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
-      "date": ""
+      "date": "2025-12-17"
      }
     ]
    },
@@ -25991,8 +26537,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 2,
+    "avg": 7.733333333333333,
+    "n": 3,
     "tests": 4,
     "scope": "gamme",
     "src": [
@@ -26004,27 +26550,33 @@
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/tech/tvs/lg-qned85-review-qned86",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/lg-65qned85",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.2,
+      "url": "https://www.rtings.com/tv/reviews/lg/qned85t",
+      "date": "2024-11-12",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/ces-25-lg-qned85-evo-alpha-8-ai-gen-2-super-slim-design-hdmi-2-1-lg-ai-tv-43698",
       "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/tv/reviews/lg/qned85t",
-      "date": ""
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 649.0,
    "img": "lg-qned85-55.webp",
@@ -26086,13 +26638,15 @@
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/hisense/2920197_test-du-hisense-55e7q-pro-un-televiseur-qled-144-hz-accessible-tres-fluide-et-reactif",
-      "date": ""
+      "date": "2025-12-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 6.0,
       "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55e7q-pro-p77341/test.html",
-      "date": ""
+      "date": "2025-11-12",
+      "verifie": "20/11/2026"
      },
      {
       "src": "MDS CineSon",
@@ -26104,9 +26658,10 @@
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14160/hisense-e7q-pro-qled-tv-simpele-tv-voor-een-lastige-prijs.html",
-      "date": ""
+      "date": "2025-12-26"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 489.0,
    "img": "hisense-e7q-pro-55.webp",
@@ -26155,8 +26710,8 @@
     }
    ],
    "press": {
-    "avg": 8.2,
-    "n": 7,
+    "avg": 8.566666666666666,
+    "n": 9,
     "tests": 10,
     "scope": "gamme",
     "src": [
@@ -26165,65 +26720,80 @@
     ],
     "notes": [
      {
+      "src": "TechRadar",
+      "score": 10.0,
+      "url": "https://global.techradar.com/fr-fr/televisions/test-lg-c5-oled-lun-des-meilleurs-tv-de-lannee-mais-avec-une-bonne-raison-de-ne-pas-lacheter-tout-de-suite",
+      "date": "2025-04-04",
+      "ajout": "04/11/2026",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "ComputerHoy",
       "score": 9.4,
       "url": "https://computerhoy.20minutos.es/dispositivos/ni-imagen-ni-sonido-resisten-lg-oled-evo-ai-c5-4k-ponerla-prueba-varias-semanas-1479183",
-      "date": ""
+      "date": "2025-08-27",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Trusted Reviews",
+      "score": 9.0,
+      "url": "https://www.trustedreviews.com/reviews/lg-oled42c5",
+      "date": "2025-08-26",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.7,
+      "url": "https://www.rtings.com/tv/reviews/lg/c5-oled",
+      "date": "2025-05-13",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/lg-oled-42c5-im-test_341164",
-      "date": ""
+      "date": "2025-06-23"
      },
      {
       "src": "Clubic",
       "score": 8.0,
       "url": "https://www.clubic.com/test-produit-583891-test-lg-oled-c5.html",
-      "date": ""
+      "date": "2025-10-24",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Digital Trends",
+      "score": 8.0,
+      "url": "https://www.digitaltrends.com/home-theater/lg-c5-review/",
+      "date": "2026-01-02",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "IGN",
       "score": 8.0,
       "url": "https://www.ign.com/articles/lg-c5-review",
-      "date": ""
+      "date": "2026-01-16",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-lg-oled-evo-c5.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 8.0,
-      "url": "https://www.rtings.com/tv/reviews/lg/c5-oled",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 8.0,
-      "url": "https://www.trustedreviews.com/reviews/lg-oled42c5",
-      "date": ""
-     },
-     {
-      "src": "Digital Trends",
-      "score": null,
-      "url": "https://www.digitaltrends.com/home-theater/lg-c5-review/",
-      "date": ""
+      "date": "2025-06-11"
      },
      {
       "src": "FlatpanelsHD",
       "score": null,
       "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1760942616",
       "date": ""
-     },
-     {
-      "src": "TechRadar",
-      "score": null,
-      "url": "https://global.techradar.com/fr-fr/televisions/test-lg-c5-oled-lun-des-meilleurs-tv-de-lannee-mais-avec-une-bonne-raison-de-ne-pas-lacheter-tout-de-suite",
-      "date": "2025-04-04",
-      "ajout": "04/11/2026"
      }
     ]
    },
@@ -26276,8 +26846,8 @@
     }
    ],
    "press": {
-    "avg": 8.428571428571429,
-    "n": 7,
+    "avg": 8.633333333333333,
+    "n": 9,
     "tests": 10,
     "scope": "gamme",
     "src": [
@@ -26289,63 +26859,76 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/",
-      "date": ""
+      "date": "2025-08-31",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-560232-test-samsung-s90f.html",
       "date": "2025-04-11",
-      "ajout": "04/11/2026"
+      "ajout": "04/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 9.0,
+      "url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90f-oled-tv-review",
+      "date": "2025-09-24",
+      "ajout": "04/11/2026",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/samsung-s90f/",
+      "date": "2026-01-30",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.7,
+      "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled",
+      "date": "2025-06-02",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Samsung-GQ55S90F-im-Test_186694051.html",
-      "date": ""
+      "date": "2026-03-09"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/2658147_test-du-samsung-65s90f-le-qd-oled-qui-veut-seduire-le-plus-grand-nombre",
-      "date": ""
+      "date": "2025-07-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "IGN",
       "score": 8.0,
       "url": "https://www.ign.com/articles/samsung-s90f-review",
-      "date": ""
+      "date": "2025-10-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-tv-samsung-s90f.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 8.0,
-      "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled",
-      "date": ""
-     },
-     {
-      "src": "Tom's Guide",
-      "score": null,
-      "url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90f-oled-tv-review",
-      "date": "2025-09-24",
-      "ajout": "04/11/2026"
+      "date": "2025-10-13"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/13576/samsung-s90f-oled-tv-midranger-met-mooie-hdr-prestaties.html",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/samsung-s90f/",
-      "date": ""
+      "date": "2025-08-10"
      }
     ]
    },
@@ -26397,7 +26980,7 @@
     }
    ],
    "press": {
-    "avg": 6.5,
+    "avg": 6.15,
     "n": 4,
     "tests": 4,
     "scope": "gamme",
@@ -26410,25 +26993,30 @@
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 7.0,
-      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
-      "date": ""
+      "date": "2025-05-31",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 6.0,
       "url": "https://www.phonandroid.com/test-sony-bravia-3.html",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "What Hi-Fi?",
       "score": 6.0,
       "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp",
-      "date": ""
+      "date": "2026-01-06",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 5.6,
+      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
+      "date": "2025-03-18",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -26494,19 +27082,20 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand",
-      "date": ""
+      "date": "2025-11-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "RTings",
       "score": 7.0,
       "url": "https://www.rtings.com/tv/reviews/samsung/qn80f",
-      "date": ""
+      "date": "2025-07-16"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/samsung-gq65qn80f-test-3211144.html",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "MDS CineSon",
@@ -26563,8 +27152,8 @@
     }
    ],
    "press": {
-    "avg": 8.428571428571429,
-    "n": 7,
+    "avg": 8.633333333333333,
+    "n": 9,
     "tests": 10,
     "scope": "gamme",
     "src": [
@@ -26576,63 +27165,76 @@
       "src": "Labo Fnac",
       "score": 10.0,
       "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/",
-      "date": ""
+      "date": "2025-08-31",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
       "score": 9.0,
       "url": "https://www.clubic.com/test-produit-560232-test-samsung-s90f.html",
       "date": "2025-04-11",
-      "ajout": "04/11/2026"
+      "ajout": "04/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom's Guide",
+      "score": 9.0,
+      "url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90f-oled-tv-review",
+      "date": "2025-09-24",
+      "ajout": "04/11/2026",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Wired",
+      "score": 9.0,
+      "url": "https://www.wired.com/review/samsung-s90f/",
+      "date": "2026-01-30",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 8.7,
+      "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled",
+      "date": "2025-06-02",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Samsung-GQ55S90F-im-Test_186694051.html",
-      "date": ""
+      "date": "2026-03-09"
      },
      {
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/test/2658147_test-du-samsung-65s90f-le-qd-oled-qui-veut-seduire-le-plus-grand-nombre",
-      "date": ""
+      "date": "2025-07-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "IGN",
       "score": 8.0,
       "url": "https://www.ign.com/articles/samsung-s90f-review",
-      "date": ""
+      "date": "2025-10-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-tv-samsung-s90f.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 8.0,
-      "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled",
-      "date": ""
-     },
-     {
-      "src": "Tom's Guide",
-      "score": null,
-      "url": "https://www.tomsguide.com/tvs/oled-tvs/samsung-s90f-oled-tv-review",
-      "date": "2025-09-24",
-      "ajout": "04/11/2026"
+      "date": "2025-10-13"
      },
      {
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/13576/samsung-s90f-oled-tv-midranger-met-mooie-hdr-prestaties.html",
-      "date": ""
-     },
-     {
-      "src": "Wired",
-      "score": null,
-      "url": "https://www.wired.com/review/samsung-s90f/",
-      "date": ""
+      "date": "2025-08-10"
      }
     ]
    },
@@ -26697,19 +27299,20 @@
       "src": "Frandroid",
       "score": 8.0,
       "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand",
-      "date": ""
+      "date": "2025-11-30",
+      "verifie": "20/11/2026"
      },
      {
       "src": "RTings",
       "score": 7.0,
       "url": "https://www.rtings.com/tv/reviews/samsung/qn80f",
-      "date": ""
+      "date": "2025-07-16"
      },
      {
       "src": "Connect.de",
       "score": null,
       "url": "https://www.connect.de/testbericht/samsung-gq65qn80f-test-3211144.html",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "MDS CineSon",
@@ -26779,13 +27382,15 @@
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/hisense/2920197_test-du-hisense-55e7q-pro-un-televiseur-qled-144-hz-accessible-tres-fluide-et-reactif",
-      "date": ""
+      "date": "2025-12-27",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
       "score": 6.0,
       "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55e7q-pro-p77341/test.html",
-      "date": ""
+      "date": "2025-11-12",
+      "verifie": "20/11/2026"
      },
      {
       "src": "MDS CineSon",
@@ -26797,9 +27402,10 @@
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14160/hisense-e7q-pro-qled-tv-simpele-tv-voor-een-lastige-prijs.html",
-      "date": ""
+      "date": "2025-12-26"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 749.0,
    "img": "hisense-e7q-pro-65.webp",
@@ -26848,8 +27454,8 @@
     }
    ],
    "press": {
-    "avg": 8.0,
-    "n": 2,
+    "avg": 7.733333333333333,
+    "n": 3,
     "tests": 4,
     "scope": "gamme",
     "src": [
@@ -26861,27 +27467,33 @@
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/tech/tvs/lg-qned85-review-qned86",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/lg-65qned85",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 7.2,
+      "url": "https://www.rtings.com/tv/reviews/lg/qned85t",
+      "date": "2024-11-12",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "AVCesar",
       "score": null,
       "url": "https://www.avcesar.com/ces-25-lg-qned85-evo-alpha-8-ai-gen-2-super-slim-design-hdmi-2-1-lg-ai-tv-43698",
       "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/tv/reviews/lg/qned85t",
-      "date": ""
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 799.0,
    "img": "lg-qned85-65.webp",
@@ -26930,7 +27542,7 @@
     }
    ],
    "press": {
-    "avg": 6.5,
+    "avg": 6.15,
     "n": 4,
     "tests": 4,
     "scope": "gamme",
@@ -26943,25 +27555,30 @@
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": 7.0,
-      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
-      "date": ""
+      "date": "2025-05-31",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 6.0,
       "url": "https://www.phonandroid.com/test-sony-bravia-3.html",
-      "date": ""
+      "date": "2025-11-11"
      },
      {
       "src": "What Hi-Fi?",
       "score": 6.0,
       "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp",
-      "date": ""
+      "date": "2026-01-06",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "RTings",
+      "score": 5.6,
+      "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
+      "date": "2025-03-18",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -27027,25 +27644,28 @@
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/tcl-p7k-review",
-      "date": ""
+      "date": "2025-10-21"
      },
      {
       "src": "T3",
       "score": 8.0,
       "url": "https://www.t3.com/tech/tvs/tcl-p7k-review-big-screen-big-value",
-      "date": ""
+      "date": "2025-10-12",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Trusted Reviews",
       "score": 8.0,
       "url": "https://www.trustedreviews.com/reviews/tcl-43p7k",
-      "date": ""
+      "date": "2026-01-19",
+      "verifie": "20/11/2026"
      },
      {
       "src": "What Hi-Fi?",
       "score": 8.0,
       "url": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p7k-43p7k",
-      "date": ""
+      "date": "2025-10-24",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -27098,8 +27718,8 @@
     }
    ],
    "press": {
-    "avg": 7.5,
-    "n": 2,
+    "avg": 6.5,
+    "n": 3,
     "tests": 3,
     "scope": "gamme",
     "src": [
@@ -27109,21 +27729,27 @@
     "notes": [
      {
       "src": "What Hi-Fi?",
-      "score": 9.0,
+      "score": 8.0,
       "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue43u8000f",
-      "date": ""
+      "date": "2025-11-29",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Expert Reviews",
       "score": 6.0,
       "url": "https://www.expertreviews.co.uk/technology/tvs-home-cinema/samsung-u8000f-review",
-      "date": ""
+      "date": "2025-11-18"
      },
      {
       "src": "RTings",
-      "score": null,
+      "score": 5.5,
       "url": "https://www.rtings.com/tv/reviews/samsung/u8000f",
-      "date": ""
+      "date": "2025-09-16",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -27174,8 +27800,8 @@
     }
    ],
    "press": {
-    "avg": 8.666666666666666,
-    "n": 6,
+    "avg": 8.828571428571427,
+    "n": 7,
     "tests": 7,
     "scope": "modele",
     "src": [
@@ -27187,45 +27813,59 @@
       "src": "TechRadar",
       "score": 10.0,
       "url": "https://www.techradar.com/televisions/soundbars/sonos-beam-ultra-review",
-      "date": ""
+      "date": "2026-09-22",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "01net",
+      "score": 9.0,
+      "url": "https://www.01net.com/tests/test-sonos-beam-ultra-avis.html",
+      "date": "2026-09-30",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Engadget",
       "score": 9.0,
       "url": "https://www.engadget.com/2265077/sonos-beam-ultra-review/",
-      "date": ""
+      "date": "2026-09-22",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Journal du Geek",
       "score": 9.0,
       "url": "https://www.journaldugeek.com/test/test-sonos-beam-ultra-la-barre-de-son-qui-degaine-enfin-le-dolby-atmos-pour-de-bon/",
-      "date": ""
-     },
-     {
-      "src": "01net",
-      "score": 8.0,
-      "url": "https://www.01net.com/tests/test-sonos-beam-ultra-avis.html",
-      "date": ""
+      "date": "2026-10-16",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Absolute Geeks",
-      "score": 8.0,
+      "score": 8.8,
       "url": "https://www.absolutegeeks.com/reviews/sonos-beam-ultra-review-the-little-soundbar-that-learned-to-look-up-and-fill-the-room/",
-      "date": ""
+      "date": "2026-10-06",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Les Numériques",
+      "score": 8.0,
+      "url": "https://www.lesnumeriques.com/barre-de-son/sonos-beam-ultra-p78770/test.html",
+      "date": "2026-10-17",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "SoundGuys",
       "score": 8.0,
       "url": "https://www.soundguys.com/sonos-beam-ultra-review-163171/",
-      "date": ""
-     },
-     {
-      "src": "Les Numériques",
-      "score": null,
-      "url": "https://www.lesnumeriques.com/barre-de-son/sonos-beam-ultra-p78770/test.html",
-      "date": ""
+      "date": "2026-09-22",
+      "verifie": "20/11/2026"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 699.0,
    "img": "sonos-beam-ultra.webp",
@@ -27276,8 +27916,8 @@
     }
    ],
    "press": {
-    "avg": 9.0,
-    "n": 3,
+    "avg": 8.675,
+    "n": 4,
     "tests": 5,
     "scope": "modele",
     "src": [
@@ -27289,19 +27929,29 @@
       "src": "T3",
       "score": 10.0,
       "url": "https://www.t3.com/tech/soundbars/samsung-hw-qs700f-review",
-      "date": ""
+      "date": "",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechAeris",
       "score": 9.0,
       "url": "https://techaeris.com/2025/04/18/samsung-hw-qs700f-review/",
-      "date": ""
+      "date": "2025-04-18"
      },
      {
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Kleiner-Subwoofer-grosse-Wirkung-Samsung-HW-QS700F-im-Test_185931165.html",
-      "date": ""
+      "date": "2025-04-23"
+     },
+     {
+      "src": "RTings",
+      "score": 7.7,
+      "url": "https://www.rtings.com/soundbar/reviews/samsung/hw-qs700f",
+      "date": "2026-04-13",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Que Choisir",
@@ -27309,12 +27959,6 @@
       "url": "https://www.quechoisir.org/comparatif-barres-de-son-n819/samsung-hw-qs700f-p287986/",
       "date": "2026-02-02",
       "ajout": "04/11/2026"
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/soundbar/reviews/samsung/hw-qs700f",
-      "date": ""
      }
     ]
    },
@@ -27366,8 +28010,8 @@
     }
    ],
    "press": {
-    "avg": 7.25,
-    "n": 4,
+    "avg": 7.58,
+    "n": 5,
     "tests": 5,
     "scope": "modele",
     "src": [
@@ -27379,7 +28023,7 @@
       "src": "Chip.de",
       "score": 8.0,
       "url": "https://www.chip.de/test/Sony-Theatre-Bar-7-im-Test_186873888.html",
-      "date": ""
+      "date": "2026-04-15"
      },
      {
       "src": "Gadget Bridge",
@@ -27388,22 +28032,29 @@
       "date": ""
      },
      {
+      "src": "RTings",
+      "score": 7.9,
+      "url": "https://www.rtings.com/soundbar/reviews/sony/bravia-theater-bar-7",
+      "date": "2026-06-09",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-624949-test-sony-bravia-theatre-bar-7-l-immersion-pour-les-petits-salons-mais-caisson-obligatoire.html",
-      "date": ""
+      "date": "2026-08-24",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
-      "score": 6.0,
+      "score": 7.0,
       "url": "https://www.lesnumeriques.com/barre-de-son/sony-bravia-theatre-bar-7-p78041/test.html",
-      "date": ""
-     },
-     {
-      "src": "RTings",
-      "score": null,
-      "url": "https://www.rtings.com/soundbar/reviews/sony/bravia-theater-bar-7",
-      "date": ""
+      "date": "2026-04-15",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -27469,13 +28120,14 @@
       "src": "Trusted Reviews",
       "score": 10.0,
       "url": "https://www.trustedreviews.com/reviews/jbl-bar-3000mk2",
-      "date": ""
+      "date": "2026-08-25",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/jbl-bar-300mk2/",
-      "date": ""
+      "date": "2026-01-31"
      }
     ]
    },
@@ -27539,19 +28191,21 @@
       "src": "Kopfhörer",
       "score": 8.0,
       "url": "https://www.kopfhoerer.de/test/tcl-q65h/",
-      "date": ""
+      "date": "2026-02-09"
      },
      {
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-578762-test-tcl-q65h-une-barre-de-son-premium-et-puissante-avec-quelques-defauts.html",
-      "date": ""
+      "date": "2025-09-13",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
       "score": 7.0,
       "url": "https://www.frandroid.com/marques/tcl/2820545_test-de-la-barre-de-son-tcl-q65h-de-la-puissance-a-en-revendre",
-      "date": ""
+      "date": "2025-10-11",
+      "verifie": "20/11/2026"
      }
     ]
    },
@@ -27603,7 +28257,7 @@
     }
    ],
    "press": {
-    "avg": 7.0,
+    "avg": 6.866666666666667,
     "n": 3,
     "tests": 4,
     "scope": "modele",
@@ -27616,19 +28270,25 @@
       "src": "GizTele",
       "score": 8.0,
       "url": "https://www.giztele.com/hisense-hs2100-caracteristicas-precio-opiniones/",
-      "date": ""
+      "date": "2024-01-28"
      },
      {
       "src": "RTings",
-      "score": 7.0,
+      "score": 7.6,
       "url": "https://www.rtings.com/soundbar/reviews/hisense/hs2100",
-      "date": ""
+      "date": "2024-03-21",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Les Numériques",
-      "score": 6.0,
+      "score": 5.0,
       "url": "https://www.lesnumeriques.com/barre-de-son/hisense-hs2100-p74700/test.html",
-      "date": ""
+      "date": "2024-05-29",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "MDS CineSon",
@@ -27696,8 +28356,8 @@
     }
    ],
    "press": {
-    "avg": 7.75,
-    "n": 4,
+    "avg": 7.8,
+    "n": 5,
     "tests": 8,
     "scope": "gamme",
     "src": [
@@ -27709,13 +28369,23 @@
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html",
-      "date": ""
+      "date": "2025-09-01",
+      "verifie": "20/11/2026"
      },
      {
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-hisense-u7q-pro.html",
-      "date": ""
+      "date": "2026-04-02"
+     },
+     {
+      "src": "What Hi-Fi?",
+      "score": 8.0,
+      "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
+      "date": "2025-11-14",
+      "avant": null,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "ZTGD",
@@ -27727,7 +28397,8 @@
       "src": "Clubic",
       "score": 7.0,
       "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html",
-      "date": ""
+      "date": "2025-07-05",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Expert Reviews",
@@ -27747,13 +28418,7 @@
       "src": "Tweakers",
       "score": null,
       "url": "https://tweakers.net/reviews/14114/hisense-u7q-pro-en-u8q-miniled-tvs-heldere-hdr-maar-random-reclame-in-os.html",
-      "date": ""
-     },
-     {
-      "src": "What Hi-Fi?",
-      "score": null,
-      "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
-      "date": ""
+      "date": "2025-12-17"
      }
     ]
    },
@@ -27814,7 +28479,7 @@
     }
    ],
    "press": {
-    "avg": 8.0,
+    "avg": 8.3,
     "n": 1,
     "tests": 1,
     "scope": "modele",
@@ -27825,11 +28490,15 @@
     "notes": [
      {
       "src": "RTings",
-      "score": 8.0,
+      "score": 8.3,
       "url": "https://www.rtings.com/soundbar/reviews/lg/s90tr",
-      "date": ""
+      "date": "2024-08-12",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      }
-    ]
+    ],
+    "releve_source": "20/11/2026"
    },
    "prix": 399.98,
    "img": "lg-s90tr.webp",

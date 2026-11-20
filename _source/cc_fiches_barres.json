@@ -7,49 +7,62 @@
     "note10": 10.0,
     "origine": "bloc",
     "date": "22/09/2026",
-    "url": "https://www.techradar.com/televisions/soundbars/sonos-beam-ultra-review"
+    "url": "https://www.techradar.com/televisions/soundbars/sonos-beam-ultra-review",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Engadget",
     "note10": 9.0,
     "origine": "bloc",
     "date": "22/09/2026",
-    "url": "https://www.engadget.com/2265077/sonos-beam-ultra-review/"
+    "url": "https://www.engadget.com/2265077/sonos-beam-ultra-review/",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Journal du Geek",
     "note10": 9.0,
     "origine": "bloc",
     "date": "16/10/2026",
-    "url": "https://www.journaldugeek.com/test/test-sonos-beam-ultra-la-barre-de-son-qui-degaine-enfin-le-dolby-atmos-pour-de-bon/"
+    "url": "https://www.journaldugeek.com/test/test-sonos-beam-ultra-la-barre-de-son-qui-degaine-enfin-le-dolby-atmos-pour-de-bon/",
+    "verifie": "20/11/2026"
    },
    {
     "media": "SoundGuys",
     "note10": 8.0,
     "origine": "bloc",
     "date": "22/09/2026",
-    "url": "https://www.soundguys.com/sonos-beam-ultra-review-163171/"
+    "url": "https://www.soundguys.com/sonos-beam-ultra-review-163171/",
+    "verifie": "20/11/2026"
    },
    {
     "media": "01net",
-    "note10": 8.0,
+    "note10": 9.0,
     "origine": "bloc",
     "date": "30/09/2026",
-    "url": "https://www.01net.com/tests/test-sonos-beam-ultra-avis.html"
+    "url": "https://www.01net.com/tests/test-sonos-beam-ultra-avis.html",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Absolute Geeks",
-    "note10": 8.0,
+    "note10": 8.8,
     "origine": "bloc",
     "date": "06/10/2026",
-    "url": "https://www.absolutegeeks.com/reviews/sonos-beam-ultra-review-the-little-soundbar-that-learned-to-look-up-and-fill-the-room/"
+    "url": "https://www.absolutegeeks.com/reviews/sonos-beam-ultra-review-the-little-soundbar-that-learned-to-look-up-and-fill-the-room/",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
-    "note10": null,
+    "note10": 8.0,
     "origine": "",
     "date": "17/10/2026",
-    "url": "https://www.lesnumeriques.com/barre-de-son/sonos-beam-ultra-p78770/test.html"
+    "url": "https://www.lesnumeriques.com/barre-de-son/sonos-beam-ultra-p78770/test.html",
+    "avant": null,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -89,7 +102,8 @@
     "note10": 10.0,
     "origine": "bloc",
     "date": "08/12/2025",
-    "url": "https://www.t3.com/tech/soundbars/samsung-hw-qs700f-review"
+    "url": "https://www.t3.com/tech/soundbars/samsung-hw-qs700f-review",
+    "verifie": "20/11/2026"
    },
    {
     "media": "TechAeris",
@@ -107,10 +121,13 @@
    },
    {
     "media": "RTings",
-    "note10": null,
+    "note10": 7.7,
     "origine": "",
     "date": "13/04/2026",
-    "url": "https://www.rtings.com/soundbar/reviews/samsung/hw-qs700f"
+    "url": "https://www.rtings.com/soundbar/reviews/samsung/hw-qs700f",
+    "avant": null,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -167,21 +184,28 @@
     "note10": 7.0,
     "origine": "bloc",
     "date": "24/08/2026",
-    "url": "https://www.clubic.com/test-produit-624949-test-sony-bravia-theatre-bar-7-l-immersion-pour-les-petits-salons-mais-caisson-obligatoire.html"
+    "url": "https://www.clubic.com/test-produit-624949-test-sony-bravia-theatre-bar-7-l-immersion-pour-les-petits-salons-mais-caisson-obligatoire.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
-    "note10": 6.0,
+    "note10": 7.0,
     "origine": "bloc",
     "date": "15/04/2026",
-    "url": "https://www.lesnumeriques.com/barre-de-son/sony-bravia-theatre-bar-7-p78041/test.html"
+    "url": "https://www.lesnumeriques.com/barre-de-son/sony-bravia-theatre-bar-7-p78041/test.html",
+    "avant": 6.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "RTings",
-    "note10": null,
+    "note10": 7.9,
     "origine": "",
     "date": "09/06/2026",
-    "url": "https://www.rtings.com/soundbar/reviews/sony/bravia-theater-bar-7"
+    "url": "https://www.rtings.com/soundbar/reviews/sony/bravia-theater-bar-7",
+    "avant": null,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -221,7 +245,8 @@
     "note10": 10.0,
     "origine": "bloc",
     "date": "25/08/2026",
-    "url": "https://www.trustedreviews.com/reviews/jbl-bar-3000mk2"
+    "url": "https://www.trustedreviews.com/reviews/jbl-bar-3000mk2",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Kopfhörer",
@@ -267,14 +292,16 @@
     "note10": 7.0,
     "origine": "bloc",
     "date": "13/09/2025",
-    "url": "https://www.clubic.com/test-produit-578762-test-tcl-q65h-une-barre-de-son-premium-et-puissante-avec-quelques-defauts.html"
+    "url": "https://www.clubic.com/test-produit-578762-test-tcl-q65h-une-barre-de-son-premium-et-puissante-avec-quelques-defauts.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Frandroid",
     "note10": 7.0,
     "origine": "bloc",
     "date": "11/10/2025",
-    "url": "https://www.frandroid.com/marques/tcl/2820545_test-de-la-barre-de-son-tcl-q65h-de-la-puissance-a-en-revendre"
+    "url": "https://www.frandroid.com/marques/tcl/2820545_test-de-la-barre-de-son-tcl-q65h-de-la-puissance-a-en-revendre",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -317,17 +344,23 @@
    },
    {
     "media": "RTings",
-    "note10": 7.0,
+    "note10": 7.6,
     "origine": "bloc",
     "date": "21/03/2024",
-    "url": "https://www.rtings.com/soundbar/reviews/hisense/hs2100"
+    "url": "https://www.rtings.com/soundbar/reviews/hisense/hs2100",
+    "avant": 7.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
-    "note10": 6.0,
+    "note10": 5.0,
     "origine": "bloc",
     "date": "29/05/2024",
-    "url": "https://www.lesnumeriques.com/barre-de-son/hisense-hs2100-p74700/test.html"
+    "url": "https://www.lesnumeriques.com/barre-de-son/hisense-hs2100-p74700/test.html",
+    "avant": 6.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "MDS CineSon",
@@ -371,10 +404,13 @@
   "tests": [
    {
     "media": "RTings",
-    "note10": 8.0,
+    "note10": 8.3,
     "origine": "bloc",
     "date": "12/08/2024",
-    "url": "https://www.rtings.com/soundbar/reviews/lg/s90tr"
+    "url": "https://www.rtings.com/soundbar/reviews/lg/s90tr",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [

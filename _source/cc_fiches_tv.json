@@ -21,7 +21,8 @@
     "note10": 10.0,
     "origine": "bloc",
     "date": "27/01/2025",
-    "url": "https://www.whathifi.com/reviews/lg-g5"
+    "url": "https://www.whathifi.com/reviews/lg-g5",
+    "verifie": "20/11/2026"
    },
    {
     "media": "L&B Tech",
@@ -42,28 +43,36 @@
     "note10": 9.0,
     "origine": "bloc",
     "date": "12/08/2025",
-    "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html"
+    "url": "https://multiplayer.it/recensioni/lg-oled-evo-g5-recensione-tv-oled.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "01net",
-    "note10": 10.0,
+    "note10": 7.4,
     "origine": "bloc",
     "date": "19/10/2025",
-    "url": "https://www.01net.com/tests/test-lg-oled65g5-plus-quun-televiseur-une-veritable-oeuvre-dart-sur-le-mur-du-salon.html"
+    "url": "https://www.01net.com/tests/test-lg-oled65g5-plus-quun-televiseur-une-veritable-oeuvre-dart-sur-le-mur-du-salon.html",
+    "avant": 10.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "IGN",
-    "note10": 10.0,
+    "note10": 8.0,
     "origine": "bloc",
     "date": "18/11/2025",
-    "url": "https://www.ign.com/articles/lg-g5-review"
+    "url": "https://www.ign.com/articles/lg-g5-review",
+    "avant": 10.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Trusted Reviews",
     "note10": 10.0,
     "origine": "bloc",
     "date": "24/06/2025",
-    "url": "https://www.trustedreviews.com/reviews/lg-oled55g5"
+    "url": "https://www.trustedreviews.com/reviews/lg-oled55g5",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Trusted Reviews",
@@ -107,10 +116,13 @@
   "tests": [
    {
     "media": "RTings",
-    "note10": 8.0,
+    "note10": 8.7,
     "origine": "bloc",
     "date": "13/05/2025",
-    "url": "https://www.rtings.com/tv/reviews/lg/c5-oled"
+    "url": "https://www.rtings.com/tv/reviews/lg/c5-oled",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "RTings",
@@ -124,7 +136,8 @@
     "note10": 9.4,
     "origine": "bloc",
     "date": "10/09/2025",
-    "url": "https://computerhoy.20minutos.es/dispositivos/ni-imagen-ni-sonido-resisten-lg-oled-evo-ai-c5-4k-ponerla-prueba-varias-semanas-1479183"
+    "url": "https://computerhoy.20minutos.es/dispositivos/ni-imagen-ni-sonido-resisten-lg-oled-evo-ai-c5-4k-ponerla-prueba-varias-semanas-1479183",
+    "verifie": "20/11/2026"
    },
    {
     "media": "PhonAndroid",
@@ -142,24 +155,29 @@
    },
    {
     "media": "Trusted Reviews",
-    "note10": 8.0,
+    "note10": 9.0,
     "origine": "bloc",
     "date": "26/08/2025",
-    "url": "https://www.trustedreviews.com/reviews/lg-oled42c5"
+    "url": "https://www.trustedreviews.com/reviews/lg-oled42c5",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Clubic",
     "note10": 8.0,
     "origine": "bloc",
     "date": "24/10/2025",
-    "url": "https://www.clubic.com/test-produit-583891-test-lg-oled-c5.html"
+    "url": "https://www.clubic.com/test-produit-583891-test-lg-oled-c5.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "IGN",
     "note10": 8.0,
     "origine": "bloc",
     "date": "16/01/2026",
-    "url": "https://www.ign.com/articles/lg-c5-review"
+    "url": "https://www.ign.com/articles/lg-c5-review",
+    "verifie": "20/11/2026"
    },
    {
     "media": "FlatpanelsHD",
@@ -170,10 +188,13 @@
    },
    {
     "media": "Digital Trends",
-    "note10": null,
+    "note10": 8.0,
     "origine": "",
     "date": "02/01/2026",
-    "url": "https://www.digitaltrends.com/home-theater/lg-c5-review/"
+    "url": "https://www.digitaltrends.com/home-theater/lg-c5-review/",
+    "avant": null,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -210,17 +231,21 @@
   "tests": [
    {
     "media": "RTings",
-    "note10": 8.0,
+    "note10": 8.2,
     "origine": "bloc",
     "date": "02/05/2025",
-    "url": "https://www.rtings.com/tv/reviews/samsung/qn90f"
+    "url": "https://www.rtings.com/tv/reviews/samsung/qn90f",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Clubic",
     "note10": 8.0,
     "origine": "bloc",
     "date": "17/06/2025",
-    "url": "https://www.clubic.com/test-produit-568809-test-samsung-qn90f.html"
+    "url": "https://www.clubic.com/test-produit-568809-test-samsung-qn90f.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "L&B Tech",
@@ -231,17 +256,23 @@
    },
    {
     "media": "Android Headlines",
-    "note10": null,
+    "note10": 8.0,
     "origine": "",
     "date": "18/08/2025",
-    "url": "https://www.androidheadlines.com/2025/08/samsung-qn90f-tv-ultimate-review-the-mini-led-tv-that-just-might-make-you-forget-oled.html"
+    "url": "https://www.androidheadlines.com/2025/08/samsung-qn90f-tv-ultimate-review-the-mini-led-tv-that-just-might-make-you-forget-oled.html",
+    "avant": null,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
     "note10": 8.0,
     "origine": "bloc",
     "date": "30/09/2025",
-    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-65qn90f-p77181/test.html"
+    "url": "https://www.lesnumeriques.com/tv-televiseur/samsung-65qn90f-p77181/test.html",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
@@ -276,7 +307,8 @@
     "note10": 10.0,
     "origine": "bloc",
     "date": "15/10/2025",
-    "url": "https://leclaireur.fnac.com/test/629139-test-labo-du-samsung-tq43qn90fat-un-qled-qui-a-presque-tout-pour-lui/"
+    "url": "https://leclaireur.fnac.com/test/629139-test-labo-du-samsung-tq43qn90fat-un-qled-qui-a-presque-tout-pour-lui/",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Labo Fnac",
@@ -290,7 +322,8 @@
     "note10": 6.0,
     "origine": "bloc",
     "date": "04/02/2026",
-    "url": "https://www.ign.com/articles/samsung-qn90f-review"
+    "url": "https://www.ign.com/articles/samsung-qn90f-review",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -330,7 +363,8 @@
     "note10": 7.0,
     "origine": "bloc",
     "date": "05/07/2025",
-    "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html"
+    "url": "https://www.clubic.com/test-produit-571110-test-hisense-u7q.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "ZTGD",
@@ -344,7 +378,8 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "01/09/2025",
-    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html"
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-65u7q-pro-p77008/test.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
@@ -376,10 +411,13 @@
    },
    {
     "media": "What Hi-Fi?",
-    "note10": null,
+    "note10": 8.0,
     "origine": "",
     "date": "14/11/2025",
-    "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro"
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/hisense-u7q-pro-65u7qtuk-pro",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Tweakers",
@@ -430,10 +468,13 @@
   "tests": [
    {
     "media": "RTings",
-    "note10": null,
+    "note10": 7.2,
     "origine": "inline",
     "date": "12/11/2024",
-    "url": "https://www.rtings.com/tv/reviews/lg/qned85t"
+    "url": "https://www.rtings.com/tv/reviews/lg/qned85t",
+    "avant": 7.2,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "RTings",
@@ -454,14 +495,16 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "11/12/2025",
-    "url": "https://www.t3.com/tech/tvs/lg-qned85-review-qned86"
+    "url": "https://www.t3.com/tech/tvs/lg-qned85-review-qned86",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Trusted Reviews",
     "note10": 8.0,
     "origine": "bloc",
     "date": "06/01/2026",
-    "url": "https://www.trustedreviews.com/reviews/lg-65qned85"
+    "url": "https://www.trustedreviews.com/reviews/lg-65qned85",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -492,10 +535,13 @@
   "tests": [
    {
     "media": "RTings",
-    "note10": 7.0,
+    "note10": 5.6,
     "origine": "bloc",
     "date": "02/08/2024",
-    "url": "https://www.rtings.com/tv/reviews/sony/bravia-3"
+    "url": "https://www.rtings.com/tv/reviews/sony/bravia-3",
+    "avant": 5.6,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "RTings",
@@ -509,7 +555,8 @@
     "note10": 7.0,
     "origine": "bloc",
     "date": "31/05/2025",
-    "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3"
+    "url": "https://www.frandroid.com/marques/sony/2631967_test-sony-bravia-3",
+    "verifie": "20/11/2026"
    },
    {
     "media": "PhonAndroid",
@@ -523,7 +570,8 @@
     "note10": 6.0,
     "origine": "bloc",
     "date": "06/01/2026",
-    "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp"
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/sony-bravia-3-65-inch-k65s35bp",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -580,7 +628,8 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "30/11/2025",
-    "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand"
+    "url": "https://www.frandroid.com/marques/samsung/2864693_test-du-tv-samsung-55qn80f-televiseur-premium-mini-led-qui-a-presque-tout-dun-grand",
+    "verifie": "20/11/2026"
    },
    {
     "media": "MDS CineSon",
@@ -634,7 +683,8 @@
     "note10": 6.0,
     "origine": "bloc",
     "date": "12/11/2025",
-    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55e7q-pro-p77341/test.html"
+    "url": "https://www.lesnumeriques.com/tv-televiseur/hisense-55e7q-pro-p77341/test.html",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Les Numériques",
@@ -676,7 +726,8 @@
     "note10": 7.0,
     "origine": "bloc",
     "date": "27/12/2025",
-    "url": "https://www.frandroid.com/marques/hisense/2920197_test-du-hisense-55e7q-pro-un-televiseur-qled-144-hz-accessible-tres-fluide-et-reactif"
+    "url": "https://www.frandroid.com/marques/hisense/2920197_test-du-hisense-55e7q-pro-un-televiseur-qled-144-hz-accessible-tres-fluide-et-reactif",
+    "verifie": "20/11/2026"
    },
    {
     "media": "MDS CineSon",
@@ -720,17 +771,21 @@
   "tests": [
    {
     "media": "RTings",
-    "note10": 8.0,
+    "note10": 8.7,
     "origine": "bloc",
     "date": "02/06/2025",
-    "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled"
+    "url": "https://www.rtings.com/tv/reviews/samsung/s90f-oled",
+    "avant": 8.7,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Frandroid",
     "note10": 8.0,
     "origine": "bloc",
     "date": "05/07/2025",
-    "url": "https://www.frandroid.com/test/2658147_test-du-samsung-65s90f-le-qd-oled-qui-veut-seduire-le-plus-grand-nombre"
+    "url": "https://www.frandroid.com/test/2658147_test-du-samsung-65s90f-le-qd-oled-qui-veut-seduire-le-plus-grand-nombre",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Tweakers",
@@ -751,7 +806,8 @@
     "note10": 10.0,
     "origine": "bloc",
     "date": "01/09/2025",
-    "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/"
+    "url": "https://leclaireur.fnac.com/test/619330-test-labo-du-samsung-tq65s90fat-loled-presque-parfait/",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Labo Fnac",
@@ -765,14 +821,18 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "27/10/2025",
-    "url": "https://www.ign.com/articles/samsung-s90f-review"
+    "url": "https://www.ign.com/articles/samsung-s90f-review",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Wired",
-    "note10": null,
+    "note10": 9.0,
     "origine": "",
     "date": "30/01/2026",
-    "url": "https://www.wired.com/review/samsung-s90f/"
+    "url": "https://www.wired.com/review/samsung-s90f/",
+    "avant": 9.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Chip.de",
@@ -819,7 +879,8 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "15/10/2025",
-    "url": "https://www.t3.com/tech/tvs/tcl-p7k-review-big-screen-big-value"
+    "url": "https://www.t3.com/tech/tvs/tcl-p7k-review-big-screen-big-value",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Expert Reviews",
@@ -833,14 +894,16 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "24/10/2025",
-    "url": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p7k-43p7k"
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/tcl-p7k-43p7k",
+    "verifie": "20/11/2026"
    },
    {
     "media": "Trusted Reviews",
     "note10": 8.0,
     "origine": "bloc",
     "date": "19/01/2026",
-    "url": "https://www.trustedreviews.com/reviews/tcl-43p7k"
+    "url": "https://www.trustedreviews.com/reviews/tcl-43p7k",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
@@ -883,7 +946,10 @@
     "note10": 8.0,
     "origine": "bloc",
     "date": "29/11/2025",
-    "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue43u8000f"
+    "url": "https://www.whathifi.com/tv-home-cinema/televisions/samsung-u8000f-ue43u8000f",
+    "avant": 8.0,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    },
    {
     "media": "What Hi-Fi?",
@@ -894,10 +960,13 @@
    },
    {
     "media": "RTings",
-    "note10": null,
+    "note10": 5.5,
     "origine": "",
     "date": "16/09/2025",
-    "url": "https://www.rtings.com/tv/reviews/samsung/u8000f"
+    "url": "https://www.rtings.com/tv/reviews/samsung/u8000f",
+    "avant": null,
+    "corrige": "20/11/2026",
+    "verifie": "20/11/2026"
    }
   ],
   "pros": [
