@@ -8266,15 +8266,31 @@
    ],
    "id": "asus-v500",
    "press": {
-    "avg": 7.3,
-    "n": 1,
-    "tests": 2,
+    "avg": 8.2,
+    "n": 3,
+    "tests": 4,
     "scope": "gamme",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "DigitalReg",
+      "score": 9.1,
+      "url": "https://digitalreg.net/news/technology/pc/asus-v501mv-review/",
+      "date": "2026-09-02",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Fossbytes",
+      "score": 8.2,
+      "url": "https://fossbytes.com/asus-v501-mv-review/",
+      "date": "2026-08-24",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Pokde",
       "score": 7.3,
@@ -9701,15 +9717,23 @@
    ],
    "id": "minisforum-ai-x1-pro",
    "press": {
-    "avg": 8.1,
-    "n": 2,
-    "tests": 2,
+    "avg": 8.4,
+    "n": 3,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "PCWorld",
+      "score": 9.0,
+      "url": "https://www.pcworld.com/article/2965907/minisforum-ai-x1-pro-review-a-mini-pc-with-maximum-performance.html",
+      "date": "2025-12-05",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Notebookcheck",
       "score": 8.2,
@@ -9725,6 +9749,20 @@
       "url": "https://www.tomshardware.com/desktops/mini-pcs/minisforum-ai-x1-pro-470-review",
       "date": "2026-03-28",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "El Cronista",
+      "score": null,
+      "url": "https://www.cronista.com/infotechnology/gadgets/probamos-la-minisforum-ai-x1-pro-una-mini-pc-util-para-todo-que-deja-atras-a-las-desktops/",
+      "date": "2025-05-12",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "MiniPC Review",
+      "score": null,
+      "url": "https://minipc-review.com/fr/test-du-minisforum-ai-x1-pro",
+      "date": "2026-03-27",
+      "ajout": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -9779,15 +9817,23 @@
    ],
    "id": "minisforum-ms-s1-max",
    "press": {
-    "avg": 8.2,
-    "n": 2,
-    "tests": 2,
+    "avg": 8.633333333333333,
+    "n": 3,
+    "tests": 4,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "TechRadar",
+      "score": 9.5,
+      "url": "https://www.techradar.com/computing/minisforum-ms-s1-max-mini-pc-review",
+      "date": "2025-12-16",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Notebookcheck",
       "score": 8.4,
@@ -9803,6 +9849,13 @@
       "url": "https://www.frandroid.com/produits-android/ordinateurs/pc-fixes/2855261_test-minisforum-ms-s1-max",
       "date": "2025-11-10",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "ServeTheHome",
+      "score": null,
+      "url": "https://www.servethehome.com/minisforum-ms-s1-max-review-the-best-ryzen-ai-max-mini-pc-yet/",
+      "date": "2026-01-14",
+      "ajout": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -10262,9 +10315,9 @@
    ],
    "id": "legion-tower-5",
    "press": {
-    "avg": 7.2,
-    "n": 2,
-    "tests": 2,
+    "avg": 7.6,
+    "n": 4,
+    "tests": 4,
     "scope": "modele",
     "src": [
      "",
@@ -10272,11 +10325,27 @@
     ],
     "notes": [
      {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/computing/gaming-pcs/lenovo-legion-tower-5-2025",
+      "date": "2025-10-27",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "CNET",
       "score": 8.4,
       "url": "https://www.cnet.com/tech/computing/lenovo-legion-tower-5-gen-10-desktop-review-mighty-good-value-if-a-little-quirky/",
       "date": "2026-02-25",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 7.0,
+      "url": "https://www.pcmag.com/reviews/lenovo-legion-tower-5-gen-10",
+      "date": "2025-10-29",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "IGN",
@@ -10551,9 +10620,9 @@
    ],
    "id": "rog-g700",
    "press": {
-    "avg": 10.0,
-    "n": 1,
-    "tests": 1,
+    "avg": 8.666666666666666,
+    "n": 3,
+    "tests": 5,
     "scope": "gamme",
     "src": [
      "",
@@ -10568,6 +10637,36 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/asus-rog-g700-gaming-pc-review",
+      "date": "2025-11-07",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/desktops/asus-rog-g700-review",
+      "date": "2025-07-30",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Basic Tutorials",
+      "score": null,
+      "url": "https://basic-tutorials.com/reviews/pc-laptop-review/asus-rog-g700-review/",
+      "date": "2025-11-02",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "GadgetMatch",
+      "score": null,
+      "url": "https://www.gadgetmatch.com/asus-rog-g700-review/",
+      "date": "2026-10-28",
+      "ajout": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -10696,9 +10795,9 @@
    ],
    "id": "area-51",
    "press": {
-    "avg": 10.0,
-    "n": 1,
-    "tests": 2,
+    "avg": 8.683333333333334,
+    "n": 6,
+    "tests": 8,
     "scope": "modele",
     "src": [
      "",
@@ -10713,10 +10812,57 @@
       "verifie": "16/10/2026"
      },
      {
+      "src": "Level Tech",
+      "score": 9.1,
+      "url": "https://leveltech.fr/test-alienware-area-51-2025/",
+      "date": "2025-05-28",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "HotHardware",
+      "score": 9.0,
+      "url": "https://hothardware.com/reviews/alienware-area-51-2025-review",
+      "date": "2025-05-13",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "IGN",
+      "score": 8.0,
+      "url": "https://www.ign.com/articles/alienware-area-51-gaming-pc-review",
+      "date": "2026-04-22",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/alienware-area-51-2025",
+      "date": "2025-04-12",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tom's Hardware",
+      "score": 8.0,
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/alienware-area-51-review",
+      "date": "2025-04-23",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/das-ist-das-schoenes-gaming-notebook-das-ich-bisher-testen-durfte,3434850.html",
       "date": "2025-06-18"
+     },
+     {
+      "src": "Gamers Nexus",
+      "score": null,
+      "url": "https://gamersnexus.net/pre-built-pc/alienware-was-so-close-4650-area-51-pre-built-gaming-pc-review",
+      "date": "",
+      "ajout": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -11798,15 +11944,31 @@
    ],
    "id": "beelink-ser9pro",
    "press": {
-    "avg": 8.0,
-    "n": 1,
-    "tests": 1,
+    "avg": 8.166666666666666,
+    "n": 3,
+    "tests": 8,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "TechRadar",
+      "score": 8.5,
+      "url": "https://www.techradar.com/computing/beelink-ser9-pro-mini-pc-review",
+      "date": "2025-10-27",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Notebookcheck",
+      "score": 8.0,
+      "url": "https://www.notebookcheck.net/Beelink-SER9-Pro-Ryzen-7-mini-PC-review-The-regular-non-Pro-version-is-faster.1087747.0.html",
+      "date": "2025-08-20",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Windows Central",
       "score": 8.0,
@@ -11815,6 +11977,41 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "GSMArena",
+      "score": null,
+      "url": "https://www.gsmarena.com/beelink_ser9_pro_minipc_with_amd_ryzen_7_h_255_review-news-69847.php",
+      "date": "2025-10-12",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Igor's Lab",
+      "score": null,
+      "url": "https://www.igorslab.de/en/beelink-ser9-pro-mini-pc-im-test/",
+      "date": "2025-10-27",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "MiniPC Review",
+      "score": null,
+      "url": "https://minipc-review.com/en/beelink-ser9-pro-ai-ryzen-7-h-255-review",
+      "date": "2026-11-03",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "PC Perspective",
+      "score": null,
+      "url": "https://pcper.com/2025/02/the-ryzen-ai-powered-beelink-ser9-pro-mini-pc/",
+      "date": "2025-02-25",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Techno-Science",
+      "score": null,
+      "url": "https://www.techno-science.net/fr/tests/mini-pc-beelink-ser9-pro-le-plus-puissant-que-nous-avons-teste-203",
+      "date": "2025-02-24",
+      "ajout": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -12284,15 +12481,47 @@
    ],
    "id": "omnistudio-x32",
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 2,
+    "avg": 8.45,
+    "n": 4,
+    "tests": 6,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "TechStomper",
+      "score": 9.6,
+      "url": "https://techstomper.com/hp-omnistudio-x-32-all-in-one-pc-32-c0001na-review-work-and-play-station/",
+      "date": "2024-12-09",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "Tinynews",
+      "score": 8.2,
+      "url": "https://www.tinynews.be/test-hp-omnistudio-x-32/",
+      "date": "2025-09-18",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://uk.pcmag.com/desktop-pcs/156812/hp-omnistudio-x-315-aio",
+      "date": "2025-02-22",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "TechRadar",
+      "score": 8.0,
+      "url": "https://www.techradar.com/computing/desktop-pcs/i-spent-a-week-testing-the-hp-omnistudio-x-31-5-and-while-its-not-the-best-choice-for-gaming-it-is-great-for-everyday-computing",
+      "date": "2025-03-24",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "ITdaily",
       "score": null,
@@ -12356,9 +12585,9 @@
    ],
    "id": "omnistudio-x27",
    "press": {
-    "avg": 8.0,
-    "n": 1,
-    "tests": 1,
+    "avg": 7.95,
+    "n": 2,
+    "tests": 2,
     "scope": "modele",
     "src": [
      "",
@@ -12373,6 +12602,14 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "Domogeek",
+      "score": 7.9,
+      "url": "https://domogeek.net/2025/03/07/test-avis-hp-omnistudio-x-27-cs0001nf-une-elegance-indeniable-mais-des-compromis-a-considerer/",
+      "date": "2025-03-07",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -12490,9 +12727,9 @@
    ],
    "id": "yoga-aio-32",
    "press": {
-    "avg": 9.0,
-    "n": 1,
-    "tests": 1,
+    "avg": 8.066666666666666,
+    "n": 3,
+    "tests": 3,
     "scope": "gamme",
     "src": [
      "",
@@ -12505,6 +12742,22 @@
       "url": "https://www.windowscentral.com/hardware/computers-desktops/lenovo-yoga-aio-9i-gen10-2025-review",
       "date": "2025-06-20",
       "verifie": "16/10/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/lenovo-yoga-aio-i-aura-edition-32-inch-intel",
+      "date": "2026-10-04",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "CNET",
+      "score": 7.2,
+      "url": "https://www.cnet.com/tech/computing/lenovo-yoga-aio-32i-32ill10-desktop-review-an-elegant-all-in-one-that-runs-into-some-trouble/",
+      "date": "2025-09-03",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ],
     "src_initiale": [
@@ -12625,7 +12878,7 @@
    "press": {
     "avg": null,
     "n": 0,
-    "tests": 1,
+    "tests": 6,
     "scope": "gamme",
     "src": [
      "",
@@ -12637,6 +12890,41 @@
       "score": null,
       "url": "https://www.alloftheaboveph.com/2025/10/review-asus-v400-aio-all-in-one-you-need.html",
       "date": "2025-10-20"
+     },
+     {
+      "src": "CGMagazine",
+      "score": null,
+      "url": "https://www.cgmagonline.com/review/hardware/asus-v400-aio-27-inch-aio-pc/",
+      "date": "2025-10-12",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Digit",
+      "score": null,
+      "url": "https://www.digit.in/feature/general/asus-v470va-all-in-one-review-a-27-inch-display-that-looks-and-works-like-a-premium-desktop.html",
+      "date": "2025-07-30",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Gadgets360",
+      "score": null,
+      "url": "https://www.gadgets360.com/laptops/reviews/asus-v470va-all-in-one-pc-review-8730244",
+      "date": "2025-06-22",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "Outlook Business",
+      "score": null,
+      "url": "https://www.outlookbusiness.com/deeptech/tech/asus-v440-all-in-one-pc-review-a-sleek-modern-aio-for-those-behind-the-desk-at-an-office",
+      "date": "2025-06-23",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "XpertPick",
+      "score": null,
+      "url": "https://www.xpertpick.com/laptops/reviews/asus-aio-v470-review-clean-design-smart-features-but-performance-feels-limited/",
+      "date": "2026-04-01",
+      "ajout": "20/11/2026"
      }
     ],
     "src_initiale": [

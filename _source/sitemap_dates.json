@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-11-20",
-"h": "ba3b76b93f57"
+"h": "1b7110efb133"
 },
 "a-propos": {
 "d": "2026-10-30",
@@ -485,7 +485,7 @@
 },
 "etude-notes-presse/": {
 "d": "2026-11-20",
-"h": "4f4c878ca1e5"
+"h": "610535fa19da"
 },
 "imprimante/": {
 "d": "2026-11-20",
@@ -545,119 +545,127 @@
 },
 "methode": {
 "d": "2026-11-20",
-"h": "acaffca88349"
+"h": "8e57eebdd01c"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-20",
-"h": "4a8387393602"
+"h": "1fe2c8672c27"
 },
 "ordinateur-de-bureau/acer-predator-orion-7000/": {
 "d": "2026-11-20",
-"h": "043cebf7571e"
+"h": "23a8dcac29c9"
 },
 "ordinateur-de-bureau/apple-imac-24-m4/": {
 "d": "2026-11-20",
-"h": "28356f682dc8"
+"h": "ab0d5f8cd821"
 },
 "ordinateur-de-bureau/apple-mac-mini-m5-pro/": {
 "d": "2026-11-20",
-"h": "0ec9e5216250"
+"h": "480d378a33c7"
 },
 "ordinateur-de-bureau/apple-mac-mini-m6/": {
 "d": "2026-11-20",
-"h": "ff55cc7adf85"
+"h": "36857489dbf2"
 },
 "ordinateur-de-bureau/apple-mac-studio-m5-max/": {
 "d": "2026-11-20",
-"h": "6b03f8be3540"
+"h": "e388a8cc11a6"
 },
 "ordinateur-de-bureau/beelink-eq14/": {
 "d": "2026-11-20",
-"h": "fe3ac1c3955c"
+"h": "5610aa02a907"
 },
 "ordinateur-de-bureau/bureautique/": {
 "d": "2026-11-20",
-"h": "1e7f6be7a8aa"
+"h": "14444500b4a0"
 },
 "ordinateur-de-bureau/creation/": {
 "d": "2026-11-20",
-"h": "a0fb4506de52"
+"h": "11506592a0ce"
 },
 "ordinateur-de-bureau/gaming/": {
 "d": "2026-11-20",
-"h": "9de82133515a"
+"h": "595596b31694"
 },
 "ordinateur-de-bureau/geekom-a5-pro/": {
 "d": "2026-11-20",
-"h": "fda0d9af5ee7"
+"h": "26203309db9b"
 },
 "ordinateur-de-bureau/geekom-a5/": {
 "d": "2026-11-20",
-"h": "23ed3d81fda4"
+"h": "ee0e79ddcdcc"
 },
 "ordinateur-de-bureau/geekom-a7/": {
 "d": "2026-11-20",
-"h": "361587e507ca"
+"h": "418402b2dde2"
 },
 "ordinateur-de-bureau/geekom-a8/": {
 "d": "2026-11-20",
-"h": "1f39e57a4c43"
+"h": "243670519c97"
 },
 "ordinateur-de-bureau/geekom-a9-max/": {
 "d": "2026-11-20",
-"h": "b0e89d557eb6"
+"h": "247646a7d20e"
 },
 "ordinateur-de-bureau/geekom-gt1-mega/": {
 "d": "2026-11-20",
-"h": "30d70a7dfeff"
+"h": "57502b4c2b87"
 },
 "ordinateur-de-bureau/geekom-it13/": {
 "d": "2026-11-20",
-"h": "9bd535284798"
+"h": "2c7329e41600"
 },
 "ordinateur-de-bureau/geekom-it15/": {
 "d": "2026-11-20",
-"h": "eca22a2f428f"
+"h": "47cd39e75a33"
 },
 "ordinateur-de-bureau/geekom-mini-air12-lite/": {
 "d": "2026-11-20",
-"h": "04022f190559"
+"h": "b279ef1d16ee"
 },
 "ordinateur-de-bureau/geekom-mini-it12/": {
 "d": "2026-11-20",
-"h": "694492a6573d"
+"h": "846fdd87fcb2"
 },
 "ordinateur-de-bureau/gmktec-evo-x2/": {
 "d": "2026-11-20",
-"h": "a6de0381ff74"
+"h": "6a93b22ce4ec"
 },
 "ordinateur-de-bureau/gmktec-nucbox-k13/": {
 "d": "2026-11-20",
-"h": "9d3c7272e17c"
+"h": "3639086cd5c5"
 },
 "ordinateur-de-bureau/hp-omen-35l/": {
 "d": "2026-11-20",
-"h": "b0b9d35b6a3b"
+"h": "a3f09176f7db"
 },
 "ordinateur-de-bureau/hp-z2-mini-g1a/": {
 "d": "2026-11-20",
-"h": "9d859c598491"
+"h": "cc3900b4084b"
 },
 "ordinateur-de-bureau/lenovo-loq-tower/": {
 "d": "2026-11-20",
-"h": "8e02a1159ef5"
+"h": "89ca72429211"
 },
 "ordinateur-de-bureau/mini-pc/": {
 "d": "2026-11-20",
-"h": "4358d9e4ac57"
+"h": "0afe460b6fdb"
+},
+"ordinateur-de-bureau/minisforum-ai-x1-pro/": {
+"d": "2026-11-20",
+"h": "96d1749bd0c0"
+},
+"ordinateur-de-bureau/minisforum-ms-s1-max/": {
+"d": "2026-11-20",
+"h": "53264ebf28e1"
 },
 "ordinateur-de-bureau/nipogi-am06-pro/": {
 "d": "2026-11-20",
-"h": "f7333dc4de38"
+"h": "3621d9f5d44d"
 },
 "ordinateur-de-bureau/tout-en-un/": {
 "d": "2026-11-20",
-"h": "58c8ef3d5d17"
+"h": "7e563801b560"
 },
 "pc-portable/": {
 "d": "2026-11-20",
