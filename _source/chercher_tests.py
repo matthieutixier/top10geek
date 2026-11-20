@@ -20,6 +20,8 @@ import shutil
 import subprocess
 import sys
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -27,7 +29,7 @@ SRC = Path(__file__).resolve().parent
 PREFIXES = {"s-": "robot", "t-": "tv", "a-": "audio", "v-": "video", "e-": "ecran", "i-": "imprimante", "d-": "bureau"}
 FAMILLE = lambda cat: next((f for p, f in PREFIXES.items() if cat.startswith(p)), "portable")
 EXCLUS = ("amazon.", "commentchoisir.", "idealo.", "ledenicheur.", "darty.", "fnac.com", "boulanger.", "cdiscount.",
-          "electrodepot.", "ldlc.", "youtube.", "reddit.", "facebook.", "x.com", "twitter.", "google.")
+          "electrodepot.", "ldlc.", "youtube.", "youtu.be", "reddit.", "facebook.", "x.com", "twitter.", "google.")
 
 CONSIGNE = """Tu cherches des tests (reviews) publiés par des médias ou des laboratoires pour UN modèle précis.
 Modèle : {nom} — référence : {ref}
@@ -40,9 +42,10 @@ Règles :
 - Seulement des pages de TEST complet de CE modèle exact (pas une autre taille, pas une autre génération, pas une actualité,
   pas un comparatif de plusieurs produits, pas une boutique, pas un forum, pas une vidéo).
 - N'invente aucune adresse : renvoie seulement des adresses que la recherche a réellement trouvées.
-- Réponds UNIQUEMENT par un tableau JSON d'adresses, sans aucun autre texte, par exemple :
-["https://www.exemple.fr/test-modele", "https://www.example.com/model-review"]
-- Si tu ne trouves rien de sûr, réponds [].
+- Réponds UNIQUEMENT par un tableau JSON des adresses des sources que l'outil t'a renvoyées et qui semblent être un test
+  de ce modèle, recopiées telles quelles (y compris les liens vertexaisearch.cloud.google.com/grounding-api-redirect/…),
+  10 au maximum, sans aucun autre texte. Le tri final sera fait après toi.
+- Si l'outil ne t'a renvoyé aucune source utile, réponds [].
 """
 
 
@@ -81,16 +84,38 @@ def demander(exe, prompt, timeout, options):
     return r.returncode, texte, (erreur or r.stderr[-400:]), outils
 
 
+def resoudre(u):
+    """Lien de redirection de la recherche Google (grounding-api-redirect) -> adresse de la page source (en-tête Location,
+    la page elle-même n'est pas chargée). Toute autre adresse est rendue telle quelle."""
+    if "grounding-api-redirect" not in u:
+        return u
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=15)
+        return r.geturl()
+    except urllib.error.HTTPError as e:
+        return e.headers.get("Location") or ""
+    except Exception:
+        return ""
+
+
+class _SansSuivre(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+urllib.request.install_opener(urllib.request.build_opener(_SansSuivre))
+
+
 def adresses(texte, connues):
     vues, out = set(connues), []
     for u in re.findall(r"https?://[^\s\"'\]\)<>,]+", texte or ""):
-        u = u.rstrip(".;")
+        u = resoudre(u.rstrip(".;"))
         h = urlparse(u).netloc.lower()
         if not h or any(x in h for x in EXCLUS) or u in vues:
             continue
         vues.add(u)
         out.append(u)
-    return out[:8]
+    return out[:10]
 
 
 def main():

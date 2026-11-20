@@ -7694,9 +7694,9 @@
    ],
    "id": "ideapad-slim3-cb14",
    "press": {
-    "avg": 7.45,
-    "n": 2,
-    "tests": 2,
+    "avg": 7.3,
+    "n": 3,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
@@ -7716,6 +7716,14 @@
       "score": 7.0,
       "url": "https://www.androidcentral.com/chromebooks-laptops/lenovo-ideapad-slim-3-chromebook-review",
       "date": "2023-09-19",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCWorld",
+      "score": 7.0,
+      "url": "https://www.pcworld.com/article/2007550/lenovo-ideapad-slim-3-chromebook-review.html",
+      "date": "2023-07-25",
       "ajout": "20/11/2026",
       "verifie": "20/11/2026"
      }

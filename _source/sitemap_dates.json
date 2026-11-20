@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-11-20",
-"h": "0ce9b182f57a"
+"h": "b2d432360502"
 },
 "a-propos": {
 "d": "2026-10-30",
@@ -485,7 +485,7 @@
 },
 "etude-notes-presse/": {
 "d": "2026-11-20",
-"h": "b5f176735f7f"
+"h": "ccb261371b54"
 },
 "imprimante/": {
 "d": "2026-11-20",
@@ -545,7 +545,7 @@
 },
 "methode": {
 "d": "2026-11-20",
-"h": "6a20d1c3fed4"
+"h": "4a50e0f2b4d1"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-20",
@@ -661,15 +661,15 @@
 },
 "pc-portable/": {
 "d": "2026-11-20",
-"h": "c6ec07264eb0"
+"h": "86927b780b8c"
 },
 "pc-portable/acer-aspire-go-15/": {
 "d": "2026-11-20",
-"h": "e805817e481b"
+"h": "0880712ae370"
 },
 "pc-portable/acer-chromebook-plus-514/": {
 "d": "2026-11-20",
-"h": "055d29a560c3"
+"h": "aa804534befe"
 },
 "pc-portable/acer-predator-helios-neo-16-ai/": {
 "d": "2026-11-20",
@@ -777,15 +777,15 @@
 },
 "pc-portable/lenovo-chromebook-duet-11/": {
 "d": "2026-11-20",
-"h": "2a4fae6b12f8"
+"h": "47b3bbc4d501"
 },
 "pc-portable/lenovo-ideapad-1-15/": {
 "d": "2026-11-20",
-"h": "32d50dd829b9"
+"h": "17bd064385fc"
 },
 "pc-portable/lenovo-ideapad-slim-3/": {
 "d": "2026-11-20",
-"h": "52a677be0df5"
+"h": "ac8ec4100e47"
 },
 "pc-portable/lenovo-ideapad-slim-3x-15/": {
 "d": "2026-11-20",
@@ -817,7 +817,7 @@
 },
 "pc-portable/lowcost/": {
 "d": "2026-11-20",
-"h": "ed4e55ea444c"
+"h": "6042e341ba36"
 },
 "pc-portable/microsoft-surface-laptop-13/": {
 "d": "2026-11-20",
