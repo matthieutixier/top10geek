@@ -244,11 +244,18 @@ def main():
         echecs.append(f"nombre de produits en baisse ({nb_produits_avant} -> {nb_produits})")
 
     # 5g. Garde-fou des notes (20/11/2026) : une note chiffrée nouvelle ou modifiée doit avoir été lue sur la page du média
-    anciens = {(k, n.get("url")): n.get("score") for k, it in data_avant.get("items", {}).items()
-               for n in (it.get("press") or {}).get("notes", [])}
+    # (comparaison par produit, adresse, média et note : certaines fiches anciennes ont des tests sans adresse)
+    from collections import Counter
+    anciens = Counter((k, n.get("url"), n.get("src"), n.get("score")) for k, it in data_avant.get("items", {}).items()
+                      for n in (it.get("press") or {}).get("notes", []) if n.get("score") is not None)
     for k, it in json.load(open(chemin, encoding="utf-8")).get("items", {}).items():
         for n in (it.get("press") or {}).get("notes", []):
-            if n.get("score") is not None and not n.get("verifie") and anciens.get((k, n.get("url")), "absent") != n["score"]:
+            if n.get("score") is None or n.get("verifie"):
+                continue
+            cle = (k, n.get("url"), n.get("src"), n["score"])
+            if anciens[cle] > 0:
+                anciens[cle] -= 1
+            else:
                 echecs.append(f"note non lue à la source (champ verifie absent) : {k} · {n.get('src')} {n['score']}")
 
     resume = [
