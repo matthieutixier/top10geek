@@ -1,5 +1,4 @@
 [
- {"id": "aspire-c27", "j": 0, "price": 899.99},
- {"id": "aspire-xc", "j": 1, "status": "indispo"},
- {"id": "orion-7000", "j": 0, "status": "indispo"}
+ {"id": "swift-air-14", "j": 0, "price": 899.99},
+ {"id": "aspire-go-15", "j": 2, "price": 749.99}
 ]

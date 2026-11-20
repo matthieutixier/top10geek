@@ -22,7 +22,7 @@
    ],
    "id": "zenbook-a14",
    "press": {
-    "avg": 8.24074074074074,
+    "avg": 8.218518518518518,
     "n": 27,
     "tests": 31,
     "scope": "modele",
@@ -161,12 +161,6 @@
       "verifie": "23/10/2026"
      },
      {
-      "src": "RTINGS",
-      "score": 8.0,
-      "url": "https://www.rtings.com/laptop/reviews/asus/zenbook-a14-ux3407-2025",
-      "date": "2025-06-09"
-     },
-     {
       "src": "SlashGear",
       "score": 8.0,
       "url": "https://www.slashgear.com/1863606/asus-zenbook-a14-review-specs-features-price-benchmarks-snapdragon/",
@@ -220,6 +214,15 @@
       "avant": 7.0,
       "corrige": "10/10/2026",
       "verifie": "23/10/2026"
+     },
+     {
+      "src": "RTINGS",
+      "score": 7.4,
+      "url": "https://www.rtings.com/laptop/reviews/asus/zenbook-a14-ux3407-2025",
+      "date": "2025-06-09",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "01net",
@@ -451,7 +454,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1399.0,
+     "price": 1199.0,
      "url": "https://www.amazon.fr/dp/B0GR1YQD11?tag=geekconcept-21",
      "name": "Apple MacBook Air 13 Pouces Portable avec Puce M5 : Conçu pour l’IA, Écran Liquid Retina 13,6 Pouces, Mémoire unifiée 16",
      "cfg": "",
@@ -468,7 +471,7 @@
    "img": "mba13-m5.webp",
    "rating": 4.9,
    "nrev": 29,
-   "prix": 1399.0,
+   "prix": 1199.0,
    "synthese": {
     "texte": "Clubic, Tom's Hardware et Notebookcheck saluent un MacBook Air 13 M5 très rapide en monocœur, totalement silencieux grâce à son refroidissement sans ventilateur et mieux équipé qu'avant : 512 Go de stockage dès la version de base, un SSD plus rapide et le Wi-Fi 7. Le clavier et le trackpad sont jugés excellents, et l'écran IPS est bien calibré, sans scintillement selon Notebookcheck.\n\nLes avis divergent sur l'endurance et la chauffe. Tom's Hardware mesure 15 h 28 d'autonomie, alors que Clubic relève 10 à 12 heures en usage réel, un peu moins que le modèle M4, et une surface qui monte vers 51 °C. Sous charge longue, les performances multicœurs baissent : Tom's Hardware voit ses scores Cinebench chuter d'environ un tiers et Notebookcheck mesure un écart d'environ 18 % avec le MacBook Pro 14 M5. Tous regrettent l'écran limité à 60 Hz, l'encoche, la mémoire et le stockage soudés, et un design inchangé depuis 2022.\n\nIl vous conviendra si vous voulez un ordinateur léger et silencieux pour la bureautique, le web et des tâches exigeantes de courte durée. Pour du montage vidéo ou des exports longs, les testeurs orientent plutôt vers le MacBook Pro.",
     "date": "2026-10-23",
@@ -806,19 +809,19 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 589.98,
+     "price": 569.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fpc-portable-hp-17-omnibook-3-17-dp0046nfx-r5-8-256go.html",
      "name": "Pc Portable Hp 17,3'' Omnibook 3 17-dp0046nfx-r5/8/256go/argent",
      "cfg": "8 Go · 256 Go",
      "ean": "0821844416990",
      "edid": "10019070",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "img": "omnibook3-17.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 589.98
+   "prix": 569.98
   },
   "surface-laptop-13": {
    "cat": "bureau",
@@ -847,8 +850,8 @@
     "tests": 6,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Microsoft_Surface+Laptop+13.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -864,7 +867,8 @@
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/technology/laptops/microsoft-surface-laptop-13in-review-the-awkward-middle-child",
-      "date": "2025-06-25"
+      "date": "2025-06-25",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
@@ -896,7 +900,12 @@
       "corrige": "23/10/2026",
       "verifie": "23/10/2026"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Microsoft_Surface+Laptop+13.htm"
+    ],
+    "releve_source": "20/11/2026"
    },
    "offers": [
     {
@@ -953,13 +962,13 @@
    ],
    "id": "zenbook-a16",
    "press": {
-    "avg": 8.415000000000001,
-    "n": 20,
+    "avg": 8.436842105263159,
+    "n": 19,
     "tests": 24,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-Asus+_Zenbook+A16.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -1063,12 +1072,6 @@
       "verifie": "23/10/2026"
      },
      {
-      "src": "Labo Fnac",
-      "score": 8.0,
-      "url": "https://leclaireur.fnac.com/test/667161-test-asus-zenbook-a16-2026/",
-      "date": "2026-04-08"
-     },
-     {
       "src": "Les Numériques",
       "score": 8.0,
       "url": "https://www.lesnumeriques.com/ordinateur-portable/asus-zenbook-a16-p77886/test.html",
@@ -1142,12 +1145,26 @@
       "date": "2026-04-11"
      },
      {
+      "src": "Labo Fnac",
+      "score": null,
+      "url": "https://leclaireur.fnac.com/test/667161-test-asus-zenbook-a16-2026/",
+      "date": "2026-04-08",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "TechPowerUp",
       "score": null,
       "url": "https://www.techpowerup.com/review/asus-zenbook-a16-ux3607oa/",
       "date": "2026-07-30"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-Asus+_Zenbook+A16.htm"
+    ],
+    "releve_source": "20/11/2026"
    },
    "offers": [
     {
@@ -1171,9 +1188,9 @@
    "nrev": 0,
    "prix": 1049.99,
    "synthese": {
-    "texte": "Un 16 pouces OLED de 1,2 kg équipé du Snapdragon X2 Elite Extreme : c'est l'association que Les Numériques, Clubic et Notebookcheck mettent en avant. Côté processeur, les trois relèvent une avance sur les puces Intel et AMD comparées, Notebookcheck précisant que même le mode silencieux, sous 30 dB(A), la conserve. Les couleurs de la dalle sont justes selon leurs mesures, et l'autonomie couvre une journée de bureautique (près de 15 h de vidéo chez Clubic comme chez Les Numériques).\n\nLes avis se séparent sur la construction. Clubic juge la charnière et le cadre d'écran fragiles et trouve le clavier plat, bruyant et incomplètement rétroéclairé ; Notebookcheck décrit au contraire un châssis stable et un bon clavier, et Les Numériques ne reproche rien à la frappe. Même désaccord sur la webcam, correcte pour Clubic, quelconque pour les deux autres.\n\nRestent des limites partagées : un écran brillant qui renvoie beaucoup de reflets (Les Numériques mesure environ 55 % de lumière réfléchie), une partie graphique Adreno en retrait face à Intel en jeu, un chargeur encombrant et, pour Les Numériques comme pour Notebookcheck, une ventilation qui se fait entendre en mode performance. Ce portable s'adresse à qui veut un grand écran facile à emporter pour travailler, moins à qui joue ou s'installe souvent en plein jour.",
-    "date": "2026-11-09",
-    "n": 20,
+    "texte": "Les Numériques, Clubic et Notebookcheck décrivent le même point de départ : un 16 pouces OLED 2,8K de 1,2 kg animé par le Snapdragon X2 Elite Extreme. Les trois mesurent un processeur en avance sur les puces Intel et AMD comparées ; Notebookcheck précise qu'il garde cette avance en mode silencieux, sous 31 dB(A). La dalle est jugée bien calibrée (delta E autour de 1 à 1,8 selon les mesures) et l'autonomie confortable : environ 15 h de vidéo chez Clubic et Les Numériques, 16 h 15 chez Notebookcheck.\n\nLa construction partage les testeurs. Clubic trouve la charnière et le cadre d'écran fragiles, et le clavier plat, bruyant et incomplètement rétroéclairé ; Notebookcheck décrit une base très rigide et une frappe agréable, et Les Numériques ne reproche rien au clavier. La webcam est correcte pour Clubic, passable et bruitée pour Les Numériques, moyenne pour Notebookcheck. Sur la partie graphique Adreno X2-90, Notebookcheck voit un net progrès, alors que Les Numériques et Clubic la jugent toujours en retrait face à Intel.\n\nLimites communes : un écran brillant très sujet aux reflets (Les Numériques mesure près de 55 % de lumière réfléchie), un chargeur encombrant et une ventilation audible en mode performance, entre 42 et 51 dB(A) selon les mesures. Ce portable s'adresse à qui veut un grand écran facile à transporter pour travailler, moins à qui joue souvent ou travaille en pleine lumière.",
+    "date": "2026-11-20",
+    "n": 19,
     "tests": 24,
     "sources": [
      "Les Numériques",
@@ -1771,7 +1788,7 @@
    "offers": [
     {
      "m": "Acer Store",
-     "price": 799.99,
+     "price": 899.99,
      "url": "https://store.acer.com/fr-fr/acer-swift-air-14-ordinateur-portable-ultrafin-sfa14-i31-rose",
      "name": "Acer Swift Air 14 SFA14-I31 Rose (NX.W4BEF.001)",
      "cfg": ""
@@ -1780,7 +1797,7 @@
    "img": "swift-air-14.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 799.99,
+   "prix": 899.99,
    "synthese": {
     "texte": "Clubic, Tom's Hardware et le Journal du Geek ont testé la même configuration d'entrée de gamme, Core 5 320 avec 8 Go de mémoire et 512 Go de SSD, et la comparent tous au MacBook Neo. Ils relèvent le poids de 1,19 kg, le châssis métallique, l'écran IPS 14 pouces à 120 Hz aux couleurs justes (écart moyen de 1,17 chez Clubic) et une connectique plus complète que celle du Mac, avec deux Thunderbolt 4, un USB-A et une prise jack. Le clavier rétroéclairé plaît à Clubic et au Journal du Geek.\n\nL'autonomie varie selon le protocole : près de 17 heures en usage léger chez Tom's Hardware, 10 à 13 heures en usage mixte pour le Journal du Geek, 8 à 10 heures estimées par Clubic. L'écran, autour de 350 cd/m², est assez lumineux pour Clubic mais trop sombre pour Tom's Hardware. Le reste des critiques est partagé : châssis qui fléchit, puissance limitée, 8 Go de mémoire vite saturés par Windows 11 selon Clubic, jeux à peine jouables même en réglages minimaux d'après le Journal du Geek. Tom's Hardware ajoute des logiciels préinstallés en nombre et une webcam médiocre.\n\nC'est un portable léger pour les études et la bureautique, qui gagne sur la connectique mais reste derrière le MacBook Neo en puissance aux yeux de Clubic et du Journal du Geek.",
     "date": "2026-11-09",
@@ -2521,7 +2538,7 @@
    ],
    "id": "yoga-pro9",
    "press": {
-    "avg": 8.588888888888889,
+    "avg": 8.422222222222222,
     "n": 9,
     "tests": 13,
     "scope": "modele",
@@ -2545,12 +2562,6 @@
       "avant": 8.0,
       "corrige": "10/10/2026",
       "verifie": "23/10/2026"
-     },
-     {
-      "src": "RTINGS",
-      "score": 9.0,
-      "url": "https://www.rtings.com/laptop/reviews/lenovo/yoga-pro-9i-16-2024",
-      "date": "2025-02-17"
      },
      {
       "src": "Windows Central",
@@ -2587,6 +2598,15 @@
       "score": 8.0,
       "url": "https://geardiary.com/2026/01/02/lenovo-yoga-pro-9i-aura-edition-review/",
       "date": "2026-01-02"
+     },
+     {
+      "src": "RTINGS",
+      "score": 7.5,
+      "url": "https://www.rtings.com/laptop/reviews/lenovo/yoga-pro-9i-16-2024",
+      "date": "2025-02-17",
+      "avant": 9.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Wired",
@@ -2829,7 +2849,8 @@
       "src": "Engadget",
       "score": 9.0,
       "url": "https://www.engadget.com/computing/laptops/asus-zenbook-duo-2026-review-two-screens-really-are-better-than-one-140000982.html?src=rss",
-      "date": "2026-02-10"
+      "date": "2026-02-10",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Fortress of Solitude",
@@ -2936,7 +2957,8 @@
       "src": "Club386",
       "score": 8.0,
       "url": "https://www.club386.com/asus-zenbook-duo-2026-review/",
-      "date": "2026-02-02"
+      "date": "2026-02-02",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Clubic",
@@ -3679,8 +3701,8 @@
     "tests": 14,
     "scope": "modele",
     "src": [
-     "Synthèse CommentChoisir",
-     "https://www.commentchoisir.fr/test-HP_Omen+Max+16.htm"
+     "",
+     ""
     ],
     "notes": [
      {
@@ -3728,7 +3750,8 @@
       "src": "PhonAndroid",
       "score": 8.0,
       "url": "https://www.phonandroid.com/test-hp-omen-max-16.html",
-      "date": "2025-07-07"
+      "date": "2025-07-07",
+      "verifie": "20/11/2026"
      },
      {
       "src": "T3",
@@ -3793,7 +3816,12 @@
       "url": "https://www.rtings.com/laptop/reviews/hp/omen-max-16-2025",
       "date": "2025-06-04"
      }
-    ]
+    ],
+    "src_initiale": [
+     "Synthèse CommentChoisir",
+     "https://www.commentchoisir.fr/test-HP_Omen+Max+16.htm"
+    ],
+    "releve_source": "20/11/2026"
    },
    "offers": [
     {
@@ -5411,8 +5439,8 @@
    ],
    "id": "zenbook-s14",
    "press": {
-    "avg": 8.472413793103449,
-    "n": 29,
+    "avg": 8.632142857142856,
+    "n": 28,
     "tests": 33,
     "scope": "gamme",
     "src": [
@@ -5420,6 +5448,15 @@
      "https://www.commentchoisir.fr/test-Asus_ZenBook+S+14.htm"
     ],
     "notes": [
+     {
+      "src": "Expert Reviews",
+      "score": 10.0,
+      "url": "https://www.expertreviews.co.uk/technology/laptops/ultraportable-laptops/asus-zenbook-s-14-review-ux5406s",
+      "date": "2024-10-10",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "Chip.de",
       "score": 9.6,
@@ -5600,12 +5637,6 @@
       "verifie": "23/10/2026"
      },
      {
-      "src": "Expert Reviews",
-      "score": 8.0,
-      "url": "https://www.expertreviews.co.uk/technology/laptops/ultraportable-laptops/asus-zenbook-s-14-review-ux5406s",
-      "date": "2024-10-10"
-     },
-     {
       "src": "Geeknetic",
       "score": 8.0,
       "url": "https://www.geeknetic.es/Review/2933/Intel-Core-Ultra-288V-Review-en-ASUS-Zenbook-S-14.html",
@@ -5645,12 +5676,6 @@
       "verifie": "23/10/2026"
      },
      {
-      "src": "Labo Fnac",
-      "score": 6.0,
-      "url": "https://leclaireur.fnac.com/test/597998-asus-zenbook-s-14-ux5406a/",
-      "date": "2025-05-27"
-     },
-     {
       "src": "ComputerBase",
       "score": null,
       "url": "https://www.computerbase.de/2024-09/intel-core-ultra-200-lunar-lake-test/",
@@ -5661,6 +5686,15 @@
       "score": null,
       "url": "https://www.gamestar.de/artikel/asus-zenbook-s14-review,3426504.html",
       "date": "2025-02-05"
+     },
+     {
+      "src": "Labo Fnac",
+      "score": null,
+      "url": "https://leclaireur.fnac.com/test/597998-asus-zenbook-s-14-ux5406a/",
+      "date": "2025-05-27",
+      "avant": 6.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "TechAeris",
@@ -5690,14 +5724,14 @@
    "nrev": 0,
    "prix": 1299.99,
    "synthese": {
-    "texte": "Le Zenbook S 14 testé avec une puce Intel Core Ultra 7 258V convainc d'abord par son format : Notebookcheck le pèse à environ 1,18 kg et souligne un châssis rigide, Tom's Hardware le trouve compact et bien fini, KitGuru le juge léger et élégant. L'autonomie est un point fort partout : Tom's Hardware mesure 14 h 07, nettement mieux que la génération Intel précédente, et KitGuru parle d'une tenue sur toute la journée. L'écran OLED 2,8K en 120 Hz est jugé net et fidèle, le clavier agréable, et le Wi-Fi 7 rapide.\n\nLa principale réserve concerne les performances multicœurs, en retrait face aux concurrents et à la génération précédente selon Notebookcheck et Tom's Hardware ; Notebookcheck relève aussi une baisse d'environ 30 % sous charge prolongée. La luminosité maximale reste modeste (342 nits chez Tom's Hardware), Notebookcheck signale un scintillement PWM de faible amplitude et un clic de pavé tactile bruyant. La mémoire et la carte Wi-Fi sont soudées, la webcam est jugée moyenne et KitGuru aurait préféré un port Thunderbolt de chaque côté.\n\nCe portable vous conviendra pour la bureautique, la navigation et les longues journées loin d'une prise. Si vous lancez souvent des tâches multicœurs lourdes, les testeurs conseillent de viser plus puissant.",
-    "date": "2026-10-23",
-    "n": 29,
+    "texte": "Expert Reviews, Notebookcheck et Frandroid ont testé le Zenbook S 14 avec une puce Intel Core Ultra de la série 200V (Lunar Lake). Tous trois retiennent un châssis fin d'environ 1,2 kg, un écran OLED 2,8K à 120 Hz bien calibré et une endurance de premier plan : Expert Reviews mesure 18 h 28 en lecture vidéo, Notebookcheck 14 h 18 en navigation Wi-Fi et près de 20 h en vidéo, et Frandroid parle d'une vingtaine d'heures d'usage. La partie graphique Intel Arc est jugée nettement plus capable qu'avant, au point de permettre quelques jeux en 1080p.\n\nLes avis divergent sur le clavier : Expert Reviews le trouve ferme et bien rétroéclairé, Frandroid regrette des touches un peu instables et une touche Entrée réduite. Frandroid note aussi une chauffe qui monte vite vers 50 °C et des ventilateurs bruyants sous forte charge graphique, quand Notebookcheck décrit une machine plutôt silencieuse. Notebookcheck mesure une perte d'environ 30 % des performances multicœurs sous charge prolongée et relève un scintillement PWM ; la mémoire est soudée et il n'y a pas de lecteur de carte. Frandroid juge l'écran trop réfléchissant et l'audio décevant, Expert Reviews trouve la webcam moyenne.\n\nCe portable vous conviendra pour travailler en mobilité sur de longues journées sans chargeur. Si vos logiciels exploitent beaucoup de cœurs sur de longues durées, d'autres machines tiendront mieux la charge.",
+    "date": "2026-11-20",
+    "n": 28,
     "tests": 33,
     "sources": [
+     "Expert Reviews",
      "Notebookcheck",
-     "Tom's Hardware",
-     "KitGuru"
+     "Frandroid"
     ]
    }
   },
@@ -5722,7 +5756,7 @@
    ],
    "id": "zenbook-s16",
    "press": {
-    "avg": 8.332142857142857,
+    "avg": 8.346428571428572,
     "n": 28,
     "tests": 33,
     "scope": "gamme",
@@ -5836,6 +5870,15 @@
       "verifie": "23/10/2026"
      },
      {
+      "src": "RTINGS",
+      "score": 8.4,
+      "url": "https://www.rtings.com/laptop/reviews/asus/zenbook-s-16-um5606-2024",
+      "date": "2025-08-13",
+      "avant": 8.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "CharlesTech",
       "score": 8.0,
       "url": "https://charlestech.fr/test-asus-zenbook-s16-um5606w/",
@@ -5903,12 +5946,6 @@
       "avant": null,
       "corrige": "10/10/2026",
       "verifie": "23/10/2026"
-     },
-     {
-      "src": "RTINGS",
-      "score": 8.0,
-      "url": "https://www.rtings.com/laptop/reviews/asus/zenbook-s-16-um5606-2024",
-      "date": "2025-08-13"
      },
      {
       "src": "The Verge",
@@ -6994,7 +7031,7 @@
      "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go",
      "ean": "0199275183737",
      "edid": "10018724",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "img": "ideapad-slim3.webp",
@@ -7190,7 +7227,7 @@
      "cfg": "4 Go · 64 Go",
      "ean": "4711721178829",
      "edid": "10018899",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "img": "chromebook-315.webp",
@@ -7220,7 +7257,7 @@
    ],
    "id": "chromebook-plus-514",
    "press": {
-    "avg": 7.709090909090909,
+    "avg": 7.745454545454546,
     "n": 11,
     "tests": 11,
     "scope": "gamme",
@@ -7251,7 +7288,8 @@
       "src": "Expert Reviews",
       "score": 8.0,
       "url": "https://www.expertreviews.co.uk/acer/acer-chromebook-plus-514-review",
-      "date": "2023-11-15"
+      "date": "2023-11-15",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Frandroid",
@@ -7294,9 +7332,12 @@
      },
      {
       "src": "RTINGS",
-      "score": 7.0,
+      "score": 7.4,
       "url": "https://www.rtings.com/laptop/reviews/acer/chromebook-plus-514-2023",
-      "date": "2024-07-10"
+      "date": "2024-07-10",
+      "avant": 7.0,
+      "corrige": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "tuttoteK",
@@ -7678,7 +7719,7 @@
      "cfg": "4 Go · 128 Go",
      "ean": "0199275252853",
      "edid": "10018811",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "img": "ideapad-slim3-cb14.webp",
@@ -18418,7 +18459,7 @@
      "cfg": "",
      "ean": "4549292194692",
      "edid": "10018462",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19191,7 +19232,7 @@
      "cfg": "",
      "ean": "4549292247985",
      "edid": "10020364",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19276,7 +19317,7 @@
      "cfg": "version XP-2205",
      "ean": "8715946702797",
      "edid": "975904",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19349,7 +19390,7 @@
      "cfg": "version TS4150i",
      "ean": "4549292248067",
      "edid": "10016130",
-     "releve": "2026-11-18",
+     "releve": "2026-11-20",
      "dispo": false
     }
    ],
@@ -19486,7 +19527,7 @@
      "cfg": "",
      "ean": "4549292237368",
      "edid": "10017501",
-     "releve": "2026-11-18",
+     "releve": "2026-11-20",
      "dispo": false
     }
    ],
@@ -19563,7 +19604,7 @@
      "cfg": "",
      "ean": "4549292247947",
      "edid": "10020365",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19692,7 +19733,7 @@
      "cfg": "",
      "ean": "0198154304485",
      "edid": "10012839",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19762,7 +19803,7 @@
      "cfg": "",
      "ean": "4038986182980",
      "edid": "10010548",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19825,7 +19866,7 @@
      "cfg": "",
      "ean": "8715946737331",
      "edid": "10013177",
-     "releve": "2026-11-18",
+     "releve": "2026-11-20",
      "dispo": false
     }
    ],
@@ -19895,7 +19936,7 @@
      "cfg": "",
      "ean": "0196786388484",
      "edid": "10003125",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -19964,7 +20005,7 @@
      "cfg": "",
      "ean": "0197029469199",
      "edid": "993267",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -20034,7 +20075,7 @@
      "cfg": "",
      "ean": "0197498438948",
      "edid": "10002597",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -20097,13 +20138,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 39.98,
+     "price": 28.98,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-deskjet-2921e.html",
      "name": "Imprimante Hp Deskjet 2921e Multifonction eligible Instant Ink",
      "cfg": "",
      "ean": "0198828789815",
      "edid": "10013176",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -20131,7 +20172,7 @@
     ],
     "releve_source": "30/10/2026"
    },
-   "prix": 39.98,
+   "prix": 28.98,
    "img": "hp-deskjet-2921e.webp",
    "rating": null,
    "nrev": 0
@@ -20190,7 +20231,7 @@
      "name": "DELL 5420 CORE-I5-1145G7 2.6GHZ - RAM 16 Go - SSD 250 Go - WINDOWS",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "4741",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "latitude-5420.webp",
@@ -20247,7 +20288,7 @@
      "name": "LENOVO T14 G1 AMD RYZEN 5 PRO 4650U - RAM 8Go - SSD 500Go- Windows",
      "cfg": "Ryzen 5 · 8 Go · SSD 500 Go · Windows 11 · grade B · reconditionné",
      "ppid": "5106",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "thinkpad-t14-gen1.webp",
@@ -20310,7 +20351,7 @@
      "name": "LENOVO T490 - GRADE B - Core I5 - RAM 16 GO - SSD 250 GO - Windows",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "3052",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "thinkpad-t490.webp",
@@ -20373,7 +20414,7 @@
      "name": "LENOVO THINKPAD T480 - I5 - WINDOWS 11 - SSD 250 GO - RAM 8 GO",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "2289",
-     "releve": "2026-11-14"
+     "releve": "2026-11-20"
     }
    ],
    "img": "thinkpad-t480.webp",
@@ -20436,7 +20477,7 @@
      "name": "DELL E7490 - Windows 11 - SSD 250 Go - Ram 8 Go - N°160415 - GRADE B",
      "cfg": "8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "2903",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "latitude-7490.webp",
@@ -20499,7 +20540,7 @@
      "name": "LENOVO t470s - Core I5 - RAM 8 GO - SSD 500 GO - Windows 11",
      "cfg": "Core i5 · 8 Go · SSD 500 Go · Windows 11 · grade B · reconditionné",
      "ppid": "3888",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "thinkpad-t470s.webp",
@@ -20554,7 +20595,7 @@
      "name": "HP 840 G6 I5 - RAM 8 Go - SSD 250 Go - WINDOWS 11-290725209",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · reconditionné",
      "ppid": "4668",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": null,
@@ -20610,7 +20651,7 @@
      "name": "DELL LATITUDE 5510 I5 Gen 10 RAM 8 Go - SSD 250 Go - WINDOWS 11",
      "cfg": "Core i5 · 8 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "5137",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "latitude-5510.webp",
@@ -20666,7 +20707,7 @@
      "name": "LENOVO THINKPAD L14 Génération 1 – Intel Core i5-10310U – RAM 16 Go",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · reconditionné",
      "ppid": "5166",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": null,
@@ -20721,7 +20762,7 @@
      "name": "LENOVO X280 - GRADE B - Core I5 - RAM 16 GO - SSD 250 Go - Windows",
      "cfg": "Core i5 · 16 Go · SSD 250 Go · Windows 11 · grade B · reconditionné",
      "ppid": "4071",
-     "releve": "2026-11-13"
+     "releve": "2026-11-20"
     }
    ],
    "img": "thinkpad-x280.webp",
@@ -21442,13 +21483,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 361.0,
+     "price": 349.0,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-robot-dreame-l40-ultra-ae.html",
      "name": "Aspirateur Robot Laveur Dreame L40 Ultra Ae",
      "cfg": "",
      "ean": "6977328066381",
      "edid": "10011577",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -21559,7 +21600,7 @@
      }
     ]
    },
-   "prix": 361.0,
+   "prix": 349.0,
    "img": "dreame-l40-ultra.webp",
    "rating": null,
    "nrev": 0,
@@ -21604,7 +21645,7 @@
      "cfg": "",
      "ean": "6978515257025",
      "edid": "10016676",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -21808,7 +21849,7 @@
      "cfg": "",
      "ean": "6978794732749",
      "edid": "10016684",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -21928,13 +21969,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 499.0,
+     "price": 469.0,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-robot-dreame-aqua-10-roller-ae.html",
      "name": "Aspirateur Robot Dreame Aqua 10 Roller Ae",
      "cfg": "",
      "ean": "6979181924129",
      "edid": "10020078",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -22063,7 +22104,7 @@
      }
     ]
    },
-   "prix": 499.0,
+   "prix": 469.0,
    "img": "dreame-aqua10-ultra.webp",
    "rating": null,
    "nrev": 0,
@@ -23177,13 +23218,13 @@
    "offers": [
     {
      "m": "Electro Dépôt",
-     "price": 149.98,
+     "price": 139.0,
      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Faspirateur-balai-roborock-h60-hub-station-de-vidage.html",
      "name": "Aspirateur Balai Roborock H60 Hub Station De Vidage",
      "cfg": "",
      "ean": "6974653813628",
      "edid": "10020540",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -23228,7 +23269,7 @@
      }
     ]
    },
-   "prix": 149.98,
+   "prix": 139.0,
    "img": "roborock-h60-hub.webp",
    "rating": null,
    "nrev": 0,
@@ -23283,7 +23324,7 @@
      "cfg": "",
      "ean": "6977328063854",
      "edid": "10009023",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -23605,7 +23646,7 @@
      "cfg": "",
      "ean": "6976233676067",
      "edid": "10019413",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -24649,7 +24690,7 @@
      "cfg": "",
      "ean": "3700342483376",
      "edid": "10009171",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -27642,7 +27683,7 @@
      "cfg": "",
      "ean": "6942351417325",
      "edid": "10011457",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -27760,7 +27801,7 @@
      "cfg": "",
      "ean": "8806096058640",
      "edid": "10015474",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -28472,7 +28513,7 @@
      "cfg": "",
      "ean": "1200130034282",
      "edid": "10018105",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -28995,7 +29036,7 @@
      "cfg": "",
      "ean": "1200130024849",
      "edid": "10013118",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -29144,7 +29185,7 @@
      "cfg": "",
      "ean": "1200130018589",
      "edid": "10005191",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -30097,7 +30138,7 @@
      "cfg": "",
      "ean": "4895252501599",
      "edid": "10009498",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -31568,7 +31609,7 @@
      "cfg": "",
      "ean": "0195949689673",
      "edid": "10008780",
-     "releve": "2026-11-18"
+     "releve": "2026-11-20"
     }
    ],
    "press": {
@@ -42497,7 +42538,7 @@
    "date": "23/10/2026",
    "prix_date": "octobre 2026",
    "iso": "2026-10-23",
-   "tente": "2026-10-23"
+   "tente": "2026-11-20"
   },
   "bureau": {
    "date": "05/10/2026",
@@ -42543,6 +42584,7 @@
   }
  },
  "dates": {
+  "Acer Store": "20/11/2026",
   "Amazon": "18/11/2026"
  },
  "bf_actif": false
