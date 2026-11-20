@@ -10795,22 +10795,15 @@
    ],
    "id": "area-51",
    "press": {
-    "avg": 8.683333333333334,
-    "n": 6,
-    "tests": 8,
+    "avg": 8.42,
+    "n": 5,
+    "tests": 6,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
-     {
-      "src": "Windows Central",
-      "score": 10.0,
-      "url": "https://www.windowscentral.com/hardware/dell/alienware-area-51-16-aw30-gaming-laptop-review",
-      "date": "2025-06-22",
-      "verifie": "16/10/2026"
-     },
      {
       "src": "Level Tech",
       "score": 9.1,
@@ -10850,12 +10843,6 @@
       "date": "2025-04-23",
       "ajout": "20/11/2026",
       "verifie": "20/11/2026"
-     },
-     {
-      "src": "GameStar",
-      "score": null,
-      "url": "https://www.gamestar.de/artikel/das-ist-das-schoenes-gaming-notebook-das-ich-bisher-testen-durfte,3434850.html",
-      "date": "2025-06-18"
      },
      {
       "src": "Gamers Nexus",
