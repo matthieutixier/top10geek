@@ -53,24 +53,32 @@ def agy_exe():
     return exe
 
 
-def demander(exe, prompt, timeout):
-    """Une question à agy ; une nouvelle tentative après 60 s si les serveurs gratuits sont saturés (erreur 503)."""
+def demander(exe, prompt, timeout, options):
+    """Une question à agy (sortie stream-json : on voit les outils réellement utilisés) ; nouvel essai après 60 s
+    si les serveurs gratuits sont saturés (503). Renvoie (code, réponse, erreur, outils utilisés)."""
     for essai in (1, 2):
-        r = subprocess.run([exe, "-p", prompt, "--output-format", "json", "--effort", "low", "--sandbox",
-                            "--print-timeout", f"{timeout}s"], capture_output=True, text=True,
-                           encoding="utf-8", errors="replace", timeout=timeout + 60)
-        if essai == 1 and ("503" in r.stdout + r.stderr or "No capacity" in r.stdout + r.stderr):
+        r = subprocess.run([exe, "-p", prompt, "--output-format", "stream-json", "--print-timeout", f"{timeout}s"] + options,
+                           capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=timeout + 60)
+        tout = r.stdout + r.stderr
+        if essai == 1 and ("503" in tout or "No capacity" in tout) and '"status":"SUCCESS"' not in tout:
             print("   serveurs saturés, nouvel essai dans 60 s…")
             time.sleep(60)
             continue
         break
-    sortie = r.stdout.strip()
-    try:                                    # enveloppe JSON documentée : {"response": "...", ...}
-        env = json.loads(sortie)
-        texte = env.get("response") or env.get("result") or ""
-    except (json.JSONDecodeError, AttributeError):
-        texte = sortie
-    return r.returncode, texte, r.stderr[-400:]
+    texte, outils, erreur = "", [], ""
+    for ligne in r.stdout.splitlines():
+        try:
+            ev = json.loads(ligne)
+        except json.JSONDecodeError:
+            continue
+        su = ev.get("step_update") or {}
+        if su.get("step_type") == "tool" and su.get("state") in ("DONE", "ERROR"):
+            q = (su.get("tool_info") or {}).get("parameters", {})
+            outils.append(f"{su.get('tool_name')}:{su.get('state')}:{q.get('query', '')[:80]}")
+        if ev.get("event") == "result":
+            texte = ev["result"].get("response") or ""
+            erreur = ev["result"].get("error") or ""
+    return r.returncode, texte, (erreur or r.stderr[-400:]), outils
 
 
 def adresses(texte, connues):
@@ -91,9 +99,12 @@ def main():
     ap.add_argument("--max", type=int, default=0, help="nombre maximal de fiches (essai)")
     ap.add_argument("--ids", help="fiches précises, séparées par des virgules")
     ap.add_argument("--timeout", type=int, default=180)
+    ap.add_argument("--effort", default="medium", choices=["low", "medium", "high"])
+    ap.add_argument("--bac-a-sable", action="store_true", help="lance agy avec --sandbox (peut bloquer la recherche)")
     ap.add_argument("--refaire", action="store_true", help="refait les fiches déjà traitées")
     a = ap.parse_args()
     exe = agy_exe()
+    options = ["--effort", a.effort] + (["--sandbox"] if a.bac_a_sable else [])
     d = json.loads((SRC / "data.json").read_text(encoding="utf-8"))
     cible = [(k, p) for k, p in d["items"].items()
              if FAMILLE(p.get("cat", "")) == a.rubrique and (p.get("press") or {}).get("tests", 0) < 3]
@@ -112,17 +123,18 @@ def main():
         connues = [x["url"] for x in p["press"]["notes"] if x.get("url")]
         prompt = CONSIGNE.format(nom=p.get("short", k), ref=p.get("ref", ""), connus=", ".join(connues) or "aucun")
         try:
-            code, texte, err = demander(exe, prompt, a.timeout)
+            code, texte, err, outils = demander(exe, prompt, a.timeout, options)
         except subprocess.TimeoutExpired:
-            code, texte, err = -1, "", "délai dépassé"
+            code, texte, err, outils = -1, "", "délai dépassé", []
         urls = adresses(texte, connues)
         statut = "ok" if code == 0 and texte else "echec"
         res[k] = dict(nom=p.get("short", k), ref=p.get("ref", ""), tests_avant=p["press"]["tests"], urls=urls,
                       statut=statut, erreur=(err if statut != "ok" else ""), code=code,
-                      reponse_brute=(texte or "")[:2000],          # pour comprendre une réponse vide ou filtrée
+                      reponse_brute=(texte or "")[:2000], outils=outils,          # pour comprendre une réponse vide ou filtrée
                       adresses_ecartees=[u for u in re.findall(r"https?://[^\s\"'\]\)<>,]+", texte or "") if u.rstrip(".;") not in urls],
                       date=datetime.datetime.now().isoformat(timespec="seconds"))
         sortie.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"   outils : {', '.join(outils) or 'aucun'}")
         print(f"[{n}/{len(cible)}] {k:28s} {statut:5s} {len(urls)} adresse(s)" + (f"  ({err.strip()[:120]})" if statut != "ok" else ""))
     ok = [v for v in res.values() if v["statut"] == "ok"]
     print(f"\nBilan : {len(ok)}/{len(res)} fiches traitées, {sum(len(v['urls']) for v in ok)} adresses candidates.")
