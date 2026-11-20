@@ -28,6 +28,8 @@ from urllib.parse import urlparse
 SRC = Path(__file__).resolve().parent
 PREFIXES = {"s-": "robot", "t-": "tv", "a-": "audio", "v-": "video", "e-": "ecran", "i-": "imprimante", "d-": "bureau"}
 FAMILLE = lambda cat: next((f for p, f in PREFIXES.items() if cat.startswith(p)), "portable")
+MAISON = ("robot", "tv", "audio", "video")
+INFORMATIQUE = ("portable", "bureau", "ecran", "imprimante")
 EXCLUS = ("amazon.", "commentchoisir.", "idealo.", "ledenicheur.", "darty.", "fnac.com", "boulanger.", "cdiscount.",
           "electrodepot.", "ldlc.", "youtube.", "youtu.be", "reddit.", "facebook.", "x.com", "twitter.", "google.")
 
@@ -120,7 +122,10 @@ def adresses(texte, connues):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--rubrique", required=True, choices=sorted(set(PREFIXES.values()) | {"portable"}))
+    ap.add_argument("--rubrique", required=True,
+                    choices=sorted(set(PREFIXES.values()) | {"portable", "auto-maison", "auto-informatique"}),
+                    help="auto-maison / auto-informatique : la rubrique que traitera la prochaine mise à jour "
+                         "hebdomadaire (même rotation que les tâches : date « tente » la plus ancienne)")
     ap.add_argument("--max", type=int, default=0, help="nombre maximal de fiches (essai)")
     ap.add_argument("--ids", help="fiches précises, séparées par des virgules")
     ap.add_argument("--timeout", type=int, default=180)
@@ -128,6 +133,12 @@ def main():
     ap.add_argument("--bac-a-sable", action="store_true", help="lance agy avec --sandbox (peut bloquer la recherche)")
     ap.add_argument("--refaire", action="store_true", help="refait les fiches déjà traitées")
     a = ap.parse_args()
+    d0 = json.loads((SRC / "data.json").read_text(encoding="utf-8"))
+    if a.rubrique.startswith("auto-"):
+        groupe = MAISON if a.rubrique == "auto-maison" else INFORMATIQUE
+        fams = d0.get("familles", {})
+        a.rubrique = min(groupe, key=lambda f: (fams.get(f, {}).get("tente") or fams.get(f, {}).get("iso") or ""))
+        print(f"Rubrique de la prochaine mise à jour : {a.rubrique}")
     exe = agy_exe()
     options = ["--effort", a.effort] + (["--sandbox"] if a.bac_a_sable else [])
     d = json.loads((SRC / "data.json").read_text(encoding="utf-8"))
