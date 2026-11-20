@@ -7769,8 +7769,8 @@
    "id": "chromebook-cx14",
    "press": {
     "avg": 7.0,
-    "n": 2,
-    "tests": 2,
+    "n": 3,
+    "tests": 3,
     "scope": "gamme",
     "src": [
      "",
@@ -7782,6 +7782,14 @@
       "score": 8.0,
       "url": "https://www.pcworld.com/article/3038029/asus-chromebook-plus-cx14-review.html",
       "date": "2026-01-26",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 7.0,
+      "url": "https://www.pcmag.com/reviews/asus-chromebook-plus-cx14-cx1405",
+      "date": "2025-10-12",
       "ajout": "20/11/2026",
       "verifie": "20/11/2026"
      },
@@ -20235,7 +20243,7 @@
    "press": {
     "avg": 8.5,
     "n": 1,
-    "tests": 2,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
@@ -20254,6 +20262,13 @@
       "score": null,
       "url": "https://laptopmedia.com/gb/review/dell-latitude-14-5420-review-it-will-effortlessly-last-you-through-two-workdays-on-a-single-charge/",
       "date": "2021-06-01"
+     },
+     {
+      "src": "Reviewed",
+      "score": null,
+      "url": "https://www.reviewed.com/laptops/content/dell-latitude-5420-2020-review",
+      "date": "2021-03-29",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -20296,9 +20311,9 @@
    ],
    "id": "thinkpad-t14-gen1",
    "press": {
-    "avg": 8.9,
-    "n": 1,
-    "tests": 1,
+    "avg": 8.45,
+    "n": 2,
+    "tests": 2,
     "scope": "modele",
     "src": [
      "",
@@ -20311,6 +20326,14 @@
       "url": "https://www.notebookcheck.org/Review-del-Lenovo-ThinkPad-T14-AMD-El-mejor-portatil-para-empresas-que-se-puede-comprar.505020.0.html",
       "date": "2020-11-18",
       "verifie": "26/10/2026"
+     },
+     {
+      "src": "LaptopMedia",
+      "score": 8.0,
+      "url": "https://laptopmedia.com/review/lenovo-thinkpad-t14-review-the-zen-2-pro-processors-are-making-it-a-tempting-purchase/",
+      "date": "2020-08-17",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -20353,9 +20376,9 @@
    ],
    "id": "thinkpad-t490",
    "press": {
-    "avg": 8.7,
-    "n": 1,
-    "tests": 2,
+    "avg": 8.35,
+    "n": 2,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
@@ -20368,6 +20391,14 @@
       "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-T490-i7-MX250-Low-Power-FHD-Laptop-Review.421150.0.html",
       "date": "2019-05-22",
       "verifie": "26/10/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/lenovo-thinkpad-t490",
+      "date": "2019-05-30",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "LaptopMedia",
@@ -20416,9 +20447,9 @@
    ],
    "id": "thinkpad-t480",
    "press": {
-    "avg": 9.0,
-    "n": 1,
-    "tests": 2,
+    "avg": 8.5,
+    "n": 2,
+    "tests": 3,
     "scope": "modele",
     "src": [
      "",
@@ -20431,6 +20462,14 @@
       "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-T480-i7-8550U-MX150-FHD-Laptop-Review.293682.0.html",
       "date": "2018-03-31",
       "verifie": "26/10/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/lenovo-thinkpad-t480",
+      "date": "2018-07-13",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
      },
      {
       "src": "Laptop Mag",
@@ -20480,8 +20519,8 @@
    "id": "latitude-7490",
    "press": {
     "avg": 9.0,
-    "n": 1,
-    "tests": 2,
+    "n": 2,
+    "tests": 4,
     "scope": "modele",
     "src": [
      "",
@@ -20496,10 +20535,25 @@
       "verifie": "26/10/2026"
      },
      {
+      "src": "TechRadar",
+      "score": 9.0,
+      "url": "https://www.techradar.com/reviews/dell-latitude-7490",
+      "date": "2020-08-05",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Laptop Mag",
       "score": null,
       "url": "https://laptopmag.com/reviews/laptops/dell-latitude-7490",
       "date": "2018-04-23"
+     },
+     {
+      "src": "Windows Central",
+      "score": null,
+      "url": "https://www.windowscentral.com/dell-latitude-7490",
+      "date": "2018-03-26",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -20542,9 +20596,9 @@
    ],
    "id": "thinkpad-t470s",
    "press": {
-    "avg": 8.8,
-    "n": 1,
-    "tests": 2,
+    "avg": 7.933333333333334,
+    "n": 3,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
@@ -20559,10 +20613,33 @@
       "verifie": "26/10/2026"
      },
      {
+      "src": "HotHardware",
+      "score": 8.0,
+      "url": "https://hothardware.com/reviews/lenovo-thinkpad-t470s-slim-powerhouse",
+      "date": "2017-06-14",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 7.0,
+      "url": "https://www.pcmag.com/reviews/lenovo-thinkpad-t470s",
+      "date": "2017-05-12",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Laptop Mag",
       "score": null,
       "url": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-t470s",
       "date": "2017-04-29"
+     },
+     {
+      "src": "Windows Central",
+      "score": null,
+      "url": "https://www.windowscentral.com/lenovo-thinkpad-t470s-review",
+      "date": "2017-05-19",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -20660,15 +20737,23 @@
    ],
    "id": "latitude-5510",
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
+    "avg": 8.4,
+    "n": 1,
+    "tests": 2,
     "scope": "modele",
     "src": [
      "",
      ""
     ],
     "notes": [
+     {
+      "src": "Notebookcheck",
+      "score": 8.4,
+      "url": "https://www.notebookcheck.net/Dell-Latitude-15-5510-laptop-review-Office-notebook-with-prepared-WWAN.498535.0.html",
+      "date": "2020-10-21",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
      {
       "src": "LaptopMedia",
       "score": null,
@@ -20718,7 +20803,7 @@
    "press": {
     "avg": null,
     "n": 0,
-    "tests": 1,
+    "tests": 2,
     "scope": "modele",
     "src": [
      "",
@@ -20730,6 +20815,13 @@
       "score": null,
       "url": "https://laptopmedia.com/gb/review/lenovo-thinkpad-l14-review-even-the-intel-version-brings-performance-to-the-table/",
       "date": "2020-10-20"
+     },
+     {
+      "src": "nbreview",
+      "score": null,
+      "url": "https://nbreview.de/thinkpad-l14-gen-1-intel-test/",
+      "date": "2020-06-24",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
@@ -20771,9 +20863,9 @@
    ],
    "id": "thinkpad-x280",
    "press": {
-    "avg": null,
-    "n": 0,
-    "tests": 1,
+    "avg": 8.5,
+    "n": 2,
+    "tests": 5,
     "scope": "modele",
     "src": [
      "",
@@ -20781,10 +20873,40 @@
     ],
     "notes": [
      {
+      "src": "Notebookcheck",
+      "score": 9.0,
+      "url": "https://www.notebookcheck.net/Lenovo-ThinkPad-X280-i5-8250U-FHD-Laptop-Review.287454.0.html",
+      "date": "2018-03-08",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
+      "src": "PCMag",
+      "score": 8.0,
+      "url": "https://www.pcmag.com/reviews/lenovo-thinkpad-x280",
+      "date": "2018-06-12",
+      "ajout": "20/11/2026",
+      "verifie": "20/11/2026"
+     },
+     {
       "src": "Laptop Mag",
       "score": null,
       "url": "https://www.laptopmag.com/reviews/laptops/lenovo-thinkpad-x280",
       "date": "2018-03-02"
+     },
+     {
+      "src": "Windows Central",
+      "score": null,
+      "url": "https://www.windowscentral.com/lenovo-thinkpad-x280",
+      "date": "2018-04-02",
+      "ajout": "20/11/2026"
+     },
+     {
+      "src": "GottaBeMobile",
+      "score": null,
+      "url": "https://www.gottabemobile.com/lenovo-thinkpad-x280-review/",
+      "date": "2018-04-09",
+      "ajout": "20/11/2026"
      }
     ],
     "releve_source": "30/10/2026"
