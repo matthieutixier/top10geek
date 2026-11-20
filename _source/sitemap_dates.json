@@ -1,7 +1,7 @@
 {
 "": {
 "d": "2026-11-20",
-"h": "7f88b6f36f4b"
+"h": "0100896a11b9"
 },
 "a-propos": {
 "d": "2026-10-30",
@@ -9,163 +9,163 @@
 },
 "aspirateur-robot/": {
 "d": "2026-11-20",
-"h": "9419bd527d67"
+"h": "3af5774aec80"
 },
 "aspirateur-robot/aspirateurs-balais-laveurs/": {
-"d": "2026-11-18",
-"h": "7bfe40a2718c"
+"d": "2026-11-20",
+"h": "40b873eb257e"
 },
 "aspirateur-robot/aspirateurs-balais/": {
 "d": "2026-11-20",
-"h": "4020179ab47e"
+"h": "c433d4bae376"
 },
 "aspirateur-robot/dji-romo-p2/": {
-"d": "2026-11-13",
-"h": "e514de9570c9"
+"d": "2026-11-20",
+"h": "8d1da5faa1f5"
 },
 "aspirateur-robot/dreame-aqua10-ultra/": {
 "d": "2026-11-20",
-"h": "c9acce538328"
+"h": "4c8adf83e142"
 },
 "aspirateur-robot/dreame-d10-plus-gen-2/": {
-"d": "2026-11-18",
-"h": "9d25a8c95e7e"
+"d": "2026-11-20",
+"h": "2791de3691b8"
 },
 "aspirateur-robot/dreame-h12-pro/": {
-"d": "2026-11-18",
-"h": "b5619ccbdc6b"
+"d": "2026-11-20",
+"h": "4b0bec59fa99"
 },
 "aspirateur-robot/dreame-h14/": {
 "d": "2026-11-20",
-"h": "bd085c8ffc03"
+"h": "4a2f1b7f44d1"
 },
 "aspirateur-robot/dreame-h15-pro/": {
 "d": "2026-11-20",
-"h": "a443a1fe4168"
+"h": "93c9878932d8"
 },
 "aspirateur-robot/dreame-l10s-pro-gen-3/": {
-"d": "2026-11-18",
-"h": "e6b50f50f923"
+"d": "2026-11-20",
+"h": "d54d1ca46c84"
 },
 "aspirateur-robot/dreame-l10s-ultra/": {
 "d": "2026-11-20",
-"h": "227f9e1c0ff7"
+"h": "f32704f0b65f"
 },
 "aspirateur-robot/dreame-l40-ultra/": {
 "d": "2026-11-20",
-"h": "9ea5d6805f4b"
+"h": "2ebcbfea1c87"
 },
 "aspirateur-robot/dreame-r20/": {
 "d": "2026-11-20",
-"h": "f0e43b462530"
+"h": "8407cf252b46"
 },
 "aspirateur-robot/dreame-x50-ultra-complete/": {
 "d": "2026-11-20",
-"h": "8bd5be65d8c1"
+"h": "1b6fd7b9d924"
 },
 "aspirateur-robot/dreame-z30/": {
 "d": "2026-11-20",
-"h": "980ae9aaa515"
+"h": "20fc47a9b735"
 },
 "aspirateur-robot/dyson-v11-absolute/": {
 "d": "2026-11-20",
-"h": "60b0bfb9dfb1"
+"h": "dacd972924ff"
 },
 "aspirateur-robot/dyson-v12-detect-slim/": {
 "d": "2026-11-20",
-"h": "12c28fac1cd2"
+"h": "74d22745f31d"
 },
 "aspirateur-robot/dyson-v15-detect-absolute/": {
 "d": "2026-11-20",
-"h": "d207c927ea8f"
+"h": "6a29bcd280f0"
 },
 "aspirateur-robot/dyson-v16-piston-animal/": {
 "d": "2026-11-20",
-"h": "cc3e775bbea3"
+"h": "4f790d19e52d"
 },
 "aspirateur-robot/ecovacs-deebot-t90-pro-omni/": {
-"d": "2026-11-13",
-"h": "0fbab2581efc"
+"d": "2026-11-20",
+"h": "ca1abb7b3e4e"
 },
 "aspirateur-robot/ecovacs-deebot-x11/": {
 "d": "2026-11-20",
-"h": "be07d9b2a290"
+"h": "33baf5a63f8d"
 },
 "aspirateur-robot/mova-e40-ultra/": {
 "d": "2026-11-20",
-"h": "3ba72249575f"
+"h": "249cecf52425"
 },
 "aspirateur-robot/mova-m50-ultra/": {
-"d": "2026-11-18",
-"h": "f668e11d06cf"
+"d": "2026-11-20",
+"h": "18d906d3c67b"
 },
 "aspirateur-robot/mova-v70-ultra/": {
-"d": "2026-11-13",
-"h": "b745ecedb9c3"
+"d": "2026-11-20",
+"h": "c98c68be094c"
 },
 "aspirateur-robot/mova-z60-ultra/": {
 "d": "2026-11-20",
-"h": "06b4c9f3d1fe"
+"h": "3c028a176c5c"
 },
 "aspirateur-robot/narwal-flow-2/": {
-"d": "2026-11-13",
-"h": "87e8c9ecb8a1"
+"d": "2026-11-20",
+"h": "62428d15fbcb"
 },
 "aspirateur-robot/narwal-freo-z10-ultra/": {
 "d": "2026-11-20",
-"h": "524630abe067"
+"h": "a2b484769d1c"
 },
 "aspirateur-robot/petit-prix/": {
-"d": "2026-11-18",
-"h": "6cb9e9793b1d"
+"d": "2026-11-20",
+"h": "cf6be52e01a9"
 },
 "aspirateur-robot/roborock-h60-hub/": {
 "d": "2026-11-20",
-"h": "257f6fc6a405"
+"h": "cdbe445310d8"
 },
 "aspirateur-robot/roborock-qrevo-curv-2/": {
 "d": "2026-11-20",
-"h": "4e4da472795b"
+"h": "16040950e5ab"
 },
 "aspirateur-robot/roborock-qrevo-maxv/": {
-"d": "2026-11-13",
-"h": "cb7e223c6eb1"
+"d": "2026-11-20",
+"h": "e48561390e8a"
 },
 "aspirateur-robot/roborock-qrevo-s-pro/": {
-"d": "2026-11-18",
-"h": "b1fbdf6c29af"
+"d": "2026-11-20",
+"h": "22f7fa6b6eab"
 },
 "aspirateur-robot/roborock-saros-10r/": {
-"d": "2026-11-13",
-"h": "03587a0a4d39"
+"d": "2026-11-20",
+"h": "bec61db5954e"
 },
 "aspirateur-robot/roborock-saros-20/": {
 "d": "2026-11-20",
-"h": "eaa8f06d504e"
+"h": "74f797802bd8"
 },
 "aspirateur-robot/robots-aspirateurs-animaux/": {
-"d": "2026-11-09",
-"h": "d9cc54d9e46c"
+"d": "2026-11-20",
+"h": "eda841527a24"
 },
 "aspirateur-robot/robots-aspirateurs-laveurs/": {
 "d": "2026-11-20",
-"h": "5545a4ba3a20"
+"h": "60f7422cabd1"
 },
 "aspirateur-robot/samsung-bespoke-jet/": {
 "d": "2026-11-20",
-"h": "9fed35c378f6"
+"h": "ab0725480c2d"
 },
 "aspirateur-robot/samsung-jet-90/": {
 "d": "2026-11-20",
-"h": "7771a7ad9dd1"
+"h": "d1213f7a97fd"
 },
 "aspirateur-robot/tineco-floor-one-s7-pro/": {
-"d": "2026-11-18",
-"h": "9b573a58636f"
+"d": "2026-11-20",
+"h": "cffb9ee2ed87"
 },
 "aspirateur-robot/tineco-floor-one-s9-artist/": {
-"d": "2026-11-18",
-"h": "1551af76ea3a"
+"d": "2026-11-20",
+"h": "2235af5d5612"
 },
 "audio/": {
 "d": "2026-11-13",
@@ -377,7 +377,7 @@
 },
 "black-friday/": {
 "d": "2026-11-20",
-"h": "cd157463753e"
+"h": "51e426ca897b"
 },
 "ecran-pc/": {
 "d": "2026-11-13",
@@ -485,7 +485,7 @@
 },
 "etude-notes-presse/": {
 "d": "2026-11-20",
-"h": "fdecdc9f9276"
+"h": "bb464e85f8d8"
 },
 "imprimante/": {
 "d": "2026-11-20",
@@ -545,7 +545,7 @@
 },
 "methode": {
 "d": "2026-11-20",
-"h": "be415e49da75"
+"h": "b0a32b1d4b82"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-20",
@@ -1060,123 +1060,123 @@
 "h": "e64d6cdd0222"
 },
 "tv/": {
-"d": "2026-11-13",
-"h": "718f6a43474f"
+"d": "2026-11-20",
+"h": "8d36d9adbf4d"
 },
 "tv/50-55-pouces/": {
-"d": "2026-11-09",
-"h": "258b820e945b"
+"d": "2026-11-20",
+"h": "35438a03195f"
 },
 "tv/65-pouces-et-plus/": {
-"d": "2026-11-09",
-"h": "01f822726c8d"
+"d": "2026-11-20",
+"h": "34257d0e5e87"
 },
 "tv/barres-de-son/": {
-"d": "2026-11-09",
-"h": "1cdad6a88eb9"
+"d": "2026-11-20",
+"h": "017ace80f75f"
 },
 "tv/hisense-e7q-pro-55/": {
-"d": "2026-11-13",
-"h": "fe1ed0d73be9"
+"d": "2026-11-20",
+"h": "c3208a3c42da"
 },
 "tv/hisense-e7q-pro-65/": {
-"d": "2026-11-13",
-"h": "54aed6e8bb95"
+"d": "2026-11-20",
+"h": "9531b220525e"
 },
 "tv/hisense-hs2100/": {
-"d": "2026-11-13",
-"h": "5146bbb4e4e5"
+"d": "2026-11-20",
+"h": "60f0f710cc2a"
 },
 "tv/hisense-u7q-55/": {
-"d": "2026-11-13",
-"h": "b0ec0f259ae5"
+"d": "2026-11-20",
+"h": "cabf5527eca9"
 },
 "tv/hisense-u7q-pro-65/": {
 "d": "2026-11-20",
-"h": "6ab156ae27fa"
+"h": "b54cad8a3747"
 },
 "tv/lg-oled-c5-48/": {
-"d": "2026-11-13",
-"h": "fb1cf37c8aa3"
+"d": "2026-11-20",
+"h": "c5abbf2e2975"
 },
 "tv/lg-oled-g5-55/": {
-"d": "2026-11-13",
-"h": "0af9bf40c515"
+"d": "2026-11-20",
+"h": "0afa211058f7"
 },
 "tv/lg-qned85-55/": {
-"d": "2026-11-13",
-"h": "3e0b1ab76bd8"
+"d": "2026-11-20",
+"h": "af23573c5439"
 },
 "tv/lg-qned85-65/": {
-"d": "2026-11-13",
-"h": "8c18358b58ca"
+"d": "2026-11-20",
+"h": "71d32a1a3f61"
 },
 "tv/petit-prix/": {
-"d": "2026-11-09",
-"h": "528d1e1c494c"
+"d": "2026-11-20",
+"h": "9690fe52758f"
 },
 "tv/petits-formats/": {
-"d": "2026-11-09",
-"h": "d88f3132b930"
+"d": "2026-11-20",
+"h": "33044a119c5d"
 },
 "tv/samsung-crystal-uhd-u8000f-55/": {
-"d": "2026-11-13",
-"h": "113093ca419d"
+"d": "2026-11-20",
+"h": "76520016087a"
 },
 "tv/samsung-hw-qs700f/": {
-"d": "2026-11-13",
-"h": "b2eec20a2d2f"
+"d": "2026-11-20",
+"h": "43122adb5060"
 },
 "tv/samsung-neo-qled-qn80f-50/": {
-"d": "2026-11-13",
-"h": "eff0f24fc53f"
+"d": "2026-11-20",
+"h": "5d3c8bdeb6fb"
 },
 "tv/samsung-neo-qled-qn80f-55/": {
-"d": "2026-11-13",
-"h": "ffb4bcb8d039"
+"d": "2026-11-20",
+"h": "6d9543a8e69e"
 },
 "tv/samsung-neo-qled-qn80f-65/": {
-"d": "2026-11-13",
-"h": "37bc507c09bb"
+"d": "2026-11-20",
+"h": "b4586d94f044"
 },
 "tv/samsung-neo-qled-qn90f-50/": {
-"d": "2026-11-13",
-"h": "c8b1bc825c64"
+"d": "2026-11-20",
+"h": "7eb8a69d374d"
 },
 "tv/samsung-oled-s90f-42/": {
-"d": "2026-11-13",
-"h": "2699355ad484"
+"d": "2026-11-20",
+"h": "15c238bfdf8e"
 },
 "tv/samsung-oled-s90f-65/": {
-"d": "2026-11-13",
-"h": "3a85ac834144"
+"d": "2026-11-20",
+"h": "9aab1e902fc6"
 },
 "tv/sonos-beam-ultra/": {
-"d": "2026-11-13",
-"h": "f6d6a3022520"
+"d": "2026-11-20",
+"h": "3abfe58ec6de"
 },
 "tv/sony-bravia-3-43/": {
-"d": "2026-11-13",
-"h": "5c57423bd4bc"
+"d": "2026-11-20",
+"h": "52047f30ffa1"
 },
 "tv/sony-bravia-3-55/": {
-"d": "2026-11-13",
-"h": "a06b5e36d40a"
+"d": "2026-11-20",
+"h": "9e7c3d083ca1"
 },
 "tv/sony-bravia-3-65/": {
-"d": "2026-11-13",
-"h": "5a108b55444b"
+"d": "2026-11-20",
+"h": "2e560389e913"
 },
 "tv/sony-bravia-theatre-bar-7/": {
-"d": "2026-11-13",
-"h": "3d7132db4b06"
+"d": "2026-11-20",
+"h": "c10a772d325d"
 },
 "tv/tcl-p7k-65/": {
-"d": "2026-11-13",
-"h": "18422196a14c"
+"d": "2026-11-20",
+"h": "4f7e5495f7b9"
 },
 "tv/tcl-q65h/": {
-"d": "2026-11-13",
-"h": "0fccc34e743c"
+"d": "2026-11-20",
+"h": "c0db6edc669a"
 }
 }
