@@ -91,6 +91,7 @@ def main():
     ap.add_argument("--max", type=int, default=0, help="nombre maximal de fiches (essai)")
     ap.add_argument("--ids", help="fiches précises, séparées par des virgules")
     ap.add_argument("--timeout", type=int, default=180)
+    ap.add_argument("--refaire", action="store_true", help="refait les fiches déjà traitées")
     a = ap.parse_args()
     exe = agy_exe()
     d = json.loads((SRC / "data.json").read_text(encoding="utf-8"))
@@ -106,7 +107,7 @@ def main():
     res = json.loads(sortie.read_text(encoding="utf-8")) if sortie.exists() else {}
     print(f"{len(cible)} fiche(s) à chercher ; résultats : {sortie}")
     for n, (k, p) in enumerate(cible, 1):
-        if k in res and res[k].get("statut") == "ok":
+        if k in res and res[k].get("statut") == "ok" and not a.refaire:
             print(f"[{n}/{len(cible)}] {k} : déjà fait"); continue
         connues = [x["url"] for x in p["press"]["notes"] if x.get("url")]
         prompt = CONSIGNE.format(nom=p.get("short", k), ref=p.get("ref", ""), connus=", ".join(connues) or "aucun")
@@ -117,7 +118,9 @@ def main():
         urls = adresses(texte, connues)
         statut = "ok" if code == 0 and texte else "echec"
         res[k] = dict(nom=p.get("short", k), ref=p.get("ref", ""), tests_avant=p["press"]["tests"], urls=urls,
-                      statut=statut, erreur=(err if statut != "ok" else ""),
+                      statut=statut, erreur=(err if statut != "ok" else ""), code=code,
+                      reponse_brute=(texte or "")[:2000],          # pour comprendre une réponse vide ou filtrée
+                      adresses_ecartees=[u for u in re.findall(r"https?://[^\s\"'\]\)<>,]+", texte or "") if u.rstrip(".;") not in urls],
                       date=datetime.datetime.now().isoformat(timespec="seconds"))
         sortie.write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"[{n}/{len(cible)}] {k:28s} {statut:5s} {len(urls)} adresse(s)" + (f"  ({err.strip()[:120]})" if statut != "ok" else ""))

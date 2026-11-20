@@ -7761,8 +7761,8 @@
    "id": "chromebook-cx14",
    "press": {
     "avg": 7.0,
-    "n": 3,
-    "tests": 3,
+    "n": 2,
+    "tests": 2,
     "scope": "gamme",
     "src": [
      "",
@@ -7776,15 +7776,6 @@
       "date": "2026-01-26",
       "ajout": "20/11/2026",
       "verifie": "20/11/2026"
-     },
-     {
-      "src": "PCWorld",
-      "score": 7.0,
-      "url": "https://www.pcworld.com/article/2848732/asus-chromebook-cx15-review.html",
-      "date": "2025-07-24",
-      "avant": 6.0,
-      "corrige": "10/10/2026",
-      "verifie": "23/10/2026"
      },
      {
       "src": "Wired",
