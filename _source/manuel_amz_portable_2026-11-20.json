@@ -1,0 +1,212 @@
+[
+{
+"id": "zenbook-a14",
+"j": 1,
+"price": 999.99
+},
+{
+"id": "mba13-m5",
+"j": 0,
+"price": 1199.0
+},
+{
+"id": "macbook-neo",
+"j": 1,
+"price": 799.0
+},
+{
+"id": "surface-laptop-13",
+"j": 0,
+"status": "marketplace",
+"note": "pas d offre mise en avant"
+},
+{
+"id": "zenbook-a16",
+"j": 1,
+"price": 2499.99
+},
+{
+"id": "ideapad-slim3x",
+"j": 0,
+"status": "marketplace",
+"note": "KDS 799"
+},
+{
+"id": "galaxy-book4-edge",
+"j": 1,
+"price": 962.1
+},
+{
+"id": "xps14",
+"j": 0,
+"price": 2699.0
+},
+{
+"id": "proart-p16",
+"j": 0,
+"price": 2799.99
+},
+{
+"id": "proart-px13",
+"j": 1,
+"status": "marketplace",
+"note": "Gpasplus 3442.73"
+},
+{
+"id": "yoga-pro9",
+"j": 1,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "zenbook-duo",
+"j": 1,
+"price": 1999.0
+},
+{
+"id": "aero-x16",
+"j": 0,
+"status": "marketplace",
+"note": "Lamaison20 1768.65"
+},
+{
+"id": "mba15-m5",
+"j": 0,
+"price": 1499.0
+},
+{
+"id": "zephyrus-g16",
+"j": 0,
+"status": "marketplace",
+"note": "pas d offre mise en avant"
+},
+{
+"id": "legion5",
+"j": 1,
+"status": "indispo",
+"note": "occasion seulement"
+},
+{
+"id": "omen-max-16",
+"j": 1,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "helios-neo-16",
+"j": 0,
+"price": 3044.92
+},
+{
+"id": "loq15",
+"j": 1,
+"price": 1329.0
+},
+{
+"id": "katana15",
+"j": 1,
+"price": 1499.0
+},
+{
+"id": "cyborg15",
+"j": 0,
+"price": 1199.0
+},
+{
+"id": "crosshair16",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "strix-g16",
+"j": 0,
+"status": "marketplace",
+"note": "XY Electronics 1549"
+},
+{
+"id": "gigabyte-a16",
+"j": 1,
+"status": "marketplace",
+"note": "pas d offre mise en avant"
+},
+{
+"id": "nitro-v16",
+"j": 0,
+"price": 1199.0
+},
+{
+"id": "yoga-slim7",
+"j": 1,
+"status": "indispo",
+"note": "occasion seulement"
+},
+{
+"id": "yoga-slim7x",
+"j": 0,
+"price": 1049.99,
+"confirme": true
+},
+{
+"id": "vivobook-s14",
+"j": 1,
+"price": 1199.0
+},
+{
+"id": "zenbook-s16",
+"j": 0,
+"status": "marketplace",
+"note": "Accessoires PC 1649"
+},
+{
+"id": "omnibook-x-flip14",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "yoga7-2in1",
+"j": 1,
+"status": "indispo",
+"note": "occasion seulement"
+},
+{
+"id": "ideapad-slim5-16",
+"j": 1,
+"status": "marketplace",
+"note": "KDS 1199"
+},
+{
+"id": "lg-gram17",
+"j": 1,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "ideapad-slim3",
+"j": 0,
+"price": 599.99,
+"confirme": true
+},
+{
+"id": "chromebook-315",
+"j": 0,
+"price": 209.0
+},
+{
+"id": "chromebook-plus-514",
+"j": 0,
+"price": 299.0
+},
+{
+"id": "chromebook-duet",
+"j": 1,
+"status": "marketplace",
+"note": "cw-mobile 378.49"
+},
+{
+"id": "chromebook-cx14",
+"j": 0,
+"price": 379.99
+}
+]

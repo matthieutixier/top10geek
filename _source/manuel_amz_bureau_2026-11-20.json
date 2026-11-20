@@ -1,0 +1,244 @@
+[
+{
+"id": "mac-mini-m6",
+"j": 0,
+"price": 939.0
+},
+{
+"id": "ideacentre-mini",
+"j": 0,
+"price": 746.9
+},
+{
+"id": "omnidesk-slim",
+"j": 1,
+"status": "marketplace",
+"note": "Lucky iT 599.99"
+},
+{
+"id": "dell-slim",
+"j": 1,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "ideacentre-tower",
+"j": 1,
+"status": "marketplace",
+"note": "Tec & More 800.56"
+},
+{
+"id": "asus-v500",
+"j": 0,
+"status": "marketplace",
+"note": "Gpasplus 682.55"
+},
+{
+"id": "aspire-xc",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "geekom-a5",
+"j": 1,
+"price": 455.05
+},
+{
+"id": "geekom-air12-lite",
+"j": 1,
+"price": 265.05
+},
+{
+"id": "geekom-it12",
+"j": 1,
+"price": 499.0
+},
+{
+"id": "mac-mini-m5pro",
+"j": 0,
+"price": 1899.0
+},
+{
+"id": "mac-studio-m5max",
+"j": 1,
+"price": 2699.0
+},
+{
+"id": "geekom-a9max",
+"j": 1,
+"price": 1471.55
+},
+{
+"id": "geekom-it15",
+"j": 1,
+"price": 1329.05
+},
+{
+"id": "geekom-gt1mega",
+"j": 1,
+"price": 766.22
+},
+{
+"id": "hp-z2-mini",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "thinkstation-p3",
+"j": 0,
+"status": "marketplace",
+"note": "Tec & More 1237.32"
+},
+{
+"id": "minisforum-ai-x1-pro",
+"j": 0,
+"price": 1349.0
+},
+{
+"id": "minisforum-ms-s1-max",
+"j": 0,
+"price": 2799.0
+},
+{
+"id": "gmktec-evo-x2",
+"j": 0,
+"price": 2329.96
+},
+{
+"id": "omen35l",
+"j": 1,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "omen16l",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "loq-tower",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "legion-tower-5",
+"j": 0,
+"status": "marketplace",
+"note": "Icoza 2017.30"
+},
+{
+"id": "nitro-60",
+"j": 0,
+"status": "marketplace",
+"note": "OZGE UNIFORM 1829.06"
+},
+{
+"id": "rog-g700",
+"j": 1,
+"status": "marketplace",
+"note": "ASALIA 2593.72"
+},
+{
+"id": "aorus-prime-5",
+"j": 1,
+"status": "marketplace",
+"note": "Gpasplus 3224.74"
+},
+{
+"id": "area-51",
+"j": 0,
+"price": 4749.0
+},
+{
+"id": "geekom-a5pro",
+"j": 0,
+"price": 511.76
+},
+{
+"id": "geekom-a7",
+"j": 0,
+"price": 515.0
+},
+{
+"id": "geekom-it13",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "beelink-ser9pro",
+"j": 0,
+"price": 699.0
+},
+{
+"id": "nipogi-am06pro",
+"j": 0,
+"price": 407.55
+},
+{
+"id": "acemagic-k1",
+"j": 0,
+"price": 429.9
+},
+{
+"id": "gmktec-k13",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "imac-m4",
+"j": 1,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "omnistudio-x32",
+"j": 1,
+"status": "marketplace",
+"note": "Tec & More 2530.78"
+},
+{
+"id": "omnistudio-x27",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "hp-omnistudio-27",
+"j": 1,
+"price": 699.0
+},
+{
+"id": "ideacentre-aio-27",
+"j": 1,
+"price": 906.54
+},
+{
+"id": "asus-v400",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+},
+{
+"id": "aspire-c27",
+"j": 1,
+"status": "marketplace",
+"note": "Icoza 1071.52"
+},
+{
+"id": "dell-24-aio",
+"j": 0,
+"price": 999.0
+},
+{
+"id": "msi-modern-am273",
+"j": 0,
+"status": "indispo",
+"note": "indispo"
+}
+]

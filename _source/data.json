@@ -1,5 +1,5 @@
 {
- "date": "27/10/2026",
+ "date": "20/11/2026",
  "items": {
   "zenbook-a14": {
    "cat": "bureau",
@@ -1667,12 +1667,11 @@
     },
     {
      "m": "Amazon",
-     "price": 749.0,
+     "price": 962.1,
      "url": "https://www.amazon.fr/dp/B0G1TMT383?tag=geekconcept-21",
      "name": "Samsung Galaxy Book4 Edge Ordinateur Portable avec IA 15.6’’, Copilot+ PC, Snapdragon X Plus (8-Core), Mémoire 16 Go, St",
      "cfg": "16 Go",
-     "asin": "B0G1TMT383",
-     "dispo": false
+     "asin": "B0G1TMT383"
     }
    ],
    "img": "galaxy-book4-edge.webp",
@@ -2177,7 +2176,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 2899.0,
+     "price": 2699.0,
      "url": "https://www.amazon.fr/dp/B0H6Z7WYQW?tag=geekconcept-21",
      "name": "Dell XPS 14 - Intel Core Ultra X7 358H, 32GB RAM, 512GB SSD",
      "cfg": "32 Go · 512 Go",
@@ -2187,7 +2186,7 @@
    "img": "xps14.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 2899.0,
+   "prix": 2699.0,
    "synthese": {
     "texte": "Le retour du XPS 14 en 2026, avec une puce Intel Panther Lake, est bien accueilli par Clubic, Notebookcheck et Tom's Hardware, qui ont testé la version Core Ultra X7 358H, Arc B390 et OLED 2,8K à 120 Hz. Le nouveau châssis, plus léger (environ 1,4 kg), et la partie graphique intégrée, proche d'une RTX 4050 selon Notebookcheck, sont les progrès les plus cités. Clubic mesure environ 17 heures en lecture vidéo et 12 heures en usage polyvalent, avec une machine qui chauffe peu et reste discrète.\n\nLes réserves portent d'abord sur le clavier : touches plates sans espacement pour Tom's Hardware, retour jugé trop plat par Notebookcheck, à essayer avant d'acheter selon Clubic. Le processeur est bridé en multicœur sur la durée, jusqu'à 25 % chez Notebookcheck. Tom's Hardware rappelle que l'OLED consomme davantage : 12 h 23 en navigation contre 20 h 41 pour la version LCD. Plus aucun lecteur de carte, uniquement de l'USB-C, pas d'obturateur de webcam et un écran légèrement plus petit qu'avant complètent la liste.\n\nLes trois médias le recommandent comme ultraportable Windows haut de gamme. Si l'autonomie compte plus que le contraste, Tom's Hardware oriente vers la dalle LCD ; si vous tapez beaucoup, testez d'abord le clavier.",
     "date": "2026-11-09",
@@ -2657,7 +2656,8 @@
      "url": "https://www.amazon.fr/dp/B0FK5QL8BG?tag=geekconcept-21",
      "name": "Lenovo Yoga Pro 9i Ordinateur portable 16\" Intel Ultra 9 285H 16 cœurs, NVIDIA GeForce RTX 5060, 32 Go de RAM, SSD NVMe ",
      "cfg": "32 Go · RTX 5060",
-     "asin": "B0FK5QL8BG"
+     "asin": "B0FK5QL8BG",
+     "dispo": false
     }
    ],
    "img": "yoga-pro9.webp",
@@ -3109,7 +3109,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1959.99,
+     "price": 1999.0,
      "url": "https://www.amazon.fr/dp/B09B328ZW5?tag=geekconcept-21",
      "name": "ASUS Zenbook Duo UX8406CA 14 Pouces FHD OLED (Intel Core Ultra 9 285H, 16Go LPDDR5X, 1To SSD, Intel Arc Graphics, Window",
      "cfg": "16 Go · 1 To",
@@ -3119,7 +3119,7 @@
    "img": "zenbook-duo.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1959.99,
+   "prix": 1999.0,
    "synthese": {
     "texte": "Deux dalles OLED de 14 pouces identiques, un clavier Bluetooth magnétique qui se retire et une béquille au dos : c'est ce dispositif que Notebookcheck, PCWorld et Frandroid saluent d'abord, car il permet de déplacer les fenêtres d'un écran à l'autre sans souci d'échelle et d'empiler les deux affichages comme un petit poste fixe. Le passage à Arrow Lake apporte environ 20 % de puissance processeur et graphique selon Notebookcheck, et PCWorld note que la machine ne fait jamais attendre, même avec des applications ouvertes sur les deux dalles.\n\nL'autonomie partage davantage. PCWorld la juge moyenne et constate une chute d'un peu plus d'un tiers quand les deux écrans sont allumés ; Frandroid relève 9 à 10 heures sur un écran, 6 à 7 heures avec les deux ; Notebookcheck parle au contraire d'un progrès, avec des dalles 1200p moins gourmandes que la version 2,8K. Frandroid trouve aussi le mode livre peu stable et a croisé quelques bugs logiciels, quand PCWorld reproche à l'outil ScreenXpert d'être mal expliqué.\n\nLes réserves communes portent sur le poids et l'épaisseur, plus élevés qu'un 14 pouces classique, la mémoire soudée, un SSD difficile d'accès et l'absence de lecteur de cartes. Ce portable s'adresse à ceux qui travaillent réellement sur deux écrans en déplacement ; pour un usage sur une seule dalle, un ultraportable plus léger rend les mêmes services.",
     "date": "2026-11-09",
@@ -3350,7 +3350,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1699.0,
+     "price": 1499.0,
      "url": "https://www.amazon.fr/dp/B0GR1P9K35?tag=geekconcept-21",
      "name": "Apple MacBook Air 15 Pouces Portable avec Puce M5 : Conçu pour l’IA, Écran Liquid Retina 15,3 Pouces, Mémoire unifiée 16",
      "cfg": "",
@@ -3367,7 +3367,7 @@
    "img": "mba15-m5.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1699.0,
+   "prix": 1499.0,
    "synthese": {
     "texte": "Même dalle, mesures différentes : Notebookcheck relève plus de 500 cd/m² sur l'écran IPS mat, sans scintillement, mais un étalonnage d'usine tirant légèrement vers le bleu, alors que Tom's Guide mesure environ 454 nits et des couleurs très fidèles. Les deux regrettent que l'affichage reste bloqué à 60 Hz.\n\nLa puce M5 fait l'unanimité pour le travail courant, dans un châssis sans ventilateur donc totalement silencieux. Le jeu sépare les avis : Notebookcheck n'a constaté aucune baisse de fréquence et juge Cyberpunk 2077 jouable en détails réduits, quand Tom's Guide n'y obtient que 27 images par seconde en réglages moyens. Sur la génération M4, RTINGS signalait déjà un bridage thermique sous charge prolongée. L'autonomie mesurée dépasse 15 h 30 de navigation chez Tom's Guide et atteint 17,2 h au test Wi-Fi de Notebookcheck ; les haut-parleurs sont salués par Notebookcheck comme par RTINGS.\n\nRestent la mémoire et le SSD soudés, deux seuls ports USB-C (plus MagSafe et une prise casque) et, selon Tom's Guide, des progrès modestes face au modèle M4. Si vous cherchez un grand écran silencieux pour la bureautique, les études ou de la retouche photo, ce MacBook Air répond présent ; pour du rendu soutenu ou du jeu exigeant, un portable ventilé sera plus adapté, et un propriétaire de M4 peut s'abstenir.",
     "date": "2026-11-10",
@@ -3666,7 +3666,8 @@
      "url": "https://www.amazon.fr/dp/B0GX6RXX2L?tag=geekconcept-21",
      "name": "Lenovo Legion 5a 15AHP11 - Ordinateur Portable Gaming 15.3'' OLED 165Hz (AMD Ryzen 7 250, RAM 16Go, SSD 512Go, NVIDIA RT",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0GX6RXX2L"
+     "asin": "B0GX6RXX2L",
+     "dispo": false
     }
    ],
    "img": "legion5.webp",
@@ -3990,7 +3991,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 2799.0,
+     "price": 3044.92,
      "url": "https://www.amazon.fr/dp/B0GDH6WQT9?tag=geekconcept-21",
      "name": "Acer Predator Helios Neo 16 AI| PC Portable Gaming | Ultra 9 | RTX 5070 Ti",
      "cfg": "RTX 5070 Ti",
@@ -4000,7 +4001,7 @@
    "img": "helios-neo-16.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 2799.0,
+   "prix": 3044.92,
    "synthese": {
     "texte": "Les tests lus portent sur la déclinaison fine 16S AI, avec Core Ultra 9 275HX, RTX 5070 Ti et dalle OLED 16 pouces 2560 x 1600 à 240 Hz. Cet écran fait l'unanimité pour ses couleurs et son contraste, avec la même réserve partout : il est très brillant et capte les reflets. Clubic note que la RTX 5070 Ti tient la QHD+ sans broncher, et Notebookcheck apprécie les deux emplacements de RAM et de SSD ainsi que la connectique fournie, Thunderbolt 4 compris.\n\nLes avis s'écartent ensuite. MKAU Gaming y voit une machine performante et bien refroidie, alors que Clubic relève une forte chauffe, une charnière fragile, l'absence de Wi-Fi 7 et des logiciels préinstallés en pagaille, jugeant l'ensemble trop cher face au Razer Blade 16. PCWorld constate que la RTX 5070 Ti, limitée en puissance, devance à peine une RTX 5070. L'autonomie divise aussi : six heures en vidéo chez PCWorld, cinq heures en navigation chez Notebookcheck, à peine trois en usage mixte chez Clubic. Haut-parleurs décevants pour PCWorld et Clubic.\n\nPour jouer en QHD sur un écran OLED, l'appareil tient ses promesses ; si le silence, la mobilité ou la fraîcheur du châssis comptent pour vous, les réserves de Clubic et Notebookcheck sont à peser.",
     "date": "2026-11-09",
@@ -4162,7 +4163,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1599.99,
+     "price": 1329.0,
      "url": "https://www.amazon.fr/dp/B0GX6RN4V2?tag=geekconcept-21",
      "name": "Lenovo LOQ 15IRX10 | Gaming Laptop | i7 | RTX 5060",
      "cfg": "RTX 5060",
@@ -4172,7 +4173,7 @@
    "img": "loq15.webp",
    "rating": 4.5,
    "nrev": 2,
-   "prix": 1349.99,
+   "prix": 1329.0,
    "synthese": {
     "texte": "Le LOQ 15 se décline en Ryzen 7 250 (testé par Notebookcheck, Tom's Hardware et PC Gamer) et en Core i7-14700HX (testé par Presse-citron), toujours avec une RTX 5060. En 1080p, les quatre médias obtiennent des jeux fluides : Tom's Hardware dépasse 100 images par seconde dans Shadow of the Tomb Raider, PC Gamer passe la plupart des titres au-delà de 60, Presse-citron profite largement du DLSS 4. La chauffe reste contenue (moins de 70 °C la plupart du temps chez PC Gamer), et Notebookcheck apprécie les deux emplacements de mémoire et de SSD ainsi que l'écran qui s'ouvre à 180°.\n\nLes défauts relevés sont nombreux. Les versions AMD testées n'ont qu'une barrette de 16 Go, donc un seul canal mémoire, et un SSD de 512 Go jugé trop juste par PC Gamer et Tom's Hardware. L'autonomie est courte : 89 minutes chez PC Gamer, un peu moins de 7 heures en usage léger chez Tom's Hardware. Notebookcheck mesure 51 dB(A) en mode performance, Presse-citron 55 dB. Presse-citron trouve aussi l'écran IPS terne et réfléchissant, le clavier mou et le pavé tactile décentré.\n\nPour Notebookcheck comme pour Tom's Hardware, la RTX 5060 n'apporte parfois qu'un faible gain sur l'ancienne RTX 4060. C'est un PC de jeu 1080p pour budget serré ; prévoyez d'ajouter une barrette de mémoire.",
     "date": "2026-11-09",
@@ -4272,7 +4273,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1699.0,
+     "price": 1499.0,
      "url": "https://www.amazon.fr/dp/B0F2GP7S8Y?tag=geekconcept-21",
      "name": "MSI Katana 15 HX B14WGK-018FR : Intel Core i7-14650HX - 16GB DDR5 (2x8gb) - SSD 1TB NVMe PCIe - Nvidia RTX 5070 8GB GDDR",
      "cfg": "16 Go · 1 To · RTX 5070",
@@ -4370,7 +4371,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1149.99,
+     "price": 1199.0,
      "url": "https://www.amazon.fr/dp/B0972BWN25?tag=geekconcept-21",
      "name": "MSI Cyborg 15 B2RWFKG-015FR : Intel Core 7 240H - 16GB DDR5 - SSD 512GB - Nvidia RTX5060 8GB - 15.6' Full HD 144Hz - Win",
      "cfg": "16 Go · 512 Go · RTX 5060",
@@ -4387,7 +4388,7 @@
    "img": "cyborg15.webp",
    "rating": 4.8,
    "nrev": 4,
-   "prix": 1149.99,
+   "prix": 1199.0,
    "synthese": {
     "texte": "Aucun des tests lus ne porte sur la version RTX 5060 de cette fiche : Notebookcheck et Chip.de ont eu la déclinaison RTX 5050 limitée à 45 W, SlashGear une version RTX 5070, toutes avec le Core 7 240H. Ce qu'ils disent du châssis et de l'écran vaut pour l'ensemble du modèle ; leurs mesures en jeu ne se transposent pas telles quelles.\n\nLe look divise moins que l'écran. La façade en partie transparente est remarquée, la charnière s'ouvre à 180 degrés, l'ensemble pèse environ 2,2 kg et Chip.de range le clavier RGB à quatre zones parmi ses points forts, même si Notebookcheck trouve la disposition des touches propre à MSI déroutante au début. Le bruit reste contenu : 45 dB(A) dans Cyberpunk 2077 chez Notebookcheck, niveau jugé acceptable par Chip.de, et SlashGear décrit une machine fraîche et silencieuse. Sur la dalle 144 Hz, en revanche, les avis s'opposent : SlashGear vante ses couleurs, alors que Notebookcheck mesure 65 % du sRGB et Chip.de 70 %, avec une luminosité autour de 265 à 270 cd/m², d'où une image pâle et peu adaptée aux pièces claires.\n\nAvec la RTX 5050 bridée, les jeux récents tournent en 1080p en détails moyens à élevés, DLSS aidant ; Chip.de relève 54 images par seconde dans Cyberpunk 2077 sans ray tracing. L'autonomie reste courte, de 3 h 15 en bureautique à 6 h 22 en vidéo selon Chip.de. Un portable pour jouer en Full HD, si vous acceptez un écran moyen.",
     "date": "2026-11-10",
@@ -4470,7 +4471,8 @@
      "url": "https://www.amazon.fr/dp/B0F9X8733S?tag=geekconcept-21",
      "name": "MSI Crosshair 16 HX AI D2XWGKG-012FR : Intel Core Ultra 9 275HX - 16 GB DDR5 - SSD 1TB - Nvidia RTX 5070 8GB - 16' QHD+ ",
      "cfg": "16 Go · 1 To · RTX 5070",
-     "asin": "B0F9X8733S"
+     "asin": "B0F9X8733S",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -4830,7 +4832,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1349.0,
+     "price": 1199.0,
      "url": "https://www.amazon.fr/dp/B0GDGJ9LZ6?tag=geekconcept-21",
      "name": "Acer Nitro V 16 | PC Portable Gaming 16\" WUXGA 165Hz | AMD Ryzen 7 260 | NVIDIA GeForce RTX 5060 | 16 Go RAM | 1 to SSD ",
      "cfg": "16 Go · 1 To · RTX 5060",
@@ -4847,7 +4849,7 @@
    "img": "nitro-v16.webp",
    "rating": 4.3,
    "nrev": 42,
-   "prix": 1349.0
+   "prix": 1199.0
   },
   "yoga-slim7": {
    "cat": "polyvalent",
@@ -5245,7 +5247,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1499.99,
+     "price": 1049.99,
      "url": "https://www.amazon.fr/dp/B0CZTBPL9L?tag=geekconcept-21",
      "name": "Lenovo Yoga Slim 7 14Q8X9 - Ordinateur Portable Copilot + 14'' 3K OLED 90Hz (Qualcomm - SD Elite X, RAM 16Go, SSD 1To, W",
      "cfg": "16 Go · 1 To",
@@ -5262,7 +5264,7 @@
    "img": "yoga-slim7x.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1469.99,
+   "prix": 1049.99,
    "synthese": {
     "texte": "Deux qualités ressortent de tous les tests de cette génération à Snapdragon X Elite : l'écran OLED 3K de 14,5 pouces à 90 Hz, lumineux et fidèle, et une autonomie très longue. Notebookcheck a mesuré près de 15 heures en navigation Wi-Fi et plus de 17 heures en lecture vidéo, PCWorld un peu moins de 16 heures en vidéo, 01net environ 13 heures. Le châssis en aluminium et le clavier sont aussi bien notés.\n\nLa contrepartie tient à Windows sur ARM. Les applications natives tournent bien, mais Notebookcheck observe des performances instables avec les logiciels émulés, et PCWorld cite des outils qui refusent de fonctionner (synchronisation Google Drive, vieux pilotes d'imprimante) ainsi que de nombreux jeux. La partie graphique reste modeste selon 01net, et les ventilateurs s'entendent nettement en charge. Côté connectique, seulement trois ports USB-C : ni prise casque, ni USB-A, ni lecteur de cartes. Notebookcheck signale encore un scintillement PWM et une consommation en veille trop élevée.\n\n01net le résume comme un ultraportable équilibré pour nomades et étudiants. Il vise donc ceux qui travaillent surtout dans le navigateur et la bureautique, après avoir vérifié que leurs logiciels et périphériques fonctionnent sous ARM.",
     "date": "2026-11-09",
@@ -5395,7 +5397,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1175.02,
+     "price": 1199.0,
      "url": "https://www.amazon.fr/dp/B0DD4D97MT?tag=geekconcept-21",
      "name": "ASUS Vivobook S14 AI-S5406-29W 14 Pouces WUXGA OLED PC Portable (Processeur Intel LNL Core Ultra 5, 16GB LPDDR5X, 1TB SS",
      "cfg": "16 Go · 1 To",
@@ -6169,7 +6171,8 @@
      "url": "https://www.amazon.fr/dp/B0HHJG2844?tag=geekconcept-21",
      "name": "HP OmniBook X Flip 14 PC Portable Tactile OLED, Intel Core Ultra 7, RAM 16 Go, SSD 512 Go, Convertible 360°, WUXGA 16:10",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0HHJG2844"
+     "asin": "B0HHJG2844",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -6182,7 +6185,7 @@
    "img": "omnibook-x-flip14.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1299.0,
+   "prix": 1299.99,
    "synthese": {
     "texte": "Le convertible 14 pouces de HP existe en version Intel Core Ultra, testée par Frandroid, et en version AMD Ryzen AI, testée par PCWorld et Wired. Les trois décrivent un châssis métallique solide, une charnière ferme, un stylet fourni et une dalle OLED 2,8K à 120 Hz : PCWorld y mesure des couleurs très justes et la totalité du DCI-P3, Frandroid une bonne calibration en SDR. Cet écran brillant reste toutefois difficile à lire en plein soleil.\n\nLes écarts tiennent surtout à la puce. Avec l'Intel, Frandroid compte 11 à 12 heures en bureautique et un PC discret. Avec le Ryzen AI 7 350, PCWorld reste sous 11 heures en lecture vidéo et Wired n'atteint pas 8 heures, en signalant un ventilateur souvent audible ; ces deux médias jugent aussi la partie graphique AMD faible, alors que l'Intel Arc de Frandroid suffit pour de la retouche légère. Le clavier aux touches presque jointives divise : confortable pour Frandroid, déroutant pour la frappe à l'aveugle selon PCWorld et Wired. Frandroid et PCWorld trouvent les haut-parleurs pauvres en basses.\n\nCe 2-en-1 vise ceux qui alternent ordinateur et tablette, stylet en main. Si vous travaillez souvent sans chargeur, les mesures plaident pour la version Intel.",
     "date": "2026-11-09",
@@ -6329,7 +6332,8 @@
      "url": "https://www.amazon.fr/dp/B0F5Z5JTTD?tag=geekconcept-21",
      "name": "Lenovo Yoga 7 Ordinateur portable 2-en-1 | Copilot + PC | 14\" WUXGA OLED | AMD Ryzen AI 7 350 | 16 Go de RAM | 512 Go SS",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0F5Z5JTTD"
+     "asin": "B0F5Z5JTTD",
+     "dispo": false
     }
    ],
    "img": "yoga7-2in1.webp",
@@ -7010,7 +7014,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 449.99,
+     "price": 599.99,
      "url": "https://www.amazon.fr/dp/B0GX1WCY17?tag=geekconcept-21",
      "name": "Lenovo IdeaPad Slim 3 | Laptop | Athlon | 8Go | 128 Go | sans Chargeur",
      "cfg": "8 Go · 128 Go",
@@ -7037,7 +7041,7 @@
    "img": "ideapad-slim3.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 449.99,
+   "prix": 519.99,
    "synthese": {
     "texte": "Sous ce nom, Lenovo vend des machines très différentes, et les trois tests retenus ici portent sur des versions AMD distinctes : un Ryzen 7 8840HS en 14 pouces chez Notebookcheck, un Ryzen 5 150 en 15,3 pouces chez Chip.de, un Ryzen 5 7520U chez Labo Fnac. Le constat de base converge : bureautique, navigation et multitâche léger se déroulent sans accroc, mais Labo Fnac note des performances vite limitées dès qu'on sort de ce cadre.\n\nL'écran est le point faible récurrent. Notebookcheck et Chip.de décrivent une dalle IPS aux couleurs pâles et peu lumineuse ; Labo Fnac mesure des couleurs fidèles mais un contraste médiocre. Le son est jugé maigre par Notebookcheck comme par Chip.de, et le clavier n'est pas rétroéclairé sur les exemplaires de Chip.de et de Labo Fnac. Le bruit divise : ventilateur souvent audible selon Notebookcheck, discret même en charge selon Chip.de.\n\nEn autonomie, les chiffres vont d'environ 5 h en usage bureautique (Chip.de) à 16 h 30 au protocole de Labo Fnac. Notebookcheck apprécie la mémoire extensible par un emplacement SO-DIMM et un second logement SSD libre, Chip.de rappelle que 8 Go restent soudés. Vérifiez la référence exacte avant d'acheter : ce portable convient aux études et à la bureautique familiale, pas au jeu, hormis des titres anciens sur la version Ryzen 7 mesurée par Notebookcheck.",
     "date": "2026-11-09",
@@ -7206,7 +7210,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 229.0,
+     "price": 209.0,
      "url": "https://www.amazon.fr/dp/B0G6LDR5WC?tag=geekconcept-21",
      "name": "Acer Chromebook 315 | 15.6\" | Kompanio 540 | 4GB | 64GB | ChromeOS",
      "cfg": "4 Go · 64 Go",
@@ -7233,7 +7237,7 @@
    "img": "chromebook-315.webp",
    "rating": 4.0,
    "nrev": 1,
-   "prix": 229.0
+   "prix": 209.0
   },
   "chromebook-plus-514": {
    "cat": "lowcost",
@@ -7359,7 +7363,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 359.0,
+     "price": 299.0,
      "url": "https://www.amazon.fr/dp/B0BBKYTKXR?tag=geekconcept-21",
      "name": "Acer Chromebook Plus 514 I 14\" WUXGA | Core 3 | 8Go | 128Go | ChromeOS",
      "cfg": "8 Go · 128 Go",
@@ -7376,7 +7380,7 @@
    "img": "chromebook-plus-514.webp",
    "rating": 4.8,
    "nrev": 4,
-   "prix": 359.0,
+   "prix": 299.0,
    "synthese": {
     "texte": "Trois générations portent ce nom, et les tests lus ne décrivent pas la même machine : Frandroid a eu la version Ryzen 3 de 2023, Wired la variante Intel Core i3-N305 de 2024, IT Pro la mouture 2025 en Core 3 100U, celle de cette fiche. À l'usage, le constat reste stable : ChromeOS tourne sans à-coups avec une douzaine d'onglets ou plusieurs applis Workspace ouvertes, le clavier offre une course confortable et le pavé tactile suit bien les gestes. Le châssis en plastique, certifié MIL-STD-810H selon IT Pro et Frandroid, paraît solide, mais tous trouvent le design terne.\n\nL'écran fait débat. Frandroid a mesuré 254 cd/m² sur le modèle 2023 et le juge difficile à lire en plein jour ; IT Pro relève 321 cd/m² sur la version 2025, nettement mieux, mais moins de 58 % du sRGB, donc des couleurs peu fidèles. Wired le trouve net mais fade et regrette l'absence de rétroéclairage du clavier. L'autonomie progresse : 10 à 11 heures de bureautique chez Frandroid, près de 12 heures de vidéo chez IT Pro, qui signale aussi que la configuration de base n'a que 128 Go en UFS 3.1, plus lent qu'un SSD NVMe.\n\nPour les cours, la bureautique et la visio, cet ordinateur fait le travail. Si vous retouchez des photos sérieusement ou comptez sur des applis Android et Linux gourmandes, IT Pro conseille de viser plus de puissance et de mémoire.",
     "date": "2026-11-10",
@@ -7785,7 +7789,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 319.99,
+     "price": 379.99,
      "url": "https://www.amazon.fr/dp/B0DSGHKS6G?tag=geekconcept-21",
      "name": "ASUS Chromebook Plus CX1405CTA-S60060 14 Pouces FHD 60Hz Pc Portable (Intel Core 3-N355 Processeur 3.9 GHz, 8GB LPDDR5, ",
      "cfg": "8 Go",
@@ -7802,7 +7806,7 @@
    "img": "chromebook-cx14.webp",
    "rating": 4.0,
    "nrev": 1,
-   "prix": 319.99
+   "prix": 379.99
   },
   "mac-mini-m6": {
    "cat": "d-bureau",
@@ -7917,7 +7921,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 948.0,
+     "price": 939.0,
      "url": "https://www.amazon.fr/dp/B0HGGL1RJ1?tag=geekconcept-21",
      "name": "Apple Mac Mini avec Puce Apple M6 - Argent",
      "cfg": "",
@@ -7934,7 +7938,7 @@
    "img": "mac-mini-m6.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 948.0,
+   "prix": 939.0,
    "synthese": {
     "texte": "Notebookcheck, Clubic et Engadget ont tous reçu la même configuration, M6 avec 24 Go de mémoire, et dressent le même constat : la puce place ce boîtier de 12,7 cm de côté parmi les ordinateurs de bureau les plus rapides en monocœur. Notebookcheck mesure environ 40 à 50 % de gain en multicœur face au Mac mini M4, Engadget fait tourner Cyberpunk 2077 autour de 55 images par seconde en 1080p et transcode une vidéo 4K en 18 secondes. Clubic relève 2 à 3 W au repos et une quarantaine de watts en charge processeur, sans chauffe ni bruit notables.\n\nLes critiques convergent aussi, mais sur d'autres terrains. Le bouton d'alimentation reste caché sous l'appareil, le Wi-Fi 7 est limité à des canaux de 160 MHz, et rien n'est évolutif : Clubic souligne que le SSD est désormais soudé, Notebookcheck regrette l'absence de toute possibilité de maintenance et une garantie de douze mois. Engadget et Clubic pointent surtout le coût des options de mémoire et la hausse de tarif face à la génération M4.\n\nNotebookcheck oriente vers le M5 Pro ceux qui ont besoin de plus de 32 Go ou de davantage de puissance graphique. Pour tous les autres, c'est un Mac de bureau compact et silencieux ; choisissez dès l'achat la mémoire et le stockage dont vous aurez besoin, puisqu'ils ne bougeront plus.",
     "date": "2026-11-09",
@@ -8003,7 +8007,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 899.99,
+     "price": 746.9,
      "url": "https://www.amazon.fr/dp/B0FJFYYW7X?tag=geekconcept-21",
      "name": "Lenovo IdeaCentre Mini 01IRH8 Ordinateur de Bureau (Intel Core i5-13420H, RAM 16Go, SSD 512Go, Graphique Intel UHD Intég",
      "cfg": "16 Go · 512 Go",
@@ -8020,7 +8024,7 @@
    "img": "ideacentre-mini.webp",
    "rating": 5.0,
    "nrev": 1,
-   "prix": 849.99
+   "prix": 746.9
   },
   "omnidesk-slim": {
    "cat": "d-bureau",
@@ -8462,7 +8466,7 @@
     },
     {
      "m": "Amazon",
-     "price": 499.0,
+     "price": 455.05,
      "url": "https://www.amazon.fr/dp/B0FJRSLGC7?tag=geekconcept-21",
      "name": "GEEKOM A5 Business Mini PC Edition 2026 AMD Ryzen 5 7430U, 16 Go RAM DDR4",
      "cfg": "16 Go",
@@ -8472,7 +8476,7 @@
    "img": "geekom-a5.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 499.0,
+   "prix": 455.05,
    "synthese": {
     "texte": "Silence et sobriété : c'est ce que retiennent les trois tests de l'édition 2027. Notebookcheck la trouve nettement plus discrète et plus économe que l'ancien modèle à Ryzen 7 5800H, IT-Connect la juge silencieuse au quotidien et discrète en pleine charge, avec un processeur vers 45 °C en usage léger, et TechRadar note que Geekom la présente désormais comme une machine de bureau allumée en continu plutôt que comme un PC de performance.\n\nCe gain se paie en puissance. Le Ryzen 7 7730U, puce de 15 W en architecture Zen 3, reste un peu derrière le 5800H selon Notebookcheck et TechRadar ; IT-Connect rappelle que la plateforme ne change pas (DDR4, PCIe 3.0, ni USB4 ni Thunderbolt) et mesure environ 30 images par seconde dans GTA V en 1080p avec les réglages au minimum. Le SSD PCIe 4.0 fourni fonctionne en PCIe 3.0 et le BIOS n'offre presque aucun réglage (IT-Connect). L'évolutivité est saluée partout : quatre vis, deux emplacements de mémoire et trois emplacements de stockage.\n\nPour la bureautique, le multitâche, un poste familial ou un petit serveur domestique, il fait l'affaire. Ceux qui veulent jouer à des titres récents ou brancher une carte graphique externe devront regarder ailleurs.",
     "date": "2026-11-13",
@@ -8562,7 +8566,7 @@
     },
     {
      "m": "Amazon",
-     "price": 279.0,
+     "price": 265.05,
      "url": "https://www.amazon.fr/dp/B0DHZ1MRFG?tag=geekconcept-21",
      "name": "GEEKOM Air12 Lite Business Mini PC Intel N95, UHD Graphics,8 Go RAM DDR4",
      "cfg": "8 Go",
@@ -8572,7 +8576,7 @@
    "img": "geekom-air12-lite.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 279.0,
+   "prix": 265.05,
    "synthese": {
     "texte": "Clubic, AndroidPC.es et SmartWorld (AndroidWorld) ont testé le même Air12 Lite à Intel N100, 8 Go de mémoire et 256 Go de stockage, et tous le cantonnent aux tâches légères : navigation, bureautique, courrier, multimédia. Le décodage vidéo jusqu'à la 4K est salué par AndroidPC.es et SmartWorld ; ce dernier lui voit aussi un rôle de serveur domestique ou de centre multimédia, mais signale qu'un tableur de plus de 50 000 cellules le met en difficulté.\n\nLe jeu se limite aux petits titres : Clubic mesure 15 i/s sur Shadow of the Tomb Raider. Le stockage est le point faible le plus concret : environ 460 Mo/s en lecture séquentielle, mais moins de 20 Mo/s en lecture aléatoire chez Clubic. Les trois regrettent l'absence d'USB-C.\n\nEn contrepartie, le boîtier compact (environ 570 g) se fixe derrière un écran, la ventilation reste très discrète et la consommation basse : 8 W au repos et 20 W au maximum selon AndroidPC.es, moins de 29 W en pointe pour Clubic. Il vise un acheteur au budget limité qui veut une machine silencieuse et sobre, pas un poste pour la photo, la vidéo ou les jeux récents.",
     "date": "2026-11-11",
@@ -8933,7 +8937,7 @@
     },
     {
      "m": "Amazon",
-     "price": 2999.0,
+     "price": 2699.0,
      "url": "https://www.amazon.fr/dp/B0HGS3C159?tag=geekconcept-21",
      "name": "Apple Mac Studio avec Puce M5 Max - Argent",
      "cfg": "",
@@ -8943,7 +8947,7 @@
    "img": "mac-studio-m5max.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 2999.0,
+   "prix": 2699.0,
    "synthese": {
     "texte": "Les trois tests ont reçu la même configuration haut de gamme, M5 Max à 40 cœurs graphiques avec 128 Go de mémoire et 4 To de stockage, et la placent en tête de leurs mesures. GeekCulture chronomètre une conversion HandBrake de dix minutes de vidéo 4K en 3 min 36 s, contre 6 min 29 s pour le Mac Studio M4 Max, et un export Premiere Pro 4K en 4 min 27 s. Creative Bloq le voit prendre la première place de ses tests Geekbench, et Les Numériques le classe premier de son comparatif de PC de bureau, tout en notant que le Mac mini M6 le suit de près en indice processeur.\n\nLe silence fait l'unanimité : Les Numériques relève 32,7 dB en charge courante et n'entend les ventilateurs accélérer qu'une vingtaine de secondes sous Prime95, à 144 W et 85 °C. Le boîtier en aluminium et la connectique n'ont pas bougé depuis la génération précédente, hormis le passage au Wi-Fi 7 et au Bluetooth 6 ; Creative Bloq apprécie le bouton d'alimentation accessible sans retourner la machine et la présence de ports USB-A.\n\nLes trois rédactions le destinent aux créateurs vidéo et photo et à l'IA locale. Les Numériques rappelle que ses atouts se jouent dans les tâches multicœurs et que les nouveautés face au M4 Max sont minces.",
     "date": "2026-11-13",
@@ -9189,7 +9193,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1699.0,
+     "price": 1471.55,
      "url": "https://www.amazon.fr/dp/B0FJ1D9BX2?tag=geekconcept-21",
      "name": "GEEKOM A9 Max Mini PC, AMD Ryzen AI 9 HX 470, 32 Go DDR5 RAM, 2To SSD",
      "cfg": "32 Go · 2 To",
@@ -9199,7 +9203,7 @@
    "img": "geekom-a9max.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1699.0,
+   "prix": 1471.55,
    "synthese": {
     "texte": "Boîtier en aluminium d'à peine un litre, connectique très fournie (deux USB4, deux HDMI 2.1, deux ports Ethernet 2,5 GbE, lecteur SD UHS-II), mémoire extensible jusqu'à 128 Go et emplacement M.2 libre : KitGuru, Notebookcheck et PhotoTrend décrivent le même socle solide. Le Ryzen AI 9 HX et sa Radeon 890M suffisent pour la retouche photo, avec des jeux récents jouables en définition réduite. PhotoTrend le compare au Mac mini M4 Pro, plus rapide sur presque toutes ses mesures et trois fois plus rapide en export vidéo 4K.\n\nLe bruit divise. KitGuru trouve le mode normal discret et seul le mode performance très bruyant ; Notebookcheck le dit presque inaudible au repos mais proche de 50 dB(A) en charge ; PhotoTrend entend un souffle permanent, même sur un bureau Windows au repos. Tous regrettent l'absence d'USB-C en façade, et KitGuru comme PhotoTrend jugent le remontage pénible à cause des câbles d'antenne Wi-Fi collés sur la plaque interne.\n\nPoint de vigilance sur l'édition 2026 à Ryzen AI 9 HX 470 : KitGuru a reçu un exemplaire équipé d'une seule barrette de 32 Go, en simple canal, et mesure une nette baisse de performances face au modèle 2025, alors que l'exemplaire de PhotoTrend avait deux barrettes de 16 Go. Vérifiez la configuration mémoire avant d'acheter. Pour un photographe sous Windows qui veut beaucoup de ports et un NAS en réseau, la proposition reste cohérente.",
     "date": "2026-11-09",
@@ -9316,7 +9320,7 @@
     },
     {
      "m": "Amazon",
-     "price": 1399.0,
+     "price": 1329.05,
      "url": "https://www.amazon.fr/dp/B0F8VHJMGQ?tag=geekconcept-21",
      "name": "GEEKOM IT15 AI Mini PC, Intel Ultra 9 285H(99 Tops), 32Go DDR5 RAM 1 to SSD",
      "cfg": "32 Go · 1 To",
@@ -9326,7 +9330,7 @@
    "img": "geekom-it15.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1399.0,
+   "prix": 1329.05,
    "synthese": {
     "texte": "PCWorld, Presse-citron et IT Pro ont testé l'IT15 avec son Core Ultra 9 285H et 32 Go de mémoire. Ils décrivent un mini PC capable de tâches lourdes : Presse-citron exporte une séquence 4K de 10 minutes en un peu moins de 8 minutes et ouvre DaVinci Resolve, Photoshop et 50 onglets sans ralentir. La connectique est fournie (deux USB4, deux HDMI, Ethernet 2,5 Gb, Wi-Fi 7, lecteur SD) et l'évolutivité réelle, avec un second emplacement de stockage et la mémoire remplaçable.\n\nLe bruit divise. PCWorld trouve le ventilateur bruyant et brusque dans ses montées en régime, IT Pro observe un processeur à 90 °C et un net bridage sous charge prolongée, tandis que Presse-citron le dit presque silencieux au quotidien et audible seulement en montage vidéo. Côté écrans, PCWorld et IT Pro regrettent qu'il n'y ait pas de DisplayPort dédié, les sorties passant par l'USB-C. Presse-citron note l'absence d'USB-C en façade et un NPU trop faible pour les fonctions Copilot+, limite que relève aussi IT Pro.\n\nLa partie graphique intégrée ne vise que des jeux peu exigeants en 1080p. Pour la bureautique avancée, la retouche, le montage ou un serveur multimédia à la maison, il tient la charge, à condition d'accepter un souffle audible sous effort.",
     "date": "2026-11-09",
@@ -9468,7 +9472,7 @@
     },
     {
      "m": "Amazon",
-     "price": 849.0,
+     "price": 766.22,
      "url": "https://www.amazon.fr/dp/B0G2L3KGVJ?tag=geekconcept-21",
      "name": "GEEKOM GT1 Mega Business Mini PC AI, Intel Core Ultra 9-185H, 16Go DDR5",
      "cfg": "16 Go",
@@ -9478,7 +9482,7 @@
    "img": "geekom-gt1mega.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 849.0,
+   "prix": 766.22,
    "synthese": {
     "texte": "Notebookcheck, KitGuru et Club386 ont testé le même GT1 Mega : Core Ultra 9 185H, 32 Go de DDR5 et SSD de 2 To. Tous trois apprécient le boîtier métallique très bien fini et la connectique, avec deux USB4, deux ports Ethernet 2,5 Gb, un lecteur SD et du Wi-Fi 7. Les performances suffisent largement au quotidien et la partie graphique Arc fait tourner des jeux en Full HD à réglages bas : Club386 mesure par exemple 46 images par seconde dans Shadow of the Tomb Raider.\n\nLe refroidissement concentre les critiques. Notebookcheck juge inacceptable un bruit qui dépasse 50 dB(A) dès la charge moyenne, Club386 relève aussi des pointes à 50 dBA et un processeur jusqu'à 86 °C, KitGuru constate de la chauffe et un léger bridage sous charge prolongée. Les avis divergent toutefois sur l'évolutivité : Notebookcheck signale un second emplacement M.2 limité au format 42 mm, alors que KitGuru y décrit un emplacement 2280 libre. Aucun port USB-C en façade, un BIOS sommaire et une ventilation non réglable complètent la liste.\n\nKitGuru et Notebookcheck trouvent le tarif trop élevé pour ce qu'il offre, KitGuru le comparant au Geekom IT15. Pour un poste de bureau polyvalent ou un PC de salon peu sollicité, il convient ; si le silence sous charge compte pour vous, ce n'est pas le bon choix.",
     "date": "2026-11-09",
@@ -9558,7 +9562,8 @@
      "url": "https://www.amazon.fr/dp/B0G5ZS4R2T?tag=geekconcept-21",
      "name": "HP Workstation Z2 G1a - Mini Ryzen AI Max Pro 385 3.6 GHz - 32 Go - SSD 1 to - Français Wolf Pro Security Edition (1 an)",
      "cfg": "32 Go · 1 To",
-     "asin": "B0G5ZS4R2T"
+     "asin": "B0G5ZS4R2T",
+     "dispo": false
     }
    ],
    "img": "hp-z2-mini.webp",
@@ -9708,7 +9713,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 1359.0,
+     "price": 1349.0,
      "url": "https://www.amazon.fr/dp/B0F54WBWW7?tag=geekconcept-21",
      "name": "MINIS FORUM AI X1 Pro Mini PC, Ryzen AI 9 HX370 (12 cœurs/24 Threads, jusqu'à 5,1 GHz) et Radeon 890M, 32 Go DDR5, 1 to ",
      "cfg": "32 Go · 1 To",
@@ -9718,7 +9723,7 @@
    "img": "minisforum-ai-x1-pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1359.0,
+   "prix": 1349.0,
    "synthese": {
     "texte": "Notebookcheck et Tom's Hardware arrivent au même diagnostic : l'AI X1 Pro à Ryzen AI 9 HX 470 est livré avec une seule barrette de 32 Go, et ce fonctionnement en simple canal bride la partie graphique. Tom's Hardware le chiffre : en double canal, le score 3DMark Time Spy passe de 2 302 à 4 124 et Cyberpunk 2077 de 27 à 51 i/s. Notebookcheck parle de « frein mémoire » et note que le HX 470 ne fait guère mieux que le HX 370 de la version précédente.\n\nLe reste convainc les deux tests : boîtier métallique, alimentation intégrée, lecteur d'empreintes, deux USB4, un port OCuLink et deux prises 2,5 GbE. Tom's Hardware relève 28 dBA au repos, 32 dBA au maximum et un processeur qui ne dépasse pas le début des 70 °C. Notebookcheck regrette un lecteur SD lent et peu de ports USB-A ; Tom's Hardware n'en compte qu'un à l'arrière, en USB 2.0, et aucune prise audio arrière.\n\nTom's Hardware y voit une bonne base de PC de salon, mais estime que le modèle précédent à HX 370 peut suffire aux chasseurs de bonnes affaires. Prévoyez une seconde barrette de mémoire pour en tirer parti.",
     "date": "2026-11-11",
@@ -10097,7 +10102,8 @@
      "url": "https://www.amazon.fr/dp/B0GQH126Y8?tag=geekconcept-21",
      "name": "HP OMEN 16L TG03-0071NF Gaming Desktop PC, Intel Core i5-14400F, NVIDIA GeForce RTX 3050 6 Go, 32 Go DDR5-4800 MHz, SSD ",
      "cfg": "32 Go · RTX 3050",
-     "asin": "B0GQH126Y8"
+     "asin": "B0GQH126Y8",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -10110,7 +10116,7 @@
    "img": "omen16l.webp",
    "rating": 4.6,
    "nrev": 12,
-   "prix": 999.0
+   "prix": 1299.99
   },
   "loq-tower": {
    "cat": "d-gaming",
@@ -10185,7 +10191,8 @@
      "url": "https://www.amazon.fr/dp/B0FJG24FL4?tag=geekconcept-21",
      "name": "Lenovo LOQ 17IRR9 Ordinateur de Bureau Gaming (Intel Core i5-14400, RAM 16Go, SSD 512Go, NVIDIA GeForce RTX 5060 8GB GDD",
      "cfg": "16 Go · 512 Go · RTX 5060",
-     "asin": "B0FJG24FL4"
+     "asin": "B0FJG24FL4",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -10198,7 +10205,7 @@
    "img": "loq-tower.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 1199.99,
+   "prix": 1549.99,
    "synthese": {
     "texte": "Les tests couvrent deux générations : le Labo Fnac a évalué la LOQ Tower 17IAX10 (Core Ultra 7 255HX, RTX 5060, 32 Go), Digital Trends et Windows Central la génération précédente avec Core i5-14400F et RTX 4060. Tous la jugent à l'aise en 1080p : Windows Central relève 85 i/s sur Cyberpunk 2077 en Ultra avec ray tracing, et le Labo Fnac estime que les jeux récents tournent confortablement en 1080p, jusqu'au 1440p au maximum.\n\nLe bruit reste mesuré sans être nul : ni Digital Trends ni Windows Central ne la trouvent silencieuse en charge, mais aucun ne la juge gênante. Le désaccord porte sur le prix et l'évolutivité : Windows Central conseille de l'acheter en promotion et pointe une carte mère et une alimentation propriétaires de 500 W, Digital Trends trouve l'intérieur peu engageant et changerait certains ventilateurs. Les deux signalent des logiciels préinstallés (Dropbox, McAfee).\n\nDigital Trends la voit en machine familiale pour l'esport et les devoirs, Windows Central en tour pour joueurs occasionnels en 1080p ; le Labo Fnac la recommande pour tous les usages dans sa version 17IAX10.",
     "date": "2026-11-11",
@@ -11044,7 +11051,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 538.69,
+     "price": 511.76,
      "url": "https://www.amazon.fr/dp/B0GFS76CDY?tag=geekconcept-21",
      "name": "GEEKOM A5 Pro Mini PC 2026 Edition AMD Ryzen 5 7530U, 1 to SSD, 16 Go RAM",
      "cfg": "16 Go · 1 To",
@@ -11061,7 +11068,7 @@
    "img": "geekom-a5pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 538.69,
+   "prix": 511.76,
    "synthese": {
     "texte": "Ce mini-PC à Ryzen 5 7530U, 16 Go de DDR4 et SSD de 1 To est décrit de façon assez concordante : boîtier compact et solide, consommation faible, bruit discret au repos et puissance suffisante pour la bureautique et le multimédia. Notebookcheck relève la possibilité de piloter quatre écrans, un lecteur de cartes SD et une garantie de 36 mois ; Frandroid apprécie le démontage simple et le second emplacement M.2 pour ajouter un SSD.\n\nKitGuru l'a poussé bien plus loin que prévu, en serveur domestique sous Proxmox avec routeur virtualisé et conteneurs Docker, et l'a trouvé à l'aise, discret et frais. Le site regrette en revanche l'unique port Ethernet, un contrôleur réseau Realtek qui demande des réglages et des composants de marque peu connue. Pour la ventilation, l'appréciation diffère : Notebookcheck entend nettement le ventilateur en charge et souhaiterait un réglage plus fin, alors que Frandroid n'évoque qu'un souffle peu aigu.\n\nLes manques cités sont les mêmes : pas d'USB4, pas d'USB-C en façade, HDMI limité à la norme 2.0, aucun emplacement de RAM libre et une partie graphique incapable de faire tourner les jeux récents. Il convient à un poste de bureau, à un usage familial ou à un premier serveur maison, pas au jeu.",
     "date": "2026-11-09",
@@ -11358,7 +11365,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 549.0,
+     "price": 515.0,
      "url": "https://www.amazon.fr/dp/B0G6KR1VW5?tag=geekconcept-21",
      "name": "GEEKOM A7 Business Mini PC, AMD Ryzen 5 7535HS, 1To SSD, 16 Go DDR5 RAM",
      "cfg": "16 Go · 1 To",
@@ -11375,7 +11382,7 @@
    "img": "geekom-a7.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 549.0,
+   "prix": 515.0,
    "synthese": {
     "texte": "Deux générations se côtoient sous ce nom : l'A7 de 2024, un boîtier en aluminium de moins d'un demi-litre, et l'A7 Max de 2026, plus volumineux, toujours animé par le Ryzen 9 7940HS. Sur le premier, PhotoTrend chronomètre l'export de 101 fichiers RAW sous Lightroom en 1 min 48, tout près d'un MacBook Pro M1 Max, et KitGuru salue la puissance du processeur comme la discrétion en usage courant. Le lecteur SD, l'USB4 et les deux sorties HDMI reviennent dans chaque compte rendu.\n\nLe bruit fait débat. KitGuru le juge faible, PhotoTrend entend la ventilation monter pendant les exports longs sans la trouver gênante, et Notebookcheck relève sur l'A7 Max un ventilateur nettement audible dès que la charge grimpe. L'évolutivité divise aussi : KitGuru regrette l'absence de place pour ajouter RAM ou SSD sur le petit modèle, alors que Notebookcheck trouve mémoire, SSD et Wi-Fi accessibles sur le Max.\n\nLe reproche principal vise l'A7 Max livré avec une seule barrette de 16 Go : Notebookcheck et GBATemp mesurent une Radeon 780M nettement bridée, et GBATemp ajoute un boîtier pénible à ouvrir (patins collés, antennes Wi-Fi à ménager). Pour la retouche photo, le montage ou une bureautique chargée sous Windows, la version 2024 tient son rang ; sur l'A7 Max, prévoyez une seconde barrette si vous comptez jouer.",
     "date": "2026-11-09",
@@ -11632,7 +11639,8 @@
      "url": "https://www.amazon.fr/dp/B0CTCPTRHM?tag=geekconcept-21",
      "name": "GEEKOM IT13 Business Mini PC, Intel i5-13600H(jusqu'à 4,80 GHz),16Go RAM",
      "cfg": "16 Go",
-     "asin": "B0CTCPTRHM"
+     "asin": "B0CTCPTRHM",
+     "dispo": false
     },
     {
      "m": "Geekom",
@@ -11645,7 +11653,7 @@
    "img": "geekom-it13.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 589.0,
+   "prix": 609.0,
    "synthese": {
     "texte": "Windows Central et Notebookcheck ont testé l'édition 2025 en Core i9-13900HK, TechRadar la version d'origine en Core i9-13900H. Tous trois mettent en avant la connectique : deux USB4, deux HDMI, lecteur SD, Ethernet 2,5 Gbit/s et jusqu'à quatre écrans. Quatre vis sous les pieds suffisent pour atteindre la RAM et les emplacements M.2, et TechRadar comme Notebookcheck signalent une baie 2,5 pouces. Le processeur suffit pour la bureautique, le multimédia et la retouche légère.\n\nLa chauffe est jugée différemment. Windows Central constate un ralentissement par throttling sous forte charge, sans plantage, alors que Notebookcheck voit des performances plutôt stables en charge continue, au prix de limites de puissance prudentes qui brident le turbo. Les deux le décrivent globalement silencieux.\n\nLe reproche le plus partagé concerne la DDR4 : TechRadar y attribue en grande partie son retard sur des concurrents en DDR5, et Windows Central la cite parmi les défauts. La partie graphique Iris Xe n'est pas faite pour jouer en local. TechRadar estime que le Core i9 apporte peu face à un Core i7, et ce média comme Windows Central trouvent le tarif un peu élevé. Si vous cherchez un PC compact, fixable en VESA, pour du multi-écran et des tâches courantes, il remplit son rôle ; si vous jouez ou visez une plateforme récente, d'autres modèles conviendront mieux.",
     "date": "2026-10-16",
@@ -11795,7 +11803,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 669.0,
+     "price": 699.0,
      "url": "https://www.amazon.fr/dp/B0D7M9FMM3?tag=geekconcept-21",
      "name": "Beelink SER9 Pro Mini PC, Mini Ordinateur avec AMD Ryzen 7 H 255 (8C/16T jusqu'à 4.9Ghz), 24Go LPDDR5X 6400MHz + 500Go M",
      "cfg": "24 Go · 500 Go",
@@ -11805,7 +11813,7 @@
    "img": "beelink-ser9pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 669.0
+   "prix": 699.0
   },
   "nipogi-am06pro": {
    "cat": "d-mini",
@@ -11888,7 +11896,7 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 429.0,
+     "price": 407.55,
      "url": "https://www.amazon.fr/dp/B0BY25NQGP?tag=geekconcept-21",
      "name": "NiPoGi AM06 Pro Mini PC W-11 Pro, Ryzen 5 7430U(6C/ 12T, jusqu'à 4,30 GHz)",
      "cfg": "",
@@ -11898,7 +11906,7 @@
    "img": "nipogi-am06pro.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 429.0,
+   "prix": 407.55,
    "synthese": {
     "texte": "Un mini PC de bureau sobre et discret, pas une machine de jeu : Maison et Domotique, Basic Tutorials et Neozone, qui ont tous eu la version Ryzen 7 7730U avec 16 Go, aboutissent à ce même portrait. Bureautique, navigation chargée, appels vidéo et multimédia passent sans ralentissement, Windows 11 Pro arrive sans logiciels superflus et la consommation reste basse : Basic Tutorials mesure 12 à 18 W en usage léger et jusqu'à 36 W sous 3DMark. Le double Ethernet, dont un port en 2,5 Gbit/s, et la sortie sur trois écrans 4K intéressent surtout Maison et Domotique pour un home lab ou une box domotique.\n\nLe stockage est le point qui fâche. Basic Tutorials et Maison et Domotique relèvent un SSD au format M.2 mais en SATA, plafonné vers 550 Mo/s quand un modèle NVMe irait bien plus vite ; Neozone le trouve au contraire rapide à l'usage. Basic Tutorials pointe aussi la barrette unique de 16 Go : passé en double canal, le PC gagne jusqu'à 43 % aux tests 3D. Le jeu reste limité par la Radeon Vega 8 intégrée, autour de 15 images par seconde dans Shadow of the Tomb Raider en 1080p détails moyens, et il n'y a ni USB4 ni Thunderbolt.\n\nQuatre vis suffisent pour ouvrir le boîtier en plastique, et un emplacement 2,5 pouces reste libre. Pour le télétravail, les études ou un petit serveur allumé en permanence, les trois tests le recommandent ; pour les jeux récents, regardez ailleurs.",
     "date": "2026-11-10",
@@ -12426,7 +12434,7 @@
     },
     {
      "m": "Amazon",
-     "price": 799.0,
+     "price": 699.0,
      "url": "https://www.amazon.fr/dp/B0GYXPDY2J?tag=geekconcept-21",
      "name": "HP OmniStudio Tout-en-Un 27\" | AMD Ryzen 5 Pro 40 | 8 Go RAM | 512 Go SSD",
      "cfg": "8 Go · 512 Go",
@@ -12436,7 +12444,7 @@
    "img": "hp-omnistudio-27.webp",
    "rating": null,
    "nrev": 0,
-   "prix": 729.99
+   "prix": 699.0
   },
   "yoga-aio-32": {
    "cat": "d-aio",
@@ -12621,7 +12629,8 @@
      "url": "https://www.amazon.fr/dp/B0HG3MDB9G?tag=geekconcept-21",
      "name": "Asus V400 AIO Core 5 210H 16 Go, 512 Go SSD Windows 11 Home",
      "cfg": "16 Go · 512 Go",
-     "asin": "B0HG3MDB9G"
+     "asin": "B0HG3MDB9G",
+     "dispo": false
     },
     {
      "m": "Darty",
@@ -12634,7 +12643,7 @@
    "img": "asus-v400.webp",
    "rating": 5.0,
    "nrev": 1,
-   "prix": 981.78
+   "prix": 1119.99
   },
   "aspire-c27": {
    "cat": "d-aio",
@@ -42535,9 +42544,9 @@
  "prix_date": "octobre 2026",
  "familles": {
   "portable": {
-   "date": "23/10/2026",
-   "prix_date": "octobre 2026",
-   "iso": "2026-10-23",
+   "date": "20/11/2026",
+   "prix_date": "novembre 2026",
+   "iso": "2026-11-20",
    "tente": "2026-11-20"
   },
   "bureau": {
@@ -42585,7 +42594,7 @@
  },
  "dates": {
   "Acer Store": "20/11/2026",
-  "Amazon": "18/11/2026"
+  "Amazon": "20/11/2026"
  },
  "bf_actif": false
 }
