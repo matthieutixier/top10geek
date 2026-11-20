@@ -49,6 +49,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from urllib.parse import urlparse
 
+from garde_notes import sortir_attente
+
 SRC = Path(__file__).resolve().parent
 DATA = SRC / "data.json"
 SORTIE = SRC / "data"
@@ -318,6 +320,8 @@ def cmd_lire(a):
         if r["statut"] != "ok":
             print(f"!! {u} : {r['statut']} — non repris")
             continue
+        if r.get("score") is not None and str(r.get("methode") or "").startswith("JSON-LD"):
+            e["verifie"] = datetime.datetime.now().strftime("%d/%m/%Y")     # note déclarée par la page du média elle-même
         if r.get("score") is None and r.get("score_texte") is not None:
             e["score_a_verifier"] = f"{r['score_texte']:.1f} — {r['methode_texte']}"
         e["_verif"] = dict(titre=r.get("titre", ""), methode=r.get("methode") or "aucune note déclarée par la page")
@@ -434,6 +438,7 @@ def cmd_appliquer(a):
         print(f"{'écart' if n['score'] is not None else 'note '} {l['id'][:30]:30s} {n['src'][:20]:20s} "
               f"{'—' if n['score'] is None else n['score']:>4} -> {neuf:<4} ({l['methode']})")
         n.update(avant=n["score"], score=neuf, corrige=jour)
+        sortir_attente(n)
         touches.add(l["id"]); faits += 1
         fam = FAMILLE_DE_CAT(it["cat"])
         if fam in sources:                                  # même correction dans le catalogue source
@@ -555,6 +560,16 @@ def cmd_confirmer(a):
             elif fam in CC_FICHES and tests_cc:
                 corriger_cc(cc, fam, e["id"], n, n["avant"], n["score"], jour)
             recalc(it["press"])
+        elif n["score"] is None and e.get("score") is not None:
+            # note en attente (garde_notes.py) ou test cité sans note : la note lue sur la page du média entre dans la moyenne
+            print(f"note  {e['id'][:30]:30s} {n['src'][:20]:20s} — -> {e['score']} (lu à la main)")
+            n.update(avant=None, score=round(float(e["score"]), 1), corrige=jour)
+            if fam in sources:
+                motif = re.compile(r'(,\s*)(None|\d+(?:\.\d+)?)(\s*,\s*["\']' + re.escape(n["url"]) + r'["\'])')
+                sources[fam] = motif.sub(lambda m: f"{m.group(1)}{n['score']}{m.group(3)}", sources[fam])
+            elif fam in CC_FICHES and tests_cc:
+                corriger_cc(cc, fam, e["id"], n, None, n["score"], jour)
+            recalc(it["press"])
         elif n["score"] is not None and "score" in e and e["score"] is None:
             # la page du média n'affiche aucune note (ex. Press Start : un 0/10 lu par erreur dans le JSON-LD) -> test sans note
             print(f"sans note {e['id'][:30]:30s} {n['src'][:20]:20s} {n['score']} -> test sans note (lu à la main)")
@@ -566,6 +581,7 @@ def cmd_confirmer(a):
                 corriger_cc(cc, fam, e["id"], n, n["avant"], None, jour)
             recalc(it["press"])
         n["verifie"] = jour
+        sortir_attente(n)
         for nom, _, t in tests_cc:
             t["verifie"] = jour; cc.marquer(nom)
         maj_statut_source(it, jour)

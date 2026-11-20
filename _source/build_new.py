@@ -5,14 +5,16 @@ Les 100 ordinateurs déjà présents ne sont pas touchés. Commande : python3 _s
   lien suivi Effinity et prix du flux produits) ; un produit déjà présent
   garde le prix et la disponibilité de son dernier relevé (releve.py) ;
 - note presse : moyenne des notes chiffrées (les tests sans note sont listés mais n'entrent pas dans la moyenne) ;
+  une note nouvelle ou modifiée qui n'a pas été lue sur la page du média est mise en attente (garde_notes.py) ;
 - photo : assets/img/p/<id>.webp si elle existe (photos constructeurs, voir photos_constructeurs.json) ;
 - un écran ou une imprimante retiré de catalog_ecrans.py / catalog_imprimantes.py est retiré de data.json."""
-import json, os, sys
+import copy, datetime, json, os, sys
 SRC = os.path.dirname(os.path.abspath(__file__)) + "/"
 sys.path.insert(0, SRC)
 from catalog_ecrans import ECR
 from catalog_imprimantes import IMP
 from catalog_sols import SOLS
+from garde_notes import controler_import, recalc
 
 AMAZON_TAG = "geekconcept-21"
 IMG_DIR = os.path.join(os.path.dirname(SRC.rstrip("/")), "assets/img/p")
@@ -47,6 +49,9 @@ def item(pid, it):
 if __name__ == "__main__":
     path = SRC + "data.json"
     data = json.load(open(path, encoding="utf-8"))
+    jour = datetime.date.today().strftime("%d/%m/%Y")
+    en_attente = []
+    tests_ignores = []
     for cat in (ECR, IMP, SOLS):
         for pid, it in cat.items():
             new, old = item(pid, it), data["items"].get(pid)
@@ -55,6 +60,19 @@ if __name__ == "__main__":
                 for f in ("price", "dispo"):
                     if f in old["offers"][0]:
                         new["offers"][0][f] = old["offers"][0][f]
+                new["prix"] = old.get("prix", new["prix"])
+            # offres d'un produit existant (20/11/2026) : celles de data.json font foi (prix et dates des relevés, offres
+            # Electro Dépôt ajoutées par effinity.py, mention vendeur tiers corrigée) ; seul un changement d'ASIN Amazon
+            # dans le catalogue remplace l'offre Amazon.
+            if old and old.get("offers"):
+                amz_new = next((o for o in new["offers"] if o["m"] == "Amazon"), None)
+                amz_old = next((o for o in old["offers"] if o["m"] == "Amazon"), None)
+                offres = copy.deepcopy(old["offers"])
+                if amz_new and amz_old and amz_new.get("asin") != amz_old.get("asin"):
+                    offres = [amz_new if o["m"] == "Amazon" else o for o in offres]
+                elif amz_new and not amz_old:
+                    offres.insert(0, amz_new)
+                new["offers"] = offres
                 new["prix"] = old.get("prix", new["prix"])
             # tests ajoutés par ajout_tests.py (mise à jour hebdomadaire) : conservés
             if old and old.get("press"):
@@ -92,6 +110,18 @@ if __name__ == "__main__":
                                 n[f] = o[f]
                         if o.get("date") and not n.get("date"):
                             n["date"] = o["date"]
+            # data.json fait foi pour les notes d'un produit existant (20/11/2026) : les catalogues et cc_fiches ne servent
+            # qu'à créer un produit ; ensuite, les notes ne changent que par presse_crawl.py et ajout_tests.py.
+            if old and old.get("press"):
+                ignores = {n["url"] for n in new["press"]["notes"]} - {n["url"] for n in old["press"]["notes"]}
+                if ignores:
+                    tests_ignores.append((pid, len(ignores)))
+                new["press"] = copy.deepcopy(old["press"])
+            # garde-fou (20/11/2026) : une note non lue sur la page du média n'entre pas dans la moyenne (garde_notes.py)
+            att = controler_import(new["press"], old["press"] if old else None, jour)
+            if att:
+                recalc(new["press"])
+                en_attente.append((pid, att))
             # synthèse rédigée (syntheses.py) : conservée
             if old and old.get("synthese"):
                 new["synthese"] = old["synthese"]
@@ -102,7 +132,17 @@ if __name__ == "__main__":
         del data["items"][k]
     if retires:
         print("retirés :", ", ".join(retires))
-    json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    open(path, "w", encoding="utf-8").write(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
     from collections import Counter
     print(len(data["items"]), "produits ;", Counter(d["cat"] for d in data["items"].values() if d["cat"][:2] in ("e-", "i-", "s-", "t-", "a-", "v-")))
+    if tests_ignores:
+        print(f"\nTests des catalogues absents de data.json, ignorés ({sum(n for _, n in tests_ignores)}) : un test s'ajoute par ajout_tests.py "
+              "(retirés volontairement ou jamais vérifiés) — " + ", ".join(f"{p} ({n})" for p, n in tests_ignores[:12]))
+    if en_attente:
+        print(f"\nNotes EN ATTENTE de lecture à la source ({sum(len(a) for _, a in en_attente)}) : citées sans note jusqu'à confirmation.")
+        for pid, att in en_attente:
+            print(f"  {pid:30s} " + ", ".join(f"{s} {v}" for s, v in att))
+        ids = ",".join(pid for pid, _ in en_attente)
+        print(f"Ensuite : python3 _source/presse_crawl.py verifier --famille <rubrique> --ids {ids}"
+              " puis appliquer --apply ; le reste : confirmer (lecture à la main).")
     print("sans photo :", sum(1 for d in data["items"].values() if d["cat"][:2] in ("e-", "i-") and not d["img"]))

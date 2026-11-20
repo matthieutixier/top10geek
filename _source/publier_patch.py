@@ -243,6 +243,14 @@ def main():
     if nb_produits_avant and nb_produits and nb_produits < nb_produits_avant:
         echecs.append(f"nombre de produits en baisse ({nb_produits_avant} -> {nb_produits})")
 
+    # 5g. Garde-fou des notes (20/11/2026) : une note chiffrée nouvelle ou modifiée doit avoir été lue sur la page du média
+    anciens = {(k, n.get("url")): n.get("score") for k, it in data_avant.get("items", {}).items()
+               for n in (it.get("press") or {}).get("notes", [])}
+    for k, it in json.load(open(chemin, encoding="utf-8")).get("items", {}).items():
+        for n in (it.get("press") or {}).get("notes", []):
+            if n.get("score") is not None and not n.get("verifie") and anciens.get((k, n.get("url")), "absent") != n["score"]:
+                echecs.append(f"note non lue à la source (champ verifie absent) : {k} · {n.get('src')} {n['score']}")
+
     resume = [
         f"{len(modifs)} fichiers modifiés dont {len(html_modifies)} pages HTML",
         f"{len(lm_changes)} lastmod modifiés sur {len(urls_apres)} URL ; sitemap {len(urls_avant)} -> {len(urls_apres)} URL",
