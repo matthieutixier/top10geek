@@ -9,7 +9,8 @@ Sorties :
   _com/pins-planning.csv              lignes à ajouter au Google Sheet « Top10Geek – Planning épingles Pinterest »
                                       colonnes : statut,titre,description,lien,image_url,tableau,board_id,type
 
-Types : top3 (top 3 d'un usage), produit (fiche d'un produit), bf (top 3 Black Friday d'un usage), bf-conseils.
+Types : top3 (top 3 d'un usage), produit (fiche d'un produit), bf (top 3 Black Friday d'un usage), bf-conseils,
+       cadeau (idée cadeau : top 3 sous un budget, liste CADEAUX ; test de format du 22/11/2026, planifié avec --ajouter --par-jour 1).
 Usage : python3 _source/pins.py [--types top3,produit,bf,bf-conseils] [--max-produits 60] [--seulement-nouveaux]
 Dépendances : Pillow, fonttools + brotli (conversion des polices woff2 en ttf, cache dans _source/.cache_pins/).
 Règles : aucune donnée inventée (tout vient des pages du site), pas de logo ni de photo tierce, mention « prix indicatif ».
@@ -437,6 +438,69 @@ def pin_bf_conseils(titres):
     return im
 
 
+# ---------------------------------------------------------------- idées cadeaux (test de format, décision de Matthieu du 22/11/2026)
+# Pinterest au 22/11 : 524 affichages, 0 clic, 0 enregistrement pour ~105 épingles « fiche ». On teste un format « inspiration » :
+# une idée cadeau par budget, avec les 3 produits les mieux classés du site sous ce budget (ordre du classement, prix indicatifs du site).
+# (dossier famille, dossier usage, libellé dans le titre, budget en €, pose de mascotte)
+CADEAUX = [
+    ("audio", "enceintes-bluetooth", "une enceinte Bluetooth", 100, "pose-audio-bt"),
+    ("audio", "ecouteurs-reduction-de-bruit", "des écouteurs à réduction de bruit", 150, "pose-audio-anc"),
+    ("photo-video", "drones-camera", "un drone avec caméra", 300, "pose-video-drone"),
+    ("aspirateur-robot", "robots-aspirateurs-laveurs", "un robot aspirateur laveur", 400, "pose-robot-laveur"),
+    ("audio", "casques-bluetooth", "un casque Bluetooth", 250, "pose-audio-cas"),
+    ("imprimante", "photo", "une imprimante photo", 150, "pose-imprimante"),
+    ("photo-video", "cameras-sport-360-vlog", "une caméra sport ou vlog", 450, "pose-video-sport"),
+    ("tv", "barres-de-son", "une barre de son", 350, "pose-tv-barres-son"),
+    ("audio", "ecouteurs-open-ear", "des écouteurs de sport open-ear", 100, "pose-audio-open"),
+    ("ecran-pc", "gaming", "un écran gaming", 400, "pose-ecran"),
+]
+NOEL = [((112, 18, 34), (255, 200, 60)), ((22, 30, 74), (255, 200, 60))]   # rouge sombre ou nuit, accent or (jamais de vert)
+
+
+def choix_cadeau(u, budget):
+    ps = []
+    for nom, url in u["items"]:
+        p = produit(url)
+        if p and p["prix"] and p["prix"] <= budget:
+            ps.append(p)
+        if len(ps) == 3:
+            break
+    return ps if len(ps) == 3 else None
+
+
+def pin_cadeau(u, quoi, budget, pose, i):
+    ps = choix_cadeau(u, budget)
+    if not ps:
+        return None
+    bg, acc = NOEL[i % 2]
+    THEME.update(bg=bg, acc=acc, fam=u["fam"])
+    im, d = base()
+    # bandeau « idée cadeau » + budget en très gros : l'accroche lisible en vignette
+    fk = corps(32, 800)
+    k = "IDÉE CADEAU DE NOËL"
+    w = d.textlength(k, font=fk)
+    d.rounded_rectangle([W / 2 - w / 2 - 28, 52, W / 2 + w / 2 + 28, 112], radius=30, fill=MAGENTA)
+    d.text((W / 2 - w / 2, 61), k, font=fk, fill=WHITE)
+    f, ls = ajuste(d, quoi[0].upper() + quoi[1:], lambda t: titre(t, 800), 900, 1, 76, 40)
+    y = 140
+    for l in ls:
+        centre(d, y, l, f, WHITE)
+        y += int(f.size * 1.08)
+    fb = titre(120, 800)
+    centre(d, y + 4, f"à moins de {euro(budget)}", fb, acc)
+    y += 150
+    centre(d, y, "les 3 mieux notés par la presse · prix indicatifs", corps(34, 700), WHITE, ombre=False)
+    y = max(y + 64, 440)
+    for r, p in enumerate(ps, 1):
+        carte_top(im, d, y, r, p)
+        y += 314
+    pied(d)
+    MASCOTTES["_cadeau"] = pose
+    THEME["fam"] = "_cadeau"
+    mascotte(im)
+    return im, ps
+
+
 # ---------------------------------------------------------------- sorties
 def board_id(nom, boards):
     return boards.get(nom) or boards.get(FALLBACK_BOARD, "1091700834613967505")
@@ -478,6 +542,8 @@ def planifier(lignes, a):
     nouvelles = [l for l in lignes if l[4] not in deja]
     if a.debut:
         jour = datetime.date.fromisoformat(a.debut)
+    elif a.ajouter:
+        jour = datetime.date.today() + datetime.timedelta(days=1)
     elif cal["derniere_date"]:
         jour = datetime.date.fromisoformat(cal["derniere_date"]) + datetime.timedelta(days=1)
     else:
@@ -489,10 +555,13 @@ def planifier(lignes, a):
     while jour < fin and i < len(nouvelles):
         lot = nouvelles[i:i + a.par_jour]
         pins = [{"title": l[1], "description": l[2], "link": avec_utm(l[3], l[7]), "image": l[4], "board_id": str(l[6]), "board": l[5]} for l in lot]
-        json.dump({"date": jour.isoformat(), "pins": pins}, open(FEED / f"{jour.isoformat()}.json", "w", encoding="utf8"), ensure_ascii=False, indent=1)
+        fj = FEED / f"{jour.isoformat()}.json"
+        if a.ajouter and fj.exists():   # --ajouter : les épingles s'ajoutent à celles déjà prévues ce jour-là
+            pins = json.load(open(fj, encoding="utf8"))["pins"] + pins
+        json.dump({"date": jour.isoformat(), "pins": pins}, open(fj, "w", encoding="utf8"), ensure_ascii=False, indent=1)
         cal["planifies"] += [l[4] for l in lot]
         i += len(lot)
-        derniere = jour.isoformat()
+        derniere = max(derniere, jour.isoformat())
         jour += datetime.timedelta(days=1)
     cal["derniere_date"] = derniere
     json.dump(cal, open(CALENDRIER, "w", encoding="utf8"), ensure_ascii=False, indent=1)
@@ -508,6 +577,7 @@ def main():
     ap.add_argument("--planifier", action="store_true", help="écrit les fichiers de publication quotidiens lus par Make (assets/pins/feed/)")
     ap.add_argument("--jours", type=int, default=28, help="horizon de planification, en jours, à partir de la dernière date planifiée")
     ap.add_argument("--par-jour", type=int, default=4, help="épingles publiées par jour (une seule exécution Make à 10 h)")
+    ap.add_argument("--ajouter", action="store_true", help="ajoute les épingles aux jours déjà planifiés (à partir de demain ou de --debut) au lieu de prolonger le calendrier")
     ap.add_argument("--debut", default="", help="première date (AAAA-MM-JJ) ; par défaut le lendemain de la dernière date planifiée, ou demain")
     a = ap.parse_args()
     a.seulement_nouveaux = False   # les visuels sont reproductibles ; la mémoire des épingles déjà planifiées est pins_calendrier.json
@@ -564,6 +634,20 @@ def main():
                 ajouter(u["fam"], "produit", f"{p['nom']} : avis, test et note de la presse ({fr(p['avg'])}/10)",
                         (p["desc"] or f"{p['nom']} : {fr(p['avg'])}/10 sur {p['n']} notes presse.")
                         + " Points forts, réserves et prix indicatif sur Top10Geek.", url, url_img, u["board"])
+    if "cadeau" in types:
+        par_cle = {(u["fam"], slug(u["url"])): u for u in us}
+        for i, (fam, us_slug, quoi, budget, pose) in enumerate(CADEAUX):
+            u = par_cle.get((fam, us_slug))
+            r = pin_cadeau(u, quoi, budget, pose, i) if u else None
+            if not r:
+                continue
+            im, ps = r
+            url_img = enregistrer(im, f"cadeau-{fam}-{us_slug}")
+            det = ", ".join(f"{p['nom']} ({fr(p['avg'])}/10, env. {euro(p['prix'])})" for p in ps)
+            ajouter(fam, "cadeau", f"Idée cadeau de Noël : {quoi} à moins de {euro(budget)} (top 3 de la presse)",
+                    f"Vous cherchez {quoi} à offrir pour moins de {euro(budget)} ? Les 3 modèles les mieux classés selon les tests de la presse high-tech : "
+                    f"{det}. Prix indicatifs relevés par Top10Geek, susceptibles d'avoir changé. Le classement complet et les sources sur Top10Geek.",
+                    u["url"], url_img, u["board"])
     if "bf-conseils" in types:
         h = (ROOT / "black-friday" / "index.html").read_text(encoding="utf8")
         zone = h.split("Reconnaître une vraie promo", 1)[-1]

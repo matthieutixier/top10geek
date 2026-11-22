@@ -14,6 +14,9 @@ on:
       forcer:
         description: "Planifier même si le calendrier couvre déjà 21 jours (oui/non)"
         default: "non"
+      cadeaux:
+        description: "Test du format « idée cadeau » : ajouter les épingles cadeaux, 1 par jour à partir de demain (oui/non)"
+        default: "non"
 
 concurrency:
   group: publication          # même file que la publication des données : jamais deux écritures en même temps
@@ -42,6 +45,7 @@ jobs:
       - name: Prolonger le calendrier si besoin
         env:
           FORCER: ${{ github.event.inputs.forcer }}
+          CADEAUX: ${{ github.event.inputs.cadeaux }}
         run: |
           set -euo pipefail
           git config user.name "Matthieu Tixier"
@@ -50,12 +54,17 @@ jobs:
           limite=$(TZ=Europe/Paris date -d "+21 days" +%F)
           dernier=$(ls assets/pins/feed/*.json 2>/dev/null | sed 's|.*/||; s|\.json$||' | sort | tail -1)
           echo "Calendrier couvert jusqu'au : ${dernier:-aucun} (minimum attendu : $limite)"
-          if [ "${FORCER:-non}" != "oui" ] && [ -n "$dernier" ] && [[ "$dernier" > "$limite" || "$dernier" == "$limite" ]]; then
-            echo "Rien à faire."
-            exit 0
+          if [ "${CADEAUX:-non}" == "oui" ]; then
+            # test de format du 22/11/2026 : 1 épingle « idée cadeau » par jour, ajoutée aux jours déjà planifiés
+            python _source/pins.py --types cadeau --planifier --ajouter --par-jour 1 --jours 10
+          else
+            if [ "${FORCER:-non}" != "oui" ] && [ -n "$dernier" ] && [[ "$dernier" > "$limite" || "$dernier" == "$limite" ]]; then
+              echo "Rien à faire."
+              exit 0
+            fi
+            if [[ "$aujourd" > "2026-11-27" ]]; then types="top3,produit"; else types="top3,produit,bf,bf-conseils"; fi
+            python _source/pins.py --planifier --jours 28 --types "$types"
           fi
-          if [[ "$aujourd" > "2026-11-27" ]]; then types="top3,produit"; else types="top3,produit,bf,bf-conseils"; fi
-          python _source/pins.py --planifier --jours 28 --types "$types"
           # seuls les visuels, le calendrier et sa mémoire peuvent changer
           autres=$(git status --porcelain | awk '{print $2}' | grep -vE '^(assets/img/pins/|assets/pins/feed/|_source/pins_calendrier\.json$)' || true)
           if [ -n "$autres" ]; then
