@@ -1,0 +1,11 @@
+diff --git a/_source/data.json b/_source/data.json
+index 949a54f..a3ce75d 100644
+--- a/_source/data.json
++++ b/_source/data.json
+@@ -43997,5 +43997,5 @@
+   "Acer Store": "20/11/2026",
+   "Amazon": "20/11/2026"
+  },
+- "bf_actif": false
++ "bf_actif": true
+ }
