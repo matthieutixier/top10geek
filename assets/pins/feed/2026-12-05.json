@@ -1,0 +1,37 @@
+{
+ "date": "2026-12-05",
+ "pins": [
+  {
+   "title": "Asus V500 : avis, test et note de la presse (8,2/10)",
+   "description": "Asus V500 : 3 notes presse, moyenne 8,2/10. Une petite tour au design soigné, correcte pour le travail quotidien ; son évolutivité reste limitée. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/asus-v500/?utm_source=pinterest&utm_medium=social&utm_campaign=produit",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-asus-v500.jpg",
+   "board_id": "1091700834614052985",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Asus ProArt PA279CDV : avis, test et note de la presse (9,2/10)",
+   "description": "3 notes presse, moyenne 9,2/10. Un QD-OLED 4K de 26,5 pouces au tarif contenu, avec HDR, 120 Hz, KVM et pied complet : une alternative OLED au Studio Display. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ecran-pc/asus-proart-pa279cdv/?utm_source=pinterest&utm_medium=social&utm_campaign=produit",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ecran-pc-asus-proart-pa279cdv.jpg",
+   "board_id": "1091700834614052987",
+   "board": "Écrans PC"
+  },
+  {
+   "title": "Minisforum MS-S1 Max : avis, test et note de la presse (8,6/10)",
+   "description": "3 notes presse, moyenne 8,6/10. 16 cœurs Zen 5 et jusqu'à 128 Go de mémoire unifiée : une mini-station taillée pour l'IA locale et le calcul lourd. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/minisforum-ms-s1-max/?utm_source=pinterest&utm_medium=social&utm_campaign=produit",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-minisforum-ms-s1-max.jpg",
+   "board_id": "1091700834614052985",
+   "board": "PC de bureau et mini-PC"
+  },
+  {
+   "title": "Asus ROG G700 : avis, test et note de la presse (8,7/10)",
+   "description": "Asus ROG G700 : 3 notes presse, moyenne 8,7/10. Une tour gaming rapide en toutes circonstances et très polyvalente, testée par le Labo Fnac. Points forts, réserves et prix indicatif sur Top10Geek.",
+   "link": "https://top10geek.fr/ordinateur-de-bureau/asus-rog-g700/?utm_source=pinterest&utm_medium=social&utm_campaign=produit",
+   "image": "https://top10geek.fr/assets/img/pins/produit-ordinateur-de-bureau-asus-rog-g700.jpg",
+   "board_id": "1091700834614052985",
+   "board": "PC de bureau et mini-PC"
+  }
+ ]
+}
