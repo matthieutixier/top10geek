@@ -118,6 +118,18 @@ def main():
     if "GIT binary patch" in texte:
         fin(2, "Patch refusé : contenu binaire")
 
+    # 1 bis. Historique Black Friday : passage au format une ligne par jour et par produit (23/11/2026).
+    # Sans effet si le fichier est déjà à ce format ; le fichier reformaté est publié avec le reste.
+    hist = "_source/historique_prix.json"
+    if os.path.exists(hist) and f"b/{hist}" in texte:
+        from bf_historique import formater
+        brut = open(hist, encoding="utf-8").read()
+        propre = formater(json.loads(brut))
+        if brut != propre:
+            open(hist, "w", encoding="utf-8").write(propre)
+            sh("git", "add", hist)          # git apply --3way travaille sur l'index : il doit voir le fichier reformaté
+            print("historique_prix.json remis au format une ligne par jour et par produit")
+
     # 2. État avant
     data_avant = json.loads(head_file("_source/data.json"))
     date_avant = data_avant.get("date")
