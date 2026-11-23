@@ -29,11 +29,27 @@ def charger():
     return json.load(open(HIST, encoding="utf-8")) if os.path.exists(HIST) else {}
 
 
+def formater(h):
+    """Texte du fichier : une ligne par jour et par produit (JSON valide). Un nouveau jour n'ajoute que ses propres
+    lignes, ce qui garde petits les fichiers de modifications quotidiens (format du 23/11/2026, remplace la ligne unique)."""
+    lignes = ["{"]
+    jours = sorted(h)
+    for i, j in enumerate(jours):
+        lignes.append(json.dumps(j) + ":{")
+        ids = sorted(h[j])
+        for k, pid in enumerate(ids):
+            prix = json.dumps(h[j][pid], ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+            lignes.append(json.dumps(pid, ensure_ascii=False) + ":" + prix + ("," if k < len(ids) - 1 else ""))
+        lignes.append("}" + ("," if i < len(jours) - 1 else ""))
+    lignes.append("}")
+    return "\n".join(lignes) + "\n"
+
+
 def enregistrer(h):
     for j in sorted(h)[:-GARDER_JOURS]:
         del h[j]
     with open(HIST, "w", encoding="utf-8") as f:
-        json.dump(h, f, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+        f.write(formater(h))
 
 
 def prix_par_marchand(items):
