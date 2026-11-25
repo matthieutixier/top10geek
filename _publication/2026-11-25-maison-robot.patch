@@ -1,0 +1,1156 @@
+diff --git a/_source/cc_fiches_usages.json b/_source/cc_fiches_usages.json
+index 25a31e1..1624673 100644
+--- a/_source/cc_fiches_usages.json
++++ b/_source/cc_fiches_usages.json
+@@ -510,9 +510,12 @@
+    },
+    {
+     "media": "AndroidWorld",
+-    "note10": 8.0,
++    "note10": 8.5,
+     "date": "10/07/2024",
+-    "url": "https://www.smartworld.it/recensioni/dreame-z30"
++    "url": "https://www.smartworld.it/recensioni/dreame-z30",
++    "avant": 8.0,
++    "corrige": "25/11/2026",
++    "verifie": "25/11/2026"
+    },
+    {
+     "media": "AndroidWorld",
+@@ -1458,7 +1461,10 @@
+     "media": "Basic Tutorials",
+     "note10": 9.5,
+     "date": "03/06/2026",
+-    "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/"
++    "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/",
++    "avant": 9.5,
++    "corrige": "25/11/2026",
++    "verifie": "25/11/2026"
+    },
+    {
+     "media": "Basic Tutorials",
+@@ -1470,7 +1476,8 @@
+     "media": "AndroidWorld",
+     "note10": 9.0,
+     "date": "22/05/2026",
+-    "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete"
++    "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete",
++    "verifie": "25/11/2026"
+    },
+    {
+     "media": "Frandroid",
+@@ -1585,9 +1592,12 @@
+    },
+    {
+     "media": "AndroidWorld",
+-    "note10": 8.0,
++    "note10": 8.7,
+     "date": "04/09/2026",
+-    "url": "https://www.smartworld.it/recensioni/dji-romo-p2"
++    "url": "https://www.smartworld.it/recensioni/dji-romo-p2",
++    "avant": 8.0,
++    "corrige": "25/11/2026",
++    "verifie": "25/11/2026"
+    },
+    {
+     "media": "Les Numériques",
+@@ -1638,9 +1648,12 @@
+    },
+    {
+     "media": "AndroidWorld",
+-    "note10": 9.0,
++    "note10": 9.2,
+     "date": "20/04/2026",
+-    "url": "https://www.smartworld.it/recensioni/narwal-flow-2"
++    "url": "https://www.smartworld.it/recensioni/narwal-flow-2",
++    "avant": 9.0,
++    "corrige": "25/11/2026",
++    "verifie": "25/11/2026"
+    },
+    {
+     "media": "CharlesTech",
+@@ -2295,9 +2308,12 @@
+    },
+    {
+     "media": "AndroidWorld",
+-    "note10": 8.0,
++    "note10": 8.4,
+     "date": "28/04/2026",
+-    "url": "https://www.smartworld.it/recensioni/roborock-qrevo-s-pro"
++    "url": "https://www.smartworld.it/recensioni/roborock-qrevo-s-pro",
++    "avant": 8.0,
++    "corrige": "25/11/2026",
++    "verifie": "25/11/2026"
+    },
+    {
+     "media": "RTings",
+diff --git a/_source/data.json b/_source/data.json
+index a3ce75d..bb7d745 100644
+--- a/_source/data.json
++++ b/_source/data.json
+@@ -1,5 +1,5 @@
+ {
+- "date": "20/11/2026",
++ "date": "25/11/2026",
+  "items": {
+   "zenbook-a14": {
+    "cat": "bureau",
+@@ -815,7 +815,7 @@
+      "cfg": "8 Go · 256 Go",
+      "ean": "0821844416990",
+      "edid": "10019070",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "img": "omnibook3-17.webp",
+@@ -7035,7 +7035,7 @@
+      "cfg": "15AMN8 · Ryzen 5 · 8 Go · 512 Go",
+      "ean": "0199275183737",
+      "edid": "10018724",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "img": "ideapad-slim3.webp",
+@@ -7231,7 +7231,7 @@
+      "cfg": "4 Go · 64 Go",
+      "ean": "4711721178829",
+      "edid": "10018899",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "img": "chromebook-315.webp",
+@@ -7739,7 +7739,7 @@
+      "cfg": "4 Go · 128 Go",
+      "ean": "0199275252853",
+      "edid": "10018811",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "img": "ideapad-slim3-cb14.webp",
+@@ -19090,7 +19090,7 @@
+      "cfg": "",
+      "ean": "4549292194692",
+      "edid": "10018462",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -19870,7 +19870,7 @@
+      "cfg": "",
+      "ean": "4549292247985",
+      "edid": "10020364",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -19955,7 +19955,7 @@
+      "cfg": "version XP-2205",
+      "ean": "8715946702797",
+      "edid": "975904",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20028,7 +20028,7 @@
+      "cfg": "version TS4150i",
+      "ean": "4549292248067",
+      "edid": "10016130",
+-     "releve": "2026-11-20",
++     "releve": "2026-11-25",
+      "dispo": false
+     }
+    ],
+@@ -20165,7 +20165,7 @@
+      "cfg": "",
+      "ean": "4549292237368",
+      "edid": "10017501",
+-     "releve": "2026-11-20",
++     "releve": "2026-11-25",
+      "dispo": false
+     }
+    ],
+@@ -20242,7 +20242,7 @@
+      "cfg": "",
+      "ean": "4549292247947",
+      "edid": "10020365",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20371,7 +20371,7 @@
+      "cfg": "",
+      "ean": "0198154304485",
+      "edid": "10012839",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20441,7 +20441,7 @@
+      "cfg": "",
+      "ean": "4038986182980",
+      "edid": "10010548",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20504,7 +20504,7 @@
+      "cfg": "",
+      "ean": "8715946737331",
+      "edid": "10013177",
+-     "releve": "2026-11-20",
++     "releve": "2026-11-25",
+      "dispo": false
+     }
+    ],
+@@ -20574,7 +20574,7 @@
+      "cfg": "",
+      "ean": "0196786388484",
+      "edid": "10003125",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20643,7 +20643,7 @@
+      "cfg": "",
+      "ean": "0197029469199",
+      "edid": "993267",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20713,7 +20713,8 @@
+      "cfg": "",
+      "ean": "0197498438948",
+      "edid": "10002597",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25",
++     "dispo": false
+     }
+    ],
+    "press": {
+@@ -20776,13 +20777,13 @@
+    "offers": [
+     {
+      "m": "Electro Dépôt",
+-     "price": 28.98,
++     "price": 29.98,
+      "url": "https://track.effiliation.com/servlet/effi.redir?id_compteur=23321274&url=https%3A%2F%2Fwww.electrodepot.fr%2Fimprimante-multifonction-hp-deskjet-2921e.html",
+      "name": "Imprimante Hp Deskjet 2921e Multifonction eligible Instant Ink",
+      "cfg": "",
+      "ean": "0198828789815",
+      "edid": "10013176",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -20810,7 +20811,7 @@
+     ],
+     "releve_source": "30/10/2026"
+    },
+-   "prix": 28.98,
++   "prix": 29.98,
+    "img": "hp-deskjet-2921e.webp",
+    "rating": null,
+    "nrev": 0
+@@ -21545,7 +21546,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 899.0,
++     "price": 749.0,
+      "url": "https://www.amazon.fr/dp/B0H4FFNW2Q?tag=geekconcept-21",
+      "name": "roborock Saros 20 Neo Robot Aspirateur Laveur",
+      "cfg": "",
+@@ -21553,7 +21554,7 @@
+     }
+    ],
+    "press": {
+-    "avg": 8.745454545454546,
++    "avg": 8.645454545454545,
+     "n": 11,
+     "tests": 14,
+     "scope": "modele",
+@@ -21587,12 +21588,6 @@
+       "date": "2026-03-05",
+       "verifie": "20/11/2026"
+      },
+-     {
+-      "src": "AndroidWorld",
+-      "score": 9.0,
+-      "url": "https://www.smartworld.it/recensioni/roborock-saros-20",
+-      "date": "2026-03-02"
+-     },
+      {
+       "src": "Clubic",
+       "score": 9.0,
+@@ -21645,6 +21640,15 @@
+       "date": "2026-05-04",
+       "verifie": "20/11/2026"
+      },
++     {
++      "src": "AndroidWorld",
++      "score": 7.9,
++      "url": "https://www.smartworld.it/recensioni/roborock-saros-20",
++      "date": "2026-03-02",
++      "avant": 9.0,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
++     },
+      {
+       "src": "Connect.de",
+       "score": null,
+@@ -21665,7 +21669,7 @@
+      }
+     ]
+    },
+-   "prix": 899.0,
++   "prix": 749.0,
+    "img": "roborock-saros-20.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -21712,7 +21716,7 @@
+     }
+    ],
+    "press": {
+-    "avg": 8.416666666666666,
++    "avg": 8.424999999999999,
+     "n": 12,
+     "tests": 15,
+     "scope": "gamme",
+@@ -21723,9 +21727,12 @@
+     "notes": [
+      {
+       "src": "Basic Tutorials",
+-      "score": 9.0,
++      "score": 9.1,
+       "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-qrevo-curv-2-pro-test/",
+-      "date": "2025-11-01"
++      "date": "2025-11-01",
++      "avant": 9.0,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
+      },
+      {
+       "src": "Frandroid",
+@@ -21876,7 +21883,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 599.0,
++     "price": 445.55,
+      "url": "https://www.amazon.fr/dp/B0FV98MKC4?tag=geekconcept-21",
+      "name": "MOVA Z60 Ultra Roller SA Robot Aspirateur Laveur",
+      "cfg": "",
+@@ -22019,7 +22026,7 @@
+      }
+     ]
+    },
+-   "prix": 599.0,
++   "prix": 445.55,
+    "img": "mova-z60-ultra.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -22058,7 +22065,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 599.0,
++     "price": 429.0,
+      "url": "https://www.amazon.fr/dp/B0DVCCL1FW?tag=geekconcept-21",
+      "name": "NARWAL Freo Z10 Ultra Robot Aspirateur Laveur",
+      "cfg": "vendu par un vendeur tiers",
+@@ -22144,7 +22151,7 @@
+     ],
+     "releve_source": "20/11/2026"
+    },
+-   "prix": 599.0,
++   "prix": 429.0,
+    "img": "narwal-freo-z10-ultra.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -22182,7 +22189,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 999.0,
++     "price": 569.05,
+      "url": "https://www.amazon.fr/dp/B0DPB7RN2L?tag=geekconcept-21",
+      "name": "DREAME X50 Ultra Complete Robot Aspirateur avec Station, 20 000 Pa",
+      "cfg": "",
+@@ -22284,17 +22291,18 @@
+      }
+     ]
+    },
+-   "prix": 999.0,
++   "prix": 569.05,
+    "img": "dreame-x50-ultra-complete.webp",
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Le X50 Ultra Complete se distingue par ses bras articulés qui lui permettent de monter sur les seuils, et les deux tests s'y arrêtent d'abord. Presse Citron mesure 42 mm en une fois et jusqu'à 60 mm sur un double seuil ; Tech Advisor donne 4,2 cm puis 6 cm pour des marches enchaînées, et précise que l'appareil a davantage à offrir que cette seule prouesse. Presse Citron relève une aspiration de 20 000 Pa, un lavage à 80 °C, un fonctionnement silencieux et une application très complète.\n\nLes réserves existent des deux côtés. Presse Citron trouve la reconnaissance d'obstacles perfectible et mesure environ 120 minutes d'autonomie pour 120 m², avec une station haute de 59 cm et pesant 9 kg. Tech Advisor signale un nettoyage long, une batterie qui baisse vite, une détection des tapis irrégulière dans l'application et des câbles qui posent encore problème, tout en saluant des commandes de planification très fines.\n\nPresse Citron relève un prix de lancement de 1 499 €. Le robot s'adresse à qui a des seuils à franchir et veut un appareil qui se gère seul, avec une station volumineuse à prévoir.",
+-    "date": "2026-10-27",
+-    "n": 6,
++    "texte": "Le X50 Ultra Complete se distingue par ses pattes motorisées qui le hissent sur les seuils. Presse-citron mesure 42 mm en une fois et jusqu'à 60 mm sur un double seuil, Tech Advisor obtient 4,2 cm sur une marche et 6 cm en marches enchaînées, et Chip.de retient lui aussi 42 mm. Sa tourelle LiDAR escamotable lui permet en outre de se glisser sous des meubles bas.\n\nSur le nettoyage, les trois tests sont élogieux. Chip.de mesure 76,4 % de poussière ramassée au réglage maximal et juge le lavage très bon sur les taches du quotidien ; Tech Advisor décrit un robot qui aspire et lave bien en demandant très peu d'interventions. La station rince les serpillières à 80 °C, les sèche et traite l'eau aux UV. Presse-citron nuance : face aux taches tenaces, il peine davantage que les modèles à serpillière vibrante.\n\nLes reproches se recoupent. La détection d'obstacles reste perfectible : Chip.de l'a vu emporter des briques Lego et Tech Advisor signale des câbles encore gênants. Le robot prend son temps, l'autonomie est jugée courte (environ 89 minutes au maximum chez Chip.de) et la détection des tapis dans l'application manque de fiabilité selon Tech Advisor. La station est encombrante. Un modèle pour qui veut automatiser au maximum un logement à seuils, en acceptant des cycles assez longs.",
++    "date": "2026-11-25",
++    "n": 7,
+     "tests": 12,
+     "sources": [
+      "Presse-citron",
++     "Chip.de",
+      "Tech Advisor"
+     ]
+    }
+@@ -22328,7 +22336,7 @@
+      "cfg": "",
+      "ean": "6977328066381",
+      "edid": "10011577",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -22427,7 +22435,7 @@
+       "src": "Gadget Bridge",
+       "score": 7.0,
+       "url": "https://www.gadgetbridge.com/gadget-reviews/dreame-l40-ultra-ae-review-the-flagship-robot-vacuum-that-is-well-priced/",
+-      "date": ""
++      "date": "2026-06-04"
+      },
+      {
+       "src": "RTings",
+@@ -22503,7 +22511,7 @@
+      "cfg": "",
+      "ean": "6978515257025",
+      "edid": "10016676",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -22685,14 +22693,14 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Les tests cités concernent la première version du L10s Ultra, parue en 2022, et non la génération vendue aujourd'hui ; ils servent donc surtout à juger la formule de base, avec une station qui vide le robot et lave ses serpillères. Les Numériques apprécie une base très complète, une navigation sans reproche et une autonomie de 3 h 16 en mode standard, mais déplore une brosse latérale qui éjecte les détritus et un lavage décevant. FrAndroid dit à peu près la même chose en des termes plus nuancés : le lavage est meilleur que sur un simple mode serpillère, sans égaler un robot dédié.\n\nCharlesTech met en avant les pads rotatifs, la reconnaissance d'objets, la bonne gestion des différentes surfaces et le remplissage automatique en eau, avec parfois un second passage nécessaire et des traductions d'application à revoir. Côté chiffres, FrAndroid et CharlesTech citent 5 300 Pa d'aspiration, et le niveau sonore va de 53 dB en mode standard à 66 dB pendant la vidange selon Les Numériques.\n\nAu lancement, le prix tournait autour de 1 199 € chez Les Numériques et FrAndroid. Le L10s est le grand classique de la famille : un robot polyvalent dont la force est l'automatisation plus que le lavage.",
+-    "date": "2026-10-27",
+-    "n": 14,
++    "texte": "Cette fiche réunit des tests de trois générations du L10s Ultra : la version d'origine de 2022, la Gen 2 et la Gen 3. Elles partagent le principe d'une station qui vide le robot, remplit son réservoir et lave ses serpillières, mais l'aspiration a beaucoup progressé, de 5 300 Pa à l'origine à 10 000 Pa pour la Gen 2 et 25 000 Pa pour la Gen 3.\n\nSur la première version, Les Numériques salue une base très complète, une navigation sans faute et une bonne aspiration (environ 95 % des grains ramassés sur moquette fine), avec 3 h 16 d'autonomie en mode standard ; le lavage déçoit et la brosse latérale éjecte des débris. L&B Tech recommande la Gen 2 aux familles : aspiration efficace, obstacles bien contournés, seuils franchis jusqu'à 20 mm, mais une station volumineuse et un robot bruyant à pleine puissance, pendant la vidange et pendant le séchage.\n\nNotebookcheck juge la Gen 3 solide plutôt que brillante : forte aspiration adaptée aux tapis, nettoyage jusqu'aux bords, application réussie, mais de petits obstacles mal détectés, pas de lavage des serpillières à l'eau chaude et des seuils limités à 2 cm. Les qualités et défauts relevés varient donc selon la version : vérifiez la génération proposée par le marchand avant d'acheter.",
++    "date": "2026-11-25",
++    "n": 16,
+     "tests": 24,
+     "sources": [
+      "Les Numériques",
+-     "Frandroid",
+-     "CharlesTech"
++     "L&B Tech",
++     "Notebookcheck"
+     ]
+    }
+   },
+@@ -22725,7 +22733,7 @@
+      "cfg": "",
+      "ean": "6978794732749",
+      "edid": "10016684",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -22869,7 +22877,7 @@
+      "cfg": "",
+      "ean": "6979181924129",
+      "edid": "10020078",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -23057,7 +23065,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 599.0,
++     "price": 539.0,
+      "url": "https://www.amazon.fr/dp/B0FHWP5Y6P?tag=geekconcept-21",
+      "name": "ECOVACS DEEBOT X11 OmniCyclone Robot Aspirateur Laveur",
+      "cfg": "",
+@@ -23180,7 +23188,7 @@
+      }
+     ]
+    },
+-   "prix": 599.0,
++   "prix": 539.0,
+    "img": "ecovacs-deebot-x11.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -23486,7 +23494,7 @@
+       "src": "Gadget Bridge",
+       "score": 8.0,
+       "url": "https://www.gadgetbridge.com/gadget-reviews/dyson-v12-detect-slim-total-clean-review-laser-focus-cleaning/",
+-      "date": ""
++      "date": "2022-03-02"
+      },
+      {
+       "src": "RTings",
+@@ -23861,7 +23869,8 @@
+      "url": "https://www.amazon.fr/dp/B091J115MR?tag=geekconcept-21",
+      "name": "Samsung Jet 90 Complete VS20R9046T3 aspirateur balai sans fil",
+      "cfg": "",
+-     "asin": "B091J115MR"
++     "asin": "B091J115MR",
++     "dispo": false
+     }
+    ],
+    "press": {
+@@ -23954,11 +23963,12 @@
+      "url": "https://www.amazon.fr/dp/B0D6ZB7CMY?tag=geekconcept-21",
+      "name": "Dreame Z30 aspirateur balai sans fil 310 AW",
+      "cfg": "",
+-     "asin": "B0D6ZB7CMY"
++     "asin": "B0D6ZB7CMY",
++     "dispo": false
+     }
+    ],
+    "press": {
+-    "avg": 8.209999999999999,
++    "avg": 8.26,
+     "n": 10,
+     "tests": 13,
+     "scope": "modele",
+@@ -23980,6 +23990,15 @@
+       "date": "2024-07-31",
+       "verifie": "20/11/2026"
+      },
++     {
++      "src": "AndroidWorld",
++      "score": 8.5,
++      "url": "https://www.smartworld.it/recensioni/dreame-z30",
++      "date": "2024-07-10",
++      "avant": 8.0,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
++     },
+      {
+       "src": "LeCafeDuGeek",
+       "score": 8.4,
+@@ -23998,12 +24017,6 @@
+       "corrige": "20/11/2026",
+       "verifie": "20/11/2026"
+      },
+-     {
+-      "src": "AndroidWorld",
+-      "score": 8.0,
+-      "url": "https://www.smartworld.it/recensioni/dreame-z30",
+-      "date": "2024-07-10"
+-     },
+      {
+       "src": "Chip.de",
+       "score": 8.0,
+@@ -24104,7 +24117,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 209.0,
++     "price": 199.0,
+      "url": "https://www.amazon.fr/dp/B0C5MDCNLZ?tag=geekconcept-21",
+      "name": "Dreame R20 aspirateur balai sans fil 190 AW",
+      "cfg": "",
+@@ -24200,7 +24213,7 @@
+     ],
+     "releve_source": "20/11/2026"
+    },
+-   "prix": 209.0,
++   "prix": 199.0,
+    "img": "dreame-r20.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -24248,7 +24261,7 @@
+      "cfg": "",
+      "ean": "6974653813628",
+      "edid": "10020540",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -24343,7 +24356,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 349.0,
++     "price": 289.0,
+      "url": "https://www.amazon.fr/dp/B0DT9Y8RWH?tag=geekconcept-21",
+      "name": "Dreame H15 Pro aspirateur laveur sans fil",
+      "cfg": "",
+@@ -24357,7 +24370,7 @@
+      "cfg": "",
+      "ean": "6977328063854",
+      "edid": "10009023",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -24722,7 +24735,7 @@
+      "cfg": "",
+      "ean": "6976233676067",
+      "edid": "10019413",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -24848,7 +24861,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 229.99,
++     "price": 209.99,
+      "url": "https://www.amazon.fr/dp/B088H28VPM?tag=geekconcept-21",
+      "name": "Tineco Floor One S7 Pro aspirateur laveur sans fil",
+      "cfg": "",
+@@ -24943,7 +24956,7 @@
+      }
+     ]
+    },
+-   "prix": 229.99,
++   "prix": 209.99,
+    "img": "tineco-floor-one-s7-pro.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -24985,7 +24998,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 459.99,
++     "price": 399.99,
+      "url": "https://www.amazon.fr/dp/B0DPP6C5YP?tag=geekconcept-21",
+      "name": "Tineco Floor One S9 Artist aspirateur laveur sans fil",
+      "cfg": "",
+@@ -25113,7 +25126,7 @@
+      }
+     ]
+    },
+-   "prix": 459.99,
++   "prix": 399.99,
+    "img": "tineco-floor-one-s9-artist.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -25155,7 +25168,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 349.0,
++     "price": 279.0,
+      "url": "https://www.amazon.fr/dp/B0FM3HH8NG?tag=geekconcept-21",
+      "name": "Mova M50 Ultra aspirateur laveur sans fil",
+      "cfg": "",
+@@ -25234,7 +25247,7 @@
+     ],
+     "releve_source": "20/11/2026"
+    },
+-   "prix": 349.0,
++   "prix": 279.0,
+    "img": "mova-m50-ultra.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -25412,7 +25425,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 949.0,
++     "price": 699.0,
+      "url": "https://www.amazon.fr/dp/B0GXW3NHKY?tag=geekconcept-21",
+      "name": "Mova V70 Ultra Complete robot aspirateur laveur",
+      "cfg": "",
+@@ -25420,7 +25433,7 @@
+     }
+    ],
+    "press": {
+-    "avg": 8.4,
++    "avg": 8.4125,
+     "n": 8,
+     "tests": 11,
+     "scope": "gamme",
+@@ -25431,15 +25444,19 @@
+     "notes": [
+      {
+       "src": "Basic Tutorials",
+-      "score": 9.4,
++      "score": 9.5,
+       "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/",
+-      "date": "2026-06-03"
++      "date": "2026-06-03",
++      "avant": 9.4,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
+      },
+      {
+       "src": "AndroidWorld",
+       "score": 9.0,
+       "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete",
+-      "date": "2026-05-22"
++      "date": "2026-05-22",
++      "verifie": "25/11/2026"
+      },
+      {
+       "src": "Clubic",
+@@ -25506,7 +25523,7 @@
+      }
+     ]
+    },
+-   "prix": 949.0,
++   "prix": 699.0,
+    "img": "mova-v70-ultra.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -25548,7 +25565,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 1199.0,
++     "price": 919.0,
+      "url": "https://www.amazon.fr/dp/B0H8DJ99LD?tag=geekconcept-21",
+      "name": "DJI ROMO P2 robot aspirateur laveur",
+      "cfg": "",
+@@ -25556,9 +25573,9 @@
+     }
+    ],
+    "press": {
+-    "avg": 9.171428571428573,
++    "avg": 9.271428571428572,
+     "n": 7,
+-    "tests": 9,
++    "tests": 10,
+     "scope": "modele",
+     "src": [
+      "",
+@@ -25613,9 +25630,12 @@
+      },
+      {
+       "src": "AndroidWorld",
+-      "score": 8.0,
++      "score": 8.7,
+       "url": "https://www.smartworld.it/recensioni/dji-romo-p2",
+-      "date": "2026-09-04"
++      "date": "2026-09-04",
++      "avant": 8.0,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
+      },
+      {
+       "src": "Connect.de",
+@@ -25628,10 +25648,18 @@
+       "score": null,
+       "url": "https://www.notebookcheck.com/DJI-hat-es-wieder-getan-Saugroboter-DJI-Romo-2-im-Test.1411937.0.html",
+       "date": ""
++     },
++     {
++      "src": "PC-WELT",
++      "score": null,
++      "url": "https://www.pcwelt.de/article/3287328/test-wischroboter-dji-romo-p2.html",
++      "date": "2026-11-17",
++      "ajout": "25/11/2026"
+      }
+-    ]
++    ],
++    "releve_source": "25/11/2026"
+    },
+-   "prix": 1199.0,
++   "prix": 919.0,
+    "img": "dji-romo-p2.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -25681,7 +25709,7 @@
+     }
+    ],
+    "press": {
+-    "avg": 8.485714285714286,
++    "avg": 8.5,
+     "n": 14,
+     "tests": 17,
+     "scope": "modele",
+@@ -25724,9 +25752,12 @@
+      },
+      {
+       "src": "AndroidWorld",
+-      "score": 9.0,
++      "score": 9.2,
+       "url": "https://www.smartworld.it/recensioni/narwal-flow-2",
+-      "date": "2026-04-20"
++      "date": "2026-04-20",
++      "avant": 9.0,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
+      },
+      {
+       "src": "Presse-citron",
+@@ -25806,7 +25837,7 @@
+       "src": "GameStar",
+       "score": null,
+       "url": "https://www.gamestar.de/artikel/der-narwal-flow-2-ist-der-beste-saugroboter-des-herstellers-aber-reicht-das-noch,3451713.html",
+-      "date": ""
++      "date": "2026-04-21"
+      },
+      {
+       "src": "Vonguru",
+@@ -25821,16 +25852,15 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "TechTest offre le meilleur accueil au Narwal Flow 2 (9,7/10), face à 8 chez 01net et Chip.de. La moyenne des 13 médias ressort à 8,5/10. Entre ces deux pôles, Basic Tutorials, AndroidWorld et CharlesTech se placent dans la zone centrale, la médiane étant à 8. L'écart entre les notes extrêmes est de 1,7 points.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
+-    "date": "2026-10-28",
+-    "n": 13,
++    "texte": "Le Narwal Flow 2 lave avec une serpillière à chenille rincée en continu, et c'est ce que les tests retiennent d'abord. 01net la trouve très efficace sur sols durs et toujours propre grâce au lavage à 60 °C ; Frandroid salue un lavage humide très efficace et une station qui désinfecte à 100 °C puis sèche, si bien que l'entretien devient rare. Sans dôme LiDAR, le robot ne mesure que 9,5 cm de haut, et 01net comme Frandroid louent une navigation fiable et une bonne autonomie.\n\nRTINGS se montre nettement plus critique. Ses essais relèvent des débris le long des plinthes et dans les coins, des poils d'animaux laissés sur les tapis, plusieurs passages nécessaires sur les taches difficiles et une brosse latérale qui s'arrête quand le robot croit être sur un tapis ; il ne cherche pas à nettoyer sous les meubles bas et compte de nombreuses pièces à entretenir. Frandroid rejoint en partie ce constat : rouleau-brosse unique limité sur tapis épais, brosse latérale non extensible pour les angles.\n\nLe bruit divise aussi : 01net et Frandroid le jugent discret, sous 60 dB, quand Neozone relève 72,8 dBA près du robot, tout en appréciant son aspiration et sa gestion des animaux. Tous trouvent l'application un peu brouillonne. Un choix cohérent pour un intérieur surtout en sols durs, moins pour les tapis épais.",
++    "date": "2026-11-25",
++    "n": 14,
+     "tests": 17,
+     "sources": [
+-     "TechTest",
+      "01net",
+-     "Chip.de",
+-     "Basic Tutorials",
+-     "AndroidWorld"
++     "Frandroid",
++     "RTings",
++     "Neozone"
+     ]
+    }
+   },
+@@ -25862,7 +25892,7 @@
+      "cfg": "",
+      "ean": "3700342483376",
+      "edid": "10009171",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -26212,16 +26242,15 @@
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Côté presse, 7 avis chiffrés pour le Ecovacs Deebot T90 Pro Omni, moyenne 8,2/10. Le sommet (9,5) est atteint par TechTest ; le plancher (6) par ImTest. La médiane des notes est de 8/10 ; FrAndroid, Journal du Geek et CharlesTech complètent le panel. L'écart entre les notes extrêmes est de 3,5 points.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.",
+-    "date": "2026-10-28",
+-    "n": 7,
++    "texte": "Les tests s'accordent sur le cœur du T90 Pro Omni : un rouleau de lavage de 27 cm rincé en continu à l'eau propre. Frandroid le juge excellent sur les sols durs et Journal du Geek n'y voit aucune trace sur parquet ni sur lames PVC. Le robot ne mesure qu'environ 9,5 cm de haut, ce qui l'aide à passer sous les meubles, et la recharge PowerBoost (10 % de batterie en trois minutes pendant le rinçage du rouleau) allonge les cycles : Clubic relève près de quatre heures d'autonomie.\n\nLes avis divergent sur l'intelligence embarquée. Frandroid et Journal du Geek décrivent une détection d'obstacles enfin au niveau, câbles mis à part ; Clubic trouve au contraire la navigation parfois chaotique et l'évitement trop prudent, et ImTest a vu un verre transparent poussé à plusieurs reprises. ImTest est aussi le plus sévère sur le nettoyage : bonne aspiration sur sol dur, mais des résidus après le lavage et sur tapis.\n\nAutres réserves : une application touffue et un assistant IA jugé superflu (Frandroid, Clubic), un bac de 250 mL qui multiplie les retours à la station, un manque de mordant sur tapis épais et des angles mal traités, la brosse latérale n'étant pas montée sur un bras extensible (Journal du Geek). Clubic critique aussi la qualité des plastiques. Pour un logement surtout en sols durs, c'est un laveur convaincant ; les tapis épais et les pièces encombrées restent ses points faibles.",
++    "date": "2026-11-25",
++    "n": 8,
+     "tests": 13,
+     "sources": [
+-     "TechTest",
+-     "ImTest",
+      "Frandroid",
+      "Journal du Geek",
+-     "CharlesTech"
++     "Clubic",
++     "ImTest"
+     ]
+    }
+   },
+@@ -26249,7 +26278,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 199.0,
++     "price": 168.0,
+      "url": "https://www.amazon.fr/dp/B0FJFK8H15?tag=geekconcept-21",
+      "name": "Dreame L10s Pro Gen 3 robot aspirateur laveur",
+      "cfg": "",
+@@ -26393,7 +26422,7 @@
+      }
+     ]
+    },
+-   "prix": 199.0,
++   "prix": 168.0,
+    "img": "dreame-l10s-pro-gen-3.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -26439,7 +26468,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 249.0,
++     "price": 189.0,
+      "url": "https://www.amazon.fr/dp/B0D3RGFSRB?tag=geekconcept-21",
+      "name": "Dreame D10 Plus Gen 2 robot aspirateur laveur",
+      "cfg": "",
+@@ -26565,7 +26594,7 @@
+      }
+     ]
+    },
+-   "prix": 249.0,
++   "prix": 189.0,
+    "img": "dreame-d10-plus-gen-2.webp",
+    "rating": null,
+    "nrev": 0,
+@@ -26613,7 +26642,7 @@
+    "offers": [
+     {
+      "m": "Amazon",
+-     "price": 379.99,
++     "price": 589.99,
+      "url": "https://www.amazon.fr/dp/B0GHN39ZGJ?tag=geekconcept-21",
+      "name": "Roborock Qrevo S Pro robot aspirateur laveur",
+      "cfg": "",
+@@ -26621,9 +26650,9 @@
+     }
+    ],
+    "press": {
+-    "avg": 8.42,
+-    "n": 5,
+-    "tests": 9,
++    "avg": 8.416666666666666,
++    "n": 6,
++    "tests": 10,
+     "scope": "gamme",
+     "src": [
+      "",
+@@ -26654,9 +26683,20 @@
+      },
+      {
+       "src": "AndroidWorld",
+-      "score": 8.0,
++      "score": 8.4,
+       "url": "https://www.smartworld.it/recensioni/roborock-qrevo-s-pro",
+-      "date": "2026-04-28"
++      "date": "2026-04-28",
++      "avant": 8.0,
++      "corrige": "25/11/2026",
++      "verifie": "25/11/2026"
++     },
++     {
++      "src": "T3",
++      "score": 8.0,
++      "url": "https://www.t3.com/home-living/vacuum-cleaners/roborock-qrevo-s-pro-review-a-mid-priced-robot-vacuum-and-mop-with-a-high-end-cleaning-performance",
++      "date": "2026-06-22",
++      "ajout": "25/11/2026",
++      "verifie": "25/11/2026"
+      },
+      {
+       "src": "RTings",
+@@ -26693,20 +26733,19 @@
+      }
+     ]
+    },
+-   "prix": 379.99,
++   "prix": 589.99,
+    "img": "roborock-qrevo-s-pro.webp",
+    "rating": null,
+    "nrev": 0,
+    "synthese": {
+-    "texte": "Quatre notes chiffrées, de 6,5 à 9 : Basic Tutorials donne 9, AndroidPit 8, AndroidWorld 7 et RTings 6,5. Les tests portent sur le Qrevo S, dont le Qrevo S Pro reprend la base.\n\nLes tests recensés apprécient le lavage à la vapeur chaude et le séchage à l'air chaud des serpillières, une aspiration de 18 500 Pa, une brosse principale qui évite l'enchevêtrement des cheveux et une application Roborock complète. Ils reprochent un nettoyage des coins et des bords perfectible, une détection d'obstacles limitée, l'absence de reconnaissance 3D des objets et une aspiration qui baisse sur tapis et moquette.\n\nLes notes sont partagées : l'ensemble convainc surtout par sa station complète à ce tarif, avec des limites sur les obstacles et les tapis.",
+-    "date": "2026-10-27",
+-    "n": 4,
+-    "tests": 9,
++    "texte": "Une partie des tests recensés sur cette fiche porte sur le Qrevo S, le modèle précédent ; ceux qui concernent bien le Qrevo S Pro, lancé fin avril 2026, sont résumés ici. Basic Tutorials et AndroidWorld relèvent les mêmes atouts : 18 500 Pa d'aspiration, des serpillières rotatives relevées de 10 mm sur les tapis et une station qui les lave à 75 °C puis les sèche à l'air chaud à 45 °C, un équipement qu'AndroidWorld associe d'ordinaire au haut de gamme.\n\nSur sols durs, Basic Tutorials juge le nettoyage convaincant en aspiration comme en lavage, avec une navigation précise. AndroidWorld est plus mesuré sur le lavage : solide au quotidien, moins efficace sur les taches incrustées ; il note aussi l'absence de reconnaissance 3D des objets et des serpillières que le robot ne peut pas déposer à la station. Les deux tests jugent l'évitement d'obstacles dans la moyenne, et Basic Tutorials ajoute des faiblesses dans les coins et le long des bords.\n\nT3, après deux semaines dans une maison avec de jeunes enfants, souligne une installation bouclée en moins de cinq minutes, une brosse sans cheveux emmêlés et des serpillières restées propres ; la première cartographie a toutefois demandé plusieurs essais à cause d'une porte fermée et de nombreuses chaises. AndroidWorld le conseille aux foyers avec tapis ou animaux ; pour un lavage intensif, il invite à viser plus haut.",
++    "date": "2026-11-25",
++    "n": 6,
++    "tests": 10,
+     "sources": [
+      "Basic Tutorials",
+-     "AndroidPit",
+      "AndroidWorld",
+-     "RTings"
++     "T3"
+     ]
+    }
+   },
+@@ -29084,7 +29123,7 @@
+      "cfg": "",
+      "ean": "6942351417325",
+      "edid": "10011457",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -29207,7 +29246,7 @@
+      "cfg": "",
+      "ean": "8806096058640",
+      "edid": "10015474",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -29923,7 +29962,7 @@
+      "cfg": "",
+      "ean": "1200130034282",
+      "edid": "10018105",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -30446,7 +30485,7 @@
+      "cfg": "",
+      "ean": "1200130024849",
+      "edid": "10013118",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -30595,7 +30634,7 @@
+      "cfg": "",
+      "ean": "1200130018589",
+      "edid": "10005191",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -31548,7 +31587,7 @@
+      "cfg": "",
+      "ean": "4895252501599",
+      "edid": "10009498",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -33019,7 +33058,7 @@
+      "cfg": "",
+      "ean": "0195949689673",
+      "edid": "10008780",
+-     "releve": "2026-11-20"
++     "releve": "2026-11-25"
+     }
+    ],
+    "press": {
+@@ -43969,10 +44008,10 @@
+    "tente": "2026-11-06"
+   },
+   "robot": {
+-   "date": "27/10/2026",
+-   "prix_date": "octobre 2026",
+-   "iso": "2026-10-27",
+-   "tente": "2026-10-27"
++   "date": "25/11/2026",
++   "prix_date": "novembre 2026",
++   "iso": "2026-11-25",
++   "tente": "2026-11-25"
+   },
+   "tv": {
+    "date": "04/11/2026",
+@@ -43995,7 +44034,7 @@
+  },
+  "dates": {
+   "Acer Store": "20/11/2026",
+-  "Amazon": "20/11/2026"
++  "Amazon": "25/11/2026"
+  },
+  "bf_actif": true
+ }
+diff --git a/_source/manuel_amz_robot.json b/_source/manuel_amz_robot.json
+new file mode 100644
+index 0000000..9051695
+--- /dev/null
++++ b/_source/manuel_amz_robot.json
+@@ -0,0 +1,24 @@
++[
++{"id":"roborock-saros-20","j":0,"price":749.0},
++{"id":"mova-z60-ultra","j":0,"price":445.55},
++{"id":"narwal-freo-z10-ultra","j":0,"price":429.0},
++{"id":"dreame-x50-ultra-complete","j":0,"price":569.05,"confirme":true},
++{"id":"ecovacs-deebot-x11","j":0,"price":539.0},
++{"id":"dyson-v11-absolute","j":0,"status":"marketplace","note":"seller=M MILO CINZIA 739 EUR, relevé 25/11/2026"},
++{"id":"dyson-v15-detect-absolute","j":0,"status":"marketplace","note":"seller=TrendShop OG 599 EUR, relevé 25/11/2026"},
++{"id":"dyson-v12-detect-slim","j":0,"status":"marketplace","note":"seller=DEALS 4 LIFE 649 EUR, relevé 25/11/2026"},
++{"id":"samsung-bespoke-jet","j":0,"status":"marketplace","note":"seller=EDV-Service Stadlauer 529 EUR, relevé 25/11/2026"},
++{"id":"samsung-jet-90","j":0,"status":"indispo","note":"occasion seulement (Amazon Seconde main), relevé 25/11/2026"},
++{"id":"dreame-z30","j":0,"status":"indispo","note":"occasion seulement (Amazon Seconde main), relevé 25/11/2026"},
++{"id":"dreame-r20","j":0,"price":199.0},
++{"id":"dreame-h15-pro","j":0,"price":289.0},
++{"id":"tineco-floor-one-s7-pro","j":0,"price":209.99},
++{"id":"tineco-floor-one-s9-artist","j":0,"price":399.99},
++{"id":"mova-m50-ultra","j":0,"price":279.0},
++{"id":"mova-v70-ultra","j":0,"price":699.0},
++{"id":"dji-romo-p2","j":0,"price":919.0},
++{"id":"roborock-saros-10r","j":0,"status":"marketplace","note":"seller=MK trading (expédié par Amazon) 987.78 EUR, relevé 25/11/2026"},
++{"id":"dreame-l10s-pro-gen-3","j":0,"price":168.0},
++{"id":"dreame-d10-plus-gen-2","j":0,"price":189.0},
++{"id":"roborock-qrevo-s-pro","j":0,"price":589.99,"confirme":true}
++]
+diff --git a/_source/syntheses_usages.json b/_source/syntheses_usages.json
+index fd63161..d59fb4c 100644
+--- a/_source/syntheses_usages.json
++++ b/_source/syntheses_usages.json
+@@ -12,13 +12,12 @@
+  },
+  {
+   "id": "narwal-flow-2",
+-  "texte": "TechTest offre le meilleur accueil au Narwal Flow 2 (9,7/10), face à 8 chez 01net et Chip.de. La moyenne des 13 médias ressort à 8,5/10. Entre ces deux pôles, Basic Tutorials, AndroidWorld et CharlesTech se placent dans la zone centrale, la médiane étant à 8. L'écart entre les notes extrêmes est de 1,7 points.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
++  "texte": "Le Narwal Flow 2 lave avec une serpillière à chenille rincée en continu, et c'est ce que les tests retiennent d'abord. 01net la trouve très efficace sur sols durs et toujours propre grâce au lavage à 60 °C ; Frandroid salue un lavage humide très efficace et une station qui désinfecte à 100 °C puis sèche, si bien que l'entretien devient rare. Sans dôme LiDAR, le robot ne mesure que 9,5 cm de haut, et 01net comme Frandroid louent une navigation fiable et une bonne autonomie.\n\nRTINGS se montre nettement plus critique. Ses essais relèvent des débris le long des plinthes et dans les coins, des poils d'animaux laissés sur les tapis, plusieurs passages nécessaires sur les taches difficiles et une brosse latérale qui s'arrête quand le robot croit être sur un tapis ; il ne cherche pas à nettoyer sous les meubles bas et compte de nombreuses pièces à entretenir. Frandroid rejoint en partie ce constat : rouleau-brosse unique limité sur tapis épais, brosse latérale non extensible pour les angles.\n\nLe bruit divise aussi : 01net et Frandroid le jugent discret, sous 60 dB, quand Neozone relève 72,8 dBA près du robot, tout en appréciant son aspiration et sa gestion des animaux. Tous trouvent l'application un peu brouillonne. Un choix cohérent pour un intérieur surtout en sols durs, moins pour les tapis épais.",
+   "sources": [
+-   "TechTest",
+    "01net",
+-   "Chip.de",
+-   "Basic Tutorials",
+-   "AndroidWorld"
++   "Frandroid",
++   "RTings",
++   "Neozone"
+   ]
+  },
+  {
+@@ -214,13 +213,39 @@
+  },
+  {
+   "id": "ecovacs-deebot-t90-pro-omni",
+-  "texte": "Côté presse, 7 avis chiffrés pour le Ecovacs Deebot T90 Pro Omni, moyenne 8,2/10. Le sommet (9,5) est atteint par TechTest ; le plancher (6) par ImTest. La médiane des notes est de 8/10 ; FrAndroid, Journal du Geek et CharlesTech complètent le panel. L'écart entre les notes extrêmes est de 3,5 points.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.",
++  "texte": "Les tests s'accordent sur le cœur du T90 Pro Omni : un rouleau de lavage de 27 cm rincé en continu à l'eau propre. Frandroid le juge excellent sur les sols durs et Journal du Geek n'y voit aucune trace sur parquet ni sur lames PVC. Le robot ne mesure qu'environ 9,5 cm de haut, ce qui l'aide à passer sous les meubles, et la recharge PowerBoost (10 % de batterie en trois minutes pendant le rinçage du rouleau) allonge les cycles : Clubic relève près de quatre heures d'autonomie.\n\nLes avis divergent sur l'intelligence embarquée. Frandroid et Journal du Geek décrivent une détection d'obstacles enfin au niveau, câbles mis à part ; Clubic trouve au contraire la navigation parfois chaotique et l'évitement trop prudent, et ImTest a vu un verre transparent poussé à plusieurs reprises. ImTest est aussi le plus sévère sur le nettoyage : bonne aspiration sur sol dur, mais des résidus après le lavage et sur tapis.\n\nAutres réserves : une application touffue et un assistant IA jugé superflu (Frandroid, Clubic), un bac de 250 mL qui multiplie les retours à la station, un manque de mordant sur tapis épais et des angles mal traités, la brosse latérale n'étant pas montée sur un bras extensible (Journal du Geek). Clubic critique aussi la qualité des plastiques. Pour un logement surtout en sols durs, c'est un laveur convaincant ; les tapis épais et les pièces encombrées restent ses points faibles.",
+   "sources": [
+-   "TechTest",
+-   "ImTest",
+    "Frandroid",
+    "Journal du Geek",
+-   "CharlesTech"
++   "Clubic",
++   "ImTest"
+   ]
++ },
++ {
++  "id": "dreame-x50-ultra-complete",
++  "sources": [
++   "Presse-citron",
++   "Chip.de",
++   "Tech Advisor"
++  ],
++  "texte": "Le X50 Ultra Complete se distingue par ses pattes motorisées qui le hissent sur les seuils. Presse-citron mesure 42 mm en une fois et jusqu'à 60 mm sur un double seuil, Tech Advisor obtient 4,2 cm sur une marche et 6 cm en marches enchaînées, et Chip.de retient lui aussi 42 mm. Sa tourelle LiDAR escamotable lui permet en outre de se glisser sous des meubles bas.\n\nSur le nettoyage, les trois tests sont élogieux. Chip.de mesure 76,4 % de poussière ramassée au réglage maximal et juge le lavage très bon sur les taches du quotidien ; Tech Advisor décrit un robot qui aspire et lave bien en demandant très peu d'interventions. La station rince les serpillières à 80 °C, les sèche et traite l'eau aux UV. Presse-citron nuance : face aux taches tenaces, il peine davantage que les modèles à serpillière vibrante.\n\nLes reproches se recoupent. La détection d'obstacles reste perfectible : Chip.de l'a vu emporter des briques Lego et Tech Advisor signale des câbles encore gênants. Le robot prend son temps, l'autonomie est jugée courte (environ 89 minutes au maximum chez Chip.de) et la détection des tapis dans l'application manque de fiabilité selon Tech Advisor. La station est encombrante. Un modèle pour qui veut automatiser au maximum un logement à seuils, en acceptant des cycles assez longs."
++ },
++ {
++  "id": "roborock-qrevo-s-pro",
++  "sources": [
++   "Basic Tutorials",
++   "AndroidWorld",
++   "T3"
++  ],
++  "texte": "Une partie des tests recensés sur cette fiche porte sur le Qrevo S, le modèle précédent ; ceux qui concernent bien le Qrevo S Pro, lancé fin avril 2026, sont résumés ici. Basic Tutorials et AndroidWorld relèvent les mêmes atouts : 18 500 Pa d'aspiration, des serpillières rotatives relevées de 10 mm sur les tapis et une station qui les lave à 75 °C puis les sèche à l'air chaud à 45 °C, un équipement qu'AndroidWorld associe d'ordinaire au haut de gamme.\n\nSur sols durs, Basic Tutorials juge le nettoyage convaincant en aspiration comme en lavage, avec une navigation précise. AndroidWorld est plus mesuré sur le lavage : solide au quotidien, moins efficace sur les taches incrustées ; il note aussi l'absence de reconnaissance 3D des objets et des serpillières que le robot ne peut pas déposer à la station. Les deux tests jugent l'évitement d'obstacles dans la moyenne, et Basic Tutorials ajoute des faiblesses dans les coins et le long des bords.\n\nT3, après deux semaines dans une maison avec de jeunes enfants, souligne une installation bouclée en moins de cinq minutes, une brosse sans cheveux emmêlés et des serpillières restées propres ; la première cartographie a toutefois demandé plusieurs essais à cause d'une porte fermée et de nombreuses chaises. AndroidWorld le conseille aux foyers avec tapis ou animaux ; pour un lavage intensif, il invite à viser plus haut."
++ },
++ {
++  "id": "dreame-l10s-ultra",
++  "sources": [
++   "Les Numériques",
++   "L&B Tech",
++   "Notebookcheck"
++  ],
++  "texte": "Cette fiche réunit des tests de trois générations du L10s Ultra : la version d'origine de 2022, la Gen 2 et la Gen 3. Elles partagent le principe d'une station qui vide le robot, remplit son réservoir et lave ses serpillières, mais l'aspiration a beaucoup progressé, de 5 300 Pa à l'origine à 10 000 Pa pour la Gen 2 et 25 000 Pa pour la Gen 3.\n\nSur la première version, Les Numériques salue une base très complète, une navigation sans faute et une bonne aspiration (environ 95 % des grains ramassés sur moquette fine), avec 3 h 16 d'autonomie en mode standard ; le lavage déçoit et la brosse latérale éjecte des débris. L&B Tech recommande la Gen 2 aux familles : aspiration efficace, obstacles bien contournés, seuils franchis jusqu'à 20 mm, mais une station volumineuse et un robot bruyant à pleine puissance, pendant la vidange et pendant le séchage.\n\nNotebookcheck juge la Gen 3 solide plutôt que brillante : forte aspiration adaptée aux tapis, nettoyage jusqu'aux bords, application réussie, mais de petits obstacles mal détectés, pas de lavage des serpillières à l'eau chaude et des seuils limités à 2 cm. Les qualités et défauts relevés varient donc selon la version : vérifiez la génération proposée par le marchand avant d'acheter."
+  }
+-]
+\ No newline at end of file
++]
