@@ -510,9 +510,12 @@
    },
    {
     "media": "AndroidWorld",
-    "note10": 8.0,
+    "note10": 8.5,
     "date": "10/07/2024",
-    "url": "https://www.smartworld.it/recensioni/dreame-z30"
+    "url": "https://www.smartworld.it/recensioni/dreame-z30",
+    "avant": 8.0,
+    "corrige": "25/11/2026",
+    "verifie": "25/11/2026"
    },
    {
     "media": "AndroidWorld",
@@ -1458,7 +1461,10 @@
     "media": "Basic Tutorials",
     "note10": 9.5,
     "date": "03/06/2026",
-    "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/"
+    "url": "https://basic-tutorials.de/tests/technik-gadgets/mova-v70-ultra-complete-test/",
+    "avant": 9.5,
+    "corrige": "25/11/2026",
+    "verifie": "25/11/2026"
    },
    {
     "media": "Basic Tutorials",
@@ -1470,7 +1476,8 @@
     "media": "AndroidWorld",
     "note10": 9.0,
     "date": "22/05/2026",
-    "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete"
+    "url": "https://www.smartworld.it/recensioni/mova-v70-ultra-complete",
+    "verifie": "25/11/2026"
    },
    {
     "media": "Frandroid",
@@ -1585,9 +1592,12 @@
    },
    {
     "media": "AndroidWorld",
-    "note10": 8.0,
+    "note10": 8.7,
     "date": "04/09/2026",
-    "url": "https://www.smartworld.it/recensioni/dji-romo-p2"
+    "url": "https://www.smartworld.it/recensioni/dji-romo-p2",
+    "avant": 8.0,
+    "corrige": "25/11/2026",
+    "verifie": "25/11/2026"
    },
    {
     "media": "Les Numériques",
@@ -1638,9 +1648,12 @@
    },
    {
     "media": "AndroidWorld",
-    "note10": 9.0,
+    "note10": 9.2,
     "date": "20/04/2026",
-    "url": "https://www.smartworld.it/recensioni/narwal-flow-2"
+    "url": "https://www.smartworld.it/recensioni/narwal-flow-2",
+    "avant": 9.0,
+    "corrige": "25/11/2026",
+    "verifie": "25/11/2026"
    },
    {
     "media": "CharlesTech",
@@ -2295,9 +2308,12 @@
    },
    {
     "media": "AndroidWorld",
-    "note10": 8.0,
+    "note10": 8.4,
     "date": "28/04/2026",
-    "url": "https://www.smartworld.it/recensioni/roborock-qrevo-s-pro"
+    "url": "https://www.smartworld.it/recensioni/roborock-qrevo-s-pro",
+    "avant": 8.0,
+    "corrige": "25/11/2026",
+    "verifie": "25/11/2026"
    },
    {
     "media": "RTings",

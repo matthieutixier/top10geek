@@ -12,13 +12,12 @@
  },
  {
   "id": "narwal-flow-2",
-  "texte": "TechTest offre le meilleur accueil au Narwal Flow 2 (9,7/10), face à 8 chez 01net et Chip.de. La moyenne des 13 médias ressort à 8,5/10. Entre ces deux pôles, Basic Tutorials, AndroidWorld et CharlesTech se placent dans la zone centrale, la médiane étant à 8. L'écart entre les notes extrêmes est de 1,7 points.\n\nLes points cités par les tests sont une aspiration de 31 000 Pa, des rouleaux de lavage à la place des tampons, la détection d'obstacles Narmind 2.0 et le design de la station. Les réserves : une brosse latérale non rétractable, un auto-nettoyage de la base jugé insuffisant, un franchissement de seuils élevés limité et un rouleau que le robot ne peut pas protéger sur les tapis.",
+  "texte": "Le Narwal Flow 2 lave avec une serpillière à chenille rincée en continu, et c'est ce que les tests retiennent d'abord. 01net la trouve très efficace sur sols durs et toujours propre grâce au lavage à 60 °C ; Frandroid salue un lavage humide très efficace et une station qui désinfecte à 100 °C puis sèche, si bien que l'entretien devient rare. Sans dôme LiDAR, le robot ne mesure que 9,5 cm de haut, et 01net comme Frandroid louent une navigation fiable et une bonne autonomie.\n\nRTINGS se montre nettement plus critique. Ses essais relèvent des débris le long des plinthes et dans les coins, des poils d'animaux laissés sur les tapis, plusieurs passages nécessaires sur les taches difficiles et une brosse latérale qui s'arrête quand le robot croit être sur un tapis ; il ne cherche pas à nettoyer sous les meubles bas et compte de nombreuses pièces à entretenir. Frandroid rejoint en partie ce constat : rouleau-brosse unique limité sur tapis épais, brosse latérale non extensible pour les angles.\n\nLe bruit divise aussi : 01net et Frandroid le jugent discret, sous 60 dB, quand Neozone relève 72,8 dBA près du robot, tout en appréciant son aspiration et sa gestion des animaux. Tous trouvent l'application un peu brouillonne. Un choix cohérent pour un intérieur surtout en sols durs, moins pour les tapis épais.",
   "sources": [
-   "TechTest",
    "01net",
-   "Chip.de",
-   "Basic Tutorials",
-   "AndroidWorld"
+   "Frandroid",
+   "RTings",
+   "Neozone"
   ]
  },
  {
@@ -214,13 +213,39 @@
  },
  {
   "id": "ecovacs-deebot-t90-pro-omni",
-  "texte": "Côté presse, 7 avis chiffrés pour le Ecovacs Deebot T90 Pro Omni, moyenne 8,2/10. Le sommet (9,5) est atteint par TechTest ; le plancher (6) par ImTest. La médiane des notes est de 8/10 ; FrAndroid, Journal du Geek et CharlesTech complètent le panel. L'écart entre les notes extrêmes est de 3,5 points.\n\nLes tests recensés apprécient le lavage au rouleau, la navigation efficace, la station Omni très complète et autonome, le franchissement de seuils jusqu'à 4 cm et une aspiration de 30 000 Pa dont le bruit reste bien géré. Ils reprochent un nettoyage perfectible dans les coins et le long des murs, une brosse latérale non extensible, un manque de puissance sur les tapis épais, un bac embarqué de 250 mL qui multiplie les retours à la station et une application riche mais touffue.",
+  "texte": "Les tests s'accordent sur le cœur du T90 Pro Omni : un rouleau de lavage de 27 cm rincé en continu à l'eau propre. Frandroid le juge excellent sur les sols durs et Journal du Geek n'y voit aucune trace sur parquet ni sur lames PVC. Le robot ne mesure qu'environ 9,5 cm de haut, ce qui l'aide à passer sous les meubles, et la recharge PowerBoost (10 % de batterie en trois minutes pendant le rinçage du rouleau) allonge les cycles : Clubic relève près de quatre heures d'autonomie.\n\nLes avis divergent sur l'intelligence embarquée. Frandroid et Journal du Geek décrivent une détection d'obstacles enfin au niveau, câbles mis à part ; Clubic trouve au contraire la navigation parfois chaotique et l'évitement trop prudent, et ImTest a vu un verre transparent poussé à plusieurs reprises. ImTest est aussi le plus sévère sur le nettoyage : bonne aspiration sur sol dur, mais des résidus après le lavage et sur tapis.\n\nAutres réserves : une application touffue et un assistant IA jugé superflu (Frandroid, Clubic), un bac de 250 mL qui multiplie les retours à la station, un manque de mordant sur tapis épais et des angles mal traités, la brosse latérale n'étant pas montée sur un bras extensible (Journal du Geek). Clubic critique aussi la qualité des plastiques. Pour un logement surtout en sols durs, c'est un laveur convaincant ; les tapis épais et les pièces encombrées restent ses points faibles.",
   "sources": [
-   "TechTest",
-   "ImTest",
    "Frandroid",
    "Journal du Geek",
-   "CharlesTech"
+   "Clubic",
+   "ImTest"
   ]
+ },
+ {
+  "id": "dreame-x50-ultra-complete",
+  "sources": [
+   "Presse-citron",
+   "Chip.de",
+   "Tech Advisor"
+  ],
+  "texte": "Le X50 Ultra Complete se distingue par ses pattes motorisées qui le hissent sur les seuils. Presse-citron mesure 42 mm en une fois et jusqu'à 60 mm sur un double seuil, Tech Advisor obtient 4,2 cm sur une marche et 6 cm en marches enchaînées, et Chip.de retient lui aussi 42 mm. Sa tourelle LiDAR escamotable lui permet en outre de se glisser sous des meubles bas.\n\nSur le nettoyage, les trois tests sont élogieux. Chip.de mesure 76,4 % de poussière ramassée au réglage maximal et juge le lavage très bon sur les taches du quotidien ; Tech Advisor décrit un robot qui aspire et lave bien en demandant très peu d'interventions. La station rince les serpillières à 80 °C, les sèche et traite l'eau aux UV. Presse-citron nuance : face aux taches tenaces, il peine davantage que les modèles à serpillière vibrante.\n\nLes reproches se recoupent. La détection d'obstacles reste perfectible : Chip.de l'a vu emporter des briques Lego et Tech Advisor signale des câbles encore gênants. Le robot prend son temps, l'autonomie est jugée courte (environ 89 minutes au maximum chez Chip.de) et la détection des tapis dans l'application manque de fiabilité selon Tech Advisor. La station est encombrante. Un modèle pour qui veut automatiser au maximum un logement à seuils, en acceptant des cycles assez longs."
+ },
+ {
+  "id": "roborock-qrevo-s-pro",
+  "sources": [
+   "Basic Tutorials",
+   "AndroidWorld",
+   "T3"
+  ],
+  "texte": "Une partie des tests recensés sur cette fiche porte sur le Qrevo S, le modèle précédent ; ceux qui concernent bien le Qrevo S Pro, lancé fin avril 2026, sont résumés ici. Basic Tutorials et AndroidWorld relèvent les mêmes atouts : 18 500 Pa d'aspiration, des serpillières rotatives relevées de 10 mm sur les tapis et une station qui les lave à 75 °C puis les sèche à l'air chaud à 45 °C, un équipement qu'AndroidWorld associe d'ordinaire au haut de gamme.\n\nSur sols durs, Basic Tutorials juge le nettoyage convaincant en aspiration comme en lavage, avec une navigation précise. AndroidWorld est plus mesuré sur le lavage : solide au quotidien, moins efficace sur les taches incrustées ; il note aussi l'absence de reconnaissance 3D des objets et des serpillières que le robot ne peut pas déposer à la station. Les deux tests jugent l'évitement d'obstacles dans la moyenne, et Basic Tutorials ajoute des faiblesses dans les coins et le long des bords.\n\nT3, après deux semaines dans une maison avec de jeunes enfants, souligne une installation bouclée en moins de cinq minutes, une brosse sans cheveux emmêlés et des serpillières restées propres ; la première cartographie a toutefois demandé plusieurs essais à cause d'une porte fermée et de nombreuses chaises. AndroidWorld le conseille aux foyers avec tapis ou animaux ; pour un lavage intensif, il invite à viser plus haut."
+ },
+ {
+  "id": "dreame-l10s-ultra",
+  "sources": [
+   "Les Numériques",
+   "L&B Tech",
+   "Notebookcheck"
+  ],
+  "texte": "Cette fiche réunit des tests de trois générations du L10s Ultra : la version d'origine de 2022, la Gen 2 et la Gen 3. Elles partagent le principe d'une station qui vide le robot, remplit son réservoir et lave ses serpillières, mais l'aspiration a beaucoup progressé, de 5 300 Pa à l'origine à 10 000 Pa pour la Gen 2 et 25 000 Pa pour la Gen 3.\n\nSur la première version, Les Numériques salue une base très complète, une navigation sans faute et une bonne aspiration (environ 95 % des grains ramassés sur moquette fine), avec 3 h 16 d'autonomie en mode standard ; le lavage déçoit et la brosse latérale éjecte des débris. L&B Tech recommande la Gen 2 aux familles : aspiration efficace, obstacles bien contournés, seuils franchis jusqu'à 20 mm, mais une station volumineuse et un robot bruyant à pleine puissance, pendant la vidange et pendant le séchage.\n\nNotebookcheck juge la Gen 3 solide plutôt que brillante : forte aspiration adaptée aux tapis, nettoyage jusqu'aux bords, application réussie, mais de petits obstacles mal détectés, pas de lavage des serpillières à l'eau chaude et des seuils limités à 2 cm. Les qualités et défauts relevés varient donc selon la version : vérifiez la génération proposée par le marchand avant d'acheter."
  }
 ]
