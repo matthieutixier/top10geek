@@ -1,35 +1,35 @@
 {
 "": {
-"d": "2026-11-25",
-"h": "d5f542a14c1f"
+"d": "2026-11-26",
+"h": "298c4e17213e"
 },
 "a-propos": {
 "d": "2026-10-30",
 "h": "d21f16c1c7e5"
 },
 "aspirateur-robot/": {
-"d": "2026-11-25",
-"h": "1d82b8639109"
+"d": "2026-11-26",
+"h": "cbcd3914895b"
 },
 "aspirateur-robot/aspirateurs-balais-laveurs/": {
 "d": "2026-11-25",
 "h": "464f5ea1514f"
 },
 "aspirateur-robot/aspirateurs-balais/": {
-"d": "2026-11-25",
-"h": "0ac9ed0e4a62"
+"d": "2026-11-26",
+"h": "5606d32561ef"
 },
 "aspirateur-robot/dji-romo-p2/": {
-"d": "2026-11-25",
-"h": "efa06ff8c795"
+"d": "2026-11-26",
+"h": "0d8b5ca2e106"
 },
 "aspirateur-robot/dreame-aqua10-ultra/": {
-"d": "2026-11-25",
-"h": "7b3db92cd3df"
+"d": "2026-11-26",
+"h": "cd74c40f190f"
 },
 "aspirateur-robot/dreame-d10-plus-gen-2/": {
-"d": "2026-11-25",
-"h": "f55f09c0b837"
+"d": "2026-11-26",
+"h": "df6209ab8e36"
 },
 "aspirateur-robot/dreame-h12-pro/": {
 "d": "2026-11-25",
@@ -44,56 +44,56 @@
 "h": "c24c4deb4845"
 },
 "aspirateur-robot/dreame-l10s-pro-gen-3/": {
-"d": "2026-11-25",
-"h": "2f1693c1142e"
+"d": "2026-11-26",
+"h": "b00c31a993b0"
 },
 "aspirateur-robot/dreame-l10s-ultra/": {
-"d": "2026-11-25",
-"h": "05cb50550bb0"
+"d": "2026-11-26",
+"h": "f351977c3c63"
 },
 "aspirateur-robot/dreame-l40-ultra/": {
-"d": "2026-11-25",
-"h": "dbfea8064dcc"
+"d": "2026-11-26",
+"h": "eaad91f345d9"
 },
 "aspirateur-robot/dreame-r20/": {
-"d": "2026-11-25",
-"h": "07ee440a9dd0"
+"d": "2026-11-26",
+"h": "88f6aeb68f98"
 },
 "aspirateur-robot/dreame-x50-ultra-complete/": {
-"d": "2026-11-25",
-"h": "8bfaddba0aad"
+"d": "2026-11-26",
+"h": "3147d2d74aa5"
 },
 "aspirateur-robot/dreame-z30/": {
-"d": "2026-11-25",
-"h": "b84ebb971cd4"
+"d": "2026-11-26",
+"h": "0750afd0c86e"
 },
 "aspirateur-robot/dyson-v11-absolute/": {
-"d": "2026-11-25",
-"h": "8ef59cf948e4"
+"d": "2026-11-26",
+"h": "9dbfa4eaba6f"
 },
 "aspirateur-robot/dyson-v12-detect-slim/": {
-"d": "2026-11-25",
-"h": "1259654365f9"
+"d": "2026-11-26",
+"h": "ca76e8470f28"
 },
 "aspirateur-robot/dyson-v15-detect-absolute/": {
-"d": "2026-11-25",
-"h": "1423ce199bf9"
+"d": "2026-11-26",
+"h": "8695b7b3d4b7"
 },
 "aspirateur-robot/dyson-v16-piston-animal/": {
-"d": "2026-11-25",
-"h": "026b3f7c1d9b"
+"d": "2026-11-26",
+"h": "f8ac6025536f"
 },
 "aspirateur-robot/ecovacs-deebot-t90-pro-omni/": {
 "d": "2026-11-25",
 "h": "af94dbf2ba12"
 },
 "aspirateur-robot/ecovacs-deebot-x11/": {
-"d": "2026-11-25",
-"h": "d2f25719eda6"
+"d": "2026-11-26",
+"h": "a2520f2b1405"
 },
 "aspirateur-robot/mova-e40-ultra/": {
-"d": "2026-11-25",
-"h": "25f639cf6935"
+"d": "2026-11-26",
+"h": "4a121c249dea"
 },
 "aspirateur-robot/mova-m50-ultra/": {
 "d": "2026-11-25",
@@ -104,60 +104,60 @@
 "h": "2e6861f753a6"
 },
 "aspirateur-robot/mova-z60-ultra/": {
-"d": "2026-11-25",
-"h": "1028a8e39035"
+"d": "2026-11-26",
+"h": "c1a1d50a9b96"
 },
 "aspirateur-robot/narwal-flow-2/": {
 "d": "2026-11-25",
 "h": "216ac9444d80"
 },
 "aspirateur-robot/narwal-freo-z10-ultra/": {
-"d": "2026-11-25",
-"h": "c8d01b83b3df"
+"d": "2026-11-26",
+"h": "49977e40001e"
 },
 "aspirateur-robot/petit-prix/": {
-"d": "2026-11-25",
-"h": "80d10a4c26e3"
+"d": "2026-11-26",
+"h": "ca84dbc845dd"
 },
 "aspirateur-robot/roborock-h60-hub/": {
-"d": "2026-11-25",
-"h": "00d1afe79a5b"
+"d": "2026-11-26",
+"h": "24e81ce2699c"
 },
 "aspirateur-robot/roborock-qrevo-curv-2/": {
-"d": "2026-11-25",
-"h": "8210a3ea9bf5"
+"d": "2026-11-26",
+"h": "423018875578"
 },
 "aspirateur-robot/roborock-qrevo-maxv/": {
 "d": "2026-11-25",
 "h": "169173a1846d"
 },
 "aspirateur-robot/roborock-qrevo-s-pro/": {
-"d": "2026-11-25",
-"h": "02459b3fcf8a"
+"d": "2026-11-26",
+"h": "d5f9bdff8c1a"
 },
 "aspirateur-robot/roborock-saros-10r/": {
 "d": "2026-11-25",
 "h": "1dfaaddd04f0"
 },
 "aspirateur-robot/roborock-saros-20/": {
-"d": "2026-11-25",
-"h": "5a6db6026a7b"
+"d": "2026-11-26",
+"h": "987169282f38"
 },
 "aspirateur-robot/robots-aspirateurs-animaux/": {
-"d": "2026-11-25",
-"h": "8afa69d9ce03"
+"d": "2026-11-26",
+"h": "1842f9f49575"
 },
 "aspirateur-robot/robots-aspirateurs-laveurs/": {
-"d": "2026-11-25",
-"h": "4705189a17f1"
+"d": "2026-11-26",
+"h": "435435591940"
 },
 "aspirateur-robot/samsung-bespoke-jet/": {
-"d": "2026-11-25",
-"h": "777d08771215"
+"d": "2026-11-26",
+"h": "2b32084db2bd"
 },
 "aspirateur-robot/samsung-jet-90/": {
-"d": "2026-11-25",
-"h": "1d897e9df229"
+"d": "2026-11-26",
+"h": "9f71e90ff119"
 },
 "aspirateur-robot/tineco-floor-one-s7-pro/": {
 "d": "2026-11-25",
@@ -377,7 +377,7 @@
 },
 "black-friday/": {
 "d": "2026-11-26",
-"h": "ac2fef094e5c"
+"h": "a82f393f7147"
 },
 "ecran-pc/": {
 "d": "2026-11-20",
@@ -500,8 +500,8 @@
 "h": "1f6ff850508f"
 },
 "etude-notes-presse/": {
-"d": "2026-11-25",
-"h": "467f69773199"
+"d": "2026-11-26",
+"h": "008dd32a7e86"
 },
 "imprimante/": {
 "d": "2026-11-25",
@@ -560,8 +560,8 @@
 "h": "3bb8f8bf5af3"
 },
 "methode": {
-"d": "2026-11-25",
-"h": "002dac1133b9"
+"d": "2026-11-26",
+"h": "45e59637c1f9"
 },
 "ordinateur-de-bureau/": {
 "d": "2026-11-20",

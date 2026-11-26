@@ -1,24 +1,5 @@
 [
-{"id":"roborock-saros-20","j":0,"price":749.0},
-{"id":"mova-z60-ultra","j":0,"price":445.55},
-{"id":"narwal-freo-z10-ultra","j":0,"price":429.0},
-{"id":"dreame-x50-ultra-complete","j":0,"price":569.05,"confirme":true},
-{"id":"ecovacs-deebot-x11","j":0,"price":539.0},
-{"id":"dyson-v11-absolute","j":0,"status":"marketplace","note":"seller=M MILO CINZIA 739 EUR, relevé 25/11/2026"},
-{"id":"dyson-v15-detect-absolute","j":0,"status":"marketplace","note":"seller=TrendShop OG 599 EUR, relevé 25/11/2026"},
-{"id":"dyson-v12-detect-slim","j":0,"status":"marketplace","note":"seller=DEALS 4 LIFE 649 EUR, relevé 25/11/2026"},
-{"id":"samsung-bespoke-jet","j":0,"status":"marketplace","note":"seller=EDV-Service Stadlauer 529 EUR, relevé 25/11/2026"},
-{"id":"samsung-jet-90","j":0,"status":"indispo","note":"occasion seulement (Amazon Seconde main), relevé 25/11/2026"},
-{"id":"dreame-z30","j":0,"status":"indispo","note":"occasion seulement (Amazon Seconde main), relevé 25/11/2026"},
-{"id":"dreame-r20","j":0,"price":199.0},
-{"id":"dreame-h15-pro","j":0,"price":289.0},
-{"id":"tineco-floor-one-s7-pro","j":0,"price":209.99},
-{"id":"tineco-floor-one-s9-artist","j":0,"price":399.99},
-{"id":"mova-m50-ultra","j":0,"price":279.0},
-{"id":"mova-v70-ultra","j":0,"price":699.0},
-{"id":"dji-romo-p2","j":0,"price":919.0},
-{"id":"roborock-saros-10r","j":0,"status":"marketplace","note":"seller=MK trading (expédié par Amazon) 987.78 EUR, relevé 25/11/2026"},
-{"id":"dreame-l10s-pro-gen-3","j":0,"price":168.0},
-{"id":"dreame-d10-plus-gen-2","j":0,"price":189.0},
-{"id":"roborock-qrevo-s-pro","j":0,"price":589.99,"confirme":true}
+{"id":"roborock-qrevo-curv-2","j":0,"price":549.0},
+{"id":"roborock-saros-20","j":0,"price":799.0},
+{"id":"dreame-z30","j":0,"price":254.99}
 ]

@@ -24,9 +24,12 @@
    },
    {
     "media": "L&B Tech",
-    "note10": 10.0,
+    "note10": 8.3,
     "date": "01/09/2022",
-    "url": "https://www.lbtechreviews.com/test/smart-home/dyson-v15-detect-absolute"
+    "url": "https://www.lbtechreviews.com/test/smart-home/dyson-v15-detect-absolute",
+    "avant": 10.0,
+    "corrige": "26/11/2026",
+    "verifie": "26/11/2026"
    },
    {
     "media": "Chip.de",
@@ -459,9 +462,12 @@
   "tests": [
    {
     "media": "L&B Tech",
-    "note10": 10.0,
+    "note10": 8.3,
     "date": "26/08/2025",
-    "url": "https://www.lbtechreviews.com/test/smart-home/dreame-z30-aquacycle"
+    "url": "https://www.lbtechreviews.com/test/smart-home/dreame-z30-aquacycle",
+    "avant": 10.0,
+    "corrige": "26/11/2026",
+    "verifie": "26/11/2026"
    },
    {
     "media": "Basic Tutorials",
@@ -1613,12 +1619,6 @@
     "note10": null,
     "date": "28/09/2026",
     "url": "https://www.connect.de/testbericht/dji-romo-p2-test-3213594.html"
-   },
-   {
-    "media": "Notebookcheck",
-    "note10": null,
-    "date": "12/10/2026",
-    "url": "https://www.notebookcheck.com/DJI-hat-es-wieder-getan-Saugroboter-DJI-Romo-2-im-Test.1411937.0.html"
    }
   ]
  },
@@ -2301,12 +2301,6 @@
     "verifie": "20/11/2026"
    },
    {
-    "media": "AndroidPit",
-    "note10": 9.0,
-    "date": "28/07/2024",
-    "url": "https://www.nextpit.fr/roborock-qrevo-s-test-complet"
-   },
-   {
     "media": "AndroidWorld",
     "note10": 8.4,
     "date": "28/04/2026",
@@ -2314,36 +2308,6 @@
     "avant": 8.0,
     "corrige": "25/11/2026",
     "verifie": "25/11/2026"
-   },
-   {
-    "media": "RTings",
-    "note10": 7.0,
-    "date": "11/10/2024",
-    "url": "https://www.rtings.com/vacuum/reviews/roborock/qrevo-s",
-    "avant": 7.0,
-    "corrige": "20/11/2026",
-    "verifie": "20/11/2026"
-   },
-   {
-    "media": "RTings",
-    "note10": 6.0,
-    "date": "11/10/2024",
-    "url": "https://www.rtings.com/robot-vacuum/reviews/roborock/qrevo-s"
-   },
-   {
-    "media": "Future Zone",
-    "note10": null,
-    "date": "13/09/2024",
-    "url": "https://futurezone.at/produkte/roborock-qrevo-s-test-review-staubsaugroboter-wischen-fazit-erfahrung-staubbeutel-sauberkeit/402943609"
-   },
-   {
-    "media": "Trusted Reviews",
-    "note10": 9.0,
-    "date": "20/09/2024",
-    "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s",
-    "avant": null,
-    "corrige": "20/11/2026",
-    "verifie": "20/11/2026"
    },
    {
     "media": "PC Games Hardware",

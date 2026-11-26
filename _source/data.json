@@ -21546,17 +21546,17 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 749.0,
-     "url": "https://www.amazon.fr/dp/B0H4FFNW2Q?tag=geekconcept-21",
-     "name": "roborock Saros 20 Neo Robot Aspirateur Laveur",
+     "price": 799.0,
+     "url": "https://www.amazon.fr/dp/B0G4NC8KN7?tag=geekconcept-21",
+     "name": "roborock Saros 20 Set Robot Aspirateur Laveur",
      "cfg": "",
-     "asin": "B0H4FFNW2Q"
+     "asin": "B0G4NC8KN7"
     }
    ],
    "press": {
-    "avg": 8.645454545454545,
-    "n": 11,
-    "tests": 14,
+    "avg": 8.709999999999999,
+    "n": 10,
+    "tests": 12,
     "scope": "modele",
     "src": [
      "",
@@ -21625,15 +21625,6 @@
       "verifie": "20/11/2026"
      },
      {
-      "src": "Stuff",
-      "score": 8.0,
-      "url": "https://www.stuff.tv/review/roborock-saros-20-neo-review/",
-      "date": "2026-09-09",
-      "avant": null,
-      "corrige": "20/11/2026",
-      "verifie": "20/11/2026"
-     },
-     {
       "src": "Tech Advisor",
       "score": 8.0,
       "url": "https://www.techadvisor.com/article/3115154/roborock-saros-20-mopping-robot-vacuum-review.html",
@@ -21650,12 +21641,6 @@
       "verifie": "25/11/2026"
      },
      {
-      "src": "Connect.de",
-      "score": null,
-      "url": "https://www.connect.de/testbericht/roborock-saros-20-neo-test-3213263.html",
-      "date": "2026-09-03"
-     },
-     {
       "src": "Labo Fnac",
       "score": null,
       "url": "https://leclaireur.fnac.com/test/696299-test-roborock-saros-20-flow/",
@@ -21669,7 +21654,7 @@
      }
     ]
    },
-   "prix": 749.0,
+   "prix": 799.0,
    "img": "roborock-saros-20.webp",
    "rating": null,
    "nrev": 0,
@@ -21708,11 +21693,11 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 649.0,
-     "url": "https://www.amazon.fr/dp/B0FS16B394?tag=geekconcept-21",
-     "name": "roborock Qrevo Curv 2 Flow Robot Aspirateur Laveur",
+     "price": 549.0,
+     "url": "https://www.amazon.fr/dp/B0FFGQ7L2T?tag=geekconcept-21",
+     "name": "roborock Qrevo Curv 2 Pro Robot Aspirateur Laveur",
      "cfg": "",
-     "asin": "B0FS16B394"
+     "asin": "B0FFGQ7L2T"
     }
    ],
    "press": {
@@ -21844,7 +21829,7 @@
      }
     ]
    },
-   "prix": 649.0,
+   "prix": 549.0,
    "img": "roborock-qrevo-curv-2.webp",
    "rating": null,
    "nrev": 0,
@@ -22340,7 +22325,7 @@
     }
    ],
    "press": {
-    "avg": 8.507692307692308,
+    "avg": 8.453846153846154,
     "n": 13,
     "tests": 16,
     "scope": "modele",
@@ -22386,12 +22371,6 @@
       "verifie": "20/11/2026"
      },
      {
-      "src": "L&B Tech",
-      "score": 9.0,
-      "url": "https://www.lbtechreviews.com/test/smart-home/dreame-l40-ultra",
-      "date": "2025-07-22"
-     },
-     {
       "src": "TechRadar",
       "score": 9.0,
       "url": "https://www.techradar.com/home/robot-vacuums/dreame-l40-ultra-review",
@@ -22408,6 +22387,15 @@
       "avant": null,
       "corrige": "20/11/2026",
       "verifie": "20/11/2026"
+     },
+     {
+      "src": "L&B Tech",
+      "score": 8.3,
+      "url": "https://www.lbtechreviews.com/test/smart-home/dreame-l40-ultra",
+      "date": "2025-07-22",
+      "avant": 9.0,
+      "corrige": "26/11/2026",
+      "verifie": "26/11/2026"
      },
      {
       "src": "Chip.de",
@@ -22883,7 +22871,7 @@
    "press": {
     "avg": 8.345454545454546,
     "n": 11,
-    "tests": 19,
+    "tests": 18,
     "scope": "gamme",
     "src": [
      "",
@@ -22994,12 +22982,6 @@
       "date": "2025-11-16"
      },
      {
-      "src": "ComputerHoy",
-      "score": null,
-      "url": "https://computerhoy.20minutos.es/dispositivos/aspirador-dreame-aqua10-ultra-track-complete-ninja-mapear-mi-casa-pero-tiene-mopa-deja-rastro-alla-donde-vaya-1482481",
-      "date": "2025-09-15"
-     },
-     {
       "src": "GameStar",
       "score": null,
       "url": "https://www.gamestar.de/artikel/dreame-aqua-10-ultra-roller-complete-langzeittest,3445097.html",
@@ -23073,7 +23055,7 @@
     }
    ],
    "press": {
-    "avg": 8.129999999999999,
+    "avg": 8.0,
     "n": 10,
     "tests": 14,
     "scope": "gamme",
@@ -23130,12 +23112,6 @@
       "verifie": "20/11/2026"
      },
      {
-      "src": "L&B Tech",
-      "score": 8.0,
-      "url": "https://www.lbtechreviews.com/test/smart-home/ecovacs-deebot-x11-omnicyclone",
-      "date": "2025-10-01"
-     },
-     {
       "src": "RTings",
       "score": 7.6,
       "url": "https://www.rtings.com/robot-vacuum/reviews/ecovacs/deebot-x11-omnicyclone",
@@ -23152,6 +23128,15 @@
       "avant": 6.0,
       "corrige": "20/11/2026",
       "verifie": "20/11/2026"
+     },
+     {
+      "src": "L&B Tech",
+      "score": 6.7,
+      "url": "https://www.lbtechreviews.com/test/smart-home/ecovacs-deebot-x11-omnicyclone",
+      "date": "2025-10-01",
+      "avant": 8.0,
+      "corrige": "26/11/2026",
+      "verifie": "26/11/2026"
      },
      {
       "src": "T3",
@@ -23352,7 +23337,7 @@
     }
    ],
    "press": {
-    "avg": 9.16,
+    "avg": 8.82,
     "n": 5,
     "tests": 6,
     "scope": "gamme",
@@ -23361,12 +23346,6 @@
      ""
     ],
     "notes": [
-     {
-      "src": "L&B Tech",
-      "score": 10.0,
-      "url": "https://www.lbtechreviews.com/test/smart-home/dyson-v15-detect-absolute",
-      "date": "2022-09-01"
-     },
      {
       "src": "Les Numériques",
       "score": 10.0,
@@ -23380,6 +23359,15 @@
       "url": "https://www.stuff.tv/dyson/v15-detect/review",
       "date": "2021-06-02",
       "verifie": "20/11/2026"
+     },
+     {
+      "src": "L&B Tech",
+      "score": 8.3,
+      "url": "https://www.lbtechreviews.com/test/smart-home/dyson-v15-detect-absolute",
+      "date": "2022-09-01",
+      "avant": 10.0,
+      "corrige": "26/11/2026",
+      "verifie": "26/11/2026"
      },
      {
       "src": "HardwareZone",
@@ -23959,16 +23947,15 @@
    "offers": [
     {
      "m": "Amazon",
-     "price": 310.74,
+     "price": 254.99,
      "url": "https://www.amazon.fr/dp/B0D6ZB7CMY?tag=geekconcept-21",
      "name": "Dreame Z30 aspirateur balai sans fil 310 AW",
      "cfg": "",
-     "asin": "B0D6ZB7CMY",
-     "dispo": false
+     "asin": "B0D6ZB7CMY"
     }
    ],
    "press": {
-    "avg": 8.26,
+    "avg": 8.09,
     "n": 10,
     "tests": 13,
     "scope": "modele",
@@ -23977,12 +23964,6 @@
      ""
     ],
     "notes": [
-     {
-      "src": "L&B Tech",
-      "score": 10.0,
-      "url": "https://www.lbtechreviews.com/test/smart-home/dreame-z30-aquacycle",
-      "date": "2025-08-26"
-     },
      {
       "src": "Basic Tutorials",
       "score": 9.4,
@@ -24016,6 +23997,15 @@
       "avant": 8.0,
       "corrige": "20/11/2026",
       "verifie": "20/11/2026"
+     },
+     {
+      "src": "L&B Tech",
+      "score": 8.3,
+      "url": "https://www.lbtechreviews.com/test/smart-home/dreame-z30-aquacycle",
+      "date": "2025-08-26",
+      "avant": 10.0,
+      "corrige": "26/11/2026",
+      "verifie": "26/11/2026"
      },
      {
       "src": "Chip.de",
@@ -24075,7 +24065,7 @@
      }
     ]
    },
-   "prix": 310.74,
+   "prix": 254.99,
    "img": "dreame-z30.webp",
    "rating": null,
    "nrev": 0,
@@ -25575,7 +25565,7 @@
    "press": {
     "avg": 9.271428571428572,
     "n": 7,
-    "tests": 10,
+    "tests": 9,
     "scope": "modele",
     "src": [
      "",
@@ -25642,12 +25632,6 @@
       "score": null,
       "url": "https://www.connect.de/testbericht/dji-romo-p2-test-3213594.html",
       "date": "2026-09-28"
-     },
-     {
-      "src": "Notebookcheck",
-      "score": null,
-      "url": "https://www.notebookcheck.com/DJI-hat-es-wieder-getan-Saugroboter-DJI-Romo-2-im-Test.1411937.0.html",
-      "date": ""
      },
      {
       "src": "PC-WELT",
@@ -26650,9 +26634,9 @@
     }
    ],
    "press": {
-    "avg": 8.416666666666666,
-    "n": 6,
-    "tests": 10,
+    "avg": 8.5,
+    "n": 3,
+    "tests": 6,
     "scope": "gamme",
     "src": [
      "",
@@ -26664,21 +26648,6 @@
       "score": 9.1,
       "url": "https://basic-tutorials.de/tests/technik-gadgets/roborock-qrevo-s-pro/",
       "date": "2026-06-09",
-      "verifie": "20/11/2026"
-     },
-     {
-      "src": "AndroidPit",
-      "score": 9.0,
-      "url": "https://www.nextpit.fr/roborock-qrevo-s-test-complet",
-      "date": ""
-     },
-     {
-      "src": "Trusted Reviews",
-      "score": 9.0,
-      "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s",
-      "date": "2025-03-24",
-      "avant": null,
-      "corrige": "20/11/2026",
       "verifie": "20/11/2026"
      },
      {
@@ -26699,15 +26668,6 @@
       "verifie": "25/11/2026"
      },
      {
-      "src": "RTings",
-      "score": 7.0,
-      "url": "https://www.rtings.com/vacuum/reviews/roborock/qrevo-s",
-      "date": "2024-10-11",
-      "avant": 6.5,
-      "corrige": "20/11/2026",
-      "verifie": "20/11/2026"
-     },
-     {
       "src": "ChinaHandys",
       "score": null,
       "url": "https://www.smartzone.de/roborock-qrevo-s-pro-test/",
@@ -26718,12 +26678,6 @@
       "score": null,
       "url": "https://www.connect.de/testbericht/roborock-qrevo-s-pro-test-hartboden-heisswasser-wischroboter-3212509.html",
       "date": "2026-05-18"
-     },
-     {
-      "src": "Future Zone",
-      "score": null,
-      "url": "https://futurezone.at/produkte/roborock-qrevo-s-test-review-staubsaugroboter-wischen-fazit-erfahrung-staubbeutel-sauberkeit/402943609",
-      "date": "2024-09-13"
      },
      {
       "src": "PC Games Hardware",
@@ -26738,10 +26692,10 @@
    "rating": null,
    "nrev": 0,
    "synthese": {
-    "texte": "Une partie des tests recensés sur cette fiche porte sur le Qrevo S, le modèle précédent ; ceux qui concernent bien le Qrevo S Pro, lancé fin avril 2026, sont résumés ici. Basic Tutorials et AndroidWorld relèvent les mêmes atouts : 18 500 Pa d'aspiration, des serpillières rotatives relevées de 10 mm sur les tapis et une station qui les lave à 75 °C puis les sèche à l'air chaud à 45 °C, un équipement qu'AndroidWorld associe d'ordinaire au haut de gamme.\n\nSur sols durs, Basic Tutorials juge le nettoyage convaincant en aspiration comme en lavage, avec une navigation précise. AndroidWorld est plus mesuré sur le lavage : solide au quotidien, moins efficace sur les taches incrustées ; il note aussi l'absence de reconnaissance 3D des objets et des serpillières que le robot ne peut pas déposer à la station. Les deux tests jugent l'évitement d'obstacles dans la moyenne, et Basic Tutorials ajoute des faiblesses dans les coins et le long des bords.\n\nT3, après deux semaines dans une maison avec de jeunes enfants, souligne une installation bouclée en moins de cinq minutes, une brosse sans cheveux emmêlés et des serpillières restées propres ; la première cartographie a toutefois demandé plusieurs essais à cause d'une porte fermée et de nombreuses chaises. AndroidWorld le conseille aux foyers avec tapis ou animaux ; pour un lavage intensif, il invite à viser plus haut.",
-    "date": "2026-11-25",
-    "n": 6,
-    "tests": 10,
+    "texte": "Lancé fin avril 2026 selon T3, le Qrevo S Pro réunit des atouts que Basic Tutorials et AndroidWorld relèvent tous deux : 18 500 Pa d'aspiration, des serpillières rotatives relevées de 10 mm sur les tapis et une station qui les lave à 75 °C puis les sèche à l'air chaud à 45 °C, un équipement qu'AndroidWorld associe d'ordinaire au haut de gamme.\n\nSur sols durs, Basic Tutorials juge le nettoyage convaincant en aspiration comme en lavage, avec une navigation précise. AndroidWorld est plus mesuré sur le lavage : solide au quotidien, moins efficace sur les taches incrustées ; il note aussi l'absence de reconnaissance 3D des objets et des serpillières que le robot ne peut pas déposer à la station. Les deux tests jugent l'évitement d'obstacles dans la moyenne, et Basic Tutorials ajoute des faiblesses dans les coins et le long des bords.\n\nT3, après deux semaines dans une maison avec de jeunes enfants, souligne une installation bouclée en moins de cinq minutes, une brosse sans cheveux emmêlés et des serpillières restées propres ; la première cartographie a toutefois demandé plusieurs essais à cause d'une porte fermée et de nombreuses chaises. AndroidWorld le conseille aux foyers avec tapis ou animaux ; pour un lavage intensif, il invite à viser plus haut.",
+    "date": "2026-11-26",
+    "n": 3,
+    "tests": 6,
     "sources": [
      "Basic Tutorials",
      "AndroidWorld",
@@ -44034,7 +43988,7 @@
  },
  "dates": {
   "Acer Store": "20/11/2026",
-  "Amazon": "25/11/2026"
+  "Amazon": "26/11/2026"
  },
  "bf_actif": true
 }
