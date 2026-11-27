@@ -1,0 +1,219 @@
+[
+ {
+  "id": "dell-s2725dc",
+  "j": 0,
+  "price": 223.2
+ },
+ {
+  "id": "dell-s2725qs",
+  "j": 0,
+  "price": 273.61
+ },
+ {
+  "id": "dell-s3225qs",
+  "j": 0,
+  "price": 366.93
+ },
+ {
+  "id": "dell-u2724de",
+  "j": 0,
+  "price": 409.0
+ },
+ {
+  "id": "benq-gw2790ce",
+  "j": 0,
+  "price": 102.9
+ },
+ {
+  "id": "benq-gw2490ce",
+  "j": 0,
+  "status": "indispo"
+ },
+ {
+  "id": "lg-32un88a",
+  "j": 0,
+  "price": 552.95
+ },
+ {
+  "id": "lg-32up83a",
+  "j": 0,
+  "status": "indispo"
+ },
+ {
+  "id": "asus-pa279cv",
+  "j": 0,
+  "price": 339.9
+ },
+ {
+  "id": "aoc-q27g4zd",
+  "j": 0,
+  "price": 422.28
+ },
+ {
+  "id": "alienware-aw2725d",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "alienware-aw2726dm",
+  "j": 0,
+  "price": 388.0
+ },
+ {
+  "id": "alienware-aw2725q",
+  "j": 0,
+  "price": 639.64
+ },
+ {
+  "id": "asus-pg32ucdm",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "sony-inzone-m10s",
+  "j": 0,
+  "price": 899.0,
+  "confirme": true
+ },
+ {
+  "id": "msi-mpg-321urx",
+  "j": 0,
+  "price": 755.99
+ },
+ {
+  "id": "msi-mpg-271qr-x50",
+  "j": 0,
+  "price": 610.99
+ },
+ {
+  "id": "aoc-ag276qsg2",
+  "j": 0,
+  "price": 604.49
+ },
+ {
+  "id": "asus-pa32qcv",
+  "j": 0,
+  "price": 1195.99
+ },
+ {
+  "id": "asus-pa32ucdm",
+  "j": 0,
+  "price": 1301.05,
+  "confirme": true
+ },
+ {
+  "id": "asus-pa279cdv",
+  "j": 0,
+  "price": 757.82
+ },
+ {
+  "id": "asus-pa27ucge",
+  "j": 0,
+  "price": 678.99
+ },
+ {
+  "id": "benq-pd2732u",
+  "j": 0,
+  "price": 699.0
+ },
+ {
+  "id": "dell-u2724d",
+  "j": 0,
+  "price": 319.0
+ },
+ {
+  "id": "asus-pa278qv",
+  "j": 0,
+  "price": 257.39
+ },
+ {
+  "id": "eizo-cg2700s",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "asus-mb169ck",
+  "j": 0,
+  "price": 89.99
+ },
+ {
+  "id": "asus-mb166c",
+  "j": 0,
+  "status": "indispo"
+ },
+ {
+  "id": "asus-mb16acv",
+  "j": 0,
+  "price": 169.93
+ },
+ {
+  "id": "asus-mq149cd",
+  "j": 0,
+  "price": 589.0
+ },
+ {
+  "id": "asus-mq17qh",
+  "j": 0,
+  "price": 2399.99
+ },
+ {
+  "id": "asus-mq16fc",
+  "j": 0,
+  "price": 268.67
+ },
+ {
+  "id": "msi-pro-mp165-e6",
+  "j": 0,
+  "price": 88.99
+ },
+ {
+  "id": "acer-pd163q",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "viewsonic-va1655",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "duex-max",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "aoc-q27g4x",
+  "j": 0,
+  "price": 139.0
+ },
+ {
+  "id": "aoc-q27g4zr",
+  "j": 0,
+  "price": 246.3
+ },
+ {
+  "id": "gigabyte-gs27qca",
+  "j": 0,
+  "price": 149.95
+ },
+ {
+  "id": "dell-se2426hg",
+  "j": 0,
+  "price": 92.65
+ },
+ {
+  "id": "asus-vg279qm5a",
+  "j": 0,
+  "price": 139.99
+ },
+ {
+  "id": "lenovo-legion-27q-10",
+  "j": 0,
+  "status": "marketplace"
+ },
+ {
+  "id": "iiyama-gb2771qsu",
+  "j": 0,
+  "status": "marketplace"
+ }
+]
